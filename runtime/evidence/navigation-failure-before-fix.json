@@ -1,0 +1,70 @@
+{
+  "test_level": "真实游戏 UI 集成探针；不是完整游玩 E2E",
+  "assertions": {
+    "menu_labels_all_translated": true,
+    "menu_labels_no_overflow": true,
+    "menu_no_original_labels": true,
+    "chinese_glyphs_available": true,
+    "settings_pointer_navigation_logged": false,
+    "settings_page_opened": false,
+    "settings_visible_texts_no_overflow": true
+  },
+  "passed": false,
+  "visible_menu": [
+    {
+      "object": "BuildIdText",
+      "active": true,
+      "text": "Ver. 0.0.0 [0000]",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "退出游戏",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "设置",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "继续游戏",
+      "overflow": false
+    }
+  ],
+  "visible_settings": [
+    {
+      "object": "BuildIdText",
+      "active": true,
+      "text": "Ver. 0.0.0 [0000]",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "退出游戏",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "设置",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "继续游戏",
+      "overflow": false
+    }
+  ],
+  "limits": [
+    "未点击继续游戏，未进入存档",
+    "未验收对白和资料页面",
+    "设置页尚未全量汉化"
+  ]
+}

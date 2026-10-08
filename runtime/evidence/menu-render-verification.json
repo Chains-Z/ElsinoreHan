@@ -1,0 +1,20 @@
+{
+  "test_level": "真实游戏菜单渲染检查",
+  "screenshot": "runtime/evidence/menu-fixed.png",
+  "visible_labels": [
+    "继续游戏",
+    "设置",
+    "退出游戏"
+  ],
+  "visually_confirmed": true,
+  "missing_glyph_boxes_observed": false,
+  "clipping_observed": false,
+  "font": "ARIALUNI SDF",
+  "tmp_version": "1.4.0",
+  "font_asset_version": "1.1.0",
+  "limits": [
+    "只验收主菜单，未进入存档",
+    "未验收对白与资料",
+    "设置导航由后续后台UI集成记录验证，非本截图"
+  ]
+}
