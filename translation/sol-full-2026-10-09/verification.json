@@ -1,0 +1,28 @@
+{
+  "model": "gpt-6.1-sol",
+  "count": 16228,
+  "submitted_candidates": 16229,
+  "excluded_nontext": 1,
+  "batches": 112,
+  "id_count_order_source_hashes_and_markers_passed": true,
+  "dictionary_path": "runtime\\package\\ElsinoreHan-Sol\\BepInEx\\Translation\\zh-CN\\Text\\ElsinoreHan-Sol.txt",
+  "dictionary_sha256": "f4015d5e02d3561db448fac48ffd768234212da872491cb2ec58f05185abe3d8",
+  "dynamic_dictionary_sha256": "457177de11c7934501813297f64f4441bd58c51533d49f79de0c1a5daa73b49c",
+  "recorded_codex_usage_including_names": {
+    "input_tokens": 5667671,
+    "cached_input_tokens": 1028352,
+    "output_tokens": 594359,
+    "reasoning_output_tokens": 631
+  },
+  "english_review_notices": 1,
+  "dynamic_format_rules": 15,
+  "unique_chinese_characters": 2802,
+  "local_recorded_corrections": 1,
+  "all_outputs_match_raw_or_recorded_correction": true,
+  "limitations": [
+    "正文来自真实Sol执行，不是百炼或人工虚构输出",
+    "完整性通过不代表全分支意义和文风无误",
+    "尚未声明游戏内对白排版通过",
+    "没有观测订阅周额度的实际扣减"
+  ]
+}

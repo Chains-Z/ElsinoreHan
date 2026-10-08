@@ -1,0 +1,3534 @@
+[
+  {
+    "id": "p08894-5509a6b6a9a9",
+    "source": "(Grace met the Queen of <i>England</i>? The one who was asked to execute Hamlet?)",
+    "source_sha256": "5509a6b6a9a9f057b6f17771baa8b4b275c8c8fe336bed9c8d04bbecc295558b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1931474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_CrewConvo3",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24780,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08895-47951dffd19e",
+    "source": "What t'hell are you doin'?",
+    "source_sha256": "47951dffd19ede083cd9a39bd218ea3f531742e44a83cf599b410959d08f95bd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1931669"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_CrewConvo3",
+      "speaker": "Captain Grace",
+      "cues": "{What_Angry}",
+      "line": 24784,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08896-ad8442354f49",
+    "source": "Think I don't see yeh skulking around, eavesdropping right and left?",
+    "source_sha256": "ad8442354f49d5b60162122d6c4c36a41ec186d7f90f159b63addff0206d73d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1931723"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_CrewConvo3",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24786,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08897-3406ed0b895b",
+    "source": "If yeh want t'know about me so badly, you can come ask me yerself!",
+    "source_sha256": "3406ed0b895bd73d7c1f51898ef362a011d984ccc5c6cf53ac0e907646d589b3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1931862"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_CrewConvo3",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24787,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08898-8beb68e2ae8c",
+    "source": "About earlier—I was merely curious. Your men speak freely of you when you're not present.",
+    "source_sha256": "8beb68e2ae8c946193720c0c1392fa9d753df0418c265874097e05905467b428",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1932047"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "{Captain}",
+      "line": 24802,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08899-eea3307b6080",
+    "source": "'M sure they do, the bastards.",
+    "source_sha256": "eea3307b608004086ea7b11466aa1bf307309559db9e7e7119419e0c3e85427e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1932228"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "{Sigh_Annoyed}",
+      "line": 24804,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08900-3307d5a138a9",
+    "source": "Well, then. What have yeh learned?",
+    "source_sha256": "3307d5a138a94e5fc3c5b36d4d7e537901513df44b68314ea03fb0298cbdcbbf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1932290"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24806,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08901-e927c4bc69b2",
+    "source": "That you've lived quite a life. Married twice. And you've met the Queen of England herself.",
+    "source_sha256": "e927c4bc69b241e8ef13f2670c4191428a908bb5755daec8aa2ed1a2e9f91f31",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1932360"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 24807,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08902-07d3f48591ed",
+    "source": "I may not look like it, but I was a lady like yerself once.",
+    "source_sha256": "07d3f48591ed99acb94c81eaecabd097d63207eca88a6aa45c2a7b26aa67fcd7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1932561"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24811,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08903-a970c8d5eec1",
+    "source": "Grace O'Malley, daughter of Eoghan and Maeve O'Malley, Lady of Bunowen Castle, among others.",
+    "source_sha256": "a970c8d5eec1d0d661cf9fa27aee2fe16ce841eea54b446779061c9558a7cdc7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1932681"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "{Grace_OMalley}",
+      "line": 24812,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08904-967c80ff3a9a",
+    "source": "An' a fat lot of good it did me after <i>my</i> father died. Men swarmed in on all sides.",
+    "source_sha256": "967c80ff3a9ac9a0f08b70ee5ecdbc7652af1f7f488d77ae7267bc5393894293",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1932868"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "{Disgust}",
+      "line": 24814,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08905-c0652bdb765e",
+    "source": "They took my hand, my home, an' my body. In return they gave me children, cattle, an' several hundred headaches.",
+    "source_sha256": "c0652bdb765eb36bd760bcaa5a336c0d707207fcc6db0cb0fc5fe05e3e8de455",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1933049"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24815,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08906-f1abdc776842",
+    "source": "After marryin' my second husband, I realized there was nothin' men gave me that I couldn't give myself.",
+    "source_sha256": "f1abdc77684234b9f6571c755bf672df7402d00c67f9eba86c29c1f6950408c5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1933276"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24817,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08907-948cf818791b",
+    "source": "An' I've been gifting myself nice things ever since. Ships, stalwart crew, castles... yeh know. The simple things in life.",
+    "source_sha256": "948cf818791b461cacd40d992decce326769f01a47858368ed5629c07be97add",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1933485"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24819,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08908-b1334091d621",
+    "source": "It must be nice, having that sort of power. You go wherever you please.",
+    "source_sha256": "b1334091d621616da705621280989cd78ee2ea905e45e98f98b80ec2e9b02701",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1933732"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "[smile]",
+      "line": 24821,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08909-11066539b48e",
+    "source": "So could all women, if <i>they</i> pleased.",
+    "source_sha256": "11066539b48e23f1d5b7d1cef156f9cea272ef648b17a333d2f243c4c079582a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1933877"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "{Tch}",
+      "line": 24822,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08910-db5d486ab00d",
+    "source": "No. That kind of freedom is not available to me.",
+    "source_sha256": "db5d486ab00d00ad0f3ba6c7b64ca5b7da9e0d3f2171f79209da81c4a9f33a7e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1933965"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 24823,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08911-2d79e49bc55c",
+    "source": "It's... a long story.",
+    "source_sha256": "2d79e49bc55cd3de702c74c237f21a31bccf2fceecb0e47f7e5e16d1404527ba",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:226205"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24825,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08912-a1b8561356c8",
+    "source": "I cannot leave Elsinore. Not at the... present moment.",
+    "source_sha256": "a1b8561356c887cdcfc25e0b4c5ae60928698084b6cbd865987889b11c618b80",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1934063"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24826,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08913-a51b0b4f27c1",
+    "source": "But yeh've already left. Look around you, lass. I don't see yer castle nowhere.",
+    "source_sha256": "a51b0b4f27c1ab5833e23e13d03e0b9ec2985d651da4eeeabd3a6baa26885bbe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1934173"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24827,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08914-e569bc7c2fff",
+    "source": "We have different definitions of the term 'present'.",
+    "source_sha256": "e569bc7c2fffca4fb2c8c406bff734d5c3db14bb94d07fe4be55683ec5cb2e40",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1934334"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24828,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08915-7781129a7e01",
+    "source": "You're a strange little woman. I can see why the prince is so taken with yeh.",
+    "source_sha256": "7781129a7e01bfda49bbd797671853e1792da2d7f0ed12bb623662f6093bd60c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1934440"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "{Hmm_Coy}",
+      "line": 24829,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08916-e9be5ded59b2",
+    "source": "You mentioned their plans t'rise up against me and mutiny. I can't say I blame them. But...",
+    "source_sha256": "e9be5ded59b2ec3ce1f79ee2be8633970f39d147eb254079bebba6e247749091",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1934597"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24831,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08917-afe02c898493",
+    "source": "Soon this ship will meet up with my regular fleet, an' we'll sort through what to do with you an' where you'd like to go.",
+    "source_sha256": "afe02c8984932637acd4e4d34cf999a31de38a7ca933613f15a597760b6c0ad9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1934782"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24833,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08918-9338391da29c",
+    "source": "Until such a time comes to pass, how about I teach yeh a thing or two about what it means to stand on yer own two feet?",
+    "source_sha256": "9338391da29c40e7cd646629286bfb74f2ba36180a57d8ae9b2e401610f20b2f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935027"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24835,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08919-df9946c9814c",
+    "source": "I can stand on my own just fine, thank you.",
+    "source_sha256": "df9946c9814c78d1b1691c22e7a224f8b35ecb5b659faeb75dba341dc52265dc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935268"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Disgust}",
+      "line": 24836,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08920-a9d7efc7bce0",
+    "source": "What was that for?",
+    "source_sha256": "a9d7efc7bce0f114a065676b1d8fd3c1ee8dbc824e4f193154e3d24be9aa4c51",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935356"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 24844,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08921-c6151eba09f5",
+    "source": "You don' really stand alone, my lady. Yer stance is weighted all wrong.",
+    "source_sha256": "c6151eba09f5f4dfa6a378056a1a093530f0b8cb21dc1ef6c069d78819f37cd1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935394"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "{Ahh_Mocking}",
+      "line": 24845,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08922-eaac48880d02",
+    "source": "Heavy towards the back, like yer afraid anyone yer talkin' to might kill you.",
+    "source_sha256": "eaac48880d025dffc48350acf0ed6c450bcabcb328f7bc14ee51fe832b696f78",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935539"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24847,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08923-ce65dfad0c16",
+    "source": "(Well, given the circumstances...)",
+    "source_sha256": "ce65dfad0c164869932fbf0c14706a677958427b0d497e67b4c9b455017927e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935696"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "{Hmm_Annoyed}",
+      "line": 24848,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08924-0f3ddd31568a",
+    "source": "Well, well! I'm almost impressed.",
+    "source_sha256": "0f3ddd31568ae769fccc22ac86140bf36ce08b11c53a30da1e4394d61d8e66cb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935766"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "[happy] {Well_Well}",
+      "line": 24857,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08925-a4c53160db15",
+    "source": "But bein' able to stay on yer feet will only get yeh so far.",
+    "source_sha256": "a4c53160db15aeaf1cbba7c48806486dcb06c9639d38cf48dbe7321ce1a0133e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935834"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24860,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08926-73eea870f5f9",
+    "source": "So what? You intend to teach me how to fight?",
+    "source_sha256": "73eea870f5f96b8c9763a1af0bac217c53fff115d3f4a2c101d6e68a0868562d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1935956"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24862,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08927-e45094f2794f",
+    "source": "It's a day or two o' sailing to Ireland. You think I can teach anyone t'fight that quickly?",
+    "source_sha256": "e45094f2794f52f6ab6cd6f81396feee059af1ecbc707d8240a5363f19f1279c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936048"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "[happy] {Chuckle_Scorn}",
+      "line": 24864,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08928-a8351b092509",
+    "source": "Seven hells, no!",
+    "source_sha256": "a8351b092509ac36dc2f2d5a37cbb92dd37141e1dc645d130ea4ad9282d6a88e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936233"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "[happy]",
+      "line": 24865,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08929-fed3cfce67f5",
+    "source": "Best I can do is teach yeh how to hold a dagger. Let's start there, shall we?",
+    "source_sha256": "fed3cfce67f55e25005a749a2556d534538abad1e484e1eca2e00b6eb434a0a8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936267"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "[happy]",
+      "line": 24866,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08930-675a9bea5d38",
+    "source": "Meet me abovedecks.",
+    "source_sha256": "675a9bea5d382f68d316464d2411fa460173498d7c724bc728d65a4c823b1b41",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936424"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "[happy]",
+      "line": 24868,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08931-9baa76edffa4",
+    "source": "Ophelia. A word wiv' yeh, if I may?",
+    "source_sha256": "9baa76edffa48dcfd4f0c9596da8749851346cb780f352898264914230953897",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936464"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "{Ophelia_Warm}",
+      "line": 24875,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08932-cfdc984d60d0",
+    "source": "What just happened... it could've been far bloodier. But thanks t'you, it wasn't.",
+    "source_sha256": "cfdc984d60d0a4b4ca442738d5249b4446577810bbe1e006e48d2e0c8589af02",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936536"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24878,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08933-603a5ec7100a",
+    "source": "If there's one thing I've learned, it's that unnecessary death always comes t'bite me eventually.",
+    "source_sha256": "603a5ec7100a79570cdc8a6205b69f059306716464dfcf906d0abfcd48c9ee88",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936701"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24879,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08934-35e117a6c868",
+    "source": "You may've saved me from all-out war with yer country.",
+    "source_sha256": "35e117a6c868334264638101dadb4107f17d3ef83f8cb1aa36cb9f6de1dff278",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1936898"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24880,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08935-531d7af32ab5",
+    "source": "My pleasure. Consider it all in a day's work.",
+    "source_sha256": "531d7af32ab51752d5e286f00cca21851b516ef56b5f3dc2c0367c31025c47cb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937008"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24881,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08936-9737285d4e93",
+    "source": "Few have had my back in this life like that. An' the ones that have are on this ship with me.",
+    "source_sha256": "9737285d4e93abaed7fab20eeb9b2cbd578a5a9a978b041650133f96561cd194",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937100"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "{Hmm}",
+      "line": 24882,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08937-0c1b11bb5383",
+    "source": "When I find 'em, I like to treat 'em well and never let 'em go.",
+    "source_sha256": "0c1b11bb5383ee3eaa919f6992b6ff71ead112907bc514dd3d0000e1200c596e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937289"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24883,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08938-c5a4def45e0b",
+    "source": "I believe you're such a woman.",
+    "source_sha256": "c5a4def45e0bad5a16f7cd0ac82dc20f9db1c9597efccf5663ff42729fb10bd4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937417"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24884,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08939-5ac83accc278",
+    "source": "Are you... is this... an invitation to join your crew?",
+    "source_sha256": "5ac83accc2780191d9d01c8fe7c721c3b712d725770d8920952ef1c8ec28fb32",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937479"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24885,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08940-0120621a8f79",
+    "source": "Aye. But you'd never be able to return to Elsinore.",
+    "source_sha256": "0120621a8f79c786cd5e74b728b0aa544782d2b74c09195625ccc1bec9da8ab1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937589"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24887,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08941-cbc0a3ef862c",
+    "source": "The life you had—that'll be gone. You'll need to change your name, your hair, your clothes.",
+    "source_sha256": "cbc0a3ef862cf7edd739774223bbb1c8bd1f3ca3f605ec2c729e2d1218807084",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937693"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24888,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08942-04309c9dcb90",
+    "source": "Do you want to join us?",
+    "source_sha256": "04309c9dcb90ff76f12460aad066a3f356d5d380f3af4aeacb5bf33f03f3d636",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937878"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "{Now_Then}",
+      "line": 24890,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08943-a2ec88b192e9",
+    "source": "Join Grace's Crew?",
+    "source_sha256": "a2ec88b192e948ba58a4cc90b090691e82e7bfdccd4bf544152c3a685bc99be9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1937980"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08944-5c8942ba21ee",
+    "source": "Consider me your newest recruit.",
+    "source_sha256": "5c8942ba21eee459a8942e2a411b8844ddf3661215e42a5a30bed58c934cf403",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938018"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Ophelia",
+      "cues": "[happy]",
+      "line": 24896,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08945-f5596e1bd08b",
+    "source": "Excellent. Then... <i>crewmate</i> Ophelia...",
+    "source_sha256": "f5596e1bd08b1461033c4dc68bd2021a43fcf69667f498bf86961c2f3823340a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938084"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "{Chuckle}",
+      "line": 24897,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08946-bd91927cd6ed",
+    "source": "Yer first order of business is to get rid of that lavender dress. Burn it if yeh have to!",
+    "source_sha256": "bd91927cd6ed65b1f9ee1124978ff9142cd9e6798a284ec7a39205d49a2872fa",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938176"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24898,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08947-7d4dcf87e719",
+    "source": "Gladly, Captain Grace.",
+    "source_sha256": "7d4dcf87e719a187f66ff33915cef194e7cdc0b1f6814be91ec999fb98747ab3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938357"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Ophelia",
+      "cues": "[happy]",
+      "line": 24899,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08948-d475e67a664f",
+    "source": "My place is back with my family in Elsinore.",
+    "source_sha256": "d475e67a664f45b28f1d6b7761e6b27488948e40f550547f44a2a6457c94ce90",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938403"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24904,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08949-5e3f840a296c",
+    "source": "Thought you less bland than all that, but if that's yer choice, that's yer choice.",
+    "source_sha256": "5e3f840a296c9a1eda36bcd3f2e827447c76d43376e6c42accad255836c34198",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938493"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "{Tch}",
+      "line": 24905,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08950-eefce2c39488",
+    "source": "Get going then! And try not to regret it too much.",
+    "source_sha256": "eefce2c39488ad903877168fb9deb0351e9189b3a52fec98e6c35070549a5a92",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938660"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 24906,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08951-22abbc6c0941",
+    "source": "(If I do, I can always come back again.)",
+    "source_sha256": "22abbc6c0941ec9fce675b2603ae92039b48631ce1c3c2ede8c97e5417ff730a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938762"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_PostMutinyNoDeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24907,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08952-230711cc842a",
+    "source": "...So the others have gone. And I remain.",
+    "source_sha256": "230711cc842a1d7a586c02e72f1ed048b275c3d6f3de285b24a2c2cfbcedf48a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938844"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Ophelia",
+      "cues": "{Sigh_Wistful}",
+      "line": 24917,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08953-c4b200d243b6",
+    "source": "Murphy, set our bow towards Ireland. We're heading t'Castle Rockfleet for supplies and ships.",
+    "source_sha256": "c4b200d243b6ff8fe95e768c21c7c03f78e15be866847b78d01d45ebc9a3b9a1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1938928"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Captain Grace",
+      "cues": "{Murphy}",
+      "line": 24935,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08954-12fd4d59b523",
+    "source": "And after that—the wide an' wind-tossed summer sea!",
+    "source_sha256": "12fd4d59b5236418edbb3963cc44543184bbb8714bebc5da2c101ece56a34892",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1939117"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Captain Grace",
+      "cues": "{Onward}",
+      "line": 24937,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08955-90382110cfbd",
+    "source": "Ophelia, meet the crew. Crew, meet Ophelia. She's divested herself of 'er genteel trappings, much like yours truly.",
+    "source_sha256": "90382110cfbdc69fb405b4a8cb71b9e7c27f15e6f030faee69c9068276268952",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1939221"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Captain Grace",
+      "cues": "[happy]",
+      "line": 24943,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08956-16a3f36db3d2",
+    "source": "Hello, everyone.",
+    "source_sha256": "16a3f36db3d24018bde7c4ce5d502f41fa4fc41ab46e628a74888ca2f49a8f7e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1939454"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Ophelia",
+      "cues": "[smile] {Hello_Awkward}",
+      "line": 24946,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08957-4dea91b53d81",
+    "source": "Er, you all right, lass? Lookin' a bit pale there.",
+    "source_sha256": "4dea91b53d814f2f968e7304e99c28b0afed32766148fdf6157c10567cf0c678",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1939488"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Captain Grace",
+      "cues": "[surprise] {Gasp}",
+      "line": 24951,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08958-60f4d7c0dd20",
+    "source": "(I can return here—if I need to.)",
+    "source_sha256": "60f4d7c0dd20673eebc902d87572ac9264849de85c8820caa7d1c9f05d09338b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1944796"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 24958,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08959-549df091ff10",
+    "source": "The sound of the waves fades softly as I'm pulled through time.",
+    "source_sha256": "549df091ff10fd60bb8612e87b443893978ee900fc002c242c93047a7d9ed8f8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1944864"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08960-efe1551eb3b3",
+    "source": "Farewell, Grace.",
+    "source_sha256": "efe1551eb3b3287f1c77707800438abbfb90fcd114681930d2ee6c5c75490657",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1944992"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Farewell_Sad_Extra}",
+      "line": 24964,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08961-1aa6e8ef98e5",
+    "source": "See you in another life, perhaps.",
+    "source_sha256": "1aa6e8ef98e5a2ab9201ac7a4a9fed340acc758ef65b693b0a41c1bc4a2938bd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945026"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 24966,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08962-5199c5a09c97",
+    "source": "This can't truly be happening, can it?",
+    "source_sha256": "5199c5a09c979350d365e7d40d8f726d86e3b30a786673fa6fa92cb206e96cd0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911107"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Sigh}",
+      "line": 24978,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08963-2b76f6ffd0e3",
+    "source": "I can hardly believe it.",
+    "source_sha256": "2b76f6ffd0e30220584daf346ae988519353bad1297d8aab64eb8c0da72e1e1b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911185"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 24981,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08964-67e7c540615f",
+    "source": "What do I do now, Guilda?",
+    "source_sha256": "67e7c540615fc7c0bbca9139a50cc074c143b3274157b7e56ff0f099a2dcfdfe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911235"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 24984,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08965-246545ab34cd",
+    "source": "For the first time, I don't know.",
+    "source_sha256": "246545ab34cd6e1887d2a745888cc8eaa334a3f9058e49bd18bc3f739c345250",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911287"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 24985,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08966-d721cf74fe26",
+    "source": "I'm sorry, Rosencrantz.",
+    "source_sha256": "d721cf74fe261707614bba7c5c8cdb860fd9afc6e3cc775a49ddd4c75ab8cefc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911355"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Rosencrantz_Sad}",
+      "line": 24988,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08967-65ead3a5d125",
+    "source": "Oh. Hamlet.",
+    "source_sha256": "65ead3a5d12552ef3161ff14ccabee6f940e9edbc30e112f9767f5f2a1bae40d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911403"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 24990,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08968-9c481c026806",
+    "source": "I heard about Guildenstern. I came to find you.",
+    "source_sha256": "9c481c02680619e75ea79f5dfae502af590c606c6add56ed238a7232b5e37c1e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911427"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 24992,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08969-74480441a37f",
+    "source": "I came as soon as I received your word. I'm still stunned. I could scarcely believe it.",
+    "source_sha256": "74480441a37fbd64b76f229f69922d95bcc4b77ceb943bca8f029b93b23791ed",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911523"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 24994,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08970-f40d0d6608ee",
+    "source": "Guilda, I—I know it's too late, but I—want to apologize.",
+    "source_sha256": "f40d0d6608eee2a53220f935095e475737ab688b1ba961a3d1273766613e64fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911700"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Guilda_Sad}",
+      "line": 24998,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08971-4e6bf3939148",
+    "source": "I was so cruel to you. And needlessly, at that.",
+    "source_sha256": "4e6bf39391482bca1610bbab2286753ae1d09460cb50b71e76ce6becb966521d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911814"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 24999,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08972-13a5741ddb26",
+    "source": "All you ever wanted was to bring some cheer to this ugly, worthless world.",
+    "source_sha256": "13a5741ddb263c3b2432436309abb8bbdaa8832d3b422bdeb2bef4dd9b3644e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:911910"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 25001,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08973-a022a75d0c12",
+    "source": "There are few who would do such a thing. You were a rare soul.",
+    "source_sha256": "a022a75d0c1281c7585dd79c675e5a552078c54d66998ac7cc3c80b4fc9839c5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912061"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 25002,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08974-797d98f42e9f",
+    "source": "And I should never have discouraged you.",
+    "source_sha256": "797d98f42e9f744197cd3f69bc9b700170db1cb063fce5c1dfd100558f5e8e99",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912187"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Crying}",
+      "line": 25004,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08975-f0ca1c36a249",
+    "source": "I'd stop you at every turn, shout you down...",
+    "source_sha256": "f0ca1c36a24913a354d83041a733b6d23eaad5dd32507b266b3e0f1724e8ff27",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912269"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 25005,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08976-31705e4be619",
+    "source": "No. What am I saying? She can't hear me. It's pointless.",
+    "source_sha256": "31705e4be619238598b504985458cff09544aa76b83751dd1feb9147207dda51",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912361"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust]",
+      "line": 25006,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08977-2c37a3b4abd7",
+    "source": "I wish I'd said it before.",
+    "source_sha256": "2c37a3b4abd7aa8a84964dd7b808bdc81c695dbbee67727c340abfcdffaaba72",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912475"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 25008,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08978-f7aa3ca6bba3",
+    "source": "You know she would've forgiven you.",
+    "source_sha256": "f7aa3ca6bba3c49a3bdbe898a9cb02c3c028aeb013b5277b4a1951424e04170c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912529"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Stop_Sad}",
+      "line": 25011,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08979-39a76ebd074d",
+    "source": "She always knew you loved her regardless.",
+    "source_sha256": "39a76ebd074d9ce9658e8e7bba4eeddd1b01861ab9acd3c65452b935adf6dad5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912601"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 25012,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08980-07f56030d30f",
+    "source": "I know you're right, Hamlet. And I was lucky.",
+    "source_sha256": "07f56030d30fc3af570f9f9507728f3491d905492142dc5c32f147519805d727",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912685"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 25014,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08981-79b8c04079fc",
+    "source": "I long thought myself fortunate to have two great friends in this world.",
+    "source_sha256": "79b8c04079fc163d74be222f49fe14a97b0d32b6b99dedfa3452109e197e6dd0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912777"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {So_Long_Friend}",
+      "line": 25020,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08982-f0605b71dfb7",
+    "source": "How times change.",
+    "source_sha256": "f0605b71dfb7546b26565b4ff0d3317334d671323f5da6f5361bfb06bd7b57ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912924"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 25022,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08983-91b8e4446a76",
+    "source": "Surprise! I'm not dead, everyone!",
+    "source_sha256": "91b8e4446a768fc6cf09efb0d636441488b34459fb26e83876c2f11a53a2ae9f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:912992"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Hah}",
+      "line": 25031,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08984-edf0a873344d",
+    "source": "Wait... where is everyone?",
+    "source_sha256": "edf0a873344d5d24f530f92f7fea6c7fc0738bfd2c909be2f3532c24ec5d60f7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913060"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Stunned}",
+      "line": 25039,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08985-a426657ca4a9",
+    "source": "Did no one come? <i>Really?</i>",
+    "source_sha256": "a426657ca4a97dfc654e02024bdf4054589ad8f0b9a80392173917c2bf2a8fe2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913146"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust]",
+      "line": 25042,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08986-e6fd5f58cd80",
+    "source": "...Not even <i>one</i> pity attendee?",
+    "source_sha256": "e6fd5f58cd80c2b00f285701cae6652961611b77d5458245ebcc0428a57766ff",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913210"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust]",
+      "line": 25044,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08987-298ddaccbdef",
+    "source": "More spirits!",
+    "source_sha256": "298ddaccbdef29ef100d80aabf8f4170da51ae5fd8db8addf0c0dbee6587f888",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913312"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[unhinged]",
+      "line": 25048,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08988-d8fa0a9b3b3c",
+    "source": "C-could it really be a ghost? No.",
+    "source_sha256": "d8fa0a9b3b3c1c00ad1c3e9e18ccf6381579bc3885947a416f4e691b588ec0fa",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913340"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {What_Stammer}",
+      "line": 25051,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08989-26ab50f4449e",
+    "source": "No. <i>This</i> one's flesh and blood.",
+    "source_sha256": "26ab50f4449e6d5f55bdafcf49b20b071fc2812180f83f835d32254b8dbbfe4d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913408"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust]",
+      "line": 25054,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08990-0642f1ce66ab",
+    "source": "I can't believe <i>no one</i> came to my funeral. I don't understand!",
+    "source_sha256": "0642f1ce66ab5cdf116c259213531a3f454ecf07e476b1b80352b0e67ad3eaef",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913486"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Offended}",
+      "line": 25057,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08991-737d8a89ad43",
+    "source": "This was... a prank?",
+    "source_sha256": "737d8a89ad43a8c0f9d13b16f33195f6e040dcca4a0d61f9213e90b115532c05",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913627"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[angry] {Disgust}",
+      "line": 25061,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08992-96553be5329e",
+    "source": "Guilda, I'm going to <i>strangle</i> you.",
+    "source_sha256": "96553be5329efbbccbbc032c4c30300314aff699114c9ac4df44b002148aa2a3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913669"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust] {Disgust}",
+      "line": 25067,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08993-291080373f57",
+    "source": "How dare you—",
+    "source_sha256": "291080373f5724e9fb9b7c791e9d9e99a8991498d273aac993fca1c6891487e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913753"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust] {Rage}",
+      "line": 25070,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08994-17f554efbd55",
+    "source": "You're an idiot.",
+    "source_sha256": "17f554efbd5575e5439b8107d250d1e5de0404bac84ae9a390a3869f13dd9bec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913781"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 25074,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08995-803d664f3047",
+    "source": "How dare you be cruel like that? Ugh. I'm leaving.",
+    "source_sha256": "803d664f3047eb6fb782d84b86cc78cfa2e45c253add2b9638ed044f140a1761",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913815"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Goodbye_Angry}",
+      "line": 25076,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08996-14101c53a3e1",
+    "source": "Rosie! Wait!",
+    "source_sha256": "14101c53a3e122e256366b3036c2c6891594ddb27f8d6a5d5e6dc05ac67c1622",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913917"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Rosie_Scared}",
+      "line": 25082,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08997-9ef499299fab",
+    "source": "Now you've <i>really</i> made a fool of yourself, Guildenstern.",
+    "source_sha256": "9ef499299fab7f4f11737ccf385d775880e66d82e9ac14bb33263d26303a41f7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:913943"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 25084,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08998-06ae7408f924",
+    "source": "This is definitely the worst funeral I've ever had.",
+    "source_sha256": "06ae7408f92431b76f8140727e96d2916e467e19fdc37315835e050eb61a7c1a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:914071"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad] {Dissapointed}",
+      "line": 25091,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p08999-6dbff98fb626",
+    "source": "Well. I suppose I really don't matter in the scheme of things, after all.",
+    "source_sha256": "6dbff98fb626234a94f43493acef72f869cdefb03dd374bdb1fb7ff26efa49af",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:914175"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad]",
+      "line": 25092,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09000-7c8ed6e016ba",
+    "source": "Just a tragic side character in the play of life!",
+    "source_sha256": "7c8ed6e016ba3435e16580664f3760f1c93d0150755d5f0946df70353a01b5b5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:914324"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad]",
+      "line": 25096,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09001-6e89e28a5f32",
+    "source": "A poor player who struts and frets her hour upon the stage... and then fakes her funeral, and <i>then</i> is heard no more.",
+    "source_sha256": "6e89e28a5f326fd45a49a67bfdc8f10b9f03fb639530c624c6e7357ae05c9d7a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:914424"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad] {Sigh_Sad}",
+      "line": 25097,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09002-f4633914d4ad",
+    "source": "But Guilda--pranks aside, your funeral was attended by those who truly love you. Isn't that enough?",
+    "source_sha256": "f4633914d4addf3ea8920eab195b14b4464388f73128bfd623f02753f8106341",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Guilda}",
+      "line": 25103,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09003-0d517c1b1660",
+    "source": "<i>Love</i> me? Love is overrated. I want fame! I want entire harems full of fanatic admirers!",
+    "source_sha256": "0d517c1b166012f589f271f2ea80d577efe6e99df21491dadb34f8d9c07157ce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:914872"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust] {Disgust}",
+      "line": 25105,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09004-305ddd1474b1",
+    "source": "I want a monument with my name on it! First <i>and</i> last. 'Lady Gu—'... Wait a minute. What <i>is</i> my first name?",
+    "source_sha256": "305ddd1474b18aa96ace57c0758bc4ea37138e36c118e7dc60c295e4e83302f2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:915063"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust]",
+      "line": 25106,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09005-f69e86bf6dbe",
+    "source": "Oh, my God. Ophelia, what is my full name? <i>That's</i> how little I matter in the cosmic plan! I don't even have a first name!",
+    "source_sha256": "f69e86bf6dbe7ca38f1414d0526bc131a59459a582a49c2764b3041deb2ca871",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:915304"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Gasp}",
+      "line": 25108,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09006-13b9f94366b4",
+    "source": "Is anything real anymore?!",
+    "source_sha256": "13b9f94366b4237f294c63ac7ab266731b32ea401efa74ac788e994158224f65",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:915563"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise]",
+      "line": 25110,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09007-414b8ee4c55a",
+    "source": "Er. You might be overthinking this a <i>small</i> amount, Guilda.",
+    "source_sha256": "414b8ee4c55adbc0b41f222d22b496d5dcabce910d6203fe0c3ab35d6e3f1c8d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:915617"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Ehh_Short}",
+      "line": 25112,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09008-0db0f9132ba9",
+    "source": "Phew. You're right. I just need to relax. See, this is why I keep you around.",
+    "source_sha256": "0db0f9132ba90735efb8bd3fc1f6c712ba57f8579a2085b617158493d81b6ab3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:915750"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise]",
+      "line": 25114,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09009-d4307c4daa5c",
+    "source": "Hmm. You know...",
+    "source_sha256": "d4307c4daa5ccc054856413699eadd2843be22d55acb1da7eafe6322c596980c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:915907"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "{Hmm}",
+      "line": 25116,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09010-8ad8197aedc4",
+    "source": "Perhaps this is a blessing in disguise. I think we should do something to celebrate!",
+    "source_sha256": "8ad8197aedc4c0abfb19f912c74322fbf64c116e89b0a751c879e00a7ac9f082",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:915941"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25118,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09011-39650d383499",
+    "source": "Yes... how about a party to celebrate my total uselessness to the world?",
+    "source_sha256": "39650d38349971b714f8e46e28a384c3c3fb5971043b601860e916a14c89715c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916112"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Yes_Excited}",
+      "line": 25122,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09012-ab74fe0e206d",
+    "source": "The opposite of a funeral! A tribute to nothing important, and those who fall under that label!",
+    "source_sha256": "ab74fe0e206d99431d433e93725443ce678106a81a721b12c0bd8ef8a1f87ba1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916259"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25123,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09013-941439a7be19",
+    "source": "I'll plan it. We'll have it... er... in the woods. Of course.",
+    "source_sha256": "941439a7be19cbb0c12a9e2b660a603175ec5788998eb9cad1f54eacd7d66c8d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916452"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25124,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09014-7a19758cbe63",
+    "source": "<i>All</i> good liquor-fueled binges start in the woods somewhere.",
+    "source_sha256": "7a19758cbe63b10fca37444a5f7684475e6742f4fbe50da0573b1cd5080cf4c3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916576"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25125,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09015-c118b751047f",
+    "source": "And you're invited, Ophelia! Who's less important than you, after all?",
+    "source_sha256": "c118b751047ff29acdbb7dfd0ea537e283a4cc0580ae254a750a4ef31246aa55",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916711"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25127,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09016-6c568df110ef",
+    "source": "I resent that.",
+    "source_sha256": "6c568df110efe5d976a486ee962685efcb14a4b60b3129fae5b12a56d4675548",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916854"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Sigh}",
+      "line": 25129,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09017-cc6fc0f1a51a",
+    "source": "Ooh, bit touchy, are we?",
+    "source_sha256": "cc6fc0f1a51a90b6a94595c1f5dd11f800f91f477f0ad8c343ca367c9bf97430",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916884"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Giggle_Shy}",
+      "line": 25132,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09018-8a7b5361bee9",
+    "source": "Once we've all recognized our own worldly unimportance—well—acknowledging the problem is the first step in fixing it!",
+    "source_sha256": "8a7b5361bee92343a04b942be7a27b03b53f5e072e6b309051d86d85076349a6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:916934"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25133,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09019-65c89fab8127",
+    "source": "Welcome, one and all, to the gathering of those who are utterly unimportant!",
+    "source_sha256": "65c89fab81277719b90bd16ea4f9233301d30aaf37f5caad956d7939a42ea0ac",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945094"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "{Bad_Joke}",
+      "line": 25155,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09020-bac0046b02be",
+    "source": "I'm still peeved at you for your little prank earlier, but I can't resist a good gala.",
+    "source_sha256": "bac0046b02be3fe04e9f8b604c7fdb755c7e520dbba23fe87cda5743cb1434df",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945249"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust] {Hmm_Think}",
+      "line": 25157,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09021-167b9ca42971",
+    "source": "I'd like to raise a mug in tribute... to us!",
+    "source_sha256": "167b9ca42971dc00e8c5ba44c23dadff09991d0587eb410f66265a4243841cf4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945424"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25159,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09022-2bc4cc191692",
+    "source": "'Unimportant'? Can you please clarify for our benefit, Guilda?",
+    "source_sha256": "2bc4cc191692836c884d437c2f38e02708a8e69296c76ef4d0edd8b8dcf6ca87",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945514"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 25162,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09023-31e42873921a",
+    "source": "Yes, <i>do.</i>",
+    "source_sha256": "31e42873921a7737b41efd3935e69d73a4a0a4740ce083437365b3a2ec4a208b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945640"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Irma",
+      "cues": "{Yes_Angry}",
+      "line": 25164,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09024-42d644889e53",
+    "source": "Well, of course, none of you are all <i>that</i> crucial to life here at Elsinore.",
+    "source_sha256": "42d644889e535437e391c276e1cb17bf51c3aa2b89c7a1eb656e7ce2dfe06ee6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945672"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25167,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09025-05b3bd03b541",
+    "source": "A bitter drop to swallow, but... well, I've swallowed mine already.",
+    "source_sha256": "05b3bd03b541e579587d29ae5e93e4c4360d40de6e0824f5c22ea5a967562613",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945839"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25169,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09026-72df64b04cd2",
+    "source": "I thought we ought to celebrate ourselves, for once. And drink to our own health, because no one else will!",
+    "source_sha256": "72df64b04cd2522c6b0493bee6e48765dcd0b906824e89e6fe46ddbebfaf6c92",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1945976"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25170,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09027-bf8dd1ccadf3",
+    "source": "Nonsense! I've served m'lord's house faithfully since I was just a lad. I'm the most useful man in 'is retinue!",
+    "source_sha256": "bf8dd1ccadf3e7af532908a7a6f54cbbbbf57e8e4f8ad286c60d194490eaaaad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1946193"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Marcellus",
+      "cues": "[disgust] {Disgust}",
+      "line": 25172,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09028-f07334925a0c",
+    "source": "Hrmph. If yer lord finds you so <i>useful</i>, why does he ask you to guard the bedchambers and empty walls?",
+    "source_sha256": "f07334925a0c6a3b4032fa52cb7fd298f656708a8d2077ba8a5dad348d382fe9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1946418"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Irma",
+      "cues": "[disgust] {Hmph}",
+      "line": 25176,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09029-0dc3700872fe",
+    "source": "Because... w-well...",
+    "source_sha256": "0dc3700872fed7dcb55d102f4a2abf39d30c0a414228bcdd0588bd278c4dad45",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1946637"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Awkward}",
+      "line": 25178,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09030-0ae3db764000",
+    "source": "Don't answer it! Just think about it.",
+    "source_sha256": "0ae3db764000693a2143cc20536dc62b9bcef22008182759ed0be33b22b7e4b0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1946681"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Irma",
+      "cues": "[disgust]",
+      "line": 25181,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09031-f02b84e09888",
+    "source": "And drink.",
+    "source_sha256": "f02b84e09888ee3ccb496e0b9b72e9a4ee4e7a8d4a309d4d987e737ef1e86502",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1946757"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Irma",
+      "cues": "[disgust]",
+      "line": 25183,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09032-006adf276c3b",
+    "source": "Oh, an' I expect <i>you</i> think yer so important to th'Queen?",
+    "source_sha256": "006adf276c3b5b32b898b3cba50a1e1d1d56a312f4f50e575db601cc4aaabda8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1946779"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Marcellus",
+      "cues": "",
+      "line": 25186,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09033-d422e089e5ae",
+    "source": "I'm an old woman. I've no time to debate my own importance to the world. Death is coming soon. For both of us.",
+    "source_sha256": "d422e089e5ae9f522cf1f91c071b4ef3ec89b8b8ebcb3ecea312dfb170cad79a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1946907"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Irma",
+      "cues": "[disgust] {Feh}",
+      "line": 25190,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09034-362db4afaf05",
+    "source": "Well, <i>that's</i> horribly morbid. Lady, I like your style.",
+    "source_sha256": "362db4afaf056358b9c0534b5478b231b014cdc8a12390f0d689165f3dfa7454",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1947130"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Sigh_Happy}",
+      "line": 25192,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09035-d99b906cd95f",
+    "source": "And what of you, Playmaster? Are yeh gonna sit around an' let a bunch of girls call yeh useless?",
+    "source_sha256": "d99b906cd95f13866f6110e8c098cf8abb320224bfc283315b4dba9f31c0683d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1947254"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Marcellus",
+      "cues": "[disgust] {Hmm}",
+      "line": 25195,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09036-fd85d11e8186",
+    "source": "Ah, my good Marcellus, how kind of you to call upon me.",
+    "source_sha256": "fd85d11e818620f995151c059d6b08766d406928de52b76986a60368b2424498",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1947449"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Quince",
+      "cues": "[happy] {Ahh_Tease}",
+      "line": 25197,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09037-7d1fd7068b9b",
+    "source": "As a master of the stage, my position is behind the curtains, out of sight and mind.",
+    "source_sha256": "7d1fd7068b9b95b3f21d88b4ccc518d48be9f4dcc80233b1ea3a5bd202d9b639",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1947561"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 25198,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09038-d25364064cc9",
+    "source": "Therefore, I have little interest in this debate.",
+    "source_sha256": "d25364064cc98fdea0c2a4dc418d14ee32a5623b896c4d482c3c602b2e7ba766",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1947732"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 25200,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09039-911dd99e942c",
+    "source": "Guilda, I'm ever so slightly concerned about your mental state at the moment.",
+    "source_sha256": "911dd99e942caa38e744a842882115fa5366517ea8cefcf5e7c3bfed5ff41b88",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1947832"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Guilda_Question}",
+      "line": 25206,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09040-41a88204c32e",
+    "source": "A toast to celebrate how useless we are? Isn't that odd?",
+    "source_sha256": "41a88204c32e03bccb365631dcf6d7f2fe0498783431fc7047b45aa28edde1e2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1947989"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 25207,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09041-b5d494fffbf7",
+    "source": "Hee hee hee... not at all!",
+    "source_sha256": "b5d494fffbf781d908819195f69565a3827f635166764f9df5cb9b73e7995051",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1948103"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Chuckle}",
+      "line": 25213,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09042-3c9784db04ad",
+    "source": "You see, when I realized nobody had come to my funeral... I was crushed, at first.",
+    "source_sha256": "3c9784db04ad974b97018a04118913e9d735aa21e9854f537ff3e9ee3b1c93be",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1948157"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25215,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09043-e00aa6c71157",
+    "source": "But after that, I felt—free. Free to do whatever I wanted, to go wherever I felt like going.",
+    "source_sha256": "e00aa6c711573c4abbee9973019fce23a6d0e5afbafd30e5c3c611b110700931",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1948324"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25217,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09044-d3972313b1e7",
+    "source": "No longer afraid of death.",
+    "source_sha256": "d3972313b1e7dc813b47ec22626a5d6d66b12af2887380233a6173fe5959ff1b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1948511"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25218,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09045-0b01290c7439",
+    "source": "And if I die, I die. I won't know I'm dead anyway, will I? It's silly to be depressed by it.",
+    "source_sha256": "0b01290c7439f9feb44718780589aa9b304c63c4b7d5c0b2351b6cd1ad5b9d48",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1948565"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25220,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09046-e183fce23129",
+    "source": "I see. Yes, this is starting to make a little sense to me.",
+    "source_sha256": "e183fce23129c00423a3756584448f4def20a1f6edc006f7fba9e4731d4d1d09",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1948752"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy] {I_See_Slow}",
+      "line": 25222,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09047-0e2f8cc590ad",
+    "source": "You know, I've found it a relief to be of little importance at court. With the rate at which this particular family seems to, uhm...",
+    "source_sha256": "0e2f8cc590ada969e157a6486651d3f143f30c6e43cb62304b18da32f02d14a9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1948870"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 25224,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09048-ceb33eb7bd8b",
+    "source": "Encounter 'unfortunate accidents'...",
+    "source_sha256": "ceb33eb7bd8b7c8f189ef5fc19fcd54632ddfa210245c13f943f4719ca5da9ee",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949137"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 25226,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09049-682e2b092c8d",
+    "source": "I don't think I'd like to <i>be</i> of much significance.",
+    "source_sha256": "682e2b092c8d744cbde2c2c7128c001dfeb4fb91838fb9b98cb5fa93f2ddd159",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949211"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 25228,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09050-7e693bc75714",
+    "source": "Exactly! So let's drink!",
+    "source_sha256": "7e693bc75714df2a4504df8594c513205fd947c10caef95402a8dd0093da4258",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949327"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Yeah}",
+      "line": 25230,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09051-8f7334befb6c",
+    "source": "And I'd like to give a special toast to Ophelia, who helped me realize all this.",
+    "source_sha256": "8f7334befb6c4f0feb7a68ce58d9b600a89cfd4e2c19ece873d0699e05bfd04f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949377"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25238,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09052-a76e4b17b3f2",
+    "source": "Anyone got a deck o' cards? Could get a game goin'...",
+    "source_sha256": "a76e4b17b3f20d71bb9536266288f61e017ee2a3650663248187db873e8d814d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949540"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Marcellus",
+      "cues": "[happy] {Chuckle_Tired}",
+      "line": 25240,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09053-ed6f8c638a32",
+    "source": "Heh! Play against me? Only if you're eager to lose everything in your pockets.",
+    "source_sha256": "ed6f8c638a3217655e612888b11c8bf8ed713dbc1ccaee9d65b960f91b3bfaac",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949648"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Irma",
+      "cues": "{Feh}",
+      "line": 25243,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09054-e101ca2b8ba4",
+    "source": "Yer on, old woman.",
+    "source_sha256": "e101ca2b8ba4fa74372de9a38c92696989e5c547eefbe91aeabfa9554ccf3810",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949807"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Marcellus",
+      "cues": "",
+      "line": 25246,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09055-e3a37c4a0025",
+    "source": "I'll run and fetch some. Guilda, won't you refill my glass?",
+    "source_sha256": "e3a37c4a0025187af78e7cf88977e0a9d023a98c6beb029964598c7a07a95645",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949845"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy]",
+      "line": 25247,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09056-2372fe88948a",
+    "source": "How long was I out?",
+    "source_sha256": "2372fe88948a32c77ef77bdbfb571403810029a21f532d49e7ebf667038c4298",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1949975"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 25264,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09057-29e6aaf8ba57",
+    "source": "Um, an hour, maybe. The others picked up and left.",
+    "source_sha256": "29e6aaf8ba57f4020206eae27fbe8879f6725ac75d563e2b82309f97ef1ea9f0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950015"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Umm}",
+      "line": 25266,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09058-3cc32ddfa607",
+    "source": "I thought I ought to wait for you to rouse. Although you <i>did</i> look cute sleeping.",
+    "source_sha256": "3cc32ddfa607b2383b158d78bc8a42f269046ee59ea10385f41b6ac91382a6dd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950117"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25267,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09059-97b063da090d",
+    "source": "The party went well, didn't it?",
+    "source_sha256": "97b063da090d76c8eaaa9561b9f0c9fe3c384a0db7c5981d6eaab60872adae6d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950294"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Ophelia",
+      "cues": "[happy]",
+      "line": 25269,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09060-e96fd6f9ab5e",
+    "source": "That it did, partner!",
+    "source_sha256": "e96fd6f9ab5e770122fe9953a57f688dac07d49e7d1902696cad94a31471aa62",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950358"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25271,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09061-22d03fd85434",
+    "source": "Hmm. It's rather late.",
+    "source_sha256": "22d03fd8543436dfcbea4a1af22c35b142fca46cde9820969f04033008d25c11",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950402"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25272,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09062-2ab25aa0a9ce",
+    "source": "I'd better turn in for the night.",
+    "source_sha256": "2ab25aa0a9ceb28485fd2b72932ab73c84c132189da2ef4e869f195964cec41c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950448"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25273,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09063-ac093735d260",
+    "source": "Ophelia... Thank you.",
+    "source_sha256": "ac093735d26067ed6fa928fb4cea61a3cc3981bc244a8ec66b4c89bde5e3461b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950516"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "{Ophelia_Warm}",
+      "line": 25277,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09064-7517bffbbd51",
+    "source": "I... hadn't thought I'd find another friend before the end of my life.",
+    "source_sha256": "7517bffbbd51bb0bb4f27a79a05c945b12fb48a451c24402c7c5a78d6909a189",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950560"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 25278,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09065-ffc19d34f9de",
+    "source": "But I have. I suppose that makes me a pretty lucky girl.",
+    "source_sha256": "ffc19d34f9de161c4ed55afc3edb8963841b374c0210b46558e7faff0871797e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950703"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 25279,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09066-75e32f68c1fc",
+    "source": "And the same for you. Good night, Guilda.",
+    "source_sha256": "75e32f68c1fc7d436e91bf62657b8523c4a5b5458e9b38e0b918968822157d33",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950817"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 25281,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09067-1045ff0a865e",
+    "source": "Soon, she won't remember me...",
+    "source_sha256": "1045ff0a865e46ac6ff5b0f8de396735af9ed030eed8d28befe1b9db3858ca61",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950901"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 25284,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09068-9b8f5ee88e90",
+    "source": "But at least she isn't aboard a ship to England.",
+    "source_sha256": "9b8f5ee88e90c74e35f2f8be67b3a3ca0cdb7c75a6af8f92d677a3a670c8d939",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1950963"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 25288,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09069-97841900675f",
+    "source": "I was able to change her fate... this time.",
+    "source_sha256": "97841900675f27d607350c9af6d7b9fb88aa74fc0888816cb9dd415aac070252",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1951061"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 25289,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  },
+  {
+    "id": "p09070-1a23d4114b7c",
+    "source": "I'm certain we'll speak again tomorrow.",
+    "source_sha256": "1a23d4114b7ce595d6460579b66dd9648c7866d26fe0e52c52dc994ed432b024",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1951149"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_Party",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 25290,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0063"
+  }
+]

@@ -1,0 +1,3677 @@
+[
+  {
+    "id": "p14725-74a030f24113",
+    "source": "This vase has fingerprints on it. Is there something inside?",
+    "source_sha256": "74a030f24113ec0ee0c4cb2ed63ac1ef1a3908fb959b703d88cf71e28cf3aa65",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814281"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 713,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14726-f1c0113bbc4a",
+    "source": "It needs dusting. I'll have to have my wife arrange for the servants to come by.",
+    "source_sha256": "f1c0113bbc4a0e1d7c4521b828ba2f46512007305cd62c765295140ca6139382",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814403"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 714,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14727-013d347e803a",
+    "source": "There's something in here.",
+    "source_sha256": "013d347e803a8d119aa0af923770bd1e63cefdb85a3a0b1b3b3c100017751b63",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814566"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 718,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14728-066b3361ff3f",
+    "source": "(A... vial?)",
+    "source_sha256": "066b3361ff3f3d82698abd4c2f3b5a9cd86e2138de95b59a0676b7cb83ef2e0f",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814620"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 719,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14729-7e2ada8f21a9",
+    "source": "(It stinks of... some kind of noxious fumes.)",
+    "source_sha256": "7e2ada8f21a9cc820658420b47333a0e0cab4872c56eff9965808fc7f9ec1d4a",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814646"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 721,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14730-f5ac3597809d",
+    "source": "(This must be the poison he used to kill King Hamlet.)",
+    "source_sha256": "f5ac3597809d319c18c0bc5856297e94f500a38117394e97adab4d378a03f46a",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814738"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 722,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14731-1096b252304b",
+    "source": "(I'd better pocket it.)",
+    "source_sha256": "1096b252304bec437db5b4215f18fff38d1c3bb23eafa2ca9e12323673595637",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814848"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 723,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14732-4204dca19f58",
+    "source": "{It's... empty.}",
+    "source_sha256": "4204dca19f589f287a33ada6452cf83aecf6b0d31c37b6505499fa8444b5a6d6",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814896"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 728,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14733-4e82a7fce01c",
+    "source": "{But there is a lingering smell. Something was hidden here.)",
+    "source_sha256": "4e82a7fce01c9e4d385168a6bc4369ee690747f90d6d0a42534a741b34970621",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:814930"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_PoisonStash",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 729,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14734-092177644471",
+    "source": "Is this a drawer inlaid into the table?",
+    "source_sha256": "09217764447136fecb8329effb2ec26d874c18a60e039c987a4a3c04f7becd09",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815052"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_MurderDiary",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 741,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14735-58fd9dfcb1b9",
+    "source": "What's inside this drawer, my lord?",
+    "source_sha256": "58fd9dfcb1b99f75fc2d0b9e10cfa9950ff6cb3d8b53aff61be19c995af4a969",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815132"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_MurderDiary",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 743,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14736-2094c80c08ca",
+    "source": "It hasn't been opened in years. I'm certain the hinges are rusted shut.",
+    "source_sha256": "2094c80c08ca42b1e5c1f3bc023377986bcc34c5ad009d1dfaea2aa86abd5845",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815204"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_MurderDiary",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 744,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14737-0721db5d6e21",
+    "source": "Someone left a bucket here. It looks like it's full of <i>something.</i>",
+    "source_sha256": "0721db5d6e21e55e6b9dd4d483fa067ffe1ecf4a3b9a3b065f250561711d4b37",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815395"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_CellBucket",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 760,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14738-5408210b75e8",
+    "source": "Oh. Eurgh.",
+    "source_sha256": "5408210b75e85ffe666018561038a188fad7996e9b91b9c04b3ec2312e3972fa",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815542"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_CellBucket",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 761,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14739-2c4f14b36f8d",
+    "source": "Well, I certainly regret looking in there. If this is meant to be a chamberpot, no one's cleaned it in ages.",
+    "source_sha256": "2c4f14b36f8d9b67326b55cd1652ab5ab9aa243c10d47cd05aeb3ee05f7d963d",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815564"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_CellBucket",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 762,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14740-edd34af68bcd",
+    "source": "I already know what's in that bucket. I'm not looking again.",
+    "source_sha256": "edd34af68bcdbbce82be59293aee8a6c4f264bf609a1e7c77add234f9ad42145",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815783"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_CellBucket",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 765,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14741-092a808c7bb5",
+    "source": "That's Prince Fortinbras's bucket now.",
+    "source_sha256": "092a808c7bb51b821adee1b978d08f96b24ebe3229e9863f43ef90016f3d7121",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815905"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_CellBucket",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 769,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14742-ecaefab8f242",
+    "source": "Lord Fortinbras is in there.",
+    "source_sha256": "ecaefab8f242af3f5aabb019b4d25bd57af41ea95a7977517968ccd74aef3e3b",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:815983"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 779,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14743-40e8786638e5",
+    "source": "But shall not remain so.",
+    "source_sha256": "40e8786638e5af75b3ec22d59f4266f3a7fe34a35845a088738849d01d8cb251",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:816041"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 780,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14744-7a0eef8feb8e",
+    "source": "Oh? And what makes you so certain of that?",
+    "source_sha256": "7a0eef8feb8e8c536b2b93e949f5bdb3f2a2da64dcaa756b9576565dd914ade5",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:816091"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 782,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14745-c97a40eab9cd",
+    "source": "I'd be a poor tactician if I disclosed my every possible move.",
+    "source_sha256": "c97a40eab9cd8519d09b95ece30045b928488e0f3e548910d259256420444171",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:816177"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "[happy]",
+      "line": 783,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14746-bf7d50869738",
+    "source": "I don't believe I've ever <i>formally</i> made your acquaintance, though by the look of you I know you are that Lady Ophelia.",
+    "source_sha256": "bf7d50869738a4fd81c13fb9758d79b816ba030c5e0b6621c9f6db04d7acb1bf",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:816303"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 784,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14747-5c9cd7ba3141",
+    "source": "If you expect me to have pleasantries to exchange with you, I don't. You're trying to burn my country to the ground.",
+    "source_sha256": "5c9cd7ba3141e84ecc074fe2a5325a2c12e1f83878fd61f6ef1342802c02d0c6",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:816556"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 785,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14748-d8da4591c4e4",
+    "source": "How unfortunate that this is your perception of my mission.",
+    "source_sha256": "d8da4591c4e4ba8a252795b26a71c606fddc455df9744e14f2dcd43b58e7ced3",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:816791"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "[sad]",
+      "line": 786,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14749-e2455ddb801e",
+    "source": "The Danish are like neglected dogs, snarling at anything unfamiliar. They have not known the touch of a kind master.",
+    "source_sha256": "e2455ddb801e8bb6927989a7d0105ab3b8b4295601356bb9739608f97d142b67",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:816911"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "[sad]",
+      "line": 787,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14750-83309bf16fd6",
+    "source": "When I am ruler of Denmark, allow me then to show you what such a kind touch looks like.",
+    "source_sha256": "83309bf16fd6eec884ca98549aff10016d68278e8a3c05e22459221c64a29beb",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:817146"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "[sad]",
+      "line": 788,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14751-fed3ba784422",
+    "source": "You keep away from my daughter! I may be a weak, sick old man, but there's strength in these bones enough to strangle you yet, Norway.",
+    "source_sha256": "fed3ba7844227d1ff0809d6db2e1b177d726128058458a6cd17d9b4a61e64706",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:817325"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Polonius",
+      "cues": "[disgust]",
+      "line": 790,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14752-bd2a2896a32e",
+    "source": "Hmm. No need for that. I suspect the lady is capable of defending her own honor.",
+    "source_sha256": "bd2a2896a32ec50cf45477a54d1649a169722dc72d9622fa2e2acbfe79ce8493",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:817596"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "[happy]",
+      "line": 791,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14753-9befcea817e6",
+    "source": "Ruler of Denmark is quite a leap for you in the present moment. For now, the only thing you're ruling is this cell. Farewell, and enjoy it.",
+    "source_sha256": "9befcea817e66ec60b4bce1cf47099bf7297f4d35be7cba64f40f4495e312263",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:817759"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 793,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14754-2373fce087bc",
+    "source": "Yes, farewell. For now.",
+    "source_sha256": "2373fce087bc5b3b17cc69549335936aada4eed28c5ee595fc7c3ceb83b1d336",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:818040"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 794,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14755-550ae7a2c640",
+    "source": "Still lingering?",
+    "source_sha256": "550ae7a2c64004124284acd2df1d2d57b8fc1f68412ff93851a36725cd6ac862",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:818088"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 797,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14756-9f35409523e0",
+    "source": "I'm not a monster, Lady Ophelia. No more so, at least, than any of the men in this dour place.",
+    "source_sha256": "9f35409523e08a2751412e3053c019518ad0713d755c41126cf5fe630767fad9",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:818138"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 799,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14757-a86fcdd723d5",
+    "source": "It's my fault you're here.",
+    "source_sha256": "a86fcdd723d521136c73e5075945083da5784795ef5cfaf7f2e32dfd57cb3c67",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:818345"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 804,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14758-adb7aefb2287",
+    "source": "Don't say that, my love. My faults and my actions are my own. It is by my hand that I am here.",
+    "source_sha256": "adb7aefb2287e591fe9662d3faa2fc7b86403feda6a2a70588b187c052687fa0",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:818399"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Polonius",
+      "cues": "[despair]",
+      "line": 805,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14759-adaf878a3d27",
+    "source": "(By your hand, perhaps, but I'm the one who tipped that hand.)",
+    "source_sha256": "adaf878a3d27229f3a71872ef7c40f7f3ba4711fdb8fb5dee84a3ff05614d68c",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:818590"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 806,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14760-2eada1609d2e",
+    "source": "The cell door is locked at the moment.",
+    "source_sha256": "2eada1609d2edb4e66a9a778e5fc2e8598054f322e17ca0831d261adaf44e83b",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "resources.assets:scenes_enviro:78c9ff7be0f8",
+      "Assembly-CSharp.dll:#US:818716"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 808,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14761-5db43e386881",
+    "source": "Lady Ophelia, while I ordinarily respect your particular habit of, er, rummaging...",
+    "source_sha256": "5db43e3868810a930a9051a8b9cd7dc565ed4a30f57612a081a33df1303024c6",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:819085"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 834,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14762-14051e8abc25",
+    "source": "Those are my personal belongings.",
+    "source_sha256": "14051e8abc2564ff1240ed7fc2ce0331671802116f1795ac7184904e3d8a4348",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:819254"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 835,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14763-b1b3b49e14eb",
+    "source": "Lady Ophelia, don' go gettin' in trouble wiv Bernardo!",
+    "source_sha256": "b1b3b49e14eb8331184386f8b1d3b779abe4d7d8feb4fb9e411cf3e0aec5fdf1",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:819322"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 837,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14764-c13abeaa043f",
+    "source": "He really dislikes it when yeh look through 'is things!",
+    "source_sha256": "c13abeaa043fd9ca8e1ae8bb9f4afc16a845442eeefcf4362fe94ebd7b55d8db",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:819432"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 838,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14765-a6b943d61781",
+    "source": "Las' time 'e caught me, I wos cleanin' boots until my hands got sores...",
+    "source_sha256": "a6b943d6178168c2e83211e5ff7dee69cd7e1528ab01f538412393c905f01dc2",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:819544"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 839,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14766-bfc194ead04d",
+    "source": "Let me see if I can find what Claudius asked Bernardo to hide. --Ah. This must be it.",
+    "source_sha256": "bfc194ead04dc6c75792d029f8dc224a709fc71ace4808a9b101634640469cf6",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 843,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14767-01d720dd659e",
+    "source": "It's... a letter? And it looks like the seal's been broken, so I can't quite tell <i>whose</i> seal it is, but it's rather elaborate.",
+    "source_sha256": "01d720dd659edd45a0fb5ab8cf60c6c6e47f6bff9cfd2a93c82dbb23dc6779e5",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:819860"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 844,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14768-551f8acc174e",
+    "source": "This is horrible.",
+    "source_sha256": "551f8acc174e805aec5346c7151d34711104d7459505bf19882e197f4f2f0d2b",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:820169"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 846,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14769-c209333d7dbd",
+    "source": "I'm certain Gertrude must not yet know. What am I to do with this?",
+    "source_sha256": "c209333d7dbdfca9be4260baf55c71ec8c4f9bf8857475dea8e26da013697385",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:820205"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 847,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14770-2df064d9ae04",
+    "source": "And here's that letter again.",
+    "source_sha256": "2df064d9ae045303398f0f02b2eb456820f197a486a3e5cb0007ada6cc35086a",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:820340"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 850,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14771-8f0c86d9abfa",
+    "source": "It looks like there's nothing else here at the moment, though.",
+    "source_sha256": "8f0c86d9abfaaea1cf024293550243b3d2ba8497a3d866ea7bb88ecc601c8a31",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:820400"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable5",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 854,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14772-21629b48bf6a",
+    "source": "I fear you and I shall never be together, Mother.",
+    "source_sha256": "21629b48bf6a8bc0faf4d059a15175a78063bb84669ea822f861e0cea76697a1",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:820850"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_Grave_Elise",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 872,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14773-b12d4984fa55",
+    "source": "Father comes to visit her sometimes. Perhaps I should join him. He might like that.",
+    "source_sha256": "b12d4984fa5528cfd7e563f5c6de3d4d4a9d66c93a97c78605f5e9a1dfaff7cb",
+    "origins": [
+      "resources.assets:scenes_enviro:430eb8bd272b",
+      "Assembly-CSharp.dll:#US:821155"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Enviro_Grave_Elise",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 877,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14774-866c7ca6dc1a",
+    "source": "Fortinbras will cross Denmark",
+    "source_sha256": "866c7ca6dc1aa9f584bcf47b30432728393ec8e96030abb73a15368b27e6a8b5",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14775-cc51640bb421",
+    "source": "Peter Quince will perform soon",
+    "source_sha256": "cc51640bb421358032c6a77f18a4418be4571be8a168fe130e7118cb6ed20d4d",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14776-c6e05f3913e5",
+    "source": "Hamlet is lovesick",
+    "source_sha256": "c6e05f3913e502cfe17c873f27cfa782cbeb551779b848830be94562e4be4871",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14777-aa6fd2e8be90",
+    "source": "Queen Astrid was once on the throne",
+    "source_sha256": "aa6fd2e8be906c9375a705137f21e975ceb9b33ff94aea33ca351d4ce3f21ad6",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14778-e5b54620a986",
+    "source": "Hamlet is grieving",
+    "source_sha256": "e5b54620a9865e646cc1ca0ee59fa213e52f506bb07bd1c7774ca16cd8791b38",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14779-abb0e6cbbdbe",
+    "source": "Ophelia had a terrible nightmare",
+    "source_sha256": "abb0e6cbbdbe082e06404d53bac23d8bc4dfb61bf0f8f818a6ce5450203cfbe6",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14780-4afe46f9bc85",
+    "source": "the play targets Claudius",
+    "source_sha256": "4afe46f9bc85b09c868e88acf9f83b4de84906d155ffabe38d6fdca461852bf0",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14781-7a89c5a9eecb",
+    "source": "the play targets my father",
+    "source_sha256": "7a89c5a9eecb70d0c200c28332a00d62290246abde8b752d8cc0d308b3895f3c",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14782-787b6e64f1c2",
+    "source": "Ophelia and Quince will meet later",
+    "source_sha256": "787b6e64f1c23f7d1addd672f398ecf4831862946c8caac0db294602ec573e5f",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14783-25826eaef641",
+    "source": "the play targets Gertrude",
+    "source_sha256": "25826eaef641b6a3c18eae449508f2e273eb5cf599ee7e3122cb839eea9257bf",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14784-4bd50c49fa73",
+    "source": "Ophelia is going on the boat",
+    "source_sha256": "4bd50c49fa7350858dd80e81907a05df3d96e488c51b8c117026feae6731afb9",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14785-9b160a515f61",
+    "source": "the play targets Hamlet",
+    "source_sha256": "9b160a515f612358e8eeaafef30aefe79474877bf4c787249a07ab8f3e59a2bf",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14786-27ceb3918f76",
+    "source": "the play targets an assassin",
+    "source_sha256": "27ceb3918f762c2e6a874a50bebadfb27453ee737988ae4fc66821a639b38fcb",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14787-a3b3df892337",
+    "source": "there is no reason to stay in Elsinore",
+    "source_sha256": "a3b3df8923375b177e4c3e7f6b98ef8e5d6aa7fe4eb17f5b322a14932964bd0f",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14788-88aafc817a50",
+    "source": "the play is about time loops",
+    "source_sha256": "88aafc817a508f526850d8d17a28b2d6c9a2de91d677aa821c7479bfd258bbe9",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14789-f97f5779fd6e",
+    "source": "Polonius is grieving Elise",
+    "source_sha256": "f97f5779fd6eb543952bf54fa7e734e79d5f0de79b146b4c4a8dc1c77421b4a2",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14790-447567b2bd7e",
+    "source": "Ophelia is dangerous",
+    "source_sha256": "447567b2bd7ef5b4d1f14c3312126d2bebcbffe9a77a173d650a039b418b65e4",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14791-f050e261ecde",
+    "source": "something terrible has happened",
+    "source_sha256": "f050e261ecde51da8e34cb0281e36792dad5efb22d1a2b05b851b6e3c8ba6c0e",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14792-f730dda82a9c",
+    "source": "there is no hope left",
+    "source_sha256": "f730dda82a9c7efa0b847cb98a427d892f06665c297ce5317cdd876e14db217d",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14793-25ee74512b4b",
+    "source": "King Hamlet was murdered",
+    "source_sha256": "25ee74512b4b62490ee1c1bc3cd2193213e0d8f883d0d926adf442b4cddcd080",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14794-d2baa4c1279d",
+    "source": "Polonius nearly died",
+    "source_sha256": "d2baa4c1279dc3826a53d394fde21a5eab098442c88b1c90f367da896d33930a",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14795-eb57e2821adc",
+    "source": "Queen Gertrude was unfaithful",
+    "source_sha256": "eb57e2821adc835f1c7a6658e6de9f9e101bee1d7d8f7d48a928c490dd6fd2f5",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14796-8d58f4c9fd11",
+    "source": "Fortinbras will invade",
+    "source_sha256": "8d58f4c9fd11181d82312f1eb8be3b3bfc01bb345cbe8343622b2629409a16f8",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14797-a1d7ee82021e",
+    "source": "there are rumors of a ghost",
+    "source_sha256": "a1d7ee82021ec2412811d2335d61d8e54e1bcb21d51988ed0c98e59fb98ea4bf",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14798-675cade942b4",
+    "source": "Simona is alive",
+    "source_sha256": "675cade942b45029cb254b41661f67a4f95d3de3f33ad0481a822833e155ca03",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14799-f00dda8e2b4d",
+    "source": "There exist some secret, strange notes written by King Hamlet",
+    "source_sha256": "f00dda8e2b4d984d5f0dbf5f0e5fe797ddb1ee676342401416fb79130396a0d0",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14800-c4ab171edcf8",
+    "source": "King Hamlet experienced time loops",
+    "source_sha256": "c4ab171edcf848fbe233546927540d0a382dd9cf6c3affe8824941ae3f638776",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14801-4ef4e7b7ae44",
+    "source": "Bernardo has a secret",
+    "source_sha256": "4ef4e7b7ae44cd462fb25af9462a3f211fb9c2512f52b6a9f3fe28f0431f5245",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14802-0c66827f5bca",
+    "source": "Hamlet killed Polonius",
+    "source_sha256": "0c66827f5bca4c226337c048176ced915eb527e5b92680272a43e5b89d1cd84d",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14803-ff348c3dd3b4",
+    "source": "Claudius killed Polonius",
+    "source_sha256": "ff348c3dd3b41147e9ad12c707385f0b928619881b6f60756a0baaa6bab89408",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14804-6432543f36ba",
+    "source": "Gertrude killed Polonius",
+    "source_sha256": "6432543f36ba47fd6b80058c271c3ef3c0b052be0b9db50cf2c2e9df15ac9f7e",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14805-d0a726962473",
+    "source": "Polonius killed himself",
+    "source_sha256": "d0a726962473cde28716421b4b6953f41e37d6a163471b61928f018798b2274f",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14806-66165f2e973a",
+    "source": "Claudius killed Hamlet",
+    "source_sha256": "66165f2e973a067834128b91e6141d2fa3fcf3d7fd12f77fad867ea02cfddaaf",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14807-c3fe222ba8f2",
+    "source": "Claudius killed Gertrude",
+    "source_sha256": "c3fe222ba8f2244bafbf3a89fea803373eff79189b781d13a9d951707fb1eb85",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14808-ec7fac7bf9a3",
+    "source": "Ophelia killed Hamlet",
+    "source_sha256": "ec7fac7bf9a332fd00523f24cd07f3769770aecc1b8d41bba8fc48869070095d",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14809-cde8d345040e",
+    "source": "the sword is poisoned",
+    "source_sha256": "cde8d345040e0a2c9d18a28c09771d2ab23b3bb4f34d05c82835038e7510f67a",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14810-4cab22e129e2",
+    "source": "Laertes is on a trip to Paris",
+    "source_sha256": "4cab22e129e22c43a359cbb46fe401e3e74c0dcb96a879592fcc82fdb16654cb",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14811-655612b66fe8",
+    "source": "Hamlet and Brit are going to rendezvous",
+    "source_sha256": "655612b66fe890a0a5efa0635621f870e450807b2704cb111cce67b67bb23cb6",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14812-640d8890d364",
+    "source": "Hamlet is paralyzed with inaction",
+    "source_sha256": "640d8890d36461452f70e9160e73fd00740bc46090aec541e3d0428fd733ea6b",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14813-e54a6d1bb5e6",
+    "source": "Rosencrantz and Guildenstern are dead",
+    "source_sha256": "e54a6d1bb5e663c9197cd34b0511a39108c9dd6c226a8d6927beeac3fe5f9a37",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14814-351b3eac146c",
+    "source": "Quince will now perform on Thursday mornings",
+    "source_sha256": "351b3eac146cda0ab20fdb5757c03819f201dbfc449544fb6a324b15af5bc191",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14815-9fd6ee3cd542",
+    "source": "a card game is planned",
+    "source_sha256": "9fd6ee3cd542e5d50b9b2a2dce2b1e866b35c478da23937148d36fdc0ace992a",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14816-1cb7b6836a8f",
+    "source": "there's an order out for Hamlet's execution",
+    "source_sha256": "1cb7b6836a8fb0af20c2201e15bc6fe3eb66ea5027791702148b55bf80d15ba8",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14817-137aaee657df",
+    "source": "Ophelia is in danger",
+    "source_sha256": "137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14818-f9febd3a1c5f",
+    "source": "Ophelia is stuck in a time loop",
+    "source_sha256": "f9febd3a1c5f26ffcca691fa223c9189b2e05b289bf4fbefc0d00927c9d6497a",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14819-940fef74acba",
+    "source": "Ophelia is losing her mind",
+    "source_sha256": "940fef74acba25eaff3b5ba5b1885a9de3926e6416e0c932f58ea5641bc20abc",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14820-f850ef53d751",
+    "source": "Brit is a spy",
+    "source_sha256": "f850ef53d75104741407179be88a4e95675d0b00755f41ab152fd2be35b4c8be",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14821-c9e5e8b3b624",
+    "source": "Brit is meeting Hamlet in his bedroom",
+    "source_sha256": "c9e5e8b3b6243b98fb5d056a6ca4f82194d2c5c921e9a53cf90bb160b1f1e79b",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14822-351c036f8b0c",
+    "source": "Claudius may have written a damning note",
+    "source_sha256": "351c036f8b0cfc4e39fd507c7c5f6046bfbc0b3b966455aa80464e05868cae05",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14823-3cd7fbb491d4",
+    "source": "Brit has been imprisoned",
+    "source_sha256": "3cd7fbb491d426847195154416710fbcddfdcb5b55d6b9aed9172efba78ff8ac",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14824-04ef7e1d7a03",
+    "source": "Ophelia slept with Claudius",
+    "source_sha256": "04ef7e1d7a03d974bdccecc4a5efe8f628d6384b095b18bfce1abe09aa0231f5",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14825-64e7cee6d816",
+    "source": "Polonius destroyed some secret documents",
+    "source_sha256": "64e7cee6d816f3355a76d7dd4c9e265bd73a6299f75b2ad0a5c3814dec9fb8fa",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14826-481a886e2ada",
+    "source": "there's a plot to poison Hamlet",
+    "source_sha256": "481a886e2adac325560e4347384e054e9af61b5ffd678e01be7e97afbad71861",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14827-a3f1bfa24230",
+    "source": "Gertrude and Claudius were poisoned",
+    "source_sha256": "a3f1bfa2423080b583c147aed6a03c225b848bd93c524c6fa086279a5adee0bf",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14828-773c0c32457c",
+    "source": "Ophelia is on a mission to find Gertrude's diary",
+    "source_sha256": "773c0c32457c0d939a55973d778f9be287e26b568e9704f13131a57337157c04",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14829-efb63e4d0ef5",
+    "source": "Ophelia has leverage on the guards",
+    "source_sha256": "efb63e4d0ef5e407843def77256a779768d35e365a3d15523733709c847c7b7f",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14830-5eae19c96875",
+    "source": "the castle must be fortified",
+    "source_sha256": "5eae19c96875a6948926c4e0adb54bfe3b81106590e5b1ab738dee9a2c5d5943",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14831-7a21409ed918",
+    "source": "Castle Town should be fortified against Norway",
+    "source_sha256": "7a21409ed91864ece86f25f84c726e4fe67c4d0c0f60219b6b60ac8cea99c644",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14832-2a91e3c3d1a5",
+    "source": "Claudius should surrender to Fortinbras",
+    "source_sha256": "2a91e3c3d1a5c6b3ae8a3742657ade365d4e7980c118a6abc7b9c5b7c517e17b",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14833-71033b6ba3a4",
+    "source": "Hamlet needs to be disciplined",
+    "source_sha256": "71033b6ba3a4117ae2ab7cf665e4da2cd4aeaf3fbc1d3c19d12a9115a9f8b660",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14834-86136af2d45b",
+    "source": "the ghost of King Hamlet is real",
+    "source_sha256": "86136af2d45bf241f4e2ef6415ca883beef12a50a95ceb08dc879547621837d3",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14835-b5568ca3d6c3",
+    "source": "the walls are haunted",
+    "source_sha256": "b5568ca3d6c334dc5b8f497603ecb1a5a4abd4ab24c1214f6f59e79d26d38211",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14836-05c07b109a69",
+    "source": "Ophelia can change the play",
+    "source_sha256": "05c07b109a69d98460581345ccd457b47fe54af79af53856fed7970784459930",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14837-64ee7b627d98",
+    "source": "Ophelia has the Book of Fates",
+    "source_sha256": "64ee7b627d986ef0cd57bcfd4732aa64530e458bdd6d17de74825b4deb153878",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14838-a4fca4237cd3",
+    "source": "Quince experiences time loops",
+    "source_sha256": "a4fca4237cd3a06a71c9549c7ecdbf426ae3e94b5de0875c4f8f411c960814e8",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14839-671dc2fb8a84",
+    "source": "Quince will perform in town on Saturday night",
+    "source_sha256": "671dc2fb8a843dfa5ab0076d4c9dcf20d7511d2f9c8a5195952a9497a1fc1ac2",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14840-071dde6a32b7",
+    "source": "Brit met Fortinbras in secret",
+    "source_sha256": "071dde6a32b7288f54db1f253969666ccd1ddedac0493f38e08658bcaa60cfcd",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14841-c96ec0167e2f",
+    "source": "Quince is dangerous",
+    "source_sha256": "c96ec0167e2f2542694127b414f1bf74cfe3644db7f32c3860f0efe28236fbd5",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14842-083f3a8559c9",
+    "source": "the ghost is destroyed",
+    "source_sha256": "083f3a8559c915032008ee5e83e7a2cfe090ffa94c3df789a84e03572d8bcb66",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14843-062f5f1ddcd4",
+    "source": "If I'm being printed (which I shouldn't be), then I'm locking the player out of ninja content for the GDC build",
+    "source_sha256": "062f5f1ddcd45b703e74ec8bf0e844a9876e269a5cc221a3c403ca74cd79755a",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14844-53ca08d14c52",
+    "source": "Queen Gertrude is the spy",
+    "source_sha256": "53ca08d14c52764c62d471a0db1226a4d7ea86e536584cefd152017129fa93cd",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14845-6914c62f4fa1",
+    "source": "Polonius is the spy",
+    "source_sha256": "6914c62f4fa185c2ff8b96dd686265449a7827a307916fe5aa142704ae2c8d43",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14846-3d5d7d77d61d",
+    "source": "Bernardo is the spy",
+    "source_sha256": "3d5d7d77d61da467a14204b1b912e2ad7ddfed609a8b23f3df18ee6693b24944",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14847-8bac070179d0",
+    "source": "Rosencrantz and Guildenstern are spies",
+    "source_sha256": "8bac070179d0460a414157063f7897aeebb6d0c87170ece9d30d21f2592e353e",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14848-a4ef6e522ea4",
+    "source": "Bernardo wishes to meet",
+    "source_sha256": "a4ef6e522ea4f1116f2db2aea7a3a0fb2dbb7fd56c9fed4e8189aab1ddeaa595",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14849-6a830806281b",
+    "source": "Bernardo is also Katherine",
+    "source_sha256": "6a830806281b2577cfc8df25f6982fd7edaefa19dc9b6fc64e0c21affd8f6a03",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14850-ea616e9af267",
+    "source": "Bernardo should be betrothed",
+    "source_sha256": "ea616e9af2676c724301d00781b819b8746484fc647ae1d0dae8d2c6591ffbba",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14851-9f9d786112c7",
+    "source": "Bernardo should be punished",
+    "source_sha256": "9f9d786112c75fddfb54547cc1c72ea670c1db39c81d290e0e2aa87b8df09e78",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14852-b1b13be3f4fd",
+    "source": "they have been dismissed from the castle",
+    "source_sha256": "b1b13be3f4fd70086c9dbdc2c4576dbbf9204c368f0a74c3c6aabc9c1afea2b3",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14853-e2814317490d",
+    "source": "Othello and Ophelia are lovers",
+    "source_sha256": "e2814317490d9aeff5186113a7d01f813baf3d7c6f5dcf45cc34175e126cd359",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14854-51fe0792fae4",
+    "source": "Claudius and Ophelia are lovers",
+    "source_sha256": "51fe0792fae432c6a42743169fe4b75598a569b9fec03065bc5673764f297615",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14855-81bf60b76d4d",
+    "source": "Claudius is grieving heavily for Gertrude",
+    "source_sha256": "81bf60b76d4d2373fa7901cd126ff810bd60a777b297f77461da33466ba1401c",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14856-f1f28bd42f2b",
+    "source": "Othello's bar must be defended",
+    "source_sha256": "f1f28bd42f2b037778b2fd58be4f4b104f34e4519b122483323797e3a304fce9",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14857-f87009847c7f",
+    "source": "the key is hidden",
+    "source_sha256": "f87009847c7f2ac9b93fe769186421830922e85ebf603a387c5a3b31c3c238c7",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14858-11b300767f45",
+    "source": "that bucket is gross",
+    "source_sha256": "11b300767f45550006c89c381f8f1e943cf252dae345a1f4cd004b75adb48c82",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14859-4e5d5cc1c9d0",
+    "source": "the King's poison stash has been emptied",
+    "source_sha256": "4e5d5cc1c9d00f785ed4b13edb1a3fa043316303031814adae7d05283fa39aa5",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14860-fbdc6954a535",
+    "source": "ship temp unlock",
+    "source_sha256": "fbdc6954a5350699433510ed5f3bfd5910e91633f07b1fd4f780b1541ac1d718",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14861-d96f130387e3",
+    "source": "Polonius's death was an accident",
+    "source_sha256": "d96f130387e3472fa225eefd990b7e1e2c59e50db04e0cc7f58b4abe1d4e40a1",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14862-e4110ef680c1",
+    "source": "he should be wary of Hamlet",
+    "source_sha256": "e4110ef680c1c806b90c53ead329c744a8c94c6a26d3aa5fdaf70dcac4674b52",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14863-4540655e38b1",
+    "source": "fates can be changed",
+    "source_sha256": "4540655e38b1ea00db7cf0cef35ec9aced6e6f0421ca3c51a658ae2d3a6a692d",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14864-c4a654767e1b",
+    "source": "there's a note hidden in the gallery",
+    "source_sha256": "c4a654767e1ba48fe77066fcf942f51a35afdbb7f1da442227941cdae683fe18",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14865-530338e1303b",
+    "source": "a death report exists for King Hamlet",
+    "source_sha256": "530338e1303b5a4dad165a7484cbd20592a28ad0ebbac1b9dcb64ac3c88f10a0",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14866-98f13de3a324",
+    "source": "she's read the death report",
+    "source_sha256": "98f13de3a324a707f2030bd08b2d130521f35f79267af52141d50c94806c31fe",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14867-0d9eed896a64",
+    "source": "Hamlet and Ophelia are in a relationship",
+    "source_sha256": "0d9eed896a64e3e4fb9fad20d2b5926512678ed7d1140c2f26df3a4af3726e36",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14868-d3436cad4630",
+    "source": "Laertes and Polonius must leave Elsinore",
+    "source_sha256": "d3436cad46305990753a87b6879f6d2e4a3c207a5e55189967845cafefa02845",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14869-1b67ecf11748",
+    "source": "Ophelia has agreed to marry Hamlet",
+    "source_sha256": "1b67ecf1174876df0e450d4b6466f4e727d92160a5b9083b65939bb304de27da",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14870-3feec21f0f36",
+    "source": "the Danish nobility can be dominated",
+    "source_sha256": "3feec21f0f36051c385cc4c03d9295c39881cf11f49dae7a69ffcdab1f335de7",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14871-e85dcca42f49",
+    "source": "Hamlet needs to marry politically",
+    "source_sha256": "e85dcca42f496318286f9c77a953dd120143ad8b34d61aec760dff5d09fd4f0c",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14872-37e622429d38",
+    "source": "Hamlet's biggest threats are within Elsinore",
+    "source_sha256": "37e622429d383154f44aaa3b48e8727d21e359425738fc2d2c422736dc1ce537",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14873-f7be9c2d8bef",
+    "source": "Hamlet's biggest threats are outside Elsinore",
+    "source_sha256": "f7be9c2d8bef441f5e3f8d02076958b73e1f988366ee1edae53726cc66f09d34",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14874-3ce3713f1b45",
+    "source": "it's time to return to Wittenberg",
+    "source_sha256": "3ce3713f1b4595f737f5e0bac200889ecdc216c460ca159b0b37afb3db73cc49",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14875-986036cb2c21",
+    "source": "Hamlet and Brit will be married",
+    "source_sha256": "986036cb2c2172576b774ee164ed9a339e349465ab61a92484724dff68fe7a0e",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14876-cd56c4828ddc",
+    "source": "Ophelia and Grace slept together",
+    "source_sha256": "cd56c4828ddcbb344a13bbba14ee4903b330357501effbdee40f118e36a18438",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14877-e67cec7da661",
+    "source": "Ophelia and Grace are friends",
+    "source_sha256": "e67cec7da6619d4a8107ad7d974c6d6022dd7f2b65189f5f1644ac6fcd63b245",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14878-25b2d84e0366",
+    "source": "Ophelia has joined Grace's crew",
+    "source_sha256": "25b2d84e0366d609cf6f6e4f117cd8b0a059c242c3d84e2733dbc6613b6c93a4",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14879-37809eed88c1",
+    "source": "Ophelia changed King Claudius's orders",
+    "source_sha256": "37809eed88c1ccbe0c220bd8832d7a794b528d006c4f09f0025466dc363a2f12",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14880-853f5c7f297c",
+    "source": "Claudius has ordered Hamlet's execution",
+    "source_sha256": "853f5c7f297c1874d52cffa81f52b96a6e0d975a674b42a9a36fa0a250728f78",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14881-3e4b4a66762c",
+    "source": "she is unimportant to the flow of time",
+    "source_sha256": "3e4b4a66762c3d596de389509a2a9272d5369d55aaea5240365144e21e3b78d9",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14882-1142960f7fb1",
+    "source": "Guildenstern is dead",
+    "source_sha256": "1142960f7fb165aeb4c3611a89c1131ec13c47baae6e2e81fb51945bda389dd8",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14883-8e1ebc677cd6",
+    "source": "Ophelia and Guildenstern kissed",
+    "source_sha256": "8e1ebc677cd6ea85961e9a3784c7a8de76f86c1c9f394a5f11d74734b3926c83",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14884-a070f3763ec8",
+    "source": "Ophelia and Guildenstern are friends",
+    "source_sha256": "a070f3763ec8aaf80f478a73e25fdb46d75a92e667d9a3747469eb884b5da0da",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14885-bddc1811112c",
+    "source": "Grace is Irish nobility",
+    "source_sha256": "bddc1811112cee216c46adf6b81908e4bea8e163aae1ad5c1e4f310f7d7eafef",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14886-9d801652e8de",
+    "source": "Grace has met the Queen of England",
+    "source_sha256": "9d801652e8ded65c511c233102c92ab71c01b4f0b5b67802bc2efec1d2fc60c5",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14887-a004ee493929",
+    "source": "Grace was married",
+    "source_sha256": "a004ee493929695ed1f533e086ccc0b2b99ddbacf740d16ba3dd71dad7463a54",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14888-6f27a4006ba9",
+    "source": "Ophelia wants to be friendly",
+    "source_sha256": "6f27a4006ba9aaa75e152b47d4a802f8a332559ecb20a10643b4141af3782c69",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14889-f3c2cffaf314",
+    "source": "Ophelia and Brit are friends",
+    "source_sha256": "f3c2cffaf3140809b36f0b2960ca495908e11f8a8091ac5affb7516d0c3394f5",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14890-65c6c3ce3c7e",
+    "source": "the King's death must be reported",
+    "source_sha256": "65c6c3ce3c7ef92b530714b2bc8a0d948dd30ffda9dc25126945bf605dbc5aab",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14891-00905d819483",
+    "source": "the Queen's death must be reported",
+    "source_sha256": "00905d819483d7120174a1f1d4179b6e0f7af0159e292a954055347622d29aa9",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14892-c174084ba788",
+    "source": "Hamlet's death must be reported",
+    "source_sha256": "c174084ba78823981bba48e8fa1f015715b77ecaccad65b4e2fbcde3f71754f7",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14893-b39947eebae3",
+    "source": "Polonius's death must be reported",
+    "source_sha256": "b39947eebae3156e96e738466f3243b40123ae327cf2fd6bbdd1f316dd3124c3",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14894-5d080626e858",
+    "source": "Laertes's death must be reported",
+    "source_sha256": "5d080626e8581cbcbf8a8519b1e9b21e37de859ba49c29e4b13dc36dd86ac698",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14895-7156bf127265",
+    "source": "Fortinbras has been imprisoned",
+    "source_sha256": "7156bf127265befc30fa7b2e16c2bb0e63d9b80145a22c27e06247f4f1e4a5e4",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14896-7fd484c5a840",
+    "source": "Polonius has a locked chest in his chambers",
+    "source_sha256": "7fd484c5a8402ea353d234a9e6b65bc5c94c40b4955b8c8469d41126b87b741c",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14897-3cafbeea46e8",
+    "source": "Laertes will be King of Denmark",
+    "source_sha256": "3cafbeea46e8381b4298d0721c7bf4f3e7dbbdf8f0f3ba1f0f480c569ec1c784",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14898-8c89b3874413",
+    "source": "Laertes and Brit are lovers",
+    "source_sha256": "8c89b3874413c1a96f7a99ba55ab1bf16d3276a40c6db5d5d078fddcecc9bcfd",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14899-d57b3b01e817",
+    "source": "Lady Brit is unwell",
+    "source_sha256": "d57b3b01e817a44265a0a49d1763a992b724d6e8394c93e564e43cd2b1ef7e54",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14900-f6a4ec1cb982",
+    "source": "Everyone should remain indoors.",
+    "source_sha256": "f6a4ec1cb982de1fc093b65fd102e85e076a7784497ab76d20d58249c64d8499",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14901-131fd58e6e48",
+    "source": "Claudius has romantic feelings for Ophelia",
+    "source_sha256": "131fd58e6e48d40eef3d153cb1e0daf663cadd5cfc22a7e405dd5c6919c8c2c0",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14902-20aab6c5200f",
+    "source": "Ophelia has agreed to become Queen of Denmark",
+    "source_sha256": "20aab6c5200ffd072bfe4cc31a5a94f0579044c00a47cec4e202b621440e5ec6",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14903-95f4983cce94",
+    "source": "Brit hangs out by the docks.",
+    "source_sha256": "95f4983cce94938f63588522dc0eb94ac509f143509e380bb9e4f2d624a56911",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14904-6e4d661d1c52",
+    "source": "Ophelia is troubled",
+    "source_sha256": "6e4d661d1c521ef9a6c4749270ba28dad3814b069feac918be26e44e6f041bad",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14905-c93d268d6174",
+    "source": "Ophelia has feelings for Othello",
+    "source_sha256": "c93d268d61749dc2c5b50e98eeaa921320b89f5f3385d17cec1aa2f9560962d7",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14906-93f2fe7331e0",
+    "source": "Ophelia and Othello are friends",
+    "source_sha256": "93f2fe7331e02743017c4855cdd88d712507a280b6a4036a103fe668ec80e52a",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14907-a77ddf30a3c1",
+    "source": "Hamlet has gone to England",
+    "source_sha256": "a77ddf30a3c179e1077db2df9c98771bce5889a0f0e9e38dd8c3b861ce5c4df3",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14908-01910e4da9c4",
+    "source": "Ophelia is going to England",
+    "source_sha256": "01910e4da9c4d142ed47577982606a46f78bc43254c8ad4e05d364284857b197",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14909-b3f1c6c04624",
+    "source": "there will be a mutiny against Grace",
+    "source_sha256": "b3f1c6c046244e4ec7ab543ce6e402074cb1781b994d44a05011fc21450af4ac",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14910-5eced727b81b",
+    "source": "Hamlet is unfit for romance",
+    "source_sha256": "5eced727b81b97fbdae75cca87b9e8d5ef9e3f336052ab7fb43b9b2c68bd667f",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14911-f158032e938f",
+    "source": "Hamlet is next in line to become King",
+    "source_sha256": "f158032e938ff3551d560f6fba95ea17d233afb0a017ac7b420d12435a6527a3",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14912-35521a759682",
+    "source": "the Book of Fates can show the future",
+    "source_sha256": "35521a759682a84048e9213f7a13906b606d994b8ce1a66b2e3e9a9aa79d6bc7",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14913-2cae82a18499",
+    "source": "Gertrude hid letters from Brit's mother",
+    "source_sha256": "2cae82a18499794022864f6485d73014c0f00c9926f2ebeb4cb0e7cb78bfa367",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14914-fbc77594fbd6",
+    "source": "Horatio needs supplies to make an artist's kit",
+    "source_sha256": "fbc77594fbd61586e74ce76b362126faa1fec8a716eb12dcba2c50f571210103",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14915-34d76235e545",
+    "source": "Othello and Ophelia are acquainted",
+    "source_sha256": "34d76235e5457dd4402e67e2dcda91ef0e5b34fd7a8876c1de4eabc06d6d2116",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14916-d04d9dff783d",
+    "source": "Hamlet and Laertes can make amends",
+    "source_sha256": "d04d9dff783db89f676b61c3fd71715ec59429aca81d2ceed151820440a7524a",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14917-8f664c4b59d2",
+    "source": "TODO CHOOSE TEXT",
+    "source_sha256": "8f664c4b59d298462e40079d4ba09c6f9bbc87bea244b8da739afe7619ed4e14",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14918-f47263e52a08",
+    "source": "Ophelia is intriguing",
+    "source_sha256": "f47263e52a088ad62bc2f3149b989ee2e4cb484e90298ee581e3547f4baa3782",
+    "origins": [
+      "resources.assets:knowledge:245d1381dc61:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14919-9ffbc653e766",
+    "source": "Let's talk of the future. What are your intentions?",
+    "source_sha256": "9ffbc653e766f4d3b9221cbe988b4f2fafd7fd981da99e4d1f19c5f8a99b094a",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2064068"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Ophelia",
+      "cues": "{Bernardo}",
+      "line": 5,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14920-6c4df89d8341",
+    "source": "For the future? Hmm. You know, Ophelia, I had not thoroughly contemplated that yet.",
+    "source_sha256": "6c4df89d834155f83f6cb55582d00a017b3dde362514a865d7487806eb033534",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2064172"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "{Hmm}",
+      "line": 7,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14921-2e26600bbbf9",
+    "source": "For the time being, my place is here at Elsinore. But now that you mention it...",
+    "source_sha256": "2e26600bbbf99fe83ab956986671fdd8b22540c0f04d1314a234a6f356e57c92",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2064341"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 8,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14922-4bea17007a12",
+    "source": "Some of my men already know this, but I've been performing as Lady Katherine at the theatre for a summer.",
+    "source_sha256": "4bea17007a12a219fd7a254d79936a0117cfbbcccd7dbf4581a7f3ae79ebdddc",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2064504"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 10,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14923-28ed2029ef86",
+    "source": "I've even been invited to go to London with a new troupe!",
+    "source_sha256": "28ed2029ef86f479d5cf52dce31bebd4b8f85628141034bc0e83624aab5eb22b",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2064717"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 12,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14924-aa30066f5d1c",
+    "source": "...And I've been feeling more like a woman on more days than ever before, I think.",
+    "source_sha256": "aa30066f5d1c3b394716815dbe83438dcee878198f5a2b66c8b668a37825af11",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2064833"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 13,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14925-80b97db0c37d",
+    "source": "I suppose it'll be interesting to meet people as Lady Bernardo who have never known Lord Bernardo.",
+    "source_sha256": "80b97db0c37d7c51dbbc234d13204b69a3091c7d4090f900e99509b96d646d02",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2065000"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 14,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14926-5354f3f9d676",
+    "source": "Indeed, in much the same way my men 'met' Katherine, I suppose I'll have to introduce both sides of me at some point.",
+    "source_sha256": "5354f3f9d67656b5d0b862aa96257872e35634e28c2806118da1ff8865a83124",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2065199"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Chuckle}",
+      "line": 17,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14927-1a89b3f37be1",
+    "source": "It seems now to me the world is full of such possibility of expression, of life. I never thought of it like that before.",
+    "source_sha256": "1a89b3f37be1333114bf4ee9dd1d410f09adbf50a249352dc47d1e55997d7d9e",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2065436"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 19,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14928-f3addc9edca3",
+    "source": "And it's high time I stopped caring for the thoughts of others and lived what is truest to my soul.",
+    "source_sha256": "f3addc9edca330635697473a8ea64bbeb3bb219f77f61833bf964ab2ce3bb52d",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2065679"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 21,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14929-5b02fb666063",
+    "source": "'Come, you spirits, unsex me here' and all that!",
+    "source_sha256": "5b02fb666063a09327b4aca5b36175018060e6185ca44e7800ac986083876728",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2065880"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_future",
+      "speaker": "Bernardo",
+      "cues": "[happy] {Act_Ahh}",
+      "line": 23,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14930-1bae11d07dec",
+    "source": "What are your plans for the future?",
+    "source_sha256": "1bae11d07decee146442ff64f19bcd1ad3a49dd1bd48d0b5ac1b05e15cf70013",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2065978"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "marcellus_future",
+      "speaker": "Ophelia",
+      "cues": "{Marcellus}",
+      "line": 27,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14931-5c5154ec0932",
+    "source": "The future? Goodness, Ophelia! What d'yeh expect I am? Some kind o' all-knowin', all-sentient god of knowledge?",
+    "source_sha256": "5c5154ec09321d10368932661a7664c8ce25ebc992cbcce36a4e4e9c7b4a9f8e",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2066050"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "marcellus_future",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Gasp_Alt}",
+      "line": 29,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14932-cbf1511f7f6b",
+    "source": "I canna' even think about breakfast tomorrow, let alone anythin' past that.",
+    "source_sha256": "cbf1511f7f6bdab6e1cb85dfd8d1a1bfb629fd819298b708b6ad922f96c1419b",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2066275"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "marcellus_future",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 30,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14933-584ad03183a4",
+    "source": "Isn't the guards' breakfast the same each day? I thought it was porridge and cold meats.",
+    "source_sha256": "584ad03183a42f3bb8f22e6a8dc1ea4c750f72ee484236502df92b44bcb186a8",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2066428"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "marcellus_future",
+      "speaker": "Ophelia",
+      "cues": "[happy] {Hmm}",
+      "line": 32,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14934-01e4cb2094f0",
+    "source": "Lord above, yer right!",
+    "source_sha256": "01e4cb2094f01bc15b8a09659c5780c1a9aa212350900b01b32fb4601cfb6229",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2066607"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "marcellus_future",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Aye}",
+      "line": 34,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14935-cd0b235420d5",
+    "source": "Oho! I feel like I've been freed up t'ponder all kinds o' vast mysteries, now...",
+    "source_sha256": "cd0b235420d598eaff2f1f8c200204d26761cbf010a88ef157777b5103a23c76",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2066653"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "marcellus_future",
+      "speaker": "Marcellus",
+      "cues": "[happy]",
+      "line": 36,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14936-a3752e85af15",
+    "source": "The future... hmmm... the future...",
+    "source_sha256": "a3752e85af1540d0658525a35a937fe0f55f4bbbcee30802d9824735e70608b8",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2066816"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "marcellus_future",
+      "speaker": "Marcellus",
+      "cues": "{Hmm_Suspicious}",
+      "line": 37,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14937-ae373eb3e25f",
+    "source": "Me? Why, I've no idea. Best to ask Guilda on that one. She makes all our travel decisions.",
+    "source_sha256": "ae373eb3e25ffc05dbe80df8190ddf3be9cd4cf5f31924278f8997540e263c30",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2066888"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_future",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Hmm_Think}",
+      "line": 42,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14938-f938e80ab575",
+    "source": "So long as whatever hearth we find ourselves before is warm and well-fed, that's all I need.",
+    "source_sha256": "f938e80ab57580046577659f5bb536a0b20a229d2a46f1e3047bf39f4faba66c",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2067071"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_future",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy]",
+      "line": 44,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14939-03f9797381ca",
+    "source": "Why are you asking me? Rosie always knows where we're going next. I have no clue!",
+    "source_sha256": "03f9797381caaadd3e356dc861e7313a6b2b91c599e4059fe6c45d9188d335f4",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2067258"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guildenstern_future",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Umm_Awkward}",
+      "line": 49,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14940-cbd25dc6fcce",
+    "source": "I just hope the food's good. It's been excellent here, but you Danes are <i>so</i> sewn-up.",
+    "source_sha256": "cbd25dc6fcce0d90c2da156383d3585c539988e3d93d365a82cddcb26dd41421",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2067423"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guildenstern_future",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 50,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14941-ea3139c30f6e",
+    "source": "Bring on the drama, I say! We just came from <i>Wittenberg,</i> after all. The bar is set high.",
+    "source_sha256": "ea3139c30f6e1925af1cc1d3c9dad421e7a78be6add0fde3ed14e50332c4e02b",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2067608"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guildenstern_future",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 52,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14942-68f6c81bc9f1",
+    "source": "Oh, me? I'm returning to Wittenberg shortly.",
+    "source_sha256": "68f6c81bc9f1c0964189d10920172ecf7ca14d19ae3c9ffd3ec7714502396cee",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2067801"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_future",
+      "speaker": "Hamlet",
+      "cues": "{Chuckle}",
+      "line": 57,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14943-367750de067e",
+    "source": "Now that Father is properly buried and memorialized, it's time to go.",
+    "source_sha256": "367750de067efc8107686ff626b95cf1111722b3d87d895ab5e1d82c07fff5f7",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2067891"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_future",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 58,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  },
+  {
+    "id": "p14944-4887e3af50e7",
+    "source": "I realized recently I had the aptitude for scholarship. Thinking myself to death is my favorite sport.",
+    "source_sha256": "4887e3af50e722596a5329927d66cabea5db645ef7bb0d44c4331cc5d2b7b7a8",
+    "origins": [
+      "resources.assets:scenes_present:8e6f17cfdf85",
+      "Assembly-CSharp.dll:#US:2068032"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_future",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 60,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0101"
+  }
+]

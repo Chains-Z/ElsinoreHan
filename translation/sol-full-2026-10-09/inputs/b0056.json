@@ -1,0 +1,3192 @@
+[
+  {
+    "id": "p07776-5967477b351a",
+    "source": "As we discussed earlier, I like your Christ well enough, but he isn't <i>mine.</i> Where I come from, we have hundreds of gods.",
+    "source_sha256": "5967477b351a32d017429f6d13dd59e3f891a91121458d7631348065ab2eedf8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1731864"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoPraying",
+      "speaker": "Horatio",
+      "cues": "[happy] {Hmm_Amused}",
+      "line": 21259,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07777-56c9d0b8d278",
+    "source": "H-hundreds? You're... a h-heathen?",
+    "source_sha256": "56c9d0b8d278b2f060e13ebd7a55012c60362a0f9feb804a05f07e3f5a0308cd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1732121"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoPraying",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Gasp_Intense}",
+      "line": 21262,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07778-f5e993b6694f",
+    "source": "That's correct, yes. I am a <i>heathen.</i> I prefer my devas and asuras. Some wisdom here, a little trickery there... Gods with real <i>personality.</i>",
+    "source_sha256": "f5e993b6694fec24adecff8f2bf3be30adf68a81e04f9cc0e8462173166d6124",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1732191"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoPraying",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 21264,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07779-37e5c423ea27",
+    "source": "Hmph. Well, I suppose we've little to say to one another, then. Let's speak no more ill of any gods, especially in a church.",
+    "source_sha256": "37e5c423ea276c9aec733f3d8116ad7ae11a9fbfa7858b6e9e1e6b0205c29446",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1732500"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoPraying",
+      "speaker": "Bernardo",
+      "cues": "{Hmm_Suspicious}",
+      "line": 21267,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07780-50acadf77329",
+    "source": "Such a shame. I do so enjoy discussing this lily-faced, bearded, fatherly Lord of yours.",
+    "source_sha256": "50acadf7732964159f4ef3a868b41f957a1aecd0072f663ec6ea63f8f4deb3c4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1732751"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoPraying",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 21268,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07781-c3b59d0c52fd",
+    "source": "But as you wish, I'll leave you in peace.",
+    "source_sha256": "c3b59d0c52fd96b06c3d37aaed8dc6c3b6dfa3aea01c6816c82af0bad8363365",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1732930"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoPraying",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 21269,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07782-821a8aa1f14c",
+    "source": "...Listen, Rosie. Do you think... we've made a mistake in answering the King's letter?",
+    "source_sha256": "821a8aa1f14c913e6bbb6258b6177b86e6beb584fe904c9d58e69613775b81e2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733024"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Guildenstern",
+      "cues": "{Rosie_Unsure}",
+      "line": 21281,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07783-4aa5ef2fb517",
+    "source": "Of course not. We're here to <i>help</i> Hamlet.",
+    "source_sha256": "4aa5ef2fb517f28aada60f4cc56d98a1e6ba1b78491982e8f1014cecfa961a15",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733199"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Of_Course_Not}",
+      "line": 21283,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07784-089b14ed0e66",
+    "source": "But if the King is hanging on every little detail we tell him...",
+    "source_sha256": "089b14ed0e66d608ebd8547099b5076e66fd9a179e88a83d89811087e32e1d60",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733297"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Guildenstern",
+      "cues": "",
+      "line": 21285,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07785-982771422707",
+    "source": "...We do look like spies from the outside, don't we.",
+    "source_sha256": "9827714227079ce94cce4e726e3174b83bef57893664fb5f16d418abdf6435ab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733428"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 21287,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07786-4c956e732573",
+    "source": "But if we love Hamlet, and want to see him flourish, then...",
+    "source_sha256": "4c956e73257361cafac3413a4f884857021313cf2946b2bcd7d66bb537458b1d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733534"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 21288,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07787-9344b110225a",
+    "source": "...We owe it to his parents to tell them about his state of mind.",
+    "source_sha256": "9344b110225a83c5bbc8de21980c5f092448d148ca0724e96e5760895ab5ea33",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733656"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Guildenstern",
+      "cues": "{Mm_Hm_Firm}",
+      "line": 21290,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07788-a88c8b202970",
+    "source": "My only concern...",
+    "source_sha256": "a88c8b2029709c2d18ac093090bf447e86a1e28f27c224a53c704bc0c5ff2c02",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733789"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad]",
+      "line": 21291,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07789-3baecbf4aefa",
+    "source": "...Is that Hamlet may not see it the same way.",
+    "source_sha256": "3baecbf4aefa35fd3375cc64ebfaa0b0eeaedae8270ed0bafb71f5fa18a4ab7d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733827"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "{Hmm_Think}",
+      "line": 21292,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07790-b62a2d068ee1",
+    "source": "And if he doesn't...",
+    "source_sha256": "b62a2d068ee169c52af3ac7c349aafef242a0de3e95016ffd247297cc429f424",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733921"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 21294,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07791-5c9a99b58060",
+    "source": "...It could mean our deaths.",
+    "source_sha256": "5c9a99b58060406c0994a1f93b91c3460d2b40281066b75808001bbc6bbfefde",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1733963"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad]",
+      "line": 21295,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07792-5a64bdfa8f8d",
+    "source": "Surely Hamlet wouldn't harm us, would he?",
+    "source_sha256": "5a64bdfa8f8d14e7181130f8209a946ebdde8e904f846431401d551cfbb90a03",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1734021"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Guildenstern",
+      "cues": "{Hamlet_Sad}",
+      "line": 21298,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07793-954bf120d00b",
+    "source": "I cannot say <i>what</i> he'll do in his maddened grief. No one can.",
+    "source_sha256": "954bf120d00b73a148ea7adc42495d23c49c29a2a3c25f048a7592ed89e8106f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1734105"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Sigh}",
+      "line": 21300,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07794-26c92e3f3f89",
+    "source": "What's clear is that we cannot trust this Ophelia girl.",
+    "source_sha256": "26c92e3f3f8931cb52cede3b663893d0ca0790c89b966569da393441a0987692",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1734244"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust]",
+      "line": 21304,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07795-93eecc5231ea",
+    "source": "She may have the best intentions, but her inquisitive nature is a threat to us.",
+    "source_sha256": "93eecc5231ea851829376105b6eb318e2be70ec14e54158e64c7bb6fcd8df8e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1734356"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 21308,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07796-06d9e2183ce3",
+    "source": "Let's put our thoughts to action. We'll dog Hamlet's heels.",
+    "source_sha256": "06d9e2183ce36727b163c4ad70bb4075b67e067a1977d010ba62430749f03345",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1734517"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_RGNervous",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 21309,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07797-606f7320905e",
+    "source": "What was that sound?",
+    "source_sha256": "606f7320905e9f1541de3487f26a975d5e664ce984758fbc3f467a647dd82ae1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467368"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 21315,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07798-f573cb34d21f",
+    "source": "The... outer gates...",
+    "source_sha256": "f573cb34d21fdd6d1da3b56c3599ba13b0036d2c8ac4af4b294805925115540a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467410"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 21316,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07799-bd39d32fb603",
+    "source": "B-Bernardo, who... who's comin' up the bridgeway?",
+    "source_sha256": "bd39d32fb603f3f213bc3638115fd8c7597188b6b6cfe70bf3861d349dbf1a6f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467454"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 21325,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07800-cb7948840b93",
+    "source": "Marcellus, I believe we have fallen into a trap.",
+    "source_sha256": "cb7948840b931b09c1ef39a429c70e418b48233345bfdf0e71a9dc1e5bbceb67",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[sad] {No_Sad}",
+      "line": 21328,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07801-3edc3c3d7687",
+    "source": "Prince Fortinbras.",
+    "source_sha256": "3edc3c3d768703e4a04fae5a99c70bc7cb1c11f2099ac6149f2585a46a231b42",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467652"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[sad] {Fortinbras_Shock}",
+      "line": 21330,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07802-e4842d6f630c",
+    "source": "He's coming... I can see smoke from the town.",
+    "source_sha256": "e4842d6f630c0687bbe823906a21ab4fb7378608e8ad89d96abf9c066d66ddc5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467690"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21332,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07803-663e44b9d197",
+    "source": "We have nothing prepared, thanks to the command to disarm. This is to be the end of us.",
+    "source_sha256": "663e44b9d197f8ff36c18db0e0fa92218c1654bc5c49b8fee52513dc82e7b566",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467782"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 21334,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07804-83f22d714b26",
+    "source": "I guess Elsinore is really fallin', innit?",
+    "source_sha256": "83f22d714b26b1407760702f7133b6954bd1e7ef796db5ab8824296362b8d743",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1467959"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21336,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07805-6ea4179442ba",
+    "source": "Yeh know, if yeh don' want to die here, Bernardo... yer a young man. You could get out. Get to the docks. Have a long, quiet life.",
+    "source_sha256": "6ea4179442baa482937d7b07333a2bc1a946ddfcf3559cf4072550dd9d3190f4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1468045"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21339,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07806-e80549f41674",
+    "source": "You ought to know me better than that.",
+    "source_sha256": "e80549f416748b07a00f5f26fd894fe11930f2957f24223398384fd13d068bcf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1468308"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21342,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07807-f9b16edf48fd",
+    "source": "...Marcellus, there's something I've never told you before.",
+    "source_sha256": "f9b16edf48fde90311ae4af2aa8a4e0c1a2ba5a2f9497cbe01f1e0f8467ef698",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1468386"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Marcellus_Sad}",
+      "line": 21346,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07808-046ff512a9d8",
+    "source": "I consider you to be one of the greatest, noblest, most kindhearted men it has ever been my pleasure to know.",
+    "source_sha256": "046ff512a9d8efb5738a6870ebe508a3ab8fae7f4d8ca01ab1ac34d669b43e68",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1468506"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21348,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07809-af8472074f6a",
+    "source": "Let us swear that whatever happens today, we shall someday raise our cups to one another in Heaven.",
+    "source_sha256": "af8472074f6a7e734d36524b82850eaaf515284d224fde84968adca280a358f2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1468727"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21350,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07810-666857f9b07a",
+    "source": "Don' say that yet! The day's not over! Tryin' to jinx us?",
+    "source_sha256": "666857f9b07a6c7e6ef5743b31cf223180bbaf2ba29c30070c5bf8895fdb0c4a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1468928"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Pain}",
+      "line": 21352,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07811-3acfce401ab6",
+    "source": "Who do you think, Marcellus?",
+    "source_sha256": "3acfce401ab65450f949a63abdd0e70898b0e2383203cb1562d1fbe7954280c6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469044"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Chuckle_Short}",
+      "line": 21355,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07812-21a90fbd4468",
+    "source": "Good thing we were prepared, eh?",
+    "source_sha256": "21a90fbd4468f306b73d1604d91800c22c5654a12947b0c37c46f3a0a8425a98",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469102"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 21356,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07813-aa098db2d9ae",
+    "source": "Men! To Arms!",
+    "source_sha256": "aa098db2d9aeba219cdbc4bcb95a45e1c37659a634aa4b14a31d75c0b8f4d31c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469168"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Men_To_Arms}",
+      "line": 21357,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07814-7d1c61e306b0",
+    "source": "Good afternoon, gentlemen. We come with the utmost goodwill.",
+    "source_sha256": "7d1c61e306b0e16d2957c44473f232263a2e2d85effcbb526428a9c20969835c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469234"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Greetings}",
+      "line": 21368,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07815-2669b0412f52",
+    "source": "Goodwill? Do plumes of smoke signal goodwill in your land?",
+    "source_sha256": "2669b0412f52b1e2581e5e00c893b220c0bc1db0317fe9e798b61a36a2ebea76",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469356"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Really_Cold}",
+      "line": 21370,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07816-6516bd310714",
+    "source": "We have no tolerance for invaders.",
+    "source_sha256": "6516bd310714e70e795dd0dfcd3833d969652dcf0c2e4fddcb36d5f8593af856",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 21371,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07817-190b7d8875d3",
+    "source": "Or liars, for that matter.",
+    "source_sha256": "190b7d8875d3c22a12151ae20ce24f1183bbf82395f5ee82d32c6aae1085dc32",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469544"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 21373,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07818-c082c4be7c79",
+    "source": "No one further need die today, so long as you submit to the will of my rule.",
+    "source_sha256": "c082c4be7c7955b900c9ad11481eb108c7195e9c55902ed5101edc5fc7c55223",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469598"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Heavy_Sigh}",
+      "line": 21375,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07819-5aa4779b7136",
+    "source": "M'lord, we'd be awful sorry guards if we let yeh traipse on in and imprison our lord!",
+    "source_sha256": "5aa4779b713633c27528498f4c1d867e73091712ba719d665d04ec01560b86f5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469753"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[disgust] {No_Angry}",
+      "line": 21376,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07820-c3e652bd30b7",
+    "source": "Denmark will never belong to the likes of you. Not if <i>we</i> can help it.",
+    "source_sha256": "c3e652bd30b73249dd364ed1e32ce2cb5ee1a099bc1977febf4e98172d2a5a0a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1469926"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Never_Yell}",
+      "line": 21377,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07821-68192dcc6a82",
+    "source": "...So be it. The olive branch was refused.",
+    "source_sha256": "68192dcc6a8216b0835c6a41b81c30c00b7e8b37cbe62af8c59741eff4858300",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470139"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 21381,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07822-a25792f3154f",
+    "source": "Die, then.",
+    "source_sha256": "a25792f3154fd9620441a473ee36e62ac50397ac343d9824576db1a43ec33c59",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470225"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Die_Then}",
+      "line": 21389,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07823-1a420781fcd8",
+    "source": "Useless men that they are, they are no match for Our glorious might.",
+    "source_sha256": "1a420781fcd8b8b7bfa733581f28fa4461ca1e107bece705976d516b664a2996",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470247"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 21391,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07824-75c0dd6112f5",
+    "source": "Onward, men. To the seat of power. Slay all who stand in our way.",
+    "source_sha256": "75c0dd6112f5f0ee04f23ec538959e47bf3aee1aaac2b8759e27a8dd4867f0ac",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470386"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Onward_Yell}",
+      "line": 21392,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07825-2230ca358d8d",
+    "source": "The march towards the castle takes no prisoners.",
+    "source_sha256": "2230ca358d8dbdd91d528ed49767fb45c948863abef41ef9363dabc483444f82",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470577"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07826-11a7a4ba3596",
+    "source": "At yer service, Captain.",
+    "source_sha256": "11a7a4ba3596388dc2e944abe10198d09727f0ead9ec952c1a73199b69ba965c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470711"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Cygnus",
+      "cues": "",
+      "line": 21401,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07827-42b0fa0b254f",
+    "source": "Stand down, Fortinbras.",
+    "source_sha256": "42b0fa0b254f98d8418ad54c8d9784550b2d722aa6a2381678a5365bdbcadaee",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470761"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 21411,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07828-e94a447011f4",
+    "source": "I am most impressed, Guard Captain, at your ability to rally in response to us.",
+    "source_sha256": "e94a447011f44d313d951d0124d40d1a31185b31689cba004ef47ff9e0ca5ecb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470809"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 21412,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07829-e0a10c52b506",
+    "source": "But will it be sufficient? I think not.",
+    "source_sha256": "e0a10c52b506fd86e67b49cb80b93916f1f9dff8ed4ca1062342d49db8a6d9b1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1470970"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 21414,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07830-b85c4d3ce2aa",
+    "source": "Even if you take us all down, Elsinore will still stand with Denmark. Of that, I'm certain.",
+    "source_sha256": "b85c4d3ce2aa92cca3efe5e635015466c1b785b3c935f696cb1daa34d19f6e98",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1471050"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 21415,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07831-fbad38866973",
+    "source": "Let us find out, then. For me, with sorrow I embrace my fortune.",
+    "source_sha256": "fbad388669736c0873786abb840f049174b0362e363e616a99380e064e3d6862",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1471235"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 21417,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07832-28dbee1940f2",
+    "source": "Why, it would seem you're outnumbered, my good man.",
+    "source_sha256": "28dbee1940f2d977e06495ebe9417318cdb5247bcc8f5f81dab8b5d7570d5a30",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1471366"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 21444,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07833-387304611604",
+    "source": "Now. Would you like to stand and fight, or turn tail and flee? We are honorable men, and will give you the option.",
+    "source_sha256": "3873046116048393622e75edd7a9bdcb122379e0f33804966b147e0b856ee2ae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1471470"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 21446,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07834-df538ff9b062",
+    "source": "You have approximately ten seconds to make your choice.",
+    "source_sha256": "df538ff9b062724c8e529b97fc57e66ae06d42ac10400025dfd94f1af7a0bf5f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1471701"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 21447,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07835-0a66bdf4c638",
+    "source": "After that, we'll gladly enjoy rending your armor plate from plate.",
+    "source_sha256": "0a66bdf4c638e3ab22170160cd5a83ccb12818abfe6b7fa8fe68421619aeb7c8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1471813"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 21448,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07836-ac76889f8eb5",
+    "source": "W-we <b>will</b> return! You cannot rebuke us forever!",
+    "source_sha256": "ac76889f8eb562f69b893d8183dc47cf28bf8f2a2e11b98a2c681c6d396ca363",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1471950"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 21450,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07837-1ecd85131c7c",
+    "source": "Good. Bring every man who can hold a sword. We'll show you what Elsinore is <i>really</i> capable of.",
+    "source_sha256": "1ecd85131c7c605e95404cc071807878b6586e9197d6ea85c3136b957bef2a93",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472060"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 21452,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07838-33f8f01e7d06",
+    "source": "We en't defended the sound for hundreds a' years without showing a few of yer kind who's in charge!",
+    "source_sha256": "33f8f01e7d06c67b6dfab5d83471387a4fec1d4d12a1c474a3917eaae5db041c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472265"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "[happy]",
+      "line": 21454,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07839-fa06f87a362a",
+    "source": "Run along home, and tell 'em Bernardo an' Marcellus sent you!",
+    "source_sha256": "fa06f87a362a430fd40e0e7b52e3c91c4bcbddab3629a2b0b4e689e13912035c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472466"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Marcellus",
+      "cues": "",
+      "line": 21455,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07840-62e314bc1ca4",
+    "source": "Ungh... retreat!",
+    "source_sha256": "62e314bc1ca4746951ac73fbe86701a9c1ecd09759f353139ef4c1a2ae320c50",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472590"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AtGates",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 21456,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07841-be8d699d2d7b",
+    "source": "You <i>are</i> persistent, aren't you?",
+    "source_sha256": "be8d699d2d7b8384f9e595421d22b7ffdd416fa7e4ac44a911e9e5721ce5ef89",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1766163"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[happy] {Ahh}",
+      "line": 21473,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07842-a9bf9b4f3f28",
+    "source": "Look at you, burning away all the fates you earned. You've seen so many outcomes! So many possibilities!",
+    "source_sha256": "a9bf9b4f3f28c4fe7a682e3fa28304d84d63dbea925682a894b729b8440c0527",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1766241"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21479,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07843-e0776a47a1a9",
+    "source": "And yet you've elected to choose <i>none</i> of them. Not only that, you've taken a match to them.",
+    "source_sha256": "e0776a47a1a91ee0d3d759baa0dc7f919dd9fa27acbfa270701f376adb2c9be4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1766452"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[disgust]",
+      "line": 21482,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07844-f4de2fc575d9",
+    "source": "Your indecisiveness is, mmm, impressive.",
+    "source_sha256": "f4de2fc575d91af7c470663bb374ff402e0e83a6dc70a771866b3ba05dc2b7a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1766651"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[disgust]",
+      "line": 21483,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07845-455f4f69bcab",
+    "source": "Lord, what fools these mortals be!",
+    "source_sha256": "455f4f69bcab3d6cf6f4e245146ec32b156d1db3e1de33eea83df4be277d00b4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1766733"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[disgust] {Huh_Bored}",
+      "line": 21484,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07846-2106b6946b29",
+    "source": "Need I tell you to go away once more?",
+    "source_sha256": "2106b6946b2925eee3b148b7e6accbf722774c6ee19d4fd0670439033a1ebfa7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1766803"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Quince_Hate}",
+      "line": 21486,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07847-2ffa9303d818",
+    "source": "How rude. I come bearing a gift. Something to, ah, change up the game, so to speak.",
+    "source_sha256": "2ffa9303d81841570e90d69e9f85a93643cd621dbe759ea7f02b2260aa90aa8d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1766879"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[smile] {Goodness}",
+      "line": 21488,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07848-9f14b5298376",
+    "source": "You've already witnessed a small amount of the <b>power the Book of Fates can bestow.</b>",
+    "source_sha256": "9f14b529837618c052dd29c71760f746caaf175697b3184c9828f63717353df6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767048"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 21489,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07849-4398aaf0adf4",
+    "source": "Wouldn't you like to... try something new?",
+    "source_sha256": "4398aaf0adf4616d01a2f9cbf76591abd1d35f0206f06e04d6dcb8cc79e68d3c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767229"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 21491,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07850-30477daaf3e0",
+    "source": "To see things from <i>my</i> point of view?",
+    "source_sha256": "30477daaf3e07bdf98ebf9a0571dee4fa87a07954c6c723dfdaa7e84d2c0eeaf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767315"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21492,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07851-a4d275a9a3d0",
+    "source": "I'll give you a <b>little phrase you can say</b> to harness the Book's power and alter the story.",
+    "source_sha256": "a4d275a9a3d0ebca1bbf6429ec9ad6eb7783fae8983227ea20e24b62bf35df2a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767403"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[smile] {What_Fun_Evil}",
+      "line": 21496,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07852-52daeed33eaf",
+    "source": "What's the catch?",
+    "source_sha256": "52daeed33eaf254af29053897e2b890a5c3c88fdff38c5bc19feabec1ea9a148",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767600"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Disgust}",
+      "line": 21499,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07853-9c9b078be54c",
+    "source": "Oh! None at all, none at all.",
+    "source_sha256": "9c9b078be54c0ff4de1d4e03e40b42cf444b54a139e2d330f810173aaa9829d7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767636"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[happy] {Chuckle}",
+      "line": 21501,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07854-b8a9a9c34352",
+    "source": "Save that you'll know what <i>using</i> that power feels like.",
+    "source_sha256": "b8a9a9c34352ebb6453debbd0865947c5e3f4922b9ac5e5cc34f88761236b56f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767696"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 21502,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07855-6e1a51823e61",
+    "source": "And I think you'll find that once you've tried your hand at it... going back will be very, very difficult.",
+    "source_sha256": "6e1a51823e6162ee80c7465dd0f7da37f8aaf72df9a23654a6a740150ec803f4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1767822"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21504,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07856-00d7f2eb1a26",
+    "source": "If you use it <i>too</i> much, some might even say <b>it's impossible to return to the way things were!</b>",
+    "source_sha256": "00d7f2eb1a26a6942e0cf14d2e90cb89a5f0537adaef7c8f8989232f0dcbaca5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768037"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 21505,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07857-4fb7e4c7c415",
+    "source": "But of course, you'll know when you've reached that point. We <i>both</i> will.",
+    "source_sha256": "4fb7e4c7c415294034d6d037a53f8ee5e50df4dcd77ab746f4dc0e809b08e262",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768254"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21507,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07858-e6864abf74a8",
+    "source": "If the clock strikes midnight on Friday evening and you've <b>used this power</b> on everyone, we'll speak further.",
+    "source_sha256": "e6864abf74a8be7ba13f29102afcdfd35664bb9643fe581a05ca1045441b4c08",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768415"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21512,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07859-3ca0b6757ffd",
+    "source": "You'll be a very different girl then, I suspect.",
+    "source_sha256": "3ca0b6757ffd66d2d76e0de44e30b865c1ea5235320f20102aa069e174f66811",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768648"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialKickoff",
+      "speaker": "Quince",
+      "cues": "[murderface]  {Heh}",
+      "line": 21516,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07860-ea01f477e638",
+    "source": "That was the last death.",
+    "source_sha256": "ea01f477e63849b3d24baf7d34a74305fbc65f2ca09a9c6b61ef835abbf05e50",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768784"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[happy] {My_Lady}",
+      "line": 21531,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07861-c0fd23ec8cdb",
+    "source": "All of them, gone.",
+    "source_sha256": "c0fd23ec8cdb38633fa8dad26ce697eac054466f980c946f98c941c9ac4a5867",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768834"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21532,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07862-300d835f5861",
+    "source": "What beautiful horrors you've wrought upon this world.",
+    "source_sha256": "300d835f5861ba4be809d06c9b89d6b58b5055c0c75408e23e13a94bf5b956c0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768872"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 21534,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07863-ecf9578cf2ba",
+    "source": "Do you feel thrilled now? Or frightened?",
+    "source_sha256": "ecf9578cf2ba94a9f4eb17feabb5c7b7403a5787934b57777ce110e8bf72f0ad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1768982"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[happy] {Heh}",
+      "line": 21537,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07864-0600b7e99039",
+    "source": "I feel...",
+    "source_sha256": "0600b7e9903987904384aa275f0d52b90d9809912623826735b55daf726938c4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769064"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Ophelia",
+      "cues": "{Feel_Nothing_2}",
+      "line": 21543,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07865-ba0fe28c4780",
+    "source": "I feel nothing.",
+    "source_sha256": "ba0fe28c47807490acc5403a8ca4e2ed6261a1dee36b06f75760d43a971818db",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769084"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Ophelia",
+      "cues": "{Feel_Nothing_3}",
+      "line": 21547,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07866-25392c0aee45",
+    "source": "They're just bodies. Just things. Just little dolls, or characters. They're not people, not really.",
+    "source_sha256": "25392c0aee45ee64fad2cef009128629cff87a5cda418f8f0c06b31e8a11bff9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769116"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 21549,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07867-3ea61bbaa25e",
+    "source": "Yes. Yes!",
+    "source_sha256": "3ea61bbaa25e173dc575c301a10e6a8e530e8a35e4ec19c1ff0db118a3a33fad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769317"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "{Ahh_Happy}",
+      "line": 21553,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07868-71ae97d741b0",
+    "source": "Now you see. Now you understand. I did warn you you'd be a different woman when you came to this point.",
+    "source_sha256": "71ae97d741b0d72c94fdb43ca29cf3df1ad9d2e52585733a5ade28dd9daf8c09",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769337"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 21554,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07869-3b8f0514c178",
+    "source": "And so you are.",
+    "source_sha256": "3b8f0514c17809493b9a21260a20974730ae2023070b81b1a6fa31e881ec2193",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769546"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 21556,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07870-a62e472a37d4",
+    "source": "Yes. There's simply nothing. No sadness. No pain.",
+    "source_sha256": "a62e472a37d4dc3443dbcf217e18af17aa677c6493c02d51605d1afe66f81678",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769578"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Ophelia",
+      "cues": "{Sigh_Wistful}",
+      "line": 21557,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07871-d3660215b0a4",
+    "source": "As I thought. Come with me.",
+    "source_sha256": "d3660215b0a47d390c9fbfa92fae550a4e04b44f417cc56487516b22a81fd187",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769678"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 21559,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07872-ffdf14aab2c4",
+    "source": "We've somewhere to go, you and I. Somewhere far away from Elsinore.",
+    "source_sha256": "ffdf14aab2c405cd471888863a7c9afd01f74a9eb418309eae9ca903bc5ea176",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769734"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 21561,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07873-bdf3ce24ea91",
+    "source": "What can you mean? Somewhere else on earth?",
+    "source_sha256": "bdf3ce24ea911a031000292ca61df31e732d19de2d18b66bf798cc864fa0d8c0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769871"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 21563,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07874-161f1dc7ebc1",
+    "source": "No, Ophelia. Somewhere else entirely. A different world. A new place.",
+    "source_sha256": "161f1dc7ebc15e0dd68b0f7398a7ad543292e598fdf7b7f9b17f4038092b908a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1769959"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 21565,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07875-e64b1b97c245",
+    "source": "I must admit, I didn't realize how nice it would be to see someone else like me. Someone who <i>understands.</i>",
+    "source_sha256": "e64b1b97c245a3a452867bde65470c3e8259e21c6e6d7868adf237915e72050c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1770100"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[smile] {Ahaha}",
+      "line": 21568,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07876-5bb1469630de",
+    "source": "The first time I used the Book's power to kill, I was so very frightened-- but that was so very long ago.",
+    "source_sha256": "5bb1469630dea469bc2d548fd98ba39e6fb0e3d18eb1dc3c3b10a4265ed207a3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 21569,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07877-32824dd2eaf3",
+    "source": "Once you learn to see them as tools, as pieces, there are so many <i>more</i> things you can do.",
+    "source_sha256": "32824dd2eaf3255f9de2b22b33945c4a93bb01768273ff714e858b58570c9cdb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1770536"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 21570,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07878-ae546d2dc056",
+    "source": "And there is yet time for all of them, now that peace has come to Elsinore.",
+    "source_sha256": "ae546d2dc056608559bf4b51c7904cfbe18007dcb8d6bbeb0dea95ace4d1edc0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1770731"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21572,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07879-dac676758287",
+    "source": "I do so cherish this silence.",
+    "source_sha256": "dac676758287a2991c5b368281259bb331e11312a2e2d3936fd81332d3e9e9f3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1770884"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_Ascension",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 21574,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07880-bce9809a398a",
+    "source": "The ending!",
+    "source_sha256": "bce9809a398a09cf537eb57aa71f77ee048881991e997d0c1630370b3055f46d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1770944"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07881-d5aabb59c31a",
+    "source": "Everyone, please, your swift attention is required. I'll be brief.",
+    "source_sha256": "d5aabb59c31a054c09c6c572958fb73f5a5738a9ca331f69de4a9f86c939516d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1771884"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Now_Then_Firm}",
+      "line": 21802,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07882-f2e1a9d6444a",
+    "source": "One of my men has located a... corpse.",
+    "source_sha256": "f2e1a9d6444a47e5967f8edba1a4e4e6fe370f54cd189f749c58749413919fd3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1772019"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21804,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07883-1762dfc3f46b",
+    "source": "I-it was in a rather horrifying state. Mangled beyond belief. Almost as if by a wild animal, but...",
+    "source_sha256": "1762dfc3f46b79a10f29c8bfebd0269f329ab725f4f44789edfb0d79b293bf06",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1772097"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Bernardo",
+      "cues": "[surprise]",
+      "line": 21805,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07884-25d2188a80de",
+    "source": "Without a wound.",
+    "source_sha256": "25d2188a80de7fdd39e4719299898bc06440d88f468f4ed31492d823e57727a9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1772430"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Disgust_Tired}",
+      "line": 21807,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07885-fe3c5b1326ba",
+    "source": "Those of us who can are investigating further. Please stay alert. Remain in groups. Do <b>not</b> go anywhere alone.",
+    "source_sha256": "fe3c5b1326ba76b0979db473fa9ac52e7efef747fc6b8e4415da80ffec27ad8d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1772464"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21809,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07886-b8e6bea8de9f",
+    "source": "Elsinore is locked down until further notice.",
+    "source_sha256": "b8e6bea8de9f33663e3a27772b77a21db3a6696f401883771ccc95d31990a974",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1772699"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21810,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07887-f760914588bc",
+    "source": "One of the guards has located a... corpse.",
+    "source_sha256": "f760914588bcd9143632b27697e508c1ebd9bd321149317f2e625d82e57dc7af",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1772791"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "King Claudius",
+      "cues": "[surprise]",
+      "line": 21816,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07888-a167d0f2f9e7",
+    "source": "And Guard Captain Bernardo is... dead.",
+    "source_sha256": "a167d0f2f9e719ec42f55615fa6a71195dc3c15cc52772324609b662410da116",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1773435"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "King Claudius",
+      "cues": "[surprise]",
+      "line": 21824,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07889-b693c3bf6a77",
+    "source": "I've changed the world to create deaths in the past. Sometimes even deaths of people I loved.",
+    "source_sha256": "b693c3bf6a773740d0052584c4853d14c381c2b68f1a2fe2827be17f3c3dad77",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1777447"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 21837,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07890-c1e8d96908d4",
+    "source": "But it wasn't like this. That was <i>horrific.</i>",
+    "source_sha256": "c1e8d96908d49f952a60788858c27fa4e561b68acd2a2fe2d5f42c2305f72309",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1777636"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 21839,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07891-022c7b084f29",
+    "source": "Enjoying your new tool?",
+    "source_sha256": "022c7b084f290b909534061dbb48ab49b1e5e2f12dd0b2c01e1c52b2b2fd4e5b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1777738"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Quince",
+      "cues": "[smile] {Ahh_Happy}",
+      "line": 21844,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07892-121963b7eca8",
+    "source": "Not at all. This tool is cursed. Take it from me.",
+    "source_sha256": "121963b7eca85644abd8f02a1dac841ed5a67ac62bb922a35c137b90fd1f5fc4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1777786"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Ophelia",
+      "cues": "[sad] {No_Sad}",
+      "line": 21846,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07893-5a4583dcc1ce",
+    "source": "I thought this might happen. Indeed, I expected it! But you're mistaken.",
+    "source_sha256": "5a4583dcc1cee367d6ce81baee6aa92317fa0c7b8681bec73299272cd25ffbdd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1777886"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 21850,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07894-f5b3e331542f",
+    "source": "You see, there is no such thing as a cursed tool, not really. A stone can be used to build a home or bludgeon a skull. The stone has no intention either way.",
+    "source_sha256": "f5b3e331542fc5bbfaedc4c51ad22405a05428de0b44a0913602150dd43d0353",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778033"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21851,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07895-27fca1930d8d",
+    "source": "Regardless, this is wrong, what I'm doing.",
+    "source_sha256": "27fca1930d8dc3f140bdf1249904230b4c5e10011833dd4c601db413b65446e9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778350"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Sigh}",
+      "line": 21852,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07896-a5a4c64cdc95",
+    "source": "Why am I listening to you anymore?",
+    "source_sha256": "a5a4c64cdc9586a4368006b85dfa48d12b3ab814065896dd3fc5aa831460c3a4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778436"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 21854,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07897-e3c45618aa2c",
+    "source": "Why, indeed?",
+    "source_sha256": "e3c45618aa2cbbe021e317117ae28bf82a529de0d56dac12c466a84718500882",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778506"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Quince",
+      "cues": "[happy] {Heh}",
+      "line": 21856,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07898-7583c2064bf3",
+    "source": "Au revoir for now!",
+    "source_sha256": "7583c2064bf3347a9adabfb0fe63063bd7ec24be99f74bc98bb1ad94d56d8c82",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778532"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_InitialMeeting",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 21858,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07899-d1778733b445",
+    "source": "Please, everyone, I know you have questions, but I have no answers at the moment.",
+    "source_sha256": "d1778733b44507dfe1202c2393a417ece8874cb791146e5bc9a206ac53ff57c1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778570"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21881,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07900-6b68daac91f6",
+    "source": "At this time I'm ordering that all remaining citizens of Elsinore stay near the castle's center.",
+    "source_sha256": "6b68daac91f68541b1aef42f3232b76b905c13b832d6dbc8e131d2e4256fa520",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778735"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21882,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07901-ddfb77f57e11",
+    "source": "My men and I will patrol further.",
+    "source_sha256": "ddfb77f57e11a079161ccef33623997addb93637f05b731624f3076413697f1c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778930"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 21883,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07902-04043de1bc82",
+    "source": "Folks, I know yeh've got questions. My thanks for gatherin' here.",
+    "source_sha256": "04043de1bc8256198b17e633ee3cd302d94c32d0ca2d00d905142ec39ef0095f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1778998"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21888,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07903-879d3ab36c43",
+    "source": "Those bodies you've heard about by now-- I <b>saw one of the murders</b> wiv' my own eyes.",
+    "source_sha256": "879d3ab36c432c02f7d011764921a0280802dd32aafc88b88980b206c66818e5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21889,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07904-5976627c0b73",
+    "source": "Folks, I know yeh've got questions, but I ain                                                                                              ' got answers jus' yet.",
+    "source_sha256": "5976627c0b73a0d8bdc3ca48063c0aff38f56b271e29e9d4c5fc86d7deb314f6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1779497"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21892,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07905-c9cb1251daff",
+    "source": "Right now, we're mandatin' that all remaining citizens o' Elsinore stay near the castle's center.",
+    "source_sha256": "c9cb1251daff633fe40da7cf6e087c46f34690dfd9f384ad7eb59089b450ce8d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1779824"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21893,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07906-f2bd484226b8",
+    "source": "The remainin' guards an' I will patrol further an' see what we can spot.",
+    "source_sha256": "f2bd484226b8d6b1b8d96f98c4e8b879513be15d238aa3e4581bd6707032b20f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1780021"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 21894,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07907-481c35ac2cc8",
+    "source": "I called all of you here out of a desire to seek safety in numbers. Bernardo, Marcellus... both dead.",
+    "source_sha256": "481c35ac2cc8b8b841b4b4c2c8632352601ef041b9e6eb69386e858c9c1c3126",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1780168"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 21898,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07908-c5e3705167cc",
+    "source": "More mangled bodies have been uncovered.",
+    "source_sha256": "c5e3705167cca1bc1da7114a386d562d9fde00b8be66998b0dd44c7d9dad1db6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1780373"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "King Claudius",
+      "cues": "[surprise]",
+      "line": 21899,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07909-45c2bb4e6422",
+    "source": "We have yet to identify the cause. Everyone, group up. Watch your backs. Trust no one.",
+    "source_sha256": "45c2bb4e6422bfdc7f0a05b051447bfeff4d4f727793f194a5b5076621146f5e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1780455"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "King Claudius",
+      "cues": "[surprise]",
+      "line": 21903,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07910-19da64f89d8a",
+    "source": "Remain close to the castle center.",
+    "source_sha256": "19da64f89d8abf0be28c2ae5863764875aeee43ab87a4333c0bbaafa35db52d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1780630"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "King Claudius",
+      "cues": "[surprise]",
+      "line": 21904,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07911-33ae37b65cbe",
+    "source": "Let us pray for a swift end to this nightmare.",
+    "source_sha256": "33ae37b65cbe8234f4f27be416a4c396c5bb17dacbbbfe0cb2c8c4bee0872e42",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1780700"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 21905,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07912-8b01f077ea79",
+    "source": "(Why? Why can't I stop?)",
+    "source_sha256": "8b01f077ea79ead087a90e7a24c2711f06aafa8314ae48975d9270859f806551",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1784473"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Why_Angry}",
+      "line": 21912,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07913-a7a1fc74d1cf",
+    "source": "(It's so <b>easy</b> to crush them all.)",
+    "source_sha256": "a7a1fc74d1cfb40e015e83ab28e1d494fc20179ad5077b4e41ca649df7b8fd9f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1784523"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WITCH_SecondMeeting",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 21913,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07914-9feff315e8e6",
+    "source": "I called all of you here because I didn't know what else to do. Bernardo, Marcellus, my uncle... all dead.",
+    "source_sha256": "9feff315e8e66ff97cf222975ac6fe4ef7dfc18ee392950b519ea336fffe3055",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1780794"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 21927,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07915-718a434376e6",
+    "source": "Remain in the Great Hall. No one is to leave.",
+    "source_sha256": "718a434376e6b3ce69a557bec040c757acb2872f040387767220cb4e528d223b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1781009"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 21935,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07916-1be897a55248",
+    "source": "I never thought life would come to this. My husband and son are both dead in the mere blink of an eye. And none of us know the cause.",
+    "source_sha256": "1be897a5524889e7ac71cef356bd6704f678f1e38e7cf581b4ff68561e7b7316",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1781101"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Hmm_Pain}",
+      "line": 21940,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07917-2c5354e94fa9",
+    "source": "There are bodies everywhere.",
+    "source_sha256": "2c5354e94fa94eae0cb9618fa173f640dfa1974f506f095034ffc40429fd6b62",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1781370"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Queen Gertrude",
+      "cues": "[despair]",
+      "line": 21941,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07918-2b0cc903baeb",
+    "source": "What little I know, I know this: We must trust one another if we are to survive. We must keep close.",
+    "source_sha256": "2b0cc903baebd449cc8f660897c3832562309d4899e6fc53b0854f115830e5de",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1781428"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Queen Gertrude",
+      "cues": "[despair]",
+      "line": 21943,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07919-d3f40bcdaea1",
+    "source": "Please don't stray too far. <i>Please.</i> For your own safety.",
+    "source_sha256": "d3f40bcdaea11a02512c1a60ae30d02b7080f948a6280df4ea63be488956ee95",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1781631"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 21946,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07920-f7a0d5a6e9fe",
+    "source": "Please stay in this hall. <i>Please.</i> For your own safety.",
+    "source_sha256": "f7a0d5a6e9fe16f18c3d849c48117659d29d8fddb3d553619e8e395091c8af5f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1781759"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 21948,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07921-3167d97dac0b",
+    "source": "L-ladies and gentlemen of the court, I... must inform you that there has been no end to the horror you've witnessed.",
+    "source_sha256": "3167d97dac0b323c3932ea22f0d03c83884126f705203ee306e1f5f1c4ab2af0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1781883"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Polonius",
+      "cues": "[afraid] {Clear_Throat}",
+      "line": 21953,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07922-764ee3af786c",
+    "source": "More bodies were discovered.",
+    "source_sha256": "764ee3af786c3105097e62873bfbc7b1754bbeeef0248b3e51fb911bbd28d274",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782118"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Polonius",
+      "cues": "[afraid]",
+      "line": 21954,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07923-f5e069fcad38",
+    "source": "H-his majesty Claudius, Prince Hamlet, and Her Majesty Gertrude... all... have passed away.",
+    "source_sha256": "f5e069fcad38d364429b287ab1d7041c28c6b06b031587a68c72acb7adc9414f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782176"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Polonius",
+      "cues": "[afraid]",
+      "line": 21955,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07924-f310ff5d492a",
+    "source": "You must all remain close. And calm. Please stay within sight of the Great Hall.",
+    "source_sha256": "f310ff5d492a1ae329fecb6e479bea2b651f82972407519e14733c832c01b9d5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782361"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Polonius",
+      "cues": "[despair]",
+      "line": 21957,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07925-89a0dced1c72",
+    "source": "You must all remain close. And calm. Please stay within the Great Hall.",
+    "source_sha256": "89a0dced1c724b64051013c663d0653e4304a4ccd7b827d30f2582f55675a2d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782524"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Polonius",
+      "cues": "[despair]",
+      "line": 21959,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07926-20940753bb0d",
+    "source": "The wolf could be any one of us.",
+    "source_sha256": "20940753bb0de048aae41dc4ac6c8521f1054c3d18b5dbd888e1175cad9dafb2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782669"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 21962,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07927-3210b9d012a2",
+    "source": "Everyone, remain close. All members of the Royal Family have perished.",
+    "source_sha256": "3210b9d012a28b5b5b10e30c8e62cdc64190f482bc08313eba12c2818236334c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782735"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Laertes",
+      "cues": "[sad] {Listen_Plead}",
+      "line": 21966,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07928-f37623421937",
+    "source": "A-and of my own family, only Ophelia and I remain.",
+    "source_sha256": "f37623421937fd836c6223603893535aacc3a6b975c8b2e826269e30bdb0389f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782878"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 21970,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07929-ab36681f24dc",
+    "source": "At this point, I don't trust a <i>single one</i> of you save for my sister.",
+    "source_sha256": "ab36681f24dc8a148317c1b4a1f013ba2a3b894c85d1442a09469132c54c10fd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1782980"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 21971,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07930-f43c005a96fd",
+    "source": "All of you remain within sight of the Great Hall, or I'll cut you down myself.",
+    "source_sha256": "f43c005a96fd5df221ea9bf2d3f58e97ae170d6f7b70cfbd1cbb775be8d41ecd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1783133"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 21973,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07931-61e4a196b589",
+    "source": "All of you remain within the Great Hall, or I'll cut you down myself.",
+    "source_sha256": "61e4a196b589e1c3f3a6658b880d1aa0f33209faa0342fff4b49efebe254f339",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1783292"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 21975,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07932-c3d37eb57950",
+    "source": "Look. It's safer for all of us to gather here.",
+    "source_sha256": "c3d37eb579502db416e497279a810d27e980239eb6eca51274d19fd994e0030c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1783433"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Sigh}",
+      "line": 21980,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07933-f242cd6fea55",
+    "source": "Someone is <i>killing</i> members of the court. All of us are in immediate danger.",
+    "source_sha256": "f242cd6fea550062debd524afdb13ea37876d1ab1f9e8bcca3ec19f5f10576f8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1783527"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 21981,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07934-0e044594653a",
+    "source": "If you value your life, don't leave sight of the Great Hall. The closer we are, the better a chance of survival we have.",
+    "source_sha256": "0e044594653a914c8599a4b0bfab60097b729c664c542cdd62dd1099539a34d4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1783694"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 21983,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  },
+  {
+    "id": "p07935-94461331155e",
+    "source": "If you value your life, don't leave the Great Hall. The closer we are, the better a chance of survival we have.",
+    "source_sha256": "94461331155e4235d8b0d10fac31b6a6f0797032b9b417025c3300d9666db685",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1783937"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "WitchSecondWave",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 21985,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0056"
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "batch": "b0110",
+  "model": "gpt-6.1-sol",
+  "count": 75,
+  "new_calls": 1,
+  "exit_code": 0,
+  "usage": {
+    "input_tokens": 33308,
+    "cached_input_tokens": 19456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 2229,
+    "reasoning_output_tokens": 34
+  },
+  "source_sha256": "922e64d9ef0cf90d2c4badc377cc3990b2cff7d7ee6f947bd6ed0a87b92c7f8a",
+  "errors": [
+    "u00040-2b9d4f2712c9: 普通文本没有中文"
+  ],
+  "state": "validation_failed"
+}

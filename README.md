@@ -1,38 +1,25 @@
 # ElsinoreHan
 
-《Elsinore》的汉化研究与后续补丁项目。目标是制作能在游戏内显示中文的版本，先开始玩，再随游玩校对。
+《Elsinore》的离线中文补丁。**16,228 条 Sol 译文已完成并安装**，正常从 Steam 启动即可使用中文。
 
-当前已完成文本提取、现成 AI 翻译工具/提示词/模型调研，并通过 AiNiee-Next 对同一组 40 条真实原文完成四模型试译，共 160 条译文。批量 API 用量折算约 0.121 元，所有译文与冻结响应及原文来源已核对；模型仍存在意义和措辞问题，详见[实测结论](docs/dev-tasks/localization/trial-results.md)。离线样板的主菜单中文渲染、后台静音设置导航及组件检查已通过；设置页像素排版、对白、资料页和全量覆盖率仍待验收。
+按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
 
-## 目录
+完整本地备份包：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
+
+完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
+
+## 目录与维护
 
 | 路径 | 内容 |
 | --- | --- |
-| `AGENTS.md` | 新会话的项目约定与上下文入口 |
-| `docs/dev-tasks/localization/README.md` | 分析结论、实施方向、费用假设与待办 |
-| `analysis/analyze.py` | 只读提取脚本 |
-| `analysis/text_inventory.json` | 待译候选清单，含原文、来源和类别 |
-| `analysis/assembly_review.json` | 程序集中额外待审核的字符串 |
-| `analysis/metrics.json` | 统计与分析局限 |
-| `docs/dev-tasks/localization/research-projects.md` | AiNiee / GalTransl 的版本、输入契约和复用建议 |
-| `docs/dev-tasks/localization/research-style-models.md` | 自然中文提示词、skill、模型候选及盲评流程 |
-| `docs/dev-tasks/localization/register-evidence.md` | 真实原文语体与适度保留戏剧感的约定 |
-| `translation/pilot/` | 真实 VNText 试译输入和来源映射，无模型译文 |
-| `translation/provider.json` | 百炼业务空间、公开接口地址和模型名，不含密钥 |
-| `translation/trial-2026-10-09/comparison.md` | 四模型 40 条真实原文的完整译文对照 |
-| `docs/dev-tasks/localization/runner-setup.md` | 现成执行器配置、预算闸与离线回归说明 |
-| `tools/translation/prepare_pilot.py` | 本地试译输入适配器 |
-| `tools/patch/` | 离线样板安装与游戏内自动验证工具 |
-| `docs/dev-tasks/localization/technical-probe.md` | 游戏运行验证结果、证据与局限 |
+| AGENTS.md | 项目约定与最新交接 |
+| docs/dev-tasks/localization/sol-full.md | 全文来源、套餐实际 token 记录、验证与维护入口 |
+| translation/sol-full-2026-10-09/translations.json | 精确原文、译文与稳定 ID |
+| translation/sol-full-2026-10-09/ | 分批输入、冻结模型响应、输出和审计 |
+| tools/translation/ | 真实来源适配、Sol 调用、校验及离线词表导出 |
+| tools/patch/ | 插件源码、构建、备份安装、后台自动检查及打包 |
+| runtime/evidence/full-patch-verification.json | 最终补丁核验摘要 |
+| analysis/ | 原始只读提取脚本、候选清单和统计 |
+| docs/dev-tasks/localization/README.md | 历史研究、模型比较及实施记录索引 |
 
-## 重新分析
-
-使用已安装 `pefile` 的 Python：
-
-```powershell
-python .\analysis\analyze.py
-```
-
-脚本默认读取 `D:\SteamLibrary\steamapps\common\Elsinore\Elsinore_Data`，只向自身所在的 `analysis` 目录写分析结果。若游戏路径改变，更新脚本里的 `GAME`。
-
-下一步使用已冻结的真实模型译文，继续验证对白与资料界面的加载、字体和排版；定向改进惯用语、省略状态和增译规则后批量预译。语体默认易读，仅保留原文已有的古雅和戏剧感。
+原模型比较已停止，不重复调用百炼。下载依赖、字体、安装备份、ZIP 和密钥不纳入 Git；仓库只在本机提交，未推送。

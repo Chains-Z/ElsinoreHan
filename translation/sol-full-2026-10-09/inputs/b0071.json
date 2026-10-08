@@ -1,0 +1,3033 @@
+[
+  {
+    "id": "p10258-dc049662ba8c",
+    "source": "How... <i>who</i> ransacked my personal belongings?",
+    "source_sha256": "dc049662ba8c8a09e4e7aa4e08023a0dc2709ac23c8788514c52ce485214a0ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1198044"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ChessGame",
+      "speaker": "King Claudius",
+      "cues": "{How_Surprised}",
+      "line": 29042,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10259-937abb2515d3",
+    "source": "Someone must know. About me. About my brother.",
+    "source_sha256": "937abb2515d3a1b23360dab4b136a13082a954878ed09959021d15554ca6707d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1198148"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ChessGame",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 29044,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10260-003cf8c7e4ab",
+    "source": "Lord Polonius collapsed during our game. He's not breathing.",
+    "source_sha256": "003cf8c7e4ab6cefeb6e6e05bd026dbdfcfbce09d28de7b0618400dd95f4dc3b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1198242"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ChessGame",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {Dead_Sad}",
+      "line": 29051,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10261-26d2260b9b0c",
+    "source": "I shouldn't be here. They'll find me.",
+    "source_sha256": "26d2260b9b0ca1323e9dff0cb298f58a46b8886819235b313c89014cb02c1b06",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1198364"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ChessGame",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 29052,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10262-f489b7844f65",
+    "source": "I shouldn't be here. He'll find me.",
+    "source_sha256": "f489b7844f65a628a043fafbfd05e39581d6a4549e7ced90a17bd04a21d3d321",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1198456"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ChessGame",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29055,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10263-753ef004ff32",
+    "source": "Lady Ophelia. Surely <i>you've</i> seen her?",
+    "source_sha256": "753ef004ff32b348ae69bf203001e17c5e8b473e47d59970fd932d7e0f5be095",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1046553"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_RosNotices",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Excuse_Me}",
+      "line": 29069,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10264-cb68a62833bb",
+    "source": "Guildenstern. She slipped away at some point, and I cannot find her.",
+    "source_sha256": "cb68a62833bbdbae0abc20881528a5d0cec13949839e249eda54e12fa17ac349",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1046643"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_RosNotices",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 29073,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10265-b84d2ec14bab",
+    "source": "Please, will you watch for me? If you see her, tell me.",
+    "source_sha256": "b84d2ec14bab7d8be842af9bc3f810bee15244343f6f8efadcb3a024a612b511",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1046782"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_RosNotices",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29074,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10266-b86b486350f7",
+    "source": "It's-- it's <i>extraordinarily</i> unusual for her to not tell me where she's gone.",
+    "source_sha256": "b86b486350f7ffeb042647554545c93712f7d3adde8408f57a19b8d65bf51006",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_RosNotices",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {I_Just}",
+      "line": 29076,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10267-8e4e4d93992b",
+    "source": "The last time it happened... was when Hamlet spurned her, years ago. I almost lost her then.",
+    "source_sha256": "8e4e4d93992b41466fe89614789115a803964049551fee6bcb41ec1659ad7404",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1047059"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_RosNotices",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29077,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10268-f32eb56387d2",
+    "source": "But this must be something else. Something she never told me. I'm afraid.",
+    "source_sha256": "f32eb56387d22a6f004aba10c52d6faaeaba039f2695feb8fd6d425d531eef27",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1047246"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_RosNotices",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29079,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10269-ed0384dac3cc",
+    "source": "I-- I don't mean to trouble you. I apologize. I'll take my leave of you now.",
+    "source_sha256": "ed0384dac3ccb22a7c7fd703a51ac5375ddc4d23f4f526a4b430c21246f412d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GUILD_RosNotices",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Sorry_Sad}",
+      "line": 29082,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10270-6cf70c6b09fc",
+    "source": "What brings you down here, my lord?",
+    "source_sha256": "6cf70c6b09fc6b96559daac8f9329d493b8605b338b4cc45b05f3e7b93e93e19",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1890166"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "Bernardo",
+      "cues": "{My_Lord_Formal}",
+      "line": 29090,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10271-9526089c1164",
+    "source": "Something delicate.",
+    "source_sha256": "9526089c116496545879de93499da5ea5bd89704121ba6d2f182641b7bb73d30",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1890374"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "{Sigh}",
+      "line": 29092,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10272-58525a2dcabe",
+    "source": "I have a favor to ask of you.",
+    "source_sha256": "58525a2dcabe8391ade5e50c63352bb88ab74b83ba4297db8f28923a2b920185",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1890414"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "{Bernardo}",
+      "line": 29095,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10273-01dbfcda7687",
+    "source": "And what are you asking me to take care of now?",
+    "source_sha256": "01dbfcda7687812fbb53f03a65465b3250e94e7d9613eed28dbe9fe90abb2d95",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1890474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Sigh}",
+      "line": 29097,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10274-94141e0e64bb",
+    "source": "I'm ordering you to keep it private.",
+    "source_sha256": "94141e0e64bb388ec4f96f177b353a1c6e2b879f6f49a3b37af3f151780de44a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1890582"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "{Sigh}",
+      "line": 29102,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10275-eb8c9c3ae85c",
+    "source": "It's something my wife cannot know about. Not yet. Not now. I'll tell her, but in my own time.",
+    "source_sha256": "eb8c9c3ae85ce07b2468cf6e826bd05907deb33bb50ca3f66ff5163f97024244",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1890656"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 29104,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10276-5ff327082091",
+    "source": "I fear with the state she's in, this letter would only send her reeling into the abyss.",
+    "source_sha256": "5ff3270820911556333fbf4794347892b3dd6f1dc31147425afd32faf0747817",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1890847"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 29105,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10277-2a2d2b0b3d7d",
+    "source": "You've threatened me in the past. What makes you believe I have any obligation to be discreet?",
+    "source_sha256": "2a2d2b0b3d7d48c9f2324d2a9d83e04fcce5e3f716bfbf23809059627a9da913",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891024"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Disgust}",
+      "line": 29106,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10278-ae54bc51716f",
+    "source": "Because of the love you bear for my wife, I should hope.",
+    "source_sha256": "ae54bc51716fe01f3469497e4ee51429018636e31c9b9146e41dcdf44ad56b0b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891215"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "{Hmm_Long}",
+      "line": 29108,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10279-7975cef1df39",
+    "source": "This would be the end of her. Think on that, and keep this among your belongings.",
+    "source_sha256": "7975cef1df3967883eeae47432d20bc28d9425d77da7648bf5d7f50d8d6023ad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891329"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 29110,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10280-a516bb39bf38",
+    "source": "Do your men have a particular habit of snooping in your things?",
+    "source_sha256": "a516bb39bf38fe25b6c40cbdf1ef51899d72165883c9d017a55ebd5dff04f0ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891518"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "{Growl}",
+      "line": 29115,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10281-76da16c971a2",
+    "source": "They each understand the kind of severe and unrelenting punishment I would levy on them.",
+    "source_sha256": "76da16c971a2f7ac0f76d8c7c16fc3c2fa4ab5b472310db5fbdef176809d8dce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891646"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {No_Quiet}",
+      "line": 29118,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10282-d8c8cedfaf54",
+    "source": "It's safe here, for now.",
+    "source_sha256": "d8c8cedfaf54bcbdcd274695a839cbfd08ebac7b375e09f5b19e5b91e80ce745",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891825"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 29122,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10283-d93bfe89402e",
+    "source": "Wah hah hah! That's the Bernardo I know.",
+    "source_sha256": "d93bfe89402e88dc1e26afa3c408eaf4107175d73f6b0b06020c8042813acadf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891875"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Chuckle}",
+      "line": 29124,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10284-ac6b69181e1a",
+    "source": "Good. It's settled, then. I'll return to you in time, when I'm ready to show her what's written inside.",
+    "source_sha256": "ac6b69181e1af34d109c1aa6626f19ee3a757a1559551bde44181c5fc094557c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1891957"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 29125,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10285-2ef2c38268bd",
+    "source": "Father. I've come to take you from this place.",
+    "source_sha256": "2ef2c38268bd87df4e94d1906bd634fc93feae96754a96ffcc0f98c3b5cc0466",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2043585"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Laertes",
+      "cues": "[disgust] {Father_Warm}",
+      "line": 29133,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10286-25a050e31ac9",
+    "source": "Unlock the door.",
+    "source_sha256": "25a050e31ac97decf03e350cabbc516afb69e694d6066b94d3651ba33fc07e29",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2043679"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 29135,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10287-c12ca28ce1bd",
+    "source": "What's happening? Who's there? I can hardly see.",
+    "source_sha256": "c12ca28ce1bd64bfc958748a04cf1edf9ebf9d6547f39590f3ffc66fc1f153a7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2043713"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Polonius",
+      "cues": "[sad] {What_Surprised}",
+      "line": 29136,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10288-102cf7f2d967",
+    "source": "Allow me to help you out, Lord Polonius.",
+    "source_sha256": "102cf7f2d9673a5e9eff04f3831829ab9e00e8b1ffd240164dc69c28a352ed20",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2043811"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Bernardo",
+      "cues": "[sad] {My_Lord_Formal}",
+      "line": 29138,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10289-be848a6184eb",
+    "source": "Has the King determined my fate?",
+    "source_sha256": "be848a6184ebe45d4dc8b443e8475e12af38a4dcb678e40917000016a6a55a49",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2043893"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Polonius",
+      "cues": "[sad] {Sigh}",
+      "line": 29145,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10290-86eabef5d8dc",
+    "source": "Claudius? Truly? Then why are you here?",
+    "source_sha256": "86eabef5d8dc369f87bc68c4d8efefe2ce2206675fbd70055b9e484f9256055e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2043959"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Polonius",
+      "cues": "[surprise]",
+      "line": 29149,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10291-41f7c13c7e2b",
+    "source": "I did not believe the King's order to imprison you was done in good faith, or out of a genuine need for security.",
+    "source_sha256": "41f7c13c7e2b7f4bb0cfdbeb0dfc6a79bddff15f2e9acde74620f251bbb4b7a3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2044039"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 29151,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10292-ac2ad4372768",
+    "source": "It appeared he did this simply to punish you. In light of his passing, I would like to restore you to a place of dignity.",
+    "source_sha256": "ac2ad43727686a030279f4052a34eb74f002b1fbb87b01095eeabccb4a9d7a4f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2044268"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 29152,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10293-78ec8798ec07",
+    "source": "Of course, I will still expect your compliance in all matters of state. But for now, you are free.",
+    "source_sha256": "78ec8798ec076c2a630b703d5aeeb929090b18b3ae5da827e415dabc5323a0ce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2044513"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 29155,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10294-3a7671ee546d",
+    "source": "Thank you. Thank you all.",
+    "source_sha256": "3a7671ee546d31aa51f55d6a259f8e389b60d7da33bd7f86c12d55e0d13b43de",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2044712"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Polonius",
+      "cues": "[despair] {Sigh_Long}",
+      "line": 29158,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10295-518bdcffd260",
+    "source": "Laertes, please have the servants bring food and water. I have felt such a chill these last few days. All my strength has left me.",
+    "source_sha256": "518bdcffd260ba2aa8343eb35600f1bd6e958cbe30300089d96a335dab5dbf53",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2044764"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Polonius",
+      "cues": "[despair]",
+      "line": 29160,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10296-ab2b0a7ea378",
+    "source": "God's wounds, I thought I would die in there.",
+    "source_sha256": "ab2b0a7ea378efc81d243efc568cb8f0246899c128ffe2ebeebc7961ac4becec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2045027"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ASSN_LaertesFreesPolonius",
+      "speaker": "Polonius",
+      "cues": "[despair]",
+      "line": 29162,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10297-3314ca8145a3",
+    "source": "Suspected I might find you here.",
+    "source_sha256": "3314ca8145a3cd4abf7b6e96a49df46854adcf12ecb417537c54cc4adf206d35",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2045119"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "{Caught_You}",
+      "line": 29196,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10298-f0cca9901f34",
+    "source": "I heard a little something from Ophelia, and had the thought to seek you out.",
+    "source_sha256": "f0cca9901f3481d2256fad1fd2ae0375caf917d81ba4aeef62189ed394339707",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2045197"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29200,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10299-f5061bfae0b4",
+    "source": "A 'little something?' Very discriminating of you to reveal your source!",
+    "source_sha256": "f5061bfae0b49e6f149fe9f778ef4af86a3a712b4ae94ebb4d7eef3a9a52fb82",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2045354"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29203,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10300-b9a43d6dab54",
+    "source": "I want to ask about you and Hamlet. I rather suspect you won't want to be asked, which only makes the asking more worthwhile.",
+    "source_sha256": "b9a43d6dab54c99d6d1e594ec0041bf957f7de7f75d4d137306592c3f7b8c9fb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2045499"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29204,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10301-543c31191a3d",
+    "source": "Your assessment is correct.",
+    "source_sha256": "543c31191a3d430260f1ea225262262c21d8d82c14bb1f73db210942502a0323",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2045752"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29206,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10302-4ea38f818499",
+    "source": "I understand some of this may be painful for you now that Hamlet's gone.",
+    "source_sha256": "4ea38f81849988fd4ee01ffe63f7da80f42828f7f3e080c64eb68a27717081a7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2045808"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29209,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10303-bd596b60e74b",
+    "source": "But I also know-- or suspect-- that you are not someone who collapses under his grief.",
+    "source_sha256": "bd596b60e74b634dc0c95322d3887a2f547babd43e1ecee9d7765185567912af",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29210,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10304-4484f839b22c",
+    "source": "Correct again.",
+    "source_sha256": "4484f839b22c63198465e1ace62e3e112ab358289c30a8d02a57e04ba999f0d1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2046122"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29212,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10305-027583fae11e",
+    "source": "As I recall, you remained close to his side for quite a long time, didn't you?",
+    "source_sha256": "027583fae11e00303185e19c00c140eda55d0dad145a63d6aad653e35b8da3e7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2046152"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29214,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10306-4dbc5b2ac436",
+    "source": "After all, when Guildenstern and I met you, Hamlet had already been at school for a year. And your presence in his life predated that.",
+    "source_sha256": "4dbc5b2ac436b83255a7f6894c5b09274e77df764ad239dbf99cfa8b8693a1a0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2046311"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29215,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10307-8661c127def3",
+    "source": "When did you first begin following him around?",
+    "source_sha256": "8661c127def36435615b06d7ccaf780be8aa359eb0ca0a3e2b5cee63817e3c72",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2046582"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29217,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10308-4c6b4f8c9155",
+    "source": "You make me sound like a little lap dog.",
+    "source_sha256": "4c6b4f8c9155d3683c09c217f1d2b119437be9fdd9a8a6651f8aa352a73f9085",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2046676"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy] {Hmm_Dismissive}",
+      "line": 29219,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10309-42fb6b502e8d",
+    "source": "Aren't you?",
+    "source_sha256": "42fb6b502e8da02cd62929822fd8e7eb74a261fe19a12835119841eeb49cca7f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2046758"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "{Chuckle_Sarcastic}",
+      "line": 29221,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10310-ce40b5ac84bb",
+    "source": "I began following Hamlet after the last war with Norway came to its conclusion, when Hamlet's father drove his blade through Fortinbras the Elder's heart.",
+    "source_sha256": "ce40b5ac84bb6b33384fa18470d5bcfd72fd6883988930a4b6107d19420c5f47",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2046782"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29227,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10311-62cf514a96e7",
+    "source": "I was a soldier then, but never fancied myself a career military man.",
+    "source_sha256": "62cf514a96e7977b8745e577a8058313f2c521719652069f296ccaeb85f74ea3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2047093"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29229,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10312-da467b862eb4",
+    "source": "Too much work. Not enough job security. And a poor use of my <i>excellent</i> taste in food, wine, and art.",
+    "source_sha256": "da467b862eb4e7208fc92b67b0aea170ff0c5e09014f32e25cdad3adae593bdb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2047234"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29230,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10313-9bdce3580bdc",
+    "source": "King Hamlet, seeing that I was something of a learned man, made a request of me.",
+    "source_sha256": "9bdce3580bdcf4b9b7261c922f773b3807301c550efb574536cb533c4f694f46",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2047451"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29231,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10314-7bfd479657ea",
+    "source": "Hamlet was to be educated at Wittenberg soon. But Hamlet's father was worried about him.",
+    "source_sha256": "7bfd479657ea4e338466bbe19b18a51e2d4d819b1552c245548a871beb020561",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2047614"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29233,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10315-389fb1d9e65f",
+    "source": "Of course, you remember what Hamlet was like before his father's death.",
+    "source_sha256": "389fb1d9e65f14529e149316cf0a1804a9a96eaa0bcb44c2c14e8d77353008b9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2047793"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29236,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10316-5ef6abd9efa2",
+    "source": "He was wild in a different sort of way then. I remember him diving <i>nude</i> into the Elbe river in midwinter.",
+    "source_sha256": "5ef6abd9efa2f6ee9381a386fe2deecfdcf768e02e125725f3843650b00a8880",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2047938"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy]",
+      "line": 29238,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10317-5968d7358687",
+    "source": "And then he called out to us to join him...",
+    "source_sha256": "5968d7358687f9fce49725ce522b39338a1b1794843c0ea4cad8b59c88fa827b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2048165"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy] {Chuckle_Unsure}",
+      "line": 29240,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10318-29dc6af3434b",
+    "source": "Which of course we were never going to do. What was he thinking?",
+    "source_sha256": "29dc6af3434b27a4253565e8cd71aea10e146fde35ee161f35843e61392d704c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2048253"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy] {Laugh_Short}",
+      "line": 29242,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10319-0cf97a240743",
+    "source": "None of us ever really knew. And now it's too late to find out.",
+    "source_sha256": "0cf97a2407435798b0a96ad3dc385bcb422176179ba0cc640959e1ad6d9753c2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2048384"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad] {Sigh_Long}",
+      "line": 29246,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10320-628606104b5f",
+    "source": "That's really Hamlet in a nut shell. One never knows what he's thinking.",
+    "source_sha256": "628606104b5fa788dab703102a42a3a35e204b3a0b41ac51ff2d24914d7a170e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2048512"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "{Sigh_Long}",
+      "line": 29248,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10321-9ee3e6225180",
+    "source": "So King Hamlet sent you along to Wittenberg to watch over Hamlet. Is that it?",
+    "source_sha256": "9ee3e6225180276ae67dfcbc35eb9e0daa27ffbf1b295592ef7d89a34bb089fe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2048659"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29251,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10322-ca4140c6b0b8",
+    "source": "Yes. That's it.",
+    "source_sha256": "ca4140c6b0b801a8f7f2b842639e2437850a3a10a168622b94f33d198221f747",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2048816"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29253,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10323-a06eff7b9c6e",
+    "source": "Unlike other trusted men in the King's employ, Hamlet and I were not so dissimilar in age that it would appear strange for me to accompany him.",
+    "source_sha256": "a06eff7b9c6e75f72eb7d404a1e7166fd9c0366343698d9f84a07aa9c7eeb6e8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2048848"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "{Now_Then}",
+      "line": 29255,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10324-b673e00a1d5e",
+    "source": "And Hamlet was well aware of my role. He and I disliked one another immensely at first. I found him far too bold a flavor for my tastes, and he found my very presence stifling.",
+    "source_sha256": "b673e00a1d5ece0649c1e8d9fd44a98f7568fc0c3b44b9109bcdd6e6ce5bd9ae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2049137"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29257,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10325-0ad1a38c4940",
+    "source": "But over time, we developed a healthy respect for one another. That respect became trust, and that trust became friendship.",
+    "source_sha256": "0ad1a38c49407de7c83dcb668bbc3dbbd9b9cfb49222f7319493b51f33dad542",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2049492"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29259,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10326-c6dcb0bb02c8",
+    "source": "Just friendship?",
+    "source_sha256": "c6dcb0bb02c8b7c77631c84d8827ff0809a8317fddbb9b47f8f9c1eac7037883",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2049749"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29264,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10327-34f504a08a8e",
+    "source": "What are you implying?",
+    "source_sha256": "34f504a08a8ebbcf42f8a587a18ef74cf91e7b507d78df151d60953bd0f60f1f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2049783"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[disgust] {Annoyed_Sad}",
+      "line": 29267,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10328-cc09d20d57a1",
+    "source": "I want to leave no room for misinterpretation. After all, in many places, your mere insinuations could have me executed.",
+    "source_sha256": "cc09d20d57a16b43ac3c2d0dc4486a02e3bca69d1a3d1d882357a86721743930",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2049829"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[disgust]",
+      "line": 29269,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10329-b80d64c16a58",
+    "source": "Horatio, you ought to know me better than that. How many of <i>my</i> lady loves did you meet at Wittenberg?",
+    "source_sha256": "b80d64c16a58ff7c6ea03b6c8c68c9933c930283a6a425daf57fdccee9ce4e92",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050072"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "{Sigh}",
+      "line": 29271,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10330-fb00b451a7b8",
+    "source": "That's why I'm here. I knew I needed to speak with you if no one else would.",
+    "source_sha256": "fb00b451a7b8820aa1b380b938a43f1bf91b81a612fd97c333f50d9243f6790f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050291"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29273,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10331-eb4b9433a696",
+    "source": "So that's what this is about.",
+    "source_sha256": "eb4b9433a6960e3e7209c7f3ea6d65a2fe7c53cfffb6b3f039ff96bc06046b6d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050446"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29274,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10332-91ca7caa8c89",
+    "source": "Fine. If you must hear it, let me say it, then. I came to love Hamlet.",
+    "source_sha256": "91ca7caa8c89e9a9a73f3093d210da885a8abbe4c37438388a4e397c7e40aec1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050546"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "{Sigh}",
+      "line": 29279,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10333-4a67477da318",
+    "source": "I've never said it to anyone else, least of all to him.",
+    "source_sha256": "4a67477da318c73bab0323588d65339d3684f6fb72ca4de8a2b1b71ce84414a7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050689"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29282,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10334-b6cabea8fc7c",
+    "source": "And now I never shall.",
+    "source_sha256": "b6cabea8fc7c656f32c8a4969246a5fa954c16a8722aa158d62571ab9235f4fb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050801"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29284,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10335-23613982e639",
+    "source": "And he spent all these years not knowing?",
+    "source_sha256": "23613982e6392eec16023e32552d7468581157ced168055ff1c2c91beff2bc92",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050847"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29287,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10336-30fc64e8e89d",
+    "source": "Well, I wouldn't say <i>that.</i> Just that I've never said the words.",
+    "source_sha256": "30fc64e8e89d633e62aafec0ede356e02e97c1a33ab13f138f34f09c9a8131b4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2050931"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy] {Ahh_Sad}",
+      "line": 29289,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10337-c5ae42a56bef",
+    "source": "There was... one evening. The both of us were staggeringly drunk. And the night got away from us, so to speak.",
+    "source_sha256": "c5ae42a56bef72e4ea9fe8b3dc151e86f728c569d635a958580df7c75f7eae04",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2051074"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29290,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10338-595853de5d74",
+    "source": "I thought--",
+    "source_sha256": "595853de5d74409bf6e627b9a47bf0f3076f7e105c68d1336cbd0cc187ed8661",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[afraid] {Stammer}",
+      "line": 29292,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10339-350553f10406",
+    "source": "I thought to myself the next morning: If he cares for you as you do him, he'll say something.",
+    "source_sha256": "350553f10406a9dae806ec0fc8e7e4608ffa8566f04434231de49ff27c35e049",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2051319"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[afraid]",
+      "line": 29294,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10340-7ef4f79fd8dd",
+    "source": "But he never did.",
+    "source_sha256": "7ef4f79fd8dd0a9cc998950d1cf15d00f90bcc3666a8a47a830afff3093748e9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2051508"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[afraid]",
+      "line": 29297,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10341-bdcd8a767ef0",
+    "source": "And so, neither did I. And the silence just sort of stretched all these years.",
+    "source_sha256": "bdcd8a767ef0608df4e181eb75323f0927c0e69e833c78fe0e67a1dae6fdf250",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2051544"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29299,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10342-b216e629ca96",
+    "source": "You've been carrying the weight of something like this all alone. It must have been heavy.",
+    "source_sha256": "b216e629ca96ba0972d40fab74ad2fe16a8a54ba7646d1ad06df483097bf59b5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2051703"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "{Sigh}",
+      "line": 29303,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10343-5b851311cd8c",
+    "source": "Have you ever thought of sharing it with him?",
+    "source_sha256": "5b851311cd8cb9bc8850c619e298a797d9604a5942170509733fdfce4c598a09",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2051886"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29305,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10344-1dad8667ce82",
+    "source": "I-- I have. But I am afraid, in my heart of hearts.",
+    "source_sha256": "1dad8667ce829f901523dee892999af2af52a70b9b23ab2d66431261e7123f9a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[afraid] {Sigh}",
+      "line": 29307,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10345-d5c51d9390ea",
+    "source": "His life is full of so much darkness right now. He's in the worst place I've ever seen him. How can I contribute to that?",
+    "source_sha256": "d5c51d9390ea97245f3676ab6d32e9d0a91f44403fc1298ce950d2813bf3f540",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2052078"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29308,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10346-30bf7e97d216",
+    "source": "Horatio, I'm no expert when it comes to matters of social finesse, as you've no doubt witnessed. But there's one thing I know for certain.",
+    "source_sha256": "30bf7e97d2166b70696472bad61f70d96841a53ae6aaffca82f989b521dd68ed",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2052323"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Ahh}",
+      "line": 29310,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10347-d73979876bcc",
+    "source": "You cannot shoulder this burden forever, waiting for a 'right moment' which may never arrive.",
+    "source_sha256": "d73979876bccbd8ba240ed6e9899db8db7d30513a39b11c4b8f6bd547abade9c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2052602"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29312,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10348-bb9f411943ab",
+    "source": "You've <i>got</i> to be earnest with Hamlet. What is it they say? Then you will know the truth, and the truth will set you free.",
+    "source_sha256": "bb9f411943ab0c38ff52f6ad264a7a60b3f9ba73ab608b83c9ad1e196bbb8694",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2052791"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29314,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10349-8ab36ef0574e",
+    "source": "I have been afraid of this too long, and for what reason?",
+    "source_sha256": "8ab36ef0574ecc0735cd54e25c6db9c8710b0a1387a42331f3693d443f547a6c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053050"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29320,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10350-b4e52db50f86",
+    "source": "I never thought myself a man who avoided the difficult conversations.",
+    "source_sha256": "b4e52db50f8651e3749026f9eb8d0cdf92082f4a67cfff1704fe439f5ba600db",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053166"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29321,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10351-a4204578aad7",
+    "source": "So you'll speak with him?",
+    "source_sha256": "a4204578aad79d405d7a42c94406036474de6e35166666406ecead8a82d0ba09",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053307"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29322,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10352-b1be63b1c294",
+    "source": "If my lady suggests it.",
+    "source_sha256": "b1be63b1c2947f32269699a1df314aba67a29819a1ae781ed0d951c706885736",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053359"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29323,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10353-29caec77c0a5",
+    "source": "Then who am I to refuse?",
+    "source_sha256": "29caec77c0a5279c260104e1d5cc1128098c5e177f47bb26ab4339374b1fa808",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053407"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29326,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10354-7d59ec9bc8ee",
+    "source": "Thank you, Rosencrantz.",
+    "source_sha256": "7d59ec9bc8ee2d038a3d25cb21e0ba72294fd486c0f387448799be4d3e6de482",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053457"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29328,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10355-21bff3142c9f",
+    "source": "Any time. Any time at all. I hope the conversation runs to its due course.",
+    "source_sha256": "21bff3142c9f0d6a2caa9ef53ac0b7cfb7bd7149050d1d7b17df83b5b4500380",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053505"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy]",
+      "line": 29329,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10356-64fe6f4849aa",
+    "source": "I-- I have. But something happened to him recently. I don't know that he even sees me when he looks at me, right now.",
+    "source_sha256": "64fe6f4849aac6596d83deba4250bc2dca8a7a6162dd92ab623bb47d3d33fdce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[afraid] {Sigh}",
+      "line": 29334,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10357-790cbb770563",
+    "source": "His mind's fully gone.",
+    "source_sha256": "790cbb7705634c39f1d4486c065b7099b35e38f37f3e177405444881ea5eed0e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2053889"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29335,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10358-f9e8878fb480",
+    "source": "Then-- don't carry this alone. Let me carry it with you.",
+    "source_sha256": "f9e8878fb480eb504c231989de10f41dd46199fa9cef8a8a0c1b04bd63400153",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 29337,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10359-fee584ef988a",
+    "source": "Guilda and I are going to depart Elsinore soon. Circumstances being what they are, it simply feels like the right time to move on.",
+    "source_sha256": "fee584ef988ae67f5137dba96039462452638a12e1814fd6031b199df4727d49",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2054045"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29341,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10360-9bfeedec49c5",
+    "source": "Won't you come with us?",
+    "source_sha256": "9bfeedec49c5232505ce3f10b94145307e957df831735a7b69235bdafb7ad4a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2054308"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy]",
+      "line": 29342,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10361-21a09d721101",
+    "source": "I-- I suppose I could. This place holds no meaning to me anymore without him.",
+    "source_sha256": "21a09d7211011c88179061f26ed676b3933f75f3de28aecd1498c396f4f347c4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "{Hmm}",
+      "line": 29344,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10362-66fd3e2d245e",
+    "source": "Where will you go?",
+    "source_sha256": "66fd3e2d245e8da1ff747a48951db2c8e77a3afe3f7b54ca9c5d0eb37769dd61",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2054509"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29345,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10363-8442c475783e",
+    "source": "We've no idea. We never do. Perhaps we'll go somewhere a little warmer to shake the chill that's descended here.",
+    "source_sha256": "8442c475783e4b6a7f66564f2d859356af3633a6888814f699dd06e3bfe214cc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2054547"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29347,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10364-3aa6043d3f26",
+    "source": "That's all I needed to hear.",
+    "source_sha256": "3aa6043d3f264c32b857a40e2bd47573996be3f68e08e64254334515eb5d5739",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2054774"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy] {Chuckle}",
+      "line": 29349,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10365-8a3f1a736ba4",
+    "source": "Consider me intrigued. But give me time to think upon it.",
+    "source_sha256": "8a3f1a736ba4ef8e23c2de0cbe26ea9276b4bce8a301725c65576c8c1720e38e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2054832"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29351,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10366-0a8f5e073e08",
+    "source": "I think it took saying all this out loud to understand for myself what I needed to do.",
+    "source_sha256": "0a8f5e073e08b53d5eaac43d4968897bbc1474a20ef29ab2da3a4fd8ba63022e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2054948"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29352,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10367-c171fe30f3bf",
+    "source": "You have my thanks for being the echo I needed.",
+    "source_sha256": "c171fe30f3bff62d8e7da8f23624260af666944da1c3904cccf20ae90494bade",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055123"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 29354,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10368-073957bd44cb",
+    "source": "Any time.",
+    "source_sha256": "073957bd44cbd25f2d92967f3d9bf9b485000f8b16d849fd33160f28eea35bf6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055219"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy]",
+      "line": 29356,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10369-cc42cb63658d",
+    "source": "Let me carry it with you.",
+    "source_sha256": "cc42cb63658d3def803896d1139a09c3761740dc81752ff4618e070ef13f892a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055239"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29358,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10370-cfae759299c7",
+    "source": "Guilda and I are going to depart Elsinore soon, now that Hamlet's gone.",
+    "source_sha256": "cfae759299c79783dd0f87810c3067a74c8e516a2c4142d9b4735d961b5412b7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055291"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 29361,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10371-684cc3e3a885",
+    "source": "Mind an interruption?",
+    "source_sha256": "684cc3e3a8854c84c7828c276b5a656c81a7e0818ab1789a48638836ced5232b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055436"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "{Hamlet}",
+      "line": 29392,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10372-fb7718bed225",
+    "source": "From you? Never.",
+    "source_sha256": "fb7718bed225935c8832822c0963dd7fb9965b49929362b6a07df44d56014fbf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055480"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "{Hmm_Short}",
+      "line": 29394,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10373-f144167f7d87",
+    "source": "I see. Excellent. I have something to-- ah-- to discuss with you.",
+    "source_sha256": "f144167f7d8712c88903c9a3093d292cb834ba3b03334404c23501c4cb5ab62f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29397,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10374-7485bbd6c849",
+    "source": "What's wrong? You're trembling.",
+    "source_sha256": "7485bbd6c8490c960ddca28539bcae14e291c1eabcf2809c5d1fa3f300a9d122",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055638"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29399,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10375-8c0034ec871b",
+    "source": "Has some new horror taken place?",
+    "source_sha256": "8c0034ec871bf9ac7ec9c677a2aa30968fceb5b3e9a602c85a9ec508b620453e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055702"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Gasp}",
+      "line": 29401,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10376-89a25a1d34a9",
+    "source": "No. No, it's nothing like that.",
+    "source_sha256": "89a25a1d34a9ef25556b4e51be41b5f796c9bf5f06bc790f31d567b9028b09aa",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055768"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[sad] {No_Quiet}",
+      "line": 29403,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10377-98ef1b2b4ec9",
+    "source": "I wanted to ask you about the past. There's something that's been on my mind for quite a while now.",
+    "source_sha256": "98ef1b2b4ec9bdfea2df41cd23079247aaab3f13659034d65d244976de0ac93d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2055832"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29405,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10378-6ef6a93be10a",
+    "source": "Do you remember that night in Wittenberg, during that first year?",
+    "source_sha256": "6ef6a93be10a795de3cbadc0651de7d0d31686c1215efc12443b6552432aeb23",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056033"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29407,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10379-f43fdaeaa783",
+    "source": "Perhaps. It all feels so distant now. What night do you mean?",
+    "source_sha256": "f43fdaeaa78372550e75cb3ec176b6b7d353032b9a5e6397b4033b311537a6a6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056166"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29409,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10380-5a9c5ca6b9a9",
+    "source": "I think you know precisely what I mean. And I don't think either of us can hide from it anymore.",
+    "source_sha256": "5a9c5ca6b9a99b67084db1c419012b0e53aec1d853c39cb4722b198bceafbfc7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056290"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "{Annoyed_Resign}",
+      "line": 29412,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10381-1b3a996317b2",
+    "source": "Horatio, you're talking nonsense. I don't remember that night.",
+    "source_sha256": "1b3a996317b2e36ecc2ed70558fd64f6877013f46bfc412fa272e8292243df25",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056485"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29418,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10382-9e41bb3ffd8f",
+    "source": "Let's go inside, shall we?",
+    "source_sha256": "9e41bb3ffd8fc17a69d005c70b0d848b7e4b5b290f8864a505f7da5647b6b136",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056611"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29421,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10383-6b7e0c6d260c",
+    "source": "<i>Wait.</i> Don't run from this. Please.",
+    "source_sha256": "6b7e0c6d260c30a55a5eea380f83047edacb613840ed23a72276017666ac1af0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056665"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[sad] {Please_Dont}",
+      "line": 29431,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10384-bd6f7b05eff2",
+    "source": "This is all so serious! Must it be so serious? Why? Why can't we leave what happened in the past?",
+    "source_sha256": "bd6f7b05eff2a89d9d07c56e19227f39f6bd9e1c66f8bf6cedec71155d5df187",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056749"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[smile] {Chuckle_Short}",
+      "line": 29434,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10385-c812f61f2f1b",
+    "source": "Because I <i>need</i> to understand.",
+    "source_sha256": "c812f61f2f1b5e02170415be2bc8271a3bc68c4ce6ec142d9793d05423e20854",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2056946"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[afraid]",
+      "line": 29436,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10386-73b0bcd1b45a",
+    "source": "I think you know what I'm about to say.",
+    "source_sha256": "73b0bcd1b45a8a8574d9e9bc17ecd5b1cd7b3f4c66a042dd1a0e9f0df659ebc4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057020"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[afraid]",
+      "line": 29437,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10387-f32c83610358",
+    "source": "I've been in love with you for a long time, Hamlet.",
+    "source_sha256": "f32c8361035801c0a7f4ef0cd5dabda6fdfcdc6d668bc435656c19dd94be56ec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057100"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[afraid]",
+      "line": 29440,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10388-bb876697365e",
+    "source": "Haven't you got anything to say in response?",
+    "source_sha256": "bb876697365e4a042afb77378d8f346f8e172938118ca5dd5db5e7e5f7d9e443",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057204"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[afraid]",
+      "line": 29447,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10389-17818f0ef2c3",
+    "source": "I... I don't know. This is sudden.",
+    "source_sha256": "17818f0ef2c30de42bf41777675ae43988fdede7d280be4b63c5a81421412de7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057294"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "{Stammer_I}",
+      "line": 29449,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10390-2dd32475bf6c",
+    "source": "Let's say that I <i>did</i> remember what happened that evening.",
+    "source_sha256": "2dd32475bf6c2e577a014e457bf9aa051fa0d9b3738d7c20c896dea674611af7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057364"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29452,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10391-6b56f7ee313c",
+    "source": "Have I ever given you any indication of inappropriate feelings since then?",
+    "source_sha256": "6b56f7ee313c8ad3e50a7f83847c025655ba19dab99542d7f9fcbd0c0004e0ac",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057495"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29454,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10392-92ea231e410f",
+    "source": "Hamlet, what would be <i>inappropriate</i> about feelings like that?",
+    "source_sha256": "92ea231e410f763938e8f19d81f0f3b8e2ba5aa3e274c90d6fd225dcbe0ee0d7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057646"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[afraid] {Annoyed_Sad}",
+      "line": 29456,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10393-21fbf248c20a",
+    "source": "I don't know, exactly. But I know that whatever happened between us, I have put it to rest in the echoes of the past.",
+    "source_sha256": "21fbf248c20ac2fb709161bba92b08ecab9a7616371b47ae25a9f950780bde37",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2057805"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29459,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10394-7b86b3c96721",
+    "source": "And I don't think I ever <i>had</i> the capacity to feel whatever it is you're feeling now.",
+    "source_sha256": "7b86b3c967210a81c642e674e1c39233d7f865bb4ca388ed09483d1e09404df4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2058042"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29461,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10395-a832a925b83e",
+    "source": "Then that's the answer to my question. We needn't belabor the point further.",
+    "source_sha256": "a832a925b83e9786b5b77a55eda9fff6a228dc28b60493ba49408428426c1404",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2058227"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 29464,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10396-7679378c70f8",
+    "source": "I know what it's like to love someone who doesn't care for you.",
+    "source_sha256": "7679378c70f8b6d78702e211aaa1d6f7c60fbf94c374a2e21acb90d8f7e23a25",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2058382"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Listen_Awkward}",
+      "line": 29467,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10397-55b55e23b46c",
+    "source": "I know how painful that is. And if that's how you've been feeling all this time, then it must be agonizing.",
+    "source_sha256": "55b55e23b46c729e8f77ce2679d1774cffe6a5938b1f4094df65af487892547e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2058510"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29468,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10398-d83ef6d6a25a",
+    "source": "I am far too old to agonize over unrequited love. Lingering disappointment, on the other hand, is not beyond me.",
+    "source_sha256": "d83ef6d6a25aef2e9cf546a8d909cbe13189d808ff5680dbd7a1facddf4bdd08",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2058727"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "{No_Quiet}",
+      "line": 29470,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10399-965651262236",
+    "source": "Of course this isn't the answer I wanted to hear. But it's the answer I have.",
+    "source_sha256": "965651262236bccd294d3deabc1fb10e10acbbbf475aae8e0740761fc4b6741f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2058954"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29472,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10400-94bfe5fde837",
+    "source": "I do love you in a way. But it isn't like that, and it never will be.",
+    "source_sha256": "94bfe5fde837f0c433df4719671af664e9465c44c53926f1a32a528ed21bc0e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2059111"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Horatio_Sad}",
+      "line": 29475,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10401-b15aa8f46db4",
+    "source": "Maybe... if I weren't who I am... if I weren't a Prince of Denmark... maybe things would be different.",
+    "source_sha256": "b15aa8f46db408af9d223786a6cf3e1783f140ad5a59c5a0876545fe9d13fb4f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2059252"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29477,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10402-9522b5d5c7ec",
+    "source": "But what I am is solid, by circumstance of my birth. I can be no other man. And it means that some pieces of me must remain locked away forever.",
+    "source_sha256": "9522b5d5c7ec849756d76c29c6d4e9088fcc4a82d2166c3ae0453f1ef536ce9d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2059459"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29478,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10403-31064e8f773d",
+    "source": "I will always be your most ardent and faithful friend. But when it comes to matters of love, that's different.",
+    "source_sha256": "31064e8f773d90ffe913ab87214a0c6648074a93207b7690c45a7164d2c0f8ab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2059750"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29480,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10404-2fae190f5a54",
+    "source": "You deserve someone who isn't me, Horatio.",
+    "source_sha256": "2fae190f5a544ef8c32344fc61d0691db77de095559f5d940fabe1dc23fee312",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2059973"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 29484,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10405-139e5223cd5b",
+    "source": "So that's it, then. That's how this ends.",
+    "source_sha256": "139e5223cd5bdf6f4454c3d12f1b84333cd73c52bb187e154343c225eae79830",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2060059"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "{Sigh_Long}",
+      "line": 29487,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10406-5cdfcafffa08",
+    "source": "Somehow I thought it'd be more than that. I played that conversation in my head a thousand times.",
+    "source_sha256": "5cdfcafffa0899f4e130362010f619503656659dc2f02ea5d34b25ef8dbb1d55",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2060143"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29489,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10407-8adc675fa9d7",
+    "source": "And in the end, I had my answer in just a scant few minutes.",
+    "source_sha256": "8adc675fa9d7ec8f1db65853531063103715d064240bb894589661ad32dc350b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2060340"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29490,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10408-a6c525a56ae9",
+    "source": "I've a new wound to nurse.",
+    "source_sha256": "a6c525a56ae9cf6e901ac0dceb5ffc87b79148ce4dd838727f17a6c5a7e5d73c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2060462"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29491,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  },
+  {
+    "id": "p10409-15ab1901d76e",
+    "source": "But still, I sense that <i>this</i> wound will heal faster.",
+    "source_sha256": "15ab1901d76eafef1baa465fd3675b5f1ea0d54b35f4806a64cbfba1541076a7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2060516"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29493,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0071"
+  }
+]

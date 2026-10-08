@@ -1,0 +1,274 @@
+[
+  {
+    "id": "a00968-84a10729b444",
+    "source": "This is a past event. Here you can see which characters attended the event and what came of it. Try clicking on it now.",
+    "source_sha256": "84a10729b4440b2c4cb6b501c1a11d9b73183a950ca6cecb5ccb1da3e81fdd5e",
+    "origins": [
+      "assembly_review:968"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TutorialPromptUI.GetTutorialText 的操作教程；保留按键占位符和操作条件。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00969-dbd26c2bf28a",
+    "source": "Future events are marked in blue. Because Elsinore's state is constantly changing, there is no guarantee a future event will happen for certain. Try pressing {0} to open it.",
+    "source_sha256": "dbd26c2bf28ab7f56924dbdcdd1cbce18eef6f893b14166b4a22083c0017dfe2",
+    "origins": [
+      "assembly_review:969"
+    ],
+    "categories": [
+      "ui_template"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TutorialPromptUI.GetTutorialText 的操作教程；保留按键占位符和操作条件。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00970-b9775617c140",
+    "source": "Future events are marked in blue. Because Elsinore's state is constantly changing, there is no guarantee a future event will happen for certain.",
+    "source_sha256": "b9775617c140a6eb35d6add762fc532da298d45ecc665c5134aaed0c378cbae5",
+    "origins": [
+      "assembly_review:970"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TutorialPromptUI.GetTutorialText 的操作教程；保留按键占位符和操作条件。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00971-0ed73c73e945",
+    "source": "You can now use the clock to fast forward time. Try holding {0} to fast forward time now.",
+    "source_sha256": "0ed73c73e9459f1530a2634edaafc721d12be2b17612f31f6add972bb6616243",
+    "origins": [
+      "assembly_review:971"
+    ],
+    "categories": [
+      "ui_template"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TutorialPromptUI.GetTutorialText 的操作教程；保留按键占位符和操作条件。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00972-54ee06d798cd",
+    "source": "You can now use the clock to fast forward time. Try holding down on the clock to fast forward time now.",
+    "source_sha256": "54ee06d798cd356f916b83819add503f8c278efdaa766d5ebbea0e6111af2f9e",
+    "origins": [
+      "assembly_review:972"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TutorialPromptUI.GetTutorialText 的操作教程；保留按键占位符和操作条件。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00973-0bc7472861a4",
+    "source": "You can now reset the time loop at any time. Press {0} to open a menu where you can restart the loop.",
+    "source_sha256": "0bc7472861a4c56eb1e495723a93b2dacc74e97dfc01747378dd8cb8ab335143",
+    "origins": [
+      "assembly_review:973"
+    ],
+    "categories": [
+      "ui_template"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TutorialPromptUI.GetTutorialText 的操作教程；保留按键占位符和操作条件。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00974-0035921b0f70",
+    "source": "You can now reset the time loop at any time. Press the skull button to open a menu where you can restart the loop.",
+    "source_sha256": "0035921b0f7011bc65359eb4d3e6116eea018c2a578b7a3c9b938af13f658bc2",
+    "origins": [
+      "assembly_review:974"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TutorialPromptUI.GetTutorialText 的操作教程；保留按键占位符和操作条件。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00981-faafbaa3ea29",
+    "source": "Fast Forward Time",
+    "source_sha256": "faafbaa3ea298539841e707bdcf4a01eda23326bba446e83405b4383ebae0e78",
+    "origins": [
+      "assembly_review:981"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "实际游戏界面的按钮、确认/错误提示、结局说明或工具提示，具备明确玩家可见用途。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00983-2c9593db77c2",
+    "source": "This will save the game and reset the loop to Thursday morning. Ophelia will remember all information she has learned, but everything else will reset. Are you sure you want to continue?",
+    "source_sha256": "2c9593db77c2a7bca14f9f07a84167bca79f3634f3122be7d8b074e7acee6919",
+    "origins": [
+      "assembly_review:983"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "实际游戏界面的按钮、确认/错误提示、结局说明或工具提示，具备明确玩家可见用途。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00986-ce7afb488919",
+    "source": "Start of Loop",
+    "source_sha256": "ce7afb488919c191eb22003cd85987496c99d7f1f15256e08e4f40f359daa4d2",
+    "origins": [
+      "assembly_review:986"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "游戏历史/日志界面的玩家可见叙述模板；不是调试日志，保留占位符及拼接边界。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00987-187681f40a90",
+    "source": "Ophelia makes an observation.",
+    "source_sha256": "187681f40a905cc22cb239091c30345a0a843839c4d9323028c26b7feb0e29c5",
+    "origins": [
+      "assembly_review:987"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "游戏历史/日志界面的玩家可见叙述模板；不是调试日志，保留占位符及拼接边界。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00997-2bf01c7527f9",
+    "source": ", <i>in which</i> ",
+    "source_sha256": "2bf01c7527f90388f432dc7f0c4af1d91bfc93b5dfa4486566a246343fabf594",
+    "origins": [
+      "assembly_review:997"
+    ],
+    "categories": [
+      "ui_template"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "游戏历史/日志界面的玩家可见叙述模板；不是调试日志，保留占位符及拼接边界。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00998-7f0f99cff703",
+    "source": "An event occurs.",
+    "source_sha256": "7f0f99cff703d8717e3234e17943b558cc9ee08a6180e209787901d3cfdca246",
+    "origins": [
+      "assembly_review:998"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "游戏历史/日志界面的玩家可见叙述模板；不是调试日志，保留占位符及拼接边界。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a00999-8520ec2ce77a",
+    "source": "Ophelia presents \"{0}\" to {1}.",
+    "source_sha256": "8520ec2ce77a856d34f044e3813862fdc4b93ee156f0de1c42ed9a72ea49d2de",
+    "origins": [
+      "assembly_review:999"
+    ],
+    "categories": [
+      "ui_template"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "游戏历史/日志界面的玩家可见叙述模板；不是调试日志，保留占位符及拼接边界。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a01028-01fa84a27b3f",
+    "source": "Timeline of Events",
+    "source_sha256": "01fa84a27b3f93ecbcf4a64b2a39aabfa5201b3fdbad5775c55919d73a6e7b92",
+    "origins": [
+      "assembly_review:1028"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TimelineUI 的事件状态、工具提示或时间线标题；保留条件和占位符。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a01029-7ca57a615c10",
+    "source": "Timeline of Current Loop",
+    "source_sha256": "7ca57a615c1016372ccdbc8fd7ca9eab41c6dd567088f2d5d5c19745f8aba7a1",
+    "origins": [
+      "assembly_review:1029"
+    ],
+    "categories": [
+      "ui"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TimelineUI 的事件状态、工具提示或时间线标题；保留条件和占位符。"
+    },
+    "batch": "b0109"
+  },
+  {
+    "id": "a01030-d27ee8444326",
+    "source": "Timeline of Loop {0}",
+    "source_sha256": "d27ee8444326de7206ee8cf269206f41d610b0a10e7fee24755ef42e86cf7693",
+    "origins": [
+      "assembly_review:1030"
+    ],
+    "categories": [
+      "ui_template"
+    ],
+    "context": {
+      "type": "实际程序集额外可见文本",
+      "classification_reason": "TimelineUI 的事件状态、工具提示或时间线标题；保留条件和占位符。"
+    },
+    "batch": "b0109"
+  }
+]

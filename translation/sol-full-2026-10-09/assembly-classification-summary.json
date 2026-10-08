@@ -1,0 +1,35 @@
+{
+  "count": 1036,
+  "decisions": {
+    "exclude": 298,
+    "translate": 695,
+    "uncertain": 43
+  },
+  "kinds": {
+    "diagnostic": 244,
+    "ui": 41,
+    "engine_identifier": 2,
+    "dialogue": 631,
+    "middleware_diagnostic": 39,
+    "sample_ui": 41,
+    "input_identifier": 5,
+    "test_placeholder": 2,
+    "ui_template": 23,
+    "developer_console": 6,
+    "build_label": 1,
+    "missing_data_placeholder": 1
+  },
+  "assembly_sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af",
+  "review_file_sha256": "91ac2aa18ebc4d0deb4733e6c21b3b0d3339be71b73f9167b11bad8df7ef7e80",
+  "all_exact_us_strings_verified": true,
+  "all_static_references_found": true,
+  "static_reference_count": 1370,
+  "model_calls": 0,
+  "notes": [
+    "已逐条阅读候选，再核查静态 IL 的真实引用方法",
+    "translate 不证明所有剧情分支或 UI 本次实际触发",
+    "uncertain 必须先证明玩家入口，不能自动加入词表",
+    "玩家历史界面的叙述格式模板可翻译，程序诊断日志不可翻译",
+    "当前仅分类，没有正文译文"
+  ]
+}

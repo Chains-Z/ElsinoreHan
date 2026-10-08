@@ -7,6 +7,7 @@ $output = Join-Path $projectRoot 'runtime\build\ElsinoreHan.RuntimeProbe.dll'
 New-Item -ItemType Directory -Path (Split-Path $output) -Force | Out-Null
 $references = @(
     (Join-Path $projectRoot 'runtime\vendor\BepInEx5\BepInEx\core\BepInEx.dll'),
+    (Join-Path $projectRoot 'runtime\vendor\BepInEx5\BepInEx\core\0Harmony.dll'),
     (Join-Path $managed 'Unity.TextMeshPro.dll'),
     (Join-Path $managed 'UnityEngine.dll'),
     (Join-Path $managed 'Assembly-CSharp.dll'),

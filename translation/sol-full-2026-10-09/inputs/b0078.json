@@ -1,0 +1,2899 @@
+[
+  {
+    "id": "p11275-1da518b6ea0e",
+    "source": "I have a sense that time is somehow repeating itself, and I've lived through this before.",
+    "source_sha256": "1da518b6ea0eb544c0304ed5034eea962c7f3212838759a108f6297ecd510b9d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:272191"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 1130,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11276-14390d9eab51",
+    "source": "Ophelia... are you all right?",
+    "source_sha256": "14390d9eab51f2286c2725475369d29bd4f489695fe343beb70acb25f5a473f2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:272372"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_StuckInLoop",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Ophelia_Confused}",
+      "line": 1131,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11277-5d1a596b99fb",
+    "source": "Yes. It's not my health, it's... something else.",
+    "source_sha256": "5d1a596b99fbea4d4608ae6f1448dcaa77d8d0cde9a42d1256e00f75a873bc9d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:272432"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1133,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11278-078100730b30",
+    "source": "Are you certain? The last time you were ill...",
+    "source_sha256": "078100730b3006bce9308452db5acf625fd05e2703a347db0b2efa79aa04be95",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:272530"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_StuckInLoop",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 1135,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11279-8bb51c26073f",
+    "source": "I know. I covered it up. But I was a child then. It won't happen again.",
+    "source_sha256": "8bb51c26073f86d70ab54b47f376043a6bf46554fe10b9d533885c50b7d1538e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:272624"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1136,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11280-6ae646e8f19c",
+    "source": "I'm not as fragile as I used to be, Bernardo. You don't always have to look out for me.",
+    "source_sha256": "6ae646e8f19c7325237bce12ff356aa9346d8376f14d7c5800ce0f08d333649d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:272769"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {Bernardo}",
+      "line": 1137,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11281-8d23fea8d614",
+    "source": "I wouldn't watch you so closely if you didn't make me worry so often.",
+    "source_sha256": "8d23fea8d614b569132548245a18c5602404e7fdd351ec69b730dee12a3d3cf4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:272946"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_StuckInLoop",
+      "speaker": "Bernardo",
+      "cues": "{Ahh_Tired}",
+      "line": 1139,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11282-9745468fcedd",
+    "source": "I don't know why, but I've lived through this same day once before, as if time is repeating.",
+    "source_sha256": "9745468fceddb89430b19829ffc222ab6d1830279c6c16467ba457cda585f5d4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273087"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "{Horatio_Sad}",
+      "line": 1144,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11283-2477a337c53b",
+    "source": "Have a lie down for a bit. That usually does the trick when I feel that way.",
+    "source_sha256": "2477a337c53be8c7971b30f06573160930b09a979acbb8a9668b88cda107f8d4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273274"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_StuckInLoop",
+      "speaker": "Horatio",
+      "cues": "{Hmm}",
+      "line": 1146,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11284-c1c141286224",
+    "source": "So... you feel this way, too?",
+    "source_sha256": "c1c141286224126e397165a5d711ef4617c88a6dc5d6e0713f5301292d7b9630",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273429"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 1147,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11285-d66a0e6dc429",
+    "source": "Of course. A nice wine, an excellent book... so many things can make you feel so differently about the world!",
+    "source_sha256": "d66a0e6dc4298f784b85b99f1bb1e49900dd443a6194bd481227d8bbbb09d1d0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273489"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_StuckInLoop",
+      "speaker": "Horatio",
+      "cues": "[happy] {Of_Course}",
+      "line": 1149,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11286-9067e5183e58",
+    "source": "Not what I meant.",
+    "source_sha256": "9067e5183e582cf21e01d80a9a38f96d189a4822c4dd72fb7bb654857b0cf2a9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273710"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Wistful}",
+      "line": 1151,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11287-f0ea3d67b5b0",
+    "source": "Sure, 'Feely. Loony as a bat, huh?",
+    "source_sha256": "f0ea3d67b5b0917d3f8d543afd4b3fd76621681f936edd976bb67e0a4c497a60",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273746"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_StuckInLoop",
+      "speaker": "Lady Brit",
+      "cues": "[happy] {Chuckle}",
+      "line": 1157,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11288-028f4598c384",
+    "source": "Whatever you say! Just don't stab me to death in a fit of insane rage, or something.",
+    "source_sha256": "028f4598c38472474788502ba3c0b61a407643b84c577d7ee60f46ac1ce39bd5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273816"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_StuckInLoop",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 1158,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11289-a669097592bc",
+    "source": "How about this: I back away slowly, and you stop talking about time-repeating nonsense. Yes? Yes.",
+    "source_sha256": "a669097592bc470c42d41d028a07401d0a30567f261efc5824455b606bdadc07",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:273987"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_StuckInLoop",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1161,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11290-732685635dc0",
+    "source": "<i>Thanks, Brit.</i>",
+    "source_sha256": "732685635dc0cc8a5aa5599ba2232b25c2a20384707893cd43b231700025d8ef",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274184"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 1162,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11291-f3ac46baae31",
+    "source": "It is a familiar tale.",
+    "source_sha256": "f3ac46baae31596ef5d0603c754858dddda2b8d60e4d14377cfa8a61d95ffc19",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274226"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "irma_StuckInLoop",
+      "speaker": "Irma",
+      "cues": "{Hmm_Skeptical}",
+      "line": 1168,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11292-12bb4ca991fd",
+    "source": "It's said Queen Astrid was overcome with similar illness once. But that was very long ago.",
+    "source_sha256": "12bb4ca991fd46d01f8524ee50b2570f15875807863f3df76d5bf4d20b935ccf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274272"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "irma_StuckInLoop",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1170,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11293-07ac9004dfe1",
+    "source": "Queen... Astrid?",
+    "source_sha256": "07ac9004dfe138c4672785ddfd4068b4cf201611c41cd1339426f5ff6a90ee16",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274455"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "irma_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 1172,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11294-3475d490a944",
+    "source": "And there I've said too much.",
+    "source_sha256": "3475d490a944d1eac61a9e1b260d9ec20c82856afb80b06be7f3c8cd694a1296",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274489"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "irma_StuckInLoop",
+      "speaker": "Irma",
+      "cues": "[disgust]",
+      "line": 1173,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11295-6e4e40c3c378",
+    "source": "Time is repeating itself, and I feel... lost.",
+    "source_sha256": "6e4e40c3c37845e2095397c2b80eabf65347482c3a93d04e2c7f8f92b598b2c9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274549"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_StuckInLoop",
+      "speaker": "Ophelia",
+      "cues": "{My_King_Hesitant}",
+      "line": 1179,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11296-58585f95dfdb",
+    "source": "Is this a new game?",
+    "source_sha256": "58585f95dfdb383f7ddaa4a3e908f7c5f2d6795535954c6799b7734d704d2d08",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274641"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_StuckInLoop",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {Sigh}",
+      "line": 1180,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11297-5033b96e3c08",
+    "source": "I'm sorry, Ophelia, but I haven't the time to play it.",
+    "source_sha256": "5033b96e3c089b9063109f8d14feaa2659c6334141bfdbeee573b7263d8f13ae",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274681"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_StuckInLoop",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 1182,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11298-a926ece35529",
+    "source": "I'm a very busy man. And besides, I don't like games of any sort.",
+    "source_sha256": "a926ece35529f76663c5ce651c5a40e6d9711e146c9fb705937ec749257ed4cf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274791"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_StuckInLoop",
+      "speaker": "King Claudius",
+      "cues": "{Goodbye_Annoyed}",
+      "line": 1184,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11299-2afab2763bcf",
+    "source": "Your wife was having an affair with Claudius before your death. Did you know?",
+    "source_sha256": "2afab2763bcff3264c5650021a4436d4421f3c7957acc1966721872d9b93211c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:274924"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 1189,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11300-2bc54f85272b",
+    "source": "Yes. As we've discussed before, it has never been a concern of mine.",
+    "source_sha256": "2bc54f85272bfd5d0c01abfac845256446555e61d22b1961d02401658d5e9bc6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "{Yes_Grave}",
+      "line": 1192,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11301-5b32f4472c3b",
+    "source": "Yes. I knew.",
+    "source_sha256": "5b32f4472c3bcc299371eaaa4ce7bf8b5e540fb2b53aa1ab022b8717952a4981",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "{Yes_Grave}",
+      "line": 1195,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11302-d57e214915bf",
+    "source": "It doesn't seem to trouble you.",
+    "source_sha256": "d57e214915bf585a78a9f75859a6eda8f4da390a0d549ce62572c506bbe1005b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:275274"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Hmm_Unsure}",
+      "line": 1198,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11303-a1e11f36407d",
+    "source": "It does not.",
+    "source_sha256": "a1e11f36407dd22050a7d562a070b73ce723ceacc6b1fe17bcc3fc39c17734af",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1200,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11304-6f8fb61cbba1",
+    "source": "I made my peace with it long before my death.",
+    "source_sha256": "6f8fb61cbba1bb41dbb890495f491630b72035986dbc6b74d53d9090ddcef615",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1202,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11305-6de5c376b05e",
+    "source": "Though they were only one in body near the end of my life... their feelings for one another extended to far before that.",
+    "source_sha256": "6de5c376b05ece05007bb7bddba4738c3f0bac3d082b7a8faaa42f078807a977",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1203,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11306-7dd9989a61e5",
+    "source": "Something in Gerta and I died far sooner, when the others did.",
+    "source_sha256": "7dd9989a61e56786ac7c9e74d8ebdadaae2f7696980f1232889f57850d6f0f93",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1204,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11307-4edf9794f8e1",
+    "source": "The others?",
+    "source_sha256": "4edf9794f8e10b43af7e84eb79f0640c44a03be1f430b5e14992764ecd909067",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:275882"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 1205,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11308-482eaf267417",
+    "source": "Ah. It would not be common knowledge for anyone other than Irma and Gerta, I expect.",
+    "source_sha256": "482eaf26741780841e53a08e84e5eed2b767929c195fe3483387113142027aa2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "{Ah}",
+      "line": 1208,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11309-59f388118d00",
+    "source": "Hamlet was our first living child. But Gerta was with child before that. Four times in all.",
+    "source_sha256": "59f388118d00636719e9278f369f0252477bbde35591c2ef32b42c8a691a0f57",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1209,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11310-70aa86758a0f",
+    "source": "The first she lost very near to birth. We thought the child might live, but we were wrong.",
+    "source_sha256": "70aa86758a0f802f2fc803175779a4227a13d7bc888f07722cfc24b7d825cdc0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1210,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11311-e643feab4a29",
+    "source": "The second and third emerged simply as a stream of blood.",
+    "source_sha256": "e643feab4a290c0782741348302b0b3a3d65f0d1e4e647ec831912074815e7cb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1211,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11312-5211d90c3094",
+    "source": "She saw each loss as a failure unto herself.",
+    "source_sha256": "5211d90c3094a3211d5610104456dce3334a11f2d37cb904f47e1e70eb8ff4b4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1212,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11313-7a9ae08c4d80",
+    "source": "After we lost our third child, I no longer knew what to say to her, and she to me.",
+    "source_sha256": "7a9ae08c4d8020252e5b13fd23909c21b198deee330be543863f6aebeeba189b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1214,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11314-6c06f77642c4",
+    "source": "If she could not give me an heir, she could not fulfill her duties as Queen, as she saw them. And to her, that was the gravest failing of all.",
+    "source_sha256": "6c06f77642c47030f693600abf20c3df8b0865b5621cb7d97ac8249c38bd1b87",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1215,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11315-e1d1f49734bf",
+    "source": "When she was with child a fourth time, she had already picked out a place to bury him in the graveyard, so certain was she that he would die.",
+    "source_sha256": "e1d1f49734bf19f93bf6625f55354635adcff4a236db6e38263a997822e1bd3d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1217,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11316-20893cae75e5",
+    "source": "But Hamlet lived. And our miracle son was born.",
+    "source_sha256": "20893cae75e525eab0fd7b99edde51778d618e5db0665c55c33021d7c3e2b465",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1218,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11317-062c239f5e32",
+    "source": "Claudius knew nothing of the lost children, as far as I know. He was a comfort to her. He was warm and gentle to her in ways I was not.",
+    "source_sha256": "062c239f5e32c1c2b120f5ce0befb308ac2e948ab8f905de4d8105dc1b4a3d6f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "{Heavy_Sigh}",
+      "line": 1220,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11318-789d9a856a55",
+    "source": "Over time that comfort grew to familiarity, then to affection, then to love. I witnessed it and I did not stop it.",
+    "source_sha256": "789d9a856a55fb7514be453b31a6eb4aff37a61265337f081469b2752ab5c755",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1222,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11319-b98be031bfa7",
+    "source": "My wife has suffered enough in this life. Improper though it may be for a man to allow his wife to be wooed by his brother...",
+    "source_sha256": "b98be031bfa7e1ec0319e845e40c80c83e83309c678340475c49f25b874bf624",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1226,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11320-e73c65a46631",
+    "source": "If it would purchase her one single shred of happiness, I would overlook nearly anything in the world for Gerta.",
+    "source_sha256": "e73c65a46631fb01d7703c95912c5f9bfcc1788ff46a79d6fafefbc0ee32295f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 1227,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11321-e4c6039a53de",
+    "source": "I-- I had no idea. My sincerest apologies for prying, King Hamlet.",
+    "source_sha256": "e4c6039a53de7f7164d94b9d7d006fd74c18d757a1583c44ebe6bba1922d7ceb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_affair",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Stammer_Despair}",
+      "line": 1229,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11322-527bfcafe65f",
+    "source": "The Queen was having an affair with Claudius before her husband passed away. Did you know?",
+    "source_sha256": "527bfcafe65f4629377b037e7a5b5d787b6b7d7f9415885b4e93f4e7a3c447a9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:278784"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 1236,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11323-6396aefc72f9",
+    "source": "<i>Gertrude?</i> I-- I don't know quite what to say about that.",
+    "source_sha256": "6396aefc72f94e82957046f7f278bd65332b3786e921458b11579a9ff02547ff",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Laertes",
+      "cues": "[surprise] {Gasp_Intense}",
+      "line": 1239,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11324-8950fbc0dbd0",
+    "source": "Though I suppose it doesn't entirely surprise me.",
+    "source_sha256": "8950fbc0dbd05fc76b67bd4eaf05fb2781a18c078887e6c67c17d2171ae4a6e9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:279091"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1241,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11325-3e4315bc0840",
+    "source": "If I recall correctly, the Queen came to Elsinore when she was quite young.",
+    "source_sha256": "3e4315bc084015c2e6b01c479b0985b91328d6bb8d21514611092419424610e9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:279191"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Laertes",
+      "cues": "[sad] {Hmm_Skeptic}",
+      "line": 1243,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11326-d6bcfd348a83",
+    "source": "She was raised with both Hamlet senior <i>and</i> Claudius as two of her closest companions.",
+    "source_sha256": "d6bcfd348a835f6b4224054fb7a3e06e11c6470dd1dc9af8ade88d94038376ba",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:279344"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1244,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11327-ccb5336df867",
+    "source": "She was always betrothed to Hamlet, I heard, but perhaps there was something in her friendship with Claudius as well.",
+    "source_sha256": "ccb5336df8674f974bb59cb196937c96d666ef5231e1c4692f04a50588b5dc2d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:279531"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1245,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11328-ac05f75524b7",
+    "source": "Regardless, that's the sort of unsavory thing I prefer not to discuss in depth.",
+    "source_sha256": "ac05f75524b7240083f00ae561c57d32f1c8e81adaf1230ddbad40289cf3b718",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:279768"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Laertes",
+      "cues": "[sad] {Sigh}",
+      "line": 1247,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11329-128807e5bcbc",
+    "source": "It wouldn't be beyond Hamlet to lie about a thing like that. I don't know that I believe what I heard, myself.",
+    "source_sha256": "128807e5bcbc988581bb46b9407a2d8a7f728f301fdad8bdc93d50d3bb41cf87",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:279929"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_affair",
+      "speaker": "Laertes",
+      "cues": "[sad] {Sigh}",
+      "line": 1250,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11330-eb19623cd93b",
+    "source": "Oh, my.",
+    "source_sha256": "eb19623cd93b679217fb9d16302c43d1789c7cb5ba511077786966a0a69fa27a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280152"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_affair",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Sigh}",
+      "line": 1256,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11331-3f8417bd394d",
+    "source": "I didn't. But what a devastating thing that might be.",
+    "source_sha256": "3f8417bd394d84fa906fa6a77904e5bd2b09631a1641628c298b1c7a0ded39cb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280168"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_affair",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 1257,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11332-dec279a2b166",
+    "source": "Don't tell Guilda about it, or she'll never stop asking me what I think His Highness looks like in the nude.",
+    "source_sha256": "dec279a2b16602f7182e5e05b0cb26853e132b13872b37c6e9adc635a45813dc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280276"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_affair",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust] {Gasp}",
+      "line": 1259,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11333-ddc5511b4e7e",
+    "source": "Are you quite serious? <i>Everyone</i> knows, now.",
+    "source_sha256": "ddc5511b4e7e117f2b3c2aba77f2a3909fc446ed0d9121edc1a823bfb2b0773f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280495"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_affair",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 1262,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11334-3a767a1f6b89",
+    "source": "As I predicted, Guilda won't stop asking me what I think His Highness looks like in the nude.",
+    "source_sha256": "3a767a1f6b897423c2293d758ffdb22d864775d6947d3cb141f0ba1176ffb41e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280597"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_affair",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust]",
+      "line": 1264,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11335-08e17c88acf8",
+    "source": "Umm, no, but now I'm imagining them <i>both</i> naked.",
+    "source_sha256": "08e17c88acf8e76f7fd5f8a11f14f64dfb5358fb542fd34199aa956df4f78c6f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280786"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guil_affair",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Awkward}",
+      "line": 1271,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11336-225d7567ff72",
+    "source": "So <i>thanks</i> for that.",
+    "source_sha256": "225d7567ff7202dffeeeff7be8a7e9ad145a1eb59a0d4ad97f1dc5cd60feb903",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280896"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guil_affair",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust]",
+      "line": 1272,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11337-2cad78b0670b",
+    "source": "I assumed you're the one who tipped off Hamlet. And we all saw how <i>that</i> turned out!",
+    "source_sha256": "2cad78b0670b5e2beebde57cdf9336888e5114612b96946bf9d77f4a40b6fd6d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:280950"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guil_affair",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Sigh}",
+      "line": 1274,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11338-e4dd6b2d3461",
+    "source": "The Queen was having an affair with Claudius before King Hamlet's death.",
+    "source_sha256": "e4dd6b2d3461bf9c99a82522a2c9ff6ead766c708b00a85ad20a0d0d8ad3b617",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:281133"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_affair",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 1279,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11339-43508d0a9b84",
+    "source": "Stale gossip is also the most tedious, 'Feely. Everyone <i>knows</i> that now.",
+    "source_sha256": "43508d0a9b84bd9757f1dae0db636e9a43d3920fb1d39efcb4d0d9939b2aabf1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:281280"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_affair",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Disgust}",
+      "line": 1282,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11340-d9db4b6f37dc",
+    "source": "And how could you possibly know that, exactly?",
+    "source_sha256": "d9db4b6f37dc088d02207f7d4401cf742190335913bc32c054f274d88da8bebd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:281439"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_affair",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Hmm_Doubt}",
+      "line": 1284,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11341-874d597d84b7",
+    "source": "I have my ways.",
+    "source_sha256": "874d597d84b744ddd07cbd60b4c3447768e139b7d860328e9272462584210a3e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:281533"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_affair",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1285,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11342-a2a72b3a6423",
+    "source": "Don't use that phrase. It makes you sound like a creep.",
+    "source_sha256": "a2a72b3a6423731862cc6b113d0c5e07b32faa247625f962b7bf8a909d508c8f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:281565"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_affair",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 1286,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11343-039202ed22cf",
+    "source": "Anyway, I already knew, of course. Rifling through the Queen's personal belongings has been my only means of entertainment recently.",
+    "source_sha256": "039202ed22cf7506c5ca14d57305ffaa9b5b2a520cca3aa9eebf27d46c1f132c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:281677"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_affair",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1287,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11344-e96a6e419cb0",
+    "source": "But now that others are blathering on about it... well, I guess there's no reason to keep this a secret, is there?",
+    "source_sha256": "e96a6e419cb0c1517de8a4a21d5f3693c09445aebd4b791dd1916403b1950bad",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:281944"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_affair",
+      "speaker": "Lady Brit",
+      "cues": "[happy] {Chuckle}",
+      "line": 1288,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11345-e751e3abaf4e",
+    "source": "I need access to the Queen's personal chambers. Can you help me?",
+    "source_sha256": "e751e3abaf4e311717c9283d9a0da0a6e2bf9d7dfeacef9b06b318c6d3ce6b95",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:282175"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "{Irma}",
+      "line": 1292,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11346-fd45be1b2fb9",
+    "source": "Have you some need to pay respects to her?",
+    "source_sha256": "fd45be1b2fb976fd045b64671ec4bff70e6413fd32ffdd93c66edabe65a5fff2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:282306"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "[sad]",
+      "line": 1294,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11347-692dfc357a38",
+    "source": "Either way, it matters little. I was ordered to hand over my key after her passing. And so I have.",
+    "source_sha256": "692dfc357a38ecd2515d6ecace7296d8552a7901ed21edf6f9fae5fe31645276",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:282392"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "[sad]",
+      "line": 1295,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11348-95fcea00f517",
+    "source": "I have a key. What need do you have of it?",
+    "source_sha256": "95fcea00f517c21e27f196248bea00b2f8525d0d94120f0d040d12c8dd52c4b7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:282591"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "{Hmm}",
+      "line": 1298,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11349-139bc70692d6",
+    "source": "I'd just like to take a quick look around. There's something I'm looking for.",
+    "source_sha256": "139bc70692d6dfb5dac0cbcd69c0bfbd1b76ae7541d12b12c7b9615a2747fb80",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:282677"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1300,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11350-933e100017da",
+    "source": "Rummaging around in my lady's chambers? Hah! Guts, but no tact!",
+    "source_sha256": "933e100017daeac8f9ff437bba211f726aad3e9f44374d2bb4e64414ab0e52b6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:282834"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1302,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11351-35aea0a6e30d",
+    "source": "Everyone knows you're too curious for your own good, my lady.",
+    "source_sha256": "35aea0a6e30dfeace0ae0249075e04830453f518a919df00f30446169a47674f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:282962"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1303,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11352-f87728c5abcd",
+    "source": "Isn't there something I could do for you in return? A favor of sorts?",
+    "source_sha256": "f87728c5abcd9bce96a319b0b65185d73064ec4993fc12f564e574aaeb77ffb0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:283086"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1304,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11353-c40507245319",
+    "source": "Mmm. A woman who strikes deals. Far too few of those around. Ja, I'll bite.",
+    "source_sha256": "c405072453194f2bfd5f07e62126ea740c51e924968976fb740586db24b8f5f1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:283227"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1306,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11354-2712d465edfa",
+    "source": "I've been known to gamble now and then. But the cowards who play with me are too delicate to play my favorite trick-taker: Ruff and Honours.",
+    "source_sha256": "2712d465edfab3902a94140a1ce08741741ce0582b3ff0156d45d583c8c6f54d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:283380"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1308,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11355-41716b31febf",
+    "source": "Instead, they stick to only the games they think they can win!",
+    "source_sha256": "41716b31febf528fe394700666acf015380165d4df72cdfff712bf8653aaee43",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:283663"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1309,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11356-054f7c5fe6e9",
+    "source": "Round up my card partners, persuade them, and you'll have yourself an exchange.",
+    "source_sha256": "054f7c5fe6e92f8a9f2ab34a18e83ccea8c26a2ab64c9494d7e9e7824d6ef61a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:283789"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1310,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11357-64ddde8a233c",
+    "source": "(Not to mention, if the Guard Captain sees me rousing up his men for 'immoral' behavior... he'll be furious. The pious lout.)",
+    "source_sha256": "64ddde8a233ca42e7c784efd62a8f70f5ea19e6515ad43ab2b956c8f5c97743c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:283950"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "[disgust]",
+      "line": 1311,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11358-27c02d098419",
+    "source": "That'd be Horatio, Marcellus, and the good Lady Brit, of course.",
+    "source_sha256": "27c02d098419ca92eb4fab9c0090a381d6b946590a5813170081a17663e03a8b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:284203"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1314,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11359-eb081113c10e",
+    "source": "That'd be Horatio and Marcellus, of course. Ordinarily, it'd be Brit too, but...",
+    "source_sha256": "eb081113c10e794275341b16efaa1943ec0017136f2364da70dae6822a217ed3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:284334"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 1316,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11360-40bb827c1e54",
+    "source": "Rather a shame to hear the news.",
+    "source_sha256": "40bb827c1e541aa0a3a3ac4cf18b77435095ab722b714f0c46dc60f4c223a43c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:284509"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "[sad]",
+      "line": 1318,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11361-cc03567144ff",
+    "source": "If you tell them all I want to strike up a game, come back here. Only then I shall unlock the room for you!",
+    "source_sha256": "cc03567144ff62fc9cbdbb922b49ed64b5749d3858f31a954c70467395041bb3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:284575"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "{Mmm}",
+      "line": 1320,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11362-e2c62847981c",
+    "source": "Certainly. You're in luck -- Bernardo ordered me to turn over the key, but he hasn't come for it yet.",
+    "source_sha256": "e2c62847981ca807a5b701ef814495d1f8988706afd55190fc530b68c7fe6e59",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "{Certainly}",
+      "line": 1329,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11363-90ee81a84207",
+    "source": "Gertrude was never my favorite noblewoman to wait upon, but for what it's worth, she was kind to me.",
+    "source_sha256": "90ee81a84207b159358c4e8df7e08094a1265fabe9df6270c9a0b8859e257976",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:284991"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 1330,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11364-f31f38234cda",
+    "source": "So all I ask is, whatever you find in there, be kind to her memory. Understand?",
+    "source_sha256": "f31f38234cda5f1a5ca116f7e043ebbea19de796bb1a2de81947f626736e6289",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:285194"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 1331,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11365-3f81af60306e",
+    "source": "<i>And</i> you'll need to do me a favor, of course.",
+    "source_sha256": "3f81af60306e1c025fcf508959343d6b1f9ef39edaf16917a0b95407d18ca23e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:285355"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 1332,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11366-52c6a4f68307",
+    "source": "What do you need?",
+    "source_sha256": "52c6a4f68307d05bfd6460d1dd807e2fa05d65b94fefedb74c63296b3c78642a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:285459"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1333,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11367-92637cbb8ff8",
+    "source": "Certainly, I have a key to her rooms.",
+    "source_sha256": "92637cbb8ff8e4b389f1f67a026f2056b6af0385551f4b95bf98b4b57d7dc87a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:285495"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "{Certainly}",
+      "line": 1335,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11368-fc472bbc0ca0",
+    "source": "But I smell the beginnings of a good deal. Nothing comes free in this world, 'Feely.",
+    "source_sha256": "fc472bbc0ca0e07431679ef71f041ee99e0d4cc379d2589b871600d7f30c46dd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:285571"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1336,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11369-bf093ebc7615",
+    "source": "I want to speak to the Prince privately, but he won't even give me a second glance.",
+    "source_sha256": "bf093ebc761514ff3f47a518f583b6d9e821b00e51f06947135df9af5fc8000d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:285778"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1339,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11370-141e52fc30f5",
+    "source": "If you arrange a rendezvous, on the other hand... maybe he'll show.",
+    "source_sha256": "141e52fc30f5fd9fc4ccdfda9367ca749f1dd5cccbde226b82fc6ae82a75d0c3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:285947"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1340,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11371-c7ce1d235319",
+    "source": "Tell him I want to meet him in the garden tonight and then I'll unlock that room for you.",
+    "source_sha256": "c7ce1d23531903b5ad522fd9ed032c5fecb089b4b50214d96700a417f6b37820",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:286084"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1342,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11372-48c8fca8893b",
+    "source": "Oh, and definitely <i>don't</i> tell anyone else. I want privacy.",
+    "source_sha256": "48c8fca8893b412515337d2af3674c2bdb4ccdb54c7b84fd0b7959d8a11a54e5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:286265"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 1344,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11373-396eb0c8d390",
+    "source": "Oh, and definitely <i>don't</i> tell anyone else. I want the utmost privacy, and you know how Gertrude can be.",
+    "source_sha256": "396eb0c8d390a6467fd7e90e526c7bd38aeedf4aacf71957038084f735a449c2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:286398"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 1346,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11374-f44bfda5cd66",
+    "source": "Not to mention I don't want <i>you</i> pining for him off in the corner somewhere.",
+    "source_sha256": "f44bfda5cd669e0b089c458a2e5b09d03e994fa8c5d66c11898e97d1862c9aa3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:286621"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 1348,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11375-6b0d7973b7c7",
+    "source": "Everyone knows how <i>that</i> ended.",
+    "source_sha256": "6b0d7973b7c753d3e3c84f9d1c84078943e3b72e8811f407a20de640f1e6ffc3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:286788"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 1349,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11376-e2c791d2a4cd",
+    "source": "So keep it discreet, won't you?",
+    "source_sha256": "e2c791d2a4cd001b5680b1a9981d4cd3e32e2b5a34cbf65961dd7d20d6c28208",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:286864"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1350,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11377-1590d960041d",
+    "source": "... Fine. But don't say I haven't ever done anything nice for you.",
+    "source_sha256": "1590d960041da749e83a337ac9a2b7d9cab7eae91b1a64c96cf95d9475d395c6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:286928"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1351,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11378-da1cee9227eb",
+    "source": "Less talking, more working. Go.",
+    "source_sha256": "da1cee9227eb89bb60456bf95aa9254b8dec30382c6bc54ef07dfb0ea4773a36",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287063"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_QueensChambers",
+      "speaker": "Lady Brit",
+      "cues": "{Farewell_Curt}",
+      "line": 1352,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11379-f3b64624efb4",
+    "source": "My lord, I'd like to seek permission to enter the Queen's personal chambers.",
+    "source_sha256": "f3b64624efb4c870ddbcfb3a0eba9b1f936ffcdee3e1e96397a794e5fcecf55d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287127"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "{My_Lord}",
+      "line": 1358,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11380-1f824f285c76",
+    "source": "You <i>what?</i>",
+    "source_sha256": "1f824f285c76c150b47fceda3ec44d9325322be7fe7c9d31b5801a6eeecad96a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287282"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "[angry] {What_Angry}",
+      "line": 1362,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11381-8d4be0108542",
+    "source": "My wife is <i>dead</i>, and you come to me seeking to rifle through her room?",
+    "source_sha256": "8d4be0108542a2cf57978a8a46093e95306b3bef6ae4599f1c535e88284411eb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287316"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "[angry]",
+      "line": 1363,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11382-4dbfe33fcb48",
+    "source": "Vultures. All of you. Disgusting little vultures.",
+    "source_sha256": "4dbfe33fcb481b00838c4dfebb91aa9b41f245666abb3aae21cec3728727069d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287473"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 1365,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11383-facf18b72245",
+    "source": "None of you ever understood us.",
+    "source_sha256": "facf18b7224559f25e8990b57f27d64d055bf67b99fd6ca76e9e276ab1fb16e1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287573"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 1367,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11384-c12c244acfcf",
+    "source": "No. Absolutely not.",
+    "source_sha256": "c12c244acfcf70c618554c022b67da55284cac0b3bd02e2e60b307dca23c4af1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287637"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "[surprise]",
+      "line": 1369,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11385-8ccd7683fb14",
+    "source": "My apologies. It's just--",
+    "source_sha256": "8ccd7683fb14c3ccc32e36f5864dd7fa23d123fccfb81bf1910dd7af3507d6b6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "[sad] {Sigh}",
+      "line": 1371,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11386-01d2a5350073",
+    "source": "I don't think I can go back there again so soon.",
+    "source_sha256": "01d2a535007393e7628d77602b969514c45f218b2f7f0d760e3b45058b71a4b2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287727"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 1373,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11387-dafac874c0a4",
+    "source": "Perhaps soon I could find the strength to enter that place. But not now. I'll think on it.",
+    "source_sha256": "dafac874c0a424b808ef60f6392d52249a4292119106e1a40439f56a8f386d3f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:287825"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 1375,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11388-8aa01ce53420",
+    "source": "Ho ho... I haven't had access to my wife's rooms in months. Sorry, I don't have a key.",
+    "source_sha256": "8aa01ce53420d75f337f68a965e4ec94a8234211ad46d49ab9b00329d3f9d9de",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:288008"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "[smile] {Chuckle}",
+      "line": 1380,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11389-ccf79f10c59e",
+    "source": "I appreciate that she's in mourning and needs her privacy. Only Irma and Brit are allowed to enter.",
+    "source_sha256": "ccf79f10c59e961715b2fe8f315aa4efd980287d5327e6ed8303bf43973c8f56",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:288183"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Claudius_QueensChambers",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 1381,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11390-dc7bdb2a0d1c",
+    "source": "My lady, I'd like to seek permission to enter your personal chambers.",
+    "source_sha256": "dc7bdb2a0d1c7370e36e41102429f6e903bbb20ba994139539c1380bc91aa545",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:288384"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Gertrude_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "{My_Lady}",
+      "line": 1385,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11391-e0956d20ca3b",
+    "source": "Ophelia, if you'd like to chat, I'm perfectly happy to meet you in the garden. Or the gallery.",
+    "source_sha256": "e0956d20ca3b14aae0b8b780e4f425ba0ae74f4f68ec9a105b37865b0657f1ae",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:288525"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Gertrude_QueensChambers",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile] {Ophelia_Question}",
+      "line": 1387,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11392-96b8b0df9dd7",
+    "source": "Might I just have a... quick peek at your rooms, then?",
+    "source_sha256": "96b8b0df9dd72eabd4bec5b4e22d894180d845414ebd5e56622a92e1bb954dbe",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:288716"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Gertrude_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "[awkward]",
+      "line": 1389,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11393-b78f639f1c68",
+    "source": "No, Ophelia. This is strange of you. And unusually uncouth.",
+    "source_sha256": "b78f639f1c6854200538f5666c005ca3dcdbf63ef90f71fd1ef3477414f22258",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:288826"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Gertrude_QueensChambers",
+      "speaker": "Queen Gertrude",
+      "cues": "[disgust] {No_Firm}",
+      "line": 1392,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11394-1775b0595128",
+    "source": "I tried to get into your mother's chambers, but they were locked.",
+    "source_sha256": "1775b059512843eae1d5fd1b0e951f438ba4dc33124e5fbaec578763dc8abc5b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:288946"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 1395,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11395-9ee143f5410f",
+    "source": "Oh, that. Never mind that now. I've little care for what has come before.",
+    "source_sha256": "9ee143f5410f57db81784047395592b94dff6eac6d83d0b96e41b2e8e3d749af",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289079"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Hamlet",
+      "cues": "{Hmm}",
+      "line": 1398,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11396-ba00109a7919",
+    "source": "It's time to focus on what lies before us.",
+    "source_sha256": "ba00109a7919f11f79481601cb6d177236955e7079de96adeb8ecd8c953171f4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289228"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 1399,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11397-156a2850645a",
+    "source": "Of course they're locked! Why do you think I haven't looked around myself?",
+    "source_sha256": "156a2850645a6439e68261d14f7e1362f8962b2fb1dfaf261928b32680e82197",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289314"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Hamlet",
+      "cues": "[angry] {Of_Course_Angry}",
+      "line": 1402,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11398-65a6d9a85bae",
+    "source": "Brit and Irma have keys. Not even my uncle is permitted to enter.",
+    "source_sha256": "65a6d9a85bae16e6aaf951d27f1df76524bd34c9e65faf6f73f873d443034b01",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289465"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 1403,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11399-6631d5529ee2",
+    "source": "Why would you <i>want</i> to go in there?",
+    "source_sha256": "6631d5529ee2e3779858d958962e38fb93d4e3c43a2149d71c07bd03b324a5ef",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289598"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Hamlet",
+      "cues": "{Why}",
+      "line": 1405,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11400-ee7b7a2fbaea",
+    "source": "A den of sin and incestuous heat. That's all it is, in the end.",
+    "source_sha256": "ee7b7a2fbaea7bf9a1df0864a4d0c36d3fd66d0f08bba49cdd4c4eada8cc5dc4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289682"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 1408,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11401-c5d2651d5515",
+    "source": "(Right. He didn't ask me to search her room in this timeline.)",
+    "source_sha256": "c5d2651d5515511c5fa0a58eb143a2aab278775d628e48397d8f3332a4622736",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289810"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 1410,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11402-38ef6438697d",
+    "source": "(I bet he'd still be interested in whatever I learn, though...)",
+    "source_sha256": "38ef6438697d4827dd4dc43783b0b797eb0b66f0ef53b6eae99b8789e1186266",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:289936"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1411,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11403-196e3b160657",
+    "source": "There's nothing in there I want to know about anymore. Not now.",
+    "source_sha256": "196e3b160657434a90fc50df0792aaa044d4c394dc4dcc3320f062204005e926",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:290064"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_QueensChambers",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 1414,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11404-e2dc49766c4a",
+    "source": "Even if that <i>weren't</i> wildly inappropriate, love, I haven't got a key.",
+    "source_sha256": "e2dc49766c4aaa11533f416288c652d833d8049ed946b1510da0f37f92624ad3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:290204"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Polonius_QueensChambers",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 1422,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11405-4ecd8f1ba6fb",
+    "source": "Her nosy little lady-in-waiting and that Bohemian bullish cook are the only people she ever trusted with that honor.",
+    "source_sha256": "4ecd8f1ba6fbb2996823b94550623c87c14eda9c059794dadb01dbd62b4f7d34",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:290359"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Polonius_QueensChambers",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 1423,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11406-1c20c69147c6",
+    "source": "But I stand resolute: you musn't go into her rooms, Ophelia.",
+    "source_sha256": "1c20c69147c6429516978ad8814892c6030a86b9a4b35a3aca408b6db367af9e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:290594"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Polonius_QueensChambers",
+      "speaker": "Polonius",
+      "cues": "[angry] {You_Mustnt}",
+      "line": 1425,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11407-4685787fd30d",
+    "source": "I'm... not sure if I should, Ophelia. She locks her doors for a reason.",
+    "source_sha256": "4685787fd30d17db3cb79f3edf9633d6bbefce9dc8d95c11ae098d49fc22a300",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:290716"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Bernardo_QueensChambers",
+      "speaker": "Bernardo",
+      "cues": "{Hmm_Suspicious}",
+      "line": 1430,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11408-89c3400895e9",
+    "source": "Besides, I don't have a key. Only Lady Brit, Irma, and the Queen do. I'd need to request it from one of them.",
+    "source_sha256": "89c3400895e9bab15030526d7906aa006a620d54efb3e5a40ecba8c5c55ab981",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:290861"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Bernardo_QueensChambers",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 1431,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11409-846fce7289b3",
+    "source": "Absolutely not. In fact, I've requested all available keys from both Lady Brit and Irma.",
+    "source_sha256": "846fce7289b3ae4426ae1eb4042cca72613fe7cef0d5fd3594b64edb20b171b8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:291082"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Bernardo_QueensChambers",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Disgust_Tired}",
+      "line": 1434,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11410-5fbab434fe9f",
+    "source": "We're still uncovering details about the circumstances involved in her death. Please don't get underfoot.",
+    "source_sha256": "5fbab434fe9f5feefd634898b50dbc89d8446fad1dafb85c62856ef5215b8a67",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:291261"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Bernardo_QueensChambers",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 1435,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11411-0b017aa8083e",
+    "source": "I donno if I should, Ophelia. Queen likes 'er privacy. It's ladies-only, as far as I know.",
+    "source_sha256": "0b017aa8083ec9b77f7c908a4d5eb6123b89aa4b85b215bd70c60f5787165c43",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:291474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Marcellus_QueensChambers",
+      "speaker": "Marcellus",
+      "cues": "{I_Donno}",
+      "line": 1442,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11412-cd67b7924a54",
+    "source": "Only Brit, Irma, and Her Highness 'ave keys to get in.",
+    "source_sha256": "cd67b7924a54bd2106a3ff85f318c3c8c5b26b142a1b9e521e116ce2204703e8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:291657"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Marcellus_QueensChambers",
+      "speaker": "Marcellus",
+      "cues": "",
+      "line": 1443,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11413-c2e9a8561677",
+    "source": "I donno if I should, Ophelia. Bernardo asked for all of the keys back after she passed.",
+    "source_sha256": "c2e9a856167773d1897b2b5618bfdf3c6e1ad620fbba6d6901869f3318399f8b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:291767"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Marcellus_QueensChambers",
+      "speaker": "Marcellus",
+      "cues": "{I_Donno}",
+      "line": 1446,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11414-78cf75485c8b",
+    "source": "Feels wrong to be preyin' on the dead.",
+    "source_sha256": "78cf75485c8b5e89260e05b83b3a3a7f278115144523fd437731935d80f7f00a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:291944"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Marcellus_QueensChambers",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 1447,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11415-c9609223fcbe",
+    "source": "Only Brit, Irma, and Her Highness ever 'ad keys to get in, anyway.",
+    "source_sha256": "c9609223fcbeed5887212268185978ae372c6d5ec919e23165689992e2cedb0f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:292022"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Marcellus_QueensChambers",
+      "speaker": "Marcellus",
+      "cues": "[sad]",
+      "line": 1448,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11416-e27a73781390",
+    "source": "Irma wants to play a specific card game with you. Ruff and Honors.",
+    "source_sha256": "e27a737813903283bb16741fd016a0e52330b0465a269d99f2abe7ac3c01f4f5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:292157"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_CardGame",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1452,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11417-b478a94ef290",
+    "source": "Ugh. The last time I played that one with that witch, she destroyed me so badly I was out of drinking coin for three months.",
+    "source_sha256": "b478a94ef290705a144365cf6b4f898a1c27867a590222b26946c6facdcaede9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:292292"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_CardGame",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Sigh}",
+      "line": 1454,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11418-02fa0c354c0f",
+    "source": "So... is that a 'no'?",
+    "source_sha256": "02fa0c354c0fb8232f552760120a194f4c6810d3a462e9d6f5186c985f4a89b2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:292543"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_CardGame",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1455,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11419-f34d85d29e9c",
+    "source": "Are you kidding? Of course I'll play.",
+    "source_sha256": "f34d85d29e9cae30964d795c0cc3805d1f9b486a4635fcccc5a172eb382d498e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:292587"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_CardGame",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1458,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  },
+  {
+    "id": "p11420-c61da8f3e802",
+    "source": "Now it's <i>my</i> turn to bring her to her knees.",
+    "source_sha256": "c61da8f3e8029c0c5de7d44c19e640df649a1f0fcf9efd703d08b1bd8ac6d1c4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:292663"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_CardGame",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 1459,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0078"
+  }
+]

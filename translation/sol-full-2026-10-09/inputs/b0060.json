@@ -1,0 +1,3018 @@
+[
+  {
+    "id": "p08450-24e276c82a97",
+    "source": "I'll arrange a meeting soon. We ought to notify them as soon as we can.",
+    "source_sha256": "24e276c82a97cd15785bf5460799170f0e17d16b6da17b6fcbfd869954d1f5d8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1841588"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23610,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08451-f055803d57d3",
+    "source": "Good. Let's not wait a moment longer than we have to.",
+    "source_sha256": "f055803d57d3769d641b95195cbec2efd4cfdbc996c94edcbc04e78fc0e518a4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1841733"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 23611,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08452-c0cb30248b0d",
+    "source": "(Even if this world can only last a little longer...)",
+    "source_sha256": "c0cb30248b0d1591be95958509c0b22fba1299d8603a4cd9760322008c98a31e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1841841"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Happy}",
+      "line": 23616,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08453-d62af6735421",
+    "source": "(For now I can pretend, at least. Can't I?)",
+    "source_sha256": "d62af6735421e135c5e1ab9ddde529a90fba31afa216888333233a990b3afdeb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1841949"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 23617,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08454-e450867fe115",
+    "source": "(Surely I haven't lost every ability to feel.)",
+    "source_sha256": "e450867fe1159457508d0e0212624104b1881eef816ef9bd975be77ac0c59999",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842037"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 23619,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08455-59537ce5b3e9",
+    "source": "I don't think I can, Hamlet.",
+    "source_sha256": "59537ce5b3e9f7273a0b3ff94346c882d491004a3f23402ef892d386c1b8555f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842131"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad] {I_Cant_Sad}",
+      "line": 23626,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08456-a724eedbacf4",
+    "source": "So when you said you... wanted to begin things again, did you... mean it?",
+    "source_sha256": "a724eedbacf442364daeb362e2e2560af760916c4502e5b2b83d3f33c8b9dbb2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842189"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23632,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08457-49ca466c93a7",
+    "source": "I did then. But that's all it was.",
+    "source_sha256": "49ca466c93a7f8b7cb452adfdf9f47bf83c4ae4a1281e16ec98f0f4ecaf5f16d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842338"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 23634,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08458-e2091b2bb004",
+    "source": "I gave you the push you needed to become king. And you will. You'll be magnificent.",
+    "source_sha256": "e2091b2bb004832e94fb0282e81926766abb84fd6bef9558bd2f2043deb4c147",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842408"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 23635,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08459-3a1339b7e926",
+    "source": "You'll be the best King Denmark has ever had. I believe that with all my soul.",
+    "source_sha256": "3a1339b7e926e01164eeb4bad8df34b27e2741ad8c79f5c2f73cce0f7aedad16",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842577"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 23636,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08460-b2a30c2de649",
+    "source": "But I don't know if I can give you the rest of my life. I'm not ready to do that much.",
+    "source_sha256": "b2a30c2de649f91072749493e9f7508f2a23d20c6525c4435e16d712f1ad6696",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842736"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 23637,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08461-81cb77b3004d",
+    "source": "Right, then.",
+    "source_sha256": "81cb77b3004d60c6e1bbf343ac17aae50e450e260d0cfbcc5a0d8fedad008836",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842911"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23639,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08462-5868cbf02e24",
+    "source": "I hope you won't mind if I pick up my bruised pride and leave you be.",
+    "source_sha256": "5868cbf02e24720d57790fdc9e32111afce9efa608591cbaa6d173becbf68ce8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1842937"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23641,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08463-32fe2731996a",
+    "source": "I believe you. And so am I. But I need to be alone now.",
+    "source_sha256": "32fe2731996ad7c451f98de304f11db74e3fcd075ddc5ffbf49e3b1c801b8f6d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1843078"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 23644,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08464-adf89817f55b",
+    "source": "Farewell, Ophelia.",
+    "source_sha256": "adf89817f55b9b84f0ee6b5ca871572c08c2fc1e933b2f2d77ae277dcb35075f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1843190"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23645,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08465-3b3db2c82090",
+    "source": "(This world can only last a little longer...)",
+    "source_sha256": "3b3db2c8209008cd60956035dd225a88df089ebc4ca020efd1771d5d46734f21",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1843228"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 23648,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08466-57b9d4e54810",
+    "source": "(The fewer feelings I have, the more effective I'll be.)",
+    "source_sha256": "57b9d4e548103190fead96c0a76816e76015b18ee9dc16803e9e2ffc83840b12",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1843320"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 23649,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08467-297462a6ec8c",
+    "source": "(Solving my way out of the loop is all that matters now.)",
+    "source_sha256": "297462a6ec8c3cc1c24f5a7065b963612dbd577f75b4c99f246fd5c5a594bb1e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1843434"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 23651,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08468-afbe25bab59c",
+    "source": "Laertes? What is it?",
+    "source_sha256": "afbe25bab59c56a823cb14215c0cc2a0df1282fa58d28e140144935ab718cc2c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845370"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Laertes_Scared}",
+      "line": 23667,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08469-8e9e5a0b6906",
+    "source": "Come with me. Quickly.",
+    "source_sha256": "8e9e5a0b6906d77a2604be95ba468f763fc894339839d29e39fc68f1f516cbe1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845412"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 23668,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08470-ebf4ebc16a09",
+    "source": "Laertes? What is all of this?",
+    "source_sha256": "ebf4ebc16a09acf14fccc19643b0f6ef2d703a413dc993368a650288029e7974",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845458"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Laertes_Scared}",
+      "line": 23676,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08471-2574e104ffbb",
+    "source": "Thank you all for gathering here tonight.",
+    "source_sha256": "2574e104ffbb21c7f582eb9df35baec125614cea03faee64d97477e77ae57edd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845518"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "{Throat_Clear}",
+      "line": 23696,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08472-9997a98745aa",
+    "source": "...All of you are faithful to your respective lords.",
+    "source_sha256": "9997a98745aa4327c34ab93bf7d75bcc023d7e83dd4c57d2cff934acc2ad87ff",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845602"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 23697,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08473-4c51fcfd3e9e",
+    "source": "But I have a new request of you.",
+    "source_sha256": "4c51fcfd3e9efcb59463bee86f77b930100c7f3941a8a78c4ab9af8f405d4289",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845708"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 23699,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08474-57897ca7f4e5",
+    "source": "Of course, I wouldn't call you unless I had a desperate message for the men you serve.",
+    "source_sha256": "57897ca7f4e5db18e3090b3cf32f33fdb108c1cfc57281d55425ec0dd3e45469",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845774"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "{Sigh_Heavy}",
+      "line": 23701,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08475-b50463ee0e28",
+    "source": "...Soon, all of them will be called to elect the next King of Denmark.",
+    "source_sha256": "b50463ee0e2875d861cc37ba5c980a82eee78fa31aa96abf9048d32674f111d5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1845949"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 23702,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08476-f528cc0d695c",
+    "source": "My request is simple. I beseech them not to elect Hamlet, no matter what transpires.",
+    "source_sha256": "f528cc0d695cee444ead490245fc43983c90befce4eaf21b90db757e6ee1795b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1846122"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "{No_More_Intense}",
+      "line": 23706,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08477-509f7efbfa03",
+    "source": "Although Hamlet may be his father's son, I urge you to consider the cost this family has had upon our nation.",
+    "source_sha256": "509f7efbfa03c074d02f78683c0647f6c1eb837f81554a2c57faa74212badfd4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1846293"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 23707,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08478-727f46caae4a",
+    "source": "Bloodiness begets bloodiness. Death begets death.",
+    "source_sha256": "727f46caae4a40d3c7ab61a130fe0eadba8c5b9c6684eb58f834b157ed0b21a6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1846514"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 23709,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08479-8f0dc7c9508a",
+    "source": "Shall we wager our country upon the fruit newly borne off that poisoned tree?",
+    "source_sha256": "8f0dc7c9508a77ecad20bb7543fcbef6b7055b1af3eee2a9823a1319b051592c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1846660"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "{Rise_Up}",
+      "line": 23718,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08480-bd22d3be128b",
+    "source": "Or shall we rise up and declare a <i>new</i>, prosperous direction of our own making?",
+    "source_sha256": "bd22d3be128b31093d3d99375e347b955e6ccf5e2484fc6aa13addf27e0340c9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1846817"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 23719,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08481-44710b0d710b",
+    "source": "A most welcome return and a good evening, Laertes.",
+    "source_sha256": "44710b0d710bd18c43d2049531c74a78f79bff4196fea926f9614a4c3fd8a5d7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1846990"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "{Greetings_Formal}",
+      "line": 23732,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08482-9e5f7aa38c6f",
+    "source": "...And to you, Ophelia.",
+    "source_sha256": "9e5f7aa38c6f2af90d25eec6be0936f9119750117fba3bd0a30f2463cfd49933",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847092"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23733,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08483-cb0e4e9c2ea0",
+    "source": "He found us? How?",
+    "source_sha256": "cb0e4e9c2ea0cbd351be60fac96fab38a3ded8bb61ed693ac1f835490a6c8018",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847140"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[surprise] {Hit}",
+      "line": 23735,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08484-8141223fe285",
+    "source": "Hamlet, what's this about?",
+    "source_sha256": "8141223fe28584a2ae7150e2fee6dc64e4e8afbea63a0d0a811abaf362111669",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847176"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Hamlet_Confused}",
+      "line": 23748,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08485-621dd9371b8f",
+    "source": "I could ask you the same, couldn't I?",
+    "source_sha256": "621dd9371b8f6c38c5d535874e0798301d97c3b59ec56c214f8e01861084c449",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847230"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Disgust_Intense}",
+      "line": 23749,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08486-b28029d8b7ae",
+    "source": "All this, after you professed to love me.",
+    "source_sha256": "b28029d8b7ae6c6369b7e01085386612256ffa7486b76a68fdf1c15575055e17",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847306"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23751,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08487-6eb80d0d97dd",
+    "source": "Of course, I would be a fool to make you choose between me and your family, or to suggest your loyalty was tied to me alone.",
+    "source_sha256": "6eb80d0d97dddeabccd3a925c94ce68b0d977b97a8f0e8f7197646dc77719ca5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847390"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23752,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08488-6f361c26b5a1",
+    "source": "Look before you. Your brother was rallying my own people against me.",
+    "source_sha256": "6f361c26b5a1af48ce6c51756221d8b69cf05365a0d18565b975c714d9634e9e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847641"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23756,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08489-db51527b39cc",
+    "source": "All this because, of course, he desires to sit the throne himself.",
+    "source_sha256": "db51527b39cc5c8c9ff9efc9209336017dbf12a3723cc0213daecdc1f02c0491",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847780"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23757,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08490-01e062dfff33",
+    "source": "I received some thoughtful advice at your behest, Ophelia, warning me that such a thing might come to pass.",
+    "source_sha256": "01e062dfff33d091f6da55de3b73da9d2f0d72c06982b09cbbee280394b25441",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1847915"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23759,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08491-fc65a9c0c765",
+    "source": "Laertes, I cannot suffer one I do not trust at my court.",
+    "source_sha256": "fc65a9c0c765a4ef6245d8719ab2ba4d095dfa2ab10b67677a1782abc8d904c4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1848132"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "{Laertes_Annoyed}",
+      "line": 23762,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08492-75a690f01a44",
+    "source": "I know you'd come after me, sooner or later.",
+    "source_sha256": "75a690f01a449f6481fad2bf6902aed12105e01a374312fc33ecc4ddd5ece4dd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1848246"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23763,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08493-1a8eabec558a",
+    "source": "Even with all our efforts to make amends, you made it clear you believed me an unworthy king.",
+    "source_sha256": "1a8eabec558a8c437b2dc4e444a2ada40e23098c94f42fc3f8d783f656615bf2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1848336"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 23765,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08494-16a7c10d52aa",
+    "source": "And just like his uncle, he means to have me killed, I'm certain.",
+    "source_sha256": "16a7c10d52aac9ff87f5d6f4d098889b9c096d08b79643ea3b6c2be66f5bcec6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1848525"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[sad] {Sigh}",
+      "line": 23770,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08495-99a41b50619a",
+    "source": "Spirit me off into the night as though I was never here.",
+    "source_sha256": "99a41b50619a82918b5b1c1b9c9f8ecc036c3fad2848a1621a8c8856e96b6e2f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1848658"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 23772,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08496-eed4815ade51",
+    "source": "Denmark will be different this time. I am not a man who desires that blood be spilled.",
+    "source_sha256": "eed4815ade51d06853e0e4509957e38329f81c8d08e760053c4b71dbc9647e73",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1848772"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23776,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08497-90f80a3bfa6d",
+    "source": "I need you gone. Not dead. That would have been my uncle's way.",
+    "source_sha256": "90f80a3bfa6d952a6fe51aa3f5824d1963ba9618a5effb98886c7a9b7656347d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1848947"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23777,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08498-f22cd5a8fb23",
+    "source": "So here is what I offer: banishment. Leave Denmark, never return, and never write to your sister again.",
+    "source_sha256": "f22cd5a8fb23ffa38c53dde2c1aeec35fe2346d2d99bb572352f949d09ab92ef",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849075"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "{Hmm}",
+      "line": 23779,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08499-8869de675fd0",
+    "source": "I will leave you in peace as long as we both live. But, should you return...",
+    "source_sha256": "8869de675fd06d9114e1e4b7d6ce07034d50522a11290e77300625517b295ded",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849284"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23780,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08500-f1b4d61d7493",
+    "source": "I'll have you quartered before the entire court.",
+    "source_sha256": "f1b4d61d7493c7806d725014fe4ab6349441ed41c29841ba048b5b18fe4ac846",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849439"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "{Disgust_Intense}",
+      "line": 23782,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08501-db27011f0680",
+    "source": "Never speak to Ophelia again?",
+    "source_sha256": "db27011f06807b12060eb139c85939fabcb719e16352422361b3c8a0dade4f6f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849537"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[angry] {Bastard_Sad}",
+      "line": 23784,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08502-097e552e407e",
+    "source": "Leave everything in Elsinore behind? ...Would that you'd merely killed me.",
+    "source_sha256": "097e552e407e1b73e1a72aecb30ba78af1c3cbc25baf4c2d862cd6bdd3234042",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849597"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 23785,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08503-61c3f02fee49",
+    "source": "This is the end of my life.",
+    "source_sha256": "61c3f02fee4953f8310be12ea146cbbd15d1a814e926c2ef1c1ce3bc5d807fc2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849748"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 23786,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08504-44801f0b53cb",
+    "source": "How can I be certain you'd keep my father safe?",
+    "source_sha256": "44801f0b53cb483131832318571ca28710844bb965920f22006f55cdf4cd677c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849804"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 23788,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08505-54cb1e02a35c",
+    "source": "I shan't. Your father will go with you.",
+    "source_sha256": "54cb1e02a35ca0c183731590a6f19f49986b0236ef6ca5e947730ab0ade1e247",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849900"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23790,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08506-811b3da584c2",
+    "source": "The both of you shall remain in exile until your dying breath.",
+    "source_sha256": "811b3da584c242b636c609fc5bfa371c06a4743b549112b3a5cf8ed4fecfbff9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1849980"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23791,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08507-6acb7c74f624",
+    "source": "And what of my sister?",
+    "source_sha256": "6acb7c74f62428ba898012ab9637adaeb5de028c8ed2d533d5a618b21b3458a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1850106"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[disgust] {Please_Scared}",
+      "line": 23794,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08508-c3bfb7ff7175",
+    "source": "I love Ophelia more fiercely than anyone in this world.",
+    "source_sha256": "c3bfb7ff7175d9d73e3acf118d97fbd0ad9b064ae6066e5a839a41179c0485ca",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1850152"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[happy] {Sigh}",
+      "line": 23798,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08509-64442cbb5fc2",
+    "source": "I would rather die than allow her to suffer.",
+    "source_sha256": "64442cbb5fc25c3fe2d2002b040e9c2c22ded3b8b35f97b459115b30572424dd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1850264"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[happy]",
+      "line": 23799,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08510-481151c0365e",
+    "source": "I care deeply that no harm comes to Ophelia. More deeply, apparently, than you do.",
+    "source_sha256": "481151c0365e4dca40aca741f1459b48a0be2228b4f585456806e8a86a757d1e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1850354"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[happy] {Sigh}",
+      "line": 23801,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08511-a54020746a9b",
+    "source": "That's why once you've gone, you must not contact her.",
+    "source_sha256": "a54020746a9bb81904f483a69000cc5d046e4fd1ef298b960c9fc55f03fb4338",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1850521"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23806,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08512-f7f5c96f275a",
+    "source": "If you maintain a correspondence, she'll only want to join you all the more. And that will never come to pass.",
+    "source_sha256": "f7f5c96f275ad36ead421da42c7a37e4c35dd86756a1e0e71abaae184a51a26f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1850631"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23807,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08513-f78480b8dce3",
+    "source": "And I need her here, with me, on the throne, with her mind fully focused on ruling our country.",
+    "source_sha256": "f78480b8dce3de92de29387ac2defdda5d759af7ea8e08c7f920877e4c9e18d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1850854"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23809,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08514-b7b1356fd45b",
+    "source": "Her advice is invaluable. She's going to be twice the advisor your father ever was.",
+    "source_sha256": "b7b1356fd45b46c265c78c95efade35b1f0e5219b7653b4c7736577c1a5d63e2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1851047"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 23811,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08515-876f20c155b7",
+    "source": "What? Hamlet, surely that cannot be necessary.",
+    "source_sha256": "876f20c155b7892af6fdaa1941e444453f19652985f2a71d2798cfa57c746ea9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1851216"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Stammer_Despair}",
+      "line": 23814,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08516-219ea7561c04",
+    "source": "I'm sparing his life. That's generosity enough.",
+    "source_sha256": "219ea7561c04e6ee9c1ecb6eb43229f6a84ecd1a8bfb2a1076fe97adc99583d3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1851310"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "[unhinged] {Look_Angry}",
+      "line": 23817,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08517-072d5061d6e5",
+    "source": "Your father's old estate awaits you on the borderlands to the south. The estate is barren, but the land is fertile and warm in the winters.",
+    "source_sha256": "072d5061d6e580455b008e32deb7bb4cb78614ada723b195152ff0501796f9c8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1851406"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23820,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08518-a3a2a477c413",
+    "source": "You will be well cared for—but you will not be permitted to leave that estate, nor have correspondence with anyone outside its walls.",
+    "source_sha256": "a3a2a477c41352669e5d6c73f3d963384ca5a0d461d905b99e4dcdf6408e0f47",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1851687"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23821,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08519-f2cd0925c7f2",
+    "source": "And you must be gone before dawn.",
+    "source_sha256": "f2cd0925c7f290d8bc966532d1d3be2a39a0828f3e2de65e0a7d93b8e35f3c75",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1851956"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23823,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08520-9300b1840c55",
+    "source": "Make haste, Laertes.",
+    "source_sha256": "9300b1840c5567f0be3665ac01f598d6d89fc3642ef4fcc0ac2d6f80723f08e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852024"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23824,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08521-c9ee73f0094f",
+    "source": "I failed you. I'm sorry.",
+    "source_sha256": "c9ee73f0094fcc3f9b55a63912992f9f837a8a7a7035eea6ac8234f0527be5d2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852066"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Laertes",
+      "cues": "[despair]",
+      "line": 23830,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08522-808c1d71b71f",
+    "source": "Hamlet, there <i>must</i> be another way. Isn't there any way you can be convinced?",
+    "source_sha256": "808c1d71b71f8db03be16e2f05187e2fac2f23d78f0eefeddbc819c662d1453c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852132"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Dont_Do_This}",
+      "line": 23834,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08523-d28faf73dfea",
+    "source": "...Not this time.",
+    "source_sha256": "d28faf73dfea9740df7c87838144ef4d70e680a641bea091d50ccc56fcb5ee74",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852301"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "{No_Sad}",
+      "line": 23838,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08524-a2acaa136887",
+    "source": "Men, escort him to his chambers, and there ensure he takes all that is his.",
+    "source_sha256": "a2acaa1368874794945b02f61dabb9c9a357b751793c1fc5daf1f78a0dd87f5d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852337"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "{Lets_Go}",
+      "line": 23840,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08525-4a61d1c2af08",
+    "source": "And Lord Polonius as well. He must be gone the very same moment his son departs.",
+    "source_sha256": "4a61d1c2af088372af54f03643fc5f9d30d260408d06a17fc36f32202082fb42",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852490"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23842,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08526-6dd7874e1e37",
+    "source": "<i>This</i> is how things end in this world?",
+    "source_sha256": "6dd7874e1e376282ef6e6e934c3ab466ef8ba233f26516ffd4b971a8045acc72",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852673"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[despair] {No_Sad_Shocked}",
+      "line": 23851,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08527-b58ee1186b6b",
+    "source": "It's the same, every time.",
+    "source_sha256": "b58ee1186b6b3ce81853f54b608e2ea174ffe51f2aaf869ab65a08e6e6f4499c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852763"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Whats_The_Point}",
+      "line": 23853,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08528-ab51e48175bb",
+    "source": "That's the herald's horn. It's... likely Hamlet calling me to make an announcement.",
+    "source_sha256": "ab51e48175bbadea610125de07bbf9434b4725b2ac24519337bc469062452abc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852817"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Ah}",
+      "line": 23876,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08529-577985703b21",
+    "source": "Friends, family, a word, if I may.",
+    "source_sha256": "577985703b21773e80149a8c239d1f0dcd3f9141c532ffa4f3b0f6df769d3daf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1852986"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[happy] {Listen_Awkward}",
+      "line": 23905,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08530-6ba51e90470b",
+    "source": "Some of you have offered invaluable advice to me over the last few days.",
+    "source_sha256": "6ba51e90470b6c832dd9b21cf5a75d768f0628b2a8f15a2a7e9eae5b9b07840c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853056"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[smile] {Hmm}",
+      "line": 23937,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08531-f4b382869370",
+    "source": "For your assistance, I hold you dearly in my hearts, and highly in my regard.",
+    "source_sha256": "f4b38286937072ca7f223b23e1605c293c5ac2af67ea867a7f9c830b5fef9b35",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853203"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 23939,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08532-f3f5ad727c7d",
+    "source": "Some of the best advice I received was of matters concerning the heart.",
+    "source_sha256": "f3f5ad727c7d47e2156ca3fe2a8cbd4b80de366aaf536da26eab3e490f437d0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853360"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 23940,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08533-a656e206f9fc",
+    "source": "I... love Ophelia. I've loved her since we were children.",
+    "source_sha256": "a656e206f9fc868ee5e7751105e8c9bb5527552754b8af35fc58eb5ce228b3e0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853505"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[smile] {My_Love}",
+      "line": 23950,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08534-e865bc3cd359",
+    "source": "And now she has agreed to take my hand and become my wife. And someday, your Queen.",
+    "source_sha256": "e865bc3cd359b7b64cb321d5738176b47bc219e62e06b35f9baa3ceba06de3d7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853621"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[happy]",
+      "line": 23954,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08535-9c7193ea9c99",
+    "source": "T-that's... wonderful news, Hamlet.",
+    "source_sha256": "9c7193ea9c99f1be57c97552949b91adef93191f2f2275d0b3485fe9f9a7b715",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853790"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Gasp_Vocal}",
+      "line": 23967,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08536-66e55374d00c",
+    "source": "Aye! Congrats, to the both o' you!",
+    "source_sha256": "66e55374d00cce0ffbfd84dade10b5a3ac81188dd4cb254bd93f2f9498540a62",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853862"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Marcellus",
+      "cues": "{Aye}",
+      "line": 23971,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08537-c15a85629d33",
+    "source": "I never thought I'd see the day a woman agreed to marry <i>you</i> of her own free will. But...",
+    "source_sha256": "c15a85629d331f4ddfa55aa9a55536c31dd8b48983c5ca2926506c47b375a734",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1853932"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Irma",
+      "cues": "[disgust] {Hmm_Skeptical}",
+      "line": 23975,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08538-fb2eb365f9e1",
+    "source": "If anyone can handle the likes of you, it must be her.",
+    "source_sha256": "fb2eb365f9e18ea635e58018fef173e3895bf1264278d4659f9b746b5b8837f7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854125"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Irma",
+      "cues": "[disgust]",
+      "line": 23978,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08539-0e1543deeead",
+    "source": "So they managed to reconcile after all.",
+    "source_sha256": "0e1543deeeade02b93ce6aab791aecce38df70feffb82ea00aec681b6f94f973",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854235"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Hmm}",
+      "line": 23982,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08540-59ab440bfaf9",
+    "source": "I suppose that's for the best.",
+    "source_sha256": "59ab440bfaf9d6b378af7471809641daeff2d1c7710dbb1cda49b739c596a073",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854315"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 23985,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08541-97c78020eae4",
+    "source": "Are you all right, my dear?",
+    "source_sha256": "97c78020eae434d7161fd28bc1e3262cdd8a56c9c77d197fa32d1f315794d930",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854377"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[sad] {What_Is_It_Scared}",
+      "line": 23992,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08542-e85c4d42f9ea",
+    "source": "Y-yes, fine—",
+    "source_sha256": "e85c4d42f9eaabff699dde07b35fc52b158936194b9be65c327eeb5bc6a7f7b3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854433"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Yes_Sad}",
+      "line": 24003,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08543-0c13b4ebfa3e",
+    "source": "(I can already feel something pulling me. This world won't last.)",
+    "source_sha256": "0c13b4ebfa3e2aeabd7a1004259b32f9bbab9368ea338728c1fbfee7af240f1a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854459"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 24004,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08544-5e38ed6e27f5",
+    "source": "(It seems as though when things become quiet... the timeline comes to an end.)",
+    "source_sha256": "5e38ed6e27f562d575dd018f0fdc429075f319e8e5a5202439afd6aabde238a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854592"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 24005,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08545-d5f514cf8c34",
+    "source": "Everyone, we'll prepare a magnificent ceremony for seven days hence. And when we are wed...",
+    "source_sha256": "d5f514cf8c34c8c6df980dfa7c7e0465a3fb23187750b05f265b387377c1f71b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854751"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "{Please_Warm}",
+      "line": 24007,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08546-b2ded81fd77a",
+    "source": "Peace will finally come to Denmark. Now, and forevermore.",
+    "source_sha256": "b2ded81fd77a532945cf7a7df15fb3a2d2db5ff1a81db2ac825b896678169ff8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1854936"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Hamlet",
+      "cues": "[smile] {laughter}",
+      "line": 24009,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08547-2d75832f6a86",
+    "source": "(Oh, no. Here it comes.)",
+    "source_sha256": "2d75832f6a8641a9cbc720e97617ffaefa5c348898c2d29338b80074b5ae7997",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1855052"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Gasp}",
+      "line": 24013,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08548-7b4df40899fb",
+    "source": "(But I can return here—if I need to.)",
+    "source_sha256": "7b4df40899fbb7be27259e7905d61e5d28b02e0451caa488165593bfa15a36b5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1859573"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24020,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08549-833d4055a47c",
+    "source": "(I could use the <b>Book of Fates</b> to choose this world forever.)",
+    "source_sha256": "833d4055a47cfb9ddfe22a19d1681a48b27146f049877986aaf447b2ecc3fc4c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1859649"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_AnnouncementOfProposal",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24022,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08550-25cb5b100b71",
+    "source": "Forced back to the past.",
+    "source_sha256": "25cb5b100b71595eda2cd51e0168deffbec170d6d21a716f2edf3a8d924f6201",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1859788"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08551-a795dbca70b9",
+    "source": "My lord, I heard you were seeking advice. Is that so?",
+    "source_sha256": "a795dbca70b9ca521c63c7bcf630557f18cbba977d5a25aa5aabda52018d6579",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1861962"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "{My_Lord_Formal}",
+      "line": 24035,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08552-9fc50e95872f",
+    "source": "I am. What can you tell me of ruling, Bernardo?",
+    "source_sha256": "9fc50e95872feb64aac5e378147b9389701701d8af120d09da3b8e8767fc53f1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1862070"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Hamlet",
+      "cues": "{Yes}",
+      "line": 24037,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08553-1e932c551a3c",
+    "source": "You've proven yourself to be a great strategic commander.",
+    "source_sha256": "1e932c551a3cb3f78203561f0f2deb75a975ffbfe2d5ab62d2bb9bc9b3cddf21",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1862166"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 24038,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08554-9a2c45ad2fc6",
+    "source": "I'm sure that sort of skill will become useful in the near future.",
+    "source_sha256": "9a2c45ad2fc6c8349e9ef0603163169ffc632191b593733dceb4a6c53f2902a1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1862282"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 24040,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08555-78a852cc876b",
+    "source": "Hmm. If there's one thing I've learned through my time in this position...",
+    "source_sha256": "78a852cc876b1a43f39c3b453267361db82c80ab00382d96dc6f15150d081564",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1862417"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "{Hmm_Dark}",
+      "line": 24042,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08556-dd0c3426ac48",
+    "source": "It's that one must never show weakness or vulnerability.",
+    "source_sha256": "dd0c3426ac48eda1132e30e93f0147f1714056a4334c9c7c4e87e16c0a919747",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1862568"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 24043,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08557-1cace1edc31a",
+    "source": "My father taught me that, and he was the strongest man I knew—outside of your own father, of course.",
+    "source_sha256": "1cace1edc31ab4ae88b503319af45c8f60be0b8b2aec06a0416ddd31dbd5b76d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1862682"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 24044,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08558-e703b92cf506",
+    "source": "Presently, the Danish nobility has demonstrated quite a threat to your rule.",
+    "source_sha256": "e703b92cf506fe69e1090820ddc3269ad5c0a8673fc9300227336b32b5815f05",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1862885"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 24046,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08559-cab75c0490b6",
+    "source": "With rumors of spies, wartime treason, and other efforts underfoot... it's time they were quieted once more.",
+    "source_sha256": "cab75c0490b6814a2dec3f6270abf30b88966bff794f4a3131a45e5edc85107e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1863040"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 24047,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08560-ca4fff837d29",
+    "source": "Only a show of force will make them acknowledge the true legitimacy of the throne.",
+    "source_sha256": "ca4fff837d2900c1acfc0096fbb31865b1a1916760bc34f5326da83d65e54782",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1863259"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 24050,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08561-d80632b7e82f",
+    "source": "But don't the nobility possess a greater standing army than ours? What if they go to war with us?",
+    "source_sha256": "d80632b7e82fa24d759eadf8ea1772f05582711088556a988c9afe9ca0181ce2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1863426"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Gasp}",
+      "line": 24052,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08562-e097e007ff79",
+    "source": "Then we shall fight them, and show them we aren't afraid.",
+    "source_sha256": "e097e007ff799cc578784d09453fa65260825f7b47d761aa555fea1a78833415",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1863623"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Bernardo",
+      "cues": "{Disgust_Tired}",
+      "line": 24054,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08563-cfa536b74c47",
+    "source": "(That's terrible advice. I expected better of Bernardo.)",
+    "source_sha256": "cfa536b74c4724f87033a8ac9ea676a3e0932c05177777c81becb07606f47609",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1863739"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Disgust}",
+      "line": 24055,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08564-3bc9902e497e",
+    "source": "(If Brit's family is working with Fortinbras against us, then we've no hope of beating the nobles.)",
+    "source_sha256": "3bc9902e497ebde4d4c9e37ea3da435354358800bd168cc93f57f0bcaf78dc61",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1863853"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 24056,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08565-a96d6306089f",
+    "source": "(I wonder if there's anyone who can encourage Hamlet to form an alliance instead...)",
+    "source_sha256": "a96d6306089f6bc3bcbfcdb650d8406fd5aef6c7ff599fe7b44f003c6e8831ab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1864054"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Bernardo",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 24057,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08566-28bf889aea3c",
+    "source": "Well, well. Looking for kingly advice, are we?",
+    "source_sha256": "28bf889aea3ccc3a90712d0c72ac6fd85e365d607e3a7275eab8992eafa98fa0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1864225"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "{Chuckle}",
+      "line": 24067,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08567-be8eb1f04b1b",
+    "source": "For the moment, yes.",
+    "source_sha256": "be8eb1f04b1b06dcad26c5b608b45a695c0d7cd3da6ba3dc52b42a3c8f969233",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1864319"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Hamlet",
+      "cues": "{Hmm}",
+      "line": 24069,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08568-479956b002d2",
+    "source": "I've spent my whole life listening to my father's machinations through the walls.",
+    "source_sha256": "479956b002d28be9ad99c82dac229dd1b3d945dfefefc162faf483ca31d0e59c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1864361"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 24070,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08569-a58b97258764",
+    "source": "I'm a wealth of advice. Just ask me!",
+    "source_sha256": "a58b972587644a77443e173680616973d6838821f264a38296acbef76b455b90",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1864526"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 24071,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08570-f3239051ccba",
+    "source": "I know the nobility is... unhappy with the Danish throne. What do you believe I should do to make amends?",
+    "source_sha256": "f3239051ccbae8c0326a58dd1bee16a452c2a4101ddceba6a64c74abcade75fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1864600"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 24073,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08571-ecf9c0d7b8bd",
+    "source": "Well, you've <i>definitely</i> got no hope of overpowering them. And they <i>won't</i> be thrilled that you've decided to take your uncle's place.",
+    "source_sha256": "ecf9c0d7b8bd0e7225614d715c1dacfc38f1a7739add53eb7c9ea00e0812a0aa",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1864813"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "[happy] {Disgust}",
+      "line": 24076,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08572-a30c371723a9",
+    "source": "As you obviously know, the Danish throne is elected, not ascended. And after two failed candidates from your lineage... well, it might be time for a change!",
+    "source_sha256": "a30c371723a9f51836510b269b9dd564849c51450a489d40ba2fa4d4d1b74576",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1865108"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 24077,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08573-6b3f27db251c",
+    "source": "<i>But.</i> Hmmm.",
+    "source_sha256": "6b3f27db251c41455ac37f69923639aaddb896ae3af248c1f2e0bb2d2b253954",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1865423"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "{Hmm_Bored}",
+      "line": 24079,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08574-f7c26a80e1f5",
+    "source": "But what?",
+    "source_sha256": "f7c26a80e1f5445e28f92847d0a004e6f1f2dbc9c9701a1a65bb6edec5c946d0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1865459"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Hamlet",
+      "cues": "[surprise]",
+      "line": 24081,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08575-10421e6563ec",
+    "source": "An alliance. It's the only way.",
+    "source_sha256": "10421e6563ecc4702a06a55d128096099496e8e04f8649dc04a026d6d27d1ac0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1865479"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 24082,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08576-9b8504aa4a32",
+    "source": "Start listening to the nobility, including my father. Ask them what they need, and promise to help them achieve it.",
+    "source_sha256": "9b8504aa4a32d66a792b93bfc5fedd739ef9bb787406e984479324a455825d37",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1865543"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 24083,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08577-0891e8bb9358",
+    "source": "Most of them simply want their coffers full of gold. If you can make that happen, all this nonsense with Fortinbras will blow over.",
+    "source_sha256": "0891e8bb93585790e669db70d199cb3aaf5154233c9b7cfaddd3596b3ddfc966",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1865776"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 24085,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08578-d317cb03fcb3",
+    "source": "My father and Claudius always had an uneasy relationship with your father and his ilk.",
+    "source_sha256": "d317cb03fcb3f32771ca62c3c2ef63b67f5a784fca7544f13b7848c1d955f3b4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1866041"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 24088,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08579-f8004c60a0af",
+    "source": "But I am not like them.",
+    "source_sha256": "f8004c60a0af72f34e0da1f303df3d9f3e57678b248f51a658a5ad1a8caafb7e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1866216"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 24089,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08580-5fbfe4387f91",
+    "source": "That's a <i>good</i> thing. Just be smart about it.",
+    "source_sha256": "5fbfe4387f9121b384bd47b5ded326978cc501ad10388f3cb581dba505c30118",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1866264"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "[happy] {Sigh_Happy}",
+      "line": 24091,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08581-279010176587",
+    "source": "And be forewarned that if you start to speak with the nobility, you may need to watch for <b>disloyalty within Elsinore.</b>",
+    "source_sha256": "27901017658778fe136efdd56bcebad51c7faed9f1ce99325a03d281ef168fcb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1866368"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 24092,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08582-f9140a086361",
+    "source": "After all, <i>some</i> of these courtesans have made their careers trying to keep the nobility stamped down for decades. They'll be rightfully upset if you make nice.",
+    "source_sha256": "f9140a08636160ce56afa9d75394ece3eeaea36fdec4137f1a0cb13f9d6f73f1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1866619"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 24094,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08583-b41fd9f389d7",
+    "source": "You've given me much food for thought. Thanks, Lady Brit.",
+    "source_sha256": "b41fd9f389d763524b8bf95f336fd61f6157818a05ad6637d5de7f99229fd351",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1866954"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Brit",
+      "speaker": "Hamlet",
+      "cues": "[happy] {My_Thanks}",
+      "line": 24096,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08584-554c7c4f7472",
+    "source": "My prince. I heard you were looking for advice.",
+    "source_sha256": "554c7c4f747284c8518409c666a4b3afdadf8e8c6aa133c2a9fe6ae8243b20a9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1902587"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "{Hmm}",
+      "line": 24105,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08585-36c84c35517c",
+    "source": "O-oh. Irma. I hadn't expected... Well... very well. What would you like to tell me?",
+    "source_sha256": "36c84c35517c66861afab6b3d556c5991d3a68fe333a1b314ffcb7a9722429fe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1902683"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Irma}",
+      "line": 24106,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08586-7a2aae025069",
+    "source": "You may not recognize my wisdom or respect my age, but Ophelia is a smart lass. She knows better.",
+    "source_sha256": "7a2aae02506997daf4272cc1c361e0a01ee0ab8e40af1860c2f391ede35cc68c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1902852"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24108,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08587-5557ee43a0b9",
+    "source": "Tell me, Prince. Do you know what my life was before I became your mother's faithful servant?",
+    "source_sha256": "5557ee43a0b9fdf414e7d18f483caeddcb4d8734ef8814cd61dc71f376da6b7b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1903049"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24109,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08588-0f41ff146d0e",
+    "source": "I cannot say I do, nor that it has ever crossed my mind.",
+    "source_sha256": "0f41ff146d0e3c5d2f422499ce88579bb1cd4a8e30e314a04f83ce7a4b9b5f26",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1903238"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 24111,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08589-fa3c16120ae8",
+    "source": "They called me Lady Asmodeus, after the demon who mans the baccarat tables at Satan's side.",
+    "source_sha256": "fa3c16120ae8f096577b2d7862432aa56e2eb6ad7596aaa8540fb5329f0739d4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1903352"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "[happy] {Chuckle}",
+      "line": 24113,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08590-8aedfc3cfca0",
+    "source": "My gambling-house was the largest in the city, with hundreds of fine men and women passing through my doors each night.",
+    "source_sha256": "8aedfc3cfca027921fc05f0889debd80c0adc3d75e095ed79f98545b90a1d50d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1903537"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24115,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08591-9d7a6611ad8e",
+    "source": "Many of them came to cast dice, play cards, or drink without the watchful eye of their loved ones over them!",
+    "source_sha256": "9d7a6611ad8ee1de4534effbf9eaa164ba132c5222d75d88a5904ca73714cc1a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1903778"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24116,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08592-7895fac68074",
+    "source": "I was feared and loathed by every guard in town. And yet, they did nothing to stop me. Do you know why?",
+    "source_sha256": "7895fac68074d5dd0f58378d04fd24377003f5603d5464fb22d0e1b7a30d1519",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1903997"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "[happy]",
+      "line": 24117,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08593-fe9442a6a95f",
+    "source": "I'll bite. Why didn't they stop you?",
+    "source_sha256": "fe9442a6a95f795d78c244c6c9f5b1cae527a1e77b724eedc2eeb5677529a89d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1904206"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Hmm_Short}",
+      "line": 24119,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08594-b01df74589e7",
+    "source": "Because they needed me more than I needed to operate in their city. And because I was a <i>professional.</i>",
+    "source_sha256": "b01df74589e7ccfc866da8c10842003c41b6f78e524cc2e874727276e791dc4a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1904280"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "[disgust] {Hmph}",
+      "line": 24121,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08595-83201a46d5fe",
+    "source": "One can get away with horrible deeds and distasteful behavior if one offers a... necessary service in a clear-cut way.",
+    "source_sha256": "83201a46d5febcfd55298033b7041b38c4f4bfca9e38590d5d0d2f5fb6de36ff",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1904499"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "[disgust]",
+      "line": 24122,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08596-a4f18eb462b2",
+    "source": "Someone must always pour the cheap drink and deal the cards, no matter how loud the priests cry about its sinful nature.",
+    "source_sha256": "a4f18eb462b2ecad5b2ad51bb3eaa22d185ae6f665db2a7b82cf0853c82ce59f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1904738"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24123,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08597-f3244f284d77",
+    "source": "If they were to chase me out of town, then what? Some other man or woman would surely come along and do the same!",
+    "source_sha256": "f3244f284d779e4104c68951af1c5bbeda00c4308cf0eeeffeb626cb4afe1b74",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1904981"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24124,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08598-8f1c8d422e26",
+    "source": "Better they come to sit at my table, knowing full well where to find me and what my services were.",
+    "source_sha256": "8f1c8d422e26f9347f37b4d73a12bbcf550cd32ee5933a3f0ba999b5b9ec2525",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1905210"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24125,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08599-cc18fa5d50f9",
+    "source": "So must you be with the nobility of Denmark. They both hate and fear the reach offered by the throne.",
+    "source_sha256": "cc18fa5d50f93e1bf4c0ce46ca7d9d755eadca64c5df29f48ff9648a896b56ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1905409"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "{Ahh}",
+      "line": 24127,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  },
+  {
+    "id": "p08600-7b0c8bbc7884",
+    "source": "If you can show them you are sweet if beloved, but vile if spurned, they will avail themselves of you... and see no need to replace you.",
+    "source_sha256": "7b0c8bbc78849867413de8ab13b91363f8a61376b845dec7f4b2f1e577e43e1b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1905614"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Irma",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 24128,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0060"
+  }
+]

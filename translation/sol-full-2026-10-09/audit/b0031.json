@@ -1,0 +1,17 @@
+{
+  "batch": "b0031",
+  "model": "gpt-6.1-sol",
+  "count": 189,
+  "new_calls": 1,
+  "exit_code": 0,
+  "usage": {
+    "input_tokens": 60296,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6297,
+    "reasoning_output_tokens": 0
+  },
+  "source_sha256": "f96f9f24b5ac7b42e09a8e6c1ff7168f0782969fbb19a490047592f6a477aef9",
+  "errors": [],
+  "state": "passed"
+}

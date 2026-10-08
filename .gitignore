@@ -28,3 +28,7 @@ runtime/evidence/archive/
 
 # 试译保留原始请求账本和最终结果，上游增量缓存只留本机
 translation/trial-*/outputs/*/*/cache/
+
+# 完整补丁包和重复后台运行证据保留本机，源码与核验摘要纳入Git
+runtime/package/
+runtime/evidence/headless/*/

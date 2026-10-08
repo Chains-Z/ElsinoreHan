@@ -1,0 +1,2980 @@
+[
+  {
+    "id": "p13121-b82f646d331d",
+    "source": "Rosie, please be careful. The King has set up a terrible plot involving you, Guildenstern, and Hamlet.",
+    "source_sha256": "b82f646d331df678ae117221d794f0c2dc38523125f648da0818809ce412207f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:540425"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Rosie_Sad}",
+      "line": 5552,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13122-e0b0ff3fc1fc",
+    "source": "A plot? Of what sort?",
+    "source_sha256": "e0b0ff3fc1fc6e3c25683edd729afd6d9bfb2602a7cc2dffc38f6df7af63538d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:540632"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {What}",
+      "line": 5555,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13123-e9f9538caf68",
+    "source": "He gave you a letter, did he not?",
+    "source_sha256": "e9f9538caf68b71188e59bb41432198683287d5f96bc901419a3800e19c54263",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:540676"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5556,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13124-831e01ce4f0e",
+    "source": "Yes, but...",
+    "source_sha256": "831e01ce4f0efd0d86bc486d68a6746068d664381f9260737fd3b445c0c95549",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:540744"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 5557,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13125-1c4f6a667da1",
+    "source": "There's something awful in that letter, isn't there?",
+    "source_sha256": "1c4f6a667da14c6a7c7b53cc381cae4905290d3614fb25b7d81fe767f348a215",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:540768"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 5560,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13126-63a106c3983d",
+    "source": "Hamlet will find it soon, if he hasn't already. He'll believe you mean him harm.",
+    "source_sha256": "63a106c3983d44e6e2fe168d619d006680c9efaddf91c649652b909498e4486d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:540874"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5562,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13127-51903c46108c",
+    "source": "...Well, now that I know of it, that's neither here nor there.",
+    "source_sha256": "51903c46108c353b72671e689cede8002cd92b5c7de373a14e9b3f420f7c3683",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541037"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 5563,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13128-a81ac60b18ea",
+    "source": "I wouldn't hand over any such letter like that. Now that you've tipped me off, it shan't be a problem.",
+    "source_sha256": "a81ac60b18eaf69cf4d8fdb29b8bbfea27a390402f401908cf8521e17898f011",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541163"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 5565,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13129-b135be5f26c4",
+    "source": "But Guilda would be <i>crushed.</i> She'd never want any harm to come to Hamlet.",
+    "source_sha256": "b135be5f26c4ee98da85ab03f7119f21bace47316e5989803cc948022d586ce3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541370"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Guilda_Sad}",
+      "line": 5566,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13130-02e37232c0f2",
+    "source": "If you decide to tell her this news, please do it gently, Ophelia.",
+    "source_sha256": "02e37232c0f29d89e8e9e076922d665171edbc1e1b31bc134395dd1112fcfd27",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541533"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 5567,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13131-c6623ba6fa93",
+    "source": "If he hasn't told you already, he means to send you and Guilda to England with Hamlet.",
+    "source_sha256": "c6623ba6fa93a22c7591fba729b7c8e12faa98267e6e53c8234ad6ad4c15a057",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541668"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5571,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13132-998dc4254018",
+    "source": "...And he'll hand you a letter.",
+    "source_sha256": "998dc425401814963e649e6148d7d09c0da892bb8d76a2f955948ecebbeda685",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541843"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5572,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13133-53f44fcdc1ca",
+    "source": "A letter? Saying what, precisely?",
+    "source_sha256": "53f44fcdc1cafc50c2f8af489ff4f674e775ed0eeaa453a7a8857b76478192f6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541907"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 5573,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13134-451bd06c17ce",
+    "source": "That his uncle means to have him executed upon arrival.",
+    "source_sha256": "451bd06c17ce45dd07de0fd7987907c79b739d42468fafc9a72b2c6d0f2537f5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:541975"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 5574,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13135-a73005237e22",
+    "source": "Ah, no, you must be mistaken. The King denied Hamlet's request to leave Denmark.",
+    "source_sha256": "a73005237e222529832a2e12e9aec335473aa53f8d748d43d4453fa501966dff",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:542087"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 5585,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13136-2ba439c3163a",
+    "source": "Although, come to think of it, Guildenstern would be overjoyed if such a thing occurred.",
+    "source_sha256": "2ba439c3163ae90451b1150495c76ad2bcc53eb667e00553aeff6416b8e05e15",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:542250"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy] {Chuckle}",
+      "line": 5586,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13137-0246c6379b37",
+    "source": "(Ah, right. Claudius hasn't hatched a plan to send Hamlet away just yet.)",
+    "source_sha256": "0246c6379b375ee78ba4cb51721dde6f8e310135dcbdaafaf8ebf53c752eb226",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:542429"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "rosencrantz_boatfailure",
+      "speaker": "Ophelia",
+      "cues": "{Ah}",
+      "line": 5587,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13138-d599a5b2eb15",
+    "source": "I found a note on your desk accusing Hamlet of stealing your lute. Can we talk about it?",
+    "source_sha256": "d599a5b2eb15e7867854636b1a26323d01d3cbd941bcf9287d650c8604d337d2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:542578"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Ophelia",
+      "cues": "{Laertes}",
+      "line": 5592,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13139-ae5e3d0b7d59",
+    "source": "It's been returned. The matter is resolved.",
+    "source_sha256": "ae5e3d0b7d593a06621bc3195901a404fbd0e19d183e44aab03ab7b5548282ae",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:542757"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 5595,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13140-52e74b12e408",
+    "source": "Hamlet-- and I-- we spoke honestly. For perhaps the first time in our lives.",
+    "source_sha256": "52e74b12e408dd7e77c4e17b2062bfa0f4269d91df6e2b6f5fed8dcbb749259f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 5596,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13141-6e2bd08b08ab",
+    "source": "I no longer desire his downfall. Whether I cheer for his success is another matter entirely.",
+    "source_sha256": "6e2bd08b08abcdb196f926908cc83f542f023809707e87200ec4cf0c2abd32ba",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:542992"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 5598,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13142-1e5d2382a5a5",
+    "source": "Oh... oh, Ophelia. I left that as an idle thought for Father. I'm a bit occupied at the moment—I've got to make my departure soon.",
+    "source_sha256": "1e5d2382a5a50c35f89626b0f218c5977f04c210b71233ef4486160cebe7b098",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:543179"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[smile] {Ophelia_Amused}",
+      "line": 5601,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13143-32d3eec3aba1",
+    "source": "When I return from Paris, we'll have endless time to hash through it. I promise.",
+    "source_sha256": "32d3eec3aba150b6b5e2c65cab13512b5488a27ce31030ed75b51cda44a78b14",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:543442"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[happy]",
+      "line": 5602,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13144-676f72a77a66",
+    "source": "No. I demanded Hamlet return what is mine.",
+    "source_sha256": "676f72a77a66d0e3f6d418a1e8dc06d6c330f33c088e5ec03a1cb0fca9540033",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:543605"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[angry] {No_Annoyed}",
+      "line": 5605,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13145-771d0d8d6f65",
+    "source": "If he's ready to bring my property back to me, then I'll speak with him further.",
+    "source_sha256": "771d0d8d6f655fab58d494afff9c9d5edcee1cabc819f66ffc8e470ad1aff5c0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:543691"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 5606,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13146-53edc12301bc",
+    "source": "Until then, there's no reason to speak to him—or you.",
+    "source_sha256": "53edc12301bcfd85f29d6c7f0dc97c41b234995586985b23ff29862640767d4f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:543854"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_missinglute",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 5607,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13147-0a0470b793ef",
+    "source": "Hamlet - your uncle is not your enemy. Peter Quince is.",
+    "source_sha256": "0a0470b793efebbc9213107c70c9162c06baf60efc506336522a497cef944d3e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Hamlet_Sympathy}",
+      "line": 5612,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13148-67e8bdc5573d",
+    "source": "Don't even <i>speak</i> to me of that idiot. He's gone and ruined everything.",
+    "source_sha256": "67e8bdc5573da38cf55a1ce9a47df4f119781d93fe03792c7d68f4203993469e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544070"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 5615,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13149-5269e0218e24",
+    "source": "I don't know why I ever trusted the man.",
+    "source_sha256": "5269e0218e2493432e4c09e442c995b0503ec5e3496115120e7c224ac9a27422",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544227"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 5616,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13150-7e144025811a",
+    "source": "(...He's in a frenzy by now. It's too late.)",
+    "source_sha256": "7e144025811ab6a464443a12d853699eae316bd7cba091b1dd8698285d1b69d9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544309"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 5618,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13151-0f0fc2c29261",
+    "source": "(If I'd caught him earlier...)",
+    "source_sha256": "0f0fc2c29261db1501a2ff8fd6552b1bbdefc88394fa1e61bdb111573933abbb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544399"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5619,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13152-ef0296810cfc",
+    "source": "Peter Quince... the name's familiar...",
+    "source_sha256": "ef0296810cfc3de7a0807a5b7b214abb81514359feb8786fc5b7884b1a74a404",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544461"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "{Quince_Question}",
+      "line": 5623,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13153-42f2162318d4",
+    "source": "Ah, that playmaster? What... can you mean, Ophelia?",
+    "source_sha256": "42f2162318d4d1b7d674a2a11e47806049942214f5a274d8c0cb148c26ab4907",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544541"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[surprise]",
+      "line": 5624,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13154-7bd59a67c0d3",
+    "source": "I haven't seen the man in close to a decade, nor heard of him since.",
+    "source_sha256": "7bd59a67c0d3e8921c5f5e83984eac26dffbc851f1cd556f57b29d99277a56ec",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544645"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[surprise]",
+      "line": 5625,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13155-46ecd189010d",
+    "source": "He's going to arrive in Elsinore soon. I've... heard... word that he plans to put on a performance here.",
+    "source_sha256": "46ecd189010d78adfdbc1c33d168ed7bdff63d2747b3a92310cc61a6d7f401cc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544784"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[awkward]",
+      "line": 5626,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13156-e6626f2870e2",
+    "source": "Peter Quince the playmaster? What on earth do you mean?",
+    "source_sha256": "e6626f2870e215c57a8cdf490c1d34d78b7e234a07afdbe4ca71bf576df2c80d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:544995"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Quince_Question}",
+      "line": 5628,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13157-afab3117bd54",
+    "source": "I know it seems far-fetched, but please, listen to me carefully.",
+    "source_sha256": "afab3117bd541670b76d36c4c56386e6598df303484dbebdd2857e575049154b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:545107"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "{Listen}",
+      "line": 5630,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13158-5215e2359ccc",
+    "source": "Quince is evil. He means to take down all of us.",
+    "source_sha256": "5215e2359cccb06325978334f7f3f6096e5e5314ae0bc81a8a485cd68162bca2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:545238"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5633,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13159-9d86e5595480",
+    "source": "Your father's death, your grandmother's insanity—it was all his doing. All of it.",
+    "source_sha256": "9d86e55954803d0e019699f1cc59a9c0907aeef7775b904d5c0c91c14075dd5b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:545336"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5634,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13160-74c3ac7472c9",
+    "source": "He drove them insane from the shadows. He conspired to have them dead.",
+    "source_sha256": "74c3ac7472c9c8178e2d09dc7d1d10f09b6d5f587b1f920ff5143f780f562c51",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:545501"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5635,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13161-a958d37d7c44",
+    "source": "You are saying... my father was not murdered by my uncle after all?",
+    "source_sha256": "a958d37d7c442a92e6b543ebc1ce4124c3d30d31a5a81c48798f74fe6d8835ed",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:545644"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[surprise]",
+      "line": 5637,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13162-520c8a9afab4",
+    "source": "But how can that be? My father's spirit spoke to me. I <i>heard</i> it say that Claudius was my father's killer.",
+    "source_sha256": "520c8a9afab42190893c7b88843c2e24f426ed26645ea9b81bf0082fe7d9be0a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:545781"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {I_Cant_Believe_It}",
+      "line": 5638,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13163-33bb00bd2f3b",
+    "source": "Was the spirit some omen of the devil? Was I lied to?",
+    "source_sha256": "33bb00bd2f3b3153569a121416f9e1010f247a777118f0381ea533b355258c81",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:546008"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 5639,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13164-62de52f50350",
+    "source": "No, Hamlet, you weren't lied to. It—it's hard to explain. He... conspired... to help your uncle kill your father.",
+    "source_sha256": "62de52f50350cdb1b70b3765f4107ee1628f1cb6719328dda22539e1bea14297",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:546116"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {No_Sad}",
+      "line": 5642,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13165-4f3b9b6aac31",
+    "source": "These are cruel allegations to make without proof, Ophelia.",
+    "source_sha256": "4f3b9b6aac317c00b2828d78da9f3f200bb80cb6068b6b440e3933710b085b68",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:546345"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 5644,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13166-23362789acca",
+    "source": "Then ask your father. Ask his ghost yourself. You know he appears on the walls at midnight.",
+    "source_sha256": "23362789acca1139596c0fba42e6261baf1b8136a813cc5db7cc42a8c867d803",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:546465"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5645,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13167-b5abe06aaeaa",
+    "source": "(So long as I can convince the ghost of all this, he's the only one Hamlet will listen to...)",
+    "source_sha256": "b5abe06aaeaa2bcc1399d83f789fb2b8fde90188368bc83822db29c3fd672fc4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:546650"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 5647,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13168-af3bdb3995d6",
+    "source": "Your father will confirm everything I say. Please, Hamlet. If you don't believe me, no one else will.",
+    "source_sha256": "af3bdb3995d60f4b4460703f65eeec34099329736fd54eb73d0b2a7b14a0cd47",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:546839"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Believe_Me}",
+      "line": 5651,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13169-a6515f517533",
+    "source": "And... then... I'll be out of options. He'll have won.",
+    "source_sha256": "a6515f517533c3db0e9d6076ae17eba88f57c5ac3cb5426e1c3677e13367bdfb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:547044"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 5653,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13170-6f8cc8d9e566",
+    "source": "I don't know where else to turn.",
+    "source_sha256": "6f8cc8d9e56603038f226dd8642d4d02e95564183cc73365de1cbf43cf0771cd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:547154"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Sigh}",
+      "line": 5654,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13171-a372500c7df6",
+    "source": "Very well. Then let the visions of this night prove your words true.",
+    "source_sha256": "a372500c7df6be6bf541f2e911c24b3c449ab601666597e59730ea8b7c5fe5fd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:547220"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "{Now_Then_Formal}",
+      "line": 5657,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13172-09f322103717",
+    "source": "And come, now. You know I can't stand it when you make faces like that. Everything will be all right, Ophelia. I'm here to help.",
+    "source_sha256": "09f3221037178ccd2619b46edcaffb5da163fa97915f88279db90faff9669e10",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:547359"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 5658,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13173-2f943f1c74a7",
+    "source": "(I've got to make sure his father's spirit understands the situation we're in.)",
+    "source_sha256": "2f943f1c74a76a82d1a2f2f65e40a994c5ff584b2bebeb3ca714a8ec2e686d93",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:547618"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5661,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13174-49e105df07dc",
+    "source": "My lord, Peter Quince means to bring dissent to the court. We should act against him.",
+    "source_sha256": "49e105df07dcfcb7b08c3f5aa82de99ff1aae87e24014b68920144cc930609da",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:547779"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "{My_Lord}",
+      "line": 5669,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13175-f8fadd593c91",
+    "source": "That performance was truly horrid. Apologies for my reaction, but I simply couldn't tolerate it longer.",
+    "source_sha256": "f8fadd593c910c87ee0d2ea13914779afc1d2f012f7b8d51bf34785036273849",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:547952"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "King Claudius",
+      "cues": "{Scoff}",
+      "line": 5672,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13176-582cad58fec0",
+    "source": "Nevertheless, it's come to my attention that my nephew was the one pulling the strings on <i>that</i> circumstance.",
+    "source_sha256": "582cad58fec0a8a0c2115bc444545540c2005c856e1eda19c2361ed4c09a539e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548161"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 5673,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13177-836343f6f365",
+    "source": "He means to do far more than that, my lord.",
+    "source_sha256": "836343f6f365e007d6fa89431b78b59616e7728f05a7560d973c2b5c92d77f37",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548394"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5674,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13178-3c923151c7d0",
+    "source": "Oh? In what way?",
+    "source_sha256": "3c923151c7d07ce2e5483bd80e345f77b02bd3f188268ddb9ec45167815b81a6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548482"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 5676,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13179-87ebc89ec1a5",
+    "source": "It's... he'll... he sort of... manipulates people.",
+    "source_sha256": "87ebc89ec1a5cdf09d9cf503810af1c2e97447d617764adf2817f7b9ec7c3a0d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548516"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {Ehh_Short}",
+      "line": 5677,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13180-cf43c143a8ed",
+    "source": "...You know, Ophelia, I'm rather busy at the moment.",
+    "source_sha256": "cf43c143a8ed29b08fbf5997ab53cf68da90964a1d84ba8d0d7d68f59ff62f19",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548618"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "King Claudius",
+      "cues": "[sad] {Ophelia_Annoyed}",
+      "line": 5679,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13181-b4cb1c272a4c",
+    "source": "Perhaps we might discuss your, er, theories at a later date.",
+    "source_sha256": "b4cb1c272a4cd6d18a3495659519814bdd330f9473c568c7f5c64cc259d2cad8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548724"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 5680,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13182-ef5463ee96d4",
+    "source": "Oh? The playmaster my wife invited? In what way?",
+    "source_sha256": "ef5463ee96d4cce5182c84b0571ee450acb93e91c5e4876ec4582f4aaeb1038c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548846"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {What}",
+      "line": 5684,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13183-b98ce7198471",
+    "source": "It's hard to explain, but he's going to bring harm to you.",
+    "source_sha256": "b98ce7198471b189d0c518882cb070db86d5920775e4a12622cf8754862b2fa7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:548944"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5686,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13184-3f152b7d8744",
+    "source": "Father. Please believe me... Peter Quince intends to do you great harm.",
+    "source_sha256": "3f152b7d8744492da69a85729cff39e5198f34e47528d6dbc95734c7de9eb082",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:549062"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Father_Sad}",
+      "line": 5694,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13185-9e34bdb95c3c",
+    "source": "Do you mean that funny little man the Queen invited to perform?",
+    "source_sha256": "9e34bdb95c3ceb573df8a20afc2e32d3f21d36ff3e6265cc8ea2a2c9b667183a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:549207"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Polonius",
+      "cues": "[surprise] {Gasp}",
+      "line": 5696,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13186-ffdc7e8255df",
+    "source": "He's far more than that. I believe he intends to harm all of us.",
+    "source_sha256": "ffdc7e8255dff815b4f58b5725fccc1203eedb8f38a248cfd6872b7375cc768b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:549335"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5697,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13187-24f0a7af1047",
+    "source": "Oh, my love—if you're worried, we'll have the guards watch after him more closely.",
+    "source_sha256": "24f0a7af10476b4dcfc0452bb1bc3c1ee0805bded7fdefabd218fca3f88eb9c4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:549466"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Polonius",
+      "cues": "[happy] {Why_Fret}",
+      "line": 5698,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13188-c97ef17c6657",
+    "source": "That won't be enough. We have to find a way to rid him from the castle.",
+    "source_sha256": "c97ef17c6657f26647446c4850d40b6f3661a1da04b7b52598dd7f8333ad08bb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:549633"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {No_Annoyed}",
+      "line": 5700,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13189-6e33ccb695fe",
+    "source": "Is everything all right, love? You've begun to sound an <i>awful</i> lot like... well...",
+    "source_sha256": "6e33ccb695fe624ca2b72abb594666924a997f013d2b9acac249347542cfd39d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:549796"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Polonius",
+      "cues": "[surprise]",
+      "line": 5704,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13190-c10119548b70",
+    "source": "Like Hamlet.",
+    "source_sha256": "c10119548b7082adeae995f3b96060a3fca3c83ecabf7645083864783c6c1b68",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:549975"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 5705,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13191-a87495289b78",
+    "source": "I think we're quite done with this discussion for now. You're worrying me.",
+    "source_sha256": "a87495289b78925bac6efc6a457deb962c8aa29e5f5f9f22e43cda18d24990d6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550001"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_quincetrouble",
+      "speaker": "Polonius",
+      "cues": "[disgust] {Farewell_Angry}",
+      "line": 5707,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13192-a9b8c3a0d412",
+    "source": "My lady, I believe the Playmaster you invited means to sow dissent in the court.",
+    "source_sha256": "a9b8c3a0d4127e62a8e9d9e6d3156ae6d18527d407896ca88d22555b0fadcef6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550152"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {My_Lady_Sad}",
+      "line": 5711,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13193-ee31e6e53a93",
+    "source": "He ought to be removed from the castle immediately.",
+    "source_sha256": "ee31e6e53a935dcdbf9a9074a89d0224a25bd9cabdf62f6836055b8f8d675835",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550315"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5712,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13194-de2acbfdfb5e",
+    "source": "Peter Quince? Why... but I just saw Hamlet speaking with him earlier.",
+    "source_sha256": "de2acbfdfb5ed9c900d4d6b131f0a03e7be0c8443df5ec7ee48c46f6d119407d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550419"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise] {What}",
+      "line": 5715,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13195-01827b98fa82",
+    "source": "I haven't seen my son so excited in quite some time.",
+    "source_sha256": "01827b98fa8237ddc10a761800a1c99d9c68e01a5d9dd8d7c982b9d14b67d055",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550560"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 5716,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13196-4074447767fa",
+    "source": "What? That little man? He's only come to put on a frivolous play. And now, perhaps not even that.",
+    "source_sha256": "4074447767faedca59a1d8fa9d470e174935cc6d115d3d86173018857faed8df",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550666"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise]",
+      "line": 5718,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13197-d896b36179f6",
+    "source": "How could he be sowing dissent, Ophelia?",
+    "source_sha256": "d896b36179f616d4cb9205ac6f194c908088e2eb988f89024560f55a8019160e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550863"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 5721,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13198-b37b8e0d16e0",
+    "source": "...He... means to kill us all, my lady.",
+    "source_sha256": "b37b8e0d16e074a99b92b1569e90c937c5bff7cc383daa68c4e2789ced2449a3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:550945"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {Ehh_Short}",
+      "line": 5722,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13199-c8cc494a7e86",
+    "source": "You included.",
+    "source_sha256": "c8cc494a7e8659ced7c911244ee1670bd6562d88cf67db1065df5bb04aa8f70c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551025"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5723,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13200-e5ae7deb0d7e",
+    "source": "Laertes. Please listen to me. The Playmaster—Peter Quince—he intends to cause serious harm to us.",
+    "source_sha256": "e5ae7deb0d7e3c1163e5d99c3dcab8c2e36355309b9fecd1e5f90286ceb4304d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551067"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Laertes_Sad}",
+      "line": 5729,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13201-593320ee1915",
+    "source": "Who is that?",
+    "source_sha256": "593320ee19156652a5903a4e59a84c855b8e9f77b4dbe82150092816e6e1c6b1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551264"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Laertes",
+      "cues": "[surprise]",
+      "line": 5732,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13202-21b5c2e3f88c",
+    "source": "(Right. I'm too early.)",
+    "source_sha256": "21b5c2e3f88c3fdd7918af195c995f6ae8150152f59fb76d296d8a86329b3d65",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551290"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5733,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13203-4f1bda836795",
+    "source": "He's a performer. A loner. He often travels through Elsinore.",
+    "source_sha256": "4f1bda836795e4efd7851931ec69b38770ddb70ad9044bbac2cc815c3bd98435",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551338"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5734,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13204-c1739865ec06",
+    "source": "I know the one you mean, I think, though it's been years. I-- I see. So you believe he's trying to hurt someone?",
+    "source_sha256": "c1739865ec0667712d3e969878bf0351828bf6d516589992b2f4a80ed82289cb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Laertes",
+      "cues": "[surprise]",
+      "line": 5735,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13205-a67c2de17e07",
+    "source": "In what way?",
+    "source_sha256": "a67c2de17e077644678f9d1fb73016f8103632c715584f993a1287f1ffc1a652",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551685"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Laertes",
+      "cues": "{What}",
+      "line": 5737,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13206-2fbc0854aaa0",
+    "source": "He's going to have you all killed.",
+    "source_sha256": "2fbc0854aaa05f90400bf6f64ceadce290ea505075c7010ab5b304da8555330a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551711"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5738,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13207-cdfd67e74875",
+    "source": "A coup?",
+    "source_sha256": "cdfd67e74875d4e676658058f5a3150d788aac2946dea076f1b81e10e3762f76",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551781"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Laertes",
+      "cues": "[surprise] {Gasp}",
+      "line": 5740,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13208-51e0c6f37cc5",
+    "source": "Yes! Yes, precisely! A coup of sorts—",
+    "source_sha256": "51e0c6f37cc58587813e8aa7ee65ba7f81b6a744feda3eb13d8fb5859045dcd3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551797"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "{Yes_Joy}",
+      "line": 5742,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13209-297e66ba9a38",
+    "source": "Where are his men?",
+    "source_sha256": "297e66ba9a38db712f9b4b033ba220834d1ee8a958501cfcb4bfe037d83ae665",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551873"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 5744,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13210-29683bf1e39d",
+    "source": "It's just him. But he has... strange... powers. Unearthly abilities.",
+    "source_sha256": "29683bf1e39de152a60da47202b00e948184e0e1605241195e00ff8d816f9227",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:551911"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {Ehh_Short}",
+      "line": 5745,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13211-e0ccfdcf60e2",
+    "source": "Oh, no. I <i>knew</i> Hamlet was beginning to rub off on you.",
+    "source_sha256": "e0ccfdcf60e2cbe56ac15edec0a93b909a7dc03c44832636bda01776213059b3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:552050"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Laertes",
+      "cues": "[sad] {No_Sad}",
+      "line": 5749,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13212-7f357866e2ce",
+    "source": "Goodness, you gave me an honest fright. What a strange joke.",
+    "source_sha256": "7f357866e2ce6a53554543a2a0ed649c28df54e62d6187ebbd57030624e14f28",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:552174"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_quincetrouble",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 5751,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13213-eb7126ff59eb",
+    "source": "I met Simona, and she revealed to me the true culprit - Peter Quince, the playmaster, is behind us being trapped in Elsinore.",
+    "source_sha256": "eb7126ff59eb44b926d577a06202dd3afe07d6049df43d948c0859f63c4763e9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "{Spirit}",
+      "line": 5755,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13214-f08a77d64633",
+    "source": "Yes. Hamlet, you, and I shall act anon.",
+    "source_sha256": "f08a77d646330108241a3aabb723a4059dfa42d307e27077d6887930647ca3c3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "{Hmm}",
+      "line": 5757,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13215-c14d74725cb7",
+    "source": "A ghost, a mad prince, and... you. What a trio we shall be.",
+    "source_sha256": "c14d74725cb7e6e4f1d5958a51f609c484f53fecd6d13d90dc4055b58fa0392f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "[smile] {Chuckle}",
+      "line": 5758,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13216-20b91eaef3b2",
+    "source": "Peter Quince? He is but flesh and blood. What ill can he do to you?",
+    "source_sha256": "20b91eaef3b294c6ec8232ff633a089535d2fb8e2eb8b54d2d612f9bbc2b12b5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "{Hmm}",
+      "line": 5761,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13217-c3446b07b6d8",
+    "source": "I can assure you I had a conversation with him where he most <i>certainly</i> proved he was not human.",
+    "source_sha256": "c3446b07b6d88527b5cff91d0dc695f437febf3b6927b42b811ceca076f7ec0e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:552957"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 5763,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13218-5c8130eed4ad",
+    "source": "No. Impossible. Quince encouraged me to find the Book of Fates.",
+    "source_sha256": "5c8130eed4adf580271e012d6fcdc184d502fe510915be6f92ce29cbdc2e7e50",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "{Impossible}",
+      "line": 5765,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13219-bcbda68ba55b",
+    "source": "He urged me to find a way out using the Book as my guide...",
+    "source_sha256": "bcbda68ba55b86f981dfacf679ce4e3b294d2e2539c6a232bef44b97231eda24",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5766,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13220-36315805e88d",
+    "source": "Because he wanted it for himself. He tried to threaten me into handing it over. But I didn't give it to him.",
+    "source_sha256": "36315805e88dc0e30ba230c48ced7abad159dfb0104a3879130dbf9ee5a88991",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:553442"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 5767,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13221-e2d0a3582e4f",
+    "source": "For what purpose could he desire such an artifact?",
+    "source_sha256": "e2d0a3582e4f0b717cfe5ae22476dcac43164995131fdb777e64cfedfd4f9d51",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5769,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13222-dc4e794c3b31",
+    "source": "Because he's trapped in this world--our world--until I use the Book of Fates and free us both. That's why he's been in Elsinore for so long.",
+    "source_sha256": "dc4e794c3b317894b7816e6421ce5562b05fbb362ce0d830fb78ed79ccc17c41",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5770,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13223-7ddd4fd2d32c",
+    "source": "Queen Astrid, you, me... none of us were able to use the Book and conclude his time in this world.",
+    "source_sha256": "7ddd4fd2d32c54dca944834dd1571ce8d0303ffad02755a0b3d5e1082f214a38",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:554056"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5771,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13224-372e82b6d177",
+    "source": "Until that happens, he'll only make new victims out of people in this castle.",
+    "source_sha256": "372e82b6d1779461bc155b64ed90c3f817ceac3bb3af01362d581775901788fc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:554255"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5772,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13225-8787bd2660a5",
+    "source": "He... and I... I've realized what this is. It's just like chess or cards. We're taking turns telling this story.",
+    "source_sha256": "8787bd2660a5e2d8858b82b05e169fc39aafa00c8a43a8235a352cda881ae9de",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:554412"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5773,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13226-0c4d678112e4",
+    "source": "I do something, and then he bends the story in his favor. Simona told me the world would <i>constantly spin towards disaster.</i> She was right.",
+    "source_sha256": "0c4d678112e4cf21bacc73eb601a3c49ff8f3dca0692dd7a5775ca104025b44c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:554639"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5774,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13227-b0b49cd9885e",
+    "source": "But I... can't figure out why. What does he get out of tormenting us? Of setting up these situations where everything devolves into blood?",
+    "source_sha256": "b0b49cd9885e9cb1c187c69155a7c63ac272035ff0e0949949b3e5e25daa9485",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:554930"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Why_Sad}",
+      "line": 5775,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13228-550703090b58",
+    "source": "And what's the point of it all if he's still trapped in this world regardless?",
+    "source_sha256": "550703090b58caed4a7157fc9ad5093789f56753508f4e712f11493d749d372d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:555209"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Whats_The_Point}",
+      "line": 5777,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13229-b4c33c0c83c9",
+    "source": "What? How?",
+    "source_sha256": "b4c33c0c83c99f9f3e67f8426e7e874c46c2ffa314b4eed17aedfbd482bf8b08",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:555410"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5781,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13230-8ca25239214d",
+    "source": "Boredom can be quite frightening. Even I, who have been dead but a scarce several months, understand how frightening it is.",
+    "source_sha256": "8ca25239214d2702f17bc901e09710100078c436c37e781bdd2ad9d59f87b3a2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Heavy_Sigh}",
+      "line": 5783,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13231-3b734abf7580",
+    "source": "Unable to truly die, yet unable to engage with human life...",
+    "source_sha256": "3b734abf7580a1d9b3aa5d6f2ce9c5a554f94a4872e53ce68bdfdeb5bbd1af03",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 5784,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13232-1ce608d5ee8c",
+    "source": "It is like standing outside a window, watching those inside gorge themselves on a feast. I press my hands against the glass nightly.",
+    "source_sha256": "1ce608d5ee8c358f0a7483e5dccbff75d3230661e11f752c3e164683807961c0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5785,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13233-85f9ca3ac0c4",
+    "source": "But try as I might, I cannot join them. I have relinquished my seat at that table, and a wolf now sits in my place.",
+    "source_sha256": "85f9ca3ac0c45f1ee8eb4b4afed430e8581a836080816470c1645721dcd10345",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "{Useless_Sad}",
+      "line": 5786,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13234-a5de66a6728c",
+    "source": "Here I remain, bored out of my bones, lingering like refuse.",
+    "source_sha256": "a5de66a6728c6d3e580abef4bc845721d0423a2640fd3c71e4d9c542ad39e6c2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 5787,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13235-ff70245c7f0f",
+    "source": "I-if that's true, then Quince is only... being cruel. Deeply, horribly cruel.",
+    "source_sha256": "ff70245c7f0f924c7ac33704d3bdb22b1c985ee117d0541a779fbe3748b6b7ea",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:556529"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5789,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13236-6b6bf9767bd6",
+    "source": "Yes. Cruelty is one cure for that boredom. A route I myself was inspired to take. And now my son wages revenge on my behalf.",
+    "source_sha256": "6b6bf9767bd652794823b526a2cd0720bb83848c891a6b8eaa28edc8be7ac5f9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "{Yes_Grave}",
+      "line": 5790,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13237-0fe24a7113bb",
+    "source": "You and Hamlet must speak. You must tell him. He'll only believe all this if he hears it from your mouth. It sounds insane otherwise.",
+    "source_sha256": "0fe24a7113bb4d2f3b9a8cffb37cd0e5690d8c1c6de34b5d4e0b734d8ccc9403",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:556967"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "{Please_Appeal}",
+      "line": 5792,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13238-205a85a6a3d0",
+    "source": "And once you have, perhaps the three of us can find a way to stop Quince for good.",
+    "source_sha256": "205a85a6a3d0650e94b3bcbfea7d74406c30649ca52ea8de2f57809800a74258",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:557236"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 5793,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13239-5c04967d5d65",
+    "source": "Agreed. You must bring my son to me.",
+    "source_sha256": "5c04967d5d654d39658db9b6b60d5730d6ec907a2dc9afc52a5b391b8b76eab9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5795,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13240-767de9d56484",
+    "source": "Yes -- bring him here with those same words, and the three of us shall conspire to end Quince.",
+    "source_sha256": "767de9d564847d8617d099572b2bb1ec65e79ded1f86e51b44440f8969769d0a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5796,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13241-ae86465a99a9",
+    "source": "I did not understand when you brought him to me in this world. But now I do. <b>Try once more, Ophelia.</b>",
+    "source_sha256": "ae86465a99a94994200ccd12b5eb273e161f6841b4459d7afe4a9452f0680ccf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5798,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13242-b0cf041b5cc7",
+    "source": "I am aware.",
+    "source_sha256": "b0cf041b5cc74345ab082a3caeb55c43fd030db4d735588a8b9423201cb5450f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "{Yes}",
+      "line": 5804,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13243-ca6bff600e84",
+    "source": "He must be dealt with. But we cannot let him know of our plans.",
+    "source_sha256": "ca6bff600e84550ce33428860f20e0a11ebdf487b947ec7785741b4cf89ee808",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5805,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13244-0919ce20c26d",
+    "source": "What's the point of watching us suffer? Why? What does he get out of it?",
+    "source_sha256": "0919ce20c26db76c3558769b92086cf217e13e8f467b9a49d1be3dc4d349a716",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558102"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Whats_The_Point}",
+      "line": 5806,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13245-aa565a2fe194",
+    "source": "I-if that's true, then he's... being cruel. Deeply, horribly cruel.",
+    "source_sha256": "aa565a2fe19409871f5d7690ad2e87de495c4f4dfc5e19afc833b80e89b996b7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558249"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5816,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13246-35d4d0664291",
+    "source": "You won't succeed with this.",
+    "source_sha256": "35d4d06642912ac89aa3a4db225dd2ab3e8e26b3032780a8923aebcf84a9e141",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558386"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[angry] {Quince_Hate}",
+      "line": 5828,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13247-c19f0141c263",
+    "source": "And what is 'this,' precisely?",
+    "source_sha256": "c19f0141c263c03ac42ae615e1e6c5195a27454f0bf9ec5efe631223072c7a62",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558444"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Quince",
+      "cues": "{Huh}",
+      "line": 5830,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13248-19d21a8282e8",
+    "source": "Torturing me. Causing me to break down. I won't do it.",
+    "source_sha256": "19d21a8282e827d508c9d9980f633aadbfea907d54a1b9c3621f195ff4db832a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558506"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 5832,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13249-239a4e1937c7",
+    "source": "They all say that. Such a tired line.",
+    "source_sha256": "239a4e1937c7dfad1cad891c7c46f97ad12c2854e88614eceba791ffbb6dd406",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558616"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Quince",
+      "cues": "[happy] {Chuckle}",
+      "line": 5834,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13250-0562535833c2",
+    "source": "Oh! Let me guess, your next line is—",
+    "source_sha256": "0562535833c281ef708995ddb982eec4486bdfd222236ab39296f61a97cbd545",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558692"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 5835,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13251-2078bb293f65",
+    "source": "'I'll never give up! I have the power... of <i>heart!</i>'",
+    "source_sha256": "2078bb293f6554a62be56b035fd2ad321c0bfa918515abd804bd9199ac2da412",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558766"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Quince",
+      "cues": "[surprise] {Acting_Girl}",
+      "line": 5837,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13252-9ffc6543d25c",
+    "source": "Lord, what fools these mortals be.",
+    "source_sha256": "9ffc6543d25cadf25b9d6f9507ee5134f999c3a8efe5706b300381491bead139",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558884"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Quince",
+      "cues": "[murderface] {Sigh}",
+      "line": 5840,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13253-cc7c33939f98",
+    "source": "I don't think you'll <i>ever</i> see it my way.",
+    "source_sha256": "cc7c33939f98e0d2009b3c18e8bfd5fe63602dc2b4b7c5c23a16d198ee29e8f7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:558954"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 5841,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13254-7081c544b923",
+    "source": "Which is a shame, because I crave fresh dialogue.",
+    "source_sha256": "7081c544b92367ff22dcf9e59cd3cd52171e4af2ae7f2d2ca7c8d2ddcaccd9ad",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559050"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_quincetrouble",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 5842,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13255-c58425e68156",
+    "source": "Bernardo, I need you to help me protect the castle against Peter Quince.",
+    "source_sha256": "c58425e681566ec703f2408e500114794928721bc8100a0acb975baf451bcefd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559150"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "{Bernardo_Plead}",
+      "line": 5845,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13256-f35b0b88b00f",
+    "source": "Peter Quince? What's wrong?",
+    "source_sha256": "f35b0b88b00f46d2d421246c8bc52b3f311e1428fb3c237c23fc6a381ed218b8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559297"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_quincetrouble",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {What}",
+      "line": 5847,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13257-8df6a6444154",
+    "source": "He's going to have you all killed off.",
+    "source_sha256": "8df6a6444154cb08a1087e822701ceb461458085ba39ff7d9c20dad5d49ae8d6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559353"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5848,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13258-e6a389b2f98a",
+    "source": "Y-you wouldn't believe me if I told you. But he isn't human.",
+    "source_sha256": "e6a389b2f98a48b0fa6f600c0770ef68829bfe31e94d3d99e9fe7b29ed5dd554",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559431"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_quincetrouble",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Ehh_Short}",
+      "line": 5853,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13259-d957d58fe4e0",
+    "source": "I know things have been rather rough as of late.",
+    "source_sha256": "d957d58fe4e0081a426aceab6abb213ce9597671687b21a86a62b2fc3cec9cb9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559553"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_quincetrouble",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 5856,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13260-3ff12fb35e2e",
+    "source": "But <i>please</i>. Try to sleep more and take excellent care of your health. I worry for you.",
+    "source_sha256": "3ff12fb35e2e8b36c0f34b4391b17f4fb9159a0d35e89c08cb73dbc04a82d491",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559651"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_quincetrouble",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 5858,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13261-16fd6a522afb",
+    "source": "You sound just like Hamlet. And right now, that is... perhaps... a liability of sorts.",
+    "source_sha256": "16fd6a522afbe21801c53e2370ff323a77612fa674d39f07de2a2d4d654a4a8d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:559840"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_quincetrouble",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 5859,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13262-d504648b3992",
+    "source": "Why were you rummaging around in odd places? What are you hiding?",
+    "source_sha256": "d504648b39921a30acd2d3451e50ceec5f9e3b0d829501ca918fdba3198e0f13",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560015"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_oddduo",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Rosencrantz_Question}",
+      "line": 5863,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13263-964a723a5bae",
+    "source": "Nothing. When I'm taken by surprise I sort of, ah, make strange noises.",
+    "source_sha256": "964a723a5bae6482aae7d2096563f2341a7ca74322e1a585523768d5aa7b2d83",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560204"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_oddduo",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 5869,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13264-a3946e7f9085",
+    "source": "Please don't tell anyone about what you saw. It'll be such an embarrassment to Guildenstern and me.",
+    "source_sha256": "a3946e7f9085b43ab7c62f1c0b5932402528d608d80de99855db4f31634bfa74",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560349"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_oddduo",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Please_Urgant}",
+      "line": 5871,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13265-c0e0e5de3be4",
+    "source": "We weren't up to anything nefarious. I promise. Just errands for, ah, a friend. Hrrk...",
+    "source_sha256": "c0e0e5de3be4c30819a1343e57cc44efaf14c25e0b3495527287dfafb1995802",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560550"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ros_oddduo",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 5872,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13266-f1b1f1ef617f",
+    "source": "Why were you rummaging around in odd places? What are you up to?",
+    "source_sha256": "f1b1f1ef617f209f8d267fb5061ab001e50e2f8edd19d436e36abf753de69238",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560727"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guil_oddduo",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Guildenstern_Question}",
+      "line": 5876,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13267-bd86108b65d6",
+    "source": "Hmm! Who wants ta' know?",
+    "source_sha256": "bd86108b65d651b4ce612e71f0deb9edfcfbfc1c281c4c9e4006cbcf9875a6af",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560858"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guil_oddduo",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust] {Hmm_Judge}",
+      "line": 5878,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13268-f1e8cf2dfdb2",
+    "source": "Me. <i>I</i> want to know.",
+    "source_sha256": "f1e8cf2dfdb2f649c01f7dc53a6e8b2447d3cb8fb896280640b5a83b3184cf4d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560908"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guil_oddduo",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Disgust}",
+      "line": 5880,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13269-376325be8cfc",
+    "source": "Well, it's a secret!",
+    "source_sha256": "376325be8cfc6ff79616220a73b82df70dabddbb7c0f7f28e9f75928d87d96a4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:560962"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "guil_oddduo",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust] {Scold}",
+      "line": 5883,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  },
+  {
+    "id": "p13270-bac90de6c663",
+    "source": "I witnessed Lady Rosencrantz and Guildenstern rummaging around in odd places. You were saying, about a spy...?",
+    "source_sha256": "bac90de6c663f8cd994755449a76e9761fcf58ad1044f609c65e286497f5e6c6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:561004"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_assnexposed_RnG",
+      "speaker": "Ophelia",
+      "cues": "{My_Lord}",
+      "line": 5887,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0091"
+  }
+]

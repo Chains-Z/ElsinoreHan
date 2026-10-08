@@ -1,0 +1,3080 @@
+[
+  {
+    "id": "p04131-9cf62e55ce41",
+    "source": "Why, my lord, of course she did. She overheard my men and I discussing it. Of course, <i>I</i> am the true source of this information.",
+    "source_sha256": "9cf62e55ce4133cdb69f9896d2367b058fccf94acaba8d2ebd08ce60b4924b0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1488900"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "{Ahh_Awkward}",
+      "line": 10427,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04132-57a48c6a8183",
+    "source": "I see. Very well, then. It merely gave me a nasty surprise, to have her walk up to me and assert something of that nature.",
+    "source_sha256": "57a48c6a8183fb4ee92b48197194d211322f63cd1bc581cf5eb1402af278fa79",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1489171"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {I_See_Tired}",
+      "line": 10429,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04133-3cc712c251bf",
+    "source": "Lady Ophelia was the one who delivered me promising information about Prince Fortinbras hiding out nearby.",
+    "source_sha256": "3cc712c251bf7ac0e8d444777aaeed2a8d2920c88701a418913069a0d771ed25",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1489418"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "{Hmm_Long}",
+      "line": 10431,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04134-a376031a9a5c",
+    "source": "This is not a new possibility to me, of course. But she presented her case <i>most</i> convincingly.",
+    "source_sha256": "a376031a9a5c0bad69d91f2d37de9446be528f197acfd17dd70c0c65b58f3b33",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1489633"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10432,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04135-233780d178fc",
+    "source": "More of this Prince Fortinbras business. An eminent thorn in my side, that one.",
+    "source_sha256": "233780d178fce944e5f15cc941b94121da119b2af353e8f965c3b3a00d2704ee",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1489836"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "{Hmm_Long}",
+      "line": 10436,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04136-bfdb30a87375",
+    "source": "My lord, I have learned—not only does Fortinbras intend to betray his peacetime agreement with us, he intends to stage a coup.",
+    "source_sha256": "bfdb30a87375642f09fdeeff0881e794b9c026dac7a2bd0e575f59c8e0fe3191",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1489997"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Polonius",
+      "cues": "{My_Lord}",
+      "line": 10440,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04137-f44f18af8ff2",
+    "source": "The Prince and his men are, at this very moment, hiding out in town, just outside the castle gates. They intend to lay siege to us by Sunday.",
+    "source_sha256": "f44f18af8ff2b4b1a7f45a897e58d800e5df15da322b7002a2896d11dc8bfd0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1490252"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 10441,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04138-72e0a2c0a6e8",
+    "source": "Oh, not all this again. I <i>understand</i> that none of us are used to trusting Norway, but they are our allies now. We must keep the faith.",
+    "source_sha256": "72e0a2c0a6e8e90c6861fdbd1c688488c9fdb56bb99a3d266b3e49617471ad38",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1490537"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "{Scoff}",
+      "line": 10445,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04139-33cef4fcfa94",
+    "source": "Hasty moves have lost us many a battle in the past.",
+    "source_sha256": "33cef4fcfa947d30ad2b27c6dc65d6231599fa0ec2e42a53808c3017f0d0d2ca",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1490822"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10446,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04140-65215090fef9",
+    "source": "I fully believe it now. The fool has overextended himself and crossed a line which cannot be uncrossed.",
+    "source_sha256": "65215090fef9b234f7b3011093e370c0d9aa461994b518013b8662322e98eff4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1490926"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "{Scoff}",
+      "line": 10450,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04141-a0cbefbfa68e",
+    "source": "Still, hasty moves here have lost us many a battle in the past.",
+    "source_sha256": "a0cbefbfa68eca55c0a3822b236290d7d2ae1a749d0816bc95b2cffdea3cb782",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1491135"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10451,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04142-f1164d3076d5",
+    "source": "Prince Fortinbras has no intentions beyond our lands. He wants to take the Danish throne. His request to cross Danish lands is a ruse.",
+    "source_sha256": "f1164d3076d5979f31af1105bc964d93300d65ee1d567da355fed038a2e5d59c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1491263"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "{Fortinbras_Sad}",
+      "line": 10455,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04143-4af71ffde98f",
+    "source": "He hides out now, in town, with a small group of officers.",
+    "source_sha256": "4af71ffde98f5e59d28e9d849969be4fdc98cf6c3c7283ee86aef287081cd8b3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1491534"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10456,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04144-f978c036beb1",
+    "source": "Sir, perhaps this is a time to reiterate... I've long believed Prince Fortinbras has no intentions beyond our lands. He wants to take the Danish throne.",
+    "source_sha256": "f978c036beb1a83a0bbd26a6071af090d5aec8cb52ba82e2589f0010f0425a1b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1491652"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "{Fortinbras_Sad}",
+      "line": 10471,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04145-45cecbaed4e2",
+    "source": "You finally <i>believe</i> me, my lord?",
+    "source_sha256": "45cecbaed4e226ad6fc26c07a4a5d87e64239bbdfce6dc3e14e29aa5b2192908",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1491959"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "[surprise]",
+      "line": 10474,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04146-9fa1755f13af",
+    "source": "I do. And I give you suitable permission to act.",
+    "source_sha256": "9fa1755f13af32848502e99f2ede08b6ede6a0df217fd0d04ab104c53e344f0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492039"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10475,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04147-4e197b17e2a7",
+    "source": "My lord, I beg of you. Something like this should be simple to verify.",
+    "source_sha256": "4e197b17e2a7bc0107f8f47882db671294549e790550454755d28a54fda9f1ec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492137"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "[sad] {My_Lord_Urgant}",
+      "line": 10482,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04148-7d0dea77a0f3",
+    "source": "Allow me to take my men into town. If all is as we believe it to be, we will come away with Prince Fortinbras as prisoner.",
+    "source_sha256": "7d0dea77a0f3f72804b43c2d89eea6bc8ec49920db5b065a3a90027d36fb62a0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492280"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10483,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04149-d6a32c980548",
+    "source": "And if not, there will be nothing to fear. We can frame it as a routine investigation of the town's seedier alleyways.",
+    "source_sha256": "d6a32c980548abda4aa2c37d3056fd90fe60e511bcba1aa8dddb987ca0162215",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492527"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10485,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04150-63fb0dcdf958",
+    "source": "There can be <i>no harm</i> in investigating.",
+    "source_sha256": "63fb0dcdf958f3b1dda1c7605e26183f106f3b6d5f779e7998b0855a192ef9a6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492766"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10486,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04151-9f5d79e93463",
+    "source": "So be it. Keep your profile low.",
+    "source_sha256": "9f5d79e9346368cf3e9061b7dd57fbb2352fb943ed9041dab06181b2210c7efb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492858"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "{Sigh}",
+      "line": 10490,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04152-fb344e7cce05",
+    "source": "Of course, my lord, of course.",
+    "source_sha256": "fb344e7cce054fd7a25d94722d1914228444b02083bb492ecb1fe2242b916992",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492924"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 10493,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04153-1d520b420907",
+    "source": "And one last thing. If you come away empty-handed...",
+    "source_sha256": "1d520b4209076bed5aa8a1f71d3ba2fe2e817131e8dbe77c6db4830bcf666156",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1492986"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "{Ahh}",
+      "line": 10496,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04154-219534476350",
+    "source": "There shall be <i>no more</i> talk of pulling peace agreements with Norway. Now, or evermore.",
+    "source_sha256": "219534476350844bb5558fd496276039603026f6ba77ed4824499d6f1bf5606d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1493092"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10499,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04155-b124e560b715",
+    "source": "This sort of thing has the power to grow from rumor to dangerous absolute if we do not either confirm it or hinder it at the knees.",
+    "source_sha256": "b124e560b71570a06815ea74ae4712d42f867c712dac15ab399cd72f695c0341",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1493281"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10500,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04156-5ae83d583e58",
+    "source": "Yes, my lord. If this town investigation bears no fruit, I think that's wise.",
+    "source_sha256": "5ae83d583e580e51aade6a7ab981dddd043519ee849ef0165144b1e5b927e22b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1493546"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Bernardo",
+      "cues": "[surprise]",
+      "line": 10501,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04157-1062720c3428",
+    "source": "Then we may need to pursue further action. I'm convinced Fortinbras means to act against us <i>somehow.</i> We simply haven't identified the method yet.",
+    "source_sha256": "1062720c3428aff6f6e68a477e4c7966f08484464206ab84d1dd62397f2602c2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1493703"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10503,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04158-d1bf095fa6bf",
+    "source": "Let us be done with this, then.",
+    "source_sha256": "d1bf095fa6bf1529c588f3ee5ddaa146bce3d3eeee0ad2ecc40b7c363701904f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1494010"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "King Claudius",
+      "cues": "{Growl}",
+      "line": 10506,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04159-43163042885a",
+    "source": "Thank goodness. It sounds like everyone's collectively come to their senses.",
+    "source_sha256": "43163042885ad5451dd35698b33cf5bbb20a3f49549f15936fe488863848dc68",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1494100"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Happy}",
+      "line": 10513,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04160-b9d1c0356a78",
+    "source": "Bernardo and his men should mobilize soon. Here's hoping they find Fortinbras.",
+    "source_sha256": "b9d1c0356a78784d39269de09687090fe6fe830488cf9122ff7f1394c03a5af1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1494255"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 10514,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04161-2abb14aadf59",
+    "source": "Then there won't be a coup.",
+    "source_sha256": "2abb14aadf59404beaf336fdd715de3f4be271b7582cd16597ee4bc488c88866",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1494414"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_WarCouncil1",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 10515,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04162-1f612ed6fdab",
+    "source": "Men, follow me.",
+    "source_sha256": "1f612ed6fdab7fdc224ce946e4017e8f2a462b03db325af6923f2f4e12f2ced3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1496473"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "{Men_To_Arms}",
+      "line": 10527,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04163-f4bda6675f30",
+    "source": "Wot's all this about, Captain?",
+    "source_sha256": "f4bda6675f30a05a16ebfb0562481df8d55c74df15fdc94f01222c5b569e9b67",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1496655"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Wots_This}",
+      "line": 10531,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04164-da8612630e68",
+    "source": "We're operating on a special request from the King, to find Prince Fortinbras.",
+    "source_sha256": "da8612630e686b0e73ae793ff6e40ce0af8802e2c6d7b8eeb5dd56afa0625386",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1496717"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Hmm_Dark}",
+      "line": 10533,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04165-46cd56b049f1",
+    "source": "We have recent cause to believe the Prince is hiding out in town.",
+    "source_sha256": "46cd56b049f10fe12f60152cd8fcb6dead5610f20ea45c891a49e58b7422f56f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1496876"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 10534,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04166-e23354909947",
+    "source": "P-P-Prince Fortinbras?!",
+    "source_sha256": "e233549099474f5795214c50408b53d2a1f2886d21b785855e3891c02555b789",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497009"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Fortinbras_Shock}",
+      "line": 10536,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04167-841d36f08bc3",
+    "source": "Why, that lyin', connivin' dog...",
+    "source_sha256": "841d36f08bc3fcd2d811c6d4352307c60a7c4009eb2a1deb6a7988cd07a89e1c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497057"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Marcellus",
+      "cues": "[disgust]",
+      "line": 10539,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04168-88873dfd917f",
+    "source": "This will take the form of an ordinary sweep. Raise no alarm, and mention nothing of our business.",
+    "source_sha256": "88873dfd917f0f16c138ce48c4fce8bc4a082f9cb1df86acb942aeb4cd06e27a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497125"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 10541,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04169-c915834ff5a3",
+    "source": "If we <i>do</i> find him, bringing him under arrest is our first priority.",
+    "source_sha256": "c915834ff5a3b9c91b959be137204293df8b613d482900a54b00efa4d4d9f0ec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497324"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 10542,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04170-61e90b52180a",
+    "source": "And if we find nothing, it is the King's desire that we give the townspeople nothing to fear.",
+    "source_sha256": "61e90b52180a9ff8b2b5b61187c1cb460636fb6ecf3473a8d007db6e557d787d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497475"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 10544,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04171-8a64871ed202",
+    "source": "Aye, Captain.",
+    "source_sha256": "8a64871ed2027414035e986f441f7b77cf08730b912420af14cde295487195c7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497664"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Marcellus",
+      "cues": "{Aye}",
+      "line": 10546,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04172-d81f90118b87",
+    "source": "Given the turmoil within Elsinore, I don't feel right leaving the court unprotected—so we'll be rather light for this endeavor.",
+    "source_sha256": "d81f90118b87ebbd9070883ec3582c3c36635aee847a80907e9279c01172f9bc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497692"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "{Sigh}",
+      "line": 10549,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04173-122a4ede69e2",
+    "source": "Are the five o' us enough? What if Fortinbras 'as men of 'is own?",
+    "source_sha256": "122a4ede69e2e7b8701df03b231470acef361413b13efde2011cee7e1431b85d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1497949"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 10551,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04174-9ea4c68187f2",
+    "source": "It's certainly not an ideal staffing scenario. But we must do what we must do.",
+    "source_sha256": "9ea4c68187f220ffd28b0da71e1b1907b37b7791ddc47cf14a171153123211d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498082"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10553,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04175-ecd0320fd957",
+    "source": "(This doesn't seem promising.)",
+    "source_sha256": "ecd0320fd957e7b04d274812e38f5b8af064b856157f2989d06352c6a34c6780",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498241"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 10554,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04176-12f25dc23022",
+    "source": "The five of us will lead the initial foray, but the rest of the Castle Guard will be swift to follow.",
+    "source_sha256": "12f25dc230228e628587e3cee2f5d3f253031f983280f13d500ad56340d47da5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498303"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "{Now_Then_Firm}",
+      "line": 10557,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04177-32393f7ca45f",
+    "source": "I'm confident that we're well-staffed to handle this endeavor. We'll quickly overtake whatever cohort Fortinbras has.",
+    "source_sha256": "32393f7ca45f5b5ffb5119ad20287df8f900ad19c40705d1a8e05ac3f8359282",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498508"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10558,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04178-db6e12361aa7",
+    "source": "Aye, captain!",
+    "source_sha256": "db6e12361aa7c0b5bbb1b4a4eb25459de350fc73913ce64c34dbd8dc64c83704",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498745"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Cygnus",
+      "cues": "",
+      "line": 10563,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04179-27d36b38f27f",
+    "source": "Let's have at it!",
+    "source_sha256": "27d36b38f27f00e7dfc0da5cff314a0cb4b2f3d62851f8fba5e080d16fdf38d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498773"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_RollOut",
+      "speaker": "Aldous",
+      "cues": "",
+      "line": 10566,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04180-177334910fe6",
+    "source": "Knock on every door.",
+    "source_sha256": "177334910fe619269e9917101766be1c54f1355fa6b04185459315cecea80e3c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498849"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 10577,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04181-5f9fac1417da",
+    "source": "If the occupants refuse, force entry.",
+    "source_sha256": "5f9fac1417da1ff0149056603b94cb972f3100619bcf43986a029469f002c0cc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498891"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 10578,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04182-f9979859817b",
+    "source": "We found somethin'!",
+    "source_sha256": "f9979859817b5bc8f5acb4d0460436c04ef06c6fb9da20029229af8a197cd6b3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1498983"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Marcellus",
+      "cues": "[surprise]",
+      "line": 10593,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04183-80495816f7f2",
+    "source": "Who are you?",
+    "source_sha256": "80495816f7f221579a472ca05647122a046f90846f2531202061c7eb7e7a8c8c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499023"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Hmm_Dark}",
+      "line": 10596,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04184-fa80972ea180",
+    "source": "Marcellus. Remove his hood.",
+    "source_sha256": "fa80972ea1807de93244b090474eee82d3d1240239581e8881f1454180c82730",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499049"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 10599,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04185-d6583893adf5",
+    "source": "As I thought. You are the singular Prince Fortinbras.",
+    "source_sha256": "d6583893adf5fc8966cb9dc06da1446118b31bcac8f2188b63a2361d7b16e453",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499105"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10609,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04186-8c2711917948",
+    "source": "And you are here with the intent of usurping the King of Denmark.",
+    "source_sha256": "8c2711917948b4dab6be8c6da99ca226c57eb842df527a5e2bd71d537b527377",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499213"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10611,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04187-abdcc1df1c0d",
+    "source": "Indeed. I came to do what my father could not.",
+    "source_sha256": "abdcc1df1c0df6aa7eb356bfaa19490e7153e46b98c840b4b22c6e80407b64b4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499346"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Disgust}",
+      "line": 10613,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04188-312a8cfdf0b4",
+    "source": "You came ill-prepared and undermanned, I see.",
+    "source_sha256": "312a8cfdf0b45826c9e8580fe531ce950f39d2a7452db6b807110e57a225cfca",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499440"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Chuckle_Dry}",
+      "line": 10616,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04189-ae17931c3865",
+    "source": "An ambush?",
+    "source_sha256": "ae17931c3865df0239dd065bbf7e07a2503e6c92244ed52e3ce42a6b83ae7086",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499532"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Fall_Back}",
+      "line": 10619,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04190-91b164153272",
+    "source": "We can't hold them off, Captain!",
+    "source_sha256": "91b164153272bb929d53d6046ae7f4fc3408776aeab1022d052ab57f1c9c5e98",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Kubilius",
+      "cues": "",
+      "line": 10622,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04191-d4ac0940e977",
+    "source": "They're retreating—",
+    "source_sha256": "d4ac0940e9771ae73f36b0e21785f61959aca0909769faec6b8c3f02e6c1fe89",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499620"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Captain_Surprised}",
+      "line": 10627,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04192-c788b115e65e",
+    "source": "They were deflected, but—the Prince escaped, no doubt to whatever rathole they maintain.",
+    "source_sha256": "c788b115e65edffe9992e5940d0865b20bd04d246635517f812d0e1ff83e3e1e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499672"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Sigh}",
+      "line": 10632,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04193-ca7c31b6d081",
+    "source": "We failed.",
+    "source_sha256": "ca7c31b6d081c909e193b37a887508462da28244cc8cf24606ef56c1a89a3b1b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499851"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10633,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04194-9078ec84d678",
+    "source": "We should report these events to the King.",
+    "source_sha256": "9078ec84d6789312539d43b9cb873f705ca97695ad398a7a7d561cb2178faf68",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499873"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10635,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04195-897f9b0f7045",
+    "source": "...We were short, m'lord. We knew it wos a risky move.",
+    "source_sha256": "897f9b0f70451c71b92e359e13d85b72d3b6fad6186f085ffcf83e04ac64ae2e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1499959"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Marcellus",
+      "cues": "[sad] {Aye_Sad}",
+      "line": 10637,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04196-4d7ec422b04b",
+    "source": "Aye. Had we not left men back in Elsinore, we might have prevailed today.",
+    "source_sha256": "4d7ec422b04b752801bf8891495270d9d8d7d64f34adeb063fadffb937e40eb7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1500069"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10638,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04197-f818ec347016",
+    "source": "Had all been peaceful within the castle, then perhaps...",
+    "source_sha256": "f818ec347016f3b74d2492972821da068ba893041ba4429306babd065aa31c72",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1500218"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10640,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04198-17c536129341",
+    "source": "But there's no sense waxing philosophical about what might have been.",
+    "source_sha256": "17c536129341182a2f2f7a9b569c3f0af0c27bb537076ef622e7cca04e69cd21",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1500332"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Hmm_Dark}",
+      "line": 10643,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04199-87f99631bd36",
+    "source": "Our failure here was absolute, and I must acknowledge it to everyone.",
+    "source_sha256": "87f99631bd36f8b93513ab8412a38e9999506aed624a9e04ff359ceb014f59f3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1500473"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10645,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04200-a28c64be3ac7",
+    "source": "You killed my finest officers. Good men of large standing.",
+    "source_sha256": "a28c64be3ac762fa90d5738c934925dd38e8c3d98b38c01a675ae63627341109",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1500614"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10648,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04201-915f741a5ed2",
+    "source": "I know not how you found us, but it would appear I have been summarily outmatched.",
+    "source_sha256": "915f741a5ed216aa63b8ed5cdff9fd3505c53c09e15a573c211aedc8cd8c03a2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1500732"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10649,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04202-8dd1018f1d95",
+    "source": "We received a tip from Lady Ophelia here. She knew you would be in town.",
+    "source_sha256": "8dd1018f1d9594245e987a9103a66299b8812e18443ffdb25a33b1653cf06b67",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1500899"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "{Chuckle}",
+      "line": 10651,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04203-f7c12d6982e3",
+    "source": "I have heard tell of this Lady Ophelia before. Who is she?",
+    "source_sha256": "f7c12d6982e3ddad11f50167cb573ad491942ccaf66081ae1238de3940c82ad8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501046"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10653,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04204-71ac6958ee6e",
+    "source": "I'm the one you were <i>going</i> to have killed. Not anymore.",
+    "source_sha256": "71ac6958ee6ecc53da8adeee010c80795bdad9105a3da48a60f09f6640173974",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501164"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Ophelia",
+      "cues": "[smile]",
+      "line": 10654,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04205-3b9d5c3dd037",
+    "source": "Men, take him to the dungeon. I shall work with the King on how best to proceed.",
+    "source_sha256": "3b9d5c3dd03767248d125d1e6275569b96cca9bc527b448bc238f239e2bf7797",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501290"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10657,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04206-5815cb222e75",
+    "source": "Well! What have the dogs sniffed out now?",
+    "source_sha256": "5815cb222e75edb0677f8a21d203b9690a4e6a3ab4dd0a8b3ef531354a4c0dc9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501481"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Ahh_Happy}",
+      "line": 10673,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04207-eec1cfc474dc",
+    "source": "A hare in our trap! And a fat one, at that.",
+    "source_sha256": "eec1cfc474dc2030af34c129ba78869231aeeea136cd3ead3b26789d3c417ea0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501565"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 10674,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04208-d34aac269816",
+    "source": "Young Prince Fortinbras. Welcome to Elsinore.",
+    "source_sha256": "d34aac26981625b1143720a207b7fda2695441f6943ce5c8a3ca36ebda5fc665",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501653"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "{Laughter}",
+      "line": 10676,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04209-10a3207ae723",
+    "source": "Had I but one more day, our positions would have been exchanged here, Denmark.",
+    "source_sha256": "10a3207ae7238d6a45a539e701a8d7d69c0d7d88d3974c419cc4972af6bc0518",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501745"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Heavy_Sigh}",
+      "line": 10678,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04210-50a8bf9fbda2",
+    "source": "Yes, well, you didn't, and they aren't.",
+    "source_sha256": "50a8bf9fbda2ba67283b62b76abb6766073d3e68a2c12f3e82d544c940f0fd46",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501904"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "{Scoff}",
+      "line": 10679,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04211-450dc29e3da1",
+    "source": "What shall I do with you now? Perhaps write to your uncle and ransom you back in chains?",
+    "source_sha256": "450dc29e3da1a254589caa3f30c9edbd8057a70f35b1de9c9b0397de07dac653",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1501984"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10680,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04212-aee56fbc5127",
+    "source": "That old man Norway, impotent and bedridden. He doesn't know about this deceit of yours, does he?",
+    "source_sha256": "aee56fbc5127280673222f0fa2c738433fde3bd3ebb1ad2c955429fe324acd4d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1502163"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10681,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04213-2dcbcba69ceb",
+    "source": "Yes. I will use you to re-fill Denmark's coffers, and secure a true peace between us.",
+    "source_sha256": "2dcbcba69cebe660e1a0699581af74e7dcd2d274ceff1d1cc418d411b22d7aa0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1502360"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "{Yes}",
+      "line": 10683,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04214-ab0ac104a078",
+    "source": "But not just yet, I think.",
+    "source_sha256": "ab0ac104a0781677951969a59ca06a2d2ba86a06cdf39a33dcc83417a6dd6467",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1502533"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10684,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04215-5194a693efa0",
+    "source": "First, I think I'll let you enjoy the darkness and the silence a little while.",
+    "source_sha256": "5194a693efa0291feb3c1940f2fac74a0a2b1531a2790e6e49b6e92efa3718ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1502587"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "{Growl}",
+      "line": 10686,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04216-63b4a176cb2e",
+    "source": "Perhaps Bernardo can give you a turn on the rack. Or a little carving to remember us by.",
+    "source_sha256": "63b4a176cb2e33c7c1db7bf245d16c1b05e90157b07a6622fa81725283ee2b2a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1502746"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10687,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04217-c1bdbc152c6d",
+    "source": "(My lord, is that wise?)",
+    "source_sha256": "c1bdbc152c6d42f895605ad25db43fee979761a972a24b08f98cde9d4e976ba4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1502925"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 10689,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04218-1e4ef72e7f69",
+    "source": "Mmm, perhaps not. But neither was this coup of the Prince's. I'm only having a little fun.",
+    "source_sha256": "1e4ef72e7f69efd07d0f98e08f8c37b7cec669a9bfe666662c57ba84478c6a17",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1502975"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "{Hmm_Long}",
+      "line": 10691,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04219-47d4078086f2",
+    "source": "Regardless, the day is won. This battle goes to Denmark.",
+    "source_sha256": "47d4078086f2425db2c6309c34064e4dd10dd422f947dec0e95a5be114c11d57",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1503158"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10692,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04220-75fd35cf3728",
+    "source": "Sweet dreams, my dear Prince.",
+    "source_sha256": "75fd35cf37280a9cb05cb31faf8bc81f3ccb66c79cb410760cc7508a0f63e554",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1503272"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10693,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04221-c1c184bc0585",
+    "source": "We must uncover a way to communicate this checkmate to all in Elsinore.",
+    "source_sha256": "c1c184bc0585ecb2bed2cf5659eec5531a9f0326aaaed9ca4b7e97e26700b2bb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1503332"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "King Claudius",
+      "cues": "{Guard_Captain}",
+      "line": 10696,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04222-89a256d50f9a",
+    "source": "At once, Your Highness. As soon as we're prepared to make an announcement, let us do so.",
+    "source_sha256": "89a256d50f9a67369073246e798622266cabf910b0e36ed653610d5bb37539a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1503477"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_AccostFortinbras",
+      "speaker": "Bernardo",
+      "cues": "{Your_Highness}",
+      "line": 10698,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04223-fe2ef5c55c22",
+    "source": "That's the herald's horn.",
+    "source_sha256": "fe2ef5c55c22c69da5d25c1b12c4985aef71fffb2b18ff9a731deaefdc066bbf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1999198"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 10705,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04224-8cc9e59fbfb0",
+    "source": "Bernardo and the King are preparing to make a statement about Fortinbras, I expect. I should attend.",
+    "source_sha256": "8cc9e59fbfb04aa5732ea6671b18ccacd97c5df2275903ba1b6c3b6e88deb0c8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1999250"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 10708,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04225-fe9038bb20d5",
+    "source": "This is an unusual time for an announcement. I ought to go see.",
+    "source_sha256": "fe9038bb20d56f235ff713fa8f1a301e8d6819ad963ae0b306fd459b6eb43806",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1999453"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 10710,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04226-922a3c719bca",
+    "source": "This is an unusual time for an announcement.",
+    "source_sha256": "922a3c719bca9c7ec05655ddd3c3ef9ef2bac9f02aac0adb67ff5605ef54c791",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1999581"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 10713,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04227-c7bf0497ece7",
+    "source": "My apologies for the sudden disturbance, my lords and ladies.",
+    "source_sha256": "c7bf0497ece7f836957aa64fce3144ddd3d15c8f6e211eb6e4d11f797af69168",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1999721"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "{My_Apologies}",
+      "line": 10720,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04228-e94a8dc2a1fc",
+    "source": "I bring to you some sudden news.",
+    "source_sha256": "e94a8dc2a1fc0c00335233227b09e95b04217053676993f7e8b0a9d0f5338b44",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1999845"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10721,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04229-e9c80ad7554b",
+    "source": "My men and I learned earlier of a Norwegian plot to overthrow His Majesty and bring about the subjugation of Denmark.",
+    "source_sha256": "e9c80ad7554b3fa3f1df70fdf2a65c03de26101deb76f062c4f90e49dbe1a06b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1999911"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "{Disgust}",
+      "line": 10725,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04230-9e33f189f097",
+    "source": "Prince Fortinbras aimed to violate his peacetime agreement with us in the name of bloody revenge.",
+    "source_sha256": "9e33f189f09724148488c65d56c217182c9d35bbc853f86272798703ca5d7371",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2000148"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10726,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04231-b70839652dec",
+    "source": "However, thanks to some well-timed information, we were able to stop him in his tracks and bring him under arrest.",
+    "source_sha256": "b70839652dec9fdc2d0fc0fffd24412dcaf7ec16276e9fa07b22b597ed712d2e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2000345"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "{Chuckle}",
+      "line": 10729,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04232-3e2bcc253e0e",
+    "source": "He's now safely contained in Elsinore's dungeon, down in the casemates.",
+    "source_sha256": "3e2bcc253e0efc37f13b6e27c5e84e5c848f237a237b284ba39e953cb01811db",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2000576"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10730,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04233-4a37db769b34",
+    "source": "Does this mean peace?",
+    "source_sha256": "4a37db769b34c31b0f1a89b184545019efd62904d3705cd88b704c3b5d3383d4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2000721"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise] {Gasp}",
+      "line": 10732,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04234-7a98dbabfa84",
+    "source": "Is the war with Norway at an end?",
+    "source_sha256": "7a98dbabfa8433b8d042f2ccc9a7fa0b187979c09b249f31ebab3e544745a3e4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2000765"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise]",
+      "line": 10733,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04235-d3d3c586d23b",
+    "source": "Does this mean peace for us, at last?",
+    "source_sha256": "d3d3c586d23bb70f2f8df2e533c3011125b2ee588c120bdc79ef6ff662b64db3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2000833"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Irma",
+      "cues": "[sad] {Gasp}",
+      "line": 10735,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04236-42de98fdb1f5",
+    "source": "I have never known a longtime peace in Elsinore.",
+    "source_sha256": "42de98fdb1f5bd81237535a985b254f50d8e2e7eba93033526dae1ed2691282c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2000909"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Irma",
+      "cues": "[sad]",
+      "line": 10736,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04237-a28e190dfd3c",
+    "source": "Does this mean peace for Denmark at last?",
+    "source_sha256": "a28e190dfd3ca60fbabf29aa71959c9c50e229f61b3a713411550cb2a5962fa7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001007"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Horatio",
+      "cues": "[sad] {Gasp}",
+      "line": 10738,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04238-672946f614f0",
+    "source": "What happens now?",
+    "source_sha256": "672946f614f0c7149632ce0afbdc09637e7e29869ec194e5a1df230009fef89a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001091"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 10739,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04239-bb6a16cc5947",
+    "source": "Why, we'll make a show of force to old King Norway, bedridden back home!",
+    "source_sha256": "bb6a16cc59477e043d73d859844f5d4679a549ab7afb2e289c003c49e6180d7d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001127"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "King Claudius",
+      "cues": "{Chuckle}",
+      "line": 10742,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04240-f7c5a0c01dca",
+    "source": "Send his nephew home in chains. Show him what happens to unruly boys who cannot learn to act with civility.",
+    "source_sha256": "f7c5a0c01dca86e2c9a45e5a48a838847bc7e35ce10dddaf8b58ffd3b5e32f36",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001274"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 10743,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04241-51488f3299e4",
+    "source": "Regrettably, I remain unconvinced this is the end of anything.",
+    "source_sha256": "51488f3299e400d8a5f400fd668771461ffe6758f5811dfec5706d81df27a65d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001491"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 10745,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04242-b912cf436221",
+    "source": "This is merely the beginning.",
+    "source_sha256": "b912cf4362219d691357dda9a20ef6453c961cf73d620ea6a812aa8d19718812",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001617"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10746,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04243-09abc9380ade",
+    "source": "I do not believe Prince Fortinbras has any intentions of relenting. The wise thing to do would be to execute him as an enemy of the state.",
+    "source_sha256": "09abc9380ade94a75c15d40d50af5d9963257cce030246da57b9038cbee8f671",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001677"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10748,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04244-90ec45bd9d11",
+    "source": "However, were we to do so, we would invoke the wrath of his uncle, the King of Norway.",
+    "source_sha256": "90ec45bd9d11f1bae6adf691d1a31031f78f2802a7750f406481da76eb71689c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2001956"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10749,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04245-3a239a8db6f7",
+    "source": "There is no simple solution. All this is but a temporary peace.",
+    "source_sha256": "3a239a8db6f7a73062380318a8c1eb91ed6de411408afe3d134ec3ead6a64268",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2002131"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10751,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04246-f46df050b11e",
+    "source": "Thanks to some well-timed information, we were able to intercept the Prince in town and drive him off.",
+    "source_sha256": "f46df050b11ece901cff36e118b9b0ebc733537e679385a768981c2a76087afe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2002259"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10754,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04247-fffd87ab4955",
+    "source": "We... had hoped to capture him. But recent losses have stretched our forces thin, it seems. He escaped our grasp.",
+    "source_sha256": "fffd87ab49551b5b52fc1eb6cb8c49e828e20af57c62775804165f73ec8bc3cd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2002466"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "{Sigh}",
+      "line": 10756,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04248-5078dfb5698a",
+    "source": "Still--whatever he was planning has been delayed, at least.",
+    "source_sha256": "5078dfb5698add0edd9d339bb47d7c2d5cb6c7b7a1cb266f6cb6da2e6df2f42e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10759,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04249-a6d692a9c666",
+    "source": "(With any luck, this has brought me enough time to meet Simona.)",
+    "source_sha256": "a6d692a9c6661acf69f1d1967809503b0f0dee67b54677d131e8023c19b8a1d9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2002813"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Ophelia",
+      "cues": "{Hmm_Unsure}",
+      "line": 10761,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04250-45f4a109fa1b",
+    "source": "Let us prepare for a longer fight.",
+    "source_sha256": "45f4a109fa1becf7d5cd3a62c7a06a8fa1ecdbbc1dd5fecc0055ad8bd4e6ab02",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2002944"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Hold_Nothing_Back_Cold}",
+      "line": 10764,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04251-71a186baeae2",
+    "source": "I leave it in your hands, Bernardo.",
+    "source_sha256": "71a186baeae23ad5de2ceb376d7edc5fc03de46aad3c8135615097a89da86287",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2003014"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "King Claudius",
+      "cues": "[smile] {Yes}",
+      "line": 10767,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04252-9dd1a79e0fa9",
+    "source": "I'll have word sent to rally all troops who would hear the call.",
+    "source_sha256": "9dd1a79e0fa95668213313ecff971b1e0d1ce65459e5f13edcb3b140ac1cb915",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2003086"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10768,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04253-f71190a2035d",
+    "source": "Until then, everyone, please remain vigilant.",
+    "source_sha256": "f71190a2035d227ee89cedec2a7019632aec6718bb461adddcdc18cbcfd80cf0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2003217"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_FortinbrasArrestedAnnouncement",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10769,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04254-4ce138dcfa7a",
+    "source": "So? Now what, my lord?",
+    "source_sha256": "4ce138dcfa7a26c0018e2babf0f6759966bae8de95258218937834aa577cf601",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2034770"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Lady Brit",
+      "cues": "{Sigh}",
+      "line": 10781,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04255-67f74f9edd13",
+    "source": "Both of us in a birdcage.",
+    "source_sha256": "67f74f9edd134b68cd294cfb8e1101c4317539a3e3cd136a6b37121e5d33b62b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2034816"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 10782,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04256-5066edd59a3e",
+    "source": "Hmph. Far from it.",
+    "source_sha256": "5066edd59a3eee7b5a00137f4b016ee60bfd05d1926af7fc3b7cc07affbaa77e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2034868"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Disgust}",
+      "line": 10784,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04257-e741a18b6d7b",
+    "source": "Don't fret, Lady Birgitta.",
+    "source_sha256": "e741a18b6d7b705d8f4fbab7410e04288c8cd8f92025413656a9ad11816a84bc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2034906"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10785,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04258-ba4c6101dfb9",
+    "source": "I haven't given up hope on returning to my men. This court is already fraying, I can see it. If any piece falls, we'll have our chance.",
+    "source_sha256": "ba4c6101dfb9976c5bfde8aabe0c99794bdf2e5af511bd12fcac995ca18a6c40",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2034960"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10787,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04259-84b139b4815a",
+    "source": "I have other loyal agents. All they need is an excuse to act.",
+    "source_sha256": "84b139b4815aea86bbc11dff65809dcab015ad7deb2b1728fdf2328ac33edaf0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2035233"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10789,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04260-f132f520e21e",
+    "source": "I'm less optimistic.",
+    "source_sha256": "f132f520e21ef4654cf559ee6c7f0594812e0312ef4b1829e7b495ab812f4f3e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2035357"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {Hmm_Bored}",
+      "line": 10791,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04261-4e505f3ee62b",
+    "source": "Lady Birgitta.",
+    "source_sha256": "4e505f3ee62bbda743ce3985958e280169d517fe796d7f4d95c6261b547d5688",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2035399"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Hmm}",
+      "line": 10794,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04262-5dc9779b3aec",
+    "source": "My lord!",
+    "source_sha256": "5dc9779b3aece92e120e474f57f5dcaf262af8eee47bc3d5c4859bbf1dac72de",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2035429"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Lady Brit",
+      "cues": "[surprise] {My_Lord_Shock}",
+      "line": 10795,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04263-c641bdd12661",
+    "source": "How did they discover my location? Did you--",
+    "source_sha256": "c641bdd12661e93d87ae093bddafbccc0a355511b105f5b12f330f344025134d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "[sad]",
+      "line": 10796,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04264-dffa52eedccf",
+    "source": "Of course not! But you were imprisoned. The other men had no clarity of action behind them.",
+    "source_sha256": "dffa52eedccfa205a2d870e794d74c9e1457de77a5295e9c530cd19daf21433c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2035535"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 10798,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04265-8e28d815862f",
+    "source": "I'm certain they'll rally regardless.",
+    "source_sha256": "8e28d815862f0514f1e6be9863ad109463257680483a6196de71b708d22cab63",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2035750"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10801,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04266-85b3dfdb1e0b",
+    "source": "Without you, they won't accomplish anything against Elsinore. They're scattered. Frightened. They needed you.",
+    "source_sha256": "85b3dfdb1e0bdfc5fe9f144c31d395a8a6d82ae065798922bdabe35404532008",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2035826"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {Sigh}",
+      "line": 10803,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04267-7ad5cee770ca",
+    "source": "Perhaps they shall <i>have</i> me yet. This court is already fraying, I can see it. If any piece falls from the board, we'll have our chance.",
+    "source_sha256": "7ad5cee770caa70d3c8147377ad03cd8904872cfd742681bb44da1c2996b402f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036047"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10804,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04268-15d0d3cee0f9",
+    "source": "If there is but a moment of chaos...",
+    "source_sha256": "15d0d3cee0f96404081f10074dafb6343000a3e2b760dbfde77e2591bc6f7cc9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036332"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10806,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04269-d752b72b26ea",
+    "source": "Then I—or one of your officers—must come here to free you. I understand.",
+    "source_sha256": "d752b72b26ea0fb1fc26071a894a4259c494944cda64980b2784a53173976235",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036406"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 10808,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04270-7a827311644e",
+    "source": "('If any piece falls.')",
+    "source_sha256": "7a827311644e988b8e4e5d2b03c30f6e2b2a575344c5b60c44c0d43a2315de12",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036553"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Ophelia",
+      "cues": "{Sigh_Tired}",
+      "line": 10812,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04271-d139d7501f1b",
+    "source": "(I need to keep them all alive.)",
+    "source_sha256": "d139d7501f1b4fcbf19d32b10435a43fcd183cc4b9f7efba7cf32e5b9c2b4dfe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036601"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 10813,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04272-ec9d4371b175",
+    "source": "(No one must die. I can save them. I <i>have</i> to.)",
+    "source_sha256": "ec9d4371b175db7423a2b17bab2b8a0cdb2449880c943c8d6e81c64c317082c7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036667"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Brit_JailCheckin",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 10814,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04273-001e529a6009",
+    "source": "Ah, my captain. It's good to see your face.",
+    "source_sha256": "001e529a60097376bf11abd2b1bc7dc0a28867bdaa2e3f6b3dbed38c157d8271",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036823"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Prince Fortinbras",
+      "cues": "[happy]",
+      "line": 10825,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04274-75d0abbe05fa",
+    "source": "I never doubted you would come for me.",
+    "source_sha256": "75d0abbe05fa1a3bf30076bfd7172b7424a7fb97968ddf5e1bf87661d32e0b8e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036911"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Prince Fortinbras",
+      "cues": "[happy]",
+      "line": 10826,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04275-d7ac5d0395a2",
+    "source": "The King's untimely death has brought them all together... and left you unkept, my lord.",
+    "source_sha256": "d7ac5d0395a2099678d22bda908829e401e09aa29e86083c4cccf8cc492a5cdd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2036989"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10828,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04276-a96115cb663d",
+    "source": "The Queen's untimely death has brought them all together... and left you unkept, my lord.",
+    "source_sha256": "a96115cb663d1e7072060bd0cb473e5089c3f42ce7dbf4dc40fdfe3837693f42",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2037168"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10830,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04277-4a4501df4858",
+    "source": "The young Prince's untimely death has brought them all together... and left you unkept, my lord.",
+    "source_sha256": "4a4501df485866ec22e7cdcfc6e5282e360318817c307d15c7cd244303b00214",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2037349"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10832,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04278-22fd1995eaba",
+    "source": "The old Master Chamberlain's untimely death has brought them all together... and left you unkept, my lord.",
+    "source_sha256": "22fd1995eaba65bf4c5f032a14f4905ecda02b6194045606ddc75d3923170bce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2037544"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10834,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04279-72768923296e",
+    "source": "Lord Laertes' untimely death has brought them all together... and left you unkept, my lord.",
+    "source_sha256": "72768923296e683fc4350afb86f1b1a839109fa0aa6f5a390125ffc122db3f8e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2037759"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10836,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04280-66ee62b09f16",
+    "source": "Let their chaos be our convenience.",
+    "source_sha256": "66ee62b09f16c9ae4780afac17605191b7b58122578b4f3df47f003770f60321",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2037944"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10838,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04281-cd4ac9854dba",
+    "source": "Come, Your Highness. I'll return you to the gates.",
+    "source_sha256": "cd4ac9854dba6ea9779386f24e1eaf39b1d4d2de27dc8004b97f4ef6470a136c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038016"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10840,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04282-e1b81a77367e",
+    "source": "Come, Your Highness. We'll get you to the gates.",
+    "source_sha256": "e1b81a77367ea2a3c34eba29a894c04e02e416aa019d0e2387892a1253b47b2f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038118"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10848,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04283-3d83cc083a7b",
+    "source": "Let's make haste. I'm not sure how long Bernardo's men will let down their guard.",
+    "source_sha256": "3d83cc083a7b2d3db7064172c4ac6054aaf9bb29542d5f61ed4e0b06bd3ce92e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038216"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_Escape",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 10849,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  },
+  {
+    "id": "p04284-2bf5963ebe42",
+    "source": "I have failed in my duties most utterly.",
+    "source_sha256": "2bf5963ebe42f9ceb62c8537f41c0d434b0d02574bc0e09c7f6605ba2be78347",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038381"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Damnit}",
+      "line": 10869,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0033"
+  }
+]

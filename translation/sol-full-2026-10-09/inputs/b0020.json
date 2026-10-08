@@ -1,0 +1,3204 @@
+[
+  {
+    "id": "p01943-f20f8521add9",
+    "source": "I still don't know how he died. The letter didn't mention more than his murder. Though I have my suspicions.",
+    "source_sha256": "f20f8521add901ca1a64f8677afe925cd8c8f11e77ece8a38b0dba633a0e416a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1181185"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3547,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01944-fde1c4b48442",
+    "source": "A blackhearted rumor floats around town, my lord. I'd desire you to hear it from a kind voice first. Your sister, perhaps.",
+    "source_sha256": "fde1c4b48442c2ef5d258e506735457737ac2b1a137ae1293dc442ca97209e7d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1181404"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[sad] {Sigh_Vocal}",
+      "line": 3549,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01945-3684ba73911a",
+    "source": "You and I are brothers of a kind. What is this vile rumor?",
+    "source_sha256": "3684ba73911a67e10ece2c1bd4aee8b28dee80a2741b3271983193025cb3f0be",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1181651"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad] {Hmm_Skeptic}",
+      "line": 3555,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01946-fc65ec6b624f",
+    "source": "The people whisper he was murdered, my lord. By the King's hand.",
+    "source_sha256": "fc65ec6b624fc106a69aca323f845f041da2af342276cbaba9311d7f963690ae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1181769"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[sad] {My_Lord_Sad}",
+      "line": 3558,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01947-c7856d34efb6",
+    "source": "I see. Somehow I can't find it in me to be surprised.",
+    "source_sha256": "c7856d34efb6a750ddb2f487915348405eb6acba1bfbee705ab47fc2a8b8be21",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1181900"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad] {I_See_Annoyed}",
+      "line": 3561,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01948-d32762c0d8af",
+    "source": "Here I assumed that bastard Hamlet would have done the deed. But the King is his blood, and murderers tend to generate more of their kind.",
+    "source_sha256": "d32762c0d8af5fc51dcc34bcc5d610a798ade2fa6b6b267d601d004435e1f080",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1182008"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3564,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01949-39b5584eb2b3",
+    "source": "With the bastard dead, it's too bad there's no one to ask about it.",
+    "source_sha256": "39b5584eb2b3cb4283742aef8fcd3ff92560c28dd239b0039f50b0c9f5a1877f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1182287"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3568,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01950-06f1e4c5199e",
+    "source": "Lord Laertes... it always was a funny title.",
+    "source_sha256": "06f1e4c5199e2dd870eb4b775e9c4046d00b0085c5b048379440d8d6a9c7b6ae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1182424"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "{Sigh_Heavy}",
+      "line": 3577,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01951-73dc46378dd0",
+    "source": "What fortunate luck that our ship was delayed in its leave of harbor.",
+    "source_sha256": "73dc46378dd04632ecf6b98d6e9ed6bfdd25960b9a3979b55772a42a49f883d2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1182514"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3578,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01952-ab978c764dfe",
+    "source": "The letter I received spoke of something horrible.",
+    "source_sha256": "ab978c764dfeee16ca0076381fb57ee851d201f8efe246b461ea0b0622dba765",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1182655"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3581,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01953-ec3735310222",
+    "source": "Prince Hamlet made an attempt on my father's life. And now I must repay the deed in kind.",
+    "source_sha256": "ec37353102225097ec06a1826775affe27024c1072ead1a17ad6edfea449e202",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1182757"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3582,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01954-6b5bca5baaab",
+    "source": "Any honorable man would surely feel the same, my lord.",
+    "source_sha256": "6b5bca5baaab726b4b875f06f53f705cb70c77f0d03f20172d709bfb3a23a037",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1182938"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 3583,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01955-884a8b557685",
+    "source": "Though the precise interpretation of 'repaying the deed' is subject to some discussion, I should think.",
+    "source_sha256": "884a8b557685531df3e518f4917dfd40961a074fbb2ff9a4abc6a242ba111067",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1183048"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 3584,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01956-e91d90064074",
+    "source": "After all, the Prince is dead.",
+    "source_sha256": "e91d9006407473d469aed53055c1ba2706c0e20c48850a5d68c9fd11dbdcd5c2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1183257"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 3586,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01957-b295b8c1a6fc",
+    "source": "He-- Hamlet-- is <i>dead?</i>",
+    "source_sha256": "b295b8c1a6fc4d6fb2e6504cd5a60d45f43c98fb7aff3a48e9b94841410de208",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[surprise]",
+      "line": 3587,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01958-aefcf1560a2c",
+    "source": "Yes. It came as a surprise to me, too.",
+    "source_sha256": "aefcf1560a2cd4a16ac417ad82d8919769dd0ad055c8e8f5aaf286fdd99b72b3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1183371"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 3588,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01959-9160dbd7a43b",
+    "source": "Can you not bring him to justice?",
+    "source_sha256": "9160dbd7a43b04c912e97f1194b92d7c80370a8f5d573abc58c979b508a5c97f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1183449"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 3590,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01960-9f7e971701e1",
+    "source": "Perhaps. But as things stand, I desire only his death and my family's immediate safety.",
+    "source_sha256": "9f7e971701e15cbd2de313228489af05c50719af0f3c3070b0a814fac796584a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1183517"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3591,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01961-7eba9a03127d",
+    "source": "I <i>have</i> to believe Claudius was behind this somehow. That he ordered Hamlet to come after my father.",
+    "source_sha256": "7eba9a03127d35770b9471d127ac4816b1005d1353aa53829a690645a1b5dc5d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1183694"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3592,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01962-b00e921c21e9",
+    "source": "Hamlet may be a fool, but he wouldn't plot against my father alone. Not without being... pushed.",
+    "source_sha256": "b00e921c21e91254ee83c76d7a18f38c096b321a64047e422e0cab424a919963",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1183909"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3593,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01963-05925ba6be01",
+    "source": "The letter spoke only of 'urgent matters' requiring my attention back at home.",
+    "source_sha256": "05925ba6be0197a9ee1e561c2fb0e08b0012a53dcf08f6f70eecc07bd5605f9e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184104"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3598,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01964-de636fb75660",
+    "source": "Ah. That'll likely be the Prince, rest his soul.",
+    "source_sha256": "de636fb75660b9d56e96fdee673e7e86cd6b45b963c7c6e4d87043cc89b2c77f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184263"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 3600,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01965-78e30b57ca88",
+    "source": "I... I see.",
+    "source_sha256": "78e30b57ca88d93558d1b2c01fafe68d256fc6048496fc93b97b2a7788539756",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184361"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3603,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01966-183970f8fa9d",
+    "source": "I suppose woes spring forth other woes wherever they might land. And I sense more are soon to follow.",
+    "source_sha256": "183970f8fa9d0461cd67256a99f7c4dd1d431235a9893eabc91e3795faeb7669",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184385"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3607,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01967-0995ce8610bd",
+    "source": "Speaking of springing forth... I've heard that Prince Hamlet and Lady Birgitta are to be wed soon.",
+    "source_sha256": "0995ce8610bd182eaf09f5d91b70060c319be2fcaa1c42b8580c81071a157e42",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184590"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "{Chuckle}",
+      "line": 3609,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01968-1223c7589d1d",
+    "source": "<i>Wed</i>? You cannot be serious!",
+    "source_sha256": "1223c7589d1d4cb40fdb7e19949874da7189d4c8e441fc8e1afec66b41caf87c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184789"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[surprise] {No_Intense}",
+      "line": 3611,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01969-85218d76274a",
+    "source": "It's a new brand of gossip, my lord, but I believe it trustworthy.",
+    "source_sha256": "85218d76274aad13f067d3ea96d15617e35364f81ac01ec4106182211b23a74f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184859"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[surprise]",
+      "line": 3614,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01970-9c26d4a7f11d",
+    "source": "The servants who wait upon them both bring swift news to my bar-top.",
+    "source_sha256": "9c26d4a7f11d35e0a3c725b958a5d7bc6a8358e3fec9b3d46825f47346510136",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1184994"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 3615,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01971-6a4285e63ca1",
+    "source": "Brit... marrying him?",
+    "source_sha256": "6a4285e63ca1b4350e0f86b0029d6693587d6edffe649fa190d0b4eaeca73de4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185133"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[despair]",
+      "line": 3617,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01972-cbb6fe8203f5",
+    "source": "Of <i>course</i> the second I depart, Hamlet plots to make her <i>his.</i>",
+    "source_sha256": "cbb6fe8203f5d033589b9bc6f0befe6b24325a898f4c00620931b9cf280f1e0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185177"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3619,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01973-ebb2b4eac64a",
+    "source": "The bastard.",
+    "source_sha256": "ebb2b4eac64af04a508560843257fa12a98d057a6ac83b5f3912fb68987df88b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185328"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad] {Basterd_Quiet}",
+      "line": 3620,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01974-d2df4ab5625c",
+    "source": "Ah, and have you heard the news regarding King Claudius, my lord?",
+    "source_sha256": "d2df4ab5625c93d5c4cb31e0f0cc1e05a59318e67d46becfd1f3ef07bfabb9d1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185354"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[surprise] {Ahh_Sad}",
+      "line": 3626,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01975-64c3f26c6ee7",
+    "source": "He is dead.",
+    "source_sha256": "64c3f26c6ee7e4872cdd232490573a0eef774e296c7fd07c9903aab154f1e2c7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185487"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[surprise]",
+      "line": 3627,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01976-a6a727bc7a7f",
+    "source": "Well, <i>that's</i> certainly news.",
+    "source_sha256": "a6a727bc7a7f064bbc1b54b60a7b36a3f9e5ff3c1f98e0ec055c2243bc03c359",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185511"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3629,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01977-3d4f999f7fe8",
+    "source": "And what is to become of the throne, then?",
+    "source_sha256": "3d4f999f7fe8a3adcc232f55cb39ce5970d15553a4418128e3e3e651b82e7aad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185583"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3630,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01978-03f658c4eac0",
+    "source": "They whisper that Hamlet shall rule now.",
+    "source_sha256": "03f658c4eac0aa7767adf8c41d02a74e69fe97f141cb8a0252faee7bfdab926f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185669"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[sad]",
+      "line": 3632,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01979-fc78aa5cb560",
+    "source": "What? <i>That</i> incompetent boy?",
+    "source_sha256": "fc78aa5cb560c54ff3ece5a9cf767f273583f74c342a2ac2fb50fdd07310d4b4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185751"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3633,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01980-7cf655c24aea",
+    "source": "Not if I can help it.",
+    "source_sha256": "7cf655c24aea5b5165601ee096a86d064bb536f853665ccfc024e725e583a66f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1131450"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3634,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01981-cf8a12ae1e5c",
+    "source": "I have heard nothing yet, my lord.",
+    "source_sha256": "cf8a12ae1e5c6bed72821827daadb2e0d8a77cf0068b2917268c5bf0c5ee8e2f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185821"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[sad]",
+      "line": 3638,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01982-af695ee33fbf",
+    "source": "How can all this have taken place in just two days' time?",
+    "source_sha256": "af695ee33fbfcca3da61eef9e85b983153e372e543e0607086849c6083849a1b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1185917"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[surprise] {What_Sad}",
+      "line": 3643,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01983-ad0202f8470c",
+    "source": "I, too, am continually surprised. You Danes are an awfully busy, bloody sort, aren't you.",
+    "source_sha256": "ad0202f8470ccd479bcd086daeaa540792f326e6e814d3590c39c1016655f4f2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1186033"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[sad]",
+      "line": 3644,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01984-3eb27b9243d5",
+    "source": "Although I don't know you well, I wish you fortune in whatever you may find when you make your return.",
+    "source_sha256": "3eb27b9243d5a2d89576c7905c04198d71e44b9696875fea87d8c6e64dd4bfc6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1186214"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Othello",
+      "cues": "[sad]",
+      "line": 3646,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01985-2740a29dc30f",
+    "source": "And I welcome it. I've really no idea what's happening. I suppose I'll soon find out.",
+    "source_sha256": "2740a29dc30faec6a37fe43020fce6f6126092a6141424e4664382361f906b34",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1186421"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3647,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01986-5567b03ef78a",
+    "source": "... Look at me.",
+    "source_sha256": "5567b03ef78a25cb9828e580b5747e0a00818d570f4913ce107e8b8fb1e9122a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1186618"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad] {Sigh_Heavy}",
+      "line": 3656,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01987-fbeb711b7805",
+    "source": "Not half a day back from France and all I can think about is murder. The longer I must linger among awful men...",
+    "source_sha256": "fbeb711b7805cc16b5d3853a413c75bd3e6fecd542122f5a84156c1d7be816c1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1186650"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3658,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01988-5f6ea0d52e22",
+    "source": "The closer I grow to them. Well, fine, then. Let it suit my bloody purpose.",
+    "source_sha256": "5f6ea0d52e22a9a43a261d9dc49e357c43ac825a31c33d38f9764aa867f61458",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1186877"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3659,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01989-16d7b34aefcf",
+    "source": "It's time. I should have been King. The post was always rightfully mine.",
+    "source_sha256": "16d7b34aefcf5474abcc183c4ff0de54b069ecf06e8154fbf96bb1cb608e419f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1187030"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3660,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01990-bd16812491c6",
+    "source": "Hamlet's mad, the people always hated Claudius... Who better than myself to rule?",
+    "source_sha256": "bd16812491c69acbe4a78275ee735e236aa72b4b3b77d9931e5ea102ee8b3849",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1187177"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3662,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01991-5c2666a9cc81",
+    "source": "Time to take what belongs to me.",
+    "source_sha256": "5c2666a9cc81052d1733ac90ace4f12f3521a6720ae7dbaef891a98bcb3760ab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1187342"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesReturns",
+      "speaker": "Laertes",
+      "cues": "[sad] {Someone_Must_Pay}",
+      "line": 3664,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01992-8f39118dac93",
+    "source": "My lord, a letter arrives from Hamlet by pigeon.",
+    "source_sha256": "8f39118dac937adad506c54f312bd92ede99faa03611c8be646d203dccbe7f0d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1203259"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "{My_Lord}",
+      "line": 3673,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01993-a9406d648eed",
+    "source": "<i>H—Hamlet?</i> Good captain, I must have misheard you—surely?",
+    "source_sha256": "a9406d648eeda3f2d9038138988361f1a6fab8e780283b548950189120605cb1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1203357"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "King Claudius",
+      "cues": "{Hamlet_Surprised}",
+      "line": 3678,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01994-d5bc52f81f97",
+    "source": "Forgive me, my lord, I'm as surprised as you. He ought to be in England by now!",
+    "source_sha256": "d5bc52f81f97e06a8649d3b34b6cda3010e2a51de919b8cc8024753589a0635a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1203485"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 3680,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01995-d0b45d9a7803",
+    "source": "C-certainly so. What does it say?",
+    "source_sha256": "d0b45d9a780382409d2f5c3b849f731d6b853a9ba109e174c3b909fc45ef42da",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1203646"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3682,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01996-645846d7c3de",
+    "source": "It says he's returning to Denmark. And his ship was overtaken by... pirates?",
+    "source_sha256": "645846d7c3de25cb0929207ab580972196528150ab759f349094f5c614db27cd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1203870"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "{Oh}",
+      "line": 3689,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01997-0cfae38146a3",
+    "source": "Not one day at sea and they were beset by pirates?",
+    "source_sha256": "0cfae38146a373b274906f03f285c517441cb96de75e2b8d74cbb43acda9cba2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204025"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "King Claudius",
+      "cues": "{How_Surprised}",
+      "line": 3692,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01998-cd1bc7e6c678",
+    "source": "Stranger still, those same pirates are helping him return to Denmark.",
+    "source_sha256": "cd1bc7e6c678a2da5912538a47157c137491f77bda04d3b100a7e094af3d1db4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204127"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 3693,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p01999-b87c3749787d",
+    "source": "Pah! This is preposterous! Bernardo, can you believe this?",
+    "source_sha256": "b87c3749787d151c6d4caf9b33c5d9a2ffed09ca5e5b978130a56f5b010058dc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204268"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3694,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02000-b264eaef001e",
+    "source": "Knowing Hamlet, I <i>absolutely</i> can, my lord.",
+    "source_sha256": "b264eaef001ea2d0f8392e5e48cd30d86583a3f9f78488ebfd92ad26b0ffe737",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204386"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 3696,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02001-d0083b14dc08",
+    "source": "The letter goes on to say that Rosencrantz and Guildenstern are dead.",
+    "source_sha256": "d0083b14dc08bd422f03d3fc51ba0f77a08d6e4a68db7178e7895b5d45f6f4f3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204486"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Ahh_Tired}",
+      "line": 3702,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02002-e165f1c91fd1",
+    "source": "That's a shame.",
+    "source_sha256": "e165f1c91fd1b62719d886a3410d856d8fced4c4ad16bfdc2bb85bc10e5db9c4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204627"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 3703,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02003-69396cb4e569",
+    "source": "This is terrible, terrible news...",
+    "source_sha256": "69396cb4e5697c427bb595e508c76c2f2b3eba5203becfcb963a7df3c21e3f38",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204659"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {Growl_Long}",
+      "line": 3705,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02004-2d88c2ad9924",
+    "source": "Indeed, my lord. I know they were dear friends of Hamlet's.",
+    "source_sha256": "2d88c2ad99249a07eac71eeda5fef5f48e8ca269b5004a1814375fb24951ba7d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204729"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 3708,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02005-762e9e0dc275",
+    "source": "No—not that, you idiot! Out with you! Everyone, out!",
+    "source_sha256": "762e9e0dc27513ac04dd355c66d7b96905d066b7c02fdf2aaa38241cdcf4bff8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204849"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "King Claudius",
+      "cues": "{Disgust}",
+      "line": 3711,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02006-3de8b0f83125",
+    "source": "Indeed, my lord. But perhaps Hamlet will convalesce better at home.",
+    "source_sha256": "3de8b0f8312559f4d2cd02284248f5b2c12d60a39869fe0607ed350c35b7b1eb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1204955"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_ClaudiusHamletLetter",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 3718,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02007-cd384dff2825",
+    "source": "You have crossed the line. The people hate you, as do I.",
+    "source_sha256": "cd384dff282577b96d502f95afc8b40b57b1278427369c08e5239a03f32df438",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1205522"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[angry] {The_People_Have_Spoken}",
+      "line": 3737,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02008-727ecc28e699",
+    "source": "My ship, delayed by mishap, returned to harbor...",
+    "source_sha256": "727ecc28e699b26cfa21bf1ff293e87986cc39238d0b48acf797a98289a199fb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1205636"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 3738,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02009-3c2bfd2a3532",
+    "source": "And the moment I stepped ashore, I learned my father was slain.",
+    "source_sha256": "3c2bfd2a3532fac992330739a811fb9135dc35d1ef9fbae64909d7d82aa26061",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1205736"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 3739,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02010-b9e41e498425",
+    "source": "Who else would have arranged his death other than you? You never trusted him—and I knew it to be true.",
+    "source_sha256": "b9e41e4984259f3151a65915205b95ae439a1938725b7ecba087226ce6535e36",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1205864"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[disgust] {Disgust}",
+      "line": 3740,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02011-2675a5d304b8",
+    "source": "Soon I will rally more men to knock at your gates. It's time for a new King.",
+    "source_sha256": "2675a5d304b821ebcc1ce1eafd0760be62c5f248aeb30e41f5449ff89ab8b66b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1206071"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3742,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02012-e56b18e5d8fc",
+    "source": "Denmark calls out for blood, and the blood of my father must answer!",
+    "source_sha256": "e56b18e5d8fc196e07cc4a6f9b4910fd95655a69c0e33e3780cf7382e63e0600",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1206226"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[disgust] {For_Denmark_Angry}",
+      "line": 3745,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02013-6896a1fa4351",
+    "source": "Wait! This is about your father?",
+    "source_sha256": "6896a1fa4351b2f44b4cd1973efe1b1a10e15b39c4612217e25aa5c0bcefe5da",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1206365"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {What_Is_This}",
+      "line": 3748,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02014-0c6cafa44fd8",
+    "source": "My father's death is on your head. Murdering the man who trusted and defended you most? That's sick, Claudius.",
+    "source_sha256": "0c6cafa44fd864ab3321fae4a8fc26404b8addee948ebc2d66d3bf2a8fd4dd75",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1206431"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "{My_Father_Angry}",
+      "line": 3751,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02015-32fc45d82d96",
+    "source": "W-wait! Don't act just yet! You must know the truth!",
+    "source_sha256": "32fc45d82d96a80e616a8791f135e0c428ab057a210504ef94a55fa7920de740",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1206654"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3753,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02016-ff3384b8bfd9",
+    "source": "The truth? Spit it out.",
+    "source_sha256": "ff3384b8bfd9092bfe07632c4f9a045ceecd3a340496983f0d2d8d2f7a51e561",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1206760"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 3754,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02017-38f171355455",
+    "source": "Hamlet killed my father due to your negligence. You noticed the signs of his madness. We all did.",
+    "source_sha256": "38f17135545581b37bd68ccc76f702e9973631ca8c5661152436f1b293d6a35f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1206808"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "{My_Father_Angry}",
+      "line": 3756,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02018-108749d20647",
+    "source": "And yet you sent him, a dog unchained, to run in my father's path and bite him. You might as well have laid the killing blow!",
+    "source_sha256": "108749d2064788113b77296f60612105d121f3d97cf583b92a9cfd89fb06d5ae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207005"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 3757,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02019-b970c177980b",
+    "source": "I never laid a hand on your father. It was Hamlet who killed him, of his own volition.",
+    "source_sha256": "b970c177980bdf78d433769a154d107bd8b5859df64221299cad308ac4b14665",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207258"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {I_Wouldnt}",
+      "line": 3763,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02020-a4a2295fe029",
+    "source": "And you had no indirect involvement?",
+    "source_sha256": "a4a2295fe029a46852cadaa954ec138c5880fbc9ca4ef9e12b55ad245e5ff1cb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207433"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3764,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02021-9a9bd2732d41",
+    "source": "No. None whatsoever.",
+    "source_sha256": "9a9bd2732d41b7dea89a702f4b926e7fa0e36ef0ef4c81f2b6bc73e43ee5e657",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207507"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 3765,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02022-fd42a78a598f",
+    "source": "If you want proof, ask Hamlet himself!",
+    "source_sha256": "fd42a78a598f12ac6b68167e7ded561af21d09f96e21c50204c22bd3e018ec68",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207549"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 3768,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02023-97986e72a594",
+    "source": "How could Hamlet have acted alone?",
+    "source_sha256": "97986e72a5940f47a4f13821b93b6865d1e5243c5e3b49aaec19c1760adaaf5d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207627"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[angry] {Hamlet_Scared}",
+      "line": 3771,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02024-d18e0da592ea",
+    "source": "Had something changed in him?",
+    "source_sha256": "d18e0da592ea24cac8003518655900bd34fe52a43ad3bce0f17779c59cad07a6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207697"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 3772,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02025-426c2a3fa8ae",
+    "source": "(Of course, I know <b>all this is true already.</b>)",
+    "source_sha256": "426c2a3fa8ae8d1116b1fd9fdcb8e12a10433b6e47d53de40a1db0b847244bbf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207757"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3779,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02026-890460524fdf",
+    "source": "(But Hamlet's grief is as deep as mine. He regrets what he did.)",
+    "source_sha256": "890460524fdf82372a5b887d5846afb4c6bf91c95fcde8694c3feccf47d33c20",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207863"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3781,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02027-b67c113653f4",
+    "source": "(Still, I must act as though I am true to Claudius.)",
+    "source_sha256": "b67c113653f467e336ac55bb63941aa1bc92988f45fc9c65a903685f9f4a0894",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1207994"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 3783,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02028-e88412072737",
+    "source": "Laertes. Listen, boy. I had no hand in your father's death.",
+    "source_sha256": "e8841207273760953244e199cb1878e2c1975a6eed220286831fa447c2ab5a8d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1208100"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "{Laertes_Warm}",
+      "line": 3789,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02029-dd688fc670a8",
+    "source": "Hamlet intended to kill him and struck the killing blow. I wasn't even present for your father's death... much to my regret.",
+    "source_sha256": "dd688fc670a8436003cf02c289ac1d25737247974f968e6941b61e54b17ba4cb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1208220"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3790,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02030-722195b9f87a",
+    "source": "I will forever wish I could have saved him. He was a fine advisor, the best I ever saw in Denmark.",
+    "source_sha256": "722195b9f87aa5652a8af0d73cb1f37c0d847eb2df1e5d6f976f9f3159fc2cd3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1208471"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3793,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02031-eaefddfdabae",
+    "source": "Hamlet isn't here to answer for the truth of your word, Claudius.",
+    "source_sha256": "eaefddfdabaef2dba06a9e1637f1839bf743185ebc06c84cbfdc38a6b270a805",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1208670"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "{Smug}",
+      "line": 3795,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02032-07123e077bcf",
+    "source": "He returns to Denmark anon. We've received word of his return. Patience, Laertes. Patience is a true virtue for a man of your age.",
+    "source_sha256": "07123e077bcf1a2e5ef4a84fe2fe51922335cb25186fe3d71c39c3e7a0bd07e0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1208803"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3797,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02033-9429c1943ece",
+    "source": "Ask anyone in Elsinore, and they shall tell you the truth of what happened that night.",
+    "source_sha256": "9429c1943ecee366c5c590bcfd7ea7c508a10fcb5ca65800a0437ec511d7b311",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1209066"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3799,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02034-4216a3f4e03d",
+    "source": "If you receive any other answer, <i>then</i> you may rally against me. But you won't. Patience is a true virtue for a man of your age, you know.",
+    "source_sha256": "4216a3f4e03d6fdba2a07ed946e2816d59ea114fd68b4e64d732ee1c4ff05459",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1209241"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3800,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02035-5e7e2be0aa0b",
+    "source": "Be patient, and it will richly reward you. Of that, I am certain.",
+    "source_sha256": "5e7e2be0aa0b7f47c48c6e3f6e2853829c940eb4d33a7d8edac57e1557c06636",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1209532"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3804,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02036-e9a78288ae09",
+    "source": "Let me help you achieve your goals, Laertes. They are mine, too.",
+    "source_sha256": "e9a78288ae09a9e751e3d9bbd028148f246cc62c9bdf6578443886de4f297119",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1209665"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "{Please_Dark}",
+      "line": 3815,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02037-e81ffeb871d8",
+    "source": "How can I trust you? You're his uncle. What's to stop you from lying to me?",
+    "source_sha256": "e81ffeb871d8e0131539a130fdf78448423a4a48dd59ea7b349a10e2e14c558e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1209796"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "{Scoff}",
+      "line": 3816,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02038-21b83da9d273",
+    "source": "I'll give you the very weapon to gut him with.",
+    "source_sha256": "21b83da9d2733fea634808b08eb17b8ac8d2dc2b73346f8d94d91b8ee8bce5eb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1209949"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3817,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02039-eb2cd28c607e",
+    "source": "I <i>had</i> poison I could dip the blade in—only a single nick would have been needed to rid him.",
+    "source_sha256": "eb2cd28c607ee4323faa7846fb11c3831b5a6c3fc736778bbd9cf436309c236e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1210043"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "{Growl}",
+      "line": 3820,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02040-d51d4fb0b2ad",
+    "source": "It has been... misplaced.",
+    "source_sha256": "d51d4fb0b2ad4b99aacf7b55b2ac5053f0322d2c13347369af71547860b487f6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1210242"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3821,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02041-f2db3739abc8",
+    "source": "But you are unparalleled as a swordsman. Your skill is demonstrable. You will prevail.",
+    "source_sha256": "f2db3739abc8a73ab82d0bd55055d3419359f380c9c200086f075d8574bb8666",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1210294"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3822,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02042-40bef49cb35c",
+    "source": "I have in my chambers a certain... set of tools, poison amongst the most useful.",
+    "source_sha256": "40bef49cb35c10a2f23954c71347050ef89d895e97b2597977826877e4de20b7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1210469"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "{Hmm}",
+      "line": 3827,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02043-40d7884578dd",
+    "source": "I shall apply it to one of my sharpest blades. All you need do is nick him a single time and he'll be dead for good.",
+    "source_sha256": "40d7884578dde6d07222aee5d98c5e6a5cda7dd109a36c49036d12abe0ba98c0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1210632"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3828,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02044-775d0afdd976",
+    "source": "Barring that, I'll lay a few drops upon the rim of a wine goblet. If the duel comes to a draw, I'll offer the wine to him as a blessing.",
+    "source_sha256": "775d0afdd976cfe37e82aa2e09b78bb119ab154ee4fa7741a3f2cbde69f9fc60",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1210867"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 3829,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02045-74bbb1e78e7f",
+    "source": "Our two problems, intertwined, solved all at once.",
+    "source_sha256": "74bbb1e78e7f60dca1a61ece97cd8e930865e5ef3d316dd9a0a70df62a1c95ec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211142"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 3830,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02046-f1b24c9a1881",
+    "source": "(My word to <i>Hamlet</i>, that is. Your hourglass trickles down, Claudius.)",
+    "source_sha256": "f1b24c9a18818e0f4073e3fabdee87a590d5f6f7a32a1fdb19fb6a7d5c7f8650",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211244"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 3832,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02047-820079441490",
+    "source": "I will await this blade, Claudius. Make good on your word, and I'll make good on mine.",
+    "source_sha256": "82007944149015b215df24dad3329f30c4d3b3c2188eea5cc719014f5be90026",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211399"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_LaertesConfrontsClaudius",
+      "speaker": "Laertes",
+      "cues": "[disgust] {I_Will_Dark}",
+      "line": 3838,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02048-57993121acd7",
+    "source": "Everyone left rather hastily, it seems.",
+    "source_sha256": "57993121acd751b518497c44b37ab505d80febb70a088c46f9475150b48c7ba2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211574"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 3848,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02049-433bf752553d",
+    "source": "I ought to go find out where the others went.",
+    "source_sha256": "433bf752553d0e421d360dcb3f36f29cf9ef25666bdda5928aa868293682fb58",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211672"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 3855,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02050-554e0e6c8771",
+    "source": "Ah, but it's about the hour when <i>last</i> time...",
+    "source_sha256": "554e0e6c8771558a67d3072a38048bb8b1f88c6d4f25387639044454ccfaf0bd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211764"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 3857,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02051-cac9d28592aa",
+    "source": "Well, there's no use in crying out. I won't be heard.",
+    "source_sha256": "cac9d28592aadf9716d05477f1013a75a7319772e49fb8b73443f0c5a42fccae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211870"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 3860,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02052-af1e8155527e",
+    "source": "Wish they wouldn't all turn heel on a moment's notice.",
+    "source_sha256": "af1e8155527e02bf839fdd070457e51afacfe2b52dc0fcf4bd9177b7a21821bd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1211978"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 3862,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02053-4359ca4e5c8f",
+    "source": "Who's there?",
+    "source_sha256": "4359ca4e5c8fc8160100a963e42297447821e5705c01512c103947955187270b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212088"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 3878,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02054-e5a1a2c66254",
+    "source": "I am sorry for what I must do.",
+    "source_sha256": "e5a1a2c662543e4cd7fcd037b39cbeb69c956ed9c569ad59bdbacdb52bf948a2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212114"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3881,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02055-75c2902e6461",
+    "source": "W-who are you?",
+    "source_sha256": "75c2902e64616ad5b8a65fbbfcf3547bafc0527bdd0b47ab836d01f5a22897fe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212176"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 3882,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02056-a51d379b52da",
+    "source": "For whatever little it's worth, you are innocent of this matter.",
+    "source_sha256": "a51d379b52dad91869442c718288c61446de6a461e1ecf480ab43329c6684015",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212206"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3884,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02057-4ce5b4f4714b",
+    "source": "Denmark as it stands now must fall. It <i>must</i> fall. And you are the lamb whose blood must be spilled.",
+    "source_sha256": "4ce5b4f4714bf177a26c1451e0d83e6f6044c6e429c8ae90e5abf1772e755d9d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212337"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3886,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02058-da15bc03dff6",
+    "source": "So <i>you're</i> the spy the King warned about. You <i>are</i> real.",
+    "source_sha256": "da15bc03dff6d901a3989ebc8382b5950bea9ff25e74437ca08341bb453d4db4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212552"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 3888,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02059-d85515e235d3",
+    "source": "The King is so abjectly useless, he cannot even whiff out an enemy in his own court.",
+    "source_sha256": "d85515e235d3f3ba4cd402e3e748cfcfa0d471c1ca242cf96044ec595304ca38",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212691"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3889,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02060-eaf398149612",
+    "source": "The King is so abjectly useless, he cannot even whiff out a spy in his own court.",
+    "source_sha256": "eaf398149612d453bea74153fcd1d6d5ef8b490793862f4ac802610a3b6ad168",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1212862"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3891,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02061-cf00f4da3e64",
+    "source": "Y-you've been spying on us? On me? What do you intend to do?",
+    "source_sha256": "cf00f4da3e64b309be895996aeb2f486c32e9f560530df4afa171bf369e879eb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213027"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 3892,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02062-6ac6c311e095",
+    "source": "But it <i>has</i> fallen. Claudius is dead. What more could my death offer?",
+    "source_sha256": "6ac6c311e09522d7d808e057262a4316307c76c2e46e63edc9d898eeb90d67d8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213149"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 3896,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02063-19ec33ffac9a",
+    "source": "Your continued existence, by its very nature, poses a threat to long-laid plans.",
+    "source_sha256": "19ec33ffac9ac9c7c753ff5f523ea91990f0bf84736afd088de5e101585459b2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213302"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3897,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02064-042d68f381c2",
+    "source": "I didn't want to hurt you. Not really.",
+    "source_sha256": "042d68f381c21027b7f608210b54d6bf2108cb19bf85efc61167297e0349ea7d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213465"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3900,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02065-a0eb30e20fdb",
+    "source": "They'll never know about this, of course. They'll think you drowned in the end, the louts.",
+    "source_sha256": "a0eb30e20fdbd7a2d28ad1de2c55b90ee6fcbb97ee32260ef21c4f674d28bb29",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213543"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3901,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02066-ba1ab5042236",
+    "source": "I feel my body growing cold.",
+    "source_sha256": "ba1ab5042236bb219949da7f7ba27717378b87cf099b6f77bcc27fe764c09969",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213746"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02067-414d6eae99c0",
+    "source": "I've got a feeling I'm about to be 'accosted' again.",
+    "source_sha256": "414d6eae99c09885f3e8b49e59ff7c866d333b0ab4c1691e29f5ecb8e25e69bc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213804"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 3915,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02068-025d3013d1cf",
+    "source": "Stay your hand a moment. I need to talk to you.",
+    "source_sha256": "025d3013d1cff4aa3d0ffc957f1277655c56111a5bc32c5177fd3d0440766be9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1213910"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 3918,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02069-356b6297e60b",
+    "source": "Who are you? Why are you doing this? What do you want?",
+    "source_sha256": "356b6297e60bc22477d9b6bc536e0a27a2865011f607ee8bdc73f4df9d46b010",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214006"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 3920,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02070-eb86bd79d9a9",
+    "source": "I'm sorry.",
+    "source_sha256": "eb86bd79d9a9c072c03c586de6e151783e90572aad7b3c1761cdd1ec396352ab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:875227"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3921,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02071-07f536253738",
+    "source": "Denmark must fall. It <i>must</i> fall. And you are the lamb whose blood must be spilled.",
+    "source_sha256": "07f536253738a8033993446915caac0f55fe2cf4c1d7ec3eda93ae31693b4c0f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214116"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3926,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02072-11283bf493b7",
+    "source": "How does my death play into Denmark's fall? I am no one to you.",
+    "source_sha256": "11283bf493b71f67b728a9cc248622a40dec453d32e2bd78ac0ab2795c3fb1a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214297"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 3927,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02073-731ad3fc10c0",
+    "source": "To me, you <i>are</i> nothing. But you are an important person to important people. And that makes you useful.",
+    "source_sha256": "731ad3fc10c02bae77af56ec58e03689f595da73e3d7e0940bb4c17dafc22179",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214425"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3928,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02074-47d466f2b91d",
+    "source": "(I failed to stop it again.)",
+    "source_sha256": "47d466f2b91db710b7a5bd4b34a7b1376c07327c985021213d7099b1911dba98",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214648"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 3930,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02075-35fe3072baf2",
+    "source": "Help! Someone, please—",
+    "source_sha256": "35fe3072baf29f6520d641eb35969ece8200359cb4db904fc666d63eb3282c9c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214706"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 3946,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02076-b3f7d82d46d8",
+    "source": "Fine. Do what you will. But I <i>will</i> find you, and uncover your crime. This <i>will</i> end.",
+    "source_sha256": "b3f7d82d46d8f6d6f334361208e9839b5b5f53fe220601642cfef14cd56894e2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214752"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 3960,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02077-46fb375293fe",
+    "source": "Do it quickly.",
+    "source_sha256": "46fb375293fec8ab675511d541c4d4f3c7c6602db15cda925bbc7bcedb74fea8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214949"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 3961,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02078-47bbf901c777",
+    "source": "A piece in someone's larger schemes.",
+    "source_sha256": "47bbf901c7771776c23b5c0cc4ab2a09fa03b71a70f89ffaa74996466509713c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1214979"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02079-92d9b6dd239a",
+    "source": "Lady Brit.",
+    "source_sha256": "92d9b6dd239a1e73f966080f5e5773b2c9be69433e2dc4595dc9123095fb7c37",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1215053"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 3974,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02080-81c28071ae29",
+    "source": "I knew it. You may kill me now, but I know everything I need to know.",
+    "source_sha256": "81c28071ae296bee21e7480a153f22c2501f92d34629430c8c58d39cc33b3660",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1215085"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 3979,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02081-d27e1a653598",
+    "source": "Just wait. I <i>know</i> I'll succeed in stopping you.",
+    "source_sha256": "d27e1a653598ec4615cae174cee809b4d4053600ea5f08fe84741f190b1b3880",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1215226"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 3984,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02082-967eb3c116e8",
+    "source": "Shut up! Just--die! I <i>have</i> to do this!",
+    "source_sha256": "967eb3c116e8415be358443d2e2b27cc6b2a732bd83efc023d4e5933704cce2d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_OpheliaAssassination",
+      "speaker": "Hooded Figure",
+      "cues": "",
+      "line": 3986,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02083-1b39ebcafd8a",
+    "source": "A piece in her larger schemes.",
+    "source_sha256": "1b39ebcafd8ada4a1c597e321f46a8089aaddc97e45f443d94398a8d76cddaed",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1215426"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02084-8e7cebf219ca",
+    "source": "Ah. Ophelia. Convenient to run into you.",
+    "source_sha256": "8e7cebf219caec19427f921bf3de858e146013b652bf1fd807782091a3399913",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1249409"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_HamletReturns_MandatoryFirstTime",
+      "speaker": "Horatio",
+      "cues": "[surprise] {Ahh}",
+      "line": 4004,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02085-d606770319f6",
+    "source": "Where are you off to?",
+    "source_sha256": "d606770319f68297484c6544903ce6beccf274d8d545ac6094b6247054d3e077",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1249491"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_HamletReturns_MandatoryFirstTime",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 4005,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02086-d741b65d1b7f",
+    "source": "Hamlet's returned, against all odds. He sent word to me to meet him. He did ask for <i>you</i>, too.",
+    "source_sha256": "d741b65d1b7fc1a07470260088c88aee64fc4bd9bef5104be8144ed5da54248e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1249535"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_HamletReturns_MandatoryFirstTime",
+      "speaker": "Horatio",
+      "cues": "[surprise]",
+      "line": 4006,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02087-15876c0c6618",
+    "source": "Though I wasn't certain I'd find you, or that you'd want to see him even if I did.",
+    "source_sha256": "15876c0c6618373f81af0f5461302c597f24d9ef712250a1ec50d9263df77b42",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1249738"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_HamletReturns_MandatoryFirstTime",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 4007,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02088-c00ed30f4d65",
+    "source": "He's not in <i>England?</i>",
+    "source_sha256": "c00ed30f4d65594eeb9bdcc9f7eff927b6e4ffbe585467adab5ae3846867188c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1249905"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_HamletReturns_MandatoryFirstTime",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 4009,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02089-f548f9d72007",
+    "source": "Something's gone horribly wrong, though I know not what.",
+    "source_sha256": "f548f9d720073cbc0a9b86311ccf56fbcddf090e7444b0704d94a71caec387d5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1249961"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_HamletReturns_MandatoryFirstTime",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 4010,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02090-d1e0907b7ad1",
+    "source": "Heed Hamlet's request?",
+    "source_sha256": "d1e0907b7ad1ed3cb3185926465dd27f951abadb775c17079a97d9f0e9cceade",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1250159"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02091-24f4d8858019",
+    "source": "No, Horatio. You meet him alone. I'll not go.",
+    "source_sha256": "24f4d88580190cfedb5e8227df04305fddb28c1b7d050276a68c6c7717d0a650",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1255097"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Spine_HamletReturns_MandatoryFirstTime",
+      "speaker": "Ophelia",
+      "cues": "{No}",
+      "line": 4026,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02092-98fa2ad3bd65",
+    "source": "For better or for worse, I have returned.",
+    "source_sha256": "98fa2ad3bd65336abbcb3dd267dfe326d78c9061ef7e177ab2e346c947fe3b8a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1250233"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "{Greetings_Creep}",
+      "line": 4042,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02093-ff1420202ad9",
+    "source": "Of course, I trust things have fared excellently in my absence.",
+    "source_sha256": "ff1420202ad9ee2cf1cb85bf4aa9fdcb8ca4e7ca621db3b99bbd8e0db147f85a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1250317"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4043,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02094-31732b4d3da3",
+    "source": "It's certainly been... quiet, if nothing else. A little too still.",
+    "source_sha256": "31732b4d3da3468e3e1c45ac1b1ce55f62752948aa3f943325dbacad895cc412",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1250445"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Horatio",
+      "cues": "[happy] {Sigh}",
+      "line": 4045,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02095-2901c2a862b1",
+    "source": "Good. Things are about to awaken once more.",
+    "source_sha256": "2901c2a862b11c1bcd976d6d7f7f9c864c6059ecbb5d9bbbc99dfb97cc7d6c2e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1250580"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "{Chuckle_Short}",
+      "line": 4048,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02096-d1de50649daa",
+    "source": "My dear uncle wants me murdered, just as he did my father.",
+    "source_sha256": "d1de50649daab6d9b2899552e8372abbc2d995aba242a120fe772f972e31ea4a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1250702"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4050,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02097-a12561ecbe5b",
+    "source": "I beg your pardon?",
+    "source_sha256": "a12561ecbe5b317a138496ddfebf50c71e847f0a6831cc86db304769903ac611",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1057288"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Horatio",
+      "cues": "[surprise] {Gasp}",
+      "line": 4052,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02098-ff52bf1f23f2",
+    "source": "I uncovered his treachery nearly the moment we set sail. I had a sneaking feeling something was amiss.",
+    "source_sha256": "ff52bf1f23f25c1cc7828b5a190852bf30ad761b5e2276154b14bbe8f7b4af3c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1250820"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "{Hmm_Short}",
+      "line": 4053,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02099-f20dfaa991e4",
+    "source": "He sent a note along with Rosencrantz and Guildenstern to the Queen of England, ordering her to hang me upon arrival.",
+    "source_sha256": "f20dfaa991e492023e2b3abfd5d41f5a5ed58a8d6874a57464943ef9823221e7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1251027"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4054,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02100-bee424528ffd",
+    "source": "F-for what reason?",
+    "source_sha256": "bee424528ffd23e2668a6919bb107adcda4b8603ab50e758e5881d74f1664276",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1251264"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Horatio",
+      "cues": "[surprise]",
+      "line": 4056,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02101-228ede282d9c",
+    "source": "In the interest of 'betterment' of our two nations' friendship, or some sort of rubbish of that nature.",
+    "source_sha256": "228ede282d9c5481c0e4f54947cede11b327dd5fec715ec280b9dd71b429f7ee",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1251302"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "{Disgust}",
+      "line": 4058,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02102-75d3caa874bb",
+    "source": "I must believe Rosencrantz and Guildenstern intended to bear this letter to England and carry out these orders at my uncle's behest.",
+    "source_sha256": "75d3caa874bb43ef7fa65343923bf162cd1dc35562cd56a8f7fdc7f6a2c5df4c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1251511"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4060,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  },
+  {
+    "id": "p02103-2cc199d2deb8",
+    "source": "I thought them my friends. More the fool am I.",
+    "source_sha256": "2cc199d2deb8496e63b1143710c61f05446ad046a7748d4b4942605824b31304",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1251778"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Hamlet_BoatStory",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 4061,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0020"
+  }
+]

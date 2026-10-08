@@ -1,0 +1,19 @@
+{
+  "batch": "b0104",
+  "model": "gpt-6.1-sol",
+  "count": 118,
+  "new_calls": 1,
+  "exit_code": 0,
+  "usage": {
+    "input_tokens": 41826,
+    "cached_input_tokens": 19456,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 5223,
+    "reasoning_output_tokens": 29
+  },
+  "source_sha256": "39295acd767e93c9162a969bfd146db2f10a5fb92e28bec269d70f4464627038",
+  "errors": [
+    "a00097-0c5155420d91: 标签或占位符改变"
+  ],
+  "state": "validation_failed"
+}

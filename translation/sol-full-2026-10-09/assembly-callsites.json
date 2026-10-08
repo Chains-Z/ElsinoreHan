@@ -1,0 +1,6852 @@
+[
+  {
+    "index": 0,
+    "method": "GameInitialization.LoadConfigs",
+    "il_offset": 0
+  },
+  {
+    "index": 1,
+    "method": "GameInitialization.LoadConfigs",
+    "il_offset": 41
+  },
+  {
+    "index": 2,
+    "method": "GameInitialization.LoadConfigs",
+    "il_offset": 105
+  },
+  {
+    "index": 3,
+    "method": "GameInitialization.LoadConfigs",
+    "il_offset": 155
+  },
+  {
+    "index": 4,
+    "method": "GameInitialization.LoadConfigs",
+    "il_offset": 198
+  },
+  {
+    "index": 5,
+    "method": "GameInitialization.DisplayError",
+    "il_offset": 233
+  },
+  {
+    "index": 6,
+    "method": "QuickSaver.MaybeDoPartialQuickSave",
+    "il_offset": 19
+  },
+  {
+    "index": 7,
+    "method": "ImTheBoss.Awake",
+    "il_offset": 0
+  },
+  {
+    "index": 8,
+    "method": "ImTheBoss.OnDestroy",
+    "il_offset": 0
+  },
+  {
+    "index": 9,
+    "method": "ImTheBoss.OnDestroy",
+    "il_offset": 50
+  },
+  {
+    "index": 10,
+    "method": "ImTheBoss.Start",
+    "il_offset": 166
+  },
+  {
+    "index": 11,
+    "method": "ImTheBoss.Start",
+    "il_offset": 225
+  },
+  {
+    "index": 12,
+    "method": "ImTheBoss.Start",
+    "il_offset": 286
+  },
+  {
+    "index": 13,
+    "method": "ImTheBoss.Start",
+    "il_offset": 293
+  },
+  {
+    "index": 14,
+    "method": "ImTheBoss.Start",
+    "il_offset": 319
+  },
+  {
+    "index": 15,
+    "method": "ImTheBoss.Start",
+    "il_offset": 356
+  },
+  {
+    "index": 16,
+    "method": "ImTheBoss.Start",
+    "il_offset": 437
+  },
+  {
+    "index": 17,
+    "method": "ImTheBoss.Start",
+    "il_offset": 457
+  },
+  {
+    "index": 18,
+    "method": "ImTheBoss.StartLoop",
+    "il_offset": 573
+  },
+  {
+    "index": 19,
+    "method": "ImTheBoss.StartLoop",
+    "il_offset": 710
+  },
+  {
+    "index": 20,
+    "method": "ImTheBoss.updateTick",
+    "il_offset": 99
+  },
+  {
+    "index": 21,
+    "method": "ImTheBoss.updateTick",
+    "il_offset": 159
+  },
+  {
+    "index": 22,
+    "method": "ImTheBoss.updateTick",
+    "il_offset": 184
+  },
+  {
+    "index": 23,
+    "method": "ImTheBoss.updateTick",
+    "il_offset": 326
+  },
+  {
+    "index": 24,
+    "method": "ImTheBoss.updateTick",
+    "il_offset": 384
+  },
+  {
+    "index": 25,
+    "method": "ImTheBoss.Update",
+    "il_offset": 8
+  },
+  {
+    "index": 26,
+    "method": "ImTheBoss.SetVisibleTimeOfDay",
+    "il_offset": 26
+  },
+  {
+    "index": 27,
+    "method": "ImTheBoss.ForceStartEvent",
+    "il_offset": 0
+  },
+  {
+    "index": 28,
+    "method": "ImTheBoss.ForceStartEvent",
+    "il_offset": 336
+  },
+  {
+    "index": 29,
+    "method": "ImTheBoss.ForceStartEvent",
+    "il_offset": 382
+  },
+  {
+    "index": 30,
+    "method": "ObjectTracker.Marker",
+    "il_offset": 63
+  },
+  {
+    "index": 31,
+    "method": "SaveLoad.get_SaveFileDirectory",
+    "il_offset": 38
+  },
+  {
+    "index": 32,
+    "method": "SaveLoad.get_SaveFileDirectory",
+    "il_offset": 158
+  },
+  {
+    "index": 33,
+    "method": "SaveLoad.MigrateOldSaveFiles",
+    "il_offset": 117
+  },
+  {
+    "index": 34,
+    "method": "SaveLoad.MigrateOldSaveFiles",
+    "il_offset": 315
+  },
+  {
+    "index": 35,
+    "method": "SaveLoad.LoadPreferences",
+    "il_offset": 100
+  },
+  {
+    "index": 36,
+    "method": "SaveLoad.LoadPreferences",
+    "il_offset": 132
+  },
+  {
+    "index": 37,
+    "method": "SaveLoad.LoadData",
+    "il_offset": 57
+  },
+  {
+    "index": 38,
+    "method": "SaveLoad.LoadData",
+    "il_offset": 78
+  },
+  {
+    "index": 39,
+    "method": "SaveLoad.LoadData",
+    "il_offset": 109
+  },
+  {
+    "index": 40,
+    "method": "SaveLoad.SaveData",
+    "il_offset": 0
+  },
+  {
+    "index": 41,
+    "method": "SaveLoad.SaveData",
+    "il_offset": 64
+  },
+  {
+    "index": 42,
+    "method": "SceneManager.Initialize",
+    "il_offset": 19
+  },
+  {
+    "index": 43,
+    "method": "SceneManager.ExecuteActionlessScene",
+    "il_offset": 104
+  },
+  {
+    "index": 44,
+    "method": "SceneManager.ExecuteActionlessScene",
+    "il_offset": 116
+  },
+  {
+    "index": 45,
+    "method": "SceneManager.DoRuntimeChecks",
+    "il_offset": 328
+  },
+  {
+    "index": 46,
+    "method": "SceneManager.DoRuntimeChecks",
+    "il_offset": 360
+  },
+  {
+    "index": 47,
+    "method": "ScheduleManager.CheckTriggers",
+    "il_offset": 105
+  },
+  {
+    "index": 48,
+    "method": "ScheduleManager.triggerNewAction",
+    "il_offset": 601
+  },
+  {
+    "index": 49,
+    "method": "ScheduleManager.updateScene",
+    "il_offset": 31
+  },
+  {
+    "index": 50,
+    "method": "ScheduleManager.appendAlertOnMandatoryEventInterrupt",
+    "il_offset": 17
+  },
+  {
+    "index": 51,
+    "method": "SmalltalkManager.ActivateSmalltalk",
+    "il_offset": 56
+  },
+  {
+    "index": 52,
+    "method": "StageDirectionManager.StartStageDirection",
+    "il_offset": 19
+  },
+  {
+    "index": 53,
+    "method": "StageDirectionManager.StageDirectionToJson",
+    "il_offset": 10
+  },
+  {
+    "index": 54,
+    "method": "StageDirectionManager.JsonToStageDirection",
+    "il_offset": 70
+  },
+  {
+    "index": 55,
+    "method": "StageDirectionManager.QuickSave",
+    "il_offset": 0
+  },
+  {
+    "index": 56,
+    "method": "VisibilityManager.hideChildrenOf",
+    "il_offset": 55
+  },
+  {
+    "index": 57,
+    "method": "GameDataGenerated.Invoke_Polonius_FoulMood",
+    "il_offset": 609
+  },
+  {
+    "index": 58,
+    "method": "GameDataGenerated.Invoke_Brit_FoulMood",
+    "il_offset": 279
+  },
+  {
+    "index": 59,
+    "method": "GameDataGenerated.Invoke_Hamlet_GhostSighting",
+    "il_offset": 1058
+  },
+  {
+    "index": 60,
+    "method": "GameDataGenerated.Invoke_quince_SomeoneKillingMe",
+    "il_offset": 1710
+  },
+  {
+    "index": 61,
+    "method": "GameDataGenerated.Invoke_hamlet_SomeoneKillingMe",
+    "il_offset": 504
+  },
+  {
+    "index": 61,
+    "method": "GameDataGenerated.Invoke_bernardo_SomeoneKillingMe",
+    "il_offset": 314
+  },
+  {
+    "index": 61,
+    "method": "GameDataGenerated.Invoke_horatio_SomeoneKillingMe",
+    "il_offset": 526
+  },
+  {
+    "index": 62,
+    "method": "GameDataGenerated.Invoke_brit_SomeoneKillingMe",
+    "il_offset": 644
+  },
+  {
+    "index": 63,
+    "method": "GameDataGenerated.Invoke_claudius_SomeoneKillingMe",
+    "il_offset": 584
+  },
+  {
+    "index": 64,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 260
+  },
+  {
+    "index": 65,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 334
+  },
+  {
+    "index": 66,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 364
+  },
+  {
+    "index": 67,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 394
+  },
+  {
+    "index": 68,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 434
+  },
+  {
+    "index": 69,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 469
+  },
+  {
+    "index": 70,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 499
+  },
+  {
+    "index": 71,
+    "method": "GameDataGenerated.Invoke_ghost_StuckInLoop",
+    "il_offset": 569
+  },
+  {
+    "index": 72,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 318
+  },
+  {
+    "index": 73,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 589
+  },
+  {
+    "index": 74,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 663
+  },
+  {
+    "index": 75,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 693
+  },
+  {
+    "index": 76,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 723
+  },
+  {
+    "index": 77,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 866
+  },
+  {
+    "index": 78,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 896
+  },
+  {
+    "index": 79,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 926
+  },
+  {
+    "index": 80,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 956
+  },
+  {
+    "index": 81,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 986
+  },
+  {
+    "index": 82,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1060
+  },
+  {
+    "index": 83,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1090
+  },
+  {
+    "index": 84,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1164
+  },
+  {
+    "index": 85,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1194
+  },
+  {
+    "index": 86,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1273
+  },
+  {
+    "index": 87,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1347
+  },
+  {
+    "index": 88,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1509
+  },
+  {
+    "index": 89,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1539
+  },
+  {
+    "index": 90,
+    "method": "GameDataGenerated.Invoke_ghost_affair",
+    "il_offset": 1608
+  },
+  {
+    "index": 91,
+    "method": "GameDataGenerated.Invoke_laertes_affair",
+    "il_offset": 326
+  },
+  {
+    "index": 92,
+    "method": "GameDataGenerated.Invoke_Brit_QueensChambers",
+    "il_offset": 316
+  },
+  {
+    "index": 93,
+    "method": "GameDataGenerated.Invoke_Claudius_QueensChambers",
+    "il_offset": 660
+  },
+  {
+    "index": 94,
+    "method": "GameDataGenerated.Invoke_Irma_CardGame",
+    "il_offset": 264
+  },
+  {
+    "index": 95,
+    "method": "GameDataGenerated.Invoke_hamlet_affair",
+    "il_offset": 833
+  },
+  {
+    "index": 96,
+    "method": "GameDataGenerated.Invoke_hamlet_affair",
+    "il_offset": 2298
+  },
+  {
+    "index": 97,
+    "method": "GameDataGenerated.Invoke_claudius_murder",
+    "il_offset": 1452
+  },
+  {
+    "index": 98,
+    "method": "GameDataGenerated.Invoke_claudius_murder",
+    "il_offset": 1566
+  },
+  {
+    "index": 99,
+    "method": "GameDataGenerated.Invoke_laertes_murder",
+    "il_offset": 1634
+  },
+  {
+    "index": 100,
+    "method": "GameDataGenerated.Invoke_hamlet_murder",
+    "il_offset": 2495
+  },
+  {
+    "index": 101,
+    "method": "GameDataGenerated.Invoke_horatio_murder",
+    "il_offset": 395
+  },
+  {
+    "index": 102,
+    "method": "GameDataGenerated.Invoke_horatio_murder",
+    "il_offset": 462
+  },
+  {
+    "index": 103,
+    "method": "GameDataGenerated.Invoke_guildenstern_murder",
+    "il_offset": 458
+  },
+  {
+    "index": 104,
+    "method": "GameDataGenerated.Invoke_hamlet_dadsmurder",
+    "il_offset": 758
+  },
+  {
+    "index": 105,
+    "method": "GameDataGenerated.Invoke_gertrude_dadsmurder",
+    "il_offset": 686
+  },
+  {
+    "index": 106,
+    "method": "GameDataGenerated.Invoke_claudius_dadsmurder",
+    "il_offset": 594
+  },
+  {
+    "index": 107,
+    "method": "GameDataGenerated.Invoke_ghost_dadsmurder",
+    "il_offset": 349
+  },
+  {
+    "index": 108,
+    "method": "GameDataGenerated.Invoke_ghost_dadsmurder",
+    "il_offset": 428
+  },
+  {
+    "index": 109,
+    "method": "GameDataGenerated.Invoke_bernardo_dadsmurder",
+    "il_offset": 413
+  },
+  {
+    "index": 110,
+    "method": "GameDataGenerated.Invoke_irma_dadsmurder",
+    "il_offset": 431
+  },
+  {
+    "index": 111,
+    "method": "GameDataGenerated.Invoke_gertrude_spy",
+    "il_offset": 391
+  },
+  {
+    "index": 112,
+    "method": "GameDataGenerated.Invoke_guil_spy",
+    "il_offset": 1359
+  },
+  {
+    "index": 113,
+    "method": "GameDataGenerated.Invoke_irma_spy",
+    "il_offset": 391
+  },
+  {
+    "index": 60,
+    "method": "GameDataGenerated.Invoke_quince_players",
+    "il_offset": 1317
+  },
+  {
+    "index": 114,
+    "method": "GameDataGenerated.Invoke_brit_fortinbrashideout",
+    "il_offset": 482
+  },
+  {
+    "index": 115,
+    "method": "GameDataGenerated.Invoke_brit_fortinbrashideout",
+    "il_offset": 1489
+  },
+  {
+    "index": 116,
+    "method": "GameDataGenerated.Invoke_brit_fortinbrashideout",
+    "il_offset": 1563
+  },
+  {
+    "index": 117,
+    "method": "GameDataGenerated.Invoke_ghost_kingnote",
+    "il_offset": 299
+  },
+  {
+    "index": 118,
+    "method": "GameDataGenerated.Invoke_ghost_kingnote",
+    "il_offset": 378
+  },
+  {
+    "index": 119,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 454
+  },
+  {
+    "index": 120,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 489
+  },
+  {
+    "index": 121,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 568
+  },
+  {
+    "index": 122,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 791
+  },
+  {
+    "index": 123,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 865
+  },
+  {
+    "index": 124,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 944
+  },
+  {
+    "index": 125,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1023
+  },
+  {
+    "index": 126,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1063
+  },
+  {
+    "index": 127,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1177
+  },
+  {
+    "index": 128,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1256
+  },
+  {
+    "index": 129,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1340
+  },
+  {
+    "index": 130,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1375
+  },
+  {
+    "index": 131,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1410
+  },
+  {
+    "index": 132,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1709
+  },
+  {
+    "index": 133,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 1828
+  },
+  {
+    "index": 134,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 2090
+  },
+  {
+    "index": 135,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 2120
+  },
+  {
+    "index": 132,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 2269
+  },
+  {
+    "index": 136,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 2393
+  },
+  {
+    "index": 137,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 2472
+  },
+  {
+    "index": 138,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 2507
+  },
+  {
+    "index": 139,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 2739
+  },
+  {
+    "index": 140,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 3023
+  },
+  {
+    "index": 141,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 3097
+  },
+  {
+    "index": 142,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 3127
+  },
+  {
+    "index": 134,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 3367
+  },
+  {
+    "index": 135,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 3397
+  },
+  {
+    "index": 143,
+    "method": "GameDataGenerated.Invoke_ghost_cursedbook",
+    "il_offset": 3479
+  },
+  {
+    "index": 144,
+    "method": "GameDataGenerated.Invoke_simona_cursedbook",
+    "il_offset": 2740
+  },
+  {
+    "index": 145,
+    "method": "GameDataGenerated.Invoke_simona_cursedbook",
+    "il_offset": 3507
+  },
+  {
+    "index": 146,
+    "method": "GameDataGenerated.Invoke_ghost_simonalives",
+    "il_offset": 260
+  },
+  {
+    "index": 147,
+    "method": "GameDataGenerated.Invoke_ghost_simonalives",
+    "il_offset": 290
+  },
+  {
+    "index": 148,
+    "method": "GameDataGenerated.Invoke_ghost_simonalives",
+    "il_offset": 320
+  },
+  {
+    "index": 149,
+    "method": "GameDataGenerated.Invoke_ghost_simonalives",
+    "il_offset": 350
+  },
+  {
+    "index": 150,
+    "method": "GameDataGenerated.Invoke_ghost_simonalives",
+    "il_offset": 390
+  },
+  {
+    "index": 144,
+    "method": "GameDataGenerated.Invoke_simona_simonalives",
+    "il_offset": 3111
+  },
+  {
+    "index": 145,
+    "method": "GameDataGenerated.Invoke_simona_simonalives",
+    "il_offset": 3878
+  },
+  {
+    "index": 151,
+    "method": "GameDataGenerated.Invoke_ghost_murder",
+    "il_offset": 314
+  },
+  {
+    "index": 152,
+    "method": "GameDataGenerated.Invoke_ghost_murder",
+    "il_offset": 349
+  },
+  {
+    "index": 153,
+    "method": "GameDataGenerated.Invoke_ghost_murder",
+    "il_offset": 428
+  },
+  {
+    "index": 154,
+    "method": "GameDataGenerated.Invoke_ghost_nightmare",
+    "il_offset": 304
+  },
+  {
+    "index": 155,
+    "method": "GameDataGenerated.Invoke_ghost_nightmare",
+    "il_offset": 334
+  },
+  {
+    "index": 156,
+    "method": "GameDataGenerated.Invoke_ghost_nightmare",
+    "il_offset": 408
+  },
+  {
+    "index": 157,
+    "method": "GameDataGenerated.Invoke_irma_astrid",
+    "il_offset": 458
+  },
+  {
+    "index": 158,
+    "method": "GameDataGenerated.Invoke_ghost_astrid",
+    "il_offset": 309
+  },
+  {
+    "index": 159,
+    "method": "GameDataGenerated.Invoke_ghost_astrid",
+    "il_offset": 344
+  },
+  {
+    "index": 160,
+    "method": "GameDataGenerated.Invoke_ghost_astrid",
+    "il_offset": 418
+  },
+  {
+    "index": 161,
+    "method": "GameDataGenerated.Invoke_ghost_astrid",
+    "il_offset": 448
+  },
+  {
+    "index": 162,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 513
+  },
+  {
+    "index": 163,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 1408
+  },
+  {
+    "index": 164,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 1443
+  },
+  {
+    "index": 165,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 1522
+  },
+  {
+    "index": 166,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 1557
+  },
+  {
+    "index": 167,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 1823
+  },
+  {
+    "index": 168,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 2235
+  },
+  {
+    "index": 169,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 2280
+  },
+  {
+    "index": 170,
+    "method": "GameDataGenerated.Invoke_ghost_elisedeath",
+    "il_offset": 2310
+  },
+  {
+    "index": 171,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 334
+  },
+  {
+    "index": 172,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 408
+  },
+  {
+    "index": 173,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 501
+  },
+  {
+    "index": 174,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 531
+  },
+  {
+    "index": 175,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 667
+  },
+  {
+    "index": 176,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 697
+  },
+  {
+    "index": 177,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 816
+  },
+  {
+    "index": 178,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 851
+  },
+  {
+    "index": 179,
+    "method": "GameDataGenerated.Invoke_ghost_playmaster",
+    "il_offset": 930
+  },
+  {
+    "index": 180,
+    "method": "GameDataGenerated.Invoke_laertes_missinglute",
+    "il_offset": 356
+  },
+  {
+    "index": 181,
+    "method": "GameDataGenerated.Invoke_hamlet_quincetrouble",
+    "il_offset": 230
+  },
+  {
+    "index": 182,
+    "method": "GameDataGenerated.Invoke_laertes_quincetrouble",
+    "il_offset": 421
+  },
+  {
+    "index": 183,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 225
+  },
+  {
+    "index": 184,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 274
+  },
+  {
+    "index": 185,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 314
+  },
+  {
+    "index": 186,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 405
+  },
+  {
+    "index": 187,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 563
+  },
+  {
+    "index": 188,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 593
+  },
+  {
+    "index": 189,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 707
+  },
+  {
+    "index": 190,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 737
+  },
+  {
+    "index": 191,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1205
+  },
+  {
+    "index": 192,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1240
+  },
+  {
+    "index": 193,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1270
+  },
+  {
+    "index": 194,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1305
+  },
+  {
+    "index": 195,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1340
+  },
+  {
+    "index": 196,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1445
+  },
+  {
+    "index": 197,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1619
+  },
+  {
+    "index": 198,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1649
+  },
+  {
+    "index": 199,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1693
+  },
+  {
+    "index": 185,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1733
+  },
+  {
+    "index": 200,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1818
+  },
+  {
+    "index": 201,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 1848
+  },
+  {
+    "index": 191,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 2102
+  },
+  {
+    "index": 192,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 2137
+  },
+  {
+    "index": 195,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 2172
+  },
+  {
+    "index": 196,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 2277
+  },
+  {
+    "index": 197,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 2407
+  },
+  {
+    "index": 198,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 2437
+  },
+  {
+    "index": 185,
+    "method": "GameDataGenerated.Invoke_ghost_quincetrouble",
+    "il_offset": 2477
+  },
+  {
+    "index": 202,
+    "method": "GameDataGenerated.Invoke_gertrude_queensearching",
+    "il_offset": 260
+  },
+  {
+    "index": 203,
+    "method": "GameDataGenerated.Invoke_irma_queensearching",
+    "il_offset": 428
+  },
+  {
+    "index": 204,
+    "method": "GameDataGenerated.Invoke_bernardo_assnexposed_gertrude",
+    "il_offset": 318
+  },
+  {
+    "index": 205,
+    "method": "GameDataGenerated.Invoke_laertes_burnednotes",
+    "il_offset": 472
+  },
+  {
+    "index": 206,
+    "method": "GameDataGenerated.Invoke_laertes_burnednotes",
+    "il_offset": 556
+  },
+  {
+    "index": 207,
+    "method": "GameDataGenerated.Invoke_horatio_boyplayer",
+    "il_offset": 725
+  },
+  {
+    "index": 208,
+    "method": "GameDataGenerated.Invoke_hamlet_spyinelsinore",
+    "il_offset": 388
+  },
+  {
+    "index": 209,
+    "method": "GameDataGenerated.Invoke_guildenstern_othelloneedshelp",
+    "il_offset": 763
+  },
+  {
+    "index": 210,
+    "method": "GameDataGenerated.Invoke_brit_affections",
+    "il_offset": 277
+  },
+  {
+    "index": 211,
+    "method": "GameDataGenerated.Invoke_brit_affections",
+    "il_offset": 411
+  },
+  {
+    "index": 212,
+    "method": "GameDataGenerated.Invoke_brit_affections",
+    "il_offset": 485
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_polonius_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_polonius_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_polonius_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_polonius_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_hamlet_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_hamlet_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_hamlet_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_hamlet_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_claudius_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_claudius_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_claudius_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_claudius_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_gertrude_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_gertrude_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_gertrude_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_gertrude_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_laertes_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_laertes_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_laertes_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_laertes_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_bernardo_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_bernardo_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_bernardo_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_bernardo_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_marcellus_notneeded",
+    "il_offset": 1151
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_marcellus_notneeded",
+    "il_offset": 1340
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_marcellus_notneeded",
+    "il_offset": 2653
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_marcellus_notneeded",
+    "il_offset": 3432
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_brit_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_brit_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_brit_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_brit_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_irma_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_irma_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_irma_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_irma_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_horatio_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_horatio_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_horatio_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_horatio_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_rosencrantz_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_rosencrantz_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_rosencrantz_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_rosencrantz_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_guildenstern_notneeded",
+    "il_offset": 1185
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_guildenstern_notneeded",
+    "il_offset": 1374
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_guildenstern_notneeded",
+    "il_offset": 2687
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_guildenstern_notneeded",
+    "il_offset": 3466
+  },
+  {
+    "index": 213,
+    "method": "GameDataGenerated.Invoke_othello_notneeded",
+    "il_offset": 1097
+  },
+  {
+    "index": 214,
+    "method": "GameDataGenerated.Invoke_othello_notneeded",
+    "il_offset": 1286
+  },
+  {
+    "index": 215,
+    "method": "GameDataGenerated.Invoke_othello_notneeded",
+    "il_offset": 2599
+  },
+  {
+    "index": 216,
+    "method": "GameDataGenerated.Invoke_othello_notneeded",
+    "il_offset": 3378
+  },
+  {
+    "index": 217,
+    "method": "GameDataGenerated.Invoke_claudius_responsible",
+    "il_offset": 462
+  },
+  {
+    "index": 218,
+    "method": "GameDataGenerated.Invoke_quince_responsible",
+    "il_offset": 1201
+  },
+  {
+    "index": 219,
+    "method": "GameDataGenerated.Invoke_quince_responsible",
+    "il_offset": 1342
+  },
+  {
+    "index": 220,
+    "method": "GameDataGenerated.Invoke_bernardo_responsible",
+    "il_offset": 589
+  },
+  {
+    "index": 221,
+    "method": "GameDataGenerated.Invoke_brit_responsible",
+    "il_offset": 304
+  },
+  {
+    "index": 222,
+    "method": "GameDataGenerated.Invoke_irma_responsible",
+    "il_offset": 477
+  },
+  {
+    "index": 223,
+    "method": "GameDataGenerated.Invoke_irma_responsible",
+    "il_offset": 1014
+  },
+  {
+    "index": 224,
+    "method": "GameDataGenerated.Invoke_rosencrantz_responsible",
+    "il_offset": 304
+  },
+  {
+    "index": 225,
+    "method": "GameDataGenerated.Invoke_guildenstern_responsible",
+    "il_offset": 607
+  },
+  {
+    "index": 226,
+    "method": "GameDataGenerated.Invoke_hamlet_guildisdead",
+    "il_offset": 1001
+  },
+  {
+    "index": 227,
+    "method": "GameDataGenerated.Invoke_ros_guildisdead",
+    "il_offset": 1456
+  },
+  {
+    "index": 228,
+    "method": "GameDataGenerated.Invoke_claudius_poisonstash",
+    "il_offset": 1746
+  },
+  {
+    "index": 229,
+    "method": "GameDataGenerated.Invoke_laertes_failedromance",
+    "il_offset": 220
+  },
+  {
+    "index": 230,
+    "method": "GameDataGenerated.Invoke_guil_othelloslife",
+    "il_offset": 743
+  },
+  {
+    "index": 231,
+    "method": "GameDataGenerated.Invoke_othello_failedromance",
+    "il_offset": 899
+  },
+  {
+    "index": 232,
+    "method": "GameDataGenerated.Invoke_ros_failedromance",
+    "il_offset": 441
+  },
+  {
+    "index": 233,
+    "method": "GameDataGenerated.Invoke_gertrude_margaret",
+    "il_offset": 1388
+  },
+  {
+    "index": 234,
+    "method": "GameDataGenerated.Invoke_guildenstern_horatio",
+    "il_offset": 553
+  },
+  {
+    "index": 235,
+    "method": "GameDataGenerated.Invoke_ENDING_JoinQuince",
+    "il_offset": 898
+  },
+  {
+    "index": 236,
+    "method": "GameDataGenerated.Invoke_ENDING_Exile",
+    "il_offset": 186
+  },
+  {
+    "index": 237,
+    "method": "GameDataGenerated.Invoke_ENDING_Survival",
+    "il_offset": 256
+  },
+  {
+    "index": 238,
+    "method": "GameDataGenerated.Invoke_ENDING_FortinbrasPeaceful",
+    "il_offset": 385
+  },
+  {
+    "index": 239,
+    "method": "GameDataGenerated.Invoke_ENDING_FortinbrasPeaceful",
+    "il_offset": 1249
+  },
+  {
+    "index": 240,
+    "method": "GameDataGenerated.Invoke_Enviro_Stove",
+    "il_offset": 117
+  },
+  {
+    "index": 241,
+    "method": "GameDataGenerated.Invoke_Enviro_EliseDiary",
+    "il_offset": 286
+  },
+  {
+    "index": 242,
+    "method": "GameDataGenerated.Invoke_Enviro_GuardTable5",
+    "il_offset": 379
+  },
+  {
+    "index": 243,
+    "method": "GameDataGenerated.Invoke_Spine_PoloniusQuestions__SC_SPINE_PoloniusQuestions",
+    "il_offset": 1844
+  },
+  {
+    "index": 244,
+    "method": "GameDataGenerated.Invoke_Spine_PoloniusQuestions__SC_SPINE_PoloniusQuestions",
+    "il_offset": 2159
+  },
+  {
+    "index": 245,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HamletAndOphelia__SC_FLAVOR_HamletAndOphelia",
+    "il_offset": 1930
+  },
+  {
+    "index": 246,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 364
+  },
+  {
+    "index": 247,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 424
+  },
+  {
+    "index": 248,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 484
+  },
+  {
+    "index": 249,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 514
+  },
+  {
+    "index": 250,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 604
+  },
+  {
+    "index": 251,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 664
+  },
+  {
+    "index": 252,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 694
+  },
+  {
+    "index": 253,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 754
+  },
+  {
+    "index": 254,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 784
+  },
+  {
+    "index": 255,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 866
+  },
+  {
+    "index": 256,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 896
+  },
+  {
+    "index": 257,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 926
+  },
+  {
+    "index": 258,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 956
+  },
+  {
+    "index": 259,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 986
+  },
+  {
+    "index": 260,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1046
+  },
+  {
+    "index": 261,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1106
+  },
+  {
+    "index": 262,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1136
+  },
+  {
+    "index": 263,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1171
+  },
+  {
+    "index": 264,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1201
+  },
+  {
+    "index": 265,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1291
+  },
+  {
+    "index": 266,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1326
+  },
+  {
+    "index": 267,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1386
+  },
+  {
+    "index": 268,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1476
+  },
+  {
+    "index": 269,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1506
+  },
+  {
+    "index": 270,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1555
+  },
+  {
+    "index": 271,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1585
+  },
+  {
+    "index": 272,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1645
+  },
+  {
+    "index": 273,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1680
+  },
+  {
+    "index": 274,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1710
+  },
+  {
+    "index": 275,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1770
+  },
+  {
+    "index": 276,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1800
+  },
+  {
+    "index": 277,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1830
+  },
+  {
+    "index": 278,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1870
+  },
+  {
+    "index": 279,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 1993
+  },
+  {
+    "index": 280,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2098
+  },
+  {
+    "index": 281,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2133
+  },
+  {
+    "index": 282,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2342
+  },
+  {
+    "index": 283,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2407
+  },
+  {
+    "index": 284,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2437
+  },
+  {
+    "index": 285,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2516
+  },
+  {
+    "index": 286,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2590
+  },
+  {
+    "index": 287,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2733
+  },
+  {
+    "index": 288,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2807
+  },
+  {
+    "index": 289,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2837
+  },
+  {
+    "index": 290,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2872
+  },
+  {
+    "index": 291,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2907
+  },
+  {
+    "index": 292,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2956
+  },
+  {
+    "index": 293,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 2991
+  },
+  {
+    "index": 294,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 3375
+  },
+  {
+    "index": 295,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1",
+    "il_offset": 3498
+  },
+  {
+    "index": 246,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 364
+  },
+  {
+    "index": 247,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 424
+  },
+  {
+    "index": 248,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 484
+  },
+  {
+    "index": 249,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 514
+  },
+  {
+    "index": 250,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 604
+  },
+  {
+    "index": 251,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 664
+  },
+  {
+    "index": 252,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 694
+  },
+  {
+    "index": 253,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 754
+  },
+  {
+    "index": 254,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 784
+  },
+  {
+    "index": 255,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 866
+  },
+  {
+    "index": 256,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 896
+  },
+  {
+    "index": 257,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 926
+  },
+  {
+    "index": 258,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 956
+  },
+  {
+    "index": 259,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 986
+  },
+  {
+    "index": 260,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1046
+  },
+  {
+    "index": 261,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1106
+  },
+  {
+    "index": 262,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1136
+  },
+  {
+    "index": 263,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1171
+  },
+  {
+    "index": 264,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1201
+  },
+  {
+    "index": 265,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1291
+  },
+  {
+    "index": 266,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1326
+  },
+  {
+    "index": 267,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1386
+  },
+  {
+    "index": 268,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1476
+  },
+  {
+    "index": 269,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1506
+  },
+  {
+    "index": 270,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1555
+  },
+  {
+    "index": 271,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1585
+  },
+  {
+    "index": 272,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1645
+  },
+  {
+    "index": 273,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1680
+  },
+  {
+    "index": 274,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1710
+  },
+  {
+    "index": 275,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1770
+  },
+  {
+    "index": 276,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1800
+  },
+  {
+    "index": 277,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1830
+  },
+  {
+    "index": 278,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1870
+  },
+  {
+    "index": 279,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 1993
+  },
+  {
+    "index": 280,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2098
+  },
+  {
+    "index": 281,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2133
+  },
+  {
+    "index": 282,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2342
+  },
+  {
+    "index": 283,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2407
+  },
+  {
+    "index": 284,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2437
+  },
+  {
+    "index": 285,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2516
+  },
+  {
+    "index": 286,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2590
+  },
+  {
+    "index": 287,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2733
+  },
+  {
+    "index": 288,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2807
+  },
+  {
+    "index": 289,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2837
+  },
+  {
+    "index": 290,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2872
+  },
+  {
+    "index": 291,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2907
+  },
+  {
+    "index": 292,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2956
+  },
+  {
+    "index": 293,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 2991
+  },
+  {
+    "index": 294,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 3375
+  },
+  {
+    "index": 295,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2",
+    "il_offset": 3498
+  },
+  {
+    "index": 246,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 364
+  },
+  {
+    "index": 247,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 424
+  },
+  {
+    "index": 248,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 484
+  },
+  {
+    "index": 249,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 514
+  },
+  {
+    "index": 250,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 604
+  },
+  {
+    "index": 251,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 664
+  },
+  {
+    "index": 252,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 694
+  },
+  {
+    "index": 253,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 754
+  },
+  {
+    "index": 254,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 784
+  },
+  {
+    "index": 255,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 866
+  },
+  {
+    "index": 256,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 896
+  },
+  {
+    "index": 257,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 926
+  },
+  {
+    "index": 258,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 956
+  },
+  {
+    "index": 259,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 986
+  },
+  {
+    "index": 260,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1046
+  },
+  {
+    "index": 261,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1106
+  },
+  {
+    "index": 262,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1136
+  },
+  {
+    "index": 263,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1171
+  },
+  {
+    "index": 264,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1201
+  },
+  {
+    "index": 265,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1291
+  },
+  {
+    "index": 266,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1326
+  },
+  {
+    "index": 267,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1386
+  },
+  {
+    "index": 268,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1476
+  },
+  {
+    "index": 269,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1506
+  },
+  {
+    "index": 270,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1555
+  },
+  {
+    "index": 271,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1585
+  },
+  {
+    "index": 272,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1645
+  },
+  {
+    "index": 273,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1680
+  },
+  {
+    "index": 274,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1710
+  },
+  {
+    "index": 275,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1770
+  },
+  {
+    "index": 276,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1800
+  },
+  {
+    "index": 277,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1830
+  },
+  {
+    "index": 278,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1870
+  },
+  {
+    "index": 279,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 1993
+  },
+  {
+    "index": 280,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2098
+  },
+  {
+    "index": 281,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2133
+  },
+  {
+    "index": 282,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2342
+  },
+  {
+    "index": 283,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2407
+  },
+  {
+    "index": 284,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2437
+  },
+  {
+    "index": 285,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2516
+  },
+  {
+    "index": 286,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2590
+  },
+  {
+    "index": 287,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2733
+  },
+  {
+    "index": 288,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2807
+  },
+  {
+    "index": 289,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2837
+  },
+  {
+    "index": 290,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2872
+  },
+  {
+    "index": 291,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2907
+  },
+  {
+    "index": 292,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2956
+  },
+  {
+    "index": 293,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 2991
+  },
+  {
+    "index": 294,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 3375
+  },
+  {
+    "index": 295,
+    "method": "GameDataGenerated.Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3",
+    "il_offset": 3498
+  },
+  {
+    "index": 296,
+    "method": "GameDataGenerated.Invoke_FLAVOR_QuinceIntroduction__SC_FLAVOR_QuinceIntroduction",
+    "il_offset": 870
+  },
+  {
+    "index": 297,
+    "method": "GameDataGenerated.Invoke_FLAVOR_QuinceIntroduction__SC_FLAVOR_QuinceIntroduction",
+    "il_offset": 1059
+  },
+  {
+    "index": 298,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 680
+  },
+  {
+    "index": 299,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1051
+  },
+  {
+    "index": 300,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1081
+  },
+  {
+    "index": 301,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1155
+  },
+  {
+    "index": 302,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1229
+  },
+  {
+    "index": 303,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1567
+  },
+  {
+    "index": 304,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1597
+  },
+  {
+    "index": 305,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1627
+  },
+  {
+    "index": 306,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1701
+  },
+  {
+    "index": 307,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 1854
+  },
+  {
+    "index": 308,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2065
+  },
+  {
+    "index": 309,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2095
+  },
+  {
+    "index": 310,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2169
+  },
+  {
+    "index": 311,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2243
+  },
+  {
+    "index": 312,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2273
+  },
+  {
+    "index": 313,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2303
+  },
+  {
+    "index": 314,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2333
+  },
+  {
+    "index": 315,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2567
+  },
+  {
+    "index": 316,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2646
+  },
+  {
+    "index": 317,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2676
+  },
+  {
+    "index": 318,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2706
+  },
+  {
+    "index": 319,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 2736
+  },
+  {
+    "index": 320,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3105
+  },
+  {
+    "index": 321,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3179
+  },
+  {
+    "index": 322,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3209
+  },
+  {
+    "index": 323,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3312
+  },
+  {
+    "index": 324,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3342
+  },
+  {
+    "index": 325,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3416
+  },
+  {
+    "index": 326,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3554
+  },
+  {
+    "index": 327,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3624
+  },
+  {
+    "index": 328,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest",
+    "il_offset": 3708
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_END_Resignation__SC_END_Resignation",
+    "il_offset": 4189
+  },
+  {
+    "index": 330,
+    "method": "GameDataGenerated.Invoke_END_Resignation__SC_END_Resignation",
+    "il_offset": 8775
+  },
+  {
+    "index": 331,
+    "method": "GameDataGenerated.Invoke_END_Resignation__SC_END_Resignation",
+    "il_offset": 9168
+  },
+  {
+    "index": 332,
+    "method": "GameDataGenerated.Invoke_END_Resignation__SC_END_Resignation",
+    "il_offset": 9198
+  },
+  {
+    "index": 333,
+    "method": "GameDataGenerated.Invoke_END_Resignation__SC_END_Resignation",
+    "il_offset": 9277
+  },
+  {
+    "index": 334,
+    "method": "GameDataGenerated.Invoke_END_Resignation__SC_END_Resignation",
+    "il_offset": 9351
+  },
+  {
+    "index": 335,
+    "method": "GameDataGenerated.Invoke_END_Resignation__SC_END_Resignation",
+    "il_offset": 9425
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 5879
+  },
+  {
+    "index": 336,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 10085
+  },
+  {
+    "index": 337,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 10159
+  },
+  {
+    "index": 338,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 10189
+  },
+  {
+    "index": 339,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 10447
+  },
+  {
+    "index": 340,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 11393
+  },
+  {
+    "index": 341,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 11467
+  },
+  {
+    "index": 342,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 11576
+  },
+  {
+    "index": 343,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 11650
+  },
+  {
+    "index": 344,
+    "method": "GameDataGenerated.Invoke_END_Delusion__SC_END_Delusion",
+    "il_offset": 11685
+  },
+  {
+    "index": 345,
+    "method": "GameDataGenerated.Invoke_Witch_GertrudeResponse5__SC_Witch_GertrudeResponse5",
+    "il_offset": 57
+  },
+  {
+    "index": 346,
+    "method": "GameDataGenerated.Invoke_GUILD_Funeral__SC_GUILD_Funeral",
+    "il_offset": 5609
+  },
+  {
+    "index": 347,
+    "method": "GameDataGenerated.Invoke_FLAVOR_BritDrinking__SC_FLAVOR_BritDrinking",
+    "il_offset": 1780
+  },
+  {
+    "index": 348,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 127
+  },
+  {
+    "index": 349,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 197
+  },
+  {
+    "index": 350,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 291
+  },
+  {
+    "index": 351,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 335
+  },
+  {
+    "index": 352,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 365
+  },
+  {
+    "index": 353,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 425
+  },
+  {
+    "index": 354,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 541
+  },
+  {
+    "index": 355,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 571
+  },
+  {
+    "index": 356,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 641
+  },
+  {
+    "index": 357,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 701
+  },
+  {
+    "index": 358,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 974
+  },
+  {
+    "index": 359,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1014
+  },
+  {
+    "index": 360,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1118
+  },
+  {
+    "index": 361,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1223
+  },
+  {
+    "index": 362,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1362
+  },
+  {
+    "index": 363,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1397
+  },
+  {
+    "index": 364,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1432
+  },
+  {
+    "index": 365,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1467
+  },
+  {
+    "index": 366,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1642
+  },
+  {
+    "index": 367,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1677
+  },
+  {
+    "index": 368,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1707
+  },
+  {
+    "index": 369,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1787
+  },
+  {
+    "index": 370,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1822
+  },
+  {
+    "index": 371,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1871
+  },
+  {
+    "index": 372,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1925
+  },
+  {
+    "index": 373,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 1979
+  },
+  {
+    "index": 374,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2033
+  },
+  {
+    "index": 375,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2087
+  },
+  {
+    "index": 376,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2141
+  },
+  {
+    "index": 377,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2195
+  },
+  {
+    "index": 378,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2249
+  },
+  {
+    "index": 379,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2303
+  },
+  {
+    "index": 380,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2354
+  },
+  {
+    "index": 381,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2405
+  },
+  {
+    "index": 382,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2519
+  },
+  {
+    "index": 383,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2554
+  },
+  {
+    "index": 384,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2700
+  },
+  {
+    "index": 349,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2805
+  },
+  {
+    "index": 385,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2865
+  },
+  {
+    "index": 386,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2895
+  },
+  {
+    "index": 387,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 2935
+  },
+  {
+    "index": 388,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3005
+  },
+  {
+    "index": 389,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3144
+  },
+  {
+    "index": 390,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3244
+  },
+  {
+    "index": 391,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3309
+  },
+  {
+    "index": 392,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3339
+  },
+  {
+    "index": 393,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3369
+  },
+  {
+    "index": 371,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3418
+  },
+  {
+    "index": 372,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3472
+  },
+  {
+    "index": 373,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3526
+  },
+  {
+    "index": 374,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3580
+  },
+  {
+    "index": 375,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3634
+  },
+  {
+    "index": 376,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3688
+  },
+  {
+    "index": 377,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3742
+  },
+  {
+    "index": 378,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3796
+  },
+  {
+    "index": 379,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3850
+  },
+  {
+    "index": 380,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3901
+  },
+  {
+    "index": 381,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 3952
+  },
+  {
+    "index": 394,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4079
+  },
+  {
+    "index": 395,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4109
+  },
+  {
+    "index": 396,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4139
+  },
+  {
+    "index": 397,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4169
+  },
+  {
+    "index": 398,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4349
+  },
+  {
+    "index": 399,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4419
+  },
+  {
+    "index": 400,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4454
+  },
+  {
+    "index": 401,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4489
+  },
+  {
+    "index": 402,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4624
+  },
+  {
+    "index": 403,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4728
+  },
+  {
+    "index": 404,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4763
+  },
+  {
+    "index": 405,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4833
+  },
+  {
+    "index": 406,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4868
+  },
+  {
+    "index": 407,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4962
+  },
+  {
+    "index": 408,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 4992
+  },
+  {
+    "index": 409,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5092
+  },
+  {
+    "index": 410,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5122
+  },
+  {
+    "index": 411,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5152
+  },
+  {
+    "index": 412,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5187
+  },
+  {
+    "index": 413,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5222
+  },
+  {
+    "index": 371,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5271
+  },
+  {
+    "index": 372,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5325
+  },
+  {
+    "index": 373,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5379
+  },
+  {
+    "index": 374,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5433
+  },
+  {
+    "index": 375,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5487
+  },
+  {
+    "index": 376,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5541
+  },
+  {
+    "index": 377,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5595
+  },
+  {
+    "index": 378,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5649
+  },
+  {
+    "index": 379,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5703
+  },
+  {
+    "index": 380,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5754
+  },
+  {
+    "index": 381,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 5805
+  },
+  {
+    "index": 414,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6020
+  },
+  {
+    "index": 415,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6055
+  },
+  {
+    "index": 416,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6090
+  },
+  {
+    "index": 417,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6125
+  },
+  {
+    "index": 371,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6174
+  },
+  {
+    "index": 372,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6228
+  },
+  {
+    "index": 373,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6282
+  },
+  {
+    "index": 374,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6336
+  },
+  {
+    "index": 375,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6390
+  },
+  {
+    "index": 376,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6444
+  },
+  {
+    "index": 377,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6498
+  },
+  {
+    "index": 378,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6552
+  },
+  {
+    "index": 379,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6606
+  },
+  {
+    "index": 380,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6657
+  },
+  {
+    "index": 381,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6708
+  },
+  {
+    "index": 418,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6806
+  },
+  {
+    "index": 419,
+    "method": "GameDataGenerated.Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0",
+    "il_offset": 6892
+  },
+  {
+    "index": 420,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 248
+  },
+  {
+    "index": 421,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 283
+  },
+  {
+    "index": 422,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 363
+  },
+  {
+    "index": 423,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 393
+  },
+  {
+    "index": 424,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 423
+  },
+  {
+    "index": 425,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 716
+  },
+  {
+    "index": 426,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 751
+  },
+  {
+    "index": 422,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 831
+  },
+  {
+    "index": 423,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 861
+  },
+  {
+    "index": 424,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 891
+  },
+  {
+    "index": 427,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 1213
+  },
+  {
+    "index": 428,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 1248
+  },
+  {
+    "index": 429,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 1283
+  },
+  {
+    "index": 430,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2419
+  },
+  {
+    "index": 431,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2449
+  },
+  {
+    "index": 432,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2479
+  },
+  {
+    "index": 433,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2539
+  },
+  {
+    "index": 434,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2569
+  },
+  {
+    "index": 435,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2629
+  },
+  {
+    "index": 436,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2659
+  },
+  {
+    "index": 437,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 2689
+  },
+  {
+    "index": 438,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 4429
+  },
+  {
+    "index": 439,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 6708
+  },
+  {
+    "index": 440,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 6958
+  },
+  {
+    "index": 441,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0",
+    "il_offset": 14535
+  },
+  {
+    "index": 243,
+    "method": "GameDataGenerated.Invoke_Spine_PoloniusComeInRoom__SC_SPINE_PoloniusComeInRoom__0",
+    "il_offset": 1931
+  },
+  {
+    "index": 244,
+    "method": "GameDataGenerated.Invoke_Spine_PoloniusComeInRoom__SC_SPINE_PoloniusComeInRoom__0",
+    "il_offset": 2246
+  },
+  {
+    "index": 442,
+    "method": "GameDataGenerated.Invoke_ASSN_LaertesKillsHamlet__SC_ASSN_LaertesKillsHamlet__0",
+    "il_offset": 1418
+  },
+  {
+    "index": 443,
+    "method": "GameDataGenerated.Invoke_ASSN_LaertesKillsHamlet__SC_ASSN_LaertesKillsHamlet__0",
+    "il_offset": 1455
+  },
+  {
+    "index": 444,
+    "method": "GameDataGenerated.Invoke_Spine_ThePlay__SC_SPINE_ThePlay__4",
+    "il_offset": 1166
+  },
+  {
+    "index": 445,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 3225
+  },
+  {
+    "index": 446,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 3715
+  },
+  {
+    "index": 447,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 4485
+  },
+  {
+    "index": 448,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 4566
+  },
+  {
+    "index": 449,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 4598
+  },
+  {
+    "index": 450,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 4725
+  },
+  {
+    "index": 451,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 5125
+  },
+  {
+    "index": 452,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 5199
+  },
+  {
+    "index": 453,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 5229
+  },
+  {
+    "index": 454,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 5431
+  },
+  {
+    "index": 455,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 5461
+  },
+  {
+    "index": 456,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 5702
+  },
+  {
+    "index": 457,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 5957
+  },
+  {
+    "index": 458,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 6264
+  },
+  {
+    "index": 459,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 6338
+  },
+  {
+    "index": 460,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 6412
+  },
+  {
+    "index": 461,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 6535
+  },
+  {
+    "index": 462,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 6942
+  },
+  {
+    "index": 463,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 6972
+  },
+  {
+    "index": 464,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 7432
+  },
+  {
+    "index": 465,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1",
+    "il_offset": 7958
+  },
+  {
+    "index": 466,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__1",
+    "il_offset": 216
+  },
+  {
+    "index": 467,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 960
+  },
+  {
+    "index": 468,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 1118
+  },
+  {
+    "index": 469,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 1445
+  },
+  {
+    "index": 470,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 1922
+  },
+  {
+    "index": 471,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2040
+  },
+  {
+    "index": 472,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2114
+  },
+  {
+    "index": 473,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2223
+  },
+  {
+    "index": 474,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2297
+  },
+  {
+    "index": 475,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2485
+  },
+  {
+    "index": 476,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2515
+  },
+  {
+    "index": 477,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2545
+  },
+  {
+    "index": 478,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2575
+  },
+  {
+    "index": 479,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2654
+  },
+  {
+    "index": 480,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2768
+  },
+  {
+    "index": 481,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2798
+  },
+  {
+    "index": 482,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2828
+  },
+  {
+    "index": 483,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2858
+  },
+  {
+    "index": 484,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2932
+  },
+  {
+    "index": 485,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 2962
+  },
+  {
+    "index": 486,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 3080
+  },
+  {
+    "index": 487,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 3159
+  },
+  {
+    "index": 488,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 3189
+  },
+  {
+    "index": 489,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 3604
+  },
+  {
+    "index": 490,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 3634
+  },
+  {
+    "index": 491,
+    "method": "GameDataGenerated.Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__2",
+    "il_offset": 3664
+  },
+  {
+    "index": 492,
+    "method": "GameDataGenerated.Invoke_GUILD_RosNotices__SC_GUILD_RosNotices__0",
+    "il_offset": 550
+  },
+  {
+    "index": 493,
+    "method": "GameDataGenerated.Invoke_GUILD_RosNotices__SC_GUILD_RosNotices__0",
+    "il_offset": 777
+  },
+  {
+    "index": 494,
+    "method": "GameDataGenerated.Invoke_SPINE_DinnerNight2__SC_SPINE_DinnerNight2__3",
+    "il_offset": 1515
+  },
+  {
+    "index": 495,
+    "method": "GameDataGenerated.Invoke_SPINE_DinnerNight2__SC_SPINE_DinnerNight2__3",
+    "il_offset": 1550
+  },
+  {
+    "index": 496,
+    "method": "GameDataGenerated.Invoke_SPINE_DinnerNight2__SC_SPINE_DinnerNight2__3",
+    "il_offset": 2748
+  },
+  {
+    "index": 497,
+    "method": "GameDataGenerated.Invoke_SPINE_DinnerNight2__SC_SPINE_DinnerNight2__3",
+    "il_offset": 3152
+  },
+  {
+    "index": 498,
+    "method": "GameDataGenerated.Invoke_SPINE_DinnerNight2__SC_SPINE_DinnerNight2__3",
+    "il_offset": 3812
+  },
+  {
+    "index": 499,
+    "method": "GameDataGenerated.Invoke_SPINE_DinnerNight3__SC_SPINE_DinnerNight3__3",
+    "il_offset": 388
+  },
+  {
+    "index": 500,
+    "method": "GameDataGenerated.Invoke_Spine_Confession__SC_SPINE_Confession__6",
+    "il_offset": 160
+  },
+  {
+    "index": 501,
+    "method": "GameDataGenerated.Invoke_Spine_Confession__SC_SPINE_Confession__6",
+    "il_offset": 230
+  },
+  {
+    "index": 502,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrudeMinusPolonius__SC_SPINE_HamletAndGertrudeMinusPolonius__2",
+    "il_offset": 614
+  },
+  {
+    "index": 502,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrude__SC_SPINE_HamletAndGertrude__4",
+    "il_offset": 614
+  },
+  {
+    "index": 503,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrude__SC_SPINE_HamletAndGertrude__6",
+    "il_offset": 1150
+  },
+  {
+    "index": 504,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrude__SC_SPINE_HamletAndGertrude__7",
+    "il_offset": 881
+  },
+  {
+    "index": 505,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrude__SC_SPINE_HamletAndGertrude__7",
+    "il_offset": 1291
+  },
+  {
+    "index": 502,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrude_PlusBernardo__SC_SPINE_HamletAndGertrude_PlusBernardo__4",
+    "il_offset": 614
+  },
+  {
+    "index": 503,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrude_PlusBernardo__SC_SPINE_HamletAndGertrude_PlusBernardo__6",
+    "il_offset": 1161
+  },
+  {
+    "index": 506,
+    "method": "GameDataGenerated.Invoke_Spine_HamletAndGertrude_PlusBernardo__SC_SPINE_HamletAndGertrude_PlusBernardo__7",
+    "il_offset": 476
+  },
+  {
+    "index": 507,
+    "method": "GameDataGenerated.Invoke_SPINE_HamletConfrontQuince__SC_SPINE_HamletConfrontQuince__2",
+    "il_offset": 348
+  },
+  {
+    "index": 508,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 319
+  },
+  {
+    "index": 509,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 349
+  },
+  {
+    "index": 510,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 540
+  },
+  {
+    "index": 511,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 686
+  },
+  {
+    "index": 512,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 804
+  },
+  {
+    "index": 513,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 2993
+  },
+  {
+    "index": 514,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 3341
+  },
+  {
+    "index": 515,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 3411
+  },
+  {
+    "index": 516,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 3679
+  },
+  {
+    "index": 517,
+    "method": "GameDataGenerated.Invoke_GHUNT_HamletWallFailure__SC_GHUNT_HamletWallFailure__1",
+    "il_offset": 3804
+  },
+  {
+    "index": 518,
+    "method": "GameDataGenerated.Invoke_Spine_SendHamletAway__SC_SPINE_SendHamletAway__1",
+    "il_offset": 1898
+  },
+  {
+    "index": 519,
+    "method": "GameDataGenerated.Invoke_Spine_HamletToEngland__SC_SPINE_HamletToEngland__0",
+    "il_offset": 245
+  },
+  {
+    "index": 520,
+    "method": "GameDataGenerated.Invoke_Spine_HamletToEngland__SC_SPINE_HamletToEngland__0",
+    "il_offset": 770
+  },
+  {
+    "index": 521,
+    "method": "GameDataGenerated.Invoke_PIRATE_GuildAndHamlet__SC_PIRATE_GuildAndHamlet__1",
+    "il_offset": 5610
+  },
+  {
+    "index": 522,
+    "method": "GameDataGenerated.Invoke_PIRATE_RnGLateNight__SC_PIRATE_RnGLateNight__1",
+    "il_offset": 2675
+  },
+  {
+    "index": 522,
+    "method": "GameDataGenerated.Invoke_GUILD_GuildaStayedBehind__SC_GUILD_GuildaStayedBehind__1",
+    "il_offset": 2675
+  },
+  {
+    "index": 523,
+    "method": "GameDataGenerated.Invoke_Spine_LaertesAsksBernardosHelp__SC_SPINE_LaertesAsksBernardosHelp__0",
+    "il_offset": 141
+  },
+  {
+    "index": 524,
+    "method": "GameDataGenerated.Invoke_Spine_LaertesAsksBernardosHelp__SC_SPINE_LaertesAsksBernardosHelp__0",
+    "il_offset": 1312
+  },
+  {
+    "index": 525,
+    "method": "GameDataGenerated.Invoke_Spine_ChessGame__SC_SPINE_ChessGame__3",
+    "il_offset": 758
+  },
+  {
+    "index": 526,
+    "method": "GameDataGenerated.Invoke_Spine_ChessGame__SC_SPINE_ChessGame__3",
+    "il_offset": 2098
+  },
+  {
+    "index": 527,
+    "method": "GameDataGenerated.Invoke_Spine_ChessGame__SC_SPINE_ChessGame__3",
+    "il_offset": 4008
+  },
+  {
+    "index": 528,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaAssassination__SC_SPINE_OpheliaAssassination__0",
+    "il_offset": 4345
+  },
+  {
+    "index": 528,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaAssassination__SC_SPINE_OpheliaAssassination_FirstLoop__0",
+    "il_offset": 4345
+  },
+  {
+    "index": 529,
+    "method": "GameDataGenerated.Invoke_SPINE_PoloniusSurvived__SC_SPINE_PoloniusSurvived__0",
+    "il_offset": 325
+  },
+  {
+    "index": 530,
+    "method": "GameDataGenerated.Invoke_SPINE_PoloniusSurvived__SC_SPINE_PoloniusSurvived__1",
+    "il_offset": 810
+  },
+  {
+    "index": 531,
+    "method": "GameDataGenerated.Invoke_SPINE_PoloniusSurvived__SC_SPINE_PoloniusSurvived__1",
+    "il_offset": 905
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_END_PoloniusSurvivesExileEndingUnlocked__SC_END_PoloniusSurvivesExileEndingUnlocked__1",
+    "il_offset": 6290
+  },
+  {
+    "index": 532,
+    "method": "GameDataGenerated.Invoke_END_PoloniusSurvivesExileEndingUnlocked__SC_END_PoloniusSurvivesExileEndingUnlocked__1",
+    "il_offset": 10516
+  },
+  {
+    "index": 533,
+    "method": "GameDataGenerated.Invoke_END_PoloniusSurvivesExileEndingUnlocked__SC_END_PoloniusSurvivesExileEndingUnlocked__1",
+    "il_offset": 10663
+  },
+  {
+    "index": 534,
+    "method": "GameDataGenerated.Invoke_END_PoloniusSurvivesExileEndingUnlocked__SC_END_PoloniusSurvivesExileEndingUnlocked__1",
+    "il_offset": 10916
+  },
+  {
+    "index": 535,
+    "method": "GameDataGenerated.Invoke_FLAVOR_BritAndGertrude__SC_FLAVOR_BritAndGertrude__0",
+    "il_offset": 1257
+  },
+  {
+    "index": 536,
+    "method": "GameDataGenerated.Invoke_Spine_LaertesHamletDuel__SC_SPINE_LaertesHamletDuel__19",
+    "il_offset": 819
+  },
+  {
+    "index": 537,
+    "method": "GameDataGenerated.Invoke_Spine_LaertesHamletDuel__SC_SPINE_LaertesHamletDuel__22",
+    "il_offset": 87
+  },
+  {
+    "index": 538,
+    "method": "GameDataGenerated.Invoke_Spine_LaertesHamletDuel__SC_SPINE_LaertesHamletDuel__22",
+    "il_offset": 612
+  },
+  {
+    "index": 537,
+    "method": "GameDataGenerated.Invoke_Spine_LaertesHamletDuel_NoGert__SC_SPINE_LaertesHamletDuel_NoGert__22",
+    "il_offset": 53
+  },
+  {
+    "index": 538,
+    "method": "GameDataGenerated.Invoke_Spine_LaertesHamletDuel_NoGert__SC_SPINE_LaertesHamletDuel_NoGert__22",
+    "il_offset": 567
+  },
+  {
+    "index": 539,
+    "method": "GameDataGenerated.Invoke_Spine_FortinbrasInvades__SC_SPINE_FortinbrasInvades__1",
+    "il_offset": 498
+  },
+  {
+    "index": 540,
+    "method": "GameDataGenerated.Invoke_Spine_FortinbrasInvades__SC_SPINE_FortinbrasInvades__1",
+    "il_offset": 23855
+  },
+  {
+    "index": 541,
+    "method": "GameDataGenerated.Invoke_Spine_FortinbrasInvades__SC_SPINE_FortinbrasInvades__1",
+    "il_offset": 23926
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogue__SC_SPINE_FortinbrasInvadesEpilogue__1",
+    "il_offset": 5765
+  },
+  {
+    "index": 542,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogue__SC_SPINE_FortinbrasInvadesEpilogue__1",
+    "il_offset": 9313
+  },
+  {
+    "index": 543,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogue__SC_SPINE_FortinbrasInvadesEpilogue__1",
+    "il_offset": 9387
+  },
+  {
+    "index": 544,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogue__SC_SPINE_FortinbrasInvadesEpilogue__1",
+    "il_offset": 12050
+  },
+  {
+    "index": 545,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogue__SC_SPINE_FortinbrasInvadesEpilogue__1",
+    "il_offset": 12080
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogueHamlet__SC_SPINE_FortinbrasInvadesEpilogueHamlet__1",
+    "il_offset": 6244
+  },
+  {
+    "index": 546,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogueHamlet__SC_SPINE_FortinbrasInvadesEpilogueHamlet__1",
+    "il_offset": 12169
+  },
+  {
+    "index": 547,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogueHamlet__SC_SPINE_FortinbrasInvadesEpilogueHamlet__1",
+    "il_offset": 12507
+  },
+  {
+    "index": 548,
+    "method": "GameDataGenerated.Invoke_SPINE_FortinbrasInvadesEpilogueHamlet__SC_SPINE_FortinbrasInvadesEpilogueHamlet__1",
+    "il_offset": 12699
+  },
+  {
+    "index": 549,
+    "method": "GameDataGenerated.Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1",
+    "il_offset": 3890
+  },
+  {
+    "index": 550,
+    "method": "GameDataGenerated.Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1",
+    "il_offset": 4157
+  },
+  {
+    "index": 551,
+    "method": "GameDataGenerated.Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1",
+    "il_offset": 4187
+  },
+  {
+    "index": 552,
+    "method": "GameDataGenerated.Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1",
+    "il_offset": 4271
+  },
+  {
+    "index": 553,
+    "method": "GameDataGenerated.Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1",
+    "il_offset": 5043
+  },
+  {
+    "index": 554,
+    "method": "GameDataGenerated.Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1",
+    "il_offset": 5285
+  },
+  {
+    "index": 555,
+    "method": "GameDataGenerated.Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1",
+    "il_offset": 5418
+  },
+  {
+    "index": 556,
+    "method": "GameDataGenerated.Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2",
+    "il_offset": 1302
+  },
+  {
+    "index": 557,
+    "method": "GameDataGenerated.Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2",
+    "il_offset": 1416
+  },
+  {
+    "index": 558,
+    "method": "GameDataGenerated.Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2",
+    "il_offset": 1570
+  },
+  {
+    "index": 559,
+    "method": "GameDataGenerated.Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2",
+    "il_offset": 1605
+  },
+  {
+    "index": 560,
+    "method": "GameDataGenerated.Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2",
+    "il_offset": 2678
+  },
+  {
+    "index": 561,
+    "method": "GameDataGenerated.Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2",
+    "il_offset": 2713
+  },
+  {
+    "index": 562,
+    "method": "GameDataGenerated.Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2",
+    "il_offset": 2801
+  },
+  {
+    "index": 563,
+    "method": "GameDataGenerated.Invoke_GHUNT_BritHamletMeetup__SC_GHUNT_BritHamletMeetup__2",
+    "il_offset": 239
+  },
+  {
+    "index": 564,
+    "method": "GameDataGenerated.Invoke_FLAVOR_britInGallery__SC_FLAVOR_britingallery__2",
+    "il_offset": 101
+  },
+  {
+    "index": 565,
+    "method": "GameDataGenerated.Invoke_END_OpheliaAsylum__SC_END_OpheliaAsylum__1",
+    "il_offset": 1110
+  },
+  {
+    "index": 566,
+    "method": "GameDataGenerated.Invoke_END_OpheliaAsylum__SC_END_OpheliaAsylum__1",
+    "il_offset": 3277
+  },
+  {
+    "index": 567,
+    "method": "GameDataGenerated.Invoke_ASSN_LaerAndBritPillowTalk__SC_ASSN_LaerAndBritPillowTalk__0",
+    "il_offset": 7426
+  },
+  {
+    "index": 568,
+    "method": "GameDataGenerated.Invoke_ASSN_LaerAndBritPillowTalk__SC_ASSN_LaerAndBritPillowTalk__0",
+    "il_offset": 8458
+  },
+  {
+    "index": 569,
+    "method": "GameDataGenerated.Invoke_ASSN_ClaudiusSmothered__SC_ASSN_ClaudiusSmothered__2",
+    "il_offset": 1220
+  },
+  {
+    "index": 570,
+    "method": "GameDataGenerated.Invoke_ASSN_ClaudiusSmothered__SC_ASSN_ClaudiusSmothered__2",
+    "il_offset": 1930
+  },
+  {
+    "index": 571,
+    "method": "GameDataGenerated.Invoke_ASSN_ClaudiusSmothered__SC_ASSN_ClaudiusSmothered__2",
+    "il_offset": 2729
+  },
+  {
+    "index": 570,
+    "method": "GameDataGenerated.Invoke_ASSN_ClaudiusSmotheredJustLaertes__SC_ASSN_ClaudiusSmotheredJustLaertes__2",
+    "il_offset": 740
+  },
+  {
+    "index": 571,
+    "method": "GameDataGenerated.Invoke_ASSN_ClaudiusSmotheredJustLaertes__SC_ASSN_ClaudiusSmotheredJustLaertes__2",
+    "il_offset": 1554
+  },
+  {
+    "index": 572,
+    "method": "GameDataGenerated.Invoke_ASSN_LaertesVisitsArrestedDad__SC_ASSN_LaertesVisitsArrestedDad__0",
+    "il_offset": 981
+  },
+  {
+    "index": 573,
+    "method": "GameDataGenerated.Invoke_ASSN_BernardoReportBack_Polonius__SC_ASSN_BernardoReportBack_Polonius__1",
+    "il_offset": 707
+  },
+  {
+    "index": 574,
+    "method": "GameDataGenerated.Invoke_ASSN_BritExecution__SC_ASSN_BritExecution__0",
+    "il_offset": 5006
+  },
+  {
+    "index": 575,
+    "method": "GameDataGenerated.Invoke_GHOST_HamletAttackPoloniusBecauseBurning__SC_GHOST_HamletAttackPoloniusBecauseBurning__1",
+    "il_offset": 3844
+  },
+  {
+    "index": 576,
+    "method": "GameDataGenerated.Invoke_GHOST_GertrudeAttackPoloniusBecauseBurning__SC_GHOST_GertrudeAttackPoloniusBecauseBurning__1",
+    "il_offset": 4329
+  },
+  {
+    "index": 577,
+    "method": "GameDataGenerated.Invoke_FORT_SecretTownMeeting__SC_FORT_SecretTownMeeting__1",
+    "il_offset": 5137
+  },
+  {
+    "index": 577,
+    "method": "GameDataGenerated.Invoke_FORT_SecretTownMeeting__SC_FORT_SecretTownMeeting__1",
+    "il_offset": 11060
+  },
+  {
+    "index": 578,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaFaints_Loop1__SC_SPINE_OpheliaFaints__0",
+    "il_offset": 447
+  },
+  {
+    "index": 579,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaWakesUpAfterFaint_Loop1__SC_SPINE_OpheliaWakesUpAfterFaint_Loop1__1",
+    "il_offset": 523
+  },
+  {
+    "index": 580,
+    "method": "GameDataGenerated.Invoke_Spine_OpheliaWakesUpAfterFaint_Loop1__SC_SPINE_OpheliaWakesUpAfterFaint_Loop1__1",
+    "il_offset": 988
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_FORT_BarricadeAnnouncement1__SC_FORT_BarricadeAnnouncement1__1",
+    "il_offset": 10597
+  },
+  {
+    "index": 581,
+    "method": "GameDataGenerated.Invoke_FORT_BarricadeAnnouncement1__SC_FORT_BarricadeAnnouncement1__1",
+    "il_offset": 20834
+  },
+  {
+    "index": 582,
+    "method": "GameDataGenerated.Invoke_FORT_BarricadeAnnouncement1__SC_FORT_BarricadeAnnouncement1__1",
+    "il_offset": 20996
+  },
+  {
+    "index": 583,
+    "method": "GameDataGenerated.Invoke_FORT_BarricadeAnnouncement1__SC_FORT_BarricadeAnnouncement1__1",
+    "il_offset": 21075
+  },
+  {
+    "index": 584,
+    "method": "GameDataGenerated.Invoke_POISON_GraveVisit__SC_POISON_GraveVisit__1",
+    "il_offset": 547
+  },
+  {
+    "index": 585,
+    "method": "GameDataGenerated.Invoke_BOYS_Meeting2__SC_BOYS_Meeting2__0",
+    "il_offset": 1204
+  },
+  {
+    "index": 586,
+    "method": "GameDataGenerated.Invoke_BOYS_Meeting4__SC_BOYS_Meeting4__2",
+    "il_offset": 4786
+  },
+  {
+    "index": 587,
+    "method": "GameDataGenerated.Invoke_ASSN_HoratioSummoned__SC_ASSN_HoratioSummoned__0",
+    "il_offset": 666
+  },
+  {
+    "index": 588,
+    "method": "GameDataGenerated.Invoke_FLAVOR_BernardoHoratioMeet__SC_FLAVOR_BernardoHoratioMeet__5",
+    "il_offset": 439
+  },
+  {
+    "index": 589,
+    "method": "GameDataGenerated.Invoke_FLAVOR_BernardoHoratioMeet__SC_FLAVOR_BernardoHoratioMeet__5",
+    "il_offset": 875
+  },
+  {
+    "index": 590,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HamletConfrontBernardo__SC_FLAVOR_HamletConfrontBernardo__0",
+    "il_offset": 290
+  },
+  {
+    "index": 591,
+    "method": "GameDataGenerated.Invoke_BADQUINCE_BritTaunt__SC_BADQUINCE_BritTaunt__0",
+    "il_offset": 959
+  },
+  {
+    "index": 592,
+    "method": "GameDataGenerated.Invoke_OTH_OthelloDrinkingGame__SC_OTH_OthelloDrinkingGame__11",
+    "il_offset": 197
+  },
+  {
+    "index": 593,
+    "method": "GameDataGenerated.Invoke_OTH_OthelloDrinkingGame_PreviouslyDefended__SC_OTH_OthelloDrinkingGame_PreviouslyDefended__3",
+    "il_offset": 506
+  },
+  {
+    "index": 594,
+    "method": "GameDataGenerated.Invoke_OTH_OthelloStorytimePrivate1__SC_OTH_OthelloStorytimePrivate1__0",
+    "il_offset": 3154
+  },
+  {
+    "index": 595,
+    "method": "GameDataGenerated.Invoke_OTH_OthelloStorytimePrivate2__SC_OTH_OthelloStorytimePrivate2__0",
+    "il_offset": 2446
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 5681
+  },
+  {
+    "index": 596,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13204
+  },
+  {
+    "index": 597,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13268
+  },
+  {
+    "index": 598,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13332
+  },
+  {
+    "index": 599,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13474
+  },
+  {
+    "index": 600,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13538
+  },
+  {
+    "index": 601,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13685
+  },
+  {
+    "index": 602,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13749
+  },
+  {
+    "index": 603,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 13813
+  },
+  {
+    "index": 604,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 14033
+  },
+  {
+    "index": 605,
+    "method": "GameDataGenerated.Invoke_OTH_Ending__SC_OTH_Ending__1",
+    "il_offset": 14258
+  },
+  {
+    "index": 606,
+    "method": "GameDataGenerated.Invoke_FLAVOR_GertrudeQuestionClaudius__SC_FLAVOR_GertrudeQuestionClaudius__0",
+    "il_offset": 1027
+  },
+  {
+    "index": 607,
+    "method": "GameDataGenerated.Invoke_FLAVOR_IrmaAndMarcellus__SC_FLAVOR_IrmaAndMarcellus__8",
+    "il_offset": 554
+  },
+  {
+    "index": 608,
+    "method": "GameDataGenerated.Invoke_WITCH_Ascension__SC_WITCH_ASCENSION__1",
+    "il_offset": 1581
+  },
+  {
+    "index": 609,
+    "method": "GameDataGenerated.Invoke_WITCH_InitialMeeting__SC_WITCH_InitialMeeting__1",
+    "il_offset": 11127
+  },
+  {
+    "index": 609,
+    "method": "GameDataGenerated.Invoke_WITCH_InitialMeeting__SC_WITCH_InitialMeeting__1",
+    "il_offset": 16033
+  },
+  {
+    "index": 610,
+    "method": "GameDataGenerated.Invoke_WITCH_InitialMeeting__SC_WITCH_InitialMeeting__1",
+    "il_offset": 18615
+  },
+  {
+    "index": 611,
+    "method": "GameDataGenerated.Invoke_WITCH_InitialMeeting__SC_WITCH_InitialMeeting__1",
+    "il_offset": 23240
+  },
+  {
+    "index": 612,
+    "method": "GameDataGenerated.Invoke_WITCH_InitialMeeting__SC_WITCH_InitialMeeting__1",
+    "il_offset": 26332
+  },
+  {
+    "index": 613,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 5729
+  },
+  {
+    "index": 614,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 5959
+  },
+  {
+    "index": 609,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 12095
+  },
+  {
+    "index": 612,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 15178
+  },
+  {
+    "index": 610,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 24102
+  },
+  {
+    "index": 609,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 31730
+  },
+  {
+    "index": 610,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 34312
+  },
+  {
+    "index": 611,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 38937
+  },
+  {
+    "index": 612,
+    "method": "GameDataGenerated.Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1",
+    "il_offset": 42029
+  },
+  {
+    "index": 609,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 7953
+  },
+  {
+    "index": 613,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 10796
+  },
+  {
+    "index": 614,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 11026
+  },
+  {
+    "index": 612,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 15267
+  },
+  {
+    "index": 610,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 24191
+  },
+  {
+    "index": 609,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 39422
+  },
+  {
+    "index": 610,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 42004
+  },
+  {
+    "index": 611,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 46629
+  },
+  {
+    "index": 612,
+    "method": "GameDataGenerated.Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1",
+    "il_offset": 49721
+  },
+  {
+    "index": 220,
+    "method": "GameDataGenerated.Invoke_WITCH_BernardoResponse__SC_WITCH_BernardoResponse__0",
+    "il_offset": 550
+  },
+  {
+    "index": 217,
+    "method": "GameDataGenerated.Invoke_WITCH_ClaudiusResponse__SC_WITCH_ClaudiusResponse__0",
+    "il_offset": 307
+  },
+  {
+    "index": 217,
+    "method": "GameDataGenerated.Invoke_WITCH_ClaudiusResponse__SC_WITCH_ClaudiusResponse__0",
+    "il_offset": 388
+  },
+  {
+    "index": 615,
+    "method": "GameDataGenerated.Invoke_Witch_HamletResponse1__SC_WITCH_HamletResponse1__0",
+    "il_offset": 337
+  },
+  {
+    "index": 616,
+    "method": "GameDataGenerated.Invoke_Witch_HamletResponse1__SC_WITCH_HamletResponse1__0",
+    "il_offset": 535
+  },
+  {
+    "index": 617,
+    "method": "GameDataGenerated.Invoke_Witch_HamletResponse2__SC_WITCH_HamletResponse2__0",
+    "il_offset": 332
+  },
+  {
+    "index": 618,
+    "method": "GameDataGenerated.Invoke_Witch_PoloniusDespair__SC_Witch_PoloniusDespair__4",
+    "il_offset": 52
+  },
+  {
+    "index": 619,
+    "method": "GameDataGenerated.Invoke_WITCH_LaertesResponse1__SC_WITCH_LaertesResponse1__0",
+    "il_offset": 1452
+  },
+  {
+    "index": 619,
+    "method": "GameDataGenerated.Invoke_WITCH_LaertesResponse1__SC_WITCH_LaertesResponse1__0",
+    "il_offset": 2664
+  },
+  {
+    "index": 620,
+    "method": "GameDataGenerated.Invoke_Witch_HoratioResponse__SC_Witch_HoratioResponse__0",
+    "il_offset": 328
+  },
+  {
+    "index": 621,
+    "method": "GameDataGenerated.Invoke_Witch_HoratioResponse__SC_Witch_HoratioResponse__0",
+    "il_offset": 907
+  },
+  {
+    "index": 622,
+    "method": "GameDataGenerated.Invoke_HAMROM_ClaudiusMurdered__SC_HAMROM_ClaudiusMurdered__0",
+    "il_offset": 2427
+  },
+  {
+    "index": 623,
+    "method": "GameDataGenerated.Invoke_HAMROM_VengeanceFulfilled__SC_HAMROM_VengeanceFulfilled__0",
+    "il_offset": 876
+  },
+  {
+    "index": 624,
+    "method": "GameDataGenerated.Invoke_HAMROM_VengeanceFulfilled__SC_HAMROM_VengeanceFulfilled__1",
+    "il_offset": 549
+  },
+  {
+    "index": 624,
+    "method": "GameDataGenerated.Invoke_HAMROM_VengeanceFulfilled__SC_HAMROM_VengeanceFulfilled__1",
+    "il_offset": 1747
+  },
+  {
+    "index": 624,
+    "method": "GameDataGenerated.Invoke_HAMROM_VengeanceFulfilled__SC_HAMROM_VengeanceFulfilled__1",
+    "il_offset": 4038
+  },
+  {
+    "index": 625,
+    "method": "GameDataGenerated.Invoke_HAMROM_Results__SC_HAMROM_Night1__0",
+    "il_offset": 4048
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 12097
+  },
+  {
+    "index": 626,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 17652
+  },
+  {
+    "index": 627,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 17770
+  },
+  {
+    "index": 628,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 17995
+  },
+  {
+    "index": 629,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 18113
+  },
+  {
+    "index": 630,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 18143
+  },
+  {
+    "index": 631,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 18222
+  },
+  {
+    "index": 632,
+    "method": "GameDataGenerated.Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1",
+    "il_offset": 18296
+  },
+  {
+    "index": 633,
+    "method": "GameDataGenerated.Invoke_HAMROM_Advice_Gertrude__SC_HAMROM_Advice_Gertrude__0",
+    "il_offset": 1120
+  },
+  {
+    "index": 634,
+    "method": "GameDataGenerated.Invoke_HAMROM_Advice_Gertrude__SC_HAMROM_Advice_Gertrude__0",
+    "il_offset": 2032
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1",
+    "il_offset": 16215
+  },
+  {
+    "index": 635,
+    "method": "GameDataGenerated.Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1",
+    "il_offset": 19633
+  },
+  {
+    "index": 636,
+    "method": "GameDataGenerated.Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1",
+    "il_offset": 23694
+  },
+  {
+    "index": 637,
+    "method": "GameDataGenerated.Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1",
+    "il_offset": 23812
+  },
+  {
+    "index": 638,
+    "method": "GameDataGenerated.Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1",
+    "il_offset": 23886
+  },
+  {
+    "index": 639,
+    "method": "GameDataGenerated.Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1",
+    "il_offset": 23965
+  },
+  {
+    "index": 640,
+    "method": "GameDataGenerated.Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1",
+    "il_offset": 24039
+  },
+  {
+    "index": 641,
+    "method": "GameDataGenerated.Invoke_HAMROM_Advice_Polonius__SC_HAMROM_Advice_Polonius__0",
+    "il_offset": 670
+  },
+  {
+    "index": 642,
+    "method": "GameDataGenerated.Invoke_GRACE_PrivateMeeting__SC_GRACE_PrivateMeeting__0",
+    "il_offset": 2272
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_GRACE_SailIntoSunset__SC_GRACE_SailIntoSunset__1",
+    "il_offset": 6345
+  },
+  {
+    "index": 643,
+    "method": "GameDataGenerated.Invoke_GRACE_SailIntoSunset__SC_GRACE_SailIntoSunset__1",
+    "il_offset": 12648
+  },
+  {
+    "index": 644,
+    "method": "GameDataGenerated.Invoke_GRACE_SailIntoSunset__SC_GRACE_SailIntoSunset__1",
+    "il_offset": 12712
+  },
+  {
+    "index": 645,
+    "method": "GameDataGenerated.Invoke_GRACE_SailIntoSunset__SC_GRACE_SailIntoSunset__1",
+    "il_offset": 12854
+  },
+  {
+    "index": 646,
+    "method": "GameDataGenerated.Invoke_GRACE_SailIntoSunset__SC_GRACE_SailIntoSunset__1",
+    "il_offset": 12996
+  },
+  {
+    "index": 647,
+    "method": "GameDataGenerated.Invoke_GRACE_SailIntoSunset__SC_GRACE_SailIntoSunset__1",
+    "il_offset": 13143
+  },
+  {
+    "index": 648,
+    "method": "GameDataGenerated.Invoke_GUILD_Party__SC_GUILD_Party__0",
+    "il_offset": 6170
+  },
+  {
+    "index": 648,
+    "method": "GameDataGenerated.Invoke_GUILD_Party__SC_GUILD_Party__0",
+    "il_offset": 6920
+  },
+  {
+    "index": 329,
+    "method": "GameDataGenerated.Invoke_GUILD_Leaving__SC_GUILD_Leaving__0",
+    "il_offset": 6577
+  },
+  {
+    "index": 649,
+    "method": "GameDataGenerated.Invoke_GUILD_Leaving__SC_GUILD_Leaving__0",
+    "il_offset": 9725
+  },
+  {
+    "index": 650,
+    "method": "GameDataGenerated.Invoke_GUILD_Leaving__SC_GUILD_Leaving__0",
+    "il_offset": 11157
+  },
+  {
+    "index": 544,
+    "method": "GameDataGenerated.Invoke_GUILD_Leaving__SC_GUILD_Leaving__0",
+    "il_offset": 12831
+  },
+  {
+    "index": 545,
+    "method": "GameDataGenerated.Invoke_GUILD_Leaving__SC_GUILD_Leaving__0",
+    "il_offset": 12861
+  },
+  {
+    "index": 651,
+    "method": "GameDataGenerated.Invoke_FLAVOR_BringBritSupplies__SC_FLAVOR_BringBritSupplies__1",
+    "il_offset": 397
+  },
+  {
+    "index": 652,
+    "method": "GameDataGenerated.Invoke_FLAVOR_BringBritSupplies__SC_FLAVOR_BringBritSupplies__1",
+    "il_offset": 427
+  },
+  {
+    "index": 653,
+    "method": "GameDataGenerated.Invoke_FLAVOR_BringBritLetters__SC_FLAVOR_BringBritLetters__1",
+    "il_offset": 1543
+  },
+  {
+    "index": 654,
+    "method": "GameDataGenerated.Invoke_FLAVOR_ClaudiusGrieving__SC_FLAVOR_ClaudiusGrieving__1",
+    "il_offset": 993
+  },
+  {
+    "index": 655,
+    "method": "GameDataGenerated.Invoke_SPINE_NoInvasionYankedBack__SC_SPINE_NoInvasionYankedBack__0",
+    "il_offset": 278
+  },
+  {
+    "index": 656,
+    "method": "GameDataGenerated.Invoke_FORT_FortinbrasArrestedAnnouncement__SC_FORT_FortinbrasArrestedAnnouncement__1",
+    "il_offset": 1608
+  },
+  {
+    "index": 657,
+    "method": "GameDataGenerated.Invoke_SPINE_Loop1_BernardoReportsDeath__SC_BernardoFind_LoopOne__0",
+    "il_offset": 2345
+  },
+  {
+    "index": 658,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Brit__0",
+    "il_offset": 899
+  },
+  {
+    "index": 659,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Brit__1",
+    "il_offset": 3113
+  },
+  {
+    "index": 660,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Brit__1",
+    "il_offset": 3177
+  },
+  {
+    "index": 661,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Brit__1",
+    "il_offset": 5087
+  },
+  {
+    "index": 658,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Queen__0",
+    "il_offset": 899
+  },
+  {
+    "index": 659,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Queen__1",
+    "il_offset": 3113
+  },
+  {
+    "index": 660,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Queen__1",
+    "il_offset": 3177
+  },
+  {
+    "index": 661,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Queen__1",
+    "il_offset": 5087
+  },
+  {
+    "index": 658,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_King__0",
+    "il_offset": 899
+  },
+  {
+    "index": 659,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_King__1",
+    "il_offset": 3113
+  },
+  {
+    "index": 660,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_King__1",
+    "il_offset": 3177
+  },
+  {
+    "index": 661,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_King__1",
+    "il_offset": 5087
+  },
+  {
+    "index": 658,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Hamlet__0",
+    "il_offset": 899
+  },
+  {
+    "index": 659,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Hamlet__1",
+    "il_offset": 3113
+  },
+  {
+    "index": 660,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Hamlet__1",
+    "il_offset": 3177
+  },
+  {
+    "index": 661,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Hamlet__1",
+    "il_offset": 5087
+  },
+  {
+    "index": 658,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Laertes__0",
+    "il_offset": 899
+  },
+  {
+    "index": 659,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Laertes__1",
+    "il_offset": 3113
+  },
+  {
+    "index": 660,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Laertes__1",
+    "il_offset": 3177
+  },
+  {
+    "index": 661,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Laertes__1",
+    "il_offset": 5087
+  },
+  {
+    "index": 658,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Polonius__0",
+    "il_offset": 899
+  },
+  {
+    "index": 659,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Polonius__1",
+    "il_offset": 2898
+  },
+  {
+    "index": 660,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Polonius__1",
+    "il_offset": 2928
+  },
+  {
+    "index": 661,
+    "method": "GameDataGenerated.Invoke_DEATHREACT_All__SC_DEATHREACT_All_Polonius__1",
+    "il_offset": 4725
+  },
+  {
+    "index": 662,
+    "method": "GameDataGenerated.Invoke_POISON_GertrudeCheck__SC_POISON_GertrudeCheck__4",
+    "il_offset": 323
+  },
+  {
+    "index": 663,
+    "method": "GameDataGenerated.Invoke_FORT_Brit_JailCheckin__SC_FORT_Brit_JailCheckin__0",
+    "il_offset": 765
+  },
+  {
+    "index": 664,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HoratioRosencrantzChat__SC_FLAVOR_HoratioRosencrantzChat__0",
+    "il_offset": 776
+  },
+  {
+    "index": 665,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HoratioRosencrantzChat__SC_FLAVOR_HoratioRosencrantzChat__0",
+    "il_offset": 4331
+  },
+  {
+    "index": 666,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HoratioRosencrantzChat__SC_FLAVOR_HoratioRosencrantzChat__0",
+    "il_offset": 5313
+  },
+  {
+    "index": 667,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HoratioRosencrantzChat__SC_FLAVOR_HoratioRosencrantzChat__0",
+    "il_offset": 5423
+  },
+  {
+    "index": 668,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HoratioRosencrantzChat__SC_FLAVOR_HoratioRosencrantzChat__0",
+    "il_offset": 5689
+  },
+  {
+    "index": 668,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HoratioRosencrantzChat__SC_FLAVOR_HoratioRosencrantzChat__0",
+    "il_offset": 6411
+  },
+  {
+    "index": 669,
+    "method": "GameDataGenerated.Invoke_FLAVOR_HoratioHamletChat__SC_FLAVOR_HoratioHamletChat__0",
+    "il_offset": 535
+  },
+  {
+    "index": 670,
+    "method": "PerfectDayDataGenerated.Invoke_ST_Murphy",
+    "il_offset": 8
+  },
+  {
+    "index": 671,
+    "method": "PerfectDayDataGenerated.Invoke_laertes_future",
+    "il_offset": 338
+  },
+  {
+    "index": 672,
+    "method": "PerfectDayDataGenerated.Invoke_brit_future",
+    "il_offset": 606
+  },
+  {
+    "index": 673,
+    "method": "PerfectDayDataGenerated.Invoke_ghost_future",
+    "il_offset": 298
+  },
+  {
+    "index": 674,
+    "method": "PerfectDayDataGenerated.Invoke_ghost_future",
+    "il_offset": 412
+  },
+  {
+    "index": 675,
+    "method": "PerfectDayDataGenerated.Invoke_ghost_future",
+    "il_offset": 442
+  },
+  {
+    "index": 489,
+    "method": "PerfectDayDataGenerated.Invoke_ghost_future",
+    "il_offset": 595
+  },
+  {
+    "index": 676,
+    "method": "PerfectDayDataGenerated.Invoke_ghost_future",
+    "il_offset": 625
+  },
+  {
+    "index": 677,
+    "method": "PerfectDayDataGenerated.Invoke_ghost_future",
+    "il_offset": 699
+  },
+  {
+    "index": 678,
+    "method": "PerfectDayDataGenerated.Invoke_ghost_future",
+    "il_offset": 778
+  },
+  {
+    "index": 679,
+    "method": "PerfectDayDataGenerated.Invoke_hamlet_real",
+    "il_offset": 254
+  },
+  {
+    "index": 680,
+    "method": "PerfectDayDataGenerated.Invoke_hamlet_real",
+    "il_offset": 842
+  },
+  {
+    "index": 681,
+    "method": "PerfectDayDataGenerated.Invoke_polonius_real",
+    "il_offset": 674
+  },
+  {
+    "index": 682,
+    "method": "PerfectDayDataGenerated.Invoke_brit_real",
+    "il_offset": 516
+  },
+  {
+    "index": 240,
+    "method": "PerfectDayDataGenerated.Invoke_Enviro_Stove",
+    "il_offset": 72
+  },
+  {
+    "index": 683,
+    "method": "PerfectDayDataGenerated.Invoke_Pond_Meetup__SC_Pond_Meetup",
+    "il_offset": 3104
+  },
+  {
+    "index": 684,
+    "method": "PerfectDayDataGenerated.Invoke_Brit_Dead__SC_KillBrit",
+    "il_offset": 841
+  },
+  {
+    "index": 685,
+    "method": "PerfectDayDataGenerated.Invoke_Quince_End__SC_Quince_End__0",
+    "il_offset": 2272
+  },
+  {
+    "index": 686,
+    "method": "PerfectDayDataGenerated.Invoke_Quince_End__SC_Quince_End__0",
+    "il_offset": 2415
+  },
+  {
+    "index": 670,
+    "method": "TutorialDataGenerated.Invoke_ST_Murphy",
+    "il_offset": 8
+  },
+  {
+    "index": 240,
+    "method": "TutorialDataGenerated.Invoke_Enviro_Stove",
+    "il_offset": 72
+  },
+  {
+    "index": 687,
+    "method": "TutorialDataGenerated.Invoke_LaertesEndingSetup__LaertesEndingSetup",
+    "il_offset": 2105
+  },
+  {
+    "index": 688,
+    "method": "IsometricCamera.OnFollowTargetTeleported",
+    "il_offset": 49
+  },
+  {
+    "index": 689,
+    "method": "IsometricCamera.CalculateTargetOffset",
+    "il_offset": 622
+  },
+  {
+    "index": 690,
+    "method": "IsometricCamera.CalculateTargetOffset",
+    "il_offset": 854
+  },
+  {
+    "index": 691,
+    "method": "IsometricCamera.CalculateTargetOffset",
+    "il_offset": 1115
+  },
+  {
+    "index": 692,
+    "method": "IsometricCamera.CalculateTargetOffset",
+    "il_offset": 1232
+  },
+  {
+    "index": 693,
+    "method": "IsometricCamera.CalculateTargetOffset",
+    "il_offset": 1350
+  },
+  {
+    "index": 694,
+    "method": "IsometricCamera.CalculateTargetOffset",
+    "il_offset": 1467
+  },
+  {
+    "index": 695,
+    "method": "MirrorReflection.CreateMirrorObjects",
+    "il_offset": 187
+  },
+  {
+    "index": 696,
+    "method": "CharacterBehavior.destinationOfEvent",
+    "il_offset": 150
+  },
+  {
+    "index": 697,
+    "method": "CharacterBehavior.get_CurrentEventDestination",
+    "il_offset": 141
+  },
+  {
+    "index": 698,
+    "method": "CharacterBehavior.chooseArbitraryUnoccupiedMarkerInRoom",
+    "il_offset": 240
+  },
+  {
+    "index": 699,
+    "method": "CharacterMovement.set_CurrentRoom",
+    "il_offset": 543
+  },
+  {
+    "index": 700,
+    "method": "CharacterMovement.setGoal",
+    "il_offset": 304
+  },
+  {
+    "index": 701,
+    "method": "CharacterMovement.setGoal",
+    "il_offset": 453
+  },
+  {
+    "index": 702,
+    "method": "CharacterMovement.setGoal",
+    "il_offset": 676
+  },
+  {
+    "index": 703,
+    "method": "CharacterMovement.setGoal",
+    "il_offset": 856
+  },
+  {
+    "index": 704,
+    "method": "CharacterMovement.setGoal",
+    "il_offset": 1084
+  },
+  {
+    "index": 705,
+    "method": "CharacterMovement.TeleportToCurrentGoal",
+    "il_offset": 424
+  },
+  {
+    "index": 706,
+    "method": "CharacterMovement.advancePath",
+    "il_offset": 168
+  },
+  {
+    "index": 707,
+    "method": "CharacterMovement.followPath",
+    "il_offset": 540
+  },
+  {
+    "index": 708,
+    "method": "CharacterMovement.applyUpdate",
+    "il_offset": 963
+  },
+  {
+    "index": 709,
+    "method": "CharacterMovement.applyUpdate",
+    "il_offset": 1171
+  },
+  {
+    "index": 710,
+    "method": "CharacterMovement.updateCurRoom",
+    "il_offset": 348
+  },
+  {
+    "index": 711,
+    "method": "CharacterMovement.updateCurRoom",
+    "il_offset": 420
+  },
+  {
+    "index": 712,
+    "method": "CharacterMovement.updateCurRoom",
+    "il_offset": 574
+  },
+  {
+    "index": 713,
+    "method": "CharacterMovement.OnHitWarpDoor",
+    "il_offset": 334
+  },
+  {
+    "index": 714,
+    "method": "CharacterMovement.OnHitWarpFadeDoor",
+    "il_offset": 95
+  },
+  {
+    "index": 715,
+    "method": "CharacterMovement.SetAnimTriggerSafe",
+    "il_offset": 123
+  },
+  {
+    "index": 716,
+    "method": "CharacterMovement.SetAnimTriggerSafe",
+    "il_offset": 332
+  },
+  {
+    "index": 717,
+    "method": "CharacterMovement.SetAnimTriggerSafe",
+    "il_offset": 404
+  },
+  {
+    "index": 718,
+    "method": "CharacterMovement.SetAnimTriggerSafe",
+    "il_offset": 466
+  },
+  {
+    "index": 719,
+    "method": "CharacterMovement.ForceAnimationState",
+    "il_offset": 33
+  },
+  {
+    "index": 720,
+    "method": "CharacterMovement.ForceAnimationState",
+    "il_offset": 125
+  },
+  {
+    "index": 56,
+    "method": "CharacterMovement.SetVisibile",
+    "il_offset": 143
+  },
+  {
+    "index": 721,
+    "method": "DoorMarker.Initialize",
+    "il_offset": 42
+  },
+  {
+    "index": 722,
+    "method": "EndingBookObject.Elsinore.Ui.IInteractable.get_Tooltip",
+    "il_offset": 0
+  },
+  {
+    "index": 723,
+    "method": "PetBehavior.Elsinore.Ui.ISceneInteractable.get_Room",
+    "il_offset": 56
+  },
+  {
+    "index": 724,
+    "method": "PetBehavior.UpdateTick",
+    "il_offset": 224
+  },
+  {
+    "index": 725,
+    "method": "PetBehavior.UpdateTick",
+    "il_offset": 445
+  },
+  {
+    "index": 726,
+    "method": "PetBehavior.UpdateTick",
+    "il_offset": 502
+  },
+  {
+    "index": 727,
+    "method": "PetBehavior.UpdateTick",
+    "il_offset": 936
+  },
+  {
+    "index": 728,
+    "method": "PlayerMove.updateCharFollowing",
+    "il_offset": 101
+  },
+  {
+    "index": 729,
+    "method": "PlayerMove.updateCharFollowing",
+    "il_offset": 348
+  },
+  {
+    "index": 730,
+    "method": "PlayerMove.setValidMoveDeltaTarget",
+    "il_offset": 13
+  },
+  {
+    "index": 730,
+    "method": "PlayerMove.SetTarget",
+    "il_offset": 16
+  },
+  {
+    "index": 731,
+    "method": "PlayerMove.OnWarpFadeStart",
+    "il_offset": 0
+  },
+  {
+    "index": 732,
+    "method": "PlayerMove.OnWarpFadeStart",
+    "il_offset": 211
+  },
+  {
+    "index": 733,
+    "method": "PlayerMove.OnWarpFadeWarpDoor",
+    "il_offset": 0
+  },
+  {
+    "index": 734,
+    "method": "PlayerMove.OnWarpFadeExit",
+    "il_offset": 0
+  },
+  {
+    "index": 735,
+    "method": "PlayerMove.FollowCharacter",
+    "il_offset": 9
+  },
+  {
+    "index": 736,
+    "method": "PlayerMove.FollowCharacter",
+    "il_offset": 33
+  },
+  {
+    "index": 737,
+    "method": "PlayerMove.FollowCharacter",
+    "il_offset": 75
+  },
+  {
+    "index": 738,
+    "method": "PlayerMove.FollowCharacter",
+    "il_offset": 371
+  },
+  {
+    "index": 739,
+    "method": "PlayerMove.FollowCharacter",
+    "il_offset": 620
+  },
+  {
+    "index": 740,
+    "method": "PropManager.setPropActive",
+    "il_offset": 674
+  },
+  {
+    "index": 741,
+    "method": "RoomMarker.Awake",
+    "il_offset": 72
+  },
+  {
+    "index": 56,
+    "method": "RoomMarker.Initialize",
+    "il_offset": 0
+  },
+  {
+    "index": 742,
+    "method": "RoomMarker.Initialize",
+    "il_offset": 20
+  },
+  {
+    "index": 743,
+    "method": "SoundManager.Initialize",
+    "il_offset": 538
+  },
+  {
+    "index": 744,
+    "method": "SoundManager.UpdateLogic",
+    "il_offset": 789
+  },
+  {
+    "index": 745,
+    "method": "SoundManager.UpdateLogic",
+    "il_offset": 848
+  },
+  {
+    "index": 746,
+    "method": "SoundManager.UpdateLogic",
+    "il_offset": 899
+  },
+  {
+    "index": 747,
+    "method": "SoundManager.PlaySceneSound",
+    "il_offset": 89
+  },
+  {
+    "index": 748,
+    "method": "SoundManager.PlaySceneSound",
+    "il_offset": 188
+  },
+  {
+    "index": 749,
+    "method": "SoundManager.StopPersistentSound",
+    "il_offset": 102
+  },
+  {
+    "index": 750,
+    "method": "SoundManager.PlayMusicSound",
+    "il_offset": 37
+  },
+  {
+    "index": 751,
+    "method": "SoundManager.PlayMusicSound",
+    "il_offset": 53
+  },
+  {
+    "index": 752,
+    "method": "SoundManager.SetSceneMusicParameter",
+    "il_offset": 30
+  },
+  {
+    "index": 753,
+    "method": "SoundManager.SetMusicState",
+    "il_offset": 96
+  },
+  {
+    "index": 754,
+    "method": "SoundManager.SetMusicState",
+    "il_offset": 128
+  },
+  {
+    "index": 755,
+    "method": "SoundManager.SetMusicState",
+    "il_offset": 235
+  },
+  {
+    "index": 756,
+    "method": "MoveUtils.FixupPathInfo",
+    "il_offset": 129
+  },
+  {
+    "index": 757,
+    "method": "MoveUtils.FixupPathInfo",
+    "il_offset": 326
+  },
+  {
+    "index": 758,
+    "method": "MoveUtils.FixupPathInfo",
+    "il_offset": 367
+  },
+  {
+    "index": 759,
+    "method": "MoveUtils.FixupPathInfo",
+    "il_offset": 1364
+  },
+  {
+    "index": 760,
+    "method": "SteamManager.Awake",
+    "il_offset": 38
+  },
+  {
+    "index": 761,
+    "method": "SteamManager.Awake",
+    "il_offset": 67
+  },
+  {
+    "index": 762,
+    "method": "SteamManager.Awake",
+    "il_offset": 85
+  },
+  {
+    "index": 763,
+    "method": "SteamManager.Awake",
+    "il_offset": 124
+  },
+  {
+    "index": 764,
+    "method": "SteamManager.Awake",
+    "il_offset": 167
+  },
+  {
+    "index": 765,
+    "method": "AkSoundEngine.PostEvent",
+    "il_offset": 8
+  },
+  {
+    "index": 765,
+    "method": "AkSoundEngine.PostEvent",
+    "il_offset": 5
+  },
+  {
+    "index": 765,
+    "method": "AkSoundEngine.PostEvent",
+    "il_offset": 8
+  },
+  {
+    "index": 765,
+    "method": "AkSoundEngine.PostEvent",
+    "il_offset": 5
+  },
+  {
+    "index": 766,
+    "method": "AkBankManager.LoadInitBank",
+    "il_offset": 26
+  },
+  {
+    "index": 767,
+    "method": "AkBasePathGetter.GetSoundbankBasePath",
+    "il_offset": 44
+  },
+  {
+    "index": 768,
+    "method": "AkBasePathGetter.GetSoundbankBasePath",
+    "il_offset": 60
+  },
+  {
+    "index": 769,
+    "method": "AkCallbackManager.PostCallbacks",
+    "il_offset": 299
+  },
+  {
+    "index": 770,
+    "method": "AkCallbackManager.PostCallbacks",
+    "il_offset": 469
+  },
+  {
+    "index": 771,
+    "method": "AkCallbackManager.PostCallbacks",
+    "il_offset": 890
+  },
+  {
+    "index": 772,
+    "method": "AkCallbackManager.PostCallbacks",
+    "il_offset": 901
+  },
+  {
+    "index": 773,
+    "method": "AkCommonAdvancedSettings.Validate",
+    "il_offset": 18
+  },
+  {
+    "index": 774,
+    "method": "AkCommonAdvancedSettings.Validate",
+    "il_offset": 62
+  },
+  {
+    "index": 775,
+    "method": "AkWwiseInitializationSettings.get_Instance",
+    "il_offset": 23
+  },
+  {
+    "index": 776,
+    "method": "AkWwiseInitializationSettings.GetPlatformSettings",
+    "il_offset": 77
+  },
+  {
+    "index": 777,
+    "method": "AkWwiseInitializationSettings.GetPlatformSettings",
+    "il_offset": 83
+  },
+  {
+    "index": 778,
+    "method": "AkWwiseInitializationSettings.OnEnable",
+    "il_offset": 33
+  },
+  {
+    "index": 779,
+    "method": "AkWwiseInitializationSettings.InitializeSoundEngine",
+    "il_offset": 37
+  },
+  {
+    "index": 780,
+    "method": "AkWwiseInitializationSettings.InitializeSoundEngine",
+    "il_offset": 108
+  },
+  {
+    "index": 781,
+    "method": "AkWwiseInitializationSettings.InitializeSoundEngine",
+    "il_offset": 143
+  },
+  {
+    "index": 782,
+    "method": "AkWwiseInitializationSettings.InitializeSoundEngine",
+    "il_offset": 185
+  },
+  {
+    "index": 783,
+    "method": "AkWwiseInitializationSettings.InitializeSoundEngine",
+    "il_offset": 212
+  },
+  {
+    "index": 784,
+    "method": "AkWwiseInitializationSettings.InitializeSoundEngine",
+    "il_offset": 219
+  },
+  {
+    "index": 785,
+    "method": "AkWwiseInitializationSettings.InitializeSoundEngine",
+    "il_offset": 344
+  },
+  {
+    "index": 786,
+    "method": "AkAuxSendArray.get_Item",
+    "il_offset": 9
+  },
+  {
+    "index": 787,
+    "method": "AkBaseArray`1.GetObjectPtr",
+    "il_offset": 9
+  },
+  {
+    "index": 788,
+    "method": "AkChannelEmitterArray.Add",
+    "il_offset": 14
+  },
+  {
+    "index": 789,
+    "method": "AkMIDIPostArray.get_Item",
+    "il_offset": 9
+  },
+  {
+    "index": 789,
+    "method": "AkMIDIPostArray.set_Item",
+    "il_offset": 9
+  },
+  {
+    "index": 789,
+    "method": "AkMIDIPostArray.PostOnEvent",
+    "il_offset": 9
+  },
+  {
+    "index": 790,
+    "method": "AkPositionArray.Add",
+    "il_offset": 14
+  },
+  {
+    "index": 791,
+    "method": "AkRoomPortal.UpdateSoundEngineRoomIDs",
+    "il_offset": 72
+  },
+  {
+    "index": 792,
+    "method": "AkSoundEngineController.Init",
+    "il_offset": 9
+  },
+  {
+    "index": 793,
+    "method": "AkSoundEngineController.Init",
+    "il_offset": 37
+  },
+  {
+    "index": 794,
+    "method": "AkSurfaceReflector.AddGeometrySet",
+    "il_offset": 17
+  },
+  {
+    "index": 795,
+    "method": "BaseType.Validate",
+    "il_offset": 10
+  },
+  {
+    "index": 796,
+    "method": "UserDataStore_PlayerPrefs.Save",
+    "il_offset": 8
+  },
+  {
+    "index": 796,
+    "method": "UserDataStore_PlayerPrefs.SaveControllerData",
+    "il_offset": 8
+  },
+  {
+    "index": 796,
+    "method": "UserDataStore_PlayerPrefs.SaveControllerData",
+    "il_offset": 8
+  },
+  {
+    "index": 796,
+    "method": "UserDataStore_PlayerPrefs.SavePlayerData",
+    "il_offset": 8
+  },
+  {
+    "index": 796,
+    "method": "UserDataStore_PlayerPrefs.SaveInputBehavior",
+    "il_offset": 8
+  },
+  {
+    "index": 797,
+    "method": "UserDataStore_PlayerPrefs.Load",
+    "il_offset": 8
+  },
+  {
+    "index": 797,
+    "method": "UserDataStore_PlayerPrefs.LoadControllerData",
+    "il_offset": 8
+  },
+  {
+    "index": 797,
+    "method": "UserDataStore_PlayerPrefs.LoadControllerData",
+    "il_offset": 8
+  },
+  {
+    "index": 797,
+    "method": "UserDataStore_PlayerPrefs.LoadPlayerData",
+    "il_offset": 8
+  },
+  {
+    "index": 797,
+    "method": "UserDataStore_PlayerPrefs.LoadInputBehavior",
+    "il_offset": 8
+  },
+  {
+    "index": 798,
+    "method": "UserDataStore_PlayerPrefs.GetControllerMapType",
+    "il_offset": 67
+  },
+  {
+    "index": 799,
+    "method": "PlayerPointerEventData.ToString",
+    "il_offset": 6
+  },
+  {
+    "index": 800,
+    "method": "PlayerPointerEventData.ToString",
+    "il_offset": 34
+  },
+  {
+    "index": 801,
+    "method": "PlayerPointerEventData.ToString",
+    "il_offset": 57
+  },
+  {
+    "index": 802,
+    "method": "PlayerPointerEventData.ToString",
+    "il_offset": 85
+  },
+  {
+    "index": 803,
+    "method": "PlayerPointerEventData.ToString",
+    "il_offset": 108
+  },
+  {
+    "index": 804,
+    "method": "PlayerPointerEventData.ToString",
+    "il_offset": 136
+  },
+  {
+    "index": 805,
+    "method": "RewiredPointerInputModule.ToString",
+    "il_offset": 0
+  },
+  {
+    "index": 806,
+    "method": "RewiredPointerInputModule.ToString",
+    "il_offset": 55
+  },
+  {
+    "index": 807,
+    "method": "RewiredPointerInputModule.ToString",
+    "il_offset": 97
+  },
+  {
+    "index": 808,
+    "method": "RewiredPointerInputModule.ToString",
+    "il_offset": 143
+  },
+  {
+    "index": 809,
+    "method": "RewiredStandaloneInputModule.InitializeRewired",
+    "il_offset": 7
+  },
+  {
+    "index": 810,
+    "method": "ControlRemappingDemo1.DrawInitialScreen",
+    "il_offset": 46
+  },
+  {
+    "index": 811,
+    "method": "ControlRemappingDemo1.DrawInitialScreen",
+    "il_offset": 64
+  },
+  {
+    "index": 812,
+    "method": "ControlRemappingDemo1.DrawPlayerSelector",
+    "il_offset": 12
+  },
+  {
+    "index": 813,
+    "method": "ControlRemappingDemo1.DrawMouseAssignment",
+    "il_offset": 30
+  },
+  {
+    "index": 814,
+    "method": "ControlRemappingDemo1.DrawMouseAssignment",
+    "il_offset": 87
+  },
+  {
+    "index": 815,
+    "method": "ControlRemappingDemo1.DrawJoystickSelector",
+    "il_offset": 30
+  },
+  {
+    "index": 816,
+    "method": "ControlRemappingDemo1.DrawControllerSelector",
+    "il_offset": 25
+  },
+  {
+    "index": 817,
+    "method": "ControlRemappingDemo1.DrawCalibrateButton",
+    "il_offset": 103
+  },
+  {
+    "index": 818,
+    "method": "ControlRemappingDemo1.DrawElementAssignmentWindow",
+    "il_offset": 206
+  },
+  {
+    "index": 819,
+    "method": "ControlRemappingDemo1.DrawFallbackJoystickIdentificationWindow",
+    "il_offset": 73
+  },
+  {
+    "index": 820,
+    "method": "ControlRemappingDemo1.DrawCalibrationWindow",
+    "il_offset": 414
+  },
+  {
+    "index": 821,
+    "method": "ControlRemappingDemo1.DrawCalibrationWindow",
+    "il_offset": 674
+  },
+  {
+    "index": 822,
+    "method": "ControlRemappingDemo1.DrawCalibrationWindow",
+    "il_offset": 893
+  },
+  {
+    "index": 823,
+    "method": "ControlRemappingDemo1.DrawCalibrationWindow",
+    "il_offset": 1053
+  },
+  {
+    "index": 824,
+    "method": "ControlRemappingDemo1.ProcessJoystickAssignmentChange",
+    "il_offset": 166
+  },
+  {
+    "index": 825,
+    "method": "ControlRemappingDemo1.ProcessJoystickAssignmentChange",
+    "il_offset": 178
+  },
+  {
+    "index": 826,
+    "method": "ControlRemappingDemo1.ProcessRemoveOrReassignElementAssignment",
+    "il_offset": 113
+  },
+  {
+    "index": 827,
+    "method": "ControlRemappingDemo1.ProcessRemoveOrReassignElementAssignment",
+    "il_offset": 125
+  },
+  {
+    "index": 828,
+    "method": "ControlRemappingDemo1.ProcessRemoveElementAssignment",
+    "il_offset": 94
+  },
+  {
+    "index": 829,
+    "method": "ControlRemappingDemo1.ProcessRemoveElementAssignment",
+    "il_offset": 106
+  },
+  {
+    "index": 830,
+    "method": "ControlRemappingDemo1.ProcessAddOrReplaceElementAssignment",
+    "il_offset": 120
+  },
+  {
+    "index": 831,
+    "method": "ControlRemappingDemo1.ProcessAddOrReplaceElementAssignment",
+    "il_offset": 128
+  },
+  {
+    "index": 832,
+    "method": "ControlRemappingDemo1.ProcessAddOrReplaceElementAssignment",
+    "il_offset": 142
+  },
+  {
+    "index": 833,
+    "method": "ControlRemappingDemo1.ProcessAddOrReplaceElementAssignment",
+    "il_offset": 174
+  },
+  {
+    "index": 834,
+    "method": "ControlRemappingDemo1.ProcessAddOrReplaceElementAssignment",
+    "il_offset": 182
+  },
+  {
+    "index": 835,
+    "method": "ControlRemappingDemo1.ProcessElementAssignmentConflictCheck",
+    "il_offset": 151
+  },
+  {
+    "index": 836,
+    "method": "ControlRemappingDemo1.ProcessElementAssignmentConflictCheck",
+    "il_offset": 186
+  },
+  {
+    "index": 837,
+    "method": "ControlRemappingDemo1.ProcessElementAssignmentConflictCheck",
+    "il_offset": 285
+  },
+  {
+    "index": 836,
+    "method": "ControlRemappingDemo1.ProcessElementAssignmentConflictCheck",
+    "il_offset": 320
+  },
+  {
+    "index": 838,
+    "method": "ControlRemappingDemo1.ProcessFallbackJoystickIdentification",
+    "il_offset": 45
+  },
+  {
+    "index": 839,
+    "method": "ControlRemappingDemo1.ProcessFallbackJoystickIdentification",
+    "il_offset": 57
+  },
+  {
+    "index": 840,
+    "method": "ControlRemappingDemo1.ProcessCalibration",
+    "il_offset": 45
+  },
+  {
+    "index": 841,
+    "method": "ControlRemappingDemo1.ProcessCalibration",
+    "il_offset": 57
+  },
+  {
+    "index": 842,
+    "method": "CustomControllersTiltDemo.Update",
+    "il_offset": 29
+  },
+  {
+    "index": 843,
+    "method": "CustomControllersTiltDemo.Update",
+    "il_offset": 52
+  },
+  {
+    "index": 844,
+    "method": "CustomControllerDemo.Initialize",
+    "il_offset": 153
+  },
+  {
+    "index": 845,
+    "method": "CustomControllerDemo.Initialize",
+    "il_offset": 221
+  },
+  {
+    "index": 846,
+    "method": "CustomControllerDemo_Player.Update",
+    "il_offset": 16
+  },
+  {
+    "index": 847,
+    "method": "CustomControllerDemo_Player.Update",
+    "il_offset": 32
+  },
+  {
+    "index": 848,
+    "method": "CustomControllerDemo_Player.Update",
+    "il_offset": 228
+  },
+  {
+    "index": 849,
+    "method": "DualShock4SpecialFeaturesExample.OnGUI",
+    "il_offset": 113
+  },
+  {
+    "index": 850,
+    "method": "DualShock4SpecialFeaturesExample.OnGUI",
+    "il_offset": 134
+  },
+  {
+    "index": 851,
+    "method": "DualShock4SpecialFeaturesExample.OnGUI",
+    "il_offset": 198
+  },
+  {
+    "index": 852,
+    "method": "DualShock4SpecialFeaturesExample.OnGUI",
+    "il_offset": 267
+  },
+  {
+    "index": 853,
+    "method": "DualShock4SpecialFeaturesExample.OnGUI",
+    "il_offset": 336
+  },
+  {
+    "index": 854,
+    "method": "DualShock4SpecialFeaturesExample.OnGUI",
+    "il_offset": 405
+  },
+  {
+    "index": 855,
+    "method": "DualShock4SpecialFeaturesExample.OnGUI",
+    "il_offset": 474
+  },
+  {
+    "index": 846,
+    "method": "EightPlayersExample_Player.GetInput",
+    "il_offset": 12
+  },
+  {
+    "index": 847,
+    "method": "EightPlayersExample_Player.GetInput",
+    "il_offset": 39
+  },
+  {
+    "index": 838,
+    "method": "FallbackJoystickIdentificationDemo.OnGUI",
+    "il_offset": 104
+  },
+  {
+    "index": 839,
+    "method": "FallbackJoystickIdentificationDemo.DrawDialogWindow",
+    "il_offset": 60
+  },
+  {
+    "index": 856,
+    "method": "FallbackJoystickIdentificationDemo.DrawDialogWindow",
+    "il_offset": 93
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnPointerEnter",
+    "il_offset": 46
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnPointerExit",
+    "il_offset": 46
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnPointerUp",
+    "il_offset": 46
+  },
+  {
+    "index": 858,
+    "method": "PlayerPointerEventHandlerExample.OnPointerUp",
+    "il_offset": 85
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnPointerDown",
+    "il_offset": 46
+  },
+  {
+    "index": 858,
+    "method": "PlayerPointerEventHandlerExample.OnPointerDown",
+    "il_offset": 85
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnPointerClick",
+    "il_offset": 46
+  },
+  {
+    "index": 858,
+    "method": "PlayerPointerEventHandlerExample.OnPointerClick",
+    "il_offset": 85
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnScroll",
+    "il_offset": 46
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnBeginDrag",
+    "il_offset": 46
+  },
+  {
+    "index": 858,
+    "method": "PlayerPointerEventHandlerExample.OnBeginDrag",
+    "il_offset": 85
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnDrag",
+    "il_offset": 46
+  },
+  {
+    "index": 858,
+    "method": "PlayerPointerEventHandlerExample.OnDrag",
+    "il_offset": 85
+  },
+  {
+    "index": 857,
+    "method": "PlayerPointerEventHandlerExample.OnEndDrag",
+    "il_offset": 46
+  },
+  {
+    "index": 858,
+    "method": "PlayerPointerEventHandlerExample.OnEndDrag",
+    "il_offset": 85
+  },
+  {
+    "index": 846,
+    "method": "PressAnyButtonToJoinExample_GamePlayer.GetInput",
+    "il_offset": 12
+  },
+  {
+    "index": 847,
+    "method": "PressAnyButtonToJoinExample_GamePlayer.GetInput",
+    "il_offset": 39
+  },
+  {
+    "index": 859,
+    "method": "PressStartToJoinExample_Assigner.GetRewiredPlayer",
+    "il_offset": 22
+  },
+  {
+    "index": 860,
+    "method": "PressStartToJoinExample_Assigner.AssignNextPlayer",
+    "il_offset": 19
+  },
+  {
+    "index": 861,
+    "method": "PressStartToJoinExample_Assigner.AssignNextPlayer",
+    "il_offset": 119
+  },
+  {
+    "index": 862,
+    "method": "PressStartToJoinExample_Assigner.AssignNextPlayer",
+    "il_offset": 136
+  },
+  {
+    "index": 846,
+    "method": "PressStartToJoinExample_GamePlayer.GetInput",
+    "il_offset": 12
+  },
+  {
+    "index": 847,
+    "method": "PressStartToJoinExample_GamePlayer.GetInput",
+    "il_offset": 39
+  },
+  {
+    "index": 863,
+    "method": "SimpleControlRemapping.ClearUI",
+    "il_offset": 15
+  },
+  {
+    "index": 864,
+    "method": "PapikaClient.StartSession",
+    "il_offset": 8
+  },
+  {
+    "index": 865,
+    "method": "PapikaClient.StartSession",
+    "il_offset": 22
+  },
+  {
+    "index": 866,
+    "method": "PrintEnterIntoDirection..ctor",
+    "il_offset": 22
+  },
+  {
+    "index": 867,
+    "method": "PrintEnterIntoDirection..ctor",
+    "il_offset": 39
+  },
+  {
+    "index": 868,
+    "method": "PrintEnterIntoDirection..ctor",
+    "il_offset": 62
+  },
+  {
+    "index": 869,
+    "method": "EnterExitLogLoader.LoadStageDirection",
+    "il_offset": 42
+  },
+  {
+    "index": 870,
+    "method": "InstaneousStageDirection.IsDone",
+    "il_offset": 0
+  },
+  {
+    "index": 869,
+    "method": "MiscellaneousSaveLoader.LoadStageDirection",
+    "il_offset": 82
+  },
+  {
+    "index": 869,
+    "method": "MusicSaveLoader.LoadStageDirection",
+    "il_offset": 20
+  },
+  {
+    "index": 871,
+    "method": "CameraFocusDirection.Activate",
+    "il_offset": 43
+  },
+  {
+    "index": 872,
+    "method": "GraphicsPreferenceManager.CreateQuality",
+    "il_offset": 28
+  },
+  {
+    "index": 873,
+    "method": "PlayAnimationDirection.Activate",
+    "il_offset": 29
+  },
+  {
+    "index": 874,
+    "method": "RestorePreSceneStateDirection.TryRestoringAnimState",
+    "il_offset": 286
+  },
+  {
+    "index": 875,
+    "method": "RestorePreSceneStateDirection.TryRestoringAnimState",
+    "il_offset": 384
+  },
+  {
+    "index": 876,
+    "method": "RestorePreSceneStateDirection.TryRestoringAnimState",
+    "il_offset": 724
+  },
+  {
+    "index": 877,
+    "method": "RestorePreSceneStateDirection.TryRestoringAnimState",
+    "il_offset": 826
+  },
+  {
+    "index": 878,
+    "method": "RestorePreSceneStateDirection.TryRestoringAnimState",
+    "il_offset": 895
+  },
+  {
+    "index": 869,
+    "method": "AnimationSaveLoader.LoadStageDirection",
+    "il_offset": 20
+  },
+  {
+    "index": 879,
+    "method": "EnterAndFadeOthersDirection.Activate",
+    "il_offset": 218
+  },
+  {
+    "index": 880,
+    "method": "EnterAndFadeOthersDirection.Activate",
+    "il_offset": 331
+  },
+  {
+    "index": 881,
+    "method": "EnterAndFadeOthersDirection.Activate",
+    "il_offset": 546
+  },
+  {
+    "index": 882,
+    "method": "EnterAndFadeOthersDirection.Activate",
+    "il_offset": 672
+  },
+  {
+    "index": 883,
+    "method": "MoveDirection.Activate",
+    "il_offset": 158
+  },
+  {
+    "index": 884,
+    "method": "MoveDirection.Activate",
+    "il_offset": 327
+  },
+  {
+    "index": 885,
+    "method": "WarpFadeOutDirection.ActivateImpl",
+    "il_offset": 43
+  },
+  {
+    "index": 886,
+    "method": "WarpFadeOutDirection.ActivateImpl",
+    "il_offset": 62
+  },
+  {
+    "index": 887,
+    "method": "WarpFadeOutDirection.ActivateImpl",
+    "il_offset": 129
+  },
+  {
+    "index": 888,
+    "method": "WarpFadeInDirection.Activate",
+    "il_offset": 45
+  },
+  {
+    "index": 885,
+    "method": "WarpFadeInDirection.Activate",
+    "il_offset": 87
+  },
+  {
+    "index": 889,
+    "method": "WarpFadeInDirection.Activate",
+    "il_offset": 268
+  },
+  {
+    "index": 890,
+    "method": "LookAtTransformDirection.GetGoalParams",
+    "il_offset": 371
+  },
+  {
+    "index": 891,
+    "method": "LookAtTransformDirection.GetGoalParams",
+    "il_offset": 427
+  },
+  {
+    "index": 892,
+    "method": "TurnToHeadOffsetDirection.Activate",
+    "il_offset": 31
+  },
+  {
+    "index": 893,
+    "method": "TurnToHeadOffsetDirection.Activate",
+    "il_offset": 80
+  },
+  {
+    "index": 894,
+    "method": "MovementSaveLoader.RestoreState",
+    "il_offset": 214
+  },
+  {
+    "index": 895,
+    "method": "MovementSaveLoader.RestoreState",
+    "il_offset": 358
+  },
+  {
+    "index": 896,
+    "method": "MovementSaveLoader.RestoreState",
+    "il_offset": 465
+  },
+  {
+    "index": 897,
+    "method": "MovementSaveLoader.RestoreState",
+    "il_offset": 530
+  },
+  {
+    "index": 869,
+    "method": "MovementSaveLoader.LoadStageDirection",
+    "il_offset": 122
+  },
+  {
+    "index": 898,
+    "method": "MovementSkipHandler.HandleSkippedEvents",
+    "il_offset": 219
+  },
+  {
+    "index": 899,
+    "method": "MovementSkipHandler.HandleSkippedEvents",
+    "il_offset": 426
+  },
+  {
+    "index": 900,
+    "method": "SetPieces.ActiveSetPiece",
+    "il_offset": 201
+  },
+  {
+    "index": 901,
+    "method": "SetPieces.ActivateSetPiece",
+    "il_offset": 591
+  },
+  {
+    "index": 869,
+    "method": "EnvironmentSaveLoader.LoadStageDirection",
+    "il_offset": 20
+  },
+  {
+    "index": 902,
+    "method": "Miscellany.Get",
+    "il_offset": 11
+  },
+  {
+    "index": 903,
+    "method": "AllTheGui.findAndInitialize",
+    "il_offset": 55
+  },
+  {
+    "index": 904,
+    "method": "AllTheGui.setupInput",
+    "il_offset": 41
+  },
+  {
+    "index": 905,
+    "method": "AllTheGui.setupInput",
+    "il_offset": 178
+  },
+  {
+    "index": 906,
+    "method": "AllTheGui.setupInput",
+    "il_offset": 206
+  },
+  {
+    "index": 907,
+    "method": "AllTheGui.Initialize",
+    "il_offset": 175
+  },
+  {
+    "index": 908,
+    "method": "AllTheGui.JoystickConnectedCallback",
+    "il_offset": 9
+  },
+  {
+    "index": 909,
+    "method": "AllTheGui.JoystickDisconnectedCallback",
+    "il_offset": 28
+  },
+  {
+    "index": 910,
+    "method": "AllTheGui.ActiveControllerChangedCallback",
+    "il_offset": 17
+  },
+  {
+    "index": 911,
+    "method": "AllTheGui.ActiveControllerChangedCallback",
+    "il_offset": 54
+  },
+  {
+    "index": 912,
+    "method": "AllTheGui.Update",
+    "il_offset": 20
+  },
+  {
+    "index": 912,
+    "method": "AllTheGui.Update",
+    "il_offset": 40
+  },
+  {
+    "index": 913,
+    "method": "AllTheGui.AddClickCatcher",
+    "il_offset": 21
+  },
+  {
+    "index": 914,
+    "method": "ConfirmationDialog.Awake",
+    "il_offset": 50
+  },
+  {
+    "index": 915,
+    "method": "DebugUI.Start",
+    "il_offset": 41
+  },
+  {
+    "index": 916,
+    "method": "EndingSceneUI.loadStillForEnding",
+    "il_offset": 33
+  },
+  {
+    "index": 917,
+    "method": "EndingSceneUI.Update",
+    "il_offset": 696
+  },
+  {
+    "index": 918,
+    "method": "EndingSelectUI.Awake",
+    "il_offset": 359
+  },
+  {
+    "index": 919,
+    "method": "EndingSelectUI.Awake",
+    "il_offset": 381
+  },
+  {
+    "index": 920,
+    "method": "EndingSelectUI.Awake",
+    "il_offset": 535
+  },
+  {
+    "index": 916,
+    "method": "EndingSelectUI.loadStillForEnding",
+    "il_offset": 33
+  },
+  {
+    "index": 916,
+    "method": "EndingSelectUI.loadStillForLockedEnding",
+    "il_offset": 33
+  },
+  {
+    "index": 921,
+    "method": "EndingSelectUI.populate",
+    "il_offset": 236
+  },
+  {
+    "index": 922,
+    "method": "FadeUI.StartFade",
+    "il_offset": 170
+  },
+  {
+    "index": 923,
+    "method": "GameOverUI.Awake",
+    "il_offset": 73
+  },
+  {
+    "index": 924,
+    "method": "GameOverUI.Awake",
+    "il_offset": 89
+  },
+  {
+    "index": 925,
+    "method": "GameOverUI.Awake",
+    "il_offset": 164
+  },
+  {
+    "index": 926,
+    "method": "GameOverUI.Awake",
+    "il_offset": 176
+  },
+  {
+    "index": 927,
+    "method": "GameOverUI.Activate",
+    "il_offset": 510
+  },
+  {
+    "index": 928,
+    "method": "MapUI.Awake",
+    "il_offset": 276
+  },
+  {
+    "index": 929,
+    "method": "ViewObjectDirection.Elsinore.ILoggableStageDirection.FormatLogEntry",
+    "il_offset": 33
+  },
+  {
+    "index": 930,
+    "method": "PauseUI.Awake",
+    "il_offset": 294
+  },
+  {
+    "index": 931,
+    "method": "PauseUI.Elsinore.Ui.IActivatableModalCanvas.Activate",
+    "il_offset": 80
+  },
+  {
+    "index": 932,
+    "method": "PauseUI.onSaveQuitButtonClicked",
+    "il_offset": 37
+  },
+  {
+    "index": 933,
+    "method": "PauseUI.onSaveQuitButtonClicked",
+    "il_offset": 69
+  },
+  {
+    "index": 934,
+    "method": "PauseUI.onSaveQuitButtonClicked",
+    "il_offset": 119
+  },
+  {
+    "index": 935,
+    "method": "PauseUI.onSaveQuitButtonClicked",
+    "il_offset": 127
+  },
+  {
+    "index": 936,
+    "method": "PreferencesUI.createConfirmEraseDialog",
+    "il_offset": 98
+  },
+  {
+    "index": 937,
+    "method": "PreferencesUI.createConfirmEraseDialog",
+    "il_offset": 115
+  },
+  {
+    "index": 938,
+    "method": "PresentUI.presentHearsay",
+    "il_offset": 202
+  },
+  {
+    "index": 939,
+    "method": "PresentUI.grabFirstLine",
+    "il_offset": 84
+  },
+  {
+    "index": 940,
+    "method": "PresentUI.onHearsayPressed",
+    "il_offset": 219
+  },
+  {
+    "index": 941,
+    "method": "PresentUI.onHearsayPressed",
+    "il_offset": 256
+  },
+  {
+    "index": 942,
+    "method": "PresentUI.onHearsayPressed",
+    "il_offset": 306
+  },
+  {
+    "index": 943,
+    "method": "SplashScreenUI.IInitializable.Initialize",
+    "il_offset": 97
+  },
+  {
+    "index": 944,
+    "method": "SplashScreenUI..ctor",
+    "il_offset": 49
+  },
+  {
+    "index": 945,
+    "method": "SplashScreenUI..ctor",
+    "il_offset": 60
+  },
+  {
+    "index": 946,
+    "method": "TimelineUI.prefabForItem",
+    "il_offset": 65
+  },
+  {
+    "index": 947,
+    "method": "TimelineUI.tooltipForItem",
+    "il_offset": 61
+  },
+  {
+    "index": 948,
+    "method": "TimelineUI.tooltipForItem",
+    "il_offset": 188
+  },
+  {
+    "index": 949,
+    "method": "TimelineUI.tooltipForItem",
+    "il_offset": 202
+  },
+  {
+    "index": 950,
+    "method": "TimelineUI.tooltipForItem",
+    "il_offset": 232
+  },
+  {
+    "index": 947,
+    "method": "TimelineUI.createEventContent",
+    "il_offset": 96
+  },
+  {
+    "index": 951,
+    "method": "TimelineUI.createEventContent",
+    "il_offset": 221
+  },
+  {
+    "index": 952,
+    "method": "TimelineUI.createEventContent",
+    "il_offset": 235
+  },
+  {
+    "index": 953,
+    "method": "TimelineUI.createEventContent",
+    "il_offset": 377
+  },
+  {
+    "index": 954,
+    "method": "TimelineUI.createEventContent",
+    "il_offset": 391
+  },
+  {
+    "index": 955,
+    "method": "TimelineUI.createEventContent",
+    "il_offset": 404
+  },
+  {
+    "index": 956,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 86
+  },
+  {
+    "index": 957,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 104
+  },
+  {
+    "index": 958,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 110
+  },
+  {
+    "index": 959,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 116
+  },
+  {
+    "index": 960,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 122
+  },
+  {
+    "index": 961,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 131
+  },
+  {
+    "index": 962,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 149
+  },
+  {
+    "index": 963,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 158
+  },
+  {
+    "index": 964,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 183
+  },
+  {
+    "index": 965,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 192
+  },
+  {
+    "index": 966,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 211
+  },
+  {
+    "index": 967,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 220
+  },
+  {
+    "index": 968,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 238
+  },
+  {
+    "index": 969,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 247
+  },
+  {
+    "index": 970,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 265
+  },
+  {
+    "index": 971,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 274
+  },
+  {
+    "index": 972,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 293
+  },
+  {
+    "index": 973,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 302
+  },
+  {
+    "index": 974,
+    "method": "TutorialPromptUI.GetTutorialText",
+    "il_offset": 321
+  },
+  {
+    "index": 975,
+    "method": "CreditsPlayer.Start",
+    "il_offset": 77
+  },
+  {
+    "index": 976,
+    "method": "CreditsPlayer.Start",
+    "il_offset": 228
+  },
+  {
+    "index": 977,
+    "method": "DialogBox.AddCloseButton",
+    "il_offset": 8
+  },
+  {
+    "index": 977,
+    "method": "DialogBox.AddTwoHorizontalButtonsWithDefaultSecondClose",
+    "il_offset": 8
+  },
+  {
+    "index": 977,
+    "method": "DialogBox.AddButtonWithDefaultCloseBehavior",
+    "il_offset": 8
+  },
+  {
+    "index": 978,
+    "method": "ElsinoreConsole.ParsePrimitiveEvent",
+    "il_offset": 58
+  },
+  {
+    "index": 978,
+    "method": "ElsinoreConsole.ParseHighLevelEvent",
+    "il_offset": 58
+  },
+  {
+    "index": 979,
+    "method": "ElsinoreConsole.DetailedEventStatus",
+    "il_offset": 42
+  },
+  {
+    "index": 980,
+    "method": "ElsinoreConsole.AnalysisEventDetailSim",
+    "il_offset": 36
+  },
+  {
+    "index": 981,
+    "method": "ClockUI.Elsinore.Ui.IInteractable.get_Tooltip",
+    "il_offset": 23
+  },
+  {
+    "index": 982,
+    "method": "ExplorationUI.Activate",
+    "il_offset": 79
+  },
+  {
+    "index": 983,
+    "method": "ExplorationUtils.CreateConfirmResetDialog",
+    "il_offset": 100
+  },
+  {
+    "index": 984,
+    "method": "GuiTracker.get_CurrentObservations",
+    "il_offset": 255
+  },
+  {
+    "index": 985,
+    "method": "GuiUtils.PopulateLayoutGroup",
+    "il_offset": 134
+  },
+  {
+    "index": 986,
+    "method": "HistoryTracker.Initialize",
+    "il_offset": 23
+  },
+  {
+    "index": 987,
+    "method": "HistoryTracker.AddObservationsChatterHeader",
+    "il_offset": 1
+  },
+  {
+    "index": 988,
+    "method": "HistoryTracker.formatHeader",
+    "il_offset": 175
+  },
+  {
+    "index": 989,
+    "method": "HistoryTracker.formatEntry",
+    "il_offset": 331
+  },
+  {
+    "index": 990,
+    "method": "ElsinoreButton.currentState",
+    "il_offset": 61
+  },
+  {
+    "index": 991,
+    "method": "ElsinoreUiSelectable.Update",
+    "il_offset": 50
+  },
+  {
+    "index": 992,
+    "method": "NominalValueSlider.Refresh",
+    "il_offset": 34
+  },
+  {
+    "index": 993,
+    "method": "NominalValueSlider.Refresh",
+    "il_offset": 121
+  },
+  {
+    "index": 990,
+    "method": "UiToggle.get_InteractionState",
+    "il_offset": 51
+  },
+  {
+    "index": 994,
+    "method": "SplotchLoader.NextSplotch",
+    "il_offset": 4
+  },
+  {
+    "index": 995,
+    "method": "SplotchLoader.GetSpecificSplotch",
+    "il_offset": 35
+  },
+  {
+    "index": 995,
+    "method": "SplotchLoader.GetSpecificSplotch",
+    "il_offset": 70
+  },
+  {
+    "index": 995,
+    "method": "SplotchLoader.GetSpecificSplotch",
+    "il_offset": 105
+  },
+  {
+    "index": 995,
+    "method": "SplotchLoader.GetSpecificSplotch",
+    "il_offset": 140
+  },
+  {
+    "index": 996,
+    "method": "UiSettings.Cursor",
+    "il_offset": 180
+  },
+  {
+    "index": 997,
+    "method": "UiStrings.FormatLogEntryOpener",
+    "il_offset": 82
+  },
+  {
+    "index": 998,
+    "method": "UiStrings.FormatEvent",
+    "il_offset": 9
+  },
+  {
+    "index": 999,
+    "method": "UiStrings.FormatPresents",
+    "il_offset": 1
+  },
+  {
+    "index": 1000,
+    "method": "ElsinoreLogger..ctor",
+    "il_offset": 195
+  },
+  {
+    "index": 1001,
+    "method": "Console..ctor",
+    "il_offset": 581
+  },
+  {
+    "index": 1002,
+    "method": "Console..ctor",
+    "il_offset": 676
+  },
+  {
+    "index": 1003,
+    "method": "Console.ProcessCommand",
+    "il_offset": 103
+  },
+  {
+    "index": 1004,
+    "method": "LoadingScreen+<>c__DisplayClass9_0.<load>b__0",
+    "il_offset": 25
+  },
+  {
+    "index": 1005,
+    "method": "LoadingScreen+<>c.<load>g__LoadData|9_1",
+    "il_offset": 14
+  },
+  {
+    "index": 1006,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 201
+  },
+  {
+    "index": 1007,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 236
+  },
+  {
+    "index": 1008,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 299
+  },
+  {
+    "index": 1009,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 390
+  },
+  {
+    "index": 1010,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 549
+  },
+  {
+    "index": 1011,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 726
+  },
+  {
+    "index": 1012,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 827
+  },
+  {
+    "index": 1013,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 879
+  },
+  {
+    "index": 1014,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 933
+  },
+  {
+    "index": 1015,
+    "method": "LoadingScreen+<load>d__9.MoveNext",
+    "il_offset": 999
+  },
+  {
+    "index": 1016,
+    "method": "StageDirectionManager+<>c__DisplayClass12_0.<Update>b__0",
+    "il_offset": 129
+  },
+  {
+    "index": 1017,
+    "method": "StageDirectionManager+<>c__DisplayClass12_0.<Update>b__0",
+    "il_offset": 206
+  },
+  {
+    "index": 1018,
+    "method": "AkSoundEngine+AutoObject..ctor",
+    "il_offset": 40
+  },
+  {
+    "index": 1019,
+    "method": "AkBankManager+BankHandle.LogLoadResult",
+    "il_offset": 36
+  },
+  {
+    "index": 1020,
+    "method": "AkMemBankLoader+<LoadFile>d__14.MoveNext",
+    "il_offset": 126
+  },
+  {
+    "index": 1021,
+    "method": "UnityBackend+<>c__DisplayClass2_0.<QueryUserId>b__0",
+    "il_offset": 29
+  },
+  {
+    "index": 1022,
+    "method": "UnityBackend+<>c__DisplayClass3_0.<QueryExperimentalCondition>b__0",
+    "il_offset": 29
+  },
+  {
+    "index": 1023,
+    "method": "UnityBackend+<>c__DisplayClass6_0.<LogSession>b__0",
+    "il_offset": 80
+  },
+  {
+    "index": 1024,
+    "method": "GraphicsPreferenceManager+<>c__DisplayClass16_0.<CreateResolution>b__1",
+    "il_offset": 108
+  },
+  {
+    "index": 1025,
+    "method": "ReentryLocker+LockObj..ctor",
+    "il_offset": 14
+  },
+  {
+    "index": 1026,
+    "method": "AllTheGui+UiTransitions.DeferUiAction",
+    "il_offset": 21
+  },
+  {
+    "index": 1026,
+    "method": "AllTheGui+UiTransitions.DeferUiActionAllowDialog",
+    "il_offset": 21
+  },
+  {
+    "index": 1027,
+    "method": "TimelineUI+<repopulateTimeline>d__65.MoveNext",
+    "il_offset": 479
+  },
+  {
+    "index": 1028,
+    "method": "TimelineUI+<repopulateTimeline>d__65.MoveNext",
+    "il_offset": 611
+  },
+  {
+    "index": 1029,
+    "method": "TimelineUI+<repopulateTimeline>d__65.MoveNext",
+    "il_offset": 634
+  },
+  {
+    "index": 1030,
+    "method": "TimelineUI+<repopulateTimeline>d__65.MoveNext",
+    "il_offset": 668
+  },
+  {
+    "index": 1030,
+    "method": "TimelineUI+<repopulateTimeline>d__65.MoveNext",
+    "il_offset": 710
+  },
+  {
+    "index": 1031,
+    "method": "FontSettings+FontData.AssetOfStyle",
+    "il_offset": 52
+  },
+  {
+    "index": 1032,
+    "method": "SplotchGenerator+<Setup>d__15.MoveNext",
+    "il_offset": 326
+  },
+  {
+    "index": 1032,
+    "method": "StandardButton+<Setup>d__9.MoveNext",
+    "il_offset": 311
+  },
+  {
+    "index": 1033,
+    "method": "JournalCharactersTab+<>c__DisplayClass15_0.<OnEnable>b__0",
+    "il_offset": 159
+  },
+  {
+    "index": 1033,
+    "method": "JournalCharactersTab+<>c__DisplayClass15_0.<OnEnable>b__0",
+    "il_offset": 202
+  },
+  {
+    "index": 1033,
+    "method": "JournalCharactersTab+<>c__DisplayClass15_0.<OnEnable>b__0",
+    "il_offset": 245
+  },
+  {
+    "index": 1034,
+    "method": "TimelineIconMap+<>c__DisplayClass3_0.<.ctor>b__2",
+    "il_offset": 185
+  },
+  {
+    "index": 1035,
+    "method": "UiSettings+ButtonColorData.ColorOfState",
+    "il_offset": 63
+  }
+]

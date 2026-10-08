@@ -1,0 +1,137 @@
+[
+  {
+    "id": "a00929-7cdab5f004fb",
+    "source": "Ophelia looks at \"{0}.\"",
+    "target": "奥菲莉娅查看“{0}”。",
+    "pattern": "^Ophelia\\ looks\\ at\\ \"(?<arg0>[\\s\\S]*?)\\.\"$",
+    "replacement": "奥菲莉娅查看“${arg0}”。",
+    "preserve_args": false,
+    "encoded_line": "sr:\"^Ophelia\\\\ looks\\\\ at\\\\ \"(?<arg0>[\\\\s\\\\S]*?)\\\\.\"$\"=\"奥菲莉娅查看“${arg0}”。\""
+  },
+  {
+    "id": "a00932-6c713d6e5a50",
+    "source": "Quit Game?\nThe last autosave was {0} seconds ago.",
+    "target": "退出游戏？\n上次自动保存是在 {0} 秒前。",
+    "pattern": "^Quit\\ Game\\?\\\nThe\\ last\\ autosave\\ was\\ (?<arg0>[\\s\\S]*?)\\ seconds\\ ago\\.$",
+    "replacement": "退出游戏？\n上次自动保存是在 ${arg0} 秒前。",
+    "preserve_args": false,
+    "encoded_line": "sr:\"^Quit\\\\ Game\\\\?\\\\\\nThe\\\\ last\\\\ autosave\\\\ was\\\\ (?<arg0>[\\\\s\\\\S]*?)\\\\ seconds\\\\ ago\\\\.$\"=\"退出游戏？\\n上次自动保存是在 ${arg0} 秒前。\""
+  },
+  {
+    "id": "a00933-0aa97bdb28b9",
+    "source": "Quit Game?\nThe last autosave was {0} minutes ago.",
+    "target": "退出游戏？\n上次自动保存是在 {0} 分钟前。",
+    "pattern": "^Quit\\ Game\\?\\\nThe\\ last\\ autosave\\ was\\ (?<arg0>[\\s\\S]*?)\\ minutes\\ ago\\.$",
+    "replacement": "退出游戏？\n上次自动保存是在 ${arg0} 分钟前。",
+    "preserve_args": false,
+    "encoded_line": "sr:\"^Quit\\\\ Game\\\\?\\\\\\nThe\\\\ last\\\\ autosave\\\\ was\\\\ (?<arg0>[\\\\s\\\\S]*?)\\\\ minutes\\\\ ago\\\\.$\"=\"退出游戏？\\n上次自动保存是在 ${arg0} 分钟前。\""
+  },
+  {
+    "id": "a00941-55835fca8df0",
+    "source": "<i>I don't think {0} cares about this information.</i>",
+    "target": "<i>我觉得{0}不会在意这条消息。</i>",
+    "pattern": "^<i>I\\ don't\\ think\\ (?<arg0>[\\s\\S]*?)\\ cares\\ about\\ this\\ information\\.</i>$",
+    "replacement": "<i>我觉得${arg0}不会在意这条消息。</i>",
+    "preserve_args": false,
+    "encoded_line": "sr:\"^<i>I\\\\ don't\\\\ think\\\\ (?<arg0>[\\\\s\\\\S]*?)\\\\ cares\\\\ about\\\\ this\\\\ information\\\\.</i>$\"=\"<i>我觉得${arg0}不会在意这条消息。</i>\""
+  },
+  {
+    "id": "a00942-c7001f32282b",
+    "source": "<i>{0} has already seen this information.</i>",
+    "target": "<i>{0}已经看过这条消息了。</i>",
+    "pattern": "^<i>(?<arg0>[\\s\\S]*?)\\ has\\ already\\ seen\\ this\\ information\\.</i>$",
+    "replacement": "<i>${arg0}已经看过这条消息了。</i>",
+    "preserve_args": false,
+    "encoded_line": "sr:\"^<i>(?<arg0>[\\\\s\\\\S]*?)\\\\ has\\\\ already\\\\ seen\\\\ this\\\\ information\\\\.</i>$\"=\"<i>${arg0}已经看过这条消息了。</i>\""
+  },
+  {
+    "id": "a00956-082691dec001",
+    "source": "This is your journal. Try pressing {0} to open it now.",
+    "target": "这是你的日志。现在试着按 {0} 打开它。",
+    "pattern": "^This\\ is\\ your\\ journal\\.\\ Try\\ pressing\\ (?<arg0_i>[\\s\\S]*?)\\ to\\ open\\ it\\ now\\.$",
+    "replacement": "这是你的日志。现在试着按 ${arg0_i} 打开它。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^This\\\\ is\\\\ your\\\\ journal\\\\.\\\\ Try\\\\ pressing\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ to\\\\ open\\\\ it\\\\ now\\\\.$\"=\"这是你的日志。现在试着按 ${arg0_i} 打开它。\""
+  },
+  {
+    "id": "a00961-49dec521998a",
+    "source": "This is your Map. You can use it to see when events are happening around the castle. Try pressing {0} to open it now.",
+    "target": "这是你的地图。你可以用它查看城堡各处的事件何时发生。现在试着按 {0} 打开它。",
+    "pattern": "^This\\ is\\ your\\ Map\\.\\ You\\ can\\ use\\ it\\ to\\ see\\ when\\ events\\ are\\ happening\\ around\\ the\\ castle\\.\\ Try\\ pressing\\ (?<arg0_i>[\\s\\S]*?)\\ to\\ open\\ it\\ now\\.$",
+    "replacement": "这是你的地图。你可以用它查看城堡各处的事件何时发生。现在试着按 ${arg0_i} 打开它。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^This\\\\ is\\\\ your\\\\ Map\\\\.\\\\ You\\\\ can\\\\ use\\\\ it\\\\ to\\\\ see\\\\ when\\\\ events\\\\ are\\\\ happening\\\\ around\\\\ the\\\\ castle\\\\.\\\\ Try\\\\ pressing\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ to\\\\ open\\\\ it\\\\ now\\\\.$\"=\"这是你的地图。你可以用它查看城堡各处的事件何时发生。现在试着按 ${arg0_i} 打开它。\""
+  },
+  {
+    "id": "a00963-4f2192fddfcf",
+    "source": "You can also use the map to quickly reach rooms or characters. Try navigating to your bedroom with {0} and press {1}.",
+    "target": "你也可以用地图快速前往房间或人物所在处。试着用 {0} 选中你的卧室，再按 {1}。",
+    "pattern": "^You\\ can\\ also\\ use\\ the\\ map\\ to\\ quickly\\ reach\\ rooms\\ or\\ characters\\.\\ Try\\ navigating\\ to\\ your\\ bedroom\\ with\\ (?<arg0_i>[\\s\\S]*?)\\ and\\ press\\ (?<arg1_i>[\\s\\S]*?)\\.$",
+    "replacement": "你也可以用地图快速前往房间或人物所在处。试着用 ${arg0_i} 选中你的卧室，再按 ${arg1_i}。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^You\\\\ can\\\\ also\\\\ use\\\\ the\\\\ map\\\\ to\\\\ quickly\\\\ reach\\\\ rooms\\\\ or\\\\ characters\\\\.\\\\ Try\\\\ navigating\\\\ to\\\\ your\\\\ bedroom\\\\ with\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ and\\\\ press\\\\ (?<arg1_i>[\\\\s\\\\S]*?)\\\\.$\"=\"你也可以用地图快速前往房间或人物所在处。试着用 ${arg0_i} 选中你的卧室，再按 ${arg1_i}。\""
+  },
+  {
+    "id": "a00965-b5a153b37f53",
+    "source": "This is your Timeline. Here you can see past events Ophelia knows about, as well as future events which might occur. Try pressing {0} to open it now.",
+    "target": "这是你的时间线。这里可以查看奥菲莉娅知道的过往事件，以及未来可能发生的事件。现在试着按 {0} 打开它。",
+    "pattern": "^This\\ is\\ your\\ Timeline\\.\\ Here\\ you\\ can\\ see\\ past\\ events\\ Ophelia\\ knows\\ about,\\ as\\ well\\ as\\ future\\ events\\ which\\ might\\ occur\\.\\ Try\\ pressing\\ (?<arg0_i>[\\s\\S]*?)\\ to\\ open\\ it\\ now\\.$",
+    "replacement": "这是你的时间线。这里可以查看奥菲莉娅知道的过往事件，以及未来可能发生的事件。现在试着按 ${arg0_i} 打开它。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^This\\\\ is\\\\ your\\\\ Timeline\\\\.\\\\ Here\\\\ you\\\\ can\\\\ see\\\\ past\\\\ events\\\\ Ophelia\\\\ knows\\\\ about,\\\\ as\\\\ well\\\\ as\\\\ future\\\\ events\\\\ which\\\\ might\\\\ occur\\\\.\\\\ Try\\\\ pressing\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ to\\\\ open\\\\ it\\\\ now\\\\.$\"=\"这是你的时间线。这里可以查看奥菲莉娅知道的过往事件，以及未来可能发生的事件。现在试着按 ${arg0_i} 打开它。\""
+  },
+  {
+    "id": "a00967-e803be9434d3",
+    "source": "This is a past event. Here you can see which characters attended the event and what came of it. Try pressing {0} to open it.",
+    "target": "这是一个过去的事件。这里可以查看哪些人物参与了此事件，以及事件的结果。试着按 {0} 打开它。",
+    "pattern": "^This\\ is\\ a\\ past\\ event\\.\\ Here\\ you\\ can\\ see\\ which\\ characters\\ attended\\ the\\ event\\ and\\ what\\ came\\ of\\ it\\.\\ Try\\ pressing\\ (?<arg0_i>[\\s\\S]*?)\\ to\\ open\\ it\\.$",
+    "replacement": "这是一个过去的事件。这里可以查看哪些人物参与了此事件，以及事件的结果。试着按 ${arg0_i} 打开它。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^This\\\\ is\\\\ a\\\\ past\\\\ event\\\\.\\\\ Here\\\\ you\\\\ can\\\\ see\\\\ which\\\\ characters\\\\ attended\\\\ the\\\\ event\\\\ and\\\\ what\\\\ came\\\\ of\\\\ it\\\\.\\\\ Try\\\\ pressing\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ to\\\\ open\\\\ it\\\\.$\"=\"这是一个过去的事件。这里可以查看哪些人物参与了此事件，以及事件的结果。试着按 ${arg0_i} 打开它。\""
+  },
+  {
+    "id": "a00969-dbd26c2bf28a",
+    "source": "Future events are marked in blue. Because Elsinore's state is constantly changing, there is no guarantee a future event will happen for certain. Try pressing {0} to open it.",
+    "target": "未来的事件以蓝色标记。由于埃尔西诺的状况不断变化，未来的事件不一定会发生。试着按 {0} 打开它。",
+    "pattern": "^Future\\ events\\ are\\ marked\\ in\\ blue\\.\\ Because\\ Elsinore's\\ state\\ is\\ constantly\\ changing,\\ there\\ is\\ no\\ guarantee\\ a\\ future\\ event\\ will\\ happen\\ for\\ certain\\.\\ Try\\ pressing\\ (?<arg0_i>[\\s\\S]*?)\\ to\\ open\\ it\\.$",
+    "replacement": "未来的事件以蓝色标记。由于埃尔西诺的状况不断变化，未来的事件不一定会发生。试着按 ${arg0_i} 打开它。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^Future\\\\ events\\\\ are\\\\ marked\\\\ in\\\\ blue\\\\.\\\\ Because\\\\ Elsinore's\\\\ state\\\\ is\\\\ constantly\\\\ changing,\\\\ there\\\\ is\\\\ no\\\\ guarantee\\\\ a\\\\ future\\\\ event\\\\ will\\\\ happen\\\\ for\\\\ certain\\\\.\\\\ Try\\\\ pressing\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ to\\\\ open\\\\ it\\\\.$\"=\"未来的事件以蓝色标记。由于埃尔西诺的状况不断变化，未来的事件不一定会发生。试着按 ${arg0_i} 打开它。\""
+  },
+  {
+    "id": "a00971-0ed73c73e945",
+    "source": "You can now use the clock to fast forward time. Try holding {0} to fast forward time now.",
+    "target": "现在你可以使用时钟加快时间流逝。试着按住 {0}，加快时间流逝。",
+    "pattern": "^You\\ can\\ now\\ use\\ the\\ clock\\ to\\ fast\\ forward\\ time\\.\\ Try\\ holding\\ (?<arg0_i>[\\s\\S]*?)\\ to\\ fast\\ forward\\ time\\ now\\.$",
+    "replacement": "现在你可以使用时钟加快时间流逝。试着按住 ${arg0_i}，加快时间流逝。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^You\\\\ can\\\\ now\\\\ use\\\\ the\\\\ clock\\\\ to\\\\ fast\\\\ forward\\\\ time\\\\.\\\\ Try\\\\ holding\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ to\\\\ fast\\\\ forward\\\\ time\\\\ now\\\\.$\"=\"现在你可以使用时钟加快时间流逝。试着按住 ${arg0_i}，加快时间流逝。\""
+  },
+  {
+    "id": "a00973-0bc7472861a4",
+    "source": "You can now reset the time loop at any time. Press {0} to open a menu where you can restart the loop.",
+    "target": "现在你可以随时重置时间循环。按 {0} 打开菜单，即可重新开始循环。",
+    "pattern": "^You\\ can\\ now\\ reset\\ the\\ time\\ loop\\ at\\ any\\ time\\.\\ Press\\ (?<arg0_i>[\\s\\S]*?)\\ to\\ open\\ a\\ menu\\ where\\ you\\ can\\ restart\\ the\\ loop\\.$",
+    "replacement": "现在你可以随时重置时间循环。按 ${arg0_i} 打开菜单，即可重新开始循环。",
+    "preserve_args": true,
+    "encoded_line": "sr:\"^You\\\\ can\\\\ now\\\\ reset\\\\ the\\\\ time\\\\ loop\\\\ at\\\\ any\\\\ time\\\\.\\\\ Press\\\\ (?<arg0_i>[\\\\s\\\\S]*?)\\\\ to\\\\ open\\\\ a\\\\ menu\\\\ where\\\\ you\\\\ can\\\\ restart\\\\ the\\\\ loop\\\\.$\"=\"现在你可以随时重置时间循环。按 ${arg0_i} 打开菜单，即可重新开始循环。\""
+  },
+  {
+    "id": "a00999-8520ec2ce77a",
+    "source": "Ophelia presents \"{0}\" to {1}.",
+    "target": "奥菲莉娅向{1}出示“{0}”。",
+    "pattern": "^Ophelia\\ presents\\ \"(?<arg0>[\\s\\S]*?)\"\\ to\\ (?<arg1>[\\s\\S]*?)\\.$",
+    "replacement": "奥菲莉娅向${arg1}出示“${arg0}”。",
+    "preserve_args": false,
+    "encoded_line": "sr:\"^Ophelia\\\\ presents\\\\ \"(?<arg0>[\\\\s\\\\S]*?)\"\\\\ to\\\\ (?<arg1>[\\\\s\\\\S]*?)\\\\.$\"=\"奥菲莉娅向${arg1}出示“${arg0}”。\""
+  },
+  {
+    "id": "a01030-d27ee8444326",
+    "source": "Timeline of Loop {0}",
+    "target": "第{0}次循环时间线",
+    "pattern": "^Timeline\\ of\\ Loop\\ (?<arg0>[\\s\\S]*?)$",
+    "replacement": "第${arg0}次循环时间线",
+    "preserve_args": false,
+    "encoded_line": "sr:\"^Timeline\\\\ of\\\\ Loop\\\\ (?<arg0>[\\\\s\\\\S]*?)$\"=\"第${arg0}次循环时间线\""
+  }
+]

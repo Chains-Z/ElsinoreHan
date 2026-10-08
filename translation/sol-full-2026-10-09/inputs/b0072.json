@@ -1,0 +1,2529 @@
+[
+  {
+    "id": "p10410-f769362100da",
+    "source": "And when it heals, perhaps finally it will be healed for good.",
+    "source_sha256": "f769362100da268b6b3a686208928cec17c8a7beb4317779e3b410c5a3e3584b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2060636"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 29494,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10411-194248a9bd32",
+    "source": "You have returned.",
+    "source_sha256": "194248a9bd32e5b9526681e24b0a4787df94de4dc0cdc807f17ef4e471293400",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "{Hmm}",
+      "line": 29504,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10412-051aebaa7123",
+    "source": "King Hamlet? Surely that can't be you.",
+    "source_sha256": "051aebaa7123149dd9ce1fabff8632b74105b5b2325f8c276e261dc0b6527c26",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:935824"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Gasp}",
+      "line": 29505,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10413-758aa1002dda",
+    "source": "It is.",
+    "source_sha256": "758aa1002dda5d14aef24c6cd134a1d9ffd859fdb05b8774b804f891e78b7efe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29506,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10414-9cf9c05e96a7",
+    "source": "It's been a long time.",
+    "source_sha256": "9cf9c05e96a7cf5ddb5f75ab001bf5f32b159c4ed188710fa13dc8c4c2242010",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:935930"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 29508,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10415-6791cd486fae",
+    "source": "Has it?",
+    "source_sha256": "6791cd486faec0d6e9f87ab489e7e81f0081b73c4b6322f35e7ee3ce15b4dfd6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29509,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10416-d8d482c9287c",
+    "source": "Or at least, I think-- I think I've been gone a long time.",
+    "source_sha256": "d8d482c9287c9af495e5ffeae3ab3458cdd6f22aa78466cab445cb51f3dd9530",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 29511,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10417-a00a950c6103",
+    "source": "It felt like an instant between the last time I saw you and this awakening, now. I suppose I must have been waiting for you, then.",
+    "source_sha256": "a00a950c6103206a278ddc9af51da73878b1add11874027342f8915e00af0f1e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29513,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10418-8cfff86473c1",
+    "source": "It's good to see you. We make an odd pair, don't we? But I've got some unfinished business.",
+    "source_sha256": "8cfff86473c19b74ea6017e7aed2ebe9f56d85dd3de63865d1a395df74eee93f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:936397"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 29514,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10419-c2a22e308489",
+    "source": "Evidently so.",
+    "source_sha256": "c2a22e308489daae4036986bbb49fce1e3c597568490b434fe3c3d25e98b2175",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29515,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10420-edd32946db91",
+    "source": "Say, there isn't a mirror in here. What do I look like?",
+    "source_sha256": "edd32946db918806365dec3a25d0aae312040638bf521b0438bc225e737bc634",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:936624"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 29518,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10421-d1052433c361",
+    "source": "My hands-- they're so soft!",
+    "source_sha256": "d1052433c361a937bb2f252e72ad01ddecde33468970ee8714b25f22c43960fe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 29519,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10422-631c0f7dbdc5",
+    "source": "You look just as you did then.",
+    "source_sha256": "631c0f7dbdc5ed32df9de5b6bb9e40381fd0b03617872a00a4aca02a784d5dce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29520,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10423-13462e782fe7",
+    "source": "It's a funny thing, these young, delicate hands. I spent the rest of my life not knowing how strong these hands already were.",
+    "source_sha256": "13462e782fe7d8eb626e4676051ac1d600e98dbed228218a72c51753d78012a2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:936864"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[smile]",
+      "line": 29521,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10424-6080fcbe2b4e",
+    "source": "Glad to see death hasn't sapped you of your steel.",
+    "source_sha256": "6080fcbe2b4e68c26e5219a7a7c398a5c67dc4766175305bd2f9d28e79aff88a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "{Chuckle}",
+      "line": 29523,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10425-117a203d322e",
+    "source": "Of course not. Where are we? <i>When</i> are we?",
+    "source_sha256": "117a203d322ece640e76c332ecef193f4593c03284abe18e1051eeadffde6405",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:937233"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 29524,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10426-311dad0b34aa",
+    "source": "This is the afterwards. Neither Heaven nor Hell. Simply the nothingness in between.",
+    "source_sha256": "311dad0b34aa2c905eda1da2119645e2ca9b407920a6316eacde87dd1ed42996",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29525,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10427-de86a7bf893b",
+    "source": "I came here for a reason, I think.",
+    "source_sha256": "de86a7bf893b0e2f98e0bd1574b4e86fefa002a68c326e9411f55af1a15473e7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:937514"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Stammer}",
+      "line": 29528,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10428-b8bbd27dbea9",
+    "source": "I have to go back to Elsinore.",
+    "source_sha256": "b8bbd27dbea9586f7a17c7f2293c71513e98f4f3cf9ba6ed67103b010e35b069",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:937584"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29529,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10429-764ef627f52a",
+    "source": "Go <b>back?</b>",
+    "source_sha256": "764ef627f52aa104d3e8704bf8ff7569e859c17b5e7bdb64e0cab780ce664543",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "{Gasp}",
+      "line": 29530,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10430-414f56640af5",
+    "source": "Can you help me? Do you still know how to return?",
+    "source_sha256": "414f56640af5e38e347fa76873e00b698ebccb412e7d58a4a5369408f58580e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:937692"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29532,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10431-b4d623ece42b",
+    "source": "Of course I do. But why would you consider such a thing?",
+    "source_sha256": "b4d623ece42bba21b2dd548221ec6c833311bc0d6dc7161cf04ad67d3e9ecd83",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29533,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10432-34db0e57be29",
+    "source": "After all this time...",
+    "source_sha256": "34db0e57be292f391e785d5033d2d0c8772a5030caf14a8f5474d69a594ec387",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[disgust] {Hurt}",
+      "line": 29534,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10433-b76a06dd2de3",
+    "source": "You <b>chose,</b> Ophelia!",
+    "source_sha256": "b76a06dd2de33a9a2315c16950562e9ee1cce3c237b91499ff4076691ff28384",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[disgust]",
+      "line": 29536,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10434-e4872194110d",
+    "source": "You left that world behind. Why now?",
+    "source_sha256": "e4872194110db3bf76fec531f41802dd1dcef014519e78c422bf0d20eca49cad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[disgust]",
+      "line": 29537,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10435-c244e7810906",
+    "source": "What if I chose <i>wrong?</i>",
+    "source_sha256": "c244e7810906428fc71e1b680a31efd9ddcde2b77677bb47ad3005c21dc2e7ed",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:938154"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[afraid]",
+      "line": 29539,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10436-014bf8f82b6d",
+    "source": "What difference does that make?",
+    "source_sha256": "014bf8f82b6d58d149867996e454a9a872c6567f5c4bfdf5a92c29338ced6316",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29540,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10437-7c7c20012078",
+    "source": "An entire lifetime of difference!",
+    "source_sha256": "7c7c20012078b3e2d57dbc62e8eb1c52f1c5ef5a0cbefcecf5531382f526c18c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:938292"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[afraid]",
+      "line": 29541,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10438-5dc036e6f60a",
+    "source": "And a difference in the lives of all those people. What if there's a different world, a better world? Don't I owe them that?",
+    "source_sha256": "5dc036e6f60a15a40dd4769ae45f41991f7e6fa5aa534655dbdfb5e9d7049904",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:938360"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[afraid]",
+      "line": 29542,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10439-35155a66caaa",
+    "source": "Ophelia. Do you know what I would give to have left Elsinore behind in life, even just once?",
+    "source_sha256": "35155a66caaa560da8ebaf9255631083ba3dd014cc2e2e678389f0f430becddf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[despair] {Ophelia}",
+      "line": 29544,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10440-19f799a321d9",
+    "source": "That chance was stolen from me.",
+    "source_sha256": "19f799a321d9f65e78e4e4bd6079d0f572ac6a0cf266cf71bd791ed1d77e0bed",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[despair]",
+      "line": 29545,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10441-56f900d4cd75",
+    "source": "Now you treat it as though it's something easily exchanged. As though you could put your life back on the shelf and choose another.",
+    "source_sha256": "56f900d4cd75ca0d3fe82ff452ad0dc3a3183a7fddb1c27697650aa8d4de22a9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[despair]",
+      "line": 29546,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10442-5586986ee4c5",
+    "source": "I know it's painful. I'm sorry to have woken you again. I wanted to let you rest-- I didn't <i>know</i> coming back would be like this.",
+    "source_sha256": "5586986ee4c59f70ca18cd3263eb03762259818c2b325813509ea952cf05e506",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29547,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10443-7530039501d9",
+    "source": "You know I'd never intend to hurt you, Hamlet.",
+    "source_sha256": "7530039501d9ec177ef43574b8c1912aae10edbc1d4349e9396f4e4da39fa8d5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:939438"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29548,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10444-646e4760d1ab",
+    "source": "Truth be told, I'm not even certain I <i>should</i> be re-opening the Book of Fates.",
+    "source_sha256": "646e4760d1ab21425bfcd6cc92223792be798c8654a7d78839f31915c06eefc1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:939532"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29549,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10445-b5a6d4755822",
+    "source": "If I cannot find another fate worth pursuing, I may simply let the matter rest and return to the world I had chosen after all.",
+    "source_sha256": "b5a6d4755822cc896d86d1617814965b1fb219c9262b17a2ef2c481909285553",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:939703"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29550,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10446-4fa764ce331a",
+    "source": "I can always return here, can I not?",
+    "source_sha256": "4fa764ce331ae891a46bed77fdef62f59cc03a141e872045dfd3a17a6ad7ce35",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:939958"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 29551,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10447-6af6eca10bda",
+    "source": "No, no. There is something you do not understand about the threads of fate, I think. They are woven together as one, a transcendent tapestry.",
+    "source_sha256": "6af6eca10bda67e27338dd8706ea80e02cd463150eaf1587b914f35daaa2f98c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[disgust] {No_Grave}",
+      "line": 29552,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10448-e67bccd837ad",
+    "source": "This is not a simple matter of browsing what might have been.",
+    "source_sha256": "e67bccd837ad814ae6bbed6decd53ae432a870c34ff6ba9cb353ef94565b3bd6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[disgust]",
+      "line": 29553,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10449-3403f6fdb95b",
+    "source": "By choosing the world you did, you pulled that world's thread forever. If you choose to return to Elsinore, <b>you cannot return to the path you chose.</b>",
+    "source_sha256": "3403f6fdb95bc5f77e1cc2dc32c6a2e3e69a7b3651210e8a5ff74fc20a1340a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29554,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10450-144f1f1510bd",
+    "source": "You're saying...",
+    "source_sha256": "144f1f1510bd910bdc36d9b6b72a363622bc70745f42b9a77e7f66dc5aa25ade",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:940797"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[afraid] {Gasp}",
+      "line": 29555,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10451-5111c7b89430",
+    "source": "Yes. In other words, <b>you will not be able to return to that particular fate.</b>",
+    "source_sha256": "5111c7b894305d97fea7ae5ae8fac158f86c624fa22d0fa9cc28b9e758039812",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Yes_Grave}",
+      "line": 29556,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10452-aea7c20f2d87",
+    "source": "It is shattered. Gone. And once you set foot back in Elsinore, you will lose all memory of what you chose.",
+    "source_sha256": "aea7c20f2d8705130c4b1b21c424c432c3ce5bd3d83a521934b49fcde65a9404",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29557,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10453-2b1154a04f81",
+    "source": "Please. I urge you not to do this, Ophelia. I urge you with everything in my heart.",
+    "source_sha256": "2b1154a04f8123a14b12041f9c770a027704ca560bfb935842c1e7a9a132b550",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[despair] {Please_Sad}",
+      "line": 29561,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10454-16e821ff31c7",
+    "source": "It's not too late to turn back!",
+    "source_sha256": "16e821ff31c73c5df24b350f83da236fa0ac23c279665d0c13f373a741b3b864",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[despair]",
+      "line": 29562,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10455-2e17f7c43dd5",
+    "source": "Disregard King Hamlet's words and return to Elsinore?",
+    "source_sha256": "2e17f7c43dd5237e60c9e31b130f5b1479cbdf57392695e1a3ec14d3d9726d61",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:943981"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10456-5e328d7f2a31",
+    "source": "Here you are yet again.",
+    "source_sha256": "5e328d7f2a31624a0734e68fe7803acea14215e5367655b7c225f00dfe758760",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Hmm}",
+      "line": 29566,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10457-86e88dc594fd",
+    "source": "Perhaps. Perhaps not.",
+    "source_sha256": "86e88dc594fdcb3aa5d6de080b944b503615657df3783577e09a8c6a2ce467ab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29571,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10458-8087f1724946",
+    "source": "What do you recall?",
+    "source_sha256": "8087f17249465f76c1ad6a327d21395ba61908c6d033e7c092ef88a5fd40cba3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29572,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10459-461958ecf342",
+    "source": "Only that I came here at the end of my life. And I know now-- though I did not know in Elsinore-- that you and I have spoken here before, in this place.",
+    "source_sha256": "461958ecf34206d9c0341d7687fefc631e22e094d35fdf9ae23557ff4de8bc2a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Ah}",
+      "line": 29573,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10460-1aba3badff4d",
+    "source": "This... in-between.",
+    "source_sha256": "1aba3badff4dd3ceb85d0f065913ab94266c16484d7adbae6344da6d09a129bb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:944562"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 29574,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10461-b8b72b3d2895",
+    "source": "And what before that? What before we last spoke?",
+    "source_sha256": "b8b72b3d2895e546aeae4bb5f347fb6a1b7e9ca6754e3c7ab43bca823f626578",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Heavy_Sigh}",
+      "line": 29575,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10462-3d9ed517836a",
+    "source": "I cannot remember.",
+    "source_sha256": "3d9ed517836a161df0c5d384d0d0b2330f875ac733c032676f605c5f4dad2521",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:944714"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 29578,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10463-bb6da5d83702",
+    "source": "Then it is as I warned you. You have no memory of the fate you chose before.",
+    "source_sha256": "bb6da5d8370231f97c3f123369c57bdaa0f955b2fd0ffb7a002dedaf88a70f53",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29579,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10464-bac8a56b56d0",
+    "source": "That must be true.",
+    "source_sha256": "bac8a56b56d0b9a3b77a72766d3d451e7e72cff33266ac59070a4cb52ed964b0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:944921"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29580,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10465-094d852e4b1f",
+    "source": "Still, I think I returned to this place because I have to go back to Elsinore.",
+    "source_sha256": "094d852e4b1fc4c6a690edb54be487576f728e300e454c4e9d448fd540dd69fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:944959"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29581,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10466-845e508e10b5",
+    "source": "You already <i>have.</i>",
+    "source_sha256": "845e508e10b599337b0bcebb098543ec099f19ee830915c78e1f2ac6c88b10ac",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29582,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10467-808b0f885b22",
+    "source": "And evidently, I didn't find what I was looking for.",
+    "source_sha256": "808b0f885b22a7dc7f415198dcb0aaead5dfa413c3acf777111fde639d728735",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:945182"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 29583,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10468-e781967cdfdc",
+    "source": "Yes. Your return on that occasion brought you no more happiness than your first fate.",
+    "source_sha256": "e781967cdfdc12586ba91d847b9c57ab68c79d91de4de2897de53f9e71e452e2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "{Yes_Grave}",
+      "line": 29584,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10469-b92f57c81de3",
+    "source": "What leads you to believe that this attempt shall yield more fruitful results?",
+    "source_sha256": "b92f57c81de3c30fe681ebc9fa64ed870489a75e0a4b77fec373e32307747205",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29585,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10470-3545867bb8df",
+    "source": "Besides, if you return to Elsinore again, you will lose all memory of <b>this</b> fate, too.",
+    "source_sha256": "3545867bb8df8f474b22f20eda3d70334bf3eb6fb7d60cbb21149069d0ff9f14",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29586,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10471-2772276d961c",
+    "source": "This past time... when you chose your fate... <b>that</b> me, that Hamlet, had no knowledge of this in-between place. Neither did you.",
+    "source_sha256": "2772276d961ce6ac538db685423a26ac1556f12027eca415af1adda23f8f6e17",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "{Heavy_Sigh}",
+      "line": 29591,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10472-2a0613d1ca7a",
+    "source": "That version of me believed we were still friends. But now, looking at you, my wits about me, I am not so certain.",
+    "source_sha256": "2a0613d1ca7a6b8faf80fe4bbdf9fa0587339c6e32b3d6f8e1e46c190ad39cbe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29592,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10473-b6ef2ca19f09",
+    "source": "You need not continue, you know. Will you finally allow all of us to rest?",
+    "source_sha256": "b6ef2ca19f0927be134c07100ddfa64ad02e383ebf5c72bc0c659b1ed8bb8d97",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29593,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10474-97b307be8e43",
+    "source": "Or will you force the both of us to continue to endure this hell?",
+    "source_sha256": "97b307be8e439d9c43111544b4c722870bcbbf938ee26b2ac17230cfb4d9af50",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29594,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10475-0229ddb35961",
+    "source": "I had thought you'd surely not return.",
+    "source_sha256": "0229ddb35961212f8d2f966ac5c32947a9c1e50a9ebd6bbf0fb5803dc92854d3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Hurt}",
+      "line": 29599,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10476-1320be40d885",
+    "source": "I thought the same.",
+    "source_sha256": "1320be40d8857e97e8820c5374ef8e40abf834ac82a02e599a159e867c4c6cb9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:946783"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29600,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10477-d19fa87998ce",
+    "source": "You know, I cherish you dearly when I am pulled back to Elsinore.",
+    "source_sha256": "d19fa87998ce949a6372c1f8bad8de3881f27e8ebf9244d3ac405a7ad338f14a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29601,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10478-4b9f03ee0d47",
+    "source": "I have no memory of this place, this in-between.",
+    "source_sha256": "4b9f03ee0d470e8b265ac6fab0d27d2a1d5d141376f40840c9f3630a593c9cd6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29602,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10479-d0a8d87d6ec5",
+    "source": "Then I am brought back here when you die, and I remember you chose to return me to Elsinore too, and it aches so terribly.",
+    "source_sha256": "d0a8d87d6ec5625616116144114f634c80771828e0695e2fa46c6a3b6442c084",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29603,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10480-adefdb45e20e",
+    "source": "I'm forcing you to wake up again every time I do this, aren't I?",
+    "source_sha256": "adefdb45e20e8ae7dadff6a6f1262268a229e3f11471933a5721f9c4830bf617",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:947343"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29605,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10481-36d8bdb5eb0b",
+    "source": "And this is the third time.",
+    "source_sha256": "36d8bdb5eb0be1e20b36fc2e92fe58ba43800b7a0ab759aef39dfd779041e377",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29607,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10482-1414f6c40f36",
+    "source": "But I can remember living only <i>one</i> fate. Only the last.",
+    "source_sha256": "1414f6c40f36fa89d00a8b592d497b8c9cdb836241e5bf5eabb69dc7b1ef6630",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:947568"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 29608,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10483-3299fca4777a",
+    "source": "Say, Hamlet-- what were those other fates I chose?",
+    "source_sha256": "3299fca4777a82619517d7cc548b87e6a0ae80ff1013ec7408f19608416631ce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Hamlet_Sad}",
+      "line": 29610,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10484-38e50b6f7188",
+    "source": "Were they-- was I-- happier?",
+    "source_sha256": "38e50b6f7188df7719ec1a8f235185ebd82e673d953a698ff44efd4a3bc45853",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29611,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10485-7e077483f8b4",
+    "source": "I suspected you would find yourself wondering this.",
+    "source_sha256": "7e077483f8b4852b78adafa403065f1e65381186baa107be2a815de3f8966de4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29613,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10486-12a8ad16aae2",
+    "source": "But I do not know. I do not see your life beyond Elsinore. I am not a god. Just a man, or what was once a man, standing here as confused as you.",
+    "source_sha256": "12a8ad16aae2021abcb4da2f835f5e19c2afabeb35522669dfa11cbedab05df2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29614,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10487-f60c8635f1e6",
+    "source": "Please, Ophelia.",
+    "source_sha256": "f60c8635f1e6a3146bde11cce0d7d08a12b93dde9cd0408e97e178f196d0546b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "{Please_Despair}",
+      "line": 29616,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10488-a4cf70b2dbdf",
+    "source": "<b>Do not return to Elsinore again.</b>",
+    "source_sha256": "a4cf70b2dbdffff08cc864e5945ceb2f22ea01b914b1ff4a5421026bf0c8e2a3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29617,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10489-0b07935aaf95",
+    "source": "If ever you did love me, if ever you did find me worthy of your time... then you will join me here in the quiet of oblivion, and take up an eternal rest.",
+    "source_sha256": "0b07935aaf95d727b38a6d1d76bd53163c12ce91c6bcf1c8eb9da0ede95d0bb2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29618,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10490-f2a136fbee7e",
+    "source": "You know I do, Hamlet.",
+    "source_sha256": "f2a136fbee7eab5c3e182b39decbf71799cab132a0cd45fe272f957ab127e659",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:948730"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29619,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10491-605dc7b21892",
+    "source": "But I must have returned here for a reason. I think my work in Elsinore is not yet complete.",
+    "source_sha256": "605dc7b218924b14f269658e654aafb50823352ed7f33dc835052d2f0281c4db",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:948776"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29620,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10492-fea4d7c1958d",
+    "source": "It will <b>never</b> be complete.",
+    "source_sha256": "fea4d7c1958dc9b8e18d981208ec324d3522c9c30c7be661affc076912f1995d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29621,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10493-6ca28ad9ee03",
+    "source": "I urge you to understand this!",
+    "source_sha256": "6ca28ad9ee03cad2b1ab308bec039f0fd224cb8247206af260478e24c2f16ad4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29622,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10494-3654a5c50fde",
+    "source": "I harbored a deep and impenetrable respect for you in life, Ophelia. Do not prove me a fool in death.",
+    "source_sha256": "3654a5c50fded293fdaf536bb69ae637caf4fd992972335e9caf33a1ed35b6c3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29623,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10495-1727f78bd55b",
+    "source": "Do not show me that everything we went through together was trivial compared to your pining for the impossible.",
+    "source_sha256": "1727f78bd55b0b051aa3e1b8c72816733c38ab5a36e467fda403a93e62f972c3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29624,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10496-4c4e6670fde9",
+    "source": "If you return to Elsinore again, you will again lose all memory of the fate you just chose, and you will not be able to choose it again. In other words...",
+    "source_sha256": "4c4e6670fde95563ba4810f68b668da44f9a63c34c6c612c9b9e95ec404c496e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29625,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10497-2a954f902633",
+    "source": "I have a rather unpleasant choice to make, it seems.",
+    "source_sha256": "2a954f902633ab1d3b2419093fe310d97f3ec79c4f75aa1d6aab3190d2255a82",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:949904"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Stammer_Sad}",
+      "line": 29627,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10498-669a59ea893c",
+    "source": "You are no better than him, you know.",
+    "source_sha256": "669a59ea893c20ef4e3ea4ebc03138b34b4fc50f3ccf5ee257215ceb4d0bd9b9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Disgust}",
+      "line": 29632,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10499-e059f775d65a",
+    "source": "You have shown me already that, like him, you will not grant mercy.",
+    "source_sha256": "e059f775d65a7da18f241a1b8a16828738b09e1cad6b04704084aded0e4f64fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29633,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10500-2af0a0696605",
+    "source": "We are simply playthings to you.",
+    "source_sha256": "2af0a06966056ab1ee8b909e10d7160c43f370dc2fa886397194148f0a2c1f08",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29634,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10501-b4429de9c339",
+    "source": "I must remind you, as you abandon the fate you last chose...",
+    "source_sha256": "b4429de9c339b9c30940c1f12393fbb10194cd06ce5fec638ef65cb11d891614",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29635,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10502-bbdaa91a2804",
+    "source": "Let me give you what you desire, then. The chance to find something else. Something 'better.'",
+    "source_sha256": "bbdaa91a2804565adae5a00761630124d6f9c22ae34cfdec6a9c6c1136a311c6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29639,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10503-fcf0cd191f44",
+    "source": "Let me give you what you came here for. We have nothing more to say to one another, after all.",
+    "source_sha256": "fcf0cd191f44873eb1ce55ba7a7ef8f2f2359e855a002b93eb20ad720ccf629e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "The Ghost",
+      "cues": "[disgust]",
+      "line": 29642,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10504-3b38584c3520",
+    "source": "I've already made my decision. I want to return to Elsinore.",
+    "source_sha256": "3b38584c3520bc407e16798b8f524d3a64cf3fbb51c854813bebb1e6e4b825c4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:950876"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 29648,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10505-cee361f6d6fa",
+    "source": "I'm sorry, Hamlet.",
+    "source_sha256": "cee361f6d6fa7c6bcffadcf32c32f60f1f021e9d708b85a0c1eae5b201b6a697",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:950998"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29649,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10506-ce4e7e6ebb40",
+    "source": "I never thought you were quite this stubborn in life.",
+    "source_sha256": "ce4e7e6ebb4054854c9f7e4e5c5e4b2b9bf6456580eb91c6fba9ed5335ed8018",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29652,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10507-e551325a1901",
+    "source": "Nevertheless, I will show you the way back to Elsinore.",
+    "source_sha256": "e551325a1901530d65e0afc688a3500d9065e3aa8a8650fecd439ee76b17d9b8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29653,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10508-fdefbde97863",
+    "source": "I would be a fool not to listen to you.",
+    "source_sha256": "fdefbde97863b0742632b728592219dd0b9801c0059ec42f8e25fdf9f54825f8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:951312"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Wistful}",
+      "line": 29656,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10509-450dedc37610",
+    "source": "You have my eternal thanks.",
+    "source_sha256": "450dedc376107ae6b826e60f2a3238a5993bd393caf209581700438a9746bef6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "{My_Thanks}",
+      "line": 29657,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10510-c087b708f8bf",
+    "source": "You are wiser and more merciful than that broken world ever deserved.",
+    "source_sha256": "c087b708f8bfe94c78bcce8505263e956711f37402e682330f31c6c8859c8ba4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29658,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10511-18833326bf4f",
+    "source": "Let us go away now, Ophelia. Forever.",
+    "source_sha256": "18833326bf4faa3c7f72a6baea17543d41cb78f12bf85f5a66a2f3381d2b9c1d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 29659,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10512-f6f726a8944e",
+    "source": "Couldn't agree more, my friend. Wherever we are...",
+    "source_sha256": "f6f726a8944e8fbab7359e9966ef26d47ec581fa62e2f13fa23ef30f16f0fa6d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:951707"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[smile] {Chuckle}",
+      "line": 29660,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10513-12ab707d6d0c",
+    "source": "I think we've both earned that sleep of death, and whatever dreams may come.",
+    "source_sha256": "12ab707d6d0cb9f43b8fda1d6a0d5e1f8587e0c507208fad130ee9d3773f08b9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:951809"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[smile]",
+      "line": 29661,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10514-df9475fcecf5",
+    "source": "I must return to Elsinore again.",
+    "source_sha256": "df9475fcecf5e908beac99098d2fe01655cd401d6c9637240ad9fef186a7da6a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:951964"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 29667,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10515-a30d7e9a24f3",
+    "source": "I know nothing I could say would make it any less of a cruelty.",
+    "source_sha256": "a30d7e9a24f37806d7fe7779329e80e95dff813339d2e1409261d96d0e4bc6fd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:952030"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29668,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10516-6d8bfb4f9ab6",
+    "source": "I mourn the fate you leave behind, for certainly neither you nor I will recall it if we ever meet again.",
+    "source_sha256": "6d8bfb4f9ab6a88e5b252094b69b83bd3af0b5d8f081f26a966269b4818a6975",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29670,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10517-bd24dc96bb88",
+    "source": "I've already made my decision. I want to return to Elsinore again. A third time.",
+    "source_sha256": "bd24dc96bb888bb37c964a49a93292e6e781f7bf21f140977bce09130362a6b1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:952429"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 29684,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10518-7999a53717db",
+    "source": "I'm sorry, Hamlet. I truly am.",
+    "source_sha256": "7999a53717db37c5e3ddac323cbd4fe866b7e33b10fbebffe1f54433afa5c174",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:952592"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29685,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10519-387a9e07a15c",
+    "source": "So be it. I hope we never meet again, then.",
+    "source_sha256": "387a9e07a15c9423db5dc742486be0ff7768c7ec179472a6734839bea04bdcef",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Disgust}",
+      "line": 29687,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10520-91773e7eb18b",
+    "source": "And if we ever do, I shall no longer try to stand in your way.",
+    "source_sha256": "91773e7eb18b374b8c60a1411f72516ed6e7111126374be56445f276bdb86437",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29688,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10521-f181f41a93a2",
+    "source": "Trying to save someone from pain is a courtesy one only extends to friends.",
+    "source_sha256": "f181f41a93a27f880dce1302733a063a1f4accdd798a74089a6c300c2e59077f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29689,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10522-d585033ce1ce",
+    "source": "Wherever we are...",
+    "source_sha256": "d585033ce1cedbb32af2bd5809436854967546b7566c65f0772e8d7c7d5896f5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:953064"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "POSTEND_Return_Part2",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29693,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10523-3851e9cbf38b",
+    "source": "Your time with Grace-- the adventures you embarked on-- will vanish.",
+    "source_sha256": "3851e9cbf38b17546b15a5f0e04eb3762b9d915e97af7837dbdd92eb4fe4492d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29706,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10524-6eea4c2adc8a",
+    "source": "That sacrifice you made for the sake of others will have been meaningless, for there is no such similar path.",
+    "source_sha256": "6eea4c2adc8a51ce998a521e37795757215c2d0eda8b9fdf319f7fc645ff06a2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29708,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10525-d37935cd918c",
+    "source": "Your memory of the time you spent with Laertes and your father, both the good and bad, will vanish.",
+    "source_sha256": "d37935cd918cf55a69b3a98d30fe48e48bed7d18e5152e46a2a4e31fb3a5a014",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29710,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10526-091c1e180d51",
+    "source": "You will never again have the power to overturn nations at your whim. At least-- not in the same way.",
+    "source_sha256": "091c1e180d515ee7d4d50a1b90c2255cd8ce239be7eac96e3ff6cc3bebd9a723",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29712,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10527-ff0a8cf6db9e",
+    "source": "You will never again live out the rest of your life at Hamlet's side.",
+    "source_sha256": "ff0a8cf6db9e7f407c6d4a021f8e7025e70e7e5ac3613b717889a0d5951f4617",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29714,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10528-b5cbce5f0514",
+    "source": "That perfect world you created will shatter. And I will warn you now: No other fate you could choose could possibly live up to its happiness.",
+    "source_sha256": "b5cbce5f051480e9fbd188033f2ff2f0f11934e3d3dbc3cdc6355a773575622a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29716,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10529-a788d5a9318b",
+    "source": "You will never again be able to guarantee that everyone in Elsinore survives.",
+    "source_sha256": "a788d5a9318baeb0a9c6750877e4c908e033ba7c8dcba9a297906cd8c555d628",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29718,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10530-ed37e995a70a",
+    "source": "You will forego the life you and Othello built together. And without leaving Elsinore with you, he is likely to be killed here.",
+    "source_sha256": "ed37e995a70a548eb8a123d2bfa576aa68a7ee20d8d07ff9bec7a50e87a5c005",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29720,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10531-ad4c2852fefd",
+    "source": "You will never again have a future you built away from Elsinore, on your own, free of others' misery.",
+    "source_sha256": "ad4c2852fefd79746334b90129690d4276e743509ae0d13dca7c5489334bd4e3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29722,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10532-8f618c6ebc3a",
+    "source": "Never again will you settle down with Lady Guildenstern and Lady Rosencrantz, though you had found peace with them.",
+    "source_sha256": "8f618c6ebc3a28a4cf05190f007191a3778fb4f20130714eca3c16229ea52966",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29724,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10533-a4f24719c495",
+    "source": "There is no other world with such a peaceful existence for Elsinore as the one where Fortinbras was its true King.",
+    "source_sha256": "a4f24719c495a1ef97dcddb41a20b327954bd3d3d86bec4c9115c62d6c1aa055",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "remindAboutEndingLost",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 29726,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10534-386082e31133",
+    "source": "Hamlet and I were together for two years, in secret. In that time, he was... different. Happier. He had a sense of humor then. Neither of us had ever loved another before, but he treated me with respect and an unfailing kindness.",
+    "source_sha256": "386082e311336a58a41481fc9f197bed08b7a43bfb882f08ffa976b36cccc84d",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10535-5ba1f47f02c8",
+    "source": "When the King was young, his older brother used to beat him severely, and he spent much of his life afraid of Hamlet. Is it any wonder Claudius despises young Hamlet, the spitting image of his tormentor?",
+    "source_sha256": "5ba1f47f02c8efa8c4f69f3d6bf8f766326be1c31ea091bbf2af078a559faf36",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10536-054740ec5bc4",
+    "source": "My father is <i>so</i> loyal to the King that he's still keeping secrets on the King's behalf after King Hamlet's death. I worry it's going to bring Father nothing but trouble in the long term.",
+    "source_sha256": "054740ec5bc49d424f791adf93d2b93b3b93c71194835d09bd4a86246c0e73ae",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10537-26ccd2b9af08",
+    "source": "I managed to save Father's life. It seems that <b>anytime Hamlet is distracted or prevented from meeting his mother</b> after the play, Father is safe.",
+    "source_sha256": "26ccd2b9af082eb23acfec0d31b5e34cdb7a821ba69a6a838fe7a2e86a10c30f",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10538-d4ba425a9dea",
+    "source": "Father goes to visit Mother's grave often. He still mourns her all the time. He tells me she'd be proud of the person I became. I hope that's true. I don't remember her, so all I know of her is what Father and Laertes tell me. Can you love someone you don't remember?",
+    "source_sha256": "d4ba425a9dea1c32cedf509c2d272226f10e4d52908dd641108af860141d3304",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10539-458e80bd531c",
+    "source": "I've learned that Laertes will choose to stay in Elsinore if he believes that <b>going to Paris might expose someone he cares about to danger.</b>",
+    "source_sha256": "458e80bd531c3ac3e239d8ab5178dfbcef0be24e2fd47a6f8498c36d9fe83dba",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10540-ccf5f3cfbd35",
+    "source": "I recently uncovered that my brother and Lady Brit are involved romantically, and have been for quite some time. It's understandable they want to keep the relationship a secret, given the various political pressures at play. I, er... stumbled in on them by mistake.",
+    "source_sha256": "ccf5f3cfbd35ad787020ba21a2c279a7ea3ea24af46ed7c2859ab481b13baeac",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10541-c5f9aee29a83",
+    "source": "I recently uncovered that my brother and Brit are involved romantically, and have been for quite some time. It's understandable they want to keep the relationship a secret, given the various political pressures at play. I, er... stumbled in on them by mistake.",
+    "source_sha256": "c5f9aee29a83cf5e513090d7b510e2217f38190d7b5487a99d02de866e2e9c82",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  },
+  {
+    "id": "p10542-aada5c28d975",
+    "source": "When it came down to sacrificing me or standing against the orders of every man above her, Brit tried to save me. All it took was <b>getting to know her.</b> Whatever our relationship was before, I know this now: Brit is not my enemy. She might even be my greatest ally.",
+    "source_sha256": "aada5c28d975cca03ce449359d06ce5de13ff68aa9ba60ad9a5cfd50dc63c771",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0072"
+  }
+]

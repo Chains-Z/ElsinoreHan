@@ -21,7 +21,7 @@ def parse_objects(path: Path) -> list[dict]:
     return objects
 
 
-def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str) -> dict[str, bool]:
+def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str, expected_settings: set | None = None) -> dict[str, bool]:
     """只有目标界面确实出现时，才评估该页的文字溢出。"""
     visible_menu = [item for item in menu if item["active"]]
     visible_settings = [item for item in settings if item["active"]]
@@ -30,11 +30,11 @@ def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str) -
     start_labels = {"继续游戏", "开始新游戏"} & actual
     expected |= start_labels
     has_start = bool(start_labels)
-    settings_opened = {"Graphics", "Audio", "Gameplay"} <= {item.get("text") for item in visible_settings}
+    settings_opened = (expected_settings or {"Graphics", "Audio", "Gameplay"}) <= {item.get("text") for item in visible_settings}
     return {
         "menu_labels_all_translated": has_start and expected <= actual,
         "menu_labels_no_overflow": has_start and expected <= actual and all(not item.get("overflow", True) for item in visible_menu if item.get("text") in expected),
-        "menu_no_original_labels": not ({"Continue Game", "New Game", "Quit Game", "Settings"} & actual),
+        "menu_no_original_labels": not ({"Continue Game", "New Game", "Quit Game", "Options", "Settings"} & actual),
         "chinese_glyphs_available": "GLYPHS_继续游戏设置退出=True" in menu_text,
         "settings_pointer_navigation_logged": "已通过真实设置按钮的 EventSystem 指针事件打开设置界面" in log,
         "settings_page_opened": settings_opened,
@@ -56,13 +56,25 @@ def evaluate_toggle(original: set, restored: set, log: str) -> dict[str, bool]:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--evidence", type=Path, default=Path("runtime/evidence"))
+    parser.add_argument("--translations", type=Path)
     arguments = parser.parse_args()
     directory = arguments.evidence
     menu = parse_objects(directory / "menu-texts.txt")
     settings = parse_objects(directory / "settings-texts.txt")
     visible_menu = [item for item in menu if item["active"]]
     visible_settings = [item for item in settings if item["active"]]
-    assertions = evaluate(menu, settings, (directory / "menu-texts.txt").read_text(encoding="utf-8-sig"), (directory / "BepInEx.log").read_text(encoding="utf-8-sig"))
+    expected_settings = None
+    if arguments.translations:
+        translations = {row["source"]: row["target"] for row in json.loads(arguments.translations.read_text(encoding="utf-8"))}
+        expected_settings = {translations[key] for key in ("Graphics", "Audio", "Gameplay")}
+    menu_report = (directory / "menu-texts.txt").read_text(encoding="utf-8-sig")
+    assertions = evaluate(menu, settings, menu_report, (directory / "BepInEx.log").read_text(encoding="utf-8-sig"), expected_settings)
+    if "FULL_CHINESE_GLYPHS=" in menu_report:
+        assertions["full_translation_chinese_glyphs_available"] = "FULL_CHINESE_GLYPHS=True" in menu_report
+    if "FROZEN_CACHE_CASES=" in menu_report:
+        assertions["frozen_long_dialogue_dynamic_cache_cases"] = "FROZEN_CACHE_CASES=True" in menu_report
+    if "SAVE_WRITE_GUARD_ACTIVE=" in menu_report:
+        assertions["save_write_guard_active"] = "SAVE_WRITE_GUARD_ACTIVE=True" in menu_report
     if (directory / "original-menu-texts.txt").exists():
         original = {item.get("text") for item in parse_objects(directory / "original-menu-texts.txt") if item["active"]}
         restored = {item.get("text") for item in parse_objects(directory / "restored-menu-texts.txt") if item["active"]}
@@ -74,7 +86,7 @@ def main() -> None:
         "passed": all(assertions.values()),
         "visible_menu": visible_menu,
         "visible_settings": visible_settings,
-        "limits": ["未点击继续游戏，未进入存档", "未验收对白和资料页面", "设置页尚未全量汉化"],
+        "limits": ["未点击开始/继续按钮；游戏可能自动加载隔离存档副本", "未验收对白和资料页面的像素排版", "后台组件检查不能证明全剧情分支覆盖"],
     }
     (directory / "verification.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"passed": summary["passed"], "assertions": assertions}, ensure_ascii=False, indent=2))

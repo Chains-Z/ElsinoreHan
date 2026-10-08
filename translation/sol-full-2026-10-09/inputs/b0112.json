@@ -1,0 +1,2016 @@
+[
+  {
+    "id": "s00200-16c12f23786c",
+    "source": "Othello!",
+    "source_sha256": "16c12f23786c7d70dde399b0917dab4c12e5b28358283719816ccf4e706ecb57",
+    "origins": [
+      "scenes:6f4f49b19b38:19254"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloDrinkingGame",
+      "speaker": "Horatio",
+      "cues": "{Othello_Scared_Intense}",
+      "line": 19254,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00201-411a317bd705",
+    "source": "What—!",
+    "source_sha256": "411a317bd705ce6560250484efbba4fd73de9aef074f9183a53bdb79c53c579b",
+    "origins": [
+      "scenes:6f4f49b19b38:19255"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloDrinkingGame",
+      "speaker": "Irma",
+      "cues": "{Gasp}",
+      "line": 19255,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00202-bfeb0cda1454",
+    "source": "Ah—ah—yes!",
+    "source_sha256": "bfeb0cda1454169c2b4bb8c6a2e9c45f0fd37c9f9dd810b082e2551299154b82",
+    "origins": [
+      "scenes:6f4f49b19b38:19283"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloDrinkingGame",
+      "speaker": "Horatio",
+      "cues": "{Ahh_Annoyed}",
+      "line": 19283,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00203-5a98220434db",
+    "source": "Hrmph!",
+    "source_sha256": "5a98220434db4090e1944791944f29224a77a275120dd72cf96abc7a00366cee",
+    "origins": [
+      "scenes:6f4f49b19b38:19426"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloDrinkingGame_PreviouslyDefended",
+      "speaker": "Irma",
+      "cues": "",
+      "line": 19426,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00204-01e2accb4791",
+    "source": "C-Claudius!",
+    "source_sha256": "01e2accb4791a99d73af6905dc41e8e0c19d5655676cfac4a96d3a1928272dfc",
+    "origins": [
+      "scenes:6f4f49b19b38:19882"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloStorytimePrivate2",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Gasp}",
+      "line": 19882,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00205-0992274decf4",
+    "source": "Rrgh...",
+    "source_sha256": "0992274decf45eacab6cbd1a672ab7d8618370c63315d0036518b16b69ee1fb7",
+    "origins": [
+      "scenes:6f4f49b19b38:19955"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloStorytimePrivate2",
+      "speaker": "Othello",
+      "cues": "[disgust] {Disgust_Intense}",
+      "line": 19955,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00206-b1a636abd588",
+    "source": "You!",
+    "source_sha256": "b1a636abd588da57cbcb55d9812646de65ad7f09c3c5e75cc60807b172b45856",
+    "origins": [
+      "scenes:6f4f49b19b38:20002"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloStorytimePrivate2",
+      "speaker": "Cygnus",
+      "cues": "",
+      "line": 20002,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00207-fd5a4de56a44",
+    "source": "O-oh.",
+    "source_sha256": "fd5a4de56a442f298ecddfd56382e857400873fdf7268db6f619debefdd4925a",
+    "origins": [
+      "scenes:6f4f49b19b38:20207"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloConsummate2",
+      "speaker": "Othello",
+      "cues": "[happy] {Gasp}",
+      "line": 20207,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00208-b9b7e41c1358",
+    "source": "I—see.",
+    "source_sha256": "b9b7e41c13581d5ceaa212a2c062bdd08dc5552ee506524a1697fb228b29a394",
+    "origins": [
+      "scenes:6f4f49b19b38:20224"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloConsummate2",
+      "speaker": "Othello",
+      "cues": "[sad]",
+      "line": 20224,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00209-52ea67359dfa",
+    "source": "Farewell.",
+    "source_sha256": "52ea67359dfa70ce35169fd2493590d8371919161a7fb2e28e322863448b9a87",
+    "origins": [
+      "scenes:6f4f49b19b38:20236"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "OTH_OthelloConsummate2",
+      "speaker": "Othello",
+      "cues": "[sad] {Farewell_Sad}",
+      "line": 20236,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00210-fb556d76bb67",
+    "source": "...Yes.",
+    "source_sha256": "fb556d76bb671fa03976b582ecf047efbf6b624a9ad1f0f7983ebb338fd6c114",
+    "origins": [
+      "scenes:6f4f49b19b38:20447"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_GertrudeQuestionClaudius",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 20447,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00211-f3c093c166d4",
+    "source": "Indeed.",
+    "source_sha256": "f3c093c166d451bbdbe09c96841e9991d4e39241aa4f8c0b33551c37b0dbf6b7",
+    "origins": [
+      "scenes:6f4f49b19b38:20815"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FAM_LaertesMeeting",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 20815,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00212-d07a178bc193",
+    "source": "Amen.",
+    "source_sha256": "d07a178bc193c1910055e2cfd1e2c19eece00b6cd3368d5e96308f79539eaad3",
+    "origins": [
+      "scenes:6f4f49b19b38:21224"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoPraying",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 21224,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00213-a59ac9277916",
+    "source": "A-ah...",
+    "source_sha256": "a59ac92779164b7a4f4bd05383b19563e8ea2f98a6642f8f89b19c373738483a",
+    "origins": [
+      "scenes:6f4f49b19b38:22270"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "WITCH_WhoKnows",
+      "speaker": "Hamlet",
+      "cues": "[afraid] {Gasp}",
+      "line": 22270,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00214-d2eeddd69b40",
+    "source": "Ophelia--",
+    "source_sha256": "d2eeddd69b40fc75570c0b7a1c49797867f271f7a71ec665b51a5fc4ec147eba",
+    "origins": [
+      "scenes:6f4f49b19b38:22275"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "WITCH_WhoKnows",
+      "speaker": "Polonius",
+      "cues": "[afraid] {Ophela_Sad}",
+      "line": 22275,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00215-dd0c07a64a80",
+    "source": "Urgh...",
+    "source_sha256": "dd0c07a64a8029ef88ae8005a58864fb3e5d97c8e8c9291e4711d6e9570f03bc",
+    "origins": [
+      "scenes:6f4f49b19b38:22575"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "WITCH_PoloniusResponse",
+      "speaker": "Polonius",
+      "cues": "[despair]",
+      "line": 22575,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00216-6766f09fdc5e",
+    "source": "Please.",
+    "source_sha256": "6766f09fdc5eb26a9e0e93ccef94c65a821f6653062b0b34938e980b8fa68ceb",
+    "origins": [
+      "scenes:6f4f49b19b38:22791"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Witch_HoratioResponse",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 22791,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00217-3ae926405671",
+    "source": "Aah...",
+    "source_sha256": "3ae9264056715f46b39779346471bc2ea9ddc1343c5ab3c654ac4eac831cac14",
+    "origins": [
+      "scenes:6f4f49b19b38:22827"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_ClaudiusMurdered",
+      "speaker": "King Claudius",
+      "cues": "[sad] {Ahh_Annoyed}",
+      "line": 22827,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00218-67fd7e7b013a",
+    "source": "...Hamlet.",
+    "source_sha256": "67fd7e7b013afe0b70b65c1b95802a441c8ebbadcfd9f1101faaa81e1e7a5a7d",
+    "origins": [
+      "scenes:6f4f49b19b38:23203"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_KingElectorate",
+      "speaker": "Horatio",
+      "cues": "{Sigh}",
+      "line": 23203,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00219-6c3d2451723f",
+    "source": "Er...",
+    "source_sha256": "6c3d2451723f136369b558ff29017c86aa8fb2d40e3f29473225377b7ff23ca1",
+    "origins": [
+      "scenes:6f4f49b19b38:23262"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_KingElectorate",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Ehh}",
+      "line": 23262,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00220-e8ba09e68142",
+    "source": "And?",
+    "source_sha256": "e8ba09e6814280d255cd0a6b5e9361ad893a729774f457ef4c549359b151bbd0",
+    "origins": [
+      "scenes:6f4f49b19b38:23500"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 23500,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00221-6e68bfcbbdd9",
+    "source": "Well—",
+    "source_sha256": "6e68bfcbbdd9892c925f676b3321b508ef2de182afbefb9b90ef1466168534f1",
+    "origins": [
+      "scenes:6f4f49b19b38:23503"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 23503,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00222-2c33dcef91e0",
+    "source": "Good.",
+    "source_sha256": "2c33dcef91e066247cc05cc403f99dcf572e5bb8f45656fec462270e689916b6",
+    "origins": [
+      "scenes:6f4f49b19b38:23520"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_Results",
+      "speaker": "Hamlet",
+      "cues": "[happy] {Chuckle_Short}",
+      "line": 23520,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00223-3087d29b383d",
+    "source": "Father...",
+    "source_sha256": "3087d29b383d2a55e8a7e3d7366045dbee3d12613e6e1e2a61e84e354569cb55",
+    "origins": [
+      "scenes:6f4f49b19b38:23843"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_LaertesImprisoned",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 23843,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00224-7f73656d06a0",
+    "source": "...Laertes.",
+    "source_sha256": "7f73656d06a0a107f40a40e4a4105eb2eccea6df9fcab9918fdb2598e17b6495",
+    "origins": [
+      "scenes:6f4f49b19b38:24171"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_Horatio",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Laertes_Sad}",
+      "line": 24171,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00225-d251f2549d80",
+    "source": "...Ah.",
+    "source_sha256": "d251f2549d8077a708a9355f373a9a4a5aaea546f745b72adbf107c580a21c48",
+    "origins": [
+      "scenes:6f4f49b19b38:24331"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "HAMROM_Advice_RnG",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 24331,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00226-4db23d9c17dd",
+    "source": "(Fascinating.)",
+    "source_sha256": "4db23d9c17dd49e1c33349b53b8f02e76b54f011d0f65cb1f4759f3ba72579e7",
+    "origins": [
+      "scenes:6f4f49b19b38:24781"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "GRACE_CrewConvo3",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 24781,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00227-1c6575c6420f",
+    "source": "...Heh.",
+    "source_sha256": "1c6575c6420f6f41046bbbb1244f3c2e941cfbd7a40b1083d3853a4c4467de21",
+    "origins": [
+      "scenes:6f4f49b19b38:24809"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "GRACE_Confrontation",
+      "speaker": "Captain Grace",
+      "cues": "{Ha}",
+      "line": 24809,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00228-7db539e6d78c",
+    "source": "...Ah...",
+    "source_sha256": "7db539e6d78c98b31bcd33e81db544413022b50187b302c9a39b4dc3b877b0f8",
+    "origins": [
+      "scenes:6f4f49b19b38:24949"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "GRACE_SailIntoSunset",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 24949,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00229-e3d7c58e8bf8",
+    "source": "G-G-Guilda?!",
+    "source_sha256": "e3d7c58e8bf8f5977f48b1de3f49889dd29cc6588ebde4bb186f221961c9cbda",
+    "origins": [
+      "scenes:6f4f49b19b38:25047"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "GUILD_Funeral",
+      "speaker": "Hamlet",
+      "cues": "[unhinged] {Guilda_Surprised}",
+      "line": 25047,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00230-6eb97861f767",
+    "source": "...Awwww.",
+    "source_sha256": "6eb97861f76766c2e7e26c791e953a615e1c4254fe9415f9d3d7eecfef596944",
+    "origins": [
+      "scenes:6f4f49b19b38:25494"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "GUILD_Leaving",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad] {Dissapointed}",
+      "line": 25494,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00231-d6801dd247af",
+    "source": "Bohemia?",
+    "source_sha256": "d6801dd247aff294a70723f621dc1da79af661fc13d5de87af77d1d5a91b002f",
+    "origins": [
+      "scenes:6f4f49b19b38:25545"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "END_Delusion",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Gasp}",
+      "line": 25545,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00232-cda18bd5898f",
+    "source": "O...Ophelia!",
+    "source_sha256": "cda18bd5898f63d36cfbc6ba351715743499ae039acda36a88df4ec92e26a142",
+    "origins": [
+      "scenes:6f4f49b19b38:25612"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_GuardsGambling",
+      "speaker": "Irma",
+      "cues": "[surprise] {Ophelia_Angry}",
+      "line": 25612,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00233-df30783f4971",
+    "source": "Free?",
+    "source_sha256": "df30783f497166aa4aa0e631df48073049ef7064cccbd5f3964d8ce09b9865c5",
+    "origins": [
+      "scenes:6f4f49b19b38:26091"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26091,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00234-47431c39399b",
+    "source": "(Goodness.)",
+    "source_sha256": "47431c39399b188faea2629199dfb5cc7d2c6b198af3eb887207d6ddaa6f968b",
+    "origins": [
+      "scenes:6f4f49b19b38:26685"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_ClaudiusRomanceNight2",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 26685,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00235-b3507287c403",
+    "source": "...There.",
+    "source_sha256": "b3507287c403dfb0baa04c260d50ba2acf5d7fa68d1ca405462aa06d7f58e2d1",
+    "origins": [
+      "scenes:6f4f49b19b38:26873"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_ClaudiusCrownsOphelia",
+      "speaker": "King Claudius",
+      "cues": "{Ahh_Happy}",
+      "line": 26873,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00236-a37d60a214d3",
+    "source": "But—Claudius—",
+    "source_sha256": "a37d60a214d34e75e0f8f3813b341fcf0c3d491d14b8b39f686752ddb439d629",
+    "origins": [
+      "scenes:6f4f49b19b38:26881"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_ClaudiusCrownsOphelia",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 26881,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00237-ad34642f53ec",
+    "source": "(Hmm...)",
+    "source_sha256": "ad34642f53ece2d3cbf1e09a735f8b03d365ad105c9d5f7997cf4f05b0e94283",
+    "origins": [
+      "scenes:6f4f49b19b38:27037"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "DEATHREACT_All",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 27037,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00238-e0e83e539f13",
+    "source": "Gerta...",
+    "source_sha256": "e0e83e539f139eba4f5d37f64c342082780fa2a8cee5c3bb413429db426cd9ef",
+    "origins": [
+      "scenes:6f4f49b19b38:27265"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "DEATHREACT_All",
+      "speaker": "King Claudius",
+      "cues": "[despair]",
+      "line": 27265,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00239-4dbb501a545b",
+    "source": "Brit...",
+    "source_sha256": "4dbb501a545b215edaded0b8ad594ba3b28e1788e2022750f1c216ea7b559397",
+    "origins": [
+      "scenes:6f4f49b19b38:27381"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "DEATHREACT_All",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 27381,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00240-977d8495cc67",
+    "source": "...Empty.",
+    "source_sha256": "977d8495cc67d5a8ee35ff37082d77a3da57f797f1c8574de197ae74e6185ada",
+    "origins": [
+      "scenes:6f4f49b19b38:27732"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "POISON_HamletCheck",
+      "speaker": "Hamlet",
+      "cues": "[unhinged]",
+      "line": 27732,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00241-a38c4a2d7548",
+    "source": "Aha.",
+    "source_sha256": "a38c4a2d7548ce607773d1461c6f269265d5840c0200675c8de93dd56e8ac76b",
+    "origins": [
+      "scenes:6f4f49b19b38:27756"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "POISON_IrmaCheck",
+      "speaker": "Irma",
+      "cues": "[happy]",
+      "line": 27756,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00242-b8552821953a",
+    "source": "...Hell.",
+    "source_sha256": "b8552821953ae79d3bcc0f222272fc599a88d703a76784cd51297175596b3ec2",
+    "origins": [
+      "scenes:6f4f49b19b38:28412"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_IrmaAndMarcellus",
+      "speaker": "Marcellus",
+      "cues": "[sad] {Hell_Tired}",
+      "line": 28412,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00243-708454aa097a",
+    "source": "Heh.",
+    "source_sha256": "708454aa097a65274c30aa638118969e13a1d8037e3307d5d085396eb0f9e150",
+    "origins": [
+      "scenes:6f4f49b19b38:28693"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_LaertesAndOthelloLute",
+      "speaker": "Laertes",
+      "cues": "{Smug}",
+      "line": 28693,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00244-9612eef80e0a",
+    "source": "(Father--)",
+    "source_sha256": "9612eef80e0ac2c9a9b11de8178dabb3b2f43cfbe26b09ec97ad9fe3d07c4758",
+    "origins": [
+      "scenes:6f4f49b19b38:29000"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Spine_ChessGame",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Father_Sad}",
+      "line": 29000,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00245-a1f978cdf63c",
+    "source": "(What?)",
+    "source_sha256": "a1f978cdf63cc6375b2fa2c943a540d13fe67bfc961c420bad36f0a14cfe6c45",
+    "origins": [
+      "scenes:6f4f49b19b38:29011"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Spine_ChessGame",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {Gasp}",
+      "line": 29011,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00246-6aee86e19437",
+    "source": "This.",
+    "source_sha256": "6aee86e194372fcbcc258a1af873fbec28b10b688b9512c4aaff0f7d2d577901",
+    "origins": [
+      "scenes:6f4f49b19b38:29098"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_MargaretLetter",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 29098,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00247-5dfc86f75125",
+    "source": "Hmmm?",
+    "source_sha256": "5dfc86f751259079ca97cdab0716a7444b7aaa94c7288f4ff19bdc9fa5d8d9ff",
+    "origins": [
+      "scenes:6f4f49b19b38:29198"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Horatio",
+      "cues": "{Hmm_Skeptic}",
+      "line": 29198,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00248-f8de5235a137",
+    "source": "Mm.",
+    "source_sha256": "f8de5235a137907cc0adb5acf022c750af46981e5b286f2a0116f59d6a810b95",
+    "origins": [
+      "scenes:6f4f49b19b38:29261"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioRosencrantzChat",
+      "speaker": "Lady Rosencrantz",
+      "cues": "{Hmm}",
+      "line": 29261,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00249-633961a882ed",
+    "source": "W-well...",
+    "source_sha256": "633961a882ed10aaf033eb8ee87b22920d1e4fffa1a0e16d81975aceaaa6ff9a",
+    "origins": [
+      "scenes:6f4f49b19b38:29458"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "FLAVOR_HoratioHamletChat",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Gasp}",
+      "line": 29458,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00250-7374bba56ef3",
+    "source": "Because--",
+    "source_sha256": "7374bba56ef3996e3944b0aff435306f2b05c860a94eac8a795a87cafd6fc0e8",
+    "origins": [
+      "scenes:6f4f49b19b38:29538"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "POSTEND_Return",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 29538,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00251-ed1eee94bb7c",
+    "source": "...Yes?",
+    "source_sha256": "ed1eee94bb7c6cbf21efafd0e4b99cf9cedf15b4fdc73b069be1031ea3d5d1a3",
+    "origins": [
+      "scenes:2b1c89384554:243"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Bernardo_FoulMood",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 243,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00252-92f317287228",
+    "source": "It...",
+    "source_sha256": "92f31728722815ce137e5d2596db6d214778d56ec2c73a5d9fe238d4a10be1c7",
+    "origins": [
+      "scenes:2b1c89384554:571"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Hamlet_GhostSighting",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 571,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00253-01d304d082fc",
+    "source": "(Laertes...)",
+    "source_sha256": "01d304d082fc10650d19e9ada6d8fba01296beb12f3ad7657bd818435522a244",
+    "origins": [
+      "scenes:2b1c89384554:818"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "polonius_SomeoneKillingMe",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 818,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00254-212586f34642",
+    "source": "Maybe...",
+    "source_sha256": "212586f346420d545d658df40d947d8d56c028913593b960fc6ed29ea7af1f74",
+    "origins": [
+      "scenes:2b1c89384554:905"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "brit_SomeoneKillingMe",
+      "speaker": "Lady Brit",
+      "cues": "[afraid]",
+      "line": 905,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00255-ce984d040f59",
+    "source": "...Hmm.",
+    "source_sha256": "ce984d040f59c42b7d2a4efcae3119b475e74afcebfeafddd5319aed6db858a4",
+    "origins": [
+      "scenes:2b1c89384554:1104"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "laertes_StuckInLoop",
+      "speaker": "Laertes",
+      "cues": "[sad] {Hmm_Skeptic}",
+      "line": 1104,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00256-4bb2d00872d3",
+    "source": "...Repeating?",
+    "source_sha256": "4bb2d00872d32dba75bbae385c7d3d1b9386fff187b9066c3954409843e4d119",
+    "origins": [
+      "scenes:2b1c89384554:1116"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "polonius_StuckInLoop",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 1116,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00257-96730ffc8816",
+    "source": "Well.",
+    "source_sha256": "96730ffc88166cf6dcf4b8a98b4ba9eaa32ba09e1a94921dd9e434f02e566bb7",
+    "origins": [
+      "scenes:2b1c89384554:1317"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Irma_QueensChambers",
+      "speaker": "Irma",
+      "cues": "[sad]",
+      "line": 1317,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00258-12f4a5a06eb8",
+    "source": "How—that's—y-you—",
+    "source_sha256": "12f4a5a06eb8564220284ec626b46f59342f1b1bb2125275188fde5284cea161",
+    "origins": [
+      "scenes:2b1c89384554:1650"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "claudius_affair",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {How_Surprised}",
+      "line": 1650,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00259-1d17b9ac4ee4",
+    "source": "What...?",
+    "source_sha256": "1d17b9ac4ee43ee37cd955f6fce3863c89c29198a6763d51043114d817ec7395",
+    "origins": [
+      "scenes:2b1c89384554:1716"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "hamlet_affair",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {What_Confused}",
+      "line": 1716,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00260-b4073d09df11",
+    "source": "... What?",
+    "source_sha256": "b4073d09df116b624c57fc9e76d807f375ce558a67cb68603a66104bf2510dc9",
+    "origins": [
+      "scenes:2b1c89384554:1846"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {What_Amused}",
+      "line": 1846,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00261-881b8be7212b",
+    "source": "Ergh.",
+    "source_sha256": "881b8be7212b512da63c49a7628d25cccbba5b2ede2e865f9263d440583d86b6",
+    "origins": [
+      "scenes:2b1c89384554:1938"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad] {Sigh_Hurt}",
+      "line": 1938,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00262-abed42131b85",
+    "source": "Ghost?",
+    "source_sha256": "abed42131b8556827fb8f35ac195502724e4e96148c72dbb61b0fb9b9fc0d669",
+    "origins": [
+      "scenes:2b1c89384554:2269"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "marcellus_murder",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Gasp}",
+      "line": 2269,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00263-cf6751754117",
+    "source": "(Hmm.)",
+    "source_sha256": "cf67517541173e5c0e03c17fd31bcc3a7465034e37527412d3a9e69a5131ab2d",
+    "origins": [
+      "scenes:2b1c89384554:2418"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "hamlet_dadsmurder",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 2418,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00264-3c9f6c51d368",
+    "source": "A-ah.",
+    "source_sha256": "3c9f6c51d36825a4317fc4dc70703196362ac5ec1356a18f2f4be80b09f016b4",
+    "origins": [
+      "scenes:2b1c89384554:3266"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "guil_players",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Stunned}",
+      "line": 3266,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00265-b06662f4fccb",
+    "source": "Noticed?",
+    "source_sha256": "b06662f4fccb4f435b8dc2dbe6f3904281b9635006e25c33a1a9f8924c87b715",
+    "origins": [
+      "scenes:2b1c89384554:3609"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "polonius_invasion",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 3609,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00266-5af35db6f8fe",
+    "source": "Well...",
+    "source_sha256": "5af35db6f8fe39ad7419a02803f002172cf4eb9530b21188e2c81497136783d2",
+    "origins": [
+      "scenes:2b1c89384554:3760"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "bernardo_fortinbrashideout",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Hmm}",
+      "line": 3760,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00267-25e4a60f7335",
+    "source": "Ah--",
+    "source_sha256": "25e4a60f7335e9830cd5c7cde68750b3bd96e94c6a8a635ed863d24fe846d841",
+    "origins": [
+      "scenes:2b1c89384554:3884"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "brit_fortinbrashideout",
+      "speaker": "Lady Brit",
+      "cues": "[surprise]",
+      "line": 3884,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00268-b9863fb64b85",
+    "source": "Grandmother?",
+    "source_sha256": "b9863fb64b858af636455214460ad669b69213cde0b91202481903fa6499be21",
+    "origins": [
+      "scenes:2b1c89384554:4154"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4154,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00269-293a14be4635",
+    "source": "Si--<i>Simona?</i>",
+    "source_sha256": "293a14be463564b168bb1e9435f1aa8c60effa05274efde11cdd48d95d6c3530",
+    "origins": [
+      "scenes:2b1c89384554:4374"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "claudius_simonalives",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {What_Surprised}",
+      "line": 4374,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00270-525333d3332d",
+    "source": "It's--oh--",
+    "source_sha256": "525333d3332db6b16ab0454840b7283424f9b8016ed2b5068cbe31de17619cd8",
+    "origins": [
+      "scenes:2b1c89384554:4583"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "book_reveal",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Book_Touch}",
+      "line": 4583,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00271-8b271aeb94dc",
+    "source": "... Ah.",
+    "source_sha256": "8b271aeb94dcb67efe4d0035b6c198d802131868a587e888e52dfe3db8036372",
+    "origins": [
+      "scenes:2b1c89384554:4860"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "polonius_astrid",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4860,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00272-cef3928f3542",
+    "source": "... Oh.",
+    "source_sha256": "cef3928f35425675a780289885db86bb0d44bb09eed95edff272fcd6f1c28bc3",
+    "origins": [
+      "scenes:2b1c89384554:4971"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh}",
+      "line": 4971,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00273-2d83ba4a98fd",
+    "source": "Plague.",
+    "source_sha256": "2d83ba4a98fd9f7dab7bcad00c89c6f914d4d88f8f5d3ef2c72ac14ef8972ef8",
+    "origins": [
+      "scenes:2b1c89384554:5037"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5037,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00274-eb3b9b2d6c7f",
+    "source": "I'll...",
+    "source_sha256": "eb3b9b2d6c7f1121f074f34733f98921cf557058ba90de13cf73879a303bedfa",
+    "origins": [
+      "scenes:2b1c89384554:5116"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 5116,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00275-1ba3ef51dc98",
+    "source": "Ahh...",
+    "source_sha256": "1ba3ef51dc98bea7e87d2daa73283c55dd005c8c9ec414162e921bac9b9ad0dd",
+    "origins": [
+      "scenes:2b1c89384554:5724"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "gertrude_quincetrouble",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise]",
+      "line": 5724,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00276-0e596a0aed58",
+    "source": "Boredom.",
+    "source_sha256": "0e596a0aed58681b3de014838388a225d882cd6748be1975f35f03636ba53851",
+    "origins": [
+      "scenes:2b1c89384554:5782"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "ghost_quincetrouble",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 5782,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00277-87584f81fc72",
+    "source": "Hrrk!",
+    "source_sha256": "87584f81fc7264a9f691d8df4886b648b6835acc1c1f7d163c9fbdde456ed1cb",
+    "origins": [
+      "scenes:2b1c89384554:5865"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "ros_oddduo",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Gasp_Intense}",
+      "line": 5865,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00278-9c817f72bfd7",
+    "source": "...Fascinating.",
+    "source_sha256": "9c817f72bfd7ed1bc9ec8769b3fff334ddb264322a972af67ce0571230813f7f",
+    "origins": [
+      "scenes:2b1c89384554:5889"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "claudius_assnexposed_RnG",
+      "speaker": "King Claudius",
+      "cues": "{Hmm_Long}",
+      "line": 5889,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00279-a627919d78ec",
+    "source": "Perhaps.",
+    "source_sha256": "a627919d78ec4cce6252b297f0ffb7f02eeadb3fdd6767d973b2e0b936c5efd0",
+    "origins": [
+      "scenes:2b1c89384554:6043"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "horatio_bernardosgoings",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 6043,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00280-8a6489705284",
+    "source": "<i>Dead?</i>",
+    "source_sha256": "8a64897052848d3f13e7ecdc3236cff751ae4562454dcf55207af6c70855951c",
+    "origins": [
+      "scenes:2b1c89384554:6936"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "hamlet_affections",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Gasp}",
+      "line": 6936,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00281-429cffb10c29",
+    "source": "O-Ophelia?",
+    "source_sha256": "429cffb10c294bdb8dc188c49d5f36079991014032b5f8adef0c31d9f97b7631",
+    "origins": [
+      "scenes:2b1c89384554:7414"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "notneeded_react",
+      "speaker": "Polonius",
+      "cues": "[afraid]",
+      "line": 7414,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00282-2b2f71bff405",
+    "source": "Why--",
+    "source_sha256": "2b2f71bff405c8b57cf275099d93d6093f120a22e701d6a788c925e8ec10b9ab",
+    "origins": [
+      "scenes:2b1c89384554:7527"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "polonius_responsible",
+      "speaker": "Polonius",
+      "cues": "[surprise] {Gasp}",
+      "line": 7527,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00283-6d408394f289",
+    "source": "Guilda...",
+    "source_sha256": "6d408394f289571c0fe38972334f01e1b2f5c3b695a12bfa46fe2e81caf2650c",
+    "origins": [
+      "scenes:2b1c89384554:7966"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "hamlet_guildisdead",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Guilda_Sad}",
+      "line": 7966,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00284-8bc4e368e492",
+    "source": "P-poison?",
+    "source_sha256": "8bc4e368e4921786ebd75dedffc2c479b766d07d76ce043df3e4f42330d7971d",
+    "origins": [
+      "scenes:2b1c89384554:8472"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "polonius_poisonstash",
+      "speaker": "Polonius",
+      "cues": "[surprise] {Poison}",
+      "line": 8472,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00285-a3e5d628e8fe",
+    "source": "Err--",
+    "source_sha256": "a3e5d628e8fef4ddb9dd4a9b01476c22a8273b561e55d8cd3f0b227ae41bbc41",
+    "origins": [
+      "scenes:2b1c89384554:8613"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "othello_failedromance",
+      "speaker": "Othello",
+      "cues": "[surprise]",
+      "line": 8613,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00286-9f1720b3af82",
+    "source": "Margaret?",
+    "source_sha256": "9f1720b3af82d675cee117296344040e3a74e3b34d412b6b80c98691cc2a62b2",
+    "origins": [
+      "scenes:2b1c89384554:8713"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "gertrude_margaret",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise] {Gasp}",
+      "line": 8713,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00287-95a796e19d58",
+    "source": "Absolutely!",
+    "source_sha256": "95a796e19d586f13ae9c41aff1abb4fa9f2e0a253aad14ba84a7dec37014e234",
+    "origins": [
+      "scenes:2b1c89384554:8906"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "guildenstern_horatio",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Chuckle}",
+      "line": 8906,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00288-48a44d121bf1",
+    "source": "See?",
+    "source_sha256": "48a44d121bf1dcb544c9b8952d746e0c9ffc9d4625461d98941ea76e16e970b0",
+    "origins": [
+      "scenes:430eb8bd272b:331"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Enviro_FortinbrasNotes",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 331,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00289-57d828482c51",
+    "source": "Hardly.",
+    "source_sha256": "57d828482c510e479645b1a63617afc02e092607dcaba7d30f7882ca68bab2d1",
+    "origins": [
+      "scenes:430eb8bd272b:798"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 798,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00290-4d96c68c25e2",
+    "source": "Father.",
+    "source_sha256": "4d96c68c25e28580004355a48ab99c9d223501fe98c1887edd31c7605968f87f",
+    "origins": [
+      "scenes:430eb8bd272b:803"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Enviro_LockedDoor_Cell",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 803,
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00291-a3c7ce2c996f",
+    "source": "bleehhh",
+    "source_sha256": "a3c7ce2c996ffbe9650add6e40e2fed2cffaf5c9ec910031b6e719aa951a0514",
+    "origins": [
+      "scenes:ed4319ff1aed:50"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Polonius_remember",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 50,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00292-2c66bded19d5",
+    "source": "bleeeh",
+    "source_sha256": "2c66bded19d52abb19eb2e4c772e48dc65699f0e724ec411687d20ce3534b80b",
+    "origins": [
+      "scenes:ed4319ff1aed:53"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Claudius_remember",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 53,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00293-eba2c0d06ccd",
+    "source": "Laertes?",
+    "source_sha256": "eba2c0d06ccd8b38398430c2cad823fdd9d35f330838bfd5c5ed60bc4afd156a",
+    "origins": [
+      "scenes:ed4319ff1aed:283"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "VictoryDinner",
+      "speaker": "Lady Brit",
+      "cues": "[surprise] {Laertes_Surprised}",
+      "line": 283,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00294-49721faa8421",
+    "source": "Agreed.",
+    "source_sha256": "49721faa8421febb20dcbfb1501817c14af322c3323990fead880c2c9b360363",
+    "origins": [
+      "scenes:ed4319ff1aed:439"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Pond_Meetup",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 439,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00295-9d5101569b5e",
+    "source": "Goodnight!",
+    "source_sha256": "9d5101569b5eccbd87d51d54cff2b6e8409148750bf933bc2e212a43f7801925",
+    "origins": [
+      "scenes:ed4319ff1aed:441"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Pond_Meetup",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 441,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00296-030e28614851",
+    "source": "No--",
+    "source_sha256": "030e28614851c0874f7b95caf9b6abc02cc99be8305bb4f8be2990bff1e669a7",
+    "origins": [
+      "scenes:ed4319ff1aed:668"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "The Ghost",
+      "cues": "[despair] {No_Wail}",
+      "line": 668,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00297-cc66b9eb5f1e",
+    "source": "Aye...",
+    "source_sha256": "cc66b9eb5f1ea00bf9f44cb142b42282ad252ccdddb9104e6b68dd02e270f76e",
+    "origins": [
+      "scenes:5dbc50cf037a:69"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "ClaudiusWarMeeting",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Yes_Sad}",
+      "line": 69,
+      "asset_sha256": "5dbc50cf037a46b33442d6d47c399873ce845fc86bd4f86fe69e1c45491f5cb9"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00298-126a472b79ef",
+    "source": "Ah—Father.",
+    "source_sha256": "126a472b79efe30ceb89522f7fb819af0ecfc9eda5d60cbd1866e6357abef61a",
+    "origins": [
+      "scenes:5dbc50cf037a:301"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "LaertesEndingSetup",
+      "speaker": "Laertes",
+      "cues": "{Father}",
+      "line": 301,
+      "asset_sha256": "5dbc50cf037a46b33442d6d47c399873ce845fc86bd4f86fe69e1c45491f5cb9"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00299-94d0e648e600",
+    "source": "...Oh.",
+    "source_sha256": "94d0e648e6005e1dfa597ef3eb6ef61b9767187f6ace5e89fb5ead043a8583f6",
+    "origins": [
+      "scenes:f24dbe3317f8:235"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Enviro_GuardTable1",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 235,
+      "asset_sha256": "f24dbe3317f8097f1401453a40ee4919598de0b6c0e606fbdf2d5ea70b53d307"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00300-cabe38ca7c02",
+    "source": "Sisters.",
+    "source_sha256": "cabe38ca7c02f9810ab0263bc6c53b48f67e270abfe0dd2b94a8ad05b36b06c9",
+    "origins": [
+      "scenes:8e6f17cfdf85:162"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "brit_future",
+      "speaker": "Ophelia",
+      "cues": "[smile]",
+      "line": 162,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00301-af717c087cb1",
+    "source": "Strangely?",
+    "source_sha256": "af717c087cb1fe31ce5c4536640a7a8d00eb38490574122a0a887740320fa2cd",
+    "origins": [
+      "scenes:8e6f17cfdf85:213"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "polonius_real",
+      "speaker": "Polonius",
+      "cues": "[surprise] {Hmm}",
+      "line": 213,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00302-7a6a2f4dc050",
+    "source": "(Odd...)",
+    "source_sha256": "7a6a2f4dc050af9c75c2c59b96e739a47876cdd53acedf10a1e9b282bf9883aa",
+    "origins": [
+      "scenes:8e6f17cfdf85:242"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "laertes_real",
+      "speaker": "Ophelia",
+      "cues": "{Hmm_Unsure}",
+      "line": 242,
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00303-9fef880e04c1",
+    "source": "OooaaAAH!",
+    "source_sha256": "9fef880e04c18d88dfa62a2065b762a83d3b61a7b9fc212104e760119c877bb2",
+    "origins": [
+      "scenes:bf4227338782:94"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "marcellus_LaertesisLate",
+      "speaker": "Marcellus",
+      "cues": "[surprise] {Gasp}",
+      "line": 94,
+      "asset_sha256": "bf42273387829f6f20d26bdd3cb163b8c118f6aed86f764feae39af87ad720c9"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00304-5dde40f869f4",
+    "source": "...How?",
+    "source_sha256": "5dde40f869f40c852e4da96cde176e23552b1367fe73fc474c393720c462dd39",
+    "origins": [
+      "scenes:bf4227338782:149"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "brit_LaertesisLate",
+      "speaker": "Ophelia",
+      "cues": "{Sigh_Tired}",
+      "line": 149,
+      "asset_sha256": "bf42273387829f6f20d26bdd3cb163b8c118f6aed86f764feae39af87ad720c9"
+    },
+    "batch": "b0112"
+  },
+  {
+    "id": "s00305-8cdeb04ddb42",
+    "source": "Astrid...",
+    "source_sha256": "8cdeb04ddb42652446bfded1218fc42187ebfffb0578e6e8861f5f54b8b3a345",
+    "origins": [
+      "scenes:9a3d161dd723:61"
+    ],
+    "categories": [
+      "dialogue_exact_supplement"
+    ],
+    "context": {
+      "scene": "Enviro_AstridPortrait",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 61,
+      "asset_sha256": "9a3d161dd723a9a3201b100467dd6d52731fddb2e49411121d608e7164924366"
+    },
+    "batch": "b0112"
+  }
+]

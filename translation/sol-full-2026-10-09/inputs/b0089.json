@@ -1,0 +1,2737 @@
+[
+  {
+    "id": "p12839-70c053a44f6d",
+    "source": "Polonius and I never spoke of it at the time, but...",
+    "source_sha256": "70c053a44f6d76cb668fcd629828bb5d7c21d4f7139fcf88ab239f6de47ffb46",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 4909,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12840-f2a5bbfe0091",
+    "source": "Your apology means nothing, now that both you and she are dead.",
+    "source_sha256": "f2a5bbfe009184cc2fda93ef34ab9a095b706f54bcd27a9f3cf51f98b0791761",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:499980"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Disgust}",
+      "line": 4911,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12841-0c28301c9bf9",
+    "source": "And it wouldn't help anything. It was a long, long time ago.",
+    "source_sha256": "0c28301c9bf9b9a09aafdc320ebf6d7be20b1651e6d344f8f4f08b1d993b1da4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:500108"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4913,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12842-988e2ee7990d",
+    "source": "I would understand if you no longer spoke to me.",
+    "source_sha256": "988e2ee7990d68806733d089c9030b33dfba9b4100c3c22e22d28f77638d75e1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Heavy_Sigh}",
+      "line": 4916,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12843-dd177afb692d",
+    "source": "No. I need you, and you need me.",
+    "source_sha256": "dd177afb692d71a03bda4e24f733bef43cc27d5cac7e2d267ce76c2fc0075b64",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:500342"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {No_Annoyed}",
+      "line": 4918,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12844-79cf92a2a525",
+    "source": "You can make it up to me by helping <i>me</i> survive this.",
+    "source_sha256": "79cf92a2a525cbb8c57f6c8b5dec9cb77c426d2341876b1eef8fdaffab9ff0b0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:500408"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4920,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12845-47a72b928bdb",
+    "source": "Help me keep the people I love alive. That's how you can make this right.",
+    "source_sha256": "47a72b928bdb8289223ec00a982470582adf6d2d909da1dbc5e6a28a623b4d87",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:500528"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4922,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12846-b1f0df887328",
+    "source": "In that case, I am at your service.",
+    "source_sha256": "b1f0df887328afef0833d9f46e54421081a538b6d7644ad88d0feeb7ad29543b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Ophelia_Warm}",
+      "line": 4928,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12847-a79f1ea2b457",
+    "source": "Nothing I could say could possible amend that crime.",
+    "source_sha256": "a79f1ea2b4576d5b57cfc5521a41e56d1d7b3751258d1dcc9152c979167d52fa",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "The Ghost",
+      "cues": "{Heavy_Sigh}",
+      "line": 4931,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12848-43a3e0e55af2",
+    "source": "So I will say nothing more.",
+    "source_sha256": "43a3e0e55af244e484a1ac107eb858b0996d527f579ab5ab8846611e5675c86e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_elisedeath",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 4932,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12849-18391acbc231",
+    "source": "Father—I want to talk about the way Mother died, and about the dockhouse where her belongings might be.",
+    "source_sha256": "18391acbc231bfc45b4540bab2730dfb8b04ef24e19ced55cd31113fed3b5520",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:501011"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Father_Sad}",
+      "line": 4936,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12850-a8121319b4c3",
+    "source": "Ah. I'm sorry for that. It... was the sort of terrible news I had planned to tell you when you were older.",
+    "source_sha256": "a8121319b4c3610003ab41591290071a4c012f75991e721425005b35690b8dd6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:501220"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "[sad] {Sigh}",
+      "line": 4938,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12851-1df253dc4719",
+    "source": "I see. So someone must have told you...",
+    "source_sha256": "1df253dc4719c26fc3f3d26462b78430519758454b5f9aa8bfacf60172660f77",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:501435"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "[sad] {I_See}",
+      "line": 4941,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12852-81d0be52cc41",
+    "source": "I'm... really quite sorry for that. It was the sort of terrible news I had planned to tell you when you were older.",
+    "source_sha256": "81d0be52cc41d4aa2e3142f4e6f4d7b4066e925374f48f131d4ea24e5aaea34a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:501515"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 4942,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12853-ab540160db29",
+    "source": "Well, you're older now, and you deserve to know. As does your brother, when he returns.",
+    "source_sha256": "ab540160db29844ad56aaf6c767427cfa14a8992cc8cab88e3155900a530bbe4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:501748"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4945,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12854-d3e809f9c6fb",
+    "source": "Well, you're older now, and you deserve to know. As does Laertes.",
+    "source_sha256": "d3e809f9c6fbf950c840592c5f4f78c42d5a032d9f215096cda5499003ca284f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:501925"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4947,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12855-da2ab0dd17a4",
+    "source": "I would never have wanted you to keep that from me. Even if it hurt to tell me. I deserved to know.",
+    "source_sha256": "da2ab0dd17a496bed767a2487ac4f302c7fdb5f19fb407241ab22ba6f4efd02e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:502058"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {How_Could_You_Angry}",
+      "line": 4950,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12856-83053edecc1c",
+    "source": "You're right. And yet... the heart works in strange ways, doesn't it? I told myself it was easier to bury it, to never speak of it.",
+    "source_sha256": "83053edecc1c5dc4cbc35451217b75020440a75eab3f8b3eaef64857376c3861",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:502259"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "[sad] {Ophelia_Sad}",
+      "line": 4952,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12857-75e10c403f60",
+    "source": "As though if I did that, it wouldn't be true.",
+    "source_sha256": "75e10c403f60f8d654696768fd941428916b0d69168739690efd0ae72a17081c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:502524"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 4953,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12858-614cbe337262",
+    "source": "You told me some of her things are still in the dockhouse. Won't you help me see them?",
+    "source_sha256": "614cbe337262ee9d5fac31f945864336b7609ef687aae920800c873441344e8e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:502662"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4959,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12859-336c65297924",
+    "source": "Some of her things are still in the dockhouse. Won't you help me see them?",
+    "source_sha256": "336c6529792411dc24e9ff5f9b6e3344f1166ac7cc5182dfbbfc5b96a7f659e0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:502837"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4961,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12860-bfd2e3dcf68b",
+    "source": "Aah... Ophelia, that house is still used sometimes to house victims of illness.",
+    "source_sha256": "bfd2e3dcf68b160cf31b394b8fb5cba6c722b68ef3b6c45e657b0389954e04f6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:502988"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4964,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12861-2f23912b5b73",
+    "source": "The last thing I need is to lose you. Going in there is <i>incredibly</i> dangerous.",
+    "source_sha256": "2f23912b5b73f27ea94ccad7d35d15e94ff1aeab2100a461b5275d7aa1da7065",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:503149"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_elisedeath",
+      "speaker": "Polonius",
+      "cues": "[disgust] {You_Mustnt}",
+      "line": 4965,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12862-6e235696f12c",
+    "source": "My mother passed away alone in a plague quarantine—at King Hamlet's request. Her things are still there.",
+    "source_sha256": "6e235696f12cbbcf426d52540236de2d15bffe1323c68c50a7a4b3ae484352f9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:503320"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "{My_Lady}",
+      "line": 4969,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12863-fc12b834482f",
+    "source": "You never told me, my lady. Why?",
+    "source_sha256": "fc12b834482f9ad9e4b2c3cb82bfcb0a1309af9c4fc1019ea17076e5b66062a1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:503547"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4973,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12864-1779bb784cf3",
+    "source": "I didn't feel it was my place to tell you, or your brother.",
+    "source_sha256": "1779bb784cf3219b1b8ffca83c184c3f61614e078f3f51052dd7a7fc719c7863",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:503613"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 4975,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12865-8abfa6f0a7d9",
+    "source": "When they took your mother away, you were still nursing, and your brother clung to my skirts, crying. He was so young, he likely doesn't remember.",
+    "source_sha256": "8abfa6f0a7d9ab1cdf969a90b1903ed34b125a7efc2c7fb9445e64a849ada9c0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:503733"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 4976,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12866-43befb32c067",
+    "source": "Before your mother was forced onto the boat, she asked me to keep you both safe, to see that you grew up well attended to.",
+    "source_sha256": "43befb32c06777269e676955288d0aa75347a601970bed8615b1fae1eeac32b1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:504028"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "{My_Dear_Sad}",
+      "line": 4978,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12867-c0a3e27229f0",
+    "source": "And I always knew you would. Look at you. Beautiful, brave, and strong. Your mother, as I am, would be proud.",
+    "source_sha256": "c0a3e27229f004d69f43ba978d6a57aafd47fadd9f8d8cb83871ce289d4087ff",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:504275"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 4979,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12868-5e9a44d1481d",
+    "source": "Thank you, my lady. I... don't know what to say. You've been very kind.",
+    "source_sha256": "5e9a44d1481d74d6d26dec8c69735af604986a395a9e6ac2d37cbc4b278aa887",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:504496"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 4982,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12869-1676fcd21d80",
+    "source": "I just pray that your father tells Laertes. He deserves to know, too.",
+    "source_sha256": "1676fcd21d80d7add837128a50438d519629543c33f27848b42a09127c778399",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:504641"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 4984,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12870-2600082be4c0",
+    "source": "Can you help me get into the dockside shack where her belongings rest?",
+    "source_sha256": "2600082be4c0fb24fc7f531b842cfb4f93c5980b6e2fdf7387201e545a17dc13",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:504782"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4986,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12871-c671aa29f5e8",
+    "source": "I'm afraid I can't.",
+    "source_sha256": "c671aa29f5e81f7ed0dc15882d2aaafc14dbe9f05b0bd3cc16512f2e54e6eea2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:504925"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise] {Sigh_Tired}",
+      "line": 4988,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12872-27032b1b4adc",
+    "source": "You've never seen the town or castle ravaged by plague. When I was a girl, it was all too common here.",
+    "source_sha256": "27032b1b4adce1fa3a723e723a769befa937660c37fbd135c0f47c3ee05d4bd8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:504965"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 4989,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12873-3538d41e7277",
+    "source": "Hundreds would sicken and die in mere days. If any pestilence remains in that shack... it's a threat to us all.",
+    "source_sha256": "3538d41e7277c05febfffd593b5bc5f4190f13b7ad8c4eb0d02ef3efedd413a5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:505172"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 4990,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12874-5664e706e478",
+    "source": "Your mother would want you and Laertes <i>safe</i>, Ophelia. I know that above all.",
+    "source_sha256": "5664e706e478241412019c9cf942eee4e52895af873a2c6bb4878bcfb2da17d6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:505397"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_elisedeath",
+      "speaker": "Queen Gertrude",
+      "cues": "{No_More_Of_This}",
+      "line": 4991,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12875-fb513b61ea49",
+    "source": "Laertes... did you know about mother's death? Did you know what she left behind?",
+    "source_sha256": "fb513b61ea49293022f8d8b833b14e07fc11fdafcad51eb2522a0dccdcea292e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:505566"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "{Laertes}",
+      "line": 4995,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12876-f5881a4a6943",
+    "source": "I knew she was ill. And then she passed. Father told me that.",
+    "source_sha256": "f5881a4a694370d6645d9f8d6f6ddcdd45fb2c445d9381c64025b82c9ffbc08c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:505729"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[sad] {Our_Mother}",
+      "line": 4997,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12877-e004a07704cf",
+    "source": "My memory of her is... faint, at best...",
+    "source_sha256": "e004a07704cffe5029bd1d480a14c57200384aae40558191230e81d269c281fd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:505853"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 4998,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12878-c9e637260500",
+    "source": "Did father also tell you of her time spent in the sanitarium? That King Hamlet forced her into quarantine in the middle of nowhere before she died?",
+    "source_sha256": "c9e63726050047a2ecb07209fc0ffec4a4a4098bd4a318d28d49dccd0131ea82",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:505935"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4999,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12879-187d4a4774a4",
+    "source": "He... did that?",
+    "source_sha256": "187d4a4774a4f7daf344eb3a0535f002f2a8b3265f469ebe220e87f78ac3d180",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:506232"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 5003,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12880-53d0914eb074",
+    "source": "Cruel almost beyond belief. But of course, I'd expect nothing less of that man.",
+    "source_sha256": "53d0914eb074ea54c6b6193469a99de4da184229ecd81b4951d44f497787996f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:506264"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 5004,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12881-eddb002a58dc",
+    "source": "I never thought I'd say it, but I'm <i>glad</i> he's dead.",
+    "source_sha256": "eddb002a58dc563f4eb7dc83056b035cce558885659f6fe52990296c34c9bfb0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:506425"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[disgust] {Smug}",
+      "line": 5006,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12882-c2f1230fbbb8",
+    "source": "I always knew King Hamlet didn't like us. We always stood out to him.",
+    "source_sha256": "c2f1230fbbb8fb58c9009988f00910f97fbc991e0f41c7f87d2ce45db9c62ecc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:506543"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5007,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12883-a041b4e020af",
+    "source": "We're not like them, Ophelia—the rest of the Danes, I mean—and we never will be. Don't forget that.",
+    "source_sha256": "a041b4e020af905b2c86020fb1a62fe04d0244b95380ed98a83a0a9e015ec2d4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:506684"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 5009,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12884-9eb8e97a3e36",
+    "source": "But long after they've given in to madness, or lovesickness, or fainting over themselves, you and I will still be here fighting.",
+    "source_sha256": "9eb8e97a3e36305b57076ecf995fa2a13883ae4a1d5c9bd947a804560a38e2f2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:506885"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 5011,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12885-216275114692",
+    "source": "Laertes. Some of mother's items are still in that shed on the docks.",
+    "source_sha256": "21627511469270e740a35ea361777de4718328ebdf677fb3b6a0c15cba8d01a7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:507144"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5015,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12886-639b51bc25bd",
+    "source": "I need you to help me retrieve them.",
+    "source_sha256": "639b51bc25bdd940a9d4b450211121c870868334182aa8a42ca44b8d6f765814",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:507283"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "{Please}",
+      "line": 5016,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12887-33a25edaad65",
+    "source": "Aye. Let's go. We deserve to reclaim what's hers, Ophelia.",
+    "source_sha256": "33a25edaad658d8d721793652c9d64ddaf3c3b9cc3fd5c30d450121e6ebb6d6d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:507357"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 5018,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12888-568bea5b3315",
+    "source": "They can try to burn our family down at the roots, be ashamed of us, but we're still here, and we're not going anywhere.",
+    "source_sha256": "568bea5b3315ea7d36348f26a579764d8e1cd8363bc83511d0a07a6726188d9a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:507475"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_elisedeath",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 5025,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12889-24386aa3ed17",
+    "source": "I've learned how Mother died. It was inhuman. Some of her things are still in a shack near the docks.",
+    "source_sha256": "24386aa3ed17d46e65754fff692508eb1e38360008de258bf1e30742c3c2d6c0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:507718"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "{Bernardo}",
+      "line": 5030,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12890-6d68b80c3104",
+    "source": "<i>Your</i> mother? Lady Elise?",
+    "source_sha256": "6d68b80c3104dbf88cc392363c6e991d7ed01c8ef6b3d0e4c4b95ec7eed2818e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:507923"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {What}",
+      "line": 5031,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12891-1a83cd3b27ca",
+    "source": "What of her?",
+    "source_sha256": "1a83cd3b27ca199e5df9cfbef032de572d29b3176eee76d11279f173124c440e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:507987"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[surprise]",
+      "line": 5032,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12892-a1f30f69d644",
+    "source": "Did you know? Did you know about her death?",
+    "source_sha256": "a1f30f69d6440ee5eca1d0c34f601e990a72181a7fe162a855184281b9b0f371",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:508013"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5034,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12893-a160366f07e0",
+    "source": "I didn't. Your brother and I were... four years, perhaps five.",
+    "source_sha256": "a160366f07e0ffaa677471ed6259462770bac60e749732c3d2de70557f5ae990",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:508101"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 5036,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12894-141bc546fb80",
+    "source": "But it got worse. After she was sick, King Hamlet sent her to the sanitarium to die, alone and far from family.",
+    "source_sha256": "141bc546fb802cf6b13dbb3e15864df22df5c938ffbd8ae5ea113d0f3d857831",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:508243"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5039,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12895-fdbb630f7c81",
+    "source": "She wasn't permitted to live out her days in the outer apartments, where the other plague victims go.",
+    "source_sha256": "fdbb630f7c81899098fe8fb8cce913aaa2556aa53c6c42bf190373326a5fc44a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:508468"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5041,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12896-b908d2c8787a",
+    "source": "Bernardo, nobody ever told me. Were they... ashamed?",
+    "source_sha256": "b908d2c8787a42148247696f81a10fd8c9deea1196bde8c457789c91512eb183",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:508673"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Why_Sad}",
+      "line": 5043,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12897-cc14e6139182",
+    "source": "I'm so sorry. I've never... heard of the way Lady Elise met her end.",
+    "source_sha256": "cc14e6139182bfbab4747ab76b73c55aa2663ac5f8eb627df49b8386f244ded0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:508779"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Im_Sorry_Ophelia}",
+      "line": 5045,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12898-933d4ae69cf5",
+    "source": "If I had known, rest assured, I would have told you.",
+    "source_sha256": "933d4ae69cf50bdc9b5d914f679023fd7670938e8e8003e61aa289096a246302",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:508918"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 5047,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12899-ba4e2e1e468a",
+    "source": "Some of her personal items are still in a shack by the docks.",
+    "source_sha256": "ba4e2e1e468a73a17ac0f9090bca5ada757700c1934dd97aa3f8c140cba4d07a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509046"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Please_Sad}",
+      "line": 5053,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12900-ee4435233205",
+    "source": "I need entry. But I'm not strong enough to break the door.",
+    "source_sha256": "ee4435233205e16a625157ca7a332550148248d26f2e2acc62a477b049556d34",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509170"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5054,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12901-a47b36b49140",
+    "source": "That old shack? But the King had Marcellus board it up a decade ago. It's possible plague still lingers inside.",
+    "source_sha256": "a47b36b491401eeea3c6b3239106bae40024c038697e3e3352ab35f9cfa60f7b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509288"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Are_You_Certain}",
+      "line": 5056,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12902-4bdeceb727ae",
+    "source": "To open it would present a grave danger to all living here now.",
+    "source_sha256": "4bdeceb727aefd4028057a7048d0c9f595a506dff006c1c2d847b5260bb79e8a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509513"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[surprise]",
+      "line": 5057,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12903-01205ddac916",
+    "source": "You're <i>already</i> in grave danger! From each other! What harm would it do?",
+    "source_sha256": "01205ddac9166e304d29799c2ecd984a92d89671c7d3ed40b7c694726ebce80e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509641"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[angry] {Disgust_Angry}",
+      "line": 5059,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12904-15895008a7a2",
+    "source": "I cannot disobey the King, Ophelia. You know that.",
+    "source_sha256": "15895008a7a2bda83245a5b46f074962b5a6469480fc9118542798b542643c2c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509800"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 5063,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12905-6806f60c3fcb",
+    "source": "...So be it.",
+    "source_sha256": "6806f60c3fcb459dd1ab70e479f324d7e9646f9fe92513f3b5ac7a47073d5377",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509902"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 5064,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12906-0dd965ba7eac",
+    "source": "I'll find another way.",
+    "source_sha256": "0dd965ba7eac43540b77c4c6fdce43901860a6876bd7a7bcc26ef4a98b14e7d3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509928"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 5065,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12907-73056e7bf8c6",
+    "source": "Your brother sent my mother to die alone in plague quarantine. Some of her personal items remain.",
+    "source_sha256": "73056e7bf8c674db05aa731d7f1921a2ca68145106167c055699b5a61e996cc4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:509974"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {My_Mother}",
+      "line": 5069,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12908-6c866dc79675",
+    "source": "My brother sent her to the sanitarium, did he? I never knew.",
+    "source_sha256": "6c866dc79675174f027b6c9212377c1e40e6b20b0e635e252667bff59150b570",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:510171"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {I_See}",
+      "line": 5071,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12909-f1f818fd0ce7",
+    "source": "I'm afraid I didn't pay very close attention to your mother at the end of her life. I was... otherwise occupied. My apologies.",
+    "source_sha256": "f1f818fd0ce7380a30f37bda80d5053ccd0b1d480afc919ad3b06bf3d9f24319",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:510293"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 5072,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12910-4a93b1fdcbc6",
+    "source": "Had I been King, she would have died a death fitting of her station, surrounded by her family.",
+    "source_sha256": "4a93b1fdcbc6d1718aa5c6e63f37dc1c117f2da4e63e14e9a0eb1b6f7f8f14af",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:510548"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 5074,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12911-2643e4fd43f0",
+    "source": "Whether that's true or not...",
+    "source_sha256": "2643e4fd43f0624b9a053ce040cf0f216ecc4db7b84321284546977975c8e35d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:510739"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Sigh}",
+      "line": 5076,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12912-3f29ca664e18",
+    "source": "There's nothing I can do about that at the moment. But her personal items are still locked up in that shack on the docks.",
+    "source_sha256": "3f29ca664e18e20a45aa29bdd80a117f57edb0dff7d56df18b4f776a9d71c2eb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:510799"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5078,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12913-b1bbdc936d8d",
+    "source": "If you could only let me in there—",
+    "source_sha256": "b1bbdc936d8d5f29a86c461423fb54c4179ad65a591961e925fe456e59dd783b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:511044"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5080,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12914-06642cffbe3d",
+    "source": "Into the <i>plague</i> shack? Are you insane?",
+    "source_sha256": "06642cffbe3dfd7a4972f7faa60079a4d6a71d42b623d8014dd4f5d3bdb0624f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:511114"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {Absolutely_Not_Intense}",
+      "line": 5083,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12915-4632a373af6e",
+    "source": "No. I'll not have my men go anywhere close. We require that shack to be opened solely by sailors and the ill. Do you want to catch plague?",
+    "source_sha256": "4632a373af6eda0e447126790a39ed9978a80293f138f109cb513d747231ec25",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:511206"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "King Claudius",
+      "cues": "[angry]",
+      "line": 5084,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12916-d8cbeef3b957",
+    "source": "I'm terribly sorry about your mother, Ophelia. But I forbid you to go into that shack.",
+    "source_sha256": "d8cbeef3b9574b576b15824690415dff20097b44d10f8dc5f94081caf1663d92",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:511485"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "King Claudius",
+      "cues": "[angry]",
+      "line": 5086,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12917-87d59f26b22c",
+    "source": "There's nothing I can do about that at the moment. I just thought you should know.",
+    "source_sha256": "87d59f26b22c781cf2a0e2aac8657c27313f8c5f5d4e3dec99a21d8fe981f2bb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:511660"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5088,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12918-8081f95cda17",
+    "source": "Your father sent my mother to die alone in plague quarantine. Some of her personal items remain.",
+    "source_sha256": "8081f95cda17fd5970c271de90cffbfea61288c5eb8e31cf3d4e1f5131c881a3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:511827"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "{Hamlet}",
+      "line": 5092,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12919-1b5bcff7d5ec",
+    "source": "My father did that?",
+    "source_sha256": "1b5bcff7d5ecf3fb293dd73b0b2732af144443107faa2d161e34ead9fa62cfea",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:512022"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "[sad] {My_Father}",
+      "line": 5095,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12920-c74922256e04",
+    "source": "You never heard about this from him?",
+    "source_sha256": "c74922256e041675bb5e269085c382d066e3183250459c7ac365975f00043fe0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:512062"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[awkward]",
+      "line": 5096,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12921-48ac66461264",
+    "source": "No. I remember your mother's passing very little. All I can recall is that she was with us one week, and missing the next, and no one would speak of her.",
+    "source_sha256": "48ac66461264e292ad66a44e7a8a87e709e7ebb4c37263351273da305763a507",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:512136"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 5098,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12922-ac7a554982bc",
+    "source": "Where are her personal items?",
+    "source_sha256": "ac7a554982bcd356c5baa96d7ca187fbdbc4141d56f6f4b26d7d0782e31e208e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:512445"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 5100,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12923-135f9a6510c6",
+    "source": "They're in the small dockhouse. You know the one. It's been boarded up for years. Can you help me get in?",
+    "source_sha256": "135f9a6510c6b53cfc4429ef59e75878e18a7807c2ca854f55a65cca50233cee",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:512505"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5103,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12924-8c0f8b9e864a",
+    "source": "Ah, but the plague...",
+    "source_sha256": "8c0f8b9e864abdeca2c9930db780cd646745973d73d4fca28c70618c9f7b533d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:512718"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Gasp}",
+      "line": 5104,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12925-456d06036c00",
+    "source": "Yes, it's possible we'd catch plague. But if you could only let <i>me</i> in there, I'd go in alone. You wouldn't need to come.",
+    "source_sha256": "456d06036c0083f8ef284202ba8197fe71a8493a58f89476593b45629e4c2e3f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:512762"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Disgust}",
+      "line": 5106,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12926-ac04250483c3",
+    "source": "I... I want to, but...",
+    "source_sha256": "ac04250483c3b198325bc01996d67dec49c73e51d38096bffe8730b794b688e0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513019"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 5107,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12927-a27619251eab",
+    "source": "As I recall, you were rather prone to taking ill when we were young. What if some pestilence still lingers in there?",
+    "source_sha256": "a27619251eabcff9a34ac8e5966009b90667b5271e486bbd15564e3e3ef84999",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513065"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 5109,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12928-69f73b8faa5f",
+    "source": "I couldn't live with myself if that happened.",
+    "source_sha256": "69f73b8faa5fadb503d177fe9122a101901ee4302ed1cf6139a1c6e4f0902e1f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513300"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 5110,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12929-9db5f5b22856",
+    "source": "Hamlet, I <i>want</i> this more than anything.",
+    "source_sha256": "9db5f5b22856ad7cc3b36020caccf5603093fd42e8d946ad7e1016b0d2f95ef8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513392"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Hamlet_Angry}",
+      "line": 5111,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12930-6173d14ad5e4",
+    "source": "You of all people. I thought I could come to you, at least.",
+    "source_sha256": "6173d14ad5e4e1dfe00313fcaa303fa3fa4db66aba905824107b0b10b10a9ab3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513486"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 5113,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12931-a1fca36dc8fa",
+    "source": "Very well. I'll open it.",
+    "source_sha256": "a1fca36dc8fada9e891752429a2418941338b597eea8b93295c895c64398b41f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513622"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 5119,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12932-c989a1ba3fa9",
+    "source": "I'll meet you near the docks as soon as I'm able.",
+    "source_sha256": "c989a1ba3fa993e709d8fdc3b3d779fc967cb23dac84d2af8eda29980641a251",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513672"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "{Lets_Go_Annoyed}",
+      "line": 5122,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12933-e192f50e016f",
+    "source": "Find me there.",
+    "source_sha256": "e192f50e016f6eb97aab59d8688663858aa6e9e8fe1566b0e1f061c90d4028f7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513772"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 5123,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12934-f8dda9753355",
+    "source": "They're in the small dockhouse. You know the one. It was boarded up until recently.",
+    "source_sha256": "f8dda975335505a3cab27dc8e24aeb79b9f75a4f169127194297bc0ce375881e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513802"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5126,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12935-8cd5487503e3",
+    "source": "I'll be fine, Hamlet. But I had to try to get in.",
+    "source_sha256": "8cd5487503e3f1c027d3a6ebc8ec05dbcce2fd0bf36c08f42f36d007eeadae28",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:513971"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 5128,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12936-20fb47af2076",
+    "source": "I've learned about my mother's death. King Hamlet sent her to die in a sanitarium along the southern coast, alone.",
+    "source_sha256": "20fb47af2076d8127837ead4329b558df601b5574acc9b93e10048de01e0499c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:514071"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Horatio_Sad}",
+      "line": 5133,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12937-3a04b8a86ad3",
+    "source": "But why not simply let her heal up within the castle, just like the others?",
+    "source_sha256": "3a04b8a86ad3f0483fc25505c800112beea3e3be00bf6cebf9db2ae446a2013b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:514302"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "[surprise] {What_Surprise}",
+      "line": 5134,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12938-a860082843cd",
+    "source": "You and I both know why. Because we'll always be outsiders within Denmark.",
+    "source_sha256": "a860082843cdba36a9d09f2487c08c93f4c97490667a1c223407d23057c1567c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:514519"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[angry]",
+      "line": 5140,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12939-2340dd92612a",
+    "source": "... Listen, my dear. I've a tale for you.",
+    "source_sha256": "2340dd92612a5cd835af371fb49378934960d719f4052391acc9986b5538225a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:514670"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "{My_Dear_Friend}",
+      "line": 5142,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12940-e3152c4b6268",
+    "source": "When I was a boy in Rome, my father and I often brought our spice wares to sale late at night and communed with the other traders before we passed the night there.",
+    "source_sha256": "e3152c4b6268930a4dcfb31ffdf8068dd7b93abca472a22aebb23490831a5363",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:514754"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 5144,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12941-35b3e7410f22",
+    "source": "For a long time, we were the only Indian-born men to do so. Our colleagues thought us savage. We were allowed at no fires, given no drink. We drank alone, together.",
+    "source_sha256": "35b3e7410f229e6987ea4414090fd1392e62354516e246fde365090aa0552eee",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:515083"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 5145,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12942-444067d7593c",
+    "source": "And then... others came. Others like us. And we made our own fires. We told our own stories, stories about gods with names the Romans had never heard.",
+    "source_sha256": "444067d7593c389c8b3fc6c532c92ecbf94948f9d58ca284c9cb3501adf3fbc9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:515414"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 5147,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12943-f919325d5324",
+    "source": "Eventually, we outnumbered the men who wouldn't let us drink with them, and <i>they</i> came to sit near <i>our</i> fires. They listened to our tales.",
+    "source_sha256": "f919325d5324ddff2235658152965e593571de96029cf3906cedac63658bb8c2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:515717"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 5148,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12944-f573db28b190",
+    "source": "Someday all the places in the world like Denmark will be that Roman market.",
+    "source_sha256": "f573db28b1900e2f42f590044322e5d5c912373e5face2212894cbefbbb9c259",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:516020"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "[happy] {Sigh}",
+      "line": 5150,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12945-286e838d978a",
+    "source": "And someday, you won't feel so alone, and neither will I.",
+    "source_sha256": "286e838d978a1309eaf05693b9df680e6a228781cb081bb03e696aa2499d81c5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:516173"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 5151,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12946-7d1193000c8d",
+    "source": "Until that day, we make our own fire, and they kill us piece by piece before we are well and truly dead.",
+    "source_sha256": "7d1193000c8d2f3e42c71a57cdc91e037a60942e2cc114830b9c0ab9ccda8bfe",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:516289"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "[disgust]",
+      "line": 5153,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12947-b243a01b862d",
+    "source": "I'm sorry to hear about your mother. You are living proof that there can be a better way, Ophelia. You're loved by all.",
+    "source_sha256": "b243a01b862dc6dd6492c339e1f4e5780c16048d0678ea4851f1ec49ea358e59",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:516500"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 5156,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12948-362fe0414f89",
+    "source": "...If I am loved, it is only for my father's blood.",
+    "source_sha256": "362fe0414f8923d05e54ed244239451205dfc27a0910e35aa76b0dac2000a56b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:516741"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Wistful}",
+      "line": 5157,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12949-2a2cab1f12fa",
+    "source": "I think you do yourself too little service.",
+    "source_sha256": "2a2cab1f12fab81034d1573446bd612f5f86c2fdb31772d83772ba15a0e6e8d1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:516845"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 5159,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12950-a6df1a293965",
+    "source": "Let's look out for one another. Let's keep our own fire.",
+    "source_sha256": "a6df1a293965dc2ef1f69d096c994669ae800899cf920df92632bf70bafbe467",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:516933"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_elisedeath",
+      "speaker": "Horatio",
+      "cues": "[happy] {Farewell}",
+      "line": 5161,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12951-2ce7d98040e0",
+    "source": "Does Peter Quince seem a bit strange to you, my King?",
+    "source_sha256": "2ce7d98040e0a9141619bd4fecfbdcf2db4634babfecb95e59409f241d0fffcc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:517047"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_playmaster",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {My_King_Hesitant}",
+      "line": 5164,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12952-77f621c7e989",
+    "source": "Quince... that name is familiar. Ah. You mean that little traveling playmaster?",
+    "source_sha256": "77f621c7e9898ef5386bf72e8406521252c75974f2287bab7d4b5b7e3e184c19",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:517155"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_playmaster",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 5166,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12953-01e3332a92c7",
+    "source": "Oh, goodness, Lady Ophelia. The man's been coming to Elsinore for years. <i>Always</i> peculiar.",
+    "source_sha256": "01e3332a92c72365da878a60a288ce7d7049cb5dd7935526521e2a05fd257631",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:517316"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_playmaster",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {Ophelia_Amused}",
+      "line": 5167,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12954-0cbc466f0328",
+    "source": "My wife sent for him this time. I've no idea why. Perhaps to cheer Hamlet's dour mood.",
+    "source_sha256": "0cbc466f03280bf580e0d31df080552ac0df6cf04f00a176189d2f1d4747f529",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:517511"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_playmaster",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 5168,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12955-ab7beabf6d7d",
+    "source": "Does Peter Quince seem a bit strange to you?",
+    "source_sha256": "ab7beabf6d7dfb1686399dc67fa931fbf2309858f6f3245f2373bb9532863d40",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:517686"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_playmaster",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {Father}",
+      "line": 5171,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12956-58d8d8bb82b3",
+    "source": "Quince? I assume you mean that man who comes to perform at Elsinore now and then?",
+    "source_sha256": "58d8d8bb82b36161c10b2e98d93fa627c5085cce8bd2f252d21d3e32e8fabd42",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:517776"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_playmaster",
+      "speaker": "Polonius",
+      "cues": "[surprise]",
+      "line": 5172,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12957-6894bcf32761",
+    "source": "The Playmaster's job is to play the fool. If he was not strange, he would be a poor fool, would he not?",
+    "source_sha256": "6894bcf32761723b2219e50dc1bccf4b7a44f1ddd14700822bbeae6361ee3186",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:517941"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_playmaster",
+      "speaker": "Polonius",
+      "cues": "[smile] {Of_Course}",
+      "line": 5173,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12958-ed62f14acdcd",
+    "source": "To tell you the truth, I've always found him a little off-putting, myself. That hinged smile! Those eerie eyes!",
+    "source_sha256": "ed62f14acdcdd9f7ba88a864b083c7afd72b69e8a5f0f4de5df01d81e7b3bde7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:518150"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_playmaster",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 5175,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12959-6a8fd82f6d52",
+    "source": "I wish the royal family weren't so enamoured with him, and his strange one-man 'acting troupe.'",
+    "source_sha256": "6a8fd82f6d52ff2f9b51f74ab4065bc38633567c4b51ee21c4b3422e8707c757",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:518375"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_playmaster",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 5176,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12960-dd062c3a6ff7",
+    "source": "My Queen, does Peter Quince seem... a bit strange to you?",
+    "source_sha256": "dd062c3a6ff7f1dffec06c07e387d7ce8165e9873a289d28e172c67c8758ad2f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:518568"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_playmaster",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {My_Queen_Hesitant}",
+      "line": 5179,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12961-89cb4e0f0678",
+    "source": "I've always been fond of Quince, but I will admit his performances are... unique.",
+    "source_sha256": "89cb4e0f0678e7f7be9d3d29f6a810437417223d6039f050703d21cadfac1480",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:518684"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_playmaster",
+      "speaker": "Queen Gertrude",
+      "cues": "{Hmm}",
+      "line": 5181,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12962-7b7cd164a50b",
+    "source": "Every time he puts on a show, I laugh.",
+    "source_sha256": "7b7cd164a50be5fdd2e274c16d9d864c609cbf31571881e717c86b4e1924ede6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:518849"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_playmaster",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 5182,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12963-c8cc366fd781",
+    "source": "But then afterwards, thinking about the events they covered... I find myself strangely sad.",
+    "source_sha256": "c8cc366fd78168d1afb6496d8f547753792836069950db9b3fd6eb3c65637424",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:518927"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_playmaster",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 5184,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12964-7e3e46aea11c",
+    "source": "He has a funny way of finding humor in tragedy, and of hiding melancholy behind a smile.",
+    "source_sha256": "7e3e46aea11c9553e5c1706defbca07563fe4e6ed3f8f97a780bbbbe4c6fc783",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519112"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_playmaster",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 5185,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12965-8f69b336e33a",
+    "source": "I suppose that's why we keep inviting him back.",
+    "source_sha256": "8f69b336e33ad9c76bf52112a6d0e6ab4ada685e9987ae02da3e14c111a5486c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519291"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_playmaster",
+      "speaker": "Queen Gertrude",
+      "cues": "[happy] {Chuckle_Soft}",
+      "line": 5187,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12966-748860b2bb90",
+    "source": "Quince, why is it that you know things you ought not to?",
+    "source_sha256": "748860b2bb907068fd4741def2af0c276dd60bd9b5809dd1e58e3c914706f068",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519387"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Ophelia",
+      "cues": "[awkward] {Quince}",
+      "line": 5191,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12967-3e1ee5a508d6",
+    "source": "You <i>are</i> a simple one, aren't you.",
+    "source_sha256": "3e1ee5a508d60c1bcd07d9c6dcec36631b89f725bee56ce24501b0660c82d1f1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519501"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "[happy] {Oh_My_Dear}",
+      "line": 5194,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12968-2d024bad648e",
+    "source": "You very well know the answer to that.",
+    "source_sha256": "2d024bad648eabab0961e7f7062c5b7149d40463c5750370b98736317b47b612",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519583"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 5195,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12969-5b8ab8eb8fcb",
+    "source": "...Would you like to have a little peek behind the curtain?",
+    "source_sha256": "5b8ab8eb8fcbb13246785f3d6bdd5b5b6b706d1f3ea09c4f6abe169cd6258a33",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519661"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 5197,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12970-a9f125135190",
+    "source": "To know how I cause such chaos?",
+    "source_sha256": "a9f12513519039b53f8df08711567ff7f97e4eac091f633224b3e17a224bf724",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519781"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 5198,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12971-781250d0f790",
+    "source": "...What do you mean by that?",
+    "source_sha256": "781250d0f790db837c1f40f17b0d28cbc2845ffacbf5bd4ecc8122a5e7e500eb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519845"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {What_Confused}",
+      "line": 5199,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12972-2216b84bb784",
+    "source": "So be off. Don't you have plans of your own to pursue?",
+    "source_sha256": "2216b84bb7847d8b2cd2a7ae5e4374f697e6387e9042f43d48ab080e84e018de",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:519903"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 5203,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12973-53058a818b81",
+    "source": "You were so adamant earlier, after all!",
+    "source_sha256": "53058a818b81563b4f891ddc9767cbe6ed8821eaf9402edbbe342dbdc0f66e09",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:520013"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 5204,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12974-cbd3a3b11b49",
+    "source": "I find it quite endearing, to be honest.",
+    "source_sha256": "cbd3a3b11b49bc06a6ce8419d37ebd3780d8befe0ea487e6a4c179b4de2aa1f1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:520093"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "[smile] {Ahh_Happy}",
+      "line": 5205,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  },
+  {
+    "id": "p12975-5ffc0c4c3b90",
+    "source": "What's that, now? I merely observe what happens around me closely, looking for inspiration in every word.",
+    "source_sha256": "5ffc0c4c3b903111174a5e6e35704f56094cc6b85643778894a2b10d885b89ea",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:520175"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_playmaster",
+      "speaker": "Quince",
+      "cues": "{What}",
+      "line": 5210,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0089"
+  }
+]

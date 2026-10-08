@@ -17,11 +17,27 @@ $arguments = @('-batchmode', '-nographics', '-nosound', '-logFile', ('"' + $logF
 $process = $null
 $createdPlugin = $false
 $previousRunId = $env:ELSINOREHAN_PROBE_RUN_ID
+$previousSavePath = $env:ELSINOREHAN_PROBE_SAVE_PATH
+$originalSavePath = Join-Path ([Environment]::GetFolderPath('ApplicationData')) 'Golden Glitch Studios/Elsinore'
+$isolatedSavePath = Join-Path $projectRoot ('runtime/backups/probe-save-' + $runId)
+New-Item -ItemType Directory -Path $isolatedSavePath -Force | Out-Null
+$saveSnapshot = @()
+if (Test-Path -LiteralPath $originalSavePath) {
+    foreach ($file in Get-ChildItem -LiteralPath $originalSavePath -File -Recurse -Force) {
+        $relative = $file.FullName.Substring($originalSavePath.Length + 1)
+        $destination = Join-Path $isolatedSavePath $relative
+        New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+        Copy-Item -LiteralPath $file.FullName -Destination $destination
+        $saveSnapshot += [pscustomobject]@{ path=$relative; sha256=(Get-FileHash -LiteralPath $file.FullName).Hash; write_time=$file.LastWriteTimeUtc.ToString('o') }
+    }
+}
+$saveSnapshot | ConvertTo-Json -AsArray | Set-Content -LiteralPath (Join-Path $runDirectory 'original-save-before.json') -Encoding utf8
 try {
     Copy-Item -LiteralPath (Join-Path $projectRoot 'runtime\build\ElsinoreHan.RuntimeProbe.dll') -Destination $plugin
     $createdPlugin = $true
     if ($createdAppId) { Set-Content -LiteralPath $appIdPath -Value '512890' -Encoding ascii }
     $env:ELSINOREHAN_PROBE_RUN_ID = $runId
+    $env:ELSINOREHAN_PROBE_SAVE_PATH = $isolatedSavePath
     $launchedAt = [DateTime]::UtcNow
     $process = Start-Process -FilePath (Join-Path $GamePath 'Elsinore.exe') -ArgumentList $arguments -WorkingDirectory $GamePath -WindowStyle Hidden -PassThru
     $process.PriorityClass = 'BelowNormal'
@@ -50,7 +66,17 @@ try {
     $muted = $runtimeLog.Contains('Wwise 后台音频暂停结果=AK_Success')
     [pscustomobject]@{ run_id = $runId; launched_at_utc = $launchedAt.ToString('o'); pid = $process.Id; exit_code = $process.ExitCode; main_window_detected = $false; batch_mode_confirmed = $batchMode; wwise_suspend_success = $muted; priority = 'BelowNormal'; target_frame_rate = 10; arguments = $arguments } | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath (Join-Path $runDirectory 'process.json') -Encoding utf8
     if (-not ($batchMode -and $muted)) { throw '后台模式或静音未确认，不能宣称验证通过。' }
-    python (Join-Path $PSScriptRoot 'verify-probe.py') --evidence $runDirectory
+    $saveUnchanged = $true
+    foreach ($file in $saveSnapshot) {
+        $path = Join-Path $originalSavePath $file.path
+        if (-not (Test-Path -LiteralPath $path) -or (Get-FileHash -LiteralPath $path).Hash -ne $file.sha256 -or (Get-Item -LiteralPath $path).LastWriteTimeUtc.ToString('o') -ne $file.write_time) { $saveUnchanged = $false }
+    }
+    if ((@(Get-ChildItem -LiteralPath $originalSavePath -File -Recurse -Force -ErrorAction SilentlyContinue)).Count -ne $saveSnapshot.Count) { $saveUnchanged = $false }
+    [pscustomobject]@{ original_save_files_unchanged=$saveUnchanged; isolated_save_path=$isolatedSavePath; files=$saveSnapshot } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $runDirectory 'save-protection.json') -Encoding utf8
+    if (-not $saveUnchanged) { throw '原存档目录变化，不能宣称隔离测试通过。' }
+    $verifyArguments = @((Join-Path $PSScriptRoot 'verify-probe.py'), '--evidence', $runDirectory)
+    if ($env:ELSINOREHAN_PROBE_TRANSLATIONS) { $verifyArguments += @('--translations', $env:ELSINOREHAN_PROBE_TRANSLATIONS) }
+    python @verifyArguments
     if ($LASTEXITCODE -ne 0) { throw '后台 UI 集成断言失败。' }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'verification.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-ui-verification.json') -Force
     Copy-Item -LiteralPath (Join-Path $runDirectory 'process.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-process.json') -Force
@@ -61,4 +87,5 @@ try {
     if ($createdPlugin -and (Test-Path -LiteralPath $plugin)) { Remove-Item -LiteralPath $plugin }
     if ($createdAppId -and (Test-Path -LiteralPath $appIdPath)) { Remove-Item -LiteralPath $appIdPath }
     $env:ELSINOREHAN_PROBE_RUN_ID = $previousRunId
+    $env:ELSINOREHAN_PROBE_SAVE_PATH = $previousSavePath
 }

@@ -1,0 +1,2639 @@
+[
+  {
+    "id": "p12443-6757ab2f63a5",
+    "source": "Father... I know that you have, in your possession, the journals of King Hamlet. Can I see them?",
+    "source_sha256": "6757ab2f63a51a524bdc5b4d0831682a2ee844ab351b5e87436ca0b52e330121",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:433932"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Ophelia",
+      "cues": "{Father_Annoyed}",
+      "line": 4041,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12444-1e168d3b0332",
+    "source": "I have the—what?",
+    "source_sha256": "1e168d3b0332183b3aada74755d10b4f39bdc7ff57d3873a62c04e2dcf9187b4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434127"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "[surprise] {What_Surprised}",
+      "line": 4043,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12445-647e7fff28a7",
+    "source": "How could you know...?",
+    "source_sha256": "647e7fff28a7d434e6fcaa06e5f23ae655eeb38ab44e143e2815278f61c725dd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434161"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "[surprise]",
+      "line": 4045,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12446-70ff5676c702",
+    "source": "Never mind that. I need to see them, father. Please—it's urgent.",
+    "source_sha256": "70ff5676c7020d9ad13cd004dc5a1148e892f435d8db4998e2e633837723914b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434207"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Please_Annoyed}",
+      "line": 4047,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12447-5ed6d8f86105",
+    "source": "They're stored and locked in my personal chest, Ophelia. I find it eerie that you would know of such a thing.",
+    "source_sha256": "5ed6d8f86105d9ffcd6dcace538d37507030bb66a3615de792e91a12ad6ed234",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434338"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4049,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12448-8cbcd6468cf2",
+    "source": "They've been destroyed. The ashes are still warm, in fact.",
+    "source_sha256": "8cbcd6468cf29d99663fd38beacfd183c17b5e9104cca4c840f64b09e57bc89f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434559"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "{Sigh}",
+      "line": 4052,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12449-94134f58fa53",
+    "source": "I saw to it last night that such documents can cause no harm.",
+    "source_sha256": "94134f58fa53f16d4f30fa4eda0193ad834a990a1e48a5454373d3597326013e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434677"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4054,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12450-e47e4028040c",
+    "source": "I saw to it two nights past that such documents can cause us no harm.",
+    "source_sha256": "e47e4028040cb728ac9557f8468a8a7a1589d3e324ae1a6f93d5dfa6cae07981",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434801"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4056,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12451-1ad25db66330",
+    "source": "I saw to it three nights past that such documents can cause us no harm.",
+    "source_sha256": "1ad25db663307cba9f61749f2d344b71fde30ff0a086273b40c526b70f82f8a6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:434942"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4058,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12452-6fd854a6992d",
+    "source": "The things they discuss... they could tarnish the reputation of the King forever, brand him a lunatic. I can't have that, not with the court in such a delicate state.",
+    "source_sha256": "6fd854a6992d9f258bc3c10e7be74c608a77cc57b616c30f6a25624a2db214de",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:435087"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4061,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12453-54a9b8e20389",
+    "source": "(So... I'm too late. He's gone and burned them.)",
+    "source_sha256": "54a9b8e203897187938aac1c9ee0fc384178046dc27b755b1f8ab10b32da7079",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:435422"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 4063,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12454-cba7d314e1cc",
+    "source": "(If he burned them Thursday evening... perhaps there's a way I can stop him.)",
+    "source_sha256": "cba7d314e1cc7cab0cb54b3bf8069d452bb030d99d1d067b9cf313fe702fce7e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:435520"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4064,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12455-9db656f2b521",
+    "source": "(I've missed my chance to salvage those notes in <i>this</i> world.)",
+    "source_sha256": "9db656f2b5218501b5ed34fe453c382adefc4dda368b886ab311dc6d4056430f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:435677"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4065,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12456-05f6ffca3f9e",
+    "source": "I don't know how you learned about them, but they are best left unread, with the court in such a delicate state.",
+    "source_sha256": "05f6ffca3f9ebf046f7f5d3480b7669e840a811445c8294c258da553f53153d0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:435816"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "{Hmm_long}",
+      "line": 4069,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12457-0636e9faad9d",
+    "source": "I thought no one but I knew of their existence. If that's not true... then I have some unfinished business to attend to.",
+    "source_sha256": "0636e9faad9d1f3c4ade71056c87e83b9ea71717317aac30ddfd9c6f0fa2fc79",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436043"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4071,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12458-c083f8ef019b",
+    "source": "Father, please, don't. Hand them to me.",
+    "source_sha256": "c083f8ef019b0aeea1538b161f4d3bacccb8bc2907ab1ba042d76d1e0a1423b9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436286"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4073,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12459-67eb5a50a555",
+    "source": "Leave me <i>be</i>, now. For your own good.",
+    "source_sha256": "67eb5a50a555f42271c64ca9c8048fb36488ab9ad180a85f3a1f004755b19f76",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436366"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_kingnote",
+      "speaker": "Polonius",
+      "cues": "[angry] {Leave_Me}",
+      "line": 4075,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12460-56f3bd8814f0",
+    "source": "I've been told my father might have some notes which were written by the late King Hamlet.",
+    "source_sha256": "56f3bd8814f095aeba207e3c1e72fd119ae2bfefd0ba52e9813c8f20dff42588",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436454"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Ophelia",
+      "cues": "{Quince}",
+      "line": 4081,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12461-429508cd031b",
+    "source": "Ah, mysteries upon mysteries upon mysteries...",
+    "source_sha256": "429508cd031bdcc0ec1b87e8cb35d207f548ebc38af7e47766985c77129eead9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436637"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Quince",
+      "cues": "{Ahh}",
+      "line": 4083,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12462-6d73e4145898",
+    "source": "I would hate to think of the stir those might raise!",
+    "source_sha256": "6d73e4145898a7070288b52cdb95ca495724e777d4255142f678ebe4a4d33722",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436731"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 4085,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12463-4da5d36fea4d",
+    "source": "Of course, they might <i>also</i> be soggy love poems. Harmless and simple.",
+    "source_sha256": "4da5d36fea4d236083204e636aadcce267b1a64505c15f592f27967a2fdb821d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436837"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 4086,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12464-8035a9560944",
+    "source": "Who knows!",
+    "source_sha256": "8035a9560944d076ce3fcd84403c45b70a67cc30f46ad1b54b219167dd9e5ec4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:436990"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Quince",
+      "cues": "[happy] {Ahaha}",
+      "line": 4088,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12465-ac628a5b113b",
+    "source": "Of course. You already know what they contain, don't you?",
+    "source_sha256": "ac628a5b113b1c2d4df159a2f490d34526ec4f0277d03c42d123d387ab1b4501",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:437012"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 4091,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12466-33561c341d97",
+    "source": "Look at you! Spreading dangerous information just to see what happens. There may be hope for you yet.",
+    "source_sha256": "33561c341d9714c80664ee7fbfcbeb13a2b08aff98de165a1f62bce87309dd92",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:437128"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 4094,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12467-3ddf0dabb834",
+    "source": "We're closing in on the end of the game, now. Just a few more threads to unravel.",
+    "source_sha256": "3ddf0dabb834bfd10a1767818474163d8d515d271a8a55bc47d37ad0558fbdab",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:437333"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_kingnote",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 4096,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12468-ee3e6926e1bc",
+    "source": "You say my father has your personal journals. If so, where are they?",
+    "source_sha256": "ee3e6926e1bc2f32bc916fb5bb303fe07fae3694a5ae152ad7904faaa0162ff0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:437498"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_kingnote",
+      "speaker": "Ophelia",
+      "cues": "{Spirit}",
+      "line": 4101,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12469-3827a127d8b1",
+    "source": "There are gaps in my knowledge between my death and my... awakening.",
+    "source_sha256": "3827a127d8b1db18d14e597655dce38030170b95217d8ed6d7f67fff587a5a19",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_kingnote",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 4103,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12470-d6aef7c0d40e",
+    "source": "I know not where they live now. Only that he has certainly taken them from where they once lay.",
+    "source_sha256": "d6aef7c0d40ecd03a24e6eb5f9bcfcd25e8790190d19ffa47addb3dbfba3d6ec",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_kingnote",
+      "speaker": "The Ghost",
+      "cues": "{I_Cannot}",
+      "line": 4105,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12471-ca5d97e439e8",
+    "source": "Your brother was apparently searching for a strange old book before his death. Do you know anything about it?",
+    "source_sha256": "ca5d97e439e88eaa5dcd17178119655d6dc2d26638ff5d38b5fba3af885900db",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:437997"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{My_King_Formal}",
+      "line": 4108,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12472-80526f4ea9e0",
+    "source": "Not in the slightest. What sort of a book? My brother always was the learned sort... Myself, I'm partial to the sword.",
+    "source_sha256": "80526f4ea9e024027c46b4be9540150dce1183d2e1b8cd0ba247825938a65958",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:438218"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "King Claudius",
+      "cues": "{No}",
+      "line": 4110,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12473-13fbbd0cf5e3",
+    "source": "I'm not certain what it might look like. But he was... obsessed with finding it. Did he ever do anything strange to that extent?",
+    "source_sha256": "13fbbd0cf5e3bda75e6eb4c1bb4c22cbd51a046a063d5bd4898ca8a2f85f338c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:438457"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 4113,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12474-ae6b91e60497",
+    "source": "It's a little brown book with gold trim. He was obsessed with finding it. Did he ever do anything strange to that extent?",
+    "source_sha256": "ae6b91e60497ce4f7bc59eecdef5f5fb656af687a550053eea863cc66893dbd5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:438716"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 4115,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12475-66506c368d19",
+    "source": "I see. Yes, there was something like that.",
+    "source_sha256": "66506c368d19dc1c6349a6c32ba04ac745c46e3a7a4bbcd6564d62fb620b3912",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:438961"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "King Claudius",
+      "cues": "{I_See}",
+      "line": 4117,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12476-ab15711696fe",
+    "source": "In the days leading up to his death, he spent every waking moment in the gallery, poring over every page he could find.",
+    "source_sha256": "ab15711696fe7ffc280c50fdef84ce9887a364708dc486796201c3af06ca3a13",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:439047"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 4119,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12477-f7091e0e0e90",
+    "source": "It was as though he was consumed by something. Any time I spoke to him, it was as though he couldn't see me. Or he seemed frustrated that I'd disrupted him.",
+    "source_sha256": "f7091e0e0e9035ee47456a12771bb9823569112947b428f24d42f6ca22ad65d5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:439288"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 4120,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12478-cd2e7f12dc60",
+    "source": "I'd encourage you to have a look through the collection, but many of those books are a bit too stimulating for a young woman's mind.",
+    "source_sha256": "cd2e7f12dc6026bb8bc9274599d372cdae0e55789ce32a49f71e6dcd57ba87cc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:439603"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 4122,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12479-de8946486c5c",
+    "source": "Mind your health first.",
+    "source_sha256": "de8946486c5c2cb5af2f37a0f4e2509e8b6905e22830e24d9408ed10e1ca0c80",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:439870"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_cursedbook",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Farewell}",
+      "line": 4124,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12480-abfdd25c02e2",
+    "source": "My lady, your late husband was searching for a strange old book before his death. Surely you know of it.",
+    "source_sha256": "abfdd25c02e2e695aeb2dcb0e8c2d027609d8006713de689ee7242ca77ae633d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:439918"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{My_Lady}",
+      "line": 4127,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12481-0a2e2c2f9849",
+    "source": "What sort of book do you mean?",
+    "source_sha256": "0a2e2c2f9849b59a78a28c0b0e38995a720b431c18e8926fe56dcf357566d7c1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:440129"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Queen Gertrude",
+      "cues": "{Hmm}",
+      "line": 4129,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12482-ad7b9ffb0215",
+    "source": "I'm not certain what it might look like. But he was... obsessed with finding it.",
+    "source_sha256": "ad7b9ffb0215b2eb3a157bc3cc1710bf7bc6486da47a63934255867f421edfad",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:440191"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4131,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12483-40cc535fc724",
+    "source": "It's a little dark book with gold trim. He was obsessed with finding it.",
+    "source_sha256": "40cc535fc7241ccec9c27e3ef5c79723eeb2a50e19392680f41eb92c169609e9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:440354"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4133,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12484-9342b3a69e2d",
+    "source": "I don't know anything about a book in particular, but it's true that in the week before he passed, my husband took frequent trips into town.",
+    "source_sha256": "9342b3a69e2df452b13cd65cb5571f21f6426ca2644fba359287e409e000ca90",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:440501"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 4136,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12485-23c6085a40bc",
+    "source": "He never did tell me what he was searching <i>for</i>, mind you. But your father always accompanied him, ever faithful.",
+    "source_sha256": "23c6085a40bc9196769003df19540267a136b5546a77541da2dcb016d45063b0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:440784"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 4137,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12486-17bd085d165b",
+    "source": "I suppose I shall never know what consumed him, rest his soul.",
+    "source_sha256": "17bd085d165bd73f21792ecd8c76d44a8bc1ab0780f75fc568628838f74472b8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:441025"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 4138,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12487-503d4eac3cb0",
+    "source": "Much though I might wish I did.",
+    "source_sha256": "503d4eac3cb0c6f2a4062558eb240ff5d754583dcffee78a6bbc5b300df09fc4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:441151"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_cursedbook",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh}",
+      "line": 4140,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12488-08193a41ea17",
+    "source": "I've learned that your father may have come across a strange book. Do you know anything about it?",
+    "source_sha256": "08193a41ea17a1943b63db2d6c5cac9d4f905e645d866660e0c4e7e4c3c55eef",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:441215"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Hamlet}",
+      "line": 4143,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12489-c4ef1d6d45b7",
+    "source": "You mean... the one he mentioned in... <i>those</i> notes.",
+    "source_sha256": "c4ef1d6d45b73902d6c926e41fad5f1017e1fd1167f7bac553848b82e2d9aa14",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:441412"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Hmm}",
+      "line": 4146,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12490-29af847c320f",
+    "source": "I don't know. He never told me about anything like that. Or about... anything else he wrote.",
+    "source_sha256": "29af847c320fc277789de3db881a729bb51d3034bd5dfd831ac6a5c00c1db698",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:441530"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 4149,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12491-68a87d26c215",
+    "source": "I want to forget what I saw. But I can't. He was—completely and totally insane.",
+    "source_sha256": "68a87d26c215af5af03caddcbd38981c07fcc9559e2d0fb9d410b182083e215c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:441717"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 4151,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12492-57171014814a",
+    "source": "And now I'm going to be like that too, aren't I? My father, and me, and my grandmother, too.",
+    "source_sha256": "57171014814a10f0520f40e81924e89a794017f7630bedc7f169fdbe7af0e15e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:441878"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "[despair] {Its_Pointless}",
+      "line": 4152,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12493-60fa7f88d2c2",
+    "source": "Astrid. She died long before I was born. But they say insanity runs in our blood. And now I know it must be true.",
+    "source_sha256": "60fa7f88d2c2120ef2b9f7f1edb4a794d8d143cce00c2ca203112c02b953d425",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:442091"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "[despair]",
+      "line": 4155,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12494-535de48f667b",
+    "source": "(Hmm. That's a connection worth exploring.)",
+    "source_sha256": "535de48f667b77e78d9fcb6d018d0318776d892cbd956b49f8631402ef40c72b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:442320"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 4156,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12495-f98df35842cd",
+    "source": "You mean Astrid.",
+    "source_sha256": "f98df35842cdb06d203af338b58597560c9da99cd561ac587b240f2fc3f5451b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:442408"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4160,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12496-7c0043fb2d19",
+    "source": "Yes. She died long before I was born. But they say that because of her, insanity runs in our blood.",
+    "source_sha256": "7c0043fb2d19409d59092adc9072686abb758caaca603e89273adffa15948514",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:442442"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4161,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12497-68a2895d0e71",
+    "source": "Perhaps I was doomed a long time ago.",
+    "source_sha256": "68a2895d0e71364374b36c013ba90a03fa61ef23f4b7ef0f4c8430b53fdf0e87",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:442643"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4162,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12498-e9bcd5fe5d28",
+    "source": "He loved reading. Do you expect I tracked every tome in his library?",
+    "source_sha256": "e9bcd5fe5d28f6ec81e8f723f7e582137dcd71f0389de5fef7ae1dfb1637ea7a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:442719"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "{Sigh}",
+      "line": 4167,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12499-475ea6bdad28",
+    "source": "No—it wasn't a book he owned. It was something he was searching for. Something special.",
+    "source_sha256": "475ea6bdad28f3aad0dacf7c2c121f4b715d730f1ccfa1bdfd46e78b4822dc3b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:442858"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4169,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12500-e922f94ff2d7",
+    "source": "What might it look like?",
+    "source_sha256": "e922f94ff2d731e155a5e88b429f68e3edf3f5458cac08e126f5db4c12bd8310",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443035"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4170,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12501-45bd84b7e975",
+    "source": "I've no idea.",
+    "source_sha256": "45bd84b7e975d9fda762b3ae576fcbedae6c70ec52647a2797918e75170e3b2b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443085"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4172,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12502-f615314a02bb",
+    "source": "Then what can you expect from me? <i>Of course</i> I don't know how to find something with no description.",
+    "source_sha256": "f615314a02bb625070ecef096e6c2e732fe104c880913a94adcb9682ac2b749b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443113"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "[angry] {Disgust}",
+      "line": 4174,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12503-fc664bfb6c0d",
+    "source": "It's a little brown book with gold trim.",
+    "source_sha256": "fc664bfb6c0d22f1c1ac1dff4dd640b039e69568df6248387a0d5b4acf2d1d6a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443328"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4177,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12504-e805bf7981d7",
+    "source": "There are a hundred books fitting that description in the gallery. I can be of no help with this.",
+    "source_sha256": "e805bf7981d775760a874491cec2d16669ac28d1bd2089f4489e65f73ecb77bb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443410"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_cursedbook",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 4179,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12505-ae100ffe136a",
+    "source": "Father, I know the King was searching for a strange book before he died. Do you know where to find it?",
+    "source_sha256": "ae100ffe136a11d7db5fb4dada8284a4dfc7fee32d90f628e3d6b0ac84859ef4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443607"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Father}",
+      "line": 4184,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12506-f9f6681fa38c",
+    "source": "How... how did you hear about that?",
+    "source_sha256": "f9f6681fa38c54d126e602ab100cd21a89e0f22d0fe2d7d8e27a1985eda5d35d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443814"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Polonius",
+      "cues": "[surprise] {Gasp}",
+      "line": 4186,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12507-f07440144430",
+    "source": "Never mind that. I'd like to find out where that book went. What do you know?",
+    "source_sha256": "f074401444304526c16437df231eab20f7cabc87515229a83478dfd680ae45a9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:443886"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4188,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12508-7c3c1b8ddef2",
+    "source": "I don't know about any such book, Ophelia. And whatsoever you were told, whenever King Hamlet and I went into town together, I saw nothing of his activities!",
+    "source_sha256": "7c3c1b8ddef2bdd7e1925cb16bfca9927da755050c029dfa0a7251f7f450f648",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:444043"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Polonius",
+      "cues": "[angry]",
+      "line": 4190,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12509-7b3fc126ffc4",
+    "source": "Wait, Father. Into town? What activities can you mean?",
+    "source_sha256": "7b3fc126ffc4baad73c081eebb768d9c3eabee6920db5cd90abf61949a787742",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:444360"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Wait}",
+      "line": 4192,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12510-0419e87cce7a",
+    "source": "The King would often ask me to accompany him into town while he spoke to, shall we say, odd acquaintances. But I neither had <i>any</i> direct hand in it, nor overheard a word.",
+    "source_sha256": "0419e87cce7add246323438db8c7e610ee5fe0d656fbc4b833af47eb008e6cd7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:444470"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4193,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12511-be81ef04f5ae",
+    "source": "So, perhaps if I were to visit town...",
+    "source_sha256": "be81ef04f5ae58944fdc072d8f2bde32a0f678fa9dd644e8dd5eb2cd83ab206e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:444825"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4194,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12512-f1b6fc9b6c5b",
+    "source": "Don't even <i>think</i> about it, dearheart. A terrible port town filled with thieves and vagrants. It's not for you.",
+    "source_sha256": "f1b6fc9b6c5b19cc060550cdbf4a4388cd3c3d0d42c8e46f36d72cde8c574b9c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:444903"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Polonius",
+      "cues": "[angry] {Ophelia_Upset}",
+      "line": 4197,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12513-781e483c73e9",
+    "source": "Regardless, only the King himself knows what he was searching for in town. So it's lost to time forever, I expect. Better not to dally in it.",
+    "source_sha256": "781e483c73e9141cd22c6db6384c02aeda2b48f939b0ec90fd546a015c3b42b3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445140"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_cursedbook",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 4199,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12514-4d41df800859",
+    "source": "About this cursed book...",
+    "source_sha256": "4d41df800859fccfab1418ea18a0eaded728c5e15b6cc71d78e57c3b9a97efb6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445425"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Hello}",
+      "line": 4202,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12515-0a977e4740f2",
+    "source": "Oh, dear, yes. That book is the source of all sorrow, all chaos.",
+    "source_sha256": "0a977e4740f2a2275d7026d2dcc9b49a3b77dab386414262654fb6018f8e4cbf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445477"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[happy] {Yes_Intense}",
+      "line": 4204,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12516-d3d7f4e31b57",
+    "source": "And now you're bound to me until you hand it over.",
+    "source_sha256": "d3d7f4e31b578a209d0d7fdf84aad9c63b73a110c36e189ba7d00426181a1d10",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445608"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[unhinged]",
+      "line": 4207,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12517-1f6bf83fb89b",
+    "source": "You can give it to me any time you like.",
+    "source_sha256": "1f6bf83fb89b15fd3df4343b410b3d32a3c3c212c47286ca6b6d8e33950ad5c1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445710"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[unhinged]",
+      "line": 4208,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12518-f61e1be4f703",
+    "source": "I politely decline.",
+    "source_sha256": "f61e1be4f703bd373480ccde8e062ea0bb68f427bb33da998a7c4c614b898fa4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445792"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Disgust}",
+      "line": 4210,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12519-8f491703bd40",
+    "source": "But what is it about the book's power that you so desire?",
+    "source_sha256": "8f491703bd40a89b4e13b313172e140e4eba071f7bbb08290debf84d5c2f7aa0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445832"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4212,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12520-3ae18ccc1d32",
+    "source": "I don't know that I can impart it upon you, really.",
+    "source_sha256": "3ae18ccc1d328955c5e34f4bfdfb5e29a36192c7222a56a5bcf01717f887ec90",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:445948"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "{Chuckle}",
+      "line": 4215,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12521-89d2ec919170",
+    "source": "It would be like trying to explain the fearsome quality of fire to a dust mote.",
+    "source_sha256": "89d2ec9191708fe894f17c81d0a44d4b4da272ceb8db42e91f0cbc30c0a249bf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446052"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 4216,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12522-8022839fbd59",
+    "source": "The only way to do so would be to <i>show</i> you.",
+    "source_sha256": "8022839fbd59924187ca6a6b194350ef27951f1a8be180a07d5b91dc3f390ea1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446213"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 4218,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12523-9242526944eb",
+    "source": "Perhaps someday, <b>when you've used the Book's power enough, you'll be ready for me to show you something special.</b>",
+    "source_sha256": "9242526944ebbcaff693a15b66f51f9798febd85ac41d496e802631ae414081f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446315"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 4219,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12524-bcb3c6bac769",
+    "source": "But today is not that day.",
+    "source_sha256": "bcb3c6bac7698d2a050e0e87e379f99d02fd9ea0efec341fa29a86910874977e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446556"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 4221,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12525-b5821ae31335",
+    "source": "I gave you the power to find out for yourself, Ophelia.",
+    "source_sha256": "b5821ae313354abf725e34d97005bdf13fbaed03562c8f04823a1ef80cbf1f30",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446610"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[unhinged] {Chuckle}",
+      "line": 4224,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12526-6c22ca768a50",
+    "source": "Stop being a coward and explore what that power has to offer.",
+    "source_sha256": "6c22ca768a508bebd9b5e457c24891ddbd34f316514e5d0e8887de10e73c5600",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446722"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[unhinged]",
+      "line": 4225,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12527-0e162f8a7c15",
+    "source": "I had it under my control, once. But it's been lost.",
+    "source_sha256": "0e162f8a7c15e7e2e8801398a9cb83c55cadf8ebf1f2419f45ba2c7c26b9d1e5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446846"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[happy] {Huh_Bored}",
+      "line": 4229,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12528-d4baf86f7f1f",
+    "source": "And so your fate and mine are tied, as well as that miserable spirit's.",
+    "source_sha256": "d4baf86f7f1f90c97a6eb84d873d6f921387ebe9067d258757224db1b21229a0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:446952"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 4230,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12529-6941ccc11bef",
+    "source": "So you know of it? And you never told me?",
+    "source_sha256": "6941ccc11befdfb439065a5868c847b5364d56c58f9d018730a87e8db45b0157",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447097"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Gasp}",
+      "line": 4232,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12530-8935dc15cb63",
+    "source": "Would you have believed me?",
+    "source_sha256": "8935dc15cb63309b8371cfab6ff4cec09954ab0590c630d5eb8715f17b9185a3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447181"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 4233,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12531-3f2000746afe",
+    "source": "Likely not.",
+    "source_sha256": "3f2000746afe2ea3f69ad7a413805207e6d7e8279f1765aeef6126d74a00d272",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447237"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad] {No}",
+      "line": 4236,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12532-184571e36800",
+    "source": "If you find it, bring it to me immediately, lest it cause any more pain and loss.",
+    "source_sha256": "184571e368004c5ac9b0aaa9aa40a0df4ca9012fcbccab1f76bd55c398643099",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447261"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[squint] {Now_Then_Intense}",
+      "line": 4238,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12533-713be052090d",
+    "source": "As you've now realized, it's far too dangerous to occupy human hands.",
+    "source_sha256": "713be052090d9ac60c75e79ac0dac568dcef8be8670dcada009fb73b113f7084",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447426"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[squint]",
+      "line": 4239,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12534-0c7839bbc116",
+    "source": "I have every intention of destroying it immediately, as someone ought to have done long ago.",
+    "source_sha256": "0c7839bbc11683821300c8d6a17c96152f41e93b53202702b02706c96aa95c1a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447567"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[squint]",
+      "line": 4240,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12535-daee02867203",
+    "source": "...You haven't attended my little play about this very matter, have you?",
+    "source_sha256": "daee02867203c35788d6805f4d5903301801721c61836fba46073402b9000a39",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447754"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 4243,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12536-a6d2f9f82248",
+    "source": "Why, I must say, it truly is my <i>magnum opus,</i> if I do say so myself.",
+    "source_sha256": "a6d2f9f8224818b5d33260c40c0f71ad16e985d63fd07e4696aff18c057e6395",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:447901"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[happy] {Ahaha}",
+      "line": 4244,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12537-1291c9578a55",
+    "source": "Castle Town! Thursday morning! You'll be my guest of honor!",
+    "source_sha256": "1291c9578a550130c5a581a463ee9c8e28a087319292bb57a6083e63fab96d1e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:448052"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 4245,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12538-981ba56af74d",
+    "source": "(That's before he's come to Elsinore. All right, I'll find him then.)",
+    "source_sha256": "981ba56af74dcee8a25d05eaadc91fc8b567ae36094e38663fb646bf43a687a7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:448172"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 4246,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12539-1729799902fb",
+    "source": "I found your notes. They mentioned you were looking for a 'cursed book'.",
+    "source_sha256": "1729799902fbbbfa4037aee30388831fda6c37f9b667cd9ba83a03a297737b7e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:448313"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{A_Book}",
+      "line": 4253,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12540-020904f146da",
+    "source": "You were... trapped, weren't you? Just like I am now.",
+    "source_sha256": "020904f146da61e71778f995d0a0cc45c1f8e9594ee949d7806ff0d0d23a854f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:448460"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4256,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12541-75a60299758c",
+    "source": "I can feel the cobwebs of my memory being dusted away gently.",
+    "source_sha256": "75a60299758cf72298b7d70075b99b1d64f62737cdabda11577a5c2d7fd094c7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 4260,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12542-34cbd98aab05",
+    "source": "Ah, to be alive, to remember... my utter failure.",
+    "source_sha256": "34cbd98aab0570d21212982cf7e7e9f45ed6df5d06ba3713e88286230b6689fd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 4261,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12543-038c1f853703",
+    "source": "That book... I gave up in the end, didn't I? And I let... that cursed <i>thing</i> win, break me down...",
+    "source_sha256": "038c1f853703355d73d428354d0c785e80eb2d904a284d994cffa31e4378a592",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 4263,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12544-6eb19c7b8c89",
+    "source": "You mean the book?",
+    "source_sha256": "6eb19c7b8c89df6d1dbc473bbbfc772bb1cada8e19fc5ee8dbbe01ea89005b89",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:449094"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4264,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12545-837b823748d8",
+    "source": "Please. I know it's confusing, but start at the beginning, if you can. What happened?",
+    "source_sha256": "837b823748d87fc6d6ae62d6afd58e4be94e684665ca2ee42e5ae3d029e25b4b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:449154"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Please_Sad}",
+      "line": 4267,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12546-2e0c2f97a86c",
+    "source": "Yes. Like you, I was doomed to repeat the occasion of my death. Hundreds of times. Thousands.",
+    "source_sha256": "2e0c2f97a86cb2538ef2af454f850ce41ea1280e864192ef29db075c95a7bd2b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "{Yes_Grave}",
+      "line": 4269,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12547-edf08416416d",
+    "source": "<i>And like you, the timeline of my death was no more than a week. My son Hamlet was away at Wittenberg, my brother Claudius plotting to take my throne.</i>",
+    "source_sha256": "edf08416416d71c443789199168ad13ac8a0259f397c56d14b252155beeba85f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 4271,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12548-6d1da8f96a99",
+    "source": "<i>How long was I trapped in that insane void between life and death? Centuries? Millennia? I know not...</i>",
+    "source_sha256": "6d1da8f96a9934779f2feb59c949da73d0fa825e692a727790f3e29e666b4ad8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 4273,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12549-8cc860050d52",
+    "source": "<i>It was peaceful to forget for a while, but even now, I cannot be truly dead. No, here I am, still animated, grimacing, like a starved dog brought back to life, forced to bare my teeth...</i>",
+    "source_sha256": "8cc860050d527caef3accb675a3dd70446293aefd581274f6d4e536ec5247e9f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 4275,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12550-30615d870bd6",
+    "source": "<i>I cannot truly rest until my brother pays for his crime, the crime I spent a thousand years trying to avoid!</i>",
+    "source_sha256": "30615d870bd6b8172a77594fde203b1f0d7643f65a082ffc08ac6f2463ab17e4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[angry] {Usurper}",
+      "line": 4276,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12551-bfe30be6e90e",
+    "source": "Why were you looking for the book? What did you expect to find?",
+    "source_sha256": "bfe30be6e90ecca8f67303c23035639e40dcf952afdaf78206ea7c4f46634872",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:450744"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4277,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12552-0361a04c2c88",
+    "source": "<i>A way out!</i>",
+    "source_sha256": "0361a04c2c8825c2e48af1f000a4464305b729b2465d21700ee2bf23431e8ad0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[despair] {Moan}",
+      "line": 4279,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12553-c90612c6ff2b",
+    "source": "<i>A choice between versions of a private hell!</i>",
+    "source_sha256": "c90612c6ff2b8526b801bdcc21120662d9adf007c301518081273897d35a04d7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[despair]",
+      "line": 4281,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12554-b36d99b5f875",
+    "source": "<b>But I was not permitted that much! No, I had to give up! I lay there in the garden, being poisoned by my own brother over and over again, for years before I was freed!</b>",
+    "source_sha256": "b36d99b5f8759e5f5d43734edda5d8593551e592e998ee5455a71646f3330dd1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[despair] {Crying}",
+      "line": 4283,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12555-544b5a02ed25",
+    "source": "<i>I scoured every inch of the castle, every nook and flagstone and drawer—it isn't here, Ophelia! It simply isn't!</i>",
+    "source_sha256": "544b5a02ed250d2b2c5ecca60470aeac2204f6dd2729fbaf3bcb348d96fd1bd1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[despair]",
+      "line": 4284,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12556-d8116795da56",
+    "source": "<i>Why did I have to give up, to expire into madness alone?</i>",
+    "source_sha256": "d8116795da56417b594ae49f2dee2e631794e93149ad85cc82f5fbd5b01e5b01",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[despair]",
+      "line": 4285,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12557-e843ac311930",
+    "source": "I'm sorry, King Hamlet. I wish I could have found the book long ago, for your sake.",
+    "source_sha256": "e843ac311930a7673cde773cb7699207c82f7a1aa7ad72367692136ee5275ea6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:451861"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 4290,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12558-0cd2aabe4613",
+    "source": "(But now that I have it, I have to decide what to do with it.)",
+    "source_sha256": "0cd2aabe461349afc08daf5f737308519e79ccae0ac9f8f24dd645905371f259",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:452030"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4291,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12559-80d4672aee85",
+    "source": "(...And figure out what to do about Quince.)",
+    "source_sha256": "80d4672aee850fa96e627e4b1504a3b5e0c22b1dd8292eb0ab29285cf0049334",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:452156"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4293,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12560-8b521ed87478",
+    "source": "<b>Ophelia! Find the book! Find the book and save your own soul!</b>",
+    "source_sha256": "8b521ed8747870b3681c6a43f8b19b1ab2c79feee90fc90060fc17fb34353260",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[despair] {Please_Despair}",
+      "line": 4296,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12561-a7773537babe",
+    "source": "I know about Simona. I know she hid it intentionally, took it with her.",
+    "source_sha256": "a7773537babe6378204362deb7d157c068ffeb64e925a54001ab1bb0080b088f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:452399"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Simona}",
+      "line": 4298,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12562-a8bee487682e",
+    "source": "<b><i>You know that name? How? How can you know?</b></i>",
+    "source_sha256": "a8bee487682ecb7e3f57de5e16a77242a473acd93eda150f1ff586f680e9186d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "{Gasp}",
+      "line": 4299,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12563-88ffc0e1a93c",
+    "source": "...I'm going to put you to rest, King Hamlet. I've decided.",
+    "source_sha256": "88ffc0e1a93cce76d6be6b10e0bcb98eda21dfc296f3e2f039ca19af0e5a6499",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:452672"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 4301,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12564-42f5aaae42ae",
+    "source": "I'll find her and get the book from her. I'll end this for both of us. I swear.",
+    "source_sha256": "42f5aaae42ae98b111dbc69deadf83b7da438d63c82ee5ba904adb4eb7cbf41d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:452792"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "{I_Can_Change_It}",
+      "line": 4303,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12565-c4c1ec54dcba",
+    "source": "It is eternally more worthwhile to fight than to give up as I did, Ophelia. Never forget that. For you, hope lingers.",
+    "source_sha256": "c4c1ec54dcba84f5fcc342a68d1b705eabf79a011db680b67ef81df7097716ca",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "{Live_On}",
+      "line": 4306,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12566-7fda77121a2f",
+    "source": "I believe that you will live to see winter come to Denmark—putting an end to this cursed summer.",
+    "source_sha256": "7fda77121a2f486c50776b86c5b37beb038284cc86f44d5bf6f3d94add1cbde9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 4307,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12567-9de69d69f293",
+    "source": "(So much is riding on me now.)",
+    "source_sha256": "9de69d69f29365114856baa50b2420ee143e6f3cf97714746ee53713052bf6ba",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:453413"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4309,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12568-c4b6e5e0efbd",
+    "source": "(I've <i>got</i> to find a way to get that damned book.)",
+    "source_sha256": "c4b6e5e0efbd9808262ccc0556c9ac62045ff5bf661be7fc1bd50626494fc379",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:453475"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 4310,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12569-4692ab3efe4e",
+    "source": "I'm doing my best, but I don't know where to begin looking.",
+    "source_sha256": "4692ab3efe4e55fb47f4d91442b9ce3d88ec6e41fe3d413b28f5ea6f462155ff",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:453589"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Disgust}",
+      "line": 4314,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12570-ca6c93242d1e",
+    "source": "Perhaps it is too late, after all.",
+    "source_sha256": "ca6c93242d1e7e7d0d91da0c2cd7232520ba2bd16dc0ec9263d0dfa0e930a4d0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[sad] {Heavy_Sigh}",
+      "line": 4315,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12571-0f77e968e8a3",
+    "source": "Insanity—death—they have always plagued our family. My mother Astrid was no exception.",
+    "source_sha256": "0f77e968e8a31244a1be91a9f3aa5af934622bcfa5fbfeef23653779c46ba9f4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 4317,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12572-a4ba95b9bb9c",
+    "source": "I often wonder if she died like me, if she saw time repeating itself. I cannot bear to think of her suffering the same pain I did.",
+    "source_sha256": "a4ba95b9bb9c464f0220d473224c9d2f4b90611ed225ef56380786174b3d04de",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "[sad]",
+      "line": 4318,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12573-70296e6fe768",
+    "source": "If she <i>was</i>, do you think she might have had something to do with this book's disappearance?",
+    "source_sha256": "70296e6fe768cc9a2ff674060b95e0245c5ace2c935463c423cbeb1162525c97",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:454259"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 4319,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12574-43613a8131f4",
+    "source": "If it's the only thing which can break us free—then mightn't she have found it?",
+    "source_sha256": "43613a8131f4accb4deecb48b9439799767e9a5ad60fae3f430be24b9167eea6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:454458"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 4321,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  },
+  {
+    "id": "p12575-ca10361d96b6",
+    "source": "Impossible to tell. My mother is long dead.",
+    "source_sha256": "ca10361d96b6d613c33457fd2fa43afa8697514c238338b4a1791a3f86ffcb39",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "ghost_cursedbook",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 4324,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0086"
+  }
+]

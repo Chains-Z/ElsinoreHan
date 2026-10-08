@@ -1,0 +1,24 @@
+{
+  "batch": "b0101",
+  "model": "gpt-6.1-sol",
+  "count": 220,
+  "new_calls": 1,
+  "exit_code": 0,
+  "usage": {
+    "input_tokens": 53946,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 6739,
+    "reasoning_output_tokens": 0
+  },
+  "source_sha256": "524b04b3329ab8529a504de316b7535e46c2c9cfa96de4e543ee4d8a422f72aa",
+  "errors": [],
+  "state": "passed",
+  "validation_recovery": {
+    "reason": "花括号内为真实英文正文，不是程序变量；修正校验器，译文未改",
+    "additional_model_calls": 0,
+    "previous_errors": [
+      "p14732-4204dca19f58: 标签或占位符改变"
+    ]
+  }
+}

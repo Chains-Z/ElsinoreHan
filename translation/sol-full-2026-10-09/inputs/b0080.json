@@ -1,0 +1,3216 @@
+[
+  {
+    "id": "p11577-f4bb26dfbf76",
+    "source": "So many primed traps lying in wait, so little time!",
+    "source_sha256": "f4bb26dfbf760d1d6ae44f765cb9dd5b6a30d20bf584b9441160e8b75b40c268",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:313235"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "quince_murder",
+      "speaker": "Quince",
+      "cues": "[smile] {Laughter}",
+      "line": 1838,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11578-a54e561f953c",
+    "source": "My lord, I know now that you murdered your brother.",
+    "source_sha256": "a54e561f953c851ea2587f86967c87a9411b07b010bce11a02a695df8a23ea1c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:313339"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "Ophelia",
+      "cues": "{My_Lord}",
+      "line": 1843,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11579-61c62652c061",
+    "source": "Come now, Ophelia. Where did you hear a thing like that?",
+    "source_sha256": "61c62652c06131dc3f7fe856352cbfbfbc7fc23ac153d5920f2a3079fb94206f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:313463"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 1847,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11580-0e46eeac6ff5",
+    "source": "My dear, I am so terribly sorry to hear about the brutal murder of your father.",
+    "source_sha256": "0e46eeac6ff5553eb29303dcbabb4097a925104c3deb20f603297dae2b7929b6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:313577"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 1849,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11581-2555aacb1b44",
+    "source": "I heard they only just found his corpse.",
+    "source_sha256": "2555aacb1b443e74024ccd15b3ee9cc41f14eee76630397406b766a02187e4fb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:313738"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 1850,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11582-e7fb927650b1",
+    "source": "And I see that you are mad with grief. I cannot imagine your suffering.",
+    "source_sha256": "e7fb927650b161efdf87d5ef59ea7f9d3b81e9a8b55d7603dd8ab1119947698f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:313820"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 1851,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11583-9539a49fe2ec",
+    "source": "I would be surprised if <i>anyone</i> would believe any accusation you'd make right now.",
+    "source_sha256": "9539a49fe2eca88739d78824782cc60275cfea49c0942df370ef500178acf9cf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:313965"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 1852,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11584-f7be1c3a48f9",
+    "source": "I'm not 'insane.' I <i>know</i> it's true, Claudius. And you <i>will</i> pay.",
+    "source_sha256": "f7be1c3a48f91b8d2dba3c4d14473a5fb39beb373895870bd9d8cf829072c12d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:314144"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {I_Know_What_You_Did}",
+      "line": 1854,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11585-6578592d2904",
+    "source": "I am a seasoned man, my dear. It will take more than the idle threat of a little girl to make me afraid.",
+    "source_sha256": "6578592d2904bee27e799d4838ae2f10298139a6ac7910ac28f7fe7b6f7768a5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:314301"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 1855,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11586-cbbae3aeb2e6",
+    "source": "Now, be off. I tire of you.",
+    "source_sha256": "cbbae3aeb2e62a6678b364d4112f52a49fbce2eca3219f7a0941d7b34d1f9731",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:314512"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "{Farewell_Annoyed}",
+      "line": 1856,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11587-e555fe808500",
+    "source": "As I told you before, we'll speak when next we're in private.",
+    "source_sha256": "e555fe80850070912fa6bc4e0e99daca3aed9485ea6306f7c912696f971495a5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:314568"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 1862,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11588-a32d3a8e54e0",
+    "source": "I trust you won't divulge this story to anyone else until I've had a chance to explain myself further.",
+    "source_sha256": "a32d3a8e54e04c5e27b1acd9e3e4427306620e4ec5c686f42fdee833b2da3426",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:314692"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 1863,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11589-9adc56b9e784",
+    "source": "You think that Bernardo's protection earlier makes you invincible?",
+    "source_sha256": "9adc56b9e784214ffe8f84d220cfefd057f64e0aff0a1aafebd1edb85b7f4bac",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:314899"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 1866,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11590-df56864ea78d",
+    "source": "You are a fool.",
+    "source_sha256": "df56864ea78d63313171421b63a36ce5a3489f3214d9f3fd3412c255493b2daf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315034"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 1867,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11591-167f0be4c363",
+    "source": "So. You intend to... what? To threaten me in public?",
+    "source_sha256": "167f0be4c3632e521189352b950e3ec948ffc7fcc19f4eeb7dfded25a00038e7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315066"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {Effort}",
+      "line": 1870,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11592-37f10ef0b1db",
+    "source": "No. If you really want to speak about it, let's speak in private.",
+    "source_sha256": "37f10ef0b1db6e9e9d08ccb2b0b68552ebe824b4643b257e2ac9aa9aedfa239e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315184"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[smile] {No}",
+      "line": 1873,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11593-ba443a4aadeb",
+    "source": "I'll tell you everything there. Yes, the truth.",
+    "source_sha256": "ba443a4aadebbee34604798b12419c94e6d87a4e36953a60c750af572cb5d2ea",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315317"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 1874,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11594-b4bafdb324b6",
+    "source": "I'll even have Bernardo accompany you for safety, if that puts your mind at ease.",
+    "source_sha256": "b4bafdb324b61ec7d86e5999df1d93396cfadca768f456ecd8e87293db5f79cc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315413"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 1875,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11595-a746e4e9ca03",
+    "source": "Come now, love. Where did you hear a thing like that?",
+    "source_sha256": "a746e4e9ca03d9bb17329176585ccca65c4c8a4f437347bf706df4c198156e2f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315578"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 1884,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11596-4d3dec565206",
+    "source": "Ophelia, if I have but one request of you, it is this.",
+    "source_sha256": "4d3dec56520676bd42aecf9cd676b4092b524f2f278efa9b6b78b14aa4d29f4b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315686"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[sad] {Ophelia_Quiet}",
+      "line": 1887,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11597-0144775101e0",
+    "source": "I wish to forget everything which happened before you came to comfort me. All of it.",
+    "source_sha256": "0144775101e0f0d36f70bc4c977c4815a4c1912e70bd063a1864809ca4d36026",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:315796"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 1888,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11598-c2f459fa46ba",
+    "source": "All the things I did for <i>her--</i>",
+    "source_sha256": "c2f459fa46ba202bfaa6911b1a116f30c7cf6632b8cb434635ceb89c20db8af6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[despair]",
+      "line": 1889,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11599-9de8c863fee7",
+    "source": "No. Let this be a new blank world we can impress ourselves upon anew.",
+    "source_sha256": "9de8c863fee79dac9326c08dff14d78e1be2d5110e1d614664056d3ec4c28dfb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316041"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 1891,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11600-2850fd113e2f",
+    "source": "Otherwise, if I start to think about it--",
+    "source_sha256": "2850fd113e2f020b22c304d01aa6ec5ebeb644fa89ddee709ddf766059b9619e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 1892,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11601-c73f2b49d82f",
+    "source": "I might break.",
+    "source_sha256": "c73f2b49d82f2c66d831a49378ce8362042a4351c7442cf60c466d9f4f1dabd7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316264"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 1894,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11602-b323f8df7622",
+    "source": "So never ask me about the past. It doesn't matter any more. And it never shall.",
+    "source_sha256": "b323f8df7622ac41d01aae678a35368bdebdfd80c075c2a48fac3c94d1c538de",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316294"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "claudius_murder",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 1895,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11603-39853960bf8b",
+    "source": "My lady, I have unfortunate news about your husband's role in King Hamlet's death.",
+    "source_sha256": "39853960bf8bc69c7e747d45c01b01e96b2d42c3084f0da66357e048ce88a83d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316455"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Ophelia",
+      "cues": "{My_Lady_Sad}",
+      "line": 1900,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11604-ecae881179c7",
+    "source": "Closer, Ophelia, and lower your voice. Please.",
+    "source_sha256": "ecae881179c743b94b679cbb7bb0777712f9d4f072cf67f5ba3f9e4dd0503082",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316662"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 1903,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11605-52d8e00efd6d",
+    "source": "What are you saying?",
+    "source_sha256": "52d8e00efd6d59d66337dfae2a6d8c41a6b814e39c3181fff1ae31a6282efb50",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316756"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 1906,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11606-5a4168e63a34",
+    "source": "I believe King Hamlet was murdered, my lady. I overheard Claudius confessing it himself.",
+    "source_sha256": "5a4168e63a3441f55e59971004257cb052fcd1e0897b69fe043510bba185f3ad",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316798"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1908,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11607-8ed5191769f0",
+    "source": "King Hamlet wasn't bitten by a snake at all.",
+    "source_sha256": "8ed5191769f01ec476de13d65845c401c97e74e7e162e42acc0d98f5e7340fa3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:316977"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1909,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11608-cd7943240123",
+    "source": "I don't understand. What are you saying?",
+    "source_sha256": "cd7943240123dc5cd0301fe642b1bba12e862ac53aa848fd9408cf93ef9bcdfb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317067"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise] {Stammer}",
+      "line": 1912,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11609-126768090b58",
+    "source": "<i>Please</i> tell me this is a sick joke of yours.",
+    "source_sha256": "126768090b5884c75d877b5b56eba1d0320025d5a0dc9b36b44f6e36d8b94371",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317149"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 1913,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11610-013e8f114d07",
+    "source": "B-because, if it's true—",
+    "source_sha256": "013e8f114d0703ac5c60a2c278188e5d0edea57aa11108b18b754cc7923eb673",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317253"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 1914,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11611-55cc25c4c594",
+    "source": "I know it's difficult to hear, my lady.",
+    "source_sha256": "55cc25c4c5947cb8bee6f7a3bedc2f9cf6563d2a3c8fb6137fa6f56df72e0c4f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317303"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Im_Sorry_Sad}",
+      "line": 1915,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11612-890fdd9ae027",
+    "source": "Could Claudius have...",
+    "source_sha256": "890fdd9ae02727d454f93dc3a69514b2a660375a7af46ed43dca71fb7df7c129",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317383"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 1916,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11613-8d4363e6ac5a",
+    "source": "I understand you may have seen something you can't describe, Ophelia, but you must have been mistaken.",
+    "source_sha256": "8d4363e6ac5a0b0f5d0c44053c0b8efc0230a9236be5266fcdee27dc48f9514e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317429"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[disgust]",
+      "line": 1920,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11614-3cfbcd603a29",
+    "source": "I'm certain Claudius didn't mean whatever he said. Or perhaps you heard it out of context.",
+    "source_sha256": "3cfbcd603a2920a1d50dba45124d54c58832c00711ce42abdc00aa0ddd03d093",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317636"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[disgust]",
+      "line": 1922,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11615-a97a91cf5465",
+    "source": "Regardless, I shall seek him out myself and clear the air. I'll clarify that it was nothing after all.",
+    "source_sha256": "a97a91cf54654e3b578c38c8dfe4729fff2c3464a43a2fbc283bd5c1976198c4",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:317819"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[disgust]",
+      "line": 1923,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11616-e336824230ba",
+    "source": "Frankly, I had thought this kind of whisper-trading beneath you, Ophelia.",
+    "source_sha256": "e336824230badb73e36476c60132b5e6ac0bd381050b0f669aefb1b269f2585b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318026"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "gertrude_murder",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh_Annoyed}",
+      "line": 1924,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11617-446fdda1256c",
+    "source": "Laertes, I overheard the King confessing he murdered his brother.",
+    "source_sha256": "446fdda1256c65dbf234ccf845b7c48c79b389c421ebde002ced0f31545c755b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318175"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Ophelia",
+      "cues": "{Laertes_Scared}",
+      "line": 1929,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11618-b60a5772c229",
+    "source": "What? You're certain?",
+    "source_sha256": "b60a5772c22904a3e67985788ba53618a371ef75b8f063ae30a2022d324f951e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318308"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[surprise] {What}",
+      "line": 1931,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11619-107ff9a74804",
+    "source": "Yes. He was in the chapel. I heard him praying.",
+    "source_sha256": "107ff9a748046f40292b50dada6d23e82e146964e6dd1d367aac73ea1ba790bc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318352"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 1933,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11620-bb796496712d",
+    "source": "You're <i>absolutely certain?</i> Ophelia, this is the kind of accusation which gets both of us killed.",
+    "source_sha256": "bb796496712d606a9c5d910cfa7934b93a5a4e3c3947bcae11a356548fca6cbb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318448"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1935,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11621-199e187e535a",
+    "source": "I'm certain. I saw it with my own eyes. Hamlet was there, too.",
+    "source_sha256": "199e187e535ab1ab61885acff0d9dcaeb853feffad4649be8260cf6d52ddfcd7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318657"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 1936,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11622-bab379dcb2a8",
+    "source": "As much as I hate to admit it, I believe you.",
+    "source_sha256": "bab379dcb2a8bb82a9098c814db141e4aa7513ceea066c4123b56a6253fffe85",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318795"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1939,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11623-21c25675b334",
+    "source": "After King Hamlet died, there were cruel rumors like that... but to have heard a confession is something else altogether.",
+    "source_sha256": "21c25675b33447a9cbdb5c754d57f5d2381a5d4ad77ef84ec3be664feef05031",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:318887"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1940,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11624-b823ef697d66",
+    "source": "Normally I'd turn to Lady Brit in matters like these, but I've done so once already, and it was clear that it troubled her greatly.",
+    "source_sha256": "b823ef697d66a8354724c7e108b5051595be3d8804b1531c790de2610d1ddd4b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:319132"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1953,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11625-43d2eb56a297",
+    "source": "I'll have to think upon an alternative solution. Deal with this on my own.",
+    "source_sha256": "43d2eb56a297e20644df8a2956fcbb6a7074cc36cea5a985fd447ec6c00c1c6b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:319397"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1954,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11626-a2a63784f599",
+    "source": "A confession from my own blood is as good as truth to me.",
+    "source_sha256": "a2a63784f599a0efb29f035619ac28309e7b03d0d0200efe86541c57ed2cd07b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:319548"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 1956,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11627-c57b110b9aba",
+    "source": "Now, I shall take what must be taken.",
+    "source_sha256": "c57b110b9aba6eb69d2b1dacab41750608ad0ec390e87cea79b973b283ed19f1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:319664"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[angry]",
+      "line": 1957,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11628-e8f5bcdd1ede",
+    "source": "I think I know who to turn to for rumormongering of this sort.",
+    "source_sha256": "e8f5bcdd1ede16091eb9f612e7942987f9f6f117906f5cf13b68332c01c136a5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:319740"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad] {Hmm}",
+      "line": 1962,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11629-ab4dc8e0b0a7",
+    "source": "Lady Brit is one of the best. If other accounts of this kind of thing exist, she'd know.",
+    "source_sha256": "ab4dc8e0b0a75f6ff4be844c97e06c3e3bb918cd6b0f6e5268864d8c40e3fe1a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:319866"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1963,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11630-f67bfd8bba9a",
+    "source": "And <i>that</i> might be the support we need.",
+    "source_sha256": "f67bfd8bba9a60de448c4bfb4fc3e7f6c04475a110b0538edcac88c5e3c3ac94",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320045"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1964,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11631-99ba3b01d1c7",
+    "source": "You haven't heard the news?",
+    "source_sha256": "99ba3b01d1c712be9e858486eb918706e8c86b3e91d07f2d061d1c291730ef62",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320137"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Gasp}",
+      "line": 1966,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11632-b2f0005a5521",
+    "source": "What news?",
+    "source_sha256": "b2f0005a5521ebefdf1ea2b115e5217dde9731f24c41108bde7c9cee8bb2042a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320193"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[surprise]",
+      "line": 1968,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11633-0497e7fe0210",
+    "source": "Ah... never mind it.",
+    "source_sha256": "0497e7fe02101ae9c9426aedcad38e9909532c754e92a738f1b798b044aaace2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320215"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 1969,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11634-5871c818a6cf",
+    "source": "(He'll find out soon enough.)",
+    "source_sha256": "5871c818a6cf0c72901e6522c77e017f221100ad3bc190be602088d4b2afba32",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320257"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 1970,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11635-25eaa880da87",
+    "source": "In the past, I would have turned to Brit for something like this. But -- well.",
+    "source_sha256": "25eaa880da87d561ec1d7eecee1aea4d6ad876ac5d4b569505b6b48e0a71fda2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1977,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11636-cc8ae0c11f05",
+    "source": "Now I don't know where to go.",
+    "source_sha256": "cc8ae0c11f0557a8df56df42c9bffb770f26d19f45896f9c8aa3c5480cc4a1c6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320470"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 1978,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11637-40f5ec3899fc",
+    "source": "I will not be made gutless. I will <i>not</i> wait.",
+    "source_sha256": "40f5ec3899fc681fcb3f0beede97e9a731aa9d21ddf86676423fd0e5a6c03989",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320530"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 1980,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11638-751890caa712",
+    "source": "Many have long suspected this King's treachery. Now, you confirm it.",
+    "source_sha256": "751890caa7122914ae11ab98157563fa055d5d3db3b9c348ea21c40832ba4347",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320634"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "laertes_murder",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 1981,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11639-b49e2cc760f2",
+    "source": "Hamlet, I know that Claudius murdered your father.",
+    "source_sha256": "b49e2cc760f2db0863c19f03f6a91f9e55c665879e4ccd028175e593e61c94e6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320773"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Ophelia",
+      "cues": "{Hamlet_Sympathy}",
+      "line": 1993,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11640-c2deca41c7cd",
+    "source": "I saw him confess myself. The truth is undeniable now.",
+    "source_sha256": "c2deca41c7cd65c8664c48eee0212321c0af39b8b74d2442670a31e76d8d9dde",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320875"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "{Pain}",
+      "line": 1996,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11641-d79b74ac2b02",
+    "source": "But it took so much for me to be sure. I no longer know what to do. And now everything's become stranger than before.",
+    "source_sha256": "d79b74ac2b025be53d20e9bc4195a22e42a3585f78844c9fc8d05daa1a107a69",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:320985"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 1997,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11642-84f498f7ba8f",
+    "source": "What? You... know this?",
+    "source_sha256": "84f498f7ba8f12edd260574d246b8f8a249ec1485f5dd1d4006fe05c8ab3b0b0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321385"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {What}",
+      "line": 2004,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11643-810d235e28ef",
+    "source": "It's hard to explain, but I... heard him confessing it himself.",
+    "source_sha256": "810d235e28ef754d5279a9ae58e09817d74a89fc595dee5b7f10750214911da3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321443"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2006,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11644-dbacbcafd93a",
+    "source": "He was praying, and he stated it plainly, without poetry.",
+    "source_sha256": "dbacbcafd93a54da87d1c7fb6832cfc2ed2f7d51f200da5283ae1ba59a66c62e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321571"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2007,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11645-31ba455f919f",
+    "source": "And now he's dust.",
+    "source_sha256": "31ba455f919fe9e8c77151b6db9790e4ae9975938e13af13c39a2c30c885e5bb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321687"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Tired_Breathing}",
+      "line": 2015,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11646-6e1bd4cf65e4",
+    "source": "I hope he's burning in Hell.",
+    "source_sha256": "6e1bd4cf65e481104fe91deb8661e5e91a87f8f004953bb39ee01bbe3563c670",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321725"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 2016,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11647-9d183320a9cd",
+    "source": "I thought I was alone in this.",
+    "source_sha256": "9d183320a9cd8758d076c510a08bfb0cb517fef755eb07faa1acc7af4a753f5d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321783"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Stammer_I}",
+      "line": 2020,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11648-b600ebe4ac7c",
+    "source": "You're the only other person who suspects him.",
+    "source_sha256": "b600ebe4ac7c91ff57fa363e63e00f92fc1fdc3be8555b1df83f027e14a97010",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321845"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2021,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11649-c769c288094f",
+    "source": "Now is the time. You have to do <i>something</i>, Hamlet.",
+    "source_sha256": "c769c288094ff7be310298082113d2b781e72d80123e1b982060737dbb2399fc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:321939"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2022,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11650-0216c62590e6",
+    "source": "If he truly confessed before you, then that's the proof I need to act.",
+    "source_sha256": "0216c62590e63b10a068ec1b0ed70be349d6f21f1a7282082ba2ac218bb8535a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:322055"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2023,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11651-45c46d20ac40",
+    "source": "Were it coming from anyone but you, Ophelia, I could scarce believe it.",
+    "source_sha256": "45c46d20ac405da056a0a74dbb1855c68be52df78b90c3ffd55bd471db8e7890",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:322198"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2024,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11652-4839a6b22780",
+    "source": "<b>My uncle must die.</b> What a relief it is to feel that for certain.",
+    "source_sha256": "4839a6b2278076771e6617a16f936d8501ee8b0b6f013d08b175b1273fe9389f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:322343"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 2025,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11653-1fa85ba9463a",
+    "source": "My father's spirit told me precisely what you've just said. That my uncle killed my father and covered up his crime.",
+    "source_sha256": "1fa85ba9463a196aaba7ff8d11ea5cb78b25431b3cf67acc5bcf681ee545aafa",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:322488"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2040,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11654-7edeee2fa52a",
+    "source": "And now you've confirmed it for me. How wonderfully freeing it feels.",
+    "source_sha256": "7edeee2fa52a54d60a9b1aa07fd9953efb630843e4f5529f61e920e6f51cb370",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:322723"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2041,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11655-30cc338e46f1",
+    "source": "For my own sanity, <b>I must find out if my mother knew of this. I <i>have</i> to know if she was complicit, too.</b>",
+    "source_sha256": "30cc338e46f15139103aa819159ecfa125bdd7edda1bafca17bf55bbeced81f5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:322864"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2042,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11656-9c612ee14945",
+    "source": "How might we uncover that?",
+    "source_sha256": "9c612ee14945b3ad16790efddd6af0f9c2a188f61537dbad84d3869f183bfa71",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:323101"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 2043,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11657-e4310f321128",
+    "source": "Her journal.",
+    "source_sha256": "e4310f3211284963c3ba777dc251ab5ae3dabc21c231f254d219f383dd1afee0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:323155"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 2044,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11658-9d59991b9c22",
+    "source": "My mother keeps a diary in her bedroom, detailing her every thought. She writes in it often. I thought she might speak of her guilty mind there, if she had one.",
+    "source_sha256": "9d59991b9c22d78344a724a376e6dfc3a4f8408f6c566fd98c268c0fbde88fab",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:323181"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 2045,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11659-2dcd7d0068e2",
+    "source": "She's always been fond of you. You can get into her chambers.",
+    "source_sha256": "2dcd7d0068e202eab61ae32252874a4bb752118d9766f6903ab89153e1042bbe",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:323504"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 2046,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11660-83ba7c987ad8",
+    "source": "If she was part of this, I <i>have</i> to know for certain. Help me. Please.",
+    "source_sha256": "83ba7c987ad81316ef2244d39ffd3ae86f7fb78f05a01c06d1c07594812c3b36",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:323628"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "{Plase_Warm}",
+      "line": 2047,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11661-a41e482d1759",
+    "source": "If you help me find the diary, <b>I'll take you to meet my father's spirit.</b> Then you'll see that I'm not insane.",
+    "source_sha256": "a41e482d17590b68295da9c9f6acde1ca3379bf44ccc17cdc0a884d25d415159",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:323783"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 2048,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11662-580b9fd3a9c0",
+    "source": "And my mother... she willingly betrayed my father for Claudius.",
+    "source_sha256": "580b9fd3a9c0101fd35599f42821bbb0b38ef8779a63bb9d34d4225c90ce5782",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:324018"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2055,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11663-6785c54b52b3",
+    "source": "Were she to tell me now that she never suspected him, I wouldn't believe her for an instant.",
+    "source_sha256": "6785c54b52b396bd13016d922dcfe993943104a266abeb57dee83856ae384fd1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:324146"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 2056,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11664-e17056e71b4b",
+    "source": "No. She's as rotten as he. The both of them need to be exposed.",
+    "source_sha256": "e17056e71b4baac115f9cc621e6e9ff49c552a657aea6f72740a284ad251c37b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:324333"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 2058,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11665-06c2784fdf2c",
+    "source": "No. Plans have changed. I've something special in mind for the both of them, now.",
+    "source_sha256": "06c2784fdf2cf6360ced2afe370996981587ebd6534a253c6f2356165eecfabc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:324461"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "[unhinged] {Laughter}",
+      "line": 2060,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11666-c136a78f7ea0",
+    "source": "Hamlet, please, think carefully...",
+    "source_sha256": "c136a78f7ea04a03e9d28e18db5612a9639049c58d0fea4f003512b2e0946717",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:324626"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Please_Sad}",
+      "line": 2061,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11667-9b7e911dcac7",
+    "source": "It's too late for me to do something public about this-- to expose them for who they are, on stage...",
+    "source_sha256": "9b7e911dcac70a9400a9e61f013c28c7651184d58eb73c77b958d392b5c6a71e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "hamlet_murder",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 2075,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11668-cf566c1467e7",
+    "source": "Bernardo, I have proof that King Claudius murdered his own brother.",
+    "source_sha256": "cf566c1467e729d0c7450647d5de68532fea8dae08085695151be0524925768c",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:324897"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Ophelia",
+      "cues": "{Bernardo_Sympathy}",
+      "line": 2088,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11669-dbf5e19261d4",
+    "source": "We both do, now.",
+    "source_sha256": "dbf5e19261d4cae9f07ac841de785cdc26672d45b3afde9fe804c5f71ed19fcc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:325034"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Of_Course_Quiet}",
+      "line": 2091,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11670-fddb63f3961e",
+    "source": "But what am I to do? I cannot take a King into custody.",
+    "source_sha256": "fddb63f3961ef1f3b05b7c6c5bb89fb25aa51870d9ad8a6f22689531fdd09e1f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:325068"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2093,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11671-7f52ef3e136c",
+    "source": "Even if he shouted it from every rooftop, it would take the will of the nobility to stop him.",
+    "source_sha256": "7f52ef3e136c817a1fccdcdf0d1ca770df5dbfd9550759903e1bfa65c56987e3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:325180"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2094,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11672-96dfe98a7618",
+    "source": "...Nevertheless, I thank you. Because you see me for who I am, I was able to stand up to him.",
+    "source_sha256": "96dfe98a76185d8c92ef272f5ac6e3c7e92b0035c50a98d5bbefa7ca8a18e491",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:325369"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "{Sigh}",
+      "line": 2096,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11673-778474358b3a",
+    "source": "For the first time in my life, I feel entirely drained of fear. He has <i>no control</i> over me anymore.",
+    "source_sha256": "778474358b3ae72c0a34a1754d56b061d75c5828c05b6c4c4df9d383471153ee",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:325558"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 2098,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11674-3e3c1d02efed",
+    "source": "And despite the dire circumstances we're in, I cannot help but feel like the future is a brighter one.",
+    "source_sha256": "3e3c1d02efed4c70f222d98af2c95729d9b3bd04260c5267b0b41466da78c8ec",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:325771"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 2099,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11675-bbf5139cf94e",
+    "source": "So thank you, Ophelia. Thank you for standing with me.",
+    "source_sha256": "bbf5139cf94e7ef1075bda22928a901b26b5e3503d3cae3486f54fc6b2aae690",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:325978"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 2101,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11676-7b9a7d947be2",
+    "source": "This isn't a joke.",
+    "source_sha256": "7b9a7d947be2bed2dd30942e8bb68f470d40725e3f692eb361955a3a275f16aa",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326110"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2105,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11677-f0acbc8486c6",
+    "source": "Then how did you come to hear such a rumor?",
+    "source_sha256": "f0acbc8486c68b943eb3d8c2a5e1a688721f4058f6826bfd17c8062f922db6fb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326148"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2109,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11678-5a14936c0363",
+    "source": "I heard him confess it when he thought he was alone. He was praying.",
+    "source_sha256": "5a14936c036395d5ba48180b2b4661a28c449ccdc1dc42d715d70d97dfed0969",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326236"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 2111,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11679-cf8632cbf30b",
+    "source": "We suspected, after King Hamlet died. Or at least, my men and I did.",
+    "source_sha256": "cf8632cbf30bc4fd578546b21654549433503043e539807286acab4e7ec16a1f",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326375"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 2114,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11680-af527349a89d",
+    "source": "But the physician who attended the body said nothing to us of murder.",
+    "source_sha256": "af527349a89dca0b862c3aea93b1536fc99283c665724bae7ba1d5b645502754",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326514"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 2115,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11681-ef16e09669f6",
+    "source": "Regardless, he has power over me.",
+    "source_sha256": "ef16e09669f62f8ec40f614c101645fb0af63bd918eeaf4d1059aec3128e0bb8",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326655"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2116,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11682-b5d099cd373a",
+    "source": "He knows that I am also Katherine.",
+    "source_sha256": "b5d099cd373a328f6220d60eb58cb17f98ca00c2d24223d36cc356ced71b9de2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326723"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2118,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11683-3c13deb29ebf",
+    "source": "And he would use it against me in an instant if he thought it would benefit him.",
+    "source_sha256": "3c13deb29ebf06910b3aa9bd34e2faa4bd6ade369922eba1a1fd9ee391360eaf",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326793"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2119,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11684-e83cde7d88ac",
+    "source": "But you don't need to be afraid. You have me standing by you. And I'm sure others would, too.",
+    "source_sha256": "e83cde7d88ac3b1e15d83ccc0f01da022af037659476934950279b2c92e43459",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:326956"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 2120,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11685-f22e15736567",
+    "source": "And my thanks for that. But even if that's true...",
+    "source_sha256": "f22e15736567849fae5231c6eeb8452139baba08559c1dd3433cb11f33dbb230",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327145"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2121,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11686-af1260871982",
+    "source": "I cannot arrest a King.",
+    "source_sha256": "af12608719823006cc5c8fee9e4f812cff8b627fcb81198e8030a046c5077897",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327247"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "bernardo_murder",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 2124,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11687-b61231ceab2d",
+    "source": "I know now that King Claudius killed his own brother.",
+    "source_sha256": "b61231ceab2dde8db1edd52c37aacde7224bc3709281d6498f1de8ae5b019f47",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327295"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2129,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11688-442fafb41365",
+    "source": "This is why I'm smart enough to stay out of court affairs.",
+    "source_sha256": "442fafb413652bbc3a3653e1446e510559ff5a866e6b640fc4f7212360bedc84",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327403"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_murder",
+      "speaker": "Lady Brit",
+      "cues": "{Hmm_Surprised}",
+      "line": 2131,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11689-563cfd57e081",
+    "source": "I wish I could say I was surprised. But knowing him? Look at him. The man's a nervous wreck.",
+    "source_sha256": "563cfd57e081b6d44b500bd21c11b4c52de654a7d2038d4f67dd3cd56c3938bd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327521"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_murder",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 2132,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11690-3099ef2b1082",
+    "source": "Something broke him. That must've been it.",
+    "source_sha256": "3099ef2b1082131cedcbf77c84a719841e52922e332f7feb3d6874ecc2b68d44",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327708"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "brit_murder",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 2133,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11691-eeaeab30fc72",
+    "source": "I saw King Claudius confess to killing his brother before my own eyes.",
+    "source_sha256": "eeaeab30fc72d8627df471c4d03a6a4258e6d735acbd76f8bf9d0e5b4bffc227",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327794"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2136,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11692-09ee0fa73e05",
+    "source": "Such a chilling message before we've even been acquainted.",
+    "source_sha256": "09ee0fa73e05dc0926737d43fcb30c5e23b224c13978e1eb16973c42e7c10896",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:327937"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "[surprise]",
+      "line": 2138,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11693-536f2e4d7d84",
+    "source": "I am a man of manners. Please, excuse me. Are you that one they call Lady Ophelia? It's a pleasure to make your acquaintance. I am Othello.",
+    "source_sha256": "536f2e4d7d840fd42205c6901789c216e13248bbb898726d7687315d33b07613",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:328055"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 2139,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11694-67759bedecef",
+    "source": "Regardless, as to what you asked about...",
+    "source_sha256": "67759bedecefe2f427cf103c24cd064cd97517b30e223d4ffac5c0f082bb16fc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:328784"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 2150,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11695-fe096c0ced60",
+    "source": "I am unsurprised.",
+    "source_sha256": "fe096c0ced6097a236c39bf7497313adb61c60529caa48e114d9595ddaa0329a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:328868"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "{Disgust}",
+      "line": 2152,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11696-227e01e878fa",
+    "source": "Snakes beget snakes. From what I've heard, the King's father was a ruinous man.",
+    "source_sha256": "227e01e878fac9ea84bcaf0d8107179e772fe6c7f09f0c28a67a50b1bae90143",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:328904"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 2154,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11697-ef46f184e732",
+    "source": "He was savage on the battlefield, but, I'm told, even crueler as a King. He took anything he wanted, killed any who disobeyed. Even family.",
+    "source_sha256": "ef46f184e73214b38d30cf9e744558998df7a95b0b11d64fbf118cd4b0a1995b",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329065"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 2155,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11698-67337e6a8025",
+    "source": "I've served many a King in battle, but I could never serve one like these.",
+    "source_sha256": "67337e6a8025a6f3065d8e9d9ee2c13a03c643aecfcfd0962505464e397abd6a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329346"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 2156,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11699-93096f4a2544",
+    "source": "Not for all the gold in the world.",
+    "source_sha256": "93096f4a2544f962e09df083cf75e932ae5b643c5664c10d70995f8bc5823f6e",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329497"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "othello_murder",
+      "speaker": "Othello",
+      "cues": "",
+      "line": 2158,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11700-32437bb8ac86",
+    "source": "Father, did you know that King Claudius murdered King Hamlet?",
+    "source_sha256": "32437bb8ac863638fbc2c42293cd8ac4ec1677ee3f3457dac94cbebad11e059a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329567"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Father_Sad}",
+      "line": 2161,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11701-c9092840bf07",
+    "source": "Where did you hear that? Who have you been speaking with?",
+    "source_sha256": "c9092840bf07c30fd2abc0d0371a9f75a8321ab36926d429b26b146c553252e6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329691"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 2164,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11702-d816914da17b",
+    "source": "Is it true?",
+    "source_sha256": "d816914da17b0ecda3a9ab36040b555b0a2073e5183682e71ba6a3df30501203",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329807"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2165,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11703-a21b161b4100",
+    "source": "Do you want to see me killed? Or you? Or your brother?",
+    "source_sha256": "a21b161b41002d006b6f165076e665859083e83b9fd30466ebcb77adb0cd3efe",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329847"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[angry]",
+      "line": 2169,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11704-5d73e12b735e",
+    "source": "I tried to tell you before what a delicate situation we... <i>I</i>... am in.",
+    "source_sha256": "5d73e12b735e1a4f0378cf352b01a85d783b0798e04e6e7b4e09182775f73ba6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:329957"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[angry]",
+      "line": 2170,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11705-8d7392a75b41",
+    "source": "Please, don't do anything to bring public embarrassment to us.",
+    "source_sha256": "8d7392a75b4155b495485332ca4ea90f46e4f469f0ba7079c4c60f0cd70291f9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:330114"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[sad] {Please_Sad}",
+      "line": 2171,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11706-d6ebfa0e1e0e",
+    "source": "Your brother is already dead. Do you want to see me lose my head, too?",
+    "source_sha256": "d6ebfa0e1e0e5c38542772a9be90130143507a03481d562ab19e36ae3b9859b6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:330240"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[angry]",
+      "line": 2173,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11707-83cfa30c4f22",
+    "source": "Ophelia, don't you understand how <i>dire</i> things are at the moment?",
+    "source_sha256": "83cfa30c4f22450095c1c9a96e901442cb3d2bbe8f7a99a8b1498280658e5a01",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:330383"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 2174,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11708-7650a802dbbd",
+    "source": "Father, I <i>heard</i> the King himself confess. I saw him with my own eyes.",
+    "source_sha256": "7650a802dbbd28ebbbb439ae1a7ed91b8916a3130e07b38f8897198ae1cc7717",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:330528"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 2176,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11709-e124527b80a3",
+    "source": "You mean to tell me that the King, who is in good health and of sound mind, confessed a murder before your eyes? When? And where?",
+    "source_sha256": "e124527b80a3459d9430cbedee315f15078a04dd98d419f0e4da245908161763",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:330683"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "",
+      "line": 2178,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11710-a770fd0904ee",
+    "source": "Yes! In the chapel!",
+    "source_sha256": "a770fd0904ee32edf0a812267067ff0f6a49bf9cdb8d1314fab5864105eddcd6",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:330944"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Yes_Sad}",
+      "line": 2179,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11711-3ce18b661ca7",
+    "source": "Oh... dear.",
+    "source_sha256": "3ce18b661ca7fc1ffb4d692d38ca2e1169ef8e61056f83d2f9a738f32fcac6c7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:330984"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 2181,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11712-1e8c7e18350a",
+    "source": "I realize what this is. You... you've been listening to the Prince's insane ravings, haven't you?",
+    "source_sha256": "1e8c7e18350a563259c3b64234c4a1c6d746157b5853f453e7d32db80102edf3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:331008"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[sad] {Sigh}",
+      "line": 2183,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11713-34de4995cc47",
+    "source": "Be truthful. Did you hear all this from him? Did he ask you to come lie to me?",
+    "source_sha256": "34de4995cc47657fbfac4be7acd1033d6a31f91565516bcf343e646b482df861",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:331205"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[sad]",
+      "line": 2184,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11714-29891313d0ab",
+    "source": "No! Father, <i>please</i>, believe me!",
+    "source_sha256": "29891313d0ab11d99034c50fa5657b4f338170cf9fbf2f40eb6406eed723f6d0",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:331364"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Please_Angry}",
+      "line": 2185,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11715-3717c8b88a00",
+    "source": "I've heard enough. You won't mention this to anyone. Not a soul. Understand?",
+    "source_sha256": "3717c8b88a007ea833c4ab0e35ab2983cf7028dadd3ff60505b7eec5606bd057",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:331442"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[disgust]",
+      "line": 2187,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11716-ee6896592418",
+    "source": "We never spoke of this treason, and you never heard a <i>thing.</i>",
+    "source_sha256": "ee689659241822e79254cc0573257363e9bb95f1d6a7cfdfcc7b8dde6b1b9ee9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:331597"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "polonius_murder",
+      "speaker": "Polonius",
+      "cues": "[disgust]",
+      "line": 2188,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11717-09a0607a5304",
+    "source": "Horatio, please keep this quiet, but... I've learned that King Hamlet's death was no accident. He was murdered.",
+    "source_sha256": "09a0607a5304185cd8e8beda00e9c091e302a1fb61dc7687e875ad470413e0e1",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:331734"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Ophelia",
+      "cues": "{Horatio_Sad}",
+      "line": 2192,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11718-d62607bc819f",
+    "source": "Do you know anything about this?",
+    "source_sha256": "d62607bc819f1b66086f6c124b15a634789435a585ea2b5e81d257653c01374d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:331959"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2193,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11719-73bcb93bd6a3",
+    "source": "That's precisely what the spirit told Hamlet.",
+    "source_sha256": "73bcb93bd6a370ca5a8dadc933ce76ff78d0e6098287b442272959494a473ac7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:332025"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "{Sigh}",
+      "line": 2197,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11720-8e7f1ec794e7",
+    "source": "He asked me to watch Claudius closely for any hint of-- well, guilt, I suppose.",
+    "source_sha256": "8e7f1ec794e7f85685a327bbce5bf5decb4599971c8f601f875f7bebfba83dfc",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 2199,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11721-8943dd46e0e4",
+    "source": "He feels he needs <i>proof</i> before he can act.",
+    "source_sha256": "8943dd46e0e42bc137f9032a12f774ed9700f5dc43e67f7a00fd82bd328bf8e3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:332274"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 2200,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11722-b44537cc90e1",
+    "source": "He had asked me to watch Claudius closely for any hint of-- well, guilt, I suppose.",
+    "source_sha256": "b44537cc90e18cac445a3db6f2dafdbc5cc1329dc8b6aea27c073d0ce33bcc43",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 2202,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11723-ea9889edf7e9",
+    "source": "Felt he needed <i>proof</i> before he could act, I suppose. Ah, damn all of this sorry business.",
+    "source_sha256": "ea9889edf7e94412fae764d09eee7cb0b7b2638484faae1ce3cf35bfe8db5454",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:332539"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 2203,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11724-78104bcd4f35",
+    "source": "If there were some way you could prove what you heard was true... well, it would be calamity. But good calamity, I think.",
+    "source_sha256": "78104bcd4f35686ea413810fa78a43480d6f59d9a0461f8fd94830777294b3a9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:332734"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 2205,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11725-48efe8ca3d0f",
+    "source": "What? How did you hear that?",
+    "source_sha256": "48efe8ca3d0fbfbf5f057f2199c68adb162f60a5ee580b6377d6546cb88dc128",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:332979"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "[surprise] {What_Surprise}",
+      "line": 2208,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11726-eb023fc66456",
+    "source": "S-so you must've seen... <i>it?</i>",
+    "source_sha256": "eb023fc66456ecc5b0d67ed8a8fe8eb5f6d388cc7ae53c3006d34e39ebc33c4a",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333037"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "[surprise]",
+      "line": 2209,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11727-a37e4c142d62",
+    "source": "You mean the ghost?",
+    "source_sha256": "a37e4c142d626901e3f1060638adca34f7cea030229dcbac7f25e4f21be1e14d",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333109"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 2211,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11728-dfb58f9ad785",
+    "source": "So you <i>did</i> hear?",
+    "source_sha256": "dfb58f9ad785923c4143137eb2be99b7ac3d18b54c8433454e105754b2b56cb9",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333149"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "[surprise]",
+      "line": 2213,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11729-766bfd3807ad",
+    "source": "But there's no way...",
+    "source_sha256": "766bfd3807ad619005555815c9a60bb4342fd5c7173fd047f57850e1a45ecdec",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333197"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 2215,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11730-01c85bf8a000",
+    "source": "I know he spoke to his father's spirit.",
+    "source_sha256": "01c85bf8a00099080b26c050bf941849e4d0c27602f9ddb1dc77504c0f7056a5",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333241"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 2216,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11731-f5642fa8c27d",
+    "source": "Well, go talk to <i>him</i>, then. You'll get nothing more out of me.",
+    "source_sha256": "f5642fa8c27dbf92dcd7a8bd5121c669a8c5955924ec94d8e94c1c6e571d08cd",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333321"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 2218,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11732-ea30ede98bd4",
+    "source": "And a lot of good it did him, in the end.",
+    "source_sha256": "ea30ede98bd452ef67c18230a9927d5c2cb52d7757ddfdff2565b01673003469",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333462"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 2220,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11733-8fcec2d0b51b",
+    "source": "What is 'it'?",
+    "source_sha256": "8fcec2d0b51be5e9332255b04de7b340d0cde76549eb91e761e5dcda76cbafb2",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333570"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {What_Confused}",
+      "line": 2224,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11734-8fd517ce9461",
+    "source": "So you haven't, then.",
+    "source_sha256": "8fd517ce9461463025f977ca2d6d31bf7e286ba40386d9f07337bed6e86ccca7",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333598"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 2226,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11735-0e3974c27cf3",
+    "source": "Horatio. Out with it.",
+    "source_sha256": "0e3974c27cf39fea463cc081f47d4fbe7e711fdd59e218d0c79643d5b18a39cb",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333642"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Ophelia",
+      "cues": "[angry] {Horatio_Annoyed}",
+      "line": 2228,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11736-d37a71cbd9a5",
+    "source": "Hmph! You may intimidate Hamlet, but you won't intimidate <i>me.</i> The King would guillotine me for a mere whisper of what you just said.",
+    "source_sha256": "d37a71cbd9a5d47db32aee89530ab4a95eb5588aa5ebb482652e81fb46865432",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333686"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "{Hmm_Dismissive}",
+      "line": 2230,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  },
+  {
+    "id": "p11737-8d0b2f3318a5",
+    "source": "As such, I am a metaphorical and literal stone wall. You'll get nothing out of me.",
+    "source_sha256": "8d0b2f3318a55ebabf7faa8c2edb7d905c2d88c3383b22bd3257be40064728b3",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:333967"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "horatio_murder",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 2231,
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+    },
+    "batch": "b0080"
+  }
+]

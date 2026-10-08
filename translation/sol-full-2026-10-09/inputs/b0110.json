@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "u00000-19766ed6ccb2",
+    "source": "Cancel",
+    "source_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00001-c1038e950631",
+    "source": "Not Yet",
+    "source_sha256": "c1038e9506317891fed27c6679255816df905a59c3366138159b6472bd513ab2",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00002-1ea442a134b2",
+    "source": "No",
+    "source_sha256": "1ea442a134b2a184bd5d40104401f2a37fbc09ccf3f4bc9da161c6099be3691d",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00003-85a39ab345d6",
+    "source": "Yes",
+    "source_sha256": "85a39ab345d672ff8ca9b9c6876f3adcacf45ee7c1e2dbd2408fd338bd55e07e",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00004-2f10a267695b",
+    "source": "Leads",
+    "source_sha256": "2f10a267695b10d971f4b0b90f49a05775513344f89577128becb6f151c1029f",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00005-f43144e4984d",
+    "source": "BREVITY\n",
+    "source_sha256": "f43144e4984db86f972b9ed89f2728a7000f2abcd5bd47486bc39ee97f91ca10",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Word1 ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00006-e6ac897f35be",
+    "source": "Never Mind",
+    "source_sha256": "e6ac897f35beb955b1e7af917606636c39aeaf8aa55d0ff60afec54c5c0f1fe3",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "NeverMindButtonText ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00007-8ceddf9600ca",
+    "source": "Choose This Fate",
+    "source_sha256": "8ceddf9600caedae347841659b0a4bb42c2faf1da279c3abd02cb18e6fbe3d2c",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00008-4d3622f42944",
+    "source": "NEW FATE UNLOCKED",
+    "source_sha256": "4d3622f42944a9dab092647f3b37692c2fa49bacb31608077e71ee6b626e2584",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "FateUnlocked ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00009-24b6db7c1de0",
+    "source": "GRANDILOQUENCE",
+    "source_sha256": "24b6db7c1de0fa44f9ab23679960ebe91fb0bf8a00e9ab889e88d72c9333100f",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Word2 ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00010-641d1ef657bd",
+    "source": "Follow",
+    "source_sha256": "641d1ef657bdfd9fa2064ab5ae3f0e44186e5161dcd36b63839f3a76a79883bc",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "FollowButtonText ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00011-801b891aad0e",
+    "source": "Lord of Denmark, Knight-Guard Captain",
+    "source_sha256": "801b891aad0eb1c7e4a23d81366df5c4278385b5cb0fa20012e510ad7c1c2f08",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Slug ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00012-3b3e0b1d9324",
+    "source": "Othello and I rode out into the fields and fog -- that is, until I was pulled back once more.",
+    "source_sha256": "3b3e0b1d932401b84419553240837010108c172f071322294d6a6a48cde834d2",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Summary ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00013-d3a6ab2825e0",
+    "source": "I am some rather lengthly bio text that needs to fill up a lot of space. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "source_sha256": "d3a6ab2825e03d73b4ae11208401bde6bfa5105ebecbc2d3b18e92639df3ceda",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Content ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00014-5b561485b7d1",
+    "source": "Travel to Room",
+    "source_sha256": "5b561485b7d1313400ad8cbed35aefa5d220bc79e3a0746d6e04905f652cde29",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00015-7514746684b1",
+    "source": "Revisit this Fate",
+    "source_sha256": "7514746684b1a1d4ff47fc2eae7f0851c83d4cfa3e4dbc8f804a6c0a9967d578",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00016-bc1b88907d3b",
+    "source": "Audio",
+    "source_sha256": "bc1b88907d3b748af99cb9d4ffc07a0118dad5dab21a9dbdcc5a17a09641364a",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00017-6fac39e2845b",
+    "source": "Characters",
+    "source_sha256": "6fac39e2845bb81253124d4d6b5e8c475020dac1851c68cd92129432e9e7de92",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00018-10dddf0e2a47",
+    "source": "Share Info",
+    "source_sha256": "10dddf0e2a47e877b86d7da053f3ce37d8875ca84688dbdf93395de0fe639a7a",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00019-a1101ce50067",
+    "source": "Predicting the Future...",
+    "source_sha256": "a1101ce500671676c7060c5cce643851d4cc0a73a654669c839797cd74c227ea",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "LoadingMessage ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00020-31bcb8940fff",
+    "source": "Gameplay",
+    "source_sha256": "31bcb8940fffb7d1328e4d989be6708a48e564d490a873652d6ea64f58156711",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00021-873fef760e5d",
+    "source": "Sunday",
+    "source_sha256": "873fef760e5d001ba0a843bf1846713fd92538699f323ef00d51f97a2ad2756c",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "SundayLabel ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00022-e426cc8df9aa",
+    "source": "Cycle between characters",
+    "source_sha256": "e426cc8df9aabb7ee3cb1fa9b18496ba468d89590967310a8dfdea096373555a",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00023-4b0670c3af17",
+    "source": "I am some rather <b>lengthly</b> lead text that needs to fill up a lot of space. <i>Lorem ipsum dolor <b>sit amet</b></i>, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum",
+    "source_sha256": "4b0670c3af17550cc8054df3d2206008ccbcf85145abd74d849f7ca3c933f925",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Content ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00024-449f5a775762",
+    "source": "Talk",
+    "source_sha256": "449f5a775762cdc561ee231300af1b02be67c56b81e503058a1c777ea1dc8b55",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "ShowButtonText ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00025-b8b1d894c683",
+    "source": "Categories",
+    "source_sha256": "b8b1d894c683725260dcd78f8ed64f979331a1ab61fc8311e9ccfc300fd5de20",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "CategoryHeader ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00026-fc2662062ffd",
+    "source": "Thursday",
+    "source_sha256": "fc2662062ffdef9610020183ea2b087c21d71150d78a7c7463be8a9050bd3ac9",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "ThursdayLabel ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00027-aef783a99d65",
+    "source": "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890\n<b>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890</b>\n<i>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890</i>\n<b><i>ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz1234567890</b></i>\n!\"&'()+,-./0123456789:;<>?ABCDEFGHIJKLMNOPQRSTUVWXYZ_abcdefghijklmnopqrstuvwxyz{}~áäèéëíïôöüčłńřš—•\n",
+    "source_sha256": "aef783a99d65e593708a081a43f321a0e322e3f6cd71d1cd59ceca7219ceaee6",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Font Tester Crimson ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00028-a874fca87cdd",
+    "source": "Graphics",
+    "source_sha256": "a874fca87cdd5e4e677086421a024eba3831c31f72451a6e5080e66bbd772ee9",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00029-5efa5d14bf9d",
+    "source": "Shareable Information",
+    "source_sha256": "5efa5d14bf9d3b77cccddfc09d13883f5143a65bb65548b31342d82dd6bb5796",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "HearsayHeader ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00030-9c1c3011cfce",
+    "source": "Erase All Data",
+    "source_sha256": "9c1c3011cfce8db67c72ec74b19968ee81283daac833898cde4af3f18ba17938",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00031-dbe35c7363c2",
+    "source": "Saturday",
+    "source_sha256": "dbe35c7363c2f7ec747b902fb240907fc58ae00b98f107be2d4c7b9cd7f6226e",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "SaturdayLabel ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00032-44f2bce0acdf",
+    "source": "Some Test Build info that is very long so we can position this correctly.",
+    "source_sha256": "44f2bce0acdffafc909baf2015b09a68f3e121f74f9e6e7fa1b31f82abda958d",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "BuildInfo ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00033-e21f3f372a46",
+    "source": "Friday",
+    "source_sha256": "e21f3f372a46d4be7b49f6809fc91baefeadae004af06485518e124a142c0271",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "FridayLabel ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00034-b1745941809a",
+    "source": "Hearsay",
+    "source_sha256": "b1745941809a82e3e42527b959ea6e3308a177dc14ef473881fc43610c31d603",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00035-44c4ca9a145e",
+    "source": "Restart Time",
+    "source_sha256": "44c4ca9a145ecb77d536bf1750735ba51ff9324f7b85061c8eec0586336c9689",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00036-ed841d30f4a1",
+    "source": "The Mystery of Astrid",
+    "source_sha256": "ed841d30f4a1983f2c7c9244963b1d7d8af105336392dac2a4ec98e3127ea3bd",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Title ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00037-d31d3eb7fcba",
+    "source": "TRY AGAIN",
+    "source_sha256": "d31d3eb7fcbaddf0419413df10bedc8393fd26203feb5e7307562ee785f98ba4",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00038-e159b06187d3",
+    "source": "Paused",
+    "source_sha256": "e159b06187d369a0615f66ce577582b5c983d4ea59b3a62b702049f61753f0bf",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Header ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00039-eebdd24a77d9",
+    "source": "Confirm",
+    "source_sha256": "eebdd24a77d9ad32222660c07777163bf5f6732df2b172351f3f8d5783e4f529",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00040-2b9d4f2712c9",
+    "source": "fdsf\nsdf\nsdfMIgjWt\nsdffMIgjWt       gfgdfgfgfgfgfg\n<b>sdffMIgjWt</b>\n<i>sdffMIgjWt</i>\n<b><i>sdffMIgjWt</i></b>\nsdf\nsdf\nsdf\nsdf\nsdf\nsdf\nsdf\nsdf\n",
+    "source_sha256": "2b9d4f2712c9006ea258ea92729f092d44dcd017ea08fa46a35438ae67e5aa4c",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Content ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00041-f599d6c3ff71",
+    "source": "Some super dramatic ending-related text goes here. If it's super long it might go all the way to the end of the image and then wrap around, who knows! Man, these ending scripts are gonna be long, sorry in advance. Some super dramatic ending-related text goes here. If it's super long it might go all the way to the end of the image and then wrap around, who knows! Man, these ending scripts are gonna be long, sorry in advance. ",
+    "source_sha256": "f599d6c3ff712c17a25b468d6130c08e18f918ef9cfeb3eeb89a334cc219589e",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "EndingText ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00042-632a8e3d4b33",
+    "source": "Type `help` to show available commands.",
+    "source_sha256": "632a8e3d4b332b2a4f7c159741add4278eb0c951d77d70c5d3e8f9bc0d7919c9",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Output ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00043-95fae3b38c74",
+    "source": "Resume Game",
+    "source_sha256": "95fae3b38c7463a172f08bd55cf542ff215bcddd722e7be1d92a454e0ec9d3fd",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00044-16d321dded50",
+    "source": "Submit Feedback (Opens Browser)",
+    "source_sha256": "16d321dded5083b91ec6f067e7195e81e0e24b23de99fc9b62f86da3a626d43e",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00045-35b5cf54cb3f",
+    "source": "Quit Game",
+    "source_sha256": "35b5cf54cb3fdcaedb4668e7a49b3fe529e2d1a87a9e21e3d1203286c60108ca",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00046-60ca5b9903ca",
+    "source": "Start Prologue",
+    "source_sha256": "60ca5b9903ca8b61625cda6048687f121f52ab3c81c7943fcf191dd78d4183b4",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00047-d0db8b5e364b",
+    "source": "Options",
+    "source_sha256": "d0db8b5e364b6989e4b8f38a2b3846b87d99a51c1592ebf35d21cc66405a8e39",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00048-3b2112344702",
+    "source": "The Title of a Lead",
+    "source_sha256": "3b2112344702a69cb9b4bce117b072985ba15d3cf6cc819120a51ec2d5b0f59c",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00049-6aaf5f90da3a",
+    "source": "Some relatively long description of the hearsay and what you think it means.",
+    "source_sha256": "6aaf5f90da3a67bc0cf42241b5a6f4ff66b09cb08728ac6501e8d8350f4e9702",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "description ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00050-c4ebc6d4a583",
+    "source": "High",
+    "source_sha256": "c4ebc6d4a5832cd9415f906ad03661110c705a72381c8b8b145761d02e2dd23a",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00051-d509e4938852",
+    "source": "Native",
+    "source_sha256": "d509e493885298a23c55f83c133e5d725f24dd6cc67cf734baa2c11b220ab809",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00052-21b111cbfe6e",
+    "source": "Default",
+    "source_sha256": "21b111cbfe6e8fca2d181c43f53ad548b22e38aca955b9824706a504b0a07a2d",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00053-b136109a5c48",
+    "source": "Borderless",
+    "source_sha256": "b136109a5c485c1b41628bee6d58bc809364ab5c6ba6afc50e614a9b746557e4",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00054-a7248eeb45eb",
+    "source": "Normal",
+    "source_sha256": "a7248eeb45eb1ce247f81693283e22e8b39e8a50890cecd22d02e75025547d90",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00055-b4c54706707d",
+    "source": "I'm some kinda short Title",
+    "source_sha256": "b4c54706707d2b04fb75fea3b2d7507384b2b860ebd99b0ff1b23881e0e92ba8",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "DialogTitle ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00056-4e7b6c136e52",
+    "source": "Conversation Log",
+    "source_sha256": "4e7b6c136e52c0d55d0f1d5b361d692b0f78ab1968b22106aca9530b15ec3cd0",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "DialogTitle ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00057-4a1df06fae7e",
+    "source": "Some Moderate Length Hearsay Name",
+    "source_sha256": "4a1df06fae7eb719ecefc3947f958df7b8ccc26497e21d4927ca838cb390859b",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00058-bc1daa766339",
+    "source": "Otherworldly Occurences",
+    "source_sha256": "bc1daa766339a91366931dabc4c1151697ee191d7c6f13958f5b67ec997725fc",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00059-b3f848c2a09a",
+    "source": "Music Volume",
+    "source_sha256": "b3f848c2a09aa9edaeebc4ebd601839b2777403991aa366387d7c13cea1945b3",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00060-e209a191983b",
+    "source": "Voice Volume",
+    "source_sha256": "e209a191983bc94d426f3ff526d49ce530425bd685d06161aded69b9ab15c0f6",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00061-5b7610d20b8f",
+    "source": "Sound Effects Volume",
+    "source_sha256": "5b7610d20b8fcd2f850209b43594cbf5771caa80d28affa6e8c1cffc53394b1c",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00062-682377ad30b7",
+    "source": "Master Volume",
+    "source_sha256": "682377ad30b77f57ed559d1a61acf2b03fb61d214c800465abdb3734e84646ca",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00063-20f12289f9b8",
+    "source": "Tooltip",
+    "source_sha256": "20f12289f9b818970e7a0862d3c41139ec574cd4a9fa984885f612e697d41292",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Tooltip ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00064-d4055fafa379",
+    "source": "Resolution",
+    "source_sha256": "d4055fafa3794fa88b1e89e70c167d5a9575067a1442a6d94e9520d65a575378",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00065-1b2c08a8733d",
+    "source": "Quality",
+    "source_sha256": "1b2c08a8733d7ff1d06e726107a977124929c975066a3a606d19055dfd4e3dbd",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00066-faaa194fd3f5",
+    "source": "Text Speed",
+    "source_sha256": "faaa194fd3f500089453aa1859bd3c101ff727cca36bc8302bfc75021034bc93",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00067-10ba8e4199b7",
+    "source": "Screen Mode",
+    "source_sha256": "10ba8e4199b7806aec0ea8e75e11c68e065edc845e6ef3ea2f656710753f88bb",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00068-8417b7f33d2f",
+    "source": "Character Costumes",
+    "source_sha256": "8417b7f33d2f653d5950dcd14f7e7a19dbfa90bee2d4e2951bc6b285744fed38",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Label ACTIVE=True"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00069-00e4e471fdaf",
+    "source": "Enter Command",
+    "source_sha256": "00e4e471fdafc4a7e76300893792bfd979422039f44cdfc11066959bcbeaf69b",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Placeholder ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00070-6ead5dfdc11e",
+    "source": "Next Page",
+    "source_sha256": "6ead5dfdc11ef7da26e4c09f348d42a8d6306b7faa54ce0a7dc6c567dab1db6f",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00071-291873e31ccb",
+    "source": "Scroll",
+    "source_sha256": "291873e31ccb2289508f7e02cb47ce5e8f62b31a51f07513b407d359a9aaa2c7",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00072-26c7479fd298",
+    "source": "Select Objects",
+    "source_sha256": "26c7479fd298fda4c6984417bb79e6768aa2cc217b511d80f97b5dae69c2849b",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00073-a163aaa22cf7",
+    "source": "Previous Page",
+    "source_sha256": "a163aaa22cf7ce6c4c2a634f98bef10d0fe0a0602ada2aa50d60b262dc70b2d9",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  },
+  {
+    "id": "u00074-cdb76ea48eb7",
+    "source": "Destroy Book",
+    "source_sha256": "cdb76ea48eb7ee6fa3c7b50c4a11adcbd51352327e78ec642cf8e2e03918ab01",
+    "origins": [
+      "runtime\\evidence\\headless\\c0efbe681de640ddaa0ae908d34c7dfc\\original-menu-texts.txt"
+    ],
+    "categories": [
+      "runtime_ui"
+    ],
+    "context": {
+      "type": "游戏真实TMP界面组件；静态资源粗提取遗漏的短标签",
+      "object": "Text ACTIVE=False"
+    },
+    "batch": "b0110"
+  }
+]

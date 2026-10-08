@@ -1,0 +1,3622 @@
+[
+  {
+    "id": "p05439-1bdb59897502",
+    "source": "Well. That's a trick, ey?",
+    "source_sha256": "1bdb598975026fb16b1cfad8dbb3e3d5f6a0da262938dbb6bccc6d26335e2105",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1148300"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "{Tch}",
+      "line": 14365,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05440-5d60845a6f70",
+    "source": "Normally I'd have ol' Finnegan here throw you over 'is shoulder and be on with it, but...",
+    "source_sha256": "5d60845a6f703e823863885cb6169ac8249021e4e6d80e59e3363c83ab9fe742",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1148352"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14367,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05441-6889e3eb71db",
+    "source": "Tell you wot. If you won't come to O'Malley's vessel, we'll take over <i>yer</i> beaten old ship for ourselves.",
+    "source_sha256": "6889e3eb71dbddb4d39a3deef12eac9635847193417bc6d59c16f16dfc14ef4d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1148533"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14368,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05442-3584ad5a33af",
+    "source": "We'll never swear allegiance to some Pirate Queen, nor serve under you.",
+    "source_sha256": "3584ad5a33af450d8c6e2616512b2b2dde63e27584f39302427d1d16671dd468",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1148758"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust] {Disgust}",
+      "line": 14371,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05443-3447808f6a92",
+    "source": "Yes! I don't like being loyal to things! Pirates included!",
+    "source_sha256": "3447808f6a92eed651b100fa5e6baeb19bcacb8e64be225fde4c369f9929fe99",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1148903"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust] {Yeah}",
+      "line": 14373,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05444-dda942517f53",
+    "source": "My tender ladies, you've no choice in the matter. Starting today, <i>I'm</i> yer captain.",
+    "source_sha256": "dda942517f532c844b81373a0ae80365caeb3982fcc5f41c446933034fd4958a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1149021"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "{My_Ladies_Uhhhh}",
+      "line": 14377,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05445-f8fdc8f5d77d",
+    "source": "Name's Grace O'Malley, though you can call me 'evil salty bitch' if it makes yeh feel any better.",
+    "source_sha256": "f8fdc8f5d77d1e56b9e24899df9a8815151a51fe4bdcc184809ad5190202643c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1149202"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "{Captain_Grace_Imposing}",
+      "line": 14379,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05446-6feead625335",
+    "source": "I and my men will be taking the captain's bunk, effective immediately.",
+    "source_sha256": "6feead625335b8b3d546b86e8c5ede17f6e9b23a0fee45867dfd90b1e8beaa67",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1149399"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14383,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05447-d10c5bd128cb",
+    "source": "And what are <i>we</i> to do, exactly? We were bound for England—",
+    "source_sha256": "d10c5bd128cbd3c27ee570928f0b7fa5c3a12e527639acf9493dafe77d589c89",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1149542"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 14385,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05448-5c4e2c54c792",
+    "source": "I don't give a horse's ass what yeh do or where yeh were bound. So make of that what yeh will.",
+    "source_sha256": "5c4e2c54c792c2944dfe53152b627f4d869dee7377c1cb9133ddf944bb006c6c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1149675"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14387,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05449-d7865cc88c78",
+    "source": "...Now, if you'll excuse me, I'll be chartin' a new course.",
+    "source_sha256": "d7865cc88c7889a868548e4efe0a68052aa73a1e4bd7013e7f3fd3823fb82823",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1149866"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14389,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05450-5924b29c620b",
+    "source": "...You shouldn't have done that, Hamlet.",
+    "source_sha256": "5924b29c620b3d19b711e32bab5d8740a61449d880f127e80dafd21c288e6477",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1149986"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 14391,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05451-17f71d5f7918",
+    "source": "Neither should I have slain your father. What's done is done.",
+    "source_sha256": "17f71d5f7918d3b034ae8f179e2df6b136eea8b810979b549be2c1a602843d06",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150068"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14393,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05452-172e9f0aaaad",
+    "source": "Too late now. What's done is done.",
+    "source_sha256": "172e9f0aaaad7b1a175dc419ac9b00fc684348e8855a4444659ee9b480189a46",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150192"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_GraceAttack",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14395,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05453-ece998791eb5",
+    "source": "Ophelia. May I speak to you alone?",
+    "source_sha256": "ece998791eb5e856f3c28dc7a053f50fb0601b77bf594acdac4675911ffa3c2c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150262"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "{Ophelia}",
+      "line": 14407,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05454-f1c89798d66d",
+    "source": "That's a tall order on a cramped ship.",
+    "source_sha256": "f1c89798d66d3c53f92ce510f2744254913a5403c0619b3a997fa758825d9146",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150332"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "{Hmm}",
+      "line": 14409,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05455-a5126ee010a1",
+    "source": "...Perhaps the forecastle deck?",
+    "source_sha256": "a5126ee010a18850b1feb576c6fea0ae0dc4489491f4c31c480f92cd79d8bbce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150410"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 14411,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05456-a67fd36fe1eb",
+    "source": "The what?",
+    "source_sha256": "a67fd36fe1eb31b02ac546fdcf655ca65178f82fb1a4196ce0d753aa7bbab71f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[surprise]",
+      "line": 14413,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05457-c67809ca4953",
+    "source": "The forecastle deck. The one near the bow.",
+    "source_sha256": "c67809ca4953a62ff6be208de493638dceb5b17816b5bd760c421a7bff2fab3a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150494"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 14415,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05458-b4366ffe5f54",
+    "source": "You've scarcely been on a sailing vessel—if ever. How do you know <i>that</i>?",
+    "source_sha256": "b4366ffe5f54d20643a9562441ee6f6cca4d72d75a023de0e24bcfb1301d73aa",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150580"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "{Hmm_Short}",
+      "line": 14417,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05459-75005df19f63",
+    "source": "Well, I read, for one.",
+    "source_sha256": "75005df19f63f6aa9bfebe25f553923d5673a2bdad47f7ec4c02b22be35fe239",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150739"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "{Ah_Laugh}",
+      "line": 14419,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05460-0e45295280be",
+    "source": "The time has come to discuss our deliverance back to shore.",
+    "source_sha256": "0e45295280bee89cbbd47692e9aa9cf5b29e66ecf9bdc044d096702bd82ed443",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150805"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "{Listen_Quiet}",
+      "line": 14429,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05461-8d2bea394ade",
+    "source": "A mutiny, you mean.",
+    "source_sha256": "8d2bea394ade49915cd384b17f48488a94f1ce4b503c67a094a258c3e2ad1dda",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150925"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "{Hmm_Annoyed}",
+      "line": 14433,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05462-ea340ae2e110",
+    "source": "Yes. Are you... is that... amenable to you?",
+    "source_sha256": "ea340ae2e11003b67b3801d2b95e5ac5fef8f2bcba4199525c1a30016e4c08cb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1150965"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Gasp}",
+      "line": 14436,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05463-c51f752853ee",
+    "source": "It's going to happen regardless. I'll be ready.",
+    "source_sha256": "c51f752853ee915f937487fc9ecb267983dddebf3b605848b5b77f57adb8c136",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151053"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "[smile] {Ehh_Short}",
+      "line": 14438,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05464-e986ed090335",
+    "source": "(What's gotten into her?)",
+    "source_sha256": "e986ed090335faf1f620a7266e009ea225aeafc456004a2cb16a8dea6964b01a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151149"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Sigh}",
+      "line": 14442,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05465-7b3a2c2ff6f9",
+    "source": "We must rise up against the captain and take her by surprise.",
+    "source_sha256": "7b3a2c2ff6f92b048712df7b8f592158d50808847cd965f744e3287c3da40646",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151201"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14445,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05466-33d36675bce5",
+    "source": "And then do <i>what</i>, exactly?",
+    "source_sha256": "33d36675bce5f1451daa75954be5b79c360960467ac778e3223793f7377604fb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151325"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Disgust}",
+      "line": 14447,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05467-2f0d4b2c85f1",
+    "source": "We're utterly surrounded, and outnumbered. We've no weapons of any kind. I can't bear a sword. Uncertain about Rosie and Guilda.",
+    "source_sha256": "2f0d4b2c85f193e2f050648c2f3ffd5cf0b3c1706b0361bc93f4e9078a495c06",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151393"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 14449,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05468-96e1e640a063",
+    "source": "There are still men loyal to us aboard. And I've a plan, besides.",
+    "source_sha256": "96e1e640a0636f95545f0b51ccd75c6be70f47e01337528c8b85c2c88551b2f8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151652"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "{Disgust_Intense}",
+      "line": 14451,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05469-008369b85a5f",
+    "source": "Soon, the good captain will need to sleep—and at that point, she'll be unarmed.",
+    "source_sha256": "008369b85a5fab19a064279ed39fba197807ea004929ee97191e16603ef1d88b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151785"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14452,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05470-7a89e0d4c4e9",
+    "source": "Meanwhile, her lieutenant keeps the night watch. If he can be incapacitated, leaving her with no warning...",
+    "source_sha256": "7a89e0d4c4e9678db8af9bffa9305dee03c10e954e8b77813d73084a8a3fd859",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1151946"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14453,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05471-007d07aaa36b",
+    "source": "...Then we rush her?",
+    "source_sha256": "007d07aaa36b3824c764d93c9bd5d1a82a8ad8900326be344f9521f301952f17",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1152163"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Hmm_Unsure}",
+      "line": 14455,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05472-e2a4ccf0e102",
+    "source": "...But... that woman didn't come here alone. Her first ship is fully manned and sails ahead of us. How will we return to Denmark once we've captured the ship?",
+    "source_sha256": "e2a4ccf0e102efdf869505df9e8e66f80a693777e3179459155e91b22bfaa4f3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1152205"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 14456,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05473-ee944d1eb5df",
+    "source": "That's just it. We don't <i>have</i> to return to Denmark. Merely run close enough to her shores that Grace's men dare not pursue us longer.",
+    "source_sha256": "ee944d1eb5df0f67aa11ab1619f873ed2d71feef67a4f40823ca50241beb13ce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1152524"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14458,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05474-279cb9f61883",
+    "source": "Without their leader's signal, they may be slow to react. I hate to admit this, but we might have the merest chance, if the wind favors us.",
+    "source_sha256": "279cb9f6188345520f8ab58e42140d020e25fd364b42856ceb5d9038f4585f16",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1152807"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "{Hmm_Unsure}",
+      "line": 14460,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05475-40ac2564bef8",
+    "source": "I'm glad I have your faith.",
+    "source_sha256": "40ac2564bef8cd35e2102d407a6708fb4ade1d5d2a62da86bfd62eb957c1037d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153088"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 14461,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05476-b2b8902b8257",
+    "source": "This plan of mine... there's a contingency built within it.",
+    "source_sha256": "b2b8902b8257a62dee4def2abdcdae9358fde9b220ad58f8aa088acf189e9031",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153144"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "{Now_Then_Scary}",
+      "line": 14464,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05477-3914d180bff0",
+    "source": "Ought I to be afraid?",
+    "source_sha256": "3914d180bff0cff2cd51bddffa210b6e160b285f3492cb524525c9be0ea2ebec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153264"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 14465,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05478-a6df312c7204",
+    "source": "Ophelia—if it should come to the worst of this matter, and Rosie and Guilda are captured...",
+    "source_sha256": "a6df312c72047b2c00f446b98d011825ed0b39639dcb49bae0ef9ce5675718c7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153308"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "{Ophelia_Sadder}",
+      "line": 14467,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05479-7728686a6966",
+    "source": "...I've every intent of leaving them to Grace's sword.",
+    "source_sha256": "7728686a69665037377a79c122af7f27588b00f872c3042cf6bbb06af1d78dd1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153493"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14470,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05480-bb71c7cd2701",
+    "source": "You'd... let them <i>die</i>?",
+    "source_sha256": "bb71c7cd270173e41b0dace94e907ab5ea25297fc4ae62ff21ae432a19dded17",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153603"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {Gasp}",
+      "line": 14472,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05481-a517b0fa7fad",
+    "source": "...Something happened. I don't want to discuss it. Not yet.",
+    "source_sha256": "a517b0fa7fad1713acce6c3480f6fd79bb8f52eec604bed4a389a500c2fbb582",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153663"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 14474,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05482-a1316dcbe5df",
+    "source": "They're loyal to my uncle. He fills their pockets with coin, and they've spied on me in return.",
+    "source_sha256": "a1316dcbe5df7f6c502f6cd17cdaa304b5d461ad4a0f6d56db5f3ee7aea5517c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153783"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 14476,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05483-736e319a9580",
+    "source": "In some ways, I'm merely their source of income. Whatever friendship we once had... it's... changed.",
+    "source_sha256": "736e319a9580f60a5efc7e74aa7e11dc51bbd8711546d72d60f246ea41a5d5c2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1153976"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 14477,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05484-7f27d7b1aea1",
+    "source": "I should have realized they'd only look after themselves, and each other. It's always been that way, deep down.",
+    "source_sha256": "7f27d7b1aea128f57520c45cc4676cac4a0bdf537a91c1b9dedc9d58764bc722",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1154179"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 14479,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05485-4b7cbd0893bc",
+    "source": "You and I are the only ones who matter in this horrible, ugly world. And I'd sooner you live than I.",
+    "source_sha256": "4b7cbd0893bc683f8a77899aaa16d2ece59b8a448f2ecddf6a97e26db2e532e2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1154404"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 14480,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05486-ae0b9bb1e4cf",
+    "source": "...Hamlet, I think your priorities may be misplaced, if keeping me alive is your goal.",
+    "source_sha256": "ae0b9bb1e4cf25c71a315cf519889ba98a1fe11babb7f068ad6092e3ba5efffa",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1154607"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "{Hamlet_Sad}",
+      "line": 14482,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05487-7de955f0d5d9",
+    "source": "What? Why <i>wouldn't</i> it be?",
+    "source_sha256": "7de955f0d5d9951b042871715a6786e800259078ed20df4f117664828ad8f87a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1154782"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {What}",
+      "line": 14484,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05488-fdac3f5a1ec6",
+    "source": "Never mind it. Let's put this plan to action and see what happens.",
+    "source_sha256": "fdac3f5a1ec6790241794866c2b2b29360be38ca676feceb2d31b3e876ecc317",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1154848"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_HamletPlan",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 14487,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05489-ed255323e0ab",
+    "source": "After they lied to me, nearly costing me my <i>life</i>...",
+    "source_sha256": "ed255323e0abd553bb0cdedd2905df1f28ca0b396d27fca9ebd94b169a173f9f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168157"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 14511,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05490-fca4e935ab4f",
+    "source": "You think me a fool?",
+    "source_sha256": "fca4e935ab4f05c039eb18b8b9e470b5a7d901f2cb3fa40524499e85a7897bd7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172204"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14516,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05491-5a63ee231b7d",
+    "source": "Not quite. You see, there's someone <i>else</i> who wanted Hamlet dead.",
+    "source_sha256": "5a63ee231b7d6ef685461f5ddf45b583235d55de1ece07722da610b4b2dae61a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172246"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 14517,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05492-7687cb0568b1",
+    "source": "The King!",
+    "source_sha256": "7687cb0568b1fb60eddcb727c9c592af918578ffca6635d54b4c152ab0330ee2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172391"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad]",
+      "line": 14519,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05493-0f983113edca",
+    "source": "Oh, I know <i>all</i> about it, loves.",
+    "source_sha256": "0f983113edca37555a15a0bde7105be4b7dec4da03641f97eff1593c6e12a9a0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172411"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "[happy] {I_See_Skeptical}",
+      "line": 14521,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05494-3eb7824338b2",
+    "source": "I don' have much in th'way of integrity, but I <i>do</i> have a code o' sorts.",
+    "source_sha256": "3eb7824338b24530fbc9489130fd56c9494588abfffccad6c2911b39cd4e60b7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172489"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14524,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05495-016c51c81f9f",
+    "source": "An' that code stipulates that friends don't betray friends.",
+    "source_sha256": "016c51c81f9f1e96e86ebdf5f6d07717d3c72beaba4985f8d5e0aa8e47210a51",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172648"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "[disgust] {Disgust}",
+      "line": 14527,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05496-1703de444b7a",
+    "source": "That letter you bore... I canna' allow you to pollute any shore ever again.",
+    "source_sha256": "1703de444b7ac342e0c98e2b9c43dcf4521b219e86bd732cd4ead7fd8edf49f3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172768"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "[disgust]",
+      "line": 14530,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05497-9c0bf16fc56a",
+    "source": "... I should have known it would come to this.",
+    "source_sha256": "9c0bf16fc56a10a016cf5128cb7ad9d06f40750a84d1815a6d3035f6b98c26fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172931"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Wistful}",
+      "line": 14544,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05498-7d33465e7ea2",
+    "source": "And to think I thought it might go better this time.",
+    "source_sha256": "7d33465e7ea2dcb4fff05f7249ce67fba62d46a067eb829ad2847885ee044444",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173025"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Wistful}",
+      "line": 14546,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05499-770d7374705a",
+    "source": "Now. You.",
+    "source_sha256": "770d7374705a61dcdf63dc3485859dfb50d6188cc54c28557d1d17a4aae185fd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173131"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "{Hmm}",
+      "line": 14549,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05500-4d69624e27f6",
+    "source": "Do I have to worry about <i>you</i> overthrowing me, too?",
+    "source_sha256": "4d69624e27f68ea4229ef14165fe0d1e78174dd518202ce2825f87c7abc91e0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173151"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14551,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05501-bf07e7d65496",
+    "source": "Even if I wanted to, I've no means to do so.",
+    "source_sha256": "bf07e7d654966e08373f918d5addafa70016ecf1d8b6327cd1869eae68f33488",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173267"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 14553,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05502-149b45d78c22",
+    "source": "I'll be returned to the past soon regardless. This fate means little to me.",
+    "source_sha256": "149b45d78c22ca4594ef709eb7fd86226e19206eb0abe77aa73be2fd88921c01",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173357"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 14554,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05503-a0ccce1b8998",
+    "source": "Hmph. Sounds like a lot of poetic nothing.",
+    "source_sha256": "a0ccce1b899850031d78b15de73643e78f7aec11544d2cf8587fe0b644481fe4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173510"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "{Tch}",
+      "line": 14556,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05504-94565421f548",
+    "source": "All of you have lied to me, nearly costing me my <i>life</i>...",
+    "source_sha256": "94565421f548a1bfd62e40b40655ed5dddc4efd9af5f3ea29a0915e6911f7f41",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1174590"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Hamlet",
+      "cues": "[angry]",
+      "line": 14565,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05505-0915984a86d9",
+    "source": "...For the dog who would throw his companions to the depths, I've a special punishment.",
+    "source_sha256": "0915984a86d98d1624e54fbf0b09689ad4a46d797003a9b6659b49e2ece1cfd9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1174718"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "{Die}",
+      "line": 14572,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05506-331f49f617e3",
+    "source": "Y-you mean—Hamlet—was going to have us killed?",
+    "source_sha256": "331f49f617e3d8dd46fffbcc2aed89065359037c9fae093c88a4a55e87f0097a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1174895"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 14582,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05507-3a33cdebd76b",
+    "source": "Why would he <i>do</i> that? What did we do to wrong him?",
+    "source_sha256": "3a33cdebd76bdbdad77da34705bf75bb995eeb879031989dc82a9c1e1f4c8c0a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1174989"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad] {Why_Sad}",
+      "line": 14585,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05508-18ac18156ac7",
+    "source": "He uncovered the truth of the letter from the King you two bore.",
+    "source_sha256": "18ac18156ac74c2819428ce38ddb0ff58443619e7d63587882718dfe5f1c48ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175105"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "[sad] {My_Lady_Sad}",
+      "line": 14591,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05509-0acc9ef19e30",
+    "source": "It asked for his execution.",
+    "source_sha256": "0acc9ef19e30f6aaac6a45de85f296eae4256323bd41b60e83850a854965780c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175236"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 14593,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05510-df7dcdac4d06",
+    "source": "<i>What?</i> Truly?",
+    "source_sha256": "df7dcdac4d061894e7de15006ab7511126f7e7489ba93f2bcace91bf3b4a8531",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175292"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {What_Surprised}",
+      "line": 14595,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05511-f7c9dfe3cfe9",
+    "source": "But I didn't know that! The letter was sealed, after all...",
+    "source_sha256": "f7c9dfe3cfe94336b9d6c1b082b39212bbbb836a1d87a49223cc4c8f100562a7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175332"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {But_I}",
+      "line": 14597,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05512-605d27e9b78a",
+    "source": "Hamlet. Let him go.",
+    "source_sha256": "605d27e9b78ac61830554f2edb71422b41c6eabadd1be4c25ea921ed3d428d46",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176019"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 14615,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05513-bf11adfec9fa",
+    "source": "Heh heh heh. You must think me a fool. You'd run ashore an' keep runnin' until you were clear of me!",
+    "source_sha256": "bf11adfec9fa1ef665ecdb49cac0a9b9e71c1c12d39e4f121065d6046554ca0b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177604"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "{Laugh_Cackle}",
+      "line": 14622,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05514-ac3674ca974d",
+    "source": "... Not quite. However haphazard the circumstances may have been, Hamlet's uncle will be glad to have him dead.",
+    "source_sha256": "ac3674ca974d838cc281f1243dd25bd0438b2beed42277fdf77eb6576af48b35",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177807"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 14624,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05515-873facf7ed69",
+    "source": "H-he was ready to kill <i>us</i>. He'd gone completely mad.",
+    "source_sha256": "873facf7ed6986661c47376ab5637b275aa0e6cdd89a9e57322e4624d0380314",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1178032"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad]",
+      "line": 14626,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05516-41c99fb5a8dc",
+    "source": "So the reward won't come from us, but rather, from King Claudius.",
+    "source_sha256": "41c99fb5a8dcb8a72e8163ccad987f180557380a1bd1705be898bf9f351416f2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1178152"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad]",
+      "line": 14629,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05517-695e087d1d18",
+    "source": "Sounds like a lopsided trade to me.",
+    "source_sha256": "695e087d1d18eac5f8759f425b1da1b2b29709a9a654b2d2b41f6da7a5d8c8a4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1178285"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Hamlet",
+      "cues": "{Disgust}",
+      "line": 14638,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05518-120eb0907d7c",
+    "source": "Hamlet. Stand down. <i>Please.</i>",
+    "source_sha256": "120eb0907d7c148c438308caed61e19e9558e75af42d308a35984f54199cdcb2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1178357"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Please_Sad}",
+      "line": 14640,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05519-f2a4d57b147a",
+    "source": "...Apologies, Ophelia.",
+    "source_sha256": "f2a4d57b147a74ac61eb11a23e2c196de407efea5823a384c7a9aab1af6e0838",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1178427"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Hamlet",
+      "cues": "{Ophelia_Sad}",
+      "line": 14648,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05520-938e205185fe",
+    "source": "I'll kill <i>you</i> too. Gladly.",
+    "source_sha256": "938e205185fedcb2c9c674d881533f76960285d5b0386c0555368667a49aa777",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1178493"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Hamlet",
+      "cues": "{Now_Then_Scary}",
+      "line": 14676,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05521-06c06dca605d",
+    "source": "I can out-fight yeh with one arm, boy.",
+    "source_sha256": "06c06dca605da2ceed1a1caa7dbf5cbc65f1223423c699605cb988b9bbd3ec3c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176293"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Captain Grace",
+      "cues": "[disgust] {Give_Up_Tired}",
+      "line": 14678,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05522-961772515459",
+    "source": "Is that a bet you're willing to take?",
+    "source_sha256": "9617725154599a99230420c828cea5352c0084c120b52f13ae2447ffaa74f208",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176371"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_Mutiny",
+      "speaker": "Hamlet",
+      "cues": "[smug] {Hmm_Short}",
+      "line": 14679,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05523-39796ff6a9f0",
+    "source": "...Yer more than you seem.",
+    "source_sha256": "39796ff6a9f03c167c4fa187e061311fccfa813699905f8f7b6e623a23821729",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175452"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Captured",
+      "speaker": "Captain Grace",
+      "cues": "{Laugh_Scorn}",
+      "line": 14688,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05524-bbc8b28b339b",
+    "source": "But not more than I.",
+    "source_sha256": "bbc8b28b339b2766ee764be12d76efbbdde94b29499a1fca390b8a5fac997629",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175506"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Captured",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14692,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05525-af89a47dd4ed",
+    "source": "(Damn it...)",
+    "source_sha256": "af89a47dd4ed464449dacb4648b21393b5b6cc74716d8c61e29f171ec5ff7824",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175602"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Captured",
+      "speaker": "Hamlet",
+      "cues": "[angry] {Sigh}",
+      "line": 14702,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05526-8f089ae63be5",
+    "source": "Seems we've both got collateral to make a trade, Prince Hamlet.",
+    "source_sha256": "8f089ae63be5f8501c25eaea0770fb8a5f166eb76460608ea84dbf0bdf3bef57",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175628"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Captured",
+      "speaker": "Captain Grace",
+      "cues": "{Its_Come_To_This}",
+      "line": 14704,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05527-66a09c711834",
+    "source": "Release my lieutenant, an' I won't kill yer friends. Or you.",
+    "source_sha256": "66a09c71183413f9a9a51deec0f0e256411f23a796ab7a75e02de016157a9c47",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175756"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Captured",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14706,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05528-766f3d3a8db4",
+    "source": "Then we can proceed to Ireland in <i>peace</i>, with you in the hold.",
+    "source_sha256": "766f3d3a8db479ea89ed5fab10c7d70cc54cefc4acc8676b8cb80ac11c1425df",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1175878"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Captured",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14707,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05529-074aec12302b",
+    "source": "...Now's your chance, Lady Grace.",
+    "source_sha256": "074aec12302b1030df02870c06e0e0fe21225abb2e11478ec84c7bd16c992643",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171510"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust] {My_Lady_Angry}",
+      "line": 14711,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05530-95795d0d3f99",
+    "source": "He won't come easily.",
+    "source_sha256": "95795d0d3f9961bae85441277111b193aebf929e32acf76bf2bd5376cf466674",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171578"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust] {Hmm_Suspicious}",
+      "line": 14715,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05531-a991a6457553",
+    "source": "W...what? What's going on?",
+    "source_sha256": "a991a645755344ab38f9b0f13024e118ff6a7f57bf88467ed2d66eff90bc6f9a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171622"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {What_Scared}",
+      "line": 14718,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05532-0533df6feeff",
+    "source": "We were alerted to your plan, Hamlet. You uncouth, lackless, friendless fool.",
+    "source_sha256": "0533df6feefff0ca275be3e3dcd67b40923b5d652074bac4ae3d61dd7610ef64",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171676"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust]",
+      "line": 14722,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05533-0d4c03a62dd8",
+    "source": "Yer ladies here have struck a bargain. They've offered me gold for yer head.",
+    "source_sha256": "0d4c03a62dd8d5d88cacd9e60632d91105a93f9ca2daf1c9760fac91fe87fa4d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171833"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Captain Grace",
+      "cues": "{Ha}",
+      "line": 14725,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05534-eb43c8072368",
+    "source": "A-ah... no...",
+    "source_sha256": "eb43c8072368be82715f4c3b16a2573ad7f8192ce36984e51183df38a8473358",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171988"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Sigh}",
+      "line": 14738,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05535-63f8b943febb",
+    "source": "Now, ladies. As to the matter of yer payment.",
+    "source_sha256": "63f8b943febbb600c713edf7add97ddd09d37081add84fa7926049f4919bbe8d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172018"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Captain Grace",
+      "cues": "{Now_Now}",
+      "line": 14740,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05536-2539a24c09cb",
+    "source": "I...It'll be arranged upon arrival at Denmark.",
+    "source_sha256": "2539a24c09cb98a26b5cfb4b1817b8af1f6abb975a1d90abba5977c5c9d87c5e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1172110"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_RNG_Betray",
+      "speaker": "Lady Rosencrantz",
+      "cues": "{Yes_Sad}",
+      "line": 14746,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05537-f44d252dd279",
+    "source": "...Well, well. Time for the masks t'come off.",
+    "source_sha256": "f44d252dd279b704d32d12ae804000a918cc146eed50fbd085899753e08e58fa",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167395"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Captain Grace",
+      "cues": "{Well_Well}",
+      "line": 14752,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05538-863d676684df",
+    "source": "Well played, everyone.",
+    "source_sha256": "863d676684df20a776b2df6f82e76cb2ee12720bc82c54bb1ddb9cbe8c86e8b7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167487"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14754,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05539-5e98a7a70b77",
+    "source": "Ophelia told all of us about your plans.",
+    "source_sha256": "5e98a7a70b771e6c9371a1f054df8e233042666a7fb77c2aeccbcf15220d732d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167555"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[happy] {Disgust}",
+      "line": 14764,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05540-1184e92e3b83",
+    "source": "Women talk, you know!",
+    "source_sha256": "1184e92e3b83af4b51b1fa7e794ab79125c0779f503459590e2e4a4dcba23d93",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167637"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Pout}",
+      "line": 14766,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05541-d65e948ec276",
+    "source": "Why? Why would you tell them?",
+    "source_sha256": "d65e948ec276ae52f34001781b3013ef6609772563a53ee53478b67f50d3cfe4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167681"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Hamlet",
+      "cues": "[angry] {How_Could_You_Sad}",
+      "line": 14769,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05542-8c387a67debe",
+    "source": "Yes, what on earth is happening?",
+    "source_sha256": "8c387a67debe99efff46fc7b5b2ee06edc5a70155dbd84a79097fbd248445f80",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167741"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 14772,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05543-497ba4783354",
+    "source": "Heard about yer little plan to overthrow me, Princey.",
+    "source_sha256": "497ba4783354293db5e6e47a5d073f99c83e55f39feaf2c5f32ecb1d656d94ef",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167807"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Captain Grace",
+      "cues": "[happy] {Laugh_Scorn}",
+      "line": 14774,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05544-217a5a6229dc",
+    "source": "Luckily, yer lass Ophelia here tipped me off ahead o' time.",
+    "source_sha256": "217a5a6229dc2c3423f2578b532d4004dec736575b7c0f1daf2bf9a2cbb63fb0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1167915"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Captain Grace",
+      "cues": "[happy]",
+      "line": 14776,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05545-8058adb753d0",
+    "source": "A mutiny?",
+    "source_sha256": "8058adb753d0cbaab74f5279b334ab871582092bfb5af8639a0e8168f88b8d9a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168035"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Gasp}",
+      "line": 14779,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05546-8211444b3e28",
+    "source": "Ergh. Why would you betray my confidence, Ophelia?",
+    "source_sha256": "8211444b3e2897eeaa86a223c9b739501a36175eee9c5eff5b5c3817ac813208",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168055"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Know",
+      "speaker": "Hamlet",
+      "cues": "[angry] {How_Could_You_Sad}",
+      "line": 14782,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05547-17f04219f885",
+    "source": "You plotting bitch. Canna' believe I fell for it.",
+    "source_sha256": "17f04219f885fed051a84867cd179555baf38f48cb06cfcc9387afcba35f5e3d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176059"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Betrayed",
+      "speaker": "Captain Grace",
+      "cues": "[disgust] {Shoulda_Known_Sad}",
+      "line": 14791,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05548-2b11d231bbd3",
+    "source": "I have to keep my friends alive first.",
+    "source_sha256": "2b11d231bbd37919db3fa7a7a15321e37707ca67961a2701e3671f44bd65653a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176159"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Betrayed",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 14793,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05549-d82b872b7103",
+    "source": "And if I refuse to give in?",
+    "source_sha256": "d82b872b7103c1f0fe9f7668977ac25e891580af7adcbca98f1511a323d5b000",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176237"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Betrayed",
+      "speaker": "Hamlet",
+      "cues": "[smug]",
+      "line": 14795,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05550-d88b3cb25c53",
+    "source": "...Ophelia. Is 'e always like this?",
+    "source_sha256": "d88b3cb25c53edcc6417b60ba6c8548c47c7d7475c39cbf4e49f9ecb3bb6cd6b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176447"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Betrayed",
+      "speaker": "Captain Grace",
+      "cues": "{Sigh_Heavy}",
+      "line": 14802,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05551-6ab9e87c5776",
+    "source": "Release myself and Lady Ophelia in a longboat close to Danish shores. You can keep the ship and all within it.",
+    "source_sha256": "6ab9e87c57763f1f266f06784a3aeb51f27a08711d3c2778b3262659c18f5541",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176549"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Hamlet",
+      "cues": "{Listen}",
+      "line": 14808,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05552-146f7e93a4a7",
+    "source": "For no further cost, you can have a new vessel. You're a sharp woman. You see the value in such a trade, don't you?",
+    "source_sha256": "146f7e93a4a7a00d12909d0246f337e18ce130d0ec955285ab3672bcda8d044e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1176772"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14809,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05553-36745c0b480f",
+    "source": "We're no good to you as a ransom. A mad prince set for slaughter—who would pay for me?",
+    "source_sha256": "36745c0b480fd54c2f144fbbae3bd491a6d39ed22ab708f40f7ddde1e569faec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177005"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Hamlet",
+      "cues": "",
+      "line": 14811,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05554-1358125c40d3",
+    "source": "Now yer speakin' a common tongue.",
+    "source_sha256": "1358125c40d3174cc53c963b5edcedf2371181b4c08a60878cb0b8446ba01267",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177180"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Captain Grace",
+      "cues": "{Aye_Lad_Sad}",
+      "line": 14813,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05555-f277bdb14557",
+    "source": "Very well, Prince Hamlet. You've proved your mettle.",
+    "source_sha256": "f277bdb145578423e9b7cb88f1f74ddce6f836829b8235d526bebe32ce0a03ec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177248"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14819,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05556-2b49298e4a34",
+    "source": "I'll return you an' your lady-love to Denmark.",
+    "source_sha256": "2b49298e4a34a64618308886fab40892aee159b48709641471e797bd8a24d4bd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177354"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14820,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05557-6e8f2aa75403",
+    "source": "Mercy is a gift I don't often grant.",
+    "source_sha256": "6e8f2aa7540377d43f7df7b91bc78f424a5d511eb0a9e9f1f88c415468d9dcdb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177448"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Captain Grace",
+      "cues": "{Curses}",
+      "line": 14824,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05558-d97d1856b0fc",
+    "source": "Yeh are well and truly mad.",
+    "source_sha256": "d97d1856b0fcd8ec260b4d0ada41694d28ea6e1988a87698886778ce9652afdb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177522"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14826,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05559-719c534a88de",
+    "source": "So they say.",
+    "source_sha256": "719c534a88decc68abd82d49a3c5251dab61196e87021446fb0fdb8c23b21c38",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1177578"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Hamlet_Demands",
+      "speaker": "Hamlet",
+      "cues": "{Sigh}",
+      "line": 14829,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05560-a938a4873b22",
+    "source": "This is why I hate yeh all, the courtly, crowned lot. All yeh do is murder one another.",
+    "source_sha256": "a938a4873b22f6bad9d6c92058edf5d8eb732b612a1ff7f8f0f12e9031267dae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173596"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Speech",
+      "speaker": "Captain Grace",
+      "cues": "{Vile_Dogs_Tired}",
+      "line": 14834,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05561-163fcdded4df",
+    "source": "Yeh speak so prettily. And it all amounts to nothin'.",
+    "source_sha256": "163fcdded4df6011b585e2168e2a04156b7e3d46cf66d07477b5e9c67f13db79",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173773"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Speech",
+      "speaker": "Captain Grace",
+      "cues": "[sad]",
+      "line": 14836,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05562-a4c4a7fd5356",
+    "source": "One day yer family, the next yer at each other's throats. Out here on the sea, I trust my crew more'n any one of you.",
+    "source_sha256": "a4c4a7fd5356d25cfe180f4f972a086eaa2245359d15cc2b578873f9e4a4e8f2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1173881"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Speech",
+      "speaker": "Captain Grace",
+      "cues": "[sad]",
+      "line": 14838,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05563-660596b17eab",
+    "source": "I'd kill yeh all outright, but seein' as Ophelia here saw fit t'warn me in advance...",
+    "source_sha256": "660596b17eab40e111f962a26bf6dbb683b0e9a89aaceff285eb48a909809485",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1174118"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Speech",
+      "speaker": "Captain Grace",
+      "cues": "[disgust] {Tch}",
+      "line": 14840,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05564-0a3d2fa39629",
+    "source": "I'll be takin' this ship as my prize, an' I'll leave yeh on Danish shores.",
+    "source_sha256": "0a3d2fa39629f87106ec291b45dfc74b8a28fbd09c5211f99a1b3fb2e9d9b238",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1174313"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Speech",
+      "speaker": "Captain Grace",
+      "cues": "{Now_Then}",
+      "line": 14844,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05565-062ebe2d3a84",
+    "source": "An' clean up this blood in the meantime, too. Stains the wood.",
+    "source_sha256": "062ebe2d3a846ddd363236d58d4c551c17293cb66c541909d79b055078f09e5e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1174464"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Grace_Speech",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14846,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05566-19bf24a324ec",
+    "source": "...That letter. The one my uncle gave you.",
+    "source_sha256": "19bf24a324ec142cfb07aa32496664c7bb93f0f5394da3acc51b69d9f46761f4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168275"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Disgust}",
+      "line": 14861,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05567-15419793e575",
+    "source": "Inside, I found a warrant for my own death—orders for me to be executed upon arrival in England.",
+    "source_sha256": "15419793e575966bd33558767821de50f528fc5dee3c9ae01e10ba2d73eb0180",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168361"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 14862,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05568-0106e263e5fd",
+    "source": "I <i>trusted</i> you both.",
+    "source_sha256": "0106e263e5fdbda8d15041f50f66a5b4fac3801659fdf633ad51fdc1e743eeae",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168556"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Hamlet",
+      "cues": "[sad] {You_Traitors_Intense}",
+      "line": 14865,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05569-28809bb0c743",
+    "source": "We didn't know about the contents of the letter. I swear to you, Hamlet.",
+    "source_sha256": "28809bb0c7433aed7a279ad2854cad69dde3f360e1a7cfd5f1e8d1f57fe85169",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168628"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad] {Hamlet_Unsure}",
+      "line": 14870,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05570-cb2360f629cd",
+    "source": "If we thought we were delivering something like that...",
+    "source_sha256": "cb2360f629cdaf2bed3fcd1d879e9b9a6054dee1fb1c8ca74e587a5494b8cc5f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168775"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Guildenstern",
+      "cues": "[sad]",
+      "line": 14872,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05571-117966a51eea",
+    "source": "Certainly, there are <i>far</i> less convoluted ways to murder someone.",
+    "source_sha256": "117966a51eea84dd0edf5c09cc82aae90718d620f9c5e2a58f3d545b64c72a2e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1168887"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[disgust] {Hmm_Judge}",
+      "line": 14876,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05572-319878bd6cb1",
+    "source": "My thoughts exactly! Like pushing Hamlet overboard and making it look like an accident!",
+    "source_sha256": "319878bd6cb1a6884c4d98554b29f952e32805148491b3335e08394fb3100e8a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169032"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Hmm}",
+      "line": 14879,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05573-1089b9b87c40",
+    "source": "Or staging an attack on the ship!",
+    "source_sha256": "1089b9b87c402f51c2303ab54e8ba807fef1b48528b6bf7152a79733359e9aa2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169209"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise]",
+      "line": 14881,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05574-a9ddcb54a239",
+    "source": "Or poisoning his dinner...",
+    "source_sha256": "a9ddcb54a239909237a8e0a3e7a600262782cbef8fbe5942fe7db3aee1f9fd2f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169277"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Guildenstern",
+      "cues": "[disgust]",
+      "line": 14884,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05575-f3cfd143463c",
+    "source": "What about strangling him in his sleep?",
+    "source_sha256": "f3cfd143463c3629658e410767eac78e9c71fc94068fa5349949d58bbf168328",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169331"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Chuckle}",
+      "line": 14887,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05576-4e976a2d7e6d",
+    "source": "Are you idiots done?",
+    "source_sha256": "4e976a2d7e6d28666d4270348c732ed84de4f316ad22cd0393760d8be7185a43",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169411"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "[disgust] {Disgust}",
+      "line": 14889,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05577-68b1c8922ff5",
+    "source": "Oh, I suppose. Just sort of lost in thought, there. Where were we?",
+    "source_sha256": "68b1c8922ff529ee3c6578e7d3b54505e37ce18455b76eadaa001676f1ef34d0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169453"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Gasp}",
+      "line": 14893,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05578-4bae2b5348a2",
+    "source": "Despite promising Ophelia I wouldn't hurt you lot, I find myself reconsiderin'.",
+    "source_sha256": "4bae2b5348a2009de813c80d3ed3cec90ceefebd8084ee26f6b94e7b67d0cbf6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169588"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14895,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05579-208f8791245f",
+    "source": "Maybe I'll just take a coupla hands off.",
+    "source_sha256": "208f8791245f4782ab7f888ff28fa97829116523a560252625d76d3ede1903bc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169749"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "[happy] {Hmm_Coy}",
+      "line": 14897,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05580-e91c9640339e",
+    "source": "Grace. Please don't.",
+    "source_sha256": "e91c9640339ecdfc255cff4ca2f429404e000695f1b13ce9aac4faf70e506a31",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169831"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Grace_Annoyed}",
+      "line": 14903,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05581-5b54a8d5939b",
+    "source": "Wot? Still aching for his sword?",
+    "source_sha256": "5b54a8d5939b8978b797cb3777be77a2e1e1dfba1a6ec79dea14fe9e34d28a4d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169873"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "{Chuckle_Scorn}",
+      "line": 14905,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05582-41052ec71360",
+    "source": "You can't harm him. He's important to me, and to his country.",
+    "source_sha256": "41052ec713608e21211287ebbfe4b9a50e58f5c6c8db1194cb99c147ce8279fb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1169939"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 14906,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05583-e12b76cd222a",
+    "source": "Not even a little slice? What about a thumb? Surely he can get by with just <i>one</i> thumb up his arse.",
+    "source_sha256": "e12b76cd222a56734aee7c98816f823e071b3b8e44779a657442525e1f84e360",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170063"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "[disgust] {Hmm}",
+      "line": 14907,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05584-2ba9e775cdae",
+    "source": "Not even a thumb.",
+    "source_sha256": "2ba9e775cdaec3a3e26f4ae33116fb34b68dcdbd67aebf70361214d0e0d7b278",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170276"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Ophelia",
+      "cues": "[happy] {Sigh_Wistful}",
+      "line": 14908,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05585-8f3c7475abc3",
+    "source": "I resent that statement.",
+    "source_sha256": "8f3c7475abc342129b64c77b624108d5174725ef686f29be06017ec34414d91d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170312"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Hamlet",
+      "cues": "[unhinged] {Disgust}",
+      "line": 14910,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05586-ef4cb9c216d0",
+    "source": "I didn't ask yeh, Royal Pain.",
+    "source_sha256": "ef4cb9c216d0dc64ba242eeec9fcae22c31964e4ad4aa9c50627fad188cc9de9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170362"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "[happy] {Tch}",
+      "line": 14913,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05587-fc0780ee884a",
+    "source": "It appears my three companions have their own stones to cast at one another.",
+    "source_sha256": "fc0780ee884aac0d7c3d9842ab98fe65cd029dcded4cd201077342a8d5144c16",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170422"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Ophelia",
+      "cues": "{Listen}",
+      "line": 14916,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05588-3c282d021bc2",
+    "source": "Uh, yes! What she said!",
+    "source_sha256": "3c282d021bc2d2c15b5bec69f3d50499e5e59067f0bf4f090f93086484d2e91f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170577"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise]",
+      "line": 14920,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05589-ad0cc3c69715",
+    "source": "We apologize <i>so</i> very humbly for this inconvenient disturbance, your pirate ladyship.",
+    "source_sha256": "ad0cc3c697152972f5b5ec9d9bb94a7dfc61eb3519bdcf40e9d218f54d4ac571",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170625"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[surprise] {Yes_Scared}",
+      "line": 14922,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05590-34f009ecbc2b",
+    "source": "Additionally, <i>please</i> don't kill us.",
+    "source_sha256": "34f009ecbc2b5351cab5b60d3f65d234ea447f8715b247de5f460455fb8eafe9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170810"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Please_Sad}",
+      "line": 14924,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05591-5a6f8afc9c53",
+    "source": "Yer lucky to owe yer life to this woman, Prince.",
+    "source_sha256": "5a6f8afc9c538f3be1fefe86f802b13119aff004700c02ee10715c9a76b2134e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170896"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "[disgust] {Sigh}",
+      "line": 14928,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05592-e86aa03f533b",
+    "source": "She's at least got a drop of integrity. The rest of yeh, not so much.",
+    "source_sha256": "e86aa03f533bdb81d88f460ffc9a7023a82f099a49aa03e084acaa17802a65b1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1170994"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "[disgust]",
+      "line": 14929,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05593-16f3997ce028",
+    "source": "I'll return you all to Denmark.",
+    "source_sha256": "16f3997ce02823c46b209639c6d4222c1f71f89c75438656b851a3d3cc1e3fe8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171135"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "{Now_Then}",
+      "line": 14931,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05594-30db9790b763",
+    "source": "Mercy is a gift I don't often grant. Yer all fortunate today.",
+    "source_sha256": "30db9790b76372da1854ce3606f31235bb07825aba1978b6c6ff09a09f33038a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171199"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Captain Grace",
+      "cues": "",
+      "line": 14934,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05595-591c7580fc2d",
+    "source": "Mercy means returning to Elsinore? Certainly doesn't <i>feel</i> that way.",
+    "source_sha256": "591c7580fc2d21f44f8b32b6155e11bc4eade960a9afef0447d2f0043ea613f2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171323"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 14936,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05596-6e80e903cc14",
+    "source": "Back we go, then.",
+    "source_sha256": "6e80e903cc1493b303c5652b40b3742bed8f3163ed6884288369910ce77fc803",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1171474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Mutiny_Note_Reveal",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 14938,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05597-1aaee1931b4d",
+    "source": "We've arrived. This ship and all her wares are mine now. On yer way, now!",
+    "source_sha256": "1aaee1931b4db305167f7ded98aa8c33916e3b2a9bbe3cae35b0c634edb63811",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1178561"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_JourneyEnd",
+      "speaker": "Captain Grace",
+      "cues": "{On_Your_Way_Now}",
+      "line": 14944,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05598-50a72aaa507d",
+    "source": "So it's true. I'd heard you returned.",
+    "source_sha256": "50a72aaa507d9d73a34829988fa19b12fd28891652ce802bc843295b66884a32",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179116"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "King Claudius",
+      "cues": "{Hmm}",
+      "line": 14981,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05599-dd88adf39297",
+    "source": "And so has Hamlet, looking the picture of health.",
+    "source_sha256": "dd88adf39297207c02bc8812323e7c91ab3805cb266be607caeb85a8b6bdc0b2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179192"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {Growl_Long}",
+      "line": 14986,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05600-a0a86fba8155",
+    "source": "I put my faith in you. I won't make a mistake like that again.",
+    "source_sha256": "a0a86fba81557cf55b5dfbc5200be1b640af070cc235c374ab6b0356305f76d6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179318"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 14990,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05601-2e9541f52694",
+    "source": "And my idiot nephew is 'handled' at last. I'm impressed; you've done exactly what I needed of you.",
+    "source_sha256": "2e9541f526949740b901f2bfd6dba54c36a1eaeef3936970d42094865cb224fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179444"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "King Claudius",
+      "cues": "[smile] {Ahh_Happy}",
+      "line": 14995,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05602-cadcc595c1cd",
+    "source": "It appears you are quite a whit more cunning than you seem.",
+    "source_sha256": "cadcc595c1cd10af087d852819cd761ae8c68bb393bc1d308e779420bbcef142",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179643"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 14996,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05603-67e8ce5fad2a",
+    "source": "You have my thanks, and my gratitude.",
+    "source_sha256": "67e8ce5fad2af83cadd1e1e25604fe83f0bb698253453af3e900b30f42f66027",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179763"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "King Claudius",
+      "cues": "[smile]",
+      "line": 14999,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05604-97fbf5d8f46f",
+    "source": "You're as clever as you are beautiful.",
+    "source_sha256": "97fbf5d8f46f5fe47035de48783407f45773b132ec92180efcfb2a75b35b14f5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179839"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 15006,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05605-ce0359e512e9",
+    "source": "I aim to please.",
+    "source_sha256": "ce0359e512e929dcecb6682c22d41506743ad19b52bf52da54e0cebc4334f497",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1179917"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "PIRATE_ClaudiusReact",
+      "speaker": "Ophelia",
+      "cues": "{Hmm_Flirt}",
+      "line": 15010,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05606-035491e37250",
+    "source": "My sweet. The time has come. Are you prepared to announce our news?",
+    "source_sha256": "035491e37250e946540c59d8a55995a62119085efac1c040c417049779c02c58",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1879458"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Ahh_Happy}",
+      "line": 15027,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05607-5900651264fd",
+    "source": "This is all happening so fast.",
+    "source_sha256": "5900651264fd84959c92d861ee2715cd2f2c745c164bca5b7b464b3881449018",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1879595"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Ophelia",
+      "cues": "[happy] {Ah_Laugh}",
+      "line": 15028,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05608-3eec56e0ebf3",
+    "source": "These things tend to.",
+    "source_sha256": "3eec56e0ebf393eeb6cba1bd09f1fca22d9848a9d5f476a9691f880bccc90919",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1879657"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 15031,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05609-2ec4b22df137",
+    "source": "I shall announce some news without further ado.",
+    "source_sha256": "2ec4b22df137354f84550d0e5aa4019954e99f23848070f4f649f77266f3aed1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1879885"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 15089,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05610-ee2d5506c2dd",
+    "source": "Lady Ophelia and I are to be betrothed. Today.",
+    "source_sha256": "ee2d5506c2dddb932129d2d1217160618c10fb784cf5f27cf214f245ad5e7dd9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1879981"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "King Claudius",
+      "cues": "[happy] {My_Love_Happy}",
+      "line": 15095,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05611-cf58359a8330",
+    "source": "A-ah... why hadn't I heard of this?",
+    "source_sha256": "cf58359a83302547c6bd3c056cc8493b5d05c54a5cc1751c17ab6410da668207",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1880113"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Polonius",
+      "cues": "[sad] {Stammer}",
+      "line": 15110,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05612-4befa6224241",
+    "source": "Never mind it... yes, never mind it.",
+    "source_sha256": "4befa6224241813e0b3c4572fdad8e2fd853b8327b6768559e9c97a60800e472",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1880185"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Polonius",
+      "cues": "[sad] {Sigh}",
+      "line": 15113,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05613-344b48c7dbba",
+    "source": "My lord, are you sure you don't want to wait for the castle chaplain to return from his countryside tour?",
+    "source_sha256": "344b48c7dbbaa402c9db76342c62c48ecfaa7404aaa36ec5f1ac5e94eaebf11b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1880418"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {My_Lord_Question}",
+      "line": 15123,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05614-81a19227950b",
+    "source": "Absolutely certain, Bernardo. We shan't wait another minute.",
+    "source_sha256": "81a19227950be74d08b6bdb06c1bf4954b5f3145c0a7c047d32f17ce9e632dd3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1880631"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Bernardo_Annoyed}",
+      "line": 15124,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05615-4cf0a2ad7a12",
+    "source": "A-and—Lady Ophelia—this is your desire as well? This union?",
+    "source_sha256": "4cf0a2ad7a12fa06ad78c3ec151b59a2cd80c2c825ed7d66e1e09f2c7a645a4e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1880861"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 15132,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05616-45d326af6bcd",
+    "source": "It is rather, er, surprising, given the circumstances.",
+    "source_sha256": "45d326af6bcdd3916980465449911038ecf49b55421271a88dce3177d7758637",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1880981"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 15133,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05617-610e74a3e3a4",
+    "source": "I know it's sudden, Bernardo. But it's what I want. Truly.",
+    "source_sha256": "610e74a3e3a430765f2d7a3f1954073ed0275b40266dc896d378ca4b6aa77f45",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1881091"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Ophelia",
+      "cues": "[smile] {Yes_Proposal}",
+      "line": 15135,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05618-bc837ec5d0bd",
+    "source": "Let us all bear witness to the betrothal of His Majesty Claudius of Denmark, and Lady Ophelia, daughter of Duke Polonius.",
+    "source_sha256": "bc837ec5d0bdbd73b70c346b800dcadc8a1e3786bdd74e6d7f4fb3e2b7641a29",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1881229"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "Bernardo",
+      "cues": "{Now_Then}",
+      "line": 15142,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  },
+  {
+    "id": "p05619-4c1a50dd7f21",
+    "source": "As Bernardo is elsewhere, I'd like to request that Voltemand here do the honors.",
+    "source_sha256": "4c1a50dd7f2134e1969514f2f2e2a54677ea62a2d10737bacddd705ad6cd8f6e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1881972"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "QUEEN_Coronation",
+      "speaker": "King Claudius",
+      "cues": "{Hmm}",
+      "line": 15151,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0041"
+  }
+]

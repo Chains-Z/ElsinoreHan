@@ -1,0 +1,2767 @@
+[
+  {
+    "id": "p06587-6887e07d0582",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to hold off Fortinbras' invasion and save everyone's lives.",
+    "source_sha256": "6887e07d05828cb8f87b488f0302376a6b3a3884b84797b5c931a2b0272af866",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511743"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 17935,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06588-0b01967dd98c",
+    "source": "S-so she did it! She's saved us all from a tragic fate!",
+    "source_sha256": "0b01967dd98c05146cf0cb81da36c394937d6076e38edd80cf13fb5309ef362c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511996"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Guildenstern",
+      "cues": "[surprise] {Gasp}",
+      "line": 17940,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06589-279210ccdd8c",
+    "source": "Ah... so it would seem.",
+    "source_sha256": "279210ccdd8c99ede82c88e23f659baee6b4d1083679d7ada9085dbda14ef3d4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1512108"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Rosencrantz",
+      "cues": "[sad] {Hmm_Think}",
+      "line": 17943,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06590-c3ff81e0e200",
+    "source": "I for one am <i>thrilled</i> to not be the only one left alive.",
+    "source_sha256": "c3ff81e0e2008652918ecd6885cbf9e257f88776be1be9fbdafdc99b3c87b27e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1512156"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Horatio",
+      "cues": "[happy] {Chuckle}",
+      "line": 17950,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06591-1e5204db11c3",
+    "source": "As much as you're all a group of rather moody, melodramatic fools, you've become <i>my</i> melodramatic fools.",
+    "source_sha256": "1e5204db11c3512729b3bee2d060a16eb6099188d288a9b8043e9f5354eb2005",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1512284"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 17951,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06592-fac1e1c08c0d",
+    "source": "I did not think I would live long enough to spend all the money I made fleecing the guards out of their pay.",
+    "source_sha256": "fac1e1c08c0ddf1475e56b55f6805244ad2519fba4d7ef450b65afe366d908d9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1512507"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Irma",
+      "cues": "[happy]",
+      "line": 17954,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06593-87d295436a63",
+    "source": "What a relief it is to be proven wrong.",
+    "source_sha256": "87d295436a6345a3c07a3c19037a6d59328c07dca96cab8ee0745a4c66f29a58",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1512726"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Irma",
+      "cues": "[happy] {Chuckle}",
+      "line": 17956,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06594-a0c1d919a4f3",
+    "source": "And I'm sure you'll steal a lot <i>more</i> of their pay before you go to your grave kicking, old woman.",
+    "source_sha256": "a0c1d919a4f32fa99beb3c17f63f05a010e08f47fc6822bf49062f0cfeed3ce4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1512806"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Disgust_Short}",
+      "line": 17960,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06595-e9e3750a025f",
+    "source": "Yes, or until they grow wiser about my loaded dice. I'm sure I'll die before that happens. Idiots.",
+    "source_sha256": "e9e3750a025f186cb9d14a4914a94894c25008422236165ea2d162ccd2a37cc8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513017"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Irma",
+      "cues": "[happy] {Hmph}",
+      "line": 17962,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06596-80f064a31ef0",
+    "source": "At one point, I wanted nothing more than to die.",
+    "source_sha256": "80f064a31ef0942bdae607b1a04454a2407a33c80aec0b0cbdd731c8e29775bc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513216"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Stammer_I}",
+      "line": 17966,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06597-5cb6aefb6532",
+    "source": "Now the gift of life is thrust upon us.",
+    "source_sha256": "5cb6aefb65320ce886a88bfdd224c09625a755cf1b90a4864d5e26d709f71e13",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513314"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 17968,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06598-0a38852e8110",
+    "source": "Even those of us who didn't deserve to live are here.",
+    "source_sha256": "0a38852e811059c9261210a0c062e3eb48c96358694ef68c80e89031a80c0ae9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513394"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Sigh}",
+      "line": 17974,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06599-8b552859fd28",
+    "source": "Stop that, Hamlet.",
+    "source_sha256": "8b552859fd28b4d6f621b8e158290c7d2388352700458d5345002d1c161337c0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513502"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Hamlet_Scold}",
+      "line": 17979,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06600-6c6c567a3b36",
+    "source": "It's true you and your uncle have been at odds lately. However...",
+    "source_sha256": "6c6c567a3b36ba603bbbc8712dd4cd6e255cadc08d995137288c4cbeaac89dbe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513540"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 17981,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06601-799f17977a65",
+    "source": "Now that the war is won, there is time for peace to come to us all, in our own ways, in our own time!",
+    "source_sha256": "799f17977a65ddbd5ecf7a06bd442923494afddd6b1a0492e0511cf0e577b6b1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513673"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Queen Gertrude",
+      "cues": "[happy]",
+      "line": 17984,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06602-27dc5de156db",
+    "source": "Yes, we ought to celebrate this gift of peace we've all been given!",
+    "source_sha256": "27dc5de156dbf54515251ecd1202a64e17bc7111b14963a20f3f87e982b4b9fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1513878"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Queen Gertrude",
+      "cues": "[happy] {Chuckle_Soft}",
+      "line": 17987,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06603-5b6d4e7bb107",
+    "source": "Your Highness... the war is <i>not</i> won.",
+    "source_sha256": "5b6d4e7bb107a46adf8fab1d6fcef62f88b1c6ed8277aa2effe1201fb2e053b5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514043"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Your_Highness_Sad}",
+      "line": 17997,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06604-f2a48c05aa7f",
+    "source": "Did you think the war was over?",
+    "source_sha256": "f2a48c05aa7f8b7c1680658c8e3be0f6e0e6b2ed4c1fc02ba32080b7309a749b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514131"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18000,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06605-27813c202a60",
+    "source": "It... it isn't?",
+    "source_sha256": "27813c202a6025b81d935eb775e995989899ed45775455c07e7b3e5ce4430a9a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514195"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Hamlet",
+      "cues": "[surprise] {Gasp_Intense}",
+      "line": 18002,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06606-780d0c7c2459",
+    "source": "No. Of course it isn't.",
+    "source_sha256": "780d0c7c2459924cb346611b27b3115ef856c039927257103f4d455705a1c249",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514227"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {No_Sad}",
+      "line": 18009,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06607-8d1ab78b1323",
+    "source": "Fortinbras may have been stopped for now, but he is relentless, and his men are brutally faithful to him.",
+    "source_sha256": "8d1ab78b1323a0d42d4ac2dd951b857070c8d84ddb6b271c050eafa517265982",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514313"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 18014,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06608-6b6b05ec6b55",
+    "source": "They will come for him. And when he is free, they will come for our country.",
+    "source_sha256": "6b6b05ec6b55ca6f70c79f23c04a31ba094f9035266b80f3a04bd5fa7d9f26e1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514526"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 18017,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06609-5b3907152cf6",
+    "source": "But we are well prepared. I've rallied good men to my side. Useful men.",
+    "source_sha256": "5b3907152cf6871bf51848f36536b4156ee621a664f06466e9e852ef66e49813",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514681"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Scoff}",
+      "line": 18023,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06610-fb14166d2b54",
+    "source": "Let us give them a fight worth fighting!",
+    "source_sha256": "fb14166d2b548c67e3831528c2e88e7b96b55022b809c66df4f3e0029b1ecbca",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514826"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "King Claudius",
+      "cues": "[happy]",
+      "line": 18025,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06611-38026055421c",
+    "source": "This won't be a fight. It'll be a slow massacre.",
+    "source_sha256": "38026055421cfd64a957318996d824120fe0cb19488ac56007c78e1cf2e91c6e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1514908"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {Disgust_Long}",
+      "line": 18027,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06612-9a6dc14ae7bb",
+    "source": "Only a war of attrition lies ahead.",
+    "source_sha256": "9a6dc14ae7bb94420825af0c3ce86a7c59ff33d8cc38152006f5440c07265922",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1515006"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 18029,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06613-243850fbf6d5",
+    "source": "What she speaks is truth, my lord. Fortinbras will not relent. And neither shall we.",
+    "source_sha256": "243850fbf6d5fef29a57d5285550031b8add443183ed351f44a2695c30fd7c9e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1515078"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 18036,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06614-54888636ae99",
+    "source": "The men we have rallied are sufficient, but not a force worth marveling at. I predict weary years ahead.",
+    "source_sha256": "54888636ae99f8ba780ce2c74577bd06f48d03d57dba66d80e6421f9b4bcf575",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1515249"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18038,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06615-01d5421e8584",
+    "source": "We averted a coup. We have not won a war.",
+    "source_sha256": "01d5421e858410dca78b425112ff809fa384f0f21a4776850ed63ca6a70a169d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1515460"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18041,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06616-d23d73ec70b3",
+    "source": "Then we shall all bear witness to whatever mysteries the future brings.",
+    "source_sha256": "d23d73ec70b33f91c3aede26e8ee5f6f99b0b1aac27b2f07ccdf934e1b415817",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1515544"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Hamlet",
+      "cues": "{I_See_Sad}",
+      "line": 18044,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06617-d7e488ebd71c",
+    "source": "I suppose we cannot truly know. Not yet.",
+    "source_sha256": "d7e488ebd71c01ea557d7ddcba3f3b1ab01de4de79267bef38fe8ccdca9114a5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1515689"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh}",
+      "line": 18046,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06618-9da2258dd333",
+    "source": "That is the summary of it, yes.",
+    "source_sha256": "9da2258dd333882dab00e23d4fd85f7ee05d6ba5235d4a489d45c0104987206f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "The Ghost",
+      "cues": "{Indeed_Grave}",
+      "line": 18049,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06619-0beb7e6d8f15",
+    "source": "Consider your options carefully, Ophelia.",
+    "source_sha256": "0beb7e6d8f15c61c8895fd1197cd452c18ddacc51384626200d5221ec2dddd45",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 18053,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06620-c509977e65e6",
+    "source": "Life in place of death is not always a gift. You and I know that truest of all.",
+    "source_sha256": "c509977e65e67eb09f9f227f6d15aadc0ae63819828a591f630912895005b6f4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_EveryoneSurvives",
+      "speaker": "The Ghost",
+      "cues": "{Heavy_Sigh}",
+      "line": 18055,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06621-1362946ca803",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to marry Prince Hamlet and become Queen of Denmark.",
+    "source_sha256": "1362946ca803e4a36c47969abecd57f6a8d16cee8eae908d8162824e0c8f8fb4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1855102"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 18064,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06622-5e10f6d90db6",
+    "source": "What say you all about this?",
+    "source_sha256": "5e10f6d90db62e349ad457993e99d0da73518c1618a7260f7a4973770fefe4d9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1304492"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy]",
+      "line": 18066,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06623-d471b1e63e38",
+    "source": "Excellent. Good riddance to both of you.",
+    "source_sha256": "d471b1e63e38306b97f300df3f2c4f186798668c137ce34c1c54da73f48677bb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1855339"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Lady Brit",
+      "cues": "[happy] {Chuckle_Cruel}",
+      "line": 18071,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06624-569d5c08fd28",
+    "source": "And a special thanks to you, Ophelia. You've saved me from a life of having to be near Hamlet.",
+    "source_sha256": "569d5c08fd28e7b9d0aaf0b197f9db02a2877c8e5114688cd4fe38485b81e039",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1855421"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 18072,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06625-43e9200a9161",
+    "source": "Evidently my mood of late was more offensive to all of you than I thought.",
+    "source_sha256": "43e9200a9161c8554ebbc0cddd4265f4ac65f9cce8b9ea4eda4f5fc5fa6d8e6c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1855612"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[smile] {Hmm_Short}",
+      "line": 18075,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06626-f75cc5149e29",
+    "source": "Happens to the best of us, Hamlet. But it seems as though this betrothal has turned your state around.",
+    "source_sha256": "f75cc5149e296442e2e8da74282fa0f2bf3271a46948ffabbba27f13a6d87b0d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1855763"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Bernardo",
+      "cues": "[happy]",
+      "line": 18078,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06627-f35791cd780c",
+    "source": "Much as I hate to admit it, I've never seen you happier.",
+    "source_sha256": "f35791cd780c6e407748dc6be69bfde2000925665e503c5f02b36cce3f360fe9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1855970"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Horatio",
+      "cues": "{Sigh_Relief}",
+      "line": 18081,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06628-9e3ae349364a",
+    "source": "I suppose... it's changed me.",
+    "source_sha256": "9e3ae349364addb64befee01b7673ba49e498219a7d61cd66049f5b9f50fc4b9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856084"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 18086,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06629-d7e4564bce88",
+    "source": "Everyone, I must apologize for my mood as of late.",
+    "source_sha256": "d7e4564bce885d0ec25c3db6d52e6741bd2dcde47845113a78993dc29a8141ce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856144"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Listen_Awkward}",
+      "line": 18095,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06630-6e677659cb64",
+    "source": "It's been the darkest year of my life. There were moments when I prayed for death more fervently than I've ever wanted anything.",
+    "source_sha256": "6e677659cb64032d0d8182fc882d3e359bc85bdcdd78a0394afda1a8ada72702",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856246"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 18098,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06631-7bbce972f890",
+    "source": "But... Ophelia showed me a world where it was possible to reclaim who I was before.",
+    "source_sha256": "7bbce972f890cfe108b1c4b8275c02f811847ab5fe0c34e2ff8a60bdd972d80f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856505"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[smile] {Ophelia_Warm}",
+      "line": 18102,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06632-362e295e0da4",
+    "source": "The old me wasn't gone. He was merely buried under the weight of paralyzing fear.",
+    "source_sha256": "362e295e0da4dd456330e0e875c5f82594c0cc328e058c1413593f724c5aeea8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856674"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 18104,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06633-c75edcd2c3bf",
+    "source": "And I'm no longer afraid.",
+    "source_sha256": "c75edcd2c3bf4366b2a7e964562b157c623a56de7c14b4ff60192554edd5e96f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856839"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[happy]",
+      "line": 18106,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06634-f00a6852f7d5",
+    "source": "Especially with you by my side.",
+    "source_sha256": "f00a6852f7d516687e21df2fcb4e0cc8eaf44e02f945892829ed43c8fb5a7ee3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856891"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Hamlet",
+      "cues": "[smile]",
+      "line": 18108,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06635-f3d90ea239a1",
+    "source": "This was the union I always desired.",
+    "source_sha256": "f3d90ea239a18509e68f85f869a62c4776872bd01a5ed5801b02ce6beff0586f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1856955"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Queen Gertrude",
+      "cues": "[happy] {Wonderful_happy}",
+      "line": 18112,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06636-c22c5583c991",
+    "source": "I merely wish it had happened sooner. But...",
+    "source_sha256": "c22c5583c99114c9ed5fee06f39a07bdcbc6c8a46a7882ff4ce5ae8aecec4239",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1857029"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Queen Gertrude",
+      "cues": "[happy]",
+      "line": 18113,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06637-afc2ba5dce66",
+    "source": "Well, circumstances were different then.",
+    "source_sha256": "afc2ba5dce6695ea47fdfdc44facdb3fe95ce02ecd2a9ea3e101104dbd65ee96",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1857119"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh}",
+      "line": 18116,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06638-284b415e5547",
+    "source": "I am, and shall always be, opposed to this union.",
+    "source_sha256": "284b415e554790d07bbbe49ce3b16ad06aca1ce0f8d812aa4a80281b01509014",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1857201"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {Disgust}",
+      "line": 18122,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06639-b70a89e09c44",
+    "source": "We know Polonius's estate is dry. No dowry to her name, no social ties, no status... it weakens Denmark.",
+    "source_sha256": "b70a89e09c44e7fd5e7cf9fe49fd187d9494c7241184904f94acaab3fd35fd84",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1857301"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 18123,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06640-a7304ef6b662",
+    "source": "A King ought to marry strategically. Not on his own blind whim!",
+    "source_sha256": "a7304ef6b662ff087afc9069ef3256c387e564f68835c672ebf53bc7001f89d2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1857512"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 18125,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06641-0e4d1b4d984b",
+    "source": "Hush, brother.",
+    "source_sha256": "0e4d1b4d984bec4b1bedd64a31e24477d200826183a9ac6ee9dec524c36fd552",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "{Brother_Sad}",
+      "line": 18128,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06642-8db6ceb3c2f0",
+    "source": "This world belongs to the living.",
+    "source_sha256": "8db6ceb3c2f0e5a7a196aa5d5e7be3ea4439d06c85bfe38ad7eca594b53fc68b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 18129,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06643-05cd365c7071",
+    "source": "We are merely passing through, here only for this singular moment in time.",
+    "source_sha256": "05cd365c70710bc0fdf571d36ac27cd1dbec3f56ba910f190be0567aba9b4c09",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 18132,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06644-c09881a5d20c",
+    "source": "Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.",
+    "source_sha256": "c09881a5d20c19d72254754283456f0837719445eba783b3b400dbbfa8dcecf4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "{Ophelia_Sad}",
+      "line": 18138,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06645-3f23d37bb295",
+    "source": "My son... the darkness which unfolded within him in these past months has been buried, but not truly forgotten.",
+    "source_sha256": "3f23d37bb29525f4c76ad93c887a431c5f3995d2e3d8238e241f1d51ac33229e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 18141,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06646-f2dbbdc3f3d6",
+    "source": "And someday, it shall rise up again to lash against you both.",
+    "source_sha256": "f2dbbdc3f3d6c39e1cc49ce018aa03208e4bd781b377306a0bbb69e985c19059",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 18142,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06647-826174948f31",
+    "source": "Can you be prepared for that eternity? Can you love him despite that, knowing it has hurt you before?",
+    "source_sha256": "826174948f31a4c69565310d3029a73db62b0f6dc1e502de5394b187a8dc1b50",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "{Hmm}",
+      "line": 18144,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06648-5dd9e46f3364",
+    "source": "Think on that before you decide his fate, and yours.",
+    "source_sha256": "5dd9e46f33644f6f6402a553fab90e06dc78ac643bbbef727b7e3180541bebd6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 18146,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06649-ba842b8f71cb",
+    "source": "And then there's Father and I. He exiled us, Ophelia.",
+    "source_sha256": "ba842b8f71cb0764b6048579576c28a113fbdaeb21964fd36eeccf7242021706",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1858875"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Laertes",
+      "cues": "[sad] {Ophelia_No_Sad}",
+      "line": 18151,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06650-db7949267441",
+    "source": "He'd kill us if he could.",
+    "source_sha256": "db7949267441e6c99294f0749cdb9066c9a98ddcb70c3dbc4b505d3c822aabd2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1858983"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 18153,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06651-4dd980741206",
+    "source": "Try as you might, you won't change his heart on this front. He knows I'm a danger to him. And he's right. I'll never serve him as my King.",
+    "source_sha256": "4dd980741206103a0e8cf54d0aaf48e222ad516eea9fef066c60f7544378f5ec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1859035"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Laertes",
+      "cues": "[disgust]",
+      "line": 18155,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06652-68c9c78d4374",
+    "source": "You will grow old without either of us in your life.",
+    "source_sha256": "68c9c78d43749520be05498a1c10dc3f2780ccb60166d2540b778ef339fa6f58",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1859314"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Laertes",
+      "cues": "[sad] {Sigh}",
+      "line": 18156,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06653-88cec67e8726",
+    "source": "Do Father and I mean so little to you that you're willing to throw us away?",
+    "source_sha256": "88cec67e8726f8ff8ddb9128ec08791db83439dbf374a0eae668baa2e5b2c832",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1859420"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_Hamlet",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 18159,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06654-a5008a562077",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to allow Norway to rule through Hamlet, bringing the two countries into a partnership of sorts.",
+    "source_sha256": "a5008a562077bfbcbff3611db6d2dc9863fe332249af308759c17f4f3a6add2c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1304167"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Lady Rosencrantz",
+      "cues": "",
+      "line": 18166,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06655-8efd2376da10",
+    "source": "Is this not the world any decent person would seek? A world where all survive?",
+    "source_sha256": "8efd2376da106afdb6e7066cba86d1b2362d2d33ad6e89bc10332c68612c6df4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1304550"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Horatio",
+      "cues": "[happy] {Of_Course_Quiet}",
+      "line": 18171,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06656-047c07c271c8",
+    "source": "One where Hamlet is free to take his father's throne, and forced by virtue of another ruler to act, rather than remain paralyzed?",
+    "source_sha256": "047c07c271c859033a02a5d371a66c2b2d63af317b941c38d9a73522e83e7347",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1304709"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18173,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06657-dc16d57c2372",
+    "source": "Certainly <i>I</i> think so.",
+    "source_sha256": "dc16d57c237235a4b28c3c09f752bacb3338519f4beab9b66591c0643bfd2bb0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1304970"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Lady Guildenstern",
+      "cues": "[happy] {Chuckle}",
+      "line": 18175,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06658-ea7d0cb46784",
+    "source": "W-well, what about <i>me?</i> Where is my life in all this?",
+    "source_sha256": "ea7d0cb467842681051c2aabee019876b9cc7fcdad4e95025cf330c20dc8e878",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1305028"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[surprise] {Death_Throws_GasP}",
+      "line": 18180,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06659-81edd701ca60",
+    "source": "Ophelia, have you deemed me beyond redemption? Am I not included in your salvation?",
+    "source_sha256": "81edd701ca60f1e837f7f07bf71e214c343d8f194637bd9b6b6942973736c998",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1305148"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[surprise]",
+      "line": 18182,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06660-c70e7ecb0924",
+    "source": "Feh! Should've considered <i>that</i> before you offed a perfectly good king!",
+    "source_sha256": "c70e7ecb09248ddc400e44ce5dbb5f73914f0c03a313a6bc4381d02ec2fbc621",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1305317"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Irma",
+      "cues": "[disgust] {Feh}",
+      "line": 18185,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06661-890de172a7cc",
+    "source": "Look at the mess you made of it all!",
+    "source_sha256": "890de172a7cc8f81148402ff769318ed71989905a016e42df8f3dc588b8ade51",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1305474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Irma",
+      "cues": "[disgust]",
+      "line": 18186,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06662-9b03d69bbb80",
+    "source": "The mess <i>I've</i> made? What of Denmark? What of our nation?",
+    "source_sha256": "9b03d69bbb80950013ff0b6dc1739a6bcccf76655738f2c349df5651de5aa143",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1305548"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {What_Angry}",
+      "line": 18188,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06663-be540c92d63f",
+    "source": "We're scarcely our own people now. Merely a pale shadow of Norway's ambitions.",
+    "source_sha256": "be540c92d63f6b597760aa51567334251a1d12fae1f31cad0e300792e50959ff",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1305676"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[disgust]",
+      "line": 18189,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06664-5c9333f2c4d7",
+    "source": "And what shall become of Denmark in a dozen years, or in a hundred? Shall we even exist?",
+    "source_sha256": "5c9333f2c4d76c0698d7d4426a543f2f193f061832afad58bed3ebe5f4b36186",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1305835"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[angry]",
+      "line": 18191,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06665-fbfe64d1ecd6",
+    "source": "All of our stories, all of our <i>selves</i> forgotten!",
+    "source_sha256": "fbfe64d1ecd64754734ee49f62a406da6f2d9051b8102313d3ed0b81f6bad953",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1306014"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[angry]",
+      "line": 18192,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06666-4355354ac2af",
+    "source": "Have all of you forgotten Ogier, that knight of Charlemagne? Legend says his spirit dwells within this very castle.",
+    "source_sha256": "4355354ac2affddaeeac27adf843246f5bb0f015e213331e797b8a63bc773170",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1306126"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[sad] {For_Glory_Intense}",
+      "line": 18203,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06667-5fb3986f354e",
+    "source": "And when Denmark is most at peril, he shall rise and take arms to defend us all. Have you forgotten what others sacrificed?",
+    "source_sha256": "5fb3986f354e6c21419fccb0aa2ff98d77f8909d0cb0359c6e219a9db4a1d7c6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1306359"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 18205,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06668-e7fadb1a8ed7",
+    "source": "It is the King of Denmark's <b>calling</b> to fight on her behalf. What kind of coward merely hands her over to her enemies?",
+    "source_sha256": "e7fadb1a8ed746dca72da28c22e4d60d5a3c05a7ae5ee0c7b56b640b57231381",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1306608"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 18208,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06669-0d1deac13209",
+    "source": "An entire nation's identity must not be snuffed out by the whims of a boy!",
+    "source_sha256": "0d1deac13209419627c175a34b08c4c3e7e47e7c27e33a2c883c88b1bcb71229",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1306859"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "King Claudius",
+      "cues": "[disgust] {Never_Angry}",
+      "line": 18210,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06670-f6bb61bc60a5",
+    "source": "Claudius is not wrong.",
+    "source_sha256": "f6bb61bc60a5cc5719d6e3136c4181e2f0389adfa545be75464ac5151b54f714",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1307010"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh_Annoyed}",
+      "line": 18214,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06671-9c343fb35021",
+    "source": "But of all foreign rulers, I think my husband respected Fortinbras and his family as the greatest.",
+    "source_sha256": "9c343fb35021394132e7b1a0628d008f3b845f5553638ab72eca1432aea62064",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1307056"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 18216,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06672-fb8d55794a84",
+    "source": "Is that true, Hamlet?",
+    "source_sha256": "fb8d55794a84dff72b8ef33618c187a333af7c23917aebaaa5f5522908072e14",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1307255"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 18220,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06673-3392718a987b",
+    "source": "Indeed. You always knew my heart best, Gerta.",
+    "source_sha256": "3392718a987b3248f0d9e6d578c1eb18e249ced89da2cb7335a52357a662e57b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "The Ghost",
+      "cues": "{Indeed_Grave}",
+      "line": 18222,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06674-10c95470cd5e",
+    "source": "At the same time...",
+    "source_sha256": "10c95470cd5ec86e04ceec69dd6c2fc485b2175cf57406da3766e56759ab577f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1307405"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 18225,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06675-daabc9c0aee6",
+    "source": "I am certainly not proud to lose everything I spent my life fighting for.",
+    "source_sha256": "daabc9c0aee6d4d6b791974909f42893859dc5156a2665e28ab91fe448cbd122",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "The Ghost",
+      "cues": "{Heavy_Sigh}",
+      "line": 18228,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06676-ffdd9be2eb8a",
+    "source": "I wish my son were strong enough to stand and fight.",
+    "source_sha256": "ffdd9be2eb8af8ca47f9f77fb901765c860d52441782bdfdf47a4cc3d5971a53",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 18232,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06677-e7558667ba15",
+    "source": "As do I, Father.",
+    "source_sha256": "e7558667ba15fd12b4ec7f1d93533d0647bfe43461d91778b985f65ec8c8bc9e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1307728"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Hamlet",
+      "cues": "[sad] {Yes_Sad}",
+      "line": 18239,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06678-59ae3812eeb4",
+    "source": "I fear I shall think of that every morning until you and I can discuss it at length in Heaven one day.",
+    "source_sha256": "59ae3812eeb4e23a942fa468e9cf383c1e8cf07ee6d752c4c1e2f43eb12781cc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1307762"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Hamlet",
+      "cues": "[sad]",
+      "line": 18243,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06679-3a393c69abe4",
+    "source": "We mustn't be too hard on Hamlet.",
+    "source_sha256": "3a393c69abe45d856642d70a1cf21f24de8e8020d374e6d0d250c03bc2c0a67b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1307969"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Disgust}",
+      "line": 18250,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06680-c65e0c002f4b",
+    "source": "A war with Fortinbras would have cost more than any of us know.",
+    "source_sha256": "c65e0c002f4b95124b810f1d35d3e8ca6d36294cc9785e90f2c2b1d7ae97be09",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1308037"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18252,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06681-ca61656ec2b5",
+    "source": "I cannot say whether we would have won. But the destruction would have been... extensive.",
+    "source_sha256": "ca61656ec2b51c2bcb87bba099680de6bfa1d1d7bf72aad786c16660db130c2d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1308165"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18253,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06682-70457f785e7a",
+    "source": "Many would have died to keep Denmark as Denmark.",
+    "source_sha256": "70457f785e7aa39e257e24b13c4107c97e8cfd7f07822d485e271c4bbbd85ce3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1308346"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18254,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06683-a1c4165f8048",
+    "source": "Ophelia, you're trading away a nation to keep people alive.",
+    "source_sha256": "a1c4165f80485690cf4e5bb76d9b46e61299af8c3928ee140acada8f35404cf2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1308444"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Ophelia_Sad}",
+      "line": 18257,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06684-78123d0a677b",
+    "source": "My father would not have made that trade. Claudius would not. Neither would King Hamlet.",
+    "source_sha256": "78123d0a677bd7880f7bb9e5657c8be7647a588a82f91072645e17c7262aebca",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1308564"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18259,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06685-b1c3423f8dc1",
+    "source": "...Nor, truthfully, can I claim that <i>I</i> would, either.",
+    "source_sha256": "b1c3423f8dc1611a2988d7a299841192cd105f84c9e47dc4ae8dad0c5d18ae8a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1308743"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18260,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06686-a0571b03f2c5",
+    "source": "But you aren't like any of us. That's why you were able to keep all of us alive.",
+    "source_sha256": "a0571b03f2c50e81ce7a558707feebeaee69864c84934e07ab88055469548a44",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1308865"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 18264,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06687-5d8095d55c29",
+    "source": "Just be careful. Be careful what you're willing to give up. Know that it cannot be recovered.",
+    "source_sha256": "5d8095d55c29fb868e8cce975b637dfbd4da43b2aa813cd523a2bf328f2b8568",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1309028"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "END_CurtainCall_FortinbrasRules",
+      "speaker": "Bernardo",
+      "cues": "{Please_Sad}",
+      "line": 18266,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06688-ea47fe7678cf",
+    "source": "Ah. You're here. Come. Have a seat.",
+    "source_sha256": "ea47fe7678cf5c0fc0a50023a3ac50433551789e0b799635e642c0e6af033912",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1620934"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "[happy] {Ahh}",
+      "line": 18281,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06689-0e80d055d2b4",
+    "source": "What're you having?",
+    "source_sha256": "0e80d055d2b4739591c3b2b6ee54e9e7a5ed176ab23f16aa223b60c60cce7917",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621006"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Othello",
+      "cues": "{Hmm}",
+      "line": 18284,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06690-d3accac8044b",
+    "source": "No wine tonight. I think this calls for some of that <i>aqua vitae</i> you keep in the back.",
+    "source_sha256": "d3accac8044b80d8d73cb3118d8f9d3c7e98f2fc6ae30183d91694c82ab9715e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621046"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 18286,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06691-b89f585892ee",
+    "source": "I didn't come here to drink.",
+    "source_sha256": "b89f585892eeedf89366322f34ed04976ead569f13c014205f3bc3e047e91258",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621297"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Bernardo",
+      "cues": "{Disgust_Short}",
+      "line": 18293,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06692-d83b1a1489f8",
+    "source": "Of course you did. You just don't know it yet. Once more: Have a seat.",
+    "source_sha256": "d83b1a1489f87988987f39bf1e6b99946bf22cde09eac802c765975c61eb1a04",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621355"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "{Chuckle_Unsure}",
+      "line": 18295,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06693-e83a2a247ad7",
+    "source": "I think you already suspect what this is about, don't you?",
+    "source_sha256": "e83a2a247ad7972a8b36df0f1d295c558d0f150123b4c33595592eb18424237f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621498"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "{Bernardo_Quiet}",
+      "line": 18308,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06694-f59f4a87c279",
+    "source": "I spend quite a lot of time in town. And I've seen <i>you</i> around quite often, too.",
+    "source_sha256": "f59f4a87c2796cf4870f9d105eeb0cbb18b3fc396629fc8477ea68b2b1607500",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621616"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18310,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06695-082a373c25e3",
+    "source": "I... I don't know why I came.",
+    "source_sha256": "082a373c25e312d506aca7a0a2449f47ffd4b229170d00bb9ffe86f4b312c0de",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621791"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Bernardo",
+      "cues": "{Sigh_Intense}",
+      "line": 18312,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06696-e3a6ce77a76c",
+    "source": "You should thank Ophelia for getting us together. It was her doing.",
+    "source_sha256": "e3a6ce77a76cdec01a99f3b4d64721377854d89abf2c21f0401d56d1ea9b0981",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621851"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 18314,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06697-01c27a152d8b",
+    "source": "I've seen your performances, you know. Several times. You have talent.",
+    "source_sha256": "01c27a152d8b1b83d931009dd1f7b06ba58e144980fc52fe71f1e446aa81519a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1621988"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18316,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06698-fdc08b985a1b",
+    "source": "There are times when player and part align, and the human being onstage truly <i>becomes</i> their character...",
+    "source_sha256": "fdc08b985a1ba4503bdc960a4b6678a67d04839ad75f38937600324b5cb306e6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1622131"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18318,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06699-8ff08db1bc90",
+    "source": "When the performer leaves the stage, it's impossible for me to see them as anything other than the person they played. It is the ultimate resonance.",
+    "source_sha256": "8ff08db1bc905d4ae072ff27fd79b83aa493bbd8e22cae82fa6be89bce63e6a6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1622356"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18319,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06700-b47177d2c27b",
+    "source": "So I shall leave it to you to tell me. What part of your heart is Bernardo, and what part of you is someone else?",
+    "source_sha256": "b47177d2c27b878f09a1b6398d33946500f67d34efb6fce79d046c573326aa82",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1622655"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18322,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06701-56d66de650c2",
+    "source": "How can you ask me that?",
+    "source_sha256": "56d66de650c269e6304e0625b93559ad15f707f734028dfd2d182ea2dbfd5ad2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1622912"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Disgust}",
+      "line": 18325,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06702-26f42507880a",
+    "source": "I cannot know that.",
+    "source_sha256": "26f42507880a456b9bbfcfe650932c235f6e8693c0da44ac6c2768e9b750c49b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1622962"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 18327,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06703-af15b858d80d",
+    "source": "I think you do.",
+    "source_sha256": "af15b858d80dfdd6f8555afae757e2803ccc519abe7523b010ca96fd59472bc4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1623002"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18329,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06704-d790311da3c3",
+    "source": "And I think you're afraid, because you know the answer will change your world greatly.",
+    "source_sha256": "d790311da3c3a8f417a031f3fc376f1d7d639d7abbd5e66dcc717b50be774d76",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1623034"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18331,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06705-0e3b214b9c2d",
+    "source": "Let me tell you a story, my friend, whomever you are.",
+    "source_sha256": "0e3b214b9c2dd65597fe44e8e64874bda1937f195204d2977193b00749ebf912",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1623209"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "{Hmm}",
+      "line": 18334,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06706-901abe5ca208",
+    "source": "I was raised in Italy. When my father passed, I made my way to Florence seeking work.",
+    "source_sha256": "901abe5ca208f00a4c93edeb35d56039057429ffb02206946ecc22dce2786f63",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1623317"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18335,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06707-c0159ab4d7a3",
+    "source": "There, I found a world of creation. Every small building held an artist's workshop, it seemed. Every street was full of music.",
+    "source_sha256": "c0159ab4d7a3574098710f44e3554ddafa4e8a42ad107e7aabc2bc3406d9f850",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1623490"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18340,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06708-7a89b8c7e3be",
+    "source": "I stumbled into one of these workshops once, and became an assistant to a great artist. He painted human beings as I'd never seen them.",
+    "source_sha256": "7a89b8c7e3be7a7f46e3e22226e07cd6a72438e7e36661192314144c94325ec3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1623745"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18341,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06709-ba2ab20db632",
+    "source": "I learned that human bodies were—not dirty and sinful, as my father once had me believe, but full of light. Beautiful and wondrous.",
+    "source_sha256": "ba2ab20db6320c804c80ff1b83f9f0ae32802e0a88e8b45fd6c034c7f9500a0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1624018"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18342,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06710-f2e5fa907ad7",
+    "source": "And there... I learned about what the French call the 'Italian vice.'",
+    "source_sha256": "f2e5fa907ad7bd5b62bc4fb36a930468ceea9d91da1be95c7531aaf8a1c65e07",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1624283"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18346,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06711-1a24aec6c948",
+    "source": "I fell in love with my master, and he with me. He taught me that love-making, like painting, is an art form unto itself.",
+    "source_sha256": "1a24aec6c9484d421a98367baff6309f00ef338be5adf06061e6fb5f5fb72799",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1624424"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18347,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06712-a01040c4dc60",
+    "source": "In Florence, love between men is common. The Germans call a man like me <i>Florenzer.</i> I never thought it strange.",
+    "source_sha256": "a01040c4dc60eac5bab6b7d04d09d7c96fad2fbbf90c4a42aa65d81b12d68b2d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1624667"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18353,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06713-0a50b2b8fc45",
+    "source": "It was only upon coming here, to Denmark, that I realized the rest of the world treats these matters as sinful.",
+    "source_sha256": "0a50b2b8fc459fec30246e8479bb665120d499e12010f7673fc408e0960dce2c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1624904"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18354,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06714-5ac064f68e14",
+    "source": "An... entire <i>city</i> of sodomites? Surely God will smite Florence for such wickedness.",
+    "source_sha256": "5ac064f68e1428c36e7d587ddbc3fe8ac9012dadbc7a73fe2a784077788a52ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1625129"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Bernardo",
+      "cues": "[surprise] {Gasp}",
+      "line": 18359,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06715-87e854426b0e",
+    "source": "Ah. You see, that's the curious thing.",
+    "source_sha256": "87e854426b0e3ab8a1b9e6cad9e8667c6ee336b79808fc55fcc6ab94751b3d7e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1625312"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "{Sigh_Relief}",
+      "line": 18363,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06716-51dd18b4c5f8",
+    "source": "Upon leaving Florence, I felt compelled to travel to see that little chapel Michelangelo painted. I'd heard it was rather a nice work of his.",
+    "source_sha256": "51dd18b4c5f8cc69e36c22a2c612235a3874a76ccfe4fa825f0b8a11fdba4487",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1625390"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18364,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06717-bf78cb6ac4b3",
+    "source": "Looking up into the face of the Christian God, reaching out to touch Man... I realized.",
+    "source_sha256": "bf78cb6ac4b37e62fd117d138d89bf551ca6e9ec8333a93594330e53951fd005",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1625675"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18366,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06718-76acbea68116",
+    "source": "Your God is pure, infinite love. A love for humankind which surpasses even the stars. How could he ever hate his own creation?",
+    "source_sha256": "76acbea681166bfac6b1069830eada684c943010c82b72c1baf1fd32e010ef60",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1625852"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18368,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06719-23cb47a51c99",
+    "source": "How could a being of such magnificence ever turn upon the thing he had created in his own image?",
+    "source_sha256": "23cb47a51c9973c64507a073fdfb376435118c6dd17debbd1b678d06f45e616b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1626107"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18370,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06720-c77fcee045f3",
+    "source": "So when you came to Elsinore, you hid your preference for men.",
+    "source_sha256": "c77fcee045f310fd5393748e86eddc4c2c54b9cadabd6d6f97e868ed9cc62c43",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1626302"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Bernardo",
+      "cues": "[sad] {I_See_Sad}",
+      "line": 18375,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06721-1c043faba63a",
+    "source": "I did. For my own safety. It was simple: There is only one Dane worth loving at the moment, and he is thoroughly unavailable to me.",
+    "source_sha256": "1c043faba63a7d8d414d0f77df026c60f13fe8f0b479da56cedee19ca0480ae5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1626428"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18379,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06722-00968dc0283f",
+    "source": "You mustn't think of it like some sad, one-sided, pining-away sort of thing, though. I love him in a number of ways.",
+    "source_sha256": "00968dc0283f9f953bcd1df4708798a16462072d5622ebf701a38d73a760f23b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1626693"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18384,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06723-93a099714bb8",
+    "source": "Above all, he is my dearest, truest friend-- though he might be going through the darkest time of his life right now.",
+    "source_sha256": "93a099714bb87ee8809a0bdfc3f3fc499281d0ebf56b8b317914ff3405cae963",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18385,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06724-8bd30096baa1",
+    "source": "I wanted to see his grief through to its sticking place. I'll leave Elsinore and return to Italy very soon, I expect.",
+    "source_sha256": "8bd30096baa1aed5d4c8558a40b8289615ddb71769dfd08fb2d153b85ba8e281",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1627161"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18387,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  },
+  {
+    "id": "p06725-9cd5b8461314",
+    "source": "I did. For my own safety. It was simple: There was only ever one Dane worth loving at the moment, and he was thoroughly unavailable to me.",
+    "source_sha256": "9cd5b8461314c8a226bf46de8bf8def81c866ac340e47ac2a14a45b5418f1008",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1627398"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BernardoHoratioMeet",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 18389,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0048"
+  }
+]

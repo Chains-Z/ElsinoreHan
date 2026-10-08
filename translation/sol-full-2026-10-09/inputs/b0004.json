@@ -1,0 +1,761 @@
+[
+  {
+    "id": "p00047-93952dbcb686",
+    "source": "Irma is one of the most feared women in Elsinore for her quick temper. She's fiercely devoted to the Queen, and originally followed Gertrude from Bohemia, where she and Gertrude were both born and raised.\n\nDespite her teeth, I've seen that she has a warm side. She loves to gamble, and she's quite good; I wouldn't make a bet against her for all the world.",
+    "source_sha256": "93952dbcb6863baa44697ca700199a5da29eef187590dd2571284d17f7d36d9f",
+    "origins": [
+      "resources.assets:bios:49975131f1e0:text",
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00048-c70470565292",
+    "source": "Marcellus",
+    "source_sha256": "c70470565292f525b3cf1332dcc5a78bd02274e7ece610470a3eb5deff2390fc",
+    "origins": [
+      "resources.assets:bios:49975131f1e0:slug",
+      "resources.assets:bios:7719667ee314:slug",
+      "resources.assets:bios:53db25df9eed:slug",
+      "resources.assets:name_mapping:a1a07bddc7b7",
+      "Assembly-CSharp.dll:#US:14145"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00049-d2ea89ac0510",
+    "source": "Marcellus has faithfully served Elsinore castle for several generations of royalty, and is a passionate advocate of the throne.\n\nHe's likely the oldest living man within its walls—he can be a little foggy at times, but years of practice with the sword have rendered him more capable than he seems.",
+    "source_sha256": "d2ea89ac05105c6fa54c65a6589f38554ac81642736f3801e165cc7f6b136b8b",
+    "origins": [
+      "resources.assets:bios:49975131f1e0:text",
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00050-996c8f694aeb",
+    "source": "The Hand of Dionysus",
+    "source_sha256": "996c8f694aeb80f511f21f9fbf451a61ce2b4cb5883f4e000a4c0de9471d0fef",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:slug"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00051-4939e5f3905c",
+    "source": "King Hamlet believes that if he had found a book - the Hand of Dionysus - he could have found a way to put an end to his plight. If this book exists, and is the source of this castle's curse, surely someone has to know something about it.",
+    "source_sha256": "4939e5f3905c19df6608100a4035eeb42f9a331cf58520602b6489cd83495ec2",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00052-53b3034bfb7d",
+    "source": "It seems clear this is the same book Quince had stolen from him long ago. If I can find it, then Quince might be able to offer some guidance on what to do with it next.",
+    "source_sha256": "53b3034bfb7df0d8a96659d1ab6a67af824734d90107f1e6d5e338fd9f64060a",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00053-faed11af299c",
+    "source": "Lady Simona was last seen with the Book of Fates, and I know something King Hamlet did not: She's still alive. I can find her. Someone who sees a great deal of people on a daily basis might know...",
+    "source_sha256": "faed11af299cb966245e118093f8b5c01613ef96e1fd9fc21990dce07df8415a",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00054-5a73618999ca",
+    "source": "Othello says Simona has been living in Castle Town all along - her identity hidden, I suppose, but it's easier if no one even suspects they ought to be looking for you. She'll return to the bar on Sunday afternoon.",
+    "source_sha256": "5a73618999ca0fc6922e3dcb5bf5a314d01d94a5174559745ca38baf77a56943",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00055-77bd7de4ee30",
+    "source": "Othello told me Simona returns to castle town Sunday, but Fortinbras's invasion of Castle Town begins before I have a chance to meet her. How can I push back the invasion's onslaught? Surely there must be a way.",
+    "source_sha256": "77bd7de4ee30fb38501dff2af4e2d17a3ed3d04dac124f4df2f33b405e230f45",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00056-5bbf76b75a35",
+    "source": "I... found it. I possess the Book of Fates. So many pieces had to be moved in order for me to find it, but it now sits on my table. The book itself does not provide one exit, but many - and it seems Quince is far from who I thought he was.",
+    "source_sha256": "5bbf76b75a3520dc4521a8c94ae954f688df2a6408379309f599d4fc0d5283a3",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00057-ef4d51b56b3a",
+    "source": "Prince Fortinbras's Threat",
+    "source_sha256": "ef4d51b56b3a0684f4ea62cdcf521f440caa02234e98863f61e554fabbe3ed34",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:slug"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00058-1b4a8e44bc9b",
+    "source": "Fortinbras' offer of peace was a ruse. Elsinore comes to a violent end when he and his men storm the castle. But now that I know this is coming, surely there must be something I can do?",
+    "source_sha256": "1b4a8e44bc9b804f61ad62a09612f0a02897220959411158ff1282629c707617",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00059-3007e5cf0a0d",
+    "source": "Apparently Bernardo and Father have been convinced that Fortinbras posed a threat for months, but the King has been reluctant to act. They need more compelling evidence - some source close to Norway that could give me information.",
+    "source_sha256": "3007e5cf0a0d59d585d3099fdc64b79febbb82dcc1a69dd579a1c36a8e255614",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00060-1a322ac51c5b",
+    "source": "With the help of Lady Brit, of all people, I was able to spy on Fortinbras in town and get the information I needed. I now know where in town the Prince is hiding. Perhaps Father or Bernardo could do something with this.",
+    "source_sha256": "1a322ac51c5b5df2a24d3da95af8eeb2b78c0e7815bbe2bcd0dc6fe487412bfc",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00061-a8eef1b22b65",
+    "source": "Fortinbras is in prison! If I give the War Council the information, Bernardo is able to find him and overwhelm him in town. As long as Norway's prince is in our hands, they won't dare mobilize against us. Could this actually work?",
+    "source_sha256": "a8eef1b22b65c82600bd0eeb854522bac7b1e518b3b19a9acf6b0068f98e6490",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00062-ddad03df1ac1",
+    "source": "We almost had him! It seems if we suffer any losses, Fortinbras is able to take advantage of our internal disarray and escape. The invasion will still be delayed, but to stop it entirely... well, I'll simply need to keep everyone alive. Sounds deceptively straightforward.",
+    "source_sha256": "ddad03df1ac1227dc1ed0e9e5916d471bd0b4fb749ac5f5f3b049abf37b95fcb",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00063-8e07404fb960",
+    "source": "I've... actually done it. The invasion has been held off, and everyone close to me survived! But it seems this is not a clean victory. The coming battles will drain on us and our nation. Is that worth it, to keep all my friends and family alive?",
+    "source_sha256": "8e07404fb960781d91128ee020b3168c58a81004ec135445359117ed55c4e49a",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00064-e56fcd9078b4",
+    "source": "The Melancholy of Lady Brit",
+    "source_sha256": "e56fcd9078b4f4bae8478bce4220297fe800c6ddb808e14af349f608508850ba",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:slug"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00065-c57d1a1ff3c9",
+    "source": "Brit has never been warm to me, but these days she seems especially down. I wonder if anyone has any ideas as to how I could reach her.",
+    "source_sha256": "c57d1a1ff3c9a888a5204185ba010a92e73878eb69de5fe0c34aac6fedc3dffb",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00066-6c79d4eb03e2",
+    "source": "When I saw Brit and Laertes meet, she told him something interesting: she's been divested of her artist's tools, and hasn't received a single letter from her mother. My brother proposed Horatio could help with the former, and Her Majesty with the latter.",
+    "source_sha256": "6c79d4eb03e24c889a104086655fae9d5027f366e4ea01f30a0865c4724f207a",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00067-aaa0d6b87deb",
+    "source": "Horatio offered to help make new paints together in order to replace the ones that Brit used to have. Apparently he needs three components: charcoal, eggs, and linen. Pretty sure I can get some linen from my drawers, but I'll have to find a source for the other two.",
+    "source_sha256": "aaa0d6b87deb5d1687763928546519e0448b2a0d9b4f80b4fa4fc0d39deb03e1",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00068-239f49aaec0d",
+    "source": "I can get charcoal from a fireplace, eggs from Irma's kitchen, and linen from my own dresser. With them, Horatio is able to make Brit a new set of paints!",
+    "source_sha256": "239f49aaec0d2b5d70bd0d3f6e703708655ffc55c46f695c0674716fa17ab7ee",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00069-c1bf82b18e88",
+    "source": "I can tell Laertes about Brit's situation, and he will agree to stay behind and check in on her. Hopefully, that meeting will go well.",
+    "source_sha256": "c1bf82b18e88b7af15bc0b398d917dad9aa772e679d7f2d26de38de3e2f44d10",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00070-b2fe44d7ec37",
+    "source": "Gertrude has been encouraging Brit to focus on her duties in the Castle, to the extent that she's been hiding letters from Brit's mother! She said something about 'where unheard wishes go.' What could that mean?",
+    "source_sha256": "b2fe44d7ec37daecb062f02a86816b72d654bc36b7baccf7e74fd67358b0d926",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00071-b1ee3d5cfb15",
+    "source": "Gertrude hid letters from Brit's mother in the well in the grounds. Needless to say, Brit was not happy with them having been kept from her when I delivered them.",
+    "source_sha256": "b1ee3d5cfb15878e0d9f8a03e352963aa7c22fb99b6549bdfe6a2165d06a5a29",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00072-7f37ba3c23b3",
+    "source": "Unfortunately, it seems doing just one thing won't be enough to get Brit to open up to me. I'll have to figure out a couple different things to do.",
+    "source_sha256": "7f37ba3c23b34739bd849802620d1d25a9031b89bd5a0a2db23dbb012c2d098f",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00073-efafe2bcdc7b",
+    "source": "I've succeeded. I had to perform a couple little acts of service, but I can sense that I'm getting to her. She said she plans head to the Castle Town bar, if I can catch her there, perhaps after we'll finally be able to talk.",
+    "source_sha256": "efafe2bcdc7b1e22f5b12af8b169dfb14689bf4c9df97e26d8096502eaff3cbe",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00074-3a38958488e7",
+    "source": "Lost Notes, Now Ash",
+    "source_sha256": "3a38958488e7523c3fc6c4626412ceb3f4f2dbc255b900d14018ef776ca1c203",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:slug"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00075-81b12d145594",
+    "source": "I saw Father burning some notes late at night in his room. What is he trying to hide?",
+    "source_sha256": "81b12d1455946f84eb047209d081fc38fa4c477d64718f2c3dfac97c7fbebc61",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00076-30c3c09bf291",
+    "source": "I've learned that by telling others about the burned documents, Father will be imprisoned, but I'm still no closer to learning about what those notes contain. I wonder if there's <b>something I'm missing</b> which might help me here.",
+    "source_sha256": "30c3c09bf2917b88e330b5e7847471f2bfeeb6b951df4c3fd74f62fc725aee00",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00077-a66c73a7abea",
+    "source": "I met King Hamlet's ghost. King Hamlet's memories are fragmented, but he did give me a lead. My father is in possession of some notes, the King's last words, which contain some crucial but important knowledge. And although my father believes he must destroy them, the ghost claims he's wrong. Now that I know for certain that they were written by King Hamlet, that changes things.",
+    "source_sha256": "a66c73a7abeae77d5741ab080f8c48ad8cb248a7d291026b242910d8c80d1d1a",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00078-d2501976aed8",
+    "source": "The spirit says my father is in posession of his notes, and it's clear that these are the same notes my father will burn Thursday evening in his chambers. I have to find a way to stop them from being destroyed.",
+    "source_sha256": "d2501976aed878b1468666cefac50fdefb28bb428c1067922b3f67f0844cfa5b",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00079-664ba703faca",
+    "source": "I had to do something truly monstrous in order to get my hands on the King's notes... but I found them nonetheless. Father will be safe and well in the next world. It doesn't make what happened right, but I know now his death is but a passing trial. Now all that's left is to speak to the ghost.",
+    "source_sha256": "664ba703facab5daa941081987297ef5ac951b6e7cba39c86e7139a9e06f0f43",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00080-5b288caab250",
+    "source": "A Missing Lute",
+    "source_sha256": "5b288caab2505631e684ad3dbfbcdeeca772a9603b9e2b237c13f59d6dbe30e6",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:slug",
+      "resources.assets:information:988217b4da7c:name"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00081-bd6b661f28b1",
+    "source": "I found a note from my brother discussing a lute he believes was stolen. He thinks Hamlet made off with it. Laertes and Hamlet have always had a contentious relationship, to say the least. I wonder if I can help resolve this situation.",
+    "source_sha256": "bd6b661f28b174b91a401a55050a32bf52bedf19ed44c94162ec1e2b5f884c46",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00082-3bc18720c7ce",
+    "source": "As soon as Hamlet and Bernardo had a chance to meet, they quickly realized that the lute was lost, not stolen. They expect to spend some time over the next few days on a wild chase 'round the castle to find it.",
+    "source_sha256": "3bc18720c7ce7de15317afa6b8b076c45a8549c624cd1e16e729e969bdba97df",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00083-bb4306337f8a",
+    "source": "They found the lute. I suppose I didn't realize how far Bernardo and Hamlet had drifted apart over the years, and how bad things had gotten between Hamlet and my brother. All this time, it seemed natural to assume we were no less close than we'd always been, but time changes things. I wonder if it's too late for Hamlet and my brother to make amends. If Laertes and Hamlet could only meet, I know something good might finally come of it.",
+    "source_sha256": "bb4306337f8ab720a68278eafdf77c6e412d965d2620bbf53d1362282e16bd74",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00084-2738d6e142a1",
+    "source": "Hamlet returned the found lute to Laertes. At first, Laertes was furious, but I think the conversation was many years in its formation. It seemed to be cathartic, in a way; they understand one another better now, at least. Perhaps I can leverage this to help them keep the peace in the future.",
+    "source_sha256": "2738d6e142a1a03f100589779624b32babba0c7a53a713de0e1673f046011cbc",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00085-c4406b19edd8",
+    "source": "Guildenstern is Dead",
+    "source_sha256": "c4406b19edd8c5a9d49575a1060e0e9e262c477fc601539a20b5efa4f70a7d20",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:slug"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00086-8ba7dff5b407",
+    "source": "Somehow Lady Guildenstern's gotten the idea that she could pretend to be dead, and she finds it rather funny. So funny, in fact, that she's asked me to tell everyone she really <i>is</i> dead. This can't end well.",
+    "source_sha256": "8ba7dff5b4079e56efb3f715e776adcaf3782980577a0ed99a755715e59fde46",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00087-9be71b3bc6f0",
+    "source": "Rosencrantz, obviously heartbroken, planned Guilda's funeral as expected. At the very end, Guilda popped out and was... unpleasantly surprised at the lack of attendance. She's now decided that 'nothing matters' and 'we're all unimportant in the scheme of the universe' and other related nonsense. She's decided to plan a party for all of the other 'unimportant' folks in the castle and I'm invited. Insulting, yes, but I <i>do</i> like a good party.",
+    "source_sha256": "9be71b3bc6f076be83bb616b0f719fd630c7fe8dc1bca674b8cc3c850a2c2ac2",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00088-79a9d886c118",
+    "source": "I attended Guilda's little party, and at the end of it, I realized something horrible: She's going to die in earnest aboard that ship. They both are. And <i>I</i> have the power to save them. I can get on board and ensure Guilda lives. But first, I need to make sure I'm present when Hamlet and company sail for England on Saturday morning.",
+    "source_sha256": "79a9d886c1184ea7b4487237ff1d087835e0121413339e6ba2992c174b67539d",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00089-6b48ccef1a70",
+    "source": "Guilda invited me to meet her on the foredeck. I wonder what she wants to discuss? Meanwhile, I need to find a way to avert this impending crisis.",
+    "source_sha256": "6b48ccef1a70952d366f94faa0eedaa8ad0acc2c8e9dddbd9bfaa8e6920c97ff",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00090-63d358ed0d23",
+    "source": "I met Guilda on the deck, and there was a... moment, of sorts. I wonder, if we had more time together...",
+    "source_sha256": "63d358ed0d2395a5beab23f482a68c8efebbcd613a98400deb494d76e8f3ef1b",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00091-a1bec33f0c4c",
+    "source": "I met Guilda on the deck, and she called me her 'good friend' for the first time. She might be the first true friend I've made in Elsinore recently.",
+    "source_sha256": "a1bec33f0c4cbfbba19a3237d10954bffc005d5336ae73cf9187275b3a67eb8f",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00092-4299db7836bf",
+    "source": "Guilda invited me to leave the castle with her and Rosencrantz forever. They want to gallivant around the countryside, selfishly forgetting and foregoing everything but their own worldly pleasure. Could I be happy, living such a life?",
+    "source_sha256": "4299db7836bfa19605b1afbe303cb267908a16ece7a4c582d2f55ce04125a222",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00093-863f082ed639",
+    "source": "The Spirit",
+    "source_sha256": "863f082ed63947e49dea1226065a248189709a6f0bf7d2a1be1e46a14eda9d71",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:slug"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00094-08da3dc75c60",
+    "source": "Hamlet and others have seen a spirit of King Hamlet haunting the castle. This is how he learned of Claudius's deeds. If the ghost is indeed real, maybe there is a way for me to meet it. Surely Hamlet knows something.",
+    "source_sha256": "08da3dc75c606fc5696edebc753f450cdce205ab611f32223740d5593e93ce83",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00095-9b86c48adfdd",
+    "source": "Hamlet is tight-lipped on the spirit - he needs to be sure he can trust me. He's asked me to get information from a diary his mother keeps in her room. Well, if it's what must be done, then so be it.",
+    "source_sha256": "9b86c48adfdd0e802b951d6e04d447c9e5afd5e8a21c57718561525b28502799",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  },
+  {
+    "id": "p00096-898dd26b1680",
+    "source": "I've obtained proof that Gertrude and Claudius's affair started before King Hamlet's death. If I let Hamlet know what I found, I'm certain he'll do something rash. But if that's what it takes to understand what's happening, perhaps it's wiser for me to follow this to its conclusion, no matter what.",
+    "source_sha256": "898dd26b1680aa39fe20556c3497f1550e2ce521b1ae762a6e3ca1ad9c47b94c",
+    "origins": [
+      "resources.assets:leads:02ff7434079c:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0004"
+  }
+]

@@ -1,0 +1,102 @@
+{
+  "passed": true,
+  "checked_at_utc": "2026-10-08T20:36:50.517233+00:00",
+  "translation_count": 16228,
+  "batches": 112,
+  "actual_xunity_dictionary_parser": {
+    "passed": true,
+    "count": 16228
+  },
+  "actual_xunity_splitter_and_parser_consumer": {
+    "passed": true,
+    "count": 15
+  },
+  "frozen_runtime_cache_cases": {
+    "passed": true,
+    "count": 21,
+    "long_sources_characters": [
+      5651,
+      4236
+    ]
+  },
+  "regressions": {
+    "translation_export": 12,
+    "probe": 9,
+    "build_reuse_hash": true
+  },
+  "game_background_run_id": "1deecf21320749f58415544358165ae2",
+  "game_ui_assertions": {
+    "menu_labels_all_translated": true,
+    "menu_labels_no_overflow": true,
+    "menu_no_original_labels": true,
+    "chinese_glyphs_available": true,
+    "settings_pointer_navigation_logged": true,
+    "settings_page_opened": true,
+    "settings_visible_texts_no_overflow": true,
+    "full_translation_chinese_glyphs_available": true,
+    "frozen_long_dialogue_dynamic_cache_cases": true,
+    "save_write_guard_active": true,
+    "toggle_original_menu": true,
+    "toggle_restored_menu": true,
+    "toggle_release_no_change": true
+  },
+  "original_save_files_unchanged_during_final_run": true,
+  "original_game_files": [
+    {
+      "path": "Elsinore.exe",
+      "passed": true
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "passed": true
+    },
+    {
+      "path": "Elsinore_Data\\resources.assets",
+      "passed": true
+    },
+    {
+      "path": "Elsinore_Data\\Managed\\Assembly-CSharp.dll",
+      "passed": true
+    }
+  ],
+  "installed_files": [
+    {
+      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
+      "passed": true,
+      "runtime_sha256": "f4015d5e02d3561db448fac48ffd768234212da872491cb2ec58f05185abe3d8"
+    },
+    {
+      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt",
+      "passed": true,
+      "runtime_sha256": "457177de11c7934501813297f64f4441bd58c51533d49f79de0c1a5daa73b49c"
+    },
+    {
+      "path": "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll",
+      "passed": true,
+      "runtime_sha256": "1379fe6dff27c7588c72120a2cd6f4845444a973030285a4c0ffd1e2a7cc03cf"
+    },
+    {
+      "path": "BepInEx/config/AutoTranslatorConfig.ini",
+      "passed": true,
+      "runtime_sha256": "2ecb503a52d552a9ece1276d88b643a71d9f0149d299c9e8e8c99303e135500b",
+      "note": "插件启动仅给配置添加UTF-8 BOM，正文逐字节不变"
+    }
+  ],
+  "online_endpoints_empty": true,
+  "temporary_probe_and_appid_removed": true,
+  "archive": {
+    "path": "runtime\\package\\ElsinoreHan-Sol.zip",
+    "sha256": "eadb8a803a2c03d99406d0696b31ec30f0c1bf3c07e88b1386f83a8de4fe9e5c",
+    "bytes": 29168793,
+    "files": 37,
+    "files_match_package": true,
+    "translation_and_toggle_match_install": true,
+    "no_key_or_probe_files": true
+  },
+  "earlier_save_write_incident": "docs/dev-tasks/localization/save-write-incident.md",
+  "limits": [
+    "后台集成与真实离线缓存验证，不是全剧情游玩或物理键盘注入E2E",
+    "此前一次诊断确实写回原存档，修复前进度差异未知；后续均隔离",
+    "全分支意义、图片文字及对白/资料像素排版未逐项验收"
+  ]
+}

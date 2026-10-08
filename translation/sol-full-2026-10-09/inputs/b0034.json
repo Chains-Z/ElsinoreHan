@@ -1,0 +1,3176 @@
+[
+  {
+    "id": "p04285-264423642ad4",
+    "source": "As I brought everyone together for the announcement this morning, one of my men reported back from Fortinbras's cell.",
+    "source_sha256": "264423642ad461e1c4f2943486ed57c390609aeaf232194093acfecec3c10be3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038463"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10870,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04286-62157148d6a2",
+    "source": "The Prince has escaped.",
+    "source_sha256": "62157148d6a23974469096770c975b183fd612c654b9f1258cc5e6ad6b2f1a1b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038722"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Fortinbras_Sad}",
+      "line": 10879,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04287-fb859dad5e0e",
+    "source": "Lady Birgitta is missing as well.",
+    "source_sha256": "fb859dad5e0eee226b3b69d1e39179a77e74570313b175852d1c4398587afb6d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038770"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 10881,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04288-c55d5df1e583",
+    "source": "(So I witnessed.)",
+    "source_sha256": "c55d5df1e583f7770808ab89dd3d26d764b9dd28947ac14e6d8a5a92f8b7edee",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038838"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 10885,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04289-188c99e1b3b4",
+    "source": "What happened? How could he escape?",
+    "source_sha256": "188c99e1b3b47aa0b3019d5440eeb651eb60a1da6b8b3d22c8b8b30c733bce50",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038874"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "[sad] {What_Sad}",
+      "line": 10887,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04290-0da9b524ac05",
+    "source": "I believe his men watched for any sign of chaos within our ranks to come forth.",
+    "source_sha256": "0da9b524ac0566a41869a6c9f12ca164212d598b83138b43dc4103938a142243",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2038946"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Hmm_Dark}",
+      "line": 10890,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04291-9f80c98c4149",
+    "source": "That moment of congregation was the only moment they needed.",
+    "source_sha256": "9f80c98c4149f0b6d885b9dc39401020cabda395e7694c722bdd2ab20083a9f4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2039107"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10891,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04292-3f17b9e58cc7",
+    "source": "So if someone dies... I see, now.",
+    "source_sha256": "3f17b9e58cc7e88e0a4e6328f37929da6d647df598f8fc3ce69da5c804a6d949",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2039229"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 10893,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04293-002b85300987",
+    "source": "Surely, the Prince's forthcoming assault will be delayed, but—not spurned, as we'd hoped.",
+    "source_sha256": "002b85300987c459668a9182a82960f9a64f54912f8a92db2bc95ed19daccded",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2039297"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10895,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04294-b9a40e55d5c0",
+    "source": "I'm rallying my men now. I'm certain we will still prevail.",
+    "source_sha256": "b9a40e55d5c0e8fe0ca6c77d862d5037afa7dfbbf27fdc86fd38bae9c9ad0100",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2039478"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 10900,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04295-7e9fc14f8bd2",
+    "source": "(I had everything lined up! It seems fixing our external affairs means little, if internal affairs are still bloody.)",
+    "source_sha256": "7e9fc14f8bd28ff5de04973470972c83f873d5d6a079560d05e6a32229664681",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2039598"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 10902,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04296-70be5306d361",
+    "source": "It is truly a detestable situation.",
+    "source_sha256": "70be5306d361a3823aede08c8fb014dbc82e5a5edeaf112c59f1f3fc7ad7ac33",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2039853"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad]",
+      "line": 10916,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04297-762e444bdb91",
+    "source": "(There has to be a way to keep them all alive.)",
+    "source_sha256": "762e444bdb9157d5f52a9a7a27cd640308eb6bf9529cfa8282e8efe63ffb0895",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2039925"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 10921,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04298-0b48d9971a6b",
+    "source": "I'm aware of the situation, Bernardo. Please—do your best.",
+    "source_sha256": "0b48d9971a6b47976c55f0d688d613de4a4b70b527d24213b8717a8a9b20cf60",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2040021"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "{Yes_Sad}",
+      "line": 10924,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04299-2765eaec40c2",
+    "source": "(It won't matter regardless.)",
+    "source_sha256": "2765eaec40c240c563845ea3e0f04d6741f834b2a4c028d9f91b83fd63a5b45f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2040139"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 10925,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04300-052a91202894",
+    "source": "I must inform the others. I'm sorry I could not do more.",
+    "source_sha256": "052a91202894d1be201a658d9e966b4280e6a6936e0063a1df4edf2a59652e09",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2040199"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Bernardo",
+      "cues": "[sad] {Sigh}",
+      "line": 10928,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04301-f734ab2408d1",
+    "source": "(Hopefully, this at least bought me enough time to meet Simona.)",
+    "source_sha256": "f734ab2408d1f10ea0be53fedcfe317a16190f3183eed26d4fa2a4718ce05dfb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:2040313"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_EscapeFollowUp",
+      "speaker": "Ophelia",
+      "cues": "{Now_Then_Tired}",
+      "line": 10932,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04302-e578779df0d6",
+    "source": "Everyone, out of the bar. Immediately.",
+    "source_sha256": "e578779df0d6f595dc99edbf52b9e8f5ba5e52947aeacb67847f06a4a01fd2d5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:864861"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_OpheliaToRansack",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10940,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04303-42ce95fc5f99",
+    "source": "In the name of Norway, submit!",
+    "source_sha256": "42ce95fc5f994bd772a91151bd7f5f96b66b3dff26063a22e3eb6e0c037753d2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1503864"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 10965,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04304-ef093e9756f8",
+    "source": "If you flee, you'll be killed!",
+    "source_sha256": "ef093e9756f832d728a9e5970b999b1f2fcb7e5b3f011710ec85aaceb54d11f7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1503926"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Soldier",
+      "cues": "",
+      "line": 10966,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04305-43ba958a58ae",
+    "source": "It's time. Begin the siege.",
+    "source_sha256": "43ba958a58ae24c7156f0401cf233d2b97cf2be1aad6f5446288345bf088a659",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1503988"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Its_Time}",
+      "line": 10970,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04306-bd0b88ecc952",
+    "source": "And what have we here...?",
+    "source_sha256": "bd0b88ecc95202037012efa05fe5d3e48cd69f7da847e42f537e6a09584060f9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504044"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "{How_Curious}",
+      "line": 10990,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04307-1dfea170e1c4",
+    "source": "Who are you, dressed in fine clothing?",
+    "source_sha256": "1dfea170e1c46366b411dc03a583fbe2d4aec853da3bea9418090deea1dabe6c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504096"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10991,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04308-014fc15228d9",
+    "source": "...Ah. Dark little noblewoman. I've heard of you: Lord Polonius's daughter.",
+    "source_sha256": "014fc15228d9dee37e070fa3821c748ffed3d863068e5b3ca7cfbc47f8ba2df9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504174"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10992,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04309-d4e05c83573e",
+    "source": "Headed up to the castle to tell the King about our siege, it would seem.",
+    "source_sha256": "d4e05c83573ead1e833d71699f57d32ded3a5476c05adb8f8d3b91614aae4f9c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504327"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10993,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04310-fa364b3485a3",
+    "source": "My lady, the old ways are over. Your family means nothing now. The reign of Norway begins today.",
+    "source_sha256": "fa364b3485a3195ebf4785c249b7025316489345e53e1298a6a24d8382b59f89",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 10994,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04311-25cac2ae1e5e",
+    "source": "Submit to me, and there is no need for useless bloodshed. I do not wish your life.",
+    "source_sha256": "25cac2ae1e5ed33df153ba781bc9096ed63de3d14c9a1e8a4aa9aac8d710f186",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504669"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Surrender}",
+      "line": 10995,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04312-acd24dd10b1c",
+    "source": "If you're waiting for fear or deference, I'll show you neither.",
+    "source_sha256": "acd24dd10b1ca334c6f6d99982e1607d616f111b366cd4d12c56acaed27a2203",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504836"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {No_Annoyed}",
+      "line": 10998,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04313-cd273e83d740",
+    "source": "You're attacking my home <i>and</i> my family. If you so eschew violence, what's all this?",
+    "source_sha256": "cd273e83d7409ea3a838ed0c4e8c3fdef120cd10f689c985c82a02a7daf1ebb0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1504964"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 10999,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04314-70207004ebb7",
+    "source": "I did not come here for debate. I came to take action against a tyrant. If you would defend him, so be it. Men, keep her in our custody. Indefinitely.",
+    "source_sha256": "70207004ebb76278b734f0eaf24a9990a3bfb947a8c4271c09523987df5bd7ef",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1505147"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansacking",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Disgust}",
+      "line": 11002,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04315-c4ccf48c0751",
+    "source": "The invasion marches onward.",
+    "source_sha256": "c4ccf48c0751b9d938464bfa702f7f6a186ea80db66540756e7567dbeca93758",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1505450"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04316-d6962ffb44aa",
+    "source": "We're here to rescue our Prince from you louts!",
+    "source_sha256": "d6962ffb44aaea9e30927c24d98fb4ea8fbd7e59c659ecb683e0502dedb8ea4f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516650"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansackingWithoutFortinbras",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 11035,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04317-47dd5b8301e1",
+    "source": "And we won't stop until every wall is rubble.",
+    "source_sha256": "47dd5b8301e14b91152fe9ed7e6d5bbd517ce2396e02825a1eb042b448dc8320",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516746"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansackingWithoutFortinbras",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 11036,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04318-0882839c3d33",
+    "source": "(I can't stay here. If they capture me, they'll use me as ransom.)",
+    "source_sha256": "0882839c3d3364d05eef8e855ff4917ad4c5e09aa54b0c3eaf2a4107109b9715",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516838"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansackingWithoutFortinbras",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 11037,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04319-182d238b73d5",
+    "source": "Fortinbras's capture was an insult to Norway, but now that he's returned, we'll return the action tenfold!",
+    "source_sha256": "182d238b73d544b8b7149edc9ada4b5ab5b25a5f9dd68ecb9f65b10d86c9f7fe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516973"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_TownRansackingWithoutFortinbras",
+      "speaker": "Foreign Soldier",
+      "cues": "",
+      "line": 11039,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04320-751f57b76550",
+    "source": "Men, something unusual has happened today in capturing Prince Fortinbras.",
+    "source_sha256": "751f57b76550a58a4bb9813f33a207a830f87e4b4f7a8adbd3d3a58e8ccaee57",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1505508"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_CallToArms",
+      "speaker": "Bernardo",
+      "cues": "[disgust] {Now_Then_Firm}",
+      "line": 11060,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04321-203da4a89781",
+    "source": "This may <i>seem</i> advantageous to us, but I anticipate it is only an omen of more to come.",
+    "source_sha256": "203da4a89781e88c92550d060da6b9b79004a289081b21dc527d417e4c837d71",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1505657"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_CallToArms",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 11061,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04322-ad45baffad02",
+    "source": "All of you are to be on highest guard over the next few days.",
+    "source_sha256": "ad45baffad02830d2dbe65915e56c776561c62da4f65f3b97cffe848d8369043",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1505846"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_CallToArms",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 11062,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04323-070f10873807",
+    "source": "Any sign of suspicious activity—any outbreaks of violence in town—relay them to me personally.",
+    "source_sha256": "070f10873807b08f74d96c0c364705c1bb49c303605437106ed421fd2059c233",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1505970"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_CallToArms",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 11065,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04324-3599f0624b6b",
+    "source": "Do you all understand?",
+    "source_sha256": "3599f0624b6be80b44f4d41caf853fac9987200053633c35e67da9466c2f0f0c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506161"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_CallToArms",
+      "speaker": "Bernardo",
+      "cues": "[disgust]",
+      "line": 11066,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04325-17bb2dd3a5b5",
+    "source": "A' course, Cap'n.",
+    "source_sha256": "17bb2dd3a5b54cb9c365286f18630a682f6ded09b8ebbb9392840c1b53b51548",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506375"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_CallToArms",
+      "speaker": "Marcellus",
+      "cues": "",
+      "line": 11072,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04326-a543af237371",
+    "source": "Good. Dismissed.",
+    "source_sha256": "a543af237371360dff162d6ab744d5e7a6e72c1ec5e1c67d07f5b6dcd9b99064",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506411"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_CallToArms",
+      "speaker": "Bernardo",
+      "cues": "",
+      "line": 11074,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04327-f2f751b0505e",
+    "source": "Lady Ophelia—please come wiv' me.",
+    "source_sha256": "f2f751b0505e8deb614dfa56a60368aac543369850539e187a1d54959045e115",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506445"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Marcellus",
+      "cues": "{Lady_Ophelia}",
+      "line": 11085,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04328-5dc61a265b95",
+    "source": "The King's requested everyone gather in the Great Hall.",
+    "source_sha256": "5dc61a265b9553c95312ecc43fe21ec2c09d4842b4e9f43100449a1845f520f8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506513"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Marcellus",
+      "cues": "",
+      "line": 11086,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04329-111159447e82",
+    "source": "No need to be alarmed, everyone.",
+    "source_sha256": "111159447e828a48dea4db763d53882380cbc8b6cca7095123b5b50a662cd786",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506655"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "{Ahh_Annoyed}",
+      "line": 11111,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04330-bbae6d681a10",
+    "source": "E-everything's quite under control.",
+    "source_sha256": "bbae6d681a104c2e67d71273c5d9ea6a450407583512a6ede3aba86a6f56a879",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506721"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "[despair]",
+      "line": 11113,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04331-aec8acac9acc",
+    "source": "(He doesn't look confident.)",
+    "source_sha256": "aec8acac9acca95bbc8aa0fc121fbe055995c95263b8acf7854e18875eaf1488",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506793"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 11114,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04332-0e1ecc6b561a",
+    "source": "I've ordered you all here for your own protection.",
+    "source_sha256": "0e1ecc6b561a024508783213d300952f59cf23781e61abaa3c8b0f9343725d60",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506851"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "[sad] {Yes}",
+      "line": 11117,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04333-d9d90e3d2b14",
+    "source": "Right now, all remaining men, including Bernardo, are fortifying our outer walls against Norway's attacks.",
+    "source_sha256": "d9d90e3d2b140bfce0f66322bb8b0aa007e1495287059e95d742d0af700d52cb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1506953"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 11119,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04334-992985b2c89f",
+    "source": "As we have Prince Fortinbras now, they've agreed to a temporary truce. But in all likelihood, it shall not last.",
+    "source_sha256": "992985b2c89f77093d44f91b4b2e78f9cd88db7032d8552f8eaa18148cc4975c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1507168"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 11120,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04335-03994dabca50",
+    "source": "I've sent word to the nobility to commit themselves to me and send reinforcements posthaste.",
+    "source_sha256": "03994dabca50c646e76c90d2dd724bf5b22ae89772f69aff7ca0280148312a40",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1507395"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 11121,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04336-e4d73a4d318e",
+    "source": "No matter what, this central tower is strong. It has withstood many an invasion throughout its history.",
+    "source_sha256": "e4d73a4d318ee53a2c88a96e98ac8342b92c374828954cc0c0e7bde5b6e56f97",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1507582"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 11123,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04337-f32901398f3d",
+    "source": "Indeed, it is the only section that remained when Elsinore was last reduced to rubble.",
+    "source_sha256": "f32901398f3d93d0aa22dfba43d21c57fae84d2904a84a014bfb9045b0352a1a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1507791"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "[sad]",
+      "line": 11124,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04338-58f22db56523",
+    "source": "You mean we're all meant to sequester here?",
+    "source_sha256": "58f22db565235a88ea87ad829ace1f36ac4bd20426dcaec403fd6ee4918a9f16",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1507966"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {What}",
+      "line": 11125,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04339-8fa8c0eac426",
+    "source": "For the time being, yes. Everyone must remain here.",
+    "source_sha256": "8fa8c0eac426203bf56d6dece336e4d308517322d8546984079af61eee4773d7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508054"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "{Sigh}",
+      "line": 11127,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04340-f267a968965e",
+    "source": "Make yourselves comfortable. If need be, the kitchen is stocked and the fire is stoked.",
+    "source_sha256": "f267a968965e3c2c530c9edb9080e1bdc8a62668bce77044fdfc11bff8eecad0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508158"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 11128,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04341-990e13e7493e",
+    "source": "There is an adjacent chamber with servants' quarters as well. It is meager, but sufficient.",
+    "source_sha256": "990e13e7493e22a0a4a61f06282fe9c779b916a1d24a410003de46f8b7eb8122",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508335"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "",
+      "line": 11130,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04342-cca6701116b6",
+    "source": "We shan't be here longer than a day if our allies respond as they ought.",
+    "source_sha256": "cca6701116b6d0475c2b1dc412ab9366757e259ccaa2a229bd241bc3c2c55389",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508520"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "King Claudius",
+      "cues": "{Denmark_Will_Prevail_Grand}",
+      "line": 11132,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04343-747d43140130",
+    "source": "Nothin' to fear, folks! I'll be keepin yeh all safe in the meantime.",
+    "source_sha256": "747d431401304fd19bb1677c263d87be77b1e895cdd9ea50d66a4dfc60e832e1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508667"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Marcellus",
+      "cues": "{Now_Now_Now_Slow}",
+      "line": 11136,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04344-87b6105d7d0d",
+    "source": "How long do you think this will go on, Horatio?",
+    "source_sha256": "87b6105d7d0df0e3ad6e1f454b00050cc347d23a81e29fc7f8b52e8102affdfd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508860"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 11157,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04345-f9d1c4a4ad18",
+    "source": "Hard to say.",
+    "source_sha256": "f9d1c4a4ad18faf433498d4ed09845a2af80bad04beaebea983d205173ccbc0e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508966"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11160,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04346-f2ce1118935c",
+    "source": "Now the <i>true</i> war begins.",
+    "source_sha256": "f2ce1118935cbc3ee83095eb60fc60dabf676b5c9f69013ab02a113bfdfe4a24",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1508992"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "[sad] {Sigh}",
+      "line": 11162,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04347-d8d937560148",
+    "source": "This will not be easily finished.",
+    "source_sha256": "d8d937560148890fb8c5e151c8fb474f339b155129a760e5880187b7de073da0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509056"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 11164,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04348-0221c48086d6",
+    "source": "I'll be the first to say it, Ophelia. I am afraid.",
+    "source_sha256": "0221c48086d6539f37a4bdccd540a5b5577e4aec904499587ad9ff0bf29e82c9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509124"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad] {Stammer}",
+      "line": 11167,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04349-786acecee3c5",
+    "source": "Of what?",
+    "source_sha256": "786acecee3c5bb7373d2628024612167c686c27dd79886454f78c49642c76773",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:563895"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 11169,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04350-7908de266700",
+    "source": "Not of death. I have seen battle many a time.",
+    "source_sha256": "7908de266700ee659ebac6341a52a1868abbcb06ca5141fae3eb13fa00be5297",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509226"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11171,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04351-cb3122e68632",
+    "source": "But of... the war.",
+    "source_sha256": "cb3122e686322eef02188a60893e3073f44d910b8ac961827765089b5ed6e43a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509318"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11173,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04352-6d497b1d167c",
+    "source": "Some wars are over swiftly. The fight is won, one side destroys another, and all rebuild.",
+    "source_sha256": "6d497b1d167ccaf43d96c08cabe10af6a7522b5eba99a7da219396eab1f63b6e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509356"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11174,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04353-5d31a22283ed",
+    "source": "But some wars... are wasting wars.",
+    "source_sha256": "5d31a22283eda612b20aff5d44260018c4c9f48ced0eb76b417c6cfd7dd9e71f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509537"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad] {Sigh_Long}",
+      "line": 11176,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04354-2c1fb9f8692d",
+    "source": "When men whittle each other to the bone, refusing to acknowledge a victor, yet failing to force the other to defeat...",
+    "source_sha256": "2c1fb9f8692db9d68456164418c79fe8fc5be45e33edf8f037e7108356afce73",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509607"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11177,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04355-5141c4d057f8",
+    "source": "It's hell on a country. Everyone loses in a wasting war.",
+    "source_sha256": "5141c4d057f8270c6359799ccb18b2f2dd1d7f1cc5a9788c5c4c0a6b15f0aedc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509846"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11180,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04356-3c2227be8a9e",
+    "source": "But we have Prince Fortinbras in jail. We could win, couldn't we? If the reinforcements arrive?",
+    "source_sha256": "3c2227be8a9ed8d8aaa2b79da43bac790c354778ed53f3de900114a65b91a0a9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1509960"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "{Stammer_Despair}",
+      "line": 11185,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04357-c3e0dca4f12d",
+    "source": "Those, too, will be meager.",
+    "source_sha256": "c3e0dca4f12de60a1f8586f44ea1518ce6628ff24a1de9ddd6308a7034051bad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510153"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "[sad] {No_Quiet}",
+      "line": 11188,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04358-52433f658380",
+    "source": "Claudius was dismissive of the nobility. They will be hesitant to lend him their men. Some may have outright allied with Fortinbras.",
+    "source_sha256": "52433f658380df11545e933aa5b09a0aaf410b397d781a1b907a4ee87809bb95",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510209"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 11190,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04359-af38a6c3d59e",
+    "source": "And even with the Prince in jail, they will not yield to Claudius.",
+    "source_sha256": "af38a6c3d59e71ec8cac8d24c5e587dcdea284727f67770d6fd347dcbe03614f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510476"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 11191,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04360-f9c1509918cd",
+    "source": "Many are quietly praying for a coup, and a new election to the throne...",
+    "source_sha256": "f9c1509918cddbe3f4873bd2ca5f6ba644006ab4899aecdb3d7b6fa636865fde",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510611"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "[sad]",
+      "line": 11192,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04361-11f4c67ec4f9",
+    "source": "But we're still alive.",
+    "source_sha256": "11f4c67ec4f9e5369b4832217e66e970fe195061b8346a0a37c813a147ff42e8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510758"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Sigh}",
+      "line": 11197,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04362-a5d26264724a",
+    "source": "Isn't that what matters? We survived. We lived on.",
+    "source_sha256": "a5d26264724a1595364baad8b4cb04875d3a8d909f0f232937b06bdd18602f7c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510804"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 11199,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04363-a90dc7d78a85",
+    "source": "It's certainly a perk.",
+    "source_sha256": "a90dc7d78a85794b3b775f28c17ea8367111619f9b2f785c4a9d7e5af0767c06",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510906"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[happy] {Yes_Formal}",
+      "line": 11203,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04364-648343f26bde",
+    "source": "And when the war is over, <i>something</i> will remain, one way or another.",
+    "source_sha256": "648343f26bde0856ef8d0be9b691a22fcb5be3a938d79900e368905cdf783ed0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1510952"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "",
+      "line": 11205,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04365-c7aced590c27",
+    "source": "We'll build a new Denmark. We'll raise new walls. We'll patch the holes.",
+    "source_sha256": "c7aced590c27c57d2eb0bf3c20f7837e176ffb007b97d76a66609ec2105bf287",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511105"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "{Ah_Laugh}",
+      "line": 11208,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04366-a8fc7a3a141a",
+    "source": "Well, then. I daresay you are far too chipper at the moment.",
+    "source_sha256": "a8fc7a3a141a026b1d48486be29899dd8bfe80fc871f20526571d48c18498d02",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511252"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[happy] {Chuckle_Unsure}",
+      "line": 11212,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04367-1b806ce187c2",
+    "source": "Where is the wine? Surely there's some in the kitchen, right?",
+    "source_sha256": "1b806ce187c2e9b20a3534448c8a1270d8b5bed54775035606dd3c48e8096b80",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511374"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 11213,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04368-3dbdddb9c10e",
+    "source": "If we're all going right into the mouth of Hell, might as well be drunk when we arrive.",
+    "source_sha256": "3dbdddb9c10e68adac7e0137dc27663f2d11320e519e5e51c398456232eda0b3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511498"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 11215,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04369-fe9edd65f8d3",
+    "source": "Hear, hear.",
+    "source_sha256": "fe9edd65f8d3ff91f5a402053b7e024ae4ea5bb726bd71e2bed272dd9981fc0e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511675"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Laertes",
+      "cues": "[happy]",
+      "line": 11217,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04370-800c96be9536",
+    "source": "Don't wander too far.",
+    "source_sha256": "800c96be953630ef9068214402c81efd5b323d2c68ad995bf26b62ec8d53b80a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1511699"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 11221,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04371-a76791dd6574",
+    "source": "(I could use the <b>Book of Fates</b> to keep this world forever.)",
+    "source_sha256": "a76791dd6574c7d2e9369e1ed1caf2a6f9fcf07789cb84b3804565f9a22c08da",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516122"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 11226,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04372-825012259059",
+    "source": "(This world is collapsing now. I feel it.)",
+    "source_sha256": "82501225905908b661cbef691f10b1e39617d717c6e9d80d8b85154a7654eb8f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516257"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 11228,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04373-71c9e150fd57",
+    "source": "Carried back again.",
+    "source_sha256": "71c9e150fd57af86a25b5969f28225945d41805e8a40ef8a10cf874b33a1718d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516343"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04374-f462a65c8121",
+    "source": "(...I still don't know <b>what keeps me trapped here.</b>)",
+    "source_sha256": "f462a65c812193335dfbd3dc76f57585f2ccfc5e415f963105a2392a65d750fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516383"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 11235,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04375-c2d7d3ab08d6",
+    "source": "(Until then, I can never see what lies beyond the horizon of this world.)",
+    "source_sha256": "c2d7d3ab08d6f954facf1fa9904486cd154603054dc8f32baff4710bb3821378",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1516501"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_BarricadeAnnouncement1",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 11236,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04376-429077854a09",
+    "source": "Good morning, Horatio.",
+    "source_sha256": "429077854a09421df724059a452d0dc8ffd4d414f065a7a0a055e083f4d2c143",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1517188"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "{Horatio}",
+      "line": 11245,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04377-60e02ac2ab4d",
+    "source": "Are you well this morning?",
+    "source_sha256": "60e02ac2ab4d9d9dcc0a1c58591ad35f88359ab25567e882d7e78e56b8b69190",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1517594"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile]",
+      "line": 11247,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04378-fd9d2d3aebb4",
+    "source": "Of course. Always up for a walk to lift the spirits!",
+    "source_sha256": "fd9d2d3aebb4eee7f8a6eb95b08e50056dbee95c6b7a82e00f51e37c7906103d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1517648"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "{Of_Course}",
+      "line": 11249,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04379-ff733174eba9",
+    "source": "You are the only man who will take me for a stroll these days, Horatio.",
+    "source_sha256": "ff733174eba9afc9f9bef6b09a2b3514ef7b171bfb1bad214ca3a132f0727d0b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1517754"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile] {Chuckle_Soft}",
+      "line": 11251,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04380-4d9afec2fac1",
+    "source": "It's as though half the time these days my husband is concealed away in his chambers, lost in thought.",
+    "source_sha256": "4d9afec2fac1f591f4f4fb56b3b41407190e3668a9aeae87d68555082337f34f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1517899"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile]",
+      "line": 11254,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04381-7d4632b33a48",
+    "source": "My husband would have gone on these strolls with me, once.",
+    "source_sha256": "7d4632b33a4836a13cb80e903d3618f42b82f0810fd1d4c6435a9f26dadbf625",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1518106"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 11256,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04382-1f2767709a92",
+    "source": "Even if my husband were available to do it, I don't know that I'd care to walk with him much. Not now, at least.",
+    "source_sha256": "1f2767709a9268795dc1649ee52b355e83ebb10f3f568e2adb9f3a8cbc72961e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1518224"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 11258,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04383-bdb21a28a2ce",
+    "source": "My Queen, these walks are a treat. Your beauty is so great that when people see us out, I look handsome just standing next to you.",
+    "source_sha256": "bdb21a28a2cef5d7d1e589157ebbc42b209930a5535e7f19ec39ba7d1d278cfc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1518451"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "{My_Queen_Warm}",
+      "line": 11260,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04384-9cc7c362f9a3",
+    "source": "Heh. You flatter me.",
+    "source_sha256": "9cc7c362f9a31edf8789f1423c3e01dcdbad0ee9e9d265a105e0acbb2e2e0317",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1518714"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[happy]",
+      "line": 11263,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04385-68cf00377932",
+    "source": "Say, Horatio...",
+    "source_sha256": "68cf003779324549c0a4d12af0086ca69f454bc8dcead257d1986642d63ce922",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1518756"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11265,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04386-6a3cf198572b",
+    "source": "I know nothing about you. Have you ever told me of yourself?",
+    "source_sha256": "6a3cf198572b88e711a486882eaa6fd3477619dfbb1860855f5920e0d4c70460",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1518788"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "{Hmm}",
+      "line": 11267,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04387-9a6c508b2558",
+    "source": "My late husband often spoke of your prowess on the battlefield. But what before that?",
+    "source_sha256": "9a6c508b2558978469606c920f9e20af37503508fcc1441a65ebb19a59e73ad6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1518910"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11268,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04388-f1b1f78bd51d",
+    "source": "There's not much to tell, my lady. I'm but a poor footsoldier. Then I followed Hamlet to Wittenberg, for a time.",
+    "source_sha256": "f1b1f78bd51d8e4777cabdd530be9aac3d5d1a6249732afd085d39afa70dc7ef",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1519083"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "[happy] {Ohh_Tease}",
+      "line": 11270,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04389-3c6c6fe659d6",
+    "source": "I didn't care much for the area, I'm afraid. No offense to your Bohemian heritage.",
+    "source_sha256": "3c6c6fe659d64d7176e7505bf40aaff0fdd5859127d4a290a2d7540be12ce26c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1519310"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 11271,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04390-59de74fdf850",
+    "source": "No offense taken. I consider myself Danish now. But where were you born?",
+    "source_sha256": "59de74fdf850462f7549cfb1c5f80fbbca23dccc8cc1d36bf9a08f69940a9b15",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1519477"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile] {Chuckle}",
+      "line": 11273,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04391-431b7d36f02b",
+    "source": "Italy, your Highness.",
+    "source_sha256": "431b7d36f02bdf1dc8658e82c99d33a0e386645df69a00f40feafedd736ac5bb",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1519624"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11274,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04392-0fc0649adbd0",
+    "source": "Italy! What! So far from here? What is it like?",
+    "source_sha256": "0fc0649adbd07e8cbe6b15b56e8d83b6db06df44e6eb01feb163cd5f8df1cda5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1519668"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise] {Gasp}",
+      "line": 11275,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04393-b0a72fdf0bbe",
+    "source": "Italy is... hard to describe. Loud and hot, and at once, brimming with quiet beauty.",
+    "source_sha256": "b0a72fdf0bbe5ce38cb5c7e35be52c6ba975064e4b2a9cb0d71ddfd2385eb3c1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1519764"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11277,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04394-95870f6ad5e1",
+    "source": "My father was a spice merchant in Venice, originally of Calicut. He sailed the route and took me with him often, when I was a boy. It was in Calicut he met my mother.",
+    "source_sha256": "95870f6ad5e1987c773852a464fbb4732b2582e08f262516025dc9384f8e8c2d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1519935"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11278,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04395-0f5b297ee220",
+    "source": "But their love was brief, her pregnancy was a secret, and they were unwed. After I was born, my father absconded with me to Venice to save her reputation.",
+    "source_sha256": "0f5b297ee22059da5133d2558964687bef0ae2ef66110b522ce1573e83debb58",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1520270"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11280,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04396-e68f4a0fcd9a",
+    "source": "How sad for your mother, don't you think?",
+    "source_sha256": "e68f4a0fcd9a46d1efb13c82af24025f10cf354f4a0334590aff884e09307e01",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1520581"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Im_So_Sorry}",
+      "line": 11282,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04397-b890b69a6761",
+    "source": "I wouldn't know. I saw her just once or twice when I was a boy. She was married off to another man. After that, Father and I never saw her again.",
+    "source_sha256": "b890b69a6761d80a14ea3b152455470aac94b2d9c5e641d4c19852793187f1f9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1520665"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 11284,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04398-1e7d4960d2f1",
+    "source": "But my father loved me dearly.",
+    "source_sha256": "1e7d4960d2f1842ba9244fe400e652a8346906df566a931965d6e3864b4b64a1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1520958"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11285,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04399-e4d2f42737a4",
+    "source": "What of your life after that? Venice, India, Denmark—you've traveled perpetually.",
+    "source_sha256": "e4d2f42737a42843bd8c00927c40020c6ee3d59e671082f7a3ee157d8a375207",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521020"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11286,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04400-9f04f24e36ce",
+    "source": "Why, my lady, my secrets are the key to my charm!",
+    "source_sha256": "9f04f24e36ceec14843724ec0cba9e425cd4f436ead267e73815242627196d71",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521185"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "[happy] {My_Lady_Coy}",
+      "line": 11288,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04401-40c059762fb2",
+    "source": "It's just a lot of nothing anyhow. I far prefer my life these days. Venice holds certain painful memories for me.",
+    "source_sha256": "40c059762fb21965ffdacf39a0ad84fbfc0baa144f00286c47bb6149fc7587d9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521285"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11289,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04402-a61e56098ada",
+    "source": "I'm sorry to hear that. Well, regardless, I'm glad you're here.",
+    "source_sha256": "a61e56098adaad63cbab41fa23f7455af1a7cc894f29419f7cd401c1364d8754",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521514"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile]",
+      "line": 11290,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04403-5d5e0eafc7ef",
+    "source": "As am I.",
+    "source_sha256": "5d5e0eafc7ef13d68a38e3b7926f2a00f419f09bfca484cf0fc91057d21bb941",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521642"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11291,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04404-20e18dc99549",
+    "source": "I must go. Same time tomorrow?",
+    "source_sha256": "20e18dc99549a8c3786902b1e6231718c6b78d8c67d87db1f910adbe45f0206d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521660"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Queen Gertrude",
+      "cues": "{Goodbye}",
+      "line": 11294,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04405-2da415908995",
+    "source": "Of course, Your Highness.",
+    "source_sha256": "2da415908995dcb5d5d8396d5f7c9519e8198b09b25ac940646de15061489c50",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521722"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio01",
+      "speaker": "Horatio",
+      "cues": "{Of_Course}",
+      "line": 11297,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04406-29e7fc16bc27",
+    "source": "My lady, shall we stroll?",
+    "source_sha256": "29e7fc16bc27b1f7851b13385bd33027f9e1b8dc4893da21315b5fc675563229",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1521774"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "{My_Lady}",
+      "line": 11302,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04407-ebc110388e37",
+    "source": "Of course!",
+    "source_sha256": "ebc110388e3748fade2d60fe999fcede9ee6638e52c53eb711bed9b84487d95f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:414168"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "{Of_Course}",
+      "line": 11305,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04408-8c04852f9a1f",
+    "source": "Yesterday I spilled all my secrets to you, my Queen. Are you going to return the favor?",
+    "source_sha256": "8c04852f9a1f4e6eb95beff693d393b5d31bae82e5d96227e199b80a6f2924c7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1522366"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "[happy] {Chuckle}",
+      "line": 11307,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04409-ee2464769899",
+    "source": "Hmm. You want to know about <i>me?</i>",
+    "source_sha256": "ee24647698998ba3d9eff6864e9c84025724f013f6a654b847bc6fdb5a7cc6ab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1522543"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise] {Hmm_Happy}",
+      "line": 11309,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04410-2a5575110d81",
+    "source": "Is that so surprising?",
+    "source_sha256": "2a5575110d81336cb817d77f2814db075ec5119a4c5bc29d5f1286d1be3d1e05",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1522621"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11310,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04411-bd296be2f679",
+    "source": "N-no, it's just... I've never been asked before. Hmm, where to begin...",
+    "source_sha256": "bd296be2f6798033783fb891d4aa44e9f317ecb54f2af1d78f78af7895f1f5df",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1522667"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[surprise]",
+      "line": 11311,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04412-f560c127ae79",
+    "source": "When I was a girl in Bohemia, my father the Emperor once told me I would be one of the most powerful women in the world.",
+    "source_sha256": "f560c127ae790bdd0ce715f4512cba9882964ee0ccc7a931d40d2adad2823f8f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1522812"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "{Hmm}",
+      "line": 11317,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04413-62679145cfb5",
+    "source": "And he was right. He sent me here to Denmark when I was just a girl. I grew up here, between Copenhagen and Elsinore, betrothed to Hamlet's father.",
+    "source_sha256": "62679145cfb5c93ae8d5095bfee5198f222f514e389099a0483f4abd1ca5712e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1523055"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11319,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04414-1c20e43feb04",
+    "source": "I followed Hamlet everywhere. He was all I knew, for a time. The only friend I had. He, and Claudius, his brother, and my elder sister Margaret.",
+    "source_sha256": "1c20e43feb04a27c6da5c8fdc8c43824ea9ad3c1ace776a64890b87033dfeae3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1523352"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 11320,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04415-c27ef3cd7e92",
+    "source": "My elder sister Margaret stayed behind in Austria. She's very powerful now, with land all to her own, and armies at her beckon...",
+    "source_sha256": "c27ef3cd7e92608fd9871e7765e3735b280e5939096ff86a715b70bd8ab0caf6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1523643"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "{Now_Then}",
+      "line": 11322,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04416-df245b876b11",
+    "source": "I suppose this is... all a very different life from the one you've lived. I hope I'm not offending.",
+    "source_sha256": "df245b876b1110b7722ac98f5c50bc37c71d90545a94100bb7f293f983f834d8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1523904"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11324,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04417-6b1ea56b46fa",
+    "source": "On the contrary, I find it very interesting.",
+    "source_sha256": "6b1ea56b46fa33b19d06b1fa5155046649501d4a066b7dc4eb9db3019abef275",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1524105"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "[happy] {No_Amused}",
+      "line": 11326,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04418-c0610ec9fd68",
+    "source": "What became of your sister Margaret? Do you speak to her still?",
+    "source_sha256": "c0610ec9fd68f683cb9afb82356146bf3501e75a839d370c79737a16ebab59e3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1524195"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "[happy]",
+      "line": 11327,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04419-4e283c9ef0ee",
+    "source": "Margaret was everything to me when we were young. I loved her more than life itself.",
+    "source_sha256": "4e283c9ef0eeedcf23eacf8d7d4d34301bafccaeca8faa2d752cb7ef36fe529d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1524323"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile] {Yes_Sad}",
+      "line": 11329,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04420-3efbf5c422c1",
+    "source": "When I came to Elsinore... I wrote her letters every day. And she wrote back, sometimes.",
+    "source_sha256": "3efbf5c422c15f9b2052fb968d6eb89361108324457254cc3064c525bbf9bb83",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1524494"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11330,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04421-b66148dc93ec",
+    "source": "But it was always to encourage me to cease contact, to study more, to love my new country and forget Austria entirely.",
+    "source_sha256": "b66148dc93ec0c4d8a750e3057609297adfbd13dedf411e1f0ae521315a26e66",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1524673"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 11332,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04422-732e5fad71a1",
+    "source": "Eventually, she stopped responding entirely. And I haven't seen her since.",
+    "source_sha256": "732e5fad71a13861249fdbeed9c7990a68aa31e7b8f9c7d68c12f5232a4480ad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1524912"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 11333,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04423-62fc6bf57eed",
+    "source": "I missed her. I still dream of her sometimes—of us, playing as children again.",
+    "source_sha256": "62fc6bf57eed1147cb4bcd15174d66085775c5a9ab7c9a803d4f74dd80094207",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1525063"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Hmm_Pain}",
+      "line": 11335,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04424-9a1eacffd5cf",
+    "source": "I'm so sorry, my lady.",
+    "source_sha256": "9a1eacffd5cfe74c456a11cb2e4e34d494c4d25fb75182b4e143d926a1e1e766",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1525222"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "[sad] {I_See_Sad}",
+      "line": 11339,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04425-f8a079926316",
+    "source": "How perfectly awful. I've never had siblings, but I can imagine.",
+    "source_sha256": "f8a079926316bc24278899a18913700f1d76dbedf19a53cb5f16420ca26319c3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1525268"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11340,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04426-a0276d7f36c2",
+    "source": "It is no matter. All the love I had for Margaret, I have poured into my husband and son. I hope they have appreciated it.",
+    "source_sha256": "a0276d7f36c2c22fa9a560c573e8b044be19388aad910bdd76213d466e7f4aa6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1525399"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 11342,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04427-375df47cb3e5",
+    "source": "Apologies, but I must go.",
+    "source_sha256": "375df47cb3e5302167a3abb9dc8ffc1305c36da2c799d0df27f37a108e084113",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1525644"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11349,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04428-7e99112a8680",
+    "source": "Understood. See you tomorrrow.",
+    "source_sha256": "7e99112a8680167ecedc3f7cc8d3514bdf3458fab4f8cd1642e8e66e8bfac8bd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1525696"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio02",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11352,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04429-cc0790666828",
+    "source": "Ah, my lady... fresh as a rose.",
+    "source_sha256": "cc07906668280326592f370cb063dc1c7530930c800544f5dfadca74d126d403",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1525758"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Horatio",
+      "cues": "{My_Lady}",
+      "line": 11357,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04430-960c3e6d9643",
+    "source": "You flatterer. Shall we stroll?",
+    "source_sha256": "960c3e6d9643560aa0758b1a3496b093614698b2a224846a6f533c96dfc390df",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1526452"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "{Sigh}",
+      "line": 11360,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04431-5407debe894b",
+    "source": "So. My Queen. I find myself poring over an interesting dilemma.",
+    "source_sha256": "5407debe894bbb23f23193d3b7ed9912949f7b5d1b821220b874f88a05ac6478",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1526516"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Horatio",
+      "cues": "{My_Queen_Unsure}",
+      "line": 11363,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04432-fc55ea7b3287",
+    "source": "Oh? Do you, now?",
+    "source_sha256": "fc55ea7b32876d21f4bbacab552d69ec5abe640b86861ef9d1cc127b1255ee0a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1526644"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "[smile] {Hmm}",
+      "line": 11365,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04433-6197ab644b28",
+    "source": "What is to become of Hamlet now?",
+    "source_sha256": "6197ab644b28c545a6681fbbd124a9ccbf92dddcbf5b019a7d74810ce27827ce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1526678"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Horatio",
+      "cues": "[sad] {Sigh}",
+      "line": 11368,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04434-4668385ae963",
+    "source": "Are you to quietly betroth him somewhere, given all that's happened?",
+    "source_sha256": "4668385ae963ac61f3561038dddd0e5068513ff5977608515779a7e114e9bab4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1526744"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11369,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04435-d5e9ac4c68d2",
+    "source": "Send him away into some new life?",
+    "source_sha256": "d5e9ac4c68d2d69566bec2570238f9556cb6c29ab81e1c5cef58b7f0efc8eb10",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1526883"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Horatio",
+      "cues": "[sad]",
+      "line": 11370,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04436-9989dcaa1212",
+    "source": "Not with the predicament he's in.",
+    "source_sha256": "9989dcaa12121a5a8e0a337b3e5498dad47cf7dfc6015c4533b6af9254cc4cff",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1526951"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Hmm_Pain}",
+      "line": 11372,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04437-6cb9456d06e2",
+    "source": "Yes. You see, your son is a fascinating creature in a fascinating position. High-born, yet utterly unsurrounded by ladies of his equivalence.",
+    "source_sha256": "6cb9456d06e2bf0a3d8f967853f91838818504f47ef52e67d9a940a6e419b91e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1527019"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Horatio",
+      "cues": "{Sigh}",
+      "line": 11375,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04438-0d92291bec10",
+    "source": "My husband and I have both noticed this problem.",
+    "source_sha256": "0d92291bec103281d50193f9a4e52dbafd7c08162d018ba77c918a7f81641987",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1527304"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "",
+      "line": 11377,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04439-16d213cc48ca",
+    "source": "Is that why he remains unbetrothed to any woman?",
+    "source_sha256": "16d213cc48caebce98364fc949e2dc84c7b0b3c52d9a7d61331d1e4dae24b1db",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1527402"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Horatio",
+      "cues": "",
+      "line": 11378,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04440-830e65543660",
+    "source": "That, among other... problems. I don't know that I'd be able to make a suitable match with the state he's in.",
+    "source_sha256": "830e65543660837b18b99e19b807a2e13d8b8f37a6d515f785418e44d5b8c9c7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1527500"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 11380,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04441-062bcf095f6f",
+    "source": "His mind's all strange at the moment.",
+    "source_sha256": "062bcf095f6f80d396414e429774de7febbf099f30ddd654c59bfe89d6cf2087",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1527721"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad] {Sigh_Tired}",
+      "line": 11385,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04442-f21e99f9516e",
+    "source": "He's killed a man. No court will want him. He shall be an outlaw in reputation, if not in name. I fear for his immediate future.",
+    "source_sha256": "f21e99f9516eba8d1855b742179fa1e3b32a2d327a9c5f274d1096e9c3f6012b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1527797"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "[sad]",
+      "line": 11387,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  },
+  {
+    "id": "p04443-e38afd4f8c0d",
+    "source": "Horatio, what will I do? I just...",
+    "source_sha256": "e38afd4f8c0d3520216e2c76ce1afe29e8b0d1320dd34807410c4c803a333b32",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1528056"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "GARDENWALKS_GertrudeAndHoratio03",
+      "speaker": "Queen Gertrude",
+      "cues": "[despair] {Stammer}",
+      "line": 11390,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0034"
+  }
+]

@@ -1,0 +1,3075 @@
+[
+  {
+    "id": "p09241-159a67e60a33",
+    "source": "Now you know the truth. I hope it brings you boundless happiness.",
+    "source_sha256": "159a67e60a33c722ef2662d50e94804fed0fd4a126435680ef70015cde372639",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:923378"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25938,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09242-37db1a1a5341",
+    "source": "Why won't you talk to me, Brit? Is something <i>that</i> horribly wrong?",
+    "source_sha256": "37db1a1a5341af9b0ea4352c33174a451145260c4289d9bb3cc48b443431f1fc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:923567"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Brit_Sad}",
+      "line": 25943,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09243-b08e6e4b22d4",
+    "source": "I could, if you'd tell me.",
+    "source_sha256": "b08e6e4b22d4812b252e4fef275ca9a5349d44db39cfc810c34948df74b8e73a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:923750"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 25947,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09244-4ada47fd5594",
+    "source": "I'm sure by now you've heard the rumors about a Norwegian confidante within Elsinore's court.",
+    "source_sha256": "4ada47fd55949c1a5397c60eea9cc5420de09df56c2afb0355e8da328a835e11",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:923804"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {Sigh}",
+      "line": 25961,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09245-b85b8fd2766f",
+    "source": "You're not saying... the spy... is...",
+    "source_sha256": "b85b8fd2766f2a281242535cbc1bdf34b8c73707fe747baa7871acc0326da620",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:923993"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Ophelia",
+      "cues": "[surprise] {No_Sad}",
+      "line": 25963,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09246-b56430184053",
+    "source": "Yes. Well, really, it's my father, but he gets his information from me.",
+    "source_sha256": "b564301840537651e48f954162b2e5a88e12311d53dad76cc701d729721cde90",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:924091"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {Yes}",
+      "line": 25966,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09247-54e56b5a028c",
+    "source": "My father is angry with Claudius. He's been trying to centralize power behind the throne.",
+    "source_sha256": "54e56b5a028c2dd8f8b09658caa7bf9856916dcb731c034df236dbda94d073da",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:924236"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25968,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09248-8e2794fb5dd9",
+    "source": "He finds him unfit to rule, and believes Claudius misled the nobility about his intentions when they elected him King.",
+    "source_sha256": "8e2794fb5dd985df150ed55e5b7d3ed4dee2c56de283cc04a704af0a0381512e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:924417"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25969,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09249-0ac510ce719b",
+    "source": "But if Claudius is murdered, everyone will suspect my father was behind it.",
+    "source_sha256": "0ac510ce719b8b2f2bafd24745f556558535ac6f50d7003e1e6b79212f5677dc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:924656"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25970,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09250-458e26ec18bc",
+    "source": "So my father plotted a secret coup.",
+    "source_sha256": "458e26ec18bcdfb02258b9cd5f23e4fd4037e504813f80c1eeeedb3fc4663366",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:924809"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25971,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09251-acc58ffd4572",
+    "source": "A rebellion from within Elsinore's walls. Coax a man who already dislikes Claudius into offing him.",
+    "source_sha256": "acc58ffd45722866d2622c7a39a8525a76a1ed69c3a3e22ae9b16dd585a260ee",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:924881"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25973,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09252-d91ae12847d3",
+    "source": "That man is your brother.",
+    "source_sha256": "d91ae12847d3d4d35f855049c4640dcba38cb0aa726ace1f19ae79f426b29e69",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:925082"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25976,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09253-52e2192631c2",
+    "source": "Laertes? But Laertes wouldn't attack the throne of Denmark. He's frustrated, certainly, but he's not a natural killer.",
+    "source_sha256": "52e2192631c29fa0e43203797ea4ab7da5dc8513a5a5c0128b513ee12a938642",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:925134"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Ophelia",
+      "cues": "{Laertes_Sad}",
+      "line": 25979,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09254-695ea9144162",
+    "source": "...He would be if you were dead. Everyone sees the love your brother has for you. It's unparalleled.",
+    "source_sha256": "695ea9144162889eb882da7d7298908b2d74704a0f942873830e2ef1c7ff5893",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:925373"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {You_Sad}",
+      "line": 25981,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09255-3e1cf86b2f0f",
+    "source": "I don't know why I'm telling you this.",
+    "source_sha256": "3e1cf86b2f0fc3f1e4255e083b9cdb915b0578dc48f6ab6e0f2fcf5dc638685d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:925576"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25985,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09256-1fb64258cb2c",
+    "source": "Maybe because you were the only one who'd ever been kind to me in this horrid place.",
+    "source_sha256": "1fb64258cb2c81e606605732cd7fd6057e6b7d18e8e32260654bbb1bf288303d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:925654"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25986,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09257-57b97b0b6a90",
+    "source": "And whatever little it means, I'm sorry for this. I didn't <i>want</i> to do this. I really didn't.",
+    "source_sha256": "57b97b0b6a9022bfbf869ba4ae756cfa17ea2be9d277a725432dc498555c1512",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:925825"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25987,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09258-066595b3ce0d",
+    "source": "You can still choose <i>not</i> to.",
+    "source_sha256": "066595b3ce0d71aa3fd47b4faa4e9ec9d2a0b53a8cd11fa4a72ee32dd2fa9767",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:926026"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Ophelia",
+      "cues": "[disgust]",
+      "line": 25988,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09259-f7f84cc3e594",
+    "source": "No. I can't.",
+    "source_sha256": "f7f84cc3e594ffada9a657861a3d7959cd7c74e6753da9908f377c4a67391ccd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:926098"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritDrinking",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 25990,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09260-991752a19ea1",
+    "source": "Perished at Brit's hand.",
+    "source_sha256": "991752a19ea1b839dbde21c90056ef88e91b4bd59e593047715ed19707dc293a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:926236"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09261-6701720f14d8",
+    "source": "If Fortinbras's invasion were rebuked, your father would have no choice but to work with the king.",
+    "source_sha256": "6701720f14d8d62c3e6e61283b93af688d60f1b68c286bb1901436732465e9a6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:920551"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26001,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09262-f61192554879",
+    "source": "And that might grant a more lasting peace than anything Claudius's death could provide.",
+    "source_sha256": "f61192554879ee744d55c26bd4eb528d1d06991b6087023f54df37897fbc47b6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:920750"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26002,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09263-b7cb46231f5c",
+    "source": "But that's impossible. How are you going to repel a national invasion?",
+    "source_sha256": "b7cb46231f5c4752ecf06519f9218a741f4e7110174cc2063fc40db313bdbdf2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:920927"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26005,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09264-2260a5266fa7",
+    "source": "I don't know. But there's got to be a way.",
+    "source_sha256": "2260a5266fa767498653c1ae593e798f00c7ddb98b93d40e4ba9af7cad69ec95",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:921070"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 26007,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09265-87380b818227",
+    "source": "I wouldn't have told you this before, but—<b>Fortinbras is already here.</b> Just outside Elsinore. He's been here a little over a week.",
+    "source_sha256": "87380b81822768feb7c28d0261dfd17fc85f703cb15e54925f1fc619152b0cc3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:367827"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {Listen}",
+      "line": 26011,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09266-b7dbef2c5a8a",
+    "source": "I've been visiting him. In town. He's staying in a small room with some officers, in civilian dress.",
+    "source_sha256": "b7dbef2c5a8a14795b1a1327126a80c67aa55c170c06c046d9c6aefa6efde620",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:368102"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26012,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09267-c5543541ea7f",
+    "source": "They meet late at night in the town square, long after all are asleep. They plan to meet next right before the siege begins on Sunday.",
+    "source_sha256": "c5543541ea7f3b4ab1648fb3e2a3e2cbaaed906af50fcd328574417a24083c70",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:921156"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26013,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09268-5341d9e5d4cd",
+    "source": "I can get you into that meeting. But you... can't reveal me. You have to pretend to be loyal to Norway, no matter what you see or hear.",
+    "source_sha256": "5341d9e5d4cd11dc200174a8e78b465f075fabbe55a64f580cbd54a96c2fe879",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:368576"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26015,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09269-44cd5b895f40",
+    "source": "Understood. I won't expose you, Brit. I swear it.",
+    "source_sha256": "44cd5b895f40bb546b3328c33c363923cb257a93e04605a679ced45270e1218b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:921427"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26016,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09270-a704b2fc2140",
+    "source": "If you're lying to me...",
+    "source_sha256": "a704b2fc21400dde3ba6c9c3442286536e535d94a1ceedde0f0afeaa5289450b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:368947"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Hmm_Doubt}",
+      "line": 26017,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09271-b3026bdfb94a",
+    "source": "I'm not.",
+    "source_sha256": "b3026bdfb94a2a3c7b54aa44447d19052c60f9375c2d4125fb5a1b49f92fdc21",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:368997"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 26018,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09272-dfb02986b24d",
+    "source": "Be there. I'll take care of the rest.",
+    "source_sha256": "dfb02986b24d324c4f936c6637cc0355e45d7795449ad3c0ccdb254c5b8ad319",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:369027"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26020,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09273-45b3c6001b6b",
+    "source": "I know.",
+    "source_sha256": "45b3c6001b6b95569b2e2ca0584b2d5e169321859dc5f75c93acf53f1400cac1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "resources.assets:scenes_present:2b1c89384554",
+      "Assembly-CSharp.dll:#US:381188"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "{I_Know}",
+      "line": 26027,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09274-49937869ae78",
+    "source": "What? How--",
+    "source_sha256": "49937869ae786c6907d1086e4789249982eb4eaf826913ace5bf0f3d63aa5906",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[surprise] {Gasp}",
+      "line": 26029,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09275-345591534897",
+    "source": "It's a long story. But I know.",
+    "source_sha256": "3455915348975519fae5be58757fd5d2bfb7f7ff28fccefe97c238a0647570d7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:921549"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26031,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09276-f98284899128",
+    "source": "I'm convinced you're <i>some</i> kind of witch. Just haven't figured out if you're using your powers for good or evil.",
+    "source_sha256": "f9828489912842fcb955fd65640e28c7090e467532ccb7213e07fb847d1f2ddd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:921611"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Disgust}",
+      "line": 26033,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09277-0c219cc429fe",
+    "source": "In this case, it's for your good. Trust me on that.",
+    "source_sha256": "0c219cc429feac33d02cf7b504a9c1fc6c6e570ac636ef663f646b95027fa6ea",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:921850"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26034,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09278-92d7ba1848c8",
+    "source": "Well, if you want to meet the Prince, he and I have a standing rendezvous.",
+    "source_sha256": "92d7ba1848c8fd54484d76dc27e41301f3c39b0e98aaf03f99400c80b6a741dc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:921954"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26035,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09279-f2923a466af1",
+    "source": "But you... can't reveal me. You have to pretend to be loyal to Norway, no matter what you see or hear.",
+    "source_sha256": "f2923a466af16abcadbe0fc61f072cfad66faee63c4b9b7fc54f7aed17d72c03",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:922105"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26037,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09280-b2aeacc042db",
+    "source": "It'll end poorly for both of us if I'm there. I'd rather not.",
+    "source_sha256": "b2aeacc042db594c33dd20bd4b78205d73a012a63ba0ec3158d4284b0ab71ae1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:922312"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "{Sigh}",
+      "line": 26039,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09281-0854a670ce15",
+    "source": "You sound strange.",
+    "source_sha256": "0854a670ce1535ced86192b43946d36c707f3e4aa47a9a39662951274b271bbe",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:922436"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "[surprise]",
+      "line": 26041,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09282-31f73beaf61e",
+    "source": "Call it a hunch of sorts.",
+    "source_sha256": "31f73beaf61e9b60c0d00dcd7e4d40c15b3994bbc3e70df9330335735e018310",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:922474"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26042,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09283-26ffce78c95c",
+    "source": "Well, come to the meeting or don't. <i>I'll</i> be safe regardless. Blue blood is just as blue no matter who wears our country's crown.",
+    "source_sha256": "26ffce78c95cec5180c142dab382d9751e99898d3586c90f2e3d2a20b6f1cd3e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:922526"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "invited_to_meeting",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26045,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09284-27ba00e1364e",
+    "source": "Ophelia. A word in private, please?",
+    "source_sha256": "27ba00e1364e74c2cabc87d2c61d932478f61dc8c5214f2cb6c7555a9936a2c3",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1971884"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "{Ophelia_Mock}",
+      "line": 26055,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09285-f989c324e71f",
+    "source": "It's nothing. I merely came to... thank you.",
+    "source_sha256": "f989c324e71f62be3ebcc2cd1382d66bed47f9263f6a0c8164e2fd0f1ed629cc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1971956"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26066,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09286-afd9a8e2924f",
+    "source": "Claudius is dead. And Hamlet and I will be betrothed soon.",
+    "source_sha256": "afd9a8e2924f7992d082da8686d0b5973a96186b226d3ee359487fb64e7a4861",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1972046"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26069,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09287-80be2108af81",
+    "source": "Claudius is dead. I'm hearing rumors that Hamlet and I are to be betrothed soon.",
+    "source_sha256": "80be2108af81b38c688a29a929f49afa887ec75f48a09bb2d7cb62533eecb032",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1972164"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26071,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09288-ca2a2a1fe9df",
+    "source": "I thought you'd be happier, somehow.",
+    "source_sha256": "ca2a2a1fe9df3efb5111014238ae741c382dd119a6865ccaaf8cd746d068e06a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1972327"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26073,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09289-bdfe5e52a03c",
+    "source": "That makes two of us.",
+    "source_sha256": "bdfe5e52a03c7313b999fa031b45f22160ab123fae8f5a522d4428d475de6410",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1972401"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26074,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09290-248cc35ddeae",
+    "source": "This may be only a temporary arrangement. If Fortinbras arrives, I'm certain our betrothal will be disbanded as soon as possible.",
+    "source_sha256": "248cc35ddeae0077e490f1ffc0990d2fb4f67c967c859918ff4ef157bdef0a9d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1972445"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26075,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09291-9b529cd90071",
+    "source": "And then, under his rule, I will become Fortinbras' wife. The Queen of Denmark.",
+    "source_sha256": "9b529cd90071fa3cf87a4dbde0d3d83b73737b880aff1c0e65c7805cd58e0cdc",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1972706"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26076,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09292-55470d9486e1",
+    "source": "But in either case, with either of these men, I <i>should</i> be overjoyed. I'm out of my father's hands now. He can't control me from the throne of Denmark.",
+    "source_sha256": "55470d9486e1690cfb590474579df89b879b8d0327b5b41310d9e3aec49cd196",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1972867"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26077,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09293-6a5e62804fe8",
+    "source": "I can paint any time I like. I can paint the whole castle if I so desire.",
+    "source_sha256": "6a5e62804fe88654fc1511fe6d490597e5da43159fcbd65c4f433aa6221368dd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1973184"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26078,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09294-ed7bee6de715",
+    "source": "At first I thought this meant I was free—more free than I've ever been in my life.",
+    "source_sha256": "ed7bee6de715936b4d259e34ca1804f9658ed60d87bf376e8cee88ffdf2c6794",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1973333"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26079,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09295-5f8259d30bc2",
+    "source": "But I'm not really. My ownership has merely changed hands.",
+    "source_sha256": "5f8259d30bc2c019bfbe047c65918215a00edfa7264c752ea11e2bf05830dd80",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1973500"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 26080,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09296-a18b856fdd49",
+    "source": "I'm sorry, Brit. I wanted this to be good for you.",
+    "source_sha256": "a18b856fdd4925fc2bf63ddd189a2ffee7c2af8ef795952cda8bc59431dd6aaf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1973618"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 26081,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09297-0eb72bf733ca",
+    "source": "(Perhaps if Hamlet were betrothed already... no. That's a thought I ought not to explore.)",
+    "source_sha256": "0eb72bf733ca115ba98e375759a88964ed8d307680668dadf1e68de419ed9f25",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1973720"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 26082,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09298-2fad4be2f678",
+    "source": "(I wonder if there's a world where Brit wouldn't have to be wed.)",
+    "source_sha256": "2fad4be2f67841f40e1820c6968ebab36c0ab786c215aa626f8fa0d19f2da433",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1973903"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26083,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09299-a390ca036475",
+    "source": "Don't apologize. You've done everything I asked. And you've showed me kindness.",
+    "source_sha256": "a390ca03647541322961956bfc8e3374c8676e6b0aaef3fdb7eb009dd7245c05",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1974036"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26084,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09300-672cb40352da",
+    "source": "The invasion comes for us all soon enough, but when the dust has settled, I know at least that you and I will be all right.",
+    "source_sha256": "672cb40352da9ac9267d10b680012a12f32b1c92bfd19225464e8192b675e736",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1974197"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26085,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09301-0b5445d9484b",
+    "source": "With Claudius dead, Fortinbras has assured my father that Elsinore will fall all the more swiftly.",
+    "source_sha256": "0b5445d9484b21998472d8627f47e83884aa171d0a46b40012f9ebfb10b41051",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1974446"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26088,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09302-572a89713c46",
+    "source": "He will liberate the castle tomorrow and formally place it under Norwegian rule.",
+    "source_sha256": "572a89713c46dd55c8dfb6e1ac4a4d8e924233ec2c56ee848f1041fddf744aa2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1974645"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26089,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09303-67ba346e439e",
+    "source": "And now, at last, I am free.",
+    "source_sha256": "67ba346e439ea7d35e2c0bc199d1d0e1934a2884cf22fee0ef7d11ba043d2795",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1974808"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26090,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09304-a4fc2a5aea00",
+    "source": "Certainly. With Hamlet gone, there's no suitable betrothal left to make within this family line.",
+    "source_sha256": "a4fc2a5aea006c314e6290fd14c660e668bc567c5cd030ee3ce35fab3b98d508",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1974878"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26093,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09305-dddc34c39d37",
+    "source": "I will allow Gertrude to remain here, given all she's done for me, of course.",
+    "source_sha256": "dddc34c39d37e9caebf3325e571a8d378a8b7ebae0de0b29f2333f4aaa6f1bfd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1975073"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26095,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09306-ee67c431dae6",
+    "source": "Certainly. Hamlet is betrothed—to you, in fact—preventing anyone from trying to barter a truce.",
+    "source_sha256": "ee67c431dae6bc722b86a5285fc0500c04cfed7e6fa0849d377184ce7762d7cd",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1975230"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26098,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09307-7d3d55e1b1b8",
+    "source": "If not for that, we'd be halfway to the altar by now. You've saved me from such a fate.",
+    "source_sha256": "7d3d55e1b1b819eda387d295d582f665a625735188a93bd3b2cfca21b761c357",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1975423"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26099,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09308-eb788f5d800f",
+    "source": "Provided Hamlet doesn't stand in Fortinbras' way, the future before us is a painless one.",
+    "source_sha256": "eb788f5d800f27d05a0e1087f218a16e1b2ea58570bfb4df1e389a5e2a549ac8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1975600"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26101,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09309-857189530fc6",
+    "source": "Now I can sit the throne of Elsinore in peace. Until the nobility can sort out which poor sod of a man gets to marry me, that is.",
+    "source_sha256": "857189530fc6a47a131eeb91bee3a4ee255d74e195b9f557a7ede1c6645e7ab4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1975781"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26103,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09310-0761516017d0",
+    "source": "The throne?",
+    "source_sha256": "0761516017d05269fc6568aa6b502ca53c290c3761a67b7bb287004731fb7e42",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976042"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "[surprise]",
+      "line": 26104,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09311-2a283e8813e9",
+    "source": "Yes. I am to be crowned Queen regnant, as soon as the nobles are able to congregate.",
+    "source_sha256": "2a283e8813e900fe7e4c2ae22469913da31787602a11a5a0e8d2ebdf68eb2320",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976066"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26105,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09312-26ea0e904b7c",
+    "source": "I have their unanimous approval, thanks to my father's lobbying.",
+    "source_sha256": "26ea0e904b7ce25f0e4e149440a32544f724f19ce9b487ae938e70099bfd3737",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976237"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26106,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09313-2a2920fab796",
+    "source": "I didn't know. You'll make for a fearsome queen, Brit.",
+    "source_sha256": "2a2920fab796a7f0dfd89feea6551e3d78cd4b6f450ef1c0f1f46f46e150ac0d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976368"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26107,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09314-15eaa62a38cd",
+    "source": "Thanks. Speaking of which...",
+    "source_sha256": "15eaa62a38cd48ad813f50bf8af0be0ffb252fe40d33ce5e0e657d7a950631ff",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976478"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 26108,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09315-b38b5c68c569",
+    "source": "Ophelia. Er. I-- well.",
+    "source_sha256": "b38b5c68c5691b7d778a6318f2d74634f9b53dfe74999b5020bdda5c3930997e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26110,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09316-ab42ffdcaf9d",
+    "source": "This is hard to say.",
+    "source_sha256": "ab42ffdcaf9dd930f85939e794ffec708a2e067a64fac6074b0f7e02029e0daf",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976578"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26111,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09317-70e9c4f49916",
+    "source": "I'm sorry. I was needlessly cruel to you. For years, in fact.",
+    "source_sha256": "70e9c4f49916ff3b3c0432a6eafa0db9601af9eb52797d37385d6df365120cd2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976620"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26112,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09318-dc5c85a6f0ed",
+    "source": "But you were kind to me, again and again, regardless.",
+    "source_sha256": "dc5c85a6f0ed4eeca097a52d194bd22657d7a818c9d986450bb008021b98be3e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976744"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 26113,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09319-235acddaae56",
+    "source": "You made me feel like I had choice again. As though my life were not as ironclad as I had imagined.",
+    "source_sha256": "235acddaae56a72d1d2ab80bb616c499475fbcb45f69bfbbe6d4a61fdaec3c0b",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1976852"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 26114,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09320-f6e9360941b8",
+    "source": "I hope things can be different between us. I hope we can be something else.",
+    "source_sha256": "f6e9360941b8cff334d63488176991399a9f56c7bc8a23ed75feadb7e1bb510e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1977053"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 26115,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09321-1bcd6b97bc28",
+    "source": "Are we friends?",
+    "source_sha256": "1bcd6b97bc28bc9dd82e54664f232fc4527293b046a0f5f880792b62e57cfcc0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1977206"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "[happy]",
+      "line": 26116,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09322-ad34cbdc0c0a",
+    "source": "Oh, no, no. I haven't got any friends, and I plan to keep it that way. But 'allies' may be sufficient.",
+    "source_sha256": "ad34cbdc0c0a2bb527faea79e26084c92770f8ee2a2f81ebc68663ce13e63e1c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1977238"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Lady Brit",
+      "cues": "[happy]",
+      "line": 26117,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09323-15051c9769ae",
+    "source": "I'll take it.",
+    "source_sha256": "15051c9769aec10111e8dbee51b3f11972babbadbde1c6f859994a445f021956",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1977445"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FLAVOR_BritThanks",
+      "speaker": "Ophelia",
+      "cues": "[happy]",
+      "line": 26118,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09324-bc61d3f59a0d",
+    "source": "Brit asked me to meet her in town around this time.",
+    "source_sha256": "bc61d3f59a0da091b16fea70c2dbea47c4144c059dc99f70ddfbc2bffebd1c69",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472624"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_PreSecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26124,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09325-3aa6fdcc77d1",
+    "source": "Go to Castle Town?",
+    "source_sha256": "3aa6fdcc77d160503a600ee97c0c3ea4cbaf9cc37f4fa54334c22310abe48b56",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472786"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09326-701194ed532f",
+    "source": "I won't go yet, though.",
+    "source_sha256": "701194ed532fa4e78acc1d52f4214c7f579c19fd3c2603405d47126eca15ab71",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472824"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_PreSecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26135,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09327-4d967c1d2294",
+    "source": "Naturally, I've arrived early.",
+    "source_sha256": "4d967c1d22940b12881834ba1886322bc93e2d8c207c0431d67718ef238b0546",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472872"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_PreSecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26138,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09328-e66e1cac82b1",
+    "source": "So you <i>did</i> come after all.",
+    "source_sha256": "e66e1cac82b1f76470ae653988d285267833bf20866bbe56b70093cfa0c863d9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1472934"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "{Hmm}",
+      "line": 26149,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09329-06f0a0cffdd3",
+    "source": "Go to the Fortinbras Meeting?",
+    "source_sha256": "06f0a0cffdd3f4d77fad4bfdf5cb22336f25e907de0979fa3fcca5783e1bdc1f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473054"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09330-54b4a3b34ad0",
+    "source": "Ophelia? What are you doing here?",
+    "source_sha256": "54b4a3b34ad0a115ec16ffdc4551580f25b4bedfff3783711257fb7b75795b47",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473114"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[surprise]",
+      "line": 26159,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09331-098271081c0c",
+    "source": "Ophelia? What are you doing out here?",
+    "source_sha256": "098271081c0cba809a76d57773f63616a521afbe890cc45bafd11f5f1107a683",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473226"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[surprise] {Ophelia_Angry}",
+      "line": 26170,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09332-e54eb0e02e31",
+    "source": "You can see me?",
+    "source_sha256": "e54eb0e02e31f79fc38aad850858849aa78227d9a3d7c56dd109c4205746c4c5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473302"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26172,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09333-2b03b49dfdef",
+    "source": "No, I'm clearly talking to the wall.",
+    "source_sha256": "2b03b49dfdeffda3a68ccf6a13e52bbf9fe355df8fe00a119eb03b7473da5090",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473334"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 26173,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09334-7972eaf7f9c9",
+    "source": "<i>Yes</i>, I can see you. This area's rather well-lit.",
+    "source_sha256": "7972eaf7f9c95470e150c0e9487ebea9e7a0811a26465530eed6b5c72d2f7580",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473408"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 26174,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09335-0b5663240635",
+    "source": "I was taking an evening stroll.",
+    "source_sha256": "0b56632406359ddee37cc102b8100745328fe2aebbe09d7d03813a50b64590b7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473520"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "[awkward]",
+      "line": 26176,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09336-92c754302158",
+    "source": "What about yourself?",
+    "source_sha256": "92c7543021583488437baa3322bf4e81b901a85c3ecd600bc41925388b690dc4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473584"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "[awkward]",
+      "line": 26177,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09337-e6b326fb08be",
+    "source": "Well, I <i>was</i> having a nice personal break from my mountain of courtly duties.",
+    "source_sha256": "e6b326fb08be50508f0ef0da41fcf5509d5cf0d008f33f4114d21d183e77d7be",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473626"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 26178,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09338-7571937ff977",
+    "source": "Until you came along. Stop following me.",
+    "source_sha256": "7571937ff97792216af452f222ad4e9642df5972d05d68cb2583c1ebd3d2532a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473795"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 26179,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09339-44d35f9c69c4",
+    "source": "She practically ran from me.",
+    "source_sha256": "44d35f9c69c427a9624068ca87318edcc637f32c42a33e5426c8238f96cfc9ec",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473877"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "[sad] {Ah}",
+      "line": 26184,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09340-4c204697e6ca",
+    "source": "I suppose this area <i>is</i> a lot better lit than the docks. That tactic won't work here.",
+    "source_sha256": "4c204697e6ca66f0ea84fd4ba788d52f6676ce4ab109633f173f99b33241b717",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1473953"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 26186,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09341-610a72e9bb2b",
+    "source": "Stay silent. Say nothing. If asked, reply only 'yes, my lord,' or 'no, my lord.' That is all. Do you understand?",
+    "source_sha256": "610a72e9bb2bf86e4232b8ea9df5c1a4d1e616d7254f60b1729aef53900b7cb2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1474208"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26207,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09342-8378e2a004de",
+    "source": "Come on, then. I hear their boots nearby.",
+    "source_sha256": "8378e2a004de55a75456b5d19821018209034f50ff4721708afabb8c06324951",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1474435"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Sigh}",
+      "line": 26213,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09343-e0fe621db64c",
+    "source": "Ah, Brit... I've had a change of heart.",
+    "source_sha256": "e0fe621db64c376a3a9ba2807d1ae172aa43c08537ac3d696b71b72a27cb9434",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484017"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "{Ehh}",
+      "line": 26216,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09344-c86ddec6ddb9",
+    "source": "Meeting Fortinbras would end poorly for me. Trust me, I know it.",
+    "source_sha256": "c86ddec6ddb908e0aaf59f048c3d4377d44efec04af22ede5ac60fdc648623ce",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484097"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26219,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09345-97c894ed4be4",
+    "source": "After all that, huh?",
+    "source_sha256": "97c894ed4be4f03e2f473363cd39c9e8118aa983d0ede6ef100faf538cea75de",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484228"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "{Sigh}",
+      "line": 26222,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09346-72708c203945",
+    "source": "Well. I guess I'm on my own. Even now.",
+    "source_sha256": "72708c203945477488273cdcb46e2672c358d0df839ab8320c72fd060b266b6f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484270"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26223,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09347-fdeb0f3f5c11",
+    "source": "I know about everything, Brit. I know you've been leaking information to Norway. I know about your family. Your father. Fortinbras.",
+    "source_sha256": "fdeb0f3f5c1133f06e6869847de306de5ee9cc655ee9e0aa125336b944446620",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484348"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "{I_Know_Sad}",
+      "line": 26230,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09348-7ecc875300f4",
+    "source": "All I want is to hear what Fortinbras has to say. I know he'll meet with you tonight. I want to be present.",
+    "source_sha256": "7ecc875300f4f058e0892e3fd05e0be024ae4b78c894779bea8de0519c9d47df",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484613"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26232,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09349-2a0c55e67c0e",
+    "source": "You? Present for <i>this?</i>",
+    "source_sha256": "2a0c55e67c0eb187820d7119e5ccd3df73dbf94f1658ff9895dbaa7f64f09e2e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484830"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 26233,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09350-a29e2146f8f3",
+    "source": "(I hear their boots... they're coming now...)",
+    "source_sha256": "a29e2146f8f3f2797a5c0386cf80cc37432b35baa0c242e3a53007a2958a4d48",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484890"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[surprise]",
+      "line": 26234,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09351-82fd941d06ab",
+    "source": "Fine. You must be <i>some</i> kind of witch, but you've always been obsessed with me, so I ought to have known it'd come to this.",
+    "source_sha256": "82fd941d06ab743c29e9fd3270855ea3122b30b21a366f9c363f2921271d594d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1484982"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust] {Disgust}",
+      "line": 26236,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09352-425bf3229671",
+    "source": "Come on, then.",
+    "source_sha256": "425bf3229671e178e9bc8982e12d32d801efddd3ccfe8160007552a069230938",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1485243"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "FORT_SecretTownMeeting",
+      "speaker": "Lady Brit",
+      "cues": "[disgust]",
+      "line": 26242,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09353-ad5ebb4bf0b3",
+    "source": "Good evening, my lord.",
+    "source_sha256": "ad5ebb4bf0b3e7e2b6b80eb57ae66576d83ae825fb77ca97c8e9b25d98bafb5c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1474859"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "{My_Lord}",
+      "line": 26272,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09354-29b45c951150",
+    "source": "Lady Birgitta. Tomorrow is the morning we've waited for.",
+    "source_sha256": "29b45c951150ac212e98b23db8ade9f51116cd4a6bac51812721a6e77fb8aa31",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1474905"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Greetings}",
+      "line": 26274,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09355-0903dfb829fd",
+    "source": "All attempts at a coup have failed. No other bloodless option remains.",
+    "source_sha256": "0903dfb829fd3442b2fe542a6054b52739b581806255dd666613ce80cc13ed8c",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475019"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26275,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09356-052cb11a218c",
+    "source": "...Who is this?",
+    "source_sha256": "052cb11a218c3889764b35d6fa3feb3a023b20a312ed1ab1dc2fb42d25007dc5",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475162"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Hmm}",
+      "line": 26278,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09357-475e2296057b",
+    "source": "My servant, Your Majesty. She speaks little Danish, and she's quite the ignorant clout.",
+    "source_sha256": "475e2296057b15152eaa1f93cdb29130038430044da517a368983a922e85d4a9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475194"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "",
+      "line": 26280,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09358-c3a31f4845c4",
+    "source": "Can she be trusted?",
+    "source_sha256": "c3a31f4845c45738b52082562de1ceb15cf9c8909ebcecfa5d9801db73643a4d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475371"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26284,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09359-2dbeabfab404",
+    "source": "As I was saying, we must attack head on. We will begin by sieging the town at dawn.",
+    "source_sha256": "2dbeabfab404d1f01c5d594eeaeb44bec6a630ced69059045ec730a8dd2b2a57",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475411"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26292,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09360-c8a86d2ff87e",
+    "source": "Are you prepared to assist us in getting into the castle by any means necessary?",
+    "source_sha256": "c8a86d2ff87e5672f1db1a479a714d840bf09b533472272cdf5a8ebfc0f40582",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475580"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26293,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09361-365ed5a6aac0",
+    "source": "...There is no need, my lord. The King is already preoccupied.",
+    "source_sha256": "365ed5a6aac08f1ce1c9bd76e39411739ff7931ce278e6df3daa01ab257824d0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475743"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[sad] {My_Lord_Evil}",
+      "line": 26295,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09362-807cabed6917",
+    "source": "You will be able to enter with ease. The castle will be ill prepared.",
+    "source_sha256": "807cabed691718470643f3335eb87a7b93a026f1bc9c2656e985ceab1e939a51",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1475869"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26296,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09363-0ee0bf49ce4a",
+    "source": "Excellent. I so detest needless bloodshed.",
+    "source_sha256": "0ee0bf49ce4a2c3fd4ff387a1f6304b899c8831ea525a119ab424ae93a4e787f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1476010"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Chuckle}",
+      "line": 26300,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09364-5550d66fa161",
+    "source": "It is my uncle's way to murder and poison his way to the top. Not mine.",
+    "source_sha256": "5550d66fa1615b83ee7299d35dd63898d890c24bcb2833e6e8fff8dec5ae03ad",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1476096"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26301,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09365-31af75d1eed1",
+    "source": "Mind you be clear of this town at dawn. My men have already begun their approach.",
+    "source_sha256": "31af75d1eed14d07a059693d698719f3376f2205360eb8cd3d902f8247d00d00",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1476241"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26303,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09366-2c9f4695422d",
+    "source": "I wish no harm to come to any Danes. But if they protest, then I shall lay down my boot unflinchingly.",
+    "source_sha256": "2c9f4695422d319a51f7acb3b2152ee091debb90d364a6392834cd95d6afdc3f",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1476406"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26304,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09367-4830c9da8fbc",
+    "source": "Still, I have high hopes to take Prince Hamlet alive. From what his subjects say, I believe him to be a good man at heart.",
+    "source_sha256": "4830c9da8fbc7658ecd734bf0046274362ee9fa21766f0a9fdc30676fa35498d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1476613"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26305,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09368-a8a4f451e18b",
+    "source": "And you will be his bride.",
+    "source_sha256": "a8a4f451e18be59d2ae1e397a508fdeca4fd9e1b40f533f0ddf423676a340ee6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1476860"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26306,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09369-e268a16fc24b",
+    "source": "Are you not eager? This is a great honor for your family.",
+    "source_sha256": "e268a16fc24b16e6db11e3ffb8f84ea64da56ab0da94945eeedf96dc9ae5fe8e",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1476914"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Hmm}",
+      "line": 26308,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09370-be0bb16d3e94",
+    "source": "I am. It's just... he's been through so much lately. I fear he'll be broken by the time this siege is over.",
+    "source_sha256": "be0bb16d3e9474f623125d139064b03847b48d4340567fbe8758dca116453f51",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1477030"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26310,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09371-9bdefa6e43e6",
+    "source": "He seems odd and mad lately. Not in his right mind. Please... have your men be gentle with him.",
+    "source_sha256": "9bdefa6e43e6c135094e06b8202fc297d1b847b2b78a89c9ed70d00da7f61ca6",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1477247"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26311,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09372-cfbaf8bb6fe3",
+    "source": "I will. We'll take him prisoner as quickly as possible. He'll be surrounded by all members of his family who submit to the authority of Norway.",
+    "source_sha256": "cfbaf8bb6fe3036f9c7ba5fa6eb51b10b1b224fcf00f6800bfb0046a2028c4d2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1477440"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26312,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09373-f560404a45f8",
+    "source": "Hamlet has passed away, in truth. He'll never be King now.",
+    "source_sha256": "f560404a45f8b85f6543e6889e08015afe38c45f7be21297039912bde8197dc7",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1477729"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[sad]",
+      "line": 26314,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09374-972668ad6e1e",
+    "source": "I see. I hadn't heard the news. Now cracks a noble heart.",
+    "source_sha256": "972668ad6e1e49f6029c835a9d0fba559948115c0005c4bb2d68ea65e2e421b0",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1477847"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "[sad]",
+      "line": 26315,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09375-73d6a73c9ec9",
+    "source": "My younger brother, then. Or someone of his like. We shall see who yet has the muster to rule this country fittingly.",
+    "source_sha256": "73d6a73c9ec92a15b1ef87c86d75cd03c94744fb8ea06fd4c378995d990ad923",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1477963"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "[sad]",
+      "line": 26316,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09376-f13af8dfcdd6",
+    "source": "Mind you be clear of this town at dawn, my lady.",
+    "source_sha256": "f13af8dfcdd65734887695bbc7f5e9fba6fb2feff71fd7d68b2eff7a3a46554d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1478200"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26319,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09377-bd4dc7264183",
+    "source": "...One last, unfortunate thing.",
+    "source_sha256": "bd4dc7264183703110b74596d146a627f7f6c0e23e6f524b7d99791b823fc895",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1478298"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Now_Then_Sad}",
+      "line": 26323,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09378-5e6efc411909",
+    "source": "Your servant girl here.",
+    "source_sha256": "5e6efc4119092e6d137fa4fa3c216799e2986c67ff66d45b5c68b9e85e1896e9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1478362"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26327,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09379-642fee8474f7",
+    "source": "I once heard the most fascinating story about the Danish court.",
+    "source_sha256": "642fee8474f7515eb6e35fe95e3adf59a69a961e7a9488481268ce392658b880",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1478410"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26334,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09380-385d138f6fbb",
+    "source": "They say that a woman of some noble birth with a dark look about her held the Danish Prince's heart.",
+    "source_sha256": "385d138f6fbbf5d91ea8ef8e10f61d237d313d1af53c168fa29929b7de5b593d",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1478538"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26335,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09381-8f67e9d949d1",
+    "source": "And you, Lady Brit, mentioned yourself that a certain young girl's death could bring about Claudius's demise at her brother's hand.",
+    "source_sha256": "8f67e9d949d19e5eb255e578de827dda438df6a0711aada01794ec4a63f6a371",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1478741"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26338,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09382-27283185ec1c",
+    "source": "The way she stands, the way she looks... this woman is no clout, nor is she common.",
+    "source_sha256": "27283185ec1cc820eef4ecce2e878c7ac2bfc77c34530cbda2f7ac44807e9a52",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1479006"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "{How_Curious}",
+      "line": 26340,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09383-fa44f557ba15",
+    "source": "It's true. I am Lady Ophelia.",
+    "source_sha256": "fa44f557ba15891ffe28f2fd4a3951484de32cfc894ba58416e9ff9e83965050",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1479175"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Ophelia",
+      "cues": "{My_Name_Is_Ophelia}",
+      "line": 26344,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09384-6e26c02418a8",
+    "source": "Given your desire to overtake my country, I cannot rightly say it is a pleasure to make your acquaintance, Prince Fortinbras.",
+    "source_sha256": "6e26c02418a899b241ebfa58aea0261bb8033198e6edc52a084f1ba114d8a1d4",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1479235"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26345,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09385-85601f340f03",
+    "source": "I assume you're going to kill me now.",
+    "source_sha256": "85601f340f033d6fca4e15f2926fb254d821c8012067f231585a0f5772f86303",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1479488"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Ophelia",
+      "cues": "{Laughter_Fake}",
+      "line": 26351,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09386-626b4eb39461",
+    "source": "Unfortunately, you're correct. I cannot let you return to Elsinore and warn the others. A full defense mounted against us would mean more death.",
+    "source_sha256": "626b4eb39461b9af01a838abeb8430b8d2d6213f42b40efe0ed172393dc42aab",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1479564"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "{Hmm}",
+      "line": 26353,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09387-c6e761899e6f",
+    "source": "Although I truly despise the killing of women, in this case, we have no sufficient place in which to hold you until our work is complete.",
+    "source_sha256": "c6e761899e6f853a09d748f8724ddb4e75923c7ff8292d45adf8ee3315b1e40a",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1479855"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26354,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09388-9788ccf60817",
+    "source": "I shall need every man available for our coup, and this town may well be rubble if the castle will not surrender.",
+    "source_sha256": "9788ccf6081783d956738ac338c3f505b2e8bcccd02cf51668fc8e5ceda693b1",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1480132"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26355,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09389-9f60a1d04faa",
+    "source": "It is a most regrettable situation.",
+    "source_sha256": "9f60a1d04faae6609a2a2c9611d03369f5925c52791a73b74aba83a31e4404a8",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1480361"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Prince Fortinbras",
+      "cues": "",
+      "line": 26356,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09390-7bedbdb7ff05",
+    "source": "My lord, please... y-you're really going to kill her?",
+    "source_sha256": "7bedbdb7ff054f380539191118866248ce643abe80d642634d897ccc76ca63b2",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1480433"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[surprise] {My_Lord_Shock}",
+      "line": 26358,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09391-2445223134d2",
+    "source": "B-but she was just—she hasn't—done anything wrong!",
+    "source_sha256": "2445223134d250ce66ee30d62b4dff37538a6bee5d676aa0351ef915fff3cdde",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1480541"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[surprise]",
+      "line": 26359,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09392-0babd66fcbef",
+    "source": "I was the one who brought her—",
+    "source_sha256": "0babd66fcbef4dbee3c03b4cc196faff10119ed7539ddaeb57c4af9cb65ad870",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1480643"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Lady Brit",
+      "cues": "[surprise]",
+      "line": 26361,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09393-e61f2b6315c9",
+    "source": "Quiet, Brit.",
+    "source_sha256": "e61f2b6315c9428ccdd5e6a1f1b1fe4ce5e74f999e78cc4f3ce89318badea0a9",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1480705"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Ophelia",
+      "cues": "[disgust] {Disgust}",
+      "line": 26363,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  },
+  {
+    "id": "p09394-64842d87ca1f",
+    "source": "My lord, if you're going to kill me anyway, then please, tell me...",
+    "source_sha256": "64842d87ca1f79c3a6005f91b80cd589f2da4f8ff70084267e769172f4ea56da",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1480731"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Brit_Fortinbras_Ophelia",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 26364,
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+    },
+    "batch": "b0065"
+  }
+]

@@ -7,7 +7,13 @@
     "chinese_glyphs_available": true,
     "settings_pointer_navigation_logged": true,
     "settings_page_opened": true,
-    "settings_visible_texts_no_overflow": true
+    "settings_visible_texts_no_overflow": true,
+    "full_translation_chinese_glyphs_available": true,
+    "frozen_long_dialogue_dynamic_cache_cases": true,
+    "save_write_guard_active": true,
+    "toggle_original_menu": true,
+    "toggle_restored_menu": true,
+    "toggle_release_no_change": true
   },
   "passed": true,
   "visible_menu": [
@@ -40,13 +46,13 @@
     {
       "object": "Text",
       "active": true,
-      "text": "Cancel",
+      "text": "取消",
       "overflow": false
     },
     {
       "object": "Text",
       "active": true,
-      "text": "Yep, Erase It All",
+      "text": "是的，全部删除",
       "overflow": false
     },
     {
@@ -58,31 +64,31 @@
     {
       "object": "Text",
       "active": true,
-      "text": "Cancel",
+      "text": "取消",
       "overflow": false
     },
     {
       "object": "Text",
       "active": true,
-      "text": "Audio",
+      "text": "声音",
       "overflow": false
     },
     {
       "object": "Text",
       "active": true,
-      "text": "Gameplay",
+      "text": "游戏",
       "overflow": false
     },
     {
       "object": "Text",
       "active": true,
-      "text": "Graphics",
+      "text": "画面",
       "overflow": false
     },
     {
       "object": "Text",
       "active": true,
-      "text": "Erase All Data",
+      "text": "清除所有数据",
       "overflow": false
     },
     {
@@ -94,7 +100,7 @@
     {
       "object": "Text",
       "active": true,
-      "text": "Confirm",
+      "text": "确认",
       "overflow": false
     },
     {
@@ -118,31 +124,31 @@
     {
       "object": "Text",
       "active": true,
-      "text": "Default",
+      "text": "默认",
       "overflow": false
     },
     {
       "object": "Text",
       "active": true,
-      "text": "Normal",
+      "text": "普通",
       "overflow": false
     },
     {
       "object": "Label",
       "active": true,
-      "text": "Text Speed",
+      "text": "文字显示速度",
       "overflow": false
     },
     {
       "object": "Label",
       "active": true,
-      "text": "Character Costumes",
+      "text": "人物服装",
       "overflow": false
     }
   ],
   "limits": [
-    "未点击继续游戏，未进入存档",
-    "未验收对白和资料页面",
-    "设置页尚未全量汉化"
+    "未点击开始/继续按钮；游戏自动加载隔离存档副本",
+    "未验收对白和资料页面的像素排版",
+    "后台组件检查不能证明全剧情分支覆盖"
   ]
 }

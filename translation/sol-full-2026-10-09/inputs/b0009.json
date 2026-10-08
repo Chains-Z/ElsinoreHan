@@ -1,0 +1,1450 @@
+[
+  {
+    "id": "p00493-fc87d3d444f2",
+    "source": "What's wrong with you all? People are <b>dead</b> outside. You... you don't care?",
+    "source_sha256": "fc87d3d444f2f3408d42b81c5bcceb3561ddc664cfbfbb5356a8668eb04188ed",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2097571"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "[sad]",
+      "line": 567,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00494-2c86bb182d6c",
+    "source": "Ophelia. Start performing. <i>Now.</i> You're being rude.",
+    "source_sha256": "2c86bb182d6ce3f06f8620f812625f61f701a8610cba1dbd5b115139c1637180",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2097736"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Laertes",
+      "cues": "[angry] {Smug}",
+      "line": 569,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00495-d66e4ef02676",
+    "source": "Your brother's right.",
+    "source_sha256": "d66e4ef0267669a35d20b1f3bca921b76223afcfccc3e8a52e99878959b7888c",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2097852"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Polonius",
+      "cues": "[disgust]",
+      "line": 571,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00496-00d19410fb56",
+    "source": "Please, Ophelia, flee now!",
+    "source_sha256": "00d19410fb5679351f88ab38fb3f763e51c9cd52df3ed828a37ecdc09b18a614",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "The Ghost",
+      "cues": "{Please_Sad}",
+      "line": 576,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00497-a6f3c2a15048",
+    "source": "What? I...",
+    "source_sha256": "a6f3c2a15048f00a03dd27d7e6cbb885e52cb043e389047f62029d6ab81b7f68",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2097964"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 577,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00498-4ccefc8565bf",
+    "source": "This is all wrong. It's all--",
+    "source_sha256": "4ccefc8565bffc06d699042534e86a0782567b340ad5cee8ad224be3f1c0ea18",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "The Ghost",
+      "cues": "",
+      "line": 580,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00499-e6cbc39bb7fb",
+    "source": "Miss me?",
+    "source_sha256": "e6cbc39bb7fb4d5b5af500ca4043e4769beaf636a8ff0bdc4e6a4cc1cee362cc",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098090"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "{Miss_Me}",
+      "line": 602,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00500-5e38459d879e",
+    "source": "No! Nononono...",
+    "source_sha256": "5e38459d879ecfe315d15afca622cd87b8d772c5095c6f7b813542cc7681dad6",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098108"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Nonono_Intense}",
+      "line": 606,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00501-2640ba0322cd",
+    "source": "Why the pout, darling? Wasn't my retelling faithful?",
+    "source_sha256": "2640ba0322cd82fb0c64f9c17584602fb2e6722d96aa9b036e49ceaf1b74dd26",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098140"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "{Chuckle}",
+      "line": 608,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00502-a57459d2f850",
+    "source": "My puppeteering of your family and friends... was the script not superb, the twist not sincere?",
+    "source_sha256": "a57459d2f85080a452fc575b6c950d5b98ec6d9a15e29c8a475200a2e0f2085a",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098246"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 609,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00503-834b905b2d08",
+    "source": "And I must say, your <i>own</i> performance was sublime. Well done!",
+    "source_sha256": "834b905b2d0882c3e99a1519992aba40cbfef7da6b3b81fd2893e414cc458364",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098439"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 610,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00504-cb190fa4e01c",
+    "source": "What was it you just said, Gertrude, my dear? Do that line again.",
+    "source_sha256": "cb190fa4e01ccfca5831e6255e76d9e2f841033c21fcc7d7e8207ce45365013b",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098576"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 615,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00505-63aa04204460",
+    "source": "Couldn't agree more. It was such an interesting strategy! What an odd way to play!",
+    "source_sha256": "63aa042044605f08709ce53e9f54e10a76a705b70523e093dd8f52bb9f84fc5b",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098709"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[happy] {Ahh_Happy}",
+      "line": 621,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00506-0c0a6fb0c20e",
+    "source": "You thought you could actually <i>leave</i> the game board.",
+    "source_sha256": "0c0a6fb0c20e5923cd7fcb96f7f5e3698961e7310b0fb896f2fe9c6760652590",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098876"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 624,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00507-476d5e2292d4",
+    "source": "Just... slip a dagger between your opponent's ribs, get up, and walk away. How rude!",
+    "source_sha256": "476d5e2292d4b81c1819835aa6ac8f19e8f8596be416af4c54875afef7ee9c07",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2098996"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[smile]",
+      "line": 626,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00508-a963b0c856d4",
+    "source": "But <b>that isn't how this game works.</b>",
+    "source_sha256": "a963b0c856d4d5f2da85ad1e75852b075c7ee6eae80567c3eae2e92bc9070a5e",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099185"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 630,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00509-ac593b1335e8",
+    "source": "Yes! Bring on the drama!",
+    "source_sha256": "ac593b1335e8ced373485736f71264f2e5e11047c717c64b79c7a2d2a705f804",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099271"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Laughter}",
+      "line": 636,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00510-9b80cafcb84b",
+    "source": "I am a <i>god.</i>",
+    "source_sha256": "9b80cafcb84b20647d193357cf7648663053d2f73bb83a9427a9e5de912c38b7",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099321"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface] {I_Am_A_God_Angry}",
+      "line": 643,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00511-854376cbda0c",
+    "source": "I have played thousands of matches across thousands of worlds.",
+    "source_sha256": "854376cbda0c3d43349b0e1952010608779efc367fe0103671e666c0f1c8f169",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099359"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 644,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00512-081a39a9ffc6",
+    "source": "There will be no winning in this game, Ophelia. Only suffering awaits you.",
+    "source_sha256": "081a39a9ffc648bf03844473f94e4bdbb937834ff13d82a45deca770968b6a6b",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099485"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[angry]",
+      "line": 646,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00513-234924d8f466",
+    "source": "There <i>is</i> no secret way out! There <i>is</i> no magical solution, no solvable puzzle!",
+    "source_sha256": "234924d8f4666628e23ff5396a5a74b69230b813933eb1791a41c183094992f1",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099636"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[angry]",
+      "line": 652,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00514-3e23c3a14bcf",
+    "source": "You will live on, trapped here, in great pain. And eventually, you will give up.",
+    "source_sha256": "3e23c3a14bcfe8ccdc552b76de6420eea213e41c7d3535b59af9b8c483b1ff3d",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099821"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 653,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00515-839c8d058bb5",
+    "source": "Now take your seat on the opponent's side once more, please.",
+    "source_sha256": "839c8d058bb568b56b68d3374f01d14b7c95b07ace5adb4053fded00c5172fb2",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2099984"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 656,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00516-cfecd63f20b4",
+    "source": "Fine. I found one way to kill you. I'll do it again.",
+    "source_sha256": "cfecd63f20b4f579879cf553487b2de05e21289ca0e6a7c33dc4b5f2ce46871a",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2100106"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "",
+      "line": 659,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00517-29e6cc73c33e",
+    "source": "But you see, I cannot die! Not really. I thought it might be fun to pretend to let you win for a while.",
+    "source_sha256": "29e6cc73c33eef7ae76ef39a5e24498923970d3c560d1bd00378ef61019b9a26",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2100212"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[smile] {Scold}",
+      "line": 661,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00518-f00910bbc92a",
+    "source": "But now I'm bored of <i>that</i> game. And for your arrogance, we must extract a permanent penalty.",
+    "source_sha256": "f00910bbc92a45c7716fa6860b0a9a9e163cdfae5a5531ceaa27ae08cc87ea17",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2100421"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 662,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00519-20aa0cef7bb6",
+    "source": "You. You're gone.",
+    "source_sha256": "20aa0cef7bb60f957a665e9c6b9eed57468b9421e7649bea642bbe55a683fd5c",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2100622"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface] {Banish_Ghost}",
+      "line": 665,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00520-1f0936181d38",
+    "source": "Yes. Go. Forever, this time.",
+    "source_sha256": "1f0936181d384ae329d52256b0a0f975ee54b1509ee529d5f22a3f20cece410c",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2100680"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[angry]",
+      "line": 670,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00521-decf6fccbdce",
+    "source": "Go to the little dark box where the game pieces lie when they're no longer needed. And stay there.",
+    "source_sha256": "decf6fccbdce979eaee58fc33e930adeaabae0c87e25b20951e805c31b788cca",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2100738"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[angry]",
+      "line": 673,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00522-4880dda7f1c1",
+    "source": "What did you do to him, Quince?",
+    "source_sha256": "4880dda7f1c1a38780000d4a0ac9bce83e37adc1e8b8804937d10e2ff293273e",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2100973"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "{What_Did_You_Do_To_Him_Sad}",
+      "line": 682,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00523-84fc602a1604",
+    "source": "It no longer amused me, so I put the toy back where it belongs. Never to be seen again!",
+    "source_sha256": "84fc602a1604e72f7d1a223b726da187453d22f9ce075a8da5d4644c9af32ca8",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101037"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface] {Chuckle}",
+      "line": 685,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00524-0c35c4828388",
+    "source": "After all, naughty players get punished. That's how the rules work! And I'm just getting started.",
+    "source_sha256": "0c35c4828388bfb5d80bfd3e0f3fb4340132ac57df60cbaab6eb970c85803e37",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101214"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 686,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00525-b11820772884",
+    "source": "All right, Laertes. It's your turn!",
+    "source_sha256": "b11820772884a5544383d344514fd2780ae7660b27069b35348fb899d71ef204",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101411"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "",
+      "line": 688,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00526-929c7ece2f52",
+    "source": "How can I help, Sir Quince?",
+    "source_sha256": "929c7ece2f528194219c74aab351b7d68ad4ea546a26b24efe2c194b3dec3f91",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101483"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Laertes",
+      "cues": "{Of_Course_Warm}",
+      "line": 693,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00527-125de9e34df6",
+    "source": "You can die.",
+    "source_sha256": "125de9e34df62183df408d11826549f8eda3994b22775490791a5548d36674c4",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101539"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[angry]",
+      "line": 695,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00528-a079c6d1d8f2",
+    "source": "No! Laertes!",
+    "source_sha256": "a079c6d1d8f2d5d5f7242b40edd1870ccef8e975c8b6d344c4a9dfdc18a67f28",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101565"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Polonius",
+      "cues": "[despair] {No_Dramatic}",
+      "line": 701,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00529-8cc69319c026",
+    "source": "Stop it. They still feel pain. Even if they're only temporary fragments.",
+    "source_sha256": "8cc69319c0268d4e986fff19e18f865cd0b8921cf442bbaeef906b5bbfdb70d4",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101591"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "[despair] {Stop_Plead}",
+      "line": 705,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00530-19cf81931b3e",
+    "source": "I don't care about hurting them. I care about hurting <i>you</i>.",
+    "source_sha256": "19cf81931b3e5a77cda339eb9e6a9f164d6513df57a859c5183878ea8111ab85",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101738"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[angry] {Disgust}",
+      "line": 708,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00531-4a85ecbb7e50",
+    "source": "Ahh! More, more!",
+    "source_sha256": "4a85ecbb7e5045def9f77575a43451e642a8508b843c211b0a0397f86fd0de55",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101871"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Irma",
+      "cues": "[happy] {Ahh}",
+      "line": 715,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00532-960329c39bc9",
+    "source": "Magnificent! What of me, playmaster? Is it my turn?",
+    "source_sha256": "960329c39bc9950b934e60b923a3c6367164baa73190015c4bf288bfe36b36e3",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2101905"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "King Claudius",
+      "cues": "[happy] {Magnificant}",
+      "line": 724,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00533-a964a05d70f9",
+    "source": "Thank you, thank you. You're too kind.",
+    "source_sha256": "a964a05d70f99117ebc2743130a6c3677ad60d4d261bf4ea78f8ba7a49ca4171",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102009"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 730,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00534-5787d96c4b0e",
+    "source": "And... a hush falls over the theater at last.",
+    "source_sha256": "5787d96c4b0ebab72d504fda6f2e58c2bebf954856aaf3dceefa11702d22e867",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102087"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 732,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00535-d66f586effe7",
+    "source": "So what's your assessment of this little experiment, Ophelia? Hmm?",
+    "source_sha256": "d66f586effe7973cab0c1da15134135d6fdd58bd19389b1ba0d6524b9ee6fe48",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102179"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 739,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00536-48328f51424d",
+    "source": "Have we learned our lesson, perhaps?",
+    "source_sha256": "48328f51424d17c1805b2728a2815d29cf1974239ae8a70f84ea68e0d104abdf",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102314"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 740,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00537-9d1ffd81cb8d",
+    "source": "A truly happy ending can't exist. Except inside your imagination, of course.",
+    "source_sha256": "9d1ffd81cb8d58187d00020bdfa841bd325cb778df07f9a2252c68012a2d51d5",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102388"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 743,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00538-b5a661114674",
+    "source": "Or shall I force you to stay here in this world? I can bring them back to life, you know.",
+    "source_sha256": "b5a6611146749b29be143f060a98c56da9af0da90dd920f0c56f6ee31de3736e",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102543"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[happy]",
+      "line": 745,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00539-d51b0f2d9f54",
+    "source": "And kill them all over again. Dash their heads against the floor, have them duel one another...",
+    "source_sha256": "d51b0f2d9f54f83f60a2c5c4774be6e09353b738eb3d91ebd758916ced8e80be",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102724"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 746,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00540-60331e6be097",
+    "source": "There are so many fun ways! I'll even let you try!",
+    "source_sha256": "60331e6be09750b75631a272f883a858b73acf56cad4aa16abb2dd4cb7a28a90",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2102917"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Quince",
+      "cues": "[murderface]",
+      "line": 748,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00541-a39c0f0f3e31",
+    "source": "There's one thing I can still do.",
+    "source_sha256": "a39c0f0f3e31955609857b07f09e6cfa48ab872e2f3b8e83e1c4d618307a3573",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2103019"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 752,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00542-1e3059668a7c",
+    "source": "You can't control this.",
+    "source_sha256": "1e3059668a7c80c0d9cbc863a3434da9b6a80892bd67a4a873395847303064aa",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2103087"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "scene": "Quince_End",
+      "speaker": "Ophelia",
+      "cues": "[despair]",
+      "line": 753,
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00543-e507eaad3811",
+    "source": "Nothing matters. It's all useless.",
+    "source_sha256": "e507eaad38111afe970e7e8653533a4521583a8d1926ec35698bb535b398d8ed",
+    "origins": [
+      "resources.assets:scenes:ed4319ff1aed",
+      "Assembly-CSharp.dll:#US:2103173"
+    ],
+    "categories": [
+      "dialogue"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00544-42550c149611",
+    "source": "Hamlet is the reigning Prince of Denmark. He recently lost his father, the former King, also named Hamlet. Hamlet and I were in a relationship once—long ago. He used to be very popular among those his age in Elsinore, but these days... I don't know, really.",
+    "source_sha256": "42550c149611b4a77b1f4bd587f47e36208c6f7c5b46d9192c7c61ed269dbdea",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00545-eda428fdc315",
+    "source": "Hamlet and I were together for two years, in secret. In that time, he was... different. Happier. He had a sense of humor then. Neither of us had ever loved another before, but he treated me with respect and an unfailing kindness. He went away to Wittenberg for University, and then his father passed, and he came back a changed person. These days, it's hard to look at him; all I see is the person he used to be.",
+    "source_sha256": "eda428fdc3155316db322ddad5709eb403b7dddd1996d47180474ca87f272286",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00546-2429ee3b5bf8",
+    "source": "The Queen is one of the kindest people I've ever met, and her people love her dearly. Gertrude isn't Danish, but married into the throne via her late husband, the King Hamlet. She remarried quickly after his death—now she is Claudius's wife.\n\nAfter my mother passed away when I was a child, Gertrude sort of took Laertes and me under her wing. I've been eternally grateful to her for her kindness ever since.",
+    "source_sha256": "2429ee3b5bf82188e88710ba7e7aad364eab2f16332a71812cceeb627d34830e",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00547-d6cfade62485",
+    "source": "I read Gertrude's diary. Inside, I found proof in her own hand that she began an affair with Claudius before her husband passed away. It's clear that she's been unhappy for some time now. Onerous though Claudius may be, he seems to treat her well above all others.",
+    "source_sha256": "d6cfade624855c6da84db898efd460c307bf715827c2fa207e61990d6ebc7b14",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00548-0959f52b38c0",
+    "source": "Gertrude hasn't slept recently. She's tormented by thoughts about her husband's death. It's slowly driving her mad, though she seems to do everything in her power to hide it.",
+    "source_sha256": "0959f52b38c01fb5914cf53b88458c251c9ae6a0e9fc9d7324d5e6a7e40b7ccc",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00549-5a8f9576aa76",
+    "source": "Gertrude was born in Austria, and is a member of the illustrious Hapsburg family - in fact, her father is the Emperor Maximilian I. She's worked incredibly hard to learn Danish and minimize her accent entirely. I know she has a sister as well, who lives outside Denmark. Royal blood runs thick through her veins.",
+    "source_sha256": "5a8f9576aa760ed21c0ab1830cd2126528d42310a70538f833295a67645d41dc",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00550-95656bd0ffa8",
+    "source": "Claudius murdered his older brother, the late King Hamlet, and covered up his crime. He clearly carries an enormous amount of guilt over it and hasn't been able to find a way to confess. It's not even clear to me whether his wife knows, though she surely suspects.",
+    "source_sha256": "95656bd0ffa898922872cd38ec5954d54c95ab779dfe1bf085f746ccc952d8e7",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00551-87c725e0dc5c",
+    "source": "When the King was young, his older brother used to beat him severely, so much so that he spent most of his life afraid of Hamlet. Is it any wonder Claudius despises young Hamlet, the spitting image of his tormentor? If someone treated me like that all my life... I'm not sure <i>what</i> I'd do to them. Every person has their breaking point.",
+    "source_sha256": "87c725e0dc5c0fff199964e92d3314f87ea4d839dd7725170c39405fabbc6fe5",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00552-df871c287d95",
+    "source": "Polonius is my father, and the King's advisor. He can be a bit addle-brained at times, and he loves to talk—a lot—but he really just likes being around people, I think. \n\nHe's always been an attentive father to my brother Laertes and I... sometimes a little too attentive. It can be stifling.",
+    "source_sha256": "df871c287d9522a47cb8963dd2b57692715697b66b5fb1c562526677bf69bd98",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00553-bee7c7d42e2e",
+    "source": "My father is <i>so</i> loyal to the King that he's still keeping secrets on the King's behalf after King Hamlet's death. I worry it's going to bring my father nothing but trouble in the long term.",
+    "source_sha256": "bee7c7d42e2ece569063afe0234dfe06c1d0a761218e191b16be6de6175c0754",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00554-a9ba68b5f6f5",
+    "source": "I recently uncovered that my brother and Brit are involved romantically, and have been for quite some time. It's understandable they want to keep the relationship a secret, given the various political pressured at play. I, er... stumbled in on them by mistake.",
+    "source_sha256": "a9ba68b5f6f525c7533469479ded4a70ddf2d52a653b64c7a6ab11116da8af18",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00555-6716473a5435",
+    "source": "Birgitta ('Brit')",
+    "source_sha256": "6716473a5435242e929e377ea2c0e5e58e1f26e84ad0713416f2e4c31ea4cb2e",
+    "origins": [
+      "resources.assets:bios:7719667ee314:slug"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00556-d6efd0d9eb2c",
+    "source": "Brit is Gertrude's lady in waiting. She can be terribly cruel. We've never gotten along since she came to Elsinore three years ago.\n\nShe is the daughter of one of the most powerful noble families in Denmark, as with most of the people here at Elsinore. I can't speak my mind around her or my father would scold me for sullying our name.",
+    "source_sha256": "d6efd0d9eb2c0f2552f9d0a12e9c668e0ddfb2c7d0613a89a9a9b86a29a118e5",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00557-ea9167a4a600",
+    "source": "Lady Brit is in the employ of Lord Fortinbras, at her father's behest. That's why she sought to kill me. Destroying me would ensure Laertes was angry enough to dethrone Claudius—at least, that was their hope. I foiled that hope in stopping her plan.",
+    "source_sha256": "ea9167a4a6003f05c6b840e574b6d25c81974920065b0af9f08d7ede04d4506e",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00558-eeab082d7a9b",
+    "source": "Brit has no desire to be here at Elsinore; she seems deeply unhappy, as though something's weighing heavily upon her. I wonder if it's possible to get to know her better, much as it would pain me to try and do so. I might learn what makes her so distraught.",
+    "source_sha256": "eeab082d7a9b604b39e6015d5439ff85227e2aef48b9b3057a6f53f2d1fc5fb5",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00559-ff849ae06e50",
+    "source": "I saw Bernardo performing in town today, as Katherine. I never knew. We grew up together, and I never knew. This doesn't change my feelings towards Bernardo, however she or he chooses to live in the future—but for now, the Bernardos in other worlds would likely prefer I kept their identity a secret.",
+    "source_sha256": "ff849ae06e5011720683a64dec7dc17f3a17abadb45b79fb32b638cb1926d2d4",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00560-edb527da0d89",
+    "source": "Horatio was born in India, the son of a spice merchant who sailed between Venice and Calicut. He never knew his mother. He was raised as a Venetian, and at some point made his way to Denmark, which is where he entered King Hamlet's employ as a soldier. He's remained here ever since, barring the time he was with Hamlet at Wittenberg.",
+    "source_sha256": "edb527da0d897712099c11862237ecb7be960b830e2b0d7c3fbae4c503c59e7a",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00561-110007c9aaee",
+    "source": "I've learned that Horatio left Venice, where he was raised, when his father passed away. He went to Florence after that and sought work as an assistant to master artists. One such artist was a man whose work he admired deeply; he became romantically involved with his master soon afterwards. That's the period of his life which spanned between his youth in Venice and his adulthood in Denmark.",
+    "source_sha256": "110007c9aaeeada81a276b6c3629fa2fd62e69d0ba90c694eb9673d63c117c4c",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00562-318b3c3eed25",
+    "source": "Hamlet and Horatio departed for Wittenberg together, it turns out. King Hamlet sent Horatio to watch over Hamlet while Hamlet was in school, since Horatio was older and calmer than Hamlet. But Horatio and Hamlet became close, and Horatio told Rosencrantz that he's been in love with Hamlet ever since.",
+    "source_sha256": "318b3c3eed256cafbf7933bc3db98fc86bceb65d1367394e9afff5e19ad842b1",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00563-9a5385b04ba5",
+    "source": "I saw Horatio mourning Hamlet, in private. He clearly has feelings for Hamlet which extend beyond friendship. He's been dealing with this alone, on his own. I don't think he'll have closure until he's able to find someone else to talk to.",
+    "source_sha256": "9a5385b04ba5ecd0745c9ec5c35c2a9c64f6110b96d9e2dbecd11a509de9607e",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00564-77ffe1c3bb77",
+    "source": "Rosencrantz",
+    "source_sha256": "77ffe1c3bb7769f37cddc73ab14b429e7b2b00a26a09c062c889da26acc2f9f0",
+    "origins": [
+      "resources.assets:bios:7719667ee314:slug",
+      "resources.assets:bios:53db25df9eed:slug",
+      "Assembly-CSharp.dll:#US:14347"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00565-39e03be5d2df",
+    "source": "Rosencrantz and Guildenstern are two of Hamlet's oldest friends from the university. I hadn't met them until recently—they're both the daughters of wealthy noble families, but come from foreign lands.\n\nRosencrantz is the louder and more surefooted of the two women, and there's a clear imbalance in their dynamic. Something has evidently made them inseparable, though.",
+    "source_sha256": "39e03be5d2df1f4054e412ef26dbe8340b8fde92c88e0e4e0ec6a5f8fb546ee9",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00566-71d0f74b8c6c",
+    "source": "I watched Rosencrantz offer Horatio some advice on matters of the heart, and in the process learned that she has only ever loved women. She seems to be rather open about this fact; I wonder where she comes from, that such a thing can be so transparent.",
+    "source_sha256": "71d0f74b8c6ce65dc7905a5c702bc36ec4535a60f2b6f99734ed97ffcf1d9b07",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00567-34dd1c90aa1b",
+    "source": "Guildenstern",
+    "source_sha256": "34dd1c90aa1b41eeeaa32427d74586277d639787f6e6847f7b75f774b634231b",
+    "origins": [
+      "resources.assets:bios:7719667ee314:slug",
+      "resources.assets:bios:53db25df9eed:slug",
+      "Assembly-CSharp.dll:#US:10243"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00568-a8a1bf0ddcac",
+    "source": "Rosencrantz and Guildenstern are two of Hamlet's oldest friends from the university. I hadn't met them until recently—they're both the daughters of wealthy noble families, but come from foreign lands.\n\nGuildenstern appears to be the more reserved of the two, and often follows in Rosencrantz's shadow. I wonder what she's like and what she knows about Hamlet?",
+    "source_sha256": "a8a1bf0ddcacb302a2b76660482dbb1625f96dea7dd6448db0258eab0dece904",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text",
+      "resources.assets:bios:53db25df9eed:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00569-f1b27de78ed1",
+    "source": "The closer I've gotten with Guildenstern, the more I've realized something about her. She seems to be almost thoughtless and carefree at times, but she can be deeply, deeply kind. I think we might become fast friends.",
+    "source_sha256": "f1b27de78ed11727db03051a222d870272ef3fc7527c7f339bbeb35b7fd7d7de",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00570-b85e8b77bc6a",
+    "source": "Guilda and I shared a kiss late one night on the deck of our ship, after it had been overtaken by pirates. I wish we could have more time together. I wish I could get to know her more. Four days isn't enough time to process everything that happened.",
+    "source_sha256": "b85e8b77bc6afd3861049d6ed5941d608f7523873fbddf234205de4b76a34dcb",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  },
+  {
+    "id": "p00571-08b606415af7",
+    "source": "Guildenstern and Hamlet had a brief romance of their own, it turns out. I suppose it must have taken place at school, when Hamlet was away. Perhaps that's why they were so quick to come to his aid when Claudius sent for them.",
+    "source_sha256": "08b606415af79c6047116cde5934ff8b7552906bcb008d308e464be9cdd78f03",
+    "origins": [
+      "resources.assets:bios:7719667ee314:text"
+    ],
+    "categories": [
+      "resource_ui"
+    ],
+    "context": {
+      "type": "资料、界面或未定位对白"
+    },
+    "batch": "b0009"
+  }
+]
