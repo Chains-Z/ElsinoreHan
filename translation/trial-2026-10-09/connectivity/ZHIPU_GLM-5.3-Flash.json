@@ -1,0 +1,18 @@
+{
+  "scope": "真实短句接口检查，非质量盲评",
+  "model": "ZHIPU/GLM-5.3-Flash",
+  "http_status": 400,
+  "elapsed_seconds": 0.44,
+  "source": "A Scrawled Note From Laertes",
+  "max_tokens": 512,
+  "enable_thinking": true,
+  "response": {
+    "error": {
+      "message": "The product is not activated, please confirm that you have activated products and try again after activation.",
+      "type": "invalid_request_error",
+      "param": null,
+      "code": "invalid_parameter_error"
+    },
+    "request_id": "607262b0-cc7f-9526-8ded-3a90e1c2ccc1"
+  }
+}

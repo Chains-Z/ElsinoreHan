@@ -1,0 +1,37 @@
+{
+  "scope": "真实短句接口检查，非质量盲评",
+  "model": "ZHIPU/GLM-5.3-Flash",
+  "http_status": 200,
+  "elapsed_seconds": 1.73,
+  "source": "A Scrawled Note From Laertes",
+  "max_tokens": 512,
+  "enable_thinking": true,
+  "response": {
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "message": {
+          "content": "莱尔特斯留下的潦草字条",
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1791481045,
+    "id": "b54447cc-fe1c-9e31-95b5-6321f65e79fd",
+    "model": "ZHIPU/GLM-5.3-Flash",
+    "object": "chat.completion",
+    "request_id": "b54447cc-fe1c-9e31-95b5-6321f65e79fd",
+    "usage": {
+      "completion_tokens": 11,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens": 41,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      },
+      "total_tokens": 52
+    }
+  }
+}

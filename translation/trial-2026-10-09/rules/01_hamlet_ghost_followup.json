@@ -1,0 +1,30 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Ophelia",
+      "dst": "奥菲莉娅",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "King Hamlet",
+      "dst": "哈姆雷特国王",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Quince",
+      "dst": "奎因斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "Quince 与 Ophelia 在她卧室交谈，Hamlet 在场。Ophelia 说她以为 King Hamlet 已死，Quince 表示确已死但死亡不是线性的，二人和自己均有未竟之事；Ophelia/Quince 对白随后明确世界在重复。Hamlet 的动作暂停，后被恢复。随后 Hamlet 说自己见到了父亲的亡魂，地点是城墙，时间是午夜。背景只作理解参照，不提前加进任何译句。\n只读前文：[{\"speaker\": \"Quince\", \"source\": \"Greetings.\", \"line\": 368}, {\"speaker\": \"Ophelia\", \"source\": \"Quince?\", \"line\": 369}, {\"speaker\": \"Quince\", \"source\": \"Had quite a nasty surprise back there, didn't you?\", \"line\": 372}, {\"speaker\": \"Quince\", \"source\": \"I see you've become acquainted with a good friend of mine.\", \"line\": 373}]",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

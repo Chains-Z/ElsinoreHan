@@ -1,0 +1,39 @@
+{
+  "model": "deepseek-v4-pro-0813",
+  "batches": [
+    {
+      "batch": "01_hamlet_ghost_followup",
+      "exit_code": 3,
+      "validation": {
+        "passed": false,
+        "new_model_calls": 0,
+        "expected_count": 20,
+        "output_count": 20,
+        "no_chinese_indices": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19
+        ]
+      }
+    }
+  ],
+  "executor": "AiNiee-Next",
+  "upstream_commit": "b0883c9f806984571d8f9fe8c4345425d1e6fe83"
+}

@@ -1,6 +1,21 @@
 # 一把 API Key 的翻译接入方案
 
-核查日期：2026-10-09。用户希望减少平台注册与密钥申请，优先一把 Key 覆盖模型对比；目前没有申请密钥、读取凭证或调用翻译模型。
+核查日期：2026-10-09。用户提供的一把北京业务空间 Key 已接通四个模型并完成真实试译，无需另申请 DeepSeek 或智谱 Key。原始凭证未打印、未写入公开配置或提交。
+
+## 已提供的业务空间
+
+用户已提供百炼北京业务空间并授权使用本地 `api-key.txt` 进行小样测试，充值 5 元。公开接入信息保存在 [translation/provider.json](../../../translation/provider.json)，不包含密钥；`.env.example` 已同步地址。
+
+| 字段 | 用户提供值 |
+| --- | --- |
+| 说明 | AI 游戏翻译 |
+| 业务空间名 | 默认业务空间 |
+| 业务空间 ID | `ws-ffu0slce8mka9d9o` |
+| API Host | `ws-ffu0slce8mka9d9o.cn-beijing.maas.aliyuncs.com` |
+| OpenAI 兼容地址 | `https://ws-ffu0slce8mka9d9o.cn-beijing.maas.aliyuncs.com/compatible-mode/v1` |
+| DashScope 地址 | `https://ws-ffu0slce8mka9d9o.cn-beijing.maas.aliyuncs.com/api/v1` |
+
+本轮接入统一使用业务空间专属地址；密钥只在运行时从被 Git 忽略的文件读取，不打印或写进公开配置。先核对模型权限，再执行受 5 元总预算约束的小批量试译；这些地址是用户现场值，优先于下文通用域名示例。
 
 ## 建议方案
 
@@ -27,9 +42,9 @@
 
 ## 本地配置与接入边界
 
-密钥保存在本机即可，不发送到聊天。项目提供 [.env.example](../../../.env.example) 作为字段示例；复制为项目根的 `.env` 后填写 `DASHSCOPE_API_KEY`。`.env` 已被 Git 忽略，示例只包含空密钥和公开模型名。该文件是本地凭证配置约定，现成执行器的接入配置仍需在实际试译时完成，不能声称已经调用成功。
+密钥保存在本机即可，不发送到聊天。项目提供 [.env.example](../../../.env.example) 作为字段示例；`.env` 被 Git 忽略，示例只包含空密钥和公开模型名。本轮实际从 `translation/provider.json` 读取公开配置，从 `api-key.txt` 临时注入凭证，四候选已调用成功。
 
-百炼优先推荐业务空间专属域名：`https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1`。官方仍支持 `https://dashscope.aliyuncs.com/compatible-mode/v1`，模板先使用此地址，避免要求用户额外手工拼接；实际工具配置由 agent 处理。
+百炼优先推荐业务空间专属域名：`https://{WorkspaceId}.cn-beijing.maas.aliyuncs.com/compatible-mode/v1`。官方仍支持 `https://dashscope.aliyuncs.com/compatible-mode/v1`；当前模板和实际调用已使用上文业务空间专属地址。
 
 同一 Key 不代表请求参数完全相同：
 
@@ -38,4 +53,16 @@
 - Qwen-MT 只接收单条 user 消息，按 [翻译 API](https://help.aliyun.com/zh/model-studio/machine-translation/) 传入 `translation_options`。不能把通用聊天模型的 system/user JSON 提示原封不动发送给它。
 - 模型卡中的“批量推理不支持”指平台异步 Batch 功能；本项目仍可由现成执行器分块、限速、多次普通请求处理全量文本。
 
-已核实接口文档与模型目录，尚未验证用户账户授权、连通性、输出格式、中文质量和真实计费。汉化补丁的离线词表与中文显示验证不需要 API Key，只有真实模型试译和批量翻译才需要。
+账户权限、连通性及 40 条批量输出已真实验证，结果见[四模型试译结论](trial-results.md)。按返回 usage 折算费用，不具备账户实际账单查询结果。汉化补丁的离线词表与中文显示验证不需要 API Key，只有真实模型试译和批量翻译才需要。
+
+## Flash 与 FlashX
+
+用户已在百炼开通智谱直供服务，普通 `ZHIPU/GLM-5.3-Flash` 已调用成功。FlashX 不是本轮新增付费候选。
+
+| 项目 | Flash | FlashX |
+| --- | ---: | ---: |
+| 输入原价，元/百万 token | 0.8 | 2 |
+| 输出原价，元/百万 token | 2.8 | 7 |
+| 产品定位 | 低成本通用模型 | 高速模型，官方宣传 200 token/s |
+
+来源：[Flash 官方模型卡](https://help.aliyun.com/zh/model-studio/glm-5-3-flash-by-zhipu)、[FlashX 官方模型卡](https://help.aliyun.com/zh/model-studio/glm-5-3-flashx-by-zhipu)，2026-10-09 核查。未命中缓存时 FlashX 输入输出均为普通 Flash 的 2.5 倍价格。官方卡没有提供本游戏翻译质量对比，也不能据此认定两者权重完全相同；离线预译优先质量与费用，因此本轮先使用普通 Flash。

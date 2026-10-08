@@ -25,3 +25,6 @@ runtime/evidence/MoeFont-README.md
 runtime/evidence/probe-process-id.txt
 runtime/evidence/archive/
 *.log
+
+# 试译保留原始请求账本和最终结果，上游增量缓存只留本机
+translation/trial-*/outputs/*/*/cache/

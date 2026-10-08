@@ -1,0 +1,31 @@
+{
+  "scope": "真实短句接口检查，非质量盲评",
+  "model": "qwen-mt-plus",
+  "http_status": 200,
+  "elapsed_seconds": 0.38,
+  "source": "A Scrawled Note From Laertes",
+  "max_tokens": 512,
+  "enable_thinking": null,
+  "response": {
+    "id": "chatcmpl-1e1c5237-6981-9e56-9c0e-67846c831eed",
+    "object": "chat.completion",
+    "created": 1791480350,
+    "model": "qwen-mt-plus",
+    "choices": [
+      {
+        "index": 0,
+        "message": {
+          "role": "assistant",
+          "content": "来自雷欧提斯的一张潦草便条"
+        },
+        "finish_reason": "stop",
+        "logprobs": null
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 41,
+      "total_tokens": 52,
+      "completion_tokens": 11
+    }
+  }
+}

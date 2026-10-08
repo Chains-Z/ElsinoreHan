@@ -1,0 +1,19 @@
+{
+  "model": "deepseek-v4-pro-0813",
+  "batches": [
+    {
+      "batch": "01_hamlet_ghost_followup",
+      "exit_code": 0
+    },
+    {
+      "batch": "02_register_challenges",
+      "exit_code": 0
+    },
+    {
+      "batch": "03_ui_and_information",
+      "exit_code": 0
+    }
+  ],
+  "executor": "AiNiee-Next",
+  "upstream_commit": "b0883c9f806984571d8f9fe8c4345425d1e6fe83"
+}

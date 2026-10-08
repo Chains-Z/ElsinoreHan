@@ -1,0 +1,25 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Elsinore",
+      "dst": "埃尔西诺",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Fortinbras",
+      "dst": "福丁布拉斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "以下各项互相独立，不是同一次对话；上下文只供理解，不额外翻译：\n1. All：资料界面的分类标题。；语体：清楚准确的界面/资料语体\n2. Otherworldly Occurrences：资料界面的分类标题。；语体：清楚准确的界面/资料语体\n3. A Spy in Elsinore：information[id=Assassin_PlayHearsay]，type=hearsay；这是角色取得的资料表述，不得升格为全知事实。；语体：清楚准确的界面/资料语体\n4. There's a spy in Elsinore Castle. Perhaps the right performance could elicit a reaction in this person.：information[id=Assassin_PlayHearsay]，type=hearsay；这是角色取得的资料表述，不得升格为全知事实。；语体：清楚准确的界面/资料语体\n5. Hamlet will kill my father, and not even the King will mourn him. His loyalty to the throne is misplaced.：information[id=Dad_PlayHearsay]，type=hearsay；这是角色取得的资料表述，不得升格为全知事实。my father 的第一人称参照 Ophelia；保留 will 和 not even。；语体：清楚准确的界面/资料语体\n6. The King knows of Hamlet's affections for me, and may wish to get rid of me as a result.：information[id=InconvenientAffections]，type=hearsay；这是角色取得的资料表述，不得升格为全知事实。；语体：清楚准确的界面/资料语体\n7. there are rumors of a ghost：知识/信念条目标签；只翻译可见 text，代码常量不翻译。rumors 是传闻，cross Denmark 不擅改成 invade。；语体：清楚准确的界面/资料语体\n8. Fortinbras will cross Denmark：知识/信念条目标签；只翻译可见 text，代码常量不翻译。rumors 是传闻，cross Denmark 不擅改成 invade。；语体：清楚准确的界面/资料语体",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

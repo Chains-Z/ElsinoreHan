@@ -1,0 +1,40 @@
+{
+  "model": "deepseek-v4.1-flash",
+  "batches": [
+    {
+      "batch": "01_hamlet_ghost_followup",
+      "exit_code": 0,
+      "validation": {
+        "passed": true,
+        "expected_count": 20,
+        "output_count": 20,
+        "new_model_calls": 2,
+        "frozen_response_recovery": true
+      }
+    },
+    {
+      "batch": "02_register_challenges",
+      "exit_code": 0,
+      "validation": {
+        "passed": true,
+        "new_model_calls": 1,
+        "expected_count": 12,
+        "output_count": 12,
+        "no_chinese_indices": []
+      }
+    },
+    {
+      "batch": "03_ui_and_information",
+      "exit_code": 0,
+      "validation": {
+        "passed": true,
+        "new_model_calls": 1,
+        "expected_count": 8,
+        "output_count": 8,
+        "no_chinese_indices": []
+      }
+    }
+  ],
+  "executor": "AiNiee-Next",
+  "upstream_commit": "b0883c9f806984571d8f9fe8c4345425d1e6fe83"
+}

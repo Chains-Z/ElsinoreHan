@@ -1,0 +1,15 @@
+{
+  "source_ledger": "translation/trial-2026-10-09/api-ledger.jsonl",
+  "request_indices": [
+    5,
+    6
+  ],
+  "response_sha256": [
+    "5091614ff0fb417b5504771c5a2d46540053b61abe88a6d350388d3bf65fbe16",
+    "6a507180fa36adce6e6cbd4bc2b6611c5300d19321299521d160b29b179f50f3"
+  ],
+  "response_bodies": [
+    "{\"id\":\"chatcmpl-06724110-7192-9116-b5e2-4673d540c192\",\"object\":\"chat.completion\",\"created\":1791481831,\"model\":\"deepseek-v4.1-flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"reasoning_content\":\"\",\"content\":\"1.[奥菲莉娅]哈姆雷特国王。我以为他已经死了。\\n2.[奎因斯]哦，他确实死过。现在也死了。但死亡可没那么线性。想必你已经见识到了！\\n3.[奎因斯]你看，你们俩都有未竟之事。我也有。\\n4.[奥菲莉娅]什么事？\\n5.[奎因斯]就是那件事，让你被困在这个世界里，无限重复。\\n6.[奎因斯]除非你顺着这条线走下去，看它会引向何处，否则就会一直这样下去。\\n7.[奥菲莉娅]等等。哈姆雷特怎么了？他的眼睛……它们……<i>空了。</i>\\n8.[奎因斯]啊。可以说，他被暂停了。\\n9.[奎因斯]稍等。\\n10.[奎因斯]好了。\\n11.[哈姆雷特]他的死——我亲眼所见！而那叛徒是我自己的血亲，还有我母亲——哦，天哪，我母亲！\\n12.[哈姆雷特]虫子，虫子，蠕动的泥土！我满眼所见尽是胆汁和腐烂！\\n13.[奥菲莉娅]听着，哈姆雷特。你父亲的鬼魂？我也见过他。\\n14.[哈姆雷特]什么？\\n15.[奥菲莉娅]我相信你，哈姆雷特。我相信你看到了你父亲的灵魂。你没有疯。\"},\"finish_reason\":\"stop\",\"logprobs\":null}],\"usage\":{\"prompt_tokens\":1086,\"total_tokens\":1374,\"completion_tokens\":288,\"prompt_tokens_details\":{\"cached_tokens\":0,\"text_tokens\":1086},\"completion_tokens_details\":{\"text_tokens\":288}}}",
+    "{\"id\":\"chatcmpl-59c4bd6a-0bb5-9206-8143-8344dda7d6d4\",\"object\":\"chat.completion\",\"created\":1791481836,\"model\":\"deepseek-v4.1-flash\",\"choices\":[{\"index\":0,\"message\":{\"role\":\"assistant\",\"reasoning_content\":\"\",\"content\":\"1.[哈姆雷特]你——你——？\\n2.[奥菲莉娅]那告诉我：你<i>在哪儿</i>见到这个幽灵的，什么时候？\\n3.[哈姆雷特]午——午夜。在城墙上。大概是女巫出没的时辰。可你怎么——\\n4.[哈姆雷特]我——\\n5.[奥菲莉娅]午夜，在城墙上。他就是这么说的。\"},\"finish_reason\":\"stop\",\"logprobs\":null}],\"usage\":{\"prompt_tokens\":839,\"total_tokens\":928,\"completion_tokens\":89,\"prompt_tokens_details\":{\"cached_tokens\":0,\"text_tokens\":839},\"completion_tokens_details\":{\"text_tokens\":89}}}"
+  ]
+}

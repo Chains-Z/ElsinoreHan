@@ -1,0 +1,50 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Ophelia",
+      "dst": "奥菲莉娅",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Quince",
+      "dst": "奎因斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Bernardo",
+      "dst": "贝尔纳多",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Katherine",
+      "dst": "凯瑟琳",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Petruchio",
+      "dst": "彼特鲁乔",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Brit",
+      "dst": "布莉特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Marcellus",
+      "dst": "马塞勒斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Lady Rosencrantz",
+      "dst": "罗森克兰兹女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "以下各项互相独立，不是同一次对话；上下文只供理解，不额外翻译：\n1. How now, spirit! Whither wander you?：Quince 的原文使用 How now / Whither；其后的 Ophelia 回答 Ah. Quince.（207行）。这不是 Hamlet 批次的延续。；语体：古雅戏剧开场\n2. You sound terribly glum.：与206、207同行场；Quince 接着说 You sound terribly glum.；Ophelia 在210行说她很久未想到 Elsinore、如今想回去。勿据前句的古雅把本句文言化。；语体：日常关切\n3. What, art thou <i>ashamed</i> of me?：16564行 Katherine 说 W-what, in the midst of the street?；16566、16567为相邻对话，使用舞台角色名 Petruchio / Katherine。；语体：戏中戏古雅反问和富文本强调\n4. No, sir, God forbid, but ashamed to kiss.：紧接16566行 What, art thou <i>ashamed</i> of me?；不能把 ashamed to kiss 改成羞于对方本人。；语体：戏中戏否定与害羞对象\n5. Hail Mary, full of grace, the Lord is with thee.：FLAVOR_BernardoPraying；21206行动提示 am_cross，21207与21208连续，21210继续 And blessed is the fruit of thy womb...。；语体：祈祷庄重语体\n6. Blessed art thou among women...：紧接21207行 Hail Mary, full of grace, the Lord is with thee.；引用祈祷文，非日常搭话。；语体：祈祷古雅语体\n7. I don't buy it. Get thee gone, you sniveling suck-up.：25851行 Ophelia 说 We don't <i>have</i> to be at odds.；Brit 此句演出提示 [disgust] {Spare_Me}；25856是Ophelia内心话。；语体：讥讽、侮辱和古雅词混用\n8. (...She still <b>doesn't trust me.</b> I wonder if there's <b>something more I can do.</b> Maybe I could find someone to help me.)：紧接 Brit 在25854行的拒绝。括号表示原文内心话；must 不得擅加到 wonder/maybe；保留两个 <b> 区间。；语体：内心话、否定与不确定性\n9. My father has a saying for times like this. 'To thine own self be true.'：16693行 Ophelia 对 Bernardo 说 Bernardo—Katherine—whomever you desire to be...；本句明确引用父亲的格言。不要根据原著替角色猜性别。；语体：格言引用\n10. No. I <i>know</i> I died.：属于 HamletStarter 的 occurrenceCount(...)=2 分支，470行为 Why am I still alive? I thought...；本条是 No. I <i>know</i> I died.；与主批次互斥，单独评阅。；语体：否定、确信与富文本\n11. At yer service, m'lady!：characters.actors 的真实 presentline，角色交谈入口，不是前面场景的延续。；语体：粗犷口语与礼貌称谓\n12. I am, in theory, above gossip... what would you like to say?：characters.actors 的真实 presentline，角色交谈入口，不是前面场景的延续。name_mapping 明确为 Lady Rosencrantz；bios 的角色条目也称她 she，不得按原著改作男性。；语体：略正式、自我调侃",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

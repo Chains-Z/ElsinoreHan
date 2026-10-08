@@ -1,0 +1,109 @@
+{
+  "source_asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+  "batches": {
+    "01_hamlet_ghost_followup": {
+      "continuous": true,
+      "selected_outer_branch_line": 355,
+      "selected_outer_branch": "((occurrenceCount(SC_GHUNT_GhostAppears) = 1) && previously occurred(SC_GHUNT_GhostAppears))",
+      "selected_inner_branch_line": 383,
+      "selected_inner_branch": "occurrenceCount(SC_OTH_OthelloConsummate) = 0",
+      "excluded_mutually_exclusive_lines": [
+        387,
+        388
+      ],
+      "note": "只选择主 elif 链的鬼魂初遇后分支；312、334等更早elif分支此路径不成立。脚本以前的独立if块不收入本段，不能据本段推定它们的真假。",
+      "background": "Quince 与 Ophelia 在她卧室交谈，Hamlet 在场。Ophelia 说她以为 King Hamlet 已死，Quince 表示确已死但死亡不是线性的，二人和自己均有未竟之事；Ophelia/Quince 对白随后明确世界在重复。Hamlet 的动作暂停，后被恢复。随后 Hamlet 说自己见到了父亲的亡魂，地点是城墙，时间是午夜。背景只作理解参照，不提前加进任何译句。",
+      "evidence_lines": [
+        360,
+        368,
+        369,
+        372,
+        374,
+        376,
+        377,
+        380,
+        383,
+        384,
+        385,
+        393,
+        398,
+        400,
+        402,
+        405,
+        412
+      ],
+      "preceding_context": [
+        {
+          "speaker": "Quince",
+          "source": "Greetings.",
+          "line": 368
+        },
+        {
+          "speaker": "Ophelia",
+          "source": "Quince?",
+          "line": 369
+        },
+        {
+          "speaker": "Quince",
+          "source": "Had quite a nasty surprise back there, didn't you?",
+          "line": 372
+        },
+        {
+          "speaker": "Quince",
+          "source": "I see you've become acquainted with a good friend of mine.",
+          "line": 373
+        }
+      ]
+    },
+    "02_register_challenges": {
+      "continuous": false,
+      "note": "各项自带源自原文的只读context。仅206/209、16566/16567、21207/21208、25854/25856各对在各自场景内关联；不同场景之间不可串成连续对话。"
+    },
+    "03_ui_and_information": {
+      "continuous": false,
+      "note": "独立界面字段、传闻资料与信念标签；只读context指明事实强度和第一人称参照。"
+    }
+  },
+  "character_evidence": [
+    {
+      "id": "rosencrantz",
+      "name_mapping": "Lady Rosencrantz",
+      "source_asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+      "source_json_path": "list[id=rosencrantz]",
+      "evidence": {
+        "id": "rosencrantz",
+        "slug": "Rosencrantz",
+        "subtitle": "Lady of Denmark, Friend to Hamlet",
+        "lines": [
+          {
+            "id": "initial",
+            "active": [
+              "encountered(rosencrantz)"
+            ],
+            "text": "Rosencrantz and Guildenstern are two of Hamlet's oldest friends from the university. I hadn't met them until recently—they're both the daughters of wealthy noble families, but come from foreign lands.\n\nRosencrantz is the louder and more surefooted of the two women, and there's a clear imbalance in their dynamic. Something has evidently made them inseparable, though."
+          }
+        ]
+      }
+    },
+    {
+      "id": "guildenstern",
+      "name_mapping": "Lady Guildenstern",
+      "source_asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+      "source_json_path": "list[id=guildenstern]",
+      "evidence": {
+        "id": "guildenstern",
+        "slug": "Guildenstern",
+        "subtitle": "Lady of Denmark, Friend to Hamlet",
+        "lines": [
+          {
+            "id": "initial",
+            "active": [
+              "encountered(guildenstern)"
+            ],
+            "text": "Rosencrantz and Guildenstern are two of Hamlet's oldest friends from the university. I hadn't met them until recently—they're both the daughters of wealthy noble families, but come from foreign lands.\n\nGuildenstern appears to be the more reserved of the two, and often follows in Rosencrantz's shadow. I wonder what she's like and what she knows about Hamlet?"
+          }
+        ]
+      }
+    }
+  ]
+}

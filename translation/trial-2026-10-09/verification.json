@@ -1,0 +1,893 @@
+{
+  "source_count": 40,
+  "candidate_count": 4,
+  "output_count": 160,
+  "source_hashes_and_input_order_passed": true,
+  "all_outputs_match_frozen_responses": true,
+  "started_requests": 16,
+  "successful_requests": 16,
+  "cost_estimate_cny": 0.1212086,
+  "cost_method": "按峰时单价与真实usage折算，未扣缓存及优惠；不含连通标题，不是实际账单",
+  "candidates": {
+    "deepseek_pro": {
+      "model": "deepseek-v4-pro-0813",
+      "count": 40,
+      "api_request_indices": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "successful_requests": 4,
+      "prompt_tokens": 4779,
+      "completion_tokens": 742,
+      "cost_estimate_cny": 0.063045,
+      "format_passed": true,
+      "checks": [
+        {
+          "id": "scenes:6f4f49b19b38:374",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:376",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:377",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:378",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:380",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:381",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:384",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:385",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:390",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:396",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:398",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:399",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:400",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:401",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:402",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:403",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:404",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:405",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:406",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:412",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:206",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:209",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16566",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16567",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21207",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21208",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25854",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25856",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16694",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:471",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=marcellus].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=rosencrantz].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[0]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[5]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].name",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Dad_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=InconvenientAffections].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=ghostrumors].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=fortinbras_offer].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        }
+      ],
+      "simplification_review_notices": []
+    },
+    "deepseek_flash": {
+      "model": "deepseek-v4.1-flash",
+      "count": 40,
+      "api_request_indices": [
+        5,
+        6,
+        15,
+        16
+      ],
+      "successful_requests": 4,
+      "prompt_tokens": 4783,
+      "completion_tokens": 716,
+      "cost_estimate_cny": 0.015294,
+      "format_passed": true,
+      "checks": [
+        {
+          "id": "scenes:6f4f49b19b38:374",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:376",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:377",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:378",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:380",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:381",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:384",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:385",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:390",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:396",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:398",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:399",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:400",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:401",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:402",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:403",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:404",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:405",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:406",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:412",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:206",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:209",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16566",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16567",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21207",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21208",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25854",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25856",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16694",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:471",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=marcellus].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=rosencrantz].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[0]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[5]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].name",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Dad_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=InconvenientAffections].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=ghostrumors].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=fortinbras_offer].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        }
+      ],
+      "simplification_review_notices": []
+    },
+    "glm_flash": {
+      "model": "ZHIPU/GLM-5.3-Flash",
+      "count": 40,
+      "api_request_indices": [
+        7,
+        8,
+        9,
+        10
+      ],
+      "successful_requests": 4,
+      "prompt_tokens": 4913,
+      "completion_tokens": 745,
+      "cost_estimate_cny": 0.0060164,
+      "format_passed": true,
+      "checks": [
+        {
+          "id": "scenes:6f4f49b19b38:374",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:376",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:377",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:378",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:380",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:381",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:384",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:385",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:390",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:396",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:398",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:399",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:400",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:401",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:402",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:403",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:404",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:405",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:406",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:412",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:206",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:209",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16566",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16567",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21207",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21208",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25854",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25856",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16694",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:471",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=marcellus].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=rosencrantz].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[0]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[5]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].name",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Dad_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=InconvenientAffections].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=ghostrumors].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=fortinbras_offer].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        }
+      ],
+      "simplification_review_notices": []
+    },
+    "qwen_mt": {
+      "model": "qwen-mt-plus",
+      "count": 40,
+      "api_request_indices": [
+        11,
+        12,
+        13,
+        14
+      ],
+      "successful_requests": 4,
+      "prompt_tokens": 5153,
+      "completion_tokens": 5107,
+      "cost_estimate_cny": 0.0368532,
+      "format_passed": true,
+      "checks": [
+        {
+          "id": "scenes:6f4f49b19b38:374",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:376",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:377",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:378",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:380",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:381",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:384",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:385",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:390",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:396",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:398",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:399",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:400",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:401",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:402",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:403",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:404",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:405",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:406",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:412",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:206",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:209",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16566",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16567",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21207",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:21208",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25854",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:25856",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:16694",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "scenes:6f4f49b19b38:471",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=marcellus].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "characters:0212966549b5:characters.actors[id=rosencrantz].presentline",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[0]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:categories[5]",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].name",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=Dad_PlayHearsay].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "information:988217b4da7c:information[id=InconvenientAffections].long",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=ghostrumors].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        },
+        {
+          "id": "knowledge:245d1381dc61:mapping[constant=fortinbras_offer].text",
+          "nonempty_chinese": true,
+          "markers_preserved": true
+        }
+      ],
+      "simplification_review_notices": []
+    }
+  },
+  "limitations": [
+    "格式通过不代表意义和中文质量通过",
+    "标签数量一致不证明强调范围一致",
+    "简繁转换差异只作审读提示，不能机械判定错误",
+    "静态来源未动态确认加载版本",
+    "没有验证这些译文在游戏内显示",
+    "这是单次40条小样，不能证明全量优劣"
+  ]
+}

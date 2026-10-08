@@ -1,0 +1,18 @@
+{
+  "provider": "bailian",
+  "region": "cn-beijing",
+  "workspace_name": "默认业务空间",
+  "workspace_id": "ws-ffu0slce8mka9d9o",
+  "description": "AI 游戏翻译",
+  "api_host": "ws-ffu0slce8mka9d9o.cn-beijing.maas.aliyuncs.com",
+  "openai_compatible_url": "https://ws-ffu0slce8mka9d9o.cn-beijing.maas.aliyuncs.com/compatible-mode/v1",
+  "dashscope_url": "https://ws-ffu0slce8mka9d9o.cn-beijing.maas.aliyuncs.com/api/v1",
+  "credential_file": "api-key.txt",
+  "trial_budget_cny": 5,
+  "models": {
+    "deepseek_pro": "deepseek-v4-pro-0813",
+    "deepseek_flash": "deepseek-v4.1-flash",
+    "glm_flash": "ZHIPU/GLM-5.3-Flash",
+    "qwen_mt": "qwen-mt-plus"
+  }
+}

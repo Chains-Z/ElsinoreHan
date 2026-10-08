@@ -1,0 +1,17 @@
+{
+  "scope": "真实短句接口检查，非质量盲评",
+  "model": "deepseek-v4-pro-0813",
+  "http_status": 401,
+  "elapsed_seconds": 0.69,
+  "source": "A Scrawled Note From Laertes",
+  "max_tokens": 512,
+  "enable_thinking": false,
+  "response": {
+    "error": {
+      "message": "Invalid API-key provided. For details, see: https://www.alibabacloud.com/help/en/model-studio/error-code#apikey-error",
+      "id": "8ff75c9b-8f64-938c-aac3-8764622ac8ba",
+      "type": "invalid_request_error",
+      "code": "invalid_api_key"
+    }
+  }
+}
