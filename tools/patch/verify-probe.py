@@ -25,17 +25,31 @@ def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str) -
     """只有目标界面确实出现时，才评估该页的文字溢出。"""
     visible_menu = [item for item in menu if item["active"]]
     visible_settings = [item for item in settings if item["active"]]
-    expected = {"继续游戏", "设置", "退出游戏"}
     actual = {item.get("text") for item in visible_menu}
+    expected = {"设置", "退出游戏"}
+    start_labels = {"继续游戏", "开始新游戏"} & actual
+    expected |= start_labels
+    has_start = bool(start_labels)
     settings_opened = {"Graphics", "Audio", "Gameplay"} <= {item.get("text") for item in visible_settings}
     return {
-        "menu_labels_all_translated": expected <= actual,
-        "menu_labels_no_overflow": expected <= actual and all(not item.get("overflow", True) for item in visible_menu if item.get("text") in expected),
-        "menu_no_original_labels": not ({"Continue Game", "Quit Game", "Settings"} & actual),
+        "menu_labels_all_translated": has_start and expected <= actual,
+        "menu_labels_no_overflow": has_start and expected <= actual and all(not item.get("overflow", True) for item in visible_menu if item.get("text") in expected),
+        "menu_no_original_labels": not ({"Continue Game", "New Game", "Quit Game", "Settings"} & actual),
         "chinese_glyphs_available": "GLYPHS_继续游戏设置退出=True" in menu_text,
-        "settings_pointer_navigation_logged": "EventSystem" in log,
+        "settings_pointer_navigation_logged": "已通过真实设置按钮的 EventSystem 指针事件打开设置界面" in log,
         "settings_page_opened": settings_opened,
         "settings_visible_texts_no_overflow": settings_opened and all(not item.get("overflow", True) for item in visible_settings),
+    }
+
+
+def evaluate_toggle(original: set, restored: set, log: str) -> dict[str, bool]:
+    """设置按钮源文可为Options或Settings，必须真的恢复英文并再次显示中文。"""
+    return {
+        "toggle_original_menu": "Quit Game" in original and bool({"Options", "Settings"} & original)
+                                and bool({"Continue Game", "New Game"} & original)
+                                and not ({"设置", "退出游戏", "继续游戏", "开始新游戏"} & original),
+        "toggle_restored_menu": {"设置", "退出游戏"} <= restored and bool({"继续游戏", "开始新游戏"} & restored),
+        "toggle_release_no_change": "F8_RELEASE_NO_CHANGE=True" in log,
     }
 
 
@@ -49,6 +63,11 @@ def main() -> None:
     visible_menu = [item for item in menu if item["active"]]
     visible_settings = [item for item in settings if item["active"]]
     assertions = evaluate(menu, settings, (directory / "menu-texts.txt").read_text(encoding="utf-8-sig"), (directory / "BepInEx.log").read_text(encoding="utf-8-sig"))
+    if (directory / "original-menu-texts.txt").exists():
+        original = {item.get("text") for item in parse_objects(directory / "original-menu-texts.txt") if item["active"]}
+        restored = {item.get("text") for item in parse_objects(directory / "restored-menu-texts.txt") if item["active"]}
+        log = (directory / "BepInEx.log").read_text(encoding="utf-8-sig")
+        assertions.update(evaluate_toggle(original, restored, log))
     summary = {
         "test_level": "真实游戏 UI 集成探针；不是完整游玩 E2E",
         "assertions": assertions,

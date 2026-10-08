@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Text;
+using System.Reflection;
 using BepInEx;
 using TMPro;
 using UnityEngine;
@@ -17,6 +18,10 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private bool capturedSettings;
     private bool audioSuspended;
     private string outputDirectory;
+    private bool requireToggle;
+    private bool showedOriginal;
+    private bool restoredTranslated;
+    private bool checkedSplashScreen;
 
     private void Awake()
     {
@@ -30,6 +35,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             return;
         }
         outputDirectory = Path.Combine(Path.Combine(Paths.GameRootPath, "ElsinoreHanProbe"), runId);
+        requireToggle = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_TOGGLE") == "1";
         // 自动探针只允许后台运行；普通游玩不安装此插件。
         if (!Application.isBatchMode)
         {
@@ -55,6 +61,22 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 Logger.LogInfo("Wwise 后台音频暂停结果=" + result);
             }
         }
+        if (requireToggle && !checkedSplashScreen && Time.realtimeSinceStartup - started > 12f)
+        {
+            checkedSplashScreen = true;
+            foreach (var component in Resources.FindObjectsOfTypeAll<MonoBehaviour>())
+            {
+                if (component == null || component.GetType().Name != "SplashScreenUI") continue;
+                if (component.gameObject.activeInHierarchy) break;
+                // Steam不可用时游戏可直接进入默认关卡；仅用真实UI转换展示菜单，不重置或继续存档。
+                var field = component.GetType().GetField("transitioner", BindingFlags.NonPublic | BindingFlags.Instance);
+                var transitioner = field == null ? null : field.GetValue(component);
+                if (transitioner == null) continue;
+                transitioner.GetType().GetMethod("ActivateSplashScreen").Invoke(transitioner, null);
+                Logger.LogInfo("后台启动未显示主菜单，已通过真实UI状态机仅展示SplashScreen；不点击新游戏或继续。");
+                break;
+            }
+        }
         if (!captured && Time.realtimeSinceStartup - started > 18f)
         {
             captured = true;
@@ -75,6 +97,19 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 break;
             }
         }
+        if (requireToggle && captured && !showedOriginal && Time.realtimeSinceStartup - started > 19f)
+        {
+            showedOriginal = true;
+            InvokeToggle(false);
+            InvokeToggle(true);
+            Capture("original-menu");
+        }
+        if (requireToggle && showedOriginal && !restoredTranslated && Time.realtimeSinceStartup - started > 19.5f)
+        {
+            restoredTranslated = true;
+            InvokeToggle(true);
+            Capture("restored-menu");
+        }
         if (!capturedSettings && Time.realtimeSinceStartup - started > 23f)
         {
             capturedSettings = true;
@@ -82,6 +117,23 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         }
         if (Time.realtimeSinceStartup - started > 30f)
             Application.Quit();
+    }
+
+    private void InvokeToggle(bool keyDown)
+    {
+        foreach (var component in Resources.FindObjectsOfTypeAll<MonoBehaviour>())
+        {
+            if (component == null || component.GetType().Name != "TranslationToggle") continue;
+            var type = component.GetType();
+            var state = type.GetMethod("IsTranslatedMode", BindingFlags.Public | BindingFlags.Instance);
+            var before = state.Invoke(component, null);
+            var result = type.GetMethod("HandleKey", BindingFlags.Public | BindingFlags.Instance).Invoke(component, new object[] { keyDown });
+            var after = state.Invoke(component, null);
+            Logger.LogInfo("F8探针输入=" + keyDown + " 返回=" + result + " 前=" + before + " 后=" + after);
+            if (!keyDown) Logger.LogInfo("F8_RELEASE_NO_CHANGE=" + Equals(before, after));
+            return;
+        }
+        Logger.LogError("F8探针未找到运行中的热键插件。");
     }
 
     private void Capture(string name)

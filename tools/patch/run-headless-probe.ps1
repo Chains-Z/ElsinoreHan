@@ -37,7 +37,9 @@ try {
     if (-not $process.HasExited) { Stop-Process -Id $process.Id -Force; throw '后台探针超时，已终止。' }
     $process.WaitForExit()
     if ($process.ExitCode -ne 0) { throw ('后台探针退出码异常：' + $process.ExitCode) }
-    foreach ($name in @('menu-texts.txt', 'settings-texts.txt')) {
+    $reports = @('menu-texts.txt', 'settings-texts.txt')
+    if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
+    foreach ($name in $reports) {
         $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
         if ((Get-Item -LiteralPath $source).LastWriteTimeUtc -lt $launchedAt) { throw ('探针记录不是本轮生成：' + $name) }
         Copy-Item -LiteralPath $source -Destination (Join-Path $runDirectory $name)

@@ -1,0 +1,247 @@
+{
+  "test_level": "真实游戏 UI 集成探针；不是完整游玩 E2E",
+  "assertions": {
+    "menu_labels_all_translated": true,
+    "menu_labels_no_overflow": true,
+    "menu_no_original_labels": true,
+    "chinese_glyphs_available": true,
+    "settings_pointer_navigation_logged": true,
+    "settings_page_opened": true,
+    "settings_visible_texts_no_overflow": true,
+    "toggle_original_menu": true,
+    "toggle_restored_menu": true,
+    "toggle_release_no_change": true
+  },
+  "passed": true,
+  "visible_menu": [
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Cancel",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Yep, Erase It All",
+      "overflow": false
+    },
+    {
+      "object": "DialogText(Clone)",
+      "active": true,
+      "text": "I'm some text that's talking about some thing that does some stuff and is kinda long and winding.",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Cancel",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Audio",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Gameplay",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Graphics",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Erase All Data",
+      "overflow": false
+    },
+    {
+      "object": "BuildIdText",
+      "active": true,
+      "text": "Ver. 0.0.0 [0000]",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Confirm",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "退出游戏",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "设置",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "继续游戏",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Default",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Normal",
+      "overflow": false
+    },
+    {
+      "object": "Label",
+      "active": true,
+      "text": "Text Speed",
+      "overflow": false
+    },
+    {
+      "object": "Label",
+      "active": true,
+      "text": "Character Costumes",
+      "overflow": false
+    }
+  ],
+  "visible_settings": [
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Cancel",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Yep, Erase It All",
+      "overflow": false
+    },
+    {
+      "object": "DialogText(Clone)",
+      "active": true,
+      "text": "I'm some text that's talking about some thing that does some stuff and is kinda long and winding.",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Cancel",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Yep, Erase It All",
+      "overflow": false
+    },
+    {
+      "object": "DialogText(Clone)",
+      "active": true,
+      "text": "I'm some text that's talking about some thing that does some stuff and is kinda long and winding.",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Cancel",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Audio",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Gameplay",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Graphics",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Erase All Data",
+      "overflow": false
+    },
+    {
+      "object": "BuildIdText",
+      "active": true,
+      "text": "Ver. 0.0.0 [0000]",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Confirm",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "退出游戏",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "设置",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "继续游戏",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Default",
+      "overflow": false
+    },
+    {
+      "object": "Text",
+      "active": true,
+      "text": "Normal",
+      "overflow": false
+    },
+    {
+      "object": "Label",
+      "active": true,
+      "text": "Text Speed",
+      "overflow": false
+    },
+    {
+      "object": "Label",
+      "active": true,
+      "text": "Character Costumes",
+      "overflow": false
+    }
+  ],
+  "limits": [
+    "未点击继续游戏，未进入存档",
+    "未验收对白和资料页面",
+    "设置页尚未全量汉化"
+  ]
+}

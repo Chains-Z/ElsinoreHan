@@ -36,6 +36,26 @@ class ProbeRegressionTests(unittest.TestCase):
         self.assertTrue(result["settings_page_opened"])
         self.assertFalse(result["settings_visible_texts_no_overflow"])
 
+    def test_new_game_menu_is_valid_alternative(self):
+        result = evaluate([visible("开始新游戏"), visible("设置"), visible("退出游戏")], [], "", "")
+        self.assertTrue(result["menu_labels_all_translated"])
+        self.assertTrue(result["menu_labels_no_overflow"])
+
+    def test_menu_without_start_label_does_not_pass(self):
+        self.assertFalse(evaluate([visible("设置"), visible("退出游戏")], [], "", "")["menu_labels_all_translated"])
+
+    def test_generic_eventsystem_log_is_not_navigation_proof(self):
+        self.assertFalse(evaluate([], [], "", "EventSystem loaded")["settings_pointer_navigation_logged"])
+        self.assertTrue(evaluate([], [], "", "已通过真实设置按钮的 EventSystem 指针事件打开设置界面")["settings_pointer_navigation_logged"])
+
+    def test_real_options_source_is_valid_toggle_original(self):
+        result = module.evaluate_toggle({"Options", "Quit Game", "Continue Game"}, {"设置", "退出游戏", "继续游戏"}, "F8_RELEASE_NO_CHANGE=True")
+        self.assertTrue(all(result.values()))
+
+    def test_remaining_chinese_is_not_original_toggle(self):
+        result = module.evaluate_toggle({"Options", "Quit Game", "Continue Game", "设置"}, {"设置", "退出游戏", "继续游戏"}, "")
+        self.assertFalse(result["toggle_original_menu"])
+
 
 if __name__ == "__main__":
     unittest.main()
