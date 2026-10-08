@@ -7,6 +7,7 @@
 - [开源翻译执行器调研](research-projects.md)：建议先复用 AiNiee-Next；备选 GalTransl 通用 ForGal 工作流。已核实说话人输入、缓存、字典和输出元数据局限，没有运行上游工具或调用模型。
 - [提示词、skill 与模型调研](research-style-models.md)：主要候选 DeepSeek V4-Pro、GLM-5.3-Flash、Qwen-MT-Plus、Index-Translate；DeepSeek V4.1-Flash 作成本对照，本地部署需要时考虑 Hy-MT2。推荐同资料盲评，尚无本游戏实测排名。
 - [原文语体与用户文风约定](register-evidence.md)：日常对白易读，诗句、祈祷及名句适度保留古雅和戏剧感。
+- [单 Key 接入方案](api-access.md)：用户希望减少开户和密钥申请；建议百炼北京地域一把 Key 覆盖 DeepSeek、智谱直供 GLM 和 Qwen-MT，Index 免费预览为可选项。已核实文档，尚未实测账户/API。
 - [真实试译输入](../../../translation/pilot/README.md)：187 条对白与 30 条资料，共 217 条；为 VNText 保留独立来源映射。4 项离线单元测试及 217 条来源/哈希检查通过。返场和互斥分支仍需拆清，不当作连续剧情。
 - [补丁技术验证](technical-probe.md)：已安装离线样板，主菜单三个按钮中文渲染通过。后台静音自动导航设置页及 7 项 UI 集成断言通过，补充的 4 项失败分支回归通过。临时探针及游戏进程已清理，原游戏文件哈希未变；设置页像素排版、对白、资料界面和全量覆盖率尚未验收。
 
