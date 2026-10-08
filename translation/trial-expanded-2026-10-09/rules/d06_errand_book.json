@@ -1,0 +1,21 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Lady Rosencrantz",
+      "dst": "罗森克兰兹女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Lady Guildenstern",
+      "dst": "吉尔登斯吞女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "另一个场景，两位女士在找书；包含德文书名\n只读前文：[]",
+  "qwen_mt_domains": "A separate scene: the two ladies search for a book; a German book title appears\nRead-only preceding lines: []",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

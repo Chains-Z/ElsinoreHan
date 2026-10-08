@@ -30,9 +30,12 @@ def wrap_complete_numbered_translation(content: str, request_body: dict) -> tupl
         return content, None
     prompt = "\n\n".join(str(message.get("content", "")) for message in request_body.get("messages", []))
     source_blocks = re.findall(r"<textarea>(.*?)</textarea>", prompt, re.DOTALL)
-    if not source_blocks:
+    if source_blocks:
+        expected = numbered_rows(source_blocks[-1].strip())
+    elif str(request_body.get("model", "")).lower().startswith("qwen-mt") and request_body.get("translation_options"):
+        expected = numbered_rows(prompt.strip())
+    else:
         return content, None
-    expected = numbered_rows(source_blocks[-1].strip())
     actual = numbered_rows(content)
     if expected is None or actual != expected:
         return content, None

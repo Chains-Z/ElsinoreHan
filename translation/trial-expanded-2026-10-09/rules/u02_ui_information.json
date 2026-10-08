@@ -1,0 +1,46 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "King Hamlet",
+      "dst": "哈姆雷特国王",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Elsinore",
+      "dst": "埃尔西诺",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Fortinbras",
+      "dst": "福丁布拉斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Claudius",
+      "dst": "克劳狄斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Brit",
+      "dst": "布莉特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Marcellus",
+      "dst": "马塞勒斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "条目彼此独立，只读语境不额外翻译：\n1. 奥菲莉娅资料表，条目 Invasion，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n2. 奥菲莉娅资料表，条目 KingWasMurdered，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n3. 奥菲莉娅资料表，条目 OthellosLife，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n4. 奥菲莉娅资料表，条目 Dad_PlayHearsay，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n5. 奥菲莉娅资料表，条目 QueensChambers，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n6. 奥菲莉娅资料表，条目 BritTheSpy，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n7. 奥菲莉娅资料表，条目 FortinbrasHideout，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n8. 奥菲莉娅资料表，条目 IrmaCardGame，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n9. 奥菲莉娅资料表，条目 SomeoneKillingMe，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n10. 奥菲莉娅资料表，条目 GhostSighting，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n11. 奥菲莉娅资料表，条目 TimeLoops，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n12. 奥菲莉娅资料表，条目 OthelloNeedsHelp，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n13. 奥菲莉娅资料表，条目 Loop_PlayHearsay，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n14. 奥菲莉娅资料表，条目 HamletActingMad，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体\n15. 奥菲莉娅资料表，条目 DadWasMurdered，类型 hearsay；保留传闻/可能性和第一人称，不翻译程序条件。；语体：清楚准确的界面/资料语体",
+  "qwen_mt_domains": "Independent entries. Context is read-only, not a translation target.\n1. Ophelia's information entry Invasion, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n2. Ophelia's information entry KingWasMurdered, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n3. Ophelia's information entry OthellosLife, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n4. Ophelia's information entry Dad_PlayHearsay, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n5. Ophelia's information entry QueensChambers, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n6. Ophelia's information entry BritTheSpy, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n7. Ophelia's information entry FortinbrasHideout, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n8. Ophelia's information entry IrmaCardGame, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n9. Ophelia's information entry SomeoneKillingMe, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n10. Ophelia's information entry GhostSighting, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n11. Ophelia's information entry TimeLoops, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n12. Ophelia's information entry OthelloNeedsHelp, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n13. Ophelia's information entry Loop_PlayHearsay, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n14. Ophelia's information entry HamletActingMad, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose\n15. Ophelia's information entry DadWasMurdered, type hearsay; preserve hearsay, uncertainty and first-person reference; program conditions are not translation targets.; register: Clear and precise UI or information prose",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

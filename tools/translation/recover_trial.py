@@ -43,7 +43,8 @@ def restore_batch(inputs: list[dict], events: list[dict], model: str) -> tuple[l
         if event["event"] != "completed" or event.get("status_code") != 200 or event.get("model") != model:
             continue
         request = started[event["request_index"]]["request_body"]
-        source = numbered_rows(request["messages"][-1]["content"], require_wrapper=True)
+        native_mt = str(request.get("model", "")).lower().startswith("qwen-mt") and bool(request.get("translation_options"))
+        source = numbered_rows(request["messages"][-1]["content"], require_wrapper=not native_mt)
         source_texts = [text for _, text in source]
         matches = [index for index in range(len(expected) - len(source) + 1)
                    if expected[index:index + len(source)] == source_texts]
@@ -75,18 +76,20 @@ def main() -> None:
     parser.add_argument("--candidate", required=True)
     parser.add_argument("--batch", required=True)
     parser.add_argument("--accept-recovered", action="store_true", help="恢复现成执行器结果，原输出保留独立备份")
+    parser.add_argument("--trial-dir", type=Path, default=TRIAL)
     args = parser.parse_args()
+    trial = args.trial_dir.resolve()
     provider = json.loads((ROOT / "translation" / "provider.json").read_text(encoding="utf-8"))
     if args.candidate not in provider["models"]:
         parser.error("候选模型未在公开配置中登记")
-    manifest = json.loads((TRIAL / "manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((trial / "manifest.json").read_text(encoding="utf-8"))
     batch = next((item for item in manifest["batches"] if item["id"] == args.batch), None)
     if batch is None:
         parser.error("未知样本批次")
-    inputs = json.loads((TRIAL / "inputs" / batch["file"]).read_text(encoding="utf-8"))
-    events = [json.loads(line) for line in (TRIAL / "api-ledger.jsonl").read_text(encoding="utf-8").splitlines()]
+    inputs = json.loads((trial / "inputs" / batch["file"]).read_text(encoding="utf-8"))
+    events = [json.loads(line) for line in (trial / "api-ledger.jsonl").read_text(encoding="utf-8").splitlines()]
     rows, used = restore_batch(inputs, events, provider["models"][args.candidate])
-    output = TRIAL / "recovered" / args.candidate / batch["file"]
+    output = trial / "recovered" / args.candidate / batch["file"]
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     proof = {"candidate": args.candidate, "batch": args.batch, "count": len(rows),
@@ -94,7 +97,7 @@ def main() -> None:
              "method": "从冻结响应按真实源文、完整编号和顺序恢复；未改译文措辞"}
     output.with_suffix(".provenance.json").write_text(json.dumps(proof, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if args.accept_recovered:
-        destination = TRIAL / "outputs" / args.candidate
+        destination = trial / "outputs" / args.candidate
         target_file = destination / args.batch / batch["file"]
         backup = target_file.with_suffix(".before-recovery.json")
         if backup.exists():

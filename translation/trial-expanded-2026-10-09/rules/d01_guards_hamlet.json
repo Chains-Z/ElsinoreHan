@@ -1,0 +1,21 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Marcellus",
+      "dst": "马塞勒斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "马塞勒斯劝哈姆雷特参加朝会；粗犷口语与慌乱对白\n只读前文：[]",
+  "qwen_mt_domains": "Marcellus urges Hamlet to attend court; colloquial speech and distress\nRead-only preceding lines: []",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

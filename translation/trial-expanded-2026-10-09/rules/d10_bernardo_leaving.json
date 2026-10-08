@@ -1,0 +1,26 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Elsinore",
+      "dst": "埃尔西诺",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Bernardo",
+      "dst": "贝尔纳多",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Marcellus",
+      "dst": "马塞勒斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "贝尔纳多宣布离开，未给具体理由；未来与不确定性\n只读前文：[]",
+  "qwen_mt_domains": "Bernardo announces his departure without giving a specific reason; future and uncertainty\nRead-only preceding lines: []",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

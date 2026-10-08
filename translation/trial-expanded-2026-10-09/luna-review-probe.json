@@ -1,0 +1,63 @@
+{
+  "model": "gpt-6-luna",
+  "source_trial": "trial-2026-10-09",
+  "reviewed_count": 40,
+  "proposals": [
+    {
+      "id": "scenes:6f4f49b19b38:384",
+      "source": "Wait. What's happened to Hamlet? His eyes... they're... <i>empty.</i>",
+      "original_target": "等等。哈姆雷特怎么了？他的眼睛……它们……<i>空了。</i>",
+      "suggested_target": "等等。哈姆雷特怎么了？他的眼睛……里面……<i>空空的。</i>",
+      "category": "fluency",
+      "reason": "“它们”直指复数的眼睛，中文对白略显生硬；改为停顿后描述眼睛里面空空的，保留断续语气和空洞的强调。",
+      "confidence": "medium",
+      "context_basis": "同一连续场景中奥菲莉娅正在观察哈姆雷特；上下文只确认他的眼睛显得空洞，不应补入其他症状。"
+    },
+    {
+      "id": "scenes:6f4f49b19b38:399",
+      "source": "Worms, worms and wriggling earth! All I can see is bile and rot everywhere!",
+      "original_target": "虫子，虫子，蠕动的泥土！我满眼所见尽是胆汁和腐烂！",
+      "suggested_target": "虫子，虫子，还有蠕动的泥土！我满眼都是胆汁和腐烂！",
+      "category": "fluency",
+      "reason": "“我满眼所见尽是”语义重复；稍作整理后保留原句的恶心意象和急促感。",
+      "confidence": "medium",
+      "context_basis": "这是哈姆雷特激动、失控时的连续喊话；不需要把“胆汁和腐烂”解释成具体物件。"
+    },
+    {
+      "id": "scenes:6f4f49b19b38:405",
+      "source": "M-midnight. On the walls. It was around the witching hour. But how did you--",
+      "original_target": "午——午夜。在城墙上。大概是女巫出没的时辰。可你怎么——",
+      "suggested_target": "午——午夜。在城墙上。大概就是午夜时分。可你怎么——",
+      "category": "meaning",
+      "reason": "“witching hour”在此指午夜时分；译成“女巫出没的时辰”容易让人理解为真的有女巫出没。",
+      "confidence": "high",
+      "context_basis": "本条同一路径后文再次复述“Midnight, on the walls”；上下文将时间落在午夜，没有提到女巫。"
+    },
+    {
+      "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].name",
+      "source": "A Spy in Elsinore",
+      "original_target": "埃尔西诺的间谍",
+      "suggested_target": "埃尔西诺城堡里的间谍",
+      "category": "meaning",
+      "reason": "“埃尔西诺的间谍”可能被理解为效力于埃尔西诺的间谍；改为地点表达，和对应资料正文中的城堡地点一致。",
+      "confidence": "medium",
+      "context_basis": "manifest 将该名称映射到 Assassin_PlayHearsay，关联正文明确说间谍在埃尔西诺城堡里。"
+    },
+    {
+      "id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].long",
+      "source": "There's a spy in Elsinore Castle. Perhaps the right performance could elicit a reaction in this person.",
+      "original_target": "埃尔西诺城堡里有间谍。也许一场恰到好处的演出能引出此人的反应。",
+      "suggested_target": "听说埃尔西诺城堡里有个间谍。也许一场恰到好处的演出能引出此人的反应。",
+      "category": "meaning",
+      "reason": "当前译文把资料内容写成确定事实；补上“听说”能保留资料条目的传闻性质。",
+      "confidence": "medium",
+      "context_basis": "manifest 明示该条目 type=hearsay，并要求不要将资料提升为全知事实；原文没有进一步指出传闻来源。"
+    }
+  ],
+  "limitations": [
+    "仅依据指定的 manifest、context 和 DeepSeek Flash 三份正式译文；未查阅游戏中的动态加载结果或其它资料。",
+    "第 384、399 条的措辞优化带有一定风格判断；原译仍可理解。",
+    "第 405 条将 witching hour 处理为“午夜时分”，依据当前片段上下文；这里不保留“女巫”字面意象。",
+    "“间谍”资料正文建议增加“听说”依据条目类型和 context；原句本身未显式交代信息来源。"
+  ]
+}

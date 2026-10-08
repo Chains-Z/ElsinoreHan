@@ -1,0 +1,26 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Lady Rosencrantz",
+      "dst": "罗森克兰兹女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Lady Guildenstern",
+      "dst": "吉尔登斯吞女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "同一场景中的肖像话题片段；与找书片段分批，传闻不可升格事实\n只读前文：[{\"speaker\": \"Lady Rosencrantz\", \"source\": \"I don't know. I'll select something at random.\", \"line\": 16419}, {\"speaker\": \"Lady Rosencrantz\", \"source\": \"There's so much in here. And i-it's all in German!\", \"line\": 16420}]",
+  "qwen_mt_domains": "A portrait discussion from the same scene, batched separately; preserve hearsay as hearsay\nRead-only preceding lines: [{\"speaker\": \"Lady Rosencrantz\", \"source\": \"I don't know. I'll select something at random.\", \"line\": 16419}, {\"speaker\": \"Lady Rosencrantz\", \"source\": \"There's so much in here. And i-it's all in German!\", \"line\": 16420}]",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

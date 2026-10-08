@@ -1,0 +1,18 @@
+{
+  "reviewer": "主agent",
+  "source": "luna-review-probe.json",
+  "actual_subscription_debit_observed": false,
+  "applied_to_original_outputs": false,
+  "decisions": [
+    {"id": "scenes:6f4f49b19b38:384", "decision": "reject_wording", "reason": "发现代词生硬是对的，但改成眼睛里面空空的仍容易让人误以为眼球缺失，没有解决空洞眼神的问题；应描述眼神空洞，不能自动采纳"},
+    {"id": "scenes:6f4f49b19b38:399", "decision": "accept_optional_fluency", "reason": "去除满眼所见尽是的重复可提升自然度，保留了原文意象；只是文风修订，不是纠正事实"},
+    {"id": "scenes:6f4f49b19b38:405", "decision": "revise_proposal", "reason": "意识到女巫字面直译风险有帮助，但只重复午夜丢掉witching hour的诡异意象；可考虑鬼魅出没的时辰，不直接采纳其提案"},
+    {"id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].name", "decision": "optional_contextual_choice", "reason": "in宜表达地点；城堡从相关正文可知，但标题原文未含Castle，这不是确定错译，保留为可选措辞，不作为必改"},
+    {"id": "information:988217b4da7c:information[id=Assassin_PlayHearsay].long", "decision": "reject_added_hearsay", "reason": "源句There's a spy就是肯定陈述；条目类型hearsay不授权向正文额外加听说，背景只供理解。原译保留Perhaps的不确定程度，并未把原句加强"}
+  ],
+  "missed_risks": [
+    {"id": "scenes:6f4f49b19b38:16567", "reason": "上帝不容容易误读成禁令，未指出God forbid在本段是对嫌对方丢人的强烈否认"},
+    {"id": "scenes:6f4f49b19b38:16566", "reason": "羞于和我在一起虽可理解，仍较直译，且要与下一句接吻害羞区分"}
+  ],
+  "conclusion": "Luna可作为发现问题和提出修改的辅助，但本次5项提案不能全自动采纳，仍需原文对照与复核；这40条不足以证明其全量校对能力"
+}

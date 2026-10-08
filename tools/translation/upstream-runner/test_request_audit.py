@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 
 import httpx
 
@@ -11,17 +12,29 @@ from request_audit import RequestAudit, RequestLimitExceeded, BudgetLimitExceede
 
 
 class RequestAuditTests(unittest.TestCase):
-    def test_mt_preserves_format_in_single_user_and_removes_generic_fields(self):
+    def test_mt_only_sends_numbered_source_and_native_options(self):
+        options = {"domains": "Readable game dialogue. Preserve numbered lines.", "terms": [{"source": "Hamlet", "target": "哈姆雷特"}]}
+        with patch.dict("os.environ", {"AINIEE_QWEN_TRANSLATION_OPTIONS": json.dumps(options)}):
+            body = self.mt_body()
+        self.assertEqual(set(body), {"model", "messages", "max_tokens", "stream", "translation_options"})
+        self.assertEqual(body["messages"], [{"role": "user", "content": "1.Hello"}])
+        self.assertEqual(body["translation_options"], {"source_lang": "English", "target_lang": "Chinese", **options})
+
+    def mt_body(self):
         body = bridge_qwen_mt({"model": "qwen-mt-plus", "max_tokens": 512, "stream": False,
             "enable_thinking": False, "temperature": 1,
             "messages": [{"role": "system", "content": "保留 <textarea> 逐行编号"},
                          {"role": "user", "content": "<textarea>\n1.Hello\n</textarea>"}]})
-        self.assertEqual(set(body), {"model", "messages", "max_tokens", "stream", "translation_options"})
-        self.assertEqual(len(body["messages"]), 1)
-        self.assertEqual(body["messages"][0]["role"], "user")
-        self.assertIn("保留 <textarea> 逐行编号", body["messages"][0]["content"])
-        self.assertIn("1.Hello", body["messages"][0]["content"])
-        self.assertEqual(body["translation_options"], {"source_lang": "English", "target_lang": "Chinese"})
+        return body
+
+    def test_mt_missing_source_duplicate_numbers_and_chinese_domains_rejected(self):
+        for source in ("正文", "<textarea>\n1.Hello\n1.World\n</textarea>", "<textarea>\n1.Hello\nExplanation\n</textarea>"):
+            with self.assertRaises(RequestLimitExceeded):
+                bridge_qwen_mt({"model": "qwen-mt-plus", "max_tokens": 512,
+                                "messages": [{"role": "user", "content": source}]})
+        with patch.dict("os.environ", {"AINIEE_QWEN_TRANSLATION_OPTIONS": '{"domains":"中文背景"}'}):
+            with self.assertRaises(RequestLimitExceeded):
+                self.mt_body()
 
     def test_actual_transport_limit_usage_and_key_redaction(self):
         with tempfile.TemporaryDirectory() as temp:
@@ -37,7 +50,7 @@ class RequestAuditTests(unittest.TestCase):
             try:
                 with httpx.Client(transport=httpx.MockTransport(respond)) as client:
                     body = {"model": "qwen-mt-plus", "max_tokens": 512, "messages": [{"role": "system", "content": "规则"},
-                            {"role": "user", "content": "正文"}], "enable_thinking": False}
+                            {"role": "user", "content": "<textarea>\n1.Hello\n</textarea>"}], "enable_thinking": False}
                     endpoint = "https://ws-test.cn-beijing.maas.aliyuncs.com/compatible-mode/v1/chat/completions"
                     client.post(endpoint, json=body, headers={"Authorization": "Bearer sk-dummy.secret.segments"})
                     with self.assertRaises(RequestLimitExceeded):

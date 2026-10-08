@@ -1,0 +1,16 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Ophelia",
+      "dst": "奥菲莉娅",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "母亲墓前回忆；选择不知纪念日的 else 路径，不混入已知分支\n只读前文：[{\"speaker\": \"Polonius\", \"source\": \"Oh. Ophelia. You're here.\", \"line\": 10096}, {\"speaker\": \"Polonius\", \"source\": \"Do you know what today is?\", \"line\": 10097}]",
+  "qwen_mt_domains": "Memories at Mother's grave; select the else branch where Ophelia does not know the anniversary\nRead-only preceding lines: [{\"speaker\": \"Polonius\", \"source\": \"Oh. Ophelia. You're here.\", \"line\": 10096}, {\"speaker\": \"Polonius\", \"source\": \"Do you know what today is?\", \"line\": 10097}]",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

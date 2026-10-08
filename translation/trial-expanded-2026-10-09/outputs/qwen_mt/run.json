@@ -1,0 +1,24 @@
+{
+  "model": "qwen-mt-plus",
+  "batches": [
+    {
+      "batch": "d01_guards_hamlet",
+      "exit_code": 0,
+      "validation": {
+        "passed": true,
+        "new_model_calls": 1,
+        "expected_count": 13,
+        "output_count": 13,
+        "no_chinese_indices": []
+      }
+    }
+  ],
+  "executor": "AiNiee-Next",
+  "execution_options": {
+    "budget_cny": 1,
+    "max_posts": 140,
+    "lines": 20,
+    "max_output_tokens": 4096
+  },
+  "upstream_commit": "b0883c9f806984571d8f9fe8c4345425d1e6fe83"
+}

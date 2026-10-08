@@ -23,6 +23,19 @@ class FrozenRecoveryTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             restore_batch([{"message": "No."}], events, "test")
 
+    def test_native_mt_recovers_only_exact_numbered_source(self):
+        model = "qwen-mt-plus"
+        events = [{"event": "started", "request_index": 1,
+                   "request_body": {"model": model, "translation_options": {"source_lang": "English", "target_lang": "Chinese"},
+                                    "messages": [{"role": "user", "content": "1.[Hamlet]No."}]}},
+                  {"event": "completed", "request_index": 1, "status_code": 200, "model": model,
+                   "response_body": json.dumps({"choices": [{"message": {"content": "1.[Hamlet]不。"}}]})}]
+        restored, used = restore_batch([{"name": "Hamlet", "message": "No."}], events, model)
+        self.assertEqual(restored, [{"name": "Hamlet", "message": "不。"}])
+        self.assertEqual(used, [1])
+        with self.assertRaises(ValueError):
+            restore_batch([{"name": "Hamlet", "message": "Yes."}], events, model)
+
 
 if __name__ == "__main__":
     unittest.main()

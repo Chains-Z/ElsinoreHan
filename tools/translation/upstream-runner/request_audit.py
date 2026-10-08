@@ -9,7 +9,7 @@ from pathlib import Path
 import threading
 
 from bailian_compat import uses_bailian_endpoint
-from format_compat import repair_json_response
+from format_compat import numbered_rows, repair_json_response
 
 
 class RequestLimitExceeded(RuntimeError):
@@ -33,13 +33,24 @@ def redact(value):
 
 
 def bridge_qwen_mt(body: dict) -> dict:
-    """转换百炼 Qwen-MT 的单 user 专用协议，保留上游格式提示。"""
+    """只取真实源文；领域及术语走官方原生参数，拒绝猜测待译范围。"""
     if not str(body.get("model", "")).lower().startswith("qwen-mt"):
         return body
-    text = "\n\n".join(str(message.get("content", "")) for message in body.get("messages", []))
+    users = [message for message in body.get("messages", []) if message.get("role") == "user"]
+    blocks = re.findall(r"<textarea>(.*?)</textarea>", str(users[-1].get("content", "")), re.DOTALL) if users else []
+    if not blocks or numbered_rows(blocks[-1].strip()) is None:
+        raise RequestLimitExceeded("Qwen-MT 请求缺少完整编号的真实源文 textarea，发送前拒绝")
+    text = blocks[-1].strip()
+    options = json.loads(os.environ.get("AINIEE_QWEN_TRANSLATION_OPTIONS", "{}"))
+    options = {"source_lang": "English", "target_lang": "Chinese", **options}
+    if set(options) - {"source_lang", "target_lang", "domains", "terms", "tm_list"}:
+        raise RequestLimitExceeded("Qwen-MT 存在未知原生翻译参数")
+    domains = options.get("domains", "")
+    if not isinstance(domains, str) or re.search(r"[\u3400-\u9fff]", domains):
+        raise RequestLimitExceeded("Qwen-MT domains 须为官方支持的英文说明")
     return {"model": body["model"], "messages": [{"role": "user", "content": text}],
             "max_tokens": body["max_tokens"], "stream": bool(body.get("stream", False)),
-            "translation_options": {"source_lang": "English", "target_lang": "Chinese"}}
+            "translation_options": options}
 
 
 def disable_sparse_completion() -> None:

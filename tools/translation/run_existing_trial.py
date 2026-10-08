@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import math
 import os
 import re
 import subprocess
@@ -26,8 +27,8 @@ def mask(text: str, key: str) -> str:
     return re.sub(r"sk-[A-Za-z0-9._~+/=-]+", "[已隐藏密钥]", text.replace(key, "[已隐藏密钥]"))
 
 
-def completed_calls(model: str) -> int:
-    ledger = TRIAL / "api-ledger.jsonl"
+def completed_calls(model: str, trial: Path = TRIAL) -> int:
+    ledger = trial / "api-ledger.jsonl"
     if not ledger.exists():
         return 0
     return sum(row.get("event") == "completed" and row.get("status_code") == 200 and row.get("model") == model
@@ -59,15 +60,66 @@ def trial_complete(previous: dict, manifest: dict) -> bool:
     )
 
 
+def execution_options(args, trial: Path) -> dict:
+    """命令行覆盖本轮配置，未给参数时保持原小样默认；无效预算提前拒绝。"""
+    config_path = trial / "trial-config.json"
+    config = json.loads(config_path.read_text(encoding="utf-8")) if config_path.exists() else {}
+    defaults = {"budget_cny": 4.75, "max_posts": 24, "lines": 15, "max_output_tokens": 4096}
+    result = {key: getattr(args, key, None) if getattr(args, key, None) is not None
+              else config.get(key, value) for key, value in defaults.items()}
+    if type(result["budget_cny"]) not in (int, float) or not math.isfinite(result["budget_cny"]) or result["budget_cny"] <= 0:
+        raise ValueError("试验预算须为大于 0 的有限金额")
+    if any(type(result[key]) is not int or result[key] < 1 for key in ("max_posts", "lines", "max_output_tokens")):
+        raise ValueError("次数、行数和输出 token 上限须为正整数")
+    return result
+
+
+def qwen_translation_options(rules: dict) -> dict:
+    """官方原生参数承载英文领域说明及本批术语，不把上游提示当待译原文。"""
+    domains = ("These numbered entries are dialogue and interface text from Elsinore, a modern readable "
+               "Hamlet-inspired game. Translate into natural, clear Simplified Chinese, preserving only the "
+               "source's own mild theatrical or archaic tone. Do not invent facts, relationships, motives, or explanations. "
+               "Preserve every entry number, entry order, square-bracketed speaker metadata, HTML tags, placeholders, "
+               "and line boundaries exactly. Output only the translated numbered entries, with no commentary. ")
+    extra = rules.get("qwen_mt_domains", "")
+    if not isinstance(extra, str):
+        raise ValueError("Qwen 英文领域说明必须是字符串")
+    if re.search(r"[\u3400-\u9fff]", extra):
+        raise ValueError("Qwen domains 官方只支持英文，不能直接拼接中文背景")
+    terms = [{"source": row["src"], "target": row["dst"]}
+             for row in rules.get("prompt_dictionary_data", [])]
+    return {"source_lang": "English", "target_lang": "Chinese", "domains": domains + extra, "terms": terms}
+
+
+def merge_batch_results(previous: dict | None, results: list[dict], manifest: dict) -> list[dict]:
+    """受控暂停时保留未访问的旧批次记录，按本轮 manifest 顺序合并。"""
+    combined = {item["batch"]: item for item in (previous or {}).get("batches", [])}
+    combined.update({item["batch"]: item for item in results})
+    return [combined[batch["id"]] for batch in manifest["batches"] if batch["id"] in combined]
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--candidate", required=True, choices=["deepseek_pro", "deepseek_flash", "glm_flash", "qwen_mt"])
     parser.add_argument("--resume-failed", action="store_true", help="仅继续先前失败的候选，保留旧日志与运行记录")
+    parser.add_argument("--trial-dir", type=Path, default=TRIAL)
+    parser.add_argument("--budget-cny", type=float)
+    parser.add_argument("--max-posts", type=int)
+    parser.add_argument("--lines", type=int)
+    parser.add_argument("--max-output-tokens", type=int)
+    parser.add_argument("--stop-after-batches", type=int, help="本次最多新执行的批次数，用于首次真实接入验证后受控暂停")
     args = parser.parse_args()
+    if args.stop_after_batches is not None and args.stop_after_batches < 1:
+        parser.error("受控暂停批次数须为正整数")
+    trial = args.trial_dir.resolve()
+    try:
+        options = execution_options(args, trial)
+    except ValueError as error:
+        parser.error(str(error))
     provider = json.loads((ROOT / "translation" / "provider.json").read_text(encoding="utf-8"))
-    manifest = json.loads((TRIAL / "manifest.json").read_text(encoding="utf-8"))
+    manifest = json.loads((trial / "manifest.json").read_text(encoding="utf-8"))
     model = provider["models"][args.candidate]
-    destination = TRIAL / "outputs" / args.candidate
+    destination = trial / "outputs" / args.candidate
     previous = None
     if destination.exists():
         if not args.resume_failed or not (destination / "run.json").is_file():
@@ -84,34 +136,38 @@ def main() -> None:
     key = load_key(ROOT / provider["credential_file"])
     environment = os.environ.copy()
     environment.update({"AINIEE_WEB_TASK_API_KEY": key,
-                        "AINIEE_API_AUDIT_LEDGER": str(TRIAL / "api-ledger.jsonl"),
-                        "AINIEE_MAX_API_POSTS": "24", "AINIEE_MAX_OUTPUT_TOKENS": "4096",
-                        "AINIEE_TOTAL_BUDGET_CNY": "4.75",
+                        "AINIEE_API_AUDIT_LEDGER": str(trial / "api-ledger.jsonl"),
+                        "AINIEE_MAX_API_POSTS": str(options["max_posts"]), "AINIEE_MAX_OUTPUT_TOKENS": str(options["max_output_tokens"]),
+                        "AINIEE_TOTAL_BUDGET_CNY": str(options["budget_cny"]),
                         "AINIEE_API_PRICES_JSON": json.dumps(PRICES),
                         "PYTHONIOENCODING": "utf-8", "PYTHONUTF8": "1"})
     results = []
+    new_batches = 0
     for batch in manifest["batches"]:
         old_batch = next((item for item in previous["batches"] if item["batch"] == batch["id"]), None) if previous else None
         if old_batch and old_batch["exit_code"] == 0 and old_batch.get("validation", {}).get("passed"):
             results.append(old_batch)
             continue
-        profile = "elsinore-" + args.candidate + "-" + batch["id"]
+        profile = "elsinore-" + trial.name + "-" + args.candidate + "-" + batch["id"]
+        if args.candidate == "qwen_mt":
+            rules = json.loads((trial / "rules" / (batch["id"] + ".json")).read_text(encoding="utf-8"))
+            environment["AINIEE_QWEN_TRANSLATION_OPTIONS"] = json.dumps(qwen_translation_options(rules), ensure_ascii=False)
         prepare = [str(PYTHON), str(RUNNER / "prepare_config.py"),
                    "--base-url", provider["openai_compatible_url"], "--model", model,
-                   "--profile", profile, "--max-output-tokens", "4096",
-                   "--prompt", str(TRIAL / "system-prompt.txt"), "--style", str(TRIAL / "writing-style.txt"),
-                   "--rules", str(TRIAL / "rules" / (batch["id"] + ".json")),
+                   "--profile", profile, "--max-output-tokens", str(options["max_output_tokens"]),
+                   "--prompt", str(trial / "system-prompt.txt"), "--style", str(trial / "writing-style.txt"),
+                   "--rules", str(trial / "rules" / (batch["id"] + ".json")),
                    "--thinking", "true" if args.candidate == "glm_flash" else "false"]
         process_flags = subprocess.CREATE_NO_WINDOW if os.name == "nt" else 0
         subprocess.run(prepare, cwd=ROOT, check=True, capture_output=True, creationflags=process_flags)
-        command = [str(PYTHON), str(RUNNER / "launch.py"), "translate", str(TRIAL / "inputs" / batch["file"]),
+        command = [str(PYTHON), str(RUNNER / "launch.py"), "translate", str(trial / "inputs" / batch["file"]),
                    "--execution-mode", "default_api", "--type", "Vnt", "--source", "英语",
                    "--target", "简体中文", "--profile", profile, "--rules-profile", profile,
                    "--output", str(destination / batch["id"]), "--threads", "1", "--retry", "0",
-                   "--rounds", "1", "--timeout", "90", "--lines", "15", "--pre-lines", "0",
+                   "--rounds", "1", "--timeout", "90", "--lines", str(options["lines"]), "--pre-lines", "0",
                    "--failover", "off", "--yes"]
         print(json.dumps({"candidate": args.candidate, "batch": batch["id"], "state": "started"}, ensure_ascii=True), flush=True)
-        before_calls = completed_calls(model)
+        before_calls = completed_calls(model, trial)
         try:
             completed = subprocess.run(command, cwd=ROOT, env=environment, stdout=subprocess.PIPE,
                                        stderr=subprocess.STDOUT, timeout=240, creationflags=process_flags)
@@ -125,15 +181,20 @@ def main() -> None:
             old_log = log.with_name(log.stem + f".before-{len(list((destination / 'history').glob('attempt-*.json')))}.log")
             log.rename(old_log)
         log.write_text(output, encoding="utf-8")
-        validation = validate_batch(TRIAL / "inputs" / batch["file"], destination / batch["id"], completed_calls(model) - before_calls)
+        validation = validate_batch(trial / "inputs" / batch["file"], destination / batch["id"], completed_calls(model, trial) - before_calls)
         if code == 0 and not validation["passed"]:
             code = 1
         results.append({"batch": batch["id"], "exit_code": code, "validation": validation})
+        new_batches += 1
         print(json.dumps({"candidate": args.candidate, "batch": batch["id"], "exit_code": code, "validation": validation}, ensure_ascii=True), flush=True)
         if code != 0:
             break
+        if args.stop_after_batches is not None and new_batches >= args.stop_after_batches:
+            break
+    results = merge_batch_results(previous, results, manifest)
     (destination / "run.json").write_text(json.dumps({"model": model, "batches": results,
-                 "executor": "AiNiee-Next", "upstream_commit": "b0883c9f806984571d8f9fe8c4345425d1e6fe83"},
+                 "executor": "AiNiee-Next", "execution_options": options,
+                 "upstream_commit": "b0883c9f806984571d8f9fe8c4345425d1e6fe83"},
                  ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     if any(item["exit_code"] != 0 for item in results):
         raise SystemExit(1)

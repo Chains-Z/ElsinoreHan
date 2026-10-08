@@ -1,0 +1,26 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Elsinore",
+      "dst": "埃尔西诺",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Claudius",
+      "dst": "克劳狄斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "另一次花园散步，王后讲述童年和姐姐；国王哈姆雷特与王子须分清\n只读前文：[{\"speaker\": \"Horatio\", \"source\": \"My lady, shall we stroll?\", \"line\": 11302}, {\"speaker\": \"Queen Gertrude\", \"source\": \"Of course!\", \"line\": 11305}]",
+  "qwen_mt_domains": "A separate garden walk: Gertrude recalls her childhood and elder sister; distinguish King Hamlet from the prince\nRead-only preceding lines: [{\"speaker\": \"Horatio\", \"source\": \"My lady, shall we stroll?\", \"line\": 11302}, {\"speaker\": \"Queen Gertrude\", \"source\": \"Of course!\", \"line\": 11305}]",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

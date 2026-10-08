@@ -1,0 +1,26 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Ophelia",
+      "dst": "奥菲莉娅",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Lady Rosencrantz",
+      "dst": "罗森克兰兹女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Lady Guildenstern",
+      "dst": "吉尔登斯吞女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "两位女士取喷泉里的苔藓；幽默反讽与强调\n只读前文：[]",
+  "qwen_mt_domains": "The two ladies collect moss from a fountain; humor, irony and emphasis\nRead-only preceding lines: []",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

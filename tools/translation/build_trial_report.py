@@ -1,5 +1,6 @@
 """离线核对真实试译的来源、冻结响应与格式，并生成完整对照表。"""
 
+import argparse
 import hashlib
 import json
 import re
@@ -35,10 +36,13 @@ def write_json(path: Path, value) -> None:
 
 def main() -> None:
     from opencc import OpenCC
-
-    manifest = load(TRIAL / "manifest.json")
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--trial-dir", type=Path, default=TRIAL)
+    args = parser.parse_args()
+    trial = args.trial_dir.resolve()
+    manifest = load(trial / "manifest.json")
     provider = load(ROOT / "translation" / "provider.json")
-    ledger = [json.loads(line) for line in (TRIAL / "api-ledger.jsonl").read_text(encoding="utf-8").splitlines()]
+    ledger = [json.loads(line) for line in (trial / "api-ledger.jsonl").read_text(encoding="utf-8").splitlines()]
     completed = [row for row in ledger if row["event"] == "completed" and row.get("status_code") == 200]
     started = [row for row in ledger if row["event"] == "started"]
     rows = [{"id": item["id"], "source": item["message"], "speaker": item["name"],
@@ -47,7 +51,7 @@ def main() -> None:
     assert len({row["id"] for row in rows}) == manifest["count"]
     source_checks = []
     for entry in manifest["entries"]:
-        source = load(TRIAL / "inputs" / entry["file"])[entry["index"]]
+        source = load(trial / "inputs" / entry["file"])[entry["index"]]
         assert source["message"] == entry["message"]
         assert hashlib.sha256(source["message"].encode("utf-8")).hexdigest() == entry["source_text_sha256"]
         source_checks.append(entry["id"])
@@ -56,8 +60,8 @@ def main() -> None:
     for alias, label in LABELS.items():
         checks, notices, used_requests = [], [], []
         for batch in manifest["batches"]:
-            inputs = load(TRIAL / "inputs" / batch["file"])
-            output = load(TRIAL / "outputs" / alias / batch["id"] / batch["file"])
+            inputs = load(trial / "inputs" / batch["file"])
+            output = load(trial / "outputs" / alias / batch["id"] / batch["file"])
             frozen, indices = restore_batch(inputs, ledger, provider["models"][alias])
             assert len(output) == len(inputs) == batch["count"]
             used_requests.extend(indices)
@@ -80,7 +84,7 @@ def main() -> None:
                              "checks": checks, "simplification_review_notices": notices}
         anonymous = [{key: row[key] for key in ("id", "source", "speaker", "context", "register")} |
                      {"target": row["targets"][alias]} for row in rows]
-        write_json(TRIAL / "review-input" / ("candidate-" + ANONYMOUS[alias] + ".json"), anonymous)
+        write_json(trial / "review-input" / ("candidate-" + ANONYMOUS[alias] + ".json"), anonymous)
     verification = {"source_count": len(source_checks), "candidate_count": len(candidates),
                     "output_count": sum(item["count"] for item in candidates.values()),
                     "source_hashes_and_input_order_passed": True, "all_outputs_match_frozen_responses": True,
@@ -90,10 +94,10 @@ def main() -> None:
                     "candidates": candidates,
                     "limitations": ["格式通过不代表意义和中文质量通过", "标签数量一致不证明强调范围一致",
                                     "简繁转换差异只作审读提示，不能机械判定错误", "静态来源未动态确认加载版本",
-                                    "没有验证这些译文在游戏内显示", "这是单次40条小样，不能证明全量优劣"]}
-    write_json(TRIAL / "verification.json", verification)
-    write_json(TRIAL / "comparison.json", rows)
-    table = ["# 四模型真实试译全文对照", "", "40条真实游戏原文，每个模型译文均来自冻结API响应，未润色。",
+                                    "没有验证这些译文在游戏内显示", "这是单次定向样本，不能证明全量优劣"]}
+    write_json(trial / "verification.json", verification)
+    write_json(trial / "comparison.json", rows)
+    table = ["# 四模型真实试译全文对照", "", f"{len(rows)}条真实游戏原文，每个模型译文均来自冻结API响应，未润色。",
              "", "格式已核对；意义、语气和排版仍需审读。角色名属于背景元数据，正文按来源ID绑定。", ""]
     for index, row in enumerate(rows, 1):
         table.extend([f"## {index}. {row['id']}", "", f"说话人：{row['speaker']}", "", "原文：", "",
@@ -102,7 +106,7 @@ def main() -> None:
             target = row["targets"][alias].replace("|", "\\|").replace("\n", "<br>").replace("<", "&lt;").replace(">", "&gt;")
             table.append(f"| {label} | {target} |")
         table.append("")
-    (TRIAL / "comparison.md").write_text("\n".join(table), encoding="utf-8")
+    (trial / "comparison.md").write_text("\n".join(table), encoding="utf-8")
     print(json.dumps({"source_count": len(source_checks), "output_count": verification["output_count"],
                       "cost_estimate_cny": verification["cost_estimate_cny"],
                       "format_passed": {alias: item["format_passed"] for alias, item in candidates.items()},

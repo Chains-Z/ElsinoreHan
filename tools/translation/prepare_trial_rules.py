@@ -1,5 +1,6 @@
 """将真实试译上下文适配为上游规则配置，不调用模型。"""
 
+import argparse
 import json
 from pathlib import Path
 
@@ -13,10 +14,14 @@ def source_with_speaker(entry: dict) -> str:
 
 
 def main() -> None:
-    manifest = json.loads((TRIAL / "manifest.json").read_text(encoding="utf-8"))
-    context = json.loads((TRIAL / "context.json").read_text(encoding="utf-8"))
-    glossary = json.loads((TRIAL / "glossary.json").read_text(encoding="utf-8"))
-    directory = TRIAL / "rules"
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--trial-dir", type=Path, default=TRIAL)
+    args = parser.parse_args()
+    trial = args.trial_dir.resolve()
+    manifest = json.loads((trial / "manifest.json").read_text(encoding="utf-8"))
+    context = json.loads((trial / "context.json").read_text(encoding="utf-8"))
+    glossary = json.loads((trial / "glossary.json").read_text(encoding="utf-8"))
+    directory = trial / "rules"
     directory.mkdir(exist_ok=True)
     for batch in manifest["batches"]:
         members = [entry for entry in manifest["entries"] if entry["batch"] == batch["id"]]
@@ -35,6 +40,9 @@ def main() -> None:
                  "world_building_switch": True, "world_building_content": background,
                  "characterization_switch": False, "translation_memory_switch": False,
                  "translation_example_switch": False}
+        domains = context.get("batches", {}).get(batch["id"], {}).get("qwen_mt_domains", "")
+        if domains:
+            rules["qwen_mt_domains"] = domains
         (directory / (batch["id"] + ".json")).write_text(
             json.dumps(rules, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({"rules_files": len(manifest["batches"]), "source_entries": len(manifest["entries"])}, ensure_ascii=True))

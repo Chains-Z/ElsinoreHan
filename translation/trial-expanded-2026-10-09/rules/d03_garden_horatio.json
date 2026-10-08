@@ -1,0 +1,16 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "花园散步，王后询问霍拉旭的经历；称谓与家人关系\n只读前文：[{\"speaker\": \"Queen Gertrude\", \"source\": \"Good morning, Horatio.\", \"line\": 11245}, {\"speaker\": \"Queen Gertrude\", \"source\": \"Are you well this morning?\", \"line\": 11247}, {\"speaker\": \"Horatio\", \"source\": \"Of course. Always up for a walk to lift the spirits!\", \"line\": 11249}, {\"speaker\": \"Queen Gertrude\", \"source\": \"You are the only man who will take me for a stroll these days, Horatio.\", \"line\": 11251}, {\"speaker\": \"Queen Gertrude\", \"source\": \"It's as though half the time these days my husband is concealed away in his chambers, lost in thought.\", \"line\": 11254}]",
+  "qwen_mt_domains": "Gertrude asks Horatio about his past during a garden walk; forms of address and family relations\nRead-only preceding lines: [{\"speaker\": \"Queen Gertrude\", \"source\": \"Good morning, Horatio.\", \"line\": 11245}, {\"speaker\": \"Queen Gertrude\", \"source\": \"Are you well this morning?\", \"line\": 11247}, {\"speaker\": \"Horatio\", \"source\": \"Of course. Always up for a walk to lift the spirits!\", \"line\": 11249}, {\"speaker\": \"Queen Gertrude\", \"source\": \"You are the only man who will take me for a stroll these days, Horatio.\", \"line\": 11251}, {\"speaker\": \"Queen Gertrude\", \"source\": \"It's as though half the time these days my husband is concealed away in his chambers, lost in thought.\", \"line\": 11254}]",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

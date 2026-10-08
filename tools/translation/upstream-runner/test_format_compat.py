@@ -24,6 +24,17 @@ class FormatCompatibilityTests(unittest.TestCase):
             self.assertEqual(result, raw)
             self.assertIsNone(note)
 
+    def test_native_qwen_source_uses_exact_numbers_without_wrapper(self):
+        body = {"model": "qwen-mt-plus", "translation_options": {"source_lang": "English", "target_lang": "Chinese"},
+                "messages": [{"role": "user", "content": "1.[Hamlet]Hello\n2.World"}]}
+        raw = "1.[Hamlet]你好。\n2.世界。"
+        result, note = wrap_complete_numbered_translation(raw, body)
+        self.assertEqual(result, "<textarea>\n" + raw + "\n</textarea>")
+        self.assertEqual(note["matched_numbers"], [1, 2])
+        incomplete, note = wrap_complete_numbered_translation("1.你好。", body)
+        self.assertEqual(incomplete, "1.你好。")
+        self.assertIsNone(note)
+
 
 if __name__ == "__main__":
     unittest.main()

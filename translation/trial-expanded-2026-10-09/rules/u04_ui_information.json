@@ -1,0 +1,51 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Ophelia",
+      "dst": "奥菲莉娅",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "King Hamlet",
+      "dst": "哈姆雷特国王",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Quince",
+      "dst": "奎因斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Elsinore",
+      "dst": "埃尔西诺",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Claudius",
+      "dst": "克劳狄斯",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Bernardo",
+      "dst": "贝尔纳多",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Brit",
+      "dst": "布莉特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "条目彼此独立，只读语境不额外翻译：\n1. 知识/信念的可见标签；只翻译 text，不翻译 constant。；语体：清楚准确的界面/资料语体\n2. 知识/信念的可见标签；只翻译 text，不翻译 constant。；语体：清楚准确的界面/资料语体\n3. 知识/信念的可见标签；只翻译 text，不翻译 constant。；语体：清楚准确的界面/资料语体\n4. 知识/信念的可见标签；只翻译 text，不翻译 constant。；语体：清楚准确的界面/资料语体\n5. 知识/信念的可见标签；只翻译 text，不翻译 constant。；语体：清楚准确的界面/资料语体\n6. 知识/信念的可见标签；只翻译 text，不翻译 constant。；语体：清楚准确的界面/资料语体\n7. 知识/信念的可见标签；只翻译 text，不翻译 constant。；语体：清楚准确的界面/资料语体\n8. 奥菲莉娅视角的角色资料 ophelia；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体\n9. 奥菲莉娅视角的角色资料 hamlet；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体\n10. 奥菲莉娅视角的角色资料 gertrude；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体\n11. 奥菲莉娅视角的角色资料 claudius；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体\n12. 奥菲莉娅视角的角色资料 polonius；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体\n13. 奥菲莉娅视角的角色资料 laertes；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体\n14. 奥菲莉娅视角的角色资料 brit；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体\n15. 奥菲莉娅视角的角色资料 bernardo；保留原有不确定性、换行和身份表述。；语体：清楚准确的界面/资料语体",
+  "qwen_mt_domains": "Independent entries. Context is read-only, not a translation target.\n1. Visible knowledge or belief label; translate text, not the program constant.; register: Clear and precise UI or information prose\n2. Visible knowledge or belief label; translate text, not the program constant.; register: Clear and precise UI or information prose\n3. Visible knowledge or belief label; translate text, not the program constant.; register: Clear and precise UI or information prose\n4. Visible knowledge or belief label; translate text, not the program constant.; register: Clear and precise UI or information prose\n5. Visible knowledge or belief label; translate text, not the program constant.; register: Clear and precise UI or information prose\n6. Visible knowledge or belief label; translate text, not the program constant.; register: Clear and precise UI or information prose\n7. Visible knowledge or belief label; translate text, not the program constant.; register: Clear and precise UI or information prose\n8. Character biography ophelia from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose\n9. Character biography hamlet from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose\n10. Character biography gertrude from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose\n11. Character biography claudius from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose\n12. Character biography polonius from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose\n13. Character biography laertes from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose\n14. Character biography brit from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose\n15. Character biography bernardo from Ophelia's perspective; preserve uncertainty, line breaks and identity as written.; register: Clear and precise UI or information prose",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

@@ -1,0 +1,21 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Ophelia",
+      "dst": "奥菲莉娅",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    },
+    {
+      "src": "Hamlet",
+      "dst": "哈姆雷特",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "父亲责问女儿；选择 loop<=2 且 loop!=2 的首次路径，排除返场和第二轮\n只读前文：[]",
+  "qwen_mt_domains": "A father's rebuke; select the first-loop branch (loop<=2 and loop!=2), excluding return and second-loop alternatives\nRead-only preceding lines: []",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

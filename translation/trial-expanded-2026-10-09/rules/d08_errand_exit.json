@@ -1,0 +1,16 @@
+{
+  "prompt_dictionary_switch": true,
+  "prompt_dictionary_data": [
+    {
+      "src": "Lady Rosencrantz",
+      "dst": "罗森克兰兹女士",
+      "info": "本轮暂定译名，跨模型统一，未经过用户确认"
+    }
+  ],
+  "world_building_switch": true,
+  "world_building_content": "同场景收尾；此前两条省略号不列为付费样本\n只读前文：[{\"speaker\": \"Lady Guildenstern\", \"source\": \"I heard from my father she passed away, but... why did she die?\", \"line\": 16427}, {\"speaker\": \"Lady Rosencrantz\", \"source\": \"Hamlet won't say. I think it was rather bloody.\", \"line\": 16429}, {\"speaker\": \"Lady Rosencrantz\", \"source\": \"I know she died a raving lunatic.\", \"line\": 16430}]",
+  "qwen_mt_domains": "The conclusion of the same scene; preceding ellipsis-only lines are not paid translation samples\nRead-only preceding lines: [{\"speaker\": \"Lady Guildenstern\", \"source\": \"I heard from my father she passed away, but... why did she die?\", \"line\": 16427}, {\"speaker\": \"Lady Rosencrantz\", \"source\": \"Hamlet won't say. I think it was rather bloody.\", \"line\": 16429}, {\"speaker\": \"Lady Rosencrantz\", \"source\": \"I know she died a raving lunatic.\", \"line\": 16430}]",
+  "characterization_switch": false,
+  "translation_memory_switch": false,
+  "translation_example_switch": false
+}

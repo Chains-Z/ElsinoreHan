@@ -1,0 +1,8 @@
+{
+  "budget_cny": 1,
+  "max_posts": 140,
+  "lines": 20,
+  "max_output_tokens": 4096,
+  "models": ["qwen_mt", "glm_flash", "deepseek_pro", "deepseek_flash"],
+  "notes": "四模型共用顺序账本；Qwen先验证一个新批次，再先跑GLM以满足思考费用预留；旧40条不重译"
+}
