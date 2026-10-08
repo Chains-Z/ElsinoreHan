@@ -1,6 +1,7 @@
 """对已发现的误判分支做局部回归，不替代真实游戏验收。"""
 
 import unittest
+import base64
 import importlib.util
 from pathlib import Path
 
@@ -15,6 +16,27 @@ def visible(text: str, overflow: bool = False) -> dict:
 
 
 class ProbeRegressionTests(unittest.TestCase):
+    def test_only_current_settings_values_are_insufficient(self):
+        report = "STATUS\tCOMPLETE\nCANCELLED\tTrue\nSCOPES_RETAINED\tTrue\n"
+        result = module.evaluate_settings_options(report, {"Faster": "较快"})
+        self.assertFalse(result["settings_all_noncurrent_options_visited"])
+        self.assertFalse(result["settings_all_option_values_translated"])
+
+    def test_untranslated_faster_is_rejected_even_when_every_option_visited(self):
+        options = {"TextSpeed": ["Normal", "Faster", "Fastest", "Instant"], "AlternateCostumes": ["Default", "Modern"],
+                   "Quality": ["Low", "Medium", "High"], "ScreenMode": ["Windowed", "Borderless", "Fullscreen"], "Resolution": ["Native"]}
+        translations = {s: "中文" for values in options.values() for s in values}
+        encode = lambda s: base64.b64encode(s.encode()).decode()
+        lines = ["STATUS\tCOMPLETE", "CANCELLED\tTrue", "SCOPES_RETAINED\tTrue"]
+        for slot, values in options.items():
+            for index, source in enumerate(values):
+                target = source if source == "Faster" else translations[source]
+                lines.append("\t".join(["OPTION", slot, str(index), encode(source), encode(target), "translated", "False", "True"]))
+        result = module.evaluate_settings_options("\n".join(lines), translations)
+        self.assertTrue(result["settings_all_noncurrent_options_visited"])
+        self.assertFalse(result["settings_all_option_values_translated"])
+        self.assertFalse(result["settings_each_slot_toggle_original"])
+
     def test_original_complete_labels_do_not_pass_abbreviated_dictionary(self):
         result = evaluate([visible("Continue Game"), visible("设置"), visible("Quit Game")], [], "", "")
         self.assertFalse(result["menu_labels_all_translated"])

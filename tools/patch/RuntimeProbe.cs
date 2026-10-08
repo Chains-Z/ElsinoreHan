@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using System.IO;
 using System.Text;
 using System.Reflection;
@@ -26,6 +27,9 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private bool requestedPause;
     private bool requestedSplash;
     private bool saveGuardActive;
+    private bool requireSettingsOptions;
+    private bool settingsOptionsFinished;
+    private StringBuilder settingsOptionsReport;
     private static int blockedSaveWrites;
     private static string isolatedSaveDirectory;
 
@@ -42,6 +46,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         }
         outputDirectory = Path.Combine(Path.Combine(Paths.GameRootPath, "ElsinoreHanProbe"), runId);
         requireToggle = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_TOGGLE") == "1";
+        requireSettingsOptions = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_SETTINGS_OPTIONS") == "1";
         // 自动探针只允许后台运行；普通游玩不安装此插件。
         if (!Application.isBatchMode)
         {
@@ -93,7 +98,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 Logger.LogInfo("Wwise 后台音频暂停结果=" + result);
             }
         }
-        if (requireToggle && Time.realtimeSinceStartup - started > 12f && Time.realtimeSinceStartup - started < 18f
+        if ((requireToggle || requireSettingsOptions) && Time.realtimeSinceStartup - started > 12f && Time.realtimeSinceStartup - started < 18f
             && Time.realtimeSinceStartup > nextMenuCheck)
         {
             nextMenuCheck = Time.realtimeSinceStartup + 1f;
@@ -165,9 +170,259 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         {
             capturedSettings = true;
             Capture("settings");
+            if (requireSettingsOptions)
+                StartCoroutine(GuardSettingsOptions());
         }
-        if (Time.realtimeSinceStartup - started > 30f)
+        if (Time.realtimeSinceStartup - started > (requireSettingsOptions ? 45f : 30f))
+        {
+            if (requireSettingsOptions && !settingsOptionsFinished)
+                FailSettingsOptions(new TimeoutException("逐档设置验证未在45秒内结束"));
             Application.Quit();
+        }
+    }
+
+    private const BindingFlags InstanceFields = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
+
+    private static object RequiredField(object owner, string name)
+    {
+        if (owner == null) throw new InvalidOperationException("字段所属对象为空：" + name);
+        var field = owner.GetType().GetField(name, InstanceFields);
+        if (field == null) throw new MissingFieldException(owner.GetType().FullName, name);
+        var value = field.GetValue(owner);
+        if (value == null) throw new InvalidOperationException("真实字段未就绪：" + name);
+        return value;
+    }
+
+    private static object RequiredProperty(object owner, string name)
+    {
+        if (owner == null) throw new InvalidOperationException("属性所属对象为空：" + name);
+        var property = owner.GetType().GetProperty(name, InstanceFields);
+        if (property == null) throw new MissingMemberException(owner.GetType().FullName, name);
+        var value = property.GetValue(owner, null);
+        if (value == null) throw new InvalidOperationException("真实属性未就绪：" + name);
+        return value;
+    }
+
+    private void SettingsOptionsLine(string line)
+    {
+        settingsOptionsReport.AppendLine(line);
+        Directory.CreateDirectory(outputDirectory);
+        File.WriteAllText(Path.Combine(outputDirectory, "settings-options.txt"), settingsOptionsReport.ToString(), new UTF8Encoding(false));
+    }
+
+    private static string ReportText(string value)
+    {
+        return Convert.ToBase64String(Encoding.UTF8.GetBytes(value ?? ""));
+    }
+
+    private void FailSettingsOptions(Exception error)
+    {
+        if (settingsOptionsFinished) return;
+        settingsOptionsFinished = true;
+        if (settingsOptionsReport == null) settingsOptionsReport = new StringBuilder();
+        SettingsOptionsLine("FAILURE\t" + ReportText(error.GetType().Name + ": " + error.Message));
+        SettingsOptionsLine("STATUS\tFAILED");
+        Logger.LogError("逐档设置验证失败：" + error);
+    }
+
+    // 将迭代器推进放在异常边界内；失败和未完成都留下记录，不能冒充验证通过。
+    private IEnumerator GuardSettingsOptions()
+    {
+        settingsOptionsReport = new StringBuilder();
+        SettingsOptionsLine("STATUS\tSTARTED");
+        SettingsOptionsLine("FORMAT\tOPTION slot index source_base64 text_base64 mode overflow active");
+        SettingsOptionsLine("SAVE_WRITE_GUARD_ACTIVE\t" + saveGuardActive);
+        var routine = ProbeSettingsOptions();
+        while (true)
+        {
+            bool more;
+            object current = null;
+            try
+            {
+                more = routine.MoveNext();
+                if (more) current = routine.Current;
+            }
+            catch (Exception error)
+            {
+                FailSettingsOptions(error);
+                yield break;
+            }
+            if (!more) yield break;
+            yield return current;
+        }
+    }
+
+    private int SliderIndex(object slider)
+    {
+        return ((Func<int>)RequiredField(slider, "GetValue"))();
+    }
+
+    private void ClickSettingsButton(object button)
+    {
+        var component = button as Component;
+        if (component == null || !component.gameObject.activeInHierarchy)
+            throw new InvalidOperationException("设置按钮不属于当前激活页面");
+        var selectable = button as Selectable;
+        if (selectable == null || !selectable.interactable)
+            throw new InvalidOperationException("设置按钮不可交互");
+        var property = button.GetType().GetProperty("OnClick", InstanceFields);
+        if (property == null) throw new MissingMemberException("设置按钮缺少真实OnClick事件");
+        var click = property.GetValue(button, null) as Button.ButtonClickedEvent;
+        if (click == null) throw new InvalidOperationException("设置按钮OnClick类型不兼容");
+        click.Invoke();
+    }
+
+    private void SettingsTab(object preferences, string name)
+    {
+        var toggle = RequiredField(preferences, name);
+        var property = toggle.GetType().GetProperty("IsOn", InstanceFields);
+        if (property == null) throw new MissingMemberException("真实设置页签缺少IsOn");
+        property.SetValue(toggle, true, null);
+        if (!(bool)property.GetValue(toggle, null)) throw new InvalidOperationException("真实设置页签切换失败");
+        SettingsOptionsLine("TAB\t" + name);
+    }
+
+    private bool SettingsTranslatedMode()
+    {
+        foreach (var component in Resources.FindObjectsOfTypeAll<MonoBehaviour>())
+        {
+            if (component == null || component.GetType().Name != "TranslationToggle") continue;
+            var state = component.GetType().GetMethod("IsTranslatedMode", BindingFlags.Public | BindingFlags.Instance);
+            var mode = state == null ? null : state.Invoke(component, null);
+            if (mode is bool) return (bool)mode;
+        }
+        throw new InvalidOperationException("F8插件或翻译模式尚未就绪");
+    }
+
+    private void SetSettingsTranslatedMode(bool translated)
+    {
+        if (SettingsTranslatedMode() == translated) return;
+        InvokeToggle(false);
+        InvokeToggle(true);
+        if (SettingsTranslatedMode() != translated)
+            throw new InvalidOperationException("F8真实输入处理路径未切换到预期模式");
+    }
+
+    private void RecordSettingOption(string slot, object slider, string source, string mode)
+    {
+        var text = RequiredField(slider, "Text") as TMP_Text;
+        if (text == null || !text.gameObject.activeInHierarchy)
+            throw new InvalidOperationException("设置文字不属于当前激活页面：" + slot);
+        SettingsOptionsLine("OPTION\t" + slot + "\t" + SliderIndex(slider) + "\t" + ReportText(source)
+            + "\t" + ReportText(text.text) + "\t" + mode + "\t" + text.isTextOverflowing
+            + "\t" + text.gameObject.activeInHierarchy);
+    }
+
+    private IEnumerator ProbeSettingsOptions()
+    {
+        var gui = ObjectTracker.Instance.Gui;
+        var preferences = RequiredField(gui, "preferencesCanvas") as Component;
+        if (preferences == null || !preferences.gameObject.scene.IsValid()
+            || !preferences.gameObject.scene.isLoaded || !preferences.gameObject.activeInHierarchy)
+            throw new InvalidOperationException("当前真实PreferencesUI未打开");
+        var actualState = RequiredProperty(ObjectTracker.Instance.Info, "State");
+        var originalPreferences = RequiredProperty(actualState, "Preferences");
+        var originalSystemConfig = RequiredProperty(actualState, "SystemConfig");
+        var localPreferences = RequiredProperty(preferences, "preferences");
+        var localSystemConfig = RequiredProperty(preferences, "systemConfig");
+        bool preferencesCloned = !ReferenceEquals(localPreferences, originalPreferences);
+        bool systemConfigCloned = !ReferenceEquals(localSystemConfig, originalSystemConfig);
+        SettingsOptionsLine("SCOPE\tpreferences_clone\t" + preferencesCloned);
+        SettingsOptionsLine("SCOPE\tsystem_config_clone\t" + systemConfigCloned);
+        if (!saveGuardActive || !preferencesCloned || !systemConfigCloned)
+            throw new InvalidOperationException("真实设置页未处于隔离克隆配置范围");
+
+        var gameUi = RequiredField(preferences, "gameUi");
+        var graphicsUi = RequiredField(preferences, "graphicsUi");
+        string[] slots = { "TextSpeed", "AlternateCostumes", "Quality", "ScreenMode" };
+        object[] sliders = { RequiredField(gameUi, slots[0]), RequiredField(gameUi, slots[1]),
+            RequiredField(graphicsUi, slots[2]), RequiredField(graphicsUi, slots[3]) };
+        var resolution = RequiredField(graphicsUi, "Resolution");
+        for (int index = 0; index < slots.Length; index++)
+        {
+            var names = (string[])RequiredField(sliders[index], "names");
+            SettingsOptionsLine("INITIAL\t" + slots[index] + "\t" + SliderIndex(sliders[index])
+                + "\t" + names.Length + "\t" + (index < 2 ? "preferences_clone" : "system_config_clone"));
+        }
+        SettingsOptionsLine("INITIAL\tResolution\t" + SliderIndex(resolution) + "\t"
+            + ((string[])RequiredField(resolution, "names")).Length + "\tsystem_config_clone");
+        SetSettingsTranslatedMode(true);
+        yield return new WaitForSecondsRealtime(0.4f);
+        int translatedCount = 0;
+        for (int index = 0; index < slots.Length; index++)
+        {
+            SettingsTab(preferences, index < 2 ? "gameplayToggle" : "graphicsToggle");
+            yield return new WaitForSecondsRealtime(0.4f);
+            var slider = sliders[index];
+            var names = (string[])RequiredField(slider, "names");
+            if (names.Length == 0) throw new InvalidOperationException("真实选项列表为空：" + slots[index]);
+            while (SliderIndex(slider) > 0)
+            {
+                int before = SliderIndex(slider);
+                ClickSettingsButton(RequiredField(slider, "DownButton"));
+                yield return new WaitForSecondsRealtime(0.4f);
+                if (SliderIndex(slider) != before - 1)
+                    throw new InvalidOperationException("真实减档按钮未修改索引：" + slots[index]);
+            }
+            for (int option = 0; option < names.Length; option++)
+            {
+                if (SliderIndex(slider) != option)
+                    throw new InvalidOperationException("真实选项索引与遍历档位不一致：" + slots[index]);
+                RecordSettingOption(slots[index], slider, names[option], "translated");
+                translatedCount++;
+                if (option + 1 < names.Length)
+                {
+                    ClickSettingsButton(RequiredField(slider, "UpButton"));
+                    yield return new WaitForSecondsRealtime(0.4f);
+                }
+            }
+            SetSettingsTranslatedMode(false);
+            yield return new WaitForSecondsRealtime(0.4f);
+            RecordSettingOption(slots[index], slider, names[names.Length - 1], "original");
+            SetSettingsTranslatedMode(true);
+            yield return new WaitForSecondsRealtime(0.4f);
+            RecordSettingOption(slots[index], slider, names[names.Length - 1], "restored");
+        }
+        // 屏幕模式仍只写设置页的克隆配置；不点击确认，不应用实际显示或音量设置。
+        var screenMode = sliders[3];
+        var screenNames = (string[])RequiredField(screenMode, "names");
+        int borderless = Array.IndexOf(screenNames, "Borderless");
+        if (borderless < 0) throw new InvalidOperationException("真实屏幕模式缺少Borderless");
+        while (SliderIndex(screenMode) != borderless)
+        {
+            int before = SliderIndex(screenMode);
+            ClickSettingsButton(RequiredField(screenMode, before > borderless ? "DownButton" : "UpButton"));
+            yield return new WaitForSecondsRealtime(0.4f);
+            if (SliderIndex(screenMode) == before) throw new InvalidOperationException("无法通过真实按钮选中Borderless");
+        }
+        var refresh = resolution.GetType().GetMethod("Refresh", InstanceFields);
+        if (refresh == null) throw new MissingMemberException("分辨率滑块缺少Refresh");
+        refresh.Invoke(resolution, null);
+        yield return new WaitForSecondsRealtime(0.4f);
+        var disabledText = ((Func<string>)RequiredField(resolution, "GetDisabledText"))();
+        if (disabledText != "Native") throw new InvalidOperationException("无边框分辨率未进入真实Native分支");
+        RecordSettingOption("Resolution", resolution, disabledText, "translated");
+        translatedCount++;
+        SetSettingsTranslatedMode(false);
+        yield return new WaitForSecondsRealtime(0.4f);
+        RecordSettingOption("Resolution", resolution, disabledText, "original");
+        SetSettingsTranslatedMode(true);
+        yield return new WaitForSecondsRealtime(0.4f);
+        RecordSettingOption("Resolution", resolution, disabledText, "restored");
+        ClickSettingsButton(RequiredField(preferences, "cancelButton"));
+        yield return new WaitForSecondsRealtime(0.4f);
+        bool cancelled = !preferences.gameObject.activeInHierarchy;
+        SettingsOptionsLine("CANCELLED\t" + cancelled);
+        var finalState = RequiredProperty(ObjectTracker.Instance.Info, "State");
+        bool scopesRetained = ReferenceEquals(originalPreferences, RequiredProperty(finalState, "Preferences"))
+            && ReferenceEquals(originalSystemConfig, RequiredProperty(finalState, "SystemConfig"));
+        SettingsOptionsLine("SCOPES_RETAINED\t" + scopesRetained);
+        if (!cancelled || !scopesRetained)
+            throw new InvalidOperationException("设置页未正常取消关闭");
+        SettingsOptionsLine("TRANSLATED_OPTION_COUNT\t" + translatedCount);
+        SettingsOptionsLine("STATUS\tCOMPLETE");
+        settingsOptionsFinished = true;
+        Logger.LogInfo("真实设置组件逐档采集结束，已取消关闭；中文语义与溢出由外部断言核对。");
     }
 
     // 只由临时后台探针安装，不分发到用户补丁；离开进程后恢复游戏正常保存。
@@ -240,6 +495,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                         passed &= matches;
                         count++;
                         report.AppendLine("CACHE_CASE=" + fields[0] + " LENGTH=" + source.Length + " MATCH=" + matches);
+                        if (!matches) report.AppendLine("CACHE_ACTUAL=" + fields[0] + " FOUND=" + found + " TEXT_BASE64=" + Convert.ToBase64String(Encoding.UTF8.GetBytes((string)arguments[1] ?? "")));
                     }
                     report.AppendLine("FROZEN_CACHE_CASES=" + passed + " COUNT=" + count);
                 }

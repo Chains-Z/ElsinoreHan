@@ -1,0 +1,2169 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-09",
+  "verification_method": "只读 Mono.Cecil IL 元数据、既有资源清单、现有词表和插件配置核查；没有启动游戏、读取存档正文或联网。",
+  "source_files": [
+    {
+      "name": "Assembly-CSharp.dll",
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "name": "Elsinore.dll",
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Elsinore.dll",
+      "sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4"
+    },
+    {
+      "name": "XUnity.AutoTranslator.Plugin.Core.dll",
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll",
+      "sha256": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb"
+    }
+  ],
+  "methods": [
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.TimelineUI::tooltipForItem(System.Text.StringBuilder,Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+      "il": [
+        "IL_0000: ldarg.1",
+        "IL_0001: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_0006: pop",
+        "IL_0007: ldarg.3",
+        "IL_0008: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_000d: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsEvent()",
+        "IL_0012: brfalse.s IL_005b",
+        "IL_0014: ldarg.3",
+        "IL_0015: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_001a: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()",
+        "IL_001f: stloc.0",
+        "IL_0020: ldarg.2",
+        "IL_0021: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_0026: ldloc.0",
+        "IL_0027: callvirt Elsinore.Game.HEventId Elsinore.Game.TimelineEvent::get_Id()",
+        "IL_002c: callvirt Elsinore.Game.ElsinoreEvent Elsinore.Game.DataLookup::Event(Elsinore.Game.HEventId)",
+        "IL_0031: stloc.1",
+        "IL_0032: ldarg.0",
+        "IL_0033: ldarg.2",
+        "IL_0034: ldarg.3",
+        "IL_0035: call System.Boolean Elsinore.Ui.TimelineUI::isInFuture(Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+        "IL_003a: brfalse.s IL_0048",
+        "IL_003c: ldarg.1",
+        "IL_003d: ldstr \"Future event: \"",
+        "IL_0042: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0047: pop",
+        "IL_0048: ldarg.1",
+        "IL_0049: ldloc.1",
+        "IL_004a: callvirt Microsoft.FSharp.Core.FSharpOption`1<System.String> Elsinore.Game.ElsinoreEvent::get_Description()",
+        "IL_004f: callvirt !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+        "IL_0054: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0059: pop",
+        "IL_005a: ret",
+        "IL_005b: ldarg.3",
+        "IL_005c: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0061: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsPresent()",
+        "IL_0066: brfalse.s IL_008d",
+        "IL_0068: ldarg.2",
+        "IL_0069: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_006e: ldarg.3",
+        "IL_006f: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0074: callvirt Elsinore.Game.InformationId Elsinore.Game.TimelineType::get_AsPresent()",
+        "IL_0079: callvirt Elsinore.Game.Information Elsinore.Game.DataLookup::Information(Elsinore.Game.InformationId)",
+        "IL_007e: stloc.2",
+        "IL_007f: ldarg.1",
+        "IL_0080: ldloc.2",
+        "IL_0081: ldarg.3",
+        "IL_0082: callvirt Elsinore.Game.CharacterId Elsinore.Game.TimelineItem::get_Subject()",
+        "IL_0087: call System.Void Elsinore.Ui.UiStrings::FormatPresents(System.Text.StringBuilder,Elsinore.Game.Information,Elsinore.Game.CharacterId)",
+        "IL_008c: ret",
+        "IL_008d: ldarg.3",
+        "IL_008e: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0093: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsImpossibleEvent()",
+        "IL_0098: brfalse.s IL_00e8",
+        "IL_009a: ldarg.2",
+        "IL_009b: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_00a0: ldarg.3",
+        "IL_00a1: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_00a6: callvirt Elsinore.Game.HEventId Elsinore.Game.TimelineType::get_AsImpossibleEvent()",
+        "IL_00ab: callvirt Elsinore.Game.ElsinoreEvent Elsinore.Game.DataLookup::Event(Elsinore.Game.HEventId)",
+        "IL_00b0: stloc.3",
+        "IL_00b1: ldarg.0",
+        "IL_00b2: ldarg.2",
+        "IL_00b3: ldarg.3",
+        "IL_00b4: call System.Boolean Elsinore.Ui.TimelineUI::isInFuture(Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+        "IL_00b9: brfalse.s IL_00c9",
+        "IL_00bb: ldarg.1",
+        "IL_00bc: ldstr \"Unlikely event: \"",
+        "IL_00c1: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_00c6: pop",
+        "IL_00c7: br.s IL_00d5",
+        "IL_00c9: ldarg.1",
+        "IL_00ca: ldstr \"Impossible event: \"",
+        "IL_00cf: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_00d4: pop",
+        "IL_00d5: ldarg.1",
+        "IL_00d6: ldloc.3",
+        "IL_00d7: callvirt Microsoft.FSharp.Core.FSharpOption`1<System.String> Elsinore.Game.ElsinoreEvent::get_Description()",
+        "IL_00dc: callvirt !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+        "IL_00e1: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_00e6: pop",
+        "IL_00e7: ret",
+        "IL_00e8: ldstr \"uknown event type\"",
+        "IL_00ed: newobj System.Void System.NotImplementedException::.ctor(System.String)",
+        "IL_00f2: throw"
+      ],
+      "literal_sources": [
+        {
+          "source": "Future event: ",
+          "il_offset": "IL_003d"
+        },
+        {
+          "source": "Unlikely event: ",
+          "il_offset": "IL_00bc"
+        },
+        {
+          "source": "Impossible event: ",
+          "il_offset": "IL_00ca"
+        },
+        {
+          "source": "uknown event type",
+          "il_offset": "IL_00e8"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.TimelineUI::onTimelineItemPointerEnter(Elsinore.Game.TimelineItem,Elsinore.Ui.ElsinoreButton[])",
+      "il": [
+        "IL_0000: ldarg.2",
+        "IL_0001: stloc.1",
+        "IL_0002: ldc.i4.0",
+        "IL_0003: stloc.2",
+        "IL_0004: br.s IL_000e",
+        "IL_0006: ldloc.1",
+        "IL_0007: ldloc.2",
+        "IL_0008: ldelem.ref",
+        "IL_0009: pop",
+        "IL_000a: ldloc.2",
+        "IL_000b: ldc.i4.1",
+        "IL_000c: add",
+        "IL_000d: stloc.2",
+        "IL_000e: ldloc.2",
+        "IL_000f: ldloc.1",
+        "IL_0010: ldlen",
+        "IL_0011: conv.i4",
+        "IL_0012: blt.s IL_0006",
+        "IL_0014: ldarg.0",
+        "IL_0015: ldfld Elsinore.Game.GameState Elsinore.Ui.TimelineUI::lastUsedGameState",
+        "IL_001a: stloc.0",
+        "IL_001b: ldarg.0",
+        "IL_001c: ldarg.0",
+        "IL_001d: ldfld System.Text.StringBuilder Elsinore.Ui.TimelineUI::builder1",
+        "IL_0022: ldloc.0",
+        "IL_0023: ldarg.1",
+        "IL_0024: call System.Void Elsinore.Ui.TimelineUI::tooltipForItem(System.Text.StringBuilder,Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+        "IL_0029: ldarg.0",
+        "IL_002a: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.TimelineUI::EventDescriptionText",
+        "IL_002f: ldarg.0",
+        "IL_0030: ldfld System.Text.StringBuilder Elsinore.Ui.TimelineUI::builder1",
+        "IL_0035: callvirt System.Void TMPro.TMP_Text::SetText(System.Text.StringBuilder)",
+        "IL_003a: ret"
+      ],
+      "literal_sources": []
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.TimelineUI::createEventContent(System.Text.StringBuilder,System.Text.StringBuilder,Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_0006: pop",
+        "IL_0007: ldarg.1",
+        "IL_0008: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_000d: pop",
+        "IL_000e: ldloca.s V_0",
+        "IL_0010: ldarg.3",
+        "IL_0011: callvirt System.Int32 Elsinore.Game.TimelineItem::get_StartTime()",
+        "IL_0016: conv.r4",
+        "IL_0017: call System.Void Elsinore.Game.GameClock::.ctor(System.Single)",
+        "IL_001c: ldarg.0",
+        "IL_001d: call System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder)",
+        "IL_0022: ldarg.1",
+        "IL_0023: call System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder)",
+        "IL_0028: ldarg.3",
+        "IL_0029: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_002e: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsEvent()",
+        "IL_0033: brfalse IL_010b",
+        "IL_0038: ldarg.2",
+        "IL_0039: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_003e: ldarg.3",
+        "IL_003f: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0044: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()",
+        "IL_0049: callvirt Elsinore.Game.HEventId Elsinore.Game.TimelineEvent::get_Id()",
+        "IL_004e: callvirt Elsinore.Game.ElsinoreEvent Elsinore.Game.DataLookup::Event(Elsinore.Game.HEventId)",
+        "IL_0053: stloc.1",
+        "IL_0054: ldarg.3",
+        "IL_0055: ldarg.2",
+        "IL_0056: callvirt System.Boolean Elsinore.Game.TimelineItem::IsInFuture(Elsinore.Game.GameState)",
+        "IL_005b: stloc.2",
+        "IL_005c: ldloc.2",
+        "IL_005d: brfalse.s IL_006b",
+        "IL_005f: ldarg.0",
+        "IL_0060: ldstr \"Future event: \"",
+        "IL_0065: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_006a: pop",
+        "IL_006b: ldarg.0",
+        "IL_006c: ldloc.0",
+        "IL_006d: ldloc.1",
+        "IL_006e: callvirt System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Game.ElsinoreEvent::get_PrimaryRoom()",
+        "IL_0073: ldc.i4.0",
+        "IL_0074: call System.Void Elsinore.Ui.UiStrings::FormatLogEntryOpener(System.Text.StringBuilder,Elsinore.Game.GameClock,System.Nullable`1<Elsinore.Game.RoomId>,System.Boolean)",
+        "IL_0079: ldarg.0",
+        "IL_007a: ldloc.1",
+        "IL_007b: call System.Void Elsinore.Ui.UiStrings::FormatEvent(System.Text.StringBuilder,Elsinore.Game.ElsinoreEvent)",
+        "IL_0080: ldarg.3",
+        "IL_0081: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0086: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()",
+        "IL_008b: callvirt System.Boolean Elsinore.Game.TimelineEvent::get_PlayerAttended()",
+        "IL_0090: ldloc.2",
+        "IL_0091: or",
+        "IL_0092: brfalse.s IL_00d3",
+        "IL_0094: ldarg.3",
+        "IL_0095: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_009a: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()",
+        "IL_009f: callvirt Elsinore.Game.CharacterId[] Elsinore.Game.TimelineEvent::get_VisibleParticipants()",
+        "IL_00a4: stloc.3",
+        "IL_00a5: ldloc.3",
+        "IL_00a6: ldlen",
+        "IL_00a7: brfalse.s IL_00f6",
+        "IL_00a9: ldarg.1",
+        "IL_00aa: ldstr \"Including \"",
+        "IL_00af: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_00b4: pop",
+        "IL_00b5: ldarg.1",
+        "IL_00b6: ldnull",
+        "IL_00b7: ldftn System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+        "IL_00bd: newobj System.Void System.Func`2<Elsinore.Game.CharacterId,System.String>::.ctor(System.Object,System.IntPtr)",
+        "IL_00c2: ldloc.3",
+        "IL_00c3: call System.Void Elsinore.Ui.UiStrings::FormatList<Elsinore.Game.CharacterId>(System.Text.StringBuilder,System.Func`2<T,System.String>,System.Collections.Generic.IReadOnlyList`1<T>)",
+        "IL_00c8: ldarg.1",
+        "IL_00c9: ldc.i4.s 46",
+        "IL_00cb: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char)",
+        "IL_00d0: pop",
+        "IL_00d1: br.s IL_00f6",
+        "IL_00d3: ldarg.3",
+        "IL_00d4: ldarg.2",
+        "IL_00d5: callvirt System.Boolean Elsinore.Game.TimelineItem::IsOngoing(Elsinore.Game.GameState)",
+        "IL_00da: brfalse.s IL_00ea",
+        "IL_00dc: ldarg.1",
+        "IL_00dd: ldstr \"This event is happening now.\n\"",
+        "IL_00e2: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_00e7: pop",
+        "IL_00e8: br.s IL_00f6",
+        "IL_00ea: ldarg.1",
+        "IL_00eb: ldstr \"Ophelia did not attend this event.\n\"",
+        "IL_00f0: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_00f5: pop",
+        "IL_00f6: call Elsinore.Logging/ElsinoreLogger Elsinore.Logging::get_Logger()",
+        "IL_00fb: ldarg.3",
+        "IL_00fc: ldstr \"attended\"",
+        "IL_0101: callvirt System.Void Elsinore.Logging/ElsinoreLogger::TimelineItemClicked(Elsinore.Game.TimelineItem,System.String)",
+        "IL_0106: br IL_019e",
+        "IL_010b: ldarg.3",
+        "IL_010c: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0111: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsPresent()",
+        "IL_0116: brfalse.s IL_0162",
+        "IL_0118: ldarg.2",
+        "IL_0119: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_011e: ldarg.3",
+        "IL_011f: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0124: callvirt Elsinore.Game.InformationId Elsinore.Game.TimelineType::get_AsPresent()",
+        "IL_0129: callvirt Elsinore.Game.Information Elsinore.Game.DataLookup::Information(Elsinore.Game.InformationId)",
+        "IL_012e: stloc.s V_4",
+        "IL_0130: ldarg.0",
+        "IL_0131: ldloc.0",
+        "IL_0132: ldloca.s V_5",
+        "IL_0134: initobj System.Nullable`1<Elsinore.Game.RoomId>",
+        "IL_013a: ldloc.s V_5",
+        "IL_013c: ldc.i4.0",
+        "IL_013d: call System.Void Elsinore.Ui.UiStrings::FormatLogEntryOpener(System.Text.StringBuilder,Elsinore.Game.GameClock,System.Nullable`1<Elsinore.Game.RoomId>,System.Boolean)",
+        "IL_0142: ldarg.0",
+        "IL_0143: ldloc.s V_4",
+        "IL_0145: ldarg.3",
+        "IL_0146: callvirt Elsinore.Game.CharacterId Elsinore.Game.TimelineItem::get_Subject()",
+        "IL_014b: call System.Void Elsinore.Ui.UiStrings::FormatPresents(System.Text.StringBuilder,Elsinore.Game.Information,Elsinore.Game.CharacterId)",
+        "IL_0150: call Elsinore.Logging/ElsinoreLogger Elsinore.Logging::get_Logger()",
+        "IL_0155: ldarg.3",
+        "IL_0156: ldstr \"present\"",
+        "IL_015b: callvirt System.Void Elsinore.Logging/ElsinoreLogger::TimelineItemClicked(Elsinore.Game.TimelineItem,System.String)",
+        "IL_0160: br.s IL_019e",
+        "IL_0162: ldarg.3",
+        "IL_0163: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0168: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsImpossibleEvent()",
+        "IL_016d: brfalse.s IL_0194",
+        "IL_016f: ldarg.3",
+        "IL_0170: ldarg.2",
+        "IL_0171: callvirt System.Boolean Elsinore.Game.TimelineItem::IsInFuture(Elsinore.Game.GameState)",
+        "IL_0176: brfalse.s IL_0186",
+        "IL_0178: ldarg.0",
+        "IL_0179: ldstr \"This will not happen based on current conditions.\"",
+        "IL_017e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0183: pop",
+        "IL_0184: br.s IL_019e",
+        "IL_0186: ldarg.0",
+        "IL_0187: ldstr \"This event did not happen.\"",
+        "IL_018c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0191: pop",
+        "IL_0192: br.s IL_019e",
+        "IL_0194: ldstr \"unknown timeline type!\"",
+        "IL_0199: call System.Void UnityEngine.Debug::LogError(System.Object)",
+        "IL_019e: ldarg.3",
+        "IL_019f: callvirt System.Boolean Elsinore.Game.TimelineItem::get_PlayerAttended()",
+        "IL_01a4: brfalse.s IL_01d9",
+        "IL_01a6: ldarg.1",
+        "IL_01a7: call System.Void Elsinore.Ui.UiStrings::AddParagraphBreakIfPriorContent(System.Text.StringBuilder)",
+        "IL_01ac: ldarg.3",
+        "IL_01ad: ldarg.2",
+        "IL_01ae: callvirt Elsinore.Game.TimelineItemDetails Elsinore.Game.TimelineItem::Details(Elsinore.Game.GameState)",
+        "IL_01b3: stloc.s V_6",
+        "IL_01b5: ldloc.s V_6",
+        "IL_01b7: callvirt Agakme.GroundLiteral[] Elsinore.Game.TimelineItemDetails::get_Changes()",
+        "IL_01bc: ldlen",
+        "IL_01bd: brfalse.s IL_01d9",
+        "IL_01bf: ldarg.1",
+        "IL_01c0: ldstr \"<b>Outcome:</b>\n\"",
+        "IL_01c5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_01ca: pop",
+        "IL_01cb: ldarg.2",
+        "IL_01cc: ldarg.1",
+        "IL_01cd: ldloc.s V_6",
+        "IL_01cf: callvirt Agakme.GroundLiteral[] Elsinore.Game.TimelineItemDetails::get_Changes()",
+        "IL_01d4: call System.Void Elsinore.Game.Model::formatAllLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.GroundLiteral[])",
+        "IL_01d9: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "Future event: ",
+          "il_offset": "IL_0060"
+        },
+        {
+          "source": "Including ",
+          "il_offset": "IL_00aa"
+        },
+        {
+          "source": "This event is happening now.\n",
+          "il_offset": "IL_00dd"
+        },
+        {
+          "source": "Ophelia did not attend this event.\n",
+          "il_offset": "IL_00eb"
+        },
+        {
+          "source": "attended",
+          "il_offset": "IL_00fc"
+        },
+        {
+          "source": "present",
+          "il_offset": "IL_0156"
+        },
+        {
+          "source": "This will not happen based on current conditions.",
+          "il_offset": "IL_0179"
+        },
+        {
+          "source": "This event did not happen.",
+          "il_offset": "IL_0187"
+        },
+        {
+          "source": "unknown timeline type!",
+          "il_offset": "IL_0194"
+        },
+        {
+          "source": "<b>Outcome:</b>\n",
+          "il_offset": "IL_01c0"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.TimelineUI::onEventClick(Elsinore.Game.TimelineItem)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: call System.Void Elsinore.Ui.TimelineUI::OnOpenPopup()",
+        "IL_0006: ldarg.0",
+        "IL_0007: ldfld ImTheBoss Elsinore.Ui.TimelineUI::boss",
+        "IL_000c: callvirt !!0 UnityEngine.Component::GetComponent<ScriptApiManager>()",
+        "IL_0011: pop",
+        "IL_0012: ldarg.0",
+        "IL_0013: ldfld Elsinore.Game.GameState Elsinore.Ui.TimelineUI::lastUsedGameState",
+        "IL_0018: stloc.0",
+        "IL_0019: ldarg.0",
+        "IL_001a: ldfld System.Text.StringBuilder Elsinore.Ui.TimelineUI::builder1",
+        "IL_001f: stloc.1",
+        "IL_0020: ldarg.0",
+        "IL_0021: ldfld System.Text.StringBuilder Elsinore.Ui.TimelineUI::builder2",
+        "IL_0026: stloc.2",
+        "IL_0027: ldloc.1",
+        "IL_0028: ldloc.2",
+        "IL_0029: ldloc.0",
+        "IL_002a: ldarg.1",
+        "IL_002b: call System.Void Elsinore.Ui.TimelineUI::createEventContent(System.Text.StringBuilder,System.Text.StringBuilder,Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+        "IL_0030: ldloc.1",
+        "IL_0031: call System.Void Elsinore.Ui.UiStrings::AddParagraphBreakIfPriorContent(System.Text.StringBuilder)",
+        "IL_0036: ldloc.1",
+        "IL_0037: ldloc.2",
+        "IL_0038: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.Object)",
+        "IL_003d: pop",
+        "IL_003e: ldarg.0",
+        "IL_003f: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.TimelineUI::InfoText",
+        "IL_0044: ldloc.1",
+        "IL_0045: callvirt System.Void TMPro.TMP_Text::SetText(System.Text.StringBuilder)",
+        "IL_004a: ldarg.1",
+        "IL_004b: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0050: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsEvent()",
+        "IL_0055: brfalse.s IL_0086",
+        "IL_0057: ldarg.0",
+        "IL_0058: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_005d: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_0062: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0067: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_006c: ldarg.1",
+        "IL_006d: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_0072: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()",
+        "IL_0077: callvirt Elsinore.Game.HEventId Elsinore.Game.TimelineEvent::get_Id()",
+        "IL_007c: callvirt Elsinore.Game.ElsinoreEvent Elsinore.Game.DataLookup::Event(Elsinore.Game.HEventId)",
+        "IL_0081: stfld Elsinore.Game.ElsinoreEvent Elsinore.Ui.TimelineUI::detailEvent",
+        "IL_0086: ldarg.1",
+        "IL_0087: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()",
+        "IL_008c: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsEvent()",
+        "IL_0091: brfalse.s IL_00bf",
+        "IL_0093: ldarg.0",
+        "IL_0094: ldfld Elsinore.Game.ElsinoreEvent Elsinore.Ui.TimelineUI::detailEvent",
+        "IL_0099: callvirt System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Game.ElsinoreEvent::get_PrimaryRoom()",
+        "IL_009e: stloc.s V_4",
+        "IL_00a0: ldloca.s V_4",
+        "IL_00a2: call System.Boolean System.Nullable`1<Elsinore.Game.RoomId>::get_HasValue()",
+        "IL_00a7: brfalse.s IL_00bf",
+        "IL_00a9: ldarg.1",
+        "IL_00aa: ldloc.0",
+        "IL_00ab: callvirt System.Boolean Elsinore.Game.TimelineItem::IsOngoing(Elsinore.Game.GameState)",
+        "IL_00b0: brtrue.s IL_00bc",
+        "IL_00b2: ldarg.0",
+        "IL_00b3: ldloc.0",
+        "IL_00b4: ldarg.1",
+        "IL_00b5: call System.Boolean Elsinore.Ui.TimelineUI::isInFuture(Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+        "IL_00ba: br.s IL_00c0",
+        "IL_00bc: ldc.i4.1",
+        "IL_00bd: br.s IL_00c0",
+        "IL_00bf: ldc.i4.0",
+        "IL_00c0: stloc.3",
+        "IL_00c1: ldarg.0",
+        "IL_00c2: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.TimelineUI::InfoGoToRoomButton",
+        "IL_00c7: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_00cc: ldloc.3",
+        "IL_00cd: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_00d2: ldarg.0",
+        "IL_00d3: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.TimelineUI::allTheGui",
+        "IL_00d8: ldloc.3",
+        "IL_00d9: brtrue.s IL_00de",
+        "IL_00db: ldnull",
+        "IL_00dc: br.s IL_00e4",
+        "IL_00de: ldarg.0",
+        "IL_00df: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.TimelineUI::InfoGoToRoomButton",
+        "IL_00e4: callvirt System.Boolean Elsinore.Ui.AllTheGui::SetSelection(UnityEngine.UI.Selectable)",
+        "IL_00e9: pop",
+        "IL_00ea: ldarg.0",
+        "IL_00eb: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.TimelineUI::allTheGui",
+        "IL_00f0: callvirt Elsinore.Ui.TutorialPromptUI/TutorialButtonType Elsinore.Ui.AllTheGui::get_CurrentButtonTutorial()",
+        "IL_00f5: ldc.i4.8",
+        "IL_00f6: bne.un.s IL_0117",
+        "IL_00f8: ldarg.1",
+        "IL_00f9: ldarg.0",
+        "IL_00fa: call System.ValueTuple`2<Elsinore.Game.TimelineItem,Elsinore.Ui.ElsinoreButton> Elsinore.Ui.TimelineUI::oldestEventIcon()",
+        "IL_00ff: ldfld !0 System.ValueTuple`2<Elsinore.Game.TimelineItem,Elsinore.Ui.ElsinoreButton>::Item1",
+        "IL_0104: bne.un.s IL_0117",
+        "IL_0106: ldarg.0",
+        "IL_0107: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.TimelineUI::allTheGui",
+        "IL_010c: ldc.i4.8",
+        "IL_010d: ldc.i4.1",
+        "IL_010e: ldc.i4.1",
+        "IL_010f: callvirt System.Boolean Elsinore.Ui.AllTheGui::ClearTutorialButton(Elsinore.Ui.TutorialPromptUI/TutorialButtonType,System.Boolean,System.Boolean)",
+        "IL_0114: pop",
+        "IL_0115: br.s IL_0144",
+        "IL_0117: ldarg.0",
+        "IL_0118: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.TimelineUI::allTheGui",
+        "IL_011d: callvirt Elsinore.Ui.TutorialPromptUI/TutorialButtonType Elsinore.Ui.AllTheGui::get_CurrentButtonTutorial()",
+        "IL_0122: ldc.i4.s 9",
+        "IL_0124: bne.un.s IL_0144",
+        "IL_0126: ldarg.1",
+        "IL_0127: ldarg.0",
+        "IL_0128: call System.ValueTuple`2<Elsinore.Game.TimelineItem,Elsinore.Ui.ElsinoreButton> Elsinore.Ui.TimelineUI::newestEventIcon()",
+        "IL_012d: ldfld !0 System.ValueTuple`2<Elsinore.Game.TimelineItem,Elsinore.Ui.ElsinoreButton>::Item1",
+        "IL_0132: bne.un.s IL_0144",
+        "IL_0134: ldarg.0",
+        "IL_0135: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.TimelineUI::allTheGui",
+        "IL_013a: ldc.i4.s 9",
+        "IL_013c: ldc.i4.1",
+        "IL_013d: ldc.i4.1",
+        "IL_013e: callvirt System.Boolean Elsinore.Ui.AllTheGui::ClearTutorialButton(Elsinore.Ui.TutorialPromptUI/TutorialButtonType,System.Boolean,System.Boolean)",
+        "IL_0143: pop",
+        "IL_0144: ldarg.0",
+        "IL_0145: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.TimelineUI::allTheGui",
+        "IL_014a: callvirt System.Void Elsinore.Ui.AllTheGui::DeactivateTutorialPrompt()",
+        "IL_014f: ldarg.0",
+        "IL_0150: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.TimelineUI::CloseButton",
+        "IL_0155: ldc.i4.1",
+        "IL_0156: callvirt System.Void Elsinore.Ui.ElsinoreUiSelectable::set_IsInteractable(System.Boolean)",
+        "IL_015b: ldarg.0",
+        "IL_015c: ldarg.0",
+        "IL_015d: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.TimelineUI::EventInfoPopup",
+        "IL_0162: callvirt UnityEngine.RectTransform Elsinore.Ui.DialogBox::get_rectTransform()",
+        "IL_0167: call System.Collections.IEnumerator Elsinore.Ui.GuiUtils::MarkLayoutForRebuildAtFrameEnd(UnityEngine.RectTransform)",
+        "IL_016c: call UnityEngine.Coroutine UnityEngine.MonoBehaviour::StartCoroutine(System.Collections.IEnumerator)",
+        "IL_0171: pop",
+        "IL_0172: ret"
+      ],
+      "literal_sources": []
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.ExplorationUI::updateTimeText()",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+        "IL_0006: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_000b: pop",
+        "IL_000c: ldarg.0",
+        "IL_000d: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+        "IL_0012: ldarg.0",
+        "IL_0013: ldfld ImTheBoss Elsinore.Ui.ExplorationUI::boss",
+        "IL_0018: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_001d: callvirt Elsinore.Game.GameClock IGameInfo::get_VisibleTime()",
+        "IL_0022: call System.Void Elsinore.Ui.UiStrings::FormatTimeString(System.Text.StringBuilder,Elsinore.Game.GameClock)",
+        "IL_0027: ldarg.0",
+        "IL_0028: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.ExplorationUI::TimeText",
+        "IL_002d: ldarg.0",
+        "IL_002e: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+        "IL_0033: callvirt System.Void TMPro.TMP_Text::SetText(System.Text.StringBuilder)",
+        "IL_0038: ldarg.0",
+        "IL_0039: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+        "IL_003e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_0043: pop",
+        "IL_0044: ldarg.0",
+        "IL_0045: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+        "IL_004a: ldarg.0",
+        "IL_004b: ldfld ObjectTracker Elsinore.Ui.ExplorationUI::tracker",
+        "IL_0050: callvirt CharacterMovement ObjectTracker::get_Player()",
+        "IL_0055: callvirt RoomMarker CharacterMovement::get_CurrentRoom()",
+        "IL_005a: ldfld System.String RoomMarker::playerFacingName",
+        "IL_005f: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0064: pop",
+        "IL_0065: ldarg.0",
+        "IL_0066: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+        "IL_006b: ldstr \" •\"",
+        "IL_0070: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0075: pop",
+        "IL_0076: ldarg.0",
+        "IL_0077: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.ExplorationUI::LocationText",
+        "IL_007c: ldarg.0",
+        "IL_007d: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+        "IL_0082: callvirt System.Void TMPro.TMP_Text::SetText(System.Text.StringBuilder)",
+        "IL_0087: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": " •",
+          "il_offset": "IL_006b"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \"<line-height={0}>\"",
+        "IL_0006: ldstr \"90%\"",
+        "IL_000b: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+        "IL_0010: pop",
+        "IL_0011: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "<line-height={0}>",
+          "il_offset": "IL_0001"
+        },
+        {
+          "source": "90%",
+          "il_offset": "IL_0006"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::AddParagraphBreak(System.Text.StringBuilder)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \"40%\"",
+        "IL_0006: call System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder,System.String)",
+        "IL_000b: ldarg.0",
+        "IL_000c: ldc.i4.s 10",
+        "IL_000e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char)",
+        "IL_0013: pop",
+        "IL_0014: ldarg.0",
+        "IL_0015: ldstr \"90%\"",
+        "IL_001a: call System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder,System.String)",
+        "IL_001f: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "40%",
+          "il_offset": "IL_0001"
+        },
+        {
+          "source": "90%",
+          "il_offset": "IL_0015"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::AddParagraphBreakIfPriorContent(System.Text.StringBuilder)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: callvirt System.Int32 System.Text.StringBuilder::get_Length()",
+        "IL_0006: ldc.i4.0",
+        "IL_0007: ble.s IL_002a",
+        "IL_0009: ldarg.0",
+        "IL_000a: ldarg.0",
+        "IL_000b: callvirt System.Int32 System.Text.StringBuilder::get_Length()",
+        "IL_0010: ldc.i4.1",
+        "IL_0011: sub",
+        "IL_0012: callvirt System.Char System.Text.StringBuilder::get_Chars(System.Int32)",
+        "IL_0017: ldc.i4.s 10",
+        "IL_0019: beq.s IL_0024",
+        "IL_001b: ldarg.0",
+        "IL_001c: ldc.i4.s 10",
+        "IL_001e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char)",
+        "IL_0023: pop",
+        "IL_0024: ldarg.0",
+        "IL_0025: call System.Void Elsinore.Ui.UiStrings::AddParagraphBreak(System.Text.StringBuilder)",
+        "IL_002a: ret"
+      ],
+      "literal_sources": []
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder,System.String)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \"<line-height={0}>\"",
+        "IL_0006: ldarg.1",
+        "IL_0007: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+        "IL_000c: pop",
+        "IL_000d: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "<line-height={0}>",
+          "il_offset": "IL_0001"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+      "il": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_000a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+        "IL_000f: callvirt Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::get_NameMap()",
+        "IL_0014: callvirt Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::get_Names()",
+        "IL_0019: ldarga.s cid",
+        "IL_001b: call System.String Elsinore.Game.CharacterId::get_Name()",
+        "IL_0020: callvirt !1 Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String>::get_Item(!0)",
+        "IL_0025: ret"
+      ],
+      "literal_sources": []
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::FormatList(System.Text.StringBuilder,System.Func`2<T,System.String>,System.Collections.Generic.IReadOnlyList`1<T>)",
+      "il": [
+        "IL_0000: ldarg.2",
+        "IL_0001: callvirt System.Int32 System.Collections.Generic.IReadOnlyCollection`1<T>::get_Count()",
+        "IL_0006: stloc.0",
+        "IL_0007: ldloc.0",
+        "IL_0008: switch IL_001b,IL_001c,IL_0031",
+        "IL_0019: br.s IL_0062",
+        "IL_001b: ret",
+        "IL_001c: ldarg.0",
+        "IL_001d: ldarg.1",
+        "IL_001e: ldarg.2",
+        "IL_001f: ldc.i4.0",
+        "IL_0020: callvirt !0 System.Collections.Generic.IReadOnlyList`1<T>::get_Item(System.Int32)",
+        "IL_0025: callvirt !1 System.Func`2<T,System.String>::Invoke(!0)",
+        "IL_002a: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_002f: pop",
+        "IL_0030: ret",
+        "IL_0031: ldarg.0",
+        "IL_0032: ldarg.1",
+        "IL_0033: ldarg.2",
+        "IL_0034: ldc.i4.0",
+        "IL_0035: callvirt !0 System.Collections.Generic.IReadOnlyList`1<T>::get_Item(System.Int32)",
+        "IL_003a: callvirt !1 System.Func`2<T,System.String>::Invoke(!0)",
+        "IL_003f: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0044: ldstr \" and \"",
+        "IL_0049: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_004e: ldarg.1",
+        "IL_004f: ldarg.2",
+        "IL_0050: ldc.i4.1",
+        "IL_0051: callvirt !0 System.Collections.Generic.IReadOnlyList`1<T>::get_Item(System.Int32)",
+        "IL_0056: callvirt !1 System.Func`2<T,System.String>::Invoke(!0)",
+        "IL_005b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0060: pop",
+        "IL_0061: ret",
+        "IL_0062: ldc.i4.0",
+        "IL_0063: stloc.1",
+        "IL_0064: br.s IL_00a5",
+        "IL_0066: ldloc.1",
+        "IL_0067: ldc.i4.0",
+        "IL_0068: ble.s IL_008d",
+        "IL_006a: ldarg.0",
+        "IL_006b: ldstr \", \"",
+        "IL_0070: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0075: pop",
+        "IL_0076: ldloc.1",
+        "IL_0077: ldarg.2",
+        "IL_0078: callvirt System.Int32 System.Collections.Generic.IReadOnlyCollection`1<T>::get_Count()",
+        "IL_007d: ldc.i4.1",
+        "IL_007e: sub",
+        "IL_007f: bne.un.s IL_008d",
+        "IL_0081: ldarg.0",
+        "IL_0082: ldstr \"and \"",
+        "IL_0087: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_008c: pop",
+        "IL_008d: ldarg.0",
+        "IL_008e: ldarg.1",
+        "IL_008f: ldarg.2",
+        "IL_0090: ldloc.1",
+        "IL_0091: callvirt !0 System.Collections.Generic.IReadOnlyList`1<T>::get_Item(System.Int32)",
+        "IL_0096: callvirt !1 System.Func`2<T,System.String>::Invoke(!0)",
+        "IL_009b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_00a0: pop",
+        "IL_00a1: ldloc.1",
+        "IL_00a2: ldc.i4.1",
+        "IL_00a3: add",
+        "IL_00a4: stloc.1",
+        "IL_00a5: ldloc.1",
+        "IL_00a6: ldarg.2",
+        "IL_00a7: callvirt System.Int32 System.Collections.Generic.IReadOnlyCollection`1<T>::get_Count()",
+        "IL_00ac: blt.s IL_0066",
+        "IL_00ae: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": " and ",
+          "il_offset": "IL_0044"
+        },
+        {
+          "source": ", ",
+          "il_offset": "IL_006b"
+        },
+        {
+          "source": "and ",
+          "il_offset": "IL_0082"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.String Elsinore.Ui.UiStrings::FormatShortCharacterName(Elsinore.Game.CharacterId)",
+      "il": [
+        "IL_0000: ldarga.s cid",
+        "IL_0002: call System.String Elsinore.Game.CharacterId::get_Name()",
+        "IL_0007: stloc.0",
+        "IL_0008: ldloc.0",
+        "IL_0009: ldstr \"rosencrantz\"",
+        "IL_000e: call System.Boolean System.String::op_Equality(System.String,System.String)",
+        "IL_0013: brtrue.s IL_0024",
+        "IL_0015: ldloc.0",
+        "IL_0016: ldstr \"guildenstern\"",
+        "IL_001b: call System.Boolean System.String::op_Equality(System.String,System.String)",
+        "IL_0020: brtrue.s IL_002a",
+        "IL_0022: br.s IL_0030",
+        "IL_0024: ldstr \"Rosie\"",
+        "IL_0029: ret",
+        "IL_002a: ldstr \"Guilda\"",
+        "IL_002f: ret",
+        "IL_0030: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0035: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_003a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+        "IL_003f: callvirt Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::get_NameMap()",
+        "IL_0044: callvirt Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::get_Names()",
+        "IL_0049: ldarga.s cid",
+        "IL_004b: call System.String Elsinore.Game.CharacterId::get_Name()",
+        "IL_0050: callvirt !1 Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String>::get_Item(!0)",
+        "IL_0055: stloc.1",
+        "IL_0056: ldloc.1",
+        "IL_0057: ldc.i4.s 32",
+        "IL_0059: call System.Boolean System.Linq.Enumerable::Contains<System.Char>(System.Collections.Generic.IEnumerable`1<!!0>,!!0)",
+        "IL_005e: brtrue.s IL_0062",
+        "IL_0060: ldloc.1",
+        "IL_0061: ret",
+        "IL_0062: ldloc.1",
+        "IL_0063: ldsfld System.Char[] Elsinore.Ui.UiStrings::StringChar",
+        "IL_0068: callvirt System.String[] System.String::Split(System.Char[])",
+        "IL_006d: ldc.i4.1",
+        "IL_006e: ldelem.ref",
+        "IL_006f: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "rosencrantz",
+          "il_offset": "IL_0009"
+        },
+        {
+          "source": "guildenstern",
+          "il_offset": "IL_0016"
+        },
+        {
+          "source": "Rosie",
+          "il_offset": "IL_0024"
+        },
+        {
+          "source": "Guilda",
+          "il_offset": "IL_002a"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.String Elsinore.Ui.UiStrings::FormatRoomId(Elsinore.Game.RoomId)",
+      "il": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: ldarg.0",
+        "IL_0006: callvirt RoomMarker ObjectTracker::RoomMarker(Elsinore.Game.RoomId)",
+        "IL_000b: ldfld System.String RoomMarker::playerFacingName",
+        "IL_0010: ret"
+      ],
+      "literal_sources": []
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::FormatLogEntryOpener(System.Text.StringBuilder,Elsinore.Game.GameClock,System.Nullable`1<Elsinore.Game.RoomId>,System.Boolean)",
+      "il": [
+        "IL_0000: ldarg.3",
+        "IL_0001: brfalse.s IL_000f",
+        "IL_0003: ldarg.0",
+        "IL_0004: ldstr \"<b>\"",
+        "IL_0009: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_000e: pop",
+        "IL_000f: ldarg.0",
+        "IL_0010: ldarg.1",
+        "IL_0011: call System.String Elsinore.Ui.UiStrings::FormatTimeString(Elsinore.Game.GameClock)",
+        "IL_0016: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_001b: pop",
+        "IL_001c: ldarga.s location",
+        "IL_001e: call System.Boolean System.Nullable`1<Elsinore.Game.RoomId>::get_HasValue()",
+        "IL_0023: brfalse.s IL_0042",
+        "IL_0025: ldarg.0",
+        "IL_0026: ldstr \" in \"",
+        "IL_002b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0030: ldarga.s location",
+        "IL_0032: call !0 System.Nullable`1<Elsinore.Game.RoomId>::get_Value()",
+        "IL_0037: call System.String Elsinore.Ui.UiStrings::FormatRoomId(Elsinore.Game.RoomId)",
+        "IL_003c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0041: pop",
+        "IL_0042: ldarg.3",
+        "IL_0043: brfalse.s IL_0051",
+        "IL_0045: ldarg.0",
+        "IL_0046: ldstr \"</b>\"",
+        "IL_004b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0050: pop",
+        "IL_0051: ldarg.0",
+        "IL_0052: ldstr \", <i>in which</i> \"",
+        "IL_0057: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_005c: pop",
+        "IL_005d: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "<b>",
+          "il_offset": "IL_0004"
+        },
+        {
+          "source": " in ",
+          "il_offset": "IL_0026"
+        },
+        {
+          "source": "</b>",
+          "il_offset": "IL_0046"
+        },
+        {
+          "source": ", <i>in which</i> ",
+          "il_offset": "IL_0052"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::FormatEvent(System.Text.StringBuilder,Elsinore.Game.ElsinoreEvent)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldarg.1",
+        "IL_0002: callvirt Microsoft.FSharp.Core.FSharpOption`1<System.String> Elsinore.Game.ElsinoreEvent::get_Description()",
+        "IL_0007: brtrue.s IL_0010",
+        "IL_0009: ldstr \"An event occurs.\"",
+        "IL_000e: br.s IL_001b",
+        "IL_0010: ldarg.1",
+        "IL_0011: callvirt Microsoft.FSharp.Core.FSharpOption`1<System.String> Elsinore.Game.ElsinoreEvent::get_Description()",
+        "IL_0016: callvirt !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+        "IL_001b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0020: pop",
+        "IL_0021: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "An event occurs.",
+          "il_offset": "IL_0009"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::FormatPresents(System.Text.StringBuilder,Elsinore.Game.Information,Elsinore.Game.CharacterId)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \"Ophelia presents \"{0}\" to {1}.\"",
+        "IL_0006: ldarg.1",
+        "IL_0007: callvirt System.String Elsinore.Game.Information::get_Name()",
+        "IL_000c: ldarg.2",
+        "IL_000d: call System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+        "IL_0012: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object,System.Object)",
+        "IL_0017: pop",
+        "IL_0018: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "Ophelia presents \"{0}\" to {1}.",
+          "il_offset": "IL_0001"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.String Elsinore.Ui.UiStrings::FormatTimeString(Elsinore.Game.GameClock)",
+      "il": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_000a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+        "IL_000f: callvirt Elsinore.Game.GameMode Elsinore.Game.ElsinoreData::get_Mode()",
+        "IL_0014: stloc.0",
+        "IL_0015: ldloc.0",
+        "IL_0016: ldc.i4.1",
+        "IL_0017: beq.s IL_001f",
+        "IL_0019: ldloc.0",
+        "IL_001a: ldc.i4.2",
+        "IL_001b: beq.s IL_0025",
+        "IL_001d: br.s IL_002b",
+        "IL_001f: ldstr \"Wednesday\"",
+        "IL_0024: ret",
+        "IL_0025: ldstr \"Epilogue\"",
+        "IL_002a: ret",
+        "IL_002b: ldarga.s time",
+        "IL_002d: call System.String Elsinore.Game.GameClock::get_AsStringWithDayOfWeek()",
+        "IL_0032: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "Wednesday",
+          "il_offset": "IL_001f"
+        },
+        {
+          "source": "Epilogue",
+          "il_offset": "IL_0025"
+        }
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::FormatTimeString(System.Text.StringBuilder,Elsinore.Game.GameClock)",
+      "il": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_000a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+        "IL_000f: callvirt Elsinore.Game.GameMode Elsinore.Game.ElsinoreData::get_Mode()",
+        "IL_0014: stloc.0",
+        "IL_0015: ldloc.0",
+        "IL_0016: ldc.i4.1",
+        "IL_0017: beq.s IL_001f",
+        "IL_0019: ldloc.0",
+        "IL_001a: ldc.i4.2",
+        "IL_001b: beq.s IL_002c",
+        "IL_001d: br.s IL_0039",
+        "IL_001f: ldarg.0",
+        "IL_0020: ldstr \"Wednesday\"",
+        "IL_0025: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_002a: pop",
+        "IL_002b: ret",
+        "IL_002c: ldarg.0",
+        "IL_002d: ldstr \"Epilogue\"",
+        "IL_0032: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0037: pop",
+        "IL_0038: ret",
+        "IL_0039: ldarga.s time",
+        "IL_003b: ldarg.0",
+        "IL_003c: call System.Void Elsinore.Game.GameClock::FormatWithDayOfWeek(System.Text.StringBuilder)",
+        "IL_0041: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "Wednesday",
+          "il_offset": "IL_0020"
+        },
+        {
+          "source": "Epilogue",
+          "il_offset": "IL_002d"
+        }
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "System.String[] Elsinore.Game.GameClock::get_clockDays()",
+      "il": [
+        "IL_0000: ldc.i4.4",
+        "IL_0001: newarr System.String",
+        "IL_0006: dup",
+        "IL_0007: ldc.i4.0",
+        "IL_0008: ldstr \"Thursday\"",
+        "IL_000d: stelem.any System.String",
+        "IL_0012: dup",
+        "IL_0013: ldc.i4.1",
+        "IL_0014: ldstr \"Friday\"",
+        "IL_0019: stelem.any System.String",
+        "IL_001e: dup",
+        "IL_001f: ldc.i4.2",
+        "IL_0020: ldstr \"Saturday\"",
+        "IL_0025: stelem.any System.String",
+        "IL_002a: dup",
+        "IL_002b: ldc.i4.3",
+        "IL_002c: ldstr \"Sunday\"",
+        "IL_0031: stelem.any System.String",
+        "IL_0036: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "Thursday",
+          "il_offset": "IL_0008"
+        },
+        {
+          "source": "Friday",
+          "il_offset": "IL_0014"
+        },
+        {
+          "source": "Saturday",
+          "il_offset": "IL_0020"
+        },
+        {
+          "source": "Sunday",
+          "il_offset": "IL_002c"
+        }
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "System.String Elsinore.Game.GameClock::DayString(System.Int32)",
+      "il": [
+        "IL_0000: ldc.i4.4",
+        "IL_0001: newarr System.String",
+        "IL_0006: dup",
+        "IL_0007: ldc.i4.0",
+        "IL_0008: ldstr \"Thursday\"",
+        "IL_000d: stelem.any System.String",
+        "IL_0012: dup",
+        "IL_0013: ldc.i4.1",
+        "IL_0014: ldstr \"Friday\"",
+        "IL_0019: stelem.any System.String",
+        "IL_001e: dup",
+        "IL_001f: ldc.i4.2",
+        "IL_0020: ldstr \"Saturday\"",
+        "IL_0025: stelem.any System.String",
+        "IL_002a: dup",
+        "IL_002b: ldc.i4.3",
+        "IL_002c: ldstr \"Sunday\"",
+        "IL_0031: stelem.any System.String",
+        "IL_0036: ldarg.0",
+        "IL_0037: ldc.i4.1",
+        "IL_0038: sub",
+        "IL_0039: ldelem.any System.String",
+        "IL_003e: stloc.0",
+        "IL_003f: leave.s IL_0064",
+        "IL_0041: castclass System.Exception",
+        "IL_0046: stloc.1",
+        "IL_0047: ldloc.1",
+        "IL_0048: isinst System.IndexOutOfRangeException",
+        "IL_004d: stloc.2",
+        "IL_004e: ldloc.2",
+        "IL_004f: brfalse.s IL_0059",
+        "IL_0051: ldstr \"Sunday\"",
+        "IL_0056: stloc.0",
+        "IL_0057: leave.s IL_0064",
+        "IL_0059: rethrow",
+        "IL_005b: ldnull",
+        "IL_005c: unbox.any System.String",
+        "IL_0061: stloc.0",
+        "IL_0062: leave.s IL_0064",
+        "IL_0064: ldloc.0",
+        "IL_0065: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "Thursday",
+          "il_offset": "IL_0008"
+        },
+        {
+          "source": "Friday",
+          "il_offset": "IL_0014"
+        },
+        {
+          "source": "Saturday",
+          "il_offset": "IL_0020"
+        },
+        {
+          "source": "Sunday",
+          "il_offset": "IL_002c"
+        },
+        {
+          "source": "Sunday",
+          "il_offset": "IL_0051"
+        }
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "System.String Elsinore.Game.GameClock::get_AsStringWithDayOfWeek()",
+      "il": [
+        "IL_0000: ldstr \"{0}, {1:D2}:{2:D2}\"",
+        "IL_0005: ldarg.0",
+        "IL_0006: ldfld System.Single Elsinore.Game.GameClock::MinutesFromEpochFloat@",
+        "IL_000b: conv.i4",
+        "IL_000c: ldc.i4 360",
+        "IL_0011: add",
+        "IL_0012: ldc.i4 1440",
+        "IL_0017: div",
+        "IL_0018: ldc.i4.1",
+        "IL_0019: add",
+        "IL_001a: call System.String Elsinore.Game.GameClock::DayString(System.Int32)",
+        "IL_001f: ldarg.0",
+        "IL_0020: ldfld System.Single Elsinore.Game.GameClock::MinutesFromEpochFloat@",
+        "IL_0025: conv.i4",
+        "IL_0026: ldc.i4 360",
+        "IL_002b: add",
+        "IL_002c: ldc.i4.s 60",
+        "IL_002e: div",
+        "IL_002f: ldc.i4.s 24",
+        "IL_0031: rem",
+        "IL_0032: box System.Int32",
+        "IL_0037: ldarg.0",
+        "IL_0038: ldfld System.Single Elsinore.Game.GameClock::MinutesFromEpochFloat@",
+        "IL_003d: conv.i4",
+        "IL_003e: ldc.i4 360",
+        "IL_0043: add",
+        "IL_0044: ldc.i4.s 60",
+        "IL_0046: rem",
+        "IL_0047: box System.Int32",
+        "IL_004c: call System.String System.String::Format(System.String,System.Object,System.Object,System.Object)",
+        "IL_0051: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "{0}, {1:D2}:{2:D2}",
+          "il_offset": "IL_0000"
+        }
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "System.Void Elsinore.Game.GameClock::FormatWithDayOfWeek(System.Text.StringBuilder)",
+      "il": [
+        "IL_0000: ldarg.1",
+        "IL_0001: ldstr \"{0}, {1:D2}:{2:D2}\"",
+        "IL_0006: ldarg.0",
+        "IL_0007: ldfld System.Single Elsinore.Game.GameClock::MinutesFromEpochFloat@",
+        "IL_000c: conv.i4",
+        "IL_000d: ldc.i4 360",
+        "IL_0012: add",
+        "IL_0013: ldc.i4 1440",
+        "IL_0018: div",
+        "IL_0019: ldc.i4.1",
+        "IL_001a: add",
+        "IL_001b: call System.String Elsinore.Game.GameClock::DayString(System.Int32)",
+        "IL_0020: ldarg.0",
+        "IL_0021: ldfld System.Single Elsinore.Game.GameClock::MinutesFromEpochFloat@",
+        "IL_0026: conv.i4",
+        "IL_0027: ldc.i4 360",
+        "IL_002c: add",
+        "IL_002d: ldc.i4.s 60",
+        "IL_002f: div",
+        "IL_0030: ldc.i4.s 24",
+        "IL_0032: rem",
+        "IL_0033: box System.Int32",
+        "IL_0038: ldarg.0",
+        "IL_0039: ldfld System.Single Elsinore.Game.GameClock::MinutesFromEpochFloat@",
+        "IL_003e: conv.i4",
+        "IL_003f: ldc.i4 360",
+        "IL_0044: add",
+        "IL_0045: ldc.i4.s 60",
+        "IL_0047: rem",
+        "IL_0048: box System.Int32",
+        "IL_004d: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object,System.Object,System.Object)",
+        "IL_0052: stloc.0",
+        "IL_0053: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "{0}, {1:D2}:{2:D2}",
+          "il_offset": "IL_0001"
+        }
+      ]
+    }
+  ],
+  "text_component_fields": [
+    {
+      "owner": "LoadingScreen",
+      "field": "text",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Rewired.Demos.PlayerPointerEventHandlerExample",
+      "field": "text",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.SimpleCombinedKeyboardMouseRemapping",
+      "field": "controllerNameUIText",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.SimpleCombinedKeyboardMouseRemapping",
+      "field": "statusUIText",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.SimpleCombinedKeyboardMouseRemapping/Row",
+      "field": "text",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.SimpleControlRemapping",
+      "field": "controllerNameUIText",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.SimpleControlRemapping",
+      "field": "statusUIText",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.SimpleControlRemapping/Row",
+      "field": "text",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.GamepadTemplateUI.ControllerUIElement",
+      "field": "_label",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.GamepadTemplateUI.ControllerUIElement",
+      "field": "_positiveLabel",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Rewired.Demos.GamepadTemplateUI.ControllerUIElement",
+      "field": "_negativeLabel",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Elsinore.Ui.ConfirmationDialog",
+      "field": "text",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.DebugUI",
+      "field": "fpsText",
+      "type": "UnityEngine.UI.Text"
+    },
+    {
+      "owner": "Elsinore.Ui.DialogueUI",
+      "field": "tooltip",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.DialogueUI",
+      "field": "DialogueText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.DialogueUI",
+      "field": "DialogueName",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.DialogueUI",
+      "field": "notificationText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.EndingSceneUI",
+      "field": "EndingText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.EndingSelectUI",
+      "field": "tooltip",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.EndingSelectUI",
+      "field": "sacrificeWhatText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.EndingSelectUI",
+      "field": "sacrificeForText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.EndingSelectUI",
+      "field": "description",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.GameOverUI",
+      "field": "EndingTitleFor",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.GameOverUI",
+      "field": "EndingTitleWhat",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.GameOverUI",
+      "field": "EndingDescription",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.GameOverUI",
+      "field": "FateUnlockedHeader",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.GameOverUI",
+      "field": "NormalEndingDescription",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.GameOverUI",
+      "field": "mundaneGameOverMessage",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.LogUI",
+      "field": "TextPrefab",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.LogUI",
+      "field": "createdEntries",
+      "type": "System.Collections.Generic.List`1<TMPro.TextMeshProUGUI>"
+    },
+    {
+      "owner": "Elsinore.Ui.MapUI",
+      "field": "tooltip",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.MapUI",
+      "field": "confirmMoveText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.ObjectCloseupUI",
+      "field": "Title",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.ObjectCloseupUI",
+      "field": "Body",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.PauseUI",
+      "field": "BuildInfoText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.PauseUI",
+      "field": "quitDialogText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.PauseUI",
+      "field": "saveResultDialogText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.PresentUI",
+      "field": "PresentPreviewText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.SplashScreenUI",
+      "field": "BuildInfoText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TimelineUI",
+      "field": "HeaderText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TimelineUI",
+      "field": "EventDescriptionText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TimelineUI",
+      "field": "tooltip",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TimelineUI",
+      "field": "InfoText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.CreditsPlayer",
+      "field": "TextField",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.DialogBox",
+      "field": "DefaultTextPrefab",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.ExplorationUI",
+      "field": "Tooltip",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.ExplorationUI",
+      "field": "TimeText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.ExplorationUI",
+      "field": "LocationText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.ExplorationUI",
+      "field": "BuildInfoText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.ExplorationUI",
+      "field": "hintTooltipPool",
+      "type": "ObjectPool`1<TMPro.TextMeshProUGUI>"
+    },
+    {
+      "owner": "Elsinore.Ui.GuiUtils/TextAnimationData",
+      "field": "TextObject",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.GuiUtils/<AnimateEllipses>d__28",
+      "field": "textObject",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.NominalValueSlider",
+      "field": "Text",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.NumericalValueSlider",
+      "field": "Text",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TextContainer",
+      "field": "text",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TextInteractableHighlight/<>c__DisplayClass7_0",
+      "field": "text",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.JournalCharactersTab",
+      "field": "TitleText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.JournalCharactersTab",
+      "field": "SlugText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.JournalCharactersTab",
+      "field": "DescriptionText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.JournalLeadsTab",
+      "field": "TitleText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.JournalLeadsTab",
+      "field": "DescriptionText",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.LeadItem",
+      "field": "Text",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TitleAndDescriptionContainer",
+      "field": "title",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Elsinore.Ui.TitleAndDescriptionContainer",
+      "field": "description",
+      "type": "TMPro.TextMeshProUGUI"
+    },
+    {
+      "owner": "Agakme.Console.ConsoleUi",
+      "field": "output",
+      "type": "TMPro.TextMeshProUGUI"
+    }
+  ],
+  "tmp_stringbuilder_hook": [
+    {
+      "method": "System.Boolean XUnity.AutoTranslator.Plugin.Core.Hooks.TextMeshPro.TMP_Text_SetText_Hook1::Prepare(System.Object)",
+      "il": [
+        "IL_0000: ldsfld XUnity.Common.Constants.TypeContainer XUnity.Common.Constants.UnityTypes::TMP_Text",
+        "IL_0005: ldnull",
+        "IL_0006: cgt.un",
+        "IL_0008: ret"
+      ]
+    },
+    {
+      "method": "System.Reflection.MethodBase XUnity.AutoTranslator.Plugin.Core.Hooks.TextMeshPro.TMP_Text_SetText_Hook1::TargetMethod(System.Object)",
+      "il": [
+        "IL_0000: ldsfld XUnity.Common.Constants.TypeContainer XUnity.Common.Constants.UnityTypes::TMP_Text",
+        "IL_0005: dup",
+        "IL_0006: brtrue.s IL_000c",
+        "IL_0008: pop",
+        "IL_0009: ldnull",
+        "IL_000a: br.s IL_0011",
+        "IL_000c: call System.Type XUnity.Common.Constants.TypeContainer::get_ClrType()",
+        "IL_0011: ldstr \"SetText\"",
+        "IL_0016: ldc.i4.1",
+        "IL_0017: newarr System.Type",
+        "IL_001c: dup",
+        "IL_001d: ldc.i4.0",
+        "IL_001e: ldtoken System.Text.StringBuilder",
+        "IL_0023: call System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)",
+        "IL_0028: stelem.ref",
+        "IL_0029: call System.Reflection.MethodInfo XUnity.Common.Harmony.AccessToolsShim::Method(System.Type,System.String,System.Type[])",
+        "IL_002e: ret"
+      ]
+    },
+    {
+      "method": "System.Void XUnity.AutoTranslator.Plugin.Core.Hooks.TextMeshPro.TMP_Text_SetText_Hook1::Postfix(UnityEngine.Component)",
+      "il": [
+        "IL_0000: ldsfld XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin::Current",
+        "IL_0005: ldarg.0",
+        "IL_0006: ldc.i4.0",
+        "IL_0007: callvirt System.Void XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin::Hook_TextChanged(System.Object,System.Boolean)",
+        "IL_000c: ret"
+      ]
+    }
+  ],
+  "framework_config": [
+    "EnableUGUI=True",
+    "EnableTextMeshPro=True",
+    "EnableTextMesh=False",
+    "MaxCharactersPerTranslation=2500",
+    "IgnoreWhitespaceInDialogue=True"
+  ],
+  "compared_artifacts": [
+    {
+      "path": "translation/sol-full-2026-10-09/dynamic-rules.json",
+      "sha256": "2463b1882f62ca5817b49c7c47a335fab09c3043b5195d17fb6385a5cf8bbae2"
+    },
+    {
+      "path": "translation/sol-full-2026-10-09/translations.json",
+      "sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d"
+    },
+    {
+      "path": "analysis/ui-audit/resource-strings.json",
+      "sha256": "abb7c48b74f19c818e1f99370cfd3a1685399f29a873b017a2d2b86365381c21"
+    },
+    {
+      "path": "translation/sol-full-2026-10-09/character-names.json",
+      "sha256": "263289ae8999330d60d6ffa34c387a4aeb040ff247ab3e3e053ae63ea2f0a96a"
+    }
+  ],
+  "current_dynamic_rules": {
+    "count": 15,
+    "source_templates": [
+      "Ophelia looks at \"{0}.\"",
+      "Quit Game?\nThe last autosave was {0} seconds ago.",
+      "Quit Game?\nThe last autosave was {0} minutes ago.",
+      "<i>I don't think {0} cares about this information.</i>",
+      "<i>{0} has already seen this information.</i>",
+      "This is your journal. Try pressing {0} to open it now.",
+      "This is your Map. You can use it to see when events are happening around the castle. Try pressing {0} to open it now.",
+      "You can also use the map to quickly reach rooms or characters. Try navigating to your bedroom with {0} and press {1}.",
+      "This is your Timeline. Here you can see past events Ophelia knows about, as well as future events which might occur. Try pressing {0} to open it now.",
+      "This is a past event. Here you can see which characters attended the event and what came of it. Try pressing {0} to open it.",
+      "Future events are marked in blue. Because Elsinore's state is constantly changing, there is no guarantee a future event will happen for certain. Try pressing {0} to open it.",
+      "You can now use the clock to fast forward time. Try holding {0} to fast forward time now.",
+      "You can now reset the time loop at any time. Press {0} to open a menu where you can restart the loop.",
+      "Ophelia presents \"{0}\" to {1}.",
+      "Timeline of Loop {0}"
+    ],
+    "limitations": "现有生成器只转换带{数字}且移除参数后固定片段长度至少10的源文；追加式拼接、短日期模板和人物列表均未生成对应规则。"
+  },
+  "fragment_dictionary_coverage": [
+    {
+      "source": "{0}, {1:D2}:{2:D2}",
+      "exact_target": null,
+      "trimmed_target": null
+    },
+    {
+      "source": "Future event: ",
+      "exact_target": "未来事件： ",
+      "trimmed_target": null
+    },
+    {
+      "source": "Unlikely event: ",
+      "exact_target": "不太可能发生的事件： ",
+      "trimmed_target": null
+    },
+    {
+      "source": "Impossible event: ",
+      "exact_target": "不可能发生的事件： ",
+      "trimmed_target": null
+    },
+    {
+      "source": "Including ",
+      "exact_target": null,
+      "trimmed_target": null
+    },
+    {
+      "source": " in ",
+      "exact_target": null,
+      "trimmed_target": null
+    },
+    {
+      "source": ", <i>in which</i> ",
+      "exact_target": "，<i>在此期间</i> ",
+      "trimmed_target": null
+    },
+    {
+      "source": "<b>Outcome:</b>\n",
+      "exact_target": null,
+      "trimmed_target": null
+    },
+    {
+      "source": "Wednesday",
+      "exact_target": null,
+      "trimmed_target": null
+    },
+    {
+      "source": "Thursday",
+      "exact_target": "星期四",
+      "trimmed_target": "星期四"
+    },
+    {
+      "source": "Friday",
+      "exact_target": "星期五",
+      "trimmed_target": "星期五"
+    },
+    {
+      "source": "Saturday",
+      "exact_target": "星期六",
+      "trimmed_target": "星期六"
+    },
+    {
+      "source": "Sunday",
+      "exact_target": "星期日",
+      "trimmed_target": "星期日"
+    },
+    {
+      "source": "Rosie",
+      "exact_target": null,
+      "trimmed_target": null
+    },
+    {
+      "source": "Guilda",
+      "exact_target": null,
+      "trimmed_target": null
+    }
+  ],
+  "resource_description_evidence": [
+    {
+      "source": "The meeting disperses.",
+      "source_sha256": "bbe39c4b51d8e6a594ac703221e71c3a82b5b1ac855c79aa202f99467c9c479c",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "schedule",
+        "asset_sha256": "7c547dc32556425287d21f9084cbbe46d5e29a311d24316552fcd840d927dcbc",
+        "json_path": "$.events[1].description",
+        "field": "description",
+        "record_id": "party"
+      },
+      "decision": "candidate",
+      "reason": "显示字段；不使用词数或长度门槛",
+      "category": "resource_ui",
+      "coverage": "missing",
+      "in_primary_inventory": false
+    },
+    {
+      "source": "Irma tends to the stove.",
+      "source_sha256": "6939d10ad6de04c3ac891c6c4d1323428e66f81214df2eb6a4f1578f9cc833bc",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "schedule",
+        "asset_sha256": "7c547dc32556425287d21f9084cbbe46d5e29a311d24316552fcd840d927dcbc",
+        "json_path": "$.events[2].description",
+        "field": "description",
+        "record_id": "IrmaInKitchen"
+      },
+      "decision": "candidate",
+      "reason": "显示字段；不使用词数或长度门槛",
+      "category": "resource_ui",
+      "coverage": "missing",
+      "in_primary_inventory": false
+    },
+    {
+      "source": "Claudius and Bernardo discuss current events.",
+      "source_sha256": "14e8cfa1d49aa96c6091ef02013ee885f29feeec154347c5335cf96b48aebd44",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "schedule",
+        "asset_sha256": "7c547dc32556425287d21f9084cbbe46d5e29a311d24316552fcd840d927dcbc",
+        "json_path": "$.events[3].description",
+        "field": "description",
+        "record_id": "ClaudiusWarMeeting"
+      },
+      "decision": "candidate",
+      "reason": "显示字段；不使用词数或长度门槛",
+      "category": "resource_ui",
+      "coverage": "missing",
+      "in_primary_inventory": false
+    },
+    {
+      "source": "Hamlet and Laertes make a request.",
+      "source_sha256": "20d226b38f8bd593f4422c5ffc6615a0dddfab3405014145e7d1bcb253aed7ce",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "schedule",
+        "asset_sha256": "7c547dc32556425287d21f9084cbbe46d5e29a311d24316552fcd840d927dcbc",
+        "json_path": "$.events[4].description",
+        "field": "description",
+        "record_id": "MeetingEnd"
+      },
+      "decision": "candidate",
+      "reason": "显示字段；不使用词数或长度门槛",
+      "category": "resource_ui",
+      "coverage": "missing",
+      "in_primary_inventory": false
+    },
+    {
+      "source": "Laertes and I meet.",
+      "source_sha256": "0f736be9e0dd373469cfe483ed2a7012b436fda3a066773fee5878405ee94c3c",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "schedule",
+        "asset_sha256": "7c547dc32556425287d21f9084cbbe46d5e29a311d24316552fcd840d927dcbc",
+        "json_path": "$.events[5].description",
+        "field": "description",
+        "record_id": "LaertesEndingSetup"
+      },
+      "decision": "candidate",
+      "reason": "显示字段；不使用词数或长度门槛",
+      "category": "resource_ui",
+      "coverage": "missing",
+      "in_primary_inventory": false
+    }
+  ],
+  "resource_name_evidence": [
+    {
+      "source": "Ophelia",
+      "source_sha256": "ab061919148ee88c41dd0b1202b0625e6457c74c7a0f3666e0abcef2cc484af5",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "49975131f1e00180e528ceea4ea9e630c1d421dc2b4061992df1d63c0add1a85",
+        "json_path": "$.list[0].slug",
+        "field": "slug",
+        "record_id": "ophelia"
+      },
+      "decision": "covered",
+      "reason": "显示字段；不使用词数或长度门槛",
+      "category": "resource_ui",
+      "coverage": "exact",
+      "translation_id": "p00028-ab061919148e",
+      "target": "奥菲莉娅",
+      "in_primary_inventory": true
+    },
+    {
+      "source": "Ophelia",
+      "source_sha256": "ab061919148ee88c41dd0b1202b0625e6457c74c7a0f3666e0abcef2cc484af5",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "names",
+        "asset_sha256": "476bcf4e1ef62ef414036427d17b254e828ba5b4d0f226de00c4e654562d4fa2",
+        "json_path": "$.voiceEvents.bernardo[185]",
+        "field": "bernardo",
+        "record_id": null
+      },
+      "decision": "excluded",
+      "reason": "内部ID、条件、场景、音效、标记或资源地址字段",
+      "category": "technical",
+      "coverage": "exact",
+      "translation_id": "p00028-ab061919148e",
+      "target": "奥菲莉娅",
+      "in_primary_inventory": true
+    },
+    {
+      "source": "Ophelia",
+      "source_sha256": "ab061919148ee88c41dd0b1202b0625e6457c74c7a0f3666e0abcef2cc484af5",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "names",
+        "asset_sha256": "476bcf4e1ef62ef414036427d17b254e828ba5b4d0f226de00c4e654562d4fa2",
+        "json_path": "$.voiceEvents.brit[140]",
+        "field": "brit",
+        "record_id": null
+      },
+      "decision": "excluded",
+      "reason": "内部ID、条件、场景、音效、标记或资源地址字段",
+      "category": "technical",
+      "coverage": "exact",
+      "translation_id": "p00028-ab061919148e",
+      "target": "奥菲莉娅",
+      "in_primary_inventory": true
+    },
+    {
+      "source": "Ophelia",
+      "source_sha256": "ab061919148ee88c41dd0b1202b0625e6457c74c7a0f3666e0abcef2cc484af5",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "names",
+        "asset_sha256": "476bcf4e1ef62ef414036427d17b254e828ba5b4d0f226de00c4e654562d4fa2",
+        "json_path": "$.voiceEvents.claudius[182]",
+        "field": "claudius",
+        "record_id": null
+      },
+      "decision": "excluded",
+      "reason": "内部ID、条件、场景、音效、标记或资源地址字段",
+      "category": "technical",
+      "coverage": "exact",
+      "translation_id": "p00028-ab061919148e",
+      "target": "奥菲莉娅",
+      "in_primary_inventory": true
+    },
+    {
+      "source": "Ophelia",
+      "source_sha256": "ab061919148ee88c41dd0b1202b0625e6457c74c7a0f3666e0abcef2cc484af5",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "names",
+        "asset_sha256": "476bcf4e1ef62ef414036427d17b254e828ba5b4d0f226de00c4e654562d4fa2",
+        "json_path": "$.voiceEvents.gertrude[216]",
+        "field": "gertrude",
+        "record_id": null
+      },
+      "decision": "excluded",
+      "reason": "内部ID、条件、场景、音效、标记或资源地址字段",
+      "category": "technical",
+      "coverage": "exact",
+      "translation_id": "p00028-ab061919148e",
+      "target": "奥菲莉娅",
+      "in_primary_inventory": true
+    },
+    {
+      "source": "Ophelia",
+      "source_sha256": "ab061919148ee88c41dd0b1202b0625e6457c74c7a0f3666e0abcef2cc484af5",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "names",
+        "asset_sha256": "476bcf4e1ef62ef414036427d17b254e828ba5b4d0f226de00c4e654562d4fa2",
+        "json_path": "$.voiceEvents.ghost[97]",
+        "field": "ghost",
+        "record_id": null
+      },
+      "decision": "excluded",
+      "reason": "内部ID、条件、场景、音效、标记或资源地址字段",
+      "category": "technical",
+      "coverage": "exact",
+      "translation_id": "p00028-ab061919148e",
+      "target": "奥菲莉娅",
+      "in_primary_inventory": true
+    }
+  ],
+  "chains": [
+    {
+      "id": "exploration_room_and_time",
+      "controls": [
+        "Elsinore.Ui.ExplorationUI.LocationText",
+        "Elsinore.Ui.ExplorationUI.TimeText"
+      ],
+      "component_type": "TMPro.TextMeshProUGUI",
+      "format": "两个独立组件：LocationText=RoomMarker.playerFacingName+\" •\"；TimeText=UiStrings.FormatTimeString(clock)。",
+      "evidence": [
+        "ExplorationUI::updateTimeText IL_005a RoomMarker.playerFacingName",
+        "IL_006b ldstr \" •\"",
+        "IL_0082 TMP_Text.SetText(StringBuilder)",
+        "IL_0022 UiStrings.FormatTimeString",
+        "IL_0033 TMP_Text.SetText(StringBuilder)"
+      ],
+      "gap": "房间原文虽然有词表，但带bullet后不能精确命中；星期/时间组合没有动态规则。"
+    },
+    {
+      "id": "weekday_time",
+      "format": "{0}, {1:D2}:{2:D2}",
+      "source_methods": [
+        "Elsinore.Game.GameClock::get_AsStringWithDayOfWeek",
+        "Elsinore.Game.GameClock::FormatWithDayOfWeek"
+      ],
+      "source_days": [
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "special_mode_labels": [
+        "Wednesday",
+        "Epilogue"
+      ],
+      "evidence": [
+        "GameClock.FormatWithDayOfWeek IL_0001模板、IL_001b DayString、IL_004d AppendFormat",
+        "UiStrings.FormatTimeString教程模式直接Wednesday、尾声模式直接Epilogue"
+      ],
+      "gap": "移除格式参数后固定文本仅逗号/空格/冒号，当前format_rule长度门槛跳过此模板；Wednesday独立词条还缺失。"
+    },
+    {
+      "id": "timeline_tooltip",
+      "control": "Elsinore.Ui.TimelineUI.EventDescriptionText",
+      "component_type": "TMPro.TextMeshProUGUI",
+      "formats": [
+        "Future event: <事件description>",
+        "Unlikely event: <事件description>",
+        "Impossible event: <事件description>"
+      ],
+      "evidence": [
+        "tooltipForItem IL_003d/IL_00bc/IL_00ca追加前缀，IL_0054/IL_00e1追加ElsinoreEvent.Description",
+        "onTimelineItemPointerEnter IL_0035 TMP_Text.SetText(StringBuilder)"
+      ],
+      "gap": "前缀和资源description各自词表命中不代表拼接后的整串命中。"
+    },
+    {
+      "id": "timeline_details",
+      "control": "Elsinore.Ui.TimelineUI.InfoText",
+      "component_type": "TMPro.TextMeshProUGUI",
+      "format": "<line-height=90%>[Future event: ]<星期, HH:mm>[ in <房间>], <i>in which</i> <事件description>；随后拼接单独builder2里的<line-height=90%>Including <人物列表>.及可选Outcome段落。",
+      "evidence": [
+        "createEventContent IL_001d/IL_0023分别设置两个builder的line-height",
+        "IL_0060 Future event、IL_0074 FormatLogEntryOpener、IL_007b FormatEvent",
+        "IL_00aa Including、IL_00c3 FormatList、IL_00cb句号",
+        "IL_01c0 Outcome及IL_01d4 Model.formatAllLiterals",
+        "onEventClick IL_0031 AddParagraphBreakIfPriorContent、IL_0038 Append(builder2)、IL_0045 TMP_Text.SetText(StringBuilder)"
+      ],
+      "gap": "当前15条均未拆分开场时间/房间/事件正文/参与者/结果；整串中的line-height、加粗和斜体标记必须保留。"
+    },
+    {
+      "id": "participants",
+      "format_cases": [
+        "单人：名字",
+        "两人：名字 and 名字",
+        "多人：名字, 名字, and 名字"
+      ],
+      "evidence": [
+        "UiStrings.FormatList IL_0044 \" and \"、IL_006b \", \"、IL_0082 \"and \"",
+        "UiStrings.FormatCharacterName通过ElsinoreData.NameMap.Names[cid.Name]取得真实显示名字"
+      ],
+      "gap": "应以真实NameMap有限名字集合约束名单拆分，不能对所有逗号/and泛化替换。"
+    },
+    {
+      "id": "log_entry_opener",
+      "format": "[<b>]<星期, HH:mm>[ in <房间>][</b>], <i>in which</i> <事件description>",
+      "evidence": [
+        "UiStrings.FormatLogEntryOpener IL_0004/IL_0046粗体标记",
+        "IL_0011 FormatTimeString",
+        "IL_0026 \" in \"、IL_0037 FormatRoomId",
+        "IL_0052 \", <i>in which</i> \""
+      ],
+      "gap": "日志正文复用同一开场格式，应与Timeline共享拆分契约。"
+    }
+  ],
+  "framework_conclusion": {
+    "target_fields_all_tmp": true,
+    "ugui_text_fields": [
+      {
+        "owner": "Rewired.Demos.PlayerPointerEventHandlerExample",
+        "field": "text",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.SimpleCombinedKeyboardMouseRemapping",
+        "field": "controllerNameUIText",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.SimpleCombinedKeyboardMouseRemapping",
+        "field": "statusUIText",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.SimpleCombinedKeyboardMouseRemapping/Row",
+        "field": "text",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.SimpleControlRemapping",
+        "field": "controllerNameUIText",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.SimpleControlRemapping",
+        "field": "statusUIText",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.SimpleControlRemapping/Row",
+        "field": "text",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.GamepadTemplateUI.ControllerUIElement",
+        "field": "_label",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.GamepadTemplateUI.ControllerUIElement",
+        "field": "_positiveLabel",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Rewired.Demos.GamepadTemplateUI.ControllerUIElement",
+        "field": "_negativeLabel",
+        "type": "UnityEngine.UI.Text"
+      },
+      {
+        "owner": "Elsinore.Ui.DebugUI",
+        "field": "fpsText",
+        "type": "UnityEngine.UI.Text"
+      }
+    ],
+    "unity_textmesh_fields": [],
+    "tmp_stringbuilder_supported": true,
+    "evidence": "安装插件TMP_Text_SetText_Hook1.TargetMethod在IL_0011寻找SetText，IL_001e指定StringBuilder；Postfix IL_0007调用Hook_TextChanged。EnableTextMeshPro=True支持TMP；EnableTextMesh=False仅控制UnityEngine.TextMesh。",
+    "limits": "这里只确认静态支持路径及配置，没有宣称当前游戏运行时Hook实际成功或像素已翻译。",
+    "non_ugui_textmesh_il_reference_count": 0,
+    "non_ugui_reference_scan": "递归检查Assembly-CSharp所有类型及嵌套类型的IL操作数：没有UnityEngine.TextMesh或TMPro.TextMeshPro::引用。"
+  },
+  "recommended_splitters": [
+    {
+      "id": "clock",
+      "pattern": "^(?<day>Wednesday|Thursday|Friday|Saturday|Sunday), (?<clock_i>(?:[01][0-9]|2[0-3]):[0-5][0-9])$",
+      "replacement": "${day} ${clock_i}",
+      "reason": "翻译有限星期值，原样保留格式化时刻。"
+    },
+    {
+      "id": "location_bullet",
+      "pattern": "^(?<room>[^•\\r\\n]+)(?<bullet_i> •)$",
+      "replacement": "${room}${bullet_i}",
+      "reason": "匹配实际房间标签的尾部bullet，子片段room递归命中房间词表；正式发布宜从已核验RoomMarker名字生成有限白名单。"
+    },
+    {
+      "id": "future_tooltip",
+      "pattern": "^(?<prefix>Future event: |Unlikely event: |Impossible event: )(?<event>[\\s\\S]+)$",
+      "replacement": "${prefix}${event}",
+      "reason": "前缀已存在精确译文，事件正文保持独立递归翻译；避免枚举所有前缀与事件组合。"
+    },
+    {
+      "id": "line_height_wrapper",
+      "pattern": "^(?<tag_i><line-height=90%>)(?<body>[\\s\\S]+)$",
+      "replacement": "${tag_i}${body}",
+      "reason": "逐层剥离真实富文本封套，保留控制标记，让内部完整UI片段继续递归解析。"
+    },
+    {
+      "id": "paragraph_separator",
+      "pattern": "^(?<left>[\\s\\S]+?)(?<separator_i>\\n?<line-height=40%>\\n<line-height=90%>)(?<right>[\\s\\S]+)$",
+      "replacement": "${left}${separator_i}${right}",
+      "reason": "只使用UiStrings.AddParagraphBreak生成的精确富文本换段序列切分，保留原换行；onEventClick右块可能仍以line-height=90%开头。"
+    },
+    {
+      "id": "including",
+      "pattern": "^Including (?<people>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)(?: and (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)|(?:, (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))+, and (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))?)\\.$",
+      "replacement_contract": "固定前缀译文 + ${people} + 句号；people递归进入严格人物名单规则",
+      "reason": "整串严格遵循真实NameMap集合与1/2/多人名单语法，不能吞入Outcome或普通正文。"
+    },
+    {
+      "id": "names_two",
+      "pattern": "^(?<first>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)) and (?<last>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))$",
+      "replacement_contract": "${first} + 中文连接词 + ${last}",
+      "reason": "两个参数分别递归命中人物名字词表，仅接受真实NameMap集合。"
+    },
+    {
+      "id": "names_multiple",
+      "pattern": "^(?<first>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)), (?<rest>(?:(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?), )*and (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))$",
+      "replacement_contract": "${first} + 中文顿号 + ${rest}；rest必须满足NameMap名单语法，递归直到末项",
+      "reason": "rest也必须满足有限真实人物名单语法；递归拆分到终端and + name，避免匹配普通逗号对白。"
+    },
+    {
+      "id": "names_final",
+      "pattern": "^and (?<last>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))$",
+      "replacement_contract": "中文连接词 + ${last}",
+      "reason": "对应三人及以上列表最后的and，不会误匹配普通and句子。"
+    },
+    {
+      "id": "timeline_opener",
+      "pattern_contract": "锚定全串；可选<line-height>/<b>标记、可选Future前缀、合法weekday/H:mm或Wednesday/Epilogue、可选 in + 房间白名单、固定 , <i>in which</i> ，随后事件正文；捕获prefix/day/room/event独立递归，控制标记及数值组用_i保留。",
+      "reason": "必须先剥离或切分真实富文本块，避免让event组吞掉Including/Outcome；房间名来自RoomMarker.playerFacingName。"
+    },
+    {
+      "id": "outcome",
+      "pattern_contract": "精确<b>Outcome:</b>加换行的段首与后续Model.formatAllLiterals结果段分离，先通过已冻结原件验证各结果行格式。",
+      "reason": "标题及动态结果均需要覆盖，不应整段抓作一个未知参数。"
+    }
+  ],
+  "recommended_verification": [
+    "使用当前XUnity RegexTranslationSplitter真实解析器验证递归捕获、_i跳过标记及替换，不仅用Python正则匹配。",
+    "从实际资源和IL生成的冻结真实UI输出采样验证：星期/时刻、房间bullet、三种前缀、1/2/多人物及含Outcome详情；同时用普通对白负样本验证规则不会误匹配。",
+    "现场集成应从真实当前Timeline按钮的pointerEnter/click入口读取TMP最终文本；手工SetText合成只能证明拦截/消费者，不能声称真实业务主流程。"
+  ],
+  "limitations": [
+    "所有建议尚未安装或经过真实解析器验证；父agent负责翻译与补丁代码。",
+    "没有把资源记录排列成虚构存档、事件或人物组合；resource_description_evidence保留原资源哈希和JSON路径。",
+    "MaxCharactersPerTranslation=2500还可能影响超长拼接正文，应由真实资料长度核查；本次静态分析未证明超过门槛。"
+  ],
+  "verification": {
+    "json_parse_passed": true,
+    "source_files_sha256_passed": true,
+    "candidate_dotnet_regex_compile_passed": true,
+    "runtime_consumer_validation": "尚未执行；候选建议须由父agent在真实XUnity解析器验证。"
+  }
+}

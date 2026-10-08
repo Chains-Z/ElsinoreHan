@@ -1,0 +1,41 @@
+STATUS	STARTED
+FORMAT	OPTION slot index source_base64 text_base64 mode overflow active
+SAVE_WRITE_GUARD_ACTIVE	True
+SCOPE	preferences_clone	True
+SCOPE	system_config_clone	True
+INITIAL	TextSpeed	0	4	preferences_clone
+INITIAL	AlternateCostumes	0	2	preferences_clone
+INITIAL	Quality	2	3	system_config_clone
+INITIAL	ScreenMode	1	3	system_config_clone
+INITIAL	Resolution	11	12	system_config_clone
+TAB	gameplayToggle
+OPTION	TextSpeed	0	Tm9ybWFs	5q2j5bi4	translated	False	True
+OPTION	TextSpeed	1	RmFzdGVy	6L6D5b+r	translated	False	True
+OPTION	TextSpeed	2	RmFzdGVzdA==	5pyA5b+r	translated	False	True
+OPTION	TextSpeed	3	SW5zdGFudA==	56uL5Y2z5pi+56S6	translated	False	True
+OPTION	TextSpeed	3	SW5zdGFudA==	SW5zdGFudA==	original	False	True
+OPTION	TextSpeed	3	SW5zdGFudA==	56uL5Y2z5pi+56S6	restored	False	True
+TAB	gameplayToggle
+OPTION	AlternateCostumes	0	RGVmYXVsdA==	6buY6K6k	translated	False	True
+OPTION	AlternateCostumes	1	TW9kZXJu	546w5Luj	translated	False	True
+OPTION	AlternateCostumes	1	TW9kZXJu	TW9kZXJu	original	False	True
+OPTION	AlternateCostumes	1	TW9kZXJu	546w5Luj	restored	False	True
+TAB	graphicsToggle
+OPTION	Quality	0	TG93	5L2O	translated	False	True
+OPTION	Quality	1	TWVkaXVt	5Lit	translated	False	True
+OPTION	Quality	2	SGlnaA==	6auY	translated	False	True
+OPTION	Quality	2	SGlnaA==	SGlnaA==	original	False	True
+OPTION	Quality	2	SGlnaA==	6auY	restored	False	True
+TAB	graphicsToggle
+OPTION	ScreenMode	0	V2luZG93ZWQ=	56qX5Y+j	translated	False	True
+OPTION	ScreenMode	1	Qm9yZGVybGVzcw==	5peg6L655qGG	translated	False	True
+OPTION	ScreenMode	2	RnVsbHNjcmVlbg==	5YWo5bGP	translated	False	True
+OPTION	ScreenMode	2	RnVsbHNjcmVlbg==	RnVsbHNjcmVlbg==	original	False	True
+OPTION	ScreenMode	2	RnVsbHNjcmVlbg==	5YWo5bGP	restored	False	True
+OPTION	Resolution	11	TmF0aXZl	5Y6f55Sf5YiG6L6o546H	translated	False	True
+OPTION	Resolution	11	TmF0aXZl	TmF0aXZl	original	False	True
+OPTION	Resolution	11	TmF0aXZl	5Y6f55Sf5YiG6L6o546H	restored	False	True
+CANCELLED	True
+SCOPES_RETAINED	True
+TRANSLATED_OPTION_COUNT	13
+STATUS	COMPLETE

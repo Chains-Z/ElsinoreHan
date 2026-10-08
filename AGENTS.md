@@ -70,3 +70,5 @@
 更新日期：2026-10-09。Git已初始化，Sol全文初稿及F8离线补丁已完成、安装并后台验证，待用户游玩反馈持续修订。原四模型160条小样及取消账本保留为历史记录。下一步以用户实际遇到的漏译、误译和排版问题为准；不要重新开始模型比较或把已有112批重译。详情与实际用量见 docs/dev-tasks/localization/sol-full.md。
 
 后台探针现已改为真实存档副本隔离，阻断保存/迁移并对原目录核对哈希与时间。修复前一次诊断实际写回game.save，进度差异无法确认，已告知用户；见 docs/dev-tasks/localization/save-write-incident.md，不得声称此前存档完全未变。
+
+最新界面修复：用户截图暴露提取与动态消费漏项，已全审程序集93955处引用和资源51173处字段，正式词表16841条（原16228+613），保留正文raw，60格式别名复用。设置13值逐档+真实缓存48用例+19组件断言通过；已原目录安装与ZIP同步。MaxTextParserRecursion=64，需要重启加载配置；按路径隔离独立游戏副本，保存保护继续启用。入口docs/dev-tasks/localization/ui-audit.md、translation/supplemental/、analysis/ui-audit/；公开字体分发尚未完成。

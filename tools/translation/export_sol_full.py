@@ -9,6 +9,33 @@ from run_sol_full import load_exclusions, validate
 
 ROOT = Path(__file__).resolve().parents[2]
 DIRECTORY = ROOT / "translation" / "sol-full-2026-10-09"
+SUPPLEMENTAL = ROOT / "translation" / "supplemental" / "ui-translations.json"
+
+
+def apply_supplemental(rows, entries):
+    """合并有来源的定向补译；已有译文必须明确记录旧值，冻结模型响应保持原样。"""
+    result = [dict(row) for row in rows]
+    by_source = {row["source"]: row for row in result}
+    seen = set()
+    for entry in entries:
+        source = entry["source"]
+        if source in seen or not entry.get("origins") or hashlib.sha256(source.encode("utf-8")).hexdigest() != entry["source_sha256"]:
+            raise ValueError("补译来源、哈希或唯一性不完整")
+        seen.add(source)
+        if not re.search(r"[\u3400-\u9fff]", entry["target"]) or validate([entry], {"translations": [{"id": entry["id"], "target": entry["target"]}]}):
+            raise ValueError("补译内容或格式不完整")
+        if source in by_source:
+            row = by_source[source]
+            if entry.get("previous_target") != row["target"]:
+                raise ValueError("已有译文补修缺少准确旧值")
+            row["target"] = entry["target"]
+            row["supplement_id"] = entry["id"]
+        else:
+            row = {key: entry[key] for key in ("id", "source", "target")}
+            row["batch"] = "settings-supplemental"
+            result.append(row)
+            by_source[source] = row
+    return result
 
 
 def encode(text):
@@ -35,6 +62,18 @@ def format_rule(source, target):
     parts.extend([re.escape(source[position:]), "$"])
     replacement = parameter.sub(lambda match: "${" + groups[match[1]] + "}", target)
     return {"pattern": "".join(parts), "replacement": replacement, "preserve_args": preserve_args}
+
+
+def printf_rule(source, target):
+    """覆盖已审核的F# %s界面模板，将真实运行参数交给递归离线词表。"""
+    if "%s" not in source or source.count("%s") != target.count("%s"):
+        return None
+    def convert(text):
+        parts = text.split("%s")
+        return "".join(part + ("{" + str(index) + "}" if index < len(parts) - 1 else "") for index, part in enumerate(parts)).replace("%%", "%")
+    format_source, format_target = convert(source), convert(target)
+    rule = format_rule(format_source, format_target)
+    return {**rule, "format_source": format_source, "format_target": format_target} if rule else None
 
 
 def main():
@@ -78,6 +117,9 @@ def main():
             assert exclusions[entry["id"]] == entry["source_sha256"]
             continue
         rows.append({"id": entry["id"], "source": entry["source"], "target": targets[entry["id"]], "batch": entry["batch"]})
+    base_count = len(rows)
+    supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
+    rows = apply_supplemental(rows, supplemental)
     (DIRECTORY / "translations.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     package = ROOT / "runtime" / "package" / "ElsinoreHan-Sol" / "BepInEx" / "Translation" / "zh-CN" / "Text"
     package.mkdir(parents=True, exist_ok=True)
@@ -85,14 +127,21 @@ def main():
     dictionary.write_text("\n".join(encode(row["source"]) + "=" + encode(row["target"]) for row in rows) + "\n", encoding="utf-8")
     dynamic = []
     for row in rows:
-        rule = format_rule(row["source"], row["target"])
+        rule = format_rule(row["source"], row["target"]) or printf_rule(row["source"], row["target"])
         if rule:
             dynamic.append({"id": row["id"], "source": row["source"], "target": row["target"], **rule,
                             "encoded_line": encode('sr:"' + rule["pattern"] + '"') + "=" + encode('"' + rule["replacement"] + '"')})
+    ui_rules_path = ROOT / "translation" / "supplemental" / "dynamic-ui-rules.json"
+    ui_rules = json.loads(ui_rules_path.read_text(encoding="utf-8")) if ui_rules_path.exists() else []
+    for rule in ui_rules:
+        if not rule.get("origins") or not rule["pattern"].startswith("^") or not rule["pattern"].endswith("$"):
+            raise ValueError("动态UI规则必须有真实来源和全串锚点")
+        dynamic.append({**rule, "kind": "recursive_ui_splitter", "encoded_line": encode('sr:"' + rule["pattern"] + '"') + "=" + encode('"' + rule["replacement"] + '"')})
     (DIRECTORY / "dynamic-rules.json").write_text(json.dumps(dynamic, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     dynamic_path = package / "ElsinoreHan-Dynamic.txt"
     dynamic_path.write_text("\n".join(row["encoded_line"] for row in dynamic) + "\n", encoding="utf-8")
-    characters = "".join(sorted({char for row in rows for char in row["target"] if "\u3400" <= char <= "\u9fff"}))
+    displayed_targets = [row["target"] for row in rows] + [rule["replacement"] for rule in dynamic]
+    characters = "".join(sorted({char for target in displayed_targets for char in target if "\u3400" <= char <= "\u9fff"}))
     (DIRECTORY / "chinese-characters.txt").write_text(characters, encoding="utf-8")
     notices = []
     for row in rows:
@@ -110,11 +159,13 @@ def main():
         for key in usage:
             usage[key] += record.get("usage", {}).get(key, 0)
     proof = {"model": "gpt-6.1-sol", "count": len(rows), "submitted_candidates": manifest["count"], "excluded_nontext": len(exclusions), "batches": len(manifest["batches"]),
+             "base_translation_count": base_count, "supplemental_entries": len(supplemental), "supplemental_new_sources": len(rows) - base_count,
              "id_count_order_source_hashes_and_markers_passed": True,
              "dictionary_path": str(dictionary.relative_to(ROOT)), "dictionary_sha256": hashlib.sha256(dictionary.read_bytes()).hexdigest(),
              "dynamic_dictionary_sha256": hashlib.sha256(dynamic_path.read_bytes()).hexdigest(),
              "recorded_codex_usage_including_names": usage, "english_review_notices": len(notices),
              "dynamic_format_rules": len(dynamic), "unique_chinese_characters": len(characters),
+             "recursive_ui_rules": len(ui_rules),
              "local_recorded_corrections": len(corrections), "all_outputs_match_raw_or_recorded_correction": True,
              "limitations": ["正文来自真实Sol执行，不是百炼或人工虚构输出", "完整性通过不代表全分支意义和文风无误", "尚未声明游戏内对白排版通过", "没有观测订阅周额度的实际扣减"]}
     (DIRECTORY / "verification.json").write_text(json.dumps(proof, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

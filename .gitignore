@@ -31,4 +31,10 @@ translation/trial-*/outputs/*/*/cache/
 
 # 完整补丁包和重复后台运行证据保留本机，源码与核验摘要纳入Git
 runtime/package/
+runtime/game-test/
 runtime/evidence/headless/*/
+# 完整UI审计保留去重来源和结论；重复的原始引用/人工检索中间件不入库。
+analysis/ui-audit/assembly-raw-occurrences.json
+analysis/ui-audit/assembly-missing-inspect.json
+analysis/ui-audit/assembly-language-inspect.txt
+analysis/ui-audit/resource-descriptions-zh.txt

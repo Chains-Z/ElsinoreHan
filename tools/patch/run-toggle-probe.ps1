@@ -2,7 +2,7 @@ param([string]$GamePath = 'D:\SteamLibrary\steamapps\common\Elsinore')
 $ErrorActionPreference = 'Stop'
 $projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '../..')).Path
 $GamePath = (Resolve-Path -LiteralPath $GamePath).Path
-if (Get-Process -Name Elsinore -ErrorAction SilentlyContinue) { throw '游戏正在运行，禁止介入' }
+if (Get-Process -Name Elsinore -ErrorAction SilentlyContinue | Where-Object { $_.MainModule.FileName -eq (Join-Path $GamePath 'Elsinore.exe') }) { throw '目标目录的游戏正在运行，禁止介入' }
 & (Join-Path $PSScriptRoot 'build-toggle.ps1') -GamePath $GamePath
 $source = Join-Path $projectRoot 'runtime/build/ElsinoreHan.TranslationToggle.dll'
 $target = Join-Path $GamePath 'BepInEx/plugins/ElsinoreHan.TranslationToggle.dll'

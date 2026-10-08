@@ -48,6 +48,12 @@ $lines = [System.Collections.Generic.List[string]]::new()
 $section = ''
 foreach ($line in Get-Content -LiteralPath $config) {
     if ($line -match '^\[(.+)\]') { $section = $Matches[1] }
+    if ($line -match '^\[Behaviour\]') {
+        $lines.Add($line)
+        $lines.Add('MaxTextParserRecursion=64')
+        continue
+    }
+    if ($section -eq 'Behaviour' -and $line -match '^MaxTextParserRecursion\s*=') { continue }
     if ($section -eq 'Service' -and $line -match '^(Endpoint|FallbackEndpoint)\s*=') { $line = $Matches[1] + '=' }
     if ($section -eq 'General' -and $line -match '^Language\s*=') { $line = 'Language=zh-CN' }
     if ($section -eq 'General' -and $line -match '^FromLanguage\s*=') { $line = 'FromLanguage=en' }

@@ -1,0 +1,2314 @@
+[
+  {
+    "id": "asm-alias-824f97f8223872dd",
+    "source": "(And <i>Brit</i> is—)",
+    "text": "(And <i>Brit</i> is—)",
+    "source_sha256": "824f97f8223872dd78badc18883afb5690d93b81a170869db086d8cbfa401a9f",
+    "target": "（还有<i>布莉特</i>也在——）",
+    "target_sha256": "9c5d0a4181a440497e79e024a0585e0314a6f11a81fda38ba5c313367c159db4",
+    "existing_id": "p03114-2ae632ca074b",
+    "existing_source": "(And <i>Brit</i> is--)",
+    "existing_target": "（还有<i>布莉特</i>也在——）",
+    "existing_source_sha256": "2ae632ca074b90569e2e283e46f84c99646877a09bfeda4082d30a97eee81624",
+    "existing_target_sha256": "9c5d0a4181a440497e79e024a0585e0314a6f11a81fda38ba5c313367c159db4",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0026",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ASSN_LaerAndBritPillowTalk__SC_ASSN_LaerAndBritPillowTalk__0()",
+          "il_offsets": [
+            "IL_1d47"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-18cbba19f3339397",
+    "source": "(Father—)",
+    "text": "(Father—)",
+    "source_sha256": "18cbba19f3339397b55b3df7abac60591ba3c4731ef87ce7661186932abe6efb",
+    "target": "（父亲——）",
+    "target_sha256": "c39b040a8099154d43dc1d190534c31fd2ddb07b7b89b0649fb914bcbf21ef45",
+    "existing_id": "s00244-9612eef80e0a",
+    "existing_source": "(Father--)",
+    "existing_target": "（父亲——）",
+    "existing_source_sha256": "9612eef80e0ac2c9a9b11de8178dabb3b2f43cfbe26b09ec97ad9fe3d07c4758",
+    "existing_target_sha256": "c39b040a8099154d43dc1d190534c31fd2ddb07b7b89b0649fb914bcbf21ef45",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_ChessGame__SC_SPINE_ChessGame__3()",
+          "il_offsets": [
+            "IL_0e49"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-52cb8441dc92fc26",
+    "source": "<i><i>Hail, Claudius.</i></i>",
+    "text": "<i><i>Hail, Claudius.</i></i>",
+    "source_sha256": "52cb8441dc92fc260edca1ce7edfb365e57b3e3ab0139c4ecb07aed2529718e9",
+    "target": "<i><i>向你致意，克劳狄斯。</i></i>",
+    "target_sha256": "f6f4207e1c90f7630d9c98512b3717a7d48020b02a5c4426b0514409b9d5e02a",
+    "existing_id": "p02493-c2b5f41d141e",
+    "existing_source": "<i>Hail, Claudius.</i>",
+    "existing_target": "<i>向你致意，克劳狄斯。</i>",
+    "existing_source_sha256": "c2b5f41d141e03b4284ddd0059e9699ba3e8446445c70236dd39543d97358907",
+    "existing_target_sha256": "30ca653b0123d8dac0936b0c19a3e1ee096d301dd037647e4a9c18cd2b5ab46f",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0023",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1()",
+          "il_offsets": [
+            "IL_0e10"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-340c26a1d830b173",
+    "source": "<i><i>Ophelia.</i></i>",
+    "text": "<i><i>Ophelia.</i></i>",
+    "source_sha256": "340c26a1d830b17310b52c9ffc64decab99ec983c78cc78ee3010f31aaef4ea4",
+    "target": "<i><i>奥菲莉娅。</i></i>",
+    "target_sha256": "daf683ad5da467321f03dd5968f61e741d7757b09a28b43e9098ba1ac37fc42f",
+    "existing_id": "s00069-9b771328e3ed",
+    "existing_source": "<i>Ophelia.</i>",
+    "existing_target": "<i>奥菲莉娅。</i>",
+    "existing_source_sha256": "9b771328e3ed30fb3f326650346e194172e3b23449da69b90e853d3713077efa",
+    "existing_target_sha256": "77d30fa97a2d9ba806a7c97adfa8cb3c1e478106953e444f477163c5273cf1e2",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHUNT_GhostAppears__SC_GHUNT_GhostAppears__1()",
+          "il_offsets": [
+            "IL_1456"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-d93ec18ac3cf32e1",
+    "source": "<i><i>Patience, Hamlet.</i></i>",
+    "text": "<i><i>Patience, Hamlet.</i></i>",
+    "source_sha256": "d93ec18ac3cf32e111f5c02920124b41930b8c1ef3c9c6356243c5f1aa0d8dcd",
+    "target": "<i><i>耐心些，哈姆雷特。</i></i>",
+    "target_sha256": "cba389f8fc7524e6d3dc97cd3269b6c82b9f3d6724a1060fa324dd19f995a5ca",
+    "existing_id": "p01729-c502bfd17a6c",
+    "existing_source": "<i>Patience, Hamlet.</i>",
+    "existing_target": "<i>耐心些，哈姆雷特。</i>",
+    "existing_source_sha256": "c502bfd17a6cfae9a6956c627908dbe158b3ec705a382b3073470901e501a660",
+    "existing_target_sha256": "39fe189fa44e0be3950a80d69c4e7f60f3bc3414585c4834c1fe4568aae19ab1",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0018",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_HamletAndGertrudeMinusPolonius__SC_SPINE_HamletAndGertrudeMinusPolonius__2()",
+          "il_offsets": [
+            "IL_0335"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_HamletAndGertrude__SC_SPINE_HamletAndGertrude__4()",
+          "il_offsets": [
+            "IL_0335"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_HamletAndGertrude_PlusBernardo__SC_SPINE_HamletAndGertrude_PlusBernardo__4()",
+          "il_offsets": [
+            "IL_0335"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-ef38ad0d68b3f2a0",
+    "source": "<i>Ah. Him.</i>",
+    "text": "<i>Ah. Him.</i>",
+    "source_sha256": "ef38ad0d68b3f2a0843989e7820395ccea84ba2ca1cb3c9e0877975ca63e71f9",
+    "target": "<i>啊。是他。</i>",
+    "target_sha256": "ace6c49ee5d579aa5556c4e4d2a9c407d4b3aaeb2e695a985b12720a415bd731",
+    "existing_id": "p13029-53e53f728141",
+    "existing_source": "Ah. Him.",
+    "existing_target": "啊。是他。",
+    "existing_source_sha256": "53e53f7281413067225533fd3c15d7cb0d40fbc29bcd5d96a9339a961c709460",
+    "existing_target_sha256": "d6359912f606e6c349c798b09db49ebb3a63c66a1f90e82d5f9208d90c8d934a",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0090",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ghost_playmaster()",
+          "il_offsets": [
+            "IL_0104"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-81a54101da171c21",
+    "source": "<i>Ah...</i>",
+    "text": "<i>Ah...</i>",
+    "source_sha256": "81a54101da171c218f3b129e559e294f02debf21f4ec00dd1f9cc357f044ee22",
+    "target": "<i>啊……</i>",
+    "target_sha256": "df8d704d6d5bd1f591cd63d049c671768f38a901aece0e65204fc8935f94be5d",
+    "existing_id": "s00062-085283be6006",
+    "existing_source": "Ah...",
+    "existing_target": "啊……",
+    "existing_source_sha256": "085283be600618d2027f86568948c0664f7063b79f1d7cffbcaedfdedca6a9b5",
+    "existing_target_sha256": "fbe9b8a6562528c71dac2f35e4bb3503757fd80fd15a323c0f3842922f08e2da",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ghost_cursedbook()",
+          "il_offsets": [
+            "IL_015a"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-17a5b35a21473f96",
+    "source": "<i>Boredom.</i>",
+    "text": "<i>Boredom.</i>",
+    "source_sha256": "17a5b35a21473f96bfc6cf79b36c9d71d2ca5b85bf192abd17783a71f8be923a",
+    "target": "<i>无聊。</i>",
+    "target_sha256": "ce515ca17207ec423ea660ea8f5f1ecddad249d2ac08651798b855eaf2bdf865",
+    "existing_id": "s00276-0e596a0aed58",
+    "existing_source": "Boredom.",
+    "existing_target": "无聊。",
+    "existing_source_sha256": "0e596a0aed58681b3de014838388a225d882cd6748be1975f35f03636ba53851",
+    "existing_target_sha256": "25f53925ea102af9b35473aa965f31eac59beeef45cd6ba3314e55f30df6f187",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ghost_quincetrouble()",
+          "il_offsets": [
+            "IL_048d",
+            "IL_080e"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-0d0afa621884c0d4",
+    "source": "<i>Choice.</i>",
+    "text": "<i>Choice.</i>",
+    "source_sha256": "0d0afa621884c0d4a8f82e647e387e5dafac0285f31a99ebc9bd9d295f46f101",
+    "target": "<i>选择。</i>",
+    "target_sha256": "e604866404f446c8fc41a818a143e98de77d7e57876c1a5b5f1810f3f93533c0",
+    "existing_id": "s00164-719d36a6af68",
+    "existing_source": "Choice.",
+    "existing_target": "选择。",
+    "existing_source_sha256": "719d36a6af68234e80bfbd9dbbf45250d69144a0a1145cd88865f7e36f70d47b",
+    "existing_target_sha256": "a275ef61674437b3a8e63afe98bdac7d71c39a5f2cf4686a8ec5821265677e71",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_NOESCAPE_Ghostlastmanifest__SC_NOESCAPE_Ghostlastmanifest()",
+          "il_offsets": [
+            "IL_079b"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-d4ea28d293e393b9",
+    "source": "<i>Gerta?</i>",
+    "text": "<i>Gerta?</i>",
+    "source_sha256": "d4ea28d293e393b95e953dca0329b45b457e50b8d9eb6efee00f3b0a9f89af50",
+    "target": "<i>乔塔？</i>",
+    "target_sha256": "9c01afb7ca98dab0047b3d1f03056bd87db1978ed1cffafe76abc8afb1f1bbd6",
+    "existing_id": "s00073-107d73427921",
+    "existing_source": "Gerta?",
+    "existing_target": "乔塔？",
+    "existing_source_sha256": "107d73427921af706aa93b6aa15d53c08fd068db386f60c4e1cbc4ff4ab19dc2",
+    "existing_target_sha256": "b3d0e7bc176a795680464e526f0206bf0152e817ce9016c1b233398cb2877554",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHUNT_GertrudeSuicide__SC_GHUNT_GertrudeSuicide__2()",
+          "il_offsets": [
+            "IL_04f3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-a65bcac250da52b2",
+    "source": "<i>Go <b>back?</b></i>",
+    "text": "<i>Go <b>back?</b></i>",
+    "source_sha256": "a65bcac250da52b204a234f42938e2f4d000d5cf95cd20e83a248d276df06220",
+    "target": "<i><b>回去？</b></i>",
+    "target_sha256": "cf2c93902150752564252a3b2c10d332f21026289dbb5fa5ec3e9ff801371493",
+    "existing_id": "p10429-764ef627f52a",
+    "existing_source": "Go <b>back?</b>",
+    "existing_target": "<b>回去？</b>",
+    "existing_source_sha256": "764ef627f52aa104d3e8704bf8ff7569e859c17b5e7bdb64e0cab780ce664543",
+    "existing_target_sha256": "4a877cddf034131b359386461170643558a42e76da0d5413a206e58762d4dad2",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0072",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0()",
+          "il_offsets": [
+            "IL_036a"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-76a493af10ee7058",
+    "source": "<i>Godspeed, Ophelia.</i>",
+    "text": "<i>Godspeed, Ophelia.</i>",
+    "source_sha256": "76a493af10ee7058b68133fe76cc32b0089d172beb15f5312bbaf8192f25aa35",
+    "target": "<i>愿你一切顺利，奥菲莉娅。</i>",
+    "target_sha256": "9ec374829cf5ead43b45530375b99700bb89caca103914242c71858f20648345",
+    "existing_id": "p03794-2f59b09dc546",
+    "existing_source": "Godspeed, Ophelia.",
+    "existing_target": "愿你一切顺利，奥菲莉娅。",
+    "existing_source_sha256": "2f59b09dc546c885919577096a83b6cdfd1bc962bb4ef9c3dc08e3e9d8ba2fe1",
+    "existing_target_sha256": "d6150c59be00a3761937ee3f69f23d02406d9605008edcaa4cf5b7e09925c501",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0031",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1()",
+          "il_offsets": [
+            "IL_04ed"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2()",
+          "il_offsets": [
+            "IL_04ed"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3()",
+          "il_offsets": [
+            "IL_04ed"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-5b7603f138037fdb",
+    "source": "<i>Hamlet.</i>",
+    "text": "<i>Hamlet.</i>",
+    "source_sha256": "5b7603f138037fdbfd26a07041606a30930d913f6dbaff3ec8e4118f4edbbe89",
+    "target": "<i>哈姆雷特。</i>",
+    "target_sha256": "9060602bf11065f416dd492a526c5cbe6819de9f92481f66a16544ced6fba3f2",
+    "existing_id": "s00061-7dfc7ff4fe2d",
+    "existing_source": "Hamlet.",
+    "existing_target": "哈姆雷特。",
+    "existing_source_sha256": "7dfc7ff4fe2d3f566be373d5cfbe702816e10d52c94f43310bea146441718ce5",
+    "existing_target_sha256": "e365e97134689bf3adba5a638bbc4f43d800db2e8ec295cfc98e1af570b4667d",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_NOESCAPE_GhostAndHamlet__SC_NOESCAPE_GhostAndHamlet__1()",
+          "il_offsets": [
+            "IL_00ba"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-91f4e580d03841de",
+    "source": "<i>Hmph.</i>",
+    "text": "<i>Hmph.</i>",
+    "source_sha256": "91f4e580d03841ded4c44cc84420a3537aa76215d16d8730311293c1241bbd99",
+    "target": "<i>哼。</i>",
+    "target_sha256": "e39d131cdccf17b6a2e53047205293633f42aa90ae0bec86d6ef852f624c4203",
+    "existing_id": "s00000-10dea1148eb9",
+    "existing_source": "Hmph.",
+    "existing_target": "哼。",
+    "existing_source_sha256": "10dea1148eb96ab35bd441970a270d580d3df2d6104856146e14b01bd5a9e412",
+    "existing_target_sha256": "758a23ba3b4ff252a4e5eac29e32085c8aaa84f0e672e96ad91d5390fb0aa06e",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offsets": [
+            "IL_0ae9"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-1aa5b8329ecc53d5",
+    "source": "<i>Hush, brother.</i>",
+    "text": "<i>Hush, brother.</i>",
+    "source_sha256": "1aa5b8329ecc53d576ed24dbf38f6fe699bf8813ea5f1a758ff483102f65176a",
+    "target": "<i>安静些，弟弟。</i>",
+    "target_sha256": "91fd954c131009286ab4e9e4539639d107dcf96e07c5971a145ff2a34bd2fe4f",
+    "existing_id": "p06641-0e4d1b4d984b",
+    "existing_source": "Hush, brother.",
+    "existing_target": "安静些，弟弟。",
+    "existing_source_sha256": "0e4d1b4d984bec4b1bedd64a31e24477d200826183a9ac6ee9dec524c36fd552",
+    "existing_target_sha256": "ee4644d41d0bdb3af3e0f293da82ba36d089feaa8df18c50fba84219929fa6b3",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0048",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1()",
+          "il_offsets": [
+            "IL_44d6"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-2a4d534c4eac0f8a",
+    "source": "<i>I do.</i>",
+    "text": "<i>I do.</i>",
+    "source_sha256": "2a4d534c4eac0f8a3571c4af5dba2d3b03f79c84078d2c4dca94f01bff4ac87e",
+    "target": "<i>我明白。</i>",
+    "target_sha256": "8d54c4f4916a38a58ae43a8ff88b1c02ac087397a897eb1ce5372fd2b3708ca8",
+    "existing_id": "p03634-7837be81885c",
+    "existing_source": "I do.",
+    "existing_target": "我明白。",
+    "existing_source_sha256": "7837be81885c529b9713bfada41f55ee5343357f6aae1e37d6ff592068aa122b",
+    "existing_target_sha256": "ba736588cd60ca843853aafdfb3d966883d5897a0fe771a68136e15bc88249f7",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0030",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1()",
+          "il_offsets": [
+            "IL_08e5"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2()",
+          "il_offsets": [
+            "IL_08e5"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3()",
+          "il_offsets": [
+            "IL_08e5"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-50a72da3149f2c3a",
+    "source": "<i>I see.</i>",
+    "text": "<i>I see.</i>",
+    "source_sha256": "50a72da3149f2c3a7bedc6c439442f77d2b3e71977b96e41d2072b0dcfa604fe",
+    "target": "<i>我明白了。</i>",
+    "target_sha256": "bdf246c925eca12a2c6bc12d16a2d8f5e5c153ff6e815795d104b9e3e2fe110a",
+    "existing_id": "p01317-420c703b1161",
+    "existing_source": "I see.",
+    "existing_target": "我明白了。",
+    "existing_source_sha256": "420c703b11610f7b7a8e910dc406505b7bda360bb628955d4625a5a8d7c3005c",
+    "existing_target_sha256": "cf5830c3d283f9391b8c0b27a59829ec46c886966c3d39416424de5def661cc0",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0016",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offsets": [
+            "IL_00d5"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-f187f6f57d60a149",
+    "source": "<i>I understand.</i>",
+    "text": "<i>I understand.</i>",
+    "source_sha256": "f187f6f57d60a1495469ed77b4e37803c7cffdcfe2b398dbb628da822b825c59",
+    "target": "<i>我明白。</i>",
+    "target_sha256": "8d54c4f4916a38a58ae43a8ff88b1c02ac087397a897eb1ce5372fd2b3708ca8",
+    "existing_id": "p07614-7f0271eac301",
+    "existing_source": "I understand.",
+    "existing_target": "我明白。",
+    "existing_source_sha256": "7f0271eac301ecc196898d640a8dc0abcc3bad3d470d990e6cd0b0718460743d",
+    "existing_target_sha256": "ba736588cd60ca843853aafdfb3d966883d5897a0fe771a68136e15bc88249f7",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0054",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ghost_quincetrouble()",
+          "il_offsets": [
+            "IL_044c",
+            "IL_07cd"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-e359d7305d775a59",
+    "source": "<i>I...</i>",
+    "text": "<i>I...</i>",
+    "source_sha256": "e359d7305d775a59326a5d0defc7927b8e4c15f5f47b3e246bb162d2ed72ebc9",
+    "target": "<i>我……</i>",
+    "target_sha256": "a00a1c5789ef0ee61a8347a474b9360a52ab5ab809ae633b77a8e82283894026",
+    "existing_id": "s00063-fc7ed7b68999",
+    "existing_source": "I...",
+    "existing_target": "我……",
+    "existing_source_sha256": "fc7ed7b68999fdae4a99b38a1554db08f6835cb60bb3ce062649fd33935219dd",
+    "existing_target_sha256": "427a4ad2cafdcb708fd5488b5719f698ce24ea18e4e0d4a5a2da72f61df1744f",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ghost_elisedeath()",
+          "il_offsets": [
+            "IL_048e"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-89b1a4ec5da568a8",
+    "source": "<i>I</i> don't understand? Why, you—",
+    "text": "<i>I</i> don't understand? Why, you—",
+    "source_sha256": "89b1a4ec5da568a83cb3cec5503c659527a0361feed23fa8b2124b5eb6d425ef",
+    "target": "<i>我</i>不明白？你这——",
+    "target_sha256": "fab070a8cdff58233c596b8c2f7f8c076eab26e69092a41b49f919f95b36d3e4",
+    "existing_id": "p03207-c2da3f73a4e0",
+    "existing_source": "<i>I</i> don't understand? Why, you--",
+    "existing_target": "<i>我</i>不明白？你这——",
+    "existing_source_sha256": "c2da3f73a4e0bf9aa90f2787f51bbff7f2661ea374735252e88e7b0151b49e70",
+    "existing_target_sha256": "fab070a8cdff58233c596b8c2f7f8c076eab26e69092a41b49f919f95b36d3e4",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0027",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_NOBLES_PostBetrothal__SC_NOBLES_PostBetrothal__1()",
+          "il_offsets": [
+            "IL_0700"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-2d9f43a311492b27",
+    "source": "<i>No—</i>",
+    "text": "<i>No—</i>",
+    "source_sha256": "2d9f43a311492b275c20012508f5fd9123dc28c3d6f86a4a540846c326bcb566",
+    "target": "<i>不——</i>",
+    "target_sha256": "fbada2b414a0e56edade7fa2c48f0b95d04dbb907c2386964e8c53f25740b33a",
+    "existing_id": "s00296-030e28614851",
+    "existing_source": "No--",
+    "existing_target": "不——",
+    "existing_source_sha256": "030e28614851c0874f7b95caf9b6abc02cc99be8305bb4f8be2990bff1e669a7",
+    "existing_target_sha256": "590971409aeec1c1bf9b7b2883c5eca3582c3bce850aa7693c2237fdec590ee3",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void PerfectDayDataGenerated::Invoke_Quince_End__SC_Quince_End__0()",
+          "il_offsets": [
+            "IL_17bc"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-13c0e9805e6a1c47",
+    "source": "<i>Patience.</i>",
+    "text": "<i>Patience.</i>",
+    "source_sha256": "13c0e9805e6a1c47586557c2c734f9f63811daeb3b82a53363da93c17421f0d5",
+    "target": "<i>耐心些。</i>",
+    "target_sha256": "bd69ecb9b88fedcd10b9cd738ad9cac672292d749f7a83a93d2171de0362b5c8",
+    "existing_id": "s00114-5bfbfb0e3c72",
+    "existing_source": "Patience.",
+    "existing_target": "耐心些。",
+    "existing_source_sha256": "5bfbfb0e3c72676c7974698591672e3a079928b3bc97d78397fb3f07904dc9f4",
+    "existing_target_sha256": "027d3d79f0a1b58cbf3267890eb1596d61ce0303e820f62f8004bae53bf13e3b",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight1()",
+          "il_offsets": [
+            "IL_032e"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight2()",
+          "il_offsets": [
+            "IL_032e"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_GhostApperation__SC_GHOST_GhostNight3()",
+          "il_offsets": [
+            "IL_032e"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-e9c4c747fbdbe832",
+    "source": "<i>Please, Ophelia.</i>",
+    "text": "<i>Please, Ophelia.</i>",
+    "source_sha256": "e9c4c747fbdbe83226543322a7033dd04321a011e9f46df47e78f52f9677f1be",
+    "target": "<i>求你了，奥菲莉娅。</i>",
+    "target_sha256": "61a4bbc35e26ae45383f32bdb836274b60b70440ebbc04411ff952fb4187fb4f",
+    "existing_id": "p10487-f60c8635f1e6",
+    "existing_source": "Please, Ophelia.",
+    "existing_target": "求你了，奥菲莉娅。",
+    "existing_source_sha256": "f60c8635f1e6a3146bde11cce0d7d08a12b93dde9cd0408e97e178f196d0546b",
+    "existing_target_sha256": "9b4f4bc40932acb6f0c518d1357205d522ea750d79022a6c1236f82a4d052ad2",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0072",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0()",
+          "il_offsets": [
+            "IL_1344"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-92bf1d3835be8d84",
+    "source": "<i>Yes. I knew.</i>",
+    "text": "<i>Yes. I knew.</i>",
+    "source_sha256": "92bf1d3835be8d84e685507f2b1e1704c05c0eee56961d00f4db275b2e0e0eca",
+    "target": "<i>是的。我知道。</i>",
+    "target_sha256": "0586703ee14054adfb1ef953dd279612c247b09a0c597b9715dfa38d4c518ac5",
+    "existing_id": "p11301-5b32f4472c3b",
+    "existing_source": "Yes. I knew.",
+    "existing_target": "是的。我知道。",
+    "existing_source_sha256": "5b32f4472c3bcc299371eaaa4ce7bf8b5e540fb2b53aa1ab022b8717952a4981",
+    "existing_target_sha256": "03095cf79c033fa1509279e54a268df727241af79b4316f42f2f563837013205",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0078",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ghost_affair()",
+          "il_offsets": [
+            "IL_0192"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-c91771175f546358",
+    "source": "<i>Yes.</i>",
+    "text": "<i>Yes.</i>",
+    "source_sha256": "c91771175f546358eec75539d08f6c569fa8c94e7804e052580be3d2aacbd3e8",
+    "target": "<i>是的。</i>",
+    "target_sha256": "9922843b31ddde9547bacd7aedc48ec70bd6f1f17a83c32cbf8b73517b0d34fc",
+    "existing_id": "s00094-5f9a2b795615",
+    "existing_source": "Yes.",
+    "existing_target": "是的。",
+    "existing_source_sha256": "5f9a2b795615ba6a3d5455fd5624d773fbca5bcd16249c421fd37411dc9837da",
+    "existing_target_sha256": "2dbceb584f48d6e608fae29044ea54e9ecaffe2a2a49e0b7fc3e1b8bced95b6c",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0()",
+          "il_offsets": [
+            "IL_11f2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-1735bcfe55e3cca9",
+    "source": "<i>You <b>chose,</b> Ophelia!</i>",
+    "text": "<i>You <b>chose,</b> Ophelia!</i>",
+    "source_sha256": "1735bcfe55e3cca9df791efc99298b4f3e5ae645ad919332ea50ccc4a904455f",
+    "target": "<i>你已经<b>做出了选择，</b>奥菲莉娅！</i>",
+    "target_sha256": "a62d1b0369ab29d91d771c627f05db8e3180d3fb6039c4d549006af2c3a395d8",
+    "existing_id": "p10433-b76a06dd2de3",
+    "existing_source": "You <b>chose,</b> Ophelia!",
+    "existing_target": "你已经<b>做出了选择，</b>奥菲莉娅！",
+    "existing_source_sha256": "b76a06dd2de33a9a2315c16950562e9ee1cce3c237b91499ff4076691ff28384",
+    "existing_target_sha256": "c3adb1666415304f9b2bc92541476bab6a9de32763b3bf8dbd1e81cb3235d24e",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0072",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0()",
+          "il_offsets": [
+            "IL_043b"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-7cf739c0035afa8f",
+    "source": "<i>Your... mother?</i>",
+    "text": "<i>Your... mother?</i>",
+    "source_sha256": "7cf739c0035afa8f856f6855e30a844d4838b9f9a48e7d951215c8c6c218cb2d",
+    "target": "<i>你的……母亲？</i>",
+    "target_sha256": "4c2822fcf2ee912d3b743b4e28e47d94fb11d4c9994c5ba31bd658388cf1f55f",
+    "existing_id": "p12823-a60640c7db0d",
+    "existing_source": "Your... mother?",
+    "existing_target": "你的……母亲？",
+    "existing_source_sha256": "a60640c7db0df5940fc808245a573dc5949043102e07749d97c5f286248eb0c4",
+    "existing_target_sha256": "f4f52f8d2a4eb0cdf0a11b235ed8c3029e169a27ba90abe8802c2798b1cd6941",
+    "adjustments": {
+      "outer_italic_wrappers_added": 1,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0088",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ghost_elisedeath()",
+          "il_offsets": [
+            "IL_0194"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-c04fbdd2eae3c986",
+    "source": "A-a—a ghost!",
+    "text": "A-a—a ghost!",
+    "source_sha256": "c04fbdd2eae3c986001d9be4ec983a2a2ec55db1cea1fa1414cce3f0201aacef",
+    "target": "鬼、鬼——有鬼！",
+    "target_sha256": "2df5e59e2d320c593f7fa67fee2c37aa3d0006b6e33347c039be1ec8480034f4",
+    "existing_id": "p05069-ed63ace3abe0",
+    "existing_source": "A-a-- a ghost!",
+    "existing_target": "鬼、鬼——有鬼！",
+    "existing_source_sha256": "ed63ace3abe0d5c4822c7659868fa3ec3e6036c7baeb02c670313944c23de548",
+    "existing_target_sha256": "2df5e59e2d320c593f7fa67fee2c37aa3d0006b6e33347c039be1ec8480034f4",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0038",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1()",
+          "il_offsets": [
+            "IL_0f64"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-e365eadfae778f52",
+    "source": "Aah—I see.",
+    "text": "Aah—I see.",
+    "source_sha256": "e365eadfae778f52eea723d34c0b7de2ea9edf29fcff092020e26620a9161ed3",
+    "target": "啊——我明白了。",
+    "target_sha256": "3fdef93d70ebaaa4d4a0d06009461b04b5f976dd44d97bf4c8dbfeedffed3fa8",
+    "existing_id": "p04107-459fac08df92",
+    "existing_source": "Aah-- I see.",
+    "existing_target": "啊——我明白了。",
+    "existing_source_sha256": "459fac08df92c9e39906ce8f7aacde8f288aa37b795f3237be0c3d4921e58aa7",
+    "existing_target_sha256": "3fdef93d70ebaaa4d4a0d06009461b04b5f976dd44d97bf4c8dbfeedffed3fa8",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0032",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_FORT_WarCouncil1__SC_FORT_WarCouncil1__1()",
+          "il_offsets": [
+            "IL_0620"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-d9a3339d282ad356",
+    "source": "And I—",
+    "text": "And I—",
+    "source_sha256": "d9a3339d282ad3561f440d6140cf130596e1d26e948d15c0aec1af9c4d5cf0d4",
+    "target": "而我——",
+    "target_sha256": "1b92966d51df202b4cec429315c48782d592d8a66f58da93de22ad16ad6fe57a",
+    "existing_id": "p14519-d9af3c9f4394",
+    "existing_source": "And I--",
+    "existing_target": "而我——",
+    "existing_source_sha256": "d9af3c9f43940644b1e9702d41bbb0360ca98cf879ea6c84f5b3307ed36d2816",
+    "existing_target_sha256": "1b92966d51df202b4cec429315c48782d592d8a66f58da93de22ad16ad6fe57a",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0099",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_POSTEND_QuinceBookBurned()",
+          "il_offsets": [
+            "IL_04e2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-d4beba87059b8b27",
+    "source": "And yet—",
+    "text": "And yet—",
+    "source_sha256": "d4beba87059b8b2764cee63b274c044b9aa491624c9aed4806b7a1bfcdab2cef",
+    "target": "可是——",
+    "target_sha256": "138b79eb7aee0c808b710acdb1942779785a7e405dd85ff2bb55a3274fafcdbf",
+    "existing_id": "p01112-b41909bf121d",
+    "existing_source": "And yet--",
+    "existing_target": "可是——",
+    "existing_source_sha256": "b41909bf121d992dec30f156140f899118147b6266837be0935be81fe31046e5",
+    "existing_target_sha256": "138b79eb7aee0c808b710acdb1942779785a7e405dd85ff2bb55a3274fafcdbf",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0015",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offsets": [
+            "IL_3863"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-1a87e67dc4fad97f",
+    "source": "Because—",
+    "text": "Because—",
+    "source_sha256": "1a87e67dc4fad97fdc31d880f1754035fd9bc07bb02594da2e0276f1492f88e6",
+    "target": "因为——",
+    "target_sha256": "e21eba8ac0315ed4c1b83ef5a591da2786a4697c1efb3433855e282ffbb9564c",
+    "existing_id": "s00250-7374bba56ef3",
+    "existing_source": "Because--",
+    "existing_target": "因为——",
+    "existing_source_sha256": "7374bba56ef3996e3944b0aff435306f2b05c860a94eac8a795a87cafd6fc0e8",
+    "existing_target_sha256": "e21eba8ac0315ed4c1b83ef5a591da2786a4697c1efb3433855e282ffbb9564c",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_ReturnToGame__SC_SPINE_ReturnToGame__0()",
+          "il_offsets": [
+            "IL_0481"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-4f8375eadeeb10b5",
+    "source": "But Hamlet—",
+    "text": "But Hamlet—",
+    "source_sha256": "4f8375eadeeb10b5cda5d733d40bd9bd2e435f4aa172e04903a483ffa6193058",
+    "target": "可是，哈姆雷特——",
+    "target_sha256": "5e1c949b9ebf7216e482ae91f6a1ddbb1b88245a4ca5701069d94a6ad7ca3adf",
+    "existing_id": "p03279-10da9b80ab1a",
+    "existing_source": "But Hamlet--",
+    "existing_target": "可是，哈姆雷特——",
+    "existing_source_sha256": "10da9b80ab1aaf997eafb239ec6e8a72c97aa03338c0ca55cf8d5d308f31b6c2",
+    "existing_target_sha256": "5e1c949b9ebf7216e482ae91f6a1ddbb1b88245a4ca5701069d94a6ad7ca3adf",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0027",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_HAMROM_BetrothalBrit__SC_HAMROM_BetrothalBrit__1()",
+          "il_offsets": [
+            "IL_0305"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-d0a86ac56fe910af",
+    "source": "But, nevertheless—",
+    "text": "But, nevertheless—",
+    "source_sha256": "d0a86ac56fe910afad6f7cab3dbce3da9e9fbda8a54ebd4b483855110ae930da",
+    "target": "可是，尽管如此——",
+    "target_sha256": "a94a232403b1a5a609d451c67a3591d0f738a9cc1f6964e88ecfa7007e1bbe49",
+    "existing_id": "p05048-498e6e1cdfed",
+    "existing_source": "But, nevertheless--",
+    "existing_target": "可是，尽管如此——",
+    "existing_source_sha256": "498e6e1cdfedb45a90508193d85e775c05616dd4853a941291720a24c2993ce6",
+    "existing_target_sha256": "a94a232403b1a5a609d451c67a3591d0f738a9cc1f6964e88ecfa7007e1bbe49",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0038",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1()",
+          "il_offsets": [
+            "IL_04f8"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-df546c41e3f8f2ab",
+    "source": "Claudius. Ophelia—she's—",
+    "text": "Claudius. Ophelia—she's—",
+    "source_sha256": "df546c41e3f8f2ab2dd792f4bf03c6f88ad56d5f1f1085f71e50749ede6577c9",
+    "target": "克劳狄斯。奥菲莉娅——她——",
+    "target_sha256": "6cf687ff2e94e6ed76100440506384f5e9389747c30284ea6b3a0b11d2c0911b",
+    "existing_id": "p08077-badf825658ae",
+    "existing_source": "Claudius. Ophelia-- she's--",
+    "existing_target": "克劳狄斯。奥菲莉娅——她——",
+    "existing_source_sha256": "badf825658aee71537f2d7cf7a753b551a84146e7d2e1ee5c5c7d1f772f7d853",
+    "existing_target_sha256": "6cf687ff2e94e6ed76100440506384f5e9389747c30284ea6b3a0b11d2c0911b",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0057",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Witch_GertrudeResponse1__SC_Witch_GertrudeResponse1__0()",
+          "il_offsets": [
+            "IL_0065"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-a37486aba98b3713",
+    "source": "Err—",
+    "text": "Err—",
+    "source_sha256": "a37486aba98b37136232922cdfe9e2459e91e83f7defa7a08ad0a9b6ee581301",
+    "target": "呃——",
+    "target_sha256": "c79a69259e6407e25795c9cc17cf3ce5564c4e6cf54e0e4370de2d688cd9e92c",
+    "existing_id": "s00285-a3e5d628e8fe",
+    "existing_source": "Err--",
+    "existing_target": "呃——",
+    "existing_source_sha256": "a3e5d628e8fef4ddb9dd4a9b01476c22a8273b561e55d8cd3f0b227ae41bbc41",
+    "existing_target_sha256": "c79a69259e6407e25795c9cc17cf3ce5564c4e6cf54e0e4370de2d688cd9e92c",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_othello_failedromance()",
+          "il_offsets": [
+            "IL_0110"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-45cbe990cceaabc1",
+    "source": "Father—",
+    "text": "Father—",
+    "source_sha256": "45cbe990cceaabc190b1899e82a68b0b3166d8ccfccb33972e02c1b08690898b",
+    "target": "父亲——",
+    "target_sha256": "977c291e76c0ba9219d8b8ba9cc2377d172343b8092f95c4d53920fa98a0f51b",
+    "existing_id": "s00146-d906d5412e1b",
+    "existing_source": "Father--",
+    "existing_target": "父亲——",
+    "existing_source_sha256": "d906d5412e1b9d108693e1800c3a5e731fe5053370da4b0b0cb432a81a488fdd",
+    "existing_target_sha256": "977c291e76c0ba9219d8b8ba9cc2377d172343b8092f95c4d53920fa98a0f51b",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_SPINE_Loop1_BernardoReportsDeath__SC_BernardoFind_LoopOne__0()",
+          "il_offsets": [
+            "IL_060b"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_DEATHREACT_All__SC_DEATHREACT_All_Brit__1()",
+          "il_offsets": [
+            "IL_18a4"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_DEATHREACT_All__SC_DEATHREACT_All_Queen__1()",
+          "il_offsets": [
+            "IL_18a4"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_DEATHREACT_All__SC_DEATHREACT_All_King__1()",
+          "il_offsets": [
+            "IL_18a4"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_DEATHREACT_All__SC_DEATHREACT_All_Hamlet__1()",
+          "il_offsets": [
+            "IL_18a4"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_DEATHREACT_All__SC_DEATHREACT_All_Laertes__1()",
+          "il_offsets": [
+            "IL_18a4"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_DEATHREACT_All__SC_DEATHREACT_All_Polonius__1()",
+          "il_offsets": [
+            "IL_173a"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-96e19e7e57b0d1b6",
+    "source": "Gerta—",
+    "text": "Gerta—",
+    "source_sha256": "96e19e7e57b0d1b63d2a7a46457514109b2d4c5cf42415fd9918f9eb0483225a",
+    "target": "乔塔——",
+    "target_sha256": "3a8efbe159d494a4c92deb1ed167ea1100da27e9ba4a0e6efeac4a985d1bb2a9",
+    "existing_id": "s00058-f4a168cbd748",
+    "existing_source": "Gerta--",
+    "existing_target": "乔塔——",
+    "existing_source_sha256": "f4a168cbd748f8e2257728056a20066fbddd1f53f49ffc25c6f3a2aff326826b",
+    "existing_target_sha256": "3a8efbe159d494a4c92deb1ed167ea1100da27e9ba4a0e6efeac4a985d1bb2a9",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_LaertesHamletDuel__SC_SPINE_LaertesHamletDuel__12()",
+          "il_offsets": [
+            "IL_0188"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-75d22d7aed464744",
+    "source": "Hamlet—",
+    "text": "Hamlet—",
+    "source_sha256": "75d22d7aed46474465bdaa1b459433b0484c7af8d9b79401ecd02a372504346e",
+    "target": "哈姆雷特——",
+    "target_sha256": "831da9d469aeaea9601f16d77621c54a23f5118a0e29c0ccad7556895c1f3523",
+    "existing_id": "s00163-5fd0044fe841",
+    "existing_source": "Hamlet--",
+    "existing_target": "哈姆雷特——",
+    "existing_source_sha256": "5fd0044fe8412a82bc01a11b6b9bea0d6bc25627ca4ac70e0c416e45e5cb6f12",
+    "existing_target_sha256": "831da9d469aeaea9601f16d77621c54a23f5118a0e29c0ccad7556895c1f3523",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1()",
+          "il_offsets": [
+            "IL_3369"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-cbb7a8ef0b89bcba",
+    "source": "He—Hamlet—is <i>dead?</i>",
+    "text": "He—Hamlet—is <i>dead?</i>",
+    "source_sha256": "cbb7a8ef0b89bcba4470eea337c2d83f728c16ec79ae66cd1e945c28ce2e4e7c",
+    "target": "他——哈姆雷特——<i>死了？</i>",
+    "target_sha256": "4b398944f9484efe289b194a60dbd0067290701af1eac49e9fbc8c980530adc9",
+    "existing_id": "p01957-b295b8c1a6fc",
+    "existing_source": "He-- Hamlet-- is <i>dead?</i>",
+    "existing_target": "他——哈姆雷特——<i>死了？</i>",
+    "existing_source_sha256": "b295b8c1a6fc4d6fb2e6504cd5a60d45f43c98fb7aff3a48e9b94841410de208",
+    "existing_target_sha256": "4b398944f9484efe289b194a60dbd0067290701af1eac49e9fbc8c980530adc9",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0020",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_LaertesReturns__SC_SPINE_LaertesReturns__2()",
+          "il_offsets": [
+            "IL_06f7",
+            "IL_0831"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-8a91400933b2a09d",
+    "source": "I thought—",
+    "text": "I thought—",
+    "source_sha256": "8a91400933b2a09d81ac096e2b0d94f8e8142beee7fef2cd4787169406b6e01f",
+    "target": "我以为——",
+    "target_sha256": "2f89b8e90f9be7a6c145412ce6651d6b1ef91bd111078c1213d94301bcc0b5ef",
+    "existing_id": "p10338-595853de5d74",
+    "existing_source": "I thought--",
+    "existing_target": "我以为——",
+    "existing_source_sha256": "595853de5d74409bf6e627b9a47bf0f3076f7e105c68d1336cbd0cc187ed8661",
+    "existing_target_sha256": "2f89b8e90f9be7a6c145412ce6651d6b1ef91bd111078c1213d94301bcc0b5ef",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0071",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_FLAVOR_HoratioRosencrantzChat__SC_FLAVOR_HoratioRosencrantzChat__0()",
+          "il_offsets": [
+            "IL_0eb2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-50e5772375b45caf",
+    "source": "I-I—",
+    "text": "I-I—",
+    "source_sha256": "50e5772375b45cafa5f4f6f16074857f9fb68d7dc160f1dc5cfeb46f91b24e4e",
+    "target": "我、我——",
+    "target_sha256": "6a8b86590e825e0d2bae4f5f5eb0c4c9214e9ce3283ebd6db9af477da5ce4d13",
+    "existing_id": "s00010-eebb6794841e",
+    "existing_source": "I-I--",
+    "existing_target": "我、我——",
+    "existing_source_sha256": "eebb6794841e5f95f66754ac77efc4d173b06f2c1d40ec6812bfc28a65ec6d46",
+    "existing_target_sha256": "6a8b86590e825e0d2bae4f5f5eb0c4c9214e9ce3283ebd6db9af477da5ce4d13",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offsets": [
+            "IL_2117",
+            "IL_24a4"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-4e551d4228f7975e",
+    "source": "It's—",
+    "text": "It's—",
+    "source_sha256": "4e551d4228f7975ec8b08774cb26d4950a606d0eae6537ceda18a139189218e8",
+    "target": "这是——",
+    "target_sha256": "42bebbcfb699744448cf8ba92d8fc3f6f0e0569f4051688a6ef879bd4ecd881f",
+    "existing_id": "s00104-4506a54ba092",
+    "existing_source": "It's--",
+    "existing_target": "这是——",
+    "existing_source_sha256": "4506a54ba092035e916449751604663d97fc30a81d5cdd8cdfe20d9413d4af61",
+    "existing_target_sha256": "42bebbcfb699744448cf8ba92d8fc3f6f0e0569f4051688a6ef879bd4ecd881f",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_ASSN_ClaudiusSmothered__SC_ASSN_ClaudiusSmothered__2()",
+          "il_offsets": [
+            "IL_0518"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-87b65e1a479015e6",
+    "source": "It's—oh—",
+    "text": "It's—oh—",
+    "source_sha256": "87b65e1a479015e6ac538a5fbf452cbce24af75dba7a7964de30ecbc74ae132e",
+    "target": "这是——哦——",
+    "target_sha256": "6e8182a94ea25c32e4f0e8b55ecbcd25efbf118119270219cef0afeb150cb3c2",
+    "existing_id": "s00270-525333d3332d",
+    "existing_source": "It's--oh--",
+    "existing_target": "这是——哦——",
+    "existing_source_sha256": "525333d3332db6b16ab0454840b7283424f9b8016ed2b5068cbe31de17619cd8",
+    "existing_target_sha256": "6e8182a94ea25c32e4f0e8b55ecbcd25efbf118119270219cef0afeb150cb3c2",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_simona_cursedbook()",
+          "il_offsets": [
+            "IL_0ea5"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_simona_simonalives()",
+          "il_offsets": [
+            "IL_1018"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-4b964bcf87f48f24",
+    "source": "My family—",
+    "text": "My family—",
+    "source_sha256": "4b964bcf87f48f24beed3f42bca9ec22a6d6ba708f2050488ff9467a2c68c6f7",
+    "target": "我的家人——",
+    "target_sha256": "3d8ef744fe5f0a66ccadba454702c1f1cafd25d0a920f38e4e185699374e1198",
+    "existing_id": "p05142-ae936635347a",
+    "existing_source": "My family--",
+    "existing_target": "我的家人——",
+    "existing_source_sha256": "ae936635347a219b0880c26329f2f13b6e5fefd12389860f5fde0169119bb322",
+    "existing_target_sha256": "3d8ef744fe5f0a66ccadba454702c1f1cafd25d0a920f38e4e185699374e1198",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0039",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_NOESCAPE_HamletPlay__SC_NOESCAPE_HamletPlay__1()",
+          "il_offsets": [
+            "IL_2f4a"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-868430c3ba0bf765",
+    "source": "No, no, no—this <i>again?</i>",
+    "text": "No, no, no—this <i>again?</i>",
+    "source_sha256": "868430c3ba0bf765e53b1ab6f10d85808139be7bd2341232e6728ff32076caec",
+    "target": "不，不，不——<i>又来？</i>",
+    "target_sha256": "550e0b41a111183f749c5d2e044ba1b2e25613c62f7e200aa03e9e0ea3f968e3",
+    "existing_id": "p02880-d6475dd3f68a",
+    "existing_source": "No, no, no-- this <i>again?</i>",
+    "existing_target": "不，不，不——<i>又来？</i>",
+    "existing_source_sha256": "d6475dd3f68a712783d79230c2f2f65cd18677cfb2f680455716785a0ef14a9b",
+    "existing_target_sha256": "550e0b41a111183f749c5d2e044ba1b2e25613c62f7e200aa03e9e0ea3f968e3",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0025",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_END_OpheliaAsylum__SC_END_OpheliaAsylum__1()",
+          "il_offsets": [
+            "IL_10d4"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-7a61ed921d16a26f",
+    "source": "Ophelia, I—",
+    "text": "Ophelia, I—",
+    "source_sha256": "7a61ed921d16a26ff4e5b2e0a99838aab9df710319131db3f75d2b4602086113",
+    "target": "奥菲莉娅，我——",
+    "target_sha256": "6ff50ade2848a995c6291415cd33c1ee86da3776c40cf7acecf141fff29d3496",
+    "existing_id": "p01049-3e09a5b83648",
+    "existing_source": "Ophelia, I--",
+    "existing_target": "奥菲莉娅，我——",
+    "existing_source_sha256": "3e09a5b83648a9cbfe6b8a9a30f496a29b9016d6c3e97722a520111801218d55",
+    "existing_target_sha256": "6ff50ade2848a995c6291415cd33c1ee86da3776c40cf7acecf141fff29d3496",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0014",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offsets": [
+            "IL_1e9a"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-ff5502b2f9637785",
+    "source": "Ophelia. Er. I—well.",
+    "text": "Ophelia. Er. I—well.",
+    "source_sha256": "ff5502b2f9637785eeaa220c87102e290ad3693e9c7b6936af7ea567cef77478",
+    "target": "奥菲莉娅。呃。我——嗯。",
+    "target_sha256": "f9572f39e5cf735a7259ab0f311ec582a94c88a92a1848bea7be8790ea406e6d",
+    "existing_id": "p09315-b38b5c68c569",
+    "existing_source": "Ophelia. Er. I-- well.",
+    "existing_target": "奥菲莉娅。呃。我——嗯。",
+    "existing_source_sha256": "b38b5c68c5691b7d778a6318f2d74634f9b53dfe74999b5020bdda5c3930997e",
+    "existing_target_sha256": "f9572f39e5cf735a7259ab0f311ec582a94c88a92a1848bea7be8790ea406e6d",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0065",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_FLAVOR_BritThanks__SC_FLAVOR_BritThanks__1()",
+          "il_offsets": [
+            "IL_052a"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-b5b3e52d3b8f5688",
+    "source": "Ophelia—",
+    "text": "Ophelia—",
+    "source_sha256": "b5b3e52d3b8f568829efa3dc8f4d39577734a3b8d7c5a413649308701d32248d",
+    "target": "奥菲莉娅——",
+    "target_sha256": "d0559b2e3cbdeb149e743b02be52fb91b6896f87d785cbca70c7dd3d33115bf5",
+    "existing_id": "s00214-d2eeddd69b40",
+    "existing_source": "Ophelia--",
+    "existing_target": "奥菲莉娅——",
+    "existing_source_sha256": "d2eeddd69b40fc75570c0b7a1c49797867f271f7a71ec665b51a5fc4ec147eba",
+    "existing_target_sha256": "d0559b2e3cbdeb149e743b02be52fb91b6896f87d785cbca70c7dd3d33115bf5",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_WITCH_InitialMeeting__SC_WITCH_InitialMeeting__1()",
+          "il_offsets": [
+            "IL_8b0d",
+            "IL_8da8"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_WITCH_SecondMeeting__SC_WITCH_SecondMeeting__1()",
+          "il_offsets": [
+            "IL_c85e",
+            "IL_caf9"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_WITCH_ThirdMeeting__SC_WITCH_ThirdMeeting__1()",
+          "il_offsets": [
+            "IL_e66a",
+            "IL_e905"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-4651e00b85159fd6",
+    "source": "Si—<i>Simona?</i>",
+    "text": "Si—<i>Simona?</i>",
+    "source_sha256": "4651e00b85159fd6e1971a335c157d3a077b9c46093d2ac2c2d9e2265504a3e8",
+    "target": "西——<i>西蒙娜？</i>",
+    "target_sha256": "32068de0329f0b83baed5138ab3216fe79024319c099f371a8e5b1c37a5d39af",
+    "existing_id": "s00269-293a14be4635",
+    "existing_source": "Si--<i>Simona?</i>",
+    "existing_target": "西——<i>西蒙娜？</i>",
+    "existing_source_sha256": "293a14be463564b168bb1e9435f1aa8c60effa05274efde11cdd48d95d6c3530",
+    "existing_target_sha256": "32068de0329f0b83baed5138ab3216fe79024319c099f371a8e5b1c37a5d39af",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_claudius_simonalives()",
+          "il_offsets": [
+            "IL_0135"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-672b70958de05088",
+    "source": "Something—anything?",
+    "text": "Something—anything?",
+    "source_sha256": "672b70958de05088514da8074bd5e988ea300a2b8a4addecd029fb22694088e0",
+    "target": "做点什么——什么都好？",
+    "target_sha256": "40786f8e9de55f7b08c027f3988b250969acfd4168056738d4b1d64c8f3e7d9d",
+    "existing_id": "p13605-d98f4048d0cc",
+    "existing_source": "Something-- anything?",
+    "existing_target": "做点什么——什么都好？",
+    "existing_source_sha256": "d98f4048d0cc5cbedb073acf83a165892eed23530ee2994b81ed31ae369f4e03",
+    "existing_target_sha256": "40786f8e9de55f7b08c027f3988b250969acfd4168056738d4b1d64c8f3e7d9d",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0094",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_irma_othelloneedshelp()",
+          "il_offsets": [
+            "IL_0268"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-046834eea28b5c42",
+    "source": "Ugh—Waaah! What's happening?!",
+    "text": "Ugh—Waaah! What's happening?!",
+    "source_sha256": "046834eea28b5c4217a5fab7bfcb38f047b39c33ca89f4cd3ee5470504acdce6",
+    "target": "呃——哇啊！怎么回事？！",
+    "target_sha256": "f44ca5c5f23c500b65ef69c3f564b6e19bcc9f6543cc7f542ac6dc13c751f805",
+    "existing_id": "p13721-3b9515f00f11",
+    "existing_source": "Ugh-- Waaah! What's happening?!",
+    "existing_target": "呃——哇啊！怎么回事？！",
+    "existing_source_sha256": "3b9515f00f113331d3ce979ea87b6b85eae3ae46ed012e528fe446ece564928b",
+    "existing_target_sha256": "f44ca5c5f23c500b65ef69c3f564b6e19bcc9f6543cc7f542ac6dc13c751f805",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0094",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_polonius_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_hamlet_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_claudius_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_gertrude_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_laertes_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_bernardo_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_marcellus_notneeded()",
+          "il_offsets": [
+            "IL_0361"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_brit_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_irma_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_horatio_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_rosencrantz_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_guildenstern_notneeded()",
+          "il_offsets": [
+            "IL_0383"
+          ]
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_othello_notneeded()",
+          "il_offsets": [
+            "IL_032b"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-1bfc38485f6d9100",
+    "source": "What is—",
+    "text": "What is—",
+    "source_sha256": "1bfc38485f6d91009f6c2cabc01e1b97348edb7530539910560d1c97a382f8a6",
+    "target": "这是——",
+    "target_sha256": "42bebbcfb699744448cf8ba92d8fc3f6f0e0569f4051688a6ef879bd4ecd881f",
+    "existing_id": "p02878-791bb785911b",
+    "existing_source": "What is--",
+    "existing_target": "这是——",
+    "existing_source_sha256": "791bb785911b6f82e410524c3a3a1c1b9105d8c64df4c12e05fe9ed7db7569ca",
+    "existing_target_sha256": "42bebbcfb699744448cf8ba92d8fc3f6f0e0569f4051688a6ef879bd4ecd881f",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0025",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_END_OpheliaAsylum__SC_END_OpheliaAsylum__1()",
+          "il_offsets": [
+            "IL_0d98"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-1f4f46373d52c51d",
+    "source": "What? How—",
+    "text": "What? How—",
+    "source_sha256": "1f4f46373d52c51d0a078d2023f2651f144ad35bc342fab983ff576b7a669bc5",
+    "target": "什么？你怎么——",
+    "target_sha256": "300d9f9cf8d8c2f44b6a30524354e472d3d68118cb064337904ca8029687e22a",
+    "existing_id": "p09274-49937869ae78",
+    "existing_source": "What? How--",
+    "existing_target": "什么？你怎么——",
+    "existing_source_sha256": "49937869ae786c6907d1086e4789249982eb4eaf826913ace5bf0f3d63aa5906",
+    "existing_target_sha256": "300d9f9cf8d8c2f44b6a30524354e472d3d68118cb064337904ca8029687e22a",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0065",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_FLAVOR_BritDrinking__SC_FLAVOR_BritDrinking()",
+          "il_offsets": [
+            "IL_0c76",
+            "IL_12c2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-6e66670cdce0e67f",
+    "source": "What? I—",
+    "text": "What? I—",
+    "source_sha256": "6e66670cdce0e67fc3afb28390e7f8f55a732a819d82bc1e181865d225bda40e",
+    "target": "什么？我——",
+    "target_sha256": "06ef6010aa93f0ea654dbe9150d5b067e40eca691d941e639afa805521de1489",
+    "existing_id": "p01079-76c0ffd836a5",
+    "existing_source": "What? I--",
+    "existing_target": "什么？我——",
+    "existing_source_sha256": "76c0ffd836a56f7ba1a556eb9314e6b19336e9934ec9b9dcd043d9caadd78b52",
+    "existing_target_sha256": "06ef6010aa93f0ea654dbe9150d5b067e40eca691d941e639afa805521de1489",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0015",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offsets": [
+            "IL_2abf",
+            "IL_2e46"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-8eb9216ba22fdb70",
+    "source": "What—",
+    "text": "What—",
+    "source_sha256": "8eb9216ba22fdb70b85ce3bac432ac6029684c9a6dadac842f04628308d33a86",
+    "target": "什么——",
+    "target_sha256": "bb9203994f5b880e62f52d5804d0e7982d980d3388413a64695c89fc6c7bdd63",
+    "existing_id": "s00185-a2b94a6dedb3",
+    "existing_source": "What--",
+    "existing_target": "什么——",
+    "existing_source_sha256": "a2b94a6dedb31ca0a1ab2506785a3de5af40c2633df9465d055104aea3cf7e94",
+    "existing_target_sha256": "bb9203994f5b880e62f52d5804d0e7982d980d3388413a64695c89fc6c7bdd63",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_FLAVOR_BernardoPerformance__SC_FLAVOR_BernardoPerformance__1()",
+          "il_offsets": [
+            "IL_0823"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-85ec46af662e4255",
+    "source": "Wha—?",
+    "text": "Wha—?",
+    "source_sha256": "85ec46af662e4255e47e27a012c68c63a22fe407e984a254ee60a26a84d1eed1",
+    "target": "什——？",
+    "target_sha256": "5aa804c14215d82e842c80915bdebd370102fcd5b5000e48dc4076151c6b05bf",
+    "existing_id": "s00118-98b7e8e94156",
+    "existing_source": "Wha--?",
+    "existing_target": "什——？",
+    "existing_source_sha256": "98b7e8e941565e9b278575817e73df40e3fd6fc952c91ff9a88f401af9baf6d6",
+    "existing_target_sha256": "5aa804c14215d82e842c80915bdebd370102fcd5b5000e48dc4076151c6b05bf",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GHOST_ClaudiusAttackPoloniusBecauseBurning__SC_GHOST_ClaudiusAttackPoloniusBecauseBurning__1()",
+          "il_offsets": [
+            "IL_0987"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-151ea36b7fba0f15",
+    "source": "Why—",
+    "text": "Why—",
+    "source_sha256": "151ea36b7fba0f15367bf48fc053ee2acd759a5fd24f3be8558d2b627cf24e5a",
+    "target": "为什么——",
+    "target_sha256": "20c4d4afbc8de14f854e08e5a746bdef4d26cad8a632574846bdf875b6eeef11",
+    "existing_id": "s00282-2b2f71bff405",
+    "existing_source": "Why--",
+    "existing_target": "为什么——",
+    "existing_source_sha256": "2b2f71bff405c8b57cf275099d93d6093f120a22e701d6a788c925e8ec10b9ab",
+    "existing_target_sha256": "20c4d4afbc8de14f854e08e5a746bdef4d26cad8a632574846bdf875b6eeef11",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0112",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_polonius_responsible()",
+          "il_offsets": [
+            "IL_01c3"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-41fc48fc2af8de08",
+    "source": "You're—",
+    "text": "You're—",
+    "source_sha256": "41fc48fc2af8de0864928e08549144289573e2c2be80659147d55d917f81ab75",
+    "target": "你——",
+    "target_sha256": "ab2f38ef00202803a0eb4eae9d8c39729badf23ca473bde52489028428ad0251",
+    "existing_id": "s00046-f3fb26256d50",
+    "existing_source": "You're--",
+    "existing_target": "你——",
+    "existing_source_sha256": "f3fb26256d50e4fcf8258e24035041f529491cbd322e56ec2a2bb7a206b3ad4c",
+    "existing_target_sha256": "ab2f38ef00202803a0eb4eae9d8c39729badf23ca473bde52489028428ad0251",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0111",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_GUILD_GuilDoneHiding__SC_GUILD_GuilDoneHiding__0()",
+          "il_offsets": [
+            "IL_050a"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "asm-alias-5e1e66d685e39308",
+    "source": "You—you <i>believe</i> what I said?",
+    "text": "You—you <i>believe</i> what I said?",
+    "source_sha256": "5e1e66d685e39308f0ab7d3ed06b5a81a624bcfe51d59a65ce1246b8488f3972",
+    "target": "你——你<i>相信</i>我说的话？",
+    "target_sha256": "c51bab2cddbf7ea4dd849032848edb27327a77eb877e226fa637aa46fab09fbb",
+    "existing_id": "p10989-e9a3fde85c98",
+    "existing_source": "You-- you <i>believe</i> what I said?",
+    "existing_target": "你——你<i>相信</i>我说的话？",
+    "existing_source_sha256": "e9a3fde85c9879d9b3546abff98dabfbbdff9d056d3e9a50f4aaf6adddd87794",
+    "existing_target_sha256": "c51bab2cddbf7ea4dd849032848edb27327a77eb877e226fa637aa46fab09fbb",
+    "adjustments": {
+      "outer_italic_wrappers_added": 0,
+      "target_punctuation_changed": false,
+      "target_meaning_changed": false
+    },
+    "review_reason": "已逐条核对英文内容、内部富文本和所有其他标点；差异仅整句外层斜体、--到—与其邻接空格；中文意义和标点原样复用",
+    "provenance": {
+      "kind": "frozen_existing_translation_format_alias",
+      "translations_path": "translation/sol-full-2026-10-09/translations.json",
+      "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+      "existing_batch": "b0076",
+      "audit_source": "assembly-strings.json",
+      "usages": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "owner": "System.Void GameDataGenerated::Invoke_Hamlet_GhostSighting()",
+          "il_offsets": [
+            "IL_0143"
+          ]
+        }
+      ]
+    }
+  }
+]

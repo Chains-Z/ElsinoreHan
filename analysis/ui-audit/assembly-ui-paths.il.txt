@@ -1,0 +1,295 @@
+System.Void ObservableSceneObject::Start()
+IL_0000: call ObjectTracker ObjectTracker::get_Instance()
+IL_0005: stloc.0
+IL_0006: ldarg.0
+IL_0007: ldfld System.Boolean ObservableSceneObject::TutorialOnly
+IL_000c: brfalse.s IL_002c
+IL_000e: ldloc.0
+IL_000f: callvirt ImTheBoss ObjectTracker::get_Boss()
+IL_0014: callvirt System.Boolean ImTheBoss::IsTutorial()
+IL_0019: brtrue.s IL_002c
+IL_001b: ldarg.0
+IL_001c: call UnityEngine.GameObject UnityEngine.Component::get_gameObject()
+IL_0021: callvirt !!0 UnityEngine.GameObject::GetComponent<UnityEngine.SphereCollider>()
+IL_0026: ldc.i4.0
+IL_0027: callvirt System.Void UnityEngine.Collider::set_enabled(System.Boolean)
+IL_002c: ret
+Elsinore.Ui.TooltipInfo ObservableSceneObject::Elsinore.Ui.IInteractable.get_Tooltip()
+IL_0000: ldarg.0
+IL_0001: ldfld System.String ObservableSceneObject::ObjectName
+IL_0006: newobj System.Void Elsinore.Ui.TooltipInfo::.ctor(System.String)
+IL_000b: ret
+System.Void ObservableSceneObject::.ctor()
+IL_0000: ldarg.0
+IL_0001: ldstr "Object"
+IL_0006: stfld System.String ObservableSceneObject::ObjectName
+IL_000b: ldarg.0
+IL_000c: call System.Void SceneInteractable::.ctor()
+IL_0011: ret
+System.Void ObservableSceneObject::.cctor()
+IL_0000: ret
+System.Void Elsinore.Ui.TimelineUI::createEventContent(System.Text.StringBuilder,System.Text.StringBuilder,Elsinore.Game.GameState,Elsinore.Game.TimelineItem)
+IL_0000: ldarg.0
+IL_0001: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()
+IL_0006: pop
+IL_0007: ldarg.1
+IL_0008: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()
+IL_000d: pop
+IL_000e: ldloca.s V_0
+IL_0010: ldarg.3
+IL_0011: callvirt System.Int32 Elsinore.Game.TimelineItem::get_StartTime()
+IL_0016: conv.r4
+IL_0017: call System.Void Elsinore.Game.GameClock::.ctor(System.Single)
+IL_001c: ldarg.0
+IL_001d: call System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder)
+IL_0022: ldarg.1
+IL_0023: call System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder)
+IL_0028: ldarg.3
+IL_0029: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()
+IL_002e: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsEvent()
+IL_0033: brfalse IL_010b
+IL_0038: ldarg.2
+IL_0039: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()
+IL_003e: ldarg.3
+IL_003f: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()
+IL_0044: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()
+IL_0049: callvirt Elsinore.Game.HEventId Elsinore.Game.TimelineEvent::get_Id()
+IL_004e: callvirt Elsinore.Game.ElsinoreEvent Elsinore.Game.DataLookup::Event(Elsinore.Game.HEventId)
+IL_0053: stloc.1
+IL_0054: ldarg.3
+IL_0055: ldarg.2
+IL_0056: callvirt System.Boolean Elsinore.Game.TimelineItem::IsInFuture(Elsinore.Game.GameState)
+IL_005b: stloc.2
+IL_005c: ldloc.2
+IL_005d: brfalse.s IL_006b
+IL_005f: ldarg.0
+IL_0060: ldstr "Future event: "
+IL_0065: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_006a: pop
+IL_006b: ldarg.0
+IL_006c: ldloc.0
+IL_006d: ldloc.1
+IL_006e: callvirt System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Game.ElsinoreEvent::get_PrimaryRoom()
+IL_0073: ldc.i4.0
+IL_0074: call System.Void Elsinore.Ui.UiStrings::FormatLogEntryOpener(System.Text.StringBuilder,Elsinore.Game.GameClock,System.Nullable`1<Elsinore.Game.RoomId>,System.Boolean)
+IL_0079: ldarg.0
+IL_007a: ldloc.1
+IL_007b: call System.Void Elsinore.Ui.UiStrings::FormatEvent(System.Text.StringBuilder,Elsinore.Game.ElsinoreEvent)
+IL_0080: ldarg.3
+IL_0081: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()
+IL_0086: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()
+IL_008b: callvirt System.Boolean Elsinore.Game.TimelineEvent::get_PlayerAttended()
+IL_0090: ldloc.2
+IL_0091: or
+IL_0092: brfalse.s IL_00d3
+IL_0094: ldarg.3
+IL_0095: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()
+IL_009a: callvirt Elsinore.Game.TimelineEvent Elsinore.Game.TimelineType::get_AsEvent()
+IL_009f: callvirt Elsinore.Game.CharacterId[] Elsinore.Game.TimelineEvent::get_VisibleParticipants()
+IL_00a4: stloc.3
+IL_00a5: ldloc.3
+IL_00a6: ldlen
+IL_00a7: brfalse.s IL_00f6
+IL_00a9: ldarg.1
+IL_00aa: ldstr "Including "
+IL_00af: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_00b4: pop
+IL_00b5: ldarg.1
+IL_00b6: ldnull
+IL_00b7: ldftn System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)
+IL_00bd: newobj System.Void System.Func`2<Elsinore.Game.CharacterId,System.String>::.ctor(System.Object,System.IntPtr)
+IL_00c2: ldloc.3
+IL_00c3: call System.Void Elsinore.Ui.UiStrings::FormatList<Elsinore.Game.CharacterId>(System.Text.StringBuilder,System.Func`2<T,System.String>,System.Collections.Generic.IReadOnlyList`1<T>)
+IL_00c8: ldarg.1
+IL_00c9: ldc.i4.s 46
+IL_00cb: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.Char)
+IL_00d0: pop
+IL_00d1: br.s IL_00f6
+IL_00d3: ldarg.3
+IL_00d4: ldarg.2
+IL_00d5: callvirt System.Boolean Elsinore.Game.TimelineItem::IsOngoing(Elsinore.Game.GameState)
+IL_00da: brfalse.s IL_00ea
+IL_00dc: ldarg.1
+IL_00dd: ldstr "This event is happening now.
+"
+IL_00e2: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_00e7: pop
+IL_00e8: br.s IL_00f6
+IL_00ea: ldarg.1
+IL_00eb: ldstr "Ophelia did not attend this event.
+"
+IL_00f0: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_00f5: pop
+IL_00f6: call Elsinore.Logging/ElsinoreLogger Elsinore.Logging::get_Logger()
+IL_00fb: ldarg.3
+IL_00fc: ldstr "attended"
+IL_0101: callvirt System.Void Elsinore.Logging/ElsinoreLogger::TimelineItemClicked(Elsinore.Game.TimelineItem,System.String)
+IL_0106: br IL_019e
+IL_010b: ldarg.3
+IL_010c: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()
+IL_0111: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsPresent()
+IL_0116: brfalse.s IL_0162
+IL_0118: ldarg.2
+IL_0119: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()
+IL_011e: ldarg.3
+IL_011f: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()
+IL_0124: callvirt Elsinore.Game.InformationId Elsinore.Game.TimelineType::get_AsPresent()
+IL_0129: callvirt Elsinore.Game.Information Elsinore.Game.DataLookup::Information(Elsinore.Game.InformationId)
+IL_012e: stloc.s V_4
+IL_0130: ldarg.0
+IL_0131: ldloc.0
+IL_0132: ldloca.s V_5
+IL_0134: initobj System.Nullable`1<Elsinore.Game.RoomId>
+IL_013a: ldloc.s V_5
+IL_013c: ldc.i4.0
+IL_013d: call System.Void Elsinore.Ui.UiStrings::FormatLogEntryOpener(System.Text.StringBuilder,Elsinore.Game.GameClock,System.Nullable`1<Elsinore.Game.RoomId>,System.Boolean)
+IL_0142: ldarg.0
+IL_0143: ldloc.s V_4
+IL_0145: ldarg.3
+IL_0146: callvirt Elsinore.Game.CharacterId Elsinore.Game.TimelineItem::get_Subject()
+IL_014b: call System.Void Elsinore.Ui.UiStrings::FormatPresents(System.Text.StringBuilder,Elsinore.Game.Information,Elsinore.Game.CharacterId)
+IL_0150: call Elsinore.Logging/ElsinoreLogger Elsinore.Logging::get_Logger()
+IL_0155: ldarg.3
+IL_0156: ldstr "present"
+IL_015b: callvirt System.Void Elsinore.Logging/ElsinoreLogger::TimelineItemClicked(Elsinore.Game.TimelineItem,System.String)
+IL_0160: br.s IL_019e
+IL_0162: ldarg.3
+IL_0163: callvirt Elsinore.Game.TimelineType Elsinore.Game.TimelineItem::get_Type()
+IL_0168: callvirt System.Boolean Elsinore.Game.TimelineType::get_IsImpossibleEvent()
+IL_016d: brfalse.s IL_0194
+IL_016f: ldarg.3
+IL_0170: ldarg.2
+IL_0171: callvirt System.Boolean Elsinore.Game.TimelineItem::IsInFuture(Elsinore.Game.GameState)
+IL_0176: brfalse.s IL_0186
+IL_0178: ldarg.0
+IL_0179: ldstr "This will not happen based on current conditions."
+IL_017e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_0183: pop
+IL_0184: br.s IL_019e
+IL_0186: ldarg.0
+IL_0187: ldstr "This event did not happen."
+IL_018c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_0191: pop
+IL_0192: br.s IL_019e
+IL_0194: ldstr "unknown timeline type!"
+IL_0199: call System.Void UnityEngine.Debug::LogError(System.Object)
+IL_019e: ldarg.3
+IL_019f: callvirt System.Boolean Elsinore.Game.TimelineItem::get_PlayerAttended()
+IL_01a4: brfalse.s IL_01d9
+IL_01a6: ldarg.1
+IL_01a7: call System.Void Elsinore.Ui.UiStrings::AddParagraphBreakIfPriorContent(System.Text.StringBuilder)
+IL_01ac: ldarg.3
+IL_01ad: ldarg.2
+IL_01ae: callvirt Elsinore.Game.TimelineItemDetails Elsinore.Game.TimelineItem::Details(Elsinore.Game.GameState)
+IL_01b3: stloc.s V_6
+IL_01b5: ldloc.s V_6
+IL_01b7: callvirt Agakme.GroundLiteral[] Elsinore.Game.TimelineItemDetails::get_Changes()
+IL_01bc: ldlen
+IL_01bd: brfalse.s IL_01d9
+IL_01bf: ldarg.1
+IL_01c0: ldstr "<b>Outcome:</b>
+"
+IL_01c5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_01ca: pop
+IL_01cb: ldarg.2
+IL_01cc: ldarg.1
+IL_01cd: ldloc.s V_6
+IL_01cf: callvirt Agakme.GroundLiteral[] Elsinore.Game.TimelineItemDetails::get_Changes()
+IL_01d4: call System.Void Elsinore.Game.Model::formatAllLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.GroundLiteral[])
+IL_01d9: ret
+System.String Elsinore.Ui.UiStrings::FormatRoomId(Elsinore.Game.RoomId)
+IL_0000: call ObjectTracker ObjectTracker::get_Instance()
+IL_0005: ldarg.0
+IL_0006: callvirt RoomMarker ObjectTracker::RoomMarker(Elsinore.Game.RoomId)
+IL_000b: ldfld System.String RoomMarker::playerFacingName
+IL_0010: ret
+System.Void Elsinore.Ui.UiStrings::FormatLogEntryOpener(System.Text.StringBuilder,Elsinore.Game.GameClock,System.Nullable`1<Elsinore.Game.RoomId>,System.Boolean)
+IL_0000: ldarg.3
+IL_0001: brfalse.s IL_000f
+IL_0003: ldarg.0
+IL_0004: ldstr "<b>"
+IL_0009: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_000e: pop
+IL_000f: ldarg.0
+IL_0010: ldarg.1
+IL_0011: call System.String Elsinore.Ui.UiStrings::FormatTimeString(Elsinore.Game.GameClock)
+IL_0016: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_001b: pop
+IL_001c: ldarga.s location
+IL_001e: call System.Boolean System.Nullable`1<Elsinore.Game.RoomId>::get_HasValue()
+IL_0023: brfalse.s IL_0042
+IL_0025: ldarg.0
+IL_0026: ldstr " in "
+IL_002b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_0030: ldarga.s location
+IL_0032: call !0 System.Nullable`1<Elsinore.Game.RoomId>::get_Value()
+IL_0037: call System.String Elsinore.Ui.UiStrings::FormatRoomId(Elsinore.Game.RoomId)
+IL_003c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_0041: pop
+IL_0042: ldarg.3
+IL_0043: brfalse.s IL_0051
+IL_0045: ldarg.0
+IL_0046: ldstr "</b>"
+IL_004b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_0050: pop
+IL_0051: ldarg.0
+IL_0052: ldstr ", <i>in which</i> "
+IL_0057: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_005c: pop
+IL_005d: ret
+System.String Elsinore.Ui.UiStrings::FormatTimeString(Elsinore.Game.GameClock)
+IL_0000: call ObjectTracker ObjectTracker::get_Instance()
+IL_0005: callvirt IGameInfo ObjectTracker::get_Info()
+IL_000a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()
+IL_000f: callvirt Elsinore.Game.GameMode Elsinore.Game.ElsinoreData::get_Mode()
+IL_0014: stloc.0
+IL_0015: ldloc.0
+IL_0016: ldc.i4.1
+IL_0017: beq.s IL_001f
+IL_0019: ldloc.0
+IL_001a: ldc.i4.2
+IL_001b: beq.s IL_0025
+IL_001d: br.s IL_002b
+IL_001f: ldstr "Wednesday"
+IL_0024: ret
+IL_0025: ldstr "Epilogue"
+IL_002a: ret
+IL_002b: ldarga.s time
+IL_002d: call System.String Elsinore.Game.GameClock::get_AsStringWithDayOfWeek()
+IL_0032: ret
+System.Void Elsinore.Ui.UiStrings::FormatTimeString(System.Text.StringBuilder,Elsinore.Game.GameClock)
+IL_0000: call ObjectTracker ObjectTracker::get_Instance()
+IL_0005: callvirt IGameInfo ObjectTracker::get_Info()
+IL_000a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()
+IL_000f: callvirt Elsinore.Game.GameMode Elsinore.Game.ElsinoreData::get_Mode()
+IL_0014: stloc.0
+IL_0015: ldloc.0
+IL_0016: ldc.i4.1
+IL_0017: beq.s IL_001f
+IL_0019: ldloc.0
+IL_001a: ldc.i4.2
+IL_001b: beq.s IL_002c
+IL_001d: br.s IL_0039
+IL_001f: ldarg.0
+IL_0020: ldstr "Wednesday"
+IL_0025: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_002a: pop
+IL_002b: ret
+IL_002c: ldarg.0
+IL_002d: ldstr "Epilogue"
+IL_0032: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)
+IL_0037: pop
+IL_0038: ret
+IL_0039: ldarga.s time
+IL_003b: ldarg.0
+IL_003c: call System.Void Elsinore.Game.GameClock::FormatWithDayOfWeek(System.Text.StringBuilder)
+IL_0041: ret
+System.Void Elsinore.Ui.UiStrings::.cctor()
+IL_0000: ldc.i4.1
+IL_0001: newarr System.Char
+IL_0006: dup
+IL_0007: ldc.i4.0
+IL_0008: ldc.i4.s 32
+IL_000a: stelem.i2
+IL_000b: stsfld System.Char[] Elsinore.Ui.UiStrings::StringChar
+IL_0010: ret

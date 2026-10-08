@@ -54,6 +54,7 @@ public static class VerifyDynamicTranslationRules
         JavaScriptSerializer serializer = new JavaScriptSerializer();
         serializer.MaxJsonLength = 16 * 1024 * 1024;
         object[] rules = serializer.DeserializeObject(File.ReadAllText(args[1])) as object[];
+        int formatCount = 0;
         foreach (object value in (object[])serializer.DeserializeObject(File.ReadAllText(args[2])))
         {
             Dictionary<string, object> row = (Dictionary<string, object>)value;
@@ -75,10 +76,14 @@ public static class VerifyDynamicTranslationRules
             Regex regex = (Regex)splitter.GetProperty("CompiledRegex").GetValue(instance, null);
             string replacement = (string)splitter.GetProperty("Translation").GetValue(instance, null);
             if (replacement != (string)row["replacement"]) throw new Exception("模板替换文本改变");
+            if (row.ContainsKey("kind") && (string)row["kind"] == "recursive_ui_splitter") continue;
+            formatCount++;
+            string formatSource = (string)row[row.ContainsKey("format_source") ? "format_source" : "source"];
+            string formatTarget = (string)row[row.ContainsKey("format_target") ? "format_target" : "target"];
             object[] parameters = new object[16];
             for (int i = 0; i < parameters.Length; i++) parameters[i] = "ARG" + i;
-            string source = String.Format((string)row["source"], parameters);
-            string expected = String.Format((string)row["target"], parameters);
+            string source = String.Format(formatSource, parameters);
+            string expected = String.Format(formatTarget, parameters);
             if (!regex.IsMatch(source) || regex.Replace(source, replacement) != expected)
                 throw new Exception("真实动态模板不匹配或参数重排错误：" + row["id"]);
             bool ignored = (bool)row["preserve_args"];
@@ -89,15 +94,15 @@ public static class VerifyDynamicTranslationRules
                 parameters[i] = ignored ? "ARG" + i : name;
                 expectedParts[i] = ignored ? "ARG" + i : translations[name];
             }
-            source = String.Format((string)row["source"], parameters);
-            expected = String.Format((string)row["target"], expectedParts);
+            source = String.Format(formatSource, parameters);
+            expected = String.Format(formatTarget, expectedParts);
             object parsed = Activator.CreateInstance(parser, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance, null,
                 new object[] { Enum.ToObject(origin, 0), source, replacement, false, false, false, false, regex, regex.Match(source) }, null);
             translatedParts = 0;
             if ((string)consume.Invoke(parsed, new object[] { callback }) != expected || (ignored && translatedParts != 0))
                 throw new Exception("真实Splitter消费或按键保护失败：" + row["id"]);
         }
-        Console.WriteLine("{\"actual_xunity_splitter_passed\":true,\"actual_parser_consumer_passed\":true,\"count\":" + rules.Length + "}");
+        Console.WriteLine("{\"actual_xunity_splitter_passed\":true,\"actual_parser_consumer_passed\":true,\"splitter_loaded_count\":" + rules.Length + ",\"format_consumer_count\":" + formatCount + "}");
         return 0;
     }
 }

@@ -1,0 +1,4324 @@
+[
+  {
+    "id": "asm-beaf09c90cd2a839",
+    "source": "\n\n\n\n\n\n<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%>\n\n\nPowered by Wwise © 2006 – 2020 Audiokinetic Inc. All rights reserved.\n",
+    "source_sha256": "beaf09c90cd2a8391e9a541d7b0b2d34324b130ff55a9eb4be2f3b483e34b1f9",
+    "normalized": "<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%> Powered by Wwise © 2006 – 2020 Audiokinetic Inc. All rights reserved.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02f0"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02f0",
+            "instructions": [
+              "IL_02df: ldstr \"Button icons by Nicolae Berbece, licensed under CC0.\n\"",
+              "IL_02e4: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02e9: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02ee: pop",
+              "IL_02ef: ldarg.0",
+              "IL_02f0: ldstr \"\n\n\n\n\n\n<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%>\n\n\nPowered by Wwise © 2006 – 2020 Audiokinetic Inc. All rights reserved.\n\"",
+              "IL_02f5: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02fa: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02ff: pop",
+              "IL_0300: ldarg.0",
+              "IL_0301: ldstr \"\n\nThanks for playing!\"",
+              "IL_0306: ldc.i4.1",
+              "IL_0307: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_030c: nop"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "\n\n\n\n\n\n<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%>\n\n\n采用 Wwise 技术 © 2006 – 2020 Audiokinetic Inc. 保留所有权利。\n",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-62b178a059125b3d",
+    "source": "\n\n\n\n\nA Game by Golden Glitch Studios\n\n\n\n\n\n\n\n\n\n\n",
+    "source_sha256": "62b178a059125b3dbd049280d5492b9d1d4f747938a551016eb053db27475a4a",
+    "normalized": "A Game by Golden Glitch Studios",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0007"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0007",
+            "instructions": [
+              "IL_0000: newobj System.Void System.Random::.ctor()",
+              "IL_0005: stloc.0",
+              "IL_0006: ldarg.0",
+              "IL_0007: ldstr \"\n\n\n\n\nA Game by Golden Glitch Studios\n\n\n\n\n\n\n\n\n\n\n\"",
+              "IL_000c: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_0011: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_0016: pop",
+              "IL_0017: ldarg.0",
+              "IL_0018: ldstr \"Development Team\"",
+              "IL_001d: ldc.i4.0",
+              "IL_001e: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_0023: nop"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "\n\n\n\n\nGolden Glitch Studios 出品\n\n\n\n\n\n\n\n\n\n\n",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-474fd29769e5bb99",
+    "source": "\n\nThanks for playing!",
+    "source_sha256": "474fd29769e5bb99d6743b362d333d3993f4cb5654a2ee354d88aecec1b457a8",
+    "normalized": "Thanks for playing!",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0301"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0301",
+            "instructions": [
+              "IL_02f0: ldstr \"\n\n\n\n\n\n<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%>\n\n\nPowered by Wwise © 2006 – 2020 Audiokinetic Inc. All rights reserved.\n\"",
+              "IL_02f5: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02fa: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02ff: pop",
+              "IL_0300: ldarg.0",
+              "IL_0301: ldstr \"\n\nThanks for playing!\"",
+              "IL_0306: ldc.i4.1",
+              "IL_0307: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_030c: nop",
+              "IL_030d: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "\n\n感谢游玩！",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-551b7af2430c06ce",
+    "source": " (Busy)",
+    "source_sha256": "551b7af2430c06ceedf852d252106f488bd3c1d92348969db0db41d33bc61445",
+    "normalized": "(Busy)",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "Elsinore.Ui.TooltipInfo CharacterBehavior::Elsinore.Ui.IInteractable.get_Tooltip()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_008a"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_008a",
+            "instructions": [
+              "IL_0080: ldarg.0",
+              "IL_0081: ldc.i4.2",
+              "IL_0082: call System.Boolean CharacterBehavior::WasBusy(System.Int32)",
+              "IL_0087: brfalse.s IL_0095",
+              "IL_0089: ldloc.1",
+              "IL_008a: ldstr \" (Busy)\"",
+              "IL_008f: call System.String System.String::Concat(System.String,System.String)",
+              "IL_0094: stloc.1",
+              "IL_0095: ldloc.1",
+              "IL_0096: ldarg.0",
+              "IL_0097: call UnityEngine.Color CharacterBehavior::tooltipColor()",
+              "IL_009c: newobj System.Void Elsinore.Ui.TooltipInfo::.ctor(System.String,UnityEngine.Color)",
+              "IL_00a1: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "（忙碌）",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-077ea9908b011cee",
+    "source": " (Dead)",
+    "source_sha256": "077ea9908b011ceeb20cfcafa012e94469e5448a44b80145a989ce64350fb54b",
+    "normalized": "(Dead)",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "Elsinore.Ui.TooltipInfo CharacterBehavior::Elsinore.Ui.IInteractable.get_Tooltip()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_004f"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_004f",
+            "instructions": [
+              "IL_0045: stloc.2",
+              "IL_0046: ldarg.0",
+              "IL_0047: call System.Boolean CharacterBehavior::get_IsAlive()",
+              "IL_004c: brtrue.s IL_005c",
+              "IL_004e: ldloc.1",
+              "IL_004f: ldstr \" (Dead)\"",
+              "IL_0054: call System.String System.String::Concat(System.String,System.String)",
+              "IL_0059: stloc.1",
+              "IL_005a: br.s IL_0095",
+              "IL_005c: ldloc.2",
+              "IL_005d: ldc.i4.2",
+              "IL_005e: bne.un.s IL_006e",
+              "IL_0060: ldloc.1",
+              "IL_0061: ldstr \" (Shattered)\""
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "（已死）",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-51675b0bd8b508ad",
+    "source": " (Shattered)",
+    "source_sha256": "51675b0bd8b508ad066d6d62a4f71134ca230e84729efbb4c1300777d7b88328",
+    "normalized": "(Shattered)",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "Elsinore.Ui.TooltipInfo CharacterBehavior::Elsinore.Ui.IInteractable.get_Tooltip()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0061"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0061",
+            "instructions": [
+              "IL_005a: br.s IL_0095",
+              "IL_005c: ldloc.2",
+              "IL_005d: ldc.i4.2",
+              "IL_005e: bne.un.s IL_006e",
+              "IL_0060: ldloc.1",
+              "IL_0061: ldstr \" (Shattered)\"",
+              "IL_0066: call System.String System.String::Concat(System.String,System.String)",
+              "IL_006b: stloc.1",
+              "IL_006c: br.s IL_0095",
+              "IL_006e: ldloc.2",
+              "IL_006f: ldc.i4.1",
+              "IL_0070: bne.un.s IL_0080",
+              "IL_0072: ldloc.1",
+              "IL_0073: ldstr \" (Upset)\""
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "（精神崩溃）",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-6340ab1fa5dad5c0",
+    "source": " (Upset)",
+    "source_sha256": "6340ab1fa5dad5c0e5d41e4854ab425cf23e0cba7d191406cecefdffe0f8b765",
+    "normalized": "(Upset)",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "Elsinore.Ui.TooltipInfo CharacterBehavior::Elsinore.Ui.IInteractable.get_Tooltip()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0073"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0073",
+            "instructions": [
+              "IL_006c: br.s IL_0095",
+              "IL_006e: ldloc.2",
+              "IL_006f: ldc.i4.1",
+              "IL_0070: bne.un.s IL_0080",
+              "IL_0072: ldloc.1",
+              "IL_0073: ldstr \" (Upset)\"",
+              "IL_0078: call System.String System.String::Concat(System.String,System.String)",
+              "IL_007d: stloc.1",
+              "IL_007e: br.s IL_0095",
+              "IL_0080: ldarg.0",
+              "IL_0081: ldc.i4.2",
+              "IL_0082: call System.Boolean CharacterBehavior::WasBusy(System.Int32)",
+              "IL_0087: brfalse.s IL_0095",
+              "IL_0089: ldloc.1"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "（心烦意乱）",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-5dd8d309dafe7845",
+    "source": " (dev)",
+    "source_sha256": "5dd8d309dafe78455e9cd074e14af0a28794369c6e73aace140de41e904f2be1",
+    "normalized": "(dev)",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatBuildVersion(System.Text.StringBuilder,Elsinore.Game.GameConfig)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0071"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0071",
+            "instructions": [
+              "IL_0063: ldarg.1",
+              "IL_0064: callvirt Elsinore.Game.GameBuildMode Elsinore.Game.GameConfig::get_BuildMode()",
+              "IL_0069: call System.Int32 Elsinore.Game.GameBuildMode::get_Tag()",
+              "IL_006e: ldc.i4.0",
+              "IL_006f: bne.un.s IL_0079",
+              "IL_0071: ldstr \" (dev)\"",
+              "IL_0076: nop",
+              "IL_0077: br.s IL_007f",
+              "IL_0079: ldstr \"\"",
+              "IL_007e: nop",
+              "IL_007f: stloc.3",
+              "IL_0080: ldarg.0",
+              "IL_0081: ldstr \"Ver. %s%s%s [%s]\"",
+              "IL_0086: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>>>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.Tuple`4<System.String,System.String,System.String,System.String>>::.ctor(System.String)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "（开发版）",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-e3ee915a8e8c7aa0",
+    "source": " and ",
+    "source_sha256": "e3ee915a8e8c7aa02d2fced443314522b20824abd2535d5959c41dc8ab8a09e4",
+    "normalized": "and",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 2,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.UiStrings::FormatList(System.Text.StringBuilder,System.Func`2<T,System.String>,System.Collections.Generic.IReadOnlyList`1<T>)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0044"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0044",
+            "instructions": [
+              "IL_0033: ldarg.2",
+              "IL_0034: ldc.i4.0",
+              "IL_0035: callvirt !0 System.Collections.Generic.IReadOnlyList`1<T>::get_Item(System.Int32)",
+              "IL_003a: callvirt !1 System.Func`2<T,System.String>::Invoke(!0)",
+              "IL_003f: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0044: ldstr \" and \"",
+              "IL_0049: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_004e: ldarg.1",
+              "IL_004f: ldarg.2",
+              "IL_0050: ldc.i4.1",
+              "IL_0051: callvirt !0 System.Collections.Generic.IReadOnlyList`1<T>::get_Item(System.Int32)",
+              "IL_0056: callvirt !1 System.Func`2<T,System.String>::Invoke(!0)",
+              "IL_005b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0060: pop"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_002c"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_002c",
+            "instructions": [
+              "IL_001b: call System.Text.StringBuilder Elsinore.Game.Model::formatChar(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>,System.Text.StringBuilder)",
+              "IL_0020: ldstr \"</b>\"",
+              "IL_0025: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_002a: stloc.1",
+              "IL_002b: ldarg.2",
+              "IL_002c: ldstr \" and \"",
+              "IL_0031: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0036: stloc.1",
+              "IL_0037: ldarg.1",
+              "IL_0038: ldc.i4.1",
+              "IL_0039: ldelem.any Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>",
+              "IL_003e: stloc.0",
+              "IL_003f: ldarg.0",
+              "IL_0040: ldloc.0"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "和",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-9fe0dbc7e469dd90",
+    "source": " and will not recover.",
+    "source_sha256": "9fe0dbc7e469dd9042501eaf3ce48295d756a98cca3d6ad0c3f9d14bcb572bd4",
+    "normalized": "and will not recover.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02a0"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02a0",
+            "instructions": [
+              "IL_0292: nop",
+              "IL_0293: br.s IL_029b",
+              "IL_0295: ldstr \" shatters\"",
+              "IL_029a: nop",
+              "IL_029b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02a0: ldstr \" and will not recover.\"",
+              "IL_02a5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02aa: stloc.s V_16",
+              "IL_02ac: ret",
+              "IL_02ad: ldloc.s V_8",
+              "IL_02af: brfalse.s IL_02fd",
+              "IL_02b1: ldloc.s V_11",
+              "IL_02b3: brtrue.s IL_02fd",
+              "IL_02b5: ldloca.s V_10"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "，且无法恢复。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-723bef4b0df677e9",
+    "source": " become",
+    "source_sha256": "723bef4b0df677e923edf1bc780137bf4900dcc759ca3f88e43b66ad98881a6a",
+    "normalized": "become",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02dd"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02dd",
+            "instructions": [
+              "IL_02d2: ldloc.1",
+              "IL_02d3: ldarg.1",
+              "IL_02d4: call System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+              "IL_02d9: ldloc.s V_9",
+              "IL_02db: brfalse.s IL_02e5",
+              "IL_02dd: ldstr \" become\"",
+              "IL_02e2: nop",
+              "IL_02e3: br.s IL_02eb",
+              "IL_02e5: ldstr \" becomes\"",
+              "IL_02ea: nop",
+              "IL_02eb: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02f0: ldstr \" upset but will recover overnight.\"",
+              "IL_02f5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02fa: stloc.s V_16"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "变得",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-c6d444674a1f2b8f",
+    "source": " becomes",
+    "source_sha256": "c6d444674a1f2b8f442b238823ff79aaef97de582e2ed11ea9fea05e389e1064",
+    "normalized": "becomes",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02e5"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02e5",
+            "instructions": [
+              "IL_02d9: ldloc.s V_9",
+              "IL_02db: brfalse.s IL_02e5",
+              "IL_02dd: ldstr \" become\"",
+              "IL_02e2: nop",
+              "IL_02e3: br.s IL_02eb",
+              "IL_02e5: ldstr \" becomes\"",
+              "IL_02ea: nop",
+              "IL_02eb: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02f0: ldstr \" upset but will recover overnight.\"",
+              "IL_02f5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02fa: stloc.s V_16",
+              "IL_02fc: ret",
+              "IL_02fd: ldloc.s V_8",
+              "IL_02ff: brfalse IL_03e9"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "变得",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-2d3a501ae47a1b7f",
+    "source": " believes that ",
+    "source_sha256": "2d3a501ae47a1b7f3e794d4fc125b11c1744649ec1476b01f8a3a853585a6030",
+    "normalized": "believes that",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_01aa"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_01aa",
+            "instructions": [
+              "IL_0194: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@",
+              "IL_0199: ldstr \"NONAME\"",
+              "IL_019e: ldloc.s V_7",
+              "IL_01a0: call b Agakme.MyMap::findOrDefault<System.String,System.String>(Microsoft.FSharp.Collections.FSharpMap`2<a,b>,b,a)",
+              "IL_01a5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_01aa: ldstr \" believes that \"",
+              "IL_01af: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_01b4: starg.s sb",
+              "IL_01b6: starg.s term",
+              "IL_01b8: starg.s state",
+              "IL_01ba: br IL_0000",
+              "IL_01bf: ldarg.0",
+              "IL_01c0: ldarg.1",
+              "IL_01c1: ldarg.2"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "相信",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-1e5bb7cde6486165",
+    "source": " die.",
+    "source_sha256": "1e5bb7cde64861651996e71c3482c773deb3eb62d13d38b176771ad55ddaa5ce",
+    "normalized": "die.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0247"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0247",
+            "instructions": [
+              "IL_023c: ldloc.1",
+              "IL_023d: ldarg.1",
+              "IL_023e: call System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+              "IL_0243: ldloc.s V_9",
+              "IL_0245: brfalse.s IL_024f",
+              "IL_0247: ldstr \" die.\"",
+              "IL_024c: nop",
+              "IL_024d: br.s IL_0255",
+              "IL_024f: ldstr \" dies.\"",
+              "IL_0254: nop",
+              "IL_0255: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_025a: stloc.s V_16",
+              "IL_025c: ret",
+              "IL_025d: ldloc.s V_8"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "死亡。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-780f9a531700756d",
+    "source": " dies.",
+    "source_sha256": "780f9a531700756d087d53ec581ada589b6a6fc63f624293289de862a23f6aac",
+    "normalized": "dies.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_024f"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_024f",
+            "instructions": [
+              "IL_0243: ldloc.s V_9",
+              "IL_0245: brfalse.s IL_024f",
+              "IL_0247: ldstr \" die.\"",
+              "IL_024c: nop",
+              "IL_024d: br.s IL_0255",
+              "IL_024f: ldstr \" dies.\"",
+              "IL_0254: nop",
+              "IL_0255: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_025a: stloc.s V_16",
+              "IL_025c: ret",
+              "IL_025d: ldloc.s V_8",
+              "IL_025f: brfalse.s IL_02ad",
+              "IL_0261: ldloc.s V_11",
+              "IL_0263: brtrue.s IL_02ad"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "死亡。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-2eb9d0d30d4ceaac",
+    "source": " in ",
+    "source_sha256": "2eb9d0d30d4ceaac52e60cce021ce7d3c04cff836bb0bd8dec4a4f54fa6cc97a",
+    "normalized": "in",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.UiStrings::FormatLogEntryOpener(System.Text.StringBuilder,Elsinore.Game.GameClock,System.Nullable`1<Elsinore.Game.RoomId>,System.Boolean)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0026"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0026",
+            "instructions": [
+              "IL_001b: pop",
+              "IL_001c: ldarga.s location",
+              "IL_001e: call System.Boolean System.Nullable`1<Elsinore.Game.RoomId>::get_HasValue()",
+              "IL_0023: brfalse.s IL_0042",
+              "IL_0025: ldarg.0",
+              "IL_0026: ldstr \" in \"",
+              "IL_002b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0030: ldarga.s location",
+              "IL_0032: call !0 System.Nullable`1<Elsinore.Game.RoomId>::get_Value()",
+              "IL_0037: call System.String Elsinore.Ui.UiStrings::FormatRoomId(Elsinore.Game.RoomId)",
+              "IL_003c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0041: pop",
+              "IL_0042: ldarg.3",
+              "IL_0043: brfalse.s IL_0051"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "，在",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-044a812466b527af",
+    "source": " no longer ",
+    "source_sha256": "044a812466b527af0618d7e509aee0241355bc1732eb83367ad0c68521baf24e",
+    "normalized": "no longer",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::posstr@551(System.Text.StringBuilder,System.Boolean,System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_000c"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_000c",
+            "instructions": [
+              "IL_0001: ldarg.1",
+              "IL_0002: brfalse.s IL_000c",
+              "IL_0004: ldstr \" now \"",
+              "IL_0009: nop",
+              "IL_000a: br.s IL_0012",
+              "IL_000c: ldstr \" no longer \"",
+              "IL_0011: nop",
+              "IL_0012: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0017: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "不再",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-121e40da6723cb0a",
+    "source": " now ",
+    "source_sha256": "121e40da6723cb0af29e092482fc1549047b10dcadded2ebcf61e91887a0eca9",
+    "normalized": "now",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::posstr@551(System.Text.StringBuilder,System.Boolean,System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0004"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0004",
+            "instructions": [
+              "IL_0000: ldarg.0",
+              "IL_0001: ldarg.1",
+              "IL_0002: brfalse.s IL_000c",
+              "IL_0004: ldstr \" now \"",
+              "IL_0009: nop",
+              "IL_000a: br.s IL_0012",
+              "IL_000c: ldstr \" no longer \"",
+              "IL_0011: nop",
+              "IL_0012: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0017: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "现在",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-4233c657cda2df83",
+    "source": " shatter",
+    "source_sha256": "4233c657cda2df8318f4870d9eab8284d3a0e2a7ff06284f20ab9194e60884aa",
+    "normalized": "shatter",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_028d"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_028d",
+            "instructions": [
+              "IL_0282: ldloc.1",
+              "IL_0283: ldarg.1",
+              "IL_0284: call System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+              "IL_0289: ldloc.s V_9",
+              "IL_028b: brfalse.s IL_0295",
+              "IL_028d: ldstr \" shatter\"",
+              "IL_0292: nop",
+              "IL_0293: br.s IL_029b",
+              "IL_0295: ldstr \" shatters\"",
+              "IL_029a: nop",
+              "IL_029b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02a0: ldstr \" and will not recover.\"",
+              "IL_02a5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02aa: stloc.s V_16"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "精神崩溃",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-8890369fe528fe15",
+    "source": " shatters",
+    "source_sha256": "8890369fe528fe15e103226381f89725c7ba0cf9cd24a88e146b163d858e7f4c",
+    "normalized": "shatters",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0295"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0295",
+            "instructions": [
+              "IL_0289: ldloc.s V_9",
+              "IL_028b: brfalse.s IL_0295",
+              "IL_028d: ldstr \" shatter\"",
+              "IL_0292: nop",
+              "IL_0293: br.s IL_029b",
+              "IL_0295: ldstr \" shatters\"",
+              "IL_029a: nop",
+              "IL_029b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02a0: ldstr \" and will not recover.\"",
+              "IL_02a5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02aa: stloc.s V_16",
+              "IL_02ac: ret",
+              "IL_02ad: ldloc.s V_8",
+              "IL_02af: brfalse.s IL_02fd"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "精神崩溃",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-4f1f8bcc267681a1",
+    "source": " upset but will recover overnight.",
+    "source_sha256": "4f1f8bcc267681a18b86836b4e97becde98b10e14aa9185ce728261abdcf2728",
+    "normalized": "upset but will recover overnight.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02f0"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02f0",
+            "instructions": [
+              "IL_02e2: nop",
+              "IL_02e3: br.s IL_02eb",
+              "IL_02e5: ldstr \" becomes\"",
+              "IL_02ea: nop",
+              "IL_02eb: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02f0: ldstr \" upset but will recover overnight.\"",
+              "IL_02f5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_02fa: stloc.s V_16",
+              "IL_02fc: ret",
+              "IL_02fd: ldloc.s V_8",
+              "IL_02ff: brfalse IL_03e9",
+              "IL_0304: ldloca.s V_10",
+              "IL_0306: ldfld System.String Agakme.Predicate::Name@",
+              "IL_030b: call Agakme.Predicate Elsinore.Game.Model::get_AWARE()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "心烦意乱，但一夜过后就会恢复。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-2024bcfa78367dd9",
+    "source": " wants ",
+    "source_sha256": "2024bcfa78367dd9e3065c8069cebc0f309e9e946e0da40c450fe34b41a734c3",
+    "normalized": "wants",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_00da"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_00da",
+            "instructions": [
+              "IL_00c4: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@",
+              "IL_00c9: ldstr \"NONAME\"",
+              "IL_00ce: ldloc.s V_7",
+              "IL_00d0: call b Agakme.MyMap::findOrDefault<System.String,System.String>(Microsoft.FSharp.Collections.FSharpMap`2<a,b>,b,a)",
+              "IL_00d5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_00da: ldstr \" wants \"",
+              "IL_00df: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_00e4: starg.s sb",
+              "IL_00e6: starg.s term",
+              "IL_00e8: starg.s state",
+              "IL_00ea: br IL_0000",
+              "IL_00ef: ldarg.1",
+              "IL_00f0: isinst Agakme.GroundTerm/FunctionTerm",
+              "IL_00f5: brfalse IL_01bf"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "想要",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-b98c0c8be889a8c4",
+    "source": " will be updated in the <b>Journal</b>.",
+    "source_sha256": "b98c0c8be889a8c4cf8d58a776aea17d191334a641b0a8d7541db7469b91a620",
+    "normalized": "will be updated in the <b>Journal</b>.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0567"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0567",
+            "instructions": [
+              "IL_0559: nop",
+              "IL_055a: br.s IL_0562",
+              "IL_055c: ldstr \"\"",
+              "IL_0561: nop",
+              "IL_0562: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0567: ldstr \" will be updated in the <b>Journal</b>.\"",
+              "IL_056c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0571: stloc.s V_16",
+              "IL_0573: ret",
+              "IL_0574: ldloc.s V_8",
+              "IL_0576: brfalse.s IL_05ed",
+              "IL_0578: ldloc.s V_11",
+              "IL_057a: brfalse.s IL_05ed",
+              "IL_057c: ldloc.s V_11"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "会在<b>日志</b>中更新。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-9b4879645e9faa02",
+    "source": ". Their Character Bio",
+    "source_sha256": "9b4879645e9faa02e1041fbdd796853c849cdf51ecd28a9b848c2528db0c397a",
+    "normalized": ". Their Character Bio",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0546"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0546",
+            "instructions": [
+              "IL_0535: ldloc.1",
+              "IL_0536: ldarg.1",
+              "IL_0537: ldstr \"Ophelia learns more about \"",
+              "IL_053c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0541: call System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+              "IL_0546: ldstr \". Their Character Bio\"",
+              "IL_054b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0550: ldloc.s V_9",
+              "IL_0552: brfalse.s IL_055c",
+              "IL_0554: ldstr \"s\"",
+              "IL_0559: nop",
+              "IL_055a: br.s IL_0562",
+              "IL_055c: ldstr \"\"",
+              "IL_0561: nop"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "。其人物资料",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-35f959311ff432c1",
+    "source": "<b>Ophelia</b> acquires the information \"%s.\"",
+    "source_sha256": "35f959311ff432c12b6ab64ae9e16551cbc568bb2073db5dbbad871514ce946b",
+    "normalized": "<b>Ophelia</b> acquires the information \"%s.\"",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_01fa"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_01fa",
+            "instructions": [
+              "IL_01eb: ldloc.s V_20",
+              "IL_01ed: newobj System.Void Elsinore.Game.InformationId::.ctor(System.String)",
+              "IL_01f2: callvirt Elsinore.Game.Information Elsinore.Game.InformationList::InformationOf(Elsinore.Game.InformationId)",
+              "IL_01f7: stloc.s V_21",
+              "IL_01f9: ldarg.1",
+              "IL_01fa: ldstr \"<b>Ophelia</b> acquires the information \"%s.\"\"",
+              "IL_01ff: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_0204: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_0209: ldloc.s V_21",
+              "IL_020b: ldfld System.String Elsinore.Game.Information::Name@",
+              "IL_0210: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_0215: pop",
+              "IL_0216: ret",
+              "IL_0217: ldloc.s V_8"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>获得了信息“%s”。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-933af8235aded036",
+    "source": "<b>Ophelia</b> learns about a future event in which %s If it can happen in this world, it will appear on the <b>Timeline</b>.",
+    "source_sha256": "933af8235aded03643c7fa4339a90451f5fa2d3ba64eea5532a6bf590f7e7e3d",
+    "normalized": "<b>Ophelia</b> learns about a future event in which %s If it can happen in this world, it will appear on the <b>Timeline</b>.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_04bd"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_04bd",
+            "instructions": [
+              "IL_04b2: ret",
+              "IL_04b3: ldloc.s V_26",
+              "IL_04b5: call !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+              "IL_04ba: stloc.s V_20",
+              "IL_04bc: ldarg.1",
+              "IL_04bd: ldstr \"<b>Ophelia</b> learns about a future event in which %s If it can happen in this world, it will appear on the <b>Timeline</b>.\"",
+              "IL_04c2: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_04c7: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_04cc: ldloc.s V_20",
+              "IL_04ce: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_04d3: pop",
+              "IL_04d4: ret",
+              "IL_04d5: ldloc.s V_8",
+              "IL_04d7: brfalse IL_0574"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了一个未来事件：%s如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-03320452f03b035f",
+    "source": "<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.",
+    "source_sha256": "03320452f03b035f71bab576755b79379da4df912795760e808413beb09d680e",
+    "normalized": "<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0474"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0474",
+            "instructions": [
+              "IL_0466: ldstr \"<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.\"",
+              "IL_046b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0470: stloc.s V_16",
+              "IL_0472: ret",
+              "IL_0473: ldarg.1",
+              "IL_0474: ldstr \"<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.\"",
+              "IL_0479: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_047e: stloc.s V_16",
+              "IL_0480: ret",
+              "IL_0481: ldloc.s V_25",
+              "IL_0483: stloc.s V_26",
+              "IL_0485: ldloc.3",
+              "IL_0486: ldc.i4.1",
+              "IL_0487: sub"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了一个未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-e90fff0043143b0f",
+    "source": "<b>Ophelia</b> learns about an event in which %s",
+    "source_sha256": "e90fff0043143b0fab9a87b58788a9f6277a133fd9d896376a78d3ef1b220a28",
+    "normalized": "<b>Ophelia</b> learns about an event in which %s",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_03d1"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_03d1",
+            "instructions": [
+              "IL_03c6: ret",
+              "IL_03c7: ldloc.s V_26",
+              "IL_03c9: call !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+              "IL_03ce: stloc.s V_20",
+              "IL_03d0: ldarg.1",
+              "IL_03d1: ldstr \"<b>Ophelia</b> learns about an event in which %s\"",
+              "IL_03d6: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_03db: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_03e0: ldloc.s V_20",
+              "IL_03e2: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_03e7: pop",
+              "IL_03e8: ret",
+              "IL_03e9: ldloc.s V_8",
+              "IL_03eb: brfalse IL_04d5"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了一个事件：%s",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-76a26fe05d6f886f",
+    "source": "<b>Ophelia</b> learns about an event.",
+    "source_sha256": "76a26fe05d6f886fb8650d72b95a5431bb18608d087de48c139ba41f00762b6e",
+    "normalized": "<b>Ophelia</b> learns about an event.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0388"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0388",
+            "instructions": [
+              "IL_037a: ldstr \"<b>Ophelia</b> learns about multiple events.\"",
+              "IL_037f: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0384: stloc.s V_16",
+              "IL_0386: ret",
+              "IL_0387: ldarg.1",
+              "IL_0388: ldstr \"<b>Ophelia</b> learns about an event.\"",
+              "IL_038d: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0392: stloc.s V_16",
+              "IL_0394: ret",
+              "IL_0395: ldloc.s V_25",
+              "IL_0397: stloc.s V_26",
+              "IL_0399: ldloc.3",
+              "IL_039a: ldc.i4.1",
+              "IL_039b: sub"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了一个事件。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-45123eb3925a7a78",
+    "source": "<b>Ophelia</b> learns about future events in which %s If these can happen in this world, they will appear on the <b>Timeline</b>.",
+    "source_sha256": "45123eb3925a7a78993359b68345786176bd48a7890e6abbb6244eee739f5d26",
+    "normalized": "<b>Ophelia</b> learns about future events in which %s If these can happen in this world, they will appear on the <b>Timeline</b>.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_049b"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_049b",
+            "instructions": [
+              "IL_0488: switch IL_04b3",
+              "IL_0491: ldloc.s V_26",
+              "IL_0493: call !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+              "IL_0498: stloc.s V_20",
+              "IL_049a: ldarg.1",
+              "IL_049b: ldstr \"<b>Ophelia</b> learns about future events in which %s If these can happen in this world, they will appear on the <b>Timeline</b>.\"",
+              "IL_04a0: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_04a5: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_04aa: ldloc.s V_20",
+              "IL_04ac: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_04b1: pop",
+              "IL_04b2: ret",
+              "IL_04b3: ldloc.s V_26",
+              "IL_04b5: call !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了一些未来事件：%s如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-bd8df7f0da0ee776",
+    "source": "<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.",
+    "source_sha256": "bd8df7f0da0ee7761aa07a9d071b814cb80e6ba5620b03126b5f8eef7d1e7262",
+    "normalized": "<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0466"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0466",
+            "instructions": [
+              "IL_0459: ldloc.3",
+              "IL_045a: ldc.i4.1",
+              "IL_045b: sub",
+              "IL_045c: switch IL_0473",
+              "IL_0465: ldarg.1",
+              "IL_0466: ldstr \"<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.\"",
+              "IL_046b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0470: stloc.s V_16",
+              "IL_0472: ret",
+              "IL_0473: ldarg.1",
+              "IL_0474: ldstr \"<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.\"",
+              "IL_0479: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_047e: stloc.s V_16",
+              "IL_0480: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了一些未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-1b65317133361c77",
+    "source": "<b>Ophelia</b> learns about multiple events in which %s",
+    "source_sha256": "1b65317133361c7787697e1ba78c1b475322fe803c987cfc77fdc569e832cffd",
+    "normalized": "<b>Ophelia</b> learns about multiple events in which %s",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_03af"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_03af",
+            "instructions": [
+              "IL_039c: switch IL_03c7",
+              "IL_03a5: ldloc.s V_26",
+              "IL_03a7: call !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+              "IL_03ac: stloc.s V_20",
+              "IL_03ae: ldarg.1",
+              "IL_03af: ldstr \"<b>Ophelia</b> learns about multiple events in which %s\"",
+              "IL_03b4: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_03b9: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_03be: ldloc.s V_20",
+              "IL_03c0: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_03c5: pop",
+              "IL_03c6: ret",
+              "IL_03c7: ldloc.s V_26",
+              "IL_03c9: call !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了多个事件：%s",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-4344482f068acd4f",
+    "source": "<b>Ophelia</b> learns about multiple events.",
+    "source_sha256": "4344482f068acd4f56ff813a0aba22cbdd57626e666a48681593463b7c7ef313",
+    "normalized": "<b>Ophelia</b> learns about multiple events.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_037a"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_037a",
+            "instructions": [
+              "IL_036d: ldloc.3",
+              "IL_036e: ldc.i4.1",
+              "IL_036f: sub",
+              "IL_0370: switch IL_0387",
+              "IL_0379: ldarg.1",
+              "IL_037a: ldstr \"<b>Ophelia</b> learns about multiple events.\"",
+              "IL_037f: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0384: stloc.s V_16",
+              "IL_0386: ret",
+              "IL_0387: ldarg.1",
+              "IL_0388: ldstr \"<b>Ophelia</b> learns about an event.\"",
+              "IL_038d: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0392: stloc.s V_16",
+              "IL_0394: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>奥菲莉娅</b>得知了多个事件。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-237004ee76df7732",
+    "source": "<b>Outcome:</b>\n",
+    "source_sha256": "237004ee76df77328e1100f7a6f6fca55da3672df488c38dc9a3e4f5c5958313",
+    "normalized": "<b>Outcome:</b>",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.TimelineUI::createEventContent(System.Text.StringBuilder,System.Text.StringBuilder,Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_01c0"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_01c0",
+            "instructions": [
+              "IL_01b5: ldloc.s V_6",
+              "IL_01b7: callvirt Agakme.GroundLiteral[] Elsinore.Game.TimelineItemDetails::get_Changes()",
+              "IL_01bc: ldlen",
+              "IL_01bd: brfalse.s IL_01d9",
+              "IL_01bf: ldarg.1",
+              "IL_01c0: ldstr \"<b>Outcome:</b>\n\"",
+              "IL_01c5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_01ca: pop",
+              "IL_01cb: ldarg.2",
+              "IL_01cc: ldarg.1",
+              "IL_01cd: ldloc.s V_6",
+              "IL_01cf: callvirt Agakme.GroundLiteral[] Elsinore.Game.TimelineItemDetails::get_Changes()",
+              "IL_01d4: call System.Void Elsinore.Game.Model::formatAllLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.GroundLiteral[])",
+              "IL_01d9: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "<b>结果：</b>\n",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-9586b0ca9e66efe6",
+    "source": "Back Down",
+    "source_sha256": "9586b0ca9e66efe621d520fc4d44591f965347d41a0846a92c4da9088bdfbb02",
+    "normalized": "Back Down",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_024e"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_024e",
+            "instructions": [
+              "IL_0239: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+              "IL_023e: callvirt System.Void Elsinore.Ui.DialogBox::AddButton(System.String,System.Action)",
+              "IL_0243: ldloc.2",
+              "IL_0244: ldfld Elsinore.Ui.GenericDialogBoxUI Elsinore.Ui.EndingSelectUI/<>c__DisplayClass35_1::dialogCanvas",
+              "IL_0249: callvirt Elsinore.Ui.DialogBox Elsinore.Ui.GenericDialogBoxUI::get_Dialog()",
+              "IL_024e: ldstr \"Back Down\"",
+              "IL_0253: callvirt System.Void Elsinore.Ui.DialogBox::AddButtonWithDefaultCloseBehavior(System.String)",
+              "IL_0258: ldarg.0",
+              "IL_0259: ldfld Elsinore.Ui.ElsinoreButton[] Elsinore.Ui.EndingSelectUI::BurnBookButtons",
+              "IL_025e: stloc.3",
+              "IL_025f: ldc.i4.0",
+              "IL_0260: stloc.s V_4",
+              "IL_0262: br.s IL_0299",
+              "IL_0264: ldloc.3"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "退让",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-037a8a14561b7a57",
+    "source": "Build: {0} made on {1}",
+    "source_sha256": "037a8a14561b7a57f98078b35a4f935a9a601a41e0ffa805ed4770a66f5f553e",
+    "normalized": "Build: {0} made on {1}",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.ExplorationUI::Activate()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_004f"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_004f",
+            "instructions": [
+              "IL_003e: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+              "IL_0043: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+              "IL_0048: pop",
+              "IL_0049: ldarg.0",
+              "IL_004a: ldfld System.Text.StringBuilder Elsinore.Ui.ExplorationUI::builder",
+              "IL_004f: ldstr \"Build: {0} made on {1}\"",
+              "IL_0054: ldloc.0",
+              "IL_0055: callvirt System.String Elsinore.Game.GameConfig::get_BuildId()",
+              "IL_005a: ldloc.0",
+              "IL_005b: callvirt System.String Elsinore.Game.GameConfig::get_BuildDate()",
+              "IL_0060: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object,System.Object)",
+              "IL_0065: pop",
+              "IL_0066: ldarg.0",
+              "IL_0067: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.ExplorationUI::BuildInfoText"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "构建版本：{0}，构建日期：{1}",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-d839bc63e7d6342b",
+    "source": "Button icons by Nicolae Berbece, licensed under CC0.\n",
+    "source_sha256": "d839bc63e7d6342b0906cfba2cf3ee87362e9b9c36442dbd5fa9424171fc3d34",
+    "normalized": "Button icons by Nicolae Berbece, licensed under CC0.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02df"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02df",
+            "instructions": [
+              "IL_02ce: ldstr \"Uses Rewired © 2014 – 2020 Guavaman Enterprises. All rights reserved.\n\"",
+              "IL_02d3: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02d8: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02dd: pop",
+              "IL_02de: ldarg.0",
+              "IL_02df: ldstr \"Button icons by Nicolae Berbece, licensed under CC0.\n\"",
+              "IL_02e4: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02e9: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02ee: pop",
+              "IL_02ef: ldarg.0",
+              "IL_02f0: ldstr \"\n\n\n\n\n\n<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%>\n\n\nPowered by Wwise © 2006 – 2020 Audiokinetic Inc. All rights reserved.\n\"",
+              "IL_02f5: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02fa: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02ff: pop"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "按钮图标由 Nicolae Berbece 制作，采用 CC0 许可。\n",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-5c21be5ac90305e2",
+    "source": "Continue?",
+    "source_sha256": "5c21be5ac90305e247ae19cbb7e759f2fd7e047e63ed4d1b3d2935971789d1c3",
+    "normalized": "Continue?",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 11,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_END_Resignation__SC_END_Resignation()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_287f"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_287f",
+            "instructions": [
+              "IL_286a: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_286f: ldarg.0",
+              "IL_2870: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_2875: ldstr \"END_Resignation\"",
+              "IL_287a: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_287f: ldstr \"Continue?\"",
+              "IL_2884: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_2889: ldnull",
+              "IL_288a: ldnull",
+              "IL_288b: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_2890: ldarg.0",
+              "IL_2891: ldc.i4 2438",
+              "IL_2896: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::assertLogic(System.Int32)",
+              "IL_289b: ldarg.0"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_END_Delusion__SC_END_Delusion()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_2ef5"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_2ef5",
+            "instructions": [
+              "IL_2ee0: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_2ee5: ldarg.0",
+              "IL_2ee6: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_2eeb: ldstr \"END_Delusion\"",
+              "IL_2ef0: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_2ef5: ldstr \"Continue?\"",
+              "IL_2efa: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_2eff: ldnull",
+              "IL_2f00: ldnull",
+              "IL_2f01: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_2f06: ldarg.0",
+              "IL_2f07: ldc.i4 1053",
+              "IL_2f0c: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::assertLogic(System.Int32)",
+              "IL_2f11: ldarg.0"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_END_PoloniusSurvivesExileEndingUnlocked__SC_END_PoloniusSurvivesExileEndingUnlocked__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_31df"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_31df",
+            "instructions": [
+              "IL_31ca: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_31cf: ldarg.0",
+              "IL_31d0: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_31d5: ldstr \"END_Exile\"",
+              "IL_31da: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_31df: ldstr \"Continue?\"",
+              "IL_31e4: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_31e9: ldnull",
+              "IL_31ea: ldnull",
+              "IL_31eb: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_31f0: br IL_33cf",
+              "IL_31f5: ldarg.0",
+              "IL_31f6: ldarg.0",
+              "IL_31f7: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_SPINE_FortinbrasInvadesEpilogue__SC_SPINE_FortinbrasInvadesEpilogue__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_342d"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_342d",
+            "instructions": [
+              "IL_3418: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_341d: ldarg.0",
+              "IL_341e: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_3423: ldstr \"END_SentAway\"",
+              "IL_3428: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_342d: ldstr \"Continue?\"",
+              "IL_3432: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_3437: ldnull",
+              "IL_3438: ldnull",
+              "IL_3439: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_343e: br IL_35fa",
+              "IL_3443: ldarg.0",
+              "IL_3444: ldarg.0",
+              "IL_3445: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_SPINE_FortinbrasInvadesEpilogueHamlet__SC_SPINE_FortinbrasInvadesEpilogueHamlet__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_3f36"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_3f36",
+            "instructions": [
+              "IL_3f21: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_3f26: ldarg.0",
+              "IL_3f27: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_3f2c: ldstr \"END_FortinbrasPeaceful\"",
+              "IL_3f31: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_3f36: ldstr \"Continue?\"",
+              "IL_3f3b: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_3f40: ldnull",
+              "IL_3f41: ldnull",
+              "IL_3f42: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_3f47: br IL_407c",
+              "IL_3f4c: ldarg.0",
+              "IL_3f4d: ldarg.0",
+              "IL_3f4e: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_FORT_BarricadeAnnouncement1__SC_FORT_BarricadeAnnouncement1__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_572e"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_572e",
+            "instructions": [
+              "IL_5719: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_571e: ldarg.0",
+              "IL_571f: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_5724: ldstr \"END_Survival\"",
+              "IL_5729: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_572e: ldstr \"Continue?\"",
+              "IL_5733: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_5738: ldnull",
+              "IL_5739: ldnull",
+              "IL_573a: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_573f: br IL_5a0f",
+              "IL_5744: ldarg.0",
+              "IL_5745: ldarg.0",
+              "IL_5746: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_OTH_Ending__SC_OTH_Ending__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_3cb0"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_3cb0",
+            "instructions": [
+              "IL_3c9b: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_3ca0: ldarg.0",
+              "IL_3ca1: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_3ca6: ldstr \"END_Othello\"",
+              "IL_3cab: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_3cb0: ldstr \"Continue?\"",
+              "IL_3cb5: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_3cba: ldnull",
+              "IL_3cbb: ldnull",
+              "IL_3cbc: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_3cc1: br IL_3e14",
+              "IL_3cc6: ldarg.0",
+              "IL_3cc7: ldarg.0",
+              "IL_3cc8: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_HAMROM_AnnouncementOfProposal__SC_HAMROM_AnnouncementOfProposal__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_4fd8"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_4fd8",
+            "instructions": [
+              "IL_4fc3: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_4fc8: ldarg.0",
+              "IL_4fc9: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_4fce: ldstr \"END_HamletMarriage\"",
+              "IL_4fd3: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_4fd8: ldstr \"Continue?\"",
+              "IL_4fdd: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_4fe2: ldnull",
+              "IL_4fe3: ldnull",
+              "IL_4fe4: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_4fe9: br IL_5137",
+              "IL_4fee: ldarg.0",
+              "IL_4fef: ldarg.0",
+              "IL_4ff0: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_QUEEN_Coronation__SC_QUEEN_Coronation__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_62b8"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_62b8",
+            "instructions": [
+              "IL_62a3: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_62a8: ldarg.0",
+              "IL_62a9: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_62ae: ldstr \"END_Queen\"",
+              "IL_62b3: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_62b8: ldstr \"Continue?\"",
+              "IL_62bd: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_62c2: ldnull",
+              "IL_62c3: ldnull",
+              "IL_62c4: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_62c9: br IL_6658",
+              "IL_62ce: ldarg.0",
+              "IL_62cf: ldarg.0",
+              "IL_62d0: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_GRACE_SailIntoSunset__SC_GRACE_SailIntoSunset__1()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_3a5d"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_3a5d",
+            "instructions": [
+              "IL_3a48: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_3a4d: ldarg.0",
+              "IL_3a4e: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_3a53: ldstr \"END_Pirate\"",
+              "IL_3a58: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_3a5d: ldstr \"Continue?\"",
+              "IL_3a62: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_3a67: ldnull",
+              "IL_3a68: ldnull",
+              "IL_3a69: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_3a6e: br IL_3c49",
+              "IL_3a73: ldarg.0",
+              "IL_3a74: ldarg.0",
+              "IL_3a75: ldfld Agakme.CompiledCnf GameDataGenerated::allocated_495"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::Invoke_GUILD_Leaving__SC_GUILD_Leaving__0()",
+        "decision": "translate",
+        "category": "ending_button",
+        "reason": "编译结局把字串传给 EndingGameOver 作为玩家按钮文案，非剧情对白",
+        "il_offsets": [
+          "IL_366e"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_366e",
+            "instructions": [
+              "IL_3659: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_365e: ldarg.0",
+              "IL_365f: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+              "IL_3664: ldstr \"END_RosAndGuil\"",
+              "IL_3669: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+              "IL_366e: ldstr \"Continue?\"",
+              "IL_3673: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::EndingGameOver(Elsinore.Game.EndingId,System.String)",
+              "IL_3678: ldnull",
+              "IL_3679: ldnull",
+              "IL_367a: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+              "IL_367f: ret",
+              "IL_3680: ldarg.0",
+              "IL_3681: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+              "IL_3686: ldarg.0"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "继续？",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-0f1891a7e47a591c",
+    "source": "Development Team",
+    "source_sha256": "0f1891a7e47a591c578ae661689a87f00a3ee51900777a378a57cb8e1db79534",
+    "normalized": "Development Team",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0018"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0018",
+            "instructions": [
+              "IL_0007: ldstr \"\n\n\n\n\nA Game by Golden Glitch Studios\n\n\n\n\n\n\n\n\n\n\n\"",
+              "IL_000c: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_0011: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_0016: pop",
+              "IL_0017: ldarg.0",
+              "IL_0018: ldstr \"Development Team\"",
+              "IL_001d: ldc.i4.0",
+              "IL_001e: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_0023: nop",
+              "IL_0024: ldloc.0",
+              "IL_0025: ldnull",
+              "IL_0026: ldarg.1",
+              "IL_0027: ldstr \"main\"",
+              "IL_002c: newobj System.Void Elsinore.Game.Credits/formatCredits@88::.ctor()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "开发团队",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-d98ee0e5f9399db9",
+    "source": "ERROR",
+    "source_sha256": "d98ee0e5f9399db9381014c9f890f896d3fcb272c2a7a521d0a13aa23085a284",
+    "normalized": "ERROR",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm$cont@531(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder,Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.Unit)",
+        "decision": "translate",
+        "category": "player_visible_fallback",
+        "reason": "已逐IL确认缺资料/姓名/格式错误的兜底写入玩家用StringBuilder或TMP字段，纳入可见文案；不改错误逻辑",
+        "il_offsets": [
+          "IL_0129"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0129",
+            "instructions": [
+              "IL_0124: pop",
+              "IL_0125: nop",
+              "IL_0126: ldarg.2",
+              "IL_0127: ret",
+              "IL_0128: ldarg.2",
+              "IL_0129: ldstr \"ERROR\"",
+              "IL_012e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0133: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "错误",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-87f65fcca1bb8d76",
+    "source": "ERROR: UNFORMATTED: %s",
+    "source_sha256": "87f65fcca1bb8d760f09087ef99204e5f4ee611b42dcbf67ff16ff9fcb4c7963",
+    "normalized": "ERROR: UNFORMATTED: %s",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_visible_fallback",
+        "reason": "已逐IL确认缺资料/姓名/格式错误的兜底写入玩家用StringBuilder或TMP字段，纳入可见文案；不改错误逻辑",
+        "il_offsets": [
+          "IL_0704"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0704",
+            "instructions": [
+              "IL_06f6: ldstr \".\"",
+              "IL_06fb: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0700: stloc.s V_16",
+              "IL_0702: ret",
+              "IL_0703: ldarg.1",
+              "IL_0704: ldstr \"ERROR: UNFORMATTED: %s\"",
+              "IL_0709: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_070e: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_0713: ldloc.2",
+              "IL_0714: ldc.i4.0",
+              "IL_0715: ldelem.any Agakme.GroundLiteral",
+              "IL_071a: ldfld Agakme.GroundAtom Agakme.GroundLiteral::Atom@",
+              "IL_071f: call System.String Agakme.Scripting.Parser::AtomGToString(Agakme.GroundAtom)",
+              "IL_0724: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "错误：未格式化：%s",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-cf425c10ec93996c",
+    "source": "Elsinore Pets",
+    "source_sha256": "cf425c10ec93996c3d9761e2197291b154ff08e2cc7e1ab95a2971cddef0e7e1",
+    "normalized": "Elsinore Pets",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0264"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0264",
+            "instructions": [
+              "IL_025e: ldloc.1",
+              "IL_025f: ldlen",
+              "IL_0260: conv.i4",
+              "IL_0261: blt.s IL_023a",
+              "IL_0263: ldarg.0",
+              "IL_0264: ldstr \"Elsinore Pets\"",
+              "IL_0269: ldc.i4.1",
+              "IL_026a: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_026f: nop",
+              "IL_0270: ldnull",
+              "IL_0271: ldarg.1",
+              "IL_0272: ldstr \"pets\"",
+              "IL_0277: newobj System.Void Elsinore.Game.Credits/formatCredits@120-8::.ctor()",
+              "IL_027c: call a[] Agakme.Scripting.JsonLoad::jloadArray<System.String>(System.Collections.Generic.Dictionary`2<System.Object,Agakme.IO.Json/JsonValue>,Agakme.IO.Json/JsonValue,System.String,Microsoft.FSharp.Core.FSharpFunc`2<Agakme.IO.Json/JsonValue,a>)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "《Elsinore》的宠物们",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-1d174814bac2fd9e",
+    "source": "Enter ",
+    "source_sha256": "1d174814bac2fd9e6af478cc681bb50e22710e3b8a65597256723cdc8c190ea7",
+    "normalized": "Enter",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.PrintCharacterChangesDirection::Elsinore.ILoggableStageDirection.FormatLogEntry(System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_000a"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_000a",
+            "instructions": [
+              "IL_0000: ldarg.0",
+              "IL_0001: ldfld Elsinore.Game.CharacterId[] Elsinore.PrintCharacterChangesDirection::entrances",
+              "IL_0006: ldlen",
+              "IL_0007: brfalse.s IL_0048",
+              "IL_0009: ldarg.1",
+              "IL_000a: ldstr \"Enter \"",
+              "IL_000f: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0014: pop",
+              "IL_0015: ldarg.1",
+              "IL_0016: ldnull",
+              "IL_0017: ldftn System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+              "IL_001d: newobj System.Void System.Func`2<Elsinore.Game.CharacterId,System.String>::.ctor(System.Object,System.IntPtr)",
+              "IL_0022: ldarg.0",
+              "IL_0023: ldfld Elsinore.Game.CharacterId[] Elsinore.PrintCharacterChangesDirection::entrances"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "入场：",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-64186d3a47fa4839",
+    "source": "Epilogue",
+    "source_sha256": "64186d3a47fa48395ca92bc8cf24deb55eb59497bbfc14753195928ef292da66",
+    "normalized": "Epilogue",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 2,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.String Elsinore.Ui.UiStrings::FormatTimeString(Elsinore.Game.GameClock)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0025"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0025",
+            "instructions": [
+              "IL_001a: ldc.i4.2",
+              "IL_001b: beq.s IL_0025",
+              "IL_001d: br.s IL_002b",
+              "IL_001f: ldstr \"Wednesday\"",
+              "IL_0024: ret",
+              "IL_0025: ldstr \"Epilogue\"",
+              "IL_002a: ret",
+              "IL_002b: ldarga.s time",
+              "IL_002d: call System.String Elsinore.Game.GameClock::get_AsStringWithDayOfWeek()",
+              "IL_0032: ret"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.UiStrings::FormatTimeString(System.Text.StringBuilder,Elsinore.Game.GameClock)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_002d"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_002d",
+            "instructions": [
+              "IL_0020: ldstr \"Wednesday\"",
+              "IL_0025: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_002a: pop",
+              "IL_002b: ret",
+              "IL_002c: ldarg.0",
+              "IL_002d: ldstr \"Epilogue\"",
+              "IL_0032: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0037: pop",
+              "IL_0038: ret",
+              "IL_0039: ldarga.s time",
+              "IL_003b: ldarg.0",
+              "IL_003c: call System.Void Elsinore.Game.GameClock::FormatWithDayOfWeek(System.Text.StringBuilder)",
+              "IL_0041: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "尾声",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-7b42b640e306d437",
+    "source": "Exeunt ",
+    "source_sha256": "7b42b640e306d43768d64d3f9890d1e8c7ff31985096fa14f810a72d7cff9efc",
+    "normalized": "Exeunt",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.PrintCharacterChangesDirection::Elsinore.ILoggableStageDirection.FormatLogEntry(System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0084"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0084",
+            "instructions": [
+              "IL_007a: ldfld Elsinore.Game.CharacterId[] Elsinore.PrintCharacterChangesDirection::exits",
+              "IL_007f: ldlen",
+              "IL_0080: conv.i4",
+              "IL_0081: ldc.i4.1",
+              "IL_0082: beq.s IL_008b",
+              "IL_0084: ldstr \"Exeunt \"",
+              "IL_0089: br.s IL_0090",
+              "IL_008b: ldstr \"Exit \"",
+              "IL_0090: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0095: pop",
+              "IL_0096: ldarg.1",
+              "IL_0097: ldnull",
+              "IL_0098: ldftn System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+              "IL_009e: newobj System.Void System.Func`2<Elsinore.Game.CharacterId,System.String>::.ctor(System.Object,System.IntPtr)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "退场：",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-4a389ccc6b9b11b1",
+    "source": "Exit ",
+    "source_sha256": "4a389ccc6b9b11b107b9d44387a7d5f37f4d97f9b14d3df2baeb678364bf9c18",
+    "normalized": "Exit",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.PrintCharacterChangesDirection::Elsinore.ILoggableStageDirection.FormatLogEntry(System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_008b"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_008b",
+            "instructions": [
+              "IL_0080: conv.i4",
+              "IL_0081: ldc.i4.1",
+              "IL_0082: beq.s IL_008b",
+              "IL_0084: ldstr \"Exeunt \"",
+              "IL_0089: br.s IL_0090",
+              "IL_008b: ldstr \"Exit \"",
+              "IL_0090: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0095: pop",
+              "IL_0096: ldarg.1",
+              "IL_0097: ldnull",
+              "IL_0098: ldftn System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+              "IL_009e: newobj System.Void System.Func`2<Elsinore.Game.CharacterId,System.String>::.ctor(System.Object,System.IntPtr)",
+              "IL_00a3: ldarg.0",
+              "IL_00a4: ldfld Elsinore.Game.CharacterId[] Elsinore.PrintCharacterChangesDirection::exits"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "退场：",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-8d0160c0d84236dd",
+    "source": "Faster",
+    "source_sha256": "8d0160c0d84236dda89711eb07586e3d95b186fed727103aabf3fa7cda07d65f",
+    "normalized": "Faster",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.DialogueUI::.cctor()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0026"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0026",
+            "instructions": [
+              "IL_001d: ldc.i4.0",
+              "IL_001e: ldstr \"Normal\"",
+              "IL_0023: stelem.ref",
+              "IL_0024: dup",
+              "IL_0025: ldc.i4.1",
+              "IL_0026: ldstr \"Faster\"",
+              "IL_002b: stelem.ref",
+              "IL_002c: dup",
+              "IL_002d: ldc.i4.2",
+              "IL_002e: ldstr \"Fastest\"",
+              "IL_0033: stelem.ref",
+              "IL_0034: dup",
+              "IL_0035: ldc.i4.3",
+              "IL_0036: ldstr \"Instant\""
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "较快",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-7ef7a92e55a79eba",
+    "source": "Fastest",
+    "source_sha256": "7ef7a92e55a79eba7fe99d9be3e7a3f97aec159fb8fee35be7c76b7cfd516955",
+    "normalized": "Fastest",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.DialogueUI::.cctor()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_002e"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_002e",
+            "instructions": [
+              "IL_0025: ldc.i4.1",
+              "IL_0026: ldstr \"Faster\"",
+              "IL_002b: stelem.ref",
+              "IL_002c: dup",
+              "IL_002d: ldc.i4.2",
+              "IL_002e: ldstr \"Fastest\"",
+              "IL_0033: stelem.ref",
+              "IL_0034: dup",
+              "IL_0035: ldc.i4.3",
+              "IL_0036: ldstr \"Instant\"",
+              "IL_003b: stelem.ref",
+              "IL_003c: ldc.i4.4",
+              "IL_003d: newarr Elsinore.Game.Preference.TextSpeed",
+              "IL_0042: dup"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "最快",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-7877149b1753c32e",
+    "source": "Go to {0}?",
+    "source_sha256": "7877149b1753c32ee15d4cebc1b7defa793bcf05514dd51d3b6b58c3b9986fc1",
+    "normalized": "Go to {0}?",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 2,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.MapUI::<IInitializable.Initialize>b__33_0(Elsinore.Game.CharacterId)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_002a"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_002a",
+            "instructions": [
+              "IL_0019: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+              "IL_001e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+              "IL_0023: pop",
+              "IL_0024: ldarg.0",
+              "IL_0025: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+              "IL_002a: ldstr \"Go to {0}?\"",
+              "IL_002f: ldarg.1",
+              "IL_0030: call System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+              "IL_0035: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+              "IL_003a: pop",
+              "IL_003b: ldarg.0",
+              "IL_003c: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.MapUI::confirmMoveText",
+              "IL_0041: ldarg.0",
+              "IL_0042: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<Awake>b__2(Elsinore.Game.RoomId)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_003e"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_003e",
+            "instructions": [
+              "IL_002d: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+              "IL_0032: pop",
+              "IL_0033: ldarg.0",
+              "IL_0034: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+              "IL_0039: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+              "IL_003e: ldstr \"Go to {0}?\"",
+              "IL_0043: ldarg.0",
+              "IL_0044: ldfld ObjectTracker Elsinore.Ui.MapUI/<>c__DisplayClass32_0::tracker",
+              "IL_0049: ldarg.1",
+              "IL_004a: callvirt RoomMarker ObjectTracker::RoomMarker(Elsinore.Game.RoomId)",
+              "IL_004f: ldfld System.String RoomMarker::playerFacingName",
+              "IL_0054: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+              "IL_0059: pop",
+              "IL_005a: ldarg.0"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "前往{0}？",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-aeed8a8b147681a3",
+    "source": "Guilda",
+    "source_sha256": "aeed8a8b147681a3b17ec4266ebf600e0f78387369f0c2141b201178a57ccdb7",
+    "normalized": "Guilda",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 3,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::.ctor()",
+        "decision": "exclude",
+        "category": "generated_identifier",
+        "reason": "生成剧情的数据、跳转标签或控制参数；非本轮补译 UI",
+        "il_offsets": [
+          "IL_5b38"
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void PerfectDayDataGenerated::.ctor()",
+        "decision": "exclude",
+        "category": "generated_identifier",
+        "reason": "生成剧情的数据、跳转标签或控制参数；非本轮补译 UI",
+        "il_offsets": [
+          "IL_00d1"
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.String Elsinore.Ui.UiStrings::FormatShortCharacterName(Elsinore.Game.CharacterId)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_002a"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_002a",
+            "instructions": [
+              "IL_001b: call System.Boolean System.String::op_Equality(System.String,System.String)",
+              "IL_0020: brtrue.s IL_002a",
+              "IL_0022: br.s IL_0030",
+              "IL_0024: ldstr \"Rosie\"",
+              "IL_0029: ret",
+              "IL_002a: ldstr \"Guilda\"",
+              "IL_002f: ret",
+              "IL_0030: call ObjectTracker ObjectTracker::get_Instance()",
+              "IL_0035: callvirt IGameInfo ObjectTracker::get_Info()",
+              "IL_003a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+              "IL_003f: callvirt Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::get_NameMap()",
+              "IL_0044: callvirt Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::get_Names()",
+              "IL_0049: ldarga.s cid",
+              "IL_004b: call System.String Elsinore.Game.CharacterId::get_Name()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "吉尔妲",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-948e037c90d51982",
+    "source": "Including ",
+    "source_sha256": "948e037c90d51982f7826275b8baa337813fef50ff426d83977c975b6ef7b071",
+    "normalized": "Including",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.TimelineUI::createEventContent(System.Text.StringBuilder,System.Text.StringBuilder,Elsinore.Game.GameState,Elsinore.Game.TimelineItem)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_00aa"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_00aa",
+            "instructions": [
+              "IL_00a4: stloc.3",
+              "IL_00a5: ldloc.3",
+              "IL_00a6: ldlen",
+              "IL_00a7: brfalse.s IL_00f6",
+              "IL_00a9: ldarg.1",
+              "IL_00aa: ldstr \"Including \"",
+              "IL_00af: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_00b4: pop",
+              "IL_00b5: ldarg.1",
+              "IL_00b6: ldnull",
+              "IL_00b7: ldftn System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+              "IL_00bd: newobj System.Void System.Func`2<Elsinore.Game.CharacterId,System.String>::.ctor(System.Object,System.IntPtr)",
+              "IL_00c2: ldloc.3",
+              "IL_00c3: call System.Void Elsinore.Ui.UiStrings::FormatList<Elsinore.Game.CharacterId>(System.Text.StringBuilder,System.Func`2<T,System.String>,System.Collections.Generic.IReadOnlyList`1<T>)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "参与者：",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-e2861894f065ab75",
+    "source": "Instant",
+    "source_sha256": "e2861894f065ab75433a07f7a17a9b8df3ffdc01ff29e8723ba0d9ff8c2ec437",
+    "normalized": "Instant",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.DialogueUI::.cctor()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0036"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0036",
+            "instructions": [
+              "IL_002d: ldc.i4.2",
+              "IL_002e: ldstr \"Fastest\"",
+              "IL_0033: stelem.ref",
+              "IL_0034: dup",
+              "IL_0035: ldc.i4.3",
+              "IL_0036: ldstr \"Instant\"",
+              "IL_003b: stelem.ref",
+              "IL_003c: ldc.i4.4",
+              "IL_003d: newarr Elsinore.Game.Preference.TextSpeed",
+              "IL_0042: dup",
+              "IL_0043: ldtoken <PrivateImplementationDetails>/__StaticArrayInitTypeSize=16 <PrivateImplementationDetails>::02E4414E7DFA0F3AA2387EE8EA7AB31431CB406A",
+              "IL_0048: call System.Void System.Runtime.CompilerServices.RuntimeHelpers::InitializeArray(System.Array,System.RuntimeFieldHandle)",
+              "IL_004d: ldc.i4.0",
+              "IL_004e: call Elsinore.Game.ValidationOption Elsinore.Game.ValidationOption::get_NoValidation()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "立即显示",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-8202fc9492f19292",
+    "source": "Kickstarter Backers",
+    "source_sha256": "8202fc9492f19292e739f96b1788fec38ddcb53eb538dd3a93850372a4e9edf3",
+    "normalized": "Kickstarter Backers",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_01ee"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_01ee",
+            "instructions": [
+              "IL_01dd: call a[] Agakme.Scripting.JsonLoad::jloadArray<System.String>(System.Collections.Generic.Dictionary`2<System.Object,Agakme.IO.Json/JsonValue>,Agakme.IO.Json/JsonValue,System.String,Microsoft.FSharp.Core.FSharpFunc`2<Agakme.IO.Json/JsonValue,a>)",
+              "IL_01e2: call System.String[] Elsinore.Game.Credits::surnameSort(System.String[])",
+              "IL_01e7: call System.Void Elsinore.Game.Credits::twoColumnNames@63(System.Text.StringBuilder,System.String[])",
+              "IL_01ec: nop",
+              "IL_01ed: ldarg.0",
+              "IL_01ee: ldstr \"Kickstarter Backers\"",
+              "IL_01f3: ldc.i4.1",
+              "IL_01f4: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_01f9: nop",
+              "IL_01fa: ldarg.0",
+              "IL_01fb: ldnull",
+              "IL_01fc: ldarg.1",
+              "IL_01fd: ldstr \"backers\"",
+              "IL_0202: newobj System.Void Elsinore.Game.Credits/formatCredits@113-6::.ctor()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "Kickstarter 支持者",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-5fd8b02279b8b176",
+    "source": "Let It Burn",
+    "source_sha256": "5fd8b02279b8b176ae7a694d5a055ded63e5da7876caf4e380c8c1e1bf512c46",
+    "normalized": "Let It Burn",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_022d"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_022d",
+            "instructions": [
+              "IL_021c: callvirt TMPro.TextMeshProUGUI Elsinore.Ui.DialogBox::AddText(System.String)",
+              "IL_0221: pop",
+              "IL_0222: ldloc.2",
+              "IL_0223: ldfld Elsinore.Ui.GenericDialogBoxUI Elsinore.Ui.EndingSelectUI/<>c__DisplayClass35_1::dialogCanvas",
+              "IL_0228: callvirt Elsinore.Ui.DialogBox Elsinore.Ui.GenericDialogBoxUI::get_Dialog()",
+              "IL_022d: ldstr \"Let It Burn\"",
+              "IL_0232: ldarg.0",
+              "IL_0233: ldftn System.Void Elsinore.Ui.EndingSelectUI::<Awake>b__35_10()",
+              "IL_0239: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+              "IL_023e: callvirt System.Void Elsinore.Ui.DialogBox::AddButton(System.String,System.Action)",
+              "IL_0243: ldloc.2",
+              "IL_0244: ldfld Elsinore.Ui.GenericDialogBoxUI Elsinore.Ui.EndingSelectUI/<>c__DisplayClass35_1::dialogCanvas",
+              "IL_0249: callvirt Elsinore.Ui.DialogBox Elsinore.Ui.GenericDialogBoxUI::get_Dialog()",
+              "IL_024e: ldstr \"Back Down\""
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "任它烧毁",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-56413724a8d36ee7",
+    "source": "NO CHARACTER BIO",
+    "source_sha256": "56413724a8d36ee7ea0bbcd4d60a2f5d4bd259e4d2ed3e9df2a3e352f670f769",
+    "normalized": "NO CHARACTER BIO",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 3,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.JournalCharactersTab/<>c__DisplayClass15_0::<OnEnable>b__0(Elsinore.Game.CharacterId)",
+        "decision": "translate",
+        "category": "player_visible_fallback",
+        "reason": "已逐IL确认缺资料/姓名/格式错误的兜底写入玩家用StringBuilder或TMP字段，纳入可见文案；不改错误逻辑",
+        "il_offsets": [
+          "IL_009f",
+          "IL_00ca",
+          "IL_00f5"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_009f",
+            "instructions": [
+              "IL_0091: ldarg.0",
+              "IL_0092: ldfld Elsinore.Ui.JournalCharactersTab Elsinore.Ui.JournalCharactersTab/<>c__DisplayClass15_0::<>4__this",
+              "IL_0097: ldfld System.Text.StringBuilder Elsinore.Ui.JournalCharactersTab::builder",
+              "IL_009c: ldloc.0",
+              "IL_009d: brtrue.s IL_00a6",
+              "IL_009f: ldstr \"NO CHARACTER BIO\"",
+              "IL_00a4: br.s IL_00ac",
+              "IL_00a6: ldloc.0",
+              "IL_00a7: ldfld System.String Elsinore.Ui.GuiUtils/LeadText::Title",
+              "IL_00ac: call System.Void Elsinore.Ui.UiStrings::SetTextWithLineHeight(TMPro.TextMeshProUGUI,System.Text.StringBuilder,System.String)",
+              "IL_00b1: ldarg.0",
+              "IL_00b2: ldfld Elsinore.Ui.JournalCharactersTab Elsinore.Ui.JournalCharactersTab/<>c__DisplayClass15_0::<>4__this",
+              "IL_00b7: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.JournalCharactersTab::SlugText",
+              "IL_00bc: ldarg.0"
+            ]
+          },
+          {
+            "il_offset": "IL_00ca",
+            "instructions": [
+              "IL_00bc: ldarg.0",
+              "IL_00bd: ldfld Elsinore.Ui.JournalCharactersTab Elsinore.Ui.JournalCharactersTab/<>c__DisplayClass15_0::<>4__this",
+              "IL_00c2: ldfld System.Text.StringBuilder Elsinore.Ui.JournalCharactersTab::builder",
+              "IL_00c7: ldloc.0",
+              "IL_00c8: brtrue.s IL_00d1",
+              "IL_00ca: ldstr \"NO CHARACTER BIO\"",
+              "IL_00cf: br.s IL_00d7",
+              "IL_00d1: ldloc.0",
+              "IL_00d2: ldfld System.String Elsinore.Ui.GuiUtils/LeadText::Subtitle",
+              "IL_00d7: call System.Void Elsinore.Ui.UiStrings::SetTextWithLineHeight(TMPro.TextMeshProUGUI,System.Text.StringBuilder,System.String)",
+              "IL_00dc: ldarg.0",
+              "IL_00dd: ldfld Elsinore.Ui.JournalCharactersTab Elsinore.Ui.JournalCharactersTab/<>c__DisplayClass15_0::<>4__this",
+              "IL_00e2: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.JournalCharactersTab::DescriptionText",
+              "IL_00e7: ldarg.0"
+            ]
+          },
+          {
+            "il_offset": "IL_00f5",
+            "instructions": [
+              "IL_00e7: ldarg.0",
+              "IL_00e8: ldfld Elsinore.Ui.JournalCharactersTab Elsinore.Ui.JournalCharactersTab/<>c__DisplayClass15_0::<>4__this",
+              "IL_00ed: ldfld System.Text.StringBuilder Elsinore.Ui.JournalCharactersTab::builder",
+              "IL_00f2: ldloc.0",
+              "IL_00f3: brtrue.s IL_00fc",
+              "IL_00f5: ldstr \"NO CHARACTER BIO\"",
+              "IL_00fa: br.s IL_0102",
+              "IL_00fc: ldloc.0",
+              "IL_00fd: ldfld System.String Elsinore.Ui.GuiUtils/LeadText::Content",
+              "IL_0102: call System.Void Elsinore.Ui.UiStrings::SetTextWithLineHeight(TMPro.TextMeshProUGUI,System.Text.StringBuilder,System.String)",
+              "IL_0107: ldarg.0",
+              "IL_0108: ldfld Elsinore.Ui.JournalCharactersTab Elsinore.Ui.JournalCharactersTab/<>c__DisplayClass15_0::<>4__this",
+              "IL_010d: ldfld Elsinore.Ui.UiScrollbar Elsinore.Ui.JournalCharactersTab::CharacterDetailScrollbar",
+              "IL_0112: ldc.r4 1"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "暂无人物资料",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-de20cd82551f352e",
+    "source": "NONAME",
+    "source_sha256": "de20cd82551f352e7e5303b39ff23e24490e808f8d46a577c98cbf86eb1b4ba5",
+    "normalized": "NONAME",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 6,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatCharS(Elsinore.Game.ElsinoreData,System.String,System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_visible_fallback",
+        "reason": "已逐IL确认缺资料/姓名/格式错误的兜底写入玩家用StringBuilder或TMP字段，纳入可见文案；不改错误逻辑",
+        "il_offsets": [
+          "IL_000c"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_000c",
+            "instructions": [
+              "IL_0000: ldarg.2",
+              "IL_0001: ldarg.0",
+              "IL_0002: ldfld Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::NameMap@",
+              "IL_0007: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@",
+              "IL_000c: ldstr \"NONAME\"",
+              "IL_0011: ldarg.1",
+              "IL_0012: call b Agakme.MyMap::findOrDefault<System.String,System.String>(Microsoft.FSharp.Collections.FSharpMap`2<a,b>,b,a)",
+              "IL_0017: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_001c: ret"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatChar(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>,System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_visible_fallback",
+        "reason": "已逐IL确认缺资料/姓名/格式错误的兜底写入玩家用StringBuilder或TMP字段，纳入可见文案；不改错误逻辑",
+        "il_offsets": [
+          "IL_0004",
+          "IL_0020"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0004",
+            "instructions": [
+              "IL_0000: ldarg.2",
+              "IL_0001: ldarg.1",
+              "IL_0002: brtrue.s IL_000c",
+              "IL_0004: ldstr \"NONAME\"",
+              "IL_0009: nop",
+              "IL_000a: br.s IL_0032",
+              "IL_000c: ldarg.1",
+              "IL_000d: stloc.0",
+              "IL_000e: ldloc.0",
+              "IL_000f: call !0 Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>::get_Value()",
+              "IL_0014: stloc.1",
+              "IL_0015: ldarg.0"
+            ]
+          },
+          {
+            "il_offset": "IL_0020",
+            "instructions": [
+              "IL_000f: call !0 Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>::get_Value()",
+              "IL_0014: stloc.1",
+              "IL_0015: ldarg.0",
+              "IL_0016: ldfld Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::NameMap@",
+              "IL_001b: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@",
+              "IL_0020: ldstr \"NONAME\"",
+              "IL_0025: ldloca.s V_1",
+              "IL_0027: ldfld System.String Elsinore.Game.CharacterId::Name@",
+              "IL_002c: call b Agakme.MyMap::findOrDefault<System.String,System.String>(Microsoft.FSharp.Collections.FSharpMap`2<a,b>,b,a)",
+              "IL_0031: nop",
+              "IL_0032: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0037: ret"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm$cont@531(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder,Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.Unit)",
+        "decision": "translate",
+        "category": "player_visible_fallback",
+        "reason": "已逐IL确认缺资料/姓名/格式错误的兜底写入玩家用StringBuilder或TMP字段，纳入可见文案；不改错误逻辑",
+        "il_offsets": [
+          "IL_0086"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0086",
+            "instructions": [
+              "IL_0071: ldstr \" \"",
+              "IL_0076: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_007b: ldarg.3",
+              "IL_007c: ldfld Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::NameMap@",
+              "IL_0081: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@",
+              "IL_0086: ldstr \"NONAME\"",
+              "IL_008b: ldloc.s V_4",
+              "IL_008d: call b Agakme.MyMap::findOrDefault<System.String,System.String>(Microsoft.FSharp.Collections.FSharpMap`2<a,b>,b,a)",
+              "IL_0092: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0097: ret",
+              "IL_0098: ldarg.1",
+              "IL_0099: isinst Agakme.GroundTerm/FunctionTerm",
+              "IL_009e: brfalse IL_0128",
+              "IL_00a3: ldarg.1"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_visible_fallback",
+        "reason": "已逐IL确认缺资料/姓名/格式错误的兜底写入玩家用StringBuilder或TMP字段，纳入可见文案；不改错误逻辑",
+        "il_offsets": [
+          "IL_00c9",
+          "IL_0199"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_00c9",
+            "instructions": [
+              "IL_00bb: ldloc.s V_6",
+              "IL_00bd: ldarg.2",
+              "IL_00be: ldloc.0",
+              "IL_00bf: ldfld Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::NameMap@",
+              "IL_00c4: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@",
+              "IL_00c9: ldstr \"NONAME\"",
+              "IL_00ce: ldloc.s V_7",
+              "IL_00d0: call b Agakme.MyMap::findOrDefault<System.String,System.String>(Microsoft.FSharp.Collections.FSharpMap`2<a,b>,b,a)",
+              "IL_00d5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_00da: ldstr \" wants \"",
+              "IL_00df: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_00e4: starg.s sb",
+              "IL_00e6: starg.s term",
+              "IL_00e8: starg.s state"
+            ]
+          },
+          {
+            "il_offset": "IL_0199",
+            "instructions": [
+              "IL_018b: ldloc.s V_6",
+              "IL_018d: ldarg.2",
+              "IL_018e: ldloc.0",
+              "IL_018f: ldfld Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::NameMap@",
+              "IL_0194: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@",
+              "IL_0199: ldstr \"NONAME\"",
+              "IL_019e: ldloc.s V_7",
+              "IL_01a0: call b Agakme.MyMap::findOrDefault<System.String,System.String>(Microsoft.FSharp.Collections.FSharpMap`2<a,b>,b,a)",
+              "IL_01a5: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_01aa: ldstr \" believes that \"",
+              "IL_01af: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_01b4: starg.s sb",
+              "IL_01b6: starg.s term",
+              "IL_01b8: starg.s state"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "未命名",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-62a6da8735c18e2d",
+    "source": "Object",
+    "source_sha256": "62a6da8735c18e2d66fe5de3dc5440252a1da49e3cbaa7c1d2d5068ad73ffba0",
+    "normalized": "Object",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void ObservableSceneObject::.ctor()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0001"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0001",
+            "instructions": [
+              "IL_0000: ldarg.0",
+              "IL_0001: ldstr \"Object\"",
+              "IL_0006: stfld System.String ObservableSceneObject::ObjectName",
+              "IL_000b: ldarg.0",
+              "IL_000c: call System.Void SceneInteractable::.ctor()",
+              "IL_0011: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "物品",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-16584052fd337f09",
+    "source": "Okay",
+    "source_sha256": "16584052fd337f09553dfe2ed98e35a2de86043f25e61a3acb5d1e63a949e844",
+    "normalized": "Okay",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 3,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Rewired.Demos.ControlRemappingDemo1::DrawModalWindow(System.String,System.String)",
+        "decision": "exclude",
+        "category": "third_party_demo",
+        "reason": "Rewired 示例/演示控制器界面，非游戏正式 UI；按实际 owner 排除",
+        "il_offsets": [
+          "IL_003e"
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Rewired.Demos.ControlRemappingDemo1::DrawModalWindow_OkayOnly(System.String,System.String)",
+        "decision": "exclude",
+        "category": "third_party_demo",
+        "reason": "Rewired 示例/演示控制器界面，非游戏正式 UI；按实际 owner 排除",
+        "il_offsets": [
+          "IL_003e"
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.PauseUI::Awake()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0206"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0206",
+            "instructions": [
+              "IL_01f5: ldarg.0",
+              "IL_01f6: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.PauseUI::saveResultDialog",
+              "IL_01fb: callvirt System.Void Elsinore.Ui.DialogBox::AddCloseButton()",
+              "IL_0200: ldarg.0",
+              "IL_0201: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.PauseUI::saveResultDialog",
+              "IL_0206: ldstr \"Okay\"",
+              "IL_020b: callvirt System.Void Elsinore.Ui.DialogBox::AddButtonWithDefaultCloseBehavior(System.String)",
+              "IL_0210: ldarg.0",
+              "IL_0211: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.PauseUI::saveResultDialog",
+              "IL_0216: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+              "IL_021b: ldc.i4.0",
+              "IL_021c: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+              "IL_0221: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "确定",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-8e98baf5b22ae214",
+    "source": "Ophelia %s ",
+    "source_sha256": "8e98baf5b22ae214d0d416b5c1e07a08026eb7a8dd407d1b78e0bbecd7f5da3e",
+    "normalized": "Ophelia %s",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_06c6"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_06c6",
+            "instructions": [
+              "IL_06ba: stloc.s V_14",
+              "IL_06bc: ldloca.s V_10",
+              "IL_06be: ldfld System.String Agakme.Predicate::Name@",
+              "IL_06c3: stloc.s V_15",
+              "IL_06c5: ldarg.1",
+              "IL_06c6: ldstr \"Ophelia %s \"",
+              "IL_06cb: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_06d0: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_06d5: ldloc.s V_8",
+              "IL_06d7: brfalse.s IL_06e1",
+              "IL_06d9: ldstr \"gains \"",
+              "IL_06de: nop",
+              "IL_06df: br.s IL_06e7",
+              "IL_06e1: ldstr \"loses \""
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "奥菲莉娅%s",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-604f8eb4a47a2ac9",
+    "source": "Ophelia learns more about ",
+    "source_sha256": "604f8eb4a47a2ac94f06caf87d8b26e8ce7abad2b7bd83c9a56eca98f455691f",
+    "normalized": "Ophelia learns more about",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0537"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0537",
+            "instructions": [
+              "IL_052d: ldfld System.String Agakme.Predicate::Name@",
+              "IL_0532: stloc.s V_15",
+              "IL_0534: ldloc.0",
+              "IL_0535: ldloc.1",
+              "IL_0536: ldarg.1",
+              "IL_0537: ldstr \"Ophelia learns more about \"",
+              "IL_053c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0541: call System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+              "IL_0546: ldstr \". Their Character Bio\"",
+              "IL_054b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0550: ldloc.s V_9",
+              "IL_0552: brfalse.s IL_055c",
+              "IL_0554: ldstr \"s\"",
+              "IL_0559: nop"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "奥菲莉娅进一步了解了",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-2c128aff02f4ecc1",
+    "source": "Ophelia learns more about <b>%s</b>. The entry will be updated in the <b>Journal</b>.",
+    "source_sha256": "2c128aff02f4ecc15101e3239694489a25a6b9b75015ab7a79d71f194356172f",
+    "normalized": "Ophelia learns more about <b>%s</b>. The entry will be updated in the <b>Journal</b>.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_05d5"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_05d5",
+            "instructions": [
+              "IL_05c6: ldloc.s V_20",
+              "IL_05c8: callvirt Elsinore.Game.Lead Elsinore.Game.LeadList::LeadOf(System.String)",
+              "IL_05cd: ldfld System.String Elsinore.Game.Lead::Slug@",
+              "IL_05d2: stloc.s V_29",
+              "IL_05d4: ldarg.1",
+              "IL_05d5: ldstr \"Ophelia learns more about <b>%s</b>. The entry will be updated in the <b>Journal</b>.\"",
+              "IL_05da: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_05df: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_05e4: ldloc.s V_29",
+              "IL_05e6: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_05eb: pop",
+              "IL_05ec: ret",
+              "IL_05ed: ldloc.s V_8",
+              "IL_05ef: brfalse IL_068f"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "奥菲莉娅进一步了解了<b>%s</b>。相关条目会在<b>日志</b>中更新。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-f1f26044372c0777",
+    "source": "Ophelia's current event is interrupted by a sudden interlude.",
+    "source_sha256": "f1f26044372c0777992dd080333078b71536faee6e48b3bd94f578dd79bb7911",
+    "normalized": "Ophelia's current event is interrupted by a sudden interlude.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "Agakme.Scripting.InterpreterResult[] ScheduleManager::appendAlertOnMandatoryEventInterrupt(Agakme.Scripting.InterpreterResult[])",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0011"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0011",
+            "instructions": [
+              "IL_0006: callvirt System.Int32 System.Collections.Generic.HashSet`1<Elsinore.Game.PEventId>::get_Count()",
+              "IL_000b: ldc.i4.0",
+              "IL_000c: ble.s IL_0073",
+              "IL_000e: ldarg.1",
+              "IL_000f: brfalse.s IL_0073",
+              "IL_0011: ldstr \"Ophelia's current event is interrupted by a sudden interlude.\"",
+              "IL_0016: newobj System.Void Agakme.Scripting.AlertAction::.ctor(System.String)",
+              "IL_001b: call Agakme.Scripting.RuntimeAction Agakme.Scripting.RuntimeAction::NewAlert(Agakme.Scripting.AlertAction)",
+              "IL_0020: ldc.i4.1",
+              "IL_0021: newarr System.Int32",
+              "IL_0026: dup",
+              "IL_0027: ldc.i4.0",
+              "IL_0028: ldc.i4.1",
+              "IL_0029: stelem.i4"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "奥菲莉娅当前参与的事件被突如其来的插曲打断了。",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-b3eb37acb66ba4bb",
+    "source": "Quit",
+    "source_sha256": "b3eb37acb66ba4bbe8fb1ba296815daf194be94f5a5fb50dab2fb5e4a57ba29e",
+    "normalized": "Quit",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 2,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.PauseUI::Awake()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0146"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0146",
+            "instructions": [
+              "IL_0135: ldarg.0",
+              "IL_0136: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.PauseUI::quitDialog",
+              "IL_013b: callvirt System.Void Elsinore.Ui.DialogBox::AddCloseButton()",
+              "IL_0140: ldarg.0",
+              "IL_0141: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.PauseUI::quitDialog",
+              "IL_0146: ldstr \"Quit\"",
+              "IL_014b: ldarg.0",
+              "IL_014c: ldftn System.Void Elsinore.Ui.PauseUI::onConfirmQuit()",
+              "IL_0152: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+              "IL_0157: ldstr \"Cancel\"",
+              "IL_015c: ldarg.0",
+              "IL_015d: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.PauseUI::quitDialog",
+              "IL_0162: callvirt System.Action Elsinore.Ui.DialogBox::get_CloseAction()",
+              "IL_0167: callvirt System.Void Elsinore.Ui.DialogBox::AddTwoHorizontalButtons(System.String,System.Action,System.String,System.Action)"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.PauseUI::Elsinore.Ui.IActivatableModalCanvas.Activate()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0049"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0049",
+            "instructions": [
+              "IL_003b: ldloc.0",
+              "IL_003c: ldarg.0",
+              "IL_003d: ldfld ImTheBoss Elsinore.Ui.PauseUI::boss",
+              "IL_0042: callvirt System.Boolean ImTheBoss::get_IsSaveEnabled()",
+              "IL_0047: brtrue.s IL_0050",
+              "IL_0049: ldstr \"Quit\"",
+              "IL_004e: br.s IL_0055",
+              "IL_0050: ldstr \"Save and Quit\"",
+              "IL_0055: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+              "IL_005a: ret",
+              "IL_005b: ldarg.0",
+              "IL_005c: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.PauseUI::SaveQuitButton",
+              "IL_0061: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+              "IL_0066: ldarg.0"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "退出",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-821f58b8a25a3585",
+    "source": "Rosie",
+    "source_sha256": "821f58b8a25a3585195081d3ac9032ddf2bc6cc7f5bc9088825785138c9b1fbd",
+    "normalized": "Rosie",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 3,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void GameDataGenerated::.ctor()",
+        "decision": "exclude",
+        "category": "generated_identifier",
+        "reason": "生成剧情的数据、跳转标签或控制参数；非本轮补译 UI",
+        "il_offsets": [
+          "IL_5b28"
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void PerfectDayDataGenerated::.ctor()",
+        "decision": "exclude",
+        "category": "generated_identifier",
+        "reason": "生成剧情的数据、跳转标签或控制参数；非本轮补译 UI",
+        "il_offsets": [
+          "IL_00b1"
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.String Elsinore.Ui.UiStrings::FormatShortCharacterName(Elsinore.Game.CharacterId)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0024"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0024",
+            "instructions": [
+              "IL_0015: ldloc.0",
+              "IL_0016: ldstr \"guildenstern\"",
+              "IL_001b: call System.Boolean System.String::op_Equality(System.String,System.String)",
+              "IL_0020: brtrue.s IL_002a",
+              "IL_0022: br.s IL_0030",
+              "IL_0024: ldstr \"Rosie\"",
+              "IL_0029: ret",
+              "IL_002a: ldstr \"Guilda\"",
+              "IL_002f: ret",
+              "IL_0030: call ObjectTracker ObjectTracker::get_Instance()",
+              "IL_0035: callvirt IGameInfo ObjectTracker::get_Info()",
+              "IL_003a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+              "IL_003f: callvirt Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::get_NameMap()",
+              "IL_0044: callvirt Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::get_Names()"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "罗茜",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-a1c4ab54ff42f517",
+    "source": "Sacrifice %s for %s",
+    "source_sha256": "a1c4ab54ff42f5170c7fab8cb1bc513d20f891a04c5dece14583de41b3ba9722",
+    "normalized": "Sacrifice %s for %s",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.String Elsinore.Game.Ending::get_SacrificeSlug()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0000"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0000",
+            "instructions": [
+              "IL_0000: ldstr \"Sacrifice %s for %s\"",
+              "IL_0005: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,System.String>>,Microsoft.FSharp.Core.Unit,System.String,System.String,System.Tuple`2<System.String,System.String>>::.ctor(System.String)",
+              "IL_000a: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringThen<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,System.String>>>(Microsoft.FSharp.Core.PrintfFormat`4<!!0,Microsoft.FSharp.Core.Unit,System.String,System.String>)",
+              "IL_000f: stloc.0",
+              "IL_0010: ldloc.0",
+              "IL_0011: newobj System.Void <StartupCode$Elsinore>.$GameData/get_SacrificeSlug@706::.ctor(Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,System.String>>)",
+              "IL_0016: ldarg.0",
+              "IL_0017: ldfld System.String Elsinore.Game.Ending::SacrificeWhat@",
+              "IL_001c: ldarg.0"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "牺牲%s，换取%s",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-cb4a5bf0e6d6fa89",
+    "source": "Special Thanks",
+    "source_sha256": "cb4a5bf0e6d6fa89aa74a9c7576cd513f3311ec1e866ad490005ab9f22385c1e",
+    "normalized": "Special Thanks",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0218"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0218",
+            "instructions": [
+              "IL_0207: call a[] Agakme.Scripting.JsonLoad::jloadArray<System.String>(System.Collections.Generic.Dictionary`2<System.Object,Agakme.IO.Json/JsonValue>,Agakme.IO.Json/JsonValue,System.String,Microsoft.FSharp.Core.FSharpFunc`2<Agakme.IO.Json/JsonValue,a>)",
+              "IL_020c: call System.String[] Elsinore.Game.Credits::alphaSort(System.String[])",
+              "IL_0211: call System.Void Elsinore.Game.Credits::threeColumnNames@71(System.Text.StringBuilder,System.String[])",
+              "IL_0216: nop",
+              "IL_0217: ldarg.0",
+              "IL_0218: ldstr \"Special Thanks\"",
+              "IL_021d: ldc.i4.1",
+              "IL_021e: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_0223: nop",
+              "IL_0224: ldnull",
+              "IL_0225: ldarg.1",
+              "IL_0226: ldstr \"thanks\"",
+              "IL_022b: newobj System.Void Elsinore.Game.Credits/formatCredits@116-7::.ctor()",
+              "IL_0230: call a[] Agakme.Scripting.JsonLoad::jloadArray<System.String>(System.Collections.Generic.Dictionary`2<System.Object,Agakme.IO.Json/JsonValue>,Agakme.IO.Json/JsonValue,System.String,Microsoft.FSharp.Core.FSharpFunc`2<Agakme.IO.Json/JsonValue,a>)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "特别鸣谢",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-08fd1de4b04df4a2",
+    "source": "Stay",
+    "source_sha256": "08fd1de4b04df4a2fe763ac67ade9d0fd7c65202c49be6adb5397717fa96504e",
+    "normalized": "Stay",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_019e"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_019e",
+            "instructions": [
+              "IL_0189: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+              "IL_018e: callvirt System.Void Elsinore.Ui.DialogBox::AddButton(System.String,System.Action)",
+              "IL_0193: ldloc.1",
+              "IL_0194: ldfld Elsinore.Ui.GenericDialogBoxUI Elsinore.Ui.EndingSelectUI/<>c__DisplayClass35_0::dialogCanvas",
+              "IL_0199: callvirt Elsinore.Ui.DialogBox Elsinore.Ui.GenericDialogBoxUI::get_Dialog()",
+              "IL_019e: ldstr \"Stay\"",
+              "IL_01a3: callvirt System.Void Elsinore.Ui.DialogBox::AddButtonWithDefaultCloseBehavior(System.String)",
+              "IL_01a8: ldarg.0",
+              "IL_01a9: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.EndingSelectUI::RevisitEndingButton",
+              "IL_01ae: callvirt UnityEngine.UI.Button/ButtonClickedEvent Elsinore.Ui.ElsinoreButton::get_OnClick()",
+              "IL_01b3: ldloc.1",
+              "IL_01b4: ldftn System.Void Elsinore.Ui.EndingSelectUI/<>c__DisplayClass35_0::<Awake>b__8()",
+              "IL_01ba: newobj System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)",
+              "IL_01bf: callvirt System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "留下",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-df0fe9e00d354b01",
+    "source": "Try Again",
+    "source_sha256": "df0fe9e00d354b01c502bf2d9c755a2b0d8a1ec3719a389d086ad2f8667ef8f4",
+    "normalized": "Try Again",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.GameOverUI::Awake()",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0065"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0065",
+            "instructions": [
+              "IL_0058: ldloc.0",
+              "IL_0059: ldstr \"Start over from Day 1?\"",
+              "IL_005e: callvirt TMPro.TextMeshProUGUI Elsinore.Ui.DialogBox::AddText(System.String)",
+              "IL_0063: pop",
+              "IL_0064: ldloc.0",
+              "IL_0065: ldstr \"Try Again\"",
+              "IL_006a: ldarg.0",
+              "IL_006b: ldftn System.Void Elsinore.Ui.GameOverUI::onResetLoop()",
+              "IL_0071: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+              "IL_0076: callvirt System.Void Elsinore.Ui.DialogBox::AddButton(System.String,System.Action)",
+              "IL_007b: ldarg.0",
+              "IL_007c: ldloc.0",
+              "IL_007d: stfld Elsinore.Ui.DialogBox Elsinore.Ui.GameOverUI::mundaneGameOverDialog",
+              "IL_0082: ldarg.0"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "再试一次",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-036c8218bf9caed9",
+    "source": "Uses Rewired © 2014 – 2020 Guavaman Enterprises. All rights reserved.\n",
+    "source_sha256": "036c8218bf9caed9505d6e06ee3907563385077b3417216316f7e49cc3e1c3ce",
+    "normalized": "Uses Rewired © 2014 – 2020 Guavaman Enterprises. All rights reserved.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02ce"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02ce",
+            "instructions": [
+              "IL_02bd: ldstr \"Uses Steamworks.NET © 2013 – 2020 Riley Labrecque, licensed under MIT license.\n\"",
+              "IL_02c2: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02c7: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02cc: pop",
+              "IL_02cd: ldarg.0",
+              "IL_02ce: ldstr \"Uses Rewired © 2014 – 2020 Guavaman Enterprises. All rights reserved.\n\"",
+              "IL_02d3: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02d8: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02dd: pop",
+              "IL_02de: ldarg.0",
+              "IL_02df: ldstr \"Button icons by Nicolae Berbece, licensed under CC0.\n\"",
+              "IL_02e4: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02e9: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02ee: pop"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "使用 Rewired © 2014 – 2020 Guavaman Enterprises. 保留所有权利。\n",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-4d48604bba80c2cd",
+    "source": "Uses Steamworks.NET © 2013 – 2020 Riley Labrecque, licensed under MIT license.\n",
+    "source_sha256": "4d48604bba80c2cd0bac675b726b4b67a848df9955d1703c317994724fe2e846",
+    "normalized": "Uses Steamworks.NET © 2013 – 2020 Riley Labrecque, licensed under MIT license.",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_02bd"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_02bd",
+            "instructions": [
+              "IL_02b0: ldstr \"\"",
+              "IL_02b5: ldc.i4.1",
+              "IL_02b6: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_02bb: nop",
+              "IL_02bc: ldarg.0",
+              "IL_02bd: ldstr \"Uses Steamworks.NET © 2013 – 2020 Riley Labrecque, licensed under MIT license.\n\"",
+              "IL_02c2: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02c7: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02cc: pop",
+              "IL_02cd: ldarg.0",
+              "IL_02ce: ldstr \"Uses Rewired © 2014 – 2020 Guavaman Enterprises. All rights reserved.\n\"",
+              "IL_02d3: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.Unit,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>::.ctor(System.String)",
+              "IL_02d8: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.Unit>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_02dd: pop"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "使用 Steamworks.NET © 2013 – 2020 Riley Labrecque，采用 MIT 许可。\n",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-92d3f5882054a793",
+    "source": "Ver. %s%s%s [%s]",
+    "source_sha256": "92d3f5882054a79322a4df8127ae761a99621372d706e6479b7e426c62af4d76",
+    "normalized": "Ver. %s%s%s [%s]",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatBuildVersion(System.Text.StringBuilder,Elsinore.Game.GameConfig)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0081"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0081",
+            "instructions": [
+              "IL_0077: br.s IL_007f",
+              "IL_0079: ldstr \"\"",
+              "IL_007e: nop",
+              "IL_007f: stloc.3",
+              "IL_0080: ldarg.0",
+              "IL_0081: ldstr \"Ver. %s%s%s [%s]\"",
+              "IL_0086: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>>>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.Tuple`4<System.String,System.String,System.String,System.String>>::.ctor(System.String)",
+              "IL_008b: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>>>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_0090: stloc.s V_4",
+              "IL_0092: ldloc.s V_4",
+              "IL_0094: newobj System.Void Elsinore.Game.Model/formatBuildVersion@631::.ctor(Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>>>)",
+              "IL_0099: ldarg.1",
+              "IL_009a: callvirt System.String Elsinore.Game.GameConfig::get_BuildVerision()",
+              "IL_009f: ldloc.2"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "版本 %s%s%s [%s]",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-bd1a768757b5c1a3",
+    "source": "Voice Actors",
+    "source_sha256": "bd1a768757b5c1a33655c159bd4c833964428ec0eb016b17466d5e6c2b52ba67",
+    "normalized": "Voice Actors",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Credits::formatCredits(System.Text.StringBuilder,Agakme.IO.Json/JsonValue)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_00af"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_00af",
+            "instructions": [
+              "IL_00a9: ldloc.1",
+              "IL_00aa: ldlen",
+              "IL_00ab: conv.i4",
+              "IL_00ac: blt.s IL_0085",
+              "IL_00ae: ldarg.0",
+              "IL_00af: ldstr \"Voice Actors\"",
+              "IL_00b4: ldc.i4.1",
+              "IL_00b5: call System.Void Elsinore.Game.Credits::header@47-1(System.Text.StringBuilder,System.String,System.Boolean)",
+              "IL_00ba: nop",
+              "IL_00bb: ldnull",
+              "IL_00bc: ldarg.1",
+              "IL_00bd: ldstr \"actors\"",
+              "IL_00c2: newobj System.Void Elsinore.Game.Credits/formatCredits@94-2::.ctor()",
+              "IL_00c7: call a[] Agakme.Scripting.JsonLoad::jloadArray<Agakme.IO.Json/JsonValue>(System.Collections.Generic.Dictionary`2<System.Object,Agakme.IO.Json/JsonValue>,Agakme.IO.Json/JsonValue,System.String,Microsoft.FSharp.Core.FSharpFunc`2<Agakme.IO.Json/JsonValue,a>)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "配音演员",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-c0a6cc829cd08735",
+    "source": "Wednesday",
+    "source_sha256": "c0a6cc829cd08735294765c75938a7da2b0f222d52e98bff13cb237cd99deaac",
+    "normalized": "Wednesday",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 2,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.String Elsinore.Ui.UiStrings::FormatTimeString(Elsinore.Game.GameClock)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_001f"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_001f",
+            "instructions": [
+              "IL_0017: beq.s IL_001f",
+              "IL_0019: ldloc.0",
+              "IL_001a: ldc.i4.2",
+              "IL_001b: beq.s IL_0025",
+              "IL_001d: br.s IL_002b",
+              "IL_001f: ldstr \"Wednesday\"",
+              "IL_0024: ret",
+              "IL_0025: ldstr \"Epilogue\"",
+              "IL_002a: ret",
+              "IL_002b: ldarga.s time",
+              "IL_002d: call System.String Elsinore.Game.GameClock::get_AsStringWithDayOfWeek()",
+              "IL_0032: ret"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.UiStrings::FormatTimeString(System.Text.StringBuilder,Elsinore.Game.GameClock)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0020"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0020",
+            "instructions": [
+              "IL_0019: ldloc.0",
+              "IL_001a: ldc.i4.2",
+              "IL_001b: beq.s IL_002c",
+              "IL_001d: br.s IL_0039",
+              "IL_001f: ldarg.0",
+              "IL_0020: ldstr \"Wednesday\"",
+              "IL_0025: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_002a: pop",
+              "IL_002b: ret",
+              "IL_002c: ldarg.0",
+              "IL_002d: ldstr \"Epilogue\"",
+              "IL_0032: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0037: pop",
+              "IL_0038: ret"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "星期三",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-427a379ae3e6b749",
+    "source": "and ",
+    "source_sha256": "427a379ae3e6b749a8893bac35e20ab8dadb124ee64a5c615c3548f05ae44017",
+    "normalized": "and",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 2,
+    "usages": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "owner": "System.Void Elsinore.Ui.UiStrings::FormatList(System.Text.StringBuilder,System.Func`2<T,System.String>,System.Collections.Generic.IReadOnlyList`1<T>)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0082"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0082",
+            "instructions": [
+              "IL_0078: callvirt System.Int32 System.Collections.Generic.IReadOnlyCollection`1<T>::get_Count()",
+              "IL_007d: ldc.i4.1",
+              "IL_007e: sub",
+              "IL_007f: bne.un.s IL_008d",
+              "IL_0081: ldarg.0",
+              "IL_0082: ldstr \"and \"",
+              "IL_0087: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_008c: pop",
+              "IL_008d: ldarg.0",
+              "IL_008e: ldarg.1",
+              "IL_008f: ldarg.2",
+              "IL_0090: ldloc.1",
+              "IL_0091: callvirt !0 System.Collections.Generic.IReadOnlyList`1<T>::get_Item(System.Int32)",
+              "IL_0096: callvirt !1 System.Func`2<T,System.String>::Invoke(!0)"
+            ]
+          }
+        ]
+      },
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_00a9"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_00a9",
+            "instructions": [
+              "IL_00a3: conv.i4",
+              "IL_00a4: ldc.i4.2",
+              "IL_00a5: sub",
+              "IL_00a6: bne.un.s IL_00b7",
+              "IL_00a8: ldarg.2",
+              "IL_00a9: ldstr \"and \"",
+              "IL_00ae: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_00b3: stloc.1",
+              "IL_00b4: nop",
+              "IL_00b5: br.s IL_00b8",
+              "IL_00b7: nop",
+              "IL_00b8: ldloc.2",
+              "IL_00b9: ldc.i4.1",
+              "IL_00ba: add"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "和",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-cbb551c517ed8e43",
+    "source": "believe that ",
+    "source_sha256": "cbb551c517ed8e43cbea892eaab926e4cd6345926e62ba1814677d217415b30f",
+    "normalized": "believe that",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0160"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0160",
+            "instructions": [
+              "IL_0151: ldarg.1",
+              "IL_0152: call System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+              "IL_0157: call System.Text.StringBuilder Elsinore.Game.Model::posstr@551(System.Text.StringBuilder,System.Boolean,System.Text.StringBuilder)",
+              "IL_015c: ldloc.s V_9",
+              "IL_015e: brfalse.s IL_0168",
+              "IL_0160: ldstr \"believe that \"",
+              "IL_0165: nop",
+              "IL_0166: br.s IL_016e",
+              "IL_0168: ldstr \"believes that \"",
+              "IL_016d: nop",
+              "IL_016e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0173: call System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+              "IL_0178: ldstr \".\"",
+              "IL_017d: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "相信",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-61ed8cded694d54e",
+    "source": "believes that ",
+    "source_sha256": "61ed8cded694d54ec435a9d3701fb0636761fcce2990dba1c35ac2d898a63112",
+    "normalized": "believes that",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0168"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0168",
+            "instructions": [
+              "IL_015c: ldloc.s V_9",
+              "IL_015e: brfalse.s IL_0168",
+              "IL_0160: ldstr \"believe that \"",
+              "IL_0165: nop",
+              "IL_0166: br.s IL_016e",
+              "IL_0168: ldstr \"believes that \"",
+              "IL_016d: nop",
+              "IL_016e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0173: call System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+              "IL_0178: ldstr \".\"",
+              "IL_017d: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0182: stloc.s V_16",
+              "IL_0184: ret",
+              "IL_0185: ldloc.s V_8"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "相信",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-40bb3baaf5d0fc9a",
+    "source": "gains ",
+    "source_sha256": "40bb3baaf5d0fc9ab8a9b30a4465e1a4be47294986e4fbfb95d40cf7ff40c64e",
+    "normalized": "gains",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_06d9"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_06d9",
+            "instructions": [
+              "IL_06c6: ldstr \"Ophelia %s \"",
+              "IL_06cb: newobj System.Void Microsoft.FSharp.Core.PrintfFormat`5<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit,System.String>::.ctor(System.String)",
+              "IL_06d0: call !!0 Microsoft.FSharp.Core.PrintfModule::PrintFormatToStringBuilder<Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>>(System.Text.StringBuilder,Microsoft.FSharp.Core.PrintfFormat`4<!!0,System.Text.StringBuilder,Microsoft.FSharp.Core.Unit,Microsoft.FSharp.Core.Unit>)",
+              "IL_06d5: ldloc.s V_8",
+              "IL_06d7: brfalse.s IL_06e1",
+              "IL_06d9: ldstr \"gains \"",
+              "IL_06de: nop",
+              "IL_06df: br.s IL_06e7",
+              "IL_06e1: ldstr \"loses \"",
+              "IL_06e6: nop",
+              "IL_06e7: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_06ec: pop",
+              "IL_06ed: ldarg.0",
+              "IL_06ee: ldloc.s V_14"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "获得",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-cb9603cfe5cb55e3",
+    "source": "loses ",
+    "source_sha256": "cb9603cfe5cb55e33d1fe0dddd03b5875022a90bd4973f7682daaa22cee2ad3c",
+    "normalized": "loses",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_06e1"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_06e1",
+            "instructions": [
+              "IL_06d5: ldloc.s V_8",
+              "IL_06d7: brfalse.s IL_06e1",
+              "IL_06d9: ldstr \"gains \"",
+              "IL_06de: nop",
+              "IL_06df: br.s IL_06e7",
+              "IL_06e1: ldstr \"loses \"",
+              "IL_06e6: nop",
+              "IL_06e7: callvirt !1 Microsoft.FSharp.Core.FSharpFunc`2<System.String,Microsoft.FSharp.Core.Unit>::Invoke(!0)",
+              "IL_06ec: pop",
+              "IL_06ed: ldarg.0",
+              "IL_06ee: ldloc.s V_14",
+              "IL_06f0: ldarg.1",
+              "IL_06f1: call System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+              "IL_06f6: ldstr \".\""
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "失去",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-4b00b1b86bfdb5b2",
+    "source": "to ",
+    "source_sha256": "4b00b1b86bfdb5b29032e1b1fe199a2b85fedc2c2a9bf1345a9880080c7c7a85",
+    "normalized": "to",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm$cont@531(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder,Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.Unit)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_0061"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_0061",
+            "instructions": [
+              "IL_0057: stloc.3",
+              "IL_0058: ldloc.2",
+              "IL_0059: call !0 Microsoft.FSharp.Core.FSharpOption`1<System.String>::get_Value()",
+              "IL_005e: stloc.s V_4",
+              "IL_0060: ldarg.2",
+              "IL_0061: ldstr \"to \"",
+              "IL_0066: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_006b: ldloc.3",
+              "IL_006c: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0071: ldstr \" \"",
+              "IL_0076: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_007b: ldarg.3",
+              "IL_007c: ldfld Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::NameMap@",
+              "IL_0081: ldfld Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::Names@"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "向",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-d4399d6f82a1135f",
+    "source": "want ",
+    "source_sha256": "d4399d6f82a1135fbcbfa0c86a98ea5c58fd46083330c6d3fd43d974152b042f",
+    "normalized": "want",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_00ee"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_00ee",
+            "instructions": [
+              "IL_00df: ldarg.1",
+              "IL_00e0: call System.Text.StringBuilder Elsinore.Game.Model::formatCharacters(Elsinore.Game.ElsinoreData,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.CharacterId>[],System.Text.StringBuilder)",
+              "IL_00e5: call System.Text.StringBuilder Elsinore.Game.Model::posstr@551(System.Text.StringBuilder,System.Boolean,System.Text.StringBuilder)",
+              "IL_00ea: ldloc.s V_9",
+              "IL_00ec: brfalse.s IL_00f6",
+              "IL_00ee: ldstr \"want \"",
+              "IL_00f3: nop",
+              "IL_00f4: br.s IL_00fc",
+              "IL_00f6: ldstr \"wants \"",
+              "IL_00fb: nop",
+              "IL_00fc: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0101: call System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+              "IL_0106: ldstr \".\"",
+              "IL_010b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "想要",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  },
+  {
+    "id": "asm-8aa82120cba70037",
+    "source": "wants ",
+    "source_sha256": "8aa82120cba70037e60a80635f0cad8b73c93133304607fa6ccea7c48d17bc1b",
+    "normalized": "wants",
+    "contains_english": true,
+    "covered_by": [],
+    "decision": "translate",
+    "occurrence_count": 1,
+    "usages": [
+      {
+        "assembly": "Elsinore.dll",
+        "owner": "System.Void Elsinore.Game.Model::formatGroupedLiterals(Elsinore.Game.GameState,System.Text.StringBuilder,Agakme.Scripting.GroupedLiterals)",
+        "decision": "translate",
+        "category": "player_ui",
+        "reason": "玩家可见按钮、提示、人物状态或运行时语言片段；依据真实方法消费纳入",
+        "il_offsets": [
+          "IL_00f6"
+        ],
+        "contexts": [
+          {
+            "il_offset": "IL_00f6",
+            "instructions": [
+              "IL_00ea: ldloc.s V_9",
+              "IL_00ec: brfalse.s IL_00f6",
+              "IL_00ee: ldstr \"want \"",
+              "IL_00f3: nop",
+              "IL_00f4: br.s IL_00fc",
+              "IL_00f6: ldstr \"wants \"",
+              "IL_00fb: nop",
+              "IL_00fc: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0101: call System.Text.StringBuilder Elsinore.Game.Model::formatElsinoreTerm(Elsinore.Game.GameState,Agakme.GroundTerm,System.Text.StringBuilder)",
+              "IL_0106: ldstr \".\"",
+              "IL_010b: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+              "IL_0110: stloc.s V_16",
+              "IL_0112: ret",
+              "IL_0113: ldloc.s V_11"
+            ]
+          }
+        ]
+      }
+    ],
+    "suggested_target": "想要",
+    "implementation_note": "片段/模板优先定向拦截格式器或完整输出；不得全局替换内部标识，不把 ldstr 模板词表覆盖误说成拼接整句已覆盖"
+  }
+]

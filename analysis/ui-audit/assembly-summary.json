@@ -1,0 +1,73 @@
+{
+  "source_assemblies": [
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Elsinore.dll",
+      "sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4"
+    }
+  ],
+  "translations_sha256": "7229d480f1bf0dfdde52b2b041156def64a88a56d7134f2d705652af794ca79d",
+  "normalization": "仅折叠空白并 trim，保留大小写、富文本、标点；不设词数/长度门槛",
+  "ldstr_occurrences": 93955,
+  "unique_strings": 21619,
+  "unique_english_strings": 21516,
+  "decisions": {
+    "exclude": 6663,
+    "translate": 81,
+    "covered": 14815,
+    "reuse_existing": 60
+  },
+  "english_decisions": {
+    "exclude": 6560,
+    "translate": 81,
+    "covered": 14815,
+    "reuse_existing": 60
+  },
+  "excluded_categories": {
+    "format_only": 255,
+    "third_party_demo": 162,
+    "developer_debug_ui": 31,
+    "technical_non_ui": 1264,
+    "technical_repr": 67,
+    "runtime_log": 184,
+    "internal_identifier": 264,
+    "logic_or_scheduler_diagnostic": 257,
+    "technical_template": 1,
+    "credits_data_key": 17,
+    "generated_identifier": 17262,
+    "ui_internal_identifier": 123,
+    "engine_diagnostic": 284,
+    "exception_message": 361,
+    "unused_legacy_formatter": 1,
+    "ui_technical_diagnostic": 6,
+    "overwritten_ui_test_placeholder": 1,
+    "logic_identifier": 6,
+    "english_alias_lookup": 20,
+    "dialogue_control_tag": 1,
+    "unused_ui_test_dialog": 1
+  },
+  "scope": "静态覆盖审核，不启动游戏、不接触存档、不重译正文、不调用网络或付费模型",
+  "dynamic_display_paths": [
+    {
+      "owner": "Elsinore.Ui.UiStrings::FormatRoomId",
+      "source_field": "RoomMarker.playerFacingName",
+      "note": "地图/时间线房间显示名来自场景字段，names.locations 是内部ID"
+    },
+    {
+      "owner": "ObservableSceneObject::Elsinore.Ui.IInteractable.get_Tooltip",
+      "source_field": "ObservableSceneObject.ObjectName",
+      "note": "物品tooltip直接读取场景字段，names.observables不能当显示名翻译"
+    }
+  ],
+  "evidence": "assembly-ui-paths.il.txt",
+  "review_limits": "未确定可见的字符串保留 uncertain；covered 表示现有规范化源词表命中，不等于动态拼接整句或像素显示验证通过",
+  "uncertain_categories": {},
+  "dialogue_existing_candidate_matches": 0,
+  "existing_format_aliases": 60,
+  "existing_format_alias_file": "assembly-existing-aliases.json",
+  "placeholder_review_evidence": "assembly-placeholder-paths.il.txt",
+  "existing_format_alias_policy": "只复用冻结译文；中文意义和标点不改，只按真实原文补整句外层斜体；不会覆盖冻结raw或原translations.json"
+}

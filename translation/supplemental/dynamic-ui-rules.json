@@ -1,0 +1,282 @@
+[
+  {
+    "id": "ui-rule-clock",
+    "pattern": "^(?<day>(?:Wednesday|Thursday|Friday|Saturday|Sunday)), (?<clock_i>(?:[01]?[0-9]|2[0-3]):[0-5][0-9])\\z$",
+    "replacement": "${day} ${clock_i}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-location",
+    "pattern": "^(?<room>(?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Polonius's\\ Chambers|Claudius's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Laertes's\\ Chambers|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Guard\\ House|The\\ Forest\\ Path|The\\ Great\\ Hall|A\\ Dungeon\\ Cell|The\\ Upper\\ Deck|Upper\\ Hallway|Lower\\ Hallway|The\\ Graveyard|The\\ Courtyard|The\\ Main\\ Deck|Lower\\ Garden|The\\ Landing|The\\ Kitchen|The\\ Dungeon|The\\ Grounds|The\\ Chapel|The\\ Walls|The\\ Docks|Shack|Limbo))(?<bullet_i> •)\\z$",
+    "replacement": "${room}${bullet_i}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-paragraph",
+    "pattern": "^(?<left>[\\s\\S]+?)(?<separator_i>\\n?<line-height=40%>\\n<line-height=90%>)(?<right>[\\s\\S]+)\\z$",
+    "replacement": "${left}${separator_i}${right}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-line-height",
+    "pattern": "^(?<tag_i><line-height=90%>)(?<body>[\\s\\S]+)\\z$",
+    "replacement": "${tag_i}${body}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-bold",
+    "pattern": "^(?<open_i><b>)(?<body>[^<>]+)(?<close_i></b>)\\z$",
+    "replacement": "${open_i}${body}${close_i}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-prefix-future",
+    "pattern": "^Future\\ event: (?<event>[\\s\\S]+)\\z$",
+    "replacement": "未来事件：${event}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-prefix-unlikely",
+    "pattern": "^Unlikely\\ event: (?<event>[\\s\\S]+)\\z$",
+    "replacement": "不太可能发生的事件：${event}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-prefix-impossible",
+    "pattern": "^Impossible\\ event: (?<event>[\\s\\S]+)\\z$",
+    "replacement": "无法发生的事件：${event}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-opener",
+    "pattern": "^(?<when>(?:(?:Wednesday|Thursday|Friday|Saturday|Sunday), (?:[01]?[0-9]|2[0-3]):[0-5][0-9]|Wednesday|Epilogue) in (?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Polonius's\\ Chambers|Claudius's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Laertes's\\ Chambers|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Guard\\ House|The\\ Forest\\ Path|The\\ Great\\ Hall|A\\ Dungeon\\ Cell|The\\ Upper\\ Deck|Upper\\ Hallway|Lower\\ Hallway|The\\ Graveyard|The\\ Courtyard|The\\ Main\\ Deck|Lower\\ Garden|The\\ Landing|The\\ Kitchen|The\\ Dungeon|The\\ Grounds|The\\ Chapel|The\\ Walls|The\\ Docks|Shack|Limbo)), <i>in which</i> (?<event>[\\s\\S]+)\\z$",
+    "replacement": "${when}，<i>事件：</i>${event}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-opener-bold",
+    "pattern": "^(?<when><b>(?:(?:Wednesday|Thursday|Friday|Saturday|Sunday), (?:[01]?[0-9]|2[0-3]):[0-5][0-9]|Wednesday|Epilogue) in (?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Polonius's\\ Chambers|Claudius's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Laertes's\\ Chambers|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Guard\\ House|The\\ Forest\\ Path|The\\ Great\\ Hall|A\\ Dungeon\\ Cell|The\\ Upper\\ Deck|Upper\\ Hallway|Lower\\ Hallway|The\\ Graveyard|The\\ Courtyard|The\\ Main\\ Deck|Lower\\ Garden|The\\ Landing|The\\ Kitchen|The\\ Dungeon|The\\ Grounds|The\\ Chapel|The\\ Walls|The\\ Docks|Shack|Limbo)</b>), <i>in which</i> (?<event>[\\s\\S]+)\\z$",
+    "replacement": "${when}，<i>事件：</i>${event}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-opener-no-room",
+    "pattern": "^(?<when>(?:(?:Wednesday|Thursday|Friday|Saturday|Sunday), (?:[01]?[0-9]|2[0-3]):[0-5][0-9]|Wednesday|Epilogue)), <i>in which</i> (?<event>[\\s\\S]+)\\z$",
+    "replacement": "${when}，<i>事件：</i>${event}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-time-and-room",
+    "pattern": "^(?<when>(?:(?:Wednesday|Thursday|Friday|Saturday|Sunday), (?:[01]?[0-9]|2[0-3]):[0-5][0-9]|Wednesday|Epilogue)) in (?<room>(?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Polonius's\\ Chambers|Claudius's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Laertes's\\ Chambers|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Guard\\ House|The\\ Forest\\ Path|The\\ Great\\ Hall|A\\ Dungeon\\ Cell|The\\ Upper\\ Deck|Upper\\ Hallway|Lower\\ Hallway|The\\ Graveyard|The\\ Courtyard|The\\ Main\\ Deck|Lower\\ Garden|The\\ Landing|The\\ Kitchen|The\\ Dungeon|The\\ Grounds|The\\ Chapel|The\\ Walls|The\\ Docks|Shack|Limbo))\\z$",
+    "replacement": "${when}，${room}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-including",
+    "pattern": "^Including (?<people>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)(?: and (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)|(?:, (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))+, and (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))?)\\.\\z$",
+    "replacement": "参与者：${people}。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-names-oxford",
+    "pattern": "^(?<first>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)(?:, (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))*), and (?<last>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))\\z$",
+    "replacement": "${first}和${last}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-names-commas",
+    "pattern": "^(?<first>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)), (?<rest>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)(?:, (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))*)\\z$",
+    "replacement": "${first}、${rest}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-names_two",
+    "pattern": "^(?<first>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)) and (?<last>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))\\z$",
+    "replacement": "${first}和${last}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-names_final",
+    "pattern": "^and (?<last>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))\\z$",
+    "replacement": "和${last}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-npc-state",
+    "pattern": "^(?<name>(?:(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)|<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>))(?<state> \\((?:Dead|Shattered|Upset|Busy)\\))\\z$",
+    "replacement": "${name}${state}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-bold-names-two",
+    "pattern": "^(?<first><b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>) and (?<last><b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)\\z$",
+    "replacement": "${first}和${last}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-bold-names-oxford",
+    "pattern": "^(?<first><b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)*), and (?<last><b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)\\z$",
+    "replacement": "${first}和${last}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-bold-names-commas",
+    "pattern": "^(?<first><b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>), (?<rest><b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)*)\\z$",
+    "replacement": "${first}、${rest}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-title",
+    "pattern": "^<b>Outcome:</b>\\n(?<body>[\\s\\S]+)\\z$",
+    "replacement": "<b>结果：</b>\n${body}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-title-trailing",
+    "pattern": "^<b>Outcome:</b>\\n(?<body>[\\s\\S]+?)(?<trailing_i>\\n+)\\z$",
+    "replacement": "<b>结果：</b>\n${body}${trailing_i}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-lines",
+    "pattern": "^(?<left>(?:(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?) (?:dies\\.|die\\.|(?:shatters|shatter) and will not recover\\.|(?:becomes|become) upset but will recover overnight\\.|(?:now|no longer) (?:wants|want|believes that|believe that) [^\r\n]+\\.)))(?<newline_i>\n)(?<right>(?:(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?) (?:dies\\.|die\\.|(?:shatters|shatter) and will not recover\\.|(?:becomes|become) upset but will recover overnight\\.|(?:now|no longer) (?:wants|want|believes that|believe that) [^\r\n]+\\.))(?:\n(?:(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?) (?:dies\\.|die\\.|(?:shatters|shatter) and will not recover\\.|(?:becomes|become) upset but will recover overnight\\.|(?:now|no longer) (?:wants|want|believes that|believe that) [^\r\n]+\\.)))*\n?)\\z$",
+    "replacement": "${left}${newline_i}${right}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-final-newline",
+    "pattern": "^(?<body>(?:(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?) (?:dies\\.|die\\.|(?:shatters|shatter) and will not recover\\.|(?:becomes|become) upset but will recover overnight\\.|(?:now|no longer) (?:wants|want|believes that|believe that) [^\r\n]+\\.)))(?<newline_i>\n)\\z$",
+    "replacement": "${body}${newline_i}",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-state-25",
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) (?:dies|die)\\.\\z$",
+    "replacement": "${people}死去了。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-state-26",
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) (?:shatters|shatter) and will not recover\\.\\z$",
+    "replacement": "${people}精神崩溃，无法恢复。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-state-27",
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) (?:becomes|become) upset but will recover overnight\\.\\z$",
+    "replacement": "${people}心烦意乱，但过一夜就会恢复。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-belief-28",
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) now (?:wants|want) (?<term>[^\r\n]+)\\.\\z$",
+    "replacement": "${people}现在想要${term}。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-belief-29",
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) now (?:believes that|believe that) (?<term>[^\r\n]+)\\.\\z$",
+    "replacement": "${people}现在相信${term}。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-belief-30",
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) no longer (?:wants|want) (?<term>[^\r\n]+)\\.\\z$",
+    "replacement": "${people}不再想要${term}。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-outcome-belief-31",
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) no longer (?:believes that|believe that) (?<term>[^\r\n]+)\\.\\z$",
+    "replacement": "${people}不再相信${term}。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-bio-updated",
+    "pattern": "^Ophelia learns more about (?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?))\\. Their Character Bios? will be updated in the <b>Journal</b>\\.\\z$",
+    "replacement": "奥菲莉娅进一步了解了${people}。<b>笔记</b>中的人物资料会随之更新。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-gains-term",
+    "pattern": "^Ophelia gains  (?<term>[^\\r\\n]+)\\.\\z$",
+    "replacement": "奥菲莉娅获得了${term}。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  },
+  {
+    "id": "ui-rule-loses-term",
+    "pattern": "^Ophelia loses  (?<term>[^\\r\\n]+)\\.\\z$",
+    "replacement": "奥菲莉娅失去了${term}。",
+    "origins": [
+      "analysis/ui-audit/dynamic-ui-sources.json"
+    ]
+  }
+]

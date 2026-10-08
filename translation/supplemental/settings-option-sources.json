@@ -1,0 +1,201 @@
+{
+  "schema_version": 1,
+  "verified_at": "2026-10-09",
+  "verification_method": "只读解析 Mono.Cecil 元数据与 IL，并解析 Unity globalgamemanagers 序列化对象表；未运行游戏、未读取存档正文。",
+  "source_files": {
+    "assembly_csharp": {
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    "elsinore": {
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Elsinore.dll",
+      "sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4"
+    },
+    "globalgamemanagers": {
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/globalgamemanagers",
+      "sha256": "acf975181532f294576ab9de7453fe9648eb779fffa465eeb1596588779e45a2"
+    }
+  },
+  "settings": [
+    {
+      "id": "text_speed",
+      "ui_field_path": "Elsinore.Ui.PreferencesUI.gameUi.TextSpeed",
+      "ui_type": "Elsinore.Ui.NominalValueSlider",
+      "source_values": ["Normal", "Faster", "Fastest", "Instant"],
+      "source_method": "Elsinore.Ui.DialogueUI::.cctor()",
+      "source_file": "assembly_csharp",
+      "value_il_offsets": ["IL_001e", "IL_0026", "IL_002e", "IL_0036"],
+      "value_constructor_offset": "IL_0053",
+      "accessor_field": "Elsinore.Ui.DialogueUI::TextSpeedPreference",
+      "ui_binding_method": "Elsinore.Ui.PreferencesUI::Awake()",
+      "ui_binding_offset": "IL_011b",
+      "enum_type": "Elsinore.Game.Preference.TextSpeed",
+      "enum_file": "elsinore",
+      "enum_values": {"Normal": 0, "Fast": 1, "Fastest": 2, "Instant": 3},
+      "notes": "界面显示 Faster，内部枚举名却为 Fast，不能用枚举名代替界面源文。"
+    },
+    {
+      "id": "costumes",
+      "ui_field_path": "Elsinore.Ui.PreferencesUI.gameUi.AlternateCostumes",
+      "ui_type": "Elsinore.Ui.NominalValueSlider",
+      "source_values": ["Default", "Modern"],
+      "source_method": "CharacterMovement::.cctor()",
+      "source_file": "assembly_csharp",
+      "value_il_offsets": ["IL_0233", "IL_023b"],
+      "value_constructor_offset": "IL_0251",
+      "accessor_field": "CharacterMovement::CostumePreference",
+      "ui_binding_method": "Elsinore.Ui.PreferencesUI::Awake()",
+      "ui_binding_offset": "IL_013d",
+      "enum_type": "Elsinore.Game.Preference.Costumes",
+      "enum_file": "elsinore",
+      "enum_values": {"Default": 0, "Modern": 1}
+    },
+    {
+      "id": "quality",
+      "ui_field_path": "Elsinore.Ui.PreferencesUI.graphicsUi.Quality",
+      "ui_type": "Elsinore.Ui.NominalValueSlider",
+      "source_values": ["Low", "Medium", "High"],
+      "source_method": "Elsinore.GraphicsPreferenceManager::CreateQuality()",
+      "source_file": "assembly_csharp",
+      "value_source_call": "UnityEngine.QualitySettings::get_names()",
+      "value_source_offset": "IL_0007",
+      "value_constructor_offset": "IL_005f",
+      "accessor_property": "Elsinore.GraphicsPreferenceManager::QualityPreference",
+      "ui_binding_method": "Elsinore.Ui.PreferencesUI::Awake()",
+      "ui_binding_offset": "IL_008a",
+      "serialized_evidence": {
+        "source_file": "globalgamemanagers",
+        "serialized_file_version": 17,
+        "unity_version": "2018.4.20f1",
+        "type_tree_present": false,
+        "data_offset": 4096,
+        "object_class_id": 47,
+        "object_type": "QualitySettings",
+        "object_path_id": 12,
+        "object_absolute_offset": 88328,
+        "object_size": 400,
+        "object_end_exclusive": 88728,
+        "current_quality_offset": 88328,
+        "current_quality": 0,
+        "quality_count_offset": 88332,
+        "quality_count": 3,
+        "length_prefixed_strings": [
+          {"value": "Low", "length_offset": 88336, "string_offset": 88340, "length": 3},
+          {"value": "Medium", "length_offset": 88464, "string_offset": 88468, "length": 6},
+          {"value": "High", "length_offset": 88596, "string_offset": 88600, "length": 4}
+        ]
+      },
+      "notes": "画质标签来自实际 Unity 配置对象，不是 Assembly-CSharp 字符串常量或枚举。"
+    },
+    {
+      "id": "screen_mode",
+      "ui_field_path": "Elsinore.Ui.PreferencesUI.graphicsUi.ScreenMode",
+      "ui_type": "Elsinore.Ui.NominalValueSlider",
+      "source_values": ["Windowed", "Borderless", "Fullscreen"],
+      "source_method": "Elsinore.GraphicsPreferenceManager::CreateScreenMode()",
+      "source_file": "assembly_csharp",
+      "value_il_offsets": ["IL_0008", "IL_0010", "IL_0018"],
+      "value_constructor_offset": "IL_0032",
+      "accessor_property": "Elsinore.GraphicsPreferenceManager::ScreenModePreference",
+      "ui_binding_method": "Elsinore.Ui.PreferencesUI::Awake()",
+      "ui_binding_offset": "IL_00ce",
+      "enum_type": "Elsinore.Game.SystemConfig.ScreenMode",
+      "enum_file": "elsinore",
+      "enum_values": {"Windowed": 0, "Full": 1, "Borderless": 2},
+      "ui_value_enum_numbers": [0, 2, 1],
+      "notes": "界面顺序与内部枚举顺序不同，Fullscreen 对应内部 Full=1。"
+    },
+    {
+      "id": "resolution",
+      "ui_field_path": "Elsinore.Ui.PreferencesUI.graphicsUi.Resolution",
+      "ui_type": "Elsinore.Ui.NominalValueSlider",
+      "source_values": [],
+      "special_source_values": ["Native"],
+      "source_method": "Elsinore.GraphicsPreferenceManager::CreateResolution()",
+      "source_file": "assembly_csharp",
+      "value_source_call": "UnityEngine.Screen::get_resolutions()",
+      "value_source_offset": "IL_000e",
+      "label_method": "Elsinore.GraphicsPreferenceManager/<>c::<CreateResolution>b__16_2(Elsinore.Game.SystemConfig.Resolution)",
+      "label_call_offset": "IL_0008",
+      "label_format_method": "Elsinore.Game.SystemConfig.Resolution::ToString()",
+      "label_format_file": "elsinore",
+      "label_format_offset": "IL_0000",
+      "label_format": "%sx%s",
+      "disabled_label_method": "Elsinore.GraphicsPreferenceManager/<>c__DisplayClass16_0::<CreateResolution>b__5(Elsinore.Game.SystemConfig.SystemConfig)",
+      "disabled_label_offset": "IL_0011",
+      "disabled_condition": "ScreenMode=Borderless（内部枚举值2，IL_000c..IL_000d）",
+      "ui_binding_method": "Elsinore.Ui.PreferencesUI::Awake()",
+      "ui_binding_offset": "IL_00ac",
+      "notes": "常规分辨率由当前显示设备动态提供，显示数字宽x高；完整运行时列表无法只凭静态程序集确定。无边框模式显示 Native，并禁用左右选项按钮。"
+    },
+    {
+      "id": "audio_volume",
+      "ui_field_paths": [
+        "Elsinore.Ui.PreferencesUI.audioUi.MasterVolume",
+        "Elsinore.Ui.PreferencesUI.audioUi.MusicVolume",
+        "Elsinore.Ui.PreferencesUI.audioUi.EffectsVolume",
+        "Elsinore.Ui.PreferencesUI.audioUi.VoiceVolume"
+      ],
+      "ui_type": "Elsinore.Ui.NumericalValueSlider",
+      "source_values": [],
+      "numerical_domain": {"minimum": 0, "maximum": 100, "default": 100},
+      "source_method": "AudioPreferencesManager::.cctor()",
+      "source_file": "assembly_csharp",
+      "domain_constructor_offset": "IL_0005",
+      "domain_constant_offsets": ["IL_0000", "IL_0001", "IL_0003"],
+      "label_method": "Elsinore.Ui.NumericalValueSlider::refresh(System.Boolean)",
+      "label_call": "System.Int32::ToString()",
+      "label_call_offset": "IL_0014",
+      "notes": "四个音量选项都是整数滑块，没有需要补译的音频枚举标签。"
+    }
+  ],
+  "ui_test_entry": {
+    "open": "真实 SplashScreenUI.OpenPreferencesButton 的 EventSystem pointerClickHandler；内部 SplashScreenUI::OnOptionsChosen() 调用 AllTheGui/UiTransitions::ActivatePreferences(IModalCanvas)。",
+    "preferences_type": "Elsinore.Ui.PreferencesUI",
+    "tab_toggle_fields": {"gameplay": "gameplayToggle", "graphics": "graphicsToggle", "audio": "audioToggle"},
+    "tab_container_fields": {"gameplay": "gameplayTab", "graphics": "graphicsTab", "audio": "audioTab"},
+    "tab_toggle_property": "Elsinore.Ui.UiToggle.IsOn",
+    "tab_activation_method": "Elsinore.Ui.PreferencesUI::activateTabIndex(System.Int32)",
+    "tab_index_order": ["graphics", "gameplay", "audio"],
+    "slider_type": "Elsinore.Ui.NominalValueSlider",
+    "slider_private_fields": {
+      "names": "System.String[]，完整选项标签及 Length",
+      "GetValue": "System.Func<System.Int32>，Invoke() 返回当前索引",
+      "SetValue": "System.Action<System.Int32>，Invoke(index) 修改本页临时配置",
+      "GetDisabledText": "System.Func<System.String>，Invoke() 返回禁用时的显示文本或null",
+      "Text": "TMPro.TextMeshProUGUI，真实渲染文本组件",
+      "DownButton": "Elsinore.Ui.ElsinoreButton",
+      "UpButton": "Elsinore.Ui.ElsinoreButton",
+      "onRefresh": "UnityEngine.Events.UnityEvent"
+    },
+    "slider_methods": {
+      "GetButtons": "GetButtons(out ElsinoreButton down, out ElsinoreButton up)",
+      "Refresh": "刷新 TMP 文本及左右按钮 interactable 状态",
+      "incrementValue": "私有 incrementValue(int delta)，将索引截断到0..names.Length-1，调用SetValue后Refresh"
+    },
+    "slider_binding_evidence": {
+      "method": "Elsinore.Ui.NominalValueSlider::Awake()",
+      "down_button_callback": "<Awake>b__9_0()：IL_0001 ldc.i4.m1，IL_0002 call incrementValue",
+      "up_button_callback": "<Awake>b__9_1()：IL_0001 ldc.i4.1，IL_0002 call incrementValue",
+      "text_write_method": "Elsinore.Ui.NominalValueSlider::Refresh()",
+      "text_write_evidence": "IL_0044 ldfld names；IL_004a ldelem.ref；IL_004b TMP_Text::set_text",
+      "names_initialization": "Initialize<P,T>()：IL_001b accessor.get_Type；IL_0020 get_Names；IL_0025 stfld names"
+    },
+    "button_event_entry": "优先真实 EventSystem pointerClickHandler；按按钮公开 OnClick.Invoke() 能执行同一注册回调，但属于组件事件集成测试。",
+    "configuration_isolation_evidence": {
+      "method": "Elsinore.Ui.PreferencesUI::Elsinore.Ui.IActivatableModalCanvas.Activate()",
+      "preferences_clone_offset": "IL_0026",
+      "system_config_clone_offset": "IL_0045"
+    },
+    "cancel_field": "cancelButton",
+    "cancel_callback": "<>c__DisplayClass45_0::<Awake>b__0()，仅清理擦除弹框并 CloseSelf()",
+    "confirm_field": "confirmButton",
+    "confirm_callback": "<>c__DisplayClass45_0::<Awake>b__1()",
+    "confirm_effects": "写回 GameState.Preferences/SystemConfig，ApplyQualitySetting，AudioPreferencesManager.Apply，并调用 GameRunner.SavePreferencesJson；逐档测试应取消关闭并继续保持探针存档隔离。",
+    "notes": "没有名为 Value、Selected、Current 或 UpdateLabel 的字段/方法。主页的 gameUi/graphicsUi/audioUi、切页字段和 slider 字段均为private；嵌套页对象内各设置槽字段为public。"
+  },
+  "limitations": [
+    "本文件提供静态来源证据，不能作为实际中文渲染、物理按键或完整游玩端到端测试结果。",
+    "当前显示设备的动态分辨率列表必须由受隔离保护的真实 UI 测试读取。"
+  ]
+}

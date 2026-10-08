@@ -11,6 +11,12 @@
     "full_translation_chinese_glyphs_available": true,
     "frozen_long_dialogue_dynamic_cache_cases": true,
     "save_write_guard_active": true,
+    "settings_all_noncurrent_options_visited": true,
+    "settings_all_option_values_translated": true,
+    "settings_options_active_no_overflow": true,
+    "settings_each_slot_toggle_original": true,
+    "settings_each_slot_toggle_restored": true,
+    "settings_cancelled_without_applying": true,
     "toggle_original_menu": true,
     "toggle_restored_menu": true,
     "toggle_release_no_change": true
@@ -130,7 +136,7 @@
     {
       "object": "Text",
       "active": true,
-      "text": "普通",
+      "text": "正常",
       "overflow": false
     },
     {
@@ -147,7 +153,7 @@
     }
   ],
   "limits": [
-    "未点击开始/继续按钮；游戏自动加载隔离存档副本",
+    "未点击开始/继续按钮；游戏可能自动加载隔离存档副本",
     "未验收对白和资料页面的像素排版",
     "后台组件检查不能证明全剧情分支覆盖"
   ]

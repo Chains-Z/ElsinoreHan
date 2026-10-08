@@ -1,12 +1,14 @@
 # ElsinoreHan
 
-《Elsinore》的离线中文补丁。**16,228 条 Sol 译文已完成并安装**，正常从 Steam 启动即可使用中文。
+《Elsinore》的离线中文补丁。**16,841 条离线词条已完成并安装**，正常从 Steam 启动即可使用中文。
 
 按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
 
 完整本地备份包：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
 
 完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
+
+用户截图指出的界面漏提已修复：新增613条词条，补齐设置全部档位、房间/物件/按钮提示及动态时间线。需重启游戏一次加载新的解析配置，详情见[界面源审计与修复](docs/dev-tasks/localization/ui-audit.md)。
 
 ## 目录与维护
 

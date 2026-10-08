@@ -1,8 +1,8 @@
 param([string]$GamePath = 'D:\SteamLibrary\steamapps\common\Elsinore')
 $ErrorActionPreference = 'Stop'
 $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-if (Get-Process -Name Elsinore -ErrorAction SilentlyContinue) { throw '请先关闭游戏。' }
 $GamePath = (Resolve-Path -LiteralPath $GamePath).Path
+if (Get-Process -Name Elsinore -ErrorAction SilentlyContinue | Where-Object { $_.MainModule.FileName -eq (Join-Path $GamePath 'Elsinore.exe') }) { throw '目标目录的游戏正在运行，禁止介入。' }
 & (Join-Path $PSScriptRoot 'build-probe.ps1') -GamePath $GamePath
 $plugin = Join-Path $GamePath 'BepInEx\plugins\ElsinoreHan.RuntimeProbe.dll'
 if (Test-Path -LiteralPath $plugin) { throw '检测到既有诊断插件，拒绝覆盖。' }
@@ -42,7 +42,8 @@ try {
     $process = Start-Process -FilePath (Join-Path $GamePath 'Elsinore.exe') -ArgumentList $arguments -WorkingDirectory $GamePath -WindowStyle Hidden -PassThru
     $process.PriorityClass = 'BelowNormal'
     $timer = [Diagnostics.Stopwatch]::StartNew()
-    while (-not $process.HasExited -and $timer.Elapsed.TotalSeconds -lt 50) {
+    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { 70 } else { 50 }
+    while (-not $process.HasExited -and $timer.Elapsed.TotalSeconds -lt $timeoutSeconds) {
         $process.Refresh()
         if ($process.MainWindowHandle -ne [IntPtr]::Zero) {
             Stop-Process -Id $process.Id -Force
@@ -55,6 +56,7 @@ try {
     if ($process.ExitCode -ne 0) { throw ('后台探针退出码异常：' + $process.ExitCode) }
     $reports = @('menu-texts.txt', 'settings-texts.txt')
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
+    if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     foreach ($name in $reports) {
         $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
         if ((Get-Item -LiteralPath $source).LastWriteTimeUtc -lt $launchedAt) { throw ('探针记录不是本轮生成：' + $name) }
@@ -76,6 +78,7 @@ try {
     if (-not $saveUnchanged) { throw '原存档目录变化，不能宣称隔离测试通过。' }
     $verifyArguments = @((Join-Path $PSScriptRoot 'verify-probe.py'), '--evidence', $runDirectory)
     if ($env:ELSINOREHAN_PROBE_TRANSLATIONS) { $verifyArguments += @('--translations', $env:ELSINOREHAN_PROBE_TRANSLATIONS) }
+    if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $verifyArguments += '--require-settings-options' }
     python @verifyArguments
     if ($LASTEXITCODE -ne 0) { throw '后台 UI 集成断言失败。' }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'verification.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-ui-verification.json') -Force

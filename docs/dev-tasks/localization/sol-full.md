@@ -1,5 +1,7 @@
 # Sol 全文中文补丁
 
+最新更新：用户截图暴露界面漏提，已补齐613条词条与动态组合，当前安装16841条；此前16228条是原始全文清单快照。当前安装/ZIP与验证以[界面全源审计修复](ui-audit.md)为准，首次需重启加载解析配置。
+
 2026-10-09，已完成 **16,228 条离线译文、112 批**并安装到 `D:\SteamLibrary\steamapps\common\Elsinore`。正常从 Steam 启动即可玩中文；**F8 切换当前文字的英文原文和中文译文**，再次按下恢复。游戏运行时不调用翻译 API。此版本是完整清单的中文初稿，供用户边玩边校订。
 
 本地完整备份包：[ElsinoreHan-Sol.zip](../../../runtime/package/ElsinoreHan-Sol.zip)。无需新 Key，使用 BepInEx 5 x86、XUnity.AutoTranslator 5.6.2、适配 Unity 2018 的中文字体和本项目 F8 插件；没有修改游戏本体、资源或程序集。

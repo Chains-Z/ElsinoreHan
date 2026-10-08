@@ -95385,31 +95385,36 @@
     "id": "u00050-c4ebc6d4a583",
     "source": "High",
     "target": "高",
-    "batch": "b0110"
+    "batch": "b0110",
+    "supplement_id": "ui-c4ebc6d4a5832cd9"
   },
   {
     "id": "u00051-d509e4938852",
     "source": "Native",
-    "target": "原生",
-    "batch": "b0110"
+    "target": "原生分辨率",
+    "batch": "b0110",
+    "supplement_id": "ui-d509e493885298a2"
   },
   {
     "id": "u00052-21b111cbfe6e",
     "source": "Default",
     "target": "默认",
-    "batch": "b0110"
+    "batch": "b0110",
+    "supplement_id": "ui-21b111cbfe6e8fca"
   },
   {
     "id": "u00053-b136109a5c48",
     "source": "Borderless",
     "target": "无边框",
-    "batch": "b0110"
+    "batch": "b0110",
+    "supplement_id": "ui-b136109a5c485c1b"
   },
   {
     "id": "u00054-a7248eeb45eb",
     "source": "Normal",
-    "target": "普通",
-    "batch": "b0110"
+    "target": "正常",
+    "batch": "b0110",
+    "supplement_id": "ui-a7248eeb45eb1ce2"
   },
   {
     "id": "u00055-b4c54706707d",
@@ -97366,5 +97371,3683 @@
     "source": "Astrid...",
     "target": "阿斯特丽德……",
     "batch": "b0112"
+  },
+  {
+    "id": "ui-8d0160c0d84236dd",
+    "source": "Faster",
+    "target": "较快",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7ef7a92e55a79eba",
+    "source": "Fastest",
+    "target": "最快",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e2861894f065ab75",
+    "source": "Instant",
+    "target": "立即显示",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-eef6c7f6ddd4067e",
+    "source": "Modern",
+    "target": "现代",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f793de205ead5ac3",
+    "source": "Low",
+    "target": "低",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8e588cd187741f1c",
+    "source": "Medium",
+    "target": "中",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3f26603a2748fed3",
+    "source": "Windowed",
+    "target": "窗口",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c461dbb2bab7d8bc",
+    "source": "Fullscreen",
+    "target": "全屏",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-beaf09c90cd2a839",
+    "source": "\n\n\n\n\n\n<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%>\n\n\nPowered by Wwise © 2006 – 2020 Audiokinetic Inc. All rights reserved.\n",
+    "target": "\n\n\n\n\n\n<size=800%%><sprite=\"Credits-Sprites\" name=\"Wwise-Logo\"><size=100%%>\n\n\n采用 Wwise 技术 © 2006 – 2020 Audiokinetic Inc. 保留所有权利。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-62b178a059125b3d",
+    "source": "\n\n\n\n\nA Game by Golden Glitch Studios\n\n\n\n\n\n\n\n\n\n\n",
+    "target": "\n\n\n\n\nGolden Glitch Studios 出品\n\n\n\n\n\n\n\n\n\n\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-474fd29769e5bb99",
+    "source": "\n\nThanks for playing!",
+    "target": "\n\n感谢游玩！",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-551b7af2430c06ce",
+    "source": " (Busy)",
+    "target": "（忙碌）",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-077ea9908b011cee",
+    "source": " (Dead)",
+    "target": "（已死）",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-51675b0bd8b508ad",
+    "source": " (Shattered)",
+    "target": "（精神崩溃）",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6340ab1fa5dad5c0",
+    "source": " (Upset)",
+    "target": "（心烦意乱）",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5dd8d309dafe7845",
+    "source": " (dev)",
+    "target": "（开发版）",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e3ee915a8e8c7aa0",
+    "source": " and ",
+    "target": "和",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9fe0dbc7e469dd90",
+    "source": " and will not recover.",
+    "target": "，且无法恢复。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-723bef4b0df677e9",
+    "source": " become",
+    "target": "变得",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c6d444674a1f2b8f",
+    "source": " becomes",
+    "target": "变得",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2d3a501ae47a1b7f",
+    "source": " believes that ",
+    "target": "相信",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1e5bb7cde6486165",
+    "source": " die.",
+    "target": "死亡。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-780f9a531700756d",
+    "source": " dies.",
+    "target": "死亡。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2eb9d0d30d4ceaac",
+    "source": " in ",
+    "target": "，在",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-044a812466b527af",
+    "source": " no longer ",
+    "target": "不再",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-121e40da6723cb0a",
+    "source": " now ",
+    "target": "现在",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4233c657cda2df83",
+    "source": " shatter",
+    "target": "精神崩溃",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8890369fe528fe15",
+    "source": " shatters",
+    "target": "精神崩溃",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4f1f8bcc267681a1",
+    "source": " upset but will recover overnight.",
+    "target": "心烦意乱，但一夜过后就会恢复。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2024bcfa78367dd9",
+    "source": " wants ",
+    "target": "想要",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b98c0c8be889a8c4",
+    "source": " will be updated in the <b>Journal</b>.",
+    "target": "会在<b>日志</b>中更新。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9b4879645e9faa02",
+    "source": ". Their Character Bio",
+    "target": "。其人物资料",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-35f959311ff432c1",
+    "source": "<b>Ophelia</b> acquires the information \"%s.\"",
+    "target": "<b>奥菲莉娅</b>获得了信息“%s”。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-933af8235aded036",
+    "source": "<b>Ophelia</b> learns about a future event in which %s If it can happen in this world, it will appear on the <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>得知了一个未来事件：%s如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-03320452f03b035f",
+    "source": "<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>得知了一个未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e90fff0043143b0f",
+    "source": "<b>Ophelia</b> learns about an event in which %s",
+    "target": "<b>奥菲莉娅</b>得知了一个事件：%s",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-76a26fe05d6f886f",
+    "source": "<b>Ophelia</b> learns about an event.",
+    "target": "<b>奥菲莉娅</b>得知了一个事件。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-45123eb3925a7a78",
+    "source": "<b>Ophelia</b> learns about future events in which %s If these can happen in this world, they will appear on the <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>得知了一些未来事件：%s如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bd8df7f0da0ee776",
+    "source": "<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>得知了一些未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1b65317133361c77",
+    "source": "<b>Ophelia</b> learns about multiple events in which %s",
+    "target": "<b>奥菲莉娅</b>得知了多个事件：%s",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4344482f068acd4f",
+    "source": "<b>Ophelia</b> learns about multiple events.",
+    "target": "<b>奥菲莉娅</b>得知了多个事件。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-237004ee76df7732",
+    "source": "<b>Outcome:</b>\n",
+    "target": "<b>结果：</b>\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9586b0ca9e66efe6",
+    "source": "Back Down",
+    "target": "退让",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-037a8a14561b7a57",
+    "source": "Build: {0} made on {1}",
+    "target": "构建版本：{0}，构建日期：{1}",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d839bc63e7d6342b",
+    "source": "Button icons by Nicolae Berbece, licensed under CC0.\n",
+    "target": "按钮图标由 Nicolae Berbece 制作，采用 CC0 许可。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5c21be5ac90305e2",
+    "source": "Continue?",
+    "target": "继续？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0f1891a7e47a591c",
+    "source": "Development Team",
+    "target": "开发团队",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d98ee0e5f9399db9",
+    "source": "ERROR",
+    "target": "错误",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-87f65fcca1bb8d76",
+    "source": "ERROR: UNFORMATTED: %s",
+    "target": "错误：未格式化：%s",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cf425c10ec93996c",
+    "source": "Elsinore Pets",
+    "target": "《Elsinore》的宠物们",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1d174814bac2fd9e",
+    "source": "Enter ",
+    "target": "入场：",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-64186d3a47fa4839",
+    "source": "Epilogue",
+    "target": "尾声",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7b42b640e306d437",
+    "source": "Exeunt ",
+    "target": "退场：",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4a389ccc6b9b11b1",
+    "source": "Exit ",
+    "target": "退场：",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7877149b1753c32e",
+    "source": "Go to {0}?",
+    "target": "前往{0}？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-aeed8a8b147681a3",
+    "source": "Guilda",
+    "target": "吉尔妲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-948e037c90d51982",
+    "source": "Including ",
+    "target": "参与者：",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8202fc9492f19292",
+    "source": "Kickstarter Backers",
+    "target": "Kickstarter 支持者",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5fd8b02279b8b176",
+    "source": "Let It Burn",
+    "target": "任它烧毁",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-56413724a8d36ee7",
+    "source": "NO CHARACTER BIO",
+    "target": "暂无人物资料",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-de20cd82551f352e",
+    "source": "NONAME",
+    "target": "未命名",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-62a6da8735c18e2d",
+    "source": "Object",
+    "target": "物品",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-16584052fd337f09",
+    "source": "Okay",
+    "target": "确定",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8e98baf5b22ae214",
+    "source": "Ophelia %s ",
+    "target": "奥菲莉娅%s",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-604f8eb4a47a2ac9",
+    "source": "Ophelia learns more about ",
+    "target": "奥菲莉娅进一步了解了",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2c128aff02f4ecc1",
+    "source": "Ophelia learns more about <b>%s</b>. The entry will be updated in the <b>Journal</b>.",
+    "target": "奥菲莉娅进一步了解了<b>%s</b>。相关条目会在<b>日志</b>中更新。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f1f26044372c0777",
+    "source": "Ophelia's current event is interrupted by a sudden interlude.",
+    "target": "奥菲莉娅当前参与的事件被突如其来的插曲打断了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b3eb37acb66ba4bb",
+    "source": "Quit",
+    "target": "退出",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-821f58b8a25a3585",
+    "source": "Rosie",
+    "target": "罗茜",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a1c4ab54ff42f517",
+    "source": "Sacrifice %s for %s",
+    "target": "牺牲%s，换取%s",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cb4a5bf0e6d6fa89",
+    "source": "Special Thanks",
+    "target": "特别鸣谢",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-08fd1de4b04df4a2",
+    "source": "Stay",
+    "target": "留下",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-df0fe9e00d354b01",
+    "source": "Try Again",
+    "target": "再试一次",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-036c8218bf9caed9",
+    "source": "Uses Rewired © 2014 – 2020 Guavaman Enterprises. All rights reserved.\n",
+    "target": "使用 Rewired © 2014 – 2020 Guavaman Enterprises. 保留所有权利。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4d48604bba80c2cd",
+    "source": "Uses Steamworks.NET © 2013 – 2020 Riley Labrecque, licensed under MIT license.\n",
+    "target": "使用 Steamworks.NET © 2013 – 2020 Riley Labrecque，采用 MIT 许可。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-92d3f5882054a793",
+    "source": "Ver. %s%s%s [%s]",
+    "target": "版本 %s%s%s [%s]",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bd1a768757b5c1a3",
+    "source": "Voice Actors",
+    "target": "配音演员",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c0a6cc829cd08735",
+    "source": "Wednesday",
+    "target": "星期三",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-427a379ae3e6b749",
+    "source": "and ",
+    "target": "和",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cbb551c517ed8e43",
+    "source": "believe that ",
+    "target": "相信",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-61ed8cded694d54e",
+    "source": "believes that ",
+    "target": "相信",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-40bb3baaf5d0fc9a",
+    "source": "gains ",
+    "target": "获得",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cb9603cfe5cb55e3",
+    "source": "loses ",
+    "target": "失去",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4b00b1b86bfdb5b2",
+    "source": "to ",
+    "target": "向",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d4399d6f82a1135f",
+    "source": "want ",
+    "target": "想要",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8aa82120cba70037",
+    "source": "wants ",
+    "target": "想要",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bbe39c4b51d8e6a5",
+    "source": "The meeting disperses.",
+    "target": "会议散了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6939d10ad6de04c3",
+    "source": "Irma tends to the stove.",
+    "target": "伊尔玛照看炉灶。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-14e8cfa1d49aa96c",
+    "source": "Claudius and Bernardo discuss current events.",
+    "target": "克劳狄斯和贝尔纳多讨论近来的局势。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-20d226b38f8bd593",
+    "source": "Hamlet and Laertes make a request.",
+    "target": "哈姆雷特和雷欧提斯提出请求。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0f736be9e0dd3734",
+    "source": "Laertes and I meet.",
+    "target": "雷欧提斯与我见面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f59da89805e85e42",
+    "source": "Father gives me a task.",
+    "target": "父亲交给我一项任务。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d9eedffd0c4bf8d3",
+    "source": "Ophelia has gone the wrong way.",
+    "target": "奥菲莉娅走错了路。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-00542a114f274eb3",
+    "source": "Lady of Denmark",
+    "target": "丹麦贵族小姐",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4e296c16a2578ecc",
+    "source": "Prince of Denmark, Former Paramour",
+    "target": "丹麦王子，昔日恋人",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0657d76cd4bb1977",
+    "source": "Queen Consort of Denmark, Mother to Hamlet",
+    "target": "丹麦王后，哈姆雷特的母亲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5b29323fc1697a9d",
+    "source": "King of Denmark, Uncle to Hamlet",
+    "target": "丹麦国王，哈姆雷特的叔父",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-975a407139858a81",
+    "source": "Chamberlain, Duke of Denmark, My Father",
+    "target": "宫廷总管，丹麦公爵，我的父亲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e8a3df716a70b174",
+    "source": "Lord of Denmark, My Brother",
+    "target": "丹麦贵族，我的哥哥",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1feebffee2d4c721",
+    "source": "Lady-in-Waiting to Her Highness",
+    "target": "王后的侍女",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a25830198c3f3d46",
+    "source": "Friend to Hamlet, Soldier, Poet",
+    "target": "哈姆雷特的朋友，士兵，诗人",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-96021c3c44596a4d",
+    "source": "Castle Cook, Attendant to Her Majesty",
+    "target": "城堡厨娘，王后的侍从",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-51cea747ad582b91",
+    "source": "Knight-Guard of Elsinore",
+    "target": "埃尔西诺的卫兵骑士",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-837d1178d2d67569",
+    "source": "Horatio mourns his dearest, oldest friend.",
+    "target": "霍拉旭悼念最亲密的老友。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c57c3e14f2087978",
+    "source": "A last chance to turn back.",
+    "target": "最后一次回头的机会。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7753e301689e19fa",
+    "source": "Hamlet's ravings interrupt my sleep.",
+    "target": "哈姆雷特的疯言疯语扰了我的睡眠。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e8459be15f0f7829",
+    "source": "I return to the empty box.",
+    "target": "我回到空箱子前。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e674d15bc0da0c70",
+    "source": "Father expresses his displeasure.",
+    "target": "父亲表示不满。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6d0b06a79a4cd426",
+    "source": "Bernardo receives a report from abroad.",
+    "target": "贝尔纳多收到国外的报告。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e9f6850631a9b279",
+    "source": "The King greets Rosencrantz and Guildenstern.",
+    "target": "国王迎接罗森克兰兹和吉尔登斯吞。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dead769e15527a11",
+    "source": "The King holds court about recent events.",
+    "target": "国王召集宫廷众人议论近来的事情。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-565f882eff66b447",
+    "source": "Marcellus questions Hamlet about what he saw the night prior.",
+    "target": "马塞勒斯询问哈姆雷特前一晚看到了什么。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-691fbb47ff016a37",
+    "source": "Marcellus and Hamlet continue their discussion.",
+    "target": "马塞勒斯和哈姆雷特继续交谈。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-576e0a5a605e04e6",
+    "source": "Polonius questions Hamlet.",
+    "target": "波洛涅斯询问哈姆雷特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f9c88297b16fa50e",
+    "source": "Rosencrantz and Guildenstern meet with their old friend.",
+    "target": "罗森克兰兹和吉尔登斯吞与老友见面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3685562c4a84d373",
+    "source": "Peter Quince arrives in Elsinore.",
+    "target": "彼得·奎因斯来到埃尔西诺。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9dc1ac52056b6afa",
+    "source": "Hamlet provides some suggestions for Quince's performance.",
+    "target": "哈姆雷特为奎因斯的演出提出一些建议。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-62cb38e85e09aaea",
+    "source": "Rosencrantz and Guildenstern report to the King.",
+    "target": "罗森克兰兹和吉尔登斯吞向国王报告。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-02f9207afb198634",
+    "source": "Father and the King plan to catch Hamlet.",
+    "target": "父亲和国王计划抓住哈姆雷特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2ac06d3cd83cd757",
+    "source": "Polonius remembers my mother.",
+    "target": "波洛涅斯忆起我的母亲。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7395bc0884f4d9c3",
+    "source": "Hamlet contemplates existence.",
+    "target": "哈姆雷特思考存在的意义。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-20699d92dce551e8",
+    "source": "Laertes confronts Hamlet.",
+    "target": "雷欧提斯质问哈姆雷特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d86e212b1b1009d6",
+    "source": "Quince puts on the play that Hamlet designed.",
+    "target": "奎因斯上演哈姆雷特设计的戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7eaebcc9323437ba",
+    "source": "Hamlet puts on a special performance for Quince.",
+    "target": "哈姆雷特为奎因斯献上特别的演出。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-39f2ec6ff85945c9",
+    "source": "Hamlet consults with his father.",
+    "target": "哈姆雷特与父亲商议。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2b290ad7e800e380",
+    "source": "Hamlet shares what he learned about Quince.",
+    "target": "哈姆雷特分享他了解到的奎因斯的事情。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-348d58f19e727649",
+    "source": "Rosencrantz finds me, all out of sorts.",
+    "target": "罗森克兰兹找到我，心绪纷乱。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-59388fa0f83a72ac",
+    "source": "The royal family sits down to dine.",
+    "target": "王室一家坐下来用餐。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0d709fde7fe6be08",
+    "source": "Quince puts on a play about Gertrude's affair.",
+    "target": "奎因斯上演一出关于乔特鲁德婚外情的戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1be9b22996186f03",
+    "source": "Quince puts on a show for no one in particular.",
+    "target": "奎因斯演了一场没有特定观众的戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-98b5d5d1633b5212",
+    "source": "Quince puts on a play about the Spy.",
+    "target": "奎因斯上演一出关于间谍的戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a72b7ca52121f876",
+    "source": "Quince puts on a play about Hamlet.",
+    "target": "奎因斯上演一出关于哈姆雷特的戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9ea2054ecef87c2c",
+    "source": "Quince puts on a play about my predicament.",
+    "target": "奎因斯上演一出关于我处境的戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d459479d80f0a81e",
+    "source": "The King seeks salvation.",
+    "target": "国王寻求救赎。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-59e05c788fc5744f",
+    "source": "Hamlet presses his Mother on Claudius's actions.",
+    "target": "哈姆雷特追问母亲，质疑克劳狄斯的所作所为。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a06b230ba3b0c140",
+    "source": "Hamlet is upset the play was wrong.",
+    "target": "戏的内容不对，哈姆雷特很不高兴。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-517daf3a878e89e6",
+    "source": "Hamlet asks his Father's spirit for forgiveness.",
+    "target": "哈姆雷特请求父亲的亡灵原谅。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1a5103fbe2eb2d05",
+    "source": "Brit is curious about the play.",
+    "target": "布莉特对这出戏很好奇。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d1990face900f47e",
+    "source": "Brit and Hamlet meet to discuss the play.",
+    "target": "布莉特与哈姆雷特见面，讨论那出戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f0d678416e7c0215",
+    "source": "Claudius decides what to do with the wayward prince.",
+    "target": "克劳狄斯决定如何处置任性的王子。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0be95fdfcd8ae8db",
+    "source": "Hamlet departs for England.",
+    "target": "哈姆雷特启程前往英格兰。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8ee932b02015dfc0",
+    "source": "Guildenstern reveals herself at last.",
+    "target": "吉尔登斯吞终于露出真面目。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5bbcaf9d189f9e09",
+    "source": "Claudius asks me to join Hamlet on his voyage.",
+    "target": "克劳狄斯让我与哈姆雷特一同出航。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c318c502495854ab",
+    "source": "Hamlet, Rosencrantz, and Guildenstern sail to England.",
+    "target": "哈姆雷特、罗森克兰兹和吉尔登斯吞乘船前往英格兰。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8e112a9a18d6b221",
+    "source": "The ship heads out to sea.",
+    "target": "船驶向大海。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8e050f72e4f5cdda",
+    "source": "SHamlet investigates what Rosie and Guilda are up to.",
+    "target": "哈姆雷特调查罗茜和吉尔达在做什么。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f713304780eeff5e",
+    "source": "Guildenstern & Hamlet chat about the past.",
+    "target": "吉尔登斯吞与哈姆雷特聊起往事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0b437659e7c585b0",
+    "source": "Hamlet reflects on some troubling information.",
+    "target": "哈姆雷特思索令人不安的消息。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0ee5dded75f19f05",
+    "source": "Grace and her Pirates arrive.",
+    "target": "格蕾丝和她的海盗到了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-73fcc2b6ea69b75e",
+    "source": "Hamlet reveals his plan to return to Denmark.",
+    "target": "哈姆雷特透露返回丹麦的计划。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-35f054d21f279263",
+    "source": "I find Guilda at rest.",
+    "target": "我找到正在休息的吉尔达。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8764398f47ea4507",
+    "source": "Guilda has something she wants to tell me.",
+    "target": "吉尔达有话想告诉我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a4cde3b916fff77b",
+    "source": "Hamlet's mutiny comes to fruition.",
+    "target": "哈姆雷特的叛变成功了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cc30eba00df4e910",
+    "source": "Returning to Denmark",
+    "target": "返回丹麦",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4f35a52bac24542b",
+    "source": "Claudius scolds me for missing the boat.",
+    "target": "克劳狄斯责骂我没赶上船。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-da41606765fd2b3e",
+    "source": "Claudius checks in on my journey.",
+    "target": "克劳狄斯询问我的旅途。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-eae82947421e2572",
+    "source": "Laertes returns from Paris.",
+    "target": "雷欧提斯从巴黎归来。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3f702b183bac5318",
+    "source": "Laertes makes a request of Bernardo.",
+    "target": "雷欧提斯向贝尔纳多提出请求。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a401cc9789ba25b1",
+    "source": "Claudius invites Polonius to a game of chess.",
+    "target": "克劳狄斯邀请波洛涅斯下棋。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-12e0dc84940eff14",
+    "source": "Laertes greets me.",
+    "target": "雷欧提斯向我问好。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7d27dfe47da907d0",
+    "source": "Laertes prepares to depart for Paris.",
+    "target": "雷欧提斯准备启程前往巴黎。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9d641f8d4a2954da",
+    "source": "Claudius receives correspondence from Hamlet.",
+    "target": "克劳狄斯收到哈姆雷特的来信。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c50e5f2f28400a32",
+    "source": "Laertes holds Claudius accountable for Father's death.",
+    "target": "雷欧提斯追究克劳狄斯对父亲之死的责任。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5e34412b0d82f48a",
+    "source": "Blades from the dark.",
+    "target": "暗处袭来刀刃。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0954a9925dabbc19",
+    "source": "I meet my father, alive and well.",
+    "target": "我见到了安然无恙的父亲。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-39f67c801fb86f43",
+    "source": "My father is alive... but this isn't enough.",
+    "target": "父亲还活着……但这还不够。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-44711270fe1a25dd",
+    "source": "Polonius calls a family meeting.",
+    "target": "波洛涅斯召集家人开会。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-95c5e2cd41f91693",
+    "source": "Laertes calls a family meeting.",
+    "target": "雷欧提斯召集家人开会。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5ead801df2ab7722",
+    "source": "Father's mind is not well.",
+    "target": "父亲的精神状况不太好。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0dad575a88fabf33",
+    "source": "We no longer belong here.",
+    "target": "这里已经容不下我们。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-96986a3f41dc8a54",
+    "source": "The play is revised.",
+    "target": "戏的内容修改了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-547508eda8bd2083",
+    "source": "Hamlet returns from his voyage.",
+    "target": "哈姆雷特结束航行，归来了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e627b41fdc7623d2",
+    "source": "Polonius's funeral is performed without a body.",
+    "target": "波洛涅斯的葬礼没有遗体。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d72d0af31d35df1d",
+    "source": "Claudius announces Hamlet's Fate.",
+    "target": "克劳狄斯宣布哈姆雷特的命运。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a015c73be580a0e1",
+    "source": "Laertes has questions about Hamlet's death.",
+    "target": "雷欧提斯对哈姆雷特之死有疑问。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7c2848ba85abd1c3",
+    "source": "Lady Brit makes a request of the Queen.",
+    "target": "布莉特女士向王后提出请求。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-63362f641a2eac6d",
+    "source": "Rosencrantz & Guildenstern muse.",
+    "target": "罗森克兰兹和吉尔登斯吞闲谈。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a2e0ddcc6fb4b629",
+    "source": "Laertes and Hamlet duel.",
+    "target": "雷欧提斯与哈姆雷特决斗。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8a107bf22937726f",
+    "source": "The forces of Norway arrive.",
+    "target": "挪威军队到了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-57d8c5128baa0746",
+    "source": "Fortinbras and I speak one final time.",
+    "target": "福丁布拉斯和我最后谈了一次。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-89e472ac6570ce6e",
+    "source": "Hamlet shares the new status quo.",
+    "target": "哈姆雷特说明新的局面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7955e5930f11f9c1",
+    "source": "Horatio meets with Hamlet in secret.",
+    "target": "霍拉旭与哈姆雷特秘密见面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fdffe0611003b150",
+    "source": "Hamlet unveils the truth before the court.",
+    "target": "哈姆雷特向宫廷众人揭露真相。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e0da812c3e6b60f5",
+    "source": "The Queen is inconsolable after Hamlet's death.",
+    "target": "哈姆雷特死后，王后悲痛欲绝。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-480ec4883c7ca115",
+    "source": "Gertrude despairs.",
+    "target": "乔特鲁德陷入绝望。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-06de1faed89d7ead",
+    "source": "The King attempts to stop supernatural rumors.",
+    "target": "国王试图遏止超自然传闻。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9f783abc0f8ddb52",
+    "source": "Hamlet's unhappy about the rumor I spread.",
+    "target": "哈姆雷特对我散播的传闻不满。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b6d5b0e4455270f1",
+    "source": "A group gathers to play cards.",
+    "target": "一群人聚在一起打牌。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-442e93e9888163e0",
+    "source": "Brit and Hamlet go for a 'walk.'",
+    "target": "布莉特与哈姆雷特去“散步”。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2cf4cce1e4a8fcd9",
+    "source": "Brit agrees to unlock Gertrude's bedroom.",
+    "target": "布莉特答应打开乔特鲁德寝室的锁。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-95213f23f529cb0f",
+    "source": "Irma agrees to unlock Gertrude's bedroom.",
+    "target": "伊尔玛答应打开乔特鲁德寝室的锁。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dc42f25e57e04594",
+    "source": "Claudius invites me to speak privately.",
+    "target": "克劳狄斯邀请我私下交谈。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d16851fea2e21e9e",
+    "source": "Gertrude 'joins' Brit and Hamlet's meetup.",
+    "target": "乔特鲁德“加入”了布莉特和哈姆雷特的会面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-aef8ef5bae2c1f8a",
+    "source": "Gertrude and Irma catch up.",
+    "target": "乔特鲁德和伊尔玛叙旧。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1b300a9acb1f07f3",
+    "source": "Hamlet and I meet to discuss our past together.",
+    "target": "哈姆雷特与我见面，谈起我们的过去。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-38ad4f2a81752d35",
+    "source": "Hamlet's upset I ignored his invitation.",
+    "target": "我无视了哈姆雷特的邀请，他很不高兴。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9007ccc5dc4c1473",
+    "source": "Gertrude and Irma swap notes.",
+    "target": "乔特鲁德与伊尔玛交流情况。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f3fd711f0cee6c47",
+    "source": "Rosencrantz and Guildenstern want to settle their debts.",
+    "target": "罗森克兰兹和吉尔登斯吞想要还清债务。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7a0df84b6dc91a2f",
+    "source": "Rosencrantz and Guildenstern search the fountain.",
+    "target": "罗森克兰兹和吉尔登斯吞搜查喷泉。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1f505d6073e2029f",
+    "source": "Rosencrantz and Guildenstern rummage about the gallery.",
+    "target": "罗森克兰兹和吉尔登斯吞在画廊里翻找。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-90be15b1d7f9728b",
+    "source": "Rosencrantz and Guildenstern run an errand in the woods.",
+    "target": "罗森克兰兹和吉尔登斯吞去树林办事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3a421b5da5c3eafd",
+    "source": "Rosencrantz and Guildenstern complete their mission.",
+    "target": "罗森克兰兹和吉尔登斯吞完成任务。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a29b7d32fd9eead5",
+    "source": "Gertrude comes to speak with Irma.",
+    "target": "乔特鲁德来与伊尔玛交谈。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-880d66f8c6ab85ac",
+    "source": "Brit appreciates art.",
+    "target": "布莉特欣赏艺术。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d23360d287b8f892",
+    "source": "Madness without method.",
+    "target": "毫无章法的疯狂。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-36c0cf41517be660",
+    "source": "Laertes forms a plan.",
+    "target": "雷欧提斯拟定计划。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-019b2e883d5287d1",
+    "source": "Laertes surprises Brit.",
+    "target": "雷欧提斯给布莉特一个惊喜。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1ece07ef8f904ce3",
+    "source": "Laertes meets with a private confidante.",
+    "target": "雷欧提斯与私下的知己见面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4c86abb6dbc41b81",
+    "source": "Laertes drowns his sorrows.",
+    "target": "雷欧提斯借酒浇愁。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-73c5a75619ae9343",
+    "source": "Laertes and Brit take action.",
+    "target": "雷欧提斯和布莉特采取行动。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b03f13e7a53d6a14",
+    "source": "Laertes takes action.",
+    "target": "雷欧提斯采取行动。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-10686584bb31160f",
+    "source": "Laertes pays the imprisoned Brit a visit.",
+    "target": "雷欧提斯探望被关押的布莉特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-811e11584554e3d4",
+    "source": "Laertes pays our imprisoned father a visit.",
+    "target": "雷欧提斯探望被关押的父亲。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b9647fadcdd2d009",
+    "source": "Bernardo begins to question Brit.",
+    "target": "贝尔纳多开始询问布莉特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cc08ce98495f94ba",
+    "source": "Bernardo continues to interrogate Brit.",
+    "target": "贝尔纳多继续审问布莉特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0f4d05f1b4632576",
+    "source": "Bernardo interrogates Brit once more.",
+    "target": "贝尔纳多再次审问布莉特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c56cd6cf5b8c0af6",
+    "source": "Bernardo reports his findings on Brit.",
+    "target": "贝尔纳多报告他对布莉特的调查结果。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-67a64e085169412b",
+    "source": "Bernardo reports his findings on Rosencrantz and Guildenstern.",
+    "target": "贝尔纳多报告他对罗森克兰兹和吉尔登斯吞的调查结果。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8b715810e7c3a9f4",
+    "source": "Bernardo reports his findings on my father's treason.",
+    "target": "贝尔纳多报告他对父亲叛国一事的调查结果。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-16fe96b0075c940b",
+    "source": "Bernardo checks in on my Brit allegations.",
+    "target": "贝尔纳多跟进我对布莉特的指控。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-50b7b94313cd571a",
+    "source": "Laertes wants to ask Brit something sensitive.",
+    "target": "雷欧提斯想问布莉特一件敏感的事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-876cc7d5ecff3db4",
+    "source": "Brit is punished for betraying Denmark.",
+    "target": "布莉特因背叛丹麦受到惩罚。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5d7d5e4913905ccc",
+    "source": "I visit the walls.",
+    "target": "我来到城墙。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b9cb6305c3da48f6",
+    "source": "I visit the walls to meet the King's ghost.",
+    "target": "我来到城墙，去见先王的亡灵。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4fb5c5cb2c42a0de",
+    "source": "Shall I visit the castle walls?",
+    "target": "我要去城墙看看吗？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6d7179f07ac9955e",
+    "source": "Where are the King and the Prince?",
+    "target": "国王和王子在哪里？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-557f79efcb5f98b1",
+    "source": "Father isn't in his room.",
+    "target": "父亲不在寝室。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a1f91f169582fdb2",
+    "source": "Polonius discards painful memories.",
+    "target": "波洛涅斯丢弃痛苦的回忆。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fe19d7805f41212f",
+    "source": "Hamlet punishes Polonius for hiding his father's notes.",
+    "target": "哈姆雷特惩罚波洛涅斯，责怪他藏起父亲的笔记。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1b625ef3515addec",
+    "source": "The King punishes Polonius for hiding his brother's notes.",
+    "target": "国王惩罚波洛涅斯，责怪他藏起兄长的笔记。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0bd2b5d5ff50b264",
+    "source": "The Queen is upset Polonius withheld King Hamlet's notes.",
+    "target": "波洛涅斯隐瞒了哈姆雷特先王的笔记，王后很不高兴。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-abecae9ca19965fe",
+    "source": "A mysterious woman arrives in town.",
+    "target": "一位神秘女子来到镇上。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-20dd47ca5383fcb6",
+    "source": "Marcellus and Bernardo mount a final stand.",
+    "target": "马塞勒斯和贝尔纳多作最后的抵抗。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-31af5d48d5586327",
+    "source": "Shall I go to Castle Town?",
+    "target": "我要去城堡镇吗？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-76863f1eaf63a67c",
+    "source": "Brit is lingering in town.",
+    "target": "布莉特在镇上逗留。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9098edcc63209908",
+    "source": "The War Council is assembled.",
+    "target": "战争会议召开了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2262f2314bfa1c13",
+    "source": "Quince demonstrates his theatrical prowess.",
+    "target": "奎因斯展示他的戏剧才华。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dfb6ea7b0a91b50f",
+    "source": "An introduction from Peter Quince.",
+    "target": "彼得·奎因斯作了一番介绍。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b1da49f1fbe04012",
+    "source": "Sudden weakness overcomes me.",
+    "target": "我突然浑身无力。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8e87df17faf7be78",
+    "source": "I meet Quince late at night.",
+    "target": "我深夜与奎因斯见面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ae831cfce2191403",
+    "source": "Quince gives a special performance.",
+    "target": "奎因斯献上特别的演出。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-056891be35d9bd20",
+    "source": "Bernardo and his men form a plan of attack.",
+    "target": "贝尔纳多与部下拟定进攻计划。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-afe3f93f0e8c7daf",
+    "source": "Bernardo and his men search for Fortinbras.",
+    "target": "贝尔纳多与部下搜寻福丁布拉斯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6b16e05c5de0d375",
+    "source": "Castle town is burning.",
+    "target": "城堡镇燃烧起来了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4f739646771c304f",
+    "source": "Castle Town is burning.",
+    "target": "城堡镇燃烧起来了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fcfa73db5db2a882",
+    "source": "Bernardo calls the troops to action.",
+    "target": "贝尔纳多召集部队行动。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7181c771bf8e561c",
+    "source": "The King makes a sobering announcement.",
+    "target": "国王宣布一个令人沉重的消息。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-587479d3dc847719",
+    "source": "Horatio and Gertrude have a heart to heart.",
+    "target": "霍拉旭与乔特鲁德敞开心扉交谈。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6bf38a5a911b0f76",
+    "source": "Gertrude tries to discipline Hamlet.",
+    "target": "乔特鲁德试图管教哈姆雷特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d98e18bfc84b6527",
+    "source": "Gertrude seeks advice from Irma on parenting Hamlet.",
+    "target": "乔特鲁德向伊尔玛请教如何管教哈姆雷特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f418e251cb6ae41a",
+    "source": "Hamlet and Irma have a nice chat.",
+    "target": "哈姆雷特与伊尔玛愉快地交谈。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ce7029bd62fb0180",
+    "source": "Irma is overwhelmed by Hamlet's callousness.",
+    "target": "哈姆雷特的冷酷让伊尔玛难以承受。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c2f703338b2dcbd4",
+    "source": "Irma seeks guidance from God about Hamlet.",
+    "target": "伊尔玛就哈姆雷特一事祈求上帝指引。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0fb2ccb16d1cbedb",
+    "source": "Hamlet visits his mother's grave.",
+    "target": "哈姆雷特来到母亲的墓前。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3fd798eca5d5902c",
+    "source": "Irma's punishment isn't over.",
+    "target": "伊尔玛受到的惩罚还没结束。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c06a6c960e811179",
+    "source": "A good night's rest.",
+    "target": "一夜安眠。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c734d57b7322554d",
+    "source": "The Ghost makes one last appearance.",
+    "target": "亡灵最后一次现身。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d31437e1eb1eb324",
+    "source": "Laertes opens the shack.",
+    "target": "雷欧提斯打开小屋。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fd2ca81cfa6d6b4f",
+    "source": "Hamlet opens the shack.",
+    "target": "哈姆雷特打开小屋。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-58c47d808fc689b7",
+    "source": "I feel the stillness of the pond.",
+    "target": "我感受池塘的宁静。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a03b249252a80d31",
+    "source": "I retreat into my mind.",
+    "target": "我退回自己的内心。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ac68310b8eb89223",
+    "source": "Bernardo and Hamlet meet to discuss a missing lute.",
+    "target": "贝尔纳多和哈姆雷特讨论失踪的鲁特琴。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0080af7585e81840",
+    "source": "Bernardo and Hamlet search for the missing lute.",
+    "target": "贝尔纳多和哈姆雷特搜寻失踪的鲁特琴。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e37e6107dd38fd9e",
+    "source": "Bernardo and Hamlet's fruitless search continues.",
+    "target": "贝尔纳多和哈姆雷特继续寻找，却毫无结果。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-74ac2d1f801548c5",
+    "source": "Hamlet gives Laertes his lute back.",
+    "target": "哈姆雷特把鲁特琴还给雷欧提斯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-27898432cffa6513",
+    "source": "The Queen is on a private mission.",
+    "target": "王后正在执行一项私人任务。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6c6e8c5272325e64",
+    "source": "Bernardo questions Irma.",
+    "target": "贝尔纳多询问伊尔玛。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-974816f3398ba171",
+    "source": "Bernardo questions Marcellus.",
+    "target": "贝尔纳多询问马塞勒斯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-21409b54f3e1c8e2",
+    "source": "Bernardo questions Rosencrantz and Guildenstern.",
+    "target": "贝尔纳多询问罗森克兰兹和吉尔登斯吞。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3d76f1eee40f1ef4",
+    "source": "Bernardo questions the Queen.",
+    "target": "贝尔纳多询问王后。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b6cb2611d6847796",
+    "source": "Bernardo questions Hamlet.",
+    "target": "贝尔纳多询问哈姆雷特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-82e142df5ef07a19",
+    "source": "Bernardo questions Lady Brit.",
+    "target": "贝尔纳多询问布莉特女士。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-10a38b8a9728b7c6",
+    "source": "Bernardo places Father under arrest.",
+    "target": "贝尔纳多逮捕父亲。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-60418b9918ed738a",
+    "source": "Bernardo questions Father.",
+    "target": "贝尔纳多询问父亲。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-20a66f7496a2201c",
+    "source": "Bernardo questions Horatio.",
+    "target": "贝尔纳多询问霍拉旭。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bfa4575b6bbca69a",
+    "source": "Bernardo questions Quince.",
+    "target": "贝尔纳多询问奎因斯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-53b18ef47f9a741b",
+    "source": "Lady Brit heads to the docks.",
+    "target": "布莉特女士前往码头。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ed7393fd9f496d91",
+    "source": "Bernardo heads to castle town.",
+    "target": "贝尔纳多前往城堡镇。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e9251368a6a00b1c",
+    "source": "Horatio and Bernardo sit down for a heart-to-heart.",
+    "target": "霍拉旭和贝尔纳多坐下来谈心。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e7bdf182b8985d61",
+    "source": "Bernardo announces his departure from Elsinore.",
+    "target": "贝尔纳多宣布离开埃尔西诺。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2217e777ed94c0f0",
+    "source": "Horatio announces his departure from Elsinore.",
+    "target": "霍拉旭宣布离开埃尔西诺。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-35e1404ead70e245",
+    "source": "Laertes confronts Bernardo about rumors he's heard.",
+    "target": "雷欧提斯就听到的传闻质问贝尔纳多。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9d0d4eb1d1449fe3",
+    "source": "Hamlet wants to speak with Bernardo about a rumor.",
+    "target": "哈姆雷特想与贝尔纳多谈谈一个传闻。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-740eb8512547614a",
+    "source": "Quince finds me.",
+    "target": "奎因斯找到我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0516a43ec5e9851b",
+    "source": "Quince desires to speak with me about his play.",
+    "target": "奎因斯想与我谈谈他的戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b6c538d22c6aeeba",
+    "source": "Lady Brit attempts to investigate Hamlet's odd behavior.",
+    "target": "布莉特女士试图调查哈姆雷特的古怪举动。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-01e00eca760c56d6",
+    "source": "Othello is confronted about 'settling his ledger.'",
+    "target": "有人质问奥赛罗“清算账目”的事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-411b45846463ab6e",
+    "source": "Othello tells the bar one of his stories.",
+    "target": "奥赛罗给酒馆众人讲了一个故事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e2d1f4f2168ca2c6",
+    "source": "Othello sings a curious song.",
+    "target": "奥赛罗唱了一首奇妙的歌。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2c8bb662f61640ae",
+    "source": "Bernardo heads to the bar for a much-needed drink.",
+    "target": "贝尔纳多来到酒馆，想喝上一杯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d6a3a163998be1c3",
+    "source": "Othello leads everyone in a drinking game.",
+    "target": "奥赛罗带大家玩饮酒游戏。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-975de47885ae07ba",
+    "source": "Othello wants to speak with me alone.",
+    "target": "奥赛罗想与我单独交谈。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-213045845f2de734",
+    "source": "I find my way back to Othello.",
+    "target": "我又回到奥赛罗身边。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d5d787f0e456af98",
+    "source": "Othello and I depart.",
+    "target": "奥赛罗与我离开。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-55d6b41b0509b968",
+    "source": "The Queen seeks to calm her worries.",
+    "target": "王后试图平息忧虑。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2f0d7e039af3300d",
+    "source": "Bernardo says his morning prayers.",
+    "target": "贝尔纳多作晨祷。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fd0e637d6ab9936b",
+    "source": "Rosencrantz and Guildenstern desire to meet in private.",
+    "target": "罗森克兰兹和吉尔登斯吞想要私下见面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a546c8e73c30f1c8",
+    "source": "Rosencrantz and Guildenstern need a drink.",
+    "target": "罗森克兰兹和吉尔登斯吞想喝一杯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-710c646ddf7f2036",
+    "source": "Irma and Marcellus share a drink or two.",
+    "target": "伊尔玛和马塞勒斯一起喝了几杯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-69c32d595666a394",
+    "source": "Horatio and Othello tell old tales.",
+    "target": "霍拉旭和奥赛罗讲述往事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-561ba7b69906713b",
+    "source": "Othello and Laertes muse about music.",
+    "target": "奥赛罗和雷欧提斯谈论音乐。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1ce22b39bad9f1d3",
+    "source": "Rosencrantz and Guildenstern get creative.",
+    "target": "罗森克兰兹和吉尔登斯吞发挥创意。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-16ba43ad1c2f6275",
+    "source": "Quince has a suggestion for me.",
+    "target": "奎因斯给我一个建议。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4a5e00515b82d0a8",
+    "source": "Quince extends me an invitation too good to refuse.",
+    "target": "奎因斯向我发出一个难以拒绝的邀请。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7c8bf76128e629bf",
+    "source": "A chill falls on Elsinore Castle.",
+    "target": "寒意笼罩埃尔西诺城堡。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8f6b8008ebf9322f",
+    "source": "Panic sets in.",
+    "target": "恐慌蔓延。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e1ab84acd97e6f75",
+    "source": "They cower in fear.",
+    "target": "他们惊恐地蜷缩起来。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b383e1fb676dd80c",
+    "source": "Quince exposes me.",
+    "target": "奎因斯揭穿我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-80065d94ad765515",
+    "source": "Brit stops me.",
+    "target": "布莉特拦住我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a127648910eb2e7b",
+    "source": "Bernardo stops me.",
+    "target": "贝尔纳多拦住我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d4a05ba0ac987c65",
+    "source": "Marcellus stops me.",
+    "target": "马塞勒斯拦住我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-829914bb1e2548f6",
+    "source": "Claudius stops me.",
+    "target": "克劳狄斯拦住我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-841bf83e53a8eb2e",
+    "source": "Hamlet pleads with me to stop.",
+    "target": "哈姆雷特恳求我停下。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-789c5011e749e355",
+    "source": "Hamlet finally works up the will to act.",
+    "target": "哈姆雷特终于下定决心行动。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8f27d302343234e4",
+    "source": "Father breaks.",
+    "target": "父亲崩溃了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8b04e9c150c37e3d",
+    "source": "Laertes tries to reason with me.",
+    "target": "雷欧提斯试图与我讲道理。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-12f2f2a4c1938c80",
+    "source": "Irma avenges Gertrude.",
+    "target": "伊尔玛为乔特鲁德报仇。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5c7a8160d81b5fa5",
+    "source": "Gertrude runs to Claudius for help.",
+    "target": "乔特鲁德跑去向克劳狄斯求助。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6527474dc754ed5f",
+    "source": "Gertrude runs to Bernardo for help.",
+    "target": "乔特鲁德跑去向贝尔纳多求助。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dc4d7c98210b68ad",
+    "source": "Gertrude runs to Marcellus for help.",
+    "target": "乔特鲁德跑去向马塞勒斯求助。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1ec1a4da9eaee30f",
+    "source": "Gertrude runs to Polonius for help.",
+    "target": "乔特鲁德跑去向波洛涅斯求助。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-de7586eb3f2b9544",
+    "source": "Horatio tries to warm Hamlet.",
+    "target": "霍拉旭试图为哈姆雷特取暖。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b91cfd5b8d7927fb",
+    "source": "Father is horrified.",
+    "target": "父亲惊恐万分。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-12685b3bb6d36977",
+    "source": "Hamlet confronts Claudius about the murder of his father.",
+    "target": "哈姆雷特就父亲被谋杀一事质问克劳狄斯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-645714b5effafe57",
+    "source": "The Queen confronts Claudius about her husband's death.",
+    "target": "王后就丈夫之死质问克劳狄斯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c2983d13297e59f7",
+    "source": "Polonius questions his role.",
+    "target": "波洛涅斯反思自己的角色。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-78d6abf7a3bbbfe1",
+    "source": "Hamlet's revenge is complete.",
+    "target": "哈姆雷特的复仇完成了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8b3acd0103107c66",
+    "source": "Horatio educates Hamlet about the future before him.",
+    "target": "霍拉旭向哈姆雷特讲明他面临的未来。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-658ff07eab5dd667",
+    "source": "Hamlet and I discuss how he will rule.",
+    "target": "哈姆雷特和我讨论他将如何治国。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7cf4d3aae9a9cf81",
+    "source": "Hamlet chooses Brit as his new Queen.",
+    "target": "哈姆雷特选择布莉特做新王后。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c3a2f7cea1d71dbd",
+    "source": "Hamlet deals with internal affairs.",
+    "target": "哈姆雷特处理内政。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8d265a94e0be921c",
+    "source": "Hamlet announces the good news about our engagement.",
+    "target": "哈姆雷特宣布我们订婚的喜讯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-342a8264e3b62c1e",
+    "source": "Hamlet prepares to ride against the nobility.",
+    "target": "哈姆雷特准备出兵对抗贵族。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-57e18545cb0715b8",
+    "source": "Hamlet meets his end.",
+    "target": "哈姆雷特走到了生命的终点。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3ee0cd3b3be5aba8",
+    "source": "Hamlet gets some much-needed advice.",
+    "target": "哈姆雷特获得了急需的建议。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d2da0c1d27cec34f",
+    "source": "All hail the future Queen.",
+    "target": "向未来的王后致敬。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-26374260384dc6a5",
+    "source": "Claudius asks Bernardo to hold on to something private.",
+    "target": "克劳狄斯让贝尔纳多代为保管一件私人物品。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ef5686b1fe8010d5",
+    "source": "Newly betrothed, Brit and Hamlet go for a 'walk.'",
+    "target": "刚刚订婚的布莉特与哈姆雷特去“散步”。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3b8554f84151c078",
+    "source": "Discussions on a royal betrothal begin.",
+    "target": "王室订婚的商谈开始了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f5ed39a270acf3f5",
+    "source": "Grace promises to 'unmake me.'",
+    "target": "格蕾丝答应将我“彻底瓦解”。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e58fa3f1e38e6355",
+    "source": "I agree to meet Grace in private.",
+    "target": "我答应与格蕾丝私下见面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fe60453741bb640f",
+    "source": "The crew swaps tales.",
+    "target": "船员们交换故事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0aa9841cd1b70fe5",
+    "source": "Grace asks what I learned.",
+    "target": "格蕾丝询问我了解到什么。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a2e5614401603be0",
+    "source": "Grace makes me an offer.",
+    "target": "格蕾丝向我提出一个邀约。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-350f4f652ff65c9b",
+    "source": "A new adventure begins.",
+    "target": "新的冒险开始了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1a63ff08aa1f93f3",
+    "source": "A funeral is held for Guildenstern's 'death.'",
+    "target": "为吉尔登斯吞的“死亡”举行了一场葬礼。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ebf181ebdd468b97",
+    "source": "Guildenstern holds a party.",
+    "target": "吉尔登斯吞举办派对。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3dc59c79792d6f6a",
+    "source": "Rosencrantz and Guildenstern come to find me.",
+    "target": "罗森克兰兹和吉尔登斯吞来找我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b3da64cf01b905b9",
+    "source": "The castle guards are up to no good.",
+    "target": "城堡卫兵们在干坏事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1ebdeafcff6161a1",
+    "source": "I return to Horatio with the necessary supplies.",
+    "target": "我带着所需材料回到霍拉旭身边。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-621ded06ab4d455e",
+    "source": "I bring Brit's mother's letters to her.",
+    "target": "我把布莉特母亲的信交给她。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2326dc4e541bf866",
+    "source": "Brit comes to thank me for all my help.",
+    "target": "布莉特前来感谢我的帮助。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f36858cd2e081795",
+    "source": "Brit needs some time to unwind, alone... away from me.",
+    "target": "布莉特需要独自放松一下……远离我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e70125e577d7d144",
+    "source": "Claudius mourns his dead wife.",
+    "target": "克劳狄斯悼念亡妻。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0571c813cfcce940",
+    "source": "Claudius requests Ophelia's presence in his chambers.",
+    "target": "克劳狄斯请奥菲莉娅来他的寝室。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2f4159f5e46ec472",
+    "source": "Claudius and I rendezvous.",
+    "target": "克劳狄斯和我私下会面。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a7c9a700b385b41c",
+    "source": "I cannot escape the wrap of time.",
+    "target": "我无法挣脱时间的束缚。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a9747f6ef301fe9c",
+    "source": "Bernardo delivers an update on Fortinbras.",
+    "target": "贝尔纳多带来福丁布拉斯的最新消息。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-253fe17a15247b9f",
+    "source": "Bernardo seeks me out.",
+    "target": "贝尔纳多来找我。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fcbde0e62ee7f86a",
+    "source": "Bernardo delivers some dismal news to the castle.",
+    "target": "贝尔纳多给城堡众人带来沉重的消息。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7b20149a889ddddc",
+    "source": "Bernardo follows up on my claim that Claudius is stashing poison.",
+    "target": "贝尔纳多跟进我关于克劳狄斯藏毒的指控。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-564184486670623c",
+    "source": "Irma follows up on my claim that Claudius is stashing poison.",
+    "target": "伊尔玛跟进我关于克劳狄斯藏毒的指控。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-02b089a9dbb66f49",
+    "source": "Gertrude follows up on my claim that Claudius is stashing poison.",
+    "target": "乔特鲁德跟进我关于克劳狄斯藏毒的指控。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e600cd084857acc2",
+    "source": "Hamlet follows up on my claim that Claudius is stashing poison.",
+    "target": "哈姆雷特跟进我关于克劳狄斯藏毒的指控。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2ddc388bd7106d93",
+    "source": "My father follows up on my claim that Claudius is stashing poison.",
+    "target": "父亲跟进我关于克劳狄斯藏毒的指控。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c7d7a7449bc040e9",
+    "source": "The poison has been found. What shall come of it?",
+    "target": "毒药找到了。接下来会怎样？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-120a63c66bde5813",
+    "source": "Brit and Fortinbras check in.",
+    "target": "布莉特与福丁布拉斯了解近况。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-02b3595b512341df",
+    "source": "Fortinbras slips away.",
+    "target": "福丁布拉斯悄悄溜走了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dd229b89d509abef",
+    "source": "Bernardo informs me of Fortinbras' escape.",
+    "target": "贝尔纳多告诉我福丁布拉斯逃走的消息。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-99807931b8a7caa8",
+    "source": "King Claudius and the Queen confront Hamlet.",
+    "target": "克劳狄斯国王与王后质问哈姆雷特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ded87343c22b43f9",
+    "source": "Laertes makes a move to free Father.",
+    "target": "雷欧提斯采取行动，想救出父亲。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0e6114f4e99af488",
+    "source": "Rosencrantz and Horatio share a moment of transparency.",
+    "target": "罗森克兰兹与霍拉旭坦诚相对。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0f488e3578801daa",
+    "source": "Horatio confesses.",
+    "target": "霍拉旭坦白了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-16ccbc23c8c125b8",
+    "source": "Ah. Ophelia. What's wrong?",
+    "target": "啊，奥菲莉娅。出什么事了？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a665d3d4464e03b9",
+    "source": "What? This had better be important.",
+    "target": "什么事？最好是要紧事。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-96f5e5962f236a1f",
+    "source": "Hello, love. What would you like to discuss?",
+    "target": "你好，亲爱的。你想聊什么？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-acf532b25321b922",
+    "source": "Good to see you.",
+    "target": "见到你真好。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b9885ace70a23fe8",
+    "source": "Yes? What?",
+    "target": "嗯？什么事？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7856402390efa364",
+    "source": "Hello, lass. How goes it?",
+    "target": "你好，姑娘。近来怎么样？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d938c745593d916f",
+    "source": "Be quick about it.",
+    "target": "有话快说。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c7a7660f76f97a29",
+    "source": "What can I do fer ye?",
+    "target": "有什么能帮你的？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1d4dc6df281aa3e6",
+    "source": "How can I be of assistance today?",
+    "target": "今天有什么需要我帮忙的？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c108f3abc08bdd6a",
+    "source": "At your service, my lady.",
+    "target": "听候您的吩咐，小姐。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-98ee8014545e36db",
+    "source": "At yer service, m'lady!",
+    "target": "听您吩咐，小姐！",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-77155904884889f6",
+    "source": "I am, in theory, above gossip... what would you like to say?",
+    "target": "按理说，我不该过问闲话……你想说什么？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d82517eb25118fae",
+    "source": "What's the latest dirt?",
+    "target": "最近有什么八卦？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c1bfffc8c11e651f",
+    "source": "Hello, my heart. What is it?",
+    "target": "你好，我的心肝。什么事？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ad590e649fd83d8f",
+    "source": "What news, sister?",
+    "target": "有什么消息，妹妹？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-57e0773ffe9c04f7",
+    "source": "Out with it, my lady! I'm a busy woman!",
+    "target": "有话直说，小姐！我还忙着呢！",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e145abc111104053",
+    "source": "What's the gossip du jour, Lady Ophelia?",
+    "target": "今天有什么新鲜传闻，奥菲莉娅小姐？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-09f13f5278bf5865",
+    "source": "Ah... A familiar face...",
+    "target": "啊……一张熟悉的面孔……",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3fec88d8e7fee056",
+    "source": "Our performances' plots are ever-changing... What's the gossip du jour, Lady Ophelia?",
+    "target": "我们的戏码总在变化……今天有什么新鲜传闻，奥菲莉娅小姐？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9d263c7052350f1a",
+    "source": "Cleocatra",
+    "target": "克莉奥猫特拉",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8335e4c92c40556a",
+    "source": "Echo",
+    "target": "埃科",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-877f4b9feda2945e",
+    "source": "Edgar",
+    "target": "埃德加",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ecc6252a91d769cd",
+    "source": "Junior",
+    "target": "小家伙",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-76f6f451923d66fd",
+    "source": "Marellow",
+    "target": "马洛",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-705dba92a4a284f7",
+    "source": "Maxine",
+    "target": "玛克辛",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a2f3c04bc737f8ca",
+    "source": "Misty",
+    "target": "米斯蒂",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fcc0d94b308233bc",
+    "source": "Oedipuss",
+    "target": "俄狄喵斯",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7c6e1bf16286b2bc",
+    "source": "Simon",
+    "target": "西蒙",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f0b8f69fa98c6678",
+    "source": "Clementine",
+    "target": "克莱门汀",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a536f5002c1c8f3f",
+    "source": "Kiki",
+    "target": "琪琪",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-18a91bdea286ec72",
+    "source": "Maple",
+    "target": "枫枫",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a1a5936d3b0f8a69",
+    "source": "Max",
+    "target": "麦克斯",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-830449e3d5d3711c",
+    "source": "Mina",
+    "target": "米娜",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-77b01da8db203b63",
+    "source": "Everything is different.",
+    "target": "一切都不一样了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8772fea7cffdcc44",
+    "source": "Father is overjoyed.",
+    "target": "父亲喜出望外。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5b07b63afce32f33",
+    "source": "We sit down to a particularly special supper.",
+    "target": "我们坐下来享用一顿格外特别的晚餐。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b77e947ff2fdcfda",
+    "source": "The group meets up for a final hurrah.",
+    "target": "大家聚在一起，作最后的欢庆。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a810665bb260781f",
+    "source": "I find Brit.",
+    "target": "我找到布莉特。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-aa3695f4974f1e43",
+    "source": "Something terrible is happening.",
+    "target": "可怕的事情正在发生。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bf28f641c0bd6e58",
+    "source": "Death comes to us all.",
+    "target": "死亡降临在我们每个人身上。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-095ebb52548b5d89",
+    "source": "Reality sets in.",
+    "target": "现实摆在眼前。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d95f940bbbd6011a",
+    "source": "Master Chamberlain, Duke of Denmark, Father",
+    "target": "宫廷总管，丹麦公爵，父亲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cf971bba29686660",
+    "source": "Lord of Denmark, Brother",
+    "target": "丹麦贵族，哥哥",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a4dcf50c30175bc7",
+    "source": "Lady of Denmark, Friend to Hamlet",
+    "target": "丹麦贵族小姐，哈姆雷特的朋友",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2a1a4e51799be795",
+    "source": "Playmaster",
+    "target": "剧团团长",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-592f2dee506433ce",
+    "source": "Former King of Denmark, Father to Hamlet",
+    "target": "丹麦先王，哈姆雷特的父亲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-46d6007e21c55a01",
+    "source": "Prince of Norway, Would-Be Conqueror",
+    "target": "挪威王子，野心勃勃的征服者",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-27fe8bf637d99538",
+    "source": "Barkeep, Teller of Tall Tales",
+    "target": "酒馆老板，爱讲奇闻轶事",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8c860c40730bea0a",
+    "source": "Pirate Queen of Connacht",
+    "target": "康诺特的海盗女王",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0da13c011f50e718",
+    "source": "Former King of Denmark, Hamlet's Father",
+    "target": "丹麦先王，哈姆雷特的父亲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5459ac48241345a3",
+    "source": "Polonius, Quince",
+    "target": "波洛涅斯、奎因斯",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e0f68dc5c929025d",
+    "source": "Rosencrantz, Guildenstern",
+    "target": "罗森克兰兹、吉尔登斯吞",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d521a195516f124f",
+    "source": "Brit",
+    "target": "布莉特",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-990c0cfaf197cbb8",
+    "source": "King Hamlet",
+    "target": "哈姆雷特先王",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a43a8595b691fe79",
+    "source": "Fortinbras",
+    "target": "福丁布拉斯",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-03e35d814b9819b8",
+    "source": "Irma, Simona",
+    "target": "伊尔玛、西蒙娜",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c5b599f06a83d3c3",
+    "source": "Music and Lyrics",
+    "target": "作曲、作词",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8f8577a673582756",
+    "source": "Vocals",
+    "target": "演唱",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d6ca1483c5d0ad80",
+    "source": "Violin",
+    "target": "小提琴",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-340f0d6b198b20df",
+    "source": "Cello",
+    "target": "大提琴",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-00cc2954ad6e2b8f",
+    "source": "Winds",
+    "target": "管乐",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c5050e5bca7862b3",
+    "source": "Guitar",
+    "target": "吉他",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f4ec6a0da32dd349",
+    "source": "Music and Lyrics, Choir",
+    "target": "作曲、作词、合唱",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5e0f384b14ec9fc4",
+    "source": "Choir",
+    "target": "合唱",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-36532d4232de7780",
+    "source": "String Quartet courtesy of Xiaoan Li",
+    "target": "弦乐四重奏由Xiaoan Li提供",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-caeda42e92f6e40a",
+    "source": "Viola",
+    "target": "中提琴",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6281afa4b161c738",
+    "source": "Guitar, Gango",
+    "target": "吉他、Gango",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-31058086b35a14d9",
+    "source": "Strings",
+    "target": "弦乐",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6eb00b4b2614a144",
+    "source": "Music",
+    "target": "作曲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e73a4aa7e5e3aadf",
+    "source": "Lyrics",
+    "target": "作词",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-47d2a515ef2f05b8",
+    "source": "Loading...",
+    "target": "正在加载……",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f310254838307373",
+    "source": "Fortinbras will make Hamlet into a beautiful puppet king.\\nAll of us will dance at Norway's behest.\\nBut if it means we all live on, that might be worth the price.",
+    "target": "福丁布拉斯会把哈姆雷特变成一个漂亮的傀儡国王。\n我们所有人都要听从挪威的摆布。\n但如果这能让我们都活下去，也许值得付出这个代价。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fb916acbda314631",
+    "source": "Show Buttons",
+    "target": "显示按钮",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cf009ff83f22c606",
+    "source": "Ship Wheel",
+    "target": "船舵",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3301aacea169cfee",
+    "source": "Altar",
+    "target": "祭坛",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-54bca525aa90c9ec",
+    "source": "Missing Portrait",
+    "target": "空缺的肖像",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-fd79c3a9d7666d19",
+    "source": "Pond",
+    "target": "池塘",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f6705af3c2c67069",
+    "source": "Large Grave",
+    "target": "大墓碑",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-48bea31f00a4fe34",
+    "source": "Guard Cot",
+    "target": "卫兵床铺",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3ee9e9d639e39c97",
+    "source": "The Queen's Plants",
+    "target": "王后的盆栽",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2ab927b98f8dec16",
+    "source": "Large Urn",
+    "target": "大瓮",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-83e441e58dfb0a75",
+    "source": "The Dungeon",
+    "target": "地牢",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a0e416f047b096f6",
+    "source": "The Guard House",
+    "target": "卫兵室",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-041dee77d10097d1",
+    "source": "Coat of Arms",
+    "target": "家徽",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6a9def102256900d",
+    "source": "Laertes's Chambers",
+    "target": "雷欧提斯的寝室",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6b3538363099c98d",
+    "source": "Inlaid Cabinet",
+    "target": "镶嵌橱柜",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-56420df8f9964e52",
+    "source": "Fountain",
+    "target": "喷泉",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-72fddc2b9230f61b",
+    "source": "Grave",
+    "target": "墓碑",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d6b661086b8f4f68",
+    "source": "The Main Deck",
+    "target": "主甲板",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1390463789e588c3",
+    "source": "Polonius's Hearth",
+    "target": "波洛涅斯的壁炉",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a0e8264ed7a6fa50",
+    "source": "Assorted Papers",
+    "target": "杂乱的纸张",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a43ee6f5cf998f86",
+    "source": "Polonius's Chambers",
+    "target": "波洛涅斯的寝室",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b70d410a53fafe54",
+    "source": "Ophelia's Chambers",
+    "target": "奥菲莉娅的寝室",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ec8cc5cb25c89279",
+    "source": "My Mother's Diary",
+    "target": "母亲的日记",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-83dfdb39319d6dd6",
+    "source": "Confiscation Table",
+    "target": "收缴物品桌",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bead0d760f265894",
+    "source": "The Forest Path",
+    "target": "林间小径",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bdc7e96514483428",
+    "source": "Well",
+    "target": "水井",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-12e3dcd4ec224143",
+    "source": "Personal Belongings",
+    "target": "私人物品",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a02d81083e7d561f",
+    "source": "The Chapel",
+    "target": "礼拜堂",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0ae8537dd3ace709",
+    "source": "Rolled-Up Letter",
+    "target": "卷起的信",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8216af021e64221f",
+    "source": "A Dungeon Cell",
+    "target": "牢房",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-129d059a17086fcc",
+    "source": "Window Slit",
+    "target": "狭窄的窗缝",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3fcec4e55264a87a",
+    "source": "Castle Town's Streets",
+    "target": "城镇街道",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-309a84c826870635",
+    "source": "The Grounds",
+    "target": "城堡外庭",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dbf0c421e84bc80a",
+    "source": "Peculiar Tales, Vol. 3",
+    "target": "奇闻异事，第3卷",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-96579dcca9b0cc6b",
+    "source": "Pans",
+    "target": "锅具",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3bcc4c9ab3af91f6",
+    "source": "Lady Edith",
+    "target": "伊迪丝夫人",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f71094c30160d155",
+    "source": "Portrait",
+    "target": "肖像",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c83b65791b5b42ce",
+    "source": "Bucket",
+    "target": "水桶",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b01e235a2869d5ed",
+    "source": "Statue",
+    "target": "雕像",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dbdccc63f587c82b",
+    "source": "The Walls",
+    "target": "城墙",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-73b69322b4e001b5",
+    "source": "Stolen Portrait",
+    "target": "偷来的肖像",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c23f7c11599aef1d",
+    "source": "Fireplace",
+    "target": "壁炉",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d770ed3a449e8601",
+    "source": "Hamlet's Bed",
+    "target": "哈姆雷特的床",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1ef3409c13a8d281",
+    "source": "Gertrude's Hearth",
+    "target": "乔特鲁德的壁炉",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7709669878bba51d",
+    "source": "The Kitchen",
+    "target": "厨房",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-16d1c9050a0b32e8",
+    "source": "Table",
+    "target": "桌子",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6923d69756c1dfce",
+    "source": "The Fields",
+    "target": "田野",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6cdc30a1ef920ec0",
+    "source": "Brother's Bed",
+    "target": "哥哥的床",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7b38b09bb4bab0b7",
+    "source": "The Flinty & Steel",
+    "target": "燧石与钢酒馆",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b1d7462d7cc49f18",
+    "source": "The Great Hall",
+    "target": "大厅",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-45d8973c1fb52fb0",
+    "source": "Stables",
+    "target": "马厩",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-60b7b0ee0e7b0d34",
+    "source": "The Courtyard",
+    "target": "庭院",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-49bf68235c8868f6",
+    "source": "Curtains",
+    "target": "窗帘",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-dbfd9040e32b1604",
+    "source": "Queen's Portrait",
+    "target": "王后的肖像",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-270c8a9bc2ed0316",
+    "source": "The Graveyard",
+    "target": "墓地",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4fb4c6f38a7c723a",
+    "source": "Plates",
+    "target": "盘子",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9da7f76bc81d2f4e",
+    "source": "Books",
+    "target": "书籍",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8440bc99a5001908",
+    "source": "Beautiful Portrait",
+    "target": "美丽的肖像",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-84f68b881735da0e",
+    "source": "Claudius's Chambers",
+    "target": "克劳狄斯的寝室",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-86605cac7f064686",
+    "source": "Mother",
+    "target": "母亲",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-304feb2e83111f71",
+    "source": "Peculiar Tales, Vol. 4",
+    "target": "奇闻异事，第4卷",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6be1601f8fafad0d",
+    "source": "Gertrude's Diary",
+    "target": "乔特鲁德的日记",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-378d83808237a445",
+    "source": "Chest",
+    "target": "箱子",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e4eb18069d65aaa9",
+    "source": "Food",
+    "target": "食物",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a9b5a4dc663e67ec",
+    "source": "Stove",
+    "target": "炉灶",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2caaf60047b8cfec",
+    "source": "My Dresser",
+    "target": "我的衣柜",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b54da0b02b634e23",
+    "source": "Weapons Rack",
+    "target": "武器架",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-49d3282870f63248",
+    "source": "Peculiar Tales, Vol. 2",
+    "target": "奇闻异事，第2卷",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9889a1e2ed905502",
+    "source": "The Captain's Quarters",
+    "target": "船长室",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e0503967f29ddec6",
+    "source": "Straw",
+    "target": "稻草",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-9bb103b541e8b910",
+    "source": "My Bed",
+    "target": "我的床",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-66ebd76fa4e60106",
+    "source": "Messy Papers",
+    "target": "凌乱的纸张",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5cc12a6d83fd3a32",
+    "source": "Limbo",
+    "target": "虚空",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-70e739d8bdf09e86",
+    "source": "The Guards' Quarters",
+    "target": "卫兵宿舍",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-eba79aa79427530a",
+    "source": "Gertrude's Bed",
+    "target": "乔特鲁德的床",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-96c9a0bbfe7d09a8",
+    "source": "Lower Hallway",
+    "target": "下层走廊",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-62a9cf9a34cb9bae",
+    "source": "Gertrude's Mirror",
+    "target": "乔特鲁德的镜子",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-700ca3b4435f45cd",
+    "source": "Peculiar Tales, Vol. 5",
+    "target": "奇闻异事，第5卷",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cacd71017abcce94",
+    "source": "My Desk",
+    "target": "我的书桌",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-3dbb3281b9f33b33",
+    "source": "Father's Bed",
+    "target": "父亲的床",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-665097a4d75db07d",
+    "source": "The Upper Deck",
+    "target": "上甲板",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7a039a391b9fbf71",
+    "source": "Upper Hallway",
+    "target": "上层走廊",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-530414c0cdc2911c",
+    "source": "Next Line",
+    "target": "下一句",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-719dcaf88ba37f4d",
+    "source": "Mother's Grave",
+    "target": "母亲的墓碑",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c552dd35004b7450",
+    "source": "The Landing",
+    "target": "平台",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7293a93794825213",
+    "source": "The Royal Gallery",
+    "target": "王室画廊",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-bfa9e84a2f01e739",
+    "source": "Locked Chest",
+    "target": "锁上的箱子",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ca1ae273aa714b34",
+    "source": "King's Portrait",
+    "target": "国王的肖像",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7b5c25d716f5e8df",
+    "source": "Peculiar Tales, Vol. 1",
+    "target": "奇闻异事，第1卷",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-70f59043a945250e",
+    "source": "Lower Garden",
+    "target": "下层花园",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-af75a90f49860cc9",
+    "source": "Open Map",
+    "target": "打开地图",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4b61a71c5fa90f6a",
+    "source": "The Docks",
+    "target": "码头",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e658d3ae034a3dcf",
+    "source": "Landscape",
+    "target": "风景画",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-beecaf115fe16f5d",
+    "source": "Weapon Rack",
+    "target": "武器架",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-913f317108e471cf",
+    "source": "Bookshelf",
+    "target": "书架",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-25c1b03acf803743",
+    "source": "Letter to Claudius",
+    "target": "致克劳狄斯的信",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7e75c2b1583a462c",
+    "source": "Hamlet's Chambers",
+    "target": "哈姆雷特的寝室",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f095d4fe0dab22c7",
+    "source": "Shack",
+    "target": "小屋",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-de7df85d9021faf9",
+    "source": "Conversation History",
+    "target": "对话记录",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a8183d52de0fd3c9",
+    "source": "Reset Loop",
+    "target": "重置循环",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f5f3011fdd7d6915",
+    "source": "Pause Game",
+    "target": "暂停游戏",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a9621f36ab4f1447",
+    "source": "Open Timeline",
+    "target": "打开时间线",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f7b51d61398cf038",
+    "source": "Open Journal",
+    "target": "打开日志",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-66c3375ae1e784f7",
+    "source": "View Second Floor",
+    "target": "查看二楼",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6a5c76de9a3fa0c6",
+    "source": "View Next Loop",
+    "target": "查看下一轮循环",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-db038e6b2265e9bd",
+    "source": "View Previous Loop",
+    "target": "查看上一轮循环",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ac481e1b6de00da5",
+    "source": "View First Floor",
+    "target": "查看一楼",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7ab4f62d323b0ca7",
+    "source": "FIN",
+    "target": "终",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cb0be2eee7d0c174",
+    "source": "Listen to Event",
+    "target": "旁听事件",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-824f97f8223872dd",
+    "source": "(And <i>Brit</i> is—)",
+    "target": "（还有<i>布莉特</i>也在——）",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-18cbba19f3339397",
+    "source": "(Father—)",
+    "target": "（父亲——）",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-52cb8441dc92fc26",
+    "source": "<i><i>Hail, Claudius.</i></i>",
+    "target": "<i><i>向你致意，克劳狄斯。</i></i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-340c26a1d830b173",
+    "source": "<i><i>Ophelia.</i></i>",
+    "target": "<i><i>奥菲莉娅。</i></i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d93ec18ac3cf32e1",
+    "source": "<i><i>Patience, Hamlet.</i></i>",
+    "target": "<i><i>耐心些，哈姆雷特。</i></i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ef38ad0d68b3f2a0",
+    "source": "<i>Ah. Him.</i>",
+    "target": "<i>啊。是他。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-81a54101da171c21",
+    "source": "<i>Ah...</i>",
+    "target": "<i>啊……</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-17a5b35a21473f96",
+    "source": "<i>Boredom.</i>",
+    "target": "<i>无聊。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-0d0afa621884c0d4",
+    "source": "<i>Choice.</i>",
+    "target": "<i>选择。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d4ea28d293e393b9",
+    "source": "<i>Gerta?</i>",
+    "target": "<i>乔塔？</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a65bcac250da52b2",
+    "source": "<i>Go <b>back?</b></i>",
+    "target": "<i><b>回去？</b></i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-76a493af10ee7058",
+    "source": "<i>Godspeed, Ophelia.</i>",
+    "target": "<i>愿你一切顺利，奥菲莉娅。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5b7603f138037fdb",
+    "source": "<i>Hamlet.</i>",
+    "target": "<i>哈姆雷特。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-91f4e580d03841de",
+    "source": "<i>Hmph.</i>",
+    "target": "<i>哼。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1aa5b8329ecc53d5",
+    "source": "<i>Hush, brother.</i>",
+    "target": "<i>安静些，弟弟。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2a4d534c4eac0f8a",
+    "source": "<i>I do.</i>",
+    "target": "<i>我明白。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-50a72da3149f2c3a",
+    "source": "<i>I see.</i>",
+    "target": "<i>我明白了。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-f187f6f57d60a149",
+    "source": "<i>I understand.</i>",
+    "target": "<i>我明白。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e359d7305d775a59",
+    "source": "<i>I...</i>",
+    "target": "<i>我……</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-89b1a4ec5da568a8",
+    "source": "<i>I</i> don't understand? Why, you—",
+    "target": "<i>我</i>不明白？你这——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2d9f43a311492b27",
+    "source": "<i>No—</i>",
+    "target": "<i>不——</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-13c0e9805e6a1c47",
+    "source": "<i>Patience.</i>",
+    "target": "<i>耐心些。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e9c4c747fbdbe832",
+    "source": "<i>Please, Ophelia.</i>",
+    "target": "<i>求你了，奥菲莉娅。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-92bf1d3835be8d84",
+    "source": "<i>Yes. I knew.</i>",
+    "target": "<i>是的。我知道。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c91771175f546358",
+    "source": "<i>Yes.</i>",
+    "target": "<i>是的。</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1735bcfe55e3cca9",
+    "source": "<i>You <b>chose,</b> Ophelia!</i>",
+    "target": "<i>你已经<b>做出了选择，</b>奥菲莉娅！</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7cf739c0035afa8f",
+    "source": "<i>Your... mother?</i>",
+    "target": "<i>你的……母亲？</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-c04fbdd2eae3c986",
+    "source": "A-a—a ghost!",
+    "target": "鬼、鬼——有鬼！",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-e365eadfae778f52",
+    "source": "Aah—I see.",
+    "target": "啊——我明白了。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d9a3339d282ad356",
+    "source": "And I—",
+    "target": "而我——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d4beba87059b8b27",
+    "source": "And yet—",
+    "target": "可是——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1a87e67dc4fad97f",
+    "source": "Because—",
+    "target": "因为——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4f8375eadeeb10b5",
+    "source": "But Hamlet—",
+    "target": "可是，哈姆雷特——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-d0a86ac56fe910af",
+    "source": "But, nevertheless—",
+    "target": "可是，尽管如此——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-df546c41e3f8f2ab",
+    "source": "Claudius. Ophelia—she's—",
+    "target": "克劳狄斯。奥菲莉娅——她——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-a37486aba98b3713",
+    "source": "Err—",
+    "target": "呃——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-45cbe990cceaabc1",
+    "source": "Father—",
+    "target": "父亲——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-96e19e7e57b0d1b6",
+    "source": "Gerta—",
+    "target": "乔塔——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-75d22d7aed464744",
+    "source": "Hamlet—",
+    "target": "哈姆雷特——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-cbb7a8ef0b89bcba",
+    "source": "He—Hamlet—is <i>dead?</i>",
+    "target": "他——哈姆雷特——<i>死了？</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8a91400933b2a09d",
+    "source": "I thought—",
+    "target": "我以为——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-50e5772375b45caf",
+    "source": "I-I—",
+    "target": "我、我——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4e551d4228f7975e",
+    "source": "It's—",
+    "target": "这是——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-87b65e1a479015e6",
+    "source": "It's—oh—",
+    "target": "这是——哦——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4b964bcf87f48f24",
+    "source": "My family—",
+    "target": "我的家人——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-868430c3ba0bf765",
+    "source": "No, no, no—this <i>again?</i>",
+    "target": "不，不，不——<i>又来？</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-7a61ed921d16a26f",
+    "source": "Ophelia, I—",
+    "target": "奥菲莉娅，我——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-ff5502b2f9637785",
+    "source": "Ophelia. Er. I—well.",
+    "target": "奥菲莉娅。呃。我——嗯。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-b5b3e52d3b8f5688",
+    "source": "Ophelia—",
+    "target": "奥菲莉娅——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-4651e00b85159fd6",
+    "source": "Si—<i>Simona?</i>",
+    "target": "西——<i>西蒙娜？</i>",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-672b70958de05088",
+    "source": "Something—anything?",
+    "target": "做点什么——什么都好？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-046834eea28b5c42",
+    "source": "Ugh—Waaah! What's happening?!",
+    "target": "呃——哇啊！怎么回事？！",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1bfc38485f6d9100",
+    "source": "What is—",
+    "target": "这是——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-1f4f46373d52c51d",
+    "source": "What? How—",
+    "target": "什么？你怎么——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-6e66670cdce0e67f",
+    "source": "What? I—",
+    "target": "什么？我——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-8eb9216ba22fdb70",
+    "source": "What—",
+    "target": "什么——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-85ec46af662e4255",
+    "source": "Wha—?",
+    "target": "什——？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-151ea36b7fba0f15",
+    "source": "Why—",
+    "target": "为什么——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-41fc48fc2af8de08",
+    "source": "You're—",
+    "target": "你——",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-5e1e66d685e39308",
+    "source": "You—you <i>believe</i> what I said?",
+    "target": "你——你<i>相信</i>我说的话？",
+    "batch": "settings-supplemental"
   }
 ]
