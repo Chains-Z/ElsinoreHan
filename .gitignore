@@ -1,0 +1,20 @@
+# 本地缓存与工具生成物
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.codex-worktree/
+
+# 本地凭证与私有配置
+.env
+.env.*
+!.env.example
+*api-key*
+*credentials*
+
+# 下载依赖、游戏备份和运行日志
+downloads/
+runtime/downloads/
+runtime/backups/
+runtime/logs/
+*.log

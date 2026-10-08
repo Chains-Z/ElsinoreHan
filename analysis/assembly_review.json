@@ -1,0 +1,4146 @@
+[
+  {
+    "text": "Loading configs...",
+    "origin": "Assembly-CSharp.dll:#US:133"
+  },
+  {
+    "text": "config file found, running in debug mode",
+    "origin": "Assembly-CSharp.dll:#US:193"
+  },
+  {
+    "text": "running in {0} mode",
+    "origin": "Assembly-CSharp.dll:#US:275"
+  },
+  {
+    "text": "Read config.json: {0}",
+    "origin": "Assembly-CSharp.dll:#US:367"
+  },
+  {
+    "text": "error loading game config:",
+    "origin": "Assembly-CSharp.dll:#US:411"
+  },
+  {
+    "text": "bad error message!",
+    "origin": "Assembly-CSharp.dll:#US:469"
+  },
+  {
+    "text": "doing partial quick save",
+    "origin": "Assembly-CSharp.dll:#US:523"
+  },
+  {
+    "text": "ImTheBoss.Awake at {0}",
+    "origin": "Assembly-CSharp.dll:#US:573"
+  },
+  {
+    "text": "shutting down ImTheBoss...",
+    "origin": "Assembly-CSharp.dll:#US:619"
+  },
+  {
+    "text": "quick saving on exit.",
+    "origin": "Assembly-CSharp.dll:#US:673"
+  },
+  {
+    "text": "outdated midloop save, attempting to correct.",
+    "origin": "Assembly-CSharp.dll:#US:717"
+  },
+  {
+    "text": "fix: abandoned loop.",
+    "origin": "Assembly-CSharp.dll:#US:809"
+  },
+  {
+    "text": "Due to recent game updates, your game has been reverted to the start of the most recent loop. All progress up to that point has been preserved.",
+    "origin": "Assembly-CSharp.dll:#US:851"
+  },
+  {
+    "text": "Due to recent game updates, your game has been reverted to the start of the prologue. We apologize for the inconvenience.",
+    "origin": "Assembly-CSharp.dll:#US:1140"
+  },
+  {
+    "text": "fix: reset loop.",
+    "origin": "Assembly-CSharp.dll:#US:1385"
+  },
+  {
+    "text": "Due to recent game updates, your game has been advanced to the start of the next loop. All progress up to that point has been preserved.",
+    "origin": "Assembly-CSharp.dll:#US:1419"
+  },
+  {
+    "text": "failed to load after trimming outdated data!",
+    "origin": "Assembly-CSharp.dll:#US:1694"
+  },
+  {
+    "text": "unknown loading error!",
+    "origin": "Assembly-CSharp.dll:#US:1784"
+  },
+  {
+    "text": "The loop was reset with the Main Camera inactive! Re-enabling it now.",
+    "origin": "Assembly-CSharp.dll:#US:1998"
+  },
+  {
+    "text": "loop started at {0}",
+    "origin": "Assembly-CSharp.dll:#US:2139"
+  },
+  {
+    "text": "scheduler tick",
+    "origin": "Assembly-CSharp.dll:#US:2221"
+  },
+  {
+    "text": "behavior tick",
+    "origin": "Assembly-CSharp.dll:#US:2269"
+  },
+  {
+    "text": "movement tick",
+    "origin": "Assembly-CSharp.dll:#US:2297"
+  },
+  {
+    "text": "scheduler scene tick",
+    "origin": "Assembly-CSharp.dll:#US:2343"
+  },
+  {
+    "text": "state logging",
+    "origin": "Assembly-CSharp.dll:#US:2385"
+  },
+  {
+    "text": "imtheboss failed to initialize before updating",
+    "origin": "Assembly-CSharp.dll:#US:2433"
+  },
+  {
+    "text": "cannot set visible time during main game!",
+    "origin": "Assembly-CSharp.dll:#US:2527"
+  },
+  {
+    "text": "force-starting event ",
+    "origin": "Assembly-CSharp.dll:#US:2655"
+  },
+  {
+    "text": "earliest time is ",
+    "origin": "Assembly-CSharp.dll:#US:2699"
+  },
+  {
+    "text": "changing time",
+    "origin": "Assembly-CSharp.dll:#US:2735"
+  },
+  {
+    "text": "cannot find marker with id ",
+    "origin": "Assembly-CSharp.dll:#US:2921"
+  },
+  {
+    "text": "Using specified override directory: {0}",
+    "origin": "Assembly-CSharp.dll:#US:2977"
+  },
+  {
+    "text": "Failed to create save directory: \"{0}\"; using backup: \"{1}\". Exception: {2}",
+    "origin": "Assembly-CSharp.dll:#US:3057"
+  },
+  {
+    "text": "Failed to move save files in old directory! Exception: {0}",
+    "origin": "Assembly-CSharp.dll:#US:3240"
+  },
+  {
+    "text": "Failed to migrate old save files! Exception: {0}",
+    "origin": "Assembly-CSharp.dll:#US:3386"
+  },
+  {
+    "text": "Exception trying to load preferences from {0}, trying next directory: {1}",
+    "origin": "Assembly-CSharp.dll:#US:3484"
+  },
+  {
+    "text": "Could not load preferences, using default.",
+    "origin": "Assembly-CSharp.dll:#US:3633"
+  },
+  {
+    "text": "save data from a previous version of the game, deleting.",
+    "origin": "Assembly-CSharp.dll:#US:3719"
+  },
+  {
+    "text": "save data is corrupt, deleting.",
+    "origin": "Assembly-CSharp.dll:#US:3833"
+  },
+  {
+    "text": "failed to read savedata! exception: {0}",
+    "origin": "Assembly-CSharp.dll:#US:3897"
+  },
+  {
+    "text": "saving data...",
+    "origin": "Assembly-CSharp.dll:#US:3977"
+  },
+  {
+    "text": "failed to write savedata! exception: {0}",
+    "origin": "Assembly-CSharp.dll:#US:4007"
+  },
+  {
+    "text": "Using precompiled scene code.",
+    "origin": "Assembly-CSharp.dll:#US:4089"
+  },
+  {
+    "text": "actionless scene '",
+    "origin": "Assembly-CSharp.dll:#US:4149"
+  },
+  {
+    "text": "' contained RuntimeActions, this should not happen! Ignoring them.",
+    "origin": "Assembly-CSharp.dll:#US:4187"
+  },
+  {
+    "text": "Just invited event {0} already happened in the current timeline!",
+    "origin": "Assembly-CSharp.dll:#US:4322"
+  },
+  {
+    "text": "Just invited event {0} will not happen in the current timeline!",
+    "origin": "Assembly-CSharp.dll:#US:4453"
+  },
+  {
+    "text": "Proximity-triggered event {0} doesn't have a room!",
+    "origin": "Assembly-CSharp.dll:#US:4581"
+  },
+  {
+    "text": "Invalid action: {0}",
+    "origin": "Assembly-CSharp.dll:#US:4755"
+  },
+  {
+    "text": "checking deactivation",
+    "origin": "Assembly-CSharp.dll:#US:4819"
+  },
+  {
+    "text": "Ophelia's current event is interrupted by a sudden interlude.",
+    "origin": "Assembly-CSharp.dll:#US:4873"
+  },
+  {
+    "text": "No smalltalk available for {0} right now!",
+    "origin": "Assembly-CSharp.dll:#US:5015"
+  },
+  {
+    "text": "Stage direction {0} used in invalid {1} scene {2}!",
+    "origin": "Assembly-CSharp.dll:#US:5099"
+  },
+  {
+    "text": "stage direction {0} cannot be serialized",
+    "origin": "Assembly-CSharp.dll:#US:5201"
+  },
+  {
+    "text": "error loading stage direction {0}",
+    "origin": "Assembly-CSharp.dll:#US:5321"
+  },
+  {
+    "text": "quick save stage directions",
+    "origin": "Assembly-CSharp.dll:#US:5389"
+  },
+  {
+    "text": "Ignore Raycast",
+    "origin": "Assembly-CSharp.dll:#US:5581"
+  },
+  {
+    "text": "Just yesterday, I would have believed you. But with everything that's changed—Hamlet might very well come out of this a new young man.",
+    "origin": "Assembly-CSharp.dll:#US:204074"
+  },
+  {
+    "text": "A-ah—it must be because of—well, I heard the story about what happened with your father.",
+    "origin": "Assembly-CSharp.dll:#US:217991"
+  },
+  {
+    "text": "But a <b>spirit—</b> a vision, is something else entirely. You could have my reputation shattered. And my uncle would be all too gleeful over it.",
+    "origin": "Assembly-CSharp.dll:#US:232307"
+  },
+  {
+    "text": "If you are interested in seeing me perform something special—maybe based upon some juicy gossip—feel free to let me know!",
+    "origin": "Assembly-CSharp.dll:#US:241997"
+  },
+  {
+    "text": "(Well, it's Brit—or <i>was—</i> but I'll feign ignorance.)",
+    "origin": "Assembly-CSharp.dll:#US:244369"
+  },
+  {
+    "text": "They—they did?",
+    "origin": "Assembly-CSharp.dll:#US:256795"
+  },
+  {
+    "text": "And—with young Laertes gone, I expect your heart is heavy right now.",
+    "origin": "Assembly-CSharp.dll:#US:259470"
+  },
+  {
+    "text": "<i>Yes. In a way, it is peaceful.</i>",
+    "origin": "Assembly-CSharp.dll:#US:268658"
+  },
+  {
+    "text": "<i>All suffering is, in one way or another, caused by death, or the fear of it...</i>",
+    "origin": "Assembly-CSharp.dll:#US:268734"
+  },
+  {
+    "text": "<i>Now that fear is removed forever, replaced by an equally-deep boredom.</i>",
+    "origin": "Assembly-CSharp.dll:#US:268907"
+  },
+  {
+    "text": "<i>Even still, this boredom is refreshing at the moment, though I anticipate it, too, will grow old.</i>",
+    "origin": "Assembly-CSharp.dll:#US:269064"
+  },
+  {
+    "text": "<i>And when it does... well.</i>",
+    "origin": "Assembly-CSharp.dll:#US:269275"
+  },
+  {
+    "text": "<i>To divest oneself of the fear of death, one need only give into it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:269341"
+  },
+  {
+    "text": "<i>How does one divest oneself of eternal boredom?</i>",
+    "origin": "Assembly-CSharp.dll:#US:269492"
+  },
+  {
+    "text": "<i>Indeed. A most frightening prospect.</i>",
+    "origin": "Assembly-CSharp.dll:#US:269771"
+  },
+  {
+    "text": "<i>Yes. As we've discussed before, it has never been a concern of mine.</i>",
+    "origin": "Assembly-CSharp.dll:#US:275081"
+  },
+  {
+    "text": "<i>It does not.</i>",
+    "origin": "Assembly-CSharp.dll:#US:275338"
+  },
+  {
+    "text": "<i>I made my peace with it long before my death.</i>",
+    "origin": "Assembly-CSharp.dll:#US:275378"
+  },
+  {
+    "text": "<i>Though they were only one in body near the end of my life... their feelings for one another extended to far before that.</i>",
+    "origin": "Assembly-CSharp.dll:#US:275484"
+  },
+  {
+    "text": "<i>Something in Gerta and I died far sooner, when the others did.</i>",
+    "origin": "Assembly-CSharp.dll:#US:275741"
+  },
+  {
+    "text": "<i>Ah. It would not be common knowledge for anyone other than Irma and Gerta, I expect.</i>",
+    "origin": "Assembly-CSharp.dll:#US:275906"
+  },
+  {
+    "text": "<i>Hamlet was our first living child. But Gerta was with child before that. Four times in all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:276091"
+  },
+  {
+    "text": "<i>The first she lost very near to birth. We thought the child might live, but we were wrong.</i>",
+    "origin": "Assembly-CSharp.dll:#US:276290"
+  },
+  {
+    "text": "<i>The second and third emerged simply as a stream of blood.</i>",
+    "origin": "Assembly-CSharp.dll:#US:276487"
+  },
+  {
+    "text": "<i>She saw each loss as a failure unto herself.</i>",
+    "origin": "Assembly-CSharp.dll:#US:276618"
+  },
+  {
+    "text": "<i>After we lost our third child, I no longer knew what to say to her, and she to me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:276722"
+  },
+  {
+    "text": "<i>If she could not give me an heir, she could not fulfill her duties as Queen, as she saw them. And to her, that was the gravest failing of all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:276903"
+  },
+  {
+    "text": "<i>When she was with child a fourth time, she had already picked out a place to bury him in the graveyard, so certain was she that he would die.</i>",
+    "origin": "Assembly-CSharp.dll:#US:277204"
+  },
+  {
+    "text": "<i>But Hamlet lived. And our miracle son was born.</i>",
+    "origin": "Assembly-CSharp.dll:#US:277503"
+  },
+  {
+    "text": "<i>Claudius knew nothing of the lost children, as far as I know. He was a comfort to her. He was warm and gentle to her in ways I was not.</i>",
+    "origin": "Assembly-CSharp.dll:#US:277613"
+  },
+  {
+    "text": "<i>Over time that comfort grew to familiarity, then to affection, then to love. I witnessed it and I did not stop it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:277900"
+  },
+  {
+    "text": "<i>My wife has suffered enough in this life. Improper though it may be for a man to allow his wife to be wooed by his brother...</i>",
+    "origin": "Assembly-CSharp.dll:#US:278145"
+  },
+  {
+    "text": "<i>If it would purchase her one single shred of happiness, I would overlook nearly anything in the world for Gerta.</i>",
+    "origin": "Assembly-CSharp.dll:#US:278412"
+  },
+  {
+    "text": "I—I had no idea. My sincerest apologies for prying, King Hamlet.",
+    "origin": "Assembly-CSharp.dll:#US:278653"
+  },
+  {
+    "text": "<i>Gertrude?</i> I—I don't know quite what to say about that.",
+    "origin": "Assembly-CSharp.dll:#US:278967"
+  },
+  {
+    "text": "Certainly. You're in luck—Bernardo ordered me to turn over the key, but he hasn't come for it yet.",
+    "origin": "Assembly-CSharp.dll:#US:284792"
+  },
+  {
+    "text": "My apologies. It's just—",
+    "origin": "Assembly-CSharp.dll:#US:287677"
+  },
+  {
+    "text": "This card game you mentioned—it's unpopular with the others?",
+    "origin": "Assembly-CSharp.dll:#US:292930"
+  },
+  {
+    "text": "Before the slippers she wore to his funeral had even been broken in—a funeral where she followed his body like Niobe, all tears—",
+    "origin": "Assembly-CSharp.dll:#US:305071"
+  },
+  {
+    "text": "It's too late for me to do something public about this—expose them for who they are, on stage...",
+    "origin": "Assembly-CSharp.dll:#US:308143"
+  },
+  {
+    "text": "All the things I did for <i>her—</i>",
+    "origin": "Assembly-CSharp.dll:#US:315967"
+  },
+  {
+    "text": "Otherwise, if I start to think about it—",
+    "origin": "Assembly-CSharp.dll:#US:316182"
+  },
+  {
+    "text": "In the past, I would have turned to Brit for something like this. But—well.",
+    "origin": "Assembly-CSharp.dll:#US:320317"
+  },
+  {
+    "text": "It's too late for me to do something public about this—to expose them for who they are, on stage...",
+    "origin": "Assembly-CSharp.dll:#US:324696"
+  },
+  {
+    "text": "He asked me to watch Claudius closely for any hint of—well, guilt, I suppose.",
+    "origin": "Assembly-CSharp.dll:#US:332117"
+  },
+  {
+    "text": "He had asked me to watch Claudius closely for any hint of—well, guilt, I suppose.",
+    "origin": "Assembly-CSharp.dll:#US:332374"
+  },
+  {
+    "text": "But those beady little eyes of his—who knows what horrors he's capable of!",
+    "origin": "Assembly-CSharp.dll:#US:339125"
+  },
+  {
+    "text": "I showed the very location to his men not long after he spoke with you. My mother—was in shock. I couldn't leave him there with her.",
+    "origin": "Assembly-CSharp.dll:#US:342622"
+  },
+  {
+    "text": "And—he was right.",
+    "origin": "Assembly-CSharp.dll:#US:349499"
+  },
+  {
+    "text": "Rest assured—he will be dealt with in swift time.",
+    "origin": "Assembly-CSharp.dll:#US:352493"
+  },
+  {
+    "text": "<i><i>I warned him to stay his hand, but he listened not.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:353613"
+  },
+  {
+    "text": "<i><i>Grow used to the sting of loss, Ophelia. You will see it yet many hundreds of times before you are free.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:353746"
+  },
+  {
+    "text": "I can't speak about this right now, my lady. Apologies for being evasive, but—many things have taken place in the last few hours.",
+    "origin": "Assembly-CSharp.dll:#US:354256"
+  },
+  {
+    "text": "Had Hamlet been... properly disciplined before now—had someone intervened—your father might yet live.",
+    "origin": "Assembly-CSharp.dll:#US:358781"
+  },
+  {
+    "text": "I knew she was unhappy. But to this extent—to the point of treason? How can it be?",
+    "origin": "Assembly-CSharp.dll:#US:365467"
+  },
+  {
+    "text": "That's not what I was aski—you know what, forget I said anything.",
+    "origin": "Assembly-CSharp.dll:#US:378211"
+  },
+  {
+    "text": "Still, to lose one's life so young—it is a shame.",
+    "origin": "Assembly-CSharp.dll:#US:378642"
+  },
+  {
+    "text": "You're going to continue meeting with him until he has all the information he needs to overtake Elsinore. And then, Brit—then everyone will die.",
+    "origin": "Assembly-CSharp.dll:#US:424321"
+  },
+  {
+    "text": "Those eyes will watch for any opportune moment—and then they'll find him and release him back to his men.",
+    "origin": "Assembly-CSharp.dll:#US:426627"
+  },
+  {
+    "text": "Look, Ophelia—a little free advice between friends...",
+    "origin": "Assembly-CSharp.dll:#US:427205"
+  },
+  {
+    "text": "<i>There are gaps in my knowledge between my death and my... awakening.</i>",
+    "origin": "Assembly-CSharp.dll:#US:437637"
+  },
+  {
+    "text": "<i>I know not where they live now. Only that he has certainly taken them from where they once lay.</i>",
+    "origin": "Assembly-CSharp.dll:#US:437790"
+  },
+  {
+    "text": "<i>I can feel the cobwebs of my memory being dusted away gently.</i>",
+    "origin": "Assembly-CSharp.dll:#US:448616"
+  },
+  {
+    "text": "<i>Ah, to be alive, to remember... my utter failure.</i>",
+    "origin": "Assembly-CSharp.dll:#US:448755"
+  },
+  {
+    "text": "<i>That book... I gave up in the end, didn't I? And I let... that cursed <i>thing</i> win, break me down...</i>",
+    "origin": "Assembly-CSharp.dll:#US:448869"
+  },
+  {
+    "text": "<i>Yes. Like you, I was doomed to repeat the occasion of my death. Hundreds of times. Thousands.</i>",
+    "origin": "Assembly-CSharp.dll:#US:449327"
+  },
+  {
+    "text": "<i><i>And like you, the timeline of my death was no more than a week. My son Hamlet was away at Wittenberg, my brother Claudius plotting to take my throne.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:449530"
+  },
+  {
+    "text": "<i><i>How long was I trapped in that insane void between life and death? Centuries? Millennia? I know not...</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:449859"
+  },
+  {
+    "text": "<i><i>It was peaceful to forget for a while, but even now, I cannot be truly dead. No, here I am, still animated, grimacing, like a starved dog brought back to life, forced to bare my teeth...</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:450094"
+  },
+  {
+    "text": "<i><i>I cannot truly rest until my brother pays for his crime, the crime I spent a thousand years trying to avoid!</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:450497"
+  },
+  {
+    "text": "<i><i>A way out!</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:450872"
+  },
+  {
+    "text": "<i><i>A choice between versions of a private hell!</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:450948"
+  },
+  {
+    "text": "<i><b>But I was not permitted that much! No, I had to give up! I lay there in the garden, being poisoned by my own brother over and over again, for years before I was freed!</b></i>",
+    "origin": "Assembly-CSharp.dll:#US:451098"
+  },
+  {
+    "text": "<i><i>I scoured every inch of the castle, every nook and flagstone and drawer—it isn't here, Ophelia! It simply isn't!</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:451463"
+  },
+  {
+    "text": "<i><i>Why did I have to give up, to expire into madness alone?</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:451718"
+  },
+  {
+    "text": "<i><b>Ophelia! Find the book! Find the book and save your own soul!</b></i>",
+    "origin": "Assembly-CSharp.dll:#US:452246"
+  },
+  {
+    "text": "<i><b><i>You know that name? How? How can you know?</b></i></i>",
+    "origin": "Assembly-CSharp.dll:#US:452544"
+  },
+  {
+    "text": "<i>It is eternally more worthwhile to fight than to give up as I did, Ophelia. Never forget that. For you, hope lingers.</i>",
+    "origin": "Assembly-CSharp.dll:#US:452953"
+  },
+  {
+    "text": "<i>I believe that you will live to see winter come to Denmark—putting an end to this cursed summer.</i>",
+    "origin": "Assembly-CSharp.dll:#US:453204"
+  },
+  {
+    "text": "<i>Perhaps it is too late, after all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:453709"
+  },
+  {
+    "text": "<i>Insanity—death—they have always plagued our family. My mother Astrid was no exception.</i>",
+    "origin": "Assembly-CSharp.dll:#US:453793"
+  },
+  {
+    "text": "<i>I often wonder if she died like me, if she saw time repeating itself. I cannot bear to think of her suffering the same pain I did.</i>",
+    "origin": "Assembly-CSharp.dll:#US:453982"
+  },
+  {
+    "text": "<i>Impossible to tell. My mother is long dead.</i>",
+    "origin": "Assembly-CSharp.dll:#US:454619"
+  },
+  {
+    "text": "<i>Yes. The Book of Fates. I remember our discussion.</i>",
+    "origin": "Assembly-CSharp.dll:#US:455022"
+  },
+  {
+    "text": "<i>Is there some unfinished buisness holding you back from making a choice?</i>",
+    "origin": "Assembly-CSharp.dll:#US:455250"
+  },
+  {
+    "text": "<i>Do not turn away from this oppertunity, Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:455411"
+  },
+  {
+    "text": "<i>If only Astrid was still alive, or haunted these walls as I, we could ask her.</i>",
+    "origin": "Assembly-CSharp.dll:#US:455835"
+  },
+  {
+    "text": "I told him I wanted to learn from the Book, to learn to be like him. He indulged me by granting it to me once more—of course he did.",
+    "origin": "Assembly-CSharp.dll:#US:463679"
+  },
+  {
+    "text": "I just wanted to find a way to save them all—and myself.",
+    "origin": "Assembly-CSharp.dll:#US:466420"
+  },
+  {
+    "text": "<i><i>It wasn't spoken of in my lifetime.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:474147"
+  },
+  {
+    "text": "<i><i>Even Claudius and I have never passed her name between us. She... my mother...</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:474247"
+  },
+  {
+    "text": "<i><i>Terrible, bloody deeds were committed. My father was a cruel and greedy man.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:474434"
+  },
+  {
+    "text": "<i><i>I do not know her whereabouts, but if she left Elsinore, she must have passed through town.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:474617"
+  },
+  {
+    "text": "<i><i>But I am confined to these walls. I may not leave the board's edges.</i>",
+    "origin": "Assembly-CSharp.dll:#US:474830"
+  },
+  {
+    "text": "<i>Then you know only one small piece of it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:482131"
+  },
+  {
+    "text": "<i>I have suffered far more than anyone, even you, can understand.</i>",
+    "origin": "Assembly-CSharp.dll:#US:482229"
+  },
+  {
+    "text": "<i>Perhaps one year, one century from now—then you may come to comprehend.</i>",
+    "origin": "Assembly-CSharp.dll:#US:482372"
+  },
+  {
+    "text": "<i>You should know by now. Those are the events that were meant to come to pass.</i>",
+    "origin": "Assembly-CSharp.dll:#US:482730"
+  },
+  {
+    "text": "<i>That is the tragic fate which is written before you. For mine own self, it was my poisoning.</i>",
+    "origin": "Assembly-CSharp.dll:#US:482901"
+  },
+  {
+    "text": "<i>To think you can find a future where that does not happen is futile. Give up the sooner and you will drift into endless sleep.</i>",
+    "origin": "Assembly-CSharp.dll:#US:483102"
+  },
+  {
+    "text": "And it's said he discarded her in favor of younger women quite often—a womanizer who could not be satiated!",
+    "origin": "Assembly-CSharp.dll:#US:489509"
+  },
+  {
+    "text": "<i>She passed when Claudius and I were both children.</i>",
+    "origin": "Assembly-CSharp.dll:#US:491308"
+  },
+  {
+    "text": "<i>Evidently, she died of childbirth with my brother. One more life he's ruined in this world, I expect.</i>",
+    "origin": "Assembly-CSharp.dll:#US:491424"
+  },
+  {
+    "text": "<i>It matters not. My father loved her, at least in front of the court, and I remember her very little.</i>",
+    "origin": "Assembly-CSharp.dll:#US:491643"
+  },
+  {
+    "text": "<i>Come to think of it, your father and your mother were both ardently devoted to her.</i>",
+    "origin": "Assembly-CSharp.dll:#US:491860"
+  },
+  {
+    "text": "<i>Death is a wall. Very little permeates it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:497921"
+  },
+  {
+    "text": "<i>I am ashamed.</i>",
+    "origin": "Assembly-CSharp.dll:#US:499543"
+  },
+  {
+    "text": "<i>But I cannot hide the truth.</i>",
+    "origin": "Assembly-CSharp.dll:#US:499585"
+  },
+  {
+    "text": "<i>All I can do is offer my deepest apologies. My decision was clearly in error.</i>",
+    "origin": "Assembly-CSharp.dll:#US:499689"
+  },
+  {
+    "text": "<i>Polonius and I never spoke of it at the time, but...</i>",
+    "origin": "Assembly-CSharp.dll:#US:499860"
+  },
+  {
+    "text": "<i>I would understand if you no longer spoke to me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:500230"
+  },
+  {
+    "text": "<i>In that case, I am at your service.</i>",
+    "origin": "Assembly-CSharp.dll:#US:500735"
+  },
+  {
+    "text": "<i>Nothing I could say could possible amend that crime.</i>",
+    "origin": "Assembly-CSharp.dll:#US:500821"
+  },
+  {
+    "text": "<i>So I will say nothing more.</i>",
+    "origin": "Assembly-CSharp.dll:#US:500941"
+  },
+  {
+    "text": "<i>The... details are indescribably hazy. It is hard to remember.</i>",
+    "origin": "Assembly-CSharp.dll:#US:526731"
+  },
+  {
+    "text": "<i>But I recall he was kind to me. Kinder than I deserved, considering I was not able to help him.</i>",
+    "origin": "Assembly-CSharp.dll:#US:526872"
+  },
+  {
+    "text": "<i>Of course. Now I now he was just using me for his own ends.</i>",
+    "origin": "Assembly-CSharp.dll:#US:527079"
+  },
+  {
+    "text": "<i>We must stop him, Ophelia. There are no limits to what that man will do.</i>",
+    "origin": "Assembly-CSharp.dll:#US:527214"
+  },
+  {
+    "text": "<i>...It was a pressing request of his—something I could not... find...</i>",
+    "origin": "Assembly-CSharp.dll:#US:527433"
+  },
+  {
+    "text": "<i>My memories drift away like fog. Retrieve my final writings from your father. Perhaps then we can make sense of this nothingness.</i>",
+    "origin": "Assembly-CSharp.dll:#US:527586"
+  },
+  {
+    "text": "<i>To help him find the Book of Fates... the token which created this sad situation.</i>",
+    "origin": "Assembly-CSharp.dll:#US:527861"
+  },
+  {
+    "text": "<i>I was never able to find it, of course... but even knowing gave me purpose.</i>",
+    "origin": "Assembly-CSharp.dll:#US:528040"
+  },
+  {
+    "text": "<i>The will to try again indefinitely. The will to return, even now.</i>",
+    "origin": "Assembly-CSharp.dll:#US:528207"
+  },
+  {
+    "text": "Hamlet—and I—we spoke honestly. For perhaps the first time in our lives.",
+    "origin": "Assembly-CSharp.dll:#US:542845"
+  },
+  {
+    "text": "Hamlet—your uncle is not your enemy. Peter Quince is.",
+    "origin": "Assembly-CSharp.dll:#US:543962"
+  },
+  {
+    "text": "I know the one you mean, I think, though it's been years. I—I see. So you believe he's trying to hurt someone?",
+    "origin": "Assembly-CSharp.dll:#US:551462"
+  },
+  {
+    "text": "I met Simona, and she revealed to me the true culprit—Peter Quince, the playmaster, is behind us being trapped in Elsinore.",
+    "origin": "Assembly-CSharp.dll:#US:552296"
+  },
+  {
+    "text": "<i>Yes. Hamlet, you, and I shall act anon.</i>",
+    "origin": "Assembly-CSharp.dll:#US:552545"
+  },
+  {
+    "text": "<i>A ghost, a mad prince, and... you. What a trio we shall be.</i>",
+    "origin": "Assembly-CSharp.dll:#US:552639"
+  },
+  {
+    "text": "<i>Peter Quince? He is but flesh and blood. What ill can he do to you?</i>",
+    "origin": "Assembly-CSharp.dll:#US:552806"
+  },
+  {
+    "text": "<i>No. Impossible. Quince encouraged me to find the Book of Fates.</i>",
+    "origin": "Assembly-CSharp.dll:#US:553164"
+  },
+  {
+    "text": "<i>He urged me to find a way out using the Book as my guide...</i>",
+    "origin": "Assembly-CSharp.dll:#US:553307"
+  },
+  {
+    "text": "<i>For what purpose could he desire such an artifact?</i>",
+    "origin": "Assembly-CSharp.dll:#US:553661"
+  },
+  {
+    "text": "Because he's trapped in this world—our world—until I use the Book of Fates and free us both. That's why he's been in Elsinore for so long.",
+    "origin": "Assembly-CSharp.dll:#US:553777"
+  },
+  {
+    "text": "<i>Boredom can be quite frightening. Even I, who have been dead but a scarce several months, understand how frightening it is.</i>",
+    "origin": "Assembly-CSharp.dll:#US:555464"
+  },
+  {
+    "text": "<i>Unable to truly die, yet unable to engage with human life...</i>",
+    "origin": "Assembly-CSharp.dll:#US:555727"
+  },
+  {
+    "text": "<i>It is like standing outside a window, watching those inside gorge themselves on a feast. I press my hands against the glass nightly.</i>",
+    "origin": "Assembly-CSharp.dll:#US:555864"
+  },
+  {
+    "text": "<i>But try as I might, I cannot join them. I have relinquished my seat at that table, and a wolf now sits in my place.</i>",
+    "origin": "Assembly-CSharp.dll:#US:556145"
+  },
+  {
+    "text": "<i>Here I remain, bored out of my bones, lingering like refuse.</i>",
+    "origin": "Assembly-CSharp.dll:#US:556392"
+  },
+  {
+    "text": "<i>Yes. Cruelty is one cure for that boredom. A route I myself was inspired to take. And now my son wages revenge on my behalf.</i>",
+    "origin": "Assembly-CSharp.dll:#US:556686"
+  },
+  {
+    "text": "<i>Agreed. You must bring my son to me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:557403"
+  },
+  {
+    "text": "<i>Yes—bring him here with those same words, and the three of us shall conspire to end Quince.</i>",
+    "origin": "Assembly-CSharp.dll:#US:557491"
+  },
+  {
+    "text": "<i>I did not understand when you brought him to me in this world. But now I do. <b>Try once more, Ophelia.</b></i>",
+    "origin": "Assembly-CSharp.dll:#US:557690"
+  },
+  {
+    "text": "<i>I am aware.</i>",
+    "origin": "Assembly-CSharp.dll:#US:557921"
+  },
+  {
+    "text": "<i>He must be dealt with. But we cannot let him know of our plans.</i>",
+    "origin": "Assembly-CSharp.dll:#US:557959"
+  },
+  {
+    "text": "You—you did?",
+    "origin": "Assembly-CSharp.dll:#US:565236"
+  },
+  {
+    "text": "After so many years with Hamlet—he was so terribly cold to her.",
+    "origin": "Assembly-CSharp.dll:#US:566107"
+  },
+  {
+    "text": "Yes. We're addressing it anon. The King is aware—fear not.",
+    "origin": "Assembly-CSharp.dll:#US:567675"
+  },
+  {
+    "text": "I do, but—I also think those notes contain something important.",
+    "origin": "Assembly-CSharp.dll:#US:571100"
+  },
+  {
+    "text": "If you were to describe what you saw to the wrong people, it would put Father—and <i>both</i> of us—in grave danger.",
+    "origin": "Assembly-CSharp.dll:#US:571228"
+  },
+  {
+    "text": "Well, Bernardo—or Katherine—is more than a little tormented over others finding out about this.",
+    "origin": "Assembly-CSharp.dll:#US:577126"
+  },
+  {
+    "text": "Very funny. But truly—have you seen anything... suspicious?",
+    "origin": "Assembly-CSharp.dll:#US:585245"
+  },
+  {
+    "text": "I—I don't think this is the kind of help they mean.",
+    "origin": "Assembly-CSharp.dll:#US:605489"
+  },
+  {
+    "text": "Since you know the truth about me—No. Not a chance. Who told you <i>that</i> rubbish?",
+    "origin": "Assembly-CSharp.dll:#US:610918"
+  },
+  {
+    "text": "But no—I don't believe that for an instant. Claudius is far too dull to play chess like that.",
+    "origin": "Assembly-CSharp.dll:#US:611263"
+  },
+  {
+    "text": "No, 'Feely, I have—had, at least—a special monopoly on wanting you dead.",
+    "origin": "Assembly-CSharp.dll:#US:611452"
+  },
+  {
+    "text": "Ophelia? Did—did <i>you</i> do that?",
+    "origin": "Assembly-CSharp.dll:#US:616414"
+  },
+  {
+    "text": "Oy! I-is—wos that—what just—Ophelia?",
+    "origin": "Assembly-CSharp.dll:#US:616590"
+  },
+  {
+    "text": "It's almost like a little game. Watch them run, seek them out—",
+    "origin": "Assembly-CSharp.dll:#US:617877"
+  },
+  {
+    "text": "Or—perhaps this is merely a tool I can use to amuse myself.",
+    "origin": "Assembly-CSharp.dll:#US:619014"
+  },
+  {
+    "text": "I don't know <i>what</i> you are—spirit or demon or otherwise. But no justice could apply to you.",
+    "origin": "Assembly-CSharp.dll:#US:621939"
+  },
+  {
+    "text": "But someday, you'll be just like me, too. And then—you'll know.",
+    "origin": "Assembly-CSharp.dll:#US:627378"
+  },
+  {
+    "text": "Or—well—how many times have you used <b>that gift</b> now? Been quite a few, hasn't it?",
+    "origin": "Assembly-CSharp.dll:#US:627675"
+  },
+  {
+    "text": "Die, then—whoever you are.",
+    "origin": "Assembly-CSharp.dll:#US:628817"
+  },
+  {
+    "text": "That was—<i>you?</i>",
+    "origin": "Assembly-CSharp.dll:#US:629464"
+  },
+  {
+    "text": "Are you telling me <i>you</i> are the one responsible for that—that—mauling?",
+    "origin": "Assembly-CSharp.dll:#US:630185"
+  },
+  {
+    "text": "It's—the Devil's work. It must be!",
+    "origin": "Assembly-CSharp.dll:#US:630951"
+  },
+  {
+    "text": "Guh—Get away from me! From all of us!",
+    "origin": "Assembly-CSharp.dll:#US:631151"
+  },
+  {
+    "text": "I don't need to reach you. I can kill you with a single word. I have a power—",
+    "origin": "Assembly-CSharp.dll:#US:631638"
+  },
+  {
+    "text": "And—I want this investigated at <i>once.</i> I want to know exactly what took place.",
+    "origin": "Assembly-CSharp.dll:#US:641912"
+  },
+  {
+    "text": "You know, when my father died it felt the same way. I expected sorrow. But—nothing. Just nothing.",
+    "origin": "Assembly-CSharp.dll:#US:643616"
+  },
+  {
+    "text": "Let—Let us speak of that no more, Ophelia. Let it accumulate yesterdays upon its grave.",
+    "origin": "Assembly-CSharp.dll:#US:668453"
+  },
+  {
+    "text": "Don't take this the wrong way, but—what if Hamlet and I began seeing each other again?",
+    "origin": "Assembly-CSharp.dll:#US:670197"
+  },
+  {
+    "text": "That's not a sonnet at all. Fourteen lines of ten syllables—isn't that how it goes?",
+    "origin": "Assembly-CSharp.dll:#US:676232"
+  },
+  {
+    "text": "I—I must admit it has been described to me as a fault of mine.",
+    "origin": "Assembly-CSharp.dll:#US:678108"
+  },
+  {
+    "text": "She's—well, she and Hamlet—",
+    "origin": "Assembly-CSharp.dll:#US:680349"
+  },
+  {
+    "text": "I—I feel exhausted.",
+    "origin": "Assembly-CSharp.dll:#US:683936"
+  },
+  {
+    "text": "And Hamlet's gone now, and, well—",
+    "origin": "Assembly-CSharp.dll:#US:693128"
+  },
+  {
+    "text": "I've witnessed destruction wrought by the very stars themselves, which I thought once were mere fixed illusion—until I'd been to them.",
+    "origin": "Assembly-CSharp.dll:#US:699584"
+  },
+  {
+    "text": "We traveled for two days until we reached the outer limits of Denmark's borders—a small castle of no repute, crumbling away into snow and dirt.",
+    "origin": "Assembly-CSharp.dll:#US:707759"
+  },
+  {
+    "text": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is—for a price.",
+    "origin": "Assembly-CSharp.dll:#US:741730"
+  },
+  {
+    "text": "But—what I did—it was the best choice, was it not?",
+    "origin": "Assembly-CSharp.dll:#US:769499"
+  },
+  {
+    "text": "Ferdinand assures me that Kalmar is not so different—another country, yes, but very alike. And so we pack our things, and one month after our wedding day, we set forth.",
+    "origin": "Assembly-CSharp.dll:#US:776316"
+  },
+  {
+    "text": "It rarely seems to sputter out entirely—Irma is always working.",
+    "origin": "Assembly-CSharp.dll:#US:802322"
+  },
+  {
+    "text": "She's been through this before. She must know the way out of it all. And—and if this is right, she's still alive!",
+    "origin": "Assembly-CSharp.dll:#US:806713"
+  },
+  {
+    "text": "Let me see if I can find what Claudius asked Bernardo to hide.—Ah. This must be it.",
+    "origin": "Assembly-CSharp.dll:#US:819691"
+  },
+  {
+    "text": "I'm sorry, Father. I don't feel well. I had <i>such</i> an odd vision last night—",
+    "origin": "Assembly-CSharp.dll:#US:824663"
+  },
+  {
+    "text": "Be <i>careful</i>, love. That's all I ask. Carrying on like this—it terrifies me. I don't want you hurt.",
+    "origin": "Assembly-CSharp.dll:#US:825003"
+  },
+  {
+    "text": "The more I think on it, the heavier my heart becomes. I—",
+    "origin": "Assembly-CSharp.dll:#US:831013"
+  },
+  {
+    "text": "<i>Things are almost peaceful, here at the start of it all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:835578"
+  },
+  {
+    "text": "<i>It is impossible, yes. It is the rules of the larger game.</i>",
+    "origin": "Assembly-CSharp.dll:#US:835949"
+  },
+  {
+    "text": "<i>I did not give it that name. But it is a game all the same, and you the one forecasted to lose.</i>",
+    "origin": "Assembly-CSharp.dll:#US:836128"
+  },
+  {
+    "text": "<i>Now then. What news do you bring?</i>",
+    "origin": "Assembly-CSharp.dll:#US:836335"
+  },
+  {
+    "text": "<i>Death becomes you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:836417"
+  },
+  {
+    "text": "<i>Be wary of every familiar face.</i>",
+    "origin": "Assembly-CSharp.dll:#US:836521"
+  },
+  {
+    "text": "<i>One of them will betray you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:836599"
+  },
+  {
+    "text": "<i>Would that I could. But I am unable, through no law of my own.</i>",
+    "origin": "Assembly-CSharp.dll:#US:836753"
+  },
+  {
+    "text": "<i>I'm sure you'll find out soon enough.</i>",
+    "origin": "Assembly-CSharp.dll:#US:836894"
+  },
+  {
+    "text": "<i>I see one of your compatriots has had you killed.</i>",
+    "origin": "Assembly-CSharp.dll:#US:837018"
+  },
+  {
+    "text": "<i>Welcome to the ranks of the famous and esteemed. Those who die before their time live on in memory longer.</i>",
+    "origin": "Assembly-CSharp.dll:#US:837132"
+  },
+  {
+    "text": "<i>Though yours is a more heroic fate than dying on your stomach in the garden.</i>",
+    "origin": "Assembly-CSharp.dll:#US:837361"
+  },
+  {
+    "text": "<i>Of course, they will find your waterlogged corpse in the pond and say you drowned...</i>",
+    "origin": "Assembly-CSharp.dll:#US:837530"
+  },
+  {
+    "text": "<i>Leaving out the gash in your neck when they tell the tale.</i>",
+    "origin": "Assembly-CSharp.dll:#US:837715"
+  },
+  {
+    "text": "<i>Because a gash on an innocent maiden defies explanation. Suicide is a story easily told.</i>",
+    "origin": "Assembly-CSharp.dll:#US:837916"
+  },
+  {
+    "text": "<i>Yes. There is. Your killer may be known to you, as mine was.</i>",
+    "origin": "Assembly-CSharp.dll:#US:838242"
+  },
+  {
+    "text": "<i>Who do you trust to help you unmask them?</i>",
+    "origin": "Assembly-CSharp.dll:#US:838379"
+  },
+  {
+    "text": "<i>The hourglass empties. The days have passed.</i>",
+    "origin": "Assembly-CSharp.dll:#US:838477"
+  },
+  {
+    "text": "<i>Less than one cock's crow remains.</i>",
+    "origin": "Assembly-CSharp.dll:#US:838581"
+  },
+  {
+    "text": "<i>I understand now why my son adores you so.</i>",
+    "origin": "Assembly-CSharp.dll:#US:838841"
+  },
+  {
+    "text": "<i>By the by, I've noticed you are free of your assassin, are you not? You have won this battle.</i>",
+    "origin": "Assembly-CSharp.dll:#US:838941"
+  },
+  {
+    "text": "<i>No. Not the war.</i>",
+    "origin": "Assembly-CSharp.dll:#US:839270"
+  },
+  {
+    "text": "<i>Indeed, it appears he has already done so. See for yourself if he speaks true.</i>",
+    "origin": "Assembly-CSharp.dll:#US:839659"
+  },
+  {
+    "text": "<i>Though by what power he does these things, I know not.</i>",
+    "origin": "Assembly-CSharp.dll:#US:839832"
+  },
+  {
+    "text": "<i>Ah. Still living, I see. So you managed to stay your fate.</i>",
+    "origin": "Assembly-CSharp.dll:#US:839956"
+  },
+  {
+    "text": "<i>I'm impressed. But tomorrow, it will save you no more than the others.</i>",
+    "origin": "Assembly-CSharp.dll:#US:840089"
+  },
+  {
+    "text": "<i>It's what the dead do best.</i>",
+    "origin": "Assembly-CSharp.dll:#US:840370"
+  },
+  {
+    "text": "<i>Fortinbras marches even now. Less than a day, Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:840440"
+  },
+  {
+    "text": "<i>Can you save them from him?</i>",
+    "origin": "Assembly-CSharp.dll:#US:840564"
+  },
+  {
+    "text": "<i>They are tearing each other apart like men on patrol in a starving winter.</i>",
+    "origin": "Assembly-CSharp.dll:#US:840787"
+  },
+  {
+    "text": "<i>It shall not end until Elsinore lies silent.</i>",
+    "origin": "Assembly-CSharp.dll:#US:840952"
+  },
+  {
+    "text": "<i>Now. What news do you bring?</i>",
+    "origin": "Assembly-CSharp.dll:#US:841056"
+  },
+  {
+    "text": "S-Spirit? Do you—are you here?",
+    "origin": "Assembly-CSharp.dll:#US:841128"
+  },
+  {
+    "text": "<i>Indeed. I am that body once called King Hamlet.</i>",
+    "origin": "Assembly-CSharp.dll:#US:841190"
+  },
+  {
+    "text": "<i>In vague silhouettes and shadows. Memory in death is a struggle. It is faint and infrequent.</i>",
+    "origin": "Assembly-CSharp.dll:#US:841456"
+  },
+  {
+    "text": "<i>I recall you were a young girl once. Such a rambunctious child. I knew you then.</i>",
+    "origin": "Assembly-CSharp.dll:#US:841657"
+  },
+  {
+    "text": "<i>Yes. A world now forever locked behind time's barrier.</i>",
+    "origin": "Assembly-CSharp.dll:#US:842206"
+  },
+  {
+    "text": "<i>The desire to see her safe is often the only thing powerful enough to rouse me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:842390"
+  },
+  {
+    "text": "<i>But in this world, she does not even know of my existence. Would that <b>she and I could speak alone</b> just once.</i>",
+    "origin": "Assembly-CSharp.dll:#US:842565"
+  },
+  {
+    "text": "<i>I have only a single selfish request.</i>",
+    "origin": "Assembly-CSharp.dll:#US:842812"
+  },
+  {
+    "text": "<i>But it may be of use to you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:842902"
+  },
+  {
+    "text": "<i>Seek out your father. Watch what he does when he believes he is alone.</i>",
+    "origin": "Assembly-CSharp.dll:#US:843050"
+  },
+  {
+    "text": "<i>My notes—my notes, taken by him, out of love, out of protection—</i>",
+    "origin": "Assembly-CSharp.dll:#US:843207"
+  },
+  {
+    "text": "<i>They contain the terrifying details of my ordeal. Details I cannot recall. Things too hazy to remember fully.</i>",
+    "origin": "Assembly-CSharp.dll:#US:843352"
+  },
+  {
+    "text": "<i>But that ordeal is the reason I still linger, trapped here.</i>",
+    "origin": "Assembly-CSharp.dll:#US:843587"
+  },
+  {
+    "text": "<i>Find the notes, and there may be freedom for us both.</i>",
+    "origin": "Assembly-CSharp.dll:#US:843722"
+  },
+  {
+    "text": "<i>I have witnessed that your father keeps my possessions under most private lock and key.</i>",
+    "origin": "Assembly-CSharp.dll:#US:843844"
+  },
+  {
+    "text": "<i>The key is on his person at all times. Only he may access what is mine.</i>",
+    "origin": "Assembly-CSharp.dll:#US:844035"
+  },
+  {
+    "text": "<i>There are stronger forces than I at work. Even now, I can only hold my form for so long. Everything from before I walked these walls is... distant.</i>",
+    "origin": "Assembly-CSharp.dll:#US:844338"
+  },
+  {
+    "text": "<i>Find those pages. They rest in your father's care. Please.</i>",
+    "origin": "Assembly-CSharp.dll:#US:844649"
+  },
+  {
+    "text": "Did you cause them to happen? Are you some sort of—sorcerer?",
+    "origin": "Assembly-CSharp.dll:#US:849946"
+  },
+  {
+    "text": "A-and—someone's coming to kill <i>me</i> too, aren't they?",
+    "origin": "Assembly-CSharp.dll:#US:850560"
+  },
+  {
+    "text": "<i>It is with my last fragments of will that I appear to you. I do not know how long I can linger.</i>",
+    "origin": "Assembly-CSharp.dll:#US:865149"
+  },
+  {
+    "text": "<i>No, Ophelia. There is no other way.</i>",
+    "origin": "Assembly-CSharp.dll:#US:865741"
+  },
+  {
+    "text": "<i>What he says is true.</i>",
+    "origin": "Assembly-CSharp.dll:#US:865827"
+  },
+  {
+    "text": "<i>I know that now more than ever. The confines surrounding this world are insurmountable.</i>",
+    "origin": "Assembly-CSharp.dll:#US:865885"
+  },
+  {
+    "text": "<i>Ophelia, there will be no way out from this.</i>",
+    "origin": "Assembly-CSharp.dll:#US:866076"
+  },
+  {
+    "text": "<i>That kind of world was never a possible outcome for you, Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:866944"
+  },
+  {
+    "text": "<i>No such world of eternal bliss exists. For you, or for anyone on earth.</i>",
+    "origin": "Assembly-CSharp.dll:#US:867091"
+  },
+  {
+    "text": "<i>And it never shall.</i>",
+    "origin": "Assembly-CSharp.dll:#US:867250"
+  },
+  {
+    "text": "<i>But there is something even more powerful.</i>",
+    "origin": "Assembly-CSharp.dll:#US:867304"
+  },
+  {
+    "text": "<i>It is the oldest, most primal power of humankind.</i>",
+    "origin": "Assembly-CSharp.dll:#US:867404"
+  },
+  {
+    "text": "<i>The power to choose with kindness and wisdom is the only thing separating human beings from utter darkness.</i>",
+    "origin": "Assembly-CSharp.dll:#US:867548"
+  },
+  {
+    "text": "<i>You have seen the possibilities of this universe. Now it's up to you to envision its fate.</i>",
+    "origin": "Assembly-CSharp.dll:#US:867779"
+  },
+  {
+    "text": "<i><b>Let me be clear. There is no perfect world to be found.</b></i>",
+    "origin": "Assembly-CSharp.dll:#US:867976"
+  },
+  {
+    "text": "<i>But the choice <b>between</b> worlds is a power so critical as to be divinely given, is it not? Freedom of will! The first and last gift granted to Eve herself!</i>",
+    "origin": "Assembly-CSharp.dll:#US:868117"
+  },
+  {
+    "text": "<i>Yes... free will is a sword to cut through the darkness. It is a small boat we cling to in this lifelong storm!</i>",
+    "origin": "Assembly-CSharp.dll:#US:868454"
+  },
+  {
+    "text": "<i>In that, Ophelia, is everything. You must choose, and you must then live in the world which comes from it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:868693"
+  },
+  {
+    "text": "<i>You must do the thing you fear most, and move forward rather than back.</i>",
+    "origin": "Assembly-CSharp.dll:#US:868922"
+  },
+  {
+    "text": "<i>You would punish Quince. But you would condemn every human heart in this castle to their fates. You'd abandon them.</i>",
+    "origin": "Assembly-CSharp.dll:#US:869444"
+  },
+  {
+    "text": "I—This is—But there has to be another way! A good way—a best path!",
+    "origin": "Assembly-CSharp.dll:#US:869691"
+  },
+  {
+    "text": "<i><b>No.</b> Perfection is impossible. No such world could ever exist. Not so long as imperfect human beings fill it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:869826"
+  },
+  {
+    "text": "<i>Use the Book of Fates, Ophelia. Do what I could not.</i>",
+    "origin": "Assembly-CSharp.dll:#US:870073"
+  },
+  {
+    "text": "<i>Refuse to give up!</i>",
+    "origin": "Assembly-CSharp.dll:#US:870193"
+  },
+  {
+    "text": "<i>Not long now...</i>",
+    "origin": "Assembly-CSharp.dll:#US:870421"
+  },
+  {
+    "text": "<i>If only I had known the kind of strength you possess when I was alive, child.</i>",
+    "origin": "Assembly-CSharp.dll:#US:870467"
+  },
+  {
+    "text": "<i>Though your body might be frail, you are brilliant as the sun.</i>",
+    "origin": "Assembly-CSharp.dll:#US:870638"
+  },
+  {
+    "text": "<i>Someday many years hence, let us play a game of chess together sometime.</i>",
+    "origin": "Assembly-CSharp.dll:#US:870779"
+  },
+  {
+    "text": "<i>Or walk amongst those verdant, shimmering gardens I once slept in peacefully...</i>",
+    "origin": "Assembly-CSharp.dll:#US:870940"
+  },
+  {
+    "text": "<i>I... hope it is permissible that I call you a friend in death, though I hardly knew you in life.</i>",
+    "origin": "Assembly-CSharp.dll:#US:871115"
+  },
+  {
+    "text": "<i>I'm certain we'll see one another again.</i>",
+    "origin": "Assembly-CSharp.dll:#US:871394"
+  },
+  {
+    "text": "<i>It is the end.</i>",
+    "origin": "Assembly-CSharp.dll:#US:871490"
+  },
+  {
+    "text": "<i>And I am not afraid.</i>",
+    "origin": "Assembly-CSharp.dll:#US:871574"
+  },
+  {
+    "text": "<i>Indeed. For a small while, the Book of Fates can make even this miracle possible.</i>",
+    "origin": "Assembly-CSharp.dll:#US:879968"
+  },
+  {
+    "text": "Yes. Although death is what I wished for, once—in my heart I've always been uncertain.",
+    "origin": "Assembly-CSharp.dll:#US:884896"
+  },
+  {
+    "text": "<i>This was the fate I brought upon myself by virtue of my inaction, once.</i>",
+    "origin": "Assembly-CSharp.dll:#US:885380"
+  },
+  {
+    "text": "<i>I did not know I had a choice to make at the time. I never found the Book of Fates. But in my heart of hearts, I chose it all the same.</i>",
+    "origin": "Assembly-CSharp.dll:#US:885539"
+  },
+  {
+    "text": "<i>If this is the future you desire, choose it with intent, Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:885826"
+  },
+  {
+    "text": "<i>Do not shy away from the world, as I did. Go into the darkness with strength. Go with purpose.</i>",
+    "origin": "Assembly-CSharp.dll:#US:885973"
+  },
+  {
+    "text": "<i>That is all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:886178"
+  },
+  {
+    "text": "<i>Ophelia. Cease this.</i>",
+    "origin": "Assembly-CSharp.dll:#US:890370"
+  },
+  {
+    "text": "<i>You cannot stay in this world.</i>",
+    "origin": "Assembly-CSharp.dll:#US:890426"
+  },
+  {
+    "text": "<i>It has lingered long past its due.</i>",
+    "origin": "Assembly-CSharp.dll:#US:890502"
+  },
+  {
+    "text": "<i>This version of Elsinore... is merely a fantasy.</i>",
+    "origin": "Assembly-CSharp.dll:#US:890756"
+  },
+  {
+    "text": "<i>It is a trick invented by your own mind.</i>",
+    "origin": "Assembly-CSharp.dll:#US:890982"
+  },
+  {
+    "text": "<i>This version of events may never come to pass. This is the reality of this world when all illusion is wiped away. You are alone.</i>",
+    "origin": "Assembly-CSharp.dll:#US:891078"
+  },
+  {
+    "text": "<i>In life, I did not fight Insanity. I relinquished myself to her. I was subjugated, consumed, and finally death took me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:891351"
+  },
+  {
+    "text": "<i>Think carefully on whether you wish to do the same.</i>",
+    "origin": "Assembly-CSharp.dll:#US:891606"
+  },
+  {
+    "text": "<i>While you lie in the grip of your delusion, everyone still alive will meet a grisly fate. No amount of dreaming can save them from that.</i>",
+    "origin": "Assembly-CSharp.dll:#US:891724"
+  },
+  {
+    "text": "T-they're all dead—all of them—",
+    "origin": "Assembly-CSharp.dll:#US:906777"
+  },
+  {
+    "text": "But Guilda—pranks aside, your funeral was attended by those who truly love you. Isn't that enough?",
+    "origin": "Assembly-CSharp.dll:#US:914673"
+  },
+  {
+    "text": "Because my father thought, if Claudius were dead—",
+    "origin": "Assembly-CSharp.dll:#US:918625"
+  },
+  {
+    "text": "<i>You have returned.</i>",
+    "origin": "Assembly-CSharp.dll:#US:935772"
+  },
+  {
+    "text": "<i>It is.</i>",
+    "origin": "Assembly-CSharp.dll:#US:935902"
+  },
+  {
+    "text": "<i>Has it?</i>",
+    "origin": "Assembly-CSharp.dll:#US:935976"
+  },
+  {
+    "text": "Or at least, I think—I think I've been gone a long time.",
+    "origin": "Assembly-CSharp.dll:#US:936006"
+  },
+  {
+    "text": "<i>It felt like an instant between the last time I saw you and this awakening, now. I suppose I must have been waiting for you, then.</i>",
+    "origin": "Assembly-CSharp.dll:#US:936120"
+  },
+  {
+    "text": "<i>Evidently so.</i>",
+    "origin": "Assembly-CSharp.dll:#US:936582"
+  },
+  {
+    "text": "My hands—they're so soft!",
+    "origin": "Assembly-CSharp.dll:#US:936736"
+  },
+  {
+    "text": "<i>You look just as you did then.</i>",
+    "origin": "Assembly-CSharp.dll:#US:936788"
+  },
+  {
+    "text": "<i>Glad to see death hasn't sapped you of your steel.</i>",
+    "origin": "Assembly-CSharp.dll:#US:937117"
+  },
+  {
+    "text": "<i>This is the afterwards. Neither Heaven nor Hell. Simply the nothingness in between.</i>",
+    "origin": "Assembly-CSharp.dll:#US:937331"
+  },
+  {
+    "text": "<i>Of course I do. But why would you consider such a thing?</i>",
+    "origin": "Assembly-CSharp.dll:#US:937792"
+  },
+  {
+    "text": "<i>After all this time...</i>",
+    "origin": "Assembly-CSharp.dll:#US:937920"
+  },
+  {
+    "text": "<i>You left that world behind. Why now?</i>",
+    "origin": "Assembly-CSharp.dll:#US:938048"
+  },
+  {
+    "text": "<i>What difference does that make?</i>",
+    "origin": "Assembly-CSharp.dll:#US:938214"
+  },
+  {
+    "text": "<i>Ophelia. Do you know what I would give to have left Elsinore behind in life, even just once?</i>",
+    "origin": "Assembly-CSharp.dll:#US:938611"
+  },
+  {
+    "text": "<i>That chance was stolen from me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:938812"
+  },
+  {
+    "text": "<i>Now you treat it as though it's something easily exchanged. As though you could put your life back on the shelf and choose another.</i>",
+    "origin": "Assembly-CSharp.dll:#US:938890"
+  },
+  {
+    "text": "I know it's painful. I'm sorry to have woken you again. I wanted to let you rest—I didn't <i>know</i> coming back would be like this.",
+    "origin": "Assembly-CSharp.dll:#US:939169"
+  },
+  {
+    "text": "<i>No, no. There is something you do not understand about the threads of fate, I think. They are woven together as one, a transcendent tapestry.</i>",
+    "origin": "Assembly-CSharp.dll:#US:940032"
+  },
+  {
+    "text": "<i>This is not a simple matter of browsing what might have been.</i>",
+    "origin": "Assembly-CSharp.dll:#US:940331"
+  },
+  {
+    "text": "<i>By choosing the world you did, you pulled that world's thread forever. If you choose to return to Elsinore, <b>you cannot return to the path you chose.</b></i>",
+    "origin": "Assembly-CSharp.dll:#US:940470"
+  },
+  {
+    "text": "<i>Yes. In other words, <b>you will not be able to return to that particular fate.</b></i>",
+    "origin": "Assembly-CSharp.dll:#US:940831"
+  },
+  {
+    "text": "<i>It is shattered. Gone. And once you set foot back in Elsinore, you will lose all memory of what you chose.</i>",
+    "origin": "Assembly-CSharp.dll:#US:941014"
+  },
+  {
+    "text": "<i>Your time with Grace—the adventures you embarked on—will vanish.</i>",
+    "origin": "Assembly-CSharp.dll:#US:941243"
+  },
+  {
+    "text": "<i>That sacrifice you made for the sake of others will have been meaningless, for there is no such similar path.</i>",
+    "origin": "Assembly-CSharp.dll:#US:941388"
+  },
+  {
+    "text": "<i>Your memory of the time you spent with Laertes and your father, both the good and bad, will vanish.</i>",
+    "origin": "Assembly-CSharp.dll:#US:941623"
+  },
+  {
+    "text": "<i>You will never again have the power to overturn nations at your whim. At least—not in the same way.</i>",
+    "origin": "Assembly-CSharp.dll:#US:941838"
+  },
+  {
+    "text": "<i>You will never again live out the rest of your life at Hamlet's side.</i>",
+    "origin": "Assembly-CSharp.dll:#US:942053"
+  },
+  {
+    "text": "<i>That perfect world you created will shatter. And I will warn you now: No other fate you could choose could possibly live up to its happiness.</i>",
+    "origin": "Assembly-CSharp.dll:#US:942208"
+  },
+  {
+    "text": "<i>You will never again be able to guarantee that everyone in Elsinore survives.</i>",
+    "origin": "Assembly-CSharp.dll:#US:942507"
+  },
+  {
+    "text": "<i>You will forego the life you and Othello built together. And without leaving Elsinore with you, he is likely to be killed here.</i>",
+    "origin": "Assembly-CSharp.dll:#US:942678"
+  },
+  {
+    "text": "<i>You will never again have a future you built away from Elsinore, on your own, free of others' misery.</i>",
+    "origin": "Assembly-CSharp.dll:#US:942949"
+  },
+  {
+    "text": "<i>Never again will you settle down with Lady Guildenstern and Lady Rosencrantz, though you had found peace with them.</i>",
+    "origin": "Assembly-CSharp.dll:#US:943168"
+  },
+  {
+    "text": "<i>There is no other world with such a peaceful existence for Elsinore as the one where Fortinbras was its true King.</i>",
+    "origin": "Assembly-CSharp.dll:#US:943415"
+  },
+  {
+    "text": "<i>Please. I urge you not to do this, Ophelia. I urge you with everything in my heart.</i>",
+    "origin": "Assembly-CSharp.dll:#US:943660"
+  },
+  {
+    "text": "<i>It's not too late to turn back!</i>",
+    "origin": "Assembly-CSharp.dll:#US:943843"
+  },
+  {
+    "text": "<i>Here you are yet again.</i>",
+    "origin": "Assembly-CSharp.dll:#US:944089"
+  },
+  {
+    "text": "<i>Perhaps. Perhaps not.</i>",
+    "origin": "Assembly-CSharp.dll:#US:944151"
+  },
+  {
+    "text": "<i>What do you recall?</i>",
+    "origin": "Assembly-CSharp.dll:#US:944209"
+  },
+  {
+    "text": "Only that I came here at the end of my life. And I know now—though I did not know in Elsinore—that you and I have spoken here before, in this place.",
+    "origin": "Assembly-CSharp.dll:#US:944263"
+  },
+  {
+    "text": "<i>And what before that? What before we last spoke?</i>",
+    "origin": "Assembly-CSharp.dll:#US:944602"
+  },
+  {
+    "text": "<i>Then it is as I warned you. You have no memory of the fate you chose before.</i>",
+    "origin": "Assembly-CSharp.dll:#US:944752"
+  },
+  {
+    "text": "<i>You already <i>have.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:945118"
+  },
+  {
+    "text": "<i>Yes. Your return on that occasion brought you no more happiness than your first fate.</i>",
+    "origin": "Assembly-CSharp.dll:#US:945288"
+  },
+  {
+    "text": "<i>What leads you to believe that this attempt shall yield more fruitful results?</i>",
+    "origin": "Assembly-CSharp.dll:#US:945475"
+  },
+  {
+    "text": "<i>Besides, if you return to Elsinore again, you will lose all memory of <b>this</b> fate, too.</i>",
+    "origin": "Assembly-CSharp.dll:#US:945648"
+  },
+  {
+    "text": "<i>This past time... when you chose your fate... <b>that</b> me, that Hamlet, had no knowledge of this in-between place. Neither did you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:945849"
+  },
+  {
+    "text": "<i>That version of me believed we were still friends. But now, looking at you, my wits about me, I am not so certain.</i>",
+    "origin": "Assembly-CSharp.dll:#US:946134"
+  },
+  {
+    "text": "<i>You need not continue, you know. Will you finally allow all of us to rest?</i>",
+    "origin": "Assembly-CSharp.dll:#US:946379"
+  },
+  {
+    "text": "<i>Or will you force the both of us to continue to endure this hell?</i>",
+    "origin": "Assembly-CSharp.dll:#US:946544"
+  },
+  {
+    "text": "<i>I had thought you'd surely not return.</i>",
+    "origin": "Assembly-CSharp.dll:#US:946691"
+  },
+  {
+    "text": "<i>You know, I cherish you dearly when I am pulled back to Elsinore.</i>",
+    "origin": "Assembly-CSharp.dll:#US:946823"
+  },
+  {
+    "text": "<i>I have no memory of this place, this in-between.</i>",
+    "origin": "Assembly-CSharp.dll:#US:946970"
+  },
+  {
+    "text": "<i>Then I am brought back here when you die, and I remember you chose to return me to Elsinore too, and it aches so terribly.</i>",
+    "origin": "Assembly-CSharp.dll:#US:947082"
+  },
+  {
+    "text": "<i>And this is the third time.</i>",
+    "origin": "Assembly-CSharp.dll:#US:947498"
+  },
+  {
+    "text": "Say, Hamlet—what were those other fates I chose?",
+    "origin": "Assembly-CSharp.dll:#US:947694"
+  },
+  {
+    "text": "Were they—was I—happier?",
+    "origin": "Assembly-CSharp.dll:#US:947792"
+  },
+  {
+    "text": "<i>I suspected you would find yourself wondering this.</i>",
+    "origin": "Assembly-CSharp.dll:#US:947842"
+  },
+  {
+    "text": "<i>But I do not know. I do not see your life beyond Elsinore. I am not a god. Just a man, or what was once a man, standing here as confused as you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:947960"
+  },
+  {
+    "text": "<i><b>Do not return to Elsinore again.</b></i>",
+    "origin": "Assembly-CSharp.dll:#US:948313"
+  },
+  {
+    "text": "<i>If ever you did love me, if ever you did find me worthy of your time... then you will join me here in the quiet of oblivion, and take up an eternal rest.</i>",
+    "origin": "Assembly-CSharp.dll:#US:948407"
+  },
+  {
+    "text": "<i>It will <b>never</b> be complete.</i>",
+    "origin": "Assembly-CSharp.dll:#US:948963"
+  },
+  {
+    "text": "<i>I urge you to understand this!</i>",
+    "origin": "Assembly-CSharp.dll:#US:949045"
+  },
+  {
+    "text": "<i>I harbored a deep and impenetrable respect for you in life, Ophelia. Do not prove me a fool in death.</i>",
+    "origin": "Assembly-CSharp.dll:#US:949121"
+  },
+  {
+    "text": "<i>Do not show me that everything we went through together was trivial compared to your pining for the impossible.</i>",
+    "origin": "Assembly-CSharp.dll:#US:949340"
+  },
+  {
+    "text": "<i>If you return to Elsinore again, you will again lose all memory of the fate you just chose, and you will not be able to choose it again. In other words...</i>",
+    "origin": "Assembly-CSharp.dll:#US:949579"
+  },
+  {
+    "text": "<i>You are no better than him, you know.</i>",
+    "origin": "Assembly-CSharp.dll:#US:950010"
+  },
+  {
+    "text": "<i>You have shown me already that, like him, you will not grant mercy.</i>",
+    "origin": "Assembly-CSharp.dll:#US:950100"
+  },
+  {
+    "text": "<i>We are simply playthings to you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:950251"
+  },
+  {
+    "text": "<i>I must remind you, as you abandon the fate you last chose...</i>",
+    "origin": "Assembly-CSharp.dll:#US:950331"
+  },
+  {
+    "text": "<i>Let me give you what you desire, then. The chance to find something else. Something 'better.'</i>",
+    "origin": "Assembly-CSharp.dll:#US:950468"
+  },
+  {
+    "text": "<i>Let me give you what you came here for. We have nothing more to say to one another, after all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:950671"
+  },
+  {
+    "text": "<i>I never thought you were quite this stubborn in life.</i>",
+    "origin": "Assembly-CSharp.dll:#US:951064"
+  },
+  {
+    "text": "<i>Nevertheless, I will show you the way back to Elsinore.</i>",
+    "origin": "Assembly-CSharp.dll:#US:951186"
+  },
+  {
+    "text": "<i>You have my eternal thanks.</i>",
+    "origin": "Assembly-CSharp.dll:#US:951392"
+  },
+  {
+    "text": "<i>You are wiser and more merciful than that broken world ever deserved.</i>",
+    "origin": "Assembly-CSharp.dll:#US:951462"
+  },
+  {
+    "text": "<i>Let us go away now, Ophelia. Forever.</i>",
+    "origin": "Assembly-CSharp.dll:#US:951617"
+  },
+  {
+    "text": "<i>So be it, then.</i>",
+    "origin": "Assembly-CSharp.dll:#US:952158"
+  },
+  {
+    "text": "<i>I mourn the fate you leave behind, for certainly neither you nor I will recall it if we ever meet again.</i>",
+    "origin": "Assembly-CSharp.dll:#US:952204"
+  },
+  {
+    "text": "<i>So be it. I hope we never meet again, then.</i>",
+    "origin": "Assembly-CSharp.dll:#US:952654"
+  },
+  {
+    "text": "<i>And if we ever do, I shall no longer try to stand in your way.</i>",
+    "origin": "Assembly-CSharp.dll:#US:952756"
+  },
+  {
+    "text": "<i>Trying to save someone from pain is a courtesy one only extends to friends.</i>",
+    "origin": "Assembly-CSharp.dll:#US:952897"
+  },
+  {
+    "text": "<i>Indeed. It is possible, though difficult, for me to manifest.</i>",
+    "origin": "Assembly-CSharp.dll:#US:953286"
+  },
+  {
+    "text": "<i>I find it most curious that you are still here.</i>",
+    "origin": "Assembly-CSharp.dll:#US:953425"
+  },
+  {
+    "text": "<i>At the end of the last cycle Fortinbras was rebuked. Was he not?</i>",
+    "origin": "Assembly-CSharp.dll:#US:953535"
+  },
+  {
+    "text": "<i>A natural assumption, of course. And yet, here you are, and here I am, trapped under the lip of the goblet still.</i>",
+    "origin": "Assembly-CSharp.dll:#US:953843"
+  },
+  {
+    "text": "<i>There exist certain undiscovered elements of this world.</i>",
+    "origin": "Assembly-CSharp.dll:#US:954086"
+  },
+  {
+    "text": "<i>Would that I could tell you. These lips are sealed with a far more gruesome power than death.</i>",
+    "origin": "Assembly-CSharp.dll:#US:954355"
+  },
+  {
+    "text": "<i>But that information, created when I still lived, sleeps inside the castle's walls...</i>",
+    "origin": "Assembly-CSharp.dll:#US:954558"
+  },
+  {
+    "text": "<i>In plain sight of all, and accessible to those curious enough to find it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:954745"
+  },
+  {
+    "text": "What... What just—",
+    "origin": "Assembly-CSharp.dll:#US:956829"
+  },
+  {
+    "text": "His death—I've seen it with my own eyes! And the traitor is my own blood, and my mother—Oh, dear God, my mother!",
+    "origin": "Assembly-CSharp.dll:#US:959055"
+  },
+  {
+    "text": "M-midnight. On the walls. It was around the witching hour. But how did you—",
+    "origin": "Assembly-CSharp.dll:#US:959701"
+  },
+  {
+    "text": "But maybe—maybe there's a way out of this, for both of us...",
+    "origin": "Assembly-CSharp.dll:#US:966731"
+  },
+  {
+    "text": "You—You <i>killed him.</i> You'd known him all your life. And still you killed him.",
+    "origin": "Assembly-CSharp.dll:#US:1011612"
+  },
+  {
+    "text": "You—You tried to <i>kill</i> him. You'd known him all your life. And still you tried to kill him.",
+    "origin": "Assembly-CSharp.dll:#US:1011781"
+  },
+  {
+    "text": "I—I cannot recall.",
+    "origin": "Assembly-CSharp.dll:#US:1017584"
+  },
+  {
+    "text": "Everyone's looking at you as though—as if—this is some bizarre game.",
+    "origin": "Assembly-CSharp.dll:#US:1023795"
+  },
+  {
+    "text": "<i><i>On the contrary, this performance has just begun.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1023972"
+  },
+  {
+    "text": "<i><i>Brother, Gerta, be not afraid.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1024424"
+  },
+  {
+    "text": "<i><i>Gerta, be not afraid.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1024570"
+  },
+  {
+    "text": "<i><i>Everyone, be not afraid.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1024642"
+  },
+  {
+    "text": "<i><i>I come not to destroy, but to rebuild.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1024720"
+  },
+  {
+    "text": "<i><i>I am a spirit, but not here to claim you, Gerta.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1025069"
+  },
+  {
+    "text": "<i><i>Don't weep, my love. I have heard your prayers and whispers. I was with you in your loneliest moments.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1025195"
+  },
+  {
+    "text": "<i><i>You were never alone. Not for a minute. And now I wish you only happiness.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1025430"
+  },
+  {
+    "text": "<i><i>Yes. It is true.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1025713"
+  },
+  {
+    "text": "<i><i>Look upon your husband's face. You have only to look to see the truth.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1025775"
+  },
+  {
+    "text": "<i><i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1025960"
+  },
+  {
+    "text": "<i><i>I am a spirit, but not here to claim you, Bernardo.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1026317"
+  },
+  {
+    "text": "<i><i>Don't weep. I have heard your prayers, Bernardo.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1027049"
+  },
+  {
+    "text": "<i><i>You were the most stalwart man any King could hope for. I wish you only happiness.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1027175"
+  },
+  {
+    "text": "<i><i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1027370"
+  },
+  {
+    "text": "<i><i>And the one cranking that wheel was Peter Quince.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1027619"
+  },
+  {
+    "text": "<i><i>If ever you trusted me, then know also that this man is a danger to you, innocent though he seem.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1028466"
+  },
+  {
+    "text": "<i><i>It is because of him that I linger here in this world, unable to pass on.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1028691"
+  },
+  {
+    "text": "<i><i>Do not leave me in this state any longer, brother. Let me pass on. Kill this man.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1029257"
+  },
+  {
+    "text": "<i><i>Do not leave me in this state any longer, Bernardo. Let me pass on. Kill this man.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1029693"
+  },
+  {
+    "text": "<i>You've returned.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1035298"
+  },
+  {
+    "text": "<i>Of course I know him, but of what might I be afraid?</i>",
+    "origin": "Assembly-CSharp.dll:#US:1036521"
+  },
+  {
+    "text": "<i>What cause would I have to believe that? If anything, he was a great help to me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1036836"
+  },
+  {
+    "text": "<i>I believe you, my son.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1037232"
+  },
+  {
+    "text": "<i>My son, listen carefully to me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1037559"
+  },
+  {
+    "text": "<i>I was wrong.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1037637"
+  },
+  {
+    "text": "<i>Claudius is not our enemy. A more insidious foe awaits.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1037677"
+  },
+  {
+    "text": "<i>I misspoke in accusing my brother of my death. He was driven by something far more peculiar. Quince is such a peculiar man.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1037803"
+  },
+  {
+    "text": "<i>He is not human, Hamlet. He is a demon of some twisted persuasion. Or a god. I do not know which.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1038066"
+  },
+  {
+    "text": "<i>I do not know. But I do know that I have seen many strange things in this life of mine.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1038453"
+  },
+  {
+    "text": "<i>You know I am dead, my son, and yet here I stand before you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1038644"
+  },
+  {
+    "text": "<i>The power we discuss is something greater than the bounds of this world, greater than anything we know.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1038781"
+  },
+  {
+    "text": "<i>His can even transcend death. It caused me years of anguish and grief. I was trapped in Elsinore, unable to live or die, in some hellish version of this world where time repeated itself.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1039004"
+  },
+  {
+    "text": "<i>And now Ophelia is trapped, too.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1039393"
+  },
+  {
+    "text": "<i>In a manner of speaking. Quince is the one who kept me in that shadowy version of Elsinore. I knew Claudius was trying to murder me from the start. But...</i>",
+    "origin": "Assembly-CSharp.dll:#US:1039646"
+  },
+  {
+    "text": "<i>Whenever I stopped him, things only became <i>worse.</i> In one world, your mother drowned herself and took you with her.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1039971"
+  },
+  {
+    "text": "<i>In another, Claudius created a conspiracy, then convinced my own men to turn against me and have me imprisoned indefinitely.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1040230"
+  },
+  {
+    "text": "<i>Every world was more vile than the world where I did nothing at all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1040495"
+  },
+  {
+    "text": "<i>And so, eventually, I gave up. I lay in that garden for years, broken into three-day spans of time.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1040648"
+  },
+  {
+    "text": "<i>Eventually, I did not return to life. And yet my spirit still lingers.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1040863"
+  },
+  {
+    "text": "<i>It is Peter Quince's power that keeps me here. Ophelia has helped me realize this. We were merely the puppets to his infinite jest.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1041020"
+  },
+  {
+    "text": "<i>Please, my son. Save me. Save my soul. Kill him. It's the only choice I have left.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1041299"
+  },
+  {
+    "text": "<i>Merely destroying your uncle will not free me, or Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1041480"
+  },
+  {
+    "text": "<i>I do not know.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1042097"
+  },
+  {
+    "text": "<i>My form is feeble. I feel my flesh disintegrating. I must go.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1042141"
+  },
+  {
+    "text": "<i>Be careful, my son. Think long upon your plans. I don't wish to cause you any more suffering than I've already brought you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1042280"
+  },
+  {
+    "text": "It's—it's <i>extraordinarily</i> unusual for her to not tell me where she's gone.",
+    "origin": "Assembly-CSharp.dll:#US:1046894"
+  },
+  {
+    "text": "I—I don't mean to trouble you. I apologize. I'll take my leave of you now.",
+    "origin": "Assembly-CSharp.dll:#US:1047395"
+  },
+  {
+    "text": "Er, I feel suddenly ill. I'm going to be sick here, I fear. Can someone—",
+    "origin": "Assembly-CSharp.dll:#US:1053146"
+  },
+  {
+    "text": "Can someone help me to—",
+    "origin": "Assembly-CSharp.dll:#US:1053293"
+  },
+  {
+    "text": "Her mouth— blood—",
+    "origin": "Assembly-CSharp.dll:#US:1053383"
+  },
+  {
+    "text": "Men, t-to me, at once! Urgh—",
+    "origin": "Assembly-CSharp.dll:#US:1053799"
+  },
+  {
+    "text": "N-no! My lady, I meant—I intended—",
+    "origin": "Assembly-CSharp.dll:#US:1053915"
+  },
+  {
+    "text": "The thought of him being frightened and cloudy, alone, in England—it's too much for me.",
+    "origin": "Assembly-CSharp.dll:#US:1059550"
+  },
+  {
+    "text": "(If I kill him while praying—)",
+    "origin": "Assembly-CSharp.dll:#US:1092565"
+  },
+  {
+    "text": "(But if I do it now, while he's praying, he'll go to Heaven—)",
+    "origin": "Assembly-CSharp.dll:#US:1092776"
+  },
+  {
+    "text": "<i><i>This is her final chance to prove her loyalty and renounce her sin.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1093830"
+  },
+  {
+    "text": "<i><i>I warned you to stay your hand. It's happened again.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1098791"
+  },
+  {
+    "text": "<i><i>Hamlet. Leave her. She is not your enemy. See how amazement sits upon her face. Speak to her gently.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1099580"
+  },
+  {
+    "text": "<i><i>Can you not tell she is innocent?</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1100151"
+  },
+  {
+    "text": "My son—My son—No...",
+    "origin": "Assembly-CSharp.dll:#US:1102036"
+  },
+  {
+    "text": "E-everyone's against me—",
+    "origin": "Assembly-CSharp.dll:#US:1104050"
+  },
+  {
+    "text": "<i>My brother lives.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1105003"
+  },
+  {
+    "text": "<i>You had every chance to extinguish him.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1105053"
+  },
+  {
+    "text": "<i>My son. Remember what I told you in life: One must prevail until no other possible method remains.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1105408"
+  },
+  {
+    "text": "<i>I know, my son.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1105924"
+  },
+  {
+    "text": "<i>I can sense that you are in the throes of darkness.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1105970"
+  },
+  {
+    "text": "This—This isn't real, is it?",
+    "origin": "Assembly-CSharp.dll:#US:1107965"
+  },
+  {
+    "text": "<i>Soon he will have no memory of his pain.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1108276"
+  },
+  {
+    "text": "<i>No. It makes it 'nothing.' Neither right nor wrong. It is meaningless. Rid yourself of guilt. You will need all wits about you if you are to prevail.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1108617"
+  },
+  {
+    "text": "<i>We shall see how your opinion evolves as your time spent in this world does.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1109339"
+  },
+  {
+    "text": "<i>Next time around, perhaps, will be different.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1109508"
+  },
+  {
+    "text": "But they always do t—",
+    "origin": "Assembly-CSharp.dll:#US:1118250"
+  },
+  {
+    "text": "Rosencrantz? Guildenstern? Why are you here? I thought—",
+    "origin": "Assembly-CSharp.dll:#US:1119866"
+  },
+  {
+    "text": "—Errrr, what Guilda means is, we made a secret promise that we would take utmost care of you on this journey!",
+    "origin": "Assembly-CSharp.dll:#US:1120675"
+  },
+  {
+    "text": "And so—you feel that 'all women' like myself and Lady Guildenstern are somehow—different?",
+    "origin": "Assembly-CSharp.dll:#US:1141866"
+  },
+  {
+    "text": "I've—I've actually been here with you before.",
+    "origin": "Assembly-CSharp.dll:#US:1164966"
+  },
+  {
+    "text": "Threatening Father's life—he nearly killed the man.",
+    "origin": "Assembly-CSharp.dll:#US:1187579"
+  },
+  {
+    "text": "You—you're my best friend. The man whose heart I believed in most ardently.",
+    "origin": "Assembly-CSharp.dll:#US:1190068"
+  },
+  {
+    "text": "Don't think he beat me a single game in the last three years of his life—Hoh!",
+    "origin": "Assembly-CSharp.dll:#US:1193874"
+  },
+  {
+    "text": "Urgh... excuse me. I feel—it's a little stifling in here, isn't it? Allow me to stand a moment and catch my breath.",
+    "origin": "Assembly-CSharp.dll:#US:1194993"
+  },
+  {
+    "text": "(T-that <b>vial</b>—Where is it?)",
+    "origin": "Assembly-CSharp.dll:#US:1197359"
+  },
+  {
+    "text": "Shut up! Just—die! I <i>have</i> to do this!",
+    "origin": "Assembly-CSharp.dll:#US:1215336"
+  },
+  {
+    "text": "And—that means—",
+    "origin": "Assembly-CSharp.dll:#US:1216226"
+  },
+  {
+    "text": "What happened to Hamlet—it was horrible. Though he was no son of mine, I've known the boy since he was born.",
+    "origin": "Assembly-CSharp.dll:#US:1216782"
+  },
+  {
+    "text": "But Hamlet had <i>changed.</i> If he hadn't been struck down, he might have—he <i>would</i> have done something worse.",
+    "origin": "Assembly-CSharp.dll:#US:1217278"
+  },
+  {
+    "text": "<i>I could never hold such a thing against you, Polonius.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1243687"
+  },
+  {
+    "text": "<i>After all, you let even your own lands and estates go fallow in your mission to uphold the throne.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1243811"
+  },
+  {
+    "text": "But years of idleness on that front—all in the interest of better dedicating myself to His Majesty—have run our coffers dry.",
+    "origin": "Assembly-CSharp.dll:#US:1244370"
+  },
+  {
+    "text": "I did not, my lady. I would be—er—honored, of course.",
+    "origin": "Assembly-CSharp.dll:#US:1261572"
+  },
+  {
+    "text": "No, no, no—this cannot be! It cannot be real, can it?",
+    "origin": "Assembly-CSharp.dll:#US:1271121"
+  },
+  {
+    "text": "Help! Help, guards, he's run me through, but I—I—augh...",
+    "origin": "Assembly-CSharp.dll:#US:1274567"
+  },
+  {
+    "text": "And Ophelia—you know—I—it—",
+    "origin": "Assembly-CSharp.dll:#US:1274942"
+  },
+  {
+    "text": "You mean—Hamlet?",
+    "origin": "Assembly-CSharp.dll:#US:1279980"
+  },
+  {
+    "text": "Soon enough. He—Hamlet—from my mouth, his voice shall speak. He... wished you to lead.",
+    "origin": "Assembly-CSharp.dll:#US:1294201"
+  },
+  {
+    "text": "Soon enough. He—Hamlet—from my mouth, his voice shall speak.",
+    "origin": "Assembly-CSharp.dll:#US:1294376"
+  },
+  {
+    "text": "<i>It is a sleep which one has no memory of entering.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1298484"
+  },
+  {
+    "text": "<i>It is not the sovereign Heaven we were promised, Bernardo. But it is a dreamless peace, and an untroubled one.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1298600"
+  },
+  {
+    "text": "<i>Think carefully upon this, Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1301432"
+  },
+  {
+    "text": "<i>You can never turn back.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1301518"
+  },
+  {
+    "text": "<i>Indeed. You always knew my heart best, Gerta.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1307299"
+  },
+  {
+    "text": "<i>I am certainly not proud to lose everything I spent my life fighting for.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1307445"
+  },
+  {
+    "text": "<i>I wish my son were strong enough to stand and fight.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1307608"
+  },
+  {
+    "text": "<i><i>Hail the brother you killed.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1319673"
+  },
+  {
+    "text": "<i><i>You cannot escape the eye of Heaven, brother.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1319837"
+  },
+  {
+    "text": "<i><i>I came not to bring peace, but to bring a sword.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1319957"
+  },
+  {
+    "text": "<i><i>And now you have murdered my son. My only child. My greatest treasure.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1320083"
+  },
+  {
+    "text": "<i><i>Look upon me. Did Christ not say, 'Surely I am with you always'? As am I with you... my black touch descends on your sullied court...</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1320528"
+  },
+  {
+    "text": "<i><i>How strange and peculiar that you and I should meet now, at the end of time, at the end of this world.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1320871"
+  },
+  {
+    "text": "<i><i>Find me on the first night. You are too late for this fragment to exist. It will soon melt.</i></i>",
+    "origin": "Assembly-CSharp.dll:#US:1321142"
+  },
+  {
+    "text": "<i>Ophelia. You must keep her safe.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1324365"
+  },
+  {
+    "text": "But I haven't. And my head—is <i>screaming</i> at me that the world would be better off without me.",
+    "origin": "Assembly-CSharp.dll:#US:1324580"
+  },
+  {
+    "text": "<i>Come no closer. Stay, my sweet. Stay in the world of the living.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1325239"
+  },
+  {
+    "text": "<i>Ophelia, plead some sense with her!</i>",
+    "origin": "Assembly-CSharp.dll:#US:1325384"
+  },
+  {
+    "text": "<i>This is but one fragment.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1326260"
+  },
+  {
+    "text": "<i>A thousand times I've seen her die. Not once has it been less easy to bear.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1326326"
+  },
+  {
+    "text": "<i>You must save her, Ophelia. Save her from her pain.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1326513"
+  },
+  {
+    "text": "S-She's strange! It's not just me! Everyone thinks so! H-how could you—",
+    "origin": "Assembly-CSharp.dll:#US:1337505"
+  },
+  {
+    "text": "Finally, some peace and—",
+    "origin": "Assembly-CSharp.dll:#US:1369697"
+  },
+  {
+    "text": "I'm sorry. I'm so sorry, Ophelia. But everything you've been saying—these visions—",
+    "origin": "Assembly-CSharp.dll:#US:1374761"
+  },
+  {
+    "text": "I'm sorry. I'm so sorry. But everything you've been saying—these visions—",
+    "origin": "Assembly-CSharp.dll:#US:1376047"
+  },
+  {
+    "text": "(Laertes is—)",
+    "origin": "Assembly-CSharp.dll:#US:1392570"
+  },
+  {
+    "text": "Who are you talking t—",
+    "origin": "Assembly-CSharp.dll:#US:1393277"
+  },
+  {
+    "text": "No. No, it's not done. H-his face is—it's—",
+    "origin": "Assembly-CSharp.dll:#US:1405629"
+  },
+  {
+    "text": "I—I have you not—and yet I see you still—",
+    "origin": "Assembly-CSharp.dll:#US:1406226"
+  },
+  {
+    "text": "It is a knell. It summons you to Heaven—or to Hell.",
+    "origin": "Assembly-CSharp.dll:#US:1407038"
+  },
+  {
+    "text": "I know I cannot stop you. So please—just be safe.",
+    "origin": "Assembly-CSharp.dll:#US:1413495"
+  },
+  {
+    "text": "Lord Polonius? But he's <i>long</i> been faithful to both of my husbands—and to me. It cannot be!",
+    "origin": "Assembly-CSharp.dll:#US:1430519"
+  },
+  {
+    "text": "You're—you want me to—leave Denmark forever?",
+    "origin": "Assembly-CSharp.dll:#US:1445578"
+  },
+  {
+    "text": "T-that was—What I just did—",
+    "origin": "Assembly-CSharp.dll:#US:1454993"
+  },
+  {
+    "text": "These notes—",
+    "origin": "Assembly-CSharp.dll:#US:1466600"
+  },
+  {
+    "text": "A-and—she's not like me. I might be cruel to her, but... she's a good person!",
+    "origin": "Assembly-CSharp.dll:#US:1483752"
+  },
+  {
+    "text": "It feels as if something's—",
+    "origin": "Assembly-CSharp.dll:#US:1494544"
+  },
+  {
+    "text": "If something worse had happened, I—",
+    "origin": "Assembly-CSharp.dll:#US:1495462"
+  },
+  {
+    "text": "I've got to attend to His Majesty—but please don't overtax yourself. I beg of you.",
+    "origin": "Assembly-CSharp.dll:#US:1496306"
+  },
+  {
+    "text": "<i>That is the summary of it, yes.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1515771"
+  },
+  {
+    "text": "<i>Consider your options carefully, Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1515849"
+  },
+  {
+    "text": "<i>Life in place of death is not always a gift. You and I know that truest of all.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1515947"
+  },
+  {
+    "text": "After Father's death, when I tried to end my life, when I frightened you—I've been thinking ever since then that I wish I'd succeeded.",
+    "origin": "Assembly-CSharp.dll:#US:1541879"
+  },
+  {
+    "text": "Ow! Stop! All right, point—made—<i>Bernardo.</i> Stop!",
+    "origin": "Assembly-CSharp.dll:#US:1551293"
+  },
+  {
+    "text": "This—Laertes—you don't know how sweet these words are to hear from you.",
+    "origin": "Assembly-CSharp.dll:#US:1567791"
+  },
+  {
+    "text": "Of course, one might reason they'd woken up in the night with a sudden powerful thirst for a mug of wine, but—it seems unlikely.",
+    "origin": "Assembly-CSharp.dll:#US:1597044"
+  },
+  {
+    "text": "Above all, he is my dearest, truest friend—though he might be going through the darkest time of his life right now.",
+    "origin": "Assembly-CSharp.dll:#US:1626928"
+  },
+  {
+    "text": "And—did you ever, with Hamlet...",
+    "origin": "Assembly-CSharp.dll:#US:1628281"
+  },
+  {
+    "text": "These rumors I've heard—about you, about these... 'theater performances?'",
+    "origin": "Assembly-CSharp.dll:#US:1641832"
+  },
+  {
+    "text": "I edited the timeline—for <i>your</i> benefit, I might add—by telling Lady Brit just one little thing.",
+    "origin": "Assembly-CSharp.dll:#US:1649308"
+  },
+  {
+    "text": "Quickly—I must bandage it. You. Fetch me cloth.",
+    "origin": "Assembly-CSharp.dll:#US:1673988"
+  },
+  {
+    "text": "You—you can't call that 'besting' anything!",
+    "origin": "Assembly-CSharp.dll:#US:1683620"
+  },
+  {
+    "text": "Ah! I've finally been struck with something. This must be Prince Hamlet—the romance you mentioned earlier!",
+    "origin": "Assembly-CSharp.dll:#US:1693969"
+  },
+  {
+    "text": "Ha! I've only lived here two years. No, Ophelia—I am Somali, and was sold into slavery as a child.",
+    "origin": "Assembly-CSharp.dll:#US:1701992"
+  },
+  {
+    "text": "<i>Though he trades in deception, he speaks one truth.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1720859"
+  },
+  {
+    "text": "<i>This world guarantees a short but true happiness.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1720977"
+  },
+  {
+    "text": "<i>Most live life without ever experiencing such a thing. I certainly did. So shall many of these good people before us.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1721091"
+  },
+  {
+    "text": "<i>Do not underestimate the power of a few good years to transform the course of your life...</i>",
+    "origin": "Assembly-CSharp.dll:#US:1721342"
+  },
+  {
+    "text": "<i>...Even if those good years are certain to end.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1721539"
+  },
+  {
+    "text": "<i>Most ordinary folk choose love not knowing where the future might lead.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1721649"
+  },
+  {
+    "text": "<i>Quince has cursed you with this knowing. He's poisoned you. And he <b>knows</b> it.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1721808"
+  },
+  {
+    "text": "<i>But your feelings for Othello, and his for you, are written on both of your faces.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1721991"
+  },
+  {
+    "text": "<i>If you choose this world, go into it gladly. Do not let the inevitable pain rob the intensity of your love.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1722172"
+  },
+  {
+    "text": "<i>Or surely, the Playmaster will have won in the end.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1722403"
+  },
+  {
+    "text": "Ah—a large brown hare.",
+    "origin": "Assembly-CSharp.dll:#US:1723337"
+  },
+  {
+    "text": "I thought that made her a peaceful child. I remember marveling to the doctor—'isn't she a wonder, my quiet child?'",
+    "origin": "Assembly-CSharp.dll:#US:1745374"
+  },
+  {
+    "text": "The first time I used the Book's power to kill, I was so very frightened—but that was so very long ago.",
+    "origin": "Assembly-CSharp.dll:#US:1770327"
+  },
+  {
+    "text": "Without so much as laying a hand on her victim's body. It was—it should have been impossible.",
+    "origin": "Assembly-CSharp.dll:#US:1772987"
+  },
+  {
+    "text": "I saw the murder. It was—it was my sister.",
+    "origin": "Assembly-CSharp.dll:#US:1773513"
+  },
+  {
+    "text": "She killed 'em without even touching 'em. S-she's—there's something wrong wiv' 'er.",
+    "origin": "Assembly-CSharp.dll:#US:1774748"
+  },
+  {
+    "text": "Ophelia—she—<i>killed</i> someone without even laying her hands on them. I <b>saw her myself.</b>",
+    "origin": "Assembly-CSharp.dll:#US:1775487"
+  },
+  {
+    "text": "Those bodies you've heard about by now—I <b>saw one of the murders</b> wiv' my own eyes.",
+    "origin": "Assembly-CSharp.dll:#US:1779131"
+  },
+  {
+    "text": "Lady Ophelia killed 'em without even touching 'em. S-she's—there's something wrong wiv' 'er.",
+    "origin": "Assembly-CSharp.dll:#US:1779310"
+  },
+  {
+    "text": "What happened—was that—was that real?",
+    "origin": "Assembly-CSharp.dll:#US:1790564"
+  },
+  {
+    "text": "A-and were you—are you—are you going to kill us all?",
+    "origin": "Assembly-CSharp.dll:#US:1790724"
+  },
+  {
+    "text": "I <i>won't.</i> Whatever I felt for you—watching all this—it's too much.",
+    "origin": "Assembly-CSharp.dll:#US:1791048"
+  },
+  {
+    "text": "If that her breath will mist or stain the stone—",
+    "origin": "Assembly-CSharp.dll:#US:1792267"
+  },
+  {
+    "text": "No. Something else. Whoever's in there—whatever you are.",
+    "origin": "Assembly-CSharp.dll:#US:1793176"
+  },
+  {
+    "text": "Fight <i>back?</i> You mean—<i>kill</i> Ophelia?",
+    "origin": "Assembly-CSharp.dll:#US:1797702"
+  },
+  {
+    "text": "Just—be prepared to take swift action if it comes to that.",
+    "origin": "Assembly-CSharp.dll:#US:1798365"
+  },
+  {
+    "text": "I—find your offer intriguing. I think that would ease Father's spirit, knowing I was preparing to take his place.",
+    "origin": "Assembly-CSharp.dll:#US:1801967"
+  },
+  {
+    "text": "And Mother, her life—she was caught up in all this.",
+    "origin": "Assembly-CSharp.dll:#US:1807709"
+  },
+  {
+    "text": "These last few days have been—these last few <i>months</i> have been a living hell.",
+    "origin": "Assembly-CSharp.dll:#US:1813830"
+  },
+  {
+    "text": "Never say that. If I could choose my own fate—it's always been you, Ophelia. You know that.",
+    "origin": "Assembly-CSharp.dll:#US:1831694"
+  },
+  {
+    "text": "<i>This world belongs to the living.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1857684"
+  },
+  {
+    "text": "<i>We are merely passing through, here only for this singular moment in time.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1857766"
+  },
+  {
+    "text": "<i>Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1857931"
+  },
+  {
+    "text": "<i>My son... the darkness which unfolded within him in these past months has been buried, but not truly forgotten.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1858158"
+  },
+  {
+    "text": "<i>And someday, it shall rise up again to lash against you both.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1858397"
+  },
+  {
+    "text": "<i>Can you be prepared for that eternity? Can you love him despite that, knowing it has hurt you before?</i>",
+    "origin": "Assembly-CSharp.dll:#US:1858536"
+  },
+  {
+    "text": "<i>Think on that before you decide his fate, and yours.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1858755"
+  },
+  {
+    "text": "You have already acted on the best advice I might give—to marry well, and quickly.",
+    "origin": "Assembly-CSharp.dll:#US:1868494"
+  },
+  {
+    "text": "We had hoped to make such a match with Lady Brit, of course. But no longer. Still—",
+    "origin": "Assembly-CSharp.dll:#US:1870735"
+  },
+  {
+    "text": "I—I know it is the birthright of a King that he have a Queen beside him.",
+    "origin": "Assembly-CSharp.dll:#US:1885508"
+  },
+  {
+    "text": "<i>It is strange, how these matters bear forth.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1888852"
+  },
+  {
+    "text": "<i>You are a source of myriad surprises. I would never have anticipated this.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1888956"
+  },
+  {
+    "text": "<i>It is not my place to pass judgement on this union. Nor is it Gertrude's, in the end.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1889121"
+  },
+  {
+    "text": "<i>After all, this is not our world any longer.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1889308"
+  },
+  {
+    "text": "<i>It belongs to the living. To you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1889412"
+  },
+  {
+    "text": "Ah, but who would want me dead? I can only—",
+    "origin": "Assembly-CSharp.dll:#US:1901663"
+  },
+  {
+    "text": "If yeh'd asked me before now, I'd have said—I'll probably see what ransom I can get for the lot o' ye.",
+    "origin": "Assembly-CSharp.dll:#US:1921523"
+  },
+  {
+    "text": "<i>It is tempting to flee responsibility for the lives of those you love.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1943610"
+  },
+  {
+    "text": "<i>I sought to do the same.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1943767"
+  },
+  {
+    "text": "<i>No man or woman could lay blame with you.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1943831"
+  },
+  {
+    "text": "<i>But I fled, and I have spent every moment of consciousness since regretting the world I chose.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1943929"
+  },
+  {
+    "text": "<i>Whatever you choose—whatever fate you grant yourself—do not forget that you must live dreaming of the faces you left behind.</i>",
+    "origin": "Assembly-CSharp.dll:#US:1944134"
+  },
+  {
+    "text": "There's another option, too. If I can <b>save Father's life</b>—perhaps I can keep them <i>both</i> safe from further harm.",
+    "origin": "Assembly-CSharp.dll:#US:1952213"
+  },
+  {
+    "text": "It's true now more than ever. Even if—",
+    "origin": "Assembly-CSharp.dll:#US:1957843"
+  },
+  {
+    "text": "I— think I could make something good and useful of myself, had I lived. But I'll never know for sure.",
+    "origin": "Assembly-CSharp.dll:#US:1958930"
+  },
+  {
+    "text": "Certainly. But I'd need some—",
+    "origin": "Assembly-CSharp.dll:#US:1968090"
+  },
+  {
+    "text": "—Eggs, charcoal, and linen.",
+    "origin": "Assembly-CSharp.dll:#US:1968150"
+  },
+  {
+    "text": "What kind of—she just—ugh. I wish I could... speak to her about this. To ask her why. But I can't even do that, can I?",
+    "origin": "Assembly-CSharp.dll:#US:1970893"
+  },
+  {
+    "text": "But she—I—we loved each other.",
+    "origin": "Assembly-CSharp.dll:#US:1978793"
+  },
+  {
+    "text": "Oh—my head hurts—",
+    "origin": "Assembly-CSharp.dll:#US:1999122"
+  },
+  {
+    "text": "Still—whatever he was planning has been delayed, at least.",
+    "origin": "Assembly-CSharp.dll:#US:2002695"
+  },
+  {
+    "text": "All this—I feel like I'm going mad.",
+    "origin": "Assembly-CSharp.dll:#US:2006358"
+  },
+  {
+    "text": "What? But I thought Father was—",
+    "origin": "Assembly-CSharp.dll:#US:2010026"
+  },
+  {
+    "text": "I—if that's what I must do.",
+    "origin": "Assembly-CSharp.dll:#US:2016920"
+  },
+  {
+    "text": "I need—some time to think about it.",
+    "origin": "Assembly-CSharp.dll:#US:2016976"
+  },
+  {
+    "text": "His body was found at the foot of the walls. He was—",
+    "origin": "Assembly-CSharp.dll:#US:2019351"
+  },
+  {
+    "text": "Is this—did he use it on—Hamlet?",
+    "origin": "Assembly-CSharp.dll:#US:2025833"
+  },
+  {
+    "text": "How did they discover my location? Did you—",
+    "origin": "Assembly-CSharp.dll:#US:2035447"
+  },
+  {
+    "text": "But I also know—or suspect—that you are not someone who collapses under his grief.",
+    "origin": "Assembly-CSharp.dll:#US:2045955"
+  },
+  {
+    "text": "I—I have. But I am afraid, in my heart of hearts.",
+    "origin": "Assembly-CSharp.dll:#US:2051978"
+  },
+  {
+    "text": "I—I have. But something happened to him recently. I don't know that he even sees me when he looks at me, right now.",
+    "origin": "Assembly-CSharp.dll:#US:2053656"
+  },
+  {
+    "text": "Then—don't carry this alone. Let me carry it with you.",
+    "origin": "Assembly-CSharp.dll:#US:2053935"
+  },
+  {
+    "text": "I—I suppose I could. This place holds no meaning to me anymore without him.",
+    "origin": "Assembly-CSharp.dll:#US:2054356"
+  },
+  {
+    "text": "I see. Excellent. I have something to—ah—to discuss with you.",
+    "origin": "Assembly-CSharp.dll:#US:2055514"
+  },
+  {
+    "text": "One of Grace's lieutenants. Staunchly loyal, I imagine—no sense trying to persuade him of much.",
+    "origin": "Assembly-CSharp.dll:#US:2063875"
+  },
+  {
+    "text": "Before today, I didn't even dare to dream that she might accept me—that we could be together.",
+    "origin": "Assembly-CSharp.dll:#US:2070026"
+  },
+  {
+    "text": "But your brother is an amazing man. And—for what it's worth—I think you and he are cut from the same cloth.",
+    "origin": "Assembly-CSharp.dll:#US:2075130"
+  },
+  {
+    "text": "<i>Ah. you can still see me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2075805"
+  },
+  {
+    "text": "<i>My son cannot see me any longer. He seems to have no memory of ever meeting me.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2075925"
+  },
+  {
+    "text": "<i>...It's for the best that way. They're happier, each of them.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2076100"
+  },
+  {
+    "text": "<i>Perhaps some outstanding task of mine still remains. I know not.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2076333"
+  },
+  {
+    "text": "<i>Either way, let us enjoy the world we have built, you and I. The others will never understand.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2076478"
+  },
+  {
+    "text": "<i>Excellent work, Ophelia.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2076683"
+  },
+  {
+    "text": "Do you still—did Claudius—kill your father?",
+    "origin": "Assembly-CSharp.dll:#US:2076881"
+  },
+  {
+    "text": "(He seems to think—his father died of plague?)",
+    "origin": "Assembly-CSharp.dll:#US:2077825"
+  },
+  {
+    "text": "Still—he seems happy.",
+    "origin": "Assembly-CSharp.dll:#US:2078873"
+  },
+  {
+    "text": "Fortunately for you, this is real as can be—and we're missing the party.",
+    "origin": "Assembly-CSharp.dll:#US:2080663"
+  },
+  {
+    "text": "I've been—it's been—I've watched you all die so many times.",
+    "origin": "Assembly-CSharp.dll:#US:2093375"
+  },
+  {
+    "text": "Is that—cheering?",
+    "origin": "Assembly-CSharp.dll:#US:2095837"
+  },
+  {
+    "text": "<i>Please, Ophelia, flee now!</i>",
+    "origin": "Assembly-CSharp.dll:#US:2097896"
+  },
+  {
+    "text": "<i>This is all wrong. It's all—</i>",
+    "origin": "Assembly-CSharp.dll:#US:2097986"
+  },
+  {
+    "text": "Yes. And when one of them pulled my hair and said it looked odd—",
+    "origin": "Assembly-CSharp.dll:#US:2126772"
+  },
+  {
+    "text": "Follow target {0} teleported when there wasn't a saved target!",
+    "origin": "Assembly-CSharp.dll:#US:2141689"
+  },
+  {
+    "text": "Unable to find a safe target offset position for the camera target \"{0}\"",
+    "origin": "Assembly-CSharp.dll:#US:2141815"
+  },
+  {
+    "text": "Camera target \"{0}\" required a path that hit DoorMarker \"{1}\".",
+    "origin": "Assembly-CSharp.dll:#US:2141976"
+  },
+  {
+    "text": "Camera target \"{0}\" is too far to the right, clamping.",
+    "origin": "Assembly-CSharp.dll:#US:2142102"
+  },
+  {
+    "text": "Camera target \"{0}\" is too far to the left, clamping.",
+    "origin": "Assembly-CSharp.dll:#US:2142212"
+  },
+  {
+    "text": "Camera target \"{0}\" is too high, clamping.",
+    "origin": "Assembly-CSharp.dll:#US:2142320"
+  },
+  {
+    "text": "Camera target \"{0}\" is too low, clamping.",
+    "origin": "Assembly-CSharp.dll:#US:2142406"
+  },
+  {
+    "text": "Mirror Refl Camera id",
+    "origin": "Assembly-CSharp.dll:#US:2142558"
+  },
+  {
+    "text": "Character {0} is supposed to arrive to event {1} without a room!",
+    "origin": "Assembly-CSharp.dll:#US:2142858"
+  },
+  {
+    "text": "event {0} does not specify an arrival location for {1}!",
+    "origin": "Assembly-CSharp.dll:#US:2143077"
+  },
+  {
+    "text": "Ran out of default stage markers in {0}, had to send {1} to room marker!",
+    "origin": "Assembly-CSharp.dll:#US:2143265"
+  },
+  {
+    "text": "{0} set their current room to {1} even though they were warp fading through unrelated door {2}!",
+    "origin": "Assembly-CSharp.dll:#US:2143412"
+  },
+  {
+    "text": "{0} tried to path to {1}, which isn't within {2} units of the NavMesh!",
+    "origin": "Assembly-CSharp.dll:#US:2143813"
+  },
+  {
+    "text": "{0} tried to start a path from {1}, which isn't within {2} units of the NavMesh!",
+    "origin": "Assembly-CSharp.dll:#US:2143956"
+  },
+  {
+    "text": "{0} failed to path from {1} to {2} due to blocked navmesh areas 0x{3:X8}; teleporting directly to goal.",
+    "origin": "Assembly-CSharp.dll:#US:2144119"
+  },
+  {
+    "text": "{0} failed to path from {1} to {2}, path status: {3}",
+    "origin": "Assembly-CSharp.dll:#US:2144328"
+  },
+  {
+    "text": "{0} tried to set a goal without first being in a room!",
+    "origin": "Assembly-CSharp.dll:#US:2144434"
+  },
+  {
+    "text": "{0} was teleported to somewhere without a room!",
+    "origin": "Assembly-CSharp.dll:#US:2144550"
+  },
+  {
+    "text": "Hit locked door {0}",
+    "origin": "Assembly-CSharp.dll:#US:2144646"
+  },
+  {
+    "text": "Had to reset anim state on {0} because they weren't in the correct movement animation states: {1}, {2}",
+    "origin": "Assembly-CSharp.dll:#US:2144786"
+  },
+  {
+    "text": "{0} canceled goal orientation of {1} since they weren't in a valid turning animation: {2}",
+    "origin": "Assembly-CSharp.dll:#US:2145073"
+  },
+  {
+    "text": "update lookat",
+    "origin": "Assembly-CSharp.dll:#US:2145254"
+  },
+  {
+    "text": "{0} was {1} distance away from the navmesh, setting room to {2}.",
+    "origin": "Assembly-CSharp.dll:#US:2145306"
+  },
+  {
+    "text": "{0} isn't above any NavMeshCollision, and couldn't find a room within {1}m!",
+    "origin": "Assembly-CSharp.dll:#US:2145437"
+  },
+  {
+    "text": "Failed to find current room for {0}, setting their room as Limbo.",
+    "origin": "Assembly-CSharp.dll:#US:2145590"
+  },
+  {
+    "text": "{0} hit an invalid warp door: {1}, old room: {2}, clearing path!",
+    "origin": "Assembly-CSharp.dll:#US:2145723"
+  },
+  {
+    "text": "{0} failed to warp fade upon hitting door {1}!",
+    "origin": "Assembly-CSharp.dll:#US:2145854"
+  },
+  {
+    "text": "Tried to set anim trigger {0} on {1}, but {1} was already in state {2}!",
+    "origin": "Assembly-CSharp.dll:#US:2146182"
+  },
+  {
+    "text": "Tried to set anim trigger {0} on {1}, but {1} was transitioning from state {2} to invalid state {3}!",
+    "origin": "Assembly-CSharp.dll:#US:2146327"
+  },
+  {
+    "text": "Tried to set anim trigger {0} on {1}, but {1} was in invalid state {2}!",
+    "origin": "Assembly-CSharp.dll:#US:2146530"
+  },
+  {
+    "text": "Tried to set anim trigger {0} on {1}, but couldn't find anim info!",
+    "origin": "Assembly-CSharp.dll:#US:2146675"
+  },
+  {
+    "text": "Failed to set invalid anim state {0}, layer {1} on {2}",
+    "origin": "Assembly-CSharp.dll:#US:2146840"
+  },
+  {
+    "text": "Tried to set anim state {0}, layer {1} on {2} while they were already pathing! Movement takes precedence.",
+    "origin": "Assembly-CSharp.dll:#US:2146950"
+  },
+  {
+    "text": "This door {0} did not have one of its connection, spawn points, or destination set properly.",
+    "origin": "Assembly-CSharp.dll:#US:2147747"
+  },
+  {
+    "text": "Hand of Dionysus",
+    "origin": "Assembly-CSharp.dll:#US:2147962"
+  },
+  {
+    "text": "Observable scene object {0} needs to be an immediate child of a room marker, or have a CharacterMovement component!",
+    "origin": "Assembly-CSharp.dll:#US:2148028"
+  },
+  {
+    "text": "Pet {0} will now path to scripted marker {1}.",
+    "origin": "Assembly-CSharp.dll:#US:2148333"
+  },
+  {
+    "text": "There's no longer an event in room {0} that {1} is currently in.",
+    "origin": "Assembly-CSharp.dll:#US:2148425"
+  },
+  {
+    "text": "Pet {0} is in room {1} with event {2}! Pathing to distant room {3}",
+    "origin": "Assembly-CSharp.dll:#US:2148556"
+  },
+  {
+    "text": "Pet {0} is too close to character {1}! Pathing to {2}.",
+    "origin": "Assembly-CSharp.dll:#US:2148691"
+  },
+  {
+    "text": "{0} cancelled following target {1}.",
+    "origin": "Assembly-CSharp.dll:#US:2148801"
+  },
+  {
+    "text": "{0} successfully pathed close to target {1}.",
+    "origin": "Assembly-CSharp.dll:#US:2148873"
+  },
+  {
+    "text": "Trying setting a target while warp fading! This will break the warp fade path so we must ignore it.",
+    "origin": "Assembly-CSharp.dll:#US:2148987"
+  },
+  {
+    "text": "Warp fading out...",
+    "origin": "Assembly-CSharp.dll:#US:2149188"
+  },
+  {
+    "text": "Player hit WarpFadeDoor {0} while on a path that doesn't lead to the door's destination; rerouting player through WarpFadeDoor.",
+    "origin": "Assembly-CSharp.dll:#US:2149226"
+  },
+  {
+    "text": "Warp fade player left screen.",
+    "origin": "Assembly-CSharp.dll:#US:2149483"
+  },
+  {
+    "text": "Warp fade ending, resuming exploration.",
+    "origin": "Assembly-CSharp.dll:#US:2149543"
+  },
+  {
+    "text": "Tried to start following null character!",
+    "origin": "Assembly-CSharp.dll:#US:2149623"
+  },
+  {
+    "text": "Tried to start following {0} while warp fading!",
+    "origin": "Assembly-CSharp.dll:#US:2149705"
+  },
+  {
+    "text": "Tried to start following {0} while they were in Limbo!",
+    "origin": "Assembly-CSharp.dll:#US:2149801"
+  },
+  {
+    "text": "Failed to path to follow target {0}, going to their room {1} instead.",
+    "origin": "Assembly-CSharp.dll:#US:2149911"
+  },
+  {
+    "text": "{0} is now following target {1}, stopping door: {2}.",
+    "origin": "Assembly-CSharp.dll:#US:2150052"
+  },
+  {
+    "text": "animation references invalid prop {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2150320"
+  },
+  {
+    "text": "Room {0} has a null object to hide!",
+    "origin": "Assembly-CSharp.dll:#US:2150496"
+  },
+  {
+    "text": "Room {0} is on the {1} layer instead of the {2} layer.",
+    "origin": "Assembly-CSharp.dll:#US:2150568"
+  },
+  {
+    "text": "Specified invalid music state \"{0}\"!",
+    "origin": "Assembly-CSharp.dll:#US:2150750"
+  },
+  {
+    "text": "Playing new logic music state: {0}",
+    "origin": "Assembly-CSharp.dll:#US:2150824"
+  },
+  {
+    "text": "Going back to last logic music state: {0}",
+    "origin": "Assembly-CSharp.dll:#US:2150894"
+  },
+  {
+    "text": "No more valid logic music states.",
+    "origin": "Assembly-CSharp.dll:#US:2150978"
+  },
+  {
+    "text": "Tried to play a duplicate persistent sound event ID {0} on {1} for scene {2}!",
+    "origin": "Assembly-CSharp.dll:#US:2151046"
+  },
+  {
+    "text": "Tried to play empty scene sound for scene {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2151203"
+  },
+  {
+    "text": "Failed to stop persistent sound with playing ID {0} and stopping ID {1}!",
+    "origin": "Assembly-CSharp.dll:#US:2151297"
+  },
+  {
+    "text": "Tried to play music without WwiseMusic object!",
+    "origin": "Assembly-CSharp.dll:#US:2151444"
+  },
+  {
+    "text": "Tried to play empty music sound for scene {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2151538"
+  },
+  {
+    "text": "Tried to set music parameter without WwiseMusic object!",
+    "origin": "Assembly-CSharp.dll:#US:2151632"
+  },
+  {
+    "text": "Resuming music state {0}, it has been {1} seconds since the state was stopped.",
+    "origin": "Assembly-CSharp.dll:#US:2151760"
+  },
+  {
+    "text": "Restarting music state {0}, it has been {1} seconds since the state was stopped.",
+    "origin": "Assembly-CSharp.dll:#US:2151919"
+  },
+  {
+    "text": "Failed to set music state to {0}",
+    "origin": "Assembly-CSharp.dll:#US:2152082"
+  },
+  {
+    "text": "Could not project node {0} {1} of path onto navmesh!",
+    "origin": "Assembly-CSharp.dll:#US:2152542"
+  },
+  {
+    "text": "{0}'s path point {1} is very far from nav mesh!",
+    "origin": "Assembly-CSharp.dll:#US:2152648"
+  },
+  {
+    "text": "{0}'s path point {1} is WAY too far from nav mesh! Path might be bad.",
+    "origin": "Assembly-CSharp.dll:#US:2152744"
+  },
+  {
+    "text": "Path remaining dists ({0}) != fixed path ({1})!",
+    "origin": "Assembly-CSharp.dll:#US:2152885"
+  },
+  {
+    "text": "Tried to Initialize the SteamAPI twice in one session!",
+    "origin": "Assembly-CSharp.dll:#US:2153007"
+  },
+  {
+    "text": "[Steamworks.NET] Packsize Test returned false, the wrong version of Steamworks.NET is being run in this platform.",
+    "origin": "Assembly-CSharp.dll:#US:2153117"
+  },
+  {
+    "text": "[Steamworks.NET] DllCheck Test returned false, One or more of the Steamworks binaries seems to be the wrong version.",
+    "origin": "Assembly-CSharp.dll:#US:2153346"
+  },
+  {
+    "text": "[Steamworks.NET] Could not load [lib]steam_api.dll/so/dylib. It's likely not in the correct location. Refer to the README for more details.\n",
+    "origin": "Assembly-CSharp.dll:#US:2153581"
+  },
+  {
+    "text": "[Steamworks.NET] SteamAPI_Init() failed. Refer to Valve's documentation or the comment above this line for more information.",
+    "origin": "Assembly-CSharp.dll:#US:2153864"
+  },
+  {
+    "text": "WwiseUnity: This version of PostEvent only sends 1 external source to the sound engine.",
+    "origin": "Assembly-CSharp.dll:#US:2154115"
+  },
+  {
+    "text": "WwiseUnity: Failed load Init.bnk with result: ",
+    "origin": "Assembly-CSharp.dll:#US:2154310"
+  },
+  {
+    "text": "WwiseUnity: Looking for SoundBanks in ",
+    "origin": "Assembly-CSharp.dll:#US:2154420"
+  },
+  {
+    "text": "WwiseUnity: Could not locate the SoundBanks. Did you make sure to copy them to the StreamingAssets folder?",
+    "origin": "Assembly-CSharp.dll:#US:2154498"
+  },
+  {
+    "text": "WwiseUnity: BankCallbackPackage not found for <",
+    "origin": "Assembly-CSharp.dll:#US:2154765"
+  },
+  {
+    "text": "WwiseUnity: EventCallbackPackage not found for <",
+    "origin": "Assembly-CSharp.dll:#US:2154867"
+  },
+  {
+    "text": "WwiseUnity: PostCallbacks aborted due to error: Undefined callback type <",
+    "origin": "Assembly-CSharp.dll:#US:2154965"
+  },
+  {
+    "text": "> found. Callback object possibly corrupted.",
+    "origin": "Assembly-CSharp.dll:#US:2155114"
+  },
+  {
+    "text": "WwiseUnity: m_SpatialAudioSettings.m_DiffractionShadowAttenuationFactor must be greater than zero. Value was reset to the default (2.0)",
+    "origin": "Assembly-CSharp.dll:#US:2155244"
+  },
+  {
+    "text": "WwiseUnity: m_SpatialAudioSettings.m_DiffractionShadowDegrees must be greater than zero. Value was reset to the default (30.0)",
+    "origin": "Assembly-CSharp.dll:#US:2155517"
+  },
+  {
+    "text": "WwiseUnity: No platform specific settings were created. Default initialization settings will be used.",
+    "origin": "Assembly-CSharp.dll:#US:2155814"
+  },
+  {
+    "text": "WwiseUnity: Platform specific settings cannot be found for <",
+    "origin": "Assembly-CSharp.dll:#US:2156019"
+  },
+  {
+    "text": ">. Using global settings.",
+    "origin": "Assembly-CSharp.dll:#US:2156141"
+  },
+  {
+    "text": "WwiseUnity: There are multiple AkWwiseInitializationSettings objects instantiated; only one will be used.",
+    "origin": "Assembly-CSharp.dll:#US:2156193"
+  },
+  {
+    "text": "Wwise(R) SDK Version {0}.{1}.{2} Build {3}.Copyright(c) 2006-{0} Audiokinetic Inc.",
+    "origin": "Assembly-CSharp.dll:#US:2156406"
+  },
+  {
+    "text": "WwiseUnity: Failed to initialize the sound engine. Abort.",
+    "origin": "Assembly-CSharp.dll:#US:2156573"
+  },
+  {
+    "text": "WwiseUnity: Failed to initialize spatial audio.",
+    "origin": "Assembly-CSharp.dll:#US:2156689"
+  },
+  {
+    "text": "WwiseUnity: Couldn't find soundbanks base path. Terminating sound engine.",
+    "origin": "Assembly-CSharp.dll:#US:2156785"
+  },
+  {
+    "text": "WwiseUnity: Failed to set soundbanks base path to <",
+    "origin": "Assembly-CSharp.dll:#US:2156934"
+  },
+  {
+    "text": ">. Make sure soundbank path is correctly set under Edit > Project Settings > Wwise Initialization Settings.",
+    "origin": "Assembly-CSharp.dll:#US:2157038"
+  },
+  {
+    "text": "WwiseUnity: Sound engine initialized successfully.",
+    "origin": "Assembly-CSharp.dll:#US:2157255"
+  },
+  {
+    "text": "Out of range access in AkAuxSendArray",
+    "origin": "Assembly-CSharp.dll:#US:2161289"
+  },
+  {
+    "text": "Out of range access in ",
+    "origin": "Assembly-CSharp.dll:#US:2161365"
+  },
+  {
+    "text": "Out of range access in AkChannelEmitterArray",
+    "origin": "Assembly-CSharp.dll:#US:2161413"
+  },
+  {
+    "text": "Out of range access in AkMIDIPostArray",
+    "origin": "Assembly-CSharp.dll:#US:2161503"
+  },
+  {
+    "text": "Out of range access in AkPositionArray",
+    "origin": "Assembly-CSharp.dll:#US:2161581"
+  },
+  {
+    "text": " is not placed/oriented correctly.",
+    "origin": "Assembly-CSharp.dll:#US:2161813"
+  },
+  {
+    "text": "WwiseUnity: AkInitializer must not be null. Sound engine will not be initialized.",
+    "origin": "Assembly-CSharp.dll:#US:2161909"
+  },
+  {
+    "text": "WwiseUnity: Sound engine is already initialized.",
+    "origin": "Assembly-CSharp.dll:#US:2162074"
+  },
+  {
+    "text": "AddGeometrySet(): No mesh found!",
+    "origin": "Assembly-CSharp.dll:#US:2162172"
+  },
+  {
+    "text": "Wwise ID has not been resolved. Consider picking a new ",
+    "origin": "Assembly-CSharp.dll:#US:2162278"
+  },
+  {
+    "text": "Rewired: UserDataStore_PlayerPrefs is disabled and will not save any data.",
+    "origin": "Assembly-CSharp.dll:#US:2162900"
+  },
+  {
+    "text": "Rewired: UserDataStore_PlayerPrefs is disabled and will not load any data.",
+    "origin": "Assembly-CSharp.dll:#US:2163051"
+  },
+  {
+    "text": "Rewired: Unknown ControllerType ",
+    "origin": "Assembly-CSharp.dll:#US:2163690"
+  },
+  {
+    "text": "<b>Player Id</b>: ",
+    "origin": "Assembly-CSharp.dll:#US:2163788"
+  },
+  {
+    "text": "<b>Mouse Source</b>: ",
+    "origin": "Assembly-CSharp.dll:#US:2163826"
+  },
+  {
+    "text": "<b>Input Source Index</b>: ",
+    "origin": "Assembly-CSharp.dll:#US:2163870"
+  },
+  {
+    "text": "<b>Touch Source/b>: ",
+    "origin": "Assembly-CSharp.dll:#US:2163926"
+  },
+  {
+    "text": "<b>Source Type</b>: ",
+    "origin": "Assembly-CSharp.dll:#US:2163968"
+  },
+  {
+    "text": "<b>Button Index</b>: ",
+    "origin": "Assembly-CSharp.dll:#US:2164010"
+  },
+  {
+    "text": "<b>Pointer Input Module of type: </b>",
+    "origin": "Assembly-CSharp.dll:#US:2164090"
+  },
+  {
+    "text": "<B>Player Id:</b> ",
+    "origin": "Assembly-CSharp.dll:#US:2164166"
+  },
+  {
+    "text": "<B>Pointer Index:</b> ",
+    "origin": "Assembly-CSharp.dll:#US:2164204"
+  },
+  {
+    "text": "<B>Button Id:</b> ",
+    "origin": "Assembly-CSharp.dll:#US:2164250"
+  },
+  {
+    "text": "Rewired is not initialized! Are you missing a Rewired Input Manager in your scene?",
+    "origin": "Assembly-CSharp.dll:#US:2164372"
+  },
+  {
+    "text": " to open the menu.",
+    "origin": "Assembly-CSharp.dll:#US:2164563"
+  },
+  {
+    "text": "There is no element assigned to open the menu!",
+    "origin": "Assembly-CSharp.dll:#US:2164601"
+  },
+  {
+    "text": "There are no players.",
+    "origin": "Assembly-CSharp.dll:#US:2164695"
+  },
+  {
+    "text": "Assign Mouse:",
+    "origin": "Assembly-CSharp.dll:#US:2164771"
+  },
+  {
+    "text": "Assign Mouse",
+    "origin": "Assembly-CSharp.dll:#US:2164799"
+  },
+  {
+    "text": "Assign Joysticks:",
+    "origin": "Assembly-CSharp.dll:#US:2164825"
+  },
+  {
+    "text": "Controller to Map:",
+    "origin": "Assembly-CSharp.dll:#US:2164861"
+  },
+  {
+    "text": "Select a controller to calibrate",
+    "origin": "Assembly-CSharp.dll:#US:2164929"
+  },
+  {
+    "text": "Assignment will be canceled in ",
+    "origin": "Assembly-CSharp.dll:#US:2165109"
+  },
+  {
+    "text": "Press any button or axis on \"",
+    "origin": "Assembly-CSharp.dll:#US:2165229"
+  },
+  {
+    "text": "Calibrated Value: ",
+    "origin": "Assembly-CSharp.dll:#US:2165337"
+  },
+  {
+    "text": "Record Min/Max",
+    "origin": "Assembly-CSharp.dll:#US:2165453"
+  },
+  {
+    "text": "Set Dead Zone",
+    "origin": "Assembly-CSharp.dll:#US:2165501"
+  },
+  {
+    "text": "Select an axis to begin.",
+    "origin": "Assembly-CSharp.dll:#US:2165541"
+  },
+  {
+    "text": "Joystick Reassignment",
+    "origin": "Assembly-CSharp.dll:#US:2165603"
+  },
+  {
+    "text": "This joystick is already assigned to another player. Do you want to reassign this joystick to ",
+    "origin": "Assembly-CSharp.dll:#US:2165647"
+  },
+  {
+    "text": "Reassign or Remove",
+    "origin": "Assembly-CSharp.dll:#US:2165842"
+  },
+  {
+    "text": "Do you want to reassign or remove this assignment?",
+    "origin": "Assembly-CSharp.dll:#US:2165880"
+  },
+  {
+    "text": "Remove Assignment",
+    "origin": "Assembly-CSharp.dll:#US:2165982"
+  },
+  {
+    "text": "Are you sure you want to remove this assignment?",
+    "origin": "Assembly-CSharp.dll:#US:2166018"
+  },
+  {
+    "text": "Press any key to assign it to this action. You may also use the modifier keys Command, Control, Alt, and Shift. If you wish to assign a modifier key itself to this action, press and hold the key for 1 second.",
+    "origin": "Assembly-CSharp.dll:#US:2166116"
+  },
+  {
+    "text": "Press any key to assign it to this action. You may also use the modifier keys Control, Alt, and Shift. If you wish to assign a modifier key itself to this action, press and hold the key for 1 second.",
+    "origin": "Assembly-CSharp.dll:#US:2166535"
+  },
+  {
+    "text": "\n\nNOTE: Some modifier key combinations will not work in the Unity Editor, but they will work in a game build.",
+    "origin": "Assembly-CSharp.dll:#US:2166936"
+  },
+  {
+    "text": "Press any mouse button or axis to assign it to this action.\n\nTo assign mouse movement axes, move the mouse quickly in the direction you want mapped to the action. Slow movements will be ignored.",
+    "origin": "Assembly-CSharp.dll:#US:2167157"
+  },
+  {
+    "text": "Press any button or axis to assign it to this action.",
+    "origin": "Assembly-CSharp.dll:#US:2167548"
+  },
+  {
+    "text": " is already in use and is protected from reassignment. You cannot remove the protected assignment, but you can still assign the action to this element. If you do so, the element will trigger multiple actions when activated.",
+    "origin": "Assembly-CSharp.dll:#US:2167670"
+  },
+  {
+    "text": "Assignment Conflict",
+    "origin": "Assembly-CSharp.dll:#US:2168119"
+  },
+  {
+    "text": " is already in use. You may replace the other conflicting assignments, add this assignment anyway which will leave multiple actions assigned to this element, or cancel this assignment.",
+    "origin": "Assembly-CSharp.dll:#US:2168159"
+  },
+  {
+    "text": "Joystick Identification Required",
+    "origin": "Assembly-CSharp.dll:#US:2168530"
+  },
+  {
+    "text": "A joystick has been attached or removed. You will need to identify each joystick by pressing a button on the controller listed below:",
+    "origin": "Assembly-CSharp.dll:#US:2168596"
+  },
+  {
+    "text": "Calibrate Controller",
+    "origin": "Assembly-CSharp.dll:#US:2168865"
+  },
+  {
+    "text": "Select an axis to calibrate on the ",
+    "origin": "Assembly-CSharp.dll:#US:2168907"
+  },
+  {
+    "text": "Tilt Vertical",
+    "origin": "Assembly-CSharp.dll:#US:2169009"
+  },
+  {
+    "text": "Tilt Horizontal",
+    "origin": "Assembly-CSharp.dll:#US:2169037"
+  },
+  {
+    "text": "A matching controller was not found for tag \"",
+    "origin": "Assembly-CSharp.dll:#US:2169069"
+  },
+  {
+    "text": "Controller has wrong number of elements!",
+    "origin": "Assembly-CSharp.dll:#US:2169165"
+  },
+  {
+    "text": "Move Horizontal",
+    "origin": "Assembly-CSharp.dll:#US:2169247"
+  },
+  {
+    "text": "Move Vertical",
+    "origin": "Assembly-CSharp.dll:#US:2169279"
+  },
+  {
+    "text": "Change Color",
+    "origin": "Assembly-CSharp.dll:#US:2169317"
+  },
+  {
+    "text": "Rotate the Dual Shock 4 to see the model rotate in sync.",
+    "origin": "Assembly-CSharp.dll:#US:2169483"
+  },
+  {
+    "text": "Touch the touchpad to see them appear on the model.",
+    "origin": "Assembly-CSharp.dll:#US:2169597"
+  },
+  {
+    "text": " to reset the orientation. Hold the gamepad facing the screen with sticks pointing up and press the button.",
+    "origin": "Assembly-CSharp.dll:#US:2169701"
+  },
+  {
+    "text": " to change the light color.",
+    "origin": "Assembly-CSharp.dll:#US:2169918"
+  },
+  {
+    "text": " to start or stop the light flashing.",
+    "origin": "Assembly-CSharp.dll:#US:2169974"
+  },
+  {
+    "text": " vibrate the left motor.",
+    "origin": "Assembly-CSharp.dll:#US:2170050"
+  },
+  {
+    "text": " vibrate the right motor.",
+    "origin": "Assembly-CSharp.dll:#US:2170100"
+  },
+  {
+    "text": "Press any button on \"",
+    "origin": "Assembly-CSharp.dll:#US:2170152"
+  },
+  {
+    "text": ", Pointer Index = ",
+    "origin": "Assembly-CSharp.dll:#US:2170402"
+  },
+  {
+    "text": ", Button Index = ",
+    "origin": "Assembly-CSharp.dll:#US:2170564"
+  },
+  {
+    "text": "Not initialized. Do you have a PressStartToJoinPlayerSelector in your scehe?",
+    "origin": "Assembly-CSharp.dll:#US:2170878"
+  },
+  {
+    "text": "Max player limit already reached!",
+    "origin": "Assembly-CSharp.dll:#US:2171051"
+  },
+  {
+    "text": "Added Rewired Player id ",
+    "origin": "Assembly-CSharp.dll:#US:2171141"
+  },
+  {
+    "text": " to game player ",
+    "origin": "Assembly-CSharp.dll:#US:2171191"
+  },
+  {
+    "text": "No joysticks attached",
+    "origin": "Assembly-CSharp.dll:#US:2171255"
+  },
+  {
+    "text": "Session already logged.",
+    "origin": "Assembly-CSharp.dll:#US:2171337"
+  },
+  {
+    "text": "Null detail parameter.",
+    "origin": "Assembly-CSharp.dll:#US:2171385"
+  },
+  {
+    "text": "cannot print enter into with exits!",
+    "origin": "Assembly-CSharp.dll:#US:2172357"
+  },
+  {
+    "text": "print enter into requires two entraces!",
+    "origin": "Assembly-CSharp.dll:#US:2172429"
+  },
+  {
+    "text": "enterer is not in entrace list!",
+    "origin": "Assembly-CSharp.dll:#US:2172509"
+  },
+  {
+    "text": "invalid stage direction type for loader",
+    "origin": "Assembly-CSharp.dll:#US:2172617"
+  },
+  {
+    "text": "this stage direction finishes instantaneously!",
+    "origin": "Assembly-CSharp.dll:#US:2172723"
+  },
+  {
+    "text": "Camera focus direction on {0} failed; isometric camera is not active!",
+    "origin": "Assembly-CSharp.dll:#US:2173335"
+  },
+  {
+    "text": "quality settings expects at least 3 possible values.",
+    "origin": "Assembly-CSharp.dll:#US:2173476"
+  },
+  {
+    "text": "Failed to find anim param {0} for character {1}!",
+    "origin": "Assembly-CSharp.dll:#US:2173676"
+  },
+  {
+    "text": "Restoring {0} to saved transform with delta {1}m, body {2}º, face {3}º",
+    "origin": "Assembly-CSharp.dll:#US:2173822"
+  },
+  {
+    "text": "Restoring {0} head offset with delta {1}º",
+    "origin": "Assembly-CSharp.dll:#US:2173965"
+  },
+  {
+    "text": "Restoring {0} to saved anim state {1} in layer {2} with param {3}",
+    "origin": "Assembly-CSharp.dll:#US:2174049"
+  },
+  {
+    "text": "Restoring {0} to intermediate anim state {1} in layer {2} with param {3}",
+    "origin": "Assembly-CSharp.dll:#US:2174182"
+  },
+  {
+    "text": "Unable to restore {0} to anim state {1} in layer {2} from {3} directly or via idle {4}",
+    "origin": "Assembly-CSharp.dll:#US:2174329"
+  },
+  {
+    "text": "No doors leading to the player's current room: {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2174590"
+  },
+  {
+    "text": "Could not find any doors in room {0} far enough from player to walk through; furthest door is {1}.",
+    "origin": "Assembly-CSharp.dll:#US:2174694"
+  },
+  {
+    "text": "ERROR: player is too close to the door, and there are no valid stage markers to walk to in room: {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2174893"
+  },
+  {
+    "text": "{0} has already entered scene {1} with a previous EnterAndFadeOthers command!",
+    "origin": "Assembly-CSharp.dll:#US:2175098"
+  },
+  {
+    "text": "Failed to set movement target for {0} to either a Marker or a CharacterMovement!",
+    "origin": "Assembly-CSharp.dll:#US:2175265"
+  },
+  {
+    "text": "MoveDirection failed for {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2175428"
+  },
+  {
+    "text": "WarpFadeOut did nothing; character was in an invalid state!",
+    "origin": "Assembly-CSharp.dll:#US:2175664"
+  },
+  {
+    "text": "WarpFadeOut did nothing; {0} already reached the warp door and stopped moving.",
+    "origin": "Assembly-CSharp.dll:#US:2175784"
+  },
+  {
+    "text": "WarpFadeOut fast-forwarded {0} to warp door {1}.",
+    "origin": "Assembly-CSharp.dll:#US:2175943"
+  },
+  {
+    "text": "WarpFadeIn did nothing; could not find character, or it was not warp fading!",
+    "origin": "Assembly-CSharp.dll:#US:2176041"
+  },
+  {
+    "text": "WarpFadeOut couldn't find the exit room of the warp door!",
+    "origin": "Assembly-CSharp.dll:#US:2176196"
+  },
+  {
+    "text": "Couldn't activate body turn for LookAtTransformDirection on {0} because they are in an animation state that can't turn: {1}",
+    "origin": "Assembly-CSharp.dll:#US:2176332"
+  },
+  {
+    "text": "Couldn't determine valid turn mode for {0}'s LookAtTransformDirection!",
+    "origin": "Assembly-CSharp.dll:#US:2176581"
+  },
+  {
+    "text": "Couldn't activate TurnToHeadOffsetDirection on {0} because they don't have enough current head offset: {1}",
+    "origin": "Assembly-CSharp.dll:#US:2176792"
+  },
+  {
+    "text": "Couldn't activate TurnToHeadOffsetDirection on {0} because they are in an animation state that can't turn: {1}",
+    "origin": "Assembly-CSharp.dll:#US:2177007"
+  },
+  {
+    "text": "Recovered {0}'s saved position at goal {1}: {2}",
+    "origin": "Assembly-CSharp.dll:#US:2177336"
+  },
+  {
+    "text": "Recovered {0}'s saved position from invalid pos: {1} to nav pos: {2}",
+    "origin": "Assembly-CSharp.dll:#US:2177432"
+  },
+  {
+    "text": "Recovered {0}'s saved position from invalid pos: {1} to room: {2}",
+    "origin": "Assembly-CSharp.dll:#US:2177571"
+  },
+  {
+    "text": "Could not recover the saved position for {0}",
+    "origin": "Assembly-CSharp.dll:#US:2177704"
+  },
+  {
+    "text": "Failed to skip lookat direction for {0}",
+    "origin": "Assembly-CSharp.dll:#US:2177812"
+  },
+  {
+    "text": "Failed to skip movement direction for {0}",
+    "origin": "Assembly-CSharp.dll:#US:2177892"
+  },
+  {
+    "text": "invalid room for set piece",
+    "origin": "Assembly-CSharp.dll:#US:2178024"
+  },
+  {
+    "text": "invalid environment id!",
+    "origin": "Assembly-CSharp.dll:#US:2178150"
+  },
+  {
+    "text": "cannot find key {0} in dictionary",
+    "origin": "Assembly-CSharp.dll:#US:2178286"
+  },
+  {
+    "text": "Can't initialize {0}, cannot find in children!",
+    "origin": "Assembly-CSharp.dll:#US:2178354"
+  },
+  {
+    "text": "Using {0} for initial UI input mode.",
+    "origin": "Assembly-CSharp.dll:#US:2178448"
+  },
+  {
+    "text": "Rewired is ready, finished setting up input.",
+    "origin": "Assembly-CSharp.dll:#US:2178522"
+  },
+  {
+    "text": "Rewired isn't ready yet, AllTheGui will wait to set up input.",
+    "origin": "Assembly-CSharp.dll:#US:2178612"
+  },
+  {
+    "text": "unknown fade canvas",
+    "origin": "Assembly-CSharp.dll:#US:2178820"
+  },
+  {
+    "text": "Detected gamepad connected, now using it.",
+    "origin": "Assembly-CSharp.dll:#US:2178860"
+  },
+  {
+    "text": "Detected gamepad disconnected, now using the mouse.",
+    "origin": "Assembly-CSharp.dll:#US:2178944"
+  },
+  {
+    "text": "Detected gamepad input, now using it.",
+    "origin": "Assembly-CSharp.dll:#US:2179048"
+  },
+  {
+    "text": "Detected mouse/keyboard input, now using it.",
+    "origin": "Assembly-CSharp.dll:#US:2179124"
+  },
+  {
+    "text": "Our apologies, but there was an unexpected error that prevented the game from continuing and it must exit.",
+    "origin": "Assembly-CSharp.dll:#US:2179250"
+  },
+  {
+    "text": "click action must be non-null",
+    "origin": "Assembly-CSharp.dll:#US:2179471"
+  },
+  {
+    "text": "Should I do this thing? This is a pretty long string.",
+    "origin": "Assembly-CSharp.dll:#US:2179715"
+  },
+  {
+    "text": "Could not find fps counter text game object! Did the name change or did it get moved?",
+    "origin": "Assembly-CSharp.dll:#US:2179853"
+  },
+  {
+    "text": "Unable to load ending still {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2180236"
+  },
+  {
+    "text": "bad ending action {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2180302"
+  },
+  {
+    "text": "Abandon current timeline and revisit the event that cemented this fate?",
+    "origin": "Assembly-CSharp.dll:#US:2180404"
+  },
+  {
+    "text": "Take Me There",
+    "origin": "Assembly-CSharp.dll:#US:2180549"
+  },
+  {
+    "text": "<b>Sacrifice Choice for Revenge?</b>\nIf you damage the book, you, Quince, and everyone else will be trapped for eternity.\n<b>There will be no going back.</b>",
+    "origin": "Assembly-CSharp.dll:#US:2180631"
+  },
+  {
+    "text": "<i>This world has not yet come to pass.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2181184"
+  },
+  {
+    "text": "invalid fade type",
+    "origin": "Assembly-CSharp.dll:#US:2181308"
+  },
+  {
+    "text": "test\ntest\ntest",
+    "origin": "Assembly-CSharp.dll:#US:2181344"
+  },
+  {
+    "text": "Start over from Day 1?",
+    "origin": "Assembly-CSharp.dll:#US:2181374"
+  },
+  {
+    "text": "This will be inscribed as the true fate of Elsinore Castle, ending you from your endless loop.<br>There will be no turning back.",
+    "origin": "Assembly-CSharp.dll:#US:2181440"
+  },
+  {
+    "text": "Choose This Ending",
+    "origin": "Assembly-CSharp.dll:#US:2181699"
+  },
+  {
+    "text": "newly unlocked? {0}",
+    "origin": "Assembly-CSharp.dll:#US:2181753"
+  },
+  {
+    "text": "Go to % ROOMNAME %?",
+    "origin": "Assembly-CSharp.dll:#US:2181907"
+  },
+  {
+    "text": "Ophelia looks at \"{0}.\"",
+    "origin": "Assembly-CSharp.dll:#US:2181999"
+  },
+  {
+    "text": "Quit Game?\nThe last autosave was --- seconds ago.",
+    "origin": "Assembly-CSharp.dll:#US:2182085"
+  },
+  {
+    "text": "Save and Quit",
+    "origin": "Assembly-CSharp.dll:#US:2182243"
+  },
+  {
+    "text": "Quit Game?\nThe last autosave was {0} seconds ago.",
+    "origin": "Assembly-CSharp.dll:#US:2182281"
+  },
+  {
+    "text": "Quit Game?\nThe last autosave was {0} minutes ago.",
+    "origin": "Assembly-CSharp.dll:#US:2182381"
+  },
+  {
+    "text": "Save completed.",
+    "origin": "Assembly-CSharp.dll:#US:2182481"
+  },
+  {
+    "text": "Save failed - please try again.",
+    "origin": "Assembly-CSharp.dll:#US:2182513"
+  },
+  {
+    "text": "This will delete all saved data and start you back at the prologue without anything. Are you sure you want to continue?",
+    "origin": "Assembly-CSharp.dll:#US:2182667"
+  },
+  {
+    "text": "Yep, Erase It All",
+    "origin": "Assembly-CSharp.dll:#US:2182908"
+  },
+  {
+    "text": "presenting hearsay that doesn't exist!",
+    "origin": "Assembly-CSharp.dll:#US:2182964"
+  },
+  {
+    "text": "Failed to get first line TEMP",
+    "origin": "Assembly-CSharp.dll:#US:2183054"
+  },
+  {
+    "text": "<i>This information isn't true right now.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2183114"
+  },
+  {
+    "text": "<i>I don't think {0} cares about this information.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2183206"
+  },
+  {
+    "text": "<i>{0} has already seen this information.</i>",
+    "origin": "Assembly-CSharp.dll:#US:2183316"
+  },
+  {
+    "text": "Due to substantial changes from recent game updates, your game data and progress must be reset. Thanks for understanding!",
+    "origin": "Assembly-CSharp.dll:#US:2183456"
+  },
+  {
+    "text": "Continue Game",
+    "origin": "Assembly-CSharp.dll:#US:2183815"
+  },
+  {
+    "text": "Return to Elsinore",
+    "origin": "Assembly-CSharp.dll:#US:2183843"
+  },
+  {
+    "text": "uknown timeline item type!",
+    "origin": "Assembly-CSharp.dll:#US:2184007"
+  },
+  {
+    "text": "Future event: ",
+    "origin": "Assembly-CSharp.dll:#US:2184061"
+  },
+  {
+    "text": "Unlikely event: ",
+    "origin": "Assembly-CSharp.dll:#US:2184091"
+  },
+  {
+    "text": "Impossible event: ",
+    "origin": "Assembly-CSharp.dll:#US:2184125"
+  },
+  {
+    "text": "uknown event type",
+    "origin": "Assembly-CSharp.dll:#US:2184163"
+  },
+  {
+    "text": "This event is happening now.\n",
+    "origin": "Assembly-CSharp.dll:#US:2184221"
+  },
+  {
+    "text": "Ophelia did not attend this event.\n",
+    "origin": "Assembly-CSharp.dll:#US:2184281"
+  },
+  {
+    "text": "This will not happen based on current conditions.",
+    "origin": "Assembly-CSharp.dll:#US:2184387"
+  },
+  {
+    "text": "This event did not happen.",
+    "origin": "Assembly-CSharp.dll:#US:2184487"
+  },
+  {
+    "text": "unknown timeline type!",
+    "origin": "Assembly-CSharp.dll:#US:2184541"
+  },
+  {
+    "text": "This is your journal. Try pressing {0} to open it now.",
+    "origin": "Assembly-CSharp.dll:#US:2184621"
+  },
+  {
+    "text": "This is your journal. Try opening it now.",
+    "origin": "Assembly-CSharp.dll:#US:2184731"
+  },
+  {
+    "text": "Your Leads tab documents actions you've completed in the past, as well as hints about some mysteries you might uncover.",
+    "origin": "Assembly-CSharp.dll:#US:2184815"
+  },
+  {
+    "text": "Your Characters tab contains information about characters you've encountered in Elsinore Castle.",
+    "origin": "Assembly-CSharp.dll:#US:2185056"
+  },
+  {
+    "text": "Your Hearsay tab contains information you can share with the inhabitants of Elsinore Castle.",
+    "origin": "Assembly-CSharp.dll:#US:2185251"
+  },
+  {
+    "text": "This is your Map. You can use it to see when events are happening around the castle. Try pressing {0} to open it now.",
+    "origin": "Assembly-CSharp.dll:#US:2185438"
+  },
+  {
+    "text": "This is your Map. You can use it to see when events are happening around the castle. Try clicking on it now.",
+    "origin": "Assembly-CSharp.dll:#US:2185675"
+  },
+  {
+    "text": "You can also use the map to quickly reach rooms or characters. Try navigating to your bedroom with {0} and press {1}.",
+    "origin": "Assembly-CSharp.dll:#US:2185894"
+  },
+  {
+    "text": "You can also use the map to quickly reach rooms or characters. Try clicking on your bedroom.",
+    "origin": "Assembly-CSharp.dll:#US:2186131"
+  },
+  {
+    "text": "This is your Timeline. Here you can see past events Ophelia knows about, as well as future events which might occur. Try pressing {0} to open it now.",
+    "origin": "Assembly-CSharp.dll:#US:2186318"
+  },
+  {
+    "text": "This is your Timeline. Here you can see past events Ophelia knows about, as well as future events which might occur. Try opening it now.",
+    "origin": "Assembly-CSharp.dll:#US:2186619"
+  },
+  {
+    "text": "This is a past event. Here you can see which characters attended the event and what came of it. Try pressing {0} to open it.",
+    "origin": "Assembly-CSharp.dll:#US:2186894"
+  },
+  {
+    "text": "This is a past event. Here you can see which characters attended the event and what came of it. Try clicking on it now.",
+    "origin": "Assembly-CSharp.dll:#US:2187145"
+  },
+  {
+    "text": "Future events are marked in blue. Because Elsinore's state is constantly changing, there is no guarantee a future event will happen for certain. Try pressing {0} to open it.",
+    "origin": "Assembly-CSharp.dll:#US:2187386"
+  },
+  {
+    "text": "Future events are marked in blue. Because Elsinore's state is constantly changing, there is no guarantee a future event will happen for certain.",
+    "origin": "Assembly-CSharp.dll:#US:2187735"
+  },
+  {
+    "text": "You can now use the clock to fast forward time. Try holding {0} to fast forward time now.",
+    "origin": "Assembly-CSharp.dll:#US:2188026"
+  },
+  {
+    "text": "You can now use the clock to fast forward time. Try holding down on the clock to fast forward time now.",
+    "origin": "Assembly-CSharp.dll:#US:2188207"
+  },
+  {
+    "text": "You can now reset the time loop at any time. Press {0} to open a menu where you can restart the loop.",
+    "origin": "Assembly-CSharp.dll:#US:2188416"
+  },
+  {
+    "text": "You can now reset the time loop at any time. Press the skull button to open a menu where you can restart the loop.",
+    "origin": "Assembly-CSharp.dll:#US:2188621"
+  },
+  {
+    "text": "Posting new music event \"{0}\" from the CreditsPlayer.",
+    "origin": "Assembly-CSharp.dll:#US:2188980"
+  },
+  {
+    "text": "Ending {0} not configured in credits!",
+    "origin": "Assembly-CSharp.dll:#US:2189088"
+  },
+  {
+    "text": "cannot add close button until close action is set",
+    "origin": "Assembly-CSharp.dll:#US:2189164"
+  },
+  {
+    "text": "invalid pevent id",
+    "origin": "Assembly-CSharp.dll:#US:2189314"
+  },
+  {
+    "text": "\nnot fully implemented",
+    "origin": "Assembly-CSharp.dll:#US:2189452"
+  },
+  {
+    "text": "No simulated game state found. Please open the timeline to re-simulate the game state.",
+    "origin": "Assembly-CSharp.dll:#US:2189498"
+  },
+  {
+    "text": "Fast Forward Time",
+    "origin": "Assembly-CSharp.dll:#US:2189673"
+  },
+  {
+    "text": "Build: {0} made on {1}",
+    "origin": "Assembly-CSharp.dll:#US:2189709"
+  },
+  {
+    "text": "This will save the game and reset the loop to Thursday morning. Ophelia will remember all information she has learned, but everything else will reset. Are you sure you want to continue?",
+    "origin": "Assembly-CSharp.dll:#US:2189799"
+  },
+  {
+    "text": "Cannot find first speaker for observation scene {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2190172"
+  },
+  {
+    "text": "resizing a layout group currently only supported for vertical layout groups",
+    "origin": "Assembly-CSharp.dll:#US:2190278"
+  },
+  {
+    "text": "Start of Loop",
+    "origin": "Assembly-CSharp.dll:#US:2190451"
+  },
+  {
+    "text": "Ophelia makes an observation.",
+    "origin": "Assembly-CSharp.dll:#US:2190479"
+  },
+  {
+    "text": "uknown header type!",
+    "origin": "Assembly-CSharp.dll:#US:2190539"
+  },
+  {
+    "text": "unimplemented log entry {0}!",
+    "origin": "Assembly-CSharp.dll:#US:2190687"
+  },
+  {
+    "text": "invalid state!",
+    "origin": "Assembly-CSharp.dll:#US:2190821"
+  },
+  {
+    "text": "ElsinoreUiSelectable {0} didn't receive an OnPointerUp event after {1} frames!!",
+    "origin": "Assembly-CSharp.dll:#US:2190851"
+  },
+  {
+    "text": "Current preference not in list, attempting to reset",
+    "origin": "Assembly-CSharp.dll:#US:2191012"
+  },
+  {
+    "text": "Error enabling preference menu, no valid options",
+    "origin": "Assembly-CSharp.dll:#US:2191116"
+  },
+  {
+    "text": "Please provide a positive pixel size!",
+    "origin": "Assembly-CSharp.dll:#US:2191238"
+  },
+  {
+    "text": "Invalid splotch index.",
+    "origin": "Assembly-CSharp.dll:#US:2191314"
+  },
+  {
+    "text": "bad cursor type",
+    "origin": "Assembly-CSharp.dll:#US:2191360"
+  },
+  {
+    "text": ", <i>in which</i> ",
+    "origin": "Assembly-CSharp.dll:#US:2191494"
+  },
+  {
+    "text": "An event occurs.",
+    "origin": "Assembly-CSharp.dll:#US:2191532"
+  },
+  {
+    "text": "Ophelia presents \"{0}\" to {1}.",
+    "origin": "Assembly-CSharp.dll:#US:2191566"
+  },
+  {
+    "text": "Failed to initialize telemetry!",
+    "origin": "Assembly-CSharp.dll:#US:2191666"
+  },
+  {
+    "text": "show available commands",
+    "origin": "Assembly-CSharp.dll:#US:2192559"
+  },
+  {
+    "text": "Available commands:\n",
+    "origin": "Assembly-CSharp.dll:#US:2192623"
+  },
+  {
+    "text": "unknown command `{0}`, use `help` to list commands",
+    "origin": "Assembly-CSharp.dll:#US:2192703"
+  },
+  {
+    "text": "finished loading {0} audio banks in {1} seconds",
+    "origin": "Assembly-CSharp.dll:#US:2192857"
+  },
+  {
+    "text": "precompiling data for mode {0}",
+    "origin": "Assembly-CSharp.dll:#US:2192953"
+  },
+  {
+    "text": "loading {0} audio banks",
+    "origin": "Assembly-CSharp.dll:#US:2193015"
+  },
+  {
+    "text": "starting game data load at {0}",
+    "origin": "Assembly-CSharp.dll:#US:2193063"
+  },
+  {
+    "text": "preloading files for mode {0}",
+    "origin": "Assembly-CSharp.dll:#US:2193125"
+  },
+  {
+    "text": "starting game data compilation at {0}",
+    "origin": "Assembly-CSharp.dll:#US:2193185"
+  },
+  {
+    "text": "starting save data load at {0}",
+    "origin": "Assembly-CSharp.dll:#US:2193261"
+  },
+  {
+    "text": "starting scene load at {0}",
+    "origin": "Assembly-CSharp.dll:#US:2193323"
+  },
+  {
+    "text": "starting scene activation at {0}",
+    "origin": "Assembly-CSharp.dll:#US:2193377"
+  },
+  {
+    "text": "waiting on banks",
+    "origin": "Assembly-CSharp.dll:#US:2193443"
+  },
+  {
+    "text": "waiting on video",
+    "origin": "Assembly-CSharp.dll:#US:2193499"
+  },
+  {
+    "text": "now allowing scene activation",
+    "origin": "Assembly-CSharp.dll:#US:2193555"
+  },
+  {
+    "text": "StageDirection {0} took {1} seconds longer than estimate of {2} {4}, aborting (elapsed time: {3})!",
+    "origin": "Assembly-CSharp.dll:#US:2193615"
+  },
+  {
+    "text": "game minutes",
+    "origin": "Assembly-CSharp.dll:#US:2193814"
+  },
+  {
+    "text": "AkAutoObject for ",
+    "origin": "Assembly-CSharp.dll:#US:2193902"
+  },
+  {
+    "text": " failed to load (",
+    "origin": "Assembly-CSharp.dll:#US:2193974"
+  },
+  {
+    "text": "WwiseUnity: AkMemBankLoader: bank loading failed with result ",
+    "origin": "Assembly-CSharp.dll:#US:2194024"
+  },
+  {
+    "text": "QueryUserId received ill-formatted JSON: {0}",
+    "origin": "Assembly-CSharp.dll:#US:2194204"
+  },
+  {
+    "text": "QueryExperimentalCondition received ill-formatted JSON: {0}",
+    "origin": "Assembly-CSharp.dll:#US:2194294"
+  },
+  {
+    "text": "LogSession received ill-formatted JSON: {0}",
+    "origin": "Assembly-CSharp.dll:#US:2194418"
+  },
+  {
+    "text": "No valid resolutions to choose as default. Returning {0}. Valid list:\n[{1}]",
+    "origin": "Assembly-CSharp.dll:#US:2194506"
+  },
+  {
+    "text": "RE-ENTRY GUARD ALREADY SET! Something is very wrong with the state!",
+    "origin": "Assembly-CSharp.dll:#US:2194673"
+  },
+  {
+    "text": "cannot defer action with no source control",
+    "origin": "Assembly-CSharp.dll:#US:2194810"
+  },
+  {
+    "text": "Timeline calculated, now populating UI elements",
+    "origin": "Assembly-CSharp.dll:#US:2194986"
+  },
+  {
+    "text": "Timeline of Events",
+    "origin": "Assembly-CSharp.dll:#US:2195082"
+  },
+  {
+    "text": "Timeline of Current Loop",
+    "origin": "Assembly-CSharp.dll:#US:2195120"
+  },
+  {
+    "text": "Timeline of Loop {0}",
+    "origin": "Assembly-CSharp.dll:#US:2195170"
+  },
+  {
+    "text": "invalid style!",
+    "origin": "Assembly-CSharp.dll:#US:2195480"
+  },
+  {
+    "text": "invalid mode!",
+    "origin": "Assembly-CSharp.dll:#US:2195510"
+  },
+  {
+    "text": "NO CHARACTER BIO",
+    "origin": "Assembly-CSharp.dll:#US:2195538"
+  },
+  {
+    "text": "Cannot find icon for room ",
+    "origin": "Assembly-CSharp.dll:#US:2195648"
+  },
+  {
+    "text": "invalid state",
+    "origin": "Assembly-CSharp.dll:#US:2195706"
+  }
+]

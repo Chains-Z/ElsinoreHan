@@ -1,0 +1,20 @@
+{
+  "game_path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data",
+  "method": "本地静态提取、按空白规范化去重；程序集额外字符串需审核",
+  "unique_text_asset_candidates": 56,
+  "primary_entries": 15153,
+  "primary_english_words": 194856,
+  "primary_characters": 1017168,
+  "dialogue_entries": 14554,
+  "resource_ui_entries": 599,
+  "assembly_user_string_count": 20566,
+  "assembly_additional_review_entries": 1036,
+  "assembly_additional_review_words": 12706,
+  "parse_errors": [],
+  "limitations": [
+    "还未验证游戏内文字拦截覆盖率",
+    "TextAsset 通过载荷结构定位，未逐对象验证 Unity 类型",
+    "可能包含未启用的剧情分支或测试场景",
+    "未统计图片中的文字"
+  ]
+}
