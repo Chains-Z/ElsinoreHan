@@ -145,7 +145,12 @@ def main():
     base_count = len(rows)
     supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
     rows = apply_supplemental(rows, supplemental)
-    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "lead-runtime-aliases.json"):
+    terminology_path = SUPPLEMENTAL.with_name("playmaster-corrections.json")
+    if terminology_path.exists():
+        terminology = json.loads(terminology_path.read_text(encoding="utf-8"))
+        rows = apply_supplemental(rows, terminology)
+        supplemental += terminology
+    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "lead-runtime-aliases.json", "dialogue-log-runtime-aliases.json"):
         extra_path = SUPPLEMENTAL.with_name(filename)
         if extra_path.exists():
             extra_entries = json.loads(extra_path.read_text(encoding="utf-8"))
@@ -166,7 +171,7 @@ def main():
     ui_rules_path = ROOT / "translation" / "supplemental" / "dynamic-ui-rules.json"
     ui_rules = json.loads(ui_rules_path.read_text(encoding="utf-8")) if ui_rules_path.exists() else []
     for filename in ("notification-ui-rules.json", "lead-followup-rules.json", "map-ui-rules.json",
-                     "timeline-followup-rules.json", "nested-belief-followup-rules.json"):
+                     "timeline-followup-rules.json", "nested-belief-followup-rules.json", "dialogue-log-followup-rules.json"):
         followup_path = ui_rules_path.with_name(filename)
         if followup_path.exists():
             ui_rules += json.loads(followup_path.read_text(encoding="utf-8"))

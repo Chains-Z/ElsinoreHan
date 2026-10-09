@@ -16,6 +16,7 @@ $references = @(
     (Join-Path $managed 'UnityEngine.JSONSerializeModule.dll'),
     (Join-Path $managed 'UnityEngine.ScreenCaptureModule.dll'),
     (Join-Path $managed 'UnityEngine.UI.dll')
+    (Join-Path $managed 'UnityEngine.UIModule.dll')
 )
 $arguments = @('/nologo', '/target:library', '/platform:x86', ('/out:' + $output))
 $arguments += $references | ForEach-Object { '/reference:' + $_ }
@@ -24,6 +25,7 @@ $arguments += Join-Path $PSScriptRoot 'ItalicGeometryProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'LeadFollowupProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'MapFollowupProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'TimelineFollowupProbe.cs'
+$arguments += Join-Path $PSScriptRoot 'LogScrollAnchorProbe.cs'
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw '运行时探针编译失败。' }
 Write-Output $output

@@ -1068,6 +1068,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                         JournalLine("UNAVAILABLE\tlog.entry_count\t真实历史数量与控件数量不一致，不能完整绑定来源");
                 }
                 yield return JournalRoundTrip("log", log, history, logEntries);
+                if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_LOG_SCROLL") == "1")
+                    yield return LogScrollAnchorProbe.Capture(log, outputDirectory);
             }
         }
     }

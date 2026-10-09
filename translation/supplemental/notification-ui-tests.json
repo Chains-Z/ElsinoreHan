@@ -3107,11 +3107,20 @@
   {
     "id": "present-quoted-firstline-138",
     "source": "\"I met Simona, and she revealed to me the true culprit - Peter Quince, the playmaster, is behind us being trapped in Elsinore.\"",
-    "target": "“我见到了西蒙娜，她告诉了我谁是真正的罪魁祸首——戏班主彼得·奎因斯就是让我们困在埃尔西诺的幕后黑手。”",
+    "target": "“我见到了西蒙娜，她告诉了我谁是真正的罪魁祸首——戏剧大师彼得·奎因斯就是让我们困在埃尔西诺的幕后黑手。”",
     "source_sha256": "1b3c04cfc0851e4a889a45110f1a700db15d48d59aa9deec7b617f62ad8dd983",
     "origins": [
       "analysis/ui-audit/notification-source-audit.json"
-    ]
+    ],
+    "expected_target_revisions": [
+      {
+        "previous_target": "“我见到了西蒙娜，她告诉了我谁是真正的罪魁祸首——戏班主彼得·奎因斯就是让我们困在埃尔西诺的幕后黑手。”",
+        "previous_target_sha256": "6d54d4d647e14c898a13576736bebeea64645c3c166a4d92c5291a52049a8c14",
+        "reason": "用户指定Playmaster所有同一称号统一为戏剧大师，保持其余原译文和标记",
+        "origin": "user-feedback:2026-10-10"
+      }
+    ],
+    "target_sha256": "9eb597fb78e3b39a5535ac3c665527ff165e31041da00af5dfee9e5077691e1d"
   },
   {
     "id": "present-quoted-firstline-139",
@@ -3584,11 +3593,20 @@
   {
     "id": "present-quoted-firstline-191",
     "source": "\"Laertes. Please listen to me. The Playmaster—Peter Quince—he intends to cause serious harm to us.\"",
-    "target": "“雷欧提斯。请听我说。那个戏班主——彼得·奎因斯——他打算严重伤害我们。”",
+    "target": "“雷欧提斯。请听我说。那个戏剧大师——彼得·奎因斯——他打算严重伤害我们。”",
     "source_sha256": "49ad6c0ba9493e9063155acb9827dda763b0a9780d5a6edee17ad9a0cbdb9f72",
     "origins": [
       "analysis/ui-audit/notification-source-audit.json"
-    ]
+    ],
+    "expected_target_revisions": [
+      {
+        "previous_target": "“雷欧提斯。请听我说。那个戏班主——彼得·奎因斯——他打算严重伤害我们。”",
+        "previous_target_sha256": "86a954f5d23eb5c8af9e067849f129c1837c70d6d5c07024ca0618a0ff6dc5a5",
+        "reason": "用户指定Playmaster所有同一称号统一为戏剧大师，保持其余原译文和标记",
+        "origin": "user-feedback:2026-10-10"
+      }
+    ],
+    "target_sha256": "c199ad2b9d04662a6edc70c104cc7a833505a0fd62e4f1fed943332d49a8c6e9"
   },
   {
     "id": "present-quoted-firstline-192",
@@ -3746,11 +3764,20 @@
   {
     "id": "present-quoted-firstline-209",
     "source": "\"My lady, I believe the Playmaster you invited means to sow dissent in the court.\"",
-    "target": "“王后陛下，我相信您邀请来的戏班主想在宫廷中挑起纷争。”",
+    "target": "“王后陛下，我相信您邀请来的戏剧大师想在宫廷中挑起纷争。”",
     "source_sha256": "2eb3247bb103e01a478fa6d69c483ec87653fc3204d634126a0c7b590ba60225",
     "origins": [
       "analysis/ui-audit/notification-source-audit.json"
-    ]
+    ],
+    "expected_target_revisions": [
+      {
+        "previous_target": "“王后陛下，我相信您邀请来的戏班主想在宫廷中挑起纷争。”",
+        "previous_target_sha256": "6f5d4218f564ff23b2e0e5fa15d23a2481303d8147b2bb92f5c996ccdeee9942",
+        "reason": "用户指定Playmaster所有同一称号统一为戏剧大师，保持其余原译文和标记",
+        "origin": "user-feedback:2026-10-10"
+      }
+    ],
+    "target_sha256": "489d73dad14663edc5d9ebf70b81b370c1bf235ac23b795ba4b4aa2de5642d1d"
   },
   {
     "id": "present-quoted-firstline-210",

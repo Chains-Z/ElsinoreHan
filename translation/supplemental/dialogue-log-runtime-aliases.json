@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ui-dialogue-runtime-b8a996111be2e16a",
+    "source": "This is all wrong. It's all—",
+    "source_sha256": "b8a996111be2e16a964a60ea3966209832ef0a09f499e220fded4f1f8645cd27",
+    "target": "这一切都不对。全都——",
+    "existing_id": "p00498-4ccefc8565bf",
+    "existing_source": "This is all wrong. It's all--",
+    "existing_source_sha256": "4ccefc8565bffc06d699042534e86a0782567b340ad5cee8ad224be3f1c0ea18",
+    "existing_target_sha256": "94bf25bb62d99c8e060d4abcb6b277ef57473b8003ea2d0bf5d0e9d0ede5702c",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "Quince_End",
+        "line": 580
+      },
+      "analysis/ui-audit/dialogue-log-followup-il.json"
+    ],
+    "provenance": "真实对白编译九步破折号或资源空白变体，逐字复用冻结译文，不重翻正文"
+  },
+  {
+    "id": "ui-dialogue-runtime-3edc3c7a85149407",
+    "source": "No—",
+    "source_sha256": "3edc3c7a85149407c07fd7cd88aaa65255034ef01023107a2abbc05bcc150586",
+    "target": "不——",
+    "existing_id": "s00296-030e28614851",
+    "existing_source": "No--",
+    "existing_source_sha256": "030e28614851c0874f7b95caf9b6abc02cc99be8305bb4f8be2990bff1e669a7",
+    "existing_target_sha256": "590971409aeec1c1bf9b7b2883c5eca3582c3bce850aa7693c2237fdec590ee3",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "Quince_End",
+        "line": 668
+      },
+      "analysis/ui-audit/dialogue-log-followup-il.json"
+    ],
+    "provenance": "真实对白编译九步破折号或资源空白变体，逐字复用冻结译文，不重翻正文"
+  },
+  {
+    "id": "ui-dialogue-runtime-0d6864c1fd856c58",
+    "source": "The death falls hard upon her, my lord.  Perhaps—",
+    "source_sha256": "0d6864c1fd856c58b392e5a0956a7ca6f5d862c4a0dd1891f5a2ba454f475511",
+    "target": "他的死对她打击很大，陛下。也许——",
+    "existing_id": "p01555-63bc4d8bdd87",
+    "existing_source": "The death falls hard upon her, my lord. Perhaps—",
+    "existing_source_sha256": "63bc4d8bdd871cbe968deefef1b6d7011d6b906694c4c65a8f76294f7c9b3824",
+    "existing_target_sha256": "de89e69ed599b99929f2d1fb80ba859c76fb131423cd46251222f9e3d5163b16",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "hamclaud_duel",
+        "line": 2020
+      },
+      "analysis/ui-audit/dialogue-log-followup-il.json"
+    ],
+    "provenance": "真实对白编译九步破折号或资源空白变体，逐字复用冻结译文，不重翻正文"
+  },
+  {
+    "id": "ui-dialogue-runtime-d981f37ee190975b",
+    "source": "Your time with Grace—the adventures you embarked on—will vanish.",
+    "source_sha256": "d981f37ee190975bc9dcc1fa4003a98d4afdd98eff272f3d2c7c282edc036502",
+    "target": "你与格蕾丝共度的时光——你经历的那些冒险——都将消失。",
+    "existing_id": "p10523-3851e9cbf38b",
+    "existing_source": "Your time with Grace-- the adventures you embarked on-- will vanish.",
+    "existing_source_sha256": "3851e9cbf38b17546b15a5f0e04eb3762b9d915e97af7837dbdd92eb4fe4492d",
+    "existing_target_sha256": "bf086b47b00b785bc7b80978ee7a5fbbab7155d0a58128818d0f64d3b0075e2a",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "remindAboutEndingLost",
+        "line": 29706
+      },
+      "analysis/ui-audit/dialogue-log-followup-il.json"
+    ],
+    "provenance": "真实对白编译九步破折号或资源空白变体，逐字复用冻结译文，不重翻正文"
+  },
+  {
+    "id": "ui-dialogue-runtime-e2e492b1e6fd68b1",
+    "source": "You will never again have the power to overturn nations at your whim. At least—not in the same way.",
+    "source_sha256": "e2e492b1e6fd68b1b860a7dd1ad3c1e22b26356b22a2a19f28e6a33dbf1eef70",
+    "target": "你将再也没有随心所欲颠覆诸国的力量。至少——无法再以同样的方式做到。",
+    "existing_id": "p10526-091c1e180d51",
+    "existing_source": "You will never again have the power to overturn nations at your whim. At least-- not in the same way.",
+    "existing_source_sha256": "091c1e180d515ee7d4d50a1b90c2255cd8ce239be7eac96e3ff6cc3bebd9a723",
+    "existing_target_sha256": "d491cefc53457d98485c3cbdabfd400ed24ff4c87cc8f8c8b62d02e22723e1f6",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "remindAboutEndingLost",
+        "line": 29712
+      },
+      "analysis/ui-audit/dialogue-log-followup-il.json"
+    ],
+    "provenance": "真实对白编译九步破折号或资源空白变体，逐字复用冻结译文，不重翻正文"
+  }
+]

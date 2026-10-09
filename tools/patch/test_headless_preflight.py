@@ -26,6 +26,9 @@ class PreflightTests(unittest.TestCase):
     def test_italic_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_ITALIC": "1"}, "ELSINOREHAN_PROBE_ITALIC")
 
+    def test_log_scroll_without_journal_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_LOG_SCROLL": "1"}, "ELSINOREHAN_PROBE_LOG_SCROLL")
+
     def test_followup_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_UI_FOLLOWUP": "1"}, "ELSINOREHAN_PROBE_UI_FOLLOWUP")
 

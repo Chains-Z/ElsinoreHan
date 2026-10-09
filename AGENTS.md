@@ -2,7 +2,7 @@
 
 更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新状态：本轮线索多段、地图确认、时间线空尾段/房间与嵌套信念修复已正式安装，个人ZIP同步。当前1.3.0、16,861条、121条规则；最终运行 `46a0f4e419554b0e825ff42b5570c7fe` 的真实资料组件、6条线索、3个地图确认、3项时间线详情及资源重放/F8通过，1,538个递归消费者通过。见 [本轮修复](docs/dev-tasks/localization/ui-followup-2026-10-10.md)。字体保持前轮 `5f5a90f339c74f2ea2a99d2bc5761fc1` 的参数与网格证据，不把它算成本轮重验。下一步按实际游玩反馈校订，不自动重复重型测试。
+最新状态：日志系统补修、Playmaster统一“戏剧大师”及F8日志段落位置保护已安装，个人ZIP同步。当前1.4.0、16,866条、132条规则；最终运行 `86d5eda7118f4a34ab3cdbab2d942d8e` 的资料、七历史索引及四阅读位置八次F8切换通过，共23,116个资源/界面消费者通过。见 [本轮日志修复](docs/dev-tasks/localization/log-followup-2026-10-10.md)。前轮线索/地图/时间线与字体证据仍保留；下一步按实际游玩反馈校订，不自动重复重型测试。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -11,11 +11,12 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
+   docs/dev-tasks/localization/log-followup-2026-10-10.md：最新日志全源覆盖、称号统一、F8段落保护及验收边界。
    docs/dev-tasks/localization/ui-followup-2026-10-10.md：最新线索、地图、时间线、嵌套信念与探针修正。
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/ui-followup-verification.json：最新资料组件、正式安装与ZIP核验；tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/log-followup-verification.json：最新日志、位置保护、安装与ZIP核验；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -25,9 +26,9 @@
 
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
-- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.3.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
-- 当前正式词表 **16,861条**：原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体和18个线索运行别名。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
-- 共121条动态规则：24个数字/F# %s模板，97条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
+- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.4.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
+- 当前正式词表 **16,866条**：原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
+- 共132条动态规则：24个数字/F# %s模板，108条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
@@ -52,6 +53,8 @@
 
 ## 验证与存档保护
 
+- 最新日志验收86d5eda7118f4a34ab3cdbab2d942d8e：全三份scenes资源11,554发言、10,148唯一运行正文；21,206单句/相邻/同人标准+372静态场景压力及1,538旧界面，共23,116消费者通过，最大深度50、最长180静态发言。日志专用简称需真实FormatShortCharacterName第二词及Rosie/Guilda特判，8块批处理避免64溢出，斜体唱词不能误作舞台条目。真实七历史索引、14文档/人物、线索/地图/时间线仍通过；F8四位置八切换同段落基线最大误差0.00009 UI，长段内部非逐词定位，结构/历史变化保守跳过。全静态场景含互斥分支，不称全剧情E2E。原存档/冻结源/游戏四文件未变，安装与39文件ZIP一致，临时测试清理。
+
 - 最新本轮验收46a0f4e419554b0e825ff42b5570c7fe：6条实际线索、8组资源线索重放，Hamlet/Upper Hallway/The Walls三个真实地图确认，单人/多人空Changes及乔特鲁德寝室三项真实时间线详情、五组事件格式器重放均完整中文且F8往返通过；历史循环和原详情经真实按钮恢复。7日志/14文档/14人物及分享预览仍通过。145项离线回归、13个真实反射签名及5个真实GameClock日期检查通过；地图仅点否、原位置/暂停时钟未变。安装、测试副本、包目录与39文件ZIP一致，原游戏四文件和本轮原存档未变，临时插件/appid清理、入口按落盘原件字节恢复。重放不代表已获得具体剧情，不称全剧情E2E。
 
 - 最新资料验收5f5a90f339c74f2ea2a99d2bc5761fc1：冻结存档全部7个日志索引、14份Closeup文档、14名人物标题与正文、真实已知信息分享预览及HUD/Journal/Timeline/F8通过，哈姆雷特正文单独核对F8。零缓存/显示差异，原存档哈希/时间/数量未变。21个冻结缓存、2,816中文字符覆盖与12份字体单行网格通过；56个日志和616个通知真实递归消费者及111项离线回归通过。原398ee54为1.2.0历史验收；指定危险句仍仅由真实消费者覆盖，不称该剧情E2E通过。
@@ -69,6 +72,8 @@
 - 修复前一次诊断曾自动加载旧进度并在退出时写回game.save，旧备份未保留，进度差异未知，已告知用户。记录见 docs/dev-tasks/localization/save-write-incident.md；后续隔离通过不代表此前存档未变。
 
 ## 维护入口与下一步
+
+- prepare_dialogue_log_followup.py从真实资源再生所有单句/相邻/场景日志测试；全量source-audit及两组重复夹具忽略入Git，53代表性用例保留。新运行变体尊重现有编译別名，重跑不得丢自有5别名；首匹配与64上限不改。Playmaster所有33源统一戏剧大师，校订层在别名前应用。资源判定器须按准确previous_target、来源SHA及外层Trim应用治理校订，不直接改冻结响应或原资源。LogScrollAnchor只保护F8，不锁住平时滚动；日志判定按LOG_ENTRY全部ID绑定，不把标题混作历史。
 
 - tools/translation/prepare_ui_supplement.py：从审计与既有译文生成补译/规则；只在要更新这组来源时运行，避免覆盖未整理的人工修订。
 - tools/translation/export_sol_full.py：核对冻结结果、修订及补译后导出正式词表。

@@ -9,6 +9,9 @@ if ($env:ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS) {
 if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
     throw 'ELSINOREHAN_PROBE_ITALIC 必须与资料模式一起运行。'
 }
+if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
+    throw 'ELSINOREHAN_PROBE_LOG_SCROLL 必须与真实资料模式一起运行，禁止启动。'
+}
 if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1' -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not $env:ELSINOREHAN_PROBE_LEAD_CASES -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_LEAD_CASES -PathType Leaf))) {
     throw 'ELSINOREHAN_PROBE_UI_FOLLOWUP 必须使用资料模式和已核实线索重放文件，禁止启动。'
 }
@@ -107,6 +110,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
+    if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += 'log-scroll-anchor.tsv' }
     if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1') { $reports += @('lead-followup.tsv', 'map-followup.tsv', 'timeline-followup.tsv') }
     foreach ($name in $reports) {
         $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
@@ -153,6 +157,10 @@ try {
         if ($LASTEXITCODE -ne 0) { throw '时间线完整正文与F8断言失败。' }
     }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'verification.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-ui-verification.json') -Force
+    if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') {
+        python (Join-Path $PSScriptRoot 'verify-log-scroll-anchor.py') (Join-Path $runDirectory 'log-scroll-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --output (Join-Path $runDirectory 'log-scroll-anchor-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw 'F8对话记录同段落与真实位置断言失败。' }
+    }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'process.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-process.json') -Force
     Write-Output ('本轮后台证据：' + $runDirectory)
 } finally {

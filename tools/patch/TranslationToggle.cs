@@ -8,7 +8,7 @@ using UnityEngine;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.3.0")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.4.0")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -166,7 +166,9 @@ public sealed class TranslationToggle : BaseUnityPlugin
         }
         try
         {
+            var logAnchor = LogScrollAnchor.Capture();
             toggleMethod.Invoke(instance, null);
+            if (logAnchor != null) StartCoroutine(LogScrollAnchor.Restore(logAnchor));
             Logger.LogInfo("F8显示模式=" + ((bool)modeField.GetValue(instance) ? "译文" : "原文"));
             return true;
         }

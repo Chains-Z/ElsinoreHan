@@ -7831,26 +7831,29 @@
     },
     "artifact_sha256": {
       "translation/supplemental/notification-ui-rules.json": "bb8a27cc0a090c954d7aac44be8bdd105fb405a9da2531bcd4a41ee4cd46c2d3",
-      "translation/supplemental/notification-ui-tests.json": "e67bce3a75381ae933ed2f3c60c4e3e815d1f6db08e7a30e8f7891f7eec9a2ef",
+      "translation/supplemental/notification-ui-tests.json": "6a53f777aa5f034be150f69747a6e2ce51ed98f5049e7ad46e62e5165b8f8b67",
       "translation/supplemental/dynamic-ui-tests.json": "30ba1f13b983bc26ea1264ba249ec5d39dc55443a7b60e54ccd11a6a3ca6f881",
       "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
-      "translation/sol-full-2026-10-09/dynamic-rules.json": "2769a54fb76d492d6458eb01e3855a4b5e976788621ec87bf188478c5ed3034d",
-      "translation/sol-full-2026-10-09/translations.json": "be489967112371147b7f84a5e0f864fd269346f297779d16c047f181d07c9731",
+      "translation/sol-full-2026-10-09/dynamic-rules.json": "466010236e3eb71fd851134f54b5c91380bd1c2b5e0dccc0993b35bbd3d2c6e5",
+      "translation/sol-full-2026-10-09/translations.json": "3c58eb8d21ea404660ef9708b33a915ff3e76d4057d43b52032d790fc5c5e42f",
       "tools/translation/VerifyRecursiveUiRules.cs": "700f297a4145c0e4509883f5fcf82d39ec6d93f3e930cf542fc5bb1a2e043e0d",
       "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
       "translation/supplemental/dynamic-ui-rules.json": "457f063324762104aeb94796e70321b5468ee2c81fbec7a5098375bc5b943910",
       "translation/supplemental/lead-followup-rules.json": "7ee6f89d0518b3f51410bdc6f808e03260f4ff908c45b113743553e774264d8c",
-      "translation/supplemental/lead-followup-tests.json": "a053e71153f475e56966a163ff51ae6c2e7a4df0841e44440884e518df3a34be",
+      "translation/supplemental/lead-followup-tests.json": "09c55c5e290c3aae6d43063e59907b34ad5c361102cde1a83ee19fbd6251db72",
       "translation/supplemental/map-ui-rules.json": "90c93810448926186d2daa9eead5edb7fd3f03ded3f8becd786d95b0da51642a",
       "translation/supplemental/timeline-followup-rules.json": "69ad63e3f195c619cae01550818c89bd3373fdad4762143b3fb752cc2f9e07c7",
       "translation/supplemental/nested-belief-followup-rules.json": "2a6353def3266e50860adb4e1bd8de5fbd1ecf395f300ec88ecf66b58d153b64",
-      "translation/supplemental/lead-runtime-aliases.json": "eb16f06e974c008f63296e76757b10e91c98de93eda4da7f63f8c814750ce1f9"
+      "translation/supplemental/lead-runtime-aliases.json": "f383bd77794a328ff10c55a6a779449289df3fa409d8b73de1b1a39bd389d058",
+      "translation/supplemental/playmaster-corrections.json": "91295cfdb8f4b806eac39ba9da733e9140bcdc4a095f263c477b444b195b65fa",
+      "translation/supplemental/dialogue-log-followup-rules.json": "1dcdbf453458dd1b8432ef2dc6f81f83fedeb6973224db2a8e12fd954b2371ca",
+      "translation/supplemental/dialogue-log-runtime-aliases.json": "1441efcd1e8799f25b1d21910d26436a65650960ea47c7cd2a2f4ddc38a7a42c"
     },
     "export": {
       "passed": true,
-      "total_dynamic_rules": 121,
-      "recursive_ui_rules": 97,
-      "total_translations": 16861
+      "total_dynamic_rules": 132,
+      "recursive_ui_rules": 108,
+      "total_translations": 16866
     },
     "corrected_failures": [
       "同源术语修订以两阶段 apply_supplemental 覆盖；同阶段唯一性校验保持严格",
@@ -7859,7 +7862,8 @@
       "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留",
       "外层带完整引号的 now/no longer believes 专用规则目标恢复中文弯双引号；未加引号的嵌套或外层分支不新增引号。旧历史3预期按真实带引号源精确更新。",
       "斜体日志封套先剥i会遮蔽a00941/a00942原含i格式模板；限定负向前瞻排除两种完整结构，单个尾LF由受限notification-trailing封套保留，body再交回旧模板。首匹配失败不换规则兜底。",
-      "2026-10-10：合并线索双LF与18运行别名、地图短模板、时间线尾空段/房间变体、嵌套认知文风；1538个消费者通过，三个旧嵌套提示预期有记录修订"
+      "2026-10-10：合并线索双LF与18运行别名、地图短模板、时间线尾空段/房间变体、嵌套认知文风；1538个消费者通过，三个旧嵌套提示预期有记录修订",
+      "2026-10-10后续：日志真实短名、5运行源变体、完整8发言块及斜体/原子续行；Playmaster统一戏剧大师；21578全资源消费与1538既有界面回归通过"
     ],
     "game_started": false,
     "online_api_called": false,

@@ -31,6 +31,24 @@ def runtime_closeup_target(source: str, target: str | None) -> str | None:
     return leading + target.strip() + trailing
 
 
+def governed_resource_target(source: str, target: str | None, corrections: list[dict]) -> str | None:
+    """资源源文仍独立核对，只应用来源和准确旧值均匹配的已记录正文校订。"""
+    for row in corrections:
+        # 原资源可带外层换行；既有词表按精确/Trim查找，正文内部不归一化。
+        if row["source"].strip() != source.strip():
+            continue
+        if (row.get("source_sha256") != hashlib.sha256(row["source"].encode()).hexdigest()
+                or row.get("previous_target") != target or not row.get("origins")):
+            raise ValueError("资源译文校订缺少准确原文来源或先前译文")
+        target = row["target"]
+    return target
+
+
+def resource_corrections() -> list[dict]:
+    path = Path(__file__).resolve().parents[2] / "translation/supplemental/playmaster-corrections.json"
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+
+
 def unapproved_english(text: str) -> list[str]:
     """只放行真实富文本标记和明确键名，正文残留英文须由人工核对后精确处理。"""
     text = re.sub(
@@ -62,8 +80,9 @@ def analyze(path: Path, resource_path: Path) -> dict:
     }
     expected_runtime_sources = {key: runtime_closeup_source(row["source"]) for key, row in closeup_resources.items()}
     expected_sources = {key: hashlib.sha256(source.encode()).hexdigest() for key, source in expected_runtime_sources.items()}
+    corrections = resource_corrections()
     expected_targets = {
-        key: runtime_closeup_target(expected_runtime_sources[key], row.get("target"))
+        key: runtime_closeup_target(expected_runtime_sources[key], governed_resource_target(row["source"], row.get("target"), corrections))
         for key, row in closeup_resources.items()
     }
     checks = {

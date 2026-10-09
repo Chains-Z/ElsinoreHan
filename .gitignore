@@ -38,3 +38,7 @@ analysis/ui-audit/assembly-raw-occurrences.json
 analysis/ui-audit/assembly-missing-inspect.json
 analysis/ui-audit/assembly-language-inspect.txt
 analysis/ui-audit/resource-descriptions-zh.txt
+# 全对白日志的重复单句/相邻/场景压力夹具由已提交生成器复现，保留本机核验。
+translation/supplemental/dialogue-log-followup-tests.json
+translation/supplemental/dialogue-log-depth-tests.json
+analysis/ui-audit/dialogue-log-source-audit.json

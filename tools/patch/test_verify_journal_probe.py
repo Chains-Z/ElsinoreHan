@@ -21,11 +21,23 @@ def encoded(value):
 
 
 class JournalVerificationTests(unittest.TestCase):
+    def test_governed_resource_target_supports_outer_source_whitespace(self):
+        change = {"source": "Playmaster", "source_sha256": hashlib.sha256(b"Playmaster").hexdigest(),
+                  "previous_target": "剧团团长", "target": "戏剧大师", "origins": ["用户明确校订"]}
+        self.assertEqual(VERIFY.governed_resource_target("\nPlaymaster\n", "剧团团长", [change]), "戏剧大师")
+        for key, value in (("previous_target", "错误旧译文"), ("source_sha256", "0" * 64), ("origins", [])):
+            with self.subTest(key=key), self.assertRaises(ValueError):
+                VERIFY.governed_resource_target("Playmaster", "剧团团长", [{**change, key: value}])
+
+    def test_governed_resource_target_does_not_change_unrelated_source(self):
+        change = {"source": "Other", "target": "不应套用"}
+        self.assertEqual(VERIFY.governed_resource_target("Playmaster", "剧团团长", [change]), "剧团团长")
+
     def setUp(self):
         resources = json.loads(RESOURCE_PATH.read_text(encoding="utf-8-sig"))
         self.documents = {
             row["origin"]["record_id"]: (VERIFY.runtime_closeup_source(row["source"]),
-                                           VERIFY.runtime_closeup_target(row["source"], row["target"]))
+                                           VERIFY.runtime_closeup_target(row["source"], VERIFY.governed_resource_target(row["source"], row["target"], VERIFY.resource_corrections())))
             for row in resources
             if row.get("origin", {}).get("asset") == "closeups"
             and row["origin"].get("field") == "text"
@@ -96,7 +108,7 @@ class JournalVerificationTests(unittest.TestCase):
         for row in all_closeups:
             closeup_id = row["origin"]["record_id"]
             source = VERIFY.runtime_closeup_source(row["source"])
-            target = VERIFY.runtime_closeup_target(source, row["target"])
+            target = VERIFY.runtime_closeup_target(source, VERIFY.governed_resource_target(row["source"], row["target"], VERIFY.resource_corrections()))
             combined, rendered = "<line-height=90%>" + source, "<line-height=90%>" + target
             self.rows.append(["CLOSEUP_BATCH", closeup_id, encoded(source), encoded(combined), encoded(rendered), "False"])
             self.rows.append(["API", "batch:" + closeup_id, "builder:Body", encoded(combined), "True", encoded(rendered), encoded(rendered), "True"])
