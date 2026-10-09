@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Reflection;
@@ -30,6 +31,10 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private bool requireSettingsOptions;
     private bool settingsOptionsFinished;
     private StringBuilder settingsOptionsReport;
+    private bool requireJournal;
+    private bool journalStarted;
+    private bool journalFinished;
+    private StringBuilder journalReport;
     private static int blockedSaveWrites;
     private static string isolatedSaveDirectory;
 
@@ -47,6 +52,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         outputDirectory = Path.Combine(Path.Combine(Paths.GameRootPath, "ElsinoreHanProbe"), runId);
         requireToggle = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_TOGGLE") == "1";
         requireSettingsOptions = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_SETTINGS_OPTIONS") == "1";
+        requireJournal = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_JOURNAL") == "1";
         // 自动探针只允许后台运行；普通游玩不安装此插件。
         if (!Application.isBatchMode)
         {
@@ -70,8 +76,13 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockSaveWrite", BindingFlags.Public | BindingFlags.Static)));
             guard.Patch(typeof(SaveLoad).GetMethod("MigrateOldSaveFiles", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static | BindingFlags.Instance),
                 prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockSaveMigration", BindingFlags.Public | BindingFlags.Static)));
+            var resolutionMethod = typeof(Elsinore.GraphicsPreferenceManager).GetMethod("ApplyQualitySetting", BindingFlags.Public | BindingFlags.Static);
+            if (resolutionMethod == null) throw new InvalidOperationException("未找到后台显示配置保护入口");
+            guard.Patch(resolutionMethod,
+                prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockProbeResolutionChange", BindingFlags.Public | BindingFlags.Static)));
             saveGuardActive = true;
             Logger.LogInfo("临时诊断存档写入保护已启用：存档目录已隔离，SaveLoad.SaveData全部阻断。");
+            Logger.LogInfo("临时后台窗口保护已启用：后台诊断跳过显示质量与分辨率应用。");
         }
         catch (Exception error)
         {
@@ -98,7 +109,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 Logger.LogInfo("Wwise 后台音频暂停结果=" + result);
             }
         }
-        if ((requireToggle || requireSettingsOptions) && Time.realtimeSinceStartup - started > 12f && Time.realtimeSinceStartup - started < 18f
+        if ((requireToggle || requireSettingsOptions || requireJournal) && Time.realtimeSinceStartup - started > 12f && Time.realtimeSinceStartup - started < 18f
             && Time.realtimeSinceStartup > nextMenuCheck)
         {
             nextMenuCheck = Time.realtimeSinceStartup + 1f;
@@ -173,10 +184,17 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             if (requireSettingsOptions)
                 StartCoroutine(GuardSettingsOptions());
         }
-        if (Time.realtimeSinceStartup - started > (requireSettingsOptions ? 45f : 30f))
+        if (requireJournal && !journalStarted && Time.realtimeSinceStartup - started > 24f)
+        {
+            journalStarted = true;
+            StartCoroutine(GuardJournal());
+        }
+        if (Time.realtimeSinceStartup - started > (requireJournal ? 55f : requireSettingsOptions ? 45f : 30f))
         {
             if (requireSettingsOptions && !settingsOptionsFinished)
                 FailSettingsOptions(new TimeoutException("逐档设置验证未在45秒内结束"));
+            if (requireJournal && !journalFinished)
+                FailJournal(new TimeoutException("真实资料页面采集未在55秒内结束"));
             Application.Quit();
         }
     }
@@ -213,6 +231,467 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private static string ReportText(string value)
     {
         return Convert.ToBase64String(Encoding.UTF8.GetBytes(value ?? ""));
+    }
+
+    private void JournalLine(string line)
+    {
+        journalReport.AppendLine(line);
+        Directory.CreateDirectory(outputDirectory);
+        File.WriteAllText(Path.Combine(outputDirectory, "journal-ui.txt"), journalReport.ToString(), new UTF8Encoding(false));
+    }
+
+    private void FailJournal(Exception error)
+    {
+        if (journalFinished) return;
+        journalFinished = true;
+        if (journalReport == null) journalReport = new StringBuilder();
+        JournalLine("FAILURE\t" + ReportText(error.ToString()));
+        JournalLine("STATUS\tFAILED");
+        Logger.LogError("真实资料页面诊断失败：" + error);
+    }
+
+    // 手动推进嵌套迭代器，让页签、F8和页面转换中的异常都进入同一个失败边界。
+    private IEnumerator GuardJournal()
+    {
+        journalReport = new StringBuilder();
+        JournalLine("STATUS\tSTARTED");
+        JournalLine("PROBE_SCHEMA\t3");
+        JournalLine("SAVE_WRITE_GUARD_ACTIVE\t" + saveGuardActive);
+        JournalLine("METHOD\t真实隔离存档页面与组件导航；不宣称像素渲染或完整游玩E2E");
+        var routines = new Stack<IEnumerator>();
+        routines.Push(ProbeJournal());
+        while (routines.Count > 0)
+        {
+            bool more;
+            object current = null;
+            try
+            {
+                more = routines.Peek().MoveNext();
+                if (more) current = routines.Peek().Current;
+            }
+            catch (Exception error)
+            {
+                FailJournal(error);
+                yield break;
+            }
+            if (!more) { routines.Pop(); continue; }
+            var child = current as IEnumerator;
+            if (child != null) { routines.Push(child); continue; }
+            yield return current;
+        }
+    }
+
+    private object CurrentTransitions()
+    {
+        var gui = ObjectTracker.Instance.Gui;
+        var active = RequiredProperty(gui, "ActiveModalControl");
+        var type = gui.GetType().GetNestedType("UiTransitions", BindingFlags.Public | BindingFlags.NonPublic);
+        return Activator.CreateInstance(type, InstanceFields, null, new object[] { gui, active }, null);
+    }
+
+    private void JournalTransition(string method, object[] arguments)
+    {
+        var transitions = CurrentTransitions();
+        var entry = transitions.GetType().GetMethod(method, InstanceFields);
+        if (entry == null) throw new MissingMethodException("真实页面转换入口缺失：" + method);
+        entry.Invoke(transitions, arguments);
+        JournalLine("TRANSITION\t" + method);
+    }
+
+    private Component JournalCanvas(string field, string phase, bool required = true)
+    {
+        var gui = ObjectTracker.Instance.Gui;
+        var canvas = RequiredField(gui, field) as Component;
+        var currentControl = RequiredProperty(gui, "ActiveModalControl");
+        var overlayProperty = gui.GetType().GetProperty("CurrentlyActiveOverlayCanvas", InstanceFields);
+        var currentOverlay = overlayProperty == null ? null : overlayProperty.GetValue(gui, null);
+        var rootProperty = gui.GetType().GetProperty("CurrentlyActiveRootCanvas", InstanceFields);
+        var currentRoot = rootProperty == null ? null : rootProperty.GetValue(gui, null);
+        bool pausedHudRoot = phase == "hud" && ReferenceEquals(canvas, currentRoot)
+            && currentOverlay != null && currentOverlay.GetType().Name == "PauseUI"
+            && Convert.ToInt32(RequiredProperty(ObjectTracker.Instance.Info, "TimeMode")) == 2;
+        bool belongsToCurrent = field == "logCanvas" ? ReferenceEquals(canvas, currentOverlay)
+            : ReferenceEquals(canvas, currentControl) || pausedHudRoot;
+        bool active = canvas != null && canvas.gameObject.scene.IsValid() && canvas.gameObject.scene.isLoaded
+            && canvas.gameObject.activeInHierarchy && belongsToCurrent;
+        JournalLine("NAVIGATION\t" + phase + "\t" + field + "\t" + active);
+        JournalLine("NAV_OWNER\t" + phase + "\tmodal=" + ReferenceEquals(canvas, currentControl)
+            + "\toverlay=" + ReferenceEquals(canvas, currentOverlay) + "\tpaused_root=" + pausedHudRoot);
+        if (!active)
+        {
+            if (required) throw new InvalidOperationException("真实页面转换未完成：" + phase);
+            JournalLine("UNAVAILABLE\t" + phase + "\t真实页面未归属当前合法覆盖层，不能作为通过证据");
+            return null;
+        }
+        return canvas;
+    }
+
+    private static string TextPath(Transform transform)
+    {
+        string path = transform.name;
+        while (transform.parent != null)
+        {
+            transform = transform.parent;
+            path = transform.name + "/" + path;
+        }
+        return path;
+    }
+
+    private Dictionary<int, string> JournalSnapshot(string phase, string mode, Component canvas)
+    {
+        var snapshot = new Dictionary<int, string>();
+        int nonempty = 0;
+        foreach (var text in canvas.GetComponentsInChildren<TMP_Text>(true))
+        {
+            if (!text.gameObject.activeInHierarchy) continue;
+            string value = text.text ?? "";
+            snapshot[text.GetInstanceID()] = value;
+            if (value.Length > 0) nonempty++;
+            var backing = typeof(TMP_Text).GetField("m_text", InstanceFields);
+            string raw = backing == null ? "" : (string)backing.GetValue(text);
+            JournalLine("TEXT\t" + phase + "\t" + mode + "\t" + text.GetInstanceID()
+                + "\t" + ReportText(TextPath(text.transform)) + "\t" + ReportText(value)
+                + "\t" + text.isTextOverflowing + "\t" + ReportText(raw));
+        }
+        JournalLine("CONTENT\t" + phase + "\t" + mode + "\t" + snapshot.Count + "\t" + nonempty);
+        if (snapshot.Count == 0) throw new InvalidOperationException("真实页面没有激活的TMP组件：" + phase);
+        return snapshot;
+    }
+
+    private void JournalLookup(string phase, string key, string source, string displayed)
+    {
+        Type api = null;
+        foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())
+        {
+            api = assembly.GetType("XUnity.AutoTranslator.Plugin.Core.AutoTranslator", false);
+            if (api != null) break;
+        }
+        if (api == null) throw new InvalidOperationException("真实翻译缓存API不存在");
+        var instance = api.GetProperty("Default").GetValue(null, null);
+        var contract = api.Assembly.GetType("XUnity.AutoTranslator.Plugin.Core.ITranslator");
+        var lookup = contract.GetMethod("TryTranslate", new Type[] { typeof(string), typeof(string).MakeByRefType() });
+        var arguments = new object[] { source, null };
+        bool found = source.Length > 0 && (bool)lookup.Invoke(instance, arguments);
+        string translated = arguments[1] as string;
+        JournalLine("API\t" + phase + "\t" + key + "\t" + ReportText(source) + "\t" + found
+            + "\t" + ReportText(translated) + "\t" + ReportText(displayed)
+            + "\t" + (found && translated == displayed));
+    }
+
+    private void JournalBuilder(string phase, object owner, string textField)
+    {
+        var field = owner.GetType().GetField("builder", InstanceFields);
+        var builder = field == null ? null : field.GetValue(owner) as StringBuilder;
+        if (builder == null) return;
+        var displayField = owner.GetType().GetField(textField, InstanceFields);
+        var display = displayField == null ? null : displayField.GetValue(owner) as TMP_Text;
+        // Hearsay 将 builder 写入各条目，父页签没有 DescriptionText；不与空控件比较。
+        if (display == null || !display.gameObject.activeInHierarchy) return;
+        JournalLine("BUILDER\t" + phase + "\t" + ReportText(builder.ToString()));
+        JournalLookup(phase, "builder:" + textField, builder.ToString(), display.text ?? "");
+    }
+
+    private void JournalControl(string phase, string role, object owner, string field)
+    {
+        var text = RequiredField(owner, field) as TMP_Text;
+        if (text == null) throw new InvalidOperationException("真实正文控件类型不兼容：" + role);
+        JournalLine("CONTROL\t" + phase + "\t" + role + "\t" + text.GetInstanceID()
+            + "\t" + ReportText(TextPath(text.transform)) + "\t" + text.gameObject.activeInHierarchy);
+    }
+
+    private IEnumerator JournalRoundTrip(string phase, Component canvas)
+    {
+        string clockBefore = JournalClock(phase, "before");
+        SetSettingsTranslatedMode(true);
+        yield return new WaitForSecondsRealtime(0.35f);
+        var translated = JournalSnapshot(phase, "translated", canvas);
+        SetSettingsTranslatedMode(false);
+        yield return new WaitForSecondsRealtime(0.35f);
+        var original = JournalSnapshot(phase, "original", canvas);
+        foreach (var item in original)
+        {
+            string initial;
+            translated.TryGetValue(item.Key, out initial);
+            JournalLookup(phase, item.Key.ToString(), item.Value, initial ?? "");
+        }
+        SetSettingsTranslatedMode(true);
+        yield return new WaitForSecondsRealtime(0.35f);
+        var restored = JournalSnapshot(phase, "restored", canvas);
+        foreach (var item in original)
+        {
+            string initial;
+            string after;
+            translated.TryGetValue(item.Key, out initial);
+            restored.TryGetValue(item.Key, out after);
+            JournalLine("ROUNDTRIP\t" + phase + "\t" + item.Key + "\t" + ReportText(item.Value)
+                + "\t" + ReportText(initial) + "\t" + ReportText(after)
+                + "\t" + (initial != null && after != null && initial == after));
+        }
+        string clockAfter = JournalClock(phase, "after");
+        if (clockBefore != clockAfter)
+            JournalLine("UNAVAILABLE\t" + phase + ".clock\t真实暂停态采集期间时钟变化，本阶段不能认定F8稳定通过");
+    }
+
+    private string JournalClock(string phase, string moment)
+    {
+        var info = ObjectTracker.Instance.Info;
+        int mode = Convert.ToInt32(RequiredProperty(info, "TimeMode"));
+        var clock = RequiredProperty(info, "VisibleTime");
+        var minutes = clock.GetType().GetProperty("MinutesFromEpochFloat", InstanceFields);
+        string value = minutes == null ? (string)RequiredProperty(clock, "AsStringWithDayOfWeek")
+            : Convert.ToString(minutes.GetValue(clock, null), System.Globalization.CultureInfo.InvariantCulture);
+        JournalLine("CLOCK\t" + phase + "\t" + moment + "\t" + mode + "\t" + ReportText(value));
+        if (mode != 2) throw new InvalidOperationException("真实页面未进入游戏暂停态：" + phase);
+        return value;
+    }
+
+    private void JournalPrefixCounts(string phase, string moment)
+    {
+        bool found = false;
+        foreach (var component in Resources.FindObjectsOfTypeAll<MonoBehaviour>())
+        {
+            if (component == null || component.GetType().Name != "TranslationToggle") continue;
+            foreach (var field in component.GetType().GetFields(InstanceFields | BindingFlags.Static))
+            {
+                if ((field.FieldType != typeof(int) && field.FieldType != typeof(long))
+                    || field.Name.IndexOf("prefix", StringComparison.OrdinalIgnoreCase) < 0) continue;
+                found = true;
+                JournalLine("PREFIX_COUNT\t" + phase + "\t" + moment + "\t" + field.Name
+                    + "\t" + Convert.ToString(field.GetValue(field.IsStatic ? null : component), System.Globalization.CultureInfo.InvariantCulture));
+            }
+        }
+        if (!found) JournalLine("PREFIX_COUNTER_UNAVAILABLE\t" + phase + "\t" + moment);
+    }
+
+    // 缺失真实业务数据属于未覆盖；继续其它独立页面，不让可选页面阻断文档故障采集。
+    private IEnumerator OptionalJournalPhase(string phase, IEnumerator routine)
+    {
+        var routines = new Stack<IEnumerator>();
+        routines.Push(routine);
+        while (routines.Count > 0)
+        {
+            bool more;
+            object current = null;
+            try
+            {
+                more = routines.Peek().MoveNext();
+                if (more) current = routines.Peek().Current;
+            }
+            catch (Exception error)
+            {
+                JournalLine("UNAVAILABLE\t" + phase + "\t" + ReportText(error.ToString()));
+                yield break;
+            }
+            if (!more) { routines.Pop(); continue; }
+            var child = current as IEnumerator;
+            if (child != null) { routines.Push(child); continue; }
+            yield return current;
+        }
+    }
+
+    private IEnumerator ProbeJournal()
+    {
+        if (!saveGuardActive || requireSettingsOptions)
+            throw new InvalidOperationException("资料页面诊断要求隔离保护且不能与逐档设置模式同时运行");
+        var gui = ObjectTracker.Instance.Gui;
+        var preferences = RequiredField(gui, "preferencesCanvas") as Component;
+        if (preferences != null && preferences.gameObject.activeInHierarchy)
+        {
+            JournalTransition("CloseSelf", null);
+            yield return new WaitForSecondsRealtime(0.4f);
+        }
+        // 文档故障优先采集，每一页独立失败；不再让其它页面的不可交互按钮截断它们。
+        foreach (string closeupId in new string[] { "observable_hamletdiary", "observable_poldesk" })
+            yield return OptionalJournalPhase(closeupId, ProbeDocument(closeupId));
+        yield return OptionalJournalPhase("hud", ProbeHud());
+        yield return OptionalJournalPhase("journal", ProbeJournalTabs());
+        yield return OptionalJournalPhase("timeline", ProbeTimeline());
+        yield return OptionalJournalPhase("log", ProbeLog());
+        JournalLine("STATUS\tCOLLECTED");
+        journalFinished = true;
+        Logger.LogInfo("真实资料页面与SetText局部组件证据已采集；未覆盖阶段不能由COLLECTED推定通过。");
+    }
+
+    private IEnumerator ProbeDocument(string closeupId)
+    {
+        var transitions = CurrentTransitions();
+        var activate = transitions.GetType().GetMethod("ActivateObjectCloseup", InstanceFields);
+        var id = Activator.CreateInstance(activate.GetParameters()[0].ParameterType, new object[] { closeupId });
+        var state = RequiredProperty(ObjectTracker.Instance.Info, "State");
+        var lookup = RequiredProperty(state, "Lookup");
+        var closeup = lookup.GetType().GetMethod("Closeup").Invoke(lookup, new object[] { id });
+        string source = (string)RequiredProperty(closeup, "Text");
+        activate.Invoke(transitions, new object[] { id, null });
+        yield return new WaitForSecondsRealtime(0.4f);
+        var document = JournalCanvas("objectCloseupCanvas", closeupId);
+        var body = (TMP_Text)RequiredField(document, "Body");
+        JournalControl(closeupId, "document.body", document, "Body");
+        JournalLine("DOCUMENT_SOURCE\t" + closeupId + "\t" + ReportText(source));
+        JournalLookup(closeupId, "resource_body", source, body.text ?? "");
+        JournalBuilder(closeupId, document, "Body");
+        yield return JournalRoundTrip(closeupId, document);
+        // 同一Body与真实资源原文做三种入口对照；不是游戏世界寻物点击E2E。
+        JournalPrefixCounts(closeupId, "builder_before");
+        body.SetText(new StringBuilder(source));
+        yield return new WaitForSecondsRealtime(0.35f);
+        JournalPrefixCounts(closeupId, "builder_after");
+        JournalLine("COMPONENT_STRINGBUILDER_REAL_SOURCE\t" + closeupId + "\t" + ReportText(source)
+            + "\t" + ReportText(body.text) + "\t" + body.isTextOverflowing);
+        JournalLookup(closeupId, "component_stringbuilder", source, body.text ?? "");
+        JournalPrefixCounts(closeupId, "string_bool_before");
+        body.SetText(source, true);
+        yield return new WaitForSecondsRealtime(0.35f);
+        JournalPrefixCounts(closeupId, "string_bool_after");
+        JournalLine("COMPONENT_STRING_BOOL_REAL_SOURCE\t" + closeupId + "\t" + ReportText(source)
+            + "\t" + ReportText(body.text) + "\t" + body.isTextOverflowing);
+        JournalLookup(closeupId, "component_string_bool", source, body.text ?? "");
+        JournalPrefixCounts(closeupId, "string_before");
+        body.SetText(source);
+        yield return new WaitForSecondsRealtime(0.35f);
+        JournalPrefixCounts(closeupId, "string_after");
+        JournalLine("COMPONENT_STRING_REAL_SOURCE\t" + closeupId + "\t" + ReportText(source)
+            + "\t" + ReportText(body.text) + "\t" + body.isTextOverflowing);
+        JournalLookup(closeupId, "component_string", source, body.text ?? "");
+    }
+
+    private IEnumerator ProbeHud()
+    {
+        var gui = ObjectTracker.Instance.Gui;
+        // 合法内部导航恢复HUD，再打开真实Pause覆盖层，由游戏自动进入TimeMode=2。
+        gui.GetType().GetMethod("ActivateExploration", InstanceFields).Invoke(gui, new object[] { false });
+        yield return new WaitForSecondsRealtime(0.35f);
+        JournalTransition("ActivatePause", null);
+        yield return new WaitForSecondsRealtime(0.4f);
+        var hud = JournalCanvas("mainCanvas", "hud");
+        JournalControl("hud", "hud.time", hud, "TimeText");
+        JournalControl("hud", "hud.room", hud, "LocationText");
+        yield return JournalRoundTrip("hud", hud);
+    }
+
+    private IEnumerator ProbeJournalTabs()
+    {
+        JournalTransition("ActivateJournal", null);
+        yield return new WaitForSecondsRealtime(0.5f);
+        var journal = JournalCanvas("journalCanvas", "journal");
+        string[] toggles = { "CharactersToggle", "HearsayToggle", "LeadsToggle" };
+        string[] tabs = { "CharactersTab", "HearsayTab", "LeadsTab" };
+        for (int index = 0; index < tabs.Length; index++)
+        {
+            var toggle = RequiredField(journal, toggles[index]);
+            toggle.GetType().GetProperty("IsOn", InstanceFields).SetValue(toggle, true, null);
+            yield return new WaitForSecondsRealtime(0.4f);
+            var tab = RequiredField(journal, tabs[index]) as Component;
+            if (tab == null || !tab.gameObject.activeInHierarchy)
+                throw new InvalidOperationException("真实Journal页签没有激活：" + tabs[index]);
+            JournalLine("TAB\t" + tabs[index] + "\t" + RequiredProperty(journal, "CurrentTabIndex"));
+            if (index == 0)
+            {
+                JournalControl(tabs[index], "characters.name", tab, "TitleText");
+                JournalControl(tabs[index], "characters.body", tab, "DescriptionText");
+            }
+            else if (index == 2)
+            {
+                JournalControl(tabs[index], "leads.title", tab, "TitleText");
+                JournalControl(tabs[index], "leads.body", tab, "DescriptionText");
+            }
+            else
+            {
+                bool hasEntry = false;
+                foreach (var entry in tab.GetComponentsInChildren<MonoBehaviour>(true))
+                {
+                    if (entry.GetType().Name != "TitleAndDescriptionContainer" || !entry.gameObject.activeInHierarchy) continue;
+                    JournalControl(tabs[index], "rumors.title", entry, "title");
+                    JournalControl(tabs[index], "rumors.body", entry, "description");
+                    hasEntry = true;
+                    break;
+                }
+                if (!hasEntry) JournalLine("UNAVAILABLE\trumors.body\t真实隔离存档当前分类没有已获得的传闻正文");
+            }
+            JournalBuilder(tabs[index], tab, "DescriptionText");
+            yield return JournalRoundTrip(tabs[index], tab);
+        }
+    }
+
+    private IEnumerator ProbeTimeline()
+    {
+        JournalTransition("ActivateTimeline", null);
+        yield return new WaitForSecondsRealtime(0.5f);
+        var timeline = JournalCanvas("timelineCanvas", "timeline");
+        float waitUntil = Time.realtimeSinceStartup + 4f;
+        while ((bool)RequiredField(timeline, "isLoading") && Time.realtimeSinceStartup < waitUntil)
+            yield return new WaitForSecondsRealtime(0.2f);
+        if ((bool)RequiredField(timeline, "isLoading"))
+        {
+            JournalLine("UNAVAILABLE\ttimeline\t真实时间线仍未完成计算");
+            yield break;
+        }
+        var items = RequiredField(timeline, "currentItems") as IEnumerable;
+        object selected = null;
+        if (items != null)
+            foreach (var item in items)
+            {
+                var button = RequiredField(item, "Item2") as Selectable;
+                if (button != null && button.gameObject.activeInHierarchy && button.interactable)
+                { selected = button; break; }
+            }
+        if (selected == null)
+        {
+            JournalLine("UNAVAILABLE\ttimeline_detail\t真实隔离存档时间线没有可点击事件");
+        }
+        else
+        {
+            var component = (Component)selected;
+            ExecuteEvents.Execute(component.gameObject, new PointerEventData(EventSystem.current), ExecuteEvents.pointerEnterHandler);
+            ClickSettingsButton(selected);
+            yield return new WaitForSecondsRealtime(0.4f);
+            JournalControl("timeline", "timeline.detail", timeline, "InfoText");
+            JournalBuilder("timeline_detail", timeline, "InfoText");
+        }
+        yield return JournalRoundTrip("timeline", timeline);
+        var deactivate = timeline.GetType().GetMethod("DeactivateEventInfoPopup", InstanceFields);
+        if (deactivate != null) deactivate.Invoke(timeline, null);
+    }
+
+    private IEnumerator ProbeLog()
+    {
+        var gui = ObjectTracker.Instance.Gui;
+        // 这是受隔离保护的组件导航；不强求可能被教程禁用的物理关闭按钮。
+        gui.GetType().GetMethod("ActivateExploration", InstanceFields).Invoke(gui, new object[] { false });
+        yield return new WaitForSecondsRealtime(0.35f);
+        var logOrigin = JournalCanvas("mainCanvas", "log_origin_hud", false);
+        // 日志覆盖层只能从真正允许日志的HUD/对白或主菜单进入，不能从Timeline强开。
+        if (logOrigin == null || !(bool)RequiredProperty(logOrigin, "IsLogButtonActive"))
+            JournalLine("UNAVAILABLE\tlog.entry\t真实HUD日志按钮未开放或没有运行历史");
+        else
+        {
+            JournalTransition("ActivateLog", null);
+            yield return new WaitForSecondsRealtime(0.5f);
+            var log = JournalCanvas("logCanvas", "log", false);
+            if (log != null)
+            {
+            var history = RequiredProperty(RequiredField(log, "ht"), "HistoryText") as string[];
+            JournalLine("HISTORY_COUNT\t" + (history == null ? 0 : history.Length));
+            var logEntries = RequiredField(log, "createdEntries") as IEnumerable;
+            TMP_Text firstLogEntry = null;
+            if (logEntries != null)
+                foreach (var entry in logEntries)
+                {
+                    var text = entry as TMP_Text;
+                    if (text == null || !text.gameObject.activeInHierarchy) continue;
+                    firstLogEntry = text;
+                    break;
+                }
+            if (firstLogEntry == null || history == null || history.Length == 0)
+                JournalLine("UNAVAILABLE\tlog.entry\t真实运行历史没有可验证的日志正文");
+            else
+                JournalLine("CONTROL\tlog\tlog.entry\t" + firstLogEntry.GetInstanceID() + "\t"
+                    + ReportText(TextPath(firstLogEntry.transform)) + "\tTrue");
+            if (history != null)
+                for (int index = 0; index < history.Length; index++)
+                    JournalLine("HISTORY_SOURCE\t" + index + "\t" + ReportText(history[index]));
+            yield return JournalRoundTrip("log", log);
+            }
+        }
     }
 
     private void FailSettingsOptions(Exception error)
@@ -429,6 +908,14 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     public static bool BlockSaveWrite()
     {
         blockedSaveWrites++;
+        return false;
+    }
+
+    // 仅临时无窗口探针安装；禁止后台配置应用重新创建实际渲染窗口。
+    public static bool BlockProbeResolutionChange()
+    {
+        if (!Application.isBatchMode) return true;
+        Debug.Log("ElsinoreHan后台诊断跳过显示质量与分辨率应用，保持NullGfx无窗口模式。");
         return false;
     }
 

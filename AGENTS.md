@@ -1,6 +1,6 @@
 # ElsinoreHan 项目约定与最新交接
 
-更新时间：2026-10-09。当前阶段：**中文初稿已安装，界面漏提修复已交付，随用户实际游玩持续校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
+更新时间：2026-10-09。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -9,8 +9,9 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
+   docs/dev-tasks/localization/tmp-compatibility.md：最新资料正文兼容问题、运行保护与验收。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/ui-audit-verification.json：当前验证摘要；full-patch-verification.json是已被取代的初版快照。
+3. runtime/evidence/tmp-ui-verification.json：最新资料组件、正式安装与ZIP核验；ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -20,9 +21,10 @@
 
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
-- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8切换插件。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
+- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.1.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
 - 当前正式词表 **16,841条**：原16,228条加界面修复新增613条。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；界面补译和源审计由本会话及subagents完成，不重跑全文。
-- 共59条动态规则：24个数字/F# %s模板，35条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。
+- 共70条动态规则：24个数字/F# %s模板，46条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。
+- TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
 - 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 已与安装同步。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
@@ -42,9 +44,10 @@
 
 ## 验证与存档保护
 
-- 当前验收运行：17da6bd3fa514b03ad5c3e82ca529713。16,841条实际字典解析、24个格式消费者、29个递归消费者用例、48个真实游戏缓存用例通过；13种设置值逐档中文/F8往返/组件溢出检查通过，合计19项游戏组件断言，2,816个汉字覆盖通过。15项翻译/导出回归、11项探针回归通过。
+- 最新资料验收67326bd795924f60a2b5aa5d96f6cb1a：真实HUD、Journal三页、Timeline、Log及两文档实际显示/F8通过，三种SetText入口和文档源哈希通过；采集八阶段真实暂停且时钟不变。设置回归daf2eee559244049bceded4e50c30ed1逐档13值通过；43项真实递归消费者、15项导出和23项探针回归通过。此前16,841条实际字典解析、24格式消费者、48缓存用例及2,816汉字覆盖为源审计阶段证据，不能代替当前真实控件验收。
 - 后台组件/缓存验证不等于物理F8按键注入、像素渲染或完整游玩E2E。全剧情分支、图片文字、未知动态兜底及对白/资料像素排版仍可能需要用户反馈；不得宣称所有界面零漏译。
 - 游戏测试不得抢前台或发声。现有入口使用隐藏 -batchmode -nographics -nosound、低优先级和10FPS，确认Wwise暂停并监测窗口；出现窗口或超时就终止自己启动的进程，不回退全屏测试，不要求用户手动截图作为前置条件。
+- 默认Application.cctor入口可能迟于游戏分辨率应用；测试期间临时在GameInitialization.Awake前加载保护，跳过后台显示质量/分辨率应用，finally按原字节还原Bep配置。此行为仅临时探针使用，不打包到普通游玩插件。
 - 用户在玩时使用 runtime/game-test/settings-options 独立游戏副本，按可执行文件路径区分进程；不关闭或操作用户原游戏。安装脚本要求目标游戏关闭，不绕过保护覆盖运行中的插件。
 - 测试先复制真实存档到 runtime/backups/probe-save-*；RuntimeProbe在业务初始化前重定向SaveLoad.SaveFileDirectory，拦截SaveData与旧版迁移。保护建立失败直接终止，避免普通退出再次保存。前后核对原存档文件哈希、修改时间和数量。
 - 设置逐档测试只改克隆配置并点取消，不点击确认或应用。真实暂停动作进入菜单，不能仅强行激活Canvas后误报导航成功。
@@ -57,6 +60,7 @@
 - tools/translation/export_sol_full.py：核对冻结结果、修订及补译后导出正式词表。
 - tools/patch/install-full.ps1：游戏关闭后备份安装；tools/patch/package-full.ps1：按白名单生成个人备份ZIP。
 - tools/patch/run-toggle-probe.ps1：默认菜单/F8后台验证；逐档模式使用 ELSINOREHAN_PROBE_SETTINGS_OPTIONS=1，并设置正式译文、字形、冻结缓存用例路径。详细运行契约见源码与ui-audit.md。
+- 资料模式ELSINOREHAN_PROBE_JOURNAL=1与逐档模式互斥；run-headless-probe会强制真实资料断言，COLLECTED不是成功。文档资源通过实际展示入口及局部重载验证，不冒称世界内搜寻物件或物理键盘E2E。日志连续源白名单是当前正式源快照，新源需更新，勿盲跑早期补译生成器覆盖手工规则。
 - 下一步按用户实际遇到的漏译、错译和排版反馈修订。优先确认源字段、实际组合及拦截路径；不要重译全文作为修补方法。
 - 公开分享尚未完成：当前arialuni_sdf_u2018字体的再分发许可未核实，正式发布应换授权明确且兼容Unity2018/TMP的字体并验证，补齐第三方许可、安装/卸载说明和干净目录安装验证。当前ZIP是个人备份，不称正式公开发布包。
 - 百炼四模型比较已停止，旧结果只作历史证据，不恢复调用、不要求新Key。公开业务空间地址在 translation/provider.json，密钥仅在被忽略的api-key.txt，不输出或打包。套餐实际CLI用量见sol-full.md，不能从token数编造周额度扣减百分比。

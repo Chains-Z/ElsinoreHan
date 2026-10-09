@@ -8,7 +8,7 @@
 
 完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
 
-用户截图指出的界面漏提已修复：新增613条词条，补齐设置全部档位、房间/物件/按钮提示及动态时间线。需重启游戏一次加载新的解析配置，详情见[界面源审计与修复](docs/dev-tasks/localization/ui-audit.md)。
+用户截图指出的界面漏提及资料正文消费问题已修复：新增613条词条，补齐设置全部档位、房间/物件/按钮提示；兼容插件1.1.0修复笔记、人物资料、时间线、日志和文档的实际显示。真实组件中文/F8检查通过；正常重新启动即可加载本次更新。见[界面源审计](docs/dev-tasks/localization/ui-audit.md)与[正文兼容修复](docs/dev-tasks/localization/tmp-compatibility.md)。
 
 ## 目录与维护
 
@@ -20,7 +20,7 @@
 | translation/sol-full-2026-10-09/ | 分批输入、冻结模型响应、输出和审计 |
 | tools/translation/ | 真实来源适配、Sol 调用、校验及离线词表导出 |
 | tools/patch/ | 插件源码、构建、备份安装、后台自动检查及打包 |
-| runtime/evidence/full-patch-verification.json | 最终补丁核验摘要 |
+| runtime/evidence/tmp-ui-verification.json | 最新资料组件、安装与ZIP核验摘要 |
 | analysis/ | 原始只读提取脚本、候选清单和统计 |
 | docs/dev-tasks/localization/README.md | 历史研究、模型比较及实施记录索引 |
 

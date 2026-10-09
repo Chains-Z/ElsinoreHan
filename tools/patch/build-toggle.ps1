@@ -8,6 +8,10 @@ $buildRecord = Join-Path $projectRoot 'runtime/build/translation-toggle-build.js
 $source = Join-Path $PSScriptRoot 'TranslationToggle.cs'
 $references = @(
     (Join-Path $projectRoot 'runtime/vendor/BepInEx5/BepInEx/core/BepInEx.dll'),
+    (Join-Path $projectRoot 'runtime/vendor/BepInEx5/BepInEx/core/0Harmony.dll'),
+    (Join-Path $projectRoot 'runtime/vendor/XUnity/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll'),
+    (Join-Path $managed 'Unity.TextMeshPro.dll'),
+    (Join-Path $managed 'UnityEngine.UI.dll'),
     (Join-Path $managed 'UnityEngine.dll'),
     (Join-Path $managed 'UnityEngine.CoreModule.dll'),
     (Join-Path $managed 'UnityEngine.InputModule.dll')

@@ -1,10 +1,14 @@
 using System;
 using System.Reflection;
+using System.Text;
 using BepInEx;
+using HarmonyLib;
+using TMPro;
 using UnityEngine;
+using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.0.0")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.1.0")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -13,9 +17,32 @@ public sealed class TranslationToggle : BaseUnityPlugin
     private FieldInfo modeField;
     private MethodInfo toggleMethod;
     private bool unavailableLogged;
+    private static long builderPrefixCalls;
+    private static long stringPrefixCalls;
+    private static FieldInfo textCacheField;
+    private static MethodInfo addTranslationToCache;
+    private static object fullTranslationType;
+    private static BepInEx.Logging.ManualLogSource compatibilityLogger;
+    private static bool cacheFailureLogged;
 
     private void Awake()
     {
+        compatibilityLogger = Logger;
+        var translator = AutoTranslator.Default;
+        textCacheField = translator.GetType().GetField("TextCache", BindingFlags.Instance | BindingFlags.NonPublic);
+        var cache = textCacheField.GetValue(translator);
+        addTranslationToCache = cache.GetType().GetMethod("AddTranslationToCache", BindingFlags.Instance | BindingFlags.NonPublic);
+        fullTranslationType = Enum.Parse(addTranslationToCache.GetParameters()[3].ParameterType, "Full");
+        // 本游戏的 TMP 1.4.0 只将 StringBuilder 写入解析缓冲区，text getter 仍是旧值。
+        // 改走正常文本入口，让 XUnity 保存完整原文并翻译；不提前改写成中文。
+        var compatibility = new Harmony("elsinorehan.translationtoggle.tmpcompatibility");
+        compatibility.Patch(typeof(TMP_Text).GetMethod("SetText", new Type[] { typeof(StringBuilder) }),
+            prefix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("SetBuilderThroughText", BindingFlags.Public | BindingFlags.Static)));
+        compatibility.Patch(typeof(TMP_Text).GetMethod("SetText", new Type[] { typeof(string), typeof(bool) }),
+            prefix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("SetStringThroughText", BindingFlags.Public | BindingFlags.Static)));
+        compatibility.Patch(typeof(TMP_Text).GetProperty("text").GetSetMethod(),
+            prefix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("PrepareOfflineText", BindingFlags.Public | BindingFlags.Static)));
+        Logger.LogInfo("TMP StringBuilder 与字符串 SetText 文本入口兼容已启用。");
         foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())
         {
             translatorType = assembly.GetType("XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin", false);
@@ -34,6 +61,59 @@ public sealed class TranslationToggle : BaseUnityPlugin
             return;
         }
         Logger.LogInfo("F8切换原文/译文已启用；使用离线原文缓存，无网络请求。");
+    }
+
+    public static bool SetBuilderThroughText(TMP_Text __instance, StringBuilder __0)
+    {
+        builderPrefixCalls++;
+        SetOfflineText(__instance, __0 == null ? string.Empty : __0.ToString());
+        return false;
+    }
+
+    public static bool SetStringThroughText(TMP_Text __instance, string __0)
+    {
+        stringPrefixCalls++;
+        SetOfflineText(__instance, __0 ?? string.Empty);
+        return false;
+    }
+
+    private static void SetOfflineText(TMP_Text component, string source)
+    {
+        // 组件仍接收原文；正常 setter 的前缀负责限定离线缓存登记。
+        component.text = source;
+    }
+
+    public static void PrepareOfflineText(TMP_Text __instance, string __0)
+    {
+        if (!(__instance is TextMeshProUGUI) || string.IsNullOrEmpty(__0)) return;
+        bool hasEnglish = false;
+        foreach (char character in __0)
+        {
+            if ((character >= 'A' && character <= 'Z') || (character >= 'a' && character <= 'z'))
+            { hasEnglish = true; break; }
+        }
+        if (!hasEnglish) return;
+        try
+        {
+            var translator = AutoTranslator.Default;
+            string translated;
+            if (translator != null && translator.TryTranslate(__0, out translated) && translated != __0)
+            {
+                // TryTranslate 不登记拆分后的完整串；即时/稳定检测路径却只查整串缓存。
+                // Full、scope=-1 与当前 XUnity 一致，persist=false 不写磁盘或游戏历史。
+                addTranslationToCache.Invoke(textCacheField.GetValue(translator),
+                    new object[] { __0, translated, false, fullTranslationType, -1 });
+            }
+        }
+        catch (Exception error)
+        {
+            // 缓存失败不能阻断游戏自己的原文赋值；仅记录一次，不泄露正文。
+            if (!cacheFailureLogged)
+            {
+                cacheFailureLogged = true;
+                compatibilityLogger.LogWarning("离线组合缓存登记失败，继续显示原文：" + error.GetType().Name);
+            }
+        }
     }
 
     private void Update()

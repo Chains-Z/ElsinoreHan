@@ -16,6 +16,8 @@ $logFile = Join-Path $runDirectory 'player.log'
 $arguments = @('-batchmode', '-nographics', '-nosound', '-logFile', ('"' + $logFile + '"'))
 $process = $null
 $createdPlugin = $false
+$loaderConfigPath = Join-Path $GamePath 'BepInEx/config/BepInEx.cfg'
+$originalLoaderConfig = [IO.File]::ReadAllBytes($loaderConfigPath)
 $previousRunId = $env:ELSINOREHAN_PROBE_RUN_ID
 $previousSavePath = $env:ELSINOREHAN_PROBE_SAVE_PATH
 $originalSavePath = Join-Path ([Environment]::GetFolderPath('ApplicationData')) 'Golden Glitch Studios/Elsinore'
@@ -33,6 +35,22 @@ if (Test-Path -LiteralPath $originalSavePath) {
 }
 $saveSnapshot | ConvertTo-Json -AsArray | Set-Content -LiteralPath (Join-Path $runDirectory 'original-save-before.json') -Encoding utf8
 try {
+    # Application 带 BeforeFieldInit，旧入口可能迟于游戏启动时的分辨率应用。
+    # 临时改到实际业务 Awake 之前加载保护；只改测试配置，退出后按字节还原。
+    $loaderLines = [IO.File]::ReadAllLines($loaderConfigPath)
+    $inEntrypoint = $false
+    $entryValues = @{ Assembly='Assembly-CSharp.dll'; Type='GameInitialization'; Method='Awake' }
+    $updatedEntryKeys = @()
+    for ($index = 0; $index -lt $loaderLines.Length; $index++) {
+        if ($loaderLines[$index] -match '^\[(.+)\]$') { $inEntrypoint = $Matches[1] -eq 'Preloader.Entrypoint' }
+        if ($inEntrypoint -and $loaderLines[$index] -match '^(Assembly|Type|Method)\s*=') {
+            $key = $Matches[1]
+            $loaderLines[$index] = $key + ' = ' + $entryValues[$key]
+            $updatedEntryKeys += $key
+        }
+    }
+    if ($updatedEntryKeys.Count -ne 3) { throw '无法建立测试早期加载入口，禁止启动。' }
+    [IO.File]::WriteAllLines($loaderConfigPath, $loaderLines, [Text.UTF8Encoding]::new($false))
     Copy-Item -LiteralPath (Join-Path $projectRoot 'runtime\build\ElsinoreHan.RuntimeProbe.dll') -Destination $plugin
     $createdPlugin = $true
     if ($createdAppId) { Set-Content -LiteralPath $appIdPath -Value '512890' -Encoding ascii }
@@ -42,10 +60,11 @@ try {
     $process = Start-Process -FilePath (Join-Path $GamePath 'Elsinore.exe') -ArgumentList $arguments -WorkingDirectory $GamePath -WindowStyle Hidden -PassThru
     $process.PriorityClass = 'BelowNormal'
     $timer = [Diagnostics.Stopwatch]::StartNew()
-    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { 70 } else { 50 }
+    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1' -or $env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { 70 } else { 50 }
     while (-not $process.HasExited -and $timer.Elapsed.TotalSeconds -lt $timeoutSeconds) {
         $process.Refresh()
         if ($process.MainWindowHandle -ne [IntPtr]::Zero) {
+            $process.MainWindowTitle | Set-Content -LiteralPath (Join-Path $runDirectory 'unexpected-window.txt') -Encoding utf8
             Stop-Process -Id $process.Id -Force
             throw '后台进程出现窗口，已立即终止。'
         }
@@ -57,6 +76,7 @@ try {
     $reports = @('menu-texts.txt', 'settings-texts.txt')
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
+    if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     foreach ($name in $reports) {
         $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
         if ((Get-Item -LiteralPath $source).LastWriteTimeUtc -lt $launchedAt) { throw ('探针记录不是本轮生成：' + $name) }
@@ -81,6 +101,12 @@ try {
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $verifyArguments += '--require-settings-options' }
     python @verifyArguments
     if ($LASTEXITCODE -ne 0) { throw '后台 UI 集成断言失败。' }
+    if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') {
+        $journalArguments = @((Join-Path $PSScriptRoot 'verify-journal-probe.py'), (Join-Path $runDirectory 'journal-ui.txt'), '--output', (Join-Path $runDirectory 'journal-analysis.json'))
+        if ($env:ELSINOREHAN_PROBE_JOURNAL_BASELINE -ne '1') { $journalArguments += '--require-translated' }
+        python @journalArguments
+        if ($LASTEXITCODE -ne 0) { throw '资料页面采集或真实译文断言失败；菜单通过不能替代资料验收。' }
+    }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'verification.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-ui-verification.json') -Force
     Copy-Item -LiteralPath (Join-Path $runDirectory 'process.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-process.json') -Force
     Write-Output ('本轮后台证据：' + $runDirectory)
@@ -89,6 +115,7 @@ try {
     # 诊断插件退出后移除，避免用户后续正常游玩被自动退出或静音。
     if ($createdPlugin -and (Test-Path -LiteralPath $plugin)) { Remove-Item -LiteralPath $plugin }
     if ($createdAppId -and (Test-Path -LiteralPath $appIdPath)) { Remove-Item -LiteralPath $appIdPath }
+    [IO.File]::WriteAllBytes($loaderConfigPath, $originalLoaderConfig)
     $env:ELSINOREHAN_PROBE_RUN_ID = $previousRunId
     $env:ELSINOREHAN_PROBE_SAVE_PATH = $previousSavePath
 }
