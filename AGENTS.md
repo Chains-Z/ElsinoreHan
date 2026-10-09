@@ -2,7 +2,7 @@
 
 更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新状态：日志系统补修、Playmaster统一“戏剧大师”及F8日志段落位置保护已安装，个人ZIP同步。当前1.4.0、16,866条、132条规则；最终运行 `86d5eda7118f4a34ab3cdbab2d942d8e` 的资料、七历史索引及四阅读位置八次F8切换通过，共23,116个资源/界面消费者通过。见 [本轮日志修复](docs/dev-tasks/localization/log-followup-2026-10-10.md)。前轮线索/地图/时间线与字体证据仍保留；下一步按实际游玩反馈校订，不自动重复重型测试。
+最新状态：日志通知与对白交错补修及Knight-Guard称号统一已安装，个人ZIP同步。当前1.4.0、17,027条、138条规则；114,028项真实XUnity消费者和111项真实游戏离线API检查通过。见 [本轮混合日志修复](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮日志四阅读位置八次F8、资料及字体证据保留；本轮未重复重型资料/滚动验收。下一步按实际游玩反馈校订。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -11,12 +11,13 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
-   docs/dev-tasks/localization/log-followup-2026-10-10.md：最新日志全源覆盖、称号统一、F8段落保护及验收边界。
+   docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md：最新混合条目矩阵、尾LF、称号与安装。
+   docs/dev-tasks/localization/log-followup-2026-10-10.md：前轮日志全源覆盖、称号统一、F8段落保护及验收边界。
    docs/dev-tasks/localization/ui-followup-2026-10-10.md：最新线索、地图、时间线、嵌套信念与探针修正。
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/log-followup-verification.json：最新日志、位置保护、安装与ZIP核验；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/mixed-log-verification.json：最新混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -27,8 +28,8 @@
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
 - 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.4.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
-- 当前正式词表 **16,866条**：原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
-- 共132条动态规则：24个数字/F# %s模板，108条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
+- 当前正式词表 **17,027条**：原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名，以及161个保持通知尾LF的源别名（正文逐字复用，不是新翻译）。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
+- 共138条动态规则：24个数字/F# %s模板，114条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
@@ -81,6 +82,7 @@
 - 线索运行别名/组合规则由prepare_lead_followup.py维护（--runtime-cases生成八组冻结TSV）；地图白名单由prepare_map_ui.py维护。UI_FOLLOWUP模式必须同时开启JOURNAL并提供LEAD_CASES。时间线当前loop=0，历史索引向过去递增；Previous加1、Next减1。真实时钟纪元为06:00。反射须精确签名，未参加/未来项不提前调用Details；缺scene明确跳过，不能造零Changes。完整接口与中断恢复见本轮文档。
 - tools/patch/run-toggle-probe.ps1：默认菜单/F8后台验证；逐档模式使用 ELSINOREHAN_PROBE_SETTINGS_OPTIONS=1，并设置正式译文、字形、冻结缓存用例路径。详细运行契约见源码与ui-audit.md。
 - 资料模式ELSINOREHAN_PROBE_JOURNAL=1与逐档模式互斥；run-headless-probe会强制真实资料断言，COLLECTED不是成功。文档资源通过实际展示入口及局部重载验证，不冒称世界内搜寻物件或物理键盘E2E。日志连续源白名单是当前正式源快照，新源需更新，勿盲跑早期补译生成器覆盖手工规则。
+- 新增混合日志生成/验证入口：tools/translation/prepare_mixed_log_followup.py与verify_mixed_log_followup.py；全部55角色/45简称、189通知原子、四类型二/三元衔接、全部通知两两及简称两两、11,554对白与事件通知双向组合。全量夹具被忽略，生成器可复现。未声明无限序列/未知条目永远可翻译。
 - 下一步按用户实际遇到的漏译、错译和排版反馈修订。优先确认源字段、实际组合及拦截路径；不要重译全文作为修补方法。
 - 公开分享尚未完成：当前arialuni_sdf_u2018字体的再分发许可未核实，正式发布应换授权明确且兼容Unity2018/TMP的字体并验证，补齐第三方许可、安装/卸载说明和干净目录安装验证。当前ZIP是个人备份，不称正式公开发布包。
 - 百炼四模型比较已停止，旧结果只作历史证据，不恢复调用、不要求新Key。公开业务空间地址在 translation/provider.json，密钥仅在被忽略的api-key.txt，不输出或打包。套餐实际CLI用量见sol-full.md，不能从token数编造周额度扣减百分比。

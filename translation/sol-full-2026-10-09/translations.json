@@ -98016,8 +98016,9 @@
   {
     "id": "ui-51cea747ad582b91",
     "source": "Knight-Guard of Elsinore",
-    "target": "埃尔西诺的卫兵骑士",
-    "batch": "settings-supplemental"
+    "target": "埃尔西诺骑士卫队成员",
+    "batch": "settings-supplemental",
+    "supplement_id": "knight-guard-51cea747ad582b91"
   },
   {
     "id": "ui-837d1178d2d67569",
@@ -101229,6 +101230,972 @@
     "id": "ui-dialogue-runtime-e2e492b1e6fd68b1",
     "source": "You will never again have the power to overturn nations at your whim. At least—not in the same way.",
     "target": "你将再也没有随心所欲颠覆诸国的力量。至少——无法再以同样的方式做到。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-1194b78264e42328",
+    "source": "<b>Ophelia</b> learns about an event.\n",
+    "target": "<b>奥菲莉娅</b>得知了一个事件。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-b99696c556c816ef",
+    "source": "<b>Ophelia</b> learns about multiple events.\n",
+    "target": "<b>奥菲莉娅</b>得知了多个事件。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-a532c603b71565e5",
+    "source": "King Hamlet was murdered\n",
+    "target": "哈姆雷特国王遭人谋杀\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-4b522f52ecd9f79e",
+    "source": "<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.\n",
+    "target": "<b>奥菲莉娅</b>得知了一个未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-4124d367020bc8ad",
+    "source": "<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.\n",
+    "target": "<b>奥菲莉娅</b>得知了一些未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-76dd2a6af63a0ea2",
+    "source": "Polonius urgently needs to speak with Laertes\n",
+    "target": "波洛涅斯急需与雷欧提斯谈话\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-c14ac02f494801e4",
+    "source": "Gertrude can sing\n",
+    "target": "乔特鲁德会唱歌\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-57dd5f6bd69c6358",
+    "source": "the party is happening\n",
+    "target": "宴会正在举行\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-67d296dae9742efc",
+    "source": "the guards have been acting strange\n",
+    "target": "卫兵们近来举止古怪\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-2f0f582c742cc650",
+    "source": "the court has been successfully informed\n",
+    "target": "已经成功告知宫廷众人\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d6711270873ce138",
+    "source": "Hamlet is in a foul mood\n",
+    "target": "哈姆雷特心情很差\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-288ddb7162d6ba2b",
+    "source": "Hamlet is staying in Denmark\n",
+    "target": "哈姆雷特会留在丹麦\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ce925311c3a3669a",
+    "source": "they can't deal with this\n",
+    "target": "他们应付不了这件事\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-c8259edd224d4bc3",
+    "source": "Hamlet is paralyzed into inaction\n",
+    "target": "哈姆雷特陷入僵局，无法行动\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-2cb8628b0e75798a",
+    "source": "Laertes is late\n",
+    "target": "雷欧提斯迟到了\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6f81c439c9d86a5e",
+    "source": "someone heard a report\n",
+    "target": "有人听到了一则报告\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-4269d6279e11c229",
+    "source": "Hamlet is staying\n",
+    "target": "哈姆雷特会留下\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-89da18ea27937e2a",
+    "source": "Fortinbras will cross Denmark\n",
+    "target": "福丁布拉斯将穿越丹麦\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-c57dc4e64f21dc50",
+    "source": "Peter Quince will perform soon\n",
+    "target": "彼得·奎因斯即将演出\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d62c8ff24ce3bd96",
+    "source": "Hamlet is lovesick\n",
+    "target": "哈姆雷特为情所苦\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-70c8a353f060466f",
+    "source": "Queen Astrid was once on the throne\n",
+    "target": "阿斯特丽德女王曾经在位\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-dad6dfa48b641060",
+    "source": "Hamlet is grieving\n",
+    "target": "哈姆雷特正在哀伤\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-af429f678d7aca99",
+    "source": "Ophelia had a terrible nightmare\n",
+    "target": "奥菲莉娅做了一个可怕的噩梦\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-fb415181b5eb0aee",
+    "source": "the play targets Claudius\n",
+    "target": "这出戏针对克劳狄斯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-45114f794e82ecc8",
+    "source": "the play targets my father\n",
+    "target": "这出戏针对我的父亲\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ee2ec84eb9c0f101",
+    "source": "Ophelia and Quince will meet later\n",
+    "target": "奥菲莉娅和奎因斯稍后将会面\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-b5eea4ed5c9181a9",
+    "source": "the play targets Gertrude\n",
+    "target": "这出戏针对乔特鲁德\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-e183b4480c9e14ed",
+    "source": "Ophelia is going on the boat\n",
+    "target": "奥菲莉娅将要上船\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-c814c3d7e2d3d9b1",
+    "source": "the play targets Hamlet\n",
+    "target": "这出戏针对哈姆雷特\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6ce7669b84c1badf",
+    "source": "the play targets an assassin\n",
+    "target": "这出戏针对一名刺客\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-8f671992a27be958",
+    "source": "there is no reason to stay in Elsinore\n",
+    "target": "没有理由留在埃尔西诺\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-eb470503466e221e",
+    "source": "the play is about time loops\n",
+    "target": "这出戏讲述时间循环\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d6e93b1e1f138a8f",
+    "source": "Polonius is grieving Elise\n",
+    "target": "波洛涅斯正在为伊莉丝哀伤\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-61a57a2f6a59d4b5",
+    "source": "Ophelia is dangerous\n",
+    "target": "奥菲莉娅很危险\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-116be2a17d9d5eda",
+    "source": "something terrible has happened\n",
+    "target": "发生了可怕的事\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-5e6e5192a4b4556f",
+    "source": "there is no hope left\n",
+    "target": "已经没有希望了\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-48ff878786d7ae8a",
+    "source": "Polonius nearly died\n",
+    "target": "波洛涅斯险些丧命\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-000fd3b8dc2814a2",
+    "source": "Queen Gertrude was unfaithful\n",
+    "target": "乔特鲁德王后曾对婚姻不忠\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-041d187aaa73ddd4",
+    "source": "Fortinbras will invade\n",
+    "target": "福丁布拉斯将会入侵\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d7d0667b1a722c82",
+    "source": "there are rumors of a ghost\n",
+    "target": "有关于幽灵的传闻\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-1b91d7ebdc9c0234",
+    "source": "Simona is alive\n",
+    "target": "西蒙娜还活着\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-9de122e0aebb1d89",
+    "source": "There exist some secret, strange notes written by King Hamlet\n",
+    "target": "有一些哈姆雷特国王写下的秘密笔记，内容古怪\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-3c103fc202679117",
+    "source": "King Hamlet experienced time loops\n",
+    "target": "哈姆雷特国王经历过时间循环\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-48bf396e8f03ea79",
+    "source": "Bernardo has a secret\n",
+    "target": "贝尔纳多有一个秘密\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-09954e1d72d72aba",
+    "source": "Hamlet killed Polonius\n",
+    "target": "哈姆雷特杀死了波洛涅斯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-70d7f8613dc7693e",
+    "source": "Claudius killed Polonius\n",
+    "target": "克劳狄斯杀死了波洛涅斯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6c01693bba9bc1ac",
+    "source": "Gertrude killed Polonius\n",
+    "target": "乔特鲁德杀死了波洛涅斯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-9de947ec376534db",
+    "source": "Polonius killed himself\n",
+    "target": "波洛涅斯自杀了\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-7fc0906fb77824c5",
+    "source": "Claudius killed Hamlet\n",
+    "target": "克劳狄斯杀死了哈姆雷特\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0400182b01e446ed",
+    "source": "Claudius killed Gertrude\n",
+    "target": "克劳狄斯杀死了乔特鲁德\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6e7e9baf6ebc88d7",
+    "source": "Ophelia killed Hamlet\n",
+    "target": "奥菲莉娅杀死了哈姆雷特\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-4269dc21e817fad0",
+    "source": "the sword is poisoned\n",
+    "target": "剑上涂了毒\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-23309ceed28bbaa6",
+    "source": "Laertes is on a trip to Paris\n",
+    "target": "雷欧提斯正在前往巴黎的旅途中\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0cb35ef9813053f2",
+    "source": "Hamlet and Brit are going to rendezvous\n",
+    "target": "哈姆雷特和布莉特将要会面\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-dbd3d878f36de806",
+    "source": "Hamlet is paralyzed with inaction\n",
+    "target": "哈姆雷特迟迟无法采取行动\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-75eca29658edd751",
+    "source": "Rosencrantz and Guildenstern are dead\n",
+    "target": "罗森克兰兹和吉尔登斯吞已经死了\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-58d4c529db258859",
+    "source": "Quince will now perform on Thursday mornings\n",
+    "target": "奎因斯今后将在星期四上午演出\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-e126c40a2c716309",
+    "source": "a card game is planned\n",
+    "target": "计划举行一场牌局\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d9a146dcae574c70",
+    "source": "there's an order out for Hamlet's execution\n",
+    "target": "处决哈姆雷特的命令已经下达\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-93634ebac0cd0920",
+    "source": "Ophelia is in danger\n",
+    "target": "奥菲莉娅身处危险\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-68e9136cce34eb70",
+    "source": "Ophelia is stuck in a time loop\n",
+    "target": "奥菲莉娅被困在时间循环中\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-c09dca555753dd19",
+    "source": "Ophelia is losing her mind\n",
+    "target": "奥菲莉娅正在失去理智\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-34656f1681a8bffa",
+    "source": "Brit is a spy\n",
+    "target": "布莉特是一名间谍\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-8d6b1be0ad9b521e",
+    "source": "Brit is meeting Hamlet in his bedroom\n",
+    "target": "布莉特将在哈姆雷特的卧室与他会面\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0bce6d4d5f23ce5d",
+    "source": "Claudius may have written a damning note\n",
+    "target": "克劳狄斯可能写过一张能揭露他罪行的字条\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0e8aff933d76f0cc",
+    "source": "Brit has been imprisoned\n",
+    "target": "布莉特已被关押\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-8b10f98f63922ecc",
+    "source": "Ophelia slept with Claudius\n",
+    "target": "奥菲莉娅和克劳狄斯上过床\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-9a4fe3ee348dd5ca",
+    "source": "Polonius destroyed some secret documents\n",
+    "target": "波洛涅斯销毁了一些秘密文件\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-952c9ee07a96646b",
+    "source": "there's a plot to poison Hamlet\n",
+    "target": "有人密谋毒害哈姆雷特\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-2c31581e25ca06aa",
+    "source": "Gertrude and Claudius were poisoned\n",
+    "target": "乔特鲁德和克劳狄斯遭人下毒\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0cbab8e5c90c1258",
+    "source": "Ophelia is on a mission to find Gertrude's diary\n",
+    "target": "奥菲莉娅正在执行寻找乔特鲁德日记的任务\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6b14a785fcf3e705",
+    "source": "Ophelia has leverage on the guards\n",
+    "target": "奥菲莉娅有能要挟卫兵的筹码\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-bdf52fcf8a64b2bd",
+    "source": "the castle must be fortified\n",
+    "target": "必须加强城堡的防御\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-dd84b6870a8daef0",
+    "source": "Castle Town should be fortified against Norway\n",
+    "target": "城堡镇应加强防御，抵御挪威\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-dd8868596b0e5959",
+    "source": "Claudius should surrender to Fortinbras\n",
+    "target": "克劳狄斯应向福丁布拉斯投降\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-9ad643c5b9f305b8",
+    "source": "Hamlet needs to be disciplined\n",
+    "target": "哈姆雷特需要受到管教\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-7a6d761e35e7da79",
+    "source": "the ghost of King Hamlet is real\n",
+    "target": "哈姆雷特国王的幽灵确实存在\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-1ab815945c94a425",
+    "source": "the walls are haunted\n",
+    "target": "城墙闹鬼\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-e4025d8d050c07b8",
+    "source": "Ophelia can change the play\n",
+    "target": "奥菲莉娅可以修改这出戏\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d440c7a601a57a1f",
+    "source": "Ophelia has the Book of Fates\n",
+    "target": "奥菲莉娅持有《命运之书》\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-11031c4b2437a12a",
+    "source": "Quince experiences time loops\n",
+    "target": "奎因斯也在经历时间循环\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-f505b6318457f08a",
+    "source": "Quince will perform in town on Saturday night\n",
+    "target": "奎因斯将在星期六晚上在镇上演出\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-422c4bc0a6f72603",
+    "source": "Brit met Fortinbras in secret\n",
+    "target": "布莉特曾秘密会见福丁布拉斯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0c52ff3736ffe886",
+    "source": "Quince is dangerous\n",
+    "target": "奎因斯很危险\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-91318aefe68cdec5",
+    "source": "the ghost is destroyed\n",
+    "target": "幽灵已被消灭\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-43d476a96f20e22d",
+    "source": "If I'm being printed (which I shouldn't be), then I'm locking the player out of ninja content for the GDC build\n",
+    "target": "如果我被显示出来了（这本不该发生），那我就在阻止玩家访问游戏开发者大会版本中的忍者内容\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-38c4c5f41c4bfa57",
+    "source": "Queen Gertrude is the spy\n",
+    "target": "乔特鲁德王后就是那个间谍\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-607bd3b13d6e4b52",
+    "source": "Polonius is the spy\n",
+    "target": "波洛涅斯就是那个间谍\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-17ff452d7b84a27c",
+    "source": "Bernardo is the spy\n",
+    "target": "贝尔纳多就是那个间谍\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-82194642b34b12f7",
+    "source": "Rosencrantz and Guildenstern are spies\n",
+    "target": "罗森克兰兹和吉尔登斯吞是间谍\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-5be78cec1731eb04",
+    "source": "Bernardo wishes to meet\n",
+    "target": "贝尔纳多希望会面\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-e401b3178b95a7b6",
+    "source": "Bernardo is also Katherine\n",
+    "target": "贝尔纳多也是凯瑟琳\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ce088ef69c1474ad",
+    "source": "Bernardo should be betrothed\n",
+    "target": "贝尔纳多应当订婚\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-2d28daa5f6e199ed",
+    "source": "Bernardo should be punished\n",
+    "target": "贝尔纳多应当受到惩罚\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-26049ce7fb2f88ac",
+    "source": "they have been dismissed from the castle\n",
+    "target": "他们已被逐出城堡\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-dc25133a0858d0c0",
+    "source": "Othello and Ophelia are lovers\n",
+    "target": "奥赛罗和奥菲莉娅是恋人\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ee4a2281be218801",
+    "source": "Claudius and Ophelia are lovers\n",
+    "target": "克劳狄斯和奥菲莉娅是恋人\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-8b49219d00969d11",
+    "source": "Claudius is grieving heavily for Gertrude\n",
+    "target": "克劳狄斯为乔特鲁德深感悲痛\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-f2f04750a50c4af3",
+    "source": "Othello's bar must be defended\n",
+    "target": "必须守住奥赛罗的酒馆\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-3a0f559b5b906653",
+    "source": "the key is hidden\n",
+    "target": "钥匙被藏起来了\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6198d8cf00861ec2",
+    "source": "that bucket is gross\n",
+    "target": "那个桶很恶心\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d4169c2467dab84e",
+    "source": "the King's poison stash has been emptied\n",
+    "target": "国王藏毒药的地方已被清空\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-c432479f08ef013b",
+    "source": "ship temp unlock\n",
+    "target": "船只临时解锁\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-1f99a06f5356eb8a",
+    "source": "Polonius's death was an accident\n",
+    "target": "波洛涅斯的死是一场意外\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-2932dc6bedc5d655",
+    "source": "he should be wary of Hamlet\n",
+    "target": "他应当提防哈姆雷特\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-e3b0e72a21a4ca21",
+    "source": "fates can be changed\n",
+    "target": "命运可以改变\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-a1f57656d38ec6a4",
+    "source": "there's a note hidden in the gallery\n",
+    "target": "画廊里藏着一张字条\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-cd4aa96e39407e16",
+    "source": "a death report exists for King Hamlet\n",
+    "target": "有一份关于哈姆雷特国王的死亡报告\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6b54536e038eaf33",
+    "source": "she's read the death report\n",
+    "target": "她已读过死亡报告\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-7b460612f0a852e7",
+    "source": "Hamlet and Ophelia are in a relationship\n",
+    "target": "哈姆雷特和奥菲莉娅正在交往\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-19b8c3e4136b1f16",
+    "source": "Laertes and Polonius must leave Elsinore\n",
+    "target": "雷欧提斯和波洛涅斯必须离开埃尔西诺\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-730d112d700ac035",
+    "source": "Ophelia has agreed to marry Hamlet\n",
+    "target": "奥菲莉娅已答应嫁给哈姆雷特\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-a964b798200c2048",
+    "source": "the Danish nobility can be dominated\n",
+    "target": "丹麦贵族可以被控制\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-babae3ca9168abe0",
+    "source": "Hamlet needs to marry politically\n",
+    "target": "哈姆雷特需要政治联姻\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-a3e8f81e20f015c3",
+    "source": "Hamlet's biggest threats are within Elsinore\n",
+    "target": "哈姆雷特最大的威胁来自埃尔西诺内部\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-c54d53650d8afba2",
+    "source": "Hamlet's biggest threats are outside Elsinore\n",
+    "target": "哈姆雷特最大的威胁来自埃尔西诺外部\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-5c98ab0cb7f77fb3",
+    "source": "it's time to return to Wittenberg\n",
+    "target": "该回威登堡了\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-27fd727185e9d3e8",
+    "source": "Hamlet and Brit will be married\n",
+    "target": "哈姆雷特和布莉特将会结婚\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-e9c75a967e1a6d49",
+    "source": "Ophelia and Grace slept together\n",
+    "target": "奥菲莉娅和格蕾丝上过床\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-e65175651d293f26",
+    "source": "Ophelia and Grace are friends\n",
+    "target": "奥菲莉娅和格蕾丝是朋友\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-47e304063df7a760",
+    "source": "Ophelia has joined Grace's crew\n",
+    "target": "奥菲莉娅已加入格蕾丝的船员队伍\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-5a0ad17bdf86f9a3",
+    "source": "Ophelia changed King Claudius's orders\n",
+    "target": "奥菲莉娅改动了克劳狄斯国王的命令\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-a197aca842a35627",
+    "source": "Claudius has ordered Hamlet's execution\n",
+    "target": "克劳狄斯已下令处决哈姆雷特\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ca6b14ba524fc5f7",
+    "source": "she is unimportant to the flow of time\n",
+    "target": "她对时间的流转无关紧要\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-1b9e34d94b31242d",
+    "source": "Guildenstern is dead\n",
+    "target": "吉尔登斯吞已经死了\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-9934ba35188fed46",
+    "source": "Ophelia and Guildenstern kissed\n",
+    "target": "奥菲莉娅和吉尔登斯吞接过吻\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-78f492aa82589ec9",
+    "source": "Ophelia and Guildenstern are friends\n",
+    "target": "奥菲莉娅和吉尔登斯吞是朋友\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-fbe1ed34fe8053ce",
+    "source": "Grace is Irish nobility\n",
+    "target": "格蕾丝是爱尔兰贵族\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-b315b296d23a19ff",
+    "source": "Grace has met the Queen of England\n",
+    "target": "格蕾丝见过英格兰女王\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0956b64a76f4135f",
+    "source": "Grace was married\n",
+    "target": "格蕾丝曾经结过婚\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-f401dab825dd77df",
+    "source": "Ophelia wants to be friendly\n",
+    "target": "奥菲莉娅想友好相处\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-54cdd9c21fcd2911",
+    "source": "Ophelia and Brit are friends\n",
+    "target": "奥菲莉娅和布莉特是朋友\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-aaa893c9a125e25e",
+    "source": "the King's death must be reported\n",
+    "target": "必须报告国王的死讯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-dd98225318ec62ac",
+    "source": "the Queen's death must be reported\n",
+    "target": "必须报告王后的死讯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-5a46122cfc5f796c",
+    "source": "Hamlet's death must be reported\n",
+    "target": "必须报告哈姆雷特的死讯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-344074132963a3dc",
+    "source": "Polonius's death must be reported\n",
+    "target": "必须报告波洛涅斯的死讯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-0a7f1a3920302233",
+    "source": "Laertes's death must be reported\n",
+    "target": "必须报告雷欧提斯的死讯\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-2337f84da1ae7867",
+    "source": "Fortinbras has been imprisoned\n",
+    "target": "福丁布拉斯已被关押\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-db11cfeb9f1bfc67",
+    "source": "Polonius has a locked chest in his chambers\n",
+    "target": "波洛涅斯的房间里有一只上锁的箱子\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-2599b8ff8d6ca374",
+    "source": "Laertes will be King of Denmark\n",
+    "target": "雷欧提斯将成为丹麦国王\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-f348227b98a3f145",
+    "source": "Laertes and Brit are lovers\n",
+    "target": "雷欧提斯和布莉特是恋人\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-6e77939f13917a8b",
+    "source": "Lady Brit is unwell\n",
+    "target": "布莉特女士身体不适\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-45590b87702f9e9e",
+    "source": "Everyone should remain indoors.\n",
+    "target": "所有人都应待在室内。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-332c8542da0e98ec",
+    "source": "Claudius has romantic feelings for Ophelia\n",
+    "target": "克劳狄斯对奥菲莉娅有爱慕之情\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-228a69008c99ed2d",
+    "source": "Ophelia has agreed to become Queen of Denmark\n",
+    "target": "奥菲莉娅已答应成为丹麦王后\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ff2487d68cd1c71d",
+    "source": "Brit hangs out by the docks.\n",
+    "target": "布莉特常在码头一带闲逛。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-b1fc4e5033be1922",
+    "source": "Ophelia is troubled\n",
+    "target": "奥菲莉娅心事重重\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-8d4908ce37a7f732",
+    "source": "Ophelia has feelings for Othello\n",
+    "target": "奥菲莉娅对奥赛罗有好感\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ec7464fba563b431",
+    "source": "Ophelia and Othello are friends\n",
+    "target": "奥菲莉娅和奥赛罗是朋友\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-8cd3df056e20d8ba",
+    "source": "Hamlet has gone to England\n",
+    "target": "哈姆雷特已经去了英格兰\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-ef3e403267c6bb9a",
+    "source": "Ophelia is going to England\n",
+    "target": "奥菲莉娅将前往英格兰\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-8b87e3f478efff70",
+    "source": "there will be a mutiny against Grace\n",
+    "target": "将发生一场针对格蕾丝的叛变\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-66e305ee580236c9",
+    "source": "Hamlet is unfit for romance\n",
+    "target": "哈姆雷特不适合谈情说爱\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-1f1371b69cf10787",
+    "source": "Hamlet is next in line to become King\n",
+    "target": "哈姆雷特是王位的第一顺位继承人\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d91666d4c4124df2",
+    "source": "the Book of Fates can show the future\n",
+    "target": "《命运之书》可以显示未来\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-a7e4081aac75ddf7",
+    "source": "Gertrude hid letters from Brit's mother\n",
+    "target": "乔特鲁德藏起了布莉特母亲寄来的信\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-22cbea384d3cf687",
+    "source": "Horatio needs supplies to make an artist's kit\n",
+    "target": "霍拉旭需要材料来制作一套绘画工具\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-26579dbe62259d94",
+    "source": "Othello and Ophelia are acquainted\n",
+    "target": "奥赛罗和奥菲莉娅彼此认识\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-3cfdfbee4566f3cb",
+    "source": "Hamlet and Laertes can make amends\n",
+    "target": "哈姆雷特和雷欧提斯可以和解\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-b42b00c2b5756516",
+    "source": "TODO CHOOSE TEXT\n",
+    "target": "待办：选择文本\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-d9e31a001efc855a",
+    "source": "Ophelia is intriguing\n",
+    "target": "奥菲莉娅令人好奇\n",
     "batch": "settings-supplemental"
   }
 ]

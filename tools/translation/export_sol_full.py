@@ -23,6 +23,12 @@ def apply_supplemental(rows, entries):
         if source in seen or not entry.get("origins") or hashlib.sha256(source.encode("utf-8")).hexdigest() != entry["source_sha256"]:
             raise ValueError("补译来源、哈希或唯一性不完整")
         seen.add(source)
+        if entry["id"].startswith("mixed-log-terminal-"):
+            base = by_source.get(entry.get("base_source"))
+            if (base is None or source != base["source"] + "\n"
+                    or entry.get("base_target_sha256") != hashlib.sha256(base["target"].encode("utf-8")).hexdigest()
+                    or entry["target"] != base["target"] + "\n"):
+                raise ValueError("日志尾LF别名必须逐字复用真实通知原子")
         if "existing_id" in entry:
             original = by_id.get(entry["existing_id"])
             if (original is None or entry.get("existing_source") != original["source"]
@@ -145,12 +151,13 @@ def main():
     base_count = len(rows)
     supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
     rows = apply_supplemental(rows, supplemental)
-    terminology_path = SUPPLEMENTAL.with_name("playmaster-corrections.json")
-    if terminology_path.exists():
-        terminology = json.loads(terminology_path.read_text(encoding="utf-8"))
-        rows = apply_supplemental(rows, terminology)
-        supplemental += terminology
-    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "lead-runtime-aliases.json", "dialogue-log-runtime-aliases.json"):
+    for filename in ("playmaster-corrections.json", "knight-guard-corrections.json"):
+        terminology_path = SUPPLEMENTAL.with_name(filename)
+        if terminology_path.exists():
+            terminology = json.loads(terminology_path.read_text(encoding="utf-8"))
+            rows = apply_supplemental(rows, terminology)
+            supplemental += terminology
+    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "lead-runtime-aliases.json", "dialogue-log-runtime-aliases.json", "mixed-log-translations.json"):
         extra_path = SUPPLEMENTAL.with_name(filename)
         if extra_path.exists():
             extra_entries = json.loads(extra_path.read_text(encoding="utf-8"))
@@ -171,7 +178,7 @@ def main():
     ui_rules_path = ROOT / "translation" / "supplemental" / "dynamic-ui-rules.json"
     ui_rules = json.loads(ui_rules_path.read_text(encoding="utf-8")) if ui_rules_path.exists() else []
     for filename in ("notification-ui-rules.json", "lead-followup-rules.json", "map-ui-rules.json",
-                     "timeline-followup-rules.json", "nested-belief-followup-rules.json", "dialogue-log-followup-rules.json"):
+                     "timeline-followup-rules.json", "nested-belief-followup-rules.json", "dialogue-log-followup-rules.json", "mixed-log-rules.json"):
         followup_path = ui_rules_path.with_name(filename)
         if followup_path.exists():
             ui_rules += json.loads(followup_path.read_text(encoding="utf-8"))

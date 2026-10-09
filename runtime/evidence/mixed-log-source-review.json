@@ -1,0 +1,187 @@
+{
+  "verification_method": "只读真实程序集IL及既有夹具，不运行游戏、不读存档、不修改规则或正式导出",
+  "source_files": [
+    {
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Elsinore.dll",
+      "sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4"
+    }
+  ],
+  "il_evidence": {
+    "path": "runtime\\evidence\\mixed-log-source-review-il.json",
+    "sha256": "20706cad6c76631c6bb2c40523000d524c8240016dbfa041ce3b35f97c7f2f6b",
+    "method_count": 12
+  },
+  "entry_types": [
+    "Dialogue",
+    "LogicChange",
+    "Stage",
+    "Alert"
+  ],
+  "boundary_contract": {
+    "dialogue_to_same_dialogue": "追加 LF + DialogueAction.Text；不重写speaker且不关闭indent",
+    "dialogue_to_different_dialogue": "追加 </indent> + LF，再 <b>短名:</b> <indent=16%>正文",
+    "dialogue_to_non_dialogue": "先追加 </indent> + LF，再非对白输出",
+    "non_dialogue_to_dialogue": "仅追加 <b>短名:</b> <indent=16%>正文；边界LF依赖前一个非对白",
+    "logic_change": "逐条Model.formatGroupedLiterals，再每条LF；可多项",
+    "stage": "<i> + ILoggableStageDirection.FormatLogEntry + </i> + LF",
+    "alert": "<i> + AlertAction.Text + </i> + LF",
+    "non_dialogue_to_non_dialogue": "后一条无额外公共分隔，依赖前一条自己结尾LF"
+  },
+  "notification_families": [
+    {
+      "predicate": "WANTS",
+      "form": "粗体完整姓名名单 + now/no longer + want/wants + formatElsinoreTerm + ."
+    },
+    {
+      "predicate": "BELIEVES",
+      "form": "粗体完整姓名名单 + now/no longer + believe that/believes that + formatElsinoreTerm + ."
+    },
+    {
+      "predicate": "OWNED_INFO",
+      "positive_only": true,
+      "form": "<b>Ophelia</b> acquires the information \"%s.\""
+    },
+    {
+      "predicate": "DEAD",
+      "positive_only": true,
+      "form": "粗体完整姓名名单 + die./dies."
+    },
+    {
+      "predicate": "SHATTERED",
+      "positive_only": true,
+      "form": "粗体完整姓名名单 + shatter/shatters and will not recover."
+    },
+    {
+      "predicate": "UPSET",
+      "positive_only": true,
+      "form": "粗体完整姓名名单 + become/becomes upset but will recover overnight."
+    },
+    {
+      "predicate": "AWARE",
+      "positive_only": true,
+      "forms": [
+        "<b>Ophelia</b> learns about an event.",
+        "<b>Ophelia</b> learns about multiple events.",
+        "<b>Ophelia</b> learns about an event in which %s",
+        "<b>Ophelia</b> learns about multiple events in which %s"
+      ]
+    },
+    {
+      "predicate": "INVITED",
+      "positive_only": true,
+      "forms": [
+        "<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.",
+        "<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.",
+        "<b>Ophelia</b> learns about a future event in which %s If it can happen in this world, it will appear on the <b>Timeline</b>.",
+        "<b>Ophelia</b> learns about future events in which %s If these can happen in this world, they will appear on the <b>Timeline</b>."
+      ]
+    },
+    {
+      "predicate": "LEAD_ACTIVE(bio)",
+      "positive_only": true,
+      "form": "Ophelia learns more about 粗体完整姓名名单. Their Character Bio/Bios will be updated in the <b>Journal</b>."
+    },
+    {
+      "predicate": "LEAD_ACTIVE(other)",
+      "positive_only": true,
+      "form": "Ophelia learns more about <b>%s</b>. The entry will be updated in the <b>Journal</b>."
+    },
+    {
+      "predicate": "HOLDS",
+      "positive_only": true,
+      "form": "TextMappingData.TryGetConstant映射全文；未映射回退 \"%s\" 并underscore替空格，不能把程序ID当玩家译文"
+    },
+    {
+      "predicate": "PLAYER_HAS",
+      "form": "Ophelia gains /loses + 空格 + formatElsinoreTerm + ."
+    },
+    {
+      "predicate": "fallback",
+      "form": "ERROR: UNFORMATTED: %s",
+      "decision": "程序异常诊断，不作为可翻玩家源"
+    }
+  ],
+  "bold_ophelia": {
+    "actual_future_source": "始终<b>Ophelia</b>，INVITED四分支；AWARE四分支同样粗体",
+    "actual_unbold_families": [
+      "LEAD_ACTIVE(bio)",
+      "LEAD_ACTIVE(other)",
+      "PLAYER_HAS"
+    ],
+    "screenshot_unbold_future": "仅截图观察，未找到游戏无粗体来源；不能据此编造资源分支；上游RichTextParser保留已知b/i/indent模板标签"
+  },
+  "stage_implementations": [
+    "Elsinore.PrintCharacterChangesDirection::Elsinore.ILoggableStageDirection.FormatLogEntry",
+    "Elsinore.PrintEnterIntoDirection::Elsinore.ILoggableStageDirection.FormatLogEntry",
+    "Elsinore.Ui.ViewObjectDirection::Elsinore.ILoggableStageDirection.FormatLogEntry"
+  ],
+  "old_notification_tests": {
+    "path": "translation\\supplemental\\notification-ui-tests.json",
+    "sha256": "6a53f777aa5f034be150f69747a6e2ce51ed98f5049e7ad46e62e5165b8f8b67",
+    "total": 616,
+    "id_families": {
+      "notification-desire-name": 46,
+      "notification-desire-avoid": 1,
+      "notification-desire-investigate": 1,
+      "notification-desire-protect": 1,
+      "notification-desire-placate": 1,
+      "notification-desire-destroy": 1,
+      "notification-desire-impress": 1,
+      "notification-desire-seduce": 1,
+      "notification-human-constant": 154,
+      "present-quoted-firstline": 314,
+      "notification-knowledge-dead": 1,
+      "notification-nested-belief": 1,
+      "notification-belief-dead": 2,
+      "notification-bare-0": 1,
+      "notification-final-newline": 19,
+      "notification-terminal-padding": 19,
+      "notification-bare-1": 1,
+      "notification-bare-2": 1,
+      "notification-bare-3": 1,
+      "notification-bare-4": 1,
+      "notification-bare-5": 1,
+      "notification-bare-6": 1,
+      "notification-bare-7": 1,
+      "notification-bare-8": 1,
+      "notification-bare-9": 1,
+      "notification-bare-10": 1,
+      "notification-bare-11": 1,
+      "notification-bare-12": 1,
+      "notification-bare-13": 1,
+      "notification-bare-14": 1,
+      "notification-bare-15": 1,
+      "notification-bare-16": 1,
+      "notification-bare-17": 1,
+      "notification-bare-18": 1,
+      "notification-combined-bio": 1,
+      "notification-combined-mixed": 1,
+      "notification-journal-literal": 3,
+      "notification-reject-0": 1,
+      "notification-reject-1": 1,
+      "notification-reject-2": 1,
+      "notification-reject-3": 1,
+      "notification-reject-4": 1,
+      "notification-reject-5": 1,
+      "notification-reject-6": 1,
+      "notification-reject-7": 1,
+      "notification-reject-8": 1,
+      "notification-belief-quotes": 20
+    },
+    "scope_limit": "314个present-quoted-firstline属于分享预览，不是通知+对白混合日志；其余302覆盖通知术语/原子/部分通知组合、并非HistoryTracker四入口完整矩阵"
+  },
+  "recommendation": "先按真实通知语法扩展boundary/trailing，覆盖所有真实短名与四入口转移；保留首匹配/64上限，加入未知项拒绝及多条通知/同人续行/尾LF回归。不要用同一通知文本中的句点盲切，也不要将任意英文LF当分隔。",
+  "producer_cache_assessment": {
+    "feasible": true,
+    "minimum_design": "可在header/entry formatter捕获原文append区间，以sidecar记同一builder原文前缀和译文前缀；原子TryTranslate全部成功后只登记XUnity完整组合Full scope=-1 persist=false，不改builder/历史原文",
+    "limits": [
+      "仅TryTranslate新增append片段不能总消除拆分，因为有开闭indent/LF且Model一次输出多通知",
+      "只登记每个原子不能自动把累计整串变成已缓存全文，必须明确拼成对应译文并登记",
+      "header/清空/同人续行/从旧存档重建/未知原子/切换F8须集成验证；本轮不宜未经验证直接替换生产路径"
+    ]
+  }
+}

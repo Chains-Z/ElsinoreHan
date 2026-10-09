@@ -1,0 +1,2256 @@
+[
+  {
+    "id": "mixed-log-terminal-1194b78264e42328",
+    "source": "<b>Ophelia</b> learns about an event.\n",
+    "source_sha256": "1194b78264e42328783dc20d68c82521a0ba6296a3a8061e05cbf32c10287bc1",
+    "target": "<b>奥菲莉娅</b>得知了一个事件。\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "<b>Ophelia</b> learns about an event.",
+    "base_target_sha256": "7992f80f92d102d3fb5589357828f225411aab6923895761bada2f5b2e7a1a22",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-b99696c556c816ef",
+    "source": "<b>Ophelia</b> learns about multiple events.\n",
+    "source_sha256": "b99696c556c816efce91ced5695ee3c48ab9d6cb350430dfe1f6cba880d1094b",
+    "target": "<b>奥菲莉娅</b>得知了多个事件。\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "<b>Ophelia</b> learns about multiple events.",
+    "base_target_sha256": "409369ca0ce0a1303d747819c027ef9204a4dad84c02683faf6e99b2058893ad",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-a532c603b71565e5",
+    "source": "King Hamlet was murdered\n",
+    "source_sha256": "a532c603b71565e5c74892f3482f9f90acf46661aefece73d0a649613266c072",
+    "target": "哈姆雷特国王遭人谋杀\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "King Hamlet was murdered",
+    "base_target_sha256": "67b6f032744136ee2a7b47ab415cdb974dd2b27ef50c84c86ae8ae339edb0ac7",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-4b522f52ecd9f79e",
+    "source": "<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.\n",
+    "source_sha256": "4b522f52ecd9f79ef2227d724a886d3a072b417a5f58881571326c33f60330b3",
+    "target": "<b>奥菲莉娅</b>得知了一个未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "<b>Ophelia</b> learns about a future event. If it can happen in this world, it will appear on the <b>Timeline</b>.",
+    "base_target_sha256": "c42c8ae8dccdfed4b91617be92fcb777e3fb6896b87cd793a5246d465bc14a4e",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-4124d367020bc8ad",
+    "source": "<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.\n",
+    "source_sha256": "4124d367020bc8ad72eabda4500d9af77a340ea4db8e0592200666a0c7778bd8",
+    "target": "<b>奥菲莉娅</b>得知了一些未来事件。如果能在当前世界发生，就会显示在<b>时间线</b>上。\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "<b>Ophelia</b> learns about future events. If these can happen in this world, they will appear on the <b>Timeline</b>.",
+    "base_target_sha256": "26a5b8e0ed14433dd493a6e9253ab6e52fd1a3dcd0b9d587b7d1eb5f9db80294",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-76dd2a6af63a0ea2",
+    "source": "Polonius urgently needs to speak with Laertes\n",
+    "source_sha256": "76dd2a6af63a0ea2073e50ebd193d357050b54034bb16a9c4ff057fa67fae6b2",
+    "target": "波洛涅斯急需与雷欧提斯谈话\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius urgently needs to speak with Laertes",
+    "base_target_sha256": "dda6e7b83fb4e61959ac73fc021c3a2afc22072111da7efc572116af72a9201c",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-c14ac02f494801e4",
+    "source": "Gertrude can sing\n",
+    "source_sha256": "c14ac02f494801e47fb1b1655df6a78603fbfc5de1fdcc4af2c9a9c7d0493448",
+    "target": "乔特鲁德会唱歌\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Gertrude can sing",
+    "base_target_sha256": "972c0e5903837df561b402ac2b8dd885ba4a8a84dc6115f4db8e9bc2b52a717a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-57dd5f6bd69c6358",
+    "source": "the party is happening\n",
+    "source_sha256": "57dd5f6bd69c6358eef821028498dbde480d48c8022dbad158419f0b0b4868e4",
+    "target": "宴会正在举行\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the party is happening",
+    "base_target_sha256": "6c606f17e10218871c8237157598cddd7f002bdf2f357882fe704e67ae60c79d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-67d296dae9742efc",
+    "source": "the guards have been acting strange\n",
+    "source_sha256": "67d296dae9742efcae1b8f6f1c739578b3b30ba6b48a0d3a2a87768c9f25e168",
+    "target": "卫兵们近来举止古怪\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the guards have been acting strange",
+    "base_target_sha256": "994fce551e9e7093875f941e53688e5cdba2f40dd4934dc522622ef72aec73d2",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-2f0f582c742cc650",
+    "source": "the court has been successfully informed\n",
+    "source_sha256": "2f0f582c742cc650b8fb3d1f7b6b6aa70338a9fa4442bb4b1176477b9ae919aa",
+    "target": "已经成功告知宫廷众人\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the court has been successfully informed",
+    "base_target_sha256": "1fb5acf3353ab1cae52b83dcd7a729a31681ca41dd4b15f3c6f9f8e26bce53a1",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d6711270873ce138",
+    "source": "Hamlet is in a foul mood\n",
+    "source_sha256": "d6711270873ce138f787ff13a3c72b681171306e7a88dbb76ffda0ae83a531b7",
+    "target": "哈姆雷特心情很差\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is in a foul mood",
+    "base_target_sha256": "2b81945359046988de9283686e77f0d933229855da64982c00024c325b80ad23",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-288ddb7162d6ba2b",
+    "source": "Hamlet is staying in Denmark\n",
+    "source_sha256": "288ddb7162d6ba2b9e34b7fa6d7f406d0c2e24744772d541931626453e356eaa",
+    "target": "哈姆雷特会留在丹麦\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is staying in Denmark",
+    "base_target_sha256": "52942f586701e3a4150f7f8eee94c2c1c7e329ef7e5e25fba8f2f5b060ba6f6e",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ce925311c3a3669a",
+    "source": "they can't deal with this\n",
+    "source_sha256": "ce925311c3a3669a2291976961c7f172eb7bcd1991695b7ab524e4d54378edd1",
+    "target": "他们应付不了这件事\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "they can't deal with this",
+    "base_target_sha256": "b501dced7fcd76821fd6ef6caa65d4f4cfe83efa10d3cdb081cbe7f42b197648",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-c8259edd224d4bc3",
+    "source": "Hamlet is paralyzed into inaction\n",
+    "source_sha256": "c8259edd224d4bc3ffffdaa96afd2a8c8606cd80b2620ae1738ce86725ebe227",
+    "target": "哈姆雷特陷入僵局，无法行动\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is paralyzed into inaction",
+    "base_target_sha256": "e0aa69a4ddd713449d6015ea8e725e01fb9b12decc7a5bd79307449011999f17",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-2cb8628b0e75798a",
+    "source": "Laertes is late\n",
+    "source_sha256": "2cb8628b0e75798aae542453ec8accfb24df9efc97024b505d50bf6eea790779",
+    "target": "雷欧提斯迟到了\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Laertes is late",
+    "base_target_sha256": "07014d970f1d4abbfa4031edfe1661c1a45c133b56ee41c719660a3aa88c0bd0",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6f81c439c9d86a5e",
+    "source": "someone heard a report\n",
+    "source_sha256": "6f81c439c9d86a5ecf01f4245a4eb2de64ec1ac754e61ecd7c9a5691f0236241",
+    "target": "有人听到了一则报告\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "someone heard a report",
+    "base_target_sha256": "75ac70e95bc6635e6e884a4d247f36a084239e164c8bac8650867ecf63ac3cc9",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-4269d6279e11c229",
+    "source": "Hamlet is staying\n",
+    "source_sha256": "4269d6279e11c229784e3dc9e5e921a090ad70f442a0be4a53399b2b80ba398b",
+    "target": "哈姆雷特会留下\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is staying",
+    "base_target_sha256": "7aaff7b9b5ee01476e8f9032777eca1da5891b3b4af34823cf3377deb9d8c4e7",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-89da18ea27937e2a",
+    "source": "Fortinbras will cross Denmark\n",
+    "source_sha256": "89da18ea27937e2ae6e957dba6c89b19ba89b1ac2c574b5bd81f5e91b403a79b",
+    "target": "福丁布拉斯将穿越丹麦\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Fortinbras will cross Denmark",
+    "base_target_sha256": "b9aeb6107a94d22d073c99cab0a2f89ddac8d8b5ce34dfd2eec846957a44105f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-c57dc4e64f21dc50",
+    "source": "Peter Quince will perform soon\n",
+    "source_sha256": "c57dc4e64f21dc507cb8c862efa2373539d5f5962a0f3ebab95bf9d33e42fb3f",
+    "target": "彼得·奎因斯即将演出\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Peter Quince will perform soon",
+    "base_target_sha256": "facea505de38fe06c483eedd663fef1dbca949e8e0aea481f1f80cf31b06c684",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d62c8ff24ce3bd96",
+    "source": "Hamlet is lovesick\n",
+    "source_sha256": "d62c8ff24ce3bd965f39471c73f0cfb6f23478d1027a7804da8a6522c91d5746",
+    "target": "哈姆雷特为情所苦\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is lovesick",
+    "base_target_sha256": "232dd7121cfcabd4bb1fd775c804846d6951d555101198c1bb4082d72bf09cb9",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-70c8a353f060466f",
+    "source": "Queen Astrid was once on the throne\n",
+    "source_sha256": "70c8a353f060466f4eadd996acb85b4c76336c2b85112bc1ebf29e261077d770",
+    "target": "阿斯特丽德女王曾经在位\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Queen Astrid was once on the throne",
+    "base_target_sha256": "d4a9ff04d672945c885d7f838034e153daa2eb4cc769881878abb1f9e6d0b445",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-dad6dfa48b641060",
+    "source": "Hamlet is grieving\n",
+    "source_sha256": "dad6dfa48b64106077396cb53adc146d86d0a5ecd88b75b8bad988608e00a819",
+    "target": "哈姆雷特正在哀伤\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is grieving",
+    "base_target_sha256": "4058d1cb0d17152bd38d62317ffdf0741da2692b49cdbed7bf5861b088b5bd3b",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-af429f678d7aca99",
+    "source": "Ophelia had a terrible nightmare\n",
+    "source_sha256": "af429f678d7aca998ffe504b351ce4834e634397d86091d62833e114907217cf",
+    "target": "奥菲莉娅做了一个可怕的噩梦\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia had a terrible nightmare",
+    "base_target_sha256": "c3738aca4207bd5a981f8c8f2a1e881a684e79847d61dd3b384ab89ccf6f101f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-fb415181b5eb0aee",
+    "source": "the play targets Claudius\n",
+    "source_sha256": "fb415181b5eb0aeeb03ca57f554cb184da39b48243d510391a2fed5a7fe4f347",
+    "target": "这出戏针对克劳狄斯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the play targets Claudius",
+    "base_target_sha256": "d3d4f3e60997091f224ef93415cb5f86d292b6e914ef8b0d4e6c65896815a36e",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-45114f794e82ecc8",
+    "source": "the play targets my father\n",
+    "source_sha256": "45114f794e82ecc8187d02edb2da2523bf8ddc969f82614996b8a2f49c26e3cd",
+    "target": "这出戏针对我的父亲\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the play targets my father",
+    "base_target_sha256": "416b3c59906fa567f67467f376c83b2242b8b496a02879087b9ebdc661f8287d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ee2ec84eb9c0f101",
+    "source": "Ophelia and Quince will meet later\n",
+    "source_sha256": "ee2ec84eb9c0f101609bdab9344cc88f3ad21a5550d781fe893b6ac781b61120",
+    "target": "奥菲莉娅和奎因斯稍后将会面\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia and Quince will meet later",
+    "base_target_sha256": "6ac70853ce915d1b47ff1142d3734c90641748bc05d42fc6deff67c7e5c83f52",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-b5eea4ed5c9181a9",
+    "source": "the play targets Gertrude\n",
+    "source_sha256": "b5eea4ed5c9181a96ea158be48ada838c6483352e1cce63314d1571936e9c68c",
+    "target": "这出戏针对乔特鲁德\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the play targets Gertrude",
+    "base_target_sha256": "da2aadb086efe155bd9d564b84732c70b2a1e5cf597de5fa0836449b150f03d1",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-e183b4480c9e14ed",
+    "source": "Ophelia is going on the boat\n",
+    "source_sha256": "e183b4480c9e14ed4b180cda74b5d61fc52aacccfe5b6e8bb33453732611e416",
+    "target": "奥菲莉娅将要上船\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is going on the boat",
+    "base_target_sha256": "c88857fa3b8e3aa73612191684a86f089b7ebceb293b80ca7d84a8c8017581c1",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-c814c3d7e2d3d9b1",
+    "source": "the play targets Hamlet\n",
+    "source_sha256": "c814c3d7e2d3d9b17d46b93c5f89279651b7a9d0b0d62f931cab7c6aa7ae395b",
+    "target": "这出戏针对哈姆雷特\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the play targets Hamlet",
+    "base_target_sha256": "c64e8591b84903a0c29fda83048ed111e35b515aca39c5bfe305e4953c414634",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6ce7669b84c1badf",
+    "source": "the play targets an assassin\n",
+    "source_sha256": "6ce7669b84c1badf63a4bba61057b02643dd3f1f75fc040c6a9fb53e84aff378",
+    "target": "这出戏针对一名刺客\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the play targets an assassin",
+    "base_target_sha256": "376b93d8f74a7b32e9bf997cb726e78d41c61bc3eb66691633e0f9a6e2ded3ce",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-8f671992a27be958",
+    "source": "there is no reason to stay in Elsinore\n",
+    "source_sha256": "8f671992a27be95868335d83977e6cd7d723b0ce5d6451545ce85e5cf3d4934f",
+    "target": "没有理由留在埃尔西诺\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "there is no reason to stay in Elsinore",
+    "base_target_sha256": "a1a9b0d408b5722a722b6b8332bf23726d562ca051ba21ae866eb4233b18c029",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-eb470503466e221e",
+    "source": "the play is about time loops\n",
+    "source_sha256": "eb470503466e221eb348b5098372b86199f85c3c3e18f1d3f24f6b5867de89b6",
+    "target": "这出戏讲述时间循环\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the play is about time loops",
+    "base_target_sha256": "4c1c88d0d09390d4c1b9e9a011e4887d756cb4c5c7ba470ba54876d9d87a1537",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d6e93b1e1f138a8f",
+    "source": "Polonius is grieving Elise\n",
+    "source_sha256": "d6e93b1e1f138a8ff61d2c02a597b6e0de73b65b40aefc1fb765211eecd9d8af",
+    "target": "波洛涅斯正在为伊莉丝哀伤\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius is grieving Elise",
+    "base_target_sha256": "33f9e8c030a82aaaaecf06ddd356776bd542ee97b1165e3579bce82bf6a1a8b1",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-61a57a2f6a59d4b5",
+    "source": "Ophelia is dangerous\n",
+    "source_sha256": "61a57a2f6a59d4b54c2d8e2ff9f962148fba478ad9e4c884276fa32520307025",
+    "target": "奥菲莉娅很危险\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is dangerous",
+    "base_target_sha256": "25a818d37e03af07552faf3e382b31f244edd1e12fd990d6045fc1100ebea920",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-116be2a17d9d5eda",
+    "source": "something terrible has happened\n",
+    "source_sha256": "116be2a17d9d5eda35a305d1d100875ac5f2f321dfcbed591019360793eac0f7",
+    "target": "发生了可怕的事\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "something terrible has happened",
+    "base_target_sha256": "b8846b04cdf73204757493a030141a26c8a3269d19af3771306715889299002d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-5e6e5192a4b4556f",
+    "source": "there is no hope left\n",
+    "source_sha256": "5e6e5192a4b4556ff8ac28fce7ecfc0a5797795a805614fc31f9423730ecf1b9",
+    "target": "已经没有希望了\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "there is no hope left",
+    "base_target_sha256": "aa262a6edcf7c9bafa08fc0c9fdcd76a3fead1fd6ac9d5ad2c5a80c388893a40",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-48ff878786d7ae8a",
+    "source": "Polonius nearly died\n",
+    "source_sha256": "48ff878786d7ae8a64ea606e341ebba228cbad12d793b3f156a6223d2f58e978",
+    "target": "波洛涅斯险些丧命\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius nearly died",
+    "base_target_sha256": "ee0a7dfb069e27790b4285318559219bf466d0f893700c033953b66a54e11888",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-000fd3b8dc2814a2",
+    "source": "Queen Gertrude was unfaithful\n",
+    "source_sha256": "000fd3b8dc2814a2d129f3813b0235743dfafe83a6d90e4a14be06cd46267a10",
+    "target": "乔特鲁德王后曾对婚姻不忠\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Queen Gertrude was unfaithful",
+    "base_target_sha256": "eed84755318ff3ccacf0837a18c6e6d13989fb1d578bc534d6355af39e93214c",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-041d187aaa73ddd4",
+    "source": "Fortinbras will invade\n",
+    "source_sha256": "041d187aaa73ddd43767ccfb326776b23c5b2c5ae99b6ee6b7841283f20389c4",
+    "target": "福丁布拉斯将会入侵\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Fortinbras will invade",
+    "base_target_sha256": "74af6ffebc035df8b8292e2b1a1628f0f2ee9c2fbb323e8c1a757c9a387f374c",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d7d0667b1a722c82",
+    "source": "there are rumors of a ghost\n",
+    "source_sha256": "d7d0667b1a722c82a157fde257a8cd2bab6a6459fba7108d4451cd4955ec0f9f",
+    "target": "有关于幽灵的传闻\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "there are rumors of a ghost",
+    "base_target_sha256": "2ca0b63bb9edf9ce0e392887bcd896f32ceb33aad6d90214198863226dd0d541",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-1b91d7ebdc9c0234",
+    "source": "Simona is alive\n",
+    "source_sha256": "1b91d7ebdc9c023494f66d123f95330ef00c70642bd9f8ed68bd01aceea2a676",
+    "target": "西蒙娜还活着\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Simona is alive",
+    "base_target_sha256": "71139f6753884b266bfe9d842ffc547aa1a630c3916af9c44839710c2fbf2348",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-9de122e0aebb1d89",
+    "source": "There exist some secret, strange notes written by King Hamlet\n",
+    "source_sha256": "9de122e0aebb1d89ed861d0f57d754ba4b1f9081965bcae662d1665ded2a9718",
+    "target": "有一些哈姆雷特国王写下的秘密笔记，内容古怪\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "There exist some secret, strange notes written by King Hamlet",
+    "base_target_sha256": "95ee777764b844219f54ba31d299da55b1871ae768c872f89c2b6791ad9e6393",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-3c103fc202679117",
+    "source": "King Hamlet experienced time loops\n",
+    "source_sha256": "3c103fc2026791178b9e1a5b194f806e56f0fb1a5563e92cedea95f9795d8235",
+    "target": "哈姆雷特国王经历过时间循环\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "King Hamlet experienced time loops",
+    "base_target_sha256": "e254b951aa4c0e7ad7ec30116ceddfd245ec3623eb671d195445c0ea910b3d4a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-48bf396e8f03ea79",
+    "source": "Bernardo has a secret\n",
+    "source_sha256": "48bf396e8f03ea79294b4d7056fc8f9aaab3194d0bde393a41a46900eb3dd48c",
+    "target": "贝尔纳多有一个秘密\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Bernardo has a secret",
+    "base_target_sha256": "834e1f274bb33b92f39216cda8e52f4619ce7915d65d8bca7c1310db2d6db535",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-09954e1d72d72aba",
+    "source": "Hamlet killed Polonius\n",
+    "source_sha256": "09954e1d72d72aba9a4498b59e4fe605f0dab0d8d06b50ca4b9a00635e4a4368",
+    "target": "哈姆雷特杀死了波洛涅斯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet killed Polonius",
+    "base_target_sha256": "7d2e924a0f6778ca345637de8138ad94942b4c50f23155ceeb1ed022e06bd1ac",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-70d7f8613dc7693e",
+    "source": "Claudius killed Polonius\n",
+    "source_sha256": "70d7f8613dc7693e214c16877430d157b6ddf4b32e49229b8940414ad9597c6c",
+    "target": "克劳狄斯杀死了波洛涅斯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius killed Polonius",
+    "base_target_sha256": "f125380f77fe1fd90d3c3327462f4035725dd5b319690d6db156b7943947e6a4",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6c01693bba9bc1ac",
+    "source": "Gertrude killed Polonius\n",
+    "source_sha256": "6c01693bba9bc1ac3541ddb1a0f0db0aa95ab82abb50045ebf03eb4992905586",
+    "target": "乔特鲁德杀死了波洛涅斯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Gertrude killed Polonius",
+    "base_target_sha256": "853ea5fd67eb8c63e16ee6dd0172d63d4cf8e0093a859e4fb3dc47ec0fc930f0",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-9de947ec376534db",
+    "source": "Polonius killed himself\n",
+    "source_sha256": "9de947ec376534db410f1ee21a9fe3509d6b453414efeeeb4a25eca4f9daf3dd",
+    "target": "波洛涅斯自杀了\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius killed himself",
+    "base_target_sha256": "867e7418de5c6a4feb291549fd45a0046ea5c49efa2256d2ea29130aaa4e762f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-7fc0906fb77824c5",
+    "source": "Claudius killed Hamlet\n",
+    "source_sha256": "7fc0906fb77824c53a6351daf5ac53f424b9cc3eb00b17f7471702a29ce409a6",
+    "target": "克劳狄斯杀死了哈姆雷特\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius killed Hamlet",
+    "base_target_sha256": "af603273b622dede927f99997abe7dc68ad35a29d7a2976f8b394baaa5ca5ef3",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0400182b01e446ed",
+    "source": "Claudius killed Gertrude\n",
+    "source_sha256": "0400182b01e446ed991221b4b78c4f7d2113cb6cd56a5576b57f9debfc464e9b",
+    "target": "克劳狄斯杀死了乔特鲁德\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius killed Gertrude",
+    "base_target_sha256": "aee98afc2b26858c40fb653ee8ab685035928782d4435d17481251dc80e5c91d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6e7e9baf6ebc88d7",
+    "source": "Ophelia killed Hamlet\n",
+    "source_sha256": "6e7e9baf6ebc88d77f358952b69b306dea9670e230ef08c0ded040ae3fe7a134",
+    "target": "奥菲莉娅杀死了哈姆雷特\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia killed Hamlet",
+    "base_target_sha256": "d5b2127af52ed602f2d639077b8b7f518e6f79408552ae4040a64818eedd6277",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-4269dc21e817fad0",
+    "source": "the sword is poisoned\n",
+    "source_sha256": "4269dc21e817fad05ab4830682294227cc320fef0963c73b76484efa7708ef66",
+    "target": "剑上涂了毒\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the sword is poisoned",
+    "base_target_sha256": "e8555a324f0eb3ebfeae05a0d4189c39db5ce12ee76c91cc826fb1d3cb5938ba",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-23309ceed28bbaa6",
+    "source": "Laertes is on a trip to Paris\n",
+    "source_sha256": "23309ceed28bbaa670f28cf689651e8af6603e10c2356b80832b9b4b6d9416bb",
+    "target": "雷欧提斯正在前往巴黎的旅途中\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Laertes is on a trip to Paris",
+    "base_target_sha256": "d6b47042e8230371c6238835273eada68c790b372cda3cebff2a3e9ff95f2229",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0cb35ef9813053f2",
+    "source": "Hamlet and Brit are going to rendezvous\n",
+    "source_sha256": "0cb35ef9813053f2290f725dc3f2529d091e67e4c180e0e71917adb80d01a000",
+    "target": "哈姆雷特和布莉特将要会面\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet and Brit are going to rendezvous",
+    "base_target_sha256": "e96801abe7a0b534d53112ef65cf29fffe0f41ea8237c04536c150cd6d6ac75f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-dbd3d878f36de806",
+    "source": "Hamlet is paralyzed with inaction\n",
+    "source_sha256": "dbd3d878f36de8064c46b7081def4ab56e0834e664e0d56588883c085e4e9087",
+    "target": "哈姆雷特迟迟无法采取行动\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is paralyzed with inaction",
+    "base_target_sha256": "3032ceabec63bb07e2f6e2df70cbd1d6f6a01a270df399aa7e987977bac335c6",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-75eca29658edd751",
+    "source": "Rosencrantz and Guildenstern are dead\n",
+    "source_sha256": "75eca29658edd75178ff6f938c646613e7f45043859c4cc4e4205cffc331a422",
+    "target": "罗森克兰兹和吉尔登斯吞已经死了\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Rosencrantz and Guildenstern are dead",
+    "base_target_sha256": "739842e369024e4c2f570847eca602cb4817c3ea0ba918d5f7d67b48bcd7511f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-58d4c529db258859",
+    "source": "Quince will now perform on Thursday mornings\n",
+    "source_sha256": "58d4c529db25885959bd988bd0c53d50190461c9ea2e06f6b3cb0a6b0e7eef09",
+    "target": "奎因斯今后将在星期四上午演出\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Quince will now perform on Thursday mornings",
+    "base_target_sha256": "e82dbecd558eb24407c2a87869b7b3042b5c3b018298e46d39fce1c1e35a6c53",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-e126c40a2c716309",
+    "source": "a card game is planned\n",
+    "source_sha256": "e126c40a2c7163096b00465c64fbd2ba2c971662c7c242c0c8ec9997bd0a2943",
+    "target": "计划举行一场牌局\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "a card game is planned",
+    "base_target_sha256": "10bd3f0e2bc10ed3101860bc3bb6f859f780f3eb4e4f136b587dd438d699710f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d9a146dcae574c70",
+    "source": "there's an order out for Hamlet's execution\n",
+    "source_sha256": "d9a146dcae574c70b8a6ad98604c5a04d45ac14f705fe0a6ac6c4f8846915f88",
+    "target": "处决哈姆雷特的命令已经下达\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "there's an order out for Hamlet's execution",
+    "base_target_sha256": "ee5f32a12a8a87dd99b81564fbda244c465f553fdcac96c6c04d7d2403f76128",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-93634ebac0cd0920",
+    "source": "Ophelia is in danger\n",
+    "source_sha256": "93634ebac0cd09204b9102466c2b4022122df06d6ee6beddc39a098adf6557cc",
+    "target": "奥菲莉娅身处危险\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is in danger",
+    "base_target_sha256": "e594c013eabb77fa091c08fe0334dcfb2eac22583af9df575fdcdf0c5c08072f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-68e9136cce34eb70",
+    "source": "Ophelia is stuck in a time loop\n",
+    "source_sha256": "68e9136cce34eb70c15e22da6e1042ce8de3cba76c8cc303c3462f656bb684b2",
+    "target": "奥菲莉娅被困在时间循环中\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is stuck in a time loop",
+    "base_target_sha256": "ba958b079a7c51d2695148d345d2e53724110037768781a957b578f4e6acfe6f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-c09dca555753dd19",
+    "source": "Ophelia is losing her mind\n",
+    "source_sha256": "c09dca555753dd1903c4ec161f7d78699be6996dbc60b3e3bb542b4d8eaf348a",
+    "target": "奥菲莉娅正在失去理智\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is losing her mind",
+    "base_target_sha256": "258d44000f2c0843a16251e606f5fafe0efae648110820cafb7b1614866f67ab",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-34656f1681a8bffa",
+    "source": "Brit is a spy\n",
+    "source_sha256": "34656f1681a8bffac889b5194c7e6a70361eea230f43c4581aa39a3c5a86fe69",
+    "target": "布莉特是一名间谍\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Brit is a spy",
+    "base_target_sha256": "4d9b3228c270489fa255ef5b9d164ccaf1211a95cacf5fecdb6f0b8f957c2d3e",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-8d6b1be0ad9b521e",
+    "source": "Brit is meeting Hamlet in his bedroom\n",
+    "source_sha256": "8d6b1be0ad9b521e5509f240d60fb00e9d0230f2c6f802f219e5140feac84a7e",
+    "target": "布莉特将在哈姆雷特的卧室与他会面\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Brit is meeting Hamlet in his bedroom",
+    "base_target_sha256": "56ffef2abfb8bbedf96fae6076e0cc4d558e126203e0ec8a88a8e2d389c470f3",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0bce6d4d5f23ce5d",
+    "source": "Claudius may have written a damning note\n",
+    "source_sha256": "0bce6d4d5f23ce5d6392429b834f40ca666e8f74b88d3e706474a328854eff11",
+    "target": "克劳狄斯可能写过一张能揭露他罪行的字条\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius may have written a damning note",
+    "base_target_sha256": "2d06d66595df271327f6b89bf5ffee30814c8fe0c96b10440c98794c794ada08",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0e8aff933d76f0cc",
+    "source": "Brit has been imprisoned\n",
+    "source_sha256": "0e8aff933d76f0cc2a2bbc37feb952f760c94fdf9d4edd80e264152d49f6ccc4",
+    "target": "布莉特已被关押\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Brit has been imprisoned",
+    "base_target_sha256": "0b812d5f2760f2b7bc7cb69123260eb35b089fcda6d6b7b48690e1c4a3c771de",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-8b10f98f63922ecc",
+    "source": "Ophelia slept with Claudius\n",
+    "source_sha256": "8b10f98f63922ecc5caea89d4b156e1bb29762ef1e507fc5a1eb1e85ac8a5b34",
+    "target": "奥菲莉娅和克劳狄斯上过床\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia slept with Claudius",
+    "base_target_sha256": "dbcc89be95619171a3fca0ae8840dd8a08f51383c85d63746e3aad4db183120a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-9a4fe3ee348dd5ca",
+    "source": "Polonius destroyed some secret documents\n",
+    "source_sha256": "9a4fe3ee348dd5ca54d7d858c80a0240fe9995feffe82bf673afa08915b858da",
+    "target": "波洛涅斯销毁了一些秘密文件\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius destroyed some secret documents",
+    "base_target_sha256": "b0c4186e3b75891b5252ee2cd4cfa3b2c438660966255cfed8080b170057a978",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-952c9ee07a96646b",
+    "source": "there's a plot to poison Hamlet\n",
+    "source_sha256": "952c9ee07a96646b347d6280a141a3fa73b5c277254fc154e68ddafd9d1e4b57",
+    "target": "有人密谋毒害哈姆雷特\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "there's a plot to poison Hamlet",
+    "base_target_sha256": "089401eab65c25b7d2b019760e7f9cb34a750c7832516327a0ece9425366bff1",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-2c31581e25ca06aa",
+    "source": "Gertrude and Claudius were poisoned\n",
+    "source_sha256": "2c31581e25ca06aa37a325ecfbde15e717da1a2709e3a20e40341a38eef08070",
+    "target": "乔特鲁德和克劳狄斯遭人下毒\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Gertrude and Claudius were poisoned",
+    "base_target_sha256": "dd019310b5d408d88a42df00330a8319617b20bead1c2f7acc307a05a2803a61",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0cbab8e5c90c1258",
+    "source": "Ophelia is on a mission to find Gertrude's diary\n",
+    "source_sha256": "0cbab8e5c90c12589ecc844bff8642c66270a3b179129f0d08c4b4c13263053b",
+    "target": "奥菲莉娅正在执行寻找乔特鲁德日记的任务\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is on a mission to find Gertrude's diary",
+    "base_target_sha256": "c508ad919a0bc4b897f8be26b27ea6521db7fd06f7a945d3fc994191a9fe2b47",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6b14a785fcf3e705",
+    "source": "Ophelia has leverage on the guards\n",
+    "source_sha256": "6b14a785fcf3e705a94c5cb1e033f7fc15c36a7aa3ee4470b96e8da9e6d7a148",
+    "target": "奥菲莉娅有能要挟卫兵的筹码\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia has leverage on the guards",
+    "base_target_sha256": "fe64e6d0ada42687287f46f1ea73ffd4a84b779346c2066545d2bcbd9a40aa65",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-bdf52fcf8a64b2bd",
+    "source": "the castle must be fortified\n",
+    "source_sha256": "bdf52fcf8a64b2bde982f45c03a6725cdd6200bb297bdff748ab4ad4566678b2",
+    "target": "必须加强城堡的防御\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the castle must be fortified",
+    "base_target_sha256": "3a77f0164e5c0e525548063eae56c4cd2425b8ca9b15480f72c6b5bd9a17afd8",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-dd84b6870a8daef0",
+    "source": "Castle Town should be fortified against Norway\n",
+    "source_sha256": "dd84b6870a8daef091a9360aac3c7afad682416e0f6de074879eedc27d87afdb",
+    "target": "城堡镇应加强防御，抵御挪威\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Castle Town should be fortified against Norway",
+    "base_target_sha256": "8ac0d0f6ea00226623e89bac1c871a455c915e1125f3e2c98a940f8a5841748d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-dd8868596b0e5959",
+    "source": "Claudius should surrender to Fortinbras\n",
+    "source_sha256": "dd8868596b0e5959be8b09ebd59eaf0acb5643bd54e7468dd09f1e478424dc91",
+    "target": "克劳狄斯应向福丁布拉斯投降\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius should surrender to Fortinbras",
+    "base_target_sha256": "5643c2a25a5459e0b385c69d49339a0f1c4a8317d72eb0d3a7ba56aa388728ae",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-9ad643c5b9f305b8",
+    "source": "Hamlet needs to be disciplined\n",
+    "source_sha256": "9ad643c5b9f305b8053f390d228b053d297160d05d0a0d7edcd9f2fdc321dbf0",
+    "target": "哈姆雷特需要受到管教\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet needs to be disciplined",
+    "base_target_sha256": "9df93b4a715a60d4e104274432ab2b4e8ac5c21068da6c8e58985f220c1086c7",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-7a6d761e35e7da79",
+    "source": "the ghost of King Hamlet is real\n",
+    "source_sha256": "7a6d761e35e7da7929fad1eecb66b8a0a6e1b63f1264cf181b2044ef0c80f0bb",
+    "target": "哈姆雷特国王的幽灵确实存在\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the ghost of King Hamlet is real",
+    "base_target_sha256": "e562b9a08ee91f40ec821ace36c2bd90a076c044ed1c74fb1d692115400d876b",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-1ab815945c94a425",
+    "source": "the walls are haunted\n",
+    "source_sha256": "1ab815945c94a42510436e5c9dfb6c328ba8ade8d04fc3f4d2492e6f609bdd32",
+    "target": "城墙闹鬼\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the walls are haunted",
+    "base_target_sha256": "d3e3261b1222ee554a7218385e395d8e9324dc54dd3f5dbdb016c77ef36c7bd1",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-e4025d8d050c07b8",
+    "source": "Ophelia can change the play\n",
+    "source_sha256": "e4025d8d050c07b898ccb0a250faf070cef85f9b73d305b508e474b3ed8e5cce",
+    "target": "奥菲莉娅可以修改这出戏\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia can change the play",
+    "base_target_sha256": "c74d8df6d8c31ca0ed50bc046c51812d4b5a863fb82d048417c50cf4f1d67bf5",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d440c7a601a57a1f",
+    "source": "Ophelia has the Book of Fates\n",
+    "source_sha256": "d440c7a601a57a1f304fee224ac0ad11c4a85e3e110a0adc1f5fe8e37f2c35b3",
+    "target": "奥菲莉娅持有《命运之书》\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia has the Book of Fates",
+    "base_target_sha256": "ae0e2ea628e93f06e4a91486f33becc9b82d6114bdcdd590372b1370954e632f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-11031c4b2437a12a",
+    "source": "Quince experiences time loops\n",
+    "source_sha256": "11031c4b2437a12a6be89e2563372f6ee7d027009c651251853710c17cbf44a8",
+    "target": "奎因斯也在经历时间循环\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Quince experiences time loops",
+    "base_target_sha256": "b767724435bcc7f4e95251b4cd8af0a4bfbe64751dcc96f90cd80fa5fb22b7f4",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-f505b6318457f08a",
+    "source": "Quince will perform in town on Saturday night\n",
+    "source_sha256": "f505b6318457f08a56dd4cce5dfad70f1ad3c3d76d474ab90b0cc2a6e33f37b1",
+    "target": "奎因斯将在星期六晚上在镇上演出\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Quince will perform in town on Saturday night",
+    "base_target_sha256": "70e85d851e541ebc3055a24de4dac9684ef8946c5234096439a15724eb12772a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-422c4bc0a6f72603",
+    "source": "Brit met Fortinbras in secret\n",
+    "source_sha256": "422c4bc0a6f72603900924d7a6f00f0afa6a414a44b61d6cd5af5c58c51dd648",
+    "target": "布莉特曾秘密会见福丁布拉斯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Brit met Fortinbras in secret",
+    "base_target_sha256": "3e116bcff7a712a92021ae2fec1d9a1c095c8e7518016f7620b2929c1ac5d9a4",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0c52ff3736ffe886",
+    "source": "Quince is dangerous\n",
+    "source_sha256": "0c52ff3736ffe8864da97f334f304007c5d3fefec364ba05bd9f0e778f65c6b0",
+    "target": "奎因斯很危险\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Quince is dangerous",
+    "base_target_sha256": "3c852eb23da8e1feadadff0665aee7f4672db5411d1044bf0308e7c1b579aeeb",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-91318aefe68cdec5",
+    "source": "the ghost is destroyed\n",
+    "source_sha256": "91318aefe68cdec57b5c48ba8a94034db0baf04c564a3f236c82ae4a14f221b1",
+    "target": "幽灵已被消灭\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the ghost is destroyed",
+    "base_target_sha256": "711bd3d2329008fc3bd84d6814db00467dab34609f04e143eae1744af8d8c87a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-43d476a96f20e22d",
+    "source": "If I'm being printed (which I shouldn't be), then I'm locking the player out of ninja content for the GDC build\n",
+    "source_sha256": "43d476a96f20e22d38ec2eeee43554eec5c594c710563fa6031dcde92c264a2a",
+    "target": "如果我被显示出来了（这本不该发生），那我就在阻止玩家访问游戏开发者大会版本中的忍者内容\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "If I'm being printed (which I shouldn't be), then I'm locking the player out of ninja content for the GDC build",
+    "base_target_sha256": "14e80983bd3247acdd490fa2ec0537f0a12ea283e8d5ca14ca5108c15bd11b83",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-38c4c5f41c4bfa57",
+    "source": "Queen Gertrude is the spy\n",
+    "source_sha256": "38c4c5f41c4bfa578b846cc60568bb54c52a6adcae8f526138a2d84ae356ea08",
+    "target": "乔特鲁德王后就是那个间谍\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Queen Gertrude is the spy",
+    "base_target_sha256": "db15b125badac064a2a1de5970f0ae33e3098c257fd7f6ff02b990b704eefa30",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-607bd3b13d6e4b52",
+    "source": "Polonius is the spy\n",
+    "source_sha256": "607bd3b13d6e4b5256d376c93b502980969d7dd437bde30f850fc742624c2057",
+    "target": "波洛涅斯就是那个间谍\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius is the spy",
+    "base_target_sha256": "9c50fe5f34d382641ebd8cee6deb1ef8dd724bc3c3271c115053d96357f81573",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-17ff452d7b84a27c",
+    "source": "Bernardo is the spy\n",
+    "source_sha256": "17ff452d7b84a27c7c2e4a5bbf581989696816a1b88f328e20b0b7360fa4a363",
+    "target": "贝尔纳多就是那个间谍\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Bernardo is the spy",
+    "base_target_sha256": "6902413bf293199380974e5a352433cf9506755ba0c5489f6e13a3f94bbac592",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-82194642b34b12f7",
+    "source": "Rosencrantz and Guildenstern are spies\n",
+    "source_sha256": "82194642b34b12f793796f0131b053f755f6b5350d19d7afe7f24f9bd6010ecc",
+    "target": "罗森克兰兹和吉尔登斯吞是间谍\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Rosencrantz and Guildenstern are spies",
+    "base_target_sha256": "c88d9d0361f31dffca4bc0e74cd7c4fbc1b6f8b1603cc338a2f49c6c0cd323b2",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-5be78cec1731eb04",
+    "source": "Bernardo wishes to meet\n",
+    "source_sha256": "5be78cec1731eb04491b11eb200ab9dd6ced33496bf5d28eebdb256422c7bc57",
+    "target": "贝尔纳多希望会面\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Bernardo wishes to meet",
+    "base_target_sha256": "9933d90a9089487530a416644c2b7d777151e7fb7239768b6c3fdf3e5bf0e2b4",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-e401b3178b95a7b6",
+    "source": "Bernardo is also Katherine\n",
+    "source_sha256": "e401b3178b95a7b6ed2f2740e289dbd7cd4e2f4958543bb21ca1e86c6e074f86",
+    "target": "贝尔纳多也是凯瑟琳\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Bernardo is also Katherine",
+    "base_target_sha256": "5f1b65769d1adf61299062442ba3042fb50a89d013ab0df5fa12686a8b25da56",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ce088ef69c1474ad",
+    "source": "Bernardo should be betrothed\n",
+    "source_sha256": "ce088ef69c1474adcfa157c344757a4fd8ae7f41fc3757068c67cabd3440e9b5",
+    "target": "贝尔纳多应当订婚\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Bernardo should be betrothed",
+    "base_target_sha256": "0b8077d9f908d694c03fe516c2aa2e2cf1bbed82e8d6b0472932eb8bdf4f7161",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-2d28daa5f6e199ed",
+    "source": "Bernardo should be punished\n",
+    "source_sha256": "2d28daa5f6e199edf6251759f1ee9c3693d5738681838eff205701ecde9b4d24",
+    "target": "贝尔纳多应当受到惩罚\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Bernardo should be punished",
+    "base_target_sha256": "cd6b7ec325db5956f3bffe03d6f6ea76cb7ac2acaa34a1d7de2d57b6cef74c38",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-26049ce7fb2f88ac",
+    "source": "they have been dismissed from the castle\n",
+    "source_sha256": "26049ce7fb2f88acd227e610eaf19aa730211eb323a7b27ce47bedb97a9cc2b2",
+    "target": "他们已被逐出城堡\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "they have been dismissed from the castle",
+    "base_target_sha256": "bca2b15a1f1a53e4828c73842601556b296bb21f3cbd0d3ce2958e37f93436c5",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-dc25133a0858d0c0",
+    "source": "Othello and Ophelia are lovers\n",
+    "source_sha256": "dc25133a0858d0c0da1c6e944ab4ff47024123577cb4082630557df3af456fac",
+    "target": "奥赛罗和奥菲莉娅是恋人\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Othello and Ophelia are lovers",
+    "base_target_sha256": "9fb1120f9f084ce3c33ad92a63113f5a7e1eb4a2351f23e64b192323964ba05b",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ee4a2281be218801",
+    "source": "Claudius and Ophelia are lovers\n",
+    "source_sha256": "ee4a2281be218801b335fd9838bfe23abd934f344870771670c2a663818f0b4d",
+    "target": "克劳狄斯和奥菲莉娅是恋人\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius and Ophelia are lovers",
+    "base_target_sha256": "76fa4e3e2022e5451fce0929f4a7d95716bb2558c3f11831120a8667c1b4f68a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-8b49219d00969d11",
+    "source": "Claudius is grieving heavily for Gertrude\n",
+    "source_sha256": "8b49219d00969d11f385fb43068884707997decfa242e8a12f6d9c200082320d",
+    "target": "克劳狄斯为乔特鲁德深感悲痛\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius is grieving heavily for Gertrude",
+    "base_target_sha256": "16b3d61f7f6414f318fa4ec1c55ffdbf79944bd384ff1f52ac81156b05579e40",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-f2f04750a50c4af3",
+    "source": "Othello's bar must be defended\n",
+    "source_sha256": "f2f04750a50c4af37a5e10334c234e8ad1dbf7b8b3ea7433c7086c5fe986e299",
+    "target": "必须守住奥赛罗的酒馆\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Othello's bar must be defended",
+    "base_target_sha256": "8bb3bddeaff0c7a589fa086e2e9d74bb23ee07c45ed0226d4a6faded96bbcdb8",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-3a0f559b5b906653",
+    "source": "the key is hidden\n",
+    "source_sha256": "3a0f559b5b9066539db6033497d3845dcc88259705e21b2767ca771aa059404b",
+    "target": "钥匙被藏起来了\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the key is hidden",
+    "base_target_sha256": "e6ee503afac646540ebc0b8a54eab512adcc5f873b32b4550d94a95e6ef9236c",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6198d8cf00861ec2",
+    "source": "that bucket is gross\n",
+    "source_sha256": "6198d8cf00861ec2c72be00b88363f9c92ab421311dce2d569391616ddcfb6ef",
+    "target": "那个桶很恶心\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "that bucket is gross",
+    "base_target_sha256": "8364fed31b2cf09de022c8f552c8edb9faa58660de025ed4147e9a0a5d4edd20",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d4169c2467dab84e",
+    "source": "the King's poison stash has been emptied\n",
+    "source_sha256": "d4169c2467dab84e8a7b281eeec782712d0c266c1f76f70829a156a0fde1ec57",
+    "target": "国王藏毒药的地方已被清空\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the King's poison stash has been emptied",
+    "base_target_sha256": "2c6f6cac3fca1a784fafda32c92ca835093de350b522f94c4afadebcbdc976c2",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-c432479f08ef013b",
+    "source": "ship temp unlock\n",
+    "source_sha256": "c432479f08ef013ba1cc91bd0df1fe3123a0d274502c2345358c0503e26d4190",
+    "target": "船只临时解锁\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "ship temp unlock",
+    "base_target_sha256": "cb9e56063e394fbe271e0d68628a251283a5dc29d0e75a07793aae2a1563c912",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-1f99a06f5356eb8a",
+    "source": "Polonius's death was an accident\n",
+    "source_sha256": "1f99a06f5356eb8ad4884ae7188b4e3a6a682f81500fa3b83434b402ecd5dee3",
+    "target": "波洛涅斯的死是一场意外\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius's death was an accident",
+    "base_target_sha256": "1c52c520fe45b1110f4ca96318537639b7590a6022ba75a7ede2e63345196eed",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-2932dc6bedc5d655",
+    "source": "he should be wary of Hamlet\n",
+    "source_sha256": "2932dc6bedc5d655915eccb55023320c613c0077ddefb01a28f12b632a3a9e78",
+    "target": "他应当提防哈姆雷特\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "he should be wary of Hamlet",
+    "base_target_sha256": "f5960bab00d0d41a309be6718a242cdec21d800330f1b4868e1d8d4b3e7e0dc8",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-e3b0e72a21a4ca21",
+    "source": "fates can be changed\n",
+    "source_sha256": "e3b0e72a21a4ca2180f3d9cf1779a115895f57c142f4d8f434929280c1b12f5c",
+    "target": "命运可以改变\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "fates can be changed",
+    "base_target_sha256": "ba88ecf9d07a9a170ff40d31a8d83423b632527669946f75e806f4a447325826",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-a1f57656d38ec6a4",
+    "source": "there's a note hidden in the gallery\n",
+    "source_sha256": "a1f57656d38ec6a43ee56feb5e9fe89635e16efecb25d6a6e1cfd1bf64dcb021",
+    "target": "画廊里藏着一张字条\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "there's a note hidden in the gallery",
+    "base_target_sha256": "f0bfe51b7283d5e054032e7166b8cf627ea0ae483f34ee25c663f3c2daf03b0f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-cd4aa96e39407e16",
+    "source": "a death report exists for King Hamlet\n",
+    "source_sha256": "cd4aa96e39407e1652acbdf4b5d4359f75ccda675386ca2e0486565f0dba8e3b",
+    "target": "有一份关于哈姆雷特国王的死亡报告\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "a death report exists for King Hamlet",
+    "base_target_sha256": "e7c0d7c944368d5be20c27e2b955b2091114b19db5ef43333726cdf806376e25",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6b54536e038eaf33",
+    "source": "she's read the death report\n",
+    "source_sha256": "6b54536e038eaf33f38f839e1e6c9fda88c36b5d2587a8cba13cd5afdedda42d",
+    "target": "她已读过死亡报告\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "she's read the death report",
+    "base_target_sha256": "1963942e6fc54de3cf1855272c62f2bcf130ad05b70e1098ab5c0ccd3126261a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-7b460612f0a852e7",
+    "source": "Hamlet and Ophelia are in a relationship\n",
+    "source_sha256": "7b460612f0a852e7322a908ecf791f39ae151178a9d1fd52e83993930f592c84",
+    "target": "哈姆雷特和奥菲莉娅正在交往\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet and Ophelia are in a relationship",
+    "base_target_sha256": "8e2a50497f81434fc1a5d941af9ad01667d04e0a3f05ff4c6272d59aeedbcf7f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-19b8c3e4136b1f16",
+    "source": "Laertes and Polonius must leave Elsinore\n",
+    "source_sha256": "19b8c3e4136b1f1643a603b9d51cd0fd3b4718a4e37f846d1cef6bba91a75bc2",
+    "target": "雷欧提斯和波洛涅斯必须离开埃尔西诺\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Laertes and Polonius must leave Elsinore",
+    "base_target_sha256": "b83e06af1d355da0323095e4509a67d1fe7359f709c49a717685d74e3d1f4839",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-730d112d700ac035",
+    "source": "Ophelia has agreed to marry Hamlet\n",
+    "source_sha256": "730d112d700ac035b1ed68298d8f2f6936586f98d7d486d755b43fa00d11fb63",
+    "target": "奥菲莉娅已答应嫁给哈姆雷特\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia has agreed to marry Hamlet",
+    "base_target_sha256": "747d02303ad7d9dcf5e42b33b220da0e73c016f7d00991293ff5ecc1e0ad98bd",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-a964b798200c2048",
+    "source": "the Danish nobility can be dominated\n",
+    "source_sha256": "a964b798200c20486a8dcb5fef10e0c5bc72a7864d2dde76d83e3e545e7a2bec",
+    "target": "丹麦贵族可以被控制\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the Danish nobility can be dominated",
+    "base_target_sha256": "32c09f9d131e572450b4dcd5868aec7706a8ec7329628991641f8b9f871d802f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-babae3ca9168abe0",
+    "source": "Hamlet needs to marry politically\n",
+    "source_sha256": "babae3ca9168abe04211201938cc59e1569a069dcb8dfd55cb946aada188518c",
+    "target": "哈姆雷特需要政治联姻\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet needs to marry politically",
+    "base_target_sha256": "454d9a8ecb625d4fab79863d30ce5e12c125cbb3c79fe618175ead0a626b94e6",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-a3e8f81e20f015c3",
+    "source": "Hamlet's biggest threats are within Elsinore\n",
+    "source_sha256": "a3e8f81e20f015c39c6a7522573706b8c30f126f1db1ee64ec4058c512e96bc4",
+    "target": "哈姆雷特最大的威胁来自埃尔西诺内部\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet's biggest threats are within Elsinore",
+    "base_target_sha256": "28bab972d1533b6f70a28d94a35e4548ef75450c3cd284c919e2e83df8dc12f4",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-c54d53650d8afba2",
+    "source": "Hamlet's biggest threats are outside Elsinore\n",
+    "source_sha256": "c54d53650d8afba2ba31eb536ff969ebbad071283e6449a0f1c7f9093a3b327b",
+    "target": "哈姆雷特最大的威胁来自埃尔西诺外部\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet's biggest threats are outside Elsinore",
+    "base_target_sha256": "9043f661282d017642b8bfb0eef0f58d1dfbbbca484f0dc80b3a2d39c0b509b0",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-5c98ab0cb7f77fb3",
+    "source": "it's time to return to Wittenberg\n",
+    "source_sha256": "5c98ab0cb7f77fb313df06c64403ea3db5f14fcfeead9464c68420b445a4c573",
+    "target": "该回威登堡了\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "it's time to return to Wittenberg",
+    "base_target_sha256": "05c895091b9f2dacc20676e1784254b048188b103212395da85199dcc25270f3",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-27fd727185e9d3e8",
+    "source": "Hamlet and Brit will be married\n",
+    "source_sha256": "27fd727185e9d3e826ad65d75bc366b1b05f7f743a4c846d345339c8116fab76",
+    "target": "哈姆雷特和布莉特将会结婚\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet and Brit will be married",
+    "base_target_sha256": "812b90d598cefb25228349e781ffe9d2eb39f16b86c45d57fe4e4002ec498a32",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-e9c75a967e1a6d49",
+    "source": "Ophelia and Grace slept together\n",
+    "source_sha256": "e9c75a967e1a6d49f2550d7ffd41a54d819cff2c167350507d0523ba1735024b",
+    "target": "奥菲莉娅和格蕾丝上过床\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia and Grace slept together",
+    "base_target_sha256": "c53ae72534e0f2831ff1b8cb081a8d72fa56b922e165cbbfeec3e061a9cba7b3",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-e65175651d293f26",
+    "source": "Ophelia and Grace are friends\n",
+    "source_sha256": "e65175651d293f26c7d2e9f8b5b1a1a36fb339db6d93321fb5a8778dff4a3f9f",
+    "target": "奥菲莉娅和格蕾丝是朋友\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia and Grace are friends",
+    "base_target_sha256": "86f884fc0fada1080aa9a49bf1f4637c8207acf51c89a414e073c428387284fa",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-47e304063df7a760",
+    "source": "Ophelia has joined Grace's crew\n",
+    "source_sha256": "47e304063df7a760140983037e8d5bcc1013e4d111ebfc468dde3f7c25b52904",
+    "target": "奥菲莉娅已加入格蕾丝的船员队伍\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia has joined Grace's crew",
+    "base_target_sha256": "053f693ee44252d063a005fb9cd875ecd2617c9fa0629a25dacf750fb65b5694",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-5a0ad17bdf86f9a3",
+    "source": "Ophelia changed King Claudius's orders\n",
+    "source_sha256": "5a0ad17bdf86f9a386278188ff471efbceb5c8f3583abf9a06190befca86ae2e",
+    "target": "奥菲莉娅改动了克劳狄斯国王的命令\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia changed King Claudius's orders",
+    "base_target_sha256": "97a61dece526f9a231df7248c033ac7d6e1427c656941c0bb87a5e420273bf1a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-a197aca842a35627",
+    "source": "Claudius has ordered Hamlet's execution\n",
+    "source_sha256": "a197aca842a35627953d6796218210906a23606636b0f0685c7067aeaef5d69c",
+    "target": "克劳狄斯已下令处决哈姆雷特\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius has ordered Hamlet's execution",
+    "base_target_sha256": "aa5448c9ea4439d9dec6fe224bdecb0874f697943c026eb306bd197203f2e932",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ca6b14ba524fc5f7",
+    "source": "she is unimportant to the flow of time\n",
+    "source_sha256": "ca6b14ba524fc5f74b6af905499f1808b3a4800f0ced7fd4762d9ea0553665fb",
+    "target": "她对时间的流转无关紧要\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "she is unimportant to the flow of time",
+    "base_target_sha256": "6ac70c919f9ad9eeeafbe8ea76d8ff7ccf64535699a70984c3c4c99036d173cc",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-1b9e34d94b31242d",
+    "source": "Guildenstern is dead\n",
+    "source_sha256": "1b9e34d94b31242d03f1c6f13c7177fdbf542dbb4607146c22348a2e6d094793",
+    "target": "吉尔登斯吞已经死了\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Guildenstern is dead",
+    "base_target_sha256": "5ab2d53b0d140160acfaf5845a536df65b8b112a1a113f6751c51635ed88d095",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-9934ba35188fed46",
+    "source": "Ophelia and Guildenstern kissed\n",
+    "source_sha256": "9934ba35188fed46553366d305882e1f0212145e64bde847c01e6ebfcf38f010",
+    "target": "奥菲莉娅和吉尔登斯吞接过吻\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia and Guildenstern kissed",
+    "base_target_sha256": "02d127065d06e9b32cacd47ae79f0ec10356b45b0619b1c9f6bfa6ccd42e794a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-78f492aa82589ec9",
+    "source": "Ophelia and Guildenstern are friends\n",
+    "source_sha256": "78f492aa82589ec948b4a15cbfa2b39aecbe489cb102afec26d59095c2106637",
+    "target": "奥菲莉娅和吉尔登斯吞是朋友\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia and Guildenstern are friends",
+    "base_target_sha256": "b457309576492a642e0f57a7fc6796b96c4e3ea4ab4dcb032a1f12aeb45ade86",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-fbe1ed34fe8053ce",
+    "source": "Grace is Irish nobility\n",
+    "source_sha256": "fbe1ed34fe8053ce9deda80ac73c924d57748a391c69a135c1824b917990d02d",
+    "target": "格蕾丝是爱尔兰贵族\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Grace is Irish nobility",
+    "base_target_sha256": "8f8083b0d52dacda3065c183afb6466c48a490f192bea777af11d8d42216dca5",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-b315b296d23a19ff",
+    "source": "Grace has met the Queen of England\n",
+    "source_sha256": "b315b296d23a19ff14a35bd0966ec8eee7e3a032ee9337ce578de8dbc245c12a",
+    "target": "格蕾丝见过英格兰女王\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Grace has met the Queen of England",
+    "base_target_sha256": "74d4917aee733da2d986316d6a4ed738b034b8e654ab1ac21fcc6438d4cf0df4",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0956b64a76f4135f",
+    "source": "Grace was married\n",
+    "source_sha256": "0956b64a76f4135fabf2b736a2643281e91e7f968329ec90ddbde80afff260a0",
+    "target": "格蕾丝曾经结过婚\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Grace was married",
+    "base_target_sha256": "01372622a2fa8e9efde92743c9f844d15281e95cc6621e1c50f8c9c4f3c83808",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-f401dab825dd77df",
+    "source": "Ophelia wants to be friendly\n",
+    "source_sha256": "f401dab825dd77dfce240dae9388edb06c2e24a7e0c05230c57c77eb22557e30",
+    "target": "奥菲莉娅想友好相处\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia wants to be friendly",
+    "base_target_sha256": "a808fef9c88b70b56f1c1549cc77dbaa15c191f7da91569a8e877cf8dcb4290a",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-54cdd9c21fcd2911",
+    "source": "Ophelia and Brit are friends\n",
+    "source_sha256": "54cdd9c21fcd2911942121b1ebdb0317886c581ea8b0212d232e33296023ce0a",
+    "target": "奥菲莉娅和布莉特是朋友\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia and Brit are friends",
+    "base_target_sha256": "c68e657d1e9bc4c8a3a02b105685af0c19ac6be417f44d8643d266607f973629",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-aaa893c9a125e25e",
+    "source": "the King's death must be reported\n",
+    "source_sha256": "aaa893c9a125e25ea60007b444f7ac927e71629c8cf7a502a9cd0863c7303f67",
+    "target": "必须报告国王的死讯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the King's death must be reported",
+    "base_target_sha256": "1cdf13f0e0b112196c6fa9b593118b25cf22ae8042ec8d805fbda558ff1832f2",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-dd98225318ec62ac",
+    "source": "the Queen's death must be reported\n",
+    "source_sha256": "dd98225318ec62ac9e9e7f4ce7dd8c52ade04eeb58080b6c6ed58940dbcc4ae7",
+    "target": "必须报告王后的死讯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the Queen's death must be reported",
+    "base_target_sha256": "b63da64b0810fc897c95953c951aafa95ebc7302b5c0cfaed5810f570d43c42e",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-5a46122cfc5f796c",
+    "source": "Hamlet's death must be reported\n",
+    "source_sha256": "5a46122cfc5f796c4a4e0e151a655f7ffab29feac40a17f289ebf3c93ce8b434",
+    "target": "必须报告哈姆雷特的死讯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet's death must be reported",
+    "base_target_sha256": "9b1440d421856e1b8e5fd4929d1ebd7f12ba2b8654093a3b7fe778ac0aa18a50",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-344074132963a3dc",
+    "source": "Polonius's death must be reported\n",
+    "source_sha256": "344074132963a3dc98c13df39419d264a2181d0d5ce70d877fc16f944c4517f4",
+    "target": "必须报告波洛涅斯的死讯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius's death must be reported",
+    "base_target_sha256": "6e66e9d91bb270e6136e66adfbfcbc9c266d93e617d41ad1491d13b92d2e6978",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-0a7f1a3920302233",
+    "source": "Laertes's death must be reported\n",
+    "source_sha256": "0a7f1a392030223387f7839793ec357ab08acadf3c3e80eda261f4920a9ec692",
+    "target": "必须报告雷欧提斯的死讯\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Laertes's death must be reported",
+    "base_target_sha256": "959e2252fc5e5db00e509738adaa9dfe4ea4ea281ba6ff3eb2db9461dc71b45e",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-2337f84da1ae7867",
+    "source": "Fortinbras has been imprisoned\n",
+    "source_sha256": "2337f84da1ae786734a2cbc4a489d1b3df461d4bd2dcad7b8b092848963e1eed",
+    "target": "福丁布拉斯已被关押\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Fortinbras has been imprisoned",
+    "base_target_sha256": "43b84fd060a4ef649c7d0e551ba4b1360ec4c1a5eb29736ba31e97fff2dfc795",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-db11cfeb9f1bfc67",
+    "source": "Polonius has a locked chest in his chambers\n",
+    "source_sha256": "db11cfeb9f1bfc671ea453ebdac3ed5f0b76e017b60d6b1bacea4217e97a4391",
+    "target": "波洛涅斯的房间里有一只上锁的箱子\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Polonius has a locked chest in his chambers",
+    "base_target_sha256": "f8d1787205765cff20436748cdc1b38e81d980ec45be99e11ca5b1ae37cb1df6",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-2599b8ff8d6ca374",
+    "source": "Laertes will be King of Denmark\n",
+    "source_sha256": "2599b8ff8d6ca374dbe0f211489dfe3fdc09297bd8f13a067f9beefcb038e1d4",
+    "target": "雷欧提斯将成为丹麦国王\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Laertes will be King of Denmark",
+    "base_target_sha256": "d4ad0c00824c2225f4643734b8c5d0016e0558a5f0ce025112780551eaaf690d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-f348227b98a3f145",
+    "source": "Laertes and Brit are lovers\n",
+    "source_sha256": "f348227b98a3f1458c1d94faac6608e6af86b38532d074d69e0f25c99ce2cb2d",
+    "target": "雷欧提斯和布莉特是恋人\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Laertes and Brit are lovers",
+    "base_target_sha256": "bf618cabf0e6fccbe832741dd197a00339ebae0f8d5e9c7262a43638677616db",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-6e77939f13917a8b",
+    "source": "Lady Brit is unwell\n",
+    "source_sha256": "6e77939f13917a8b0dab9c2e0f2ca3f0193bda5f0da24aeac8626dd58bedd242",
+    "target": "布莉特女士身体不适\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Lady Brit is unwell",
+    "base_target_sha256": "3fe80818466858895829460db19e6eea406179f94b8e039707244ae9a932f81f",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-45590b87702f9e9e",
+    "source": "Everyone should remain indoors.\n",
+    "source_sha256": "45590b87702f9e9eb4496d6a0fc709bdef3a6e8d133f4536dff21c482efacce3",
+    "target": "所有人都应待在室内。\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Everyone should remain indoors.",
+    "base_target_sha256": "18d87f650feb27253d74a9965115bffff79424319e9e24d9877f5dbb2b1a3fce",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-332c8542da0e98ec",
+    "source": "Claudius has romantic feelings for Ophelia\n",
+    "source_sha256": "332c8542da0e98ec345446a8398e9847313fb95a2747aff06076314c3895f629",
+    "target": "克劳狄斯对奥菲莉娅有爱慕之情\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Claudius has romantic feelings for Ophelia",
+    "base_target_sha256": "46f62d5666d8bc16dcd43a1785f7c7bdcd53fb32daa0318bee5e2b0b0297c1f2",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-228a69008c99ed2d",
+    "source": "Ophelia has agreed to become Queen of Denmark\n",
+    "source_sha256": "228a69008c99ed2d254452dabec169918e141599d61eb0c1bd0c607ef42cb4fc",
+    "target": "奥菲莉娅已答应成为丹麦王后\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia has agreed to become Queen of Denmark",
+    "base_target_sha256": "6f643b046206f6e0900ea144c363d130ee28f1956fd65377db57ac2580ed08da",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ff2487d68cd1c71d",
+    "source": "Brit hangs out by the docks.\n",
+    "source_sha256": "ff2487d68cd1c71d4eb58b9e771da704205a284acd377fec961a513f3444cd30",
+    "target": "布莉特常在码头一带闲逛。\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Brit hangs out by the docks.",
+    "base_target_sha256": "dac3a464618d943a1bc21afb4ce7959bcea4a9588fa0a2db501554e4ac9037ec",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-b1fc4e5033be1922",
+    "source": "Ophelia is troubled\n",
+    "source_sha256": "b1fc4e5033be192217f0dc522471b44772277a699fba228d23a31bf875d233f0",
+    "target": "奥菲莉娅心事重重\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is troubled",
+    "base_target_sha256": "acd4f103029178ff97038c0d4ace16293e0eb1353d859156f227ca7ba6eeb91c",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-8d4908ce37a7f732",
+    "source": "Ophelia has feelings for Othello\n",
+    "source_sha256": "8d4908ce37a7f732df34e7c2c2d6b8f41807b452fa59de4d22ebee231305c1f1",
+    "target": "奥菲莉娅对奥赛罗有好感\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia has feelings for Othello",
+    "base_target_sha256": "aa2183372ab897deef8be2bb7bca6f09e7d87cd9ba98f41f8c5da356714a7219",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ec7464fba563b431",
+    "source": "Ophelia and Othello are friends\n",
+    "source_sha256": "ec7464fba563b43147022dcb7a0e7ec69ccd4e94bf9fe27004561f8382fb8592",
+    "target": "奥菲莉娅和奥赛罗是朋友\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia and Othello are friends",
+    "base_target_sha256": "f2f66a9f4dd570981068a41d03c92957f3b09f50b1a91f8dea6425c4195230b6",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-8cd3df056e20d8ba",
+    "source": "Hamlet has gone to England\n",
+    "source_sha256": "8cd3df056e20d8bad0579d843545986fbb758f353b9b0655992115f5f47d8006",
+    "target": "哈姆雷特已经去了英格兰\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet has gone to England",
+    "base_target_sha256": "6857d7a64a6dc9ab0798dce9b079934770a713ce3ae91538da44951069b2178d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-ef3e403267c6bb9a",
+    "source": "Ophelia is going to England\n",
+    "source_sha256": "ef3e403267c6bb9aecd7711af8e41af499b1ae406360cd8585f64e0ae5ec8410",
+    "target": "奥菲莉娅将前往英格兰\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is going to England",
+    "base_target_sha256": "54940bc8b1c471a6a4a3d573f12324701f74aa37d19c3d7f84f73dd4557bfca3",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-8b87e3f478efff70",
+    "source": "there will be a mutiny against Grace\n",
+    "source_sha256": "8b87e3f478efff70316e04d7fd03bba16c141b08a0603096e7297814aed7ad25",
+    "target": "将发生一场针对格蕾丝的叛变\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "there will be a mutiny against Grace",
+    "base_target_sha256": "1fe35aa46ec249bb1ddc79213920c1c3516ba3bace74ede6123f057d0002d0ef",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-66e305ee580236c9",
+    "source": "Hamlet is unfit for romance\n",
+    "source_sha256": "66e305ee580236c9c9ef7003c7f4946e45193c904b779dec657230e735b3eccb",
+    "target": "哈姆雷特不适合谈情说爱\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is unfit for romance",
+    "base_target_sha256": "9fa64799b04b718556b9f2163d6e633e2a072cee0845e277f5ba69e33fafd770",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-1f1371b69cf10787",
+    "source": "Hamlet is next in line to become King\n",
+    "source_sha256": "1f1371b69cf10787cf4f340bc3de4e56b1cba7b076e631a8cb987ef034a88067",
+    "target": "哈姆雷特是王位的第一顺位继承人\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet is next in line to become King",
+    "base_target_sha256": "dc7fad8405aa0c3c4fba039256d78b0d75d7f772d9ef17d98534f3c6270d4485",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d91666d4c4124df2",
+    "source": "the Book of Fates can show the future\n",
+    "source_sha256": "d91666d4c4124df2919b4263a39d0bc82902b0cde343dc4c718c878524e76b91",
+    "target": "《命运之书》可以显示未来\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "the Book of Fates can show the future",
+    "base_target_sha256": "c8bf96e818d3fde8ed78d80c8858a4b4a60c48fcb5ca92ca56da69c45b240c8d",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-a7e4081aac75ddf7",
+    "source": "Gertrude hid letters from Brit's mother\n",
+    "source_sha256": "a7e4081aac75ddf7a03e5fa038ce92483f41a5740888606b091491653b07b269",
+    "target": "乔特鲁德藏起了布莉特母亲寄来的信\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Gertrude hid letters from Brit's mother",
+    "base_target_sha256": "3573a6cd93d6bdc4f9f9f30301bccb8a8d8bd47b253e44d8b84a3eaff8f15da3",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-22cbea384d3cf687",
+    "source": "Horatio needs supplies to make an artist's kit\n",
+    "source_sha256": "22cbea384d3cf687e7091ebdb34e53e36072b7619b7ea50687deb6e9d0df762c",
+    "target": "霍拉旭需要材料来制作一套绘画工具\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Horatio needs supplies to make an artist's kit",
+    "base_target_sha256": "50f4d510acc03d685e698088a0f6df3af0408eea47c169d6c13b45eadc7a88ba",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-26579dbe62259d94",
+    "source": "Othello and Ophelia are acquainted\n",
+    "source_sha256": "26579dbe62259d9455eea509c4bcd93b55a7c0d2a0f8e3c5ac6cef9b11fd4dd8",
+    "target": "奥赛罗和奥菲莉娅彼此认识\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Othello and Ophelia are acquainted",
+    "base_target_sha256": "def9342cd28bd2de7c089fb00a39f38195acdd2e20881e194c5ff4432a5936eb",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-3cfdfbee4566f3cb",
+    "source": "Hamlet and Laertes can make amends\n",
+    "source_sha256": "3cfdfbee4566f3cba917531cff30e39afcc168d6c996e99377d33632ebeb85bf",
+    "target": "哈姆雷特和雷欧提斯可以和解\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Hamlet and Laertes can make amends",
+    "base_target_sha256": "8bcf286379f0df544c8f6227b9ab6bad82886ec1a99c124732d130286c3c0661",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-b42b00c2b5756516",
+    "source": "TODO CHOOSE TEXT\n",
+    "source_sha256": "b42b00c2b57565165231e13e7dc6caa9639a3f3310a804cb227fb258060a4923",
+    "target": "待办：选择文本\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "TODO CHOOSE TEXT",
+    "base_target_sha256": "3481c705a688bcc6efb419bd929b6e98bb76a367c9dcb45fc674a1e1156d776b",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  },
+  {
+    "id": "mixed-log-terminal-d9e31a001efc855a",
+    "source": "Ophelia is intriguing\n",
+    "source_sha256": "d9e31a001efc855a73b5be0c53806eeda5af6f8efafa9fab379d385c5f974fdb",
+    "target": "奥菲莉娅令人好奇\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "analysis/ui-audit/notification-source-audit.json",
+      "resources.assets:name_mapping"
+    ],
+    "base_source": "Ophelia is intriguing",
+    "base_target_sha256": "d82dabd8166cc114a37086bfec4ec1723e85d4a3327416b8be15319b9d87207c",
+    "note": "固定逻辑通知追加真实尾LF；除尾LF外逐字复用已有译文，不更改正文"
+  }
+]

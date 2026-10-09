@@ -5114,12 +5114,22 @@
   {
     "id": "notification-final-newline-13",
     "source": "<b>Ophelia</b> learns about an event.\n",
-    "target": "<b>奥菲莉娅</b>得知了一个事件。",
+    "target": "<b>奥菲莉娅</b>得知了一个事件。\n",
     "source_sha256": "1194b78264e42328783dc20d68c82521a0ba6296a3a8061e05cbf32c10287bc1",
     "origins": [
       "analysis/ui-audit/notification-source-audit.json"
     ],
     "expected_target_revision": {
+      "previous_target_sha256": "7992f80f92d102d3fb5589357828f225411aab6923895761bada2f5b2e7a1a22",
+      "reason": "本轮精确LF通知别名已优先于Trim命中；保留真实尾LF并逐字复用正文，不修改消费者顺序或放宽结果比较。",
+      "origins": [
+        "translation/supplemental/mixed-log-translations.json",
+        "docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md"
+      ]
+    },
+    "previous_target": "<b>奥菲莉娅</b>得知了一个事件。",
+    "note": "本轮修复精确固定通知先Trim命中导致丢尾LF；现保留HistoryTracker真实尾LF，正文逐字不变",
+    "previous_expected_target_revision": {
       "previous_target_sha256": "6a820c75273757112c413345b72795f9578c44ed59efed0e3e3ca4d440fbbe67",
       "reason": "真实消费者先查冻结词表及去首尾空白；已冻结完整裸句带末尾LF命中Trim路径，按既有契约只输出冻结目标。终端富文本padding用例另行验证格式保留。",
       "origins": [
@@ -5149,12 +5159,22 @@
   {
     "id": "notification-final-newline-14",
     "source": "<b>Ophelia</b> learns about multiple events.\n",
-    "target": "<b>奥菲莉娅</b>得知了多个事件。",
+    "target": "<b>奥菲莉娅</b>得知了多个事件。\n",
     "source_sha256": "b99696c556c816efce91ced5695ee3c48ab9d6cb350430dfe1f6cba880d1094b",
     "origins": [
       "analysis/ui-audit/notification-source-audit.json"
     ],
     "expected_target_revision": {
+      "previous_target_sha256": "409369ca0ce0a1303d747819c027ef9204a4dad84c02683faf6e99b2058893ad",
+      "reason": "本轮精确LF通知别名已优先于Trim命中；保留真实尾LF并逐字复用正文，不修改消费者顺序或放宽结果比较。",
+      "origins": [
+        "translation/supplemental/mixed-log-translations.json",
+        "docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md"
+      ]
+    },
+    "previous_target": "<b>奥菲莉娅</b>得知了多个事件。",
+    "note": "本轮修复精确固定通知先Trim命中导致丢尾LF；现保留HistoryTracker真实尾LF，正文逐字不变",
+    "previous_expected_target_revision": {
       "previous_target_sha256": "89a863caed748f646272e94cbb49f1d802e6723ceebbc2e9bbcaffe5e30e7123",
       "reason": "真实消费者先查冻结词表及去首尾空白；已冻结完整裸句带末尾LF命中Trim路径，按既有契约只输出冻结目标。终端富文本padding用例另行验证格式保留。",
       "origins": [
@@ -5265,12 +5285,22 @@
   {
     "id": "notification-final-newline-18",
     "source": "King Hamlet was murdered\n",
-    "target": "哈姆雷特国王遭人谋杀",
+    "target": "哈姆雷特国王遭人谋杀\n",
     "source_sha256": "a532c603b71565e5c74892f3482f9f90acf46661aefece73d0a649613266c072",
     "origins": [
       "analysis/ui-audit/notification-source-audit.json"
     ],
     "expected_target_revision": {
+      "previous_target_sha256": "67b6f032744136ee2a7b47ab415cdb974dd2b27ef50c84c86ae8ae339edb0ac7",
+      "reason": "本轮精确LF通知别名已优先于Trim命中；保留真实尾LF并逐字复用正文，不修改消费者顺序或放宽结果比较。",
+      "origins": [
+        "translation/supplemental/mixed-log-translations.json",
+        "docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md"
+      ]
+    },
+    "previous_target": "哈姆雷特国王遭人谋杀",
+    "note": "本轮修复精确固定通知先Trim命中导致丢尾LF；现保留HistoryTracker真实尾LF，正文逐字不变",
+    "previous_expected_target_revision": {
       "previous_target_sha256": "e06d6f58c061fcb7587e0456cb3f80a1f9fb82b9a58e7278d5c57b9da472fece",
       "reason": "真实消费者先查冻结词表及去首尾空白；已冻结完整裸句带末尾LF命中Trim路径，按既有契约只输出冻结目标。终端富文本padding用例另行验证格式保留。",
       "origins": [

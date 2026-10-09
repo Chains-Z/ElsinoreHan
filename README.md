@@ -1,6 +1,6 @@
 # ElsinoreHan
 
-《Elsinore》的离线中文补丁。**16,866 条离线词条已完成并安装**，正常从 Steam 启动即可使用中文。
+《Elsinore》的离线中文补丁。**17,027 条离线词条已完成并安装**，正常从 Steam 启动即可使用中文。
 
 按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
 
@@ -8,7 +8,7 @@
 
 完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
 
-兼容插件1.4.0和132条动态规则已安装。本轮统一33处Playmaster为“戏剧大师”，补齐日志专用简称、运行变体、斜体续行与长记录拆分；23,116个消费者通过。F8在真实日志的四处阅读位置保持同一段落附近，长段内部可能稍有滚动差异。重启游戏即可加载更新，粗斜体和字体参数保持。见[本轮修复与验证](docs/dev-tasks/localization/log-followup-2026-10-10.md)；前轮[线索等修复](docs/dev-tasks/localization/ui-followup-2026-10-10.md)与[字体证据](docs/dev-tasks/localization/runtime-ui-followup.md)保留。
+兼容插件1.4.0和138条动态规则已安装。本轮修复日志中通知与对白交错的边界，统一两人的“骑士卫队”称号，并保留固定通知尾换行。114,028项消费者和111项真实游戏离线API检查通过；范围是当前资源与有限格式矩阵，不代表全剧情零漏译。见[本轮修复与验证](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮[日志F8阅读位置保护](docs/dev-tasks/localization/log-followup-2026-10-10.md)、[线索等修复](docs/dev-tasks/localization/ui-followup-2026-10-10.md)与[字体证据](docs/dev-tasks/localization/runtime-ui-followup.md)保留。
 
 ## 目录与维护
 
@@ -20,7 +20,7 @@
 | translation/sol-full-2026-10-09/ | 分批输入、冻结模型响应、输出和审计 |
 | tools/translation/ | 真实来源适配、Sol 调用、校验及离线词表导出 |
 | tools/patch/ | 插件源码、构建、备份安装、后台自动检查及打包 |
-| runtime/evidence/log-followup-verification.json | 最新日志覆盖、F8阅读位置、安装与ZIP核验摘要 |
+| runtime/evidence/mixed-log-verification.json | 最新混合日志、离线API、安装与ZIP核验摘要 |
 | analysis/ | 原始只读提取脚本、候选清单和统计 |
 | docs/dev-tasks/localization/README.md | 历史研究、模型比较及实施记录索引 |
 

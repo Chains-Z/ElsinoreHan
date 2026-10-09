@@ -42,3 +42,6 @@ analysis/ui-audit/resource-descriptions-zh.txt
 translation/supplemental/dialogue-log-followup-tests.json
 translation/supplemental/dialogue-log-depth-tests.json
 analysis/ui-audit/dialogue-log-source-audit.json
+# 混合日志全量交叉组合由生成器复现，Git保留代表性回归及结果哈希。
+translation/supplemental/mixed-log-tests.json
+translation/supplemental/mixed-log-pair-tests.json

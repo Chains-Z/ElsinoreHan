@@ -1,0 +1,185 @@
+{
+  "passed": true,
+  "installed": true,
+  "run_id": "bd9418f88faf4a2d926d2d727936d972",
+  "plugin_version": "1.4.0",
+  "dictionary_entries": 17027,
+  "dynamic_rules": 138,
+  "new_terminal_lf_aliases": 161,
+  "offline_consumer_cases": 114028,
+  "real_game_api_cases": 111,
+  "matrix": {
+    "shortnames": [
+      "Townsperson",
+      "Fortinbras",
+      "Katherine",
+      "Marcellus",
+      "Petruchio",
+      "Voltemand",
+      "Baptista",
+      "Bernardo",
+      "Claudius",
+      "Corambis",
+      "Finnegan",
+      "Gertrude",
+      "Kubilius",
+      "Lucianus",
+      "McDonald",
+      "Polonius",
+      "Reynaldo",
+      "Villager",
+      "Brigand",
+      "Captain",
+      "Gonzago",
+      "Horatio",
+      "Kistler",
+      "Laertes",
+      "Ophelia",
+      "Othello",
+      "Richard",
+      "Servant",
+      "Soldier",
+      "Aldous",
+      "Cygnus",
+      "Figure",
+      "Guilda",
+      "Hamlet",
+      "Murphy",
+      "Quince",
+      "Sailor",
+      "Elise",
+      "Ghost",
+      "Grace",
+      "Rosie",
+      "Woman",
+      "Brit",
+      "Irma",
+      "???"
+    ],
+    "character_ids": 55,
+    "notification_variants": 189,
+    "types": [
+      "Dialogue",
+      "LogicChange",
+      "Stage",
+      "Alert"
+    ],
+    "case_count": 52166,
+    "pair_case_count": 38746,
+    "categories": {
+      "all_dialogues": 23108,
+      "all_shortnames": 25515,
+      "depth_stress": 3,
+      "header_matrix": 1158,
+      "negative": 8,
+      "notification_matrix": 1134,
+      "screenshot": 1,
+      "stage_matrix": 1158,
+      "type_matrix": 81
+    }
+  },
+  "files": {
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": {
+      "installed": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52",
+      "tested": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52",
+      "package": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52",
+      "zip": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": {
+      "installed": "161e3f94435e2ce477be2ec3a0fb71551ffb229dd761247ee53501fc19e419a1",
+      "tested": "161e3f94435e2ce477be2ec3a0fb71551ffb229dd761247ee53501fc19e419a1",
+      "package": "161e3f94435e2ce477be2ec3a0fb71551ffb229dd761247ee53501fc19e419a1",
+      "zip": "161e3f94435e2ce477be2ec3a0fb71551ffb229dd761247ee53501fc19e419a1"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": {
+      "installed": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+      "tested": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+      "package": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+      "zip": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512"
+    }
+  },
+  "real_game_api_fixture_sha256": "70c838694635f38459e90cbb01911e2550fb74180e4e0d53ddadbec9e4afa9d1",
+  "process": {
+    "run_id": "bd9418f88faf4a2d926d2d727936d972",
+    "launched_at_utc": "2026-10-09T19:33:10.8029839Z",
+    "pid": 22852,
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10,
+    "arguments": [
+      "-batchmode",
+      "-nographics",
+      "-nosound",
+      "-logFile",
+      "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\bd9418f88faf4a2d926d2d727936d972\\player.log\""
+    ]
+  },
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-6f413db42b4842f99a322ede96cdd074",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-bd9418f88faf4a2d926d2d727936d972",
+    "files": [
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "295D4D1AD59B0A191609E4454C79BBEE7DAF9B9D5A5D8901BF4773625E2B0C46",
+        "write_time": "2026-10-09T17:57:36.7513453Z"
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "D4FF03B4F1B3F6DAE43DFDB2184989B050BBF94DF6D2444F08438255DDCAA5F2",
+        "write_time": "2026-10-09T16:34:22.5468816Z"
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "4141C10164758CD715C3FFC7ABA6A010EAE0B8AF8E61C0B0560BE1E988460908",
+        "write_time": "2026-10-09T13:52:48.3583129Z"
+      },
+      {
+        "path": "elsinore_log.json",
+        "sha256": "34005554038CFFD7A4F29888845CCB3A736A258DCB4C86FB3F61A71F69EED5E7",
+        "write_time": "2026-10-09T19:01:29.8482336Z"
+      },
+      {
+        "path": "game.save",
+        "sha256": "A4825F201C5662F22E5C5CF3C3EC7DBAE81500CE96C4E83A7E46742217766C0B",
+        "write_time": "2026-10-09T19:01:27.7416859Z"
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "F99725E20D18477425000B4129056D9EA6FD019ABE88D9958903A77CB9DF5DFF",
+        "write_time": "2026-10-09T13:51:58.5775621Z"
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274C5BA9799562C003EB6A47B9E7B526F27555B646787FD7E44CAE3F341",
+        "write_time": "2026-10-09T18:57:19.9764794Z"
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "A7428098C69D511D9C340044A862343EDABF4AC341E9397CAC554B80212AA8F2",
+        "write_time": "2026-10-09T10:29:21.2936642Z"
+      }
+    ]
+  },
+  "installed_backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-a00c4d7f7f204120aef6b5b3d1f74aea",
+  "zip_sha256": "4e6b7e6e103d2752041b54a1baae01e6b591cfc7cd3b3e33d57aa4a31edbf5a1",
+  "temporary_probe_cleaned": true,
+  "test_loader_config_restored": true,
+  "original_game_binaries_unchanged": true,
+  "title_targets": {
+    "Bernardo": "丹麦贵族，骑士卫队队长",
+    "Marcellus": "埃尔西诺骑士卫队成员"
+  },
+  "limits": [
+    "覆盖真实格式入口、当前通知原子/人物简称及有限交叉矩阵，不宣称无限序列或未知资源永远可译",
+    "真实游戏中111项是离线TryTranslate消费及菜单F8，不称截图剧情已重新游玩",
+    "本轮没有重测日志滚动坐标、全部设置档位或字体像素；对应前轮证据保留",
+    "161条仅为通知末尾LF的精确源别名，不是重新翻译161段正文"
+  ]
+}

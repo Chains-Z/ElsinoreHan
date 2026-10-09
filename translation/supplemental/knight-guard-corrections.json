@@ -1,0 +1,36 @@
+[
+  {
+    "id": "knight-guard-51cea747ad582b91",
+    "source": "Knight-Guard of Elsinore",
+    "source_sha256": "51cea747ad582b914cb1ebda4b5bb93cdacd7237c7ff00ac6a4aaf43e4462b71",
+    "previous_target": "埃尔西诺的卫兵骑士",
+    "target": "埃尔西诺骑士卫队成员",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "49975131f1e00180e528ceea4ea9e630c1d421dc2b4061992df1d63c0add1a85",
+        "json_path": "$.list[10].subtitle",
+        "field": "subtitle",
+        "record_id": "marcellus"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[13].subtitle",
+        "field": "subtitle",
+        "record_id": "marcellus"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[13].subtitle",
+        "field": "subtitle",
+        "record_id": "marcellus"
+      }
+    ],
+    "note": "Knight-Guard统一为骑士卫队，保留队长与普通成员的职务区别；不额外添加爵位或级别"
+  }
+]
