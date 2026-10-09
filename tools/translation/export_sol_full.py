@@ -16,12 +16,20 @@ def apply_supplemental(rows, entries):
     """合并有来源的定向补译；已有译文必须明确记录旧值，冻结模型响应保持原样。"""
     result = [dict(row) for row in rows]
     by_source = {row["source"]: row for row in result}
+    by_id = {row["id"]: row for row in result}
     seen = set()
     for entry in entries:
         source = entry["source"]
         if source in seen or not entry.get("origins") or hashlib.sha256(source.encode("utf-8")).hexdigest() != entry["source_sha256"]:
             raise ValueError("补译来源、哈希或唯一性不完整")
         seen.add(source)
+        if "existing_id" in entry:
+            original = by_id.get(entry["existing_id"])
+            if (original is None or entry.get("existing_source") != original["source"]
+                    or entry.get("existing_source_sha256") != hashlib.sha256(original["source"].encode("utf-8")).hexdigest()
+                    or entry.get("existing_target_sha256") != hashlib.sha256(original["target"].encode("utf-8")).hexdigest()
+                    or entry["target"] != original["target"]):
+                raise ValueError("精确源别名必须完整复用已记录的原条目及译文")
         if not re.search(r"[\u3400-\u9fff]", entry["target"]) or validate([entry], {"translations": [{"id": entry["id"], "target": entry["target"]}]}):
             raise ValueError("补译内容或格式不完整")
         if source in by_source:
@@ -35,6 +43,7 @@ def apply_supplemental(rows, entries):
             row["batch"] = "settings-supplemental"
             result.append(row)
             by_source[source] = row
+            by_id[row["id"]] = row
     return result
 
 
@@ -136,7 +145,7 @@ def main():
     base_count = len(rows)
     supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
     rows = apply_supplemental(rows, supplemental)
-    for filename in ("notification-translations.json", "runtime-closeup-translations.json"):
+    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json"):
         extra_path = SUPPLEMENTAL.with_name(filename)
         if extra_path.exists():
             extra_entries = json.loads(extra_path.read_text(encoding="utf-8"))

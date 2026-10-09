@@ -8,7 +8,7 @@ using UnityEngine;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.2.0")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.3.0")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -24,6 +24,8 @@ public sealed class TranslationToggle : BaseUnityPlugin
     private static object fullTranslationType;
     private static BepInEx.Logging.ManualLogSource compatibilityLogger;
     private static bool cacheFailureLogged;
+    public const byte ChineseItalicStyle = 10;
+    public static byte? OriginalChineseItalicStyle;
 
     private void Awake()
     {
@@ -42,6 +44,9 @@ public sealed class TranslationToggle : BaseUnityPlugin
             prefix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("SetStringThroughText", BindingFlags.Public | BindingFlags.Static)));
         compatibility.Patch(typeof(TMP_Text).GetProperty("text").GetSetMethod(),
             prefix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("PrepareOfflineText", BindingFlags.Public | BindingFlags.Static)));
+        compatibility.Patch(typeof(TMP_FontAsset).GetMethod("ReadFontAssetDefinition", Type.EmptyTypes),
+            postfix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("ConfigureChineseItalic", BindingFlags.Public | BindingFlags.Static)));
+        foreach (TMP_FontAsset font in Resources.FindObjectsOfTypeAll<TMP_FontAsset>()) ConfigureChineseItalic(font);
         Logger.LogInfo("TMP StringBuilder 与字符串 SetText 文本入口兼容已启用。");
         foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())
         {
@@ -68,6 +73,16 @@ public sealed class TranslationToggle : BaseUnityPlugin
         builderPrefixCalls++;
         SetOfflineText(__instance, __0 == null ? string.Empty : __0.ToString());
         return false;
+    }
+
+    public static void ConfigureChineseItalic(TMP_FontAsset __instance)
+    {
+        // 仅调整本补丁中文回退字体；TMP 合成斜体不增加推进宽度，过大剪切会撞字。
+        if (__instance != null && String.Equals(__instance.name, "ARIALUNI SDF", StringComparison.Ordinal))
+        {
+            if (!OriginalChineseItalicStyle.HasValue) OriginalChineseItalicStyle = __instance.italicStyle;
+            __instance.italicStyle = ChineseItalicStyle;
+        }
     }
 
     public static bool SetStringThroughText(TMP_Text __instance, string __0)

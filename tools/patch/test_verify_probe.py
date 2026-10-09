@@ -3,6 +3,7 @@
 import unittest
 import base64
 import importlib.util
+import json
 from pathlib import Path
 
 specification = importlib.util.spec_from_file_location("verify_probe", Path(__file__).with_name("verify-probe.py"))
@@ -16,6 +17,16 @@ def visible(text: str, overflow: bool = False) -> dict:
 
 
 class ProbeRegressionTests(unittest.TestCase):
+    def test_background_input_guard_cannot_claim_partial_isolation(self):
+        for report in ("PHYSICAL_INPUT_GUARD_ACTIVE=False BLOCKED=0\nPHYSICAL_INPUT_MODULES_DISABLED=1",
+                       "PHYSICAL_INPUT_GUARD_ACTIVE=True BLOCKED=12\nPHYSICAL_INPUT_MODULES_DISABLED=0"):
+            with self.subTest(report=report):
+                self.assertFalse(evaluate([], [], report, "")["headless_cancel_and_submit_input_isolated"])
+
+    def test_background_input_guard_requires_controller_and_module_isolation(self):
+        report = "PHYSICAL_INPUT_GUARD_ACTIVE=True BLOCKED=12\nPHYSICAL_INPUT_MODULES_DISABLED=1"
+        self.assertTrue(evaluate([], [], report, "")["headless_cancel_and_submit_input_isolated"])
+
     def test_journal_navigation_omits_unvisited_settings_without_claiming_pass(self):
         result = evaluate([visible("继续游戏"), visible("设置"), visible("退出游戏")], [],
                           "GLYPHS_继续游戏设置退出=True", "", include_settings=False)
@@ -69,6 +80,30 @@ class ProbeRegressionTests(unittest.TestCase):
         self.assertTrue(result["menu_labels_all_translated"])
         self.assertTrue(result["menu_labels_no_overflow"])
 
+    def test_start_prologue_uses_exact_frozen_translation(self):
+        root = Path(__file__).resolve().parents[2]
+        rows = json.loads((root / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
+        self.assertEqual(next(row["target"] for row in rows if row["source"] == "Start Prologue"), "开始序章")
+
+    def test_start_prologue_menu_is_valid_alternative(self):
+        result = evaluate([visible("开始序章"), visible("设置"), visible("退出游戏")], [],
+                          "GLYPHS_继续游戏设置退出=True", "", include_settings=False)
+        self.assertTrue(all(result.values()))
+
+    def test_start_prologue_overflow_is_rejected(self):
+        result = evaluate([visible("开始序章", True), visible("设置"), visible("退出游戏")], [], "", "")
+        self.assertTrue(result["menu_labels_all_translated"])
+        self.assertFalse(result["menu_labels_no_overflow"])
+
+    def test_untranslated_start_prologue_menu_is_rejected(self):
+        result = evaluate([visible("Start Prologue"), visible("设置"), visible("退出游戏")], [], "", "")
+        self.assertFalse(result["menu_labels_all_translated"])
+        self.assertFalse(result["menu_no_original_labels"])
+
+    def test_remaining_english_prologue_is_rejected_even_with_chinese_entry(self):
+        result = evaluate([visible("开始序章"), visible("Start Prologue"), visible("设置"), visible("退出游戏")], [], "", "")
+        self.assertFalse(result["menu_no_original_labels"])
+
     def test_menu_without_start_label_does_not_pass(self):
         self.assertFalse(evaluate([visible("设置"), visible("退出游戏")], [], "", "")["menu_labels_all_translated"])
 
@@ -83,6 +118,23 @@ class ProbeRegressionTests(unittest.TestCase):
     def test_remaining_chinese_is_not_original_toggle(self):
         result = module.evaluate_toggle({"Options", "Quit Game", "Continue Game", "设置"}, {"设置", "退出游戏", "继续游戏"}, "")
         self.assertFalse(result["toggle_original_menu"])
+
+    def test_start_prologue_toggle_original_and_restored_are_valid(self):
+        for options in ("Options", "Settings"):
+            with self.subTest(options=options):
+                result = module.evaluate_toggle({options, "Quit Game", "Start Prologue"},
+                                                {"设置", "退出游戏", "开始序章"}, "F8_RELEASE_NO_CHANGE=True")
+                self.assertTrue(all(result.values()))
+
+    def test_remaining_chinese_prologue_is_not_original_toggle(self):
+        result = module.evaluate_toggle({"Options", "Quit Game", "Start Prologue", "开始序章"},
+                                        {"设置", "退出游戏", "开始序章"}, "F8_RELEASE_NO_CHANGE=True")
+        self.assertFalse(result["toggle_original_menu"])
+
+    def test_untranslated_prologue_is_not_restored_toggle(self):
+        result = module.evaluate_toggle({"Options", "Quit Game", "Start Prologue"},
+                                        {"设置", "退出游戏", "Start Prologue"}, "F8_RELEASE_NO_CHANGE=True")
+        self.assertFalse(result["toggle_restored_menu"])
 
 
 if __name__ == "__main__":

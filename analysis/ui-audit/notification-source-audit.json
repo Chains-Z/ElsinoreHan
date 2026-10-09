@@ -6227,7 +6227,7 @@
   ],
   "coverage": {
     "rules": 16,
-    "tests": 596,
+    "tests": 616,
     "desires": 7,
     "names": 46,
     "allowed_atomic_display_sources": 154,
@@ -6235,7 +6235,7 @@
     "share_sources": 314,
     "share_scenes": 393
   },
-  "verification_limit": "645 条真实 XUnity 递归组件消费用例通过；未运行游戏，不能宣称通知渲染或完整游戏 E2E 通过。",
+  "verification_limit": "672 条真实 XUnity 递归组件消费用例通过（596通知+20引号+49日志+7斜体模板回归）；本组件消费者不启动游戏，不能宣称通知渲染或完整游戏 E2E 通过。",
   "share_display_sources": [
     {
       "source": "<i>Exit BERNARDO.</i>",
@@ -7817,38 +7817,128 @@
     "consumer": "已安装真实 XUnity.AutoTranslator 5.6.2 的 RegexTranslationSplitter + ParserResult.GetTranslationFromParts；词表精确/Trim优先，Splitter逆序首匹配",
     "notification_suite": {
       "actual_recursive_xunity_consumer_passed": true,
-      "count": 596,
-      "command": "tools/translation/verify-recursive-ui.ps1 -TestsPath translation/supplemental/notification-ui-tests.json"
+      "count": 616,
+      "command": "tools/translation/verify-recursive-ui.ps1 -TestsPath translation/supplemental/notification-ui-tests.json",
+      "existing_cases": 596,
+      "new_quote_cases": 20
     },
     "existing_suite": {
       "actual_recursive_xunity_consumer_passed": true,
-      "count": 49,
+      "count": 56,
+      "existing_cases": 49,
+      "new_italic_template_cases": 7,
       "command": "runtime/build/VerifyRecursiveUiRules.exe <installed coreDLL> translation/sol-full-2026-10-09/dynamic-rules.json translation/sol-full-2026-10-09/translations.json translation/supplemental/dynamic-ui-tests.json"
     },
     "artifact_sha256": {
       "translation/supplemental/notification-ui-rules.json": "bb8a27cc0a090c954d7aac44be8bdd105fb405a9da2531bcd4a41ee4cd46c2d3",
-      "translation/supplemental/notification-ui-tests.json": "30d5ac3c86aadec9d0944ececc0498e29c9f4a9f40a8e19969470a1a0c28673b",
-      "translation/supplemental/dynamic-ui-tests.json": "5c4c3fc93bdd853342d63efec0e52850380ebbb04cfcfb156d94a9b3e6733b59",
+      "translation/supplemental/notification-ui-tests.json": "718cbfea68c92fa1dfd52223d0be97f3a9118cb2919518ead57d8a41541725e1",
+      "translation/supplemental/dynamic-ui-tests.json": "318401e835740e2a2a85442e490896dac928098cb98dd26271c9b0f545fc5102",
       "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
-      "translation/sol-full-2026-10-09/dynamic-rules.json": "5df9525486892965e4c8a5299160079f39c6906338d79ab519fa42fbad5a146c",
-      "translation/sol-full-2026-10-09/translations.json": "0b633b62071d039bfbc5618b2d760d8b3dd228b6ccea7e3f7ad1488a6d83e8d7",
+      "translation/sol-full-2026-10-09/dynamic-rules.json": "c5238db07ea63717df99b6b7861647d4900988c294f69915ba1bbcfdc629042a",
+      "translation/sol-full-2026-10-09/translations.json": "53b8d96789d0c7bf4b728c24fec25e3fdbb75905fef0178506069809f5066941",
       "tools/translation/VerifyRecursiveUiRules.cs": "6785d4fcc78111577ad7a5e7416ea327f19239a3808ed5de3ac0decee0c8584e",
-      "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb"
+      "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+      "translation/supplemental/dynamic-ui-rules.json": "1404b5668f07320ab18f685c94439e0572798199b10c78c41bf5be5b095a8c0c"
     },
     "export": {
       "passed": true,
       "total_dynamic_rules": 90,
       "recursive_ui_rules": 66,
-      "total_translations": 16841
+      "total_translations": 16843
     },
     "corrected_failures": [
       "同源术语修订以两阶段 apply_supplemental 覆盖；同阶段唯一性校验保持严格",
       "line-boundary 的有限零参原子本身可为完整条目，不要求原子后额外字符；两侧仍必须非空且完整消费",
       "3个裸冻结字面量末尾LF用例按精确/Trim优先的既有契约更新预期，不修改源",
-      "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留"
+      "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留",
+      "外层带完整引号的 now/no longer believes 专用规则目标恢复中文弯双引号；未加引号的嵌套或外层分支不新增引号。旧历史3预期按真实带引号源精确更新。",
+      "斜体日志封套先剥i会遮蔽a00941/a00942原含i格式模板；限定负向前瞻排除两种完整结构，单个尾LF由受限notification-trailing封套保留，body再交回旧模板。首匹配失败不换规则兜底。"
     ],
     "game_started": false,
     "online_api_called": false,
     "game_save_accessed": false
+  },
+  "previous_component_verifications": [
+    {
+      "consumer": "已安装真实 XUnity.AutoTranslator 5.6.2 的 RegexTranslationSplitter + ParserResult.GetTranslationFromParts；词表精确/Trim优先，Splitter逆序首匹配",
+      "notification_suite": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 596,
+        "command": "tools/translation/verify-recursive-ui.ps1 -TestsPath translation/supplemental/notification-ui-tests.json"
+      },
+      "existing_suite": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 49,
+        "command": "runtime/build/VerifyRecursiveUiRules.exe <installed coreDLL> translation/sol-full-2026-10-09/dynamic-rules.json translation/sol-full-2026-10-09/translations.json translation/supplemental/dynamic-ui-tests.json"
+      },
+      "artifact_sha256": {
+        "translation/supplemental/notification-ui-rules.json": "bb8a27cc0a090c954d7aac44be8bdd105fb405a9da2531bcd4a41ee4cd46c2d3",
+        "translation/supplemental/notification-ui-tests.json": "30d5ac3c86aadec9d0944ececc0498e29c9f4a9f40a8e19969470a1a0c28673b",
+        "translation/supplemental/dynamic-ui-tests.json": "5c4c3fc93bdd853342d63efec0e52850380ebbb04cfcfb156d94a9b3e6733b59",
+        "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
+        "translation/sol-full-2026-10-09/dynamic-rules.json": "5df9525486892965e4c8a5299160079f39c6906338d79ab519fa42fbad5a146c",
+        "translation/sol-full-2026-10-09/translations.json": "0b633b62071d039bfbc5618b2d760d8b3dd228b6ccea7e3f7ad1488a6d83e8d7",
+        "tools/translation/VerifyRecursiveUiRules.cs": "6785d4fcc78111577ad7a5e7416ea327f19239a3808ed5de3ac0decee0c8584e",
+        "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb"
+      },
+      "export": {
+        "passed": true,
+        "total_dynamic_rules": 90,
+        "recursive_ui_rules": 66,
+        "total_translations": 16841
+      },
+      "corrected_failures": [
+        "同源术语修订以两阶段 apply_supplemental 覆盖；同阶段唯一性校验保持严格",
+        "line-boundary 的有限零参原子本身可为完整条目，不要求原子后额外字符；两侧仍必须非空且完整消费",
+        "3个裸冻结字面量末尾LF用例按精确/Trim优先的既有契约更新预期，不修改源",
+        "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留"
+      ],
+      "game_started": false,
+      "online_api_called": false,
+      "game_save_accessed": false
+    }
+  ],
+  "italic_template_precedence_revision": {
+    "source_cases": [
+      "translation/sol-full-2026-10-09/runtime-cache-cases.json:a00941-55835fca8df0-format",
+      "translation/sol-full-2026-10-09/runtime-cache-cases.json:a00942-c7001f32282b-format"
+    ],
+    "changed_rule_ids": [
+      "ui-rule-log-italic",
+      "ui-rule-log-notification-trailing"
+    ],
+    "cases": 7,
+    "positive_cases": 5,
+    "unknown_parameter_negative_cases": 2,
+    "original_template_rules_unchanged": true,
+    "single_terminal_newline_preserved": true,
+    "first_match_only": true,
+    "verification_level": "真实XUnity递归组件消费；两条源来自冻结数字模板格式回填，尾LF与双条日志是组件组合，不声称真实剧情发生",
+    "failure_reproduced_before_fix": true
+  },
+  "quote_preservation_revision": {
+    "user_observed_source": "<b>Ophelia</b> now believes that \"she's read the death report\".",
+    "source_sha256": "bdd55353655d0a858722133610ca56efded34d58444f51d16767e0f4f4ef44b8",
+    "frozen_leaf_source": "she's read the death report",
+    "frozen_leaf_source_sha256": "98f13de3a324a707f2030bd08b2d130521f35f79267af52141d50c94806c31fe",
+    "frozen_leaf_id": "p14866-98f13de3a324",
+    "frozen_leaf_target": "她已读过死亡报告",
+    "expected_target": "<b>奥菲莉娅</b>现在相信“她已读过死亡报告”。",
+    "source_evidence": [
+      "用户实际通知截图及原句",
+      "resources.assets:knowledge.mapping[].text；来源记录见 zero_parameter_display_audit",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 引号包装",
+      "Elsinore.dll:Model.formatElsinoreTerm IL_01aa 嵌套 believes that 不自行加引号"
+    ],
+    "changed_rule_ids": [
+      "ui-rule-log-quoted-belief-29",
+      "ui-rule-log-quoted-belief-31"
+    ],
+    "existing_leaf_translations_unchanged": true,
+    "unquoted_source_no_added_quotes_verified": true,
+    "nested_quoted_and_unquoted_verified": true,
+    "terminal_padding_and_history_combination_verified": true,
+    "cases": 20,
+    "verification_level": "真实 XUnity 递归组件消费；真实日志骨架与截图通知组合是组件fixture，不声称整段在游戏实际发生"
   }
 }

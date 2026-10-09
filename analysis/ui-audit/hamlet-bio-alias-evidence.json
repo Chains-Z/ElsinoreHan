@@ -1,0 +1,107 @@
+{
+  "scope": "原资源/冻结词表/Cecil静态IL及用户截图源比对；只新增独立精确别名与组件回归，不修改导出/插件/字体/规则或安装",
+  "assembly_path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Elsinore.dll",
+  "assembly_sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4",
+  "existing_id": "p00031-4dfce554591f",
+  "resource_origins": [
+    "resources.assets:bios:49975131f1e0:text",
+    "resources.assets:bios:53db25df9eed:text"
+  ],
+  "original_source": "Hamlet recently lost his father, the former King, who was also named Hamlet. He used to be very popular among those his age in Elsinore, with a much more cheerful disposition, but he's changed--and not for the better.",
+  "original_source_sha256": "4dfce554591fb3a816242ffbcbc474858c4c1288d58c1ec584015938b30b578f",
+  "runtime_source": "Hamlet recently lost his father, the former King, who was also named Hamlet. He used to be very popular among those his age in Elsinore, with a much more cheerful disposition, but he's changed—and not for the better.",
+  "runtime_source_sha256": "f5e7ef7c5e850b5b39d7411aff8b315a5d4c14b891ad374b3709325a503b38c4",
+  "runtime_source_origin": "用户提供截图的正文人工转录，由真实IL规范化输出逐字核对；本次没有读取新运行报告或启动游戏",
+  "original_length": 217,
+  "runtime_length": 216,
+  "ordered_replacements": [
+    {
+      "source": " -- ",
+      "target": "—",
+      "hits": 0
+    },
+    {
+      "source": " --- ",
+      "target": "—",
+      "hits": 0
+    },
+    {
+      "source": " - ",
+      "target": "—",
+      "hits": 0
+    },
+    {
+      "source": "-- ",
+      "target": "—",
+      "hits": 0
+    },
+    {
+      "source": "--- ",
+      "target": "—",
+      "hits": 0
+    },
+    {
+      "source": " --",
+      "target": "—",
+      "hits": 0
+    },
+    {
+      "source": " ---",
+      "target": "—",
+      "hits": 0
+    },
+    {
+      "source": "--",
+      "target": "—",
+      "hits": 1
+    },
+    {
+      "source": "---",
+      "target": "—",
+      "hits": 0
+    }
+  ],
+  "other_differences": [],
+  "path_evidence": [
+    {
+      "owner": "Elsinore.Game.BioList::Parse(Agakme.IO.Json/ParseResult)",
+      "instructions": [
+        "IL_0020: JsonLoad::jloadArray<Elsinore.Game.Lead>",
+        "IL_0026: newobj BioList::.ctor(Lead[],...)"
+      ],
+      "meaning": "人物资料使用Lead列表结构"
+    },
+    {
+      "owner": "Elsinore.Game.CompilerPasses::makeTextReplacements(Elsinore.Game.ElsinoreData)",
+      "instructions": [
+        "IL_005b: ldfld ElsinoreData::CharacterBios@",
+        "IL_0060: ldfld BioList::List@",
+        "IL_0075: ldfld Lead::Lines@",
+        "IL_008e: call CompilerPasses::f@294-50(LeadLine)",
+        "IL_0093: stelem.any LeadLine"
+      ],
+      "meaning": "遍历人物资料每一条LeadLine正文并写回"
+    },
+    {
+      "owner": "Elsinore.Game.CompilerPasses::f@294-50(Elsinore.Game.LeadLine)",
+      "instructions": [
+        "IL_0007: ldfld LeadLine::Text@",
+        "IL_000c: call CompilerPasses::doTextReplacement(System.String)",
+        "IL_001d: newobj LeadLine::.ctor(...)"
+      ],
+      "meaning": "正文通过九步破折号替换，ID及条件保留"
+    },
+    {
+      "owner": "Elsinore.Game.CompilerPasses::doTextReplacement(System.String)",
+      "matching_instruction": [
+        "IL_006a: ldstr \"--\"",
+        "IL_006f: ldstr \"—\"",
+        "IL_0074: callvirt String::Replace(System.String,System.String)"
+      ],
+      "meaning": "此样本仅第8步一次替换，长度217变216；无其它内容或富文本变换"
+    }
+  ],
+  "alias_file": "translation/supplemental/hamlet-bio-alias.json",
+  "consumer_limit": "别名尚未并入导出或安装；只匹配这条完整运行源，不能把破折号转换作为全局翻译回退",
+  "target_reused_unchanged": true
+}

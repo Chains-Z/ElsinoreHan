@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ui-hamlet-bio-f5e7ef7c5e850b5b",
+    "source": "Hamlet recently lost his father, the former King, who was also named Hamlet. He used to be very popular among those his age in Elsinore, with a much more cheerful disposition, but he's changed—and not for the better.",
+    "source_sha256": "f5e7ef7c5e850b5b39d7411aff8b315a5d4c14b891ad374b3709325a503b38c4",
+    "target": "哈姆雷特最近失去了父亲，也就是同样名叫哈姆雷特的先王。他过去在埃尔西诺的同龄人中很受欢迎，性情也开朗得多，可他变了——而且是变糟了。",
+    "origins": [
+      "resources.assets:bios:49975131f1e0:text",
+      "resources.assets:bios:53db25df9eed:text",
+      "analysis/ui-audit/hamlet-bio-alias-evidence.json",
+      "用户人物页截图2026-10-09：Hamlet正文"
+    ],
+    "existing_id": "p00031-4dfce554591f",
+    "existing_source": "Hamlet recently lost his father, the former King, who was also named Hamlet. He used to be very popular among those his age in Elsinore, with a much more cheerful disposition, but he's changed--and not for the better.",
+    "existing_source_sha256": "4dfce554591fb3a816242ffbcbc474858c4c1288d58c1ec584015938b30b578f",
+    "existing_target_sha256": "0283c8942b0dab5218e966ab3e6258c2272b805223fde8b17e086ce8814665e4",
+    "provenance": "仅为真实CompilerPasses人物资料破折号转换生成精确源别名；target逐字复用冻结p00031，不重译正文，不改原资源",
+    "verification_level": "component"
+  }
+]

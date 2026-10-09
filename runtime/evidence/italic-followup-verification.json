@@ -1,0 +1,235 @@
+{
+  "plugin_version": "1.3.0",
+  "run_id": "5f5a90f339c74f2ea2a99d2bc5761fc1",
+  "journal_component_passed": true,
+  "journal_checks": {
+    "collection_finished": true,
+    "save_guard_active": true,
+    "frozen_closeup_resource_hashes_valid": true,
+    "all_real_navigation_confirmed": true,
+    "real_log_overlay_owned": true,
+    "all_journal_tabs_activated": true,
+    "real_document_sources_match": true,
+    "api_reported_matches_consistent": true,
+    "characters_body_actual_translation": true,
+    "characters_name_actual_translation": true,
+    "hud_room_actual_translation": true,
+    "hud_time_actual_translation": true,
+    "leads_body_actual_translation": true,
+    "leads_title_actual_translation": true,
+    "log_entry_actual_translation": true,
+    "rumors_body_actual_translation": true,
+    "rumors_title_actual_translation": true,
+    "timeline_detail_actual_translation": true,
+    "log_all_real_history_indices_bound": true,
+    "log_all_entries_completely_translated": true,
+    "log_all_entries_f8_original_exact": true,
+    "log_all_entries_f8_restored_exact": true,
+    "log_no_unapproved_english": true,
+    "real_document_body_components_translated": true,
+    "real_document_cache_targets_complete": true,
+    "real_document_bare_source_cache_exists": true,
+    "document_body_f8_actual_translation": true,
+    "f8_roundtrip_matches": true,
+    "all_required_pages_have_nonempty_actual_text": true,
+    "all_phase_clocks_really_paused_and_stable": true,
+    "all_requested_phases_available": true,
+    "all_closeup_frozen_ids_consumed": true,
+    "all_closeup_complete_real_targets_displayed": true,
+    "all_known_characters_layout_consumed": true,
+    "all_known_character_titles_fit_without_overlap": true,
+    "all_known_character_profiles_translated": true,
+    "hamlet_profile_f8_original_and_restored": true,
+    "real_information_preview_source_whitelisted": true,
+    "real_quoted_information_preview_translated": true,
+    "danger_preview_existing_real_consumer_coverage": true,
+    "information_preview_not_submitted": true
+  },
+  "menu_checks": {
+    "menu_labels_all_translated": true,
+    "menu_labels_no_overflow": true,
+    "menu_no_original_labels": true,
+    "chinese_glyphs_available": true,
+    "headless_cancel_and_submit_input_isolated": true,
+    "full_translation_chinese_glyphs_available": true,
+    "frozen_long_dialogue_dynamic_cache_cases": true,
+    "save_write_guard_active": true,
+    "toggle_original_menu": true,
+    "toggle_restored_menu": true,
+    "toggle_release_no_change": true
+  },
+  "italic_geometry_component_passed": true,
+  "italic_checks": {
+    "schema_valid": true,
+    "font_restored": true,
+    "actual_old_style_recorded": true,
+    "repaired_style_ten": true,
+    "all_twelve_samples": true,
+    "nonempty_character_samples": true,
+    "mode_style_consistent": true,
+    "layout_geometry_consistent": true,
+    "expected_text_and_emphasis": true,
+    "boundary_evidence_valid": true,
+    "all_geometry_finite": true,
+    "both_boundaries_recorded": true,
+    "repaired_ink_boundaries_clear": true,
+    "italic_retained": true,
+    "normal_not_slanted": true,
+    "character_advance_unchanged": true,
+    "slant_reduced": true,
+    "boundary_gaps_improved": true,
+    "old_collision_reproduced": true
+  },
+  "italic_comparisons": [
+    {
+      "layout": "dialogue",
+      "source_id": "p10804-e0f7f605aeb5",
+      "old_min_gap": -3.59598541,
+      "repaired_min_gap": 2.551384
+    },
+    {
+      "layout": "dialogue",
+      "source_id": "p10805-9c05de9c31a3",
+      "old_min_gap": -5.76730347,
+      "repaired_min_gap": 0.879760742
+    },
+    {
+      "layout": "log",
+      "source_id": "p10804-e0f7f605aeb5",
+      "old_min_gap": -3.595993,
+      "repaired_min_gap": 2.55137634
+    },
+    {
+      "layout": "log",
+      "source_id": "p10805-9c05de9c31a3",
+      "old_min_gap": -5.76730347,
+      "repaired_min_gap": 0.879760742
+    }
+  ],
+  "all_history_indices": 7,
+  "closeup_documents": 14,
+  "known_characters_layout": 14,
+  "information_preview": {
+    "source_base64": "IkhhbWxldCBpcyBhY3RpbmcgaW5jcmVkaWJseSBzdHJhbmdlbHkgbGF0ZWx5LiBEbyB5b3Uga25vdyB3aGF0J3Mgd3Jvbmc/Ig==",
+    "origin": [
+      "SGFtbGV0QWN0aW5nTWFk",
+      "Z2VydHJ1ZGU=",
+      "R2VydHJ1ZGVfRm91bE1vb2Q=",
+      "SGFtbGV0IGlzIGFjdGluZyBpbmNyZWRpYmx5IHN0cmFuZ2VseSBsYXRlbHkuIERvIHlvdSBrbm93IHdoYXQncyB3cm9uZz8=",
+      "fac1e2338e3ecccb520fc6b36249f4352433e71aab41c7bbc30a5e895bf29e30",
+      "6dc74cf66b25f9bc32e257c04b59d6fe227ce73e5ccb5cccd066147317417a9c"
+    ],
+    "matched_real_scenes": [
+      {
+        "scene_id": "Gertrude_FoulMood",
+        "source_sha256": "fac1e2338e3ecccb520fc6b36249f4352433e71aab41c7bbc30a5e895bf29e30",
+        "speaker_id": "ophelia",
+        "resource": "scenes_present",
+        "resource_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "line": 87,
+        "information_ids": [
+          "HamletActingMad"
+        ]
+      }
+    ],
+    "whitelist_sha256": "1ea0d3559705f571f1e40c5b0962f42a649ecf589c465d197d5ba8bc2da680fb",
+    "danger_scene_in_this_ui_run": false,
+    "danger_consumer_cases": [
+      "present-quoted-firstline-253",
+      "present-quoted-firstline-254"
+    ]
+  },
+  "recursive_consumer_suites": {
+    "history": 56,
+    "notifications": 616
+  },
+  "offline_tests": {
+    "export": 15,
+    "hamlet_alias": 4,
+    "menu_verifier": 22,
+    "journal_verifier": 37,
+    "italic_verifier": 28,
+    "launch_preflight": 5
+  },
+  "dictionary_entries": 16843,
+  "total_dynamic_rules": 90,
+  "files": {
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": {
+      "installed": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187",
+      "tested": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187",
+      "package": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187",
+      "zip": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": {
+      "installed": "68a68162bad694e77800d5c22a2e34671990c0eca56196b5a578d5e33c92691c",
+      "tested": "68a68162bad694e77800d5c22a2e34671990c0eca56196b5a578d5e33c92691c",
+      "package": "68a68162bad694e77800d5c22a2e34671990c0eca56196b5a578d5e33c92691c",
+      "zip": "68a68162bad694e77800d5c22a2e34671990c0eca56196b5a578d5e33c92691c"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": {
+      "installed": "3601455fd5b3dd440196e083df0f71e6aa872f4dd09f008a3a712dc5728b0da7",
+      "tested": "3601455fd5b3dd440196e083df0f71e6aa872f4dd09f008a3a712dc5728b0da7",
+      "package": "3601455fd5b3dd440196e083df0f71e6aa872f4dd09f008a3a712dc5728b0da7",
+      "zip": "3601455fd5b3dd440196e083df0f71e6aa872f4dd09f008a3a712dc5728b0da7"
+    }
+  },
+  "installed_backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-2f3dcf514b7345d792543c87149528cd",
+  "zip_entries": 39,
+  "zip_sha256": "d75d96b5a9166e57f7ea4f73192eeaffd26a5cae55dd4989455a7d1517e3d3e7",
+  "original_game_binaries_unchanged": true,
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-6f413db42b4842f99a322ede96cdd074",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-5f5a90f339c74f2ea2a99d2bc5761fc1",
+    "files": [
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "5101F7D5243D0D5A26FAE0988BDD1549067E7FA8EF2CD0BB7FE6F79750987B1B",
+        "write_time": "2026-10-09T13:18:59.6477693Z"
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "2C7E4BC4EF734B955B64ACEDA004654F52E87E2B52BC238DDCB503DA93598930",
+        "write_time": "2026-10-09T12:07:09.4553052Z"
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "5CE841C51F17BD0427049092EFEE3A96E41DF30482E9C31EA51BDC3FE6E3E5A3",
+        "write_time": "2026-10-09T10:34:39.3409901Z"
+      },
+      {
+        "path": "elsinore_log.json",
+        "sha256": "4141C10164758CD715C3FFC7ABA6A010EAE0B8AF8E61C0B0560BE1E988460908",
+        "write_time": "2026-10-09T13:52:48.3583129Z"
+      },
+      {
+        "path": "game.save",
+        "sha256": "C7DF1F2DE68121FF4640698FA20C04048490EAA0D5F6C5A76E3CFB0F8E23E27E",
+        "write_time": "2026-10-09T13:52:47.5086153Z"
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "F99725E20D18477425000B4129056D9EA6FD019ABE88D9958903A77CB9DF5DFF",
+        "write_time": "2026-10-09T13:51:58.5775621Z"
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274C5BA9799562C003EB6A47B9E7B526F27555B646787FD7E44CAE3F341",
+        "write_time": "2026-10-09T13:46:44.0539214Z"
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "A7428098C69D511D9C340044A862343EDABF4AC341E9397CAC554B80212AA8F2",
+        "write_time": "2026-10-09T10:29:21.2936642Z"
+      }
+    ]
+  },
+  "limits": [
+    "真实UI组件与单行字体网格检查；未验收屏幕换行、像素截图、物理F8或全剧情分支",
+    "分享预览来自真实已知信息；指定危险句由独立消费者覆盖",
+    "35与10是TMP合成斜体剪切参数，不是角度；字形矩形包络未采样纹理alpha"
+  ]
+}

@@ -8,6 +8,17 @@ from export_sol_full import ROOT, apply_supplemental, encode, format_rule, print
 
 
 class DynamicFormatTests(unittest.TestCase):
+    def test_exact_alias_export_rejects_changed_target_or_provenance(self):
+        alias = json.loads((ROOT / "translation/supplemental/hamlet-bio-alias.json").read_text(encoding="utf-8"))[0]
+        translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
+        original = next(row for row in translations if row["id"] == alias["existing_id"])
+        self.assertEqual(apply_supplemental([original], [alias])[-1]["target"], original["target"])
+        for field in ("target", "existing_id", "existing_source", "existing_source_sha256", "existing_target_sha256"):
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                apply_supplemental([original], [{**alias, field: alias[field] + "变更"}])
+        with self.assertRaises(ValueError):
+            apply_supplemental([], [alias])
+
     def test_backerbook_runtime_alias_follows_observed_compiler_contract(self):
         rows = json.loads((ROOT / "translation/supplemental/runtime-closeup-translations.json").read_text(encoding="utf-8"))
         translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))

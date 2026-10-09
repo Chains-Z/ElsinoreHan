@@ -25,8 +25,15 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private bool showedOriginal;
     private bool restoredTranslated;
     private float nextMenuCheck;
+    private float capturedMenuAt;
+    private float menuRetryDelay = 1f;
     private bool requestedPause;
     private bool requestedSplash;
+    private object pendingPauseAction;
+    private object pauseRequestOwner;
+    private int pauseRequestAttempts;
+    private bool pauseRetryExhausted;
+    private string lastMenuAdmission;
     private bool saveGuardActive;
     private bool requireSettingsOptions;
     private bool settingsOptionsFinished;
@@ -37,6 +44,9 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private StringBuilder journalReport;
     private static int blockedSaveWrites;
     private static int blockedPresentationSubmits;
+    private static int blockedPhysicalButtons;
+    private static bool physicalInputGuardActive;
+    private static int disabledPhysicalInputModules;
     private static string isolatedSaveDirectory;
 
     private void Awake()
@@ -54,6 +64,19 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         requireToggle = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_TOGGLE") == "1";
         requireSettingsOptions = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_SETTINGS_OPTIONS") == "1";
         requireJournal = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_JOURNAL") == "1";
+        string retryDelay = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS");
+        if (!string.IsNullOrEmpty(retryDelay))
+        {
+            float value;
+            if (!float.TryParse(retryDelay, System.Globalization.NumberStyles.Float,
+                System.Globalization.CultureInfo.InvariantCulture, out value) || float.IsNaN(value) || float.IsInfinity(value) || value < 1f || value > 10f)
+            {
+                Logger.LogError("菜单重试延迟必须在1到10秒之间，保护建立前直接终止。");
+                System.Diagnostics.Process.GetCurrentProcess().Kill();
+                return;
+            }
+            menuRetryDelay = value;
+        }
         // 自动探针只允许后台运行；普通游玩不安装此插件。
         if (!Application.isBatchMode)
         {
@@ -81,6 +104,19 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             if (resolutionMethod == null) throw new InvalidOperationException("未找到后台显示配置保护入口");
             guard.Patch(resolutionMethod,
                 prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockProbeResolutionChange", BindingFlags.Public | BindingFlags.Static)));
+            // Rewired在无窗口后台仍会产生真实按键；只隔离本进程的物理输入。
+            // 组件导航继续走EventSystem/真实UiToggle，不把这种验证称为物理键盘E2E。
+            foreach (var method in typeof(PlayerInputManaged).GetMethods(InstanceFields))
+            {
+                if (method.ReturnType == typeof(bool) && method.Name.StartsWith("GetButton", StringComparison.Ordinal))
+                    guard.Patch(method, prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockPhysicalButton", BindingFlags.Public | BindingFlags.Static)));
+                if (method.ReturnType == typeof(float) && method.Name.StartsWith("GetAxis", StringComparison.Ordinal))
+                    guard.Patch(method, prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockPhysicalAxis", BindingFlags.Public | BindingFlags.Static)));
+                if (method.ReturnType == typeof(Vector2) && method.Name.StartsWith("GetAxis", StringComparison.Ordinal))
+                    guard.Patch(method, prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockPhysicalVector", BindingFlags.Public | BindingFlags.Static)));
+            }
+            physicalInputGuardActive = true;
+            Logger.LogInfo("后台物理输入隔离已启用；不操作用户游戏，不执行物理键盘验收。");
             if (requireJournal)
             {
                 var presentation = typeof(SaveLoad).Assembly.GetType("Elsinore.Ui.PresentUI");
@@ -108,6 +144,14 @@ public sealed class RuntimeProbe : BaseUnityPlugin
 
     private void Update()
     {
+        // 阻断自动输入模块的真实鼠标/提交事件，保留EventSystem的显式组件事件入口。
+        foreach (var module in Resources.FindObjectsOfTypeAll<BaseInputModule>())
+            if (module.enabled && module.gameObject.scene.IsValid() && module.gameObject.scene.isLoaded)
+            {
+                module.enabled = false;
+                disabledPhysicalInputModules++;
+                Logger.LogInfo("已隔离后台自动物理输入模块：" + module.GetType().FullName);
+            }
         if (AkSoundEngine.IsInitialized())
         {
             var result = AkSoundEngine.Suspend(true);
@@ -117,45 +161,21 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 Logger.LogInfo("Wwise 后台音频暂停结果=" + result);
             }
         }
-        if ((requireToggle || requireSettingsOptions || requireJournal) && Time.realtimeSinceStartup - started > 12f && Time.realtimeSinceStartup - started < 18f
+        if ((requireToggle || requireSettingsOptions || requireJournal) && !captured && Time.realtimeSinceStartup - started > 12f
             && Time.realtimeSinceStartup > nextMenuCheck)
         {
             nextMenuCheck = Time.realtimeSinceStartup + 1f;
-            // 从当前游戏跟踪器获取真实GUI；资源枚举也包含未使用的预制件和旧transitioner。
-            var gui = ObjectTracker.Instance.Gui;
-            var activeProperty = gui == null ? null : gui.GetType().GetProperty("IsMainMenuActive", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance);
-            if (gui != null && gui.IsInitialized && activeProperty != null && !(bool)activeProperty.GetValue(gui, null))
-            {
-                var transitions = gui.GetType().GetNestedType("UiTransitions", BindingFlags.Public | BindingFlags.NonPublic);
-                var current = Activator.CreateInstance(transitions, BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance, null, new object[] { gui, null }, null);
-                if (!requestedPause)
-                {
-                    requestedPause = true;
-                    // 与真实Esc和暂停按钮共用合法暂停动作，让游戏自行切换时间模式。
-                    transitions.GetMethod("ActivatePause").Invoke(current, null);
-                    Logger.LogInfo("后台探针已通过真实暂停动作请求Pause，等待覆盖层就绪。");
-                }
-                else if (!requestedSplash)
-                {
-                    var overlay = gui.GetType().GetProperty("CurrentlyActiveOverlayCanvas", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).GetValue(gui, null);
-                    var pause = gui.GetType().GetField("pauseCanvas", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance).GetValue(gui);
-                    if (overlay != null && Equals(overlay, pause))
-                    {
-                        requestedSplash = true;
-                        transitions.GetMethod("ActivateSplashScreen").Invoke(current, null);
-                        Logger.LogInfo("真实暂停覆盖层就绪，已一次性展示SplashScreen；不点击新游戏或继续。");
-                    }
-                }
-            }
+            CheckStartupNavigation();
         }
-        if (!captured && Time.realtimeSinceStartup - started > 18f)
+        if (!captured && Time.realtimeSinceStartup - started > 18f && MainMenuReady())
         {
             captured = true;
+            capturedMenuAt = Time.realtimeSinceStartup;
             Capture("menu");
         }
-        if (!openedSettings && Time.realtimeSinceStartup - started > 20f)
+        float menuAge = captured ? Time.realtimeSinceStartup - capturedMenuAt : -1f;
+        if (!openedSettings && menuAge > 2f && (!requireToggle || restoredTranslated))
         {
-            openedSettings = true;
             foreach (var splash in Resources.FindObjectsOfTypeAll<MonoBehaviour>())
             {
                 if (splash == null || splash.GetType().Name != "SplashScreenUI"
@@ -168,46 +188,169 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 EventSystem.current.SetSelectedGameObject(button.gameObject);
                 var handled = ExecuteEvents.Execute(button.gameObject, pointer, ExecuteEvents.pointerClickHandler);
                 if (!handled) continue;
+                openedSettings = true;
                 Logger.LogInfo("已通过真实设置按钮的 EventSystem 指针事件打开设置界面。");
                 break;
             }
         }
-        if (requireToggle && captured && !showedOriginal && Time.realtimeSinceStartup - started > 19f)
+        if (requireToggle && captured && !showedOriginal && menuAge > 1f)
         {
             showedOriginal = true;
             InvokeToggle(false);
             InvokeToggle(true);
             Capture("original-menu");
         }
-        if (requireToggle && showedOriginal && !restoredTranslated && Time.realtimeSinceStartup - started > 19.5f)
+        if (requireToggle && showedOriginal && !restoredTranslated && menuAge > 1.5f)
         {
             restoredTranslated = true;
             InvokeToggle(true);
             Capture("restored-menu");
         }
-        if (!capturedSettings && Time.realtimeSinceStartup - started > 23f)
+        if (openedSettings && !capturedSettings && menuAge > 5f)
         {
             capturedSettings = true;
             Capture("settings");
             if (requireSettingsOptions)
                 StartCoroutine(GuardSettingsOptions());
         }
-        if (requireJournal && !journalStarted && Time.realtimeSinceStartup - started > 24f)
+        if (requireJournal && capturedSettings && !journalStarted && menuAge > 6f)
         {
             journalStarted = true;
             StartCoroutine(GuardJournal());
         }
-        if (Time.realtimeSinceStartup - started > (requireJournal ? 65f : requireSettingsOptions ? 45f : 30f))
+        if ((requireJournal && journalFinished) || Time.realtimeSinceStartup - started > (requireJournal ? 120f : requireSettingsOptions ? 45f : 30f))
         {
+            Logger.LogInfo("PROBE_QUIT elapsed=" + (Time.realtimeSinceStartup - started)
+                + " journal=" + requireJournal + " finished=" + journalFinished + " menu=" + captured + " settings=" + capturedSettings);
             if (requireSettingsOptions && !settingsOptionsFinished)
                 FailSettingsOptions(new TimeoutException("逐档设置验证未在45秒内结束"));
             if (requireJournal && !journalFinished)
-                FailJournal(new TimeoutException("真实资料页面采集未在65秒内结束"));
+                FailJournal(new TimeoutException("真实资料页面采集未在120秒内结束"));
             Application.Quit();
         }
     }
 
     private const BindingFlags InstanceFields = BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance;
+
+    public static bool BlockPhysicalButton(ref bool __result)
+    {
+        blockedPhysicalButtons++;
+        __result = false;
+        return false;
+    }
+
+    public static bool BlockPhysicalAxis(ref float __result)
+    {
+        __result = 0f;
+        return false;
+    }
+
+    public static bool BlockPhysicalVector(ref Vector2 __result)
+    {
+        __result = Vector2.zero;
+        return false;
+    }
+
+    private void CheckStartupNavigation()
+    {
+        // 跟踪器由场景Awake绑定真实GUI；资源枚举还包含预制件和旧transitioner。
+        var tracker = ObjectTracker.Instance;
+        var gui = tracker == null ? null : tracker.Gui;
+        var boss = tracker == null ? null : tracker.Boss;
+        if (gui == null || boss == null || !gui.IsInitialized || !boss.IsGameInitialized) return;
+        if ((bool)RequiredProperty(gui, "IsMainMenuActive")) return;
+        var overlay = gui.GetType().GetProperty("CurrentlyActiveOverlayCanvas", InstanceFields).GetValue(gui, null);
+        var root = gui.GetType().GetProperty("CurrentlyActiveRootCanvas", InstanceFields).GetValue(gui, null);
+        var pause = RequiredField(gui, "pauseCanvas");
+        bool transitioning = (bool)RequiredProperty(gui, "IsTransitioning");
+        bool pauseActive = overlay != null && Equals(overlay, pause);
+        var canActivate = gui.GetType().GetMethod("canActivateOverlay", InstanceFields);
+        if (canActivate == null) throw new MissingMethodException(gui.GetType().FullName, "canActivateOverlay");
+        bool admitted = (bool)canActivate.MakeGenericMethod(pause.GetType()).Invoke(gui, new object[] { pause });
+        string admission = "boss=" + boss.GetInstanceID() + " gui=" + gui.GetInstanceID()
+            + " initialized=True transitioning=" + transitioning + " canPause=" + admitted
+            + " root=" + (root == null ? "null" : root.GetType().Name)
+            + " overlay=" + (overlay == null ? "null" : overlay.GetType().Name);
+        if (admission != lastMenuAdmission)
+        {
+            lastMenuAdmission = admission;
+            Logger.LogInfo("MENU_NAVIGATION_ADMISSION " + admission);
+        }
+        if (requestedPause)
+        {
+            var ownerQueue = RequiredField(pauseRequestOwner, "pendingActions") as IList;
+            if (ownerQueue == null) throw new InvalidOperationException("真实暂停请求所属待执行队列不可读");
+            if (!ownerQueue.Contains(pendingPauseAction))
+            {
+                // Boss.Update每帧清空整个队列；准入失败的DeferredAction不会保留到下一帧。
+                Logger.LogInfo("MENU_PAUSE_CONSUMED attempt=" + pauseRequestAttempts + " active=" + pauseActive
+                    + " transitioning=" + transitioning + " ownerChanged=" + !Equals(pauseRequestOwner, boss));
+                requestedPause = false;
+                pendingPauseAction = null;
+                pauseRequestOwner = null;
+                if (!pauseActive) Logger.LogInfo("MENU_PAUSE_RETRY_WAIT attempt=" + pauseRequestAttempts
+                    + "；已消费请求未形成Pause，等待真实准入后有限重试。");
+            }
+            else return;
+        }
+        var transitions = gui.GetType().GetNestedType("UiTransitions", BindingFlags.Public | BindingFlags.NonPublic);
+        var current = Activator.CreateInstance(transitions, InstanceFields, null, new object[] { gui, null }, null);
+        if (pauseActive)
+        {
+            if (!requestedSplash && !transitioning)
+            {
+                transitions.GetMethod("ActivateSplashScreen").Invoke(current, null);
+                requestedSplash = true;
+                Logger.LogInfo("真实暂停覆盖层就绪，已一次性展示SplashScreen；不点击新游戏或继续。");
+            }
+            return;
+        }
+        if (requestedSplash || transitioning || !admitted || pauseRetryExhausted) return;
+        const int maxPauseRequests = 5;
+        if (pauseRequestAttempts >= maxPauseRequests)
+        {
+            pauseRetryExhausted = true;
+            Logger.LogError("MENU_PAUSE_RETRY_EXHAUSTED attempts=" + pauseRequestAttempts + "；停止请求，菜单验收保持失败。");
+            return;
+        }
+        var pending = RequiredField(boss, "pendingActions") as IList;
+        if (pending == null) throw new InvalidOperationException("真实游戏待执行队列不可读");
+        int before = pending.Count;
+        // 与真实Esc共用合法暂停动作；不直接激活Canvas或改TimeMode。
+        transitions.GetMethod("ActivatePause").Invoke(current, null);
+        if (pending.Count != before + 1) throw new InvalidOperationException("真实暂停动作未添加唯一DeferredAction");
+        pendingPauseAction = pending[pending.Count - 1];
+        pauseRequestOwner = boss;
+        requestedPause = true;
+        pauseRequestAttempts++;
+        Logger.LogInfo("MENU_PAUSE_QUEUED attempt=" + pauseRequestAttempts + " pendingBefore=" + before
+            + " pendingAfter=" + pending.Count + " canPause=True；等待真实覆盖层就绪。");
+        // 集成回归可延迟消费状态的观察；有限重试仍由真实准入决定。
+        nextMenuCheck = Time.realtimeSinceStartup + menuRetryDelay;
+        Logger.LogInfo("菜单就绪重试延迟秒数=" + menuRetryDelay);
+    }
+
+    private bool MainMenuReady()
+    {
+        if (!requireToggle && !requireSettingsOptions && !requireJournal) return true;
+        var gui = ObjectTracker.Instance.Gui;
+        if (gui == null || !gui.IsInitialized) return false;
+        var property = gui.GetType().GetProperty("IsMainMenuActive", InstanceFields);
+        return property != null && (bool)property.GetValue(gui, null) && !(bool)RequiredProperty(gui, "IsTransitioning");
+    }
+
+    private IEnumerator WaitForUiIdle(string phase)
+    {
+        float deadline = Time.realtimeSinceStartup + 6f;
+        var gui = ObjectTracker.Instance.Gui;
+        while ((bool)RequiredProperty(gui, "IsTransitioning"))
+        {
+            if (Time.realtimeSinceStartup > deadline)
+                throw new TimeoutException("真实UI转换未结束：" + phase);
+            yield return new WaitForSecondsRealtime(0.1f);
+        }
+        JournalLine("UI_TRANSITION_IDLE\t" + phase + "\tTrue");
+    }
 
     private static object RequiredField(object owner, string name)
     {
@@ -549,6 +692,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
 
     private IEnumerator ProbeDocument(string closeupId)
     {
+        yield return WaitForUiIdle(closeupId + ":before");
         var transitions = CurrentTransitions();
         var activate = transitions.GetType().GetMethod("ActivateObjectCloseup", InstanceFields);
         var id = Activator.CreateInstance(activate.GetParameters()[0].ParameterType, new object[] { closeupId });
@@ -556,8 +700,10 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         var lookup = RequiredProperty(state, "Lookup");
         var closeup = lookup.GetType().GetMethod("Closeup").Invoke(lookup, new object[] { id });
         string source = (string)RequiredProperty(closeup, "Text");
-        activate.Invoke(transitions, new object[] { id, null });
+        // 真实ObjectCloseupUI.OnClosed无条件调用onDone；探针也必须履行回调契约。
+        activate.Invoke(transitions, new object[] { id, new Action(delegate { JournalLine("CLOSEUP_CLOSED\t" + closeupId); }) });
         yield return new WaitForSecondsRealtime(0.4f);
+        yield return WaitForUiIdle(closeupId + ":after");
         var document = JournalCanvas("objectCloseupCanvas", closeupId);
         var body = (TMP_Text)RequiredField(document, "Body");
         JournalControl(closeupId, "document.body", document, "Body");
@@ -591,12 +737,15 @@ public sealed class RuntimeProbe : BaseUnityPlugin
 
     private IEnumerator ProbeHud()
     {
+        yield return WaitForUiIdle("hud:before");
         var gui = ObjectTracker.Instance.Gui;
         // 合法内部导航恢复HUD，再打开真实Pause覆盖层，由游戏自动进入TimeMode=2。
         gui.GetType().GetMethod("ActivateExploration", InstanceFields).Invoke(gui, new object[] { false });
         yield return new WaitForSecondsRealtime(0.35f);
+        yield return WaitForUiIdle("hud:exploration");
         JournalTransition("ActivatePause", null);
         yield return new WaitForSecondsRealtime(0.4f);
+        yield return WaitForUiIdle("hud:paused");
         var hud = JournalCanvas("mainCanvas", "hud");
         JournalControl("hud", "hud.time", hud, "TimeText");
         JournalControl("hud", "hud.room", hud, "LocationText");
@@ -605,8 +754,10 @@ public sealed class RuntimeProbe : BaseUnityPlugin
 
     private IEnumerator ProbeJournalTabs()
     {
+        yield return WaitForUiIdle("journal:before");
         JournalTransition("ActivateJournal", null);
         yield return new WaitForSecondsRealtime(0.5f);
+        yield return WaitForUiIdle("journal:after");
         var journal = JournalCanvas("journalCanvas", "journal");
         string[] toggles = { "CharactersToggle", "HearsayToggle", "LeadsToggle" };
         string[] tabs = { "CharactersTab", "HearsayTab", "LeadsTab" };
@@ -671,14 +822,17 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         JournalLine("CLOSEUP_BATCH_EXPECTED_COUNT\t" + ids.Count);
         foreach (string closeupId in ids)
         {
+            yield return WaitForUiIdle("batch:" + closeupId + ":before");
             var transitions = CurrentTransitions();
             var activate = transitions.GetType().GetMethod("ActivateObjectCloseup", InstanceFields);
             var id = Activator.CreateInstance(activate.GetParameters()[0].ParameterType, new object[] { closeupId });
             var lookup = RequiredProperty(RequiredProperty(ObjectTracker.Instance.Info, "State"), "Lookup");
             var closeup = lookup.GetType().GetMethod("Closeup").Invoke(lookup, new object[] { id });
             string source = (string)RequiredProperty(closeup, "Text");
-            activate.Invoke(transitions, new object[] { id, null });
+            string callbackId = closeupId;
+            activate.Invoke(transitions, new object[] { id, new Action(delegate { JournalLine("CLOSEUP_CLOSED\t" + callbackId); }) });
             yield return new WaitForSecondsRealtime(0.3f);
+            yield return WaitForUiIdle("batch:" + closeupId + ":after");
             var document = JournalCanvas("objectCloseupCanvas", "batch:" + closeupId);
             var body = (TMP_Text)RequiredField(document, "Body");
             string combined = ((StringBuilder)RequiredField(document, "builder")).ToString();
@@ -736,6 +890,12 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             var slug = (TMP_Text)RequiredField(tab, "SlugText");
             RecordCharacterGeometry(character, "title", title);
             RecordCharacterGeometry(character, "subtitle", slug);
+            JournalBuilder("character:" + character, tab, "DescriptionText");
+            if (character == "hamlet")
+            {
+                JournalControl("character:" + character, "character.profile.body", tab, "DescriptionText");
+                yield return JournalRoundTrip("character:" + character, tab);
+            }
             var a = WorldTextBounds(title);
             var b = WorldTextBounds(slug);
             bool overlaps = a.width > 0 && a.height > 0 && b.width > 0 && b.height > 0
@@ -747,6 +907,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
 
     private IEnumerator ProbePresentationPreview()
     {
+        yield return WaitForUiIdle("present:before");
         var tracker = ObjectTracker.Instance;
         var targets = tracker.GetType().GetMethod("AllNpcs", InstanceFields).Invoke(tracker, null) as IEnumerable;
         object target = null;
@@ -755,6 +916,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         if (target == null) throw new InvalidOperationException("真实场景没有分享预览目标人物");
         JournalTransition("ActivatePresentation", new object[] { target });
         yield return new WaitForSecondsRealtime(0.4f);
+        yield return WaitForUiIdle("present:after");
         var present = JournalCanvas("presentCanvas", "present");
         var categories = RequiredField(present, "categoryToggles") as IList;
         var categoryCopies = new List<object>();
@@ -809,8 +971,10 @@ public sealed class RuntimeProbe : BaseUnityPlugin
 
     private IEnumerator ProbeTimeline()
     {
+        yield return WaitForUiIdle("timeline:before");
         JournalTransition("ActivateTimeline", null);
         yield return new WaitForSecondsRealtime(0.5f);
+        yield return WaitForUiIdle("timeline:after");
         var timeline = JournalCanvas("timelineCanvas", "timeline");
         float waitUntil = Time.realtimeSinceStartup + 4f;
         while ((bool)RequiredField(timeline, "isLoading") && Time.realtimeSinceStartup < waitUntil)
@@ -849,10 +1013,12 @@ public sealed class RuntimeProbe : BaseUnityPlugin
 
     private IEnumerator ProbeLog()
     {
+        yield return WaitForUiIdle("log:before");
         var gui = ObjectTracker.Instance.Gui;
         // 这是受隔离保护的组件导航；不强求可能被教程禁用的物理关闭按钮。
         gui.GetType().GetMethod("ActivateExploration", InstanceFields).Invoke(gui, new object[] { false });
         yield return new WaitForSecondsRealtime(0.35f);
+        yield return WaitForUiIdle("log:exploration");
         var logOrigin = JournalCanvas("mainCanvas", "log_origin_hud", false);
         // 日志覆盖层只能从真正允许日志的HUD/对白或主菜单进入，不能从Timeline强开。
         if (logOrigin == null || !(bool)RequiredProperty(logOrigin, "IsLogButtonActive"))
@@ -861,9 +1027,13 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         {
             JournalTransition("ActivateLog", null);
             yield return new WaitForSecondsRealtime(0.5f);
+            yield return WaitForUiIdle("log:after");
             var log = JournalCanvas("logCanvas", "log", false);
             if (log != null)
             {
+                if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_ITALIC") == "1"
+                    && !ItalicGeometryProbe.TryCapture(outputDirectory))
+                    throw new InvalidOperationException("未取得对白与日志的真实字体几何，不能宣称斜体修复通过");
                 var history = RequiredProperty(RequiredField(log, "ht"), "HistoryText") as string[];
                 var logEntries = RequiredField(log, "createdEntries") as IList;
                 JournalLine("HISTORY_COUNT\t" + (history == null ? 0 : history.Length));
@@ -1164,6 +1334,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             Directory.CreateDirectory(directory);
             var report = new StringBuilder();
             report.AppendLine("SAVE_WRITE_GUARD_ACTIVE=" + saveGuardActive + " BLOCKED=" + blockedSaveWrites);
+            report.AppendLine("PHYSICAL_INPUT_GUARD_ACTIVE=" + physicalInputGuardActive + " BLOCKED=" + blockedPhysicalButtons);
+            report.AppendLine("PHYSICAL_INPUT_MODULES_DISABLED=" + disabledPhysicalInputModules);
             var cacheCasesPath = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_CACHE_CASES");
             if (name == "menu" && !string.IsNullOrEmpty(cacheCasesPath))
             {

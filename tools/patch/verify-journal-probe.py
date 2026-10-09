@@ -301,6 +301,19 @@ def analyze(path: Path, resource_path: Path) -> dict:
                         "title": title[3:] if title is not None else None, "subtitle": subtitle[3:] if subtitle is not None else None})
     checks["all_known_characters_layout_consumed"] = len(layout_counts) == 1 and layout_counts[0] > 0 and len(layout_rows) == layout_counts[0] and len({row[1] for row in layout_rows}) == layout_counts[0]
     checks["all_known_character_titles_fit_without_overlap"] = checks["all_known_characters_layout_consumed"] and all(row["passed"] for row in layouts)
+    profiles = [row for row in api_rows if row["phase"].startswith("character:") and row["key"] == "builder:DescriptionText"]
+    checks["all_known_character_profiles_translated"] = (
+        checks["all_known_characters_layout_consumed"]
+        and {row["phase"].removeprefix("character:") for row in profiles} == {row["character"] for row in layouts}
+        and len(profiles) == len(layouts)
+        and all(row["found"] and row["source_length"] > 0 and row["display_matches"]
+                and re.search(r"[\u3400-\u9fff]", decoded(row["display_base64"]))
+                and not unapproved_english(decoded(row["display_base64"])) for row in profiles)
+    )
+    checks["hamlet_profile_f8_original_and_restored"] = any(
+        row["phase"] == "character:hamlet" and row["role"] == "character.profile.body" and row["passed"]
+        for row in control_results
+    )
     preview_sources = [row[1] for row in rows if row[0] == "PRESENT_PREVIEW_SOURCE"]
     preview_origins = [row for row in rows if row[0] == "PRESENT_PREVIEW_ORIGIN"]
     preview_api = [row for row in api_rows if row["phase"] == "present" and row["key"] == "builder:PresentPreviewText"]
@@ -352,7 +365,8 @@ def analyze(path: Path, resource_path: Path) -> dict:
         '"Someone is after my life, and I\'ve experienced things I cannot explain."',
     }]
     checks["danger_preview_existing_real_consumer_coverage"] = (
-        suite.get("actual_recursive_xunity_consumer_passed") is True and suite.get("count") == len(notification_tests) == 596
+        suite.get("actual_recursive_xunity_consumer_passed") is True
+        and suite.get("count") == len(notification_tests) and len(notification_tests) >= 596
         and len(danger_cases) == 2 and all(not unapproved_english(row["target"]) and row["target"] != row["source"] for row in danger_cases)
         and all(hashlib.sha256((project_root / file).read_bytes()).hexdigest() == artifact_hashes.get(file)
                 for file in ("translation/supplemental/notification-ui-tests.json", "translation/supplemental/notification-ui-rules.json"))

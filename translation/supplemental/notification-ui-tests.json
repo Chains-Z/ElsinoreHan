@@ -5395,5 +5395,305 @@
       "analysis/ui-audit/notification-source-audit.json"
     ],
     "note": "明确构造的内部ID/未审核语义负例，应拒绝；非真实事件或正文"
+  },
+  {
+    "id": "notification-belief-quotes-screenshot",
+    "source": "<b>Ophelia</b> now believes that \"she's read the death report\".",
+    "target": "<b>奥菲莉娅</b>现在相信“她已读过死亡报告”。",
+    "source_sha256": "bdd55353655d0a858722133610ca56efded34d58444f51d16767e0f4f4ef44b8",
+    "target_sha256": "4f38a44ae671f455e7d5ffcb0049fabb370744260a4d2747856711699cbab743",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号"
+  },
+  {
+    "id": "notification-belief-quotes-screenshot-newline",
+    "source": "<b>Ophelia</b> now believes that \"she's read the death report\".\n",
+    "target": "<b>奥菲莉娅</b>现在相信“她已读过死亡报告”。\n",
+    "source_sha256": "38d073b714030b1b0f348d08d923b83d81766e1cf724dd5fdd152a64c96587ce",
+    "target_sha256": "2bdcfc25afc3d62abcb81c2d7668a76d7b30fd688735e2fe61c0e273ee0b2257",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-screenshot-terminal",
+    "source": "<line-height=90%><b>Ophelia</b> now believes that \"she's read the death report\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>奥菲莉娅</b>现在相信“她已读过死亡报告”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "2e56bf7136626bea8f23950c89e450a86f4e5a9bd41d65ba9d64c725b0a75e16",
+    "target_sha256": "8623748188ed292ebb072ce3c3647ca8a483aa3de307c33f17407cadccecf1d3",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-unquoted",
+    "source": "<b>Ophelia</b> now believes that she's read the death report.",
+    "target": "<b>奥菲莉娅</b>现在相信她已读过死亡报告。",
+    "source_sha256": "64a279a2e87d772052a0b306d092ee7a8462b1c63ccc40d4fca6eadd35934215",
+    "target_sha256": "79111695490c6fa6c84343770efd940b6512d3597e1bf5475f67c58f4e980fec",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号"
+  },
+  {
+    "id": "notification-belief-quotes-unquoted-newline",
+    "source": "<b>Ophelia</b> now believes that she's read the death report.\n",
+    "target": "<b>奥菲莉娅</b>现在相信她已读过死亡报告。\n",
+    "source_sha256": "3cfbdea8391a67e3263c9de47121766e03e0582c10a09abc37e179f16a36285f",
+    "target_sha256": "8cf250a36fb7ed46286e1db33a73588096bd7f52684fce54840266ccf1a14e74",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-unquoted-terminal",
+    "source": "<line-height=90%><b>Ophelia</b> now believes that she's read the death report.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>奥菲莉娅</b>现在相信她已读过死亡报告。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "b1db8216e2adb056f90581218ed2fe412681be2ca261750cf56448eecc8d2713",
+    "target_sha256": "009900462a772d36f7fbdfceccb163520ec6fa9cdba19d9e71b7cb0d744357c0",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-negative",
+    "source": "<b>Ophelia</b> no longer believes that \"she's read the death report\".",
+    "target": "<b>奥菲莉娅</b>不再相信“她已读过死亡报告”。",
+    "source_sha256": "3b487668d4b541d5125d3de8e806865c0cb44c7410d0553642584cd615bbf8dc",
+    "target_sha256": "eb8c044673ccd4ce5595868ec33f7faf251693747cbea89ee82241faf685aada",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号"
+  },
+  {
+    "id": "notification-belief-quotes-negative-newline",
+    "source": "<b>Ophelia</b> no longer believes that \"she's read the death report\".\n",
+    "target": "<b>奥菲莉娅</b>不再相信“她已读过死亡报告”。\n",
+    "source_sha256": "7bb1546d405898317b02ec6d5c1b5cf74d74febace0d1dccc3a0cb06ce0e3bff",
+    "target_sha256": "d6401be803fa9e047b0361c2a986c2de12af8ef86a329b6fc3298287d3aef6b3",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-negative-terminal",
+    "source": "<line-height=90%><b>Ophelia</b> no longer believes that \"she's read the death report\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>奥菲莉娅</b>不再相信“她已读过死亡报告”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "6c5c3cfa122bdba9b20f5807ebd916d2fd240259aa01337de80d95a52795e124",
+    "target_sha256": "45e8f6077da3d1c62a630a51704179b743a8eb8033eba777133916f4bf72b6ff",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-plural-negative",
+    "source": "<b>Hamlet</b> and <b>Ophelia</b> no longer believe that \"she's read the death report\".",
+    "target": "<b>哈姆雷特</b>和<b>奥菲莉娅</b>不再相信“她已读过死亡报告”。",
+    "source_sha256": "f4bb9ae08299852c0ec53acb62d61befec2e210258f47b62422d9d4bd95a252c",
+    "target_sha256": "598773f5a8216667ef7e79de2316916cc836e44f034bc54f864cdac29b91ad60",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号"
+  },
+  {
+    "id": "notification-belief-quotes-plural-negative-newline",
+    "source": "<b>Hamlet</b> and <b>Ophelia</b> no longer believe that \"she's read the death report\".\n",
+    "target": "<b>哈姆雷特</b>和<b>奥菲莉娅</b>不再相信“她已读过死亡报告”。\n",
+    "source_sha256": "417c27c6a96109fe3713f4221d53c4696401328f17f80278fb484f60d192178d",
+    "target_sha256": "d9548ed4a67d16f06fb7333c1afad49b399cf97e94f254175a6a5e48b5d549f1",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-plural-negative-terminal",
+    "source": "<line-height=90%><b>Hamlet</b> and <b>Ophelia</b> no longer believe that \"she's read the death report\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>哈姆雷特</b>和<b>奥菲莉娅</b>不再相信“她已读过死亡报告”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "a1a969bfc7d64c66934ba3bb7ec16e858bda76e6ddc9f9fc92687f4a7a1345a1",
+    "target_sha256": "07e65e7abc1f11ac5113dbf68f9a95ea1c33f3cdbd852125c5275fc49c0c0e83",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-nested",
+    "source": "<b>Ophelia</b> now believes that Hamlet believes that \"she's read the death report\".",
+    "target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。",
+    "source_sha256": "440d35073535b037d701c9af0e73da1186d9e5ccb7caa60a2c23091c841b2132",
+    "target_sha256": "bce9cdfca1facb927f2d1197c8f95fea1c56babbf73841cda36c877c21012247",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号"
+  },
+  {
+    "id": "notification-belief-quotes-nested-newline",
+    "source": "<b>Ophelia</b> now believes that Hamlet believes that \"she's read the death report\".\n",
+    "target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。\n",
+    "source_sha256": "fe495c8c6a7b1f1d90bf8d2f2e02c625e2458c3de789839675753635a5595d53",
+    "target_sha256": "6482ff513a5cac952fca001da1dc661fda58f352c3ea9599089bc74b4c9a127b",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-nested-terminal",
+    "source": "<line-height=90%><b>Ophelia</b> now believes that Hamlet believes that \"she's read the death report\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "f59c2d5b978119c62db6f2fc8eda5418f3e8567666cb8663a1e21b00229faf15",
+    "target_sha256": "f60d58f021af4070e1f3d6ba5155a38445b6dc6599a056d10d484ef6a6ba5517",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-nested-unquoted",
+    "source": "<b>Ophelia</b> now believes that Hamlet believes that she's read the death report.",
+    "target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信她已读过死亡报告。",
+    "source_sha256": "12814e819b834e85e87478b0e6f97bf484ff8a0b779d991b99285e7f136850e8",
+    "target_sha256": "a3f68361298eeae8a7b147d26a4086a1dec98bc525514faaeeb1024b97306e4c",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号"
+  },
+  {
+    "id": "notification-belief-quotes-nested-unquoted-newline",
+    "source": "<b>Ophelia</b> now believes that Hamlet believes that she's read the death report.\n",
+    "target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信她已读过死亡报告。\n",
+    "source_sha256": "4b21a020f2e6314d2619cabef458b3dea3cdf929ea84cc7188257bc4141dbaab",
+    "target_sha256": "19527e66759acdb8fdd7aad27a75f397a59f717b1657b656dd00abcddc8dcbe3",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-nested-unquoted-terminal",
+    "source": "<line-height=90%><b>Ophelia</b> now believes that Hamlet believes that she's read the death report.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>奥菲莉娅</b>现在相信哈姆雷特相信她已读过死亡报告。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "e580794349bf00a2a065a34da10ce3b10b494df8e8cb53b1a937424bde111cdb",
+    "target_sha256": "aac3746b02dbe1e398f7d725d62228f3d1ab912240574d1b55f4ff74557800cf",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E"
+  },
+  {
+    "id": "notification-belief-quotes-history-screenshot-combination",
+    "source": "<line-height=90%><b>Thursday, 10:38</b>, <i>in which</i> Ophelia makes an observation.\n<b>Ophelia:</b> <indent=16%>It's Hamlet's father, and his namesake, the late King Hamlet.\n...Come to think of it, I noticed a blank space on the walls in the gallery...\nIt's uncomfortably warm in here, considering the season. But I suppose Hamlet likes it this way.\nIt's uncomfortably warm in here, considering the season. But I suppose Hamlet likes it this way.\nThere are some notes inside the chest.</indent>\n<i>Ophelia looks at \"Hamlet's Personal Journal.\"</i>\n<b>Ophelia:</b> <indent=16%>...\nSomething's very wrong. He's so cryptic... what does he mean? What did he see?\nI refuse to believe Hamlet's in this state on my behalf alone.\nI need to have a closer look at the gallery.</indent>\n<b>Ophelia</b> now believes that \"she's read the death report\".\nOphelia learns more about <b>Prince Hamlet's Madness</b>. The entry will be updated in the <b>Journal</b>.\n<b>Ophelia:</b> <indent=16%>There are some notes inside the chest.</indent>\n<i>Ophelia looks at \"Hamlet's Personal Journal.\"</i>\n<b>Ophelia:</b> <indent=16%>...\nSo Hamlet suspects his father was murdered after all.\nThere are some notes inside the chest.</indent>\n<i>Ophelia looks at \"Hamlet's Personal Journal.\"</i>\n<b>Ophelia:</b> <indent=16%>...\nSo Hamlet suspects his father was murdered after all.\nHamlet's gone and blocked out all the light. How juvenile.\nIf I want to sleep a while, it should be in my own room.\nFather fancies himself a scholar, I think. He certainly carries on like one.\nIt's unclear how Father finds anything on a desk this messy.\nHmm—there's a note here.</indent>\n<i>Ophelia looks at \"A Scrawled Note From Laertes.\"</i>\n<b>Ophelia:</b> <indent=16%>A missing lute... I wonder if I could find it for him?</indent>\n<b>Ophelia</b> acquires the information \"A Missing Lute.\"\nOphelia learns more about <b>A Missing Lute</b>. The entry will be updated in the <b>Journal</b>.\n<b>Ophelia:</b> <indent=16%>Father fancies himself a scholar, I think. He certainly carries on like one.\nFather's hearth. It looks warm.\nIt's my father's lockbox. He keeps his personal items in there.\nNothing but the key can open it, I presume.",
+    "target": "<line-height=90%><b>星期四 10:38</b>，<i>事件：</i>奥菲莉娅有所发现。\n<b>奥菲莉娅:</b> <indent=16%>这是哈姆雷特的父亲，已故的哈姆雷特国王。哈姆雷特的名字也是沿用他的。\n……说起来，我注意到画廊墙上有一处空白……\n这个季节，屋里这么热实在让人不舒服。不过我想哈姆雷特就喜欢这样。\n这个季节，屋里这么热实在让人不舒服。不过我想哈姆雷特就喜欢这样。\n箱子里有一些笔记。</indent>\n<i>奥菲莉娅查看“哈姆雷特的私人日记”。</i>\n<b>奥菲莉娅:</b> <indent=16%>...\n很不对劲。他写得这么隐晦……到底是什么意思？他看到了什么？\n我不相信哈姆雷特变成这样，仅仅是因为我。\n我得去画廊仔细看看。</indent>\n<b>奥菲莉娅</b>现在相信“她已读过死亡报告”。\n奥菲莉娅进一步了解了<b>哈姆雷特王子的疯病</b>。相关条目会在<b>笔记</b>中更新。\n<b>奥菲莉娅:</b> <indent=16%>箱子里有一些笔记。</indent>\n<i>奥菲莉娅查看“哈姆雷特的私人日记”。</i>\n<b>奥菲莉娅:</b> <indent=16%>...\n原来哈姆雷特果然怀疑父亲是被谋杀的。\n箱子里有一些笔记。</indent>\n<i>奥菲莉娅查看“哈姆雷特的私人日记”。</i>\n<b>奥菲莉娅:</b> <indent=16%>...\n原来哈姆雷特果然怀疑父亲是被谋杀的。\n哈姆雷特把光全遮住了。真幼稚。\n要是想睡一会儿，我该回自己的房间。\n我想，父亲以学者自居。他的言谈举止确实也像个学者。\n真不知道父亲怎么在这么乱的桌子上找到东西。\n嗯——这里有张便条。</indent>\n<i>奥菲莉娅查看“雷欧提斯的潦草便条”。</i>\n<b>奥菲莉娅:</b> <indent=16%>一把丢失的鲁特琴……不知道我能不能帮他找到？</indent>\n<b>奥菲莉娅</b>获得了信息“失踪的鲁特琴”。\n奥菲莉娅进一步了解了<b>失踪的鲁特琴</b>。相关条目会在<b>笔记</b>中更新。\n<b>奥菲莉娅:</b> <indent=16%>我想，父亲以学者自居。他的言谈举止确实也像个学者。\n父亲的壁炉。看起来很暖和。\n这是父亲的上锁箱子。他把私人物品放在里面。\n我想，只有钥匙才能打开它。",
+    "source_sha256": "f5e24be5e171cd343f80e052fe62dfe5bc39daba719821ba39e2432d711c3e3e",
+    "target_sha256": "06bba82026b4bc31af26df5caf1859e69340d81e3486e255060ccc6aea53f8e2",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "真实已冻结 HISTORY_SOURCE 3 骨架与用户截图真实通知组合；只作为递归组件用例，不声称实际发生过此整段日志"
+  },
+  {
+    "id": "notification-belief-quotes-plain-nested-only",
+    "source": "Hamlet believes that \"she's read the death report\"",
+    "target": "哈姆雷特相信“她已读过死亡报告”",
+    "source_sha256": "c57802d24ef9e1ce6daadf832414d5ec0c85ee2b3f9b8ad7233196503a5b2363",
+    "target_sha256": "4a44caf710f26772297eb438b8fef98c4ba6001cb1bded7b7023426b306a1359",
+    "origins": [
+      "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
+      "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
+      "冻结叶子:p14866-98f13de3a324",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "verification_level": "component",
+    "note": "实际未加粗嵌套 beliefs(actor,knowledge) 只保留内部既有引号"
   }
 ]

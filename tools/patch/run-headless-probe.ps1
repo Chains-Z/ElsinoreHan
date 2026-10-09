@@ -1,5 +1,21 @@
 param([string]$GamePath = 'D:\SteamLibrary\steamapps\common\Elsinore')
 $ErrorActionPreference = 'Stop'
+if ($env:ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS) {
+    $retrySeconds = [float]0
+    if (-not [float]::TryParse($env:ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS, [Globalization.NumberStyles]::Float, [Globalization.CultureInfo]::InvariantCulture, [ref]$retrySeconds) -or [float]::IsNaN($retrySeconds) -or [float]::IsInfinity($retrySeconds) -or $retrySeconds -lt 1 -or $retrySeconds -gt 10) {
+        throw 'ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS 必须在1到10秒之间，禁止启动。'
+    }
+}
+if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
+    throw 'ELSINOREHAN_PROBE_ITALIC 必须与资料模式一起运行。'
+}
+if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and (-not $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -PathType Leaf))) {
+    throw 'ELSINOREHAN_PROBE_CLOSEUP_IDS 缺少冻结资料ID文件，禁止启动。'
+}
+foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS')) {
+    $inputPath = [Environment]::GetEnvironmentVariable($variableName)
+    if ($inputPath -and -not (Test-Path -LiteralPath $inputPath -PathType Leaf)) { throw ($variableName + ' 指向的文件不存在，禁止启动。') }
+}
 $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
 $GamePath = (Resolve-Path -LiteralPath $GamePath).Path
 if (Get-Process -Name Elsinore -ErrorAction SilentlyContinue | Where-Object { $_.MainModule.FileName -eq (Join-Path $GamePath 'Elsinore.exe') }) { throw '目标目录的游戏正在运行，禁止介入。' }
@@ -69,7 +85,7 @@ try {
     $process = Start-Process -FilePath (Join-Path $GamePath 'Elsinore.exe') -ArgumentList $arguments -WorkingDirectory $GamePath -WindowStyle Hidden -PassThru
     $process.PriorityClass = 'BelowNormal'
     $timer = [Diagnostics.Stopwatch]::StartNew()
-    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { 90 } elseif ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { 70 } else { 50 }
+    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { 150 } elseif ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { 70 } else { 50 }
     while (-not $process.HasExited -and $timer.Elapsed.TotalSeconds -lt $timeoutSeconds) {
         $process.Refresh()
         if ($process.MainWindowHandle -ne [IntPtr]::Zero) {
@@ -86,6 +102,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
+    if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
     foreach ($name in $reports) {
         $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
         if ((Get-Item -LiteralPath $source).LastWriteTimeUtc -lt $launchedAt) { throw ('探针记录不是本轮生成：' + $name) }
@@ -117,6 +134,10 @@ try {
         if ($env:ELSINOREHAN_PROBE_JOURNAL_BASELINE -ne '1') { $journalArguments += '--require-translated' }
         python @journalArguments
         if ($LASTEXITCODE -ne 0) { throw '资料页面采集或真实译文断言失败；菜单通过不能替代资料验收。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') {
+        python (Join-Path $PSScriptRoot 'verify-italic-geometry.py') (Join-Path $runDirectory 'italic-geometry.json')
+        if ($LASTEXITCODE -ne 0) { throw '中文斜体几何验收失败，禁止宣称字体修复通过。' }
     }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'verification.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-ui-verification.json') -Force
     Copy-Item -LiteralPath (Join-Path $runDirectory 'process.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-process.json') -Force

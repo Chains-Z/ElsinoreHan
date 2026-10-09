@@ -1,5 +1,44 @@
 # 日志、通知、文档与长人物名的后续修复
 
+## 2026-10-09 恢复后的最终状态：1.3.0 已安装
+
+用户在新会话明确要求继续后，已完成此前暂停的三项修复并安装：提示中原有双引号保留为中文双引号；哈姆雷特简介增加真实破折号转换后的精确源别名；中文回退字体的TMP合成斜体剪切参数由35降为10。粗体、斜体标签和字符推进宽度不变，35与10不是角度。正式词表16,843条，仍为90条动态规则，其中66条限定UI规则。
+
+哈姆雷特别名逐字复用冻结条目 `p00031-4dfce554591f`，不重译正文；导出器现在也强制核对原ID、原文和译文哈希，拒绝篡改别名译文。源证据见 `analysis/ui-audit/hamlet-bio-alias-evidence.json`，别名为 `translation/supplemental/hamlet-bio-alias.json`。
+
+完整缓存检查另外发现两条旧提示被通用斜体封套抢先匹配：`I don't think {0} cares about this information.` 和 `{0} has already seen this information.`。已收窄封套，让含斜体的完整源交回原格式模板，尾换行使用既有受限规则保存。保持真实XUnity逆序首匹配，失败不换规则兜底；新增7个格式、换行、组合及未知参数回归。
+
+### 最终证据与范围
+
+最终运行 `5f5a90f339c74f2ea2a99d2bc5761fc1` 在独立游戏副本和冻结真实存档副本中通过全部检查。摘要为 [tmp-ui-verification.json](../../../runtime/evidence/tmp-ui-verification.json)，完整资料为 [journal-analysis.json](../../../runtime/evidence/headless/5f5a90f339c74f2ea2a99d2bc5761fc1/journal-analysis.json)，字体原始网格为 [italic-geometry.json](../../../runtime/evidence/headless/5f5a90f339c74f2ea2a99d2bc5761fc1/italic-geometry.json)。
+
+- 全部7个日志索引、14份文档、14名人物标题与正文、实际已知信息分享预览及HUD/Journal/Timeline/F8通过；哈姆雷特正文单独核对英文原文和中文恢复。缓存与显示差异为零，分享提交次数为零。
+- 21个冻结缓存用例及2,816个中文字符的字体覆盖通过。真实递归消费者56个日志和616个通知通过。
+- 两句截图对白各在真实对白/日志字体参数下比较原剪切、修复剪切及正体，共12份单行网格。两句最小字形包络间距由约-3.60、-5.77变为+2.55、+0.88；斜体仍有可见剪切，正体不倾斜，字符推进不变。
+- 离线111项回归通过：导出15、人物别名4、菜单判定22、资料判定37、字体判定28、启动前校验5。缺样本、漏字、乱序、伪造边界、空正文、错误菜单入口等均不能冒充通过。
+- 正式安装、测试副本、补丁目录与39文件ZIP的插件及两份词表哈希一致。安装备份为 `runtime/backups/full-2f3dcf514b7345d792543c87149528cd`，原游戏四文件和原存档哈希、修改时间、数量均未变，临时探针和appid已清理，测试进程退出。
+
+这是实际组件与字形网格验证。`-nographics` 不计算正常屏幕布局，字体样本故意禁用自身换行和裁切以完整比较相邻字；没有改变正式组件的换行配置。字形包络取自真实mesh/UV与glyph矩形，排除SDF padding，但未采样纹理alpha，不能称屏幕换行、像素截图、物理F8或全剧情E2E通过。本轮没有访问逐档设置页，仍只保留原设置验收作为历史证据。
+
+### 探针修正与维护入口
+
+上轮字体克隆挂在隐藏对白父级，没有Canvas；现只在真实场景的活跃日志父级创建临时样本。Unity的JsonUtility漏掉动态加载探针的嵌套数组，已显式导出完整网格；判定器核对完整冻结中文、强调范围、模式参数及由实际相邻字计算的间距。
+
+游戏的暂停、Journal导航是延迟请求，拒绝后会清队列。启动探针现在先核对真实Boss/GUI初始化、准入和转换状态，再追踪具体请求是否消费，未生效时最多重试5次；采集按菜单实际就绪后的相对时钟安排。文档入口必须传非空关闭回调，否则真实 `OnClosed` 会抛空引用并中断清理。采集还等待真实转换结束，不强开Canvas或伪造获取状态。
+
+后台Rewired会处理物理输入，之前异常栈已证实取消按键查询导致资料自动关闭。临时探针阻断本进程 `PlayerInputManaged` 的按钮/轴状态查询，并禁用自动输入模块；显式EventSystem事件、真实UiToggle、State/Lookup/HistoryText继续使用。`BLOCKED` 是被阻断的查询次数，不能说观测到相同数量的真实按键。Unity直接按键与正式插件F8入口并未全部封堵，此措施不称完整输入系统隔离，也不安装或打包给普通游玩。
+
+复跑资料和字体需要设置 `ELSINOREHAN_PROBE_JOURNAL=1`、`ELSINOREHAN_PROBE_TOGGLE=1`、`ELSINOREHAN_PROBE_ITALIC=1`，使用 `runtime/game-test/settings-options` 副本；保存源使用 `runtime/backups/probe-save-6f413db42b4842f99a322ede96cdd074`。四个输入分别为：
+
+- `ELSINOREHAN_PROBE_TRANSLATIONS=translation/sol-full-2026-10-09/translations.json`
+- `ELSINOREHAN_PROBE_CHARACTERS=translation/sol-full-2026-10-09/chinese-characters.txt`
+- `ELSINOREHAN_PROBE_CACHE_CASES=translation/sol-full-2026-10-09/runtime-cache-cases.tsv`
+- `ELSINOREHAN_PROBE_CLOSEUP_IDS=runtime/build/closeup-ids.txt`
+
+运行前解析为绝对路径，再调用 `tools/patch/run-headless-probe.ps1`。缺输入或非法重试延迟会在构建/启动前拒绝。资料与字体失败运行保留在 `runtime/evidence/headless/`，不得把早期 `COLLECTED`、单独缓存通过或裁切的网格合并成完整成功；最终通过绑定上述单个运行。下一步只按实际游玩反馈修订，不重译全文，不恢复已停止的百炼比较。
+
+以下保留1.2.0阶段的实施和验收记录，数量及运行ID均属历史快照。
+
 2026-10-09。用户游玩反馈显示，上轮修复仍有对话记录英文、通知中英混排、资料正文漏译和长人物名压住称号。本轮保持既有离线框架及原文粗斜体，针对实际消费路径修复。
 
 ## 实现与来源

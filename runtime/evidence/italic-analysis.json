@@ -1,0 +1,52 @@
+{
+  "passed": true,
+  "checks": {
+    "schema_valid": true,
+    "font_restored": true,
+    "actual_old_style_recorded": true,
+    "repaired_style_ten": true,
+    "all_twelve_samples": true,
+    "nonempty_character_samples": true,
+    "mode_style_consistent": true,
+    "layout_geometry_consistent": true,
+    "expected_text_and_emphasis": true,
+    "boundary_evidence_valid": true,
+    "all_geometry_finite": true,
+    "both_boundaries_recorded": true,
+    "repaired_ink_boundaries_clear": true,
+    "italic_retained": true,
+    "normal_not_slanted": true,
+    "character_advance_unchanged": true,
+    "slant_reduced": true,
+    "boundary_gaps_improved": true,
+    "old_collision_reproduced": true
+  },
+  "comparisons": [
+    {
+      "layout": "dialogue",
+      "source_id": "p10804-e0f7f605aeb5",
+      "old_min_gap": -3.59598541,
+      "repaired_min_gap": 2.551384
+    },
+    {
+      "layout": "dialogue",
+      "source_id": "p10805-9c05de9c31a3",
+      "old_min_gap": -5.76730347,
+      "repaired_min_gap": 0.879760742
+    },
+    {
+      "layout": "log",
+      "source_id": "p10804-e0f7f605aeb5",
+      "old_min_gap": -3.595993,
+      "repaired_min_gap": 2.55137634
+    },
+    {
+      "layout": "log",
+      "source_id": "p10805-9c05de9c31a3",
+      "old_min_gap": -5.76730347,
+      "repaired_min_gap": 0.879760742
+    }
+  ],
+  "scope": "真实对白/日志字体参数的冻结译文单行网格局部测试",
+  "limitation": "glyph矩形为字形metrics包络；未采样纹理alpha，不能替代像素目测"
+}

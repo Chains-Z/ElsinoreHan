@@ -13,12 +13,14 @@ $references = @(
     (Join-Path $managed 'Assembly-CSharp.dll'),
     (Join-Path $managed 'UnityEngine.AudioModule.dll'),
     (Join-Path $managed 'UnityEngine.CoreModule.dll'),
+    (Join-Path $managed 'UnityEngine.JSONSerializeModule.dll'),
     (Join-Path $managed 'UnityEngine.ScreenCaptureModule.dll'),
     (Join-Path $managed 'UnityEngine.UI.dll')
 )
 $arguments = @('/nologo', '/target:library', '/platform:x86', ('/out:' + $output))
 $arguments += $references | ForEach-Object { '/reference:' + $_ }
 $arguments += Join-Path $PSScriptRoot 'RuntimeProbe.cs'
+$arguments += Join-Path $PSScriptRoot 'ItalicGeometryProbe.cs'
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw '运行时探针编译失败。' }
 Write-Output $output

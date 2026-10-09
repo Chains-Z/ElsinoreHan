@@ -100,11 +100,18 @@ class JournalVerificationTests(unittest.TestCase):
             combined, rendered = "<line-height=90%>" + source, "<line-height=90%>" + target
             self.rows.append(["CLOSEUP_BATCH", closeup_id, encoded(source), encoded(combined), encoded(rendered), "False"])
             self.rows.append(["API", "batch:" + closeup_id, "builder:Body", encoded(combined), "True", encoded(rendered), encoded(rendered), "True"])
-        self.rows.append(["CHARACTER_LAYOUT_EXPECTED_COUNT", "2"])
-        for actor in ["ophelia", "brit"]:
+        self.rows.append(["CHARACTER_LAYOUT_EXPECTED_COUNT", "3"])
+        profile = json.loads((ROOT / "translation/supplemental/hamlet-bio-alias.json").read_text(encoding="utf-8"))[0]
+        profile_source, profile_target = "<line-height=90%>" + profile["source"], "<line-height=90%>" + profile["target"]
+        for actor in ["ophelia", "brit", "hamlet"]:
             self.rows.append(["CHARACTER_GEOMETRY", actor, "title", encoded("真实冻结资料的标题"), "1", "24", "200", "40", "0", "50", "100", "20", "False"])
             self.rows.append(["CHARACTER_GEOMETRY", actor, "subtitle", encoded("副标题"), "1", "18", "200", "30", "0", "25", "110", "18", "False"])
             self.rows.append(["CHARACTER_LAYOUT", actor, "False"])
+            self.rows.append(["API", "character:" + actor, "builder:DescriptionText", encoded(profile_source), "True", encoded(profile_target), encoded(profile_target), "True"])
+        self.rows.append(["CONTROL", "character:hamlet", "character.profile.body", "301", encoded("hamlet.description"), "True"])
+        for mode, value in [("translated", profile_target), ("original", profile_source), ("restored", profile_target)]:
+            self.rows.append(["TEXT", "character:hamlet", mode, "301", encoded("hamlet.description"), encoded(value), "False", encoded(value)])
+        self.rows.append(["API", "character:hamlet", "301", encoded(profile_source), "True", encoded(profile_target), encoded(profile_target), "True"])
         translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
         preview = next(row for row in translations if row["source"] == "Someone is after my life.")
         source, target = '"' + preview["source"] + '"', '“' + preview["target"] + '”'
@@ -153,6 +160,21 @@ class JournalVerificationTests(unittest.TestCase):
 
     def test_complete_consistent_report_passes(self):
         self.assertTrue(self.result()["passed"])
+
+    def test_first_character_profile_cannot_represent_every_character(self):
+        self.rows = [row for row in self.rows if not (
+            row[0] == "API" and row[1].startswith("character:")
+            and row[2] == "builder:DescriptionText" and row[1] != "character:ophelia")]
+        self.assertFalse(self.result()["checks"]["all_known_character_profiles_translated"])
+
+    def test_partial_chinese_hamlet_profile_is_rejected_even_with_api_hit(self):
+        row = next(row for row in self.rows if row[:3] == ["API", "character:hamlet", "builder:DescriptionText"])
+        row[5] = row[6] = encoded("哈姆雷特 recently lost his father.")
+        self.assertFalse(self.result()["checks"]["all_known_character_profiles_translated"])
+
+    def test_hamlet_profile_without_real_original_roundtrip_is_rejected(self):
+        self.rows = [row for row in self.rows if not (row[:3] == ["TEXT", "character:hamlet", "original"])]
+        self.assertFalse(self.result()["checks"]["hamlet_profile_f8_original_and_restored"])
 
     def add_empty_history_group(self):
         for row in self.rows:
