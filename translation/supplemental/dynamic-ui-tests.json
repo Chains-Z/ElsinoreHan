@@ -1,5 +1,105 @@
 [
   {
+    "id": "log-reject-unknown-quoted-belief-term",
+    "source": "<b>Ophelia</b> now believes that \"hamlet_internal_id\".",
+    "target": null,
+    "verification_level": "component",
+    "origins": [
+      "Elsinore.dll:Model.formatGroupedLiterals 实际引号结构的未知逻辑ID负例"
+    ],
+    "note": "故意注入不存在于冻结词表的内部ID；必须拒绝消费，非真实游戏事件或E2E"
+  },
+  {
+    "id": "log-reject-unknown-first-dialogue",
+    "source": "<b>Ophelia:</b> <indent=16%>hamlet_internal_id\nSomething's very wrong. He's so cryptic... what does he mean? What did he see?",
+    "target": null,
+    "verification_level": "component",
+    "origins": [
+      "HistoryTracker 日志结构负例；第二行复用p14556-2530ae9c7571冻结源文"
+    ],
+    "note": "首行未知ID不能被任意逐行规则跳过或原样消费，非真实游戏事件或E2E"
+  },
+  {
+    "id": "log-observed-history-0",
+    "source": "<line-height=90%><b>Thursday, 06:02 in Ophelia's Chambers</b>, <i>in which</i> Hamlet's ravings interrupt my sleep.\n<i>Ophelia in her bed. Enter to her Hamlet.</i>\n<b>Ophelia:</b> <indent=16%>What a strange dream.</indent>\n<b>Hamlet:</b> <indent=16%>...</indent>\n<b>Ophelia:</b> <indent=16%>Is someone there?</indent>\n<b>Hamlet:</b> <indent=16%>Ophelia.</indent>\n<b>Ophelia:</b> <indent=16%>Hamlet? Is everything all right?</indent>\n<b>Hamlet:</b> <indent=16%>His death—I've seen it with my own eyes! And the traitor is my own blood, and my mother... Oh, God, my mother... \nWorms, worms and wriggling earth! All I can see is bile and rot everywhere!</indent>\n<b>Ophelia:</b> <indent=16%>Hamlet. Stop for a moment. What in the <i>world</i> are you talking about?\nAnd why are you in my bedchamber?</indent>\n<b>Hamlet:</b> <indent=16%>I'm sorry. S-sorry.</indent>\n<b>Ophelia:</b> <indent=16%>Wait!</indent>\n<i>Exit Hamlet.</i>\n<b>Ophelia:</b> <indent=16%>He looked so peculiar. Something's wrong.\nUgh. My head feels strange.\nThat <b>dream</b> seemed so real.</indent>\n<b>Ophelia</b> acquires the information \"What's Wrong With Hamlet?.\"\n<b>Ophelia</b> acquires the information \"Tragic Nightmare.\"\nOphelia learns more about <b>Prince Hamlet's Madness</b>. The entry will be updated in the <b>Journal</b>.\n",
+    "target": "<line-height=90%><b>星期四 06:02，奥菲莉娅的寝室</b>，<i>事件：</i>哈姆雷特的疯言疯语扰了我的睡眠。\n<i>奥菲莉娅躺在床上。哈姆雷特走了进来。</i>\n<b>奥菲莉娅:</b> <indent=16%>真是个奇怪的梦。</indent>\n<b>哈姆雷特:</b> <indent=16%>...</indent>\n<b>奥菲莉娅:</b> <indent=16%>有人在吗？</indent>\n<b>哈姆雷特:</b> <indent=16%>奥菲莉娅。</indent>\n<b>奥菲莉娅:</b> <indent=16%>哈姆雷特？一切都好吗？</indent>\n<b>哈姆雷特:</b> <indent=16%>他的死——我亲眼看见了！而那个叛徒是我的血亲，还有我的母亲……哦，上帝啊，我的母亲…… \n虫子，虫子，还有蠕动的泥土！我眼里到处都是胆汁和腐烂之物！</indent>\n<b>奥菲莉娅:</b> <indent=16%>哈姆雷特。先停一下。你<i>到底</i>在说什么？\n还有，你为什么会在我的卧室里？</indent>\n<b>哈姆雷特:</b> <indent=16%>对不起。对、对不起。</indent>\n<b>奥菲莉娅:</b> <indent=16%>等等！</indent>\n<i>退场：哈姆雷特.</i>\n<b>奥菲莉娅:</b> <indent=16%>他的样子好奇怪。有些不对劲。\n唔。我的头感觉怪怪的。\n那个<b>梦</b>感觉好真实。</indent>\n<b>奥菲莉娅</b>获得了信息“哈姆雷特怎么了？”。\n<b>奥菲莉娅</b>获得了信息“悲惨的噩梦”。\n奥菲莉娅进一步了解了<b>哈姆雷特王子的疯病</b>。相关条目会在<b>笔记</b>中更新。\n",
+    "verification_level": "component",
+    "source_sha256": "ae79add7e91137e202ba68e607213f16594c1db87167fbb203a74ef5d19edb9d",
+    "target_sha256": "a3a57f90d3b1c6fa465cf76ac5705171254e725b81df3131f2d4d2efc625ef5c",
+    "origins": [
+      "runtime/game-test/settings-options/ElsinoreHanProbe/67326bd795924f60a2b5aa5d96f6cb1a/journal-ui.txt:HISTORY_SOURCE 0"
+    ],
+    "report_sha256": "13bb8e5bf2e5e67d243e349bf70aeaea391336480e99fdd638a15ce3122ac1e1",
+    "target_provenance": "真实XUnity RegexTranslationSplitter/ParserResult内存首匹配消费者实际返回，复用冻结词表；未调用模型、未手编完整期望译文",
+    "note": "历史真实源报告的离线组件回归；当前目标不是游戏实测或E2E",
+    "expected_target_revision": {
+      "previous_target_sha256": "d77a14cc26aa2e61d1eddc80132add6583c0583ff6a45514105b21c7df95ccfc",
+      "reason": "真实原句中的 Journal 指游戏资料界面，按有据术语修订统一为笔记；保持 will be updated 完整更新语义及所有正文",
+      "origins": [
+        "translation/supplemental/notification-translations.json",
+        "analysis/ui-audit/notification-source-audit.json"
+      ]
+    }
+  },
+  {
+    "id": "log-observed-history-1",
+    "source": "<line-height=90%><b>Thursday, 07:40</b>, <i>in which</i> Ophelia makes an observation.\n<b>Ophelia:</b> <indent=16%>My dresser, where some of my simpler garments are kept.\nI'm partial to this gown, though.\nI'm not tired right now.\nI'm not tired right now.",
+    "target": "<line-height=90%><b>星期四 07:40</b>，<i>事件：</i>奥菲莉娅有所发现。\n<b>奥菲莉娅:</b> <indent=16%>我的衣柜，里面放着一些比较朴素的衣服。\n不过，我还是偏爱这条裙子。\n我现在不累。\n我现在不累。",
+    "verification_level": "component",
+    "source_sha256": "daf53371b68ce6a2328405e8639e74b0e4436992fb645309514954019830b755",
+    "target_sha256": "861ff5663e0ddc89094f5a1691d6db785eba48fbca72c6846c2cba6266bf4f7d",
+    "origins": [
+      "runtime/game-test/settings-options/ElsinoreHanProbe/67326bd795924f60a2b5aa5d96f6cb1a/journal-ui.txt:HISTORY_SOURCE 1"
+    ],
+    "report_sha256": "13bb8e5bf2e5e67d243e349bf70aeaea391336480e99fdd638a15ce3122ac1e1",
+    "target_provenance": "真实XUnity RegexTranslationSplitter/ParserResult内存首匹配消费者实际返回，复用冻结词表；未调用模型、未手编完整期望译文",
+    "note": "历史真实源报告的离线组件回归；当前目标不是游戏实测或E2E"
+  },
+  {
+    "id": "log-observed-history-2",
+    "source": "<line-height=90%><b>Thursday, 08:00</b>, <i>in which</i> Father expresses his displeasure.\n<b>Polonius:</b> <indent=16%>Ophelia! Why are you skulking in your room?</indent>\n<b>Ophelia:</b> <indent=16%>Father. What's wrong?</indent>\n<b>Polonius:</b> <indent=16%>Only last night, we discussed this. Why did I see Hamlet coming out of your chambers?\nDid nothing I say stick with you? Were you deceiving me?</indent>\n<b>Ophelia:</b> <indent=16%>I can explain—</indent>\n<b>Polonius:</b> <indent=16%>And he was <i>half clothed</i>, too. If only someone <i>else</i> had seen him dashing out like that... I shudder to think of it.\nI'm going to have to speak to the King about this. I cannot hide this from him. Unless, I suppose, you can <b>offer some explanation for this transgression!</b>\nOphelia?</indent>\n<b>Ophelia:</b> <indent=16%>I'm sorry, Father. I don't feel well. I had <i>such</i> an odd vision last night—</indent>\n<b>Polonius:</b> <indent=16%>A vision?</indent>\n<b>Ophelia:</b> <indent=16%>No. Never mind it. It's passed now. I'll sleep better this evening, I think.</indent>\n<b>Polonius:</b> <indent=16%>Be <i>careful</i>, love. That's all I ask. Carrying on like this—it terrifies me. I don't want you hurt.</indent>\n<b>Ophelia</b> learns about a future event in which The King holds court about recent events. If it can happen in this world, it will appear on the <b>Timeline</b>.\n",
+    "target": "<line-height=90%><b>星期四 08:00</b>，<i>事件：</i>父亲表示不满。\n<b>波洛涅斯:</b> <indent=16%>奥菲莉娅！你为什么偷偷躲在房间里？</indent>\n<b>奥菲莉娅:</b> <indent=16%>父亲。怎么了？</indent>\n<b>波洛涅斯:</b> <indent=16%>就在昨晚，我们才谈过这件事。为什么我会看到哈姆雷特从你的房间里出来？\n我说的话，你一句都没记住吗？你是在骗我吗？</indent>\n<b>奥菲莉娅:</b> <indent=16%>我可以解释——</indent>\n<b>波洛涅斯:</b> <indent=16%>而且他还<i>衣衫不整</i>。要是让<i>别人</i>看见他那样冲出来……我想想都害怕。\n我必须跟国王谈谈这件事。我不能瞒着他。除非，我想，你能<b>解释一下这种越轨行为！</b>\n奥菲莉娅？</indent>\n<b>奥菲莉娅:</b> <indent=16%>对不起，父亲。我不太舒服。昨晚我看到了一个<i>特别</i>古怪的幻象——</indent>\n<b>波洛涅斯:</b> <indent=16%>幻象？</indent>\n<b>奥菲莉娅:</b> <indent=16%>不。别在意。现在已经过去了。我想今晚我会睡得好些。</indent>\n<b>波洛涅斯:</b> <indent=16%>要<i>小心</i>，亲爱的。我只求你这一点。你一直这样下去——我真的很害怕。我不想你受伤。</indent>\n<b>奥菲莉娅</b>得知了一个未来事件：国王召集宫廷众人议论近来的事情。如果能在当前世界发生，就会显示在<b>时间线</b>上。\n",
+    "verification_level": "component",
+    "source_sha256": "062730ba84875f7655dbe6c37bb80119425a6495743efd4dc6bbc82a180ea972",
+    "target_sha256": "5fe15be89ca18fc7e110a1b4f0845ae9d6de0d56eaeb0742d3b2db99fb3a00e4",
+    "origins": [
+      "runtime/game-test/settings-options/ElsinoreHanProbe/67326bd795924f60a2b5aa5d96f6cb1a/journal-ui.txt:HISTORY_SOURCE 2"
+    ],
+    "report_sha256": "13bb8e5bf2e5e67d243e349bf70aeaea391336480e99fdd638a15ce3122ac1e1",
+    "target_provenance": "真实XUnity RegexTranslationSplitter/ParserResult内存首匹配消费者实际返回，复用冻结词表；未调用模型、未手编完整期望译文",
+    "note": "历史真实源报告的离线组件回归；当前目标不是游戏实测或E2E",
+    "expected_target_revision": {
+      "previous_target_sha256": "22d7c46f5e2795040f37a4563f57d998e0dcbd8601a885a10c807e3790502482",
+      "reason": "新增受限通知尾换行封套保留此真实源的末尾LF；原预期漏掉该格式字符，正文目标保持完全一致",
+      "origins": [
+        "translation/supplemental/notification-ui-rules.json:ui-rule-notification-final-newlines",
+        "runtime/game-test/settings-options/ElsinoreHanProbe/67326bd795924f60a2b5aa5d96f6cb1a/journal-ui.txt:HISTORY_SOURCE 2"
+      ]
+    }
+  },
+  {
+    "id": "log-observed-history-3",
+    "source": "<line-height=90%><b>Thursday, 10:38</b>, <i>in which</i> Ophelia makes an observation.\n<b>Ophelia:</b> <indent=16%>It's Hamlet's father, and his namesake, the late King Hamlet.\n...Come to think of it, I noticed a blank space on the walls in the gallery...\nIt's uncomfortably warm in here, considering the season. But I suppose Hamlet likes it this way.\nIt's uncomfortably warm in here, considering the season. But I suppose Hamlet likes it this way.\nThere are some notes inside the chest.</indent>\n<i>Ophelia looks at \"Hamlet's Personal Journal.\"</i>\n<b>Ophelia:</b> <indent=16%>...\nSomething's very wrong. He's so cryptic... what does he mean? What did he see?\nI refuse to believe Hamlet's in this state on my behalf alone.\nI need to have a closer look at the gallery.</indent>\n<b>Ophelia</b> now believes that \"a death report exists for King Hamlet\".\nOphelia learns more about <b>Prince Hamlet's Madness</b>. The entry will be updated in the <b>Journal</b>.\n<b>Ophelia:</b> <indent=16%>There are some notes inside the chest.</indent>\n<i>Ophelia looks at \"Hamlet's Personal Journal.\"</i>\n<b>Ophelia:</b> <indent=16%>...\nSo Hamlet suspects his father was murdered after all.\nThere are some notes inside the chest.</indent>\n<i>Ophelia looks at \"Hamlet's Personal Journal.\"</i>\n<b>Ophelia:</b> <indent=16%>...\nSo Hamlet suspects his father was murdered after all.\nHamlet's gone and blocked out all the light. How juvenile.\nIf I want to sleep a while, it should be in my own room.\nFather fancies himself a scholar, I think. He certainly carries on like one.\nIt's unclear how Father finds anything on a desk this messy.\nHmm—there's a note here.</indent>\n<i>Ophelia looks at \"A Scrawled Note From Laertes.\"</i>\n<b>Ophelia:</b> <indent=16%>A missing lute... I wonder if I could find it for him?</indent>\n<b>Ophelia</b> acquires the information \"A Missing Lute.\"\nOphelia learns more about <b>A Missing Lute</b>. The entry will be updated in the <b>Journal</b>.\n<b>Ophelia:</b> <indent=16%>Father fancies himself a scholar, I think. He certainly carries on like one.\nFather's hearth. It looks warm.\nIt's my father's lockbox. He keeps his personal items in there.\nNothing but the key can open it, I presume.",
+    "target": "<line-height=90%><b>星期四 10:38</b>，<i>事件：</i>奥菲莉娅有所发现。\n<b>奥菲莉娅:</b> <indent=16%>这是哈姆雷特的父亲，已故的哈姆雷特国王。哈姆雷特的名字也是沿用他的。\n……说起来，我注意到画廊墙上有一处空白……\n这个季节，屋里这么热实在让人不舒服。不过我想哈姆雷特就喜欢这样。\n这个季节，屋里这么热实在让人不舒服。不过我想哈姆雷特就喜欢这样。\n箱子里有一些笔记。</indent>\n<i>奥菲莉娅查看“哈姆雷特的私人日记”。</i>\n<b>奥菲莉娅:</b> <indent=16%>...\n很不对劲。他写得这么隐晦……到底是什么意思？他看到了什么？\n我不相信哈姆雷特变成这样，仅仅是因为我。\n我得去画廊仔细看看。</indent>\n<b>奥菲莉娅</b>现在相信有一份关于哈姆雷特国王的死亡报告。\n奥菲莉娅进一步了解了<b>哈姆雷特王子的疯病</b>。相关条目会在<b>笔记</b>中更新。\n<b>奥菲莉娅:</b> <indent=16%>箱子里有一些笔记。</indent>\n<i>奥菲莉娅查看“哈姆雷特的私人日记”。</i>\n<b>奥菲莉娅:</b> <indent=16%>...\n原来哈姆雷特果然怀疑父亲是被谋杀的。\n箱子里有一些笔记。</indent>\n<i>奥菲莉娅查看“哈姆雷特的私人日记”。</i>\n<b>奥菲莉娅:</b> <indent=16%>...\n原来哈姆雷特果然怀疑父亲是被谋杀的。\n哈姆雷特把光全遮住了。真幼稚。\n要是想睡一会儿，我该回自己的房间。\n我想，父亲以学者自居。他的言谈举止确实也像个学者。\n真不知道父亲怎么在这么乱的桌子上找到东西。\n嗯——这里有张便条。</indent>\n<i>奥菲莉娅查看“雷欧提斯的潦草便条”。</i>\n<b>奥菲莉娅:</b> <indent=16%>一把丢失的鲁特琴……不知道我能不能帮他找到？</indent>\n<b>奥菲莉娅</b>获得了信息“失踪的鲁特琴”。\n奥菲莉娅进一步了解了<b>失踪的鲁特琴</b>。相关条目会在<b>笔记</b>中更新。\n<b>奥菲莉娅:</b> <indent=16%>我想，父亲以学者自居。他的言谈举止确实也像个学者。\n父亲的壁炉。看起来很暖和。\n这是父亲的上锁箱子。他把私人物品放在里面。\n我想，只有钥匙才能打开它。",
+    "verification_level": "component",
+    "source_sha256": "5358d6bdae10551667c5d3635103550b28bb33a34868fc0e51f8c79fd49a97eb",
+    "target_sha256": "bd8ac744aa29bad7bdb472851b129355286accb5a283c67e66197120870d7eca",
+    "origins": [
+      "runtime/game-test/settings-options/ElsinoreHanProbe/67326bd795924f60a2b5aa5d96f6cb1a/journal-ui.txt:HISTORY_SOURCE 3"
+    ],
+    "report_sha256": "13bb8e5bf2e5e67d243e349bf70aeaea391336480e99fdd638a15ce3122ac1e1",
+    "target_provenance": "真实XUnity RegexTranslationSplitter/ParserResult内存首匹配消费者实际返回，复用冻结词表；未调用模型、未手编完整期望译文",
+    "note": "历史真实源报告的离线组件回归；当前目标不是游戏实测或E2E",
+    "expected_target_revision": {
+      "previous_target_sha256": "3711638b6e5063bb01a71ccfbe231199434113186aeff5f0a7d5fd3d31d1bfca",
+      "reason": "真实原句中的 Journal 指游戏资料界面，按有据术语修订统一为笔记；保持 will be updated 完整更新语义及所有正文",
+      "origins": [
+        "translation/supplemental/notification-translations.json",
+        "analysis/ui-audit/notification-source-audit.json"
+      ]
+    }
+  },
+  {
     "id": "log-header-without-room",
     "source": "<line-height=90%><b>Thursday, 06:02</b>, <i>in which</i> Hamlet's ravings interrupt my sleep.\n<b>Ophelia:</b> <indent=16%>It's my father's lockbox. He keeps his personal items in there.",
     "target": "<line-height=90%><b>星期四 06:02</b>，<i>事件：</i>哈姆雷特的疯言疯语扰了我的睡眠。\n<b>奥菲莉娅:</b> <indent=16%>这是父亲的上锁箱子。他把私人物品放在里面。",
@@ -270,10 +370,17 @@
   {
     "id": "literal-2",
     "source": "Open Journal",
-    "target": "打开日志",
+    "target": "打开笔记",
     "origins": [
       "用户截图及analysis/ui-audit/dynamic-ui-sources.json真实格式路径"
-    ]
+    ],
+    "expected_target_revision": {
+      "previous_target_sha256": "99a63f34e6f36b66613a99f331db7d95560c9a853e3fb718543e7ec3f64b79eb",
+      "reason": "Open Journal 按有据界面术语覆盖统一为笔记；不改实际源文",
+      "origins": [
+        "translation/supplemental/notification-translations.json"
+      ]
+    }
   },
   {
     "id": "literal-3",

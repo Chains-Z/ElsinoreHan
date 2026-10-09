@@ -8,7 +8,7 @@ using UnityEngine;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.1.0")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.2.0")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -86,6 +86,20 @@ public sealed class TranslationToggle : BaseUnityPlugin
     public static void PrepareOfflineText(TMP_Text __instance, string __0)
     {
         if (!(__instance is TextMeshProUGUI) || string.IsNullOrEmpty(__0)) return;
+        if (__instance.gameObject.name == "Title")
+        {
+            for (Transform parent = __instance.transform.parent; parent != null; parent = parent.parent)
+            {
+                if (parent.name != "CharactersTab") continue;
+                // 人物全名只能使用标题原有的一行空间，避免换行压住独立称号。
+                float maximum = __instance.enableAutoSizing ? __instance.fontSizeMax : __instance.fontSize;
+                __instance.fontSizeMax = maximum;
+                __instance.fontSizeMin = Math.Max(16f, maximum * 0.4f);
+                __instance.enableWordWrapping = false;
+                __instance.enableAutoSizing = true;
+                break;
+            }
+        }
         bool hasEnglish = false;
         foreach (char character in __0)
         {

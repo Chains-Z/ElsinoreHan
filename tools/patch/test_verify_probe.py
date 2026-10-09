@@ -16,6 +16,12 @@ def visible(text: str, overflow: bool = False) -> dict:
 
 
 class ProbeRegressionTests(unittest.TestCase):
+    def test_journal_navigation_omits_unvisited_settings_without_claiming_pass(self):
+        result = evaluate([visible("继续游戏"), visible("设置"), visible("退出游戏")], [],
+                          "GLYPHS_继续游戏设置退出=True", "", include_settings=False)
+        self.assertTrue(all(result.values()))
+        self.assertFalse(any(key.startswith("settings_") for key in result))
+
     def test_only_current_settings_values_are_insufficient(self):
         report = "STATUS\tCOMPLETE\nCANCELLED\tTrue\nSCOPES_RETAINED\tTrue\n"
         result = module.evaluate_settings_options(report, {"Faster": "较快"})

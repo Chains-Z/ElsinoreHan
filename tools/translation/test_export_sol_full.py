@@ -2,10 +2,75 @@
 
 import unittest
 import hashlib
-from export_sol_full import apply_supplemental, encode, format_rule, printf_rule
+import json
+import re
+from export_sol_full import ROOT, apply_supplemental, encode, format_rule, printf_rule, render_ui_rule
 
 
 class DynamicFormatTests(unittest.TestCase):
+    def test_backerbook_runtime_alias_follows_observed_compiler_contract(self):
+        rows = json.loads((ROOT / "translation/supplemental/runtime-closeup-translations.json").read_text(encoding="utf-8"))
+        translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
+        self.assertEqual(len(rows), 1)
+        alias = rows[0]
+        original = next(row for row in translations if row["id"] == alias["canonical_source_id"])
+        expected = original["source"]
+        for pattern in (" -- ", " --- ", " - ", "-- ", "--- ", " --", " ---", "--", "---"):
+            expected = expected.replace(pattern, "—")
+        self.assertEqual(alias["source"], expected)
+        self.assertEqual(alias["target"], original["target"])
+        self.assertEqual(hashlib.sha256(alias["source"].encode()).hexdigest(), alias["source_sha256"])
+
+    def test_supplemental_layers_require_exact_previous_target_and_unique_source(self):
+        source = "Open Journal"
+        first = {"id": "first", "source": source, "target": "打开日志", "origins": ["真实菜单"],
+                 "source_sha256": hashlib.sha256(source.encode()).hexdigest()}
+        second = {**first, "id": "second", "target": "打开笔记", "previous_target": "打开日志"}
+        initial = apply_supplemental([], [first])
+        self.assertEqual(apply_supplemental(initial, [second])[0]["target"], "打开笔记")
+        with self.assertRaises(ValueError):
+            apply_supplemental([], [first, second])
+        with self.assertRaises(ValueError):
+            apply_supplemental(initial, [{**second, "previous_target": "错误旧值"}])
+
+    def test_observed_history_fixture_hashes_and_visible_text(self):
+        rows = json.loads((ROOT / "translation/supplemental/dynamic-ui-tests.json").read_text(encoding="utf-8"))
+        observed = [row for row in rows if row["id"].startswith("log-observed-history-")]
+        self.assertEqual([row["id"] for row in observed], ["log-observed-history-" + str(i) for i in range(4)])
+        for row in observed:
+            with self.subTest(id=row["id"]):
+                self.assertEqual(row["verification_level"], "component")
+                self.assertEqual(hashlib.sha256(row["source"].encode()).hexdigest(), row["source_sha256"])
+                self.assertEqual(hashlib.sha256(row["target"].encode()).hexdigest(), row["target_sha256"])
+                self.assertNotRegex(re.sub(r"<[^>]*>", "", row["target"]), r"[A-Za-z]")
+
+    def test_real_log_continuation_padding_and_punctuation(self):
+        rule = {"id": "ui-rule-log-frozen-continuation", "pattern": r"^(?<first>(?:Known dialogue))(?<newline_i>\n)(?<rest>[\s\S]+)\z$",
+                "continuation_separator_padding": True, "continuation_punctuation": ["..."]}
+        rendered = render_ui_rule(rule)
+        self.assertIn(r"(?:Known dialogue)|\.\.\.)(?<newline_i>[ \t]*\n)", rendered["pattern"])
+        self.assertNotEqual(rendered["pattern"], rule["pattern"])
+        self.assertNotIn("|.*", rendered["pattern"])
+
+    def test_continuation_options_reject_other_rules_or_unknown_punctuation(self):
+        rule = {"id": "other", "pattern": r"^(?<first>x)(?<newline_i>\n)$", "continuation_separator_padding": True,
+                "continuation_punctuation": ["..."]}
+        with self.assertRaises(ValueError):
+            render_ui_rule(rule)
+        rule["id"] = "ui-rule-log-frozen-continuation"
+        rule["continuation_punctuation"] = ["unknown-id"]
+        with self.assertRaises(ValueError):
+            render_ui_rule(rule)
+
+    def test_continuation_requires_unique_exact_marker(self):
+        rule = {"id": "ui-rule-log-frozen-continuation", "pattern": r"^x$", "continuation_separator_padding": True,
+                "continuation_punctuation": ["..."]}
+        with self.assertRaises(ValueError):
+            render_ui_rule(rule)
+        rule["pattern"] = r"^(?<first>x)(?<newline_i>\n)(?<first>y)(?<newline_i>\n)$"
+        with self.assertRaises(ValueError):
+            render_ui_rule(rule)
+
     def test_real_future_event_printf_template(self):
         result = printf_rule("<b>Ophelia</b> learns about an event in which %s", "<b>奥菲莉娅</b>得知了一个事件：%s")
         self.assertIn("${arg0}", result["replacement"])

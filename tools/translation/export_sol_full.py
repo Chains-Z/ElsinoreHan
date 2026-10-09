@@ -76,6 +76,22 @@ def printf_rule(source, target):
     return {**rule, "format_source": format_source, "format_target": format_target} if rule else None
 
 
+def render_ui_rule(rule):
+    """只编译已审日志连续项的精确标点分支与换行前空白，拒绝其它规则借用。"""
+    result = dict(rule)
+    padding = rule.get("continuation_separator_padding", False)
+    punctuation = rule.get("continuation_punctuation", [])
+    if not padding and not punctuation:
+        return result
+    if rule["id"] != "ui-rule-log-frozen-continuation" or padding is not True or punctuation != ["..."]:
+        raise ValueError("日志连续项编译选项超出已审范围")
+    marker = r")(?<newline_i>\n)"
+    if result["pattern"].count(marker) != 1:
+        raise ValueError("冻结日志规则的唯一换行边界不符")
+    result["pattern"] = result["pattern"].replace(marker, r"|\.\.\.)(?<newline_i>[ \t]*\n)")
+    return result
+
+
 def main():
     manifest = json.loads((DIRECTORY / "manifest.json").read_text(encoding="utf-8"))
     exclusions = load_exclusions(DIRECTORY)
@@ -120,6 +136,13 @@ def main():
     base_count = len(rows)
     supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
     rows = apply_supplemental(rows, supplemental)
+    for filename in ("notification-translations.json", "runtime-closeup-translations.json"):
+        extra_path = SUPPLEMENTAL.with_name(filename)
+        if extra_path.exists():
+            extra_entries = json.loads(extra_path.read_text(encoding="utf-8"))
+            # 后续校订须匹配上轮译文，保持每层来源唯一和覆盖链可审计。
+            rows = apply_supplemental(rows, extra_entries)
+            supplemental += extra_entries
     (DIRECTORY / "translations.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     package = ROOT / "runtime" / "package" / "ElsinoreHan-Sol" / "BepInEx" / "Translation" / "zh-CN" / "Text"
     package.mkdir(parents=True, exist_ok=True)
@@ -133,7 +156,13 @@ def main():
                             "encoded_line": encode('sr:"' + rule["pattern"] + '"') + "=" + encode('"' + rule["replacement"] + '"')})
     ui_rules_path = ROOT / "translation" / "supplemental" / "dynamic-ui-rules.json"
     ui_rules = json.loads(ui_rules_path.read_text(encoding="utf-8")) if ui_rules_path.exists() else []
+    notification_rules_path = ui_rules_path.with_name("notification-ui-rules.json")
+    if notification_rules_path.exists():
+        ui_rules += json.loads(notification_rules_path.read_text(encoding="utf-8"))
+    # XUnity 逆序取首个匹配；结构边界必须优先于宽泛的姓名/富文本封套。
+    ui_rules = sorted(ui_rules, key=lambda rule: rule.get("priority", 0))
     for rule in ui_rules:
+        rule = render_ui_rule(rule)
         if not rule.get("origins") or not rule["pattern"].startswith("^") or not rule["pattern"].endswith("$"):
             raise ValueError("动态UI规则必须有真实来源和全串锚点")
         dynamic.append({**rule, "kind": "recursive_ui_splitter", "encoded_line": encode('sr:"' + rule["pattern"] + '"') + "=" + encode('"' + rule["replacement"] + '"')})

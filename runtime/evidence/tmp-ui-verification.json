@@ -1,15 +1,11 @@
 {
-  "passed": true,
-  "plugin_version": "1.1.0",
-  "journal_run_id": "67326bd795924f60a2b5aa5d96f6cb1a",
-  "settings_run_id": "daf2eee559244049bceded4e50c30ed1",
-  "translation_count": 16841,
-  "dynamic_rules": 70,
-  "recursive_rules": 46,
-  "actual_recursive_consumer_cases": 43,
+  "plugin_version": "1.2.0",
+  "run_id": "398ee54ccb6e4318a623e94282762212",
+  "journal_component_passed": true,
   "journal_checks": {
     "collection_finished": true,
     "save_guard_active": true,
+    "frozen_closeup_resource_hashes_valid": true,
     "all_real_navigation_confirmed": true,
     "real_log_overlay_owned": true,
     "all_journal_tabs_activated": true,
@@ -25,92 +21,107 @@
     "rumors_body_actual_translation": true,
     "rumors_title_actual_translation": true,
     "timeline_detail_actual_translation": true,
+    "log_all_real_history_indices_bound": true,
+    "log_all_entries_completely_translated": true,
+    "log_all_entries_f8_original_exact": true,
+    "log_all_entries_f8_restored_exact": true,
+    "log_no_unapproved_english": true,
     "real_document_body_components_translated": true,
+    "real_document_cache_targets_complete": true,
     "real_document_bare_source_cache_exists": true,
     "document_body_f8_actual_translation": true,
     "f8_roundtrip_matches": true,
     "all_required_pages_have_nonempty_actual_text": true,
     "all_phase_clocks_really_paused_and_stable": true,
-    "all_requested_phases_available": true
+    "all_requested_phases_available": true,
+    "all_closeup_frozen_ids_consumed": true,
+    "all_closeup_complete_real_targets_displayed": true,
+    "all_known_characters_layout_consumed": true,
+    "all_known_character_titles_fit_without_overlap": true,
+    "real_information_preview_source_whitelisted": true,
+    "real_quoted_information_preview_translated": true,
+    "danger_preview_existing_real_consumer_coverage": true,
+    "information_preview_not_submitted": true
   },
-  "settings_checks": {
-    "menu_labels_all_translated": true,
-    "menu_labels_no_overflow": true,
-    "menu_no_original_labels": true,
-    "chinese_glyphs_available": true,
-    "settings_pointer_navigation_logged": true,
-    "settings_page_opened": true,
-    "settings_visible_texts_no_overflow": true,
-    "save_write_guard_active": true,
-    "settings_all_noncurrent_options_visited": true,
-    "settings_all_option_values_translated": true,
-    "settings_options_active_no_overflow": true,
-    "settings_each_slot_toggle_original": true,
-    "settings_each_slot_toggle_restored": true,
-    "settings_cancelled_without_applying": true,
-    "toggle_original_menu": true,
-    "toggle_restored_menu": true,
-    "toggle_release_no_change": true
+  "all_history_indices": 7,
+  "closeup_documents": 14,
+  "known_characters_layout": 14,
+  "information_preview": {
+    "source_base64": "IkhhbWxldCBpcyBhY3RpbmcgaW5jcmVkaWJseSBzdHJhbmdlbHkgbGF0ZWx5LiBEbyB5b3Uga25vdyB3aGF0J3Mgd3Jvbmc/Ig==",
+    "origin": [
+      "SGFtbGV0QWN0aW5nTWFk",
+      "Z2VydHJ1ZGU=",
+      "R2VydHJ1ZGVfRm91bE1vb2Q=",
+      "SGFtbGV0IGlzIGFjdGluZyBpbmNyZWRpYmx5IHN0cmFuZ2VseSBsYXRlbHkuIERvIHlvdSBrbm93IHdoYXQncyB3cm9uZz8=",
+      "fac1e2338e3ecccb520fc6b36249f4352433e71aab41c7bbc30a5e895bf29e30",
+      "6dc74cf66b25f9bc32e257c04b59d6fe227ce73e5ccb5cccd066147317417a9c"
+    ],
+    "matched_real_scenes": [
+      {
+        "scene_id": "Gertrude_FoulMood",
+        "source_sha256": "fac1e2338e3ecccb520fc6b36249f4352433e71aab41c7bbc30a5e895bf29e30",
+        "speaker_id": "ophelia",
+        "resource": "scenes_present",
+        "resource_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "line": 87,
+        "information_ids": [
+          "HamletActingMad"
+        ]
+      }
+    ],
+    "whitelist_sha256": "e5e3082e215462b6fb67836c98f9c3a7795b9ddc905143b35c199fbdcce6324c",
+    "danger_scene_in_this_ui_run": false,
+    "danger_consumer_cases": [
+      "present-quoted-firstline-253",
+      "present-quoted-firstline-254"
+    ]
   },
-  "translation_export_regressions": 15,
-  "probe_regressions": 23,
-  "installed_owned_files": [
-    {
-      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
-      "sha256": "55F1AF15FCA1343ADCC6B8E176142FDB34D3DFC8A508CD7819106B21D826BB64",
-      "archive_and_test_match": true
+  "recursive_consumer_suites": {
+    "history": 49,
+    "notifications": 596
+  },
+  "offline_tests": {
+    "export": 14,
+    "menu_verifier": 12,
+    "journal_verifier": 34
+  },
+  "dictionary_entries": 16842,
+  "total_dynamic_rules": 90,
+  "files": {
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": {
+      "installed": "ef9160556d2e5f37a2d482a0cf3630874a5c6f2025af7e06c0051fb75c52378a",
+      "tested": "ef9160556d2e5f37a2d482a0cf3630874a5c6f2025af7e06c0051fb75c52378a",
+      "package": "ef9160556d2e5f37a2d482a0cf3630874a5c6f2025af7e06c0051fb75c52378a",
+      "zip": "ef9160556d2e5f37a2d482a0cf3630874a5c6f2025af7e06c0051fb75c52378a"
     },
-    {
-      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt",
-      "sha256": "AF7A1F8B8F2BB6CD49CE10C884036A956AB514029328448BB9FEE575DCA62A38",
-      "archive_and_test_match": true
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": {
+      "installed": "79a996c6c39ce6b0eca672a6c10652c9d17c5f0acb4f039ef866ad88be8a5098",
+      "tested": "79a996c6c39ce6b0eca672a6c10652c9d17c5f0acb4f039ef866ad88be8a5098",
+      "package": "79a996c6c39ce6b0eca672a6c10652c9d17c5f0acb4f039ef866ad88be8a5098",
+      "zip": "79a996c6c39ce6b0eca672a6c10652c9d17c5f0acb4f039ef866ad88be8a5098"
     },
-    {
-      "path": "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll",
-      "sha256": "34335D03501BF9EFD31FC2BCD04E8C5DAE1E95327E6D528D2262790D893117C4",
-      "archive_and_test_match": true
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": {
+      "installed": "b52b046e68de7b52e49b190b2863090ad8831f93ecd99f7d8af3d20bfaa3f5e6",
+      "tested": "b52b046e68de7b52e49b190b2863090ad8831f93ecd99f7d8af3d20bfaa3f5e6",
+      "package": "b52b046e68de7b52e49b190b2863090ad8831f93ecd99f7d8af3d20bfaa3f5e6",
+      "zip": "b52b046e68de7b52e49b190b2863090ad8831f93ecd99f7d8af3d20bfaa3f5e6"
     }
-  ],
-  "original_game_files": [
-    {
-      "path": "Elsinore.exe",
-      "sha256": "DF4FA0642113ADEC0D1F717A47526084314B3181B5F62A4547FCF05CD318FCF0",
-      "unchanged": true
-    },
-    {
-      "path": "UnityPlayer.dll",
-      "sha256": "CCBA993E746EEF5C51DE3EAFA4EF3D62EFDDF463383BA42EC4341E88F4F3A449",
-      "unchanged": true
-    },
-    {
-      "path": "Elsinore_Data\\resources.assets",
-      "sha256": "6D0AE1F735D95DB40B836CEDFC25E92143AA3727FEE7BCD71E0CB319320961FD",
-      "unchanged": true
-    },
-    {
-      "path": "Elsinore_Data\\Managed\\Assembly-CSharp.dll",
-      "sha256": "69E348FC4180302FC38724EC8EE5609E7FC94B59622DCAB881CE44CC0B2FE6AF",
-      "unchanged": true
-    }
-  ],
-  "save_protection": [
-    {
-      "run_id": "67326bd795924f60a2b5aa5d96f6cb1a",
-      "unchanged": true
-    },
-    {
-      "run_id": "daf2eee559244049bceded4e50c30ed1",
-      "unchanged": true
-    }
-  ],
-  "test_cleanup_confirmed": true,
-  "archive_sha256": "4E4AA22401BED518B69E29A2AEFF849AA3F6C010B3153AE1A12C2E1805696C0F",
-  "archive_file_count": 39,
-  "backup_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-9aeae11d4ca44e50859dbc582005cfef",
-  "limitations": [
-    "真实组件与离线消费者验证，不是像素渲染或完整游玩E2E",
-    "代表性笔记/资料/时间线/日志/文档已验收，不代表所有剧情分支",
-    "字体再分发授权未完成，ZIP仍是个人备份包",
-    "原先存档写入事故仍单独记录，不被本轮存档保护通过覆盖"
+  },
+  "installed_backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-9f52dd35473f46148a40b28f99adc37f",
+  "zip_entries": 39,
+  "zip_sha256": "72fb934080b62bf121a8d766ece57b07bad7dcb83b224142148dee9e2c8a4558",
+  "original_game_binaries_unchanged": true,
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-6f413db42b4842f99a322ede96cdd074",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-398ee54ccb6e4318a623e94282762212"
+  },
+  "limits": [
+    "真实UI组件检查，未验收像素截图或全剧情分支",
+    "本次分享预览来自实际已知信息；指定危险句独立消费者覆盖",
+    "斜体和粗体保留原文语义，未做全局替换"
   ]
 }

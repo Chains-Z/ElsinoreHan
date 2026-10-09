@@ -22,7 +22,8 @@ def parse_objects(path: Path) -> list[dict]:
     return objects
 
 
-def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str, expected_settings: set | None = None) -> dict[str, bool]:
+def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str, expected_settings: set | None = None,
+             include_settings: bool = True) -> dict[str, bool]:
     """只有目标界面确实出现时，才评估该页的文字溢出。"""
     visible_menu = [item for item in menu if item["active"]]
     visible_settings = [item for item in settings if item["active"]]
@@ -32,7 +33,7 @@ def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str, e
     expected |= start_labels
     has_start = bool(start_labels)
     settings_opened = (expected_settings or {"Graphics", "Audio", "Gameplay"}) <= {item.get("text") for item in visible_settings}
-    return {
+    assertions = {
         "menu_labels_all_translated": has_start and expected <= actual,
         "menu_labels_no_overflow": has_start and expected <= actual and all(not item.get("overflow", True) for item in visible_menu if item.get("text") in expected),
         "menu_no_original_labels": not ({"Continue Game", "New Game", "Quit Game", "Options", "Settings"} & actual),
@@ -41,6 +42,8 @@ def evaluate(menu: list[dict], settings: list[dict], menu_text: str, log: str, e
         "settings_page_opened": settings_opened,
         "settings_visible_texts_no_overflow": settings_opened and all(not item.get("overflow", True) for item in visible_settings),
     }
+    # 资料模式不经过设置页；明确省略该页验收，不能记录为设置通过。
+    return assertions if include_settings else {key: value for key, value in assertions.items() if not key.startswith("settings_")}
 
 
 def evaluate_toggle(original: set, restored: set, log: str) -> dict[str, bool]:
@@ -83,7 +86,10 @@ def main() -> None:
     parser.add_argument("--evidence", type=Path, default=Path("runtime/evidence"))
     parser.add_argument("--translations", type=Path)
     parser.add_argument("--require-settings-options", action="store_true")
+    parser.add_argument("--menu-only", action="store_true")
     arguments = parser.parse_args()
+    if arguments.menu_only and arguments.require_settings_options:
+        parser.error("菜单限定模式不能同时要求设置逐档验收")
     directory = arguments.evidence
     menu = parse_objects(directory / "menu-texts.txt")
     settings = parse_objects(directory / "settings-texts.txt")
@@ -94,7 +100,8 @@ def main() -> None:
         translations = {row["source"]: row["target"] for row in json.loads(arguments.translations.read_text(encoding="utf-8"))}
         expected_settings = {translations[key] for key in ("Graphics", "Audio", "Gameplay")}
     menu_report = (directory / "menu-texts.txt").read_text(encoding="utf-8-sig")
-    assertions = evaluate(menu, settings, menu_report, (directory / "BepInEx.log").read_text(encoding="utf-8-sig"), expected_settings)
+    assertions = evaluate(menu, settings, menu_report, (directory / "BepInEx.log").read_text(encoding="utf-8-sig"), expected_settings,
+                          include_settings=not arguments.menu_only)
     if "FULL_CHINESE_GLYPHS=" in menu_report:
         assertions["full_translation_chinese_glyphs_available"] = "FULL_CHINESE_GLYPHS=True" in menu_report
     if "FROZEN_CACHE_CASES=" in menu_report:

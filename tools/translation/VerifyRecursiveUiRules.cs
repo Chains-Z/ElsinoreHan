@@ -44,7 +44,7 @@ public static class VerifyRecursiveUiRules
         if (translations.TryGetValue(source.Trim(), out target)) return target;
         // 富文本标记不构成待译英文；数字、标点、空白及已翻译的中文原样消费。
         if (!english.IsMatch(markup.Replace(source, String.Empty))) return source;
-        if (depth >= 20) throw new InvalidOperationException("递归翻译深度超过20");
+        if (depth >= 64) throw new InvalidOperationException("递归翻译深度超过64");
         if (!activeSources.Add(source)) throw new InvalidOperationException("递归翻译出现源文循环");
         depth++;
         try
@@ -60,7 +60,8 @@ public static class VerifyRecursiveUiRules
                         false, false, false, false, rule.Regex, match }, null);
                 // _i 组由真实 ParserResult 忽略，回调不自行拼接或模拟受保护片段。
                 string result = (string)consume.Invoke(parsed, new object[] { callback });
-                if (result != null) return result;
+                // 实际 TextCache 只采用逆序首个匹配，不能用其它规则兜底伪造成功。
+                return result;
             }
             // 未知英文不能以原样返回冒充消费成功。
             return null;

@@ -36,6 +36,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private bool journalFinished;
     private StringBuilder journalReport;
     private static int blockedSaveWrites;
+    private static int blockedPresentationSubmits;
     private static string isolatedSaveDirectory;
 
     private void Awake()
@@ -80,6 +81,13 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             if (resolutionMethod == null) throw new InvalidOperationException("未找到后台显示配置保护入口");
             guard.Patch(resolutionMethod,
                 prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockProbeResolutionChange", BindingFlags.Public | BindingFlags.Static)));
+            if (requireJournal)
+            {
+                var presentation = typeof(SaveLoad).Assembly.GetType("Elsinore.Ui.PresentUI");
+                var submit = presentation == null ? null : presentation.GetMethod("presentHearsay", InstanceFields);
+                if (submit == null) throw new InvalidOperationException("未找到分享提交保护入口");
+                guard.Patch(submit, prefix: new HarmonyMethod(typeof(RuntimeProbe).GetMethod("BlockProbePresentationSubmit", BindingFlags.Public | BindingFlags.Static)));
+            }
             saveGuardActive = true;
             Logger.LogInfo("临时诊断存档写入保护已启用：存档目录已隔离，SaveLoad.SaveData全部阻断。");
             Logger.LogInfo("临时后台窗口保护已启用：后台诊断跳过显示质量与分辨率应用。");
@@ -189,12 +197,12 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             journalStarted = true;
             StartCoroutine(GuardJournal());
         }
-        if (Time.realtimeSinceStartup - started > (requireJournal ? 55f : requireSettingsOptions ? 45f : 30f))
+        if (Time.realtimeSinceStartup - started > (requireJournal ? 65f : requireSettingsOptions ? 45f : 30f))
         {
             if (requireSettingsOptions && !settingsOptionsFinished)
                 FailSettingsOptions(new TimeoutException("逐档设置验证未在45秒内结束"));
             if (requireJournal && !journalFinished)
-                FailJournal(new TimeoutException("真实资料页面采集未在55秒内结束"));
+                FailJournal(new TimeoutException("真实资料页面采集未在65秒内结束"));
             Application.Quit();
         }
     }
@@ -233,6 +241,12 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         return Convert.ToBase64String(Encoding.UTF8.GetBytes(value ?? ""));
     }
 
+    private static string SourceHash(string value)
+    {
+        using (var sha = System.Security.Cryptography.SHA256.Create())
+            return BitConverter.ToString(sha.ComputeHash(Encoding.UTF8.GetBytes(value))).Replace("-", "").ToLowerInvariant();
+    }
+
     private void JournalLine(string line)
     {
         journalReport.AppendLine(line);
@@ -255,7 +269,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     {
         journalReport = new StringBuilder();
         JournalLine("STATUS\tSTARTED");
-        JournalLine("PROBE_SCHEMA\t3");
+        JournalLine("PROBE_SCHEMA\t5");
         JournalLine("SAVE_WRITE_GUARD_ACTIVE\t" + saveGuardActive);
         JournalLine("METHOD\t真实隔离存档页面与组件导航；不宣称像素渲染或完整游玩E2E");
         var routines = new Stack<IEnumerator>();
@@ -399,7 +413,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             + "\t" + ReportText(TextPath(text.transform)) + "\t" + text.gameObject.activeInHierarchy);
     }
 
-    private IEnumerator JournalRoundTrip(string phase, Component canvas)
+    private IEnumerator JournalRoundTrip(string phase, Component canvas, string[] history = null, IList logEntries = null)
     {
         string clockBefore = JournalClock(phase, "before");
         SetSettingsTranslatedMode(true);
@@ -426,6 +440,25 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             JournalLine("ROUNDTRIP\t" + phase + "\t" + item.Key + "\t" + ReportText(item.Value)
                 + "\t" + ReportText(initial) + "\t" + ReportText(after)
                 + "\t" + (initial != null && after != null && initial == after));
+        }
+        if (history != null && logEntries != null)
+        {
+            for (int index = 0; index < history.Length; index++)
+            {
+                var text = index < logEntries.Count ? logEntries[index] as TMP_Text : null;
+                string source = history[index] ?? "";
+                string before = null;
+                string english = null;
+                string after = null;
+                int id = text == null ? 0 : text.GetInstanceID();
+                translated.TryGetValue(id, out before);
+                original.TryGetValue(id, out english);
+                restored.TryGetValue(id, out after);
+                JournalLine("LOG_ROUNDTRIP\t" + index + "\t" + id + "\t" + ReportText(source)
+                    + "\t" + ReportText(english) + "\t" + ReportText(before) + "\t" + ReportText(after)
+                    + "\t" + (english != null && english == source)
+                    + "\t" + (before != null && after != null && before == after));
+            }
         }
         string clockAfter = JournalClock(phase, "after");
         if (clockBefore != clockAfter)
@@ -501,10 +534,12 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             yield return new WaitForSecondsRealtime(0.4f);
         }
         // 文档故障优先采集，每一页独立失败；不再让其它页面的不可交互按钮截断它们。
-        foreach (string closeupId in new string[] { "observable_hamletdiary", "observable_poldesk" })
+        foreach (string closeupId in new string[] { "observable_hamletdiary", "observable_poldesk", "observable_backerbook4" })
             yield return OptionalJournalPhase(closeupId, ProbeDocument(closeupId));
+        yield return OptionalJournalPhase("closeups.batch", ProbeCloseupBatch());
         yield return OptionalJournalPhase("hud", ProbeHud());
         yield return OptionalJournalPhase("journal", ProbeJournalTabs());
+        yield return OptionalJournalPhase("present", ProbePresentationPreview());
         yield return OptionalJournalPhase("timeline", ProbeTimeline());
         yield return OptionalJournalPhase("log", ProbeLog());
         JournalLine("STATUS\tCOLLECTED");
@@ -609,7 +644,167 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             }
             JournalBuilder(tabs[index], tab, "DescriptionText");
             yield return JournalRoundTrip(tabs[index], tab);
+            if (index == 0)
+                yield return OptionalJournalPhase("characters.layout", ProbeCharacterLayout(tab));
         }
+    }
+
+    private IEnumerator ProbeCloseupBatch()
+    {
+        string path = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_CLOSEUP_IDS");
+        if (string.IsNullOrEmpty(path) || !File.Exists(path))
+            throw new InvalidOperationException("缺少从真实资源生成的冻结Closeup ID文件");
+        string digest;
+        using (var sha = System.Security.Cryptography.SHA256.Create())
+            digest = BitConverter.ToString(sha.ComputeHash(File.ReadAllBytes(path))).Replace("-", "").ToLowerInvariant();
+        JournalLine("CLOSEUP_IDS_FILE_SHA256\t" + digest);
+        var ids = new List<string>();
+        var seen = new HashSet<string>(StringComparer.Ordinal);
+        foreach (string line in File.ReadAllLines(path, Encoding.UTF8))
+        {
+            string id = line.Split('\t')[0].Trim();
+            if (id.Length == 0) continue;
+            if (!id.StartsWith("observable_", StringComparison.Ordinal) || !seen.Add(id))
+                throw new InvalidOperationException("冻结资料ID重复或格式异常");
+            ids.Add(id);
+        }
+        JournalLine("CLOSEUP_BATCH_EXPECTED_COUNT\t" + ids.Count);
+        foreach (string closeupId in ids)
+        {
+            var transitions = CurrentTransitions();
+            var activate = transitions.GetType().GetMethod("ActivateObjectCloseup", InstanceFields);
+            var id = Activator.CreateInstance(activate.GetParameters()[0].ParameterType, new object[] { closeupId });
+            var lookup = RequiredProperty(RequiredProperty(ObjectTracker.Instance.Info, "State"), "Lookup");
+            var closeup = lookup.GetType().GetMethod("Closeup").Invoke(lookup, new object[] { id });
+            string source = (string)RequiredProperty(closeup, "Text");
+            activate.Invoke(transitions, new object[] { id, null });
+            yield return new WaitForSecondsRealtime(0.3f);
+            var document = JournalCanvas("objectCloseupCanvas", "batch:" + closeupId);
+            var body = (TMP_Text)RequiredField(document, "Body");
+            string combined = ((StringBuilder)RequiredField(document, "builder")).ToString();
+            JournalLine("CLOSEUP_BATCH\t" + closeupId + "\t" + ReportText(source) + "\t" + ReportText(combined)
+                + "\t" + ReportText(body.text) + "\t" + body.isTextOverflowing);
+            JournalLookup("batch:" + closeupId, "builder:Body", combined, body.text ?? "");
+        }
+    }
+
+    private static string Metric(float value)
+    {
+        return value.ToString("R", System.Globalization.CultureInfo.InvariantCulture);
+    }
+
+    private static Rect WorldTextBounds(TMP_Text text)
+    {
+        var local = text.textBounds;
+        var first = text.rectTransform.TransformPoint(new Vector3(local.min.x, local.min.y, 0));
+        var second = text.rectTransform.TransformPoint(new Vector3(local.max.x, local.max.y, 0));
+        return Rect.MinMaxRect(Mathf.Min(first.x, second.x), Mathf.Min(first.y, second.y),
+            Mathf.Max(first.x, second.x), Mathf.Max(first.y, second.y));
+    }
+
+    private void RecordCharacterGeometry(string character, string role, TMP_Text text)
+    {
+        text.ForceMeshUpdate();
+        var box = WorldTextBounds(text);
+        var rect = text.rectTransform.rect;
+        JournalLine("CHARACTER_GEOMETRY\t" + character + "\t" + role + "\t" + ReportText(text.text)
+            + "\t" + text.textInfo.lineCount + "\t" + Metric(text.fontSize) + "\t" + Metric(rect.width)
+            + "\t" + Metric(rect.height) + "\t" + Metric(box.xMin) + "\t" + Metric(box.yMin)
+            + "\t" + Metric(box.width) + "\t" + Metric(box.height) + "\t" + text.isTextOverflowing);
+    }
+
+    private IEnumerator ProbeCharacterLayout(Component tab)
+    {
+        var group = RequiredField(tab, "CharacterButtonGroup") as Component;
+        var portraits = new List<MonoBehaviour>();
+        foreach (var component in group.GetComponentsInChildren<MonoBehaviour>(true))
+            if (component.GetType().Name == "CharacterPortrait" && component.gameObject.activeInHierarchy)
+                portraits.Add(component);
+        JournalLine("CHARACTER_LAYOUT_EXPECTED_COUNT\t" + portraits.Count);
+        foreach (var portrait in portraits)
+        {
+            var button = portrait.GetComponent<Selectable>();
+            if (button == null || !button.interactable)
+            {
+                JournalLine("UNAVAILABLE\tcharacters.layout\t实际人物按钮不可交互");
+                continue;
+            }
+            string character = (string)RequiredProperty(RequiredProperty(portrait, "Character"), "Name");
+            ClickSettingsButton(button);
+            yield return new WaitForSecondsRealtime(0.3f);
+            var title = (TMP_Text)RequiredField(tab, "TitleText");
+            var slug = (TMP_Text)RequiredField(tab, "SlugText");
+            RecordCharacterGeometry(character, "title", title);
+            RecordCharacterGeometry(character, "subtitle", slug);
+            var a = WorldTextBounds(title);
+            var b = WorldTextBounds(slug);
+            bool overlaps = a.width > 0 && a.height > 0 && b.width > 0 && b.height > 0
+                && Mathf.Min(a.xMax, b.xMax) - Mathf.Max(a.xMin, b.xMin) > 0.5f
+                && Mathf.Min(a.yMax, b.yMax) - Mathf.Max(a.yMin, b.yMin) > 0.5f;
+            JournalLine("CHARACTER_LAYOUT\t" + character + "\t" + overlaps);
+        }
+    }
+
+    private IEnumerator ProbePresentationPreview()
+    {
+        var tracker = ObjectTracker.Instance;
+        var targets = tracker.GetType().GetMethod("AllNpcs", InstanceFields).Invoke(tracker, null) as IEnumerable;
+        object target = null;
+        foreach (var candidate in targets)
+            if (candidate != null) { target = candidate; break; }
+        if (target == null) throw new InvalidOperationException("真实场景没有分享预览目标人物");
+        JournalTransition("ActivatePresentation", new object[] { target });
+        yield return new WaitForSecondsRealtime(0.4f);
+        var present = JournalCanvas("presentCanvas", "present");
+        var categories = RequiredField(present, "categoryToggles") as IList;
+        var categoryCopies = new List<object>();
+        foreach (var category in categories) categoryCopies.Add(category);
+        float stop = Time.realtimeSinceStartup + 6f;
+        foreach (var category in categoryCopies)
+        {
+            category.GetType().GetProperty("IsOn", InstanceFields).SetValue(category, true, null);
+            yield return new WaitForSecondsRealtime(0.1f);
+            var hearsays = RequiredField(present, "hearsayToggles") as IList;
+            var copies = new List<object>();
+            foreach (var hearsay in hearsays) copies.Add(hearsay);
+            foreach (var hearsay in copies)
+            {
+                if (Time.realtimeSinceStartup > stop) break;
+                var selectable = hearsay as Selectable;
+                if (selectable == null || !selectable.gameObject.activeInHierarchy || !selectable.interactable) continue;
+                var current = present.GetType().GetField("selectedHearsay", InstanceFields).GetValue(present);
+                if (ReferenceEquals(current, hearsay)) continue;
+                // 首次选择由OnValueChange生成预览；PressedEvent仅在已选项上注册二次提交。
+                // 沿用真实UiToggle状态机，不调用提交事件或PresentButton。
+                hearsay.GetType().GetProperty("IsOn", InstanceFields).SetValue(hearsay, true, null);
+                string source = ((StringBuilder)RequiredField(present, "builder")).ToString();
+                JournalLine("PRESENT_PREVIEW_CANDIDATE\t" + ReportText(source));
+                // 消费当前已获得且可分享信息的真实首句，不要求存档仍保留指定危险信息。
+                if (source.Length < 3 || source[0] != '"' || source[source.Length - 1] != '"') continue;
+                string selectedCategory = (string)RequiredField(present, "selectedCategory");
+                if ((bool)present.GetType().GetMethod("IsPlayCategory", BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Static)
+                    .Invoke(null, new object[] { selectedCategory })) continue;
+                var information = RequiredField(present, "selectedInformation");
+                var informationId = RequiredProperty(information, "Id");
+                var targetId = RequiredProperty(target, "Id");
+                var sceneId = information.GetType().GetMethod("SceneOf", InstanceFields).Invoke(information, new object[] { targetId });
+                string firstLine = source.Substring(1, source.Length - 2);
+                yield return new WaitForSecondsRealtime(0.3f);
+                var preview = (TMP_Text)RequiredField(present, "PresentPreviewText");
+                JournalControl("present", "present.preview", present, "PresentPreviewText");
+                JournalLine("PRESENT_PREVIEW_SOURCE\t" + ReportText(source));
+                JournalLine("PRESENT_PREVIEW_ORIGIN\t" + ReportText((string)RequiredProperty(informationId, "Name"))
+                    + "\t" + ReportText((string)RequiredProperty(targetId, "Name"))
+                    + "\t" + ReportText((string)RequiredProperty(sceneId, "Name"))
+                    + "\t" + ReportText(firstLine) + "\t" + SourceHash(firstLine) + "\t" + SourceHash(source));
+                JournalLine("PRESENT_SUBMIT_BLOCKED_COUNT\t" + blockedPresentationSubmits);
+                JournalLookup("present", "builder:PresentPreviewText", source, preview.text ?? "");
+                yield return JournalRoundTrip("present", present);
+                yield break;
+            }
+            if (Time.realtimeSinceStartup > stop) break;
+        }
+        throw new InvalidOperationException("当前真实已获得信息没有非空可分享首句；没有虚构资料补齐");
     }
 
     private IEnumerator ProbeTimeline()
@@ -669,27 +864,34 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             var log = JournalCanvas("logCanvas", "log", false);
             if (log != null)
             {
-            var history = RequiredProperty(RequiredField(log, "ht"), "HistoryText") as string[];
-            JournalLine("HISTORY_COUNT\t" + (history == null ? 0 : history.Length));
-            var logEntries = RequiredField(log, "createdEntries") as IEnumerable;
-            TMP_Text firstLogEntry = null;
-            if (logEntries != null)
-                foreach (var entry in logEntries)
+                var history = RequiredProperty(RequiredField(log, "ht"), "HistoryText") as string[];
+                var logEntries = RequiredField(log, "createdEntries") as IList;
+                JournalLine("HISTORY_COUNT\t" + (history == null ? 0 : history.Length));
+                JournalLine("LOG_ENTRIES_COUNT\t" + (logEntries == null ? 0 : logEntries.Count));
+                if (history == null || history.Length == 0 || logEntries == null)
+                    JournalLine("UNAVAILABLE\tlog.entry\t真实运行历史没有可验证的日志正文");
+                else
                 {
-                    var text = entry as TMP_Text;
-                    if (text == null || !text.gameObject.activeInHierarchy) continue;
-                    firstLogEntry = text;
-                    break;
+                    // 原游戏按同一index将HistoryText[index]写入createdEntries[index]，不能仅验第一条。
+                    for (int index = 0; index < history.Length; index++)
+                        JournalLine("HISTORY_SOURCE\t" + index + "\t" + ReportText(history[index]));
+                    for (int index = 0; index < logEntries.Count; index++)
+                    {
+                        var text = logEntries[index] as TMP_Text;
+                        string source = index < history.Length ? history[index] ?? "" : "";
+                        bool active = text != null && text.gameObject.activeInHierarchy;
+                        JournalLine("LOG_ENTRY\t" + index + "\t" + (text == null ? 0 : text.GetInstanceID())
+                            + "\t" + ReportText(text == null ? "" : TextPath(text.transform))
+                            + "\t" + ReportText(source) + "\t" + active + "\t" + ReportText(text == null ? "" : text.text));
+                        if (!active) continue;
+                        JournalLine("CONTROL\tlog\tlog.entry\t" + text.GetInstanceID()
+                            + "\t" + ReportText(TextPath(text.transform)) + "\tTrue");
+                        JournalLookup("log", "history:" + index, source, text.text ?? "");
+                    }
+                    if (logEntries.Count != history.Length)
+                        JournalLine("UNAVAILABLE\tlog.entry_count\t真实历史数量与控件数量不一致，不能完整绑定来源");
                 }
-            if (firstLogEntry == null || history == null || history.Length == 0)
-                JournalLine("UNAVAILABLE\tlog.entry\t真实运行历史没有可验证的日志正文");
-            else
-                JournalLine("CONTROL\tlog\tlog.entry\t" + firstLogEntry.GetInstanceID() + "\t"
-                    + ReportText(TextPath(firstLogEntry.transform)) + "\tTrue");
-            if (history != null)
-                for (int index = 0; index < history.Length; index++)
-                    JournalLine("HISTORY_SOURCE\t" + index + "\t" + ReportText(history[index]));
-            yield return JournalRoundTrip("log", log);
+                yield return JournalRoundTrip("log", log, history, logEntries);
             }
         }
     }
@@ -916,6 +1118,14 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     {
         if (!Application.isBatchMode) return true;
         Debug.Log("ElsinoreHan后台诊断跳过显示质量与分辨率应用，保持NullGfx无窗口模式。");
+        return false;
+    }
+
+    // 分享诊断仅选择并预览信息；即使控件回调异常，也不进入提交和剧情变更入口。
+    public static bool BlockProbePresentationSubmit()
+    {
+        if (!Application.isBatchMode) return true;
+        blockedPresentationSubmits++;
         return false;
     }
 

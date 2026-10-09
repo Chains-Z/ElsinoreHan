@@ -21,17 +21,26 @@ $originalLoaderConfig = [IO.File]::ReadAllBytes($loaderConfigPath)
 $previousRunId = $env:ELSINOREHAN_PROBE_RUN_ID
 $previousSavePath = $env:ELSINOREHAN_PROBE_SAVE_PATH
 $originalSavePath = Join-Path ([Environment]::GetFolderPath('ApplicationData')) 'Golden Glitch Studios/Elsinore'
+$concurrentGameActive = [bool](Get-Process -Name Elsinore -ErrorAction SilentlyContinue)
+$saveSourcePath = $originalSavePath
+if ($env:ELSINOREHAN_PROBE_SAVE_SOURCE) { $saveSourcePath = (Resolve-Path -LiteralPath $env:ELSINOREHAN_PROBE_SAVE_SOURCE).Path }
+if ($concurrentGameActive -and $saveSourcePath -eq $originalSavePath) { throw '用户游戏正在运行；诊断须使用既有冻结存档副本，避免读取正在写入的存档。' }
 $isolatedSavePath = Join-Path $projectRoot ('runtime/backups/probe-save-' + $runId)
 New-Item -ItemType Directory -Path $isolatedSavePath -Force | Out-Null
 $saveSnapshot = @()
 if (Test-Path -LiteralPath $originalSavePath) {
     foreach ($file in Get-ChildItem -LiteralPath $originalSavePath -File -Recurse -Force) {
         $relative = $file.FullName.Substring($originalSavePath.Length + 1)
-        $destination = Join-Path $isolatedSavePath $relative
-        New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
-        Copy-Item -LiteralPath $file.FullName -Destination $destination
         $saveSnapshot += [pscustomobject]@{ path=$relative; sha256=(Get-FileHash -LiteralPath $file.FullName).Hash; write_time=$file.LastWriteTimeUtc.ToString('o') }
     }
+}
+$sourceSnapshot = @()
+foreach ($file in Get-ChildItem -LiteralPath $saveSourcePath -File -Recurse -Force) {
+    $relative = $file.FullName.Substring($saveSourcePath.Length + 1)
+    $destination = Join-Path $isolatedSavePath $relative
+    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+    Copy-Item -LiteralPath $file.FullName -Destination $destination
+    $sourceSnapshot += [pscustomobject]@{ path=$relative; sha256=(Get-FileHash -LiteralPath $file.FullName).Hash }
 }
 $saveSnapshot | ConvertTo-Json -AsArray | Set-Content -LiteralPath (Join-Path $runDirectory 'original-save-before.json') -Encoding utf8
 try {
@@ -60,7 +69,7 @@ try {
     $process = Start-Process -FilePath (Join-Path $GamePath 'Elsinore.exe') -ArgumentList $arguments -WorkingDirectory $GamePath -WindowStyle Hidden -PassThru
     $process.PriorityClass = 'BelowNormal'
     $timer = [Diagnostics.Stopwatch]::StartNew()
-    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1' -or $env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { 70 } else { 50 }
+    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { 90 } elseif ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { 70 } else { 50 }
     while (-not $process.HasExited -and $timer.Elapsed.TotalSeconds -lt $timeoutSeconds) {
         $process.Refresh()
         if ($process.MainWindowHandle -ne [IntPtr]::Zero) {
@@ -94,9 +103,11 @@ try {
         if (-not (Test-Path -LiteralPath $path) -or (Get-FileHash -LiteralPath $path).Hash -ne $file.sha256 -or (Get-Item -LiteralPath $path).LastWriteTimeUtc.ToString('o') -ne $file.write_time) { $saveUnchanged = $false }
     }
     if ((@(Get-ChildItem -LiteralPath $originalSavePath -File -Recurse -Force -ErrorAction SilentlyContinue)).Count -ne $saveSnapshot.Count) { $saveUnchanged = $false }
-    [pscustomobject]@{ original_save_files_unchanged=$saveUnchanged; isolated_save_path=$isolatedSavePath; files=$saveSnapshot } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $runDirectory 'save-protection.json') -Encoding utf8
-    if (-not $saveUnchanged) { throw '原存档目录变化，不能宣称隔离测试通过。' }
+    $sourceUnchanged = -not (@($sourceSnapshot | Where-Object { (Get-FileHash -LiteralPath (Join-Path $saveSourcePath $_.path)).Hash -ne $_.sha256 }).Count)
+    [pscustomobject]@{ original_save_files_unchanged=$saveUnchanged; original_save_comparison_conclusive=(-not $concurrentGameActive); concurrent_user_game=$concurrentGameActive; frozen_source_unchanged=$sourceUnchanged; save_source_path=$saveSourcePath; isolated_save_path=$isolatedSavePath; files=$saveSnapshot } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $runDirectory 'save-protection.json') -Encoding utf8
+    if (-not $sourceUnchanged -or (-not $saveUnchanged -and -not $concurrentGameActive)) { throw '存档保护核验失败。' }
     $verifyArguments = @((Join-Path $PSScriptRoot 'verify-probe.py'), '--evidence', $runDirectory)
+    if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $verifyArguments += '--menu-only' }
     if ($env:ELSINOREHAN_PROBE_TRANSLATIONS) { $verifyArguments += @('--translations', $env:ELSINOREHAN_PROBE_TRANSLATIONS) }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $verifyArguments += '--require-settings-options' }
     python @verifyArguments

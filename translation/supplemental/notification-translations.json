@@ -1,0 +1,50 @@
+[
+  {
+    "id": "notification-literal-b98c0c8be889a8c4",
+    "source": " will be updated in the <b>Journal</b>.",
+    "target": "会在<b>笔记</b>中更新。",
+    "previous_target": "会在<b>日志</b>中更新。",
+    "source_sha256": "b98c0c8be889a8c4cf8d58a776aea17d191334a641b0a8d7541db7469b91a620",
+    "origins": [
+      "Elsinore.dll:Model.formatGroupedLiterals IL_0567",
+      "原词条:ui-b98c0c8be889a8c4",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "kind": "notification_journal_terminology",
+    "translation_method": "本会话定向修订 Journal 界面术语，冻结 raw 不修改",
+    "supersedes_supplemental_id": "ui-b98c0c8be889a8c4",
+    "override_contract": "先合并 ui-translations，再独立应用本文件；previous_target 必须精确匹配前一阶段目标。同一 apply_supplemental 调用仍禁止同源重复。"
+  },
+  {
+    "id": "notification-literal-2c128aff02f4ecc1",
+    "source": "Ophelia learns more about <b>%s</b>. The entry will be updated in the <b>Journal</b>.",
+    "target": "奥菲莉娅进一步了解了<b>%s</b>。相关条目会在<b>笔记</b>中更新。",
+    "previous_target": "奥菲莉娅进一步了解了<b>%s</b>。相关条目会在<b>日志</b>中更新。",
+    "source_sha256": "2c128aff02f4ecc15101e3239694489a25a6b9b75015ab7a79d71f194356172f",
+    "origins": [
+      "Elsinore.dll:Model.formatGroupedLiterals IL_05d5",
+      "原词条:ui-2c128aff02f4ecc1",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "kind": "notification_journal_terminology",
+    "translation_method": "本会话定向修订 Journal 界面术语，冻结 raw 不修改",
+    "supersedes_supplemental_id": "ui-2c128aff02f4ecc1",
+    "override_contract": "先合并 ui-translations，再独立应用本文件；previous_target 必须精确匹配前一阶段目标。同一 apply_supplemental 调用仍禁止同源重复。"
+  },
+  {
+    "id": "notification-literal-f7b51d61398cf038",
+    "source": "Open Journal",
+    "target": "打开笔记",
+    "previous_target": "打开日志",
+    "source_sha256": "f7b51d61398cf0380b966f9bfc271c5ba25ab4a9f67ba6b2d07f8d1f39329550",
+    "origins": [
+      "Assembly-CSharp.dll:既有ui-f7b51d61398cf038来源；通用Journal界面命令",
+      "原词条:ui-f7b51d61398cf038",
+      "analysis/ui-audit/notification-source-audit.json"
+    ],
+    "kind": "notification_journal_terminology",
+    "translation_method": "本会话定向修订 Journal 界面术语，冻结 raw 不修改",
+    "supersedes_supplemental_id": "ui-f7b51d61398cf038",
+    "override_contract": "先合并 ui-translations，再独立应用本文件；previous_target 必须精确匹配前一阶段目标。同一 apply_supplemental 调用仍禁止同源重复。"
+  }
+]

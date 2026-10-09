@@ -1,0 +1,1061 @@
+{
+  "scope": "只读审计merged英文SOURCE；不修改词表、中文标记、导出器或游戏",
+  "inputs": [
+    {
+      "path": "translation/sol-full-2026-10-09/translations.json",
+      "sha256": "67152d3e51f2bc4b6f34265aa3b354cc2f433cdff5a58221189dadf8e2896fa7"
+    },
+    {
+      "path": "translation/sol-full-2026-10-09/manifest.json",
+      "sha256": "de0dde12951c0634dfd0be74974760828d88a51cd60e7d9e56cf7cd55c23ee96"
+    },
+    {
+      "path": "translation/supplemental/ui-translations.json",
+      "sha256": "9cbf4d7e90846be868ec43f24c2c82f625523f724b11450d0c890372e030399a"
+    },
+    {
+      "path": "analysis/text_inventory.json",
+      "sha256": "9c4b0347988409838a0746bf442c47a25f7b7b045df7b21ae07f72f2544ace47"
+    }
+  ],
+  "source_entry_count": 16841,
+  "unique_source_count": 16841,
+  "method": "canonical <i>/<b>逐标签嵌套栈配对，计数全量；whole仅跨度正好覆盖整条源文，不把多个局部span误算整句；语用仅对代表例结合scene/speaker/cue/IL人工判定，不把剩余条目自动批准样式转换",
+  "statistics": {
+    "i": {
+      "counts": {
+        "entries_with_open_or_close_tag": 2037,
+        "opening_tags": 2157,
+        "closing_tags": 2152,
+        "paired_same_tag_spans": 2151,
+        "not_whole_source_wrapped_entries": 1508,
+        "parenthetical_source_entries": 36,
+        "unmatched_close": 1,
+        "whole_source_wrapped_entries": 529,
+        "unmatched_open": 6
+      },
+      "most_frequent_span_texts": [
+        {
+          "text": "you",
+          "count": 57
+        },
+        {
+          "text": "I",
+          "count": 50
+        },
+        {
+          "text": "that",
+          "count": 28
+        },
+        {
+          "text": "know",
+          "count": 26
+        },
+        {
+          "text": "is",
+          "count": 24
+        },
+        {
+          "text": "have",
+          "count": 24
+        },
+        {
+          "text": "do",
+          "count": 21
+        },
+        {
+          "text": "so",
+          "count": 19
+        },
+        {
+          "text": "this",
+          "count": 18
+        },
+        {
+          "text": "me",
+          "count": 17
+        },
+        {
+          "text": "not",
+          "count": 16
+        },
+        {
+          "text": "my",
+          "count": 16
+        },
+        {
+          "text": "all",
+          "count": 15
+        },
+        {
+          "text": "and",
+          "count": 14
+        },
+        {
+          "text": "want",
+          "count": 12
+        }
+      ],
+      "fully_wrapped_source_speakers": {
+        "The Ghost": 48,
+        "Queen Gertrude": 3,
+        "Laertes": 2,
+        "Hamlet": 3,
+        "Irma": 1,
+        "Othello": 8,
+        "Quince": 1,
+        "Lady Guildenstern": 12,
+        "Ophelia": 17,
+        "Horatio": 1,
+        "未从资源定位": 429,
+        "Lady Brit": 2,
+        "Bernardo": 2
+      }
+    },
+    "b": {
+      "counts": {
+        "entries_with_open_or_close_tag": 249,
+        "opening_tags": 265,
+        "closing_tags": 264,
+        "paired_same_tag_spans": 264,
+        "not_whole_source_wrapped_entries": 240,
+        "parenthetical_source_entries": 23,
+        "unmatched_open": 1,
+        "whole_source_wrapped_entries": 9
+      },
+      "most_frequent_span_texts": [
+        {
+          "text": "Ophelia",
+          "count": 9
+        },
+        {
+          "text": "not",
+          "count": 7
+        },
+        {
+          "text": "Book of Fates",
+          "count": 6
+        },
+        {
+          "text": "Timeline",
+          "count": 4
+        },
+        {
+          "text": "never",
+          "count": 3
+        },
+        {
+          "text": "doesn't trust me.",
+          "count": 3
+        },
+        {
+          "text": "something more I can do.",
+          "count": 3
+        },
+        {
+          "text": "was",
+          "count": 3
+        },
+        {
+          "text": "No.",
+          "count": 3
+        },
+        {
+          "text": "this",
+          "count": 3
+        },
+        {
+          "text": "murdered",
+          "count": 2
+        },
+        {
+          "text": "have",
+          "count": 2
+        },
+        {
+          "text": "I",
+          "count": 2
+        },
+        {
+          "text": "she and I could speak alone",
+          "count": 2
+        },
+        {
+          "text": "you",
+          "count": 2
+        }
+      ],
+      "fully_wrapped_source_speakers": {
+        "Quince": 1,
+        "The Ghost": 4,
+        "Lady Guildenstern": 1,
+        "Hamlet": 3
+      }
+    }
+  },
+  "entries_containing_both_i_and_b": 38,
+  "parenthetical_sources_without_i_or_b": 313,
+  "representatives": [
+    {
+      "id": "p00037-11bb9e7b46b6",
+      "source": "Polonius is my father, and the King's advisor. He can be a bit addle-brained at times, and he loves to talk—a lot—but he really just likes being around people, I think. He always means well. \n\nAnd he's been an attentive father to my brother Laertes and me... sometimes a little <i>too</i> attentive. It can be stifling.",
+      "source_sha256": "11bb9e7b46b60833574a6c2888734a4c42873e22e2956ddb37b343b80aff4c31",
+      "origins": [
+        "resources.assets:bios:49975131f1e0:text",
+        "resources.assets:bios:53db25df9eed:text"
+      ],
+      "context": {
+        "type": "资料、界面或未定位对白"
+      },
+      "manually_reviewed_uses": [
+        "局部重读"
+      ],
+      "reason": "too是程度焦点，不是书名或内心话",
+      "spans": {
+        "i": [
+          {
+            "start": 278,
+            "end": 288,
+            "text": "too"
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p01137-b79a56189792",
+      "source": "(I can <b>change it.</b> I <i>have</i> to.)",
+      "source_sha256": "b79a561897925d20f4857fe2a4140465b31a71528c64c38c02155726848bd24b",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:822869"
+      ],
+      "context": {
+        "scene": "polonius_lecture",
+        "speaker": "Ophelia",
+        "cues": "[sad]",
+        "line": 733,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "括号内心话",
+        "局部重读",
+        "正文粗体"
+      ],
+      "reason": "括号承担内心话；其中have用i、change it用b，不应把整句内心话自动判为i",
+      "spans": {
+        "i": [
+          {
+            "start": 27,
+            "end": 38,
+            "text": "have"
+          }
+        ],
+        "b": [
+          {
+            "start": 7,
+            "end": 24,
+            "text": "change it."
+          }
+        ]
+      }
+    },
+    {
+      "id": "p00389-7482aa3b9349",
+      "source": "(This is so strange. Did history itself change?)",
+      "source_sha256": "7482aa3b9349982b22df138e52e4d7ca4bbc2b840f2327ecfbf608f48228e325",
+      "origins": [
+        "resources.assets:scenes:ed4319ff1aed",
+        "Assembly-CSharp.dll:#US:2086431"
+      ],
+      "context": {
+        "scene": "VictoryDinner",
+        "speaker": "Ophelia",
+        "cues": "[sad]",
+        "line": 213,
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+      },
+      "manually_reviewed_uses": [
+        "无i/b的括号内心话"
+      ],
+      "reason": "同类内心话没有斜体，证明思想语类与斜体标签不能等同",
+      "spans": {
+        "i": [],
+        "b": []
+      }
+    },
+    {
+      "id": "p03311-976dce3319e4",
+      "source": "<i>What did you call her?</i>",
+      "source_sha256": "976dce3319e4af9ac1419398849e5e0ae520fd16cf65070f0bfc9203bb898bbf",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1011404"
+      ],
+      "context": {
+        "scene": "ASSN_LaertesKillsHamlet",
+        "speaker": "Laertes",
+        "cues": "[angry]",
+        "line": 7915,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "整句对白斜体"
+      ],
+      "reason": "资源speaker Laertes及angry cue；整句i也可能是问话语气，不能自动标为内心话",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 29,
+            "text": "What did you call her?"
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p01729-c502bfd17a6c",
+      "source": "<i>Patience, Hamlet.</i>",
+      "source_sha256": "c502bfd17a6cfae9a6956c627908dbe158b3ec705a382b3073470901e501a660",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38"
+      ],
+      "context": {
+        "scene": "HAMGERT_Middle",
+        "speaker": "The Ghost",
+        "cues": "{Hamlet}",
+        "line": 2833,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "幽灵声音样式"
+      ],
+      "reason": "Ghost角色上下文；编译器对ghost所有对白加外层i",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 24,
+            "text": "Patience, Hamlet."
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "a00132-42ca0fa7b453",
+      "source": "<i><b>Ophelia! Find the book! Find the book and save your own soul!</b></i>",
+      "source_sha256": "42ca0fa7b4537d21e11399c1ed1064c136ca4a72eed4a0fb7ceabe3ef632d8e9",
+      "origins": [
+        "assembly_review:132"
+      ],
+      "context": {
+        "type": "实际程序集额外可见文本",
+        "classification_reason": "编译剧情方法中的角色对白/内心话或旁白；可见文本应翻译，保留原有富文本与打断。静态存在不证明本次游玩会触发。"
+      },
+      "manually_reviewed_uses": [
+        "幽灵声音样式",
+        "正文强烈强调"
+      ],
+      "reason": "外层i包装整句，内部b强调；标签用途独立，不能合并成一个强调等级",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 75,
+            "text": "<b>Ophelia! Find the book! Find the book and save your own soul!</b>"
+          }
+        ],
+        "b": [
+          {
+            "start": 3,
+            "end": 71,
+            "text": "Ophelia! Find the book! Find the book and save your own soul!"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p07025-6a1fc8b2122f",
+      "source": "<i>The poor soul sat singing by a tree, sing all a green willow...</i>",
+      "source_sha256": "6a1fc8b2122fc859b05b15bf3f23d217fc7c4f8752006c5a31ef44857c04636f",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1668919"
+      ],
+      "context": {
+        "scene": "OTH_OthelloSinging",
+        "speaker": "Othello",
+        "cues": "",
+        "line": 19179,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "歌词/引文"
+      ],
+      "reason": "OthelloSinging场景，整句i标记唱词",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 70,
+            "text": "The poor soul sat singing by a tree, sing all a green willow..."
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p02480-b2bd87067284",
+      "source": "<i>They bore him barefaced on the bier.</i>",
+      "source_sha256": "b2bd87067284ca9708b2de12ab603f56dfbb43590b7b819b9eb0ba2dc590d621",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1317791"
+      ],
+      "context": {
+        "scene": "GHUNT_GhostAppears",
+        "speaker": "Queen Gertrude",
+        "cues": "[despair] {Crying}",
+        "line": 5472,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "诗句/唱词"
+      ],
+      "reason": "GhostAppears场景Gertrude引用韵文，非普通词重读",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 43,
+            "text": "They bore him barefaced on the bier."
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p05328-0165632469f0",
+      "source": "<i>I've entrusted these orders to two loyal servants, Rosencrantz and Guildenstern, to ensure that...</i>",
+      "source_sha256": "0165632469f025184a97e08504c4b4161e81bf314eedab08fe04f42b2d3feb96",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1132785"
+      ],
+      "context": {
+        "scene": "PIRATE_HamletFindNote",
+        "speaker": "Hamlet",
+        "cues": "",
+        "line": 14036,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "引述文件"
+      ],
+      "reason": "PIRATE_HamletFindNote场景中Hamlet读出命令文本；斜体区分引述文件与随后评论。",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 105,
+            "text": "I've entrusted these orders to two loyal servants, Rosencrantz and Guildenstern, to ensure that..."
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p07508-8b6b5aec2f17",
+      "source": "<i>The Mirthful Merchant.</i>",
+      "source_sha256": "8b6b5aec2f17daadd52d992e4e3baf7a5defcd3cde603202672391bcc8e03f34",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:854501"
+      ],
+      "context": {
+        "scene": "QUINCE_BookPlay",
+        "speaker": "Quince",
+        "cues": "{Title_Merchant}",
+        "line": 20488,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "作品名"
+      ],
+      "reason": "QUINCE_BookPlay及Title_Merchant cue支持这是剧作名称",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 29,
+            "text": "The Mirthful Merchant."
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p11778-0309b0006984",
+      "source": "Oh, Ophelia. <i>Mon dieu.</i> I've just been struck by <i>genius.</i>",
+      "source_sha256": "0309b00069844aab323020d5a1ead5a2bf2aabfa9035846ab45ae4824f166d4b",
+      "origins": [
+        "resources.assets:scenes_present:2b1c89384554",
+        "Assembly-CSharp.dll:#US:259996"
+      ],
+      "context": {
+        "scene": "dead_plan",
+        "speaker": "Lady Guildenstern",
+        "cues": "[surprise] {Ive_Got_It}",
+        "line": 2318,
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+      },
+      "manually_reviewed_uses": [
+        "外来语",
+        "局部重读"
+      ],
+      "reason": "Mon dieu是外来语，genius是语气焦点；同一句i并非同一种功能",
+      "spans": {
+        "i": [
+          {
+            "start": 13,
+            "end": 29,
+            "text": "Mon dieu."
+          },
+          {
+            "start": 55,
+            "end": 69,
+            "text": "genius."
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p13702-b00e70711b34",
+      "source": "<i>Exit HAMLET.</i>",
+      "source_sha256": "b00e70711b34fa771971ca80028a30cca9a2e79930092b0995d048ab7883111d",
+      "origins": [
+        "resources.assets:scenes_present:2b1c89384554",
+        "Assembly-CSharp.dll:#US:619903"
+      ],
+      "context": {
+        "scene": "hamlet_notneeded",
+        "speaker": "Ophelia",
+        "cues": "",
+        "line": 7078,
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+      },
+      "manually_reviewed_uses": [
+        "脚本文字舞台说明"
+      ],
+      "reason": "资源声明为Ophelia Dialogue；Exit字面量不同于LogEntry.Stage生成器追加i",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 19,
+            "text": "Exit HAMLET."
+          }
+        ],
+        "b": []
+      }
+    },
+    {
+      "id": "p02617-de144e56a379",
+      "source": "<i>Laps.</i> <b>Now.</b> Put the cards down and get running.",
+      "source_sha256": "de144e56a37949c018857ac62ee3815d545d3681657d3e06da971d0c76faadd2",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1333924"
+      ],
+      "context": {
+        "scene": "GHUNT_CardGame",
+        "speaker": "Bernardo",
+        "cues": "[disgust] {Swiftly_Now}",
+        "line": 5939,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "同句i/b语气"
+      ],
+      "reason": "Laps与Now分别设i/b，有局部更重语气解释，但不能外推所有标签用途",
+      "spans": {
+        "i": [
+          {
+            "start": 0,
+            "end": 12,
+            "text": "Laps."
+          }
+        ],
+        "b": [
+          {
+            "start": 13,
+            "end": 24,
+            "text": "Now."
+          }
+        ]
+      }
+    },
+    {
+      "id": "p01750-3acbb835d7aa",
+      "source": "Claudius murdered my father. He <b>murdered</b> my father, you suspected it, and yet you still <i>slept</i> with him!",
+      "source_sha256": "3acbb835d7aa19ccbd16ab6c54d38a9966c1f04ff403b19eec1f19649bee4c3f",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1099160"
+      ],
+      "context": {
+        "scene": "HAMGERT_AftermathPolonius",
+        "speaker": "Hamlet",
+        "cues": "{How_Could_You}",
+        "line": 2932,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "同句i/b语气"
+      ],
+      "reason": "murdered和slept两个焦点；不能仅从标签量化心理强度",
+      "spans": {
+        "i": [
+          {
+            "start": 95,
+            "end": 107,
+            "text": "slept"
+          }
+        ],
+        "b": [
+          {
+            "start": 32,
+            "end": 47,
+            "text": "murdered"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p11655-30cc338e46f1",
+      "source": "For my own sanity, <b>I must find out if my mother knew of this. I <i>have</i> to know if she was complicit, too.</b>",
+      "source_sha256": "30cc338e46f15139103aa819159ecfa125bdd7edda1bafca17bf55bbeced81f5",
+      "origins": [
+        "resources.assets:scenes_present:2b1c89384554",
+        "Assembly-CSharp.dll:#US:322864"
+      ],
+      "context": {
+        "scene": "hamlet_murder",
+        "speaker": "Hamlet",
+        "cues": "[sad]",
+        "line": 2042,
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+      },
+      "manually_reviewed_uses": [
+        "正文粗体",
+        "嵌套局部重读"
+      ],
+      "reason": "任务/调查命题加b，里面have仍加i，证明是两维功能",
+      "spans": {
+        "i": [
+          {
+            "start": 67,
+            "end": 78,
+            "text": "have"
+          }
+        ],
+        "b": [
+          {
+            "start": 19,
+            "end": 117,
+            "text": "I must find out if my mother knew of this. I <i>have</i> to know if she was complicit, too."
+          }
+        ]
+      }
+    },
+    {
+      "id": "p00493-fc87d3d444f2",
+      "source": "What's wrong with you all? People are <b>dead</b> outside. You... you don't care?",
+      "source_sha256": "fc87d3d444f2f3408d42b81c5bcceb3561ddc664cfbfbb5356a8668eb04188ed",
+      "origins": [
+        "resources.assets:scenes:ed4319ff1aed",
+        "Assembly-CSharp.dll:#US:2097571"
+      ],
+      "context": {
+        "scene": "Quince_End",
+        "speaker": "Ophelia",
+        "cues": "[sad]",
+        "line": 567,
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e"
+      },
+      "manually_reviewed_uses": [
+        "正文强烈强调"
+      ],
+      "reason": "dead加b是对白情绪，不是系统术语",
+      "spans": {
+        "i": [],
+        "b": [
+          {
+            "start": 38,
+            "end": 49,
+            "text": "dead"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p00180-ceec8843a35a",
+      "source": "I spoke to the King about the aforementioned plot against Hamlet's life. He seemed surprised and disturbed, but now believes me to be an ally of sorts. If I can only be there <b>at the moment Hamlet steps aboard that ship,</b> I might be able to find a way onto it myself.",
+      "source_sha256": "ceec8843a35a284d99c336d2f98d9f003c414d39c89c94f5e5aff58830a03476",
+      "origins": [
+        "resources.assets:leads:02ff7434079c:text"
+      ],
+      "context": {
+        "type": "资料、界面或未定位对白"
+      },
+      "manually_reviewed_uses": [
+        "任务线索粗体"
+      ],
+      "reason": "关键时机加b，凸显可操作信息而非只表达更响的朗读",
+      "spans": {
+        "i": [],
+        "b": [
+          {
+            "start": 175,
+            "end": 226,
+            "text": "at the moment Hamlet steps aboard that ship,"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p04080-53cfdf443387",
+      "source": "<b>I'm going to give you the ability to change the content of the play I perform.</b>",
+      "source_sha256": "53cfdf443387137a7e95b8a07f64c072b970d051e8683d8d8b9e7278928405f2",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:848427"
+      ],
+      "context": {
+        "scene": "SPINE_QuinceMeeting",
+        "speaker": "Quince",
+        "cues": "[smile]",
+        "line": 10237,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "整句机制说明粗体"
+      ],
+      "reason": "新能力说明整句b，功能性提醒",
+      "spans": {
+        "i": [],
+        "b": [
+          {
+            "start": 0,
+            "end": 85,
+            "text": "I'm going to give you the ability to change the content of the play I perform."
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui-35f959311ff432c1",
+      "source": "<b>Ophelia</b> acquires the information \"%s.\"",
+      "source_sha256": "35f959311ff432c12b6ab64ae9e16551cbc568bb2073db5dbbad871514ce946b",
+      "origins": [
+        {
+          "audit": "analysis/ui-audit/assembly-ui-candidates.json",
+          "source_sha256": "35f959311ff432c12b6ab64ae9e16551cbc568bb2073db5dbbad871514ce946b"
+        }
+      ],
+      "context": {},
+      "manually_reviewed_uses": [
+        "系统人物姓名"
+      ],
+      "reason": "Ophelia加b是通知姓名标签",
+      "spans": {
+        "i": [],
+        "b": [
+          {
+            "start": 0,
+            "end": 14,
+            "text": "Ophelia"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui-933af8235aded036",
+      "source": "<b>Ophelia</b> learns about a future event in which %s If it can happen in this world, it will appear on the <b>Timeline</b>.",
+      "source_sha256": "933af8235aded03643c7fa4339a90451f5fa2d3ba64eea5532a6bf590f7e7e3d",
+      "origins": [
+        {
+          "audit": "analysis/ui-audit/assembly-ui-candidates.json",
+          "source_sha256": "933af8235aded03643c7fa4339a90451f5fa2d3ba64eea5532a6bf590f7e7e3d"
+        }
+      ],
+      "context": {},
+      "manually_reviewed_uses": [
+        "系统人物姓名",
+        "系统栏目术语"
+      ],
+      "reason": "Ophelia与Timeline加b属于界面信息结构",
+      "spans": {
+        "i": [],
+        "b": [
+          {
+            "start": 0,
+            "end": 14,
+            "text": "Ophelia"
+          },
+          {
+            "start": 109,
+            "end": 124,
+            "text": "Timeline"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui-2c128aff02f4ecc1",
+      "source": "Ophelia learns more about <b>%s</b>. The entry will be updated in the <b>Journal</b>.",
+      "source_sha256": "2c128aff02f4ecc15101e3239694489a25a6b9b75015ab7a79d71f194356172f",
+      "origins": [
+        {
+          "audit": "analysis/ui-audit/assembly-ui-candidates.json",
+          "source_sha256": "2c128aff02f4ecc15101e3239694489a25a6b9b75015ab7a79d71f194356172f"
+        }
+      ],
+      "context": {},
+      "manually_reviewed_uses": [
+        "系统栏目术语",
+        "动态条目名"
+      ],
+      "reason": "%s与Journal加b；不能把模板参数全认定为正文强调",
+      "spans": {
+        "i": [],
+        "b": [
+          {
+            "start": 26,
+            "end": 35,
+            "text": "%s"
+          },
+          {
+            "start": 70,
+            "end": 84,
+            "text": "Journal"
+          }
+        ]
+      }
+    },
+    {
+      "id": "ui-237004ee76df7732",
+      "source": "<b>Outcome:</b>\n",
+      "source_sha256": "237004ee76df77328e1100f7a6f6fca55da3672df488c38dc9a3e4f5c5958313",
+      "origins": [
+        {
+          "audit": "analysis/ui-audit/assembly-ui-candidates.json",
+          "source_sha256": "237004ee76df77328e1100f7a6f6fca55da3672df488c38dc9a3e4f5c5958313"
+        }
+      ],
+      "context": {},
+      "manually_reviewed_uses": [
+        "系统标题"
+      ],
+      "reason": "Outcome标题b，并非声音重读",
+      "spans": {
+        "i": [],
+        "b": [
+          {
+            "start": 0,
+            "end": 15,
+            "text": "Outcome:"
+          }
+        ]
+      }
+    },
+    {
+      "id": "p01580-ce58c3193e7c",
+      "source": "Why, if these four walls were falling down around you, you'd <b>still</i> sit there paralyzed with fright!",
+      "source_sha256": "ce58c3193e7cdd7b6dc9d60157ea11bf50ad4471a653722cb71c102bdaf067b3",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1081269"
+      ],
+      "context": {
+        "scene": "Spine_ThePlay_Hamlet",
+        "speaker": "King Claudius",
+        "cues": "[happy]",
+        "line": 2133,
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a"
+      },
+      "manually_reviewed_uses": [
+        "源标记错误"
+      ],
+      "reason": "原文<b>still</i>不匹配，不能以错误标签推导样式规范",
+      "spans": {
+        "i": [],
+        "b": []
+      }
+    },
+    {
+      "id": "p12562-a8bee487682e",
+      "source": "<b><i>You know that name? How? How can you know?</b></i>",
+      "source_sha256": "a8bee487682ecb7e3f57de5e16a77242a473acd93eda150f1ff586f680e9186d",
+      "origins": [
+        "resources.assets:scenes_present:2b1c89384554"
+      ],
+      "context": {
+        "scene": "ghost_cursedbook",
+        "speaker": "The Ghost",
+        "cues": "{Gasp}",
+        "line": 4299,
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2"
+      },
+      "manually_reviewed_uses": [
+        "源交叉嵌套"
+      ],
+      "reason": "原文<b><i>... </b></i>交叉关闭；只记录，不在本次修改",
+      "spans": {
+        "i": [
+          {
+            "start": 3,
+            "end": 56,
+            "text": "You know that name? How? How can you know?</b>"
+          }
+        ],
+        "b": [
+          {
+            "start": 0,
+            "end": 52,
+            "text": "<i>You know that name? How? How can you know?"
+          }
+        ]
+      }
+    }
+  ],
+  "source_tag_anomalies": [
+    {
+      "id": "p01580-ce58c3193e7c",
+      "source": "Why, if these four walls were falling down around you, you'd <b>still</i> sit there paralyzed with fright!",
+      "tag": "i",
+      "issues": [
+        {
+          "kind": "unmatched_close",
+          "offset": 69
+        }
+      ]
+    },
+    {
+      "id": "p12642-5b71605ca331",
+      "source": "<i>But I am confined to these walls. I may not leave the board's edges.",
+      "tag": "i",
+      "issues": [
+        {
+          "kind": "unmatched_open",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "p13409-b977fa96bcb7",
+      "source": "I even went to jail! Absolutely <i>no interest<i> in doing that again.",
+      "tag": "i",
+      "issues": [
+        {
+          "kind": "unmatched_open",
+          "offset": 32
+        },
+        {
+          "kind": "unmatched_open",
+          "offset": 46
+        }
+      ]
+    },
+    {
+      "id": "p15037-5640fa5abe21",
+      "source": "If you are, then I'm in your dream too, which begs the question: Why are you <i>so<i> obsessed with me?",
+      "tag": "i",
+      "issues": [
+        {
+          "kind": "unmatched_open",
+          "offset": 77
+        },
+        {
+          "kind": "unmatched_open",
+          "offset": 82
+        }
+      ]
+    },
+    {
+      "id": "a00150-9a15bf669e66",
+      "source": "<i><i>But I am confined to these walls. I may not leave the board's edges.</i>",
+      "tag": "i",
+      "issues": [
+        {
+          "kind": "unmatched_open",
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "p01580-ce58c3193e7c",
+      "source": "Why, if these four walls were falling down around you, you'd <b>still</i> sit there paralyzed with fright!",
+      "tag": "b",
+      "issues": [
+        {
+          "kind": "unmatched_open",
+          "offset": 61
+        }
+      ]
+    }
+  ],
+  "semantic_coverage_note": "代表例支持存在这些用途；未逐条语义分类全量跨度，不能把结构频次当用途频次",
+  "conclusion": "无法找到全项目稳定的b比i更强的单一规则；可见局部b用于更强语气，但i还承载角色声音、唱词、引文、作品名、外来语、舞台封套；b还承载姓名、标题、术语和可操作线索。全局i→b会合并语义不同的显示层。",
+  "generator_evidence": [
+    {
+      "assembly": "Elsinore.dll",
+      "owner": "Elsinore.GameRunner::CompileContent(Elsinore.Game.ElsinoreData)",
+      "instructions": [
+        "IL_0257: ldstr \"fix-ghost-lines\"",
+        "IL_025c: ldstr \"ghost\"",
+        "IL_026a: newobj Elsinore.GameRunner/edata@289-26::.ctor(CharacterId)"
+      ],
+      "meaning": "明确以ghost为对象执行角色整体斜体编译Pass，不能把这些整句i当成内心话或强烈重读。"
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "owner": "Elsinore.Game.CompilerPasses/italicizeAllDialogueOf@527::Invoke(Agakme.Scripting.Ast/Statement)",
+      "instructions": [
+        "IL_0041: ldfld Dialogue::item1（角色）",
+        "IL_004c: ldfld CharacterId::Name@",
+        "IL_0051: call System.String::Equals",
+        "IL_0058-IL_005e: 读取Dialogue::item4（正文）",
+        "IL_0085: ldstr \"<i>%s</i>\"",
+        "IL_009a: call ActionStatement::NewDialogue"
+      ],
+      "meaning": "角色匹配时为完整正文加外层i；已有局部i/b保持在内部，所以会出现双层i或i内b。"
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "owner": "Elsinore.Ui.HistoryTracker::formatEntry(Elsinore.Game.LogEntry,Elsinore.Game.LogEntry,System.Text.StringBuilder)",
+      "evidence_file": "analysis/ui-audit/tmp-text-hook-evidence.json",
+      "instructions": [
+        "IL_0070: ldstr \"<b>{0}:</b> <indent=16%>{1}\"",
+        "IL_00dd-IL_010d: LogEntry.IsStage → Append(\"<i>\") → ILoggableStageDirection.FormatLogEntry → Append(\"</i>\\n\")",
+        "IL_0114-IL_0144: LogEntry.IsAlert → Append(\"<i>\") → AlertAction.Text → Append(\"</i>\\n\")"
+      ],
+      "meaning": "姓名b、stage/alert外层i由日志生成器负责；与Dialogue.Text内部作者标记是不同层次。完整动态结果不计入本次merged源跨度频次。"
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "owner": "Elsinore.Game.Model::formatCharacterBold/formatCharacters",
+      "evidence_file": "analysis/ui-audit/assembly-strings.json",
+      "instructions": [
+        "formatCharacterBold IL_0003: ldstr \"<b>\"",
+        "formatCharacterBold IL_0012: ldstr \"</b>\"",
+        "formatCharacters IL_0011/IL_0042/IL_006e: ldstr \"<b>\""
+      ],
+      "meaning": "格式化人物姓名时主动生成b，功能是信息结构，不能据此理解为角色喊得更响。"
+    }
+  ],
+  "current_chinese_style_decision": "用户选择保持中文斜体对应原文斜体；本审计不改任何目标文本或显示样式。保留i/b差异与生成器层次，源异常单独处理。"
+}

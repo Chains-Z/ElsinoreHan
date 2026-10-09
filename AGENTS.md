@@ -9,7 +9,8 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
-   docs/dev-tasks/localization/tmp-compatibility.md：最新资料正文兼容问题、运行保护与验收。
+   docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
+   docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
 3. runtime/evidence/tmp-ui-verification.json：最新资料组件、正式安装与ZIP核验；ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
@@ -21,9 +22,9 @@
 
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
-- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.1.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
-- 当前正式词表 **16,841条**：原16,228条加界面修复新增613条。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；界面补译和源审计由本会话及subagents完成，不重跑全文。
-- 共70条动态规则：24个数字/F# %s模板，46条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。
+- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.2.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
+- 当前正式词表 **16,842条**：原16,228条加界面修复新增613条及一条实际文档加载变体。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；界面补译和源审计由本会话及subagents完成，不重跑全文。
+- 共90条动态规则：24个数字/F# %s模板，66条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
@@ -41,10 +42,13 @@
 - 冻结源输入、raw、outputs和审计在 translation/sol-full-2026-10-09/。保留原始响应及字节哈希，不覆盖raw，不重译已通过批次；.gitattributes已对冻结目录禁用换行转换。
 - 正文修订记录放 local-corrections.json；新界面补译放 translation/supplemental/ui-translations.json，规则放 dynamic-ui-rules.json。已有源词覆盖必须记录准确previous_target，保留来源与source_sha256。60个正文别名只复用旧译文，其中24个仅补外层斜体。
 - 文风使用自然易读的现代中文，仅保留原文已有的古雅、戏剧感和人物差异；不统一文言化、不补写关系/动作/情绪。人物身份以本游戏为准，忠实保留否定、时间、条件和推测程度。
+- 按用户偏好保留斜体对应斜体、粗体对应粗体，不全局转换。斜体还用于幽灵声音、唱词、作品名及舞台说明；粗体也用于结构与任务线索，没有统一强弱等级。原句证据见 english-markup-audit.md。
+- 人物页Title限定单行自适应字号，保留全名并避免与Subtitle重叠。运行文档别名源与编译器九步破折号替换契约记录在 runtime-closeup-translations.json，原资源和冻结译文不变。
 
 ## 验证与存档保护
 
-- 最新资料验收67326bd795924f60a2b5aa5d96f6cb1a：真实HUD、Journal三页、Timeline、Log及两文档实际显示/F8通过，三种SetText入口和文档源哈希通过；采集八阶段真实暂停且时钟不变。设置回归daf2eee559244049bceded4e50c30ed1逐档13值通过；43项真实递归消费者、15项导出和23项探针回归通过。此前16,841条实际字典解析、24格式消费者、48缓存用例及2,816汉字覆盖为源审计阶段证据，不能代替当前真实控件验收。
+- 最新资料验收398ee54ccb6e4318a623e94282762212：当前冻结存档全部7个日志索引、14份Closeup文档、14名已知人物标题布局、真实已获知信息的分享预览及HUD/Journal/Timeline/F8全部通过，零缓存/显示差异；原存档哈希/时间/数量未变。49个日志与596个通知真实消费者、14项导出、12项菜单判定和34项资料判定回归通过。指定危险信息未在本次UI存档中可选，其原句由真实消费者单独覆盖，不称该剧情E2E通过。
+- 旧67326bd验收只绑定首个日志组件，部分中文API也误当通过，不能证明全部历史已译；已用上述加强检查替代。设置回归daf2eee559244049bceded4e50c30ed1逐档13值仍为历史设置证据，本轮资料模式未访问设置页，不报告设置通过。
 - 后台组件/缓存验证不等于物理F8按键注入、像素渲染或完整游玩E2E。全剧情分支、图片文字、未知动态兜底及对白/资料像素排版仍可能需要用户反馈；不得宣称所有界面零漏译。
 - 游戏测试不得抢前台或发声。现有入口使用隐藏 -batchmode -nographics -nosound、低优先级和10FPS，确认Wwise暂停并监测窗口；出现窗口或超时就终止自己启动的进程，不回退全屏测试，不要求用户手动截图作为前置条件。
 - 默认Application.cctor入口可能迟于游戏分辨率应用；测试期间临时在GameInitialization.Awake前加载保护，跳过后台显示质量/分辨率应用，finally按原字节还原Bep配置。此行为仅临时探针使用，不打包到普通游玩插件。
