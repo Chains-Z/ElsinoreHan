@@ -1,0 +1,190 @@
+[
+  {
+    "id": "nested-belief-followup-observed-same-subject",
+    "source": "<b>Bernardo</b> now believes that Ophelia believes that \"Ophelia is in danger\".",
+    "target": "<b>贝尔纳多</b>现在认为，奥菲莉娅相信“自己身处危险”。",
+    "source_sha256": "0546c1499830b42ea86e458ab552d842c18ff0bbef58b394fe767612951d4820",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "af9da9ee8a404a739da10fe8e879a1c88f8b7d185066c5489f3bb42c4dc4e369"
+  },
+  {
+    "id": "nested-belief-followup-negated-same-subject",
+    "source": "<b>Bernardo</b> no longer believes that Ophelia believes that \"Ophelia is in danger\".",
+    "target": "<b>贝尔纳多</b>不再认为奥菲莉娅相信“自己身处危险”。",
+    "source_sha256": "f31a47d7b73b9908e35991b5a2887bac8e655abfe8e8e3a5171f6376c3050f14",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "6bda58281cb1675f243176ac6e530dfca7df6f1fbb05fd15ae99cdb50f0397d5"
+  },
+  {
+    "id": "nested-belief-followup-different-subject",
+    "source": "<b>Bernardo</b> now believes that Hamlet believes that \"Ophelia is in danger\".",
+    "target": "<b>贝尔纳多</b>现在认为，哈姆雷特相信“奥菲莉娅身处危险”。",
+    "source_sha256": "40709260c848158922afa412d779eb5d65b5c6c876cafd67fa9527a4e3cd668f",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "9ae1993a6e5a63d8f8e6666338a5d0f46c5ba799ead58a2db6ad42b202fa1c95"
+  },
+  {
+    "id": "nested-belief-followup-negated-different-subject",
+    "source": "<b>Bernardo</b> no longer believes that Hamlet believes that \"Ophelia is in danger\".",
+    "target": "<b>贝尔纳多</b>不再认为哈姆雷特相信“奥菲莉娅身处危险”。",
+    "source_sha256": "6d6f9318b7b7ba6995da511736993d73c7a1e8927fdbd8f0a39fc26225f18917",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "ab21a1754836cbc20fbfd5fefecc7f4125f3017c54397b0b743d4947f3c0805c"
+  },
+  {
+    "id": "nested-belief-followup-other-known-leaf",
+    "source": "<b>Ophelia</b> now believes that Hamlet believes that \"she's read the death report\".",
+    "target": "<b>奥菲莉娅</b>现在认为，哈姆雷特相信“她已读过死亡报告”。",
+    "source_sha256": "440d35073535b037d701c9af0e73da1186d9e5ccb7caa60a2c23091c841b2132",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "d4f89638fce1ac7c922504a4db5e732334735e71b4d4e0eb71f64ea7b4041907"
+  },
+  {
+    "id": "nested-belief-followup-unknown-outer-id",
+    "source": "<b>unknown_actor</b> now believes that Ophelia believes that \"Ophelia is in danger\".",
+    "target": null,
+    "source_sha256": "162a6cbc4c71bbc0d03ea5e65f0ef40e90516e6b6ea6671c5a5b077e883dec31",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。"
+  },
+  {
+    "id": "nested-belief-followup-unknown-inner-id",
+    "source": "<b>Bernardo</b> now believes that unknown_actor believes that \"Ophelia is in danger\".",
+    "target": null,
+    "source_sha256": "2ed8a273d1f8835063635c40fde540d8b320b2cdd9bd70258f3d065d36b8d27a",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。"
+  },
+  {
+    "id": "nested-belief-followup-unknown-leaf-id",
+    "source": "<b>Bernardo</b> now believes that Ophelia believes that \"unknown_knowledge_id\".",
+    "target": null,
+    "source_sha256": "4ca37ec1c1e5e8b784df4b13340231322ca257dc234cab76321d8957bb88b38b",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。"
+  },
+  {
+    "id": "nested-belief-followup-unknown-leaf-display",
+    "source": "<b>Bernardo</b> now believes that Ophelia believes that \"unknown knowledge id\".",
+    "target": null,
+    "source_sha256": "488e273f0b2570db3515d769f180e2c7c14309e5628eade7fc869926f7f7c715",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。"
+  },
+  {
+    "id": "nested-belief-followup-two-outer-believers",
+    "source": "<b>Bernardo</b> and <b>Hamlet</b> now believe that Ophelia believes that \"Ophelia is in danger\".",
+    "target": "<b>贝尔纳多</b>和<b>哈姆雷特</b>现在认为，奥菲莉娅相信“自己身处危险”。",
+    "source_sha256": "b3f8e94de5f00f7b8e91727217e1a8b27285290a71ede3c3623817fa93681da6",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "b30766ff4a0fac99e2c9b5caa28093bf5620dcb24a4c66fcbd126ab6e5e815da"
+  },
+  {
+    "id": "nested-belief-followup-observed-same-subject-newline",
+    "source": "<b>Bernardo</b> now believes that Ophelia believes that \"Ophelia is in danger\".\n",
+    "target": "<b>贝尔纳多</b>现在认为，奥菲莉娅相信“自己身处危险”。\n",
+    "source_sha256": "c811804b7221acfca0083ba0d80ecfa98281f5649ea885c43ccd0967cb4e73c3",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "f706323a821a6147e4aa620c46dd9016dea6c6024b8baafc0d9953d7b597d54d"
+  },
+  {
+    "id": "nested-belief-followup-observed-same-subject-terminal",
+    "source": "<line-height=90%><b>Bernardo</b> now believes that Ophelia believes that \"Ophelia is in danger\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>贝尔纳多</b>现在认为，奥菲莉娅相信“自己身处危险”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "95af60d54736d287bd5df0f643154e69aae8b466a8acbfb5582f1aa068cc4aa8",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "verification_level": "component",
+    "note": "用户英文F8原句或同一真实格式化器分支的组件参数用例；不称游戏E2E。",
+    "target_sha256": "e3077e8327687b85e51871197630b5f5a0081f57156fba92417f3afb9e785fe5"
+  }
+]

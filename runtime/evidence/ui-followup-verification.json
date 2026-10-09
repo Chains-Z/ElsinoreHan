@@ -1,0 +1,634 @@
+{
+  "plugin_version": "1.3.0",
+  "run_id": "46a0f4e419554b0e825ff42b5570c7fe",
+  "installed": true,
+  "dictionary_entries": 16861,
+  "total_dynamic_rules": 121,
+  "recursive_ui_rules": 97,
+  "recursive_consumer_suites": {
+    "lead-followup": 671,
+    "map-ui": 91,
+    "timeline-followup": 92,
+    "nested-belief-followup": 12,
+    "dynamic-ui": 56,
+    "notification-ui": 616
+  },
+  "lead": {
+    "passed": true,
+    "checks": {
+      "finished": true,
+      "all_available_leads": true,
+      "all_replay_cases": true,
+      "full_source_and_translation": true,
+      "active_same_component_three_modes": true,
+      "f8_original_exact": true,
+      "f8_restored_exact": true
+    },
+    "available": 6,
+    "replays": 8,
+    "details": [
+      {
+        "kind": "available",
+        "id": "Lute",
+        "source_length": 252
+      },
+      {
+        "kind": "available",
+        "id": "Consort",
+        "source_length": 350
+      },
+      {
+        "kind": "available",
+        "id": "Spy",
+        "source_length": 318
+      },
+      {
+        "kind": "available",
+        "id": "Father",
+        "source_length": 622
+      },
+      {
+        "kind": "available",
+        "id": "Hamlet_Madness",
+        "source_length": 633
+      },
+      {
+        "kind": "available",
+        "id": "where_is_laertes",
+        "source_length": 265
+      },
+      {
+        "kind": "replay",
+        "id": "lead-single-book_complete",
+        "source_length": 255
+      },
+      {
+        "kind": "replay",
+        "id": "lead-single-chambers_1",
+        "source_length": 165
+      },
+      {
+        "kind": "replay",
+        "id": "lead-all-12",
+        "source_length": 1827
+      },
+      {
+        "kind": "replay",
+        "id": "lead-all-13",
+        "source_length": 1558
+      },
+      {
+        "kind": "replay",
+        "id": "lead-all-14",
+        "source_length": 1286
+      },
+      {
+        "kind": "replay",
+        "id": "lead-screenshot-hamlet",
+        "source_length": 714
+      },
+      {
+        "kind": "replay",
+        "id": "lead-screenshot-spy",
+        "source_length": 505
+      },
+      {
+        "kind": "replay",
+        "id": "lead-screenshot-father",
+        "source_length": 752
+      }
+    ],
+    "scope": "真实已知线索按钮与真实资源格式组件重放；不宣称重放条件在游戏中已获取"
+  },
+  "map": {
+    "passed": true,
+    "checks": {
+      "schema_valid": true,
+      "physical_and_save_guards_active": true,
+      "actual_map_ready": true,
+      "upper_hallway_covered": true,
+      "case_sources_match_real_whitelist": true,
+      "cache_matches_frozen": true,
+      "all_three_active_modes": true,
+      "same_component_and_source": true,
+      "english_original_exact": true,
+      "translated_restored_exact": true,
+      "all_button_clicks_consumed": true,
+      "cancelled_only_with_no": true,
+      "player_location_unchanged": true,
+      "paused_clock_unchanged": true,
+      "hamlet_coverage_recorded": true,
+      "report_complete": true
+    },
+    "cases": [
+      {
+        "case": "hamlet",
+        "kind": "character",
+        "parameter": "Hamlet",
+        "source": "Go to Hamlet?",
+        "target": "前往哈姆雷特？"
+      },
+      {
+        "case": "upper-hallway",
+        "kind": "room",
+        "parameter": "Upper Hallway",
+        "source": "Go to Upper Hallway?",
+        "target": "前往上层走廊？"
+      },
+      {
+        "case": "other-room",
+        "kind": "room",
+        "parameter": "The Walls",
+        "source": "Go to The Walls?",
+        "target": "前往城墙？"
+      }
+    ],
+    "hamlet_covered": true,
+    "unavailable": [],
+    "limitations": [
+      "真实组件事件集成，未注入物理按键、不确认移动、不验收像素"
+    ]
+  },
+  "timeline": {
+    "passed": true,
+    "real_button_details": 3,
+    "real_empty_changes_details": 2,
+    "real_resource_formatter_replays": 5,
+    "coverage": {
+      "empty-one": "AVAILABLE",
+      "empty-many": "AVAILABLE",
+      "queen-room": "AVAILABLE"
+    },
+    "visited_story_items": {
+      "Hamlet's ravings interrupt my sleep.": "PRESENT_IN_VISITED_ITEMS",
+      "Polonius questions Hamlet.": "PRESENT_IN_VISITED_ITEMS",
+      "Horatio and Gertrude have a heart to heart.": "PRESENT_IN_VISITED_ITEMS",
+      "Quince puts on the play that Hamlet designed.": "PRESENT_IN_VISITED_ITEMS",
+      "Hamlet presses his Mother on Claudius's actions.": "PRESENT_IN_VISITED_ITEMS"
+    },
+    "initial_loop_and_detail_restored": true,
+    "skipped_items": [
+      {
+        "event_id": "SC_SPINE_RnGnHamlet",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$0",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$1",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$2",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$3",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$4",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$5",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$6",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$7"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_FortinbrasHamletMeeting",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$0",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$1",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$2",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$3",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$4",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$5",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$6"
+        ]
+      },
+      {
+        "event_id": "SC_GARDENWALKS_GertrudeAndHoratio01",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$0",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$1",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$2",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$3",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$4"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_FortinbrasHamletMeeting",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$0",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$1",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$2",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$3",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$4",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$5",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$6"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_LaertesLeaves",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$0",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$1",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$2",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$3",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$4",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$5",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$6",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$7",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$8",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$9",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$10"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_FortinbrasHamletMeeting",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$0",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$1",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$2",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$3",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$4",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$5",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$6"
+        ]
+      },
+      {
+        "event_id": "SC_GARDENWALKS_GertrudeAndHoratio01",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$0",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$1",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$2",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$3",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$4"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_RnGnHamlet",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$0",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$1",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$2",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$3",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$4",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$5",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$6",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$7"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_RnGnHamlet",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$0",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$1",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$2",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$3",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$4",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$5",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$6",
+          "Spine_RnGnHamlet$SC_SPINE_RnGnHamlet$7"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_HamletAndGertrude",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$0",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$1",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$2",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$3",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$4",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$5",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$6",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$7"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_FortinbrasHamletMeeting",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$0",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$1",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$2",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$3",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$4",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$5",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$6"
+        ]
+      },
+      {
+        "event_id": "SC_GARDENWALKS_GertrudeAndHoratio01",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$0",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$1",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$2",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$3",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$4"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_HamletAndGertrude",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$0",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$1",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$2",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$3",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$4",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$5",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$6",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$7"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_FortinbrasHamletMeeting",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$0",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$1",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$2",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$3",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$4",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$5",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$6"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_HamletAndGertrude",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$0",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$1",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$2",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$3",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$4",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$5",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$6",
+          "Spine_HamletAndGertrude$SC_SPINE_HamletAndGertrude$7"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_LaertesLeaves",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$0",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$1",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$2",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$3",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$4",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$5",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$6",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$7",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$8",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$9",
+          "Spine_LaertesToParis$SC_SPINE_LaertesLeaves$10"
+        ]
+      },
+      {
+        "event_id": "SC_SPINE_FortinbrasHamletMeeting",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$0",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$1",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$2",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$3",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$4",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$5",
+          "Spine_FortinbrasHamletMeeting$SC_SPINE_FortinbrasHamletMeeting$6"
+        ]
+      },
+      {
+        "event_id": "SC_GARDENWALKS_GertrudeAndHoratio01",
+        "reason": "not-attended-or-future",
+        "scene_ids": [
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$0",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$1",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$2",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$3",
+          "GARDENWALKS_GertrudeAndHoratio01$SC_GARDENWALKS_GertrudeAndHoratio01$4"
+        ]
+      }
+    ],
+    "f8_source_complete": true,
+    "display_matches_frozen_translation": true,
+    "limitations": [
+      "资源格式器重放不代表冻结存档已获得该剧情",
+      "未验证物理F8按键或屏幕像素渲染"
+    ]
+  },
+  "timeline_reflection": {
+    "passed": true,
+    "legacy_name_only_ambiguous_reproduced": true,
+    "exact_method_signatures": 13,
+    "signatures": [
+      "LEGACY_NAME_ONLY_AMBIGUOUS=True",
+      "Elsinore.Ui.UiStrings::System.String FormatTimeString(Elsinore.Game.GameClock)",
+      "Elsinore.Ui.UiStrings::System.String FormatCharacterName(Elsinore.Game.CharacterId)",
+      "Elsinore.Ui.UiStrings::System.String FormatRoomId(Elsinore.Game.RoomId)",
+      "Elsinore.Ui.UiStrings::Void FormatLogEntryOpener(System.Text.StringBuilder, Elsinore.Game.GameClock, System.Nullable`1[Elsinore.Game.RoomId], Boolean)",
+      "Elsinore.Ui.UiStrings::Void FormatEvent(System.Text.StringBuilder, Elsinore.Game.ElsinoreEvent)",
+      "Elsinore.Ui.UiStrings::Void FormatList[T](System.Text.StringBuilder, System.Func`2[T,System.String], System.Collections.Generic.IReadOnlyList`1[T])",
+      "Elsinore.Ui.UiStrings::Void SetLineHeight(System.Text.StringBuilder)",
+      "Elsinore.Ui.UiStrings::Void AddParagraphBreakIfPriorContent(System.Text.StringBuilder)",
+      "Elsinore.Ui.TimelineUI::Void createEventContent(System.Text.StringBuilder, System.Text.StringBuilder, Elsinore.Game.GameState, Elsinore.Game.TimelineItem)",
+      "Elsinore.Ui.TimelineUI::Void DeactivateEventInfoPopup()",
+      "Elsinore.Game.TimelineItem::Boolean IsInFuture(Elsinore.Game.GameState)",
+      "Elsinore.Game.TimelineItem::Elsinore.Game.TimelineItemDetails Details(Elsinore.Game.GameState)",
+      "Elsinore.Game.DataLookup::Elsinore.Game.ElsinoreEvent Event(Elsinore.Game.HEventId)"
+    ],
+    "clock_fixtures": [
+      "Thursday, 06:02",
+      "Thursday, 11:43",
+      "Saturday, 08:02",
+      "Friday, 17:15",
+      "Saturday, 00:30"
+    ],
+    "clock_epoch_offset_minutes": 360,
+    "legacy_six_hour_offset_reproduced": true,
+    "method": "真实DLL离线签名与GameClock纯逻辑检查；未创建Unity实例或调用UiStrings格式器"
+  },
+  "journal_component_passed": true,
+  "journal_checks": {
+    "collection_finished": true,
+    "save_guard_active": true,
+    "frozen_closeup_resource_hashes_valid": true,
+    "all_real_navigation_confirmed": true,
+    "real_log_overlay_owned": true,
+    "all_journal_tabs_activated": true,
+    "real_document_sources_match": true,
+    "api_reported_matches_consistent": true,
+    "characters_body_actual_translation": true,
+    "characters_name_actual_translation": true,
+    "hud_room_actual_translation": true,
+    "hud_time_actual_translation": true,
+    "leads_body_actual_translation": true,
+    "leads_title_actual_translation": true,
+    "log_entry_actual_translation": true,
+    "rumors_body_actual_translation": true,
+    "rumors_title_actual_translation": true,
+    "timeline_detail_actual_translation": true,
+    "log_all_real_history_indices_bound": true,
+    "log_all_entries_completely_translated": true,
+    "log_all_entries_f8_original_exact": true,
+    "log_all_entries_f8_restored_exact": true,
+    "log_no_unapproved_english": true,
+    "real_document_body_components_translated": true,
+    "real_document_cache_targets_complete": true,
+    "real_document_bare_source_cache_exists": true,
+    "document_body_f8_actual_translation": true,
+    "f8_roundtrip_matches": true,
+    "all_required_pages_have_nonempty_actual_text": true,
+    "all_phase_clocks_really_paused_and_stable": true,
+    "all_requested_phases_available": true,
+    "all_closeup_frozen_ids_consumed": true,
+    "all_closeup_complete_real_targets_displayed": true,
+    "all_known_characters_layout_consumed": true,
+    "all_known_character_titles_fit_without_overlap": true,
+    "all_known_character_profiles_translated": true,
+    "hamlet_profile_f8_original_and_restored": true,
+    "real_information_preview_source_whitelisted": true,
+    "real_quoted_information_preview_translated": true,
+    "danger_preview_existing_real_consumer_coverage": true,
+    "information_preview_not_submitted": true
+  },
+  "all_history_indices": 7,
+  "closeup_documents": 14,
+  "known_characters_layout": 14,
+  "menu_checks": {
+    "menu_labels_all_translated": true,
+    "menu_labels_no_overflow": true,
+    "menu_no_original_labels": true,
+    "chinese_glyphs_available": true,
+    "headless_cancel_and_submit_input_isolated": true,
+    "full_translation_chinese_glyphs_available": true,
+    "frozen_long_dialogue_dynamic_cache_cases": true,
+    "save_write_guard_active": true,
+    "toggle_original_menu": true,
+    "toggle_restored_menu": true,
+    "toggle_release_no_change": true
+  },
+  "process": {
+    "run_id": "46a0f4e419554b0e825ff42b5570c7fe",
+    "launched_at_utc": "2026-10-09T17:30:35.2676295Z",
+    "pid": 10252,
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10,
+    "arguments": [
+      "-batchmode",
+      "-nographics",
+      "-nosound",
+      "-logFile",
+      "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\46a0f4e419554b0e825ff42b5570c7fe\\player.log\""
+    ]
+  },
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-6f413db42b4842f99a322ede96cdd074",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-46a0f4e419554b0e825ff42b5570c7fe",
+    "files": [
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "4141C10164758CD715C3FFC7ABA6A010EAE0B8AF8E61C0B0560BE1E988460908",
+        "write_time": "2026-10-09T13:52:48.3583129Z"
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "5101F7D5243D0D5A26FAE0988BDD1549067E7FA8EF2CD0BB7FE6F79750987B1B",
+        "write_time": "2026-10-09T13:18:59.6477693Z"
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "2C7E4BC4EF734B955B64ACEDA004654F52E87E2B52BC238DDCB503DA93598930",
+        "write_time": "2026-10-09T12:07:09.4553052Z"
+      },
+      {
+        "path": "elsinore_log.json",
+        "sha256": "D4FF03B4F1B3F6DAE43DFDB2184989B050BBF94DF6D2444F08438255DDCAA5F2",
+        "write_time": "2026-10-09T16:34:22.5468816Z"
+      },
+      {
+        "path": "game.save",
+        "sha256": "23A00F850A4DB7092AD72412B2B89BFE41E1E9549C2F5CF1253C86206DEF7C7F",
+        "write_time": "2026-10-09T16:34:21.9467091Z"
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "F99725E20D18477425000B4129056D9EA6FD019ABE88D9958903A77CB9DF5DFF",
+        "write_time": "2026-10-09T13:51:58.5775621Z"
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274C5BA9799562C003EB6A47B9E7B526F27555B646787FD7E44CAE3F341",
+        "write_time": "2026-10-09T16:11:39.2824310Z"
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "A7428098C69D511D9C340044A862343EDABF4AC341E9397CAC554B80212AA8F2",
+        "write_time": "2026-10-09T10:29:21.2936642Z"
+      }
+    ]
+  },
+  "files": {
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": {
+      "installed": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187",
+      "tested": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187",
+      "package": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187",
+      "zip": "2a769ead5be0c0cce5667d40f7819e14e6d001bb35c4c3051ebb988fb5e77187"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": {
+      "installed": "b4f0a326e370ed876073328a053a29275565f3d677e9d759aaa5dc8cfb3b352b",
+      "tested": "b4f0a326e370ed876073328a053a29275565f3d677e9d759aaa5dc8cfb3b352b",
+      "package": "b4f0a326e370ed876073328a053a29275565f3d677e9d759aaa5dc8cfb3b352b",
+      "zip": "b4f0a326e370ed876073328a053a29275565f3d677e9d759aaa5dc8cfb3b352b"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": {
+      "installed": "e3ce9483c5f684b5c293dce3e8c073faafe8a71417feba713c1492f817ab6d1c",
+      "tested": "e3ce9483c5f684b5c293dce3e8c073faafe8a71417feba713c1492f817ab6d1c",
+      "package": "e3ce9483c5f684b5c293dce3e8c073faafe8a71417feba713c1492f817ab6d1c",
+      "zip": "e3ce9483c5f684b5c293dce3e8c073faafe8a71417feba713c1492f817ab6d1c"
+    }
+  },
+  "installed_backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-41ea910649bb496e8e2fee2ef23067dc",
+  "zip_entries": 39,
+  "zip_sha256": "ae6874885bbaaea0c467f0fdb95a05b9aad2b8c88370254e99914f05b9e52229",
+  "original_game_binaries_unchanged": true,
+  "temporary_probe_and_appid_removed": true,
+  "test_loader_config_restored_byte_exact": true,
+  "report_sha256": {
+    "journal-ui.txt": "5c0e00d495d03ebe7899984e3cc5d45fc288c48f1e6d26184bc71e3e99fb1b4d",
+    "lead-followup.tsv": "ba0627c2febb45c0dcc60677d7d0e88a47765e17367f6a4fc246670512d07c78",
+    "map-followup.tsv": "d19b829a342ad18c197f532a13e2f77ac522b23cfb79c299b529262f60c81d4d",
+    "timeline-followup.tsv": "2ec2d713c82de96c66caa94d0a690a03bfd635fc1f88cc8cb913944c22977767"
+  },
+  "consumer_tests_sha256": {
+    "lead-followup": "a053e71153f475e56966a163ff51ae6c2e7a4df0841e44440884e518df3a34be",
+    "map-ui": "1cb5cf757cb3b09972d9bd0f584e2cf3b53f831a2c8ea23d3ff11f8344c3f77e",
+    "timeline-followup": "01bbc8cdc2ee90a5eb5396fe6c9da0b9f180d71792209be12e23e9adc57f0563",
+    "nested-belief-followup": "452649faa5e2928c02e32c6d2f43572ce5c237322573e645ebbdcd34508b2a5a",
+    "dynamic-ui": "30ba1f13b983bc26ea1264ba249ec5d39dc55443a7b60e54ccd11a6a3ca6f881",
+    "notification-ui": "e67bce3a75381ae933ed2f3c60c4e3e815d1f6db08e7a30e8f7891f7eec9a2ef"
+  },
+  "offline_tests": {
+    "export": 15,
+    "lead_sources": 5,
+    "map_sources": 7,
+    "journal_verifier": 37,
+    "menu_verifier": 22,
+    "launch_preflight": 7,
+    "lead_verifier": 8,
+    "map_verifier": 15,
+    "timeline_verifier": 29
+  },
+  "limits": [
+    "真实页面、组件事件和格式器重放分别记账；重放不代表已获得具体剧情",
+    "不注入物理按键，不确认地图移动，不验收像素渲染或全剧情分支",
+    "字体未改；本轮未重复前轮字体几何和逐档设置检查"
+  ]
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "id": "ui-rule-timeline-complete-room-location",
+    "pattern": "^(?<room>(?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Claudius's\\ Chambers|Gertrude's\\ Chambers|Polonius's\\ Chambers|Laertes's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Forest\\ Path|The\\ Guard\\ House|A\\ Dungeon\\ Cell|The\\ Great\\ Hall|The\\ Upper\\ Deck|Lower\\ Hallway|The\\ Courtyard|The\\ Graveyard|The\\ Main\\ Deck|Upper\\ Hallway|Lower\\ Garden|The\\ Dungeon|The\\ Grounds|The\\ Kitchen|The\\ Landing|The\\ Chapel|The\\ Docks|The\\ Walls|Limbo|Shack))(?<bullet_i> •)\\z$",
+    "replacement": "${room}${bullet_i}",
+    "origins": [
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ],
+    "room_source_contract": "所有真实RoomMarker.playerFacingName，包含已由冻结正文覆盖的房间；未知程序ID不匹配"
+  },
+  {
+    "id": "ui-rule-timeline-complete-room-opener",
+    "pattern": "^(?<when>(?:(?:Wednesday|Thursday|Friday|Saturday|Sunday), (?:[01]?[0-9]|2[0-3]):[0-5][0-9]|Wednesday|Epilogue) in (?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Claudius's\\ Chambers|Gertrude's\\ Chambers|Polonius's\\ Chambers|Laertes's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Forest\\ Path|The\\ Guard\\ House|A\\ Dungeon\\ Cell|The\\ Great\\ Hall|The\\ Upper\\ Deck|Lower\\ Hallway|The\\ Courtyard|The\\ Graveyard|The\\ Main\\ Deck|Upper\\ Hallway|Lower\\ Garden|The\\ Dungeon|The\\ Grounds|The\\ Kitchen|The\\ Landing|The\\ Chapel|The\\ Docks|The\\ Walls|Limbo|Shack)), <i>in which</i> (?<event>[\\s\\S]+)\\z$",
+    "replacement": "${when}，<i>事件：</i>${event}",
+    "origins": [
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ],
+    "room_source_contract": "所有真实RoomMarker.playerFacingName，包含已由冻结正文覆盖的房间；未知程序ID不匹配"
+  },
+  {
+    "id": "ui-rule-timeline-complete-room-opener-bold",
+    "pattern": "^(?<when><b>(?:(?:Wednesday|Thursday|Friday|Saturday|Sunday), (?:[01]?[0-9]|2[0-3]):[0-5][0-9]|Wednesday|Epilogue) in (?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Claudius's\\ Chambers|Gertrude's\\ Chambers|Polonius's\\ Chambers|Laertes's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Forest\\ Path|The\\ Guard\\ House|A\\ Dungeon\\ Cell|The\\ Great\\ Hall|The\\ Upper\\ Deck|Lower\\ Hallway|The\\ Courtyard|The\\ Graveyard|The\\ Main\\ Deck|Upper\\ Hallway|Lower\\ Garden|The\\ Dungeon|The\\ Grounds|The\\ Kitchen|The\\ Landing|The\\ Chapel|The\\ Docks|The\\ Walls|Limbo|Shack)</b>), <i>in which</i> (?<event>[\\s\\S]+)\\z$",
+    "replacement": "${when}，<i>事件：</i>${event}",
+    "origins": [
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ],
+    "room_source_contract": "所有真实RoomMarker.playerFacingName，包含已由冻结正文覆盖的房间；未知程序ID不匹配"
+  },
+  {
+    "id": "ui-rule-timeline-complete-room-time-and-room",
+    "pattern": "^(?<when>(?:(?:Wednesday|Thursday|Friday|Saturday|Sunday), (?:[01]?[0-9]|2[0-3]):[0-5][0-9]|Wednesday|Epilogue)) in (?<room>(?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Claudius's\\ Chambers|Gertrude's\\ Chambers|Polonius's\\ Chambers|Laertes's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Hamlet's\\ Chambers|The\\ Royal\\ Gallery|The\\ Forest\\ Path|The\\ Guard\\ House|A\\ Dungeon\\ Cell|The\\ Great\\ Hall|The\\ Upper\\ Deck|Lower\\ Hallway|The\\ Courtyard|The\\ Graveyard|The\\ Main\\ Deck|Upper\\ Hallway|Lower\\ Garden|The\\ Dungeon|The\\ Grounds|The\\ Kitchen|The\\ Landing|The\\ Chapel|The\\ Docks|The\\ Walls|Limbo|Shack))\\z$",
+    "replacement": "${when}，${room}",
+    "origins": [
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ],
+    "room_source_contract": "所有真实RoomMarker.playerFacingName，包含已由冻结正文覆盖的房间；未知程序ID不匹配"
+  },
+  {
+    "id": "ui-rule-timeline-including-empty-final-paragraph",
+    "pattern": "^(?<body>(?:<line-height=90%>)?Including (?<people>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)(?: and (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)|(?:, (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))+, and (?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?))?)\\.)(?<empty_tail_i>\\n<line-height=40%>\\n<line-height=90%>)\\z$",
+    "replacement": "${body}${empty_tail_i}",
+    "priority": 70,
+    "origins": [
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ],
+    "boundary_contract": "createEventContent先追加段间距、后发现无Changes；只剥离真实有限Including名单后的空尾段，保留全部格式字节"
+  },
+  {
+    "id": "ui-rule-timeline-not-attended-line-height",
+    "pattern": "^(?<tag_i><line-height=90%>)(?<body>Ophelia did not attend this event\\.\\n)\\z$",
+    "replacement": "${tag_i}${body}",
+    "priority": 90,
+    "origins": [
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ],
+    "boundary_contract": "createEventContent的真实未参加分支自带换行；保持该换行使body直接消费冻结原句，防止通知末尾规则先剥掉换行"
+  }
+]

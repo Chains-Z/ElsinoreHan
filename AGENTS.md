@@ -1,8 +1,8 @@
 # ElsinoreHan 项目约定与最新交接
 
-更新时间：2026-10-09。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
+更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新状态：用户在新会话明确要求继续后，已完成此前候选修复、正式安装及个人ZIP同步。当前1.3.0、16,843条；最终运行 `5f5a90f339c74f2ea2a99d2bc5761fc1` 的资料、缓存和字体网格通过。见 [本轮交接](docs/dev-tasks/localization/handoff-2026-10-09.md) 与 [后续修复](docs/dev-tasks/localization/runtime-ui-followup.md)。下一步按实际游玩反馈校订，不自动重复重型测试。
+最新状态：本轮线索多段、地图确认、时间线空尾段/房间与嵌套信念修复已正式安装，个人ZIP同步。当前1.3.0、16,861条、121条规则；最终运行 `46a0f4e419554b0e825ff42b5570c7fe` 的真实资料组件、6条线索、3个地图确认、3项时间线详情及资源重放/F8通过，1,538个递归消费者通过。见 [本轮修复](docs/dev-tasks/localization/ui-followup-2026-10-10.md)。字体保持前轮 `5f5a90f339c74f2ea2a99d2bc5761fc1` 的参数与网格证据，不把它算成本轮重验。下一步按实际游玩反馈校订，不自动重复重型测试。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -11,10 +11,11 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
+   docs/dev-tasks/localization/ui-followup-2026-10-10.md：最新线索、地图、时间线、嵌套信念与探针修正。
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/tmp-ui-verification.json：最新资料组件、正式安装与ZIP核验；ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/ui-followup-verification.json：最新资料组件、正式安装与ZIP核验；tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -25,8 +26,8 @@
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
 - 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.3.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
-- 当前正式词表 **16,843条**：原16,228条加界面修复新增613条、一条文档加载变体和一条哈姆雷特资料变体。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
-- 共90条动态规则：24个数字/F# %s模板，66条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
+- 当前正式词表 **16,861条**：原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体和18个线索运行别名。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
+- 共121条动态规则：24个数字/F# %s模板，97条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
@@ -51,6 +52,8 @@
 
 ## 验证与存档保护
 
+- 最新本轮验收46a0f4e419554b0e825ff42b5570c7fe：6条实际线索、8组资源线索重放，Hamlet/Upper Hallway/The Walls三个真实地图确认，单人/多人空Changes及乔特鲁德寝室三项真实时间线详情、五组事件格式器重放均完整中文且F8往返通过；历史循环和原详情经真实按钮恢复。7日志/14文档/14人物及分享预览仍通过。145项离线回归、13个真实反射签名及5个真实GameClock日期检查通过；地图仅点否、原位置/暂停时钟未变。安装、测试副本、包目录与39文件ZIP一致，原游戏四文件和本轮原存档未变，临时插件/appid清理、入口按落盘原件字节恢复。重放不代表已获得具体剧情，不称全剧情E2E。
+
 - 最新资料验收5f5a90f339c74f2ea2a99d2bc5761fc1：冻结存档全部7个日志索引、14份Closeup文档、14名人物标题与正文、真实已知信息分享预览及HUD/Journal/Timeline/F8通过，哈姆雷特正文单独核对F8。零缓存/显示差异，原存档哈希/时间/数量未变。21个冻结缓存、2,816中文字符覆盖与12份字体单行网格通过；56个日志和616个通知真实递归消费者及111项离线回归通过。原398ee54为1.2.0历史验收；指定危险句仍仅由真实消费者覆盖，不称该剧情E2E通过。
 - 字体样本使用真实对白/日志字体参数和冻结译文，隔离样本关闭换行/裁切以比较完整相邻字，绝不改变正式控件布局。网格与glyph矩形包络排除SDF padding，但不采样纹理alpha；不能称屏幕换行或像素验收通过。JsonUtility会漏动态加载探针的嵌套数组，当前显式导出并严格核对12份完整中文/强调/边界证据。
 - 旧67326bd验收只绑定首个日志组件，部分中文API也误当通过，不能证明全部历史已译；已用上述加强检查替代。设置回归daf2eee559244049bceded4e50c30ed1逐档13值仍为历史设置证据，本轮资料模式未访问设置页，不报告设置通过。
@@ -70,6 +73,7 @@
 - tools/translation/prepare_ui_supplement.py：从审计与既有译文生成补译/规则；只在要更新这组来源时运行，避免覆盖未整理的人工修订。
 - tools/translation/export_sol_full.py：核对冻结结果、修订及补译后导出正式词表。
 - tools/patch/install-full.ps1：游戏关闭后备份安装；tools/patch/package-full.ps1：按白名单生成个人备份ZIP。
+- 线索运行别名/组合规则由prepare_lead_followup.py维护（--runtime-cases生成八组冻结TSV）；地图白名单由prepare_map_ui.py维护。UI_FOLLOWUP模式必须同时开启JOURNAL并提供LEAD_CASES。时间线当前loop=0，历史索引向过去递增；Previous加1、Next减1。真实时钟纪元为06:00。反射须精确签名，未参加/未来项不提前调用Details；缺scene明确跳过，不能造零Changes。完整接口与中断恢复见本轮文档。
 - tools/patch/run-toggle-probe.ps1：默认菜单/F8后台验证；逐档模式使用 ELSINOREHAN_PROBE_SETTINGS_OPTIONS=1，并设置正式译文、字形、冻结缓存用例路径。详细运行契约见源码与ui-audit.md。
 - 资料模式ELSINOREHAN_PROBE_JOURNAL=1与逐档模式互斥；run-headless-probe会强制真实资料断言，COLLECTED不是成功。文档资源通过实际展示入口及局部重载验证，不冒称世界内搜寻物件或物理键盘E2E。日志连续源白名单是当前正式源快照，新源需更新，勿盲跑早期补译生成器覆盖手工规则。
 - 下一步按用户实际遇到的漏译、错译和排版反馈修订。优先确认源字段、实际组合及拦截路径；不要重译全文作为修补方法。

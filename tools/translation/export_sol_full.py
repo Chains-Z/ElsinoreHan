@@ -145,7 +145,7 @@ def main():
     base_count = len(rows)
     supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
     rows = apply_supplemental(rows, supplemental)
-    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json"):
+    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "lead-runtime-aliases.json"):
         extra_path = SUPPLEMENTAL.with_name(filename)
         if extra_path.exists():
             extra_entries = json.loads(extra_path.read_text(encoding="utf-8"))
@@ -165,9 +165,11 @@ def main():
                             "encoded_line": encode('sr:"' + rule["pattern"] + '"') + "=" + encode('"' + rule["replacement"] + '"')})
     ui_rules_path = ROOT / "translation" / "supplemental" / "dynamic-ui-rules.json"
     ui_rules = json.loads(ui_rules_path.read_text(encoding="utf-8")) if ui_rules_path.exists() else []
-    notification_rules_path = ui_rules_path.with_name("notification-ui-rules.json")
-    if notification_rules_path.exists():
-        ui_rules += json.loads(notification_rules_path.read_text(encoding="utf-8"))
+    for filename in ("notification-ui-rules.json", "lead-followup-rules.json", "map-ui-rules.json",
+                     "timeline-followup-rules.json", "nested-belief-followup-rules.json"):
+        followup_path = ui_rules_path.with_name(filename)
+        if followup_path.exists():
+            ui_rules += json.loads(followup_path.read_text(encoding="utf-8"))
     # XUnity 逆序取首个匹配；结构边界必须优先于宽泛的姓名/富文本封套。
     ui_rules = sorted(ui_rules, key=lambda rule: rule.get("priority", 0))
     for rule in ui_rules:

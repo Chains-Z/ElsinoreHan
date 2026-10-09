@@ -685,6 +685,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         yield return OptionalJournalPhase("present", ProbePresentationPreview());
         yield return OptionalJournalPhase("timeline", ProbeTimeline());
         yield return OptionalJournalPhase("log", ProbeLog());
+        if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_UI_FOLLOWUP") == "1")
+            yield return OptionalJournalPhase("map.followup", MapFollowupProbe.Capture(outputDirectory));
         JournalLine("STATUS\tCOLLECTED");
         journalFinished = true;
         Logger.LogInfo("真实资料页面与SetText局部组件证据已采集；未覆盖阶段不能由COLLECTED推定通过。");
@@ -779,6 +781,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             {
                 JournalControl(tabs[index], "leads.title", tab, "TitleText");
                 JournalControl(tabs[index], "leads.body", tab, "DescriptionText");
+                if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_UI_FOLLOWUP") == "1")
+                    yield return LeadFollowupProbe.Capture(tab, outputDirectory, new Action<bool>(SetSettingsTranslatedMode));
             }
             else
             {
@@ -1007,6 +1011,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             JournalBuilder("timeline_detail", timeline, "InfoText");
         }
         yield return JournalRoundTrip("timeline", timeline);
+        if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_UI_FOLLOWUP") == "1")
+            yield return TimelineFollowupProbe.Capture(outputDirectory, new Action<bool>(SetSettingsTranslatedMode));
         var deactivate = timeline.GetType().GetMethod("DeactivateEventInfoPopup", InstanceFields);
         if (deactivate != null) deactivate.Invoke(timeline, null);
     }

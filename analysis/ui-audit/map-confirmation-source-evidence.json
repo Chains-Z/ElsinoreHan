@@ -1,0 +1,2294 @@
+{
+  "schema": 1,
+  "assembly_path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Assembly-CSharp.dll",
+  "assembly_sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af",
+  "methods": [
+    {
+      "owner": "System.Void Elsinore.Ui.AllTheGui/UiTransitions::ActivateMap()",
+      "instructions": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldarg.0",
+        "IL_0002: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.AllTheGui/UiTransitions::gui",
+        "IL_0007: ldfld Elsinore.Ui.MapUI Elsinore.Ui.AllTheGui::mapCanvas",
+        "IL_000c: call System.Void Elsinore.Ui.AllTheGui/UiTransitions::ActivateCanvas<Elsinore.Ui.MapUI>(T)",
+        "IL_0011: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapUI::Awake()",
+      "instructions": [
+        "IL_0000: newobj System.Void Elsinore.Ui.MapUI/<>c__DisplayClass32_0::.ctor()",
+        "IL_0005: stloc.0",
+        "IL_0006: ldloc.0",
+        "IL_0007: ldarg.0",
+        "IL_0008: stfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_000d: ldloc.0",
+        "IL_000e: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0013: stfld ObjectTracker Elsinore.Ui.MapUI/<>c__DisplayClass32_0::tracker",
+        "IL_0018: ldarg.0",
+        "IL_0019: ldarg.0",
+        "IL_001a: call !!0 UnityEngine.Component::GetComponent<Elsinore.Ui.MapBase>()",
+        "IL_001f: stfld Elsinore.Ui.MapBase Elsinore.Ui.MapUI::mapBase",
+        "IL_0024: ldarg.0",
+        "IL_0025: ldloc.0",
+        "IL_0026: ldfld ObjectTracker Elsinore.Ui.MapUI/<>c__DisplayClass32_0::tracker",
+        "IL_002b: callvirt Elsinore.Ui.AllTheGui ObjectTracker::get_Gui()",
+        "IL_0030: stfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_0035: ldarg.0",
+        "IL_0036: ldarg.0",
+        "IL_0037: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_003c: ldarg.0",
+        "IL_003d: newobj System.Void Elsinore.Ui.AllTheGui/UiTransitions::.ctor(Elsinore.Ui.AllTheGui,Elsinore.Ui.IModalControl)",
+        "IL_0042: stfld Elsinore.Ui.AllTheGui/UiTransitions Elsinore.Ui.MapUI::transitioner",
+        "IL_0047: ldarg.0",
+        "IL_0048: ldarg.0",
+        "IL_0049: call !!0 UnityEngine.Component::GetComponent<UnityEngine.Canvas>()",
+        "IL_004e: stfld UnityEngine.Canvas Elsinore.Ui.MapUI::canvas",
+        "IL_0053: ldarg.0",
+        "IL_0054: newobj System.Void System.Text.StringBuilder::.ctor()",
+        "IL_0059: stfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+        "IL_005e: ldarg.0",
+        "IL_005f: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.MapUI::FloorDownButton",
+        "IL_0064: callvirt UnityEngine.UI.Button/ButtonClickedEvent Elsinore.Ui.ElsinoreButton::get_OnClick()",
+        "IL_0069: ldloc.0",
+        "IL_006a: ldftn System.Void Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<Awake>b__0()",
+        "IL_0070: newobj System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)",
+        "IL_0075: callvirt System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)",
+        "IL_007a: ldarg.0",
+        "IL_007b: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.MapUI::FloorUpButton",
+        "IL_0080: callvirt UnityEngine.UI.Button/ButtonClickedEvent Elsinore.Ui.ElsinoreButton::get_OnClick()",
+        "IL_0085: ldloc.0",
+        "IL_0086: ldftn System.Void Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<Awake>b__1()",
+        "IL_008c: newobj System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)",
+        "IL_0091: callvirt System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)",
+        "IL_0096: ldloc.0",
+        "IL_0097: ldftn System.Void Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<Awake>b__2(Elsinore.Game.RoomId)",
+        "IL_009d: newobj System.Void System.Action`1<Elsinore.Game.RoomId>::.ctor(System.Object,System.IntPtr)",
+        "IL_00a2: stloc.1",
+        "IL_00a3: ldarg.0",
+        "IL_00a4: ldarg.0",
+        "IL_00a5: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_00aa: ldarg.0",
+        "IL_00ab: call UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_00b0: ldarg.0",
+        "IL_00b1: ldftn System.Void Elsinore.Ui.MapUI::onCancelMove()",
+        "IL_00b7: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+        "IL_00bc: ldc.i4.1",
+        "IL_00bd: callvirt UnityEngine.GameObject Elsinore.Ui.AllTheGui::AddClickCatcher(UnityEngine.GameObject,System.Action,System.Boolean)",
+        "IL_00c2: stfld UnityEngine.GameObject Elsinore.Ui.MapUI::confirmMoveDialogClickCatcher",
+        "IL_00c7: ldarg.0",
+        "IL_00c8: ldfld UnityEngine.GameObject Elsinore.Ui.MapUI::confirmMoveDialogClickCatcher",
+        "IL_00cd: ldstr \"ConfirmMoveDialogClickCatcher\"",
+        "IL_00d2: callvirt System.Void UnityEngine.Object::set_name(System.String)",
+        "IL_00d7: ldarg.0",
+        "IL_00d8: ldarg.0",
+        "IL_00d9: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_00de: ldfld Elsinore.Ui.UiSettings Elsinore.Ui.AllTheGui::Settings",
+        "IL_00e3: callvirt Elsinore.Ui.GenericDialogBoxUI Elsinore.Ui.UiSettings::get_GenericDialogBoxPrefab()",
+        "IL_00e8: callvirt Elsinore.Ui.DialogBox Elsinore.Ui.GenericDialogBoxUI::get_DialogBoxPrefab()",
+        "IL_00ed: ldarg.0",
+        "IL_00ee: call UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_00f3: call T Elsinore.Ui.GuiUtils::AddPrefab<Elsinore.Ui.DialogBox>(T,UnityEngine.GameObject)",
+        "IL_00f8: stfld Elsinore.Ui.DialogBox Elsinore.Ui.MapUI::confirmMoveDialog",
+        "IL_00fd: ldarg.0",
+        "IL_00fe: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.MapUI::confirmMoveDialog",
+        "IL_0103: ldstr \"ConfirmMoveDialog\"",
+        "IL_0108: callvirt System.Void UnityEngine.Object::set_name(System.String)",
+        "IL_010d: ldarg.0",
+        "IL_010e: ldarg.0",
+        "IL_010f: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.MapUI::confirmMoveDialog",
+        "IL_0114: ldstr \"Go to % ROOMNAME %?\"",
+        "IL_0119: callvirt TMPro.TextMeshProUGUI Elsinore.Ui.DialogBox::AddText(System.String)",
+        "IL_011e: stfld TMPro.TextMeshProUGUI Elsinore.Ui.MapUI::confirmMoveText",
+        "IL_0123: ldarg.0",
+        "IL_0124: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.MapUI::confirmMoveDialog",
+        "IL_0129: ldstr \"Yes\"",
+        "IL_012e: ldarg.0",
+        "IL_012f: ldftn System.Void Elsinore.Ui.MapUI::onConfirmMove()",
+        "IL_0135: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+        "IL_013a: ldstr \"No\"",
+        "IL_013f: ldarg.0",
+        "IL_0140: ldftn System.Void Elsinore.Ui.MapUI::onCancelMove()",
+        "IL_0146: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+        "IL_014b: callvirt System.Void Elsinore.Ui.DialogBox::AddTwoHorizontalButtons(System.String,System.Action,System.String,System.Action)",
+        "IL_0150: ldarg.0",
+        "IL_0151: ldarg.0",
+        "IL_0152: ldfld Elsinore.Ui.AllTheGui/UiTransitions Elsinore.Ui.MapUI::transitioner",
+        "IL_0157: call System.Void Elsinore.Ui.ModalControl::InitializeTopLevelControlCancelBehavior<Elsinore.Ui.MapUI>(T,Elsinore.Ui.AllTheGui/UiTransitions)",
+        "IL_015c: ldarg.0",
+        "IL_015d: ldc.i4.0",
+        "IL_015e: call System.Void Elsinore.Ui.MapUI::setConfirmMoveDialogActive(System.Boolean)",
+        "IL_0163: ldarg.0",
+        "IL_0164: ldfld Elsinore.Ui.MapBase Elsinore.Ui.MapUI::mapBase",
+        "IL_0169: ldloc.1",
+        "IL_016a: callvirt System.Void Elsinore.Ui.MapBase::Initialize(System.Action`1<Elsinore.Game.RoomId>)",
+        "IL_016f: ldarg.0",
+        "IL_0170: ldc.i4.0",
+        "IL_0171: stfld System.Boolean Elsinore.Ui.MapUI::isInitialized",
+        "IL_0176: ldarg.0",
+        "IL_0177: newobj System.Void System.Collections.Generic.List`1<UnityEngine.UI.Image>::.ctor()",
+        "IL_017c: stfld System.Collections.Generic.List`1<UnityEngine.UI.Image> Elsinore.Ui.MapUI::curRoomCharImages",
+        "IL_0181: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapUI::TravelToRoom(Elsinore.Game.RoomId)",
+      "instructions": [
+        "IL_0000: call Elsinore.Logging/ElsinoreLogger Elsinore.Logging::get_Logger()",
+        "IL_0005: ldarg.0",
+        "IL_0006: callvirt System.Void Elsinore.Logging/ElsinoreLogger::MapWarped(Elsinore.Game.RoomId)",
+        "IL_000b: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0010: stloc.0",
+        "IL_0011: ldloc.0",
+        "IL_0012: ldarg.0",
+        "IL_0013: callvirt RoomMarker ObjectTracker::RoomMarker(Elsinore.Game.RoomId)",
+        "IL_0018: stloc.1",
+        "IL_0019: ldloc.0",
+        "IL_001a: callvirt PlayerMove ObjectTracker::get_PlayerMove()",
+        "IL_001f: ldloc.1",
+        "IL_0020: ldc.i4.0",
+        "IL_0021: ldc.i4.0",
+        "IL_0022: ldc.i4.1",
+        "IL_0023: ldloca.s V_3",
+        "IL_0025: initobj System.Nullable`1<MoveUtils/RunState>",
+        "IL_002b: ldloc.3",
+        "IL_002c: callvirt System.Nullable`1<Agakme.Handle`1<MoveUtils/HGoal>> PlayerMove::SetTarget(ILocationMarker,System.Boolean,System.Boolean,System.Boolean,System.Nullable`1<MoveUtils/RunState>)",
+        "IL_0031: stloc.2",
+        "IL_0032: ldloca.s V_2",
+        "IL_0034: call System.Boolean System.Nullable`1<Agakme.Handle`1<MoveUtils/HGoal>>::get_HasValue()",
+        "IL_0039: brfalse.s IL_004f",
+        "IL_003b: ldloc.0",
+        "IL_003c: callvirt CharacterMovement ObjectTracker::get_Player()",
+        "IL_0041: ldloca.s V_2",
+        "IL_0043: call !0 System.Nullable`1<Agakme.Handle`1<MoveUtils/HGoal>>::get_Value()",
+        "IL_0048: callvirt System.Boolean CharacterMovement::IsGoalInProgress(Agakme.Handle`1<MoveUtils/HGoal>)",
+        "IL_004d: brtrue.s IL_00b7",
+        "IL_004f: ldloc.1",
+        "IL_0050: callvirt System.Collections.Generic.IEnumerable`1<StageMarker> RoomMarker::get_StageMarkers()",
+        "IL_0055: callvirt System.Collections.Generic.IEnumerator`1<!0> System.Collections.Generic.IEnumerable`1<StageMarker>::GetEnumerator()",
+        "IL_005a: stloc.s V_4",
+        "IL_005c: br.s IL_00a0",
+        "IL_005e: ldloc.s V_4",
+        "IL_0060: callvirt !0 System.Collections.Generic.IEnumerator`1<StageMarker>::get_Current()",
+        "IL_0065: stloc.s V_5",
+        "IL_0067: ldloc.0",
+        "IL_0068: callvirt PlayerMove ObjectTracker::get_PlayerMove()",
+        "IL_006d: ldloc.s V_5",
+        "IL_006f: ldc.i4.0",
+        "IL_0070: ldc.i4.0",
+        "IL_0071: ldc.i4.1",
+        "IL_0072: ldloca.s V_3",
+        "IL_0074: initobj System.Nullable`1<MoveUtils/RunState>",
+        "IL_007a: ldloc.3",
+        "IL_007b: callvirt System.Nullable`1<Agakme.Handle`1<MoveUtils/HGoal>> PlayerMove::SetTarget(ILocationMarker,System.Boolean,System.Boolean,System.Boolean,System.Nullable`1<MoveUtils/RunState>)",
+        "IL_0080: stloc.2",
+        "IL_0081: ldloca.s V_2",
+        "IL_0083: call System.Boolean System.Nullable`1<Agakme.Handle`1<MoveUtils/HGoal>>::get_HasValue()",
+        "IL_0088: brfalse.s IL_00a0",
+        "IL_008a: ldloc.0",
+        "IL_008b: callvirt CharacterMovement ObjectTracker::get_Player()",
+        "IL_0090: ldloca.s V_2",
+        "IL_0092: call !0 System.Nullable`1<Agakme.Handle`1<MoveUtils/HGoal>>::get_Value()",
+        "IL_0097: callvirt System.Boolean CharacterMovement::IsGoalInProgress(Agakme.Handle`1<MoveUtils/HGoal>)",
+        "IL_009c: brfalse.s IL_00a0",
+        "IL_009e: leave.s IL_00b7",
+        "IL_00a0: ldloc.s V_4",
+        "IL_00a2: callvirt System.Boolean System.Collections.IEnumerator::MoveNext()",
+        "IL_00a7: brtrue.s IL_005e",
+        "IL_00a9: leave.s IL_00b7",
+        "IL_00ab: ldloc.s V_4",
+        "IL_00ad: brfalse.s IL_00b6",
+        "IL_00af: ldloc.s V_4",
+        "IL_00b1: callvirt System.Void System.IDisposable::Dispose()",
+        "IL_00b6: endfinally",
+        "IL_00b7: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapUI::onConfirmMove()",
+      "instructions": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: stloc.0",
+        "IL_0006: ldarg.0",
+        "IL_0007: ldc.i4.0",
+        "IL_0008: call System.Void Elsinore.Ui.MapUI::setConfirmMoveDialogActive(System.Boolean)",
+        "IL_000d: ldarg.0",
+        "IL_000e: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_0013: ldarg.0",
+        "IL_0014: callvirt System.Void Elsinore.Ui.AllTheGui::SelectDefaultUIButton(Elsinore.Ui.IModalControl)",
+        "IL_0019: ldarg.0",
+        "IL_001a: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_001f: ldc.i4.6",
+        "IL_0020: ldc.i4.1",
+        "IL_0021: ldc.i4.1",
+        "IL_0022: callvirt System.Boolean Elsinore.Ui.AllTheGui::ClearTutorialButton(Elsinore.Ui.TutorialPromptUI/TutorialButtonType,System.Boolean,System.Boolean)",
+        "IL_0027: pop",
+        "IL_0028: ldarg.0",
+        "IL_0029: ldflda System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Ui.MapUI::lastRoomDestination",
+        "IL_002e: call System.Boolean System.Nullable`1<Elsinore.Game.RoomId>::get_HasValue()",
+        "IL_0033: brfalse.s IL_005d",
+        "IL_0035: ldarg.0",
+        "IL_0036: ldflda Elsinore.Ui.AllTheGui/UiTransitions Elsinore.Ui.MapUI::transitioner",
+        "IL_003b: call System.Void Elsinore.Ui.AllTheGui/UiTransitions::CloseSelfOrChild()",
+        "IL_0040: ldarg.0",
+        "IL_0041: ldflda System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Ui.MapUI::lastRoomDestination",
+        "IL_0046: call !0 System.Nullable`1<Elsinore.Game.RoomId>::get_Value()",
+        "IL_004b: call System.Void Elsinore.Ui.MapUI::TravelToRoom(Elsinore.Game.RoomId)",
+        "IL_0050: ldarg.0",
+        "IL_0051: ldflda System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Ui.MapUI::lastRoomDestination",
+        "IL_0056: initobj System.Nullable`1<Elsinore.Game.RoomId>",
+        "IL_005c: ret",
+        "IL_005d: ldarg.0",
+        "IL_005e: ldflda System.Nullable`1<Elsinore.Game.CharacterId> Elsinore.Ui.MapUI::lastCharacterDestination",
+        "IL_0063: call System.Boolean System.Nullable`1<Elsinore.Game.CharacterId>::get_HasValue()",
+        "IL_0068: brfalse.s IL_00ad",
+        "IL_006a: ldarg.0",
+        "IL_006b: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_0070: ldc.i4.1",
+        "IL_0071: callvirt System.Void Elsinore.Ui.AllTheGui::ActivateExploration(System.Boolean)",
+        "IL_0076: ldloc.0",
+        "IL_0077: callvirt PlayerMove ObjectTracker::get_PlayerMove()",
+        "IL_007c: ldloc.0",
+        "IL_007d: ldarg.0",
+        "IL_007e: ldflda System.Nullable`1<Elsinore.Game.CharacterId> Elsinore.Ui.MapUI::lastCharacterDestination",
+        "IL_0083: call !0 System.Nullable`1<Elsinore.Game.CharacterId>::get_Value()",
+        "IL_0088: callvirt CharacterMovement ObjectTracker::CharacterMovement(Elsinore.Game.CharacterId)",
+        "IL_008d: ldloca.s V_1",
+        "IL_008f: initobj System.Nullable`1<MoveUtils/RunState>",
+        "IL_0095: ldloc.1",
+        "IL_0096: ldc.r4 2",
+        "IL_009b: ldc.i4.0",
+        "IL_009c: callvirt System.Void PlayerMove::FollowCharacter(CharacterMovement,System.Nullable`1<MoveUtils/RunState>,System.Single,System.Boolean)",
+        "IL_00a1: ldarg.0",
+        "IL_00a2: ldflda System.Nullable`1<Elsinore.Game.CharacterId> Elsinore.Ui.MapUI::lastCharacterDestination",
+        "IL_00a7: initobj System.Nullable`1<Elsinore.Game.CharacterId>",
+        "IL_00ad: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapUI::onCancelMove()",
+      "instructions": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldc.i4.0",
+        "IL_0002: call System.Void Elsinore.Ui.MapUI::setConfirmMoveDialogActive(System.Boolean)",
+        "IL_0007: ldarg.0",
+        "IL_0008: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.MapUI::allTheGui",
+        "IL_000d: ldarg.0",
+        "IL_000e: callvirt System.Void Elsinore.Ui.AllTheGui::SelectDefaultUIButton(Elsinore.Ui.IModalControl)",
+        "IL_0013: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapUI::setConfirmMoveDialogActive(System.Boolean)",
+      "instructions": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldfld UnityEngine.GameObject Elsinore.Ui.MapUI::confirmMoveDialogClickCatcher",
+        "IL_0006: ldarg.1",
+        "IL_0007: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_000c: ldarg.0",
+        "IL_000d: ldfld Elsinore.Ui.DialogBox Elsinore.Ui.MapUI::confirmMoveDialog",
+        "IL_0012: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_0017: ldarg.1",
+        "IL_0018: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_001d: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapUI::<IInitializable.Initialize>b__33_0(Elsinore.Game.CharacterId)",
+      "instructions": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldflda System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Ui.MapUI::lastRoomDestination",
+        "IL_0006: initobj System.Nullable`1<Elsinore.Game.RoomId>",
+        "IL_000c: ldarg.0",
+        "IL_000d: ldarg.1",
+        "IL_000e: newobj System.Void System.Nullable`1<Elsinore.Game.CharacterId>::.ctor(!0)",
+        "IL_0013: stfld System.Nullable`1<Elsinore.Game.CharacterId> Elsinore.Ui.MapUI::lastCharacterDestination",
+        "IL_0018: ldarg.0",
+        "IL_0019: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+        "IL_001e: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_0023: pop",
+        "IL_0024: ldarg.0",
+        "IL_0025: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+        "IL_002a: ldstr \"Go to {0}?\"",
+        "IL_002f: ldarg.1",
+        "IL_0030: call System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+        "IL_0035: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+        "IL_003a: pop",
+        "IL_003b: ldarg.0",
+        "IL_003c: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.MapUI::confirmMoveText",
+        "IL_0041: ldarg.0",
+        "IL_0042: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+        "IL_0047: callvirt System.Void TMPro.TMP_Text::SetText(System.Text.StringBuilder)",
+        "IL_004c: ldarg.0",
+        "IL_004d: ldc.i4.1",
+        "IL_004e: call System.Void Elsinore.Ui.MapUI::setConfirmMoveDialogActive(System.Boolean)",
+        "IL_0053: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<Awake>b__2(Elsinore.Game.RoomId)",
+      "instructions": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_0006: ldflda System.Nullable`1<Elsinore.Game.CharacterId> Elsinore.Ui.MapUI::lastCharacterDestination",
+        "IL_000b: initobj System.Nullable`1<Elsinore.Game.CharacterId>",
+        "IL_0011: ldarg.0",
+        "IL_0012: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_0017: ldarg.1",
+        "IL_0018: newobj System.Void System.Nullable`1<Elsinore.Game.RoomId>::.ctor(!0)",
+        "IL_001d: stfld System.Nullable`1<Elsinore.Game.RoomId> Elsinore.Ui.MapUI::lastRoomDestination",
+        "IL_0022: ldarg.0",
+        "IL_0023: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_0028: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+        "IL_002d: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_0032: pop",
+        "IL_0033: ldarg.0",
+        "IL_0034: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_0039: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+        "IL_003e: ldstr \"Go to {0}?\"",
+        "IL_0043: ldarg.0",
+        "IL_0044: ldfld ObjectTracker Elsinore.Ui.MapUI/<>c__DisplayClass32_0::tracker",
+        "IL_0049: ldarg.1",
+        "IL_004a: callvirt RoomMarker ObjectTracker::RoomMarker(Elsinore.Game.RoomId)",
+        "IL_004f: ldfld System.String RoomMarker::playerFacingName",
+        "IL_0054: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+        "IL_0059: pop",
+        "IL_005a: ldarg.0",
+        "IL_005b: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_0060: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.MapUI::confirmMoveText",
+        "IL_0065: ldarg.0",
+        "IL_0066: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_006b: ldfld System.Text.StringBuilder Elsinore.Ui.MapUI::builder",
+        "IL_0070: callvirt System.Void TMPro.TMP_Text::SetText(System.Text.StringBuilder)",
+        "IL_0075: ldarg.0",
+        "IL_0076: ldfld Elsinore.Ui.MapUI Elsinore.Ui.MapUI/<>c__DisplayClass32_0::<>4__this",
+        "IL_007b: ldc.i4.1",
+        "IL_007c: call System.Void Elsinore.Ui.MapUI::setConfirmMoveDialogActive(System.Boolean)",
+        "IL_0081: ret"
+      ]
+    },
+    {
+      "owner": "System.Void Elsinore.Ui.MapBase::Initialize(System.Action`1<Elsinore.Game.RoomId>)",
+      "instructions": [
+        "IL_0000: newobj System.Void Elsinore.Ui.MapBase/<>c__DisplayClass28_0::.ctor()",
+        "IL_0005: stloc.0",
+        "IL_0006: ldloc.0",
+        "IL_0007: ldarg.1",
+        "IL_0008: stfld System.Action`1<Elsinore.Game.RoomId> Elsinore.Ui.MapBase/<>c__DisplayClass28_0::onRoomClicked",
+        "IL_000d: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0012: stloc.1",
+        "IL_0013: ldarg.0",
+        "IL_0014: call System.Boolean Elsinore.Ui.MapBase::get_DoShowTown()",
+        "IL_0019: stloc.2",
+        "IL_001a: ldarg.0",
+        "IL_001b: ldarg.0",
+        "IL_001c: ldfld UnityEngine.Transform Elsinore.Ui.MapBase::map",
+        "IL_0021: call UnityEngine.Transform[] Elsinore.Miscellany::Children(UnityEngine.Transform)",
+        "IL_0026: stfld UnityEngine.Transform[] Elsinore.Ui.MapBase::roomContainers",
+        "IL_002b: ldarg.0",
+        "IL_002c: ldarg.0",
+        "IL_002d: ldfld UnityEngine.Transform[] Elsinore.Ui.MapBase::roomContainers",
+        "IL_0032: ldlen",
+        "IL_0033: conv.i4",
+        "IL_0034: newarr System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>[]",
+        "IL_0039: stfld System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>[][] Elsinore.Ui.MapBase::rooms",
+        "IL_003e: ldarg.0",
+        "IL_003f: newobj System.Void System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,UnityEngine.UI.Image>::.ctor()",
+        "IL_0044: stfld System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,UnityEngine.UI.Image> Elsinore.Ui.MapBase::roomImagesById",
+        "IL_0049: ldarg.0",
+        "IL_004a: newobj System.Void System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,Elsinore.Ui.MapRoomLocation>::.ctor()",
+        "IL_004f: stfld System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,Elsinore.Ui.MapRoomLocation> Elsinore.Ui.MapBase::roomIconLocations",
+        "IL_0054: ldarg.0",
+        "IL_0055: newobj System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.Image,Elsinore.Game.RoomId>::.ctor()",
+        "IL_005a: stfld System.Collections.Generic.Dictionary`2<UnityEngine.UI.Image,Elsinore.Game.RoomId> Elsinore.Ui.MapBase::roomImageIds",
+        "IL_005f: ldarg.0",
+        "IL_0060: newobj System.Void System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,System.Collections.Generic.List`1<UnityEngine.UI.Image>>::.ctor()",
+        "IL_0065: stfld System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,System.Collections.Generic.List`1<UnityEngine.UI.Image>> Elsinore.Ui.MapBase::roomCharacterIconsById",
+        "IL_006a: ldc.i4.0",
+        "IL_006b: stloc.3",
+        "IL_006c: br IL_01d3",
+        "IL_0071: ldarg.0",
+        "IL_0072: ldfld UnityEngine.Transform[] Elsinore.Ui.MapBase::roomContainers",
+        "IL_0077: ldloc.3",
+        "IL_0078: ldelem.ref",
+        "IL_0079: call UnityEngine.Transform[] Elsinore.Miscellany::Children(UnityEngine.Transform)",
+        "IL_007e: stloc.s V_4",
+        "IL_0080: ldloc.s V_4",
+        "IL_0082: stloc.s V_5",
+        "IL_0084: ldc.i4.0",
+        "IL_0085: stloc.s V_6",
+        "IL_0087: br IL_0191",
+        "IL_008c: ldloc.s V_5",
+        "IL_008e: ldloc.s V_6",
+        "IL_0090: ldelem.ref",
+        "IL_0091: stloc.s V_7",
+        "IL_0093: newobj System.Void Elsinore.Ui.MapBase/<>c__DisplayClass28_1::.ctor()",
+        "IL_0098: stloc.s V_8",
+        "IL_009a: ldloc.s V_8",
+        "IL_009c: ldloc.0",
+        "IL_009d: stfld Elsinore.Ui.MapBase/<>c__DisplayClass28_0 Elsinore.Ui.MapBase/<>c__DisplayClass28_1::CS$<>8__locals1",
+        "IL_00a2: ldloc.s V_8",
+        "IL_00a4: ldloc.s V_7",
+        "IL_00a6: callvirt System.String UnityEngine.Object::get_name()",
+        "IL_00ab: newobj System.Void Elsinore.Game.RoomId::.ctor(System.String)",
+        "IL_00b0: stfld Elsinore.Game.RoomId Elsinore.Ui.MapBase/<>c__DisplayClass28_1::rid",
+        "IL_00b5: ldloc.s V_7",
+        "IL_00b7: callvirt !!0 UnityEngine.Component::GetComponent<UnityEngine.UI.Image>()",
+        "IL_00bc: stloc.s V_9",
+        "IL_00be: ldloc.s V_7",
+        "IL_00c0: callvirt !!0 UnityEngine.Component::GetComponentInChildren<Elsinore.Ui.MapRoomLocation>()",
+        "IL_00c5: stloc.s V_10",
+        "IL_00c7: ldarg.0",
+        "IL_00c8: ldfld System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,Elsinore.Ui.MapRoomLocation> Elsinore.Ui.MapBase::roomIconLocations",
+        "IL_00cd: ldloc.s V_8",
+        "IL_00cf: ldfld Elsinore.Game.RoomId Elsinore.Ui.MapBase/<>c__DisplayClass28_1::rid",
+        "IL_00d4: ldloc.s V_10",
+        "IL_00d6: callvirt System.Void System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,Elsinore.Ui.MapRoomLocation>::Add(!0,!1)",
+        "IL_00db: ldarg.0",
+        "IL_00dc: ldfld System.Collections.Generic.Dictionary`2<UnityEngine.UI.Image,Elsinore.Game.RoomId> Elsinore.Ui.MapBase::roomImageIds",
+        "IL_00e1: ldloc.s V_9",
+        "IL_00e3: ldloc.s V_8",
+        "IL_00e5: ldfld Elsinore.Game.RoomId Elsinore.Ui.MapBase/<>c__DisplayClass28_1::rid",
+        "IL_00ea: callvirt System.Void System.Collections.Generic.Dictionary`2<UnityEngine.UI.Image,Elsinore.Game.RoomId>::Add(!0,!1)",
+        "IL_00ef: ldloc.s V_7",
+        "IL_00f1: callvirt !!0 UnityEngine.Component::GetComponent<Elsinore.Ui.ElsinoreButton>()",
+        "IL_00f6: stloc.s V_11",
+        "IL_00f8: ldloc.s V_11",
+        "IL_00fa: ldloc.1",
+        "IL_00fb: ldloc.s V_8",
+        "IL_00fd: ldfld Elsinore.Game.RoomId Elsinore.Ui.MapBase/<>c__DisplayClass28_1::rid",
+        "IL_0102: callvirt RoomMarker ObjectTracker::RoomMarker(Elsinore.Game.RoomId)",
+        "IL_0107: ldfld System.String RoomMarker::playerFacingName",
+        "IL_010c: stfld System.String Elsinore.Ui.ElsinoreButton::tooltip",
+        "IL_0111: ldloc.s V_8",
+        "IL_0113: ldfld Elsinore.Ui.MapBase/<>c__DisplayClass28_0 Elsinore.Ui.MapBase/<>c__DisplayClass28_1::CS$<>8__locals1",
+        "IL_0118: ldfld System.Action`1<Elsinore.Game.RoomId> Elsinore.Ui.MapBase/<>c__DisplayClass28_0::onRoomClicked",
+        "IL_011d: brfalse.s IL_013a",
+        "IL_011f: ldloc.s V_11",
+        "IL_0121: callvirt UnityEngine.UI.Button/ButtonClickedEvent Elsinore.Ui.ElsinoreButton::get_OnClick()",
+        "IL_0126: ldloc.s V_8",
+        "IL_0128: ldftn System.Void Elsinore.Ui.MapBase/<>c__DisplayClass28_1::<Initialize>b__1()",
+        "IL_012e: newobj System.Void UnityEngine.Events.UnityAction::.ctor(System.Object,System.IntPtr)",
+        "IL_0133: callvirt System.Void UnityEngine.Events.UnityEvent::AddListener(UnityEngine.Events.UnityAction)",
+        "IL_0138: br.s IL_0141",
+        "IL_013a: ldloc.s V_11",
+        "IL_013c: call System.Void UnityEngine.Object::Destroy(UnityEngine.Object)",
+        "IL_0141: ldarg.0",
+        "IL_0142: ldfld System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,UnityEngine.UI.Image> Elsinore.Ui.MapBase::roomImagesById",
+        "IL_0147: ldloc.s V_8",
+        "IL_0149: ldfld Elsinore.Game.RoomId Elsinore.Ui.MapBase/<>c__DisplayClass28_1::rid",
+        "IL_014e: ldloc.s V_9",
+        "IL_0150: callvirt System.Void System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,UnityEngine.UI.Image>::Add(!0,!1)",
+        "IL_0155: ldarg.0",
+        "IL_0156: ldfld System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,System.Collections.Generic.List`1<UnityEngine.UI.Image>> Elsinore.Ui.MapBase::roomCharacterIconsById",
+        "IL_015b: ldloc.s V_8",
+        "IL_015d: ldfld Elsinore.Game.RoomId Elsinore.Ui.MapBase/<>c__DisplayClass28_1::rid",
+        "IL_0162: newobj System.Void System.Collections.Generic.List`1<UnityEngine.UI.Image>::.ctor()",
+        "IL_0167: callvirt System.Void System.Collections.Generic.Dictionary`2<Elsinore.Game.RoomId,System.Collections.Generic.List`1<UnityEngine.UI.Image>>::Add(!0,!1)",
+        "IL_016c: ldloc.s V_10",
+        "IL_016e: ldfld System.Boolean Elsinore.Ui.MapRoomLocation::IsPartOfTown",
+        "IL_0173: brfalse.s IL_018b",
+        "IL_0175: ldloc.s V_7",
+        "IL_0177: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_017c: ldloc.2",
+        "IL_017d: ldloc.s V_10",
+        "IL_017f: ldfld System.Boolean Elsinore.Ui.MapRoomLocation::IsPartOfTown",
+        "IL_0184: ceq",
+        "IL_0186: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_018b: ldloc.s V_6",
+        "IL_018d: ldc.i4.1",
+        "IL_018e: add",
+        "IL_018f: stloc.s V_6",
+        "IL_0191: ldloc.s V_6",
+        "IL_0193: ldloc.s V_5",
+        "IL_0195: ldlen",
+        "IL_0196: conv.i4",
+        "IL_0197: blt IL_008c",
+        "IL_019c: ldarg.0",
+        "IL_019d: ldfld System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>[][] Elsinore.Ui.MapBase::rooms",
+        "IL_01a2: ldloc.3",
+        "IL_01a3: ldloc.s V_4",
+        "IL_01a5: ldsfld System.Func`2<UnityEngine.Transform,System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>> Elsinore.Ui.MapBase/<>c::<>9__28_0",
+        "IL_01aa: dup",
+        "IL_01ab: brtrue.s IL_01c4",
+        "IL_01ad: pop",
+        "IL_01ae: ldsfld Elsinore.Ui.MapBase/<>c Elsinore.Ui.MapBase/<>c::<>9",
+        "IL_01b3: ldftn System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation> Elsinore.Ui.MapBase/<>c::<Initialize>b__28_0(UnityEngine.Transform)",
+        "IL_01b9: newobj System.Void System.Func`2<UnityEngine.Transform,System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>>::.ctor(System.Object,System.IntPtr)",
+        "IL_01be: dup",
+        "IL_01bf: stsfld System.Func`2<UnityEngine.Transform,System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>> Elsinore.Ui.MapBase/<>c::<>9__28_0",
+        "IL_01c4: call System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<UnityEngine.Transform,System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)",
+        "IL_01c9: call !!0[] System.Linq.Enumerable::ToArray<System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>>(System.Collections.Generic.IEnumerable`1<!!0>)",
+        "IL_01ce: stelem.ref",
+        "IL_01cf: ldloc.3",
+        "IL_01d0: ldc.i4.1",
+        "IL_01d1: add",
+        "IL_01d2: stloc.3",
+        "IL_01d3: ldloc.3",
+        "IL_01d4: ldarg.0",
+        "IL_01d5: ldfld System.Tuple`3<Elsinore.Game.RoomId,UnityEngine.UI.Image,Elsinore.Ui.MapRoomLocation>[][] Elsinore.Ui.MapBase::rooms",
+        "IL_01da: ldlen",
+        "IL_01db: conv.i4",
+        "IL_01dc: blt IL_0071",
+        "IL_01e1: ret"
+      ]
+    },
+    {
+      "owner": "System.String Elsinore.Ui.UiStrings::FormatCharacterName(Elsinore.Game.CharacterId)",
+      "instructions": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_000a: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+        "IL_000f: callvirt Elsinore.Game.NameMap Elsinore.Game.ElsinoreData::get_NameMap()",
+        "IL_0014: callvirt Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String> Elsinore.Game.NameMap::get_Names()",
+        "IL_0019: ldarga.s cid",
+        "IL_001b: call System.String Elsinore.Game.CharacterId::get_Name()",
+        "IL_0020: callvirt !1 Microsoft.FSharp.Collections.FSharpMap`2<System.String,System.String>::get_Item(!0)",
+        "IL_0025: ret"
+      ]
+    }
+  ],
+  "scope": "截图地图确认框漏译的静态源及真实XUnity格式组件核查；不启动游戏或确认移动",
+  "template": {
+    "id": "ui-7877149b1753c32e",
+    "source": "Go to {0}?",
+    "target": "前往{0}？",
+    "batch": "settings-supplemental"
+  },
+  "template_literal_length_without_parameter": 7,
+  "root_cause": "Go to {0}?已有冻结译文，但通用format_rule因去掉参数后长度7小于10未导出；房间名独立已有译文",
+  "room_occurrences": 33,
+  "room_unique_display_names": 31,
+  "character_occurrences": 55,
+  "character_unique_display_names": 46,
+  "destinations": [
+    {
+      "kind": "room",
+      "source": "A Dungeon Cell",
+      "source_sha256": "8216af021e64221f44b47e0a65017b776437ca688f4626b7e5b3431770125e3a",
+      "target": "牢房",
+      "translation_id": "ui-8216af021e64221f",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14047,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2160672,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Castle Town's Streets",
+      "source_sha256": "3fcec4e55264a87a687fad19a4f5855b38e0f9396171cb931cdab9326d43e848",
+      "target": "城镇街道",
+      "translation_id": "ui-3fcec4e55264a87a",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14087,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2164616,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Claudius's Chambers",
+      "source_sha256": "84f68b881735da0e47fe47e5bec7542c2fb110430e98f217fa877fac6cc75d0d",
+      "target": "克劳狄斯的寝室",
+      "translation_id": "ui-84f68b881735da0e",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14500,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2201256,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Gertrude's Chambers",
+      "source_sha256": "a896f00fa5ebedf3e24b80e5201b0a1001e4deff517bd93e191778c5e1d90907",
+      "target": "乔特鲁德的寝室",
+      "translation_id": "p00130-a896f00fa5eb",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14330,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2186504,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Hamlet's Chambers",
+      "source_sha256": "7e75c2b1583a462c9662b0c1d7286301e0da73b171d7e6c47a26bb427fcec44e",
+      "target": "哈姆雷特的寝室",
+      "translation_id": "ui-7e75c2b1583a462c",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 15294,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2271760,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Laertes's Chambers",
+      "source_sha256": "6a9def102256900dac0a121d3c52497e1af6240b0983b26cc1a26e8e27c01df8",
+      "target": "雷欧提斯的寝室",
+      "translation_id": "ui-6a9def102256900d",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13791,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2137648,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Limbo",
+      "source_sha256": "5cc12a6d83fd3a32512e3f5423251bcfba21be5bc6e8773d74143f37436562b1",
+      "target": "虚空",
+      "translation_id": "ui-5cc12a6d83fd3a32",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14626,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2212304,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Lower Garden",
+      "source_sha256": "70f59043a945250ec904c2838a955fe513829eb48dc58fe42a8601f95fd5634e",
+      "target": "下层花园",
+      "translation_id": "ui-70f59043a945250e",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 15065,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2252480,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Lower Hallway",
+      "source_sha256": "96c9a0bbfe7d09a894707a6a7708c26471cfda46b0948608b9f3c70828b5b528",
+      "target": "下层走廊",
+      "translation_id": "ui-96c9a0bbfe7d09a8",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14669,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2215712,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Ophelia's Chambers",
+      "source_sha256": "b70d410a53fafe540c10597abb408228d9605559f156424716f69828eab019a2",
+      "target": "奥菲莉娅的寝室",
+      "translation_id": "ui-b70d410a53fafe54",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13935,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2150688,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Polonius's Chambers",
+      "source_sha256": "a43ee6f5cf998f867f8f343ad4c5d1659507df6ae2e668c96dae681aef8b29b8",
+      "target": "波洛涅斯的寝室",
+      "translation_id": "ui-a43ee6f5cf998f86",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13877,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2145448,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Shack",
+      "source_sha256": "f095d4fe0dab22c7f8e3ff8c9c86f5707dd72842f55f3fd3a88a8ea33a24e24f",
+      "target": "小屋",
+      "translation_id": "ui-f095d4fe0dab22c7",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 15306,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2273184,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Captain's Quarters",
+      "source_sha256": "9889a1e2ed905502b974d429b5bb4524898eb73dbb66ce08034c8ae1b9177fc1",
+      "target": "船长室",
+      "translation_id": "ui-9889a1e2ed905502",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14603,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2210232,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Chapel",
+      "source_sha256": "a02d81083e7d561f787c7d380b9492f000aff458639b991dc11c6e3c58cde755",
+      "target": "礼拜堂",
+      "translation_id": "ui-a02d81083e7d561f",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14025,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2158432,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Courtyard",
+      "source_sha256": "60b7b0ee0e7b0d347a94a417acbdf87a8584ed35356ac692aa56dbc268521d63",
+      "target": "庭院",
+      "translation_id": "ui-60b7b0ee0e7b0d34",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14366,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2190080,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        },
+        {
+          "file": "level1",
+          "path_id": 14831,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2229688,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        },
+        {
+          "file": "level1",
+          "path_id": 14917,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2238640,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Docks",
+      "source_sha256": "4b61a71c5fa90f6afa597b343723f5f6ce3875b7c33b9488908a0d8c0750b72b",
+      "target": "码头",
+      "translation_id": "ui-4b61a71c5fa90f6a",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 15164,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2261720,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Dungeon",
+      "source_sha256": "83e441e58dfb0a751c87b96f56fe793ec95456f498af581ac63a11a3ca94f9e5",
+      "target": "地牢",
+      "translation_id": "ui-83e441e58dfb0a75",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13760,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2134416,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Flinty & Steel",
+      "source_sha256": "7b38b09bb4bab0b79db93e002d8fac7d80af343fc70a021a86fc1a0d887ccd51",
+      "target": "燧石与钢酒馆",
+      "translation_id": "ui-7b38b09bb4bab0b7",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14327,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2186016,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Forest Path",
+      "source_sha256": "bead0d760f265894b2318ee9d7b3741a4f95002818fef97d4ea80c79a9245d8c",
+      "target": "林间小径",
+      "translation_id": "ui-bead0d760f265894",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13988,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2155440,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Graveyard",
+      "source_sha256": "270c8a9bc2ed0316b21ebb58ce27cb5e87d712c9bda28f1b1c5d0691c81e0a8a",
+      "target": "墓地",
+      "translation_id": "ui-270c8a9bc2ed0316",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14472,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2199096,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Great Hall",
+      "source_sha256": "b1d7462d7cc49f18116069e7349c5185c09f434a5c5e3c0e93f61b0ddc5c87f5",
+      "target": "大厅",
+      "translation_id": "ui-b1d7462d7cc49f18",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14342,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2187736,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Grounds",
+      "source_sha256": "309a84c826870635d6e4923784a91260875f025c273ba9324e9df418fff29fec",
+      "target": "城堡外庭",
+      "translation_id": "ui-309a84c826870635",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14106,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2165960,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Guard House",
+      "source_sha256": "a0e416f047b096f645bdff700a30f718a5d406c404b2a8445c723ea2f97ce4df",
+      "target": "卫兵室",
+      "translation_id": "ui-a0e416f047b096f6",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13765,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2134896,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Guards' Quarters",
+      "source_sha256": "70e739d8bdf09e8677b5ba44d1c9795f86637de10bf9577b36416ed97c309318",
+      "target": "卫兵宿舍",
+      "translation_id": "ui-70e739d8bdf09e86",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14654,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2213984,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Kitchen",
+      "source_sha256": "7709669878bba51d939071c65aee5ceb79cc2d3c1a66dc644e36d563a4529346",
+      "target": "厨房",
+      "translation_id": "ui-7709669878bba51d",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14225,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2177168,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Landing",
+      "source_sha256": "c552dd35004b7450330bbd171cf58f3281c261464507df544e776d2b94e50852",
+      "target": "平台",
+      "translation_id": "ui-c552dd35004b7450",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14958,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2242960,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Main Deck",
+      "source_sha256": "d6b661086b8f4f68403d52296804366f24d7205ddab979f387de1a45936efd8b",
+      "target": "主甲板",
+      "translation_id": "ui-d6b661086b8f4f68",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13824,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2140768,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Royal Gallery",
+      "source_sha256": "7293a937948252136d4b8c55daf28ae7b68933c9a4e2939623319a441105391c",
+      "target": "王室画廊",
+      "translation_id": "ui-7293a93794825213",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14978,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2244656,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Upper Deck",
+      "source_sha256": "665097a4d75db07db723d658b904c3ddc5d3ea570ebf82a4ad72d21baa8fb769",
+      "target": "上甲板",
+      "translation_id": "ui-665097a4d75db07d",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14846,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2231352,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "The Walls",
+      "source_sha256": "dbdccc63f587c82ba384284bcd668daa07a5cb7d20b04d5a746b8f9a90b6ed02",
+      "target": "城墙",
+      "translation_id": "ui-dbdccc63f587c82b",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14201,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2174760,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "room",
+      "source": "Upper Hallway",
+      "source_sha256": "7a039a391b9fbf71f0c3052bef5a811c3dc31810dfc1400ccafd63217d9f0652",
+      "target": "上层走廊",
+      "translation_id": "ui-7a039a391b9fbf71",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14852,
+          "class": "RoomMarker",
+          "component_name": "",
+          "script": {
+            "name": "RoomMarker",
+            "class": "RoomMarker",
+            "namespace": "",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 32,
+          "absolute_offset": 2231952,
+          "parser": "aligned_length_prefixed_utf8",
+          "field": "playerFacingName",
+          "ui_path": "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "???",
+      "source_sha256": "a03b221c6c6eae7122ca51695d456d5222e524889136394944b2f9763b483615",
+      "target": "???",
+      "translation_id": null,
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.mysterious_figure",
+          "field": "mysterious_figure",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Aldous",
+      "source_sha256": "d7f2688a98627aee2ea71096452a0c3bcbfe6c24ab3af2a130ac32579f7a2618",
+      "target": "奥尔德斯",
+      "translation_id": "p14441-d7f2688a9862",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.guard2",
+          "field": "guard2",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Baptista",
+      "source_sha256": "1ff3db23075fbc1d2180899cf9f14774c450ae5fb35cb73368e926513e52c64b",
+      "target": "巴普蒂斯塔",
+      "translation_id": "p14429-1ff3db23075f",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.baptista",
+          "field": "baptista",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Bernardo",
+      "source_sha256": "bed1f8891424cd749d22a3166b11f00418631f2c280580f6a81b3e08cf561e89",
+      "target": "贝尔纳多",
+      "translation_id": "p00042-bed1f8891424",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.bernardo",
+          "field": "bernardo",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Brigand",
+      "source_sha256": "06d09f7680f8e06026a7386c0183c386c99c8b409100d0191a36af9595fd5a74",
+      "target": "强盗",
+      "translation_id": "p14437-06d09f7680f8",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.brigand",
+          "field": "brigand",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.brigand2",
+          "field": "brigand2",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Captain",
+      "source_sha256": "2e786c488b83f8be6227bd1b9f3fcab07f0a54e31c228694c842752303351448",
+      "target": "船长",
+      "translation_id": "p14436-2e786c488b83",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.captain",
+          "field": "captain",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Captain Grace",
+      "source_sha256": "4ae0c1ad858293318b84a1f51a6a1b27a1be79e7543619ef7fea42756ddace97",
+      "target": "格蕾丝船长",
+      "translation_id": "p14435-4ae0c1ad8582",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.grace",
+          "field": "grace",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Corambis",
+      "source_sha256": "52bc246ac7a1daa19808409030b7727a86e92616ed97f24bffd4c3895e0f4899",
+      "target": "科兰比斯",
+      "translation_id": "p14449-52bc246ac7a1",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.corambis",
+          "field": "corambis",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Cygnus",
+      "source_sha256": "f43b39ea311b6bd9c81da7499d13c171e06dfa120c83ac2d04aaea8f98e52b7e",
+      "target": "西格纳斯",
+      "translation_id": "p14431-f43b39ea311b",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.guard",
+          "field": "guard",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Elise",
+      "source_sha256": "ba9b353684f9ae6badc6e11a2f534d3a0a6cd4d625174b2e6b216ba32498c524",
+      "target": "伊莉丝",
+      "translation_id": "p14434-ba9b353684f9",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.elise",
+          "field": "elise",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Finnegan",
+      "source_sha256": "3e912d9fef7eb99d29f9206ced43f68ed0985bd1e62aba27482e469da9fc6220",
+      "target": "芬尼根",
+      "translation_id": "p14443-3e912d9fef7e",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.pirate",
+          "field": "pirate",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Foreign Soldier",
+      "source_sha256": "538d73eedc06ae00db1615a1e7db9e16015866a0c1aa9b9b908a4643147b5756",
+      "target": "外国士兵",
+      "translation_id": "p14430-538d73eedc06",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.soldier",
+          "field": "soldier",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.hood_soldier",
+          "field": "hood_soldier",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.hood_soldier2",
+          "field": "hood_soldier2",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Gonzago",
+      "source_sha256": "b3984df216694e3e60578a2aa5544afcf9db0376dda4ed413c04ca7446907c84",
+      "target": "贡扎古",
+      "translation_id": "p14427-b3984df21669",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.gonzago",
+          "field": "gonzago",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Hamlet",
+      "source_sha256": "dcb17698cf832a3757ab5ad855906cac0b6db4e8ac5faff12a1562a6b6326cc5",
+      "target": "哈姆雷特",
+      "translation_id": "p00030-dcb17698cf83",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.hamlet",
+          "field": "hamlet",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Hooded Figure",
+      "source_sha256": "290753284f577a52ac2a6150df84d0b67332f36329d6f1a110d2d62f0e09cc4d",
+      "target": "戴兜帽的人",
+      "translation_id": "p14425-290753284f57",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.assassin",
+          "field": "assassin",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Horatio",
+      "source_sha256": "b69dfbd0cf1361215510b3c59d0a0f0b483b0719ebaa03560bbb409c3a9a2b07",
+      "target": "霍拉旭",
+      "translation_id": "p00044-b69dfbd0cf13",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.horatio",
+          "field": "horatio",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Irma",
+      "source_sha256": "61559f650f98a03be3d286b31bb028b01f582fec8a72bd4696078c242115176c",
+      "target": "伊尔玛",
+      "translation_id": "p00046-61559f650f98",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.irma",
+          "field": "irma",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Katherine",
+      "source_sha256": "5632e195ae87f23c49c2803e1c40d0401d5f8da65ad49c6e01bf8e803266ecc9",
+      "target": "凯瑟琳",
+      "translation_id": "p14447-5632e195ae87",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.katherine",
+          "field": "katherine",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "King Claudius",
+      "source_sha256": "a01e7de8b6ca089b10fd23e55678553e70e041f46e1f645793f80f3372282a43",
+      "target": "克劳狄斯国王",
+      "translation_id": "p14420-a01e7de8b6ca",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.claudius",
+          "field": "claudius",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Kistler",
+      "source_sha256": "4aaa816fc5332fbf7bd76196fb4d6b5ac5c501754d8a45021c7fc989180b0fc6",
+      "target": "基斯特勒",
+      "translation_id": "p14445-4aaa816fc533",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.kistler",
+          "field": "kistler",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Kubilius",
+      "source_sha256": "48eb287d8c3fcda31e4cb2486d3e44b977080b081d6dac46dd5331fcc497d891",
+      "target": "库比利乌斯",
+      "translation_id": "p14444-48eb287d8c3f",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.kubilius",
+          "field": "kubilius",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Lady Brit",
+      "source_sha256": "9c264bc049444970afff1166e7f82712b71e5df632244602fd44bb438ef01a89",
+      "target": "布莉特女士",
+      "translation_id": "p14421-9c264bc04944",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.brit",
+          "field": "brit",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Lady Guildenstern",
+      "source_sha256": "dd107eab2abbb300a5ca4f67043a7dcbc9294bb0a2183edadf4e615713c49e06",
+      "target": "吉尔登斯吞女士",
+      "translation_id": "p14424-dd107eab2abb",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.guildenstern",
+          "field": "guildenstern",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Lady Rosencrantz",
+      "source_sha256": "a4c2b6c0ed910faf91cd2c55d205ccc11c32fe7420dba64c140896261a7ca358",
+      "target": "罗森克兰兹女士",
+      "translation_id": "p14423-a4c2b6c0ed91",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.rosencrantz",
+          "field": "rosencrantz",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Laertes",
+      "source_sha256": "1e6aeb999d9e17f9c856e7bb2db77f339a7ca7b958636cc6f0efca68cc01d625",
+      "target": "雷欧提斯",
+      "translation_id": "p00038-1e6aeb999d9e",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.laertes",
+          "field": "laertes",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Lucianus",
+      "source_sha256": "974d11c3cd0868df3dc4e887928e4b9adb0003fd1aaf6cdf589ffe30a4a3b513",
+      "target": "卢西安纳斯",
+      "translation_id": "p14428-974d11c3cd08",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.lucianus",
+          "field": "lucianus",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Marcellus",
+      "source_sha256": "c70470565292f525b3cf1332dcc5a78bd02274e7ece610470a3eb5deff2390fc",
+      "target": "马塞勒斯",
+      "translation_id": "p00048-c70470565292",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.marcellus",
+          "field": "marcellus",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "McDonald",
+      "source_sha256": "597d0dd6aa15b00d9be09a8f5eb48649e84e12a3c9b671f50efa210e7ff0cbe5",
+      "target": "麦克唐纳",
+      "translation_id": "p14451-597d0dd6aa15",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.mcdonald",
+          "field": "mcdonald",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Murphy",
+      "source_sha256": "7eda9949566709d98d11abf940df33798943ac770388e45781dda9b781e9a47c",
+      "target": "墨菲",
+      "translation_id": "p14446-7eda99495667",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.murphy",
+          "field": "murphy",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Old Woman",
+      "source_sha256": "a8d6f71859183d40a6bbbd1e495daf2b46e68eb7734c9e3e622c0662ee1ae02c",
+      "target": "老妇人",
+      "translation_id": "p14433-a8d6f7185918",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.simona",
+          "field": "simona",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Ophelia",
+      "source_sha256": "ab061919148ee88c41dd0b1202b0625e6457c74c7a0f3666e0abcef2cc484af5",
+      "target": "奥菲莉娅",
+      "translation_id": "p00028-ab061919148e",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.ophelia",
+          "field": "ophelia",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Othello",
+      "source_sha256": "f5958436e3f7af571e253a33ee1908bbf60775395dc65a589a6cbec8c16c7dcd",
+      "target": "奥赛罗",
+      "translation_id": "p00581-f5958436e3f7",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.othello",
+          "field": "othello",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Petruchio",
+      "source_sha256": "aafd8090c534ea4320a02398fc0e4bf01239a4ef4781f8bb44c530af19726bae",
+      "target": "彼特鲁乔",
+      "translation_id": "p14448-aafd8090c534",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.petruchio",
+          "field": "petruchio",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Polonius",
+      "source_sha256": "09d7ee05fe70bb523da9e9c049a4aa459320471b62f150e732fc213f0c4b15b9",
+      "target": "波洛涅斯",
+      "translation_id": "p00036-09d7ee05fe70",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.polonius",
+          "field": "polonius",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Prince Fortinbras",
+      "source_sha256": "96766808ba0cc3778c04931cd2022935563e63b4069d2a4cf13b26aa46060826",
+      "target": "福丁布拉斯王子",
+      "translation_id": "p00579-96766808ba0c",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.fortinbras",
+          "field": "fortinbras",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.hood_fortinbras",
+          "field": "hood_fortinbras",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Queen Gertrude",
+      "source_sha256": "8c55cd1308f1314c48d6a3a6420caa4ec16df4e25c020888d4d3d7324ef65d1e",
+      "target": "乔特鲁德王后",
+      "translation_id": "p14419-8c55cd1308f1",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.gertrude",
+          "field": "gertrude",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Quince",
+      "source_sha256": "4a1239e4137ecd643f9db5b5b6d676fa4c0ab64e197b9c4b78e1ce85e899b8b2",
+      "target": "奎因斯",
+      "translation_id": "p14422-4a1239e4137e",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.quince",
+          "field": "quince",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.quince2",
+          "field": "quince2",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Reynaldo",
+      "source_sha256": "ff8b9f18808ce92b08d7d5c0a31228588d0de72d24c1a7e56e3c0e43472f3900",
+      "target": "雷纳尔多",
+      "translation_id": "p14450-ff8b9f18808c",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.reynaldo",
+          "field": "reynaldo",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Richard",
+      "source_sha256": "1deb0a3b86750d0e4a4c21dc9601736954ae5ccac654c57f3d45563a1f595998",
+      "target": "理查德",
+      "translation_id": "p14440-1deb0a3b8675",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.pirate2",
+          "field": "pirate2",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Sailor",
+      "source_sha256": "fb99f31dcb117af0e2b7735bcbe1d85bea32aad720a5f3da5f809caf7e3ac868",
+      "target": "水手",
+      "translation_id": "p14439-fb99f31dcb11",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.sailor",
+          "field": "sailor",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.sailor2",
+          "field": "sailor2",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Servant",
+      "source_sha256": "0fb5373afcfec50623c7a6665709176c1621c3a0ff2a094969a7367d8c845623",
+      "target": "仆人",
+      "translation_id": "p14426-0fb5373afcfe",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.servant",
+          "field": "servant",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Soldier",
+      "source_sha256": "f826baa05bef6921a165d323c4dcd7c60d9ec8a3e443482e8ee26f9933bf8340",
+      "target": "士兵",
+      "translation_id": "p14442-f826baa05bef",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.soldier2",
+          "field": "soldier2",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "The Ghost",
+      "source_sha256": "5c5ff27fa16a95c432944c27779a52fdd42c9c38889c4bbb670c1e4cbba9574e",
+      "target": "幽灵",
+      "translation_id": "p00577-5c5ff27fa16a",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.ghost",
+          "field": "ghost",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Townsperson",
+      "source_sha256": "6b1861e757f5c999beed9d81dd16d8dc004ee9243424307332f2f517a97b3e28",
+      "target": "镇民",
+      "translation_id": "p14432-6b1861e757f5",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.townsperson",
+          "field": "townsperson",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Villager",
+      "source_sha256": "c0d39454a425792220a9e189c18ca238d551fa85ac08d49844781c51b0c28e78",
+      "target": "村民",
+      "translation_id": "p14438-c0d39454a425",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.villager",
+          "field": "villager",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.villager2",
+          "field": "villager2",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.villager3",
+          "field": "villager3",
+          "record_id": null
+        },
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.villager4",
+          "field": "villager4",
+          "record_id": null
+        }
+      ]
+    },
+    {
+      "kind": "character",
+      "source": "Voltemand",
+      "source_sha256": "62ce3f10c8cbf45996582e758719785c5da619dc3eced392e6b6884420ab1bf1",
+      "target": "伏尔提曼德",
+      "translation_id": "p14452-62ce3f10c8cb",
+      "origins": [
+        {
+          "file": "resources.assets",
+          "asset": "name_mapping",
+          "asset_sha256": "a1a07bddc7b7e69e73e750ee4b734224c5881710bedaaa28303086df55afbf75",
+          "json_path": "$.voltemand",
+          "field": "voltemand",
+          "record_id": null
+        }
+      ]
+    }
+  ],
+  "component_cases": 91,
+  "positive_cases": 77,
+  "negative_cases": 14,
+  "rule_ids": [
+    "ui-rule-map-go-to-destination"
+  ],
+  "limitations": [
+    "完整RoomMarker字段与姓名映射是实际显示参数的静态上界，不宣称全部都在地图可达",
+    "未知人物标记???原样保留；不从内部人物ID反推显示名",
+    "组件消费通过不代表已通过真实地图按钮集成或物理输入E2E"
+  ],
+  "source_artifact_sha256": {
+    "analysis/ui-audit/resource-strings.json": "6cc933922359c1eaccacd6c4ce2dd274bd0c443dcd0506272fc5be867d492dc2",
+    "translation/sol-full-2026-10-09/character-names.json": "263289ae8999330d60d6ffa34c387a4aeb040ff247ab3e3e053ae63ea2f0a96a"
+  },
+  "component_verification": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 91,
+    "offline_tests_passed": 7,
+    "command": "python -m unittest discover -s tools/translation -p test_map_ui.py -v",
+    "first_match_only": true,
+    "baseline_screenshot_failed": true,
+    "artifact_sha256": {
+      "translation/supplemental/map-ui-rules.json": "72f1cb51763a54ec4a83ca6b823298437fe5416a33f2a89bbead3acd65d1c288",
+      "translation/supplemental/map-ui-tests.json": "f78beaa45aa5eaff8f6d8e3e69dbf3b8a3d7408ace91315c4e22192b95b5b84d",
+      "tools/translation/prepare_map_ui.py": "4c1bb1d35a3c931bf4331d05f2ea6e4765cfc42c43e063c0b8b7ac81d494eab5",
+      "tools/translation/test_map_ui.py": "7ef704802ef0742655346cd32ec88a01595972de459c8620cd59a503569cdc1c",
+      "tools/translation/VerifyRecursiveUiRules.cs": "6785d4fcc78111577ad7a5e7416ea327f19239a3808ed5de3ac0decee0c8584e",
+      "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb"
+    },
+    "game_started": false,
+    "movement_confirmed": false,
+    "online_api_called": false
+  }
+}

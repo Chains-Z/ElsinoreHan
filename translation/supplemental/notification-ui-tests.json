@@ -5579,9 +5579,9 @@
   {
     "id": "notification-belief-quotes-nested",
     "source": "<b>Ophelia</b> now believes that Hamlet believes that \"she's read the death report\".",
-    "target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。",
+    "target": "<b>奥菲莉娅</b>现在认为，哈姆雷特相信“她已读过死亡报告”。",
     "source_sha256": "440d35073535b037d701c9af0e73da1186d9e5ccb7caa60a2c23091c841b2132",
-    "target_sha256": "bce9cdfca1facb927f2d1197c8f95fea1c56babbf73841cda36c877c21012247",
+    "target_sha256": "d4f89638fce1ac7c922504a4db5e732334735e71b4d4e0eb71f64ea7b4041907",
     "origins": [
       "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
       "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
@@ -5589,14 +5589,25 @@
       "analysis/ui-audit/notification-source-audit.json"
     ],
     "verification_level": "component",
-    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号"
+    "note": "截图真实句或同一实际格式化器分支组件用例；有源引号才保留引号",
+    "expected_target_revisions": [
+      {
+        "previous_target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。",
+        "previous_target_sha256": "bce9cdfca1facb927f2d1197c8f95fea1c56babbf73841cda36c877c21012247",
+        "reason": "用户原文截图确认嵌套认知，外层用现在认为并加逗号，保留内层信念与原引号",
+        "origins": [
+          "translation/supplemental/nested-belief-followup-rules.json",
+          "用户2026-10-10通知原文截图"
+        ]
+      }
+    ]
   },
   {
     "id": "notification-belief-quotes-nested-newline",
     "source": "<b>Ophelia</b> now believes that Hamlet believes that \"she's read the death report\".\n",
-    "target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。\n",
+    "target": "<b>奥菲莉娅</b>现在认为，哈姆雷特相信“她已读过死亡报告”。\n",
     "source_sha256": "fe495c8c6a7b1f1d90bf8d2f2e02c625e2458c3de789839675753635a5595d53",
-    "target_sha256": "6482ff513a5cac952fca001da1dc661fda58f352c3ea9599089bc74b4c9a127b",
+    "target_sha256": "8d83ace6b2bc1f15c076f612e00a2eb4893214379667ac4d14ffeb414cc30f36",
     "origins": [
       "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
       "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
@@ -5604,14 +5615,25 @@
       "analysis/ui-audit/notification-source-audit.json"
     ],
     "verification_level": "component",
-    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E"
+    "note": "真实 HistoryTracker 通知尾LF包装，非游戏E2E",
+    "expected_target_revisions": [
+      {
+        "previous_target": "<b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。\n",
+        "previous_target_sha256": "6482ff513a5cac952fca001da1dc661fda58f352c3ea9599089bc74b4c9a127b",
+        "reason": "用户原文截图确认嵌套认知，外层用现在认为并加逗号，保留内层信念与原引号",
+        "origins": [
+          "translation/supplemental/nested-belief-followup-rules.json",
+          "用户2026-10-10通知原文截图"
+        ]
+      }
+    ]
   },
   {
     "id": "notification-belief-quotes-nested-terminal",
     "source": "<line-height=90%><b>Ophelia</b> now believes that Hamlet believes that \"she's read the death report\".\n<line-height=40%>\n<line-height=90%>",
-    "target": "<line-height=90%><b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>奥菲莉娅</b>现在认为，哈姆雷特相信“她已读过死亡报告”。\n<line-height=40%>\n<line-height=90%>",
     "source_sha256": "f59c2d5b978119c62db6f2fc8eda5418f3e8567666cb8663a1e21b00229faf15",
-    "target_sha256": "f60d58f021af4070e1f3d6ba5155a38445b6dc6599a056d10d484ef6a6ba5517",
+    "target_sha256": "347b62ae191e78a27b38c7b253ea8ac17eb462ded1c33fe8a8c66132cd146831",
     "origins": [
       "用户实际通知原句:<b>Ophelia</b> now believes that \"she's read the death report\".",
       "Elsinore.dll:Model.formatElsinoreTerm$cont@531 IL_00eb 与 formatGroupedLiterals",
@@ -5619,7 +5641,18 @@
       "analysis/ui-audit/notification-source-audit.json"
     ],
     "verification_level": "component",
-    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E"
+    "note": "真实 DialogueUI 末尾段落padding包装，非游戏E2E",
+    "expected_target_revisions": [
+      {
+        "previous_target": "<line-height=90%><b>奥菲莉娅</b>现在相信哈姆雷特相信“她已读过死亡报告”。\n<line-height=40%>\n<line-height=90%>",
+        "previous_target_sha256": "f60d58f021af4070e1f3d6ba5155a38445b6dc6599a056d10d484ef6a6ba5517",
+        "reason": "用户原文截图确认嵌套认知，外层用现在认为并加逗号，保留内层信念与原引号",
+        "origins": [
+          "translation/supplemental/nested-belief-followup-rules.json",
+          "用户2026-10-10通知原文截图"
+        ]
+      }
+    ]
   },
   {
     "id": "notification-belief-quotes-nested-unquoted",

@@ -1,0 +1,1311 @@
+[
+  {
+    "id": "map-room-8216af021e64",
+    "source": "Go to A Dungeon Cell?",
+    "target": "前往牢房？",
+    "source_sha256": "5e37561755a92c853ab010f7699d8b4427174819c98966583fffb238156468fe",
+    "target_sha256": "b8179178f2b5ce2b9db38dfe4ea50b7ee4f712c9f5d6861b0e7dc2b0a6318c7e",
+    "parameter_source": "A Dungeon Cell",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-3fcec4e55264",
+    "source": "Go to Castle Town's Streets?",
+    "target": "前往城镇街道？",
+    "source_sha256": "a55efefa78cadfd10d6f93b8429680c1ac60b5b44adab62349681129bc26ae17",
+    "target_sha256": "46be4c864d8161e0468f2c107f0ae43ea3299980c17f83c94d6c7a79d618dd85",
+    "parameter_source": "Castle Town's Streets",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-84f68b881735",
+    "source": "Go to Claudius's Chambers?",
+    "target": "前往克劳狄斯的寝室？",
+    "source_sha256": "272085fd0dcabb92a90b70b1690438c796ef8caf90c4c1cf1f1e23f8910ff2a4",
+    "target_sha256": "b62904559196b5b49cc9cf90f88d121a346455eabc687e1c25ebb2d448c0dfc2",
+    "parameter_source": "Claudius's Chambers",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-a896f00fa5eb",
+    "source": "Go to Gertrude's Chambers?",
+    "target": "前往乔特鲁德的寝室？",
+    "source_sha256": "584b03e954edf0195ac6bda8089cc2d6bab72ce0c0fae53ea497bc5451ef6785",
+    "target_sha256": "28319253efce09d4182efb23ef75c114c667a1b30a3cfa42c23c2b3d0de8a168",
+    "parameter_source": "Gertrude's Chambers",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-7e75c2b1583a",
+    "source": "Go to Hamlet's Chambers?",
+    "target": "前往哈姆雷特的寝室？",
+    "source_sha256": "cc24901e74aa251f66ec5efb876e854cf0f16cca5facf501ceff97370e9162b7",
+    "target_sha256": "1d3a6963ba9bde2af63fd3cc137b98b39701f5e05765fb24016e98b4396b51a0",
+    "parameter_source": "Hamlet's Chambers",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-6a9def102256",
+    "source": "Go to Laertes's Chambers?",
+    "target": "前往雷欧提斯的寝室？",
+    "source_sha256": "2fb4bcfd3162e774f634f11696f9e452196758697778f944db56c216216a27bb",
+    "target_sha256": "8a69a15b1374f0cdd5a774bc79d4043996fa51cdab96933f4ac6acec0585ae43",
+    "parameter_source": "Laertes's Chambers",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-5cc12a6d83fd",
+    "source": "Go to Limbo?",
+    "target": "前往虚空？",
+    "source_sha256": "2e2e76ca27e837e426ef1be127cc4b4735e82324d822dc5fe604312f7561d5b3",
+    "target_sha256": "e02ef175c2cc64c21a78e7cf19b26dc35d53da9bd647fe1fb7a58644be1d11e3",
+    "parameter_source": "Limbo",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-70f59043a945",
+    "source": "Go to Lower Garden?",
+    "target": "前往下层花园？",
+    "source_sha256": "54162645ed830e80eb60945b308dce9776563a3a3cbc3966e4d10b3f0d1ee7a0",
+    "target_sha256": "c9ade760e12f5780c50299da9c46cec280babb6a991b52c549dbea43493e5d49",
+    "parameter_source": "Lower Garden",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-96c9a0bbfe7d",
+    "source": "Go to Lower Hallway?",
+    "target": "前往下层走廊？",
+    "source_sha256": "8054d849cc4c85f24006edc70e541586ce8cae0f479ab2716d833a9e9e58b10e",
+    "target_sha256": "8e56b1dc30dbfbd940c6077af946f747c2131c019b6ea659808bfa9bc96ea985",
+    "parameter_source": "Lower Hallway",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-b70d410a53fa",
+    "source": "Go to Ophelia's Chambers?",
+    "target": "前往奥菲莉娅的寝室？",
+    "source_sha256": "821426da1aa050c6210907e700b51a3b9b6cbdc876bf19df080b0261af647620",
+    "target_sha256": "a480106c4b89f7d0ebc9c600daf1ec3ed2a23567c06a26f58e7a7f89efe3e1b3",
+    "parameter_source": "Ophelia's Chambers",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-a43ee6f5cf99",
+    "source": "Go to Polonius's Chambers?",
+    "target": "前往波洛涅斯的寝室？",
+    "source_sha256": "b782ecfe84e035730167b86cabba0b9041c4ca35db855d3822459abef0111d0b",
+    "target_sha256": "4fce4cba6e8974465f69d9fd936c15f3c849bdd8660c52f30635db85b5019cb2",
+    "parameter_source": "Polonius's Chambers",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-f095d4fe0dab",
+    "source": "Go to Shack?",
+    "target": "前往小屋？",
+    "source_sha256": "c4567c1c85a83b207be14d784ffed5bfeaac0fe7d58eacd5ff26fb786b2f612a",
+    "target_sha256": "b375ccf9357a96c5552b4f7ff7e25461e7ce1a304c335bfce4fcd24fb7be7667",
+    "parameter_source": "Shack",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-9889a1e2ed90",
+    "source": "Go to The Captain's Quarters?",
+    "target": "前往船长室？",
+    "source_sha256": "963d712e37fba64f705bae58173f41d1485a0dfcc8d8e99c5a23e9475e47459d",
+    "target_sha256": "2ef7222930c2485b3893e6558bc6882ed7ff2a3fce845d844d0b234f0bcbacb0",
+    "parameter_source": "The Captain's Quarters",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-a02d81083e7d",
+    "source": "Go to The Chapel?",
+    "target": "前往礼拜堂？",
+    "source_sha256": "7054d45346724e3b3ce42be7e608229a9537c20c7e059855189da76e09b200fd",
+    "target_sha256": "b9535bd6e1e854a46ad154fcc09189fc9b84e972509282b23074510d652e1c19",
+    "parameter_source": "The Chapel",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-60b7b0ee0e7b",
+    "source": "Go to The Courtyard?",
+    "target": "前往庭院？",
+    "source_sha256": "2d6167a84f2592e386c07a80a87185e1aa8616fa408c76fd2a96dc922dd06654",
+    "target_sha256": "9521b6feb9a983011d42926b30684ff2a4e9a12d7e665a42a7a68616b5c5cd63",
+    "parameter_source": "The Courtyard",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-4b61a71c5fa9",
+    "source": "Go to The Docks?",
+    "target": "前往码头？",
+    "source_sha256": "68f1a9edcf5fc303c8c9181368a9bb22967f4e8f9d1a001dd0c83415fd8bbf8f",
+    "target_sha256": "b510cb25de61949d67519d22cc9f7e0daa6323bb2b08364bbf219a531f098ee9",
+    "parameter_source": "The Docks",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-83e441e58dfb",
+    "source": "Go to The Dungeon?",
+    "target": "前往地牢？",
+    "source_sha256": "b12c24905c4caeb4314b05c6658d94ed5e732cc8a896e0c6ca2c15ac14a518d4",
+    "target_sha256": "c739aac09196d09ef28b18f07e2eca0b6eb0b0e162d4ca64b58ce6c4641eb656",
+    "parameter_source": "The Dungeon",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-7b38b09bb4ba",
+    "source": "Go to The Flinty & Steel?",
+    "target": "前往燧石与钢酒馆？",
+    "source_sha256": "8e3e10ce5c016437337b75c6877b922979f3d355a6b37f793f99037677477c84",
+    "target_sha256": "64b47e631a63e55cc5164791a7132585fd548f7788c7bd382e4749e694fe124e",
+    "parameter_source": "The Flinty & Steel",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-bead0d760f26",
+    "source": "Go to The Forest Path?",
+    "target": "前往林间小径？",
+    "source_sha256": "e83e5503f0f72c6d96db6649fe80d395ac393d1f22f73c42e4ace1a99cce878e",
+    "target_sha256": "995eb9fc6b3c728f2b39800367dff50794157d66520a64c652be3b87bd2a2d78",
+    "parameter_source": "The Forest Path",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-270c8a9bc2ed",
+    "source": "Go to The Graveyard?",
+    "target": "前往墓地？",
+    "source_sha256": "1278b600a811151d8fe218dfc9f529fcf69090ea2a6087dbc0802ae744fb4168",
+    "target_sha256": "791dfee11c40e176fe14d001cef11848575e9d763f4b0642c76ad6b3eeacecbd",
+    "parameter_source": "The Graveyard",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-b1d7462d7cc4",
+    "source": "Go to The Great Hall?",
+    "target": "前往大厅？",
+    "source_sha256": "2b46c33c9e89dc6f073bb369ca5b4e20828f9ac552c0981545ad59b61db07019",
+    "target_sha256": "c0e1d357eeb51b0b66e46e3226b5ad9b9bf1e31605d3cc1e1881fdcb53fbda3a",
+    "parameter_source": "The Great Hall",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-309a84c82687",
+    "source": "Go to The Grounds?",
+    "target": "前往城堡外庭？",
+    "source_sha256": "1d3dc880c4a9e3d146f4991a824a98dc968b057b819715140b96581b5e5d365b",
+    "target_sha256": "1c90938235bcec6a55dcf05e392affba71ae5551c3f4b6a9455f0010854e9af8",
+    "parameter_source": "The Grounds",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-a0e416f047b0",
+    "source": "Go to The Guard House?",
+    "target": "前往卫兵室？",
+    "source_sha256": "71e41fd2611ae0baf5103ea90743407935c2cab14cfff4e85142e4cf258bf914",
+    "target_sha256": "bd60c3d99c56a40133ce86e08ec5aa28e57720484aa284217c26268650e41237",
+    "parameter_source": "The Guard House",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-70e739d8bdf0",
+    "source": "Go to The Guards' Quarters?",
+    "target": "前往卫兵宿舍？",
+    "source_sha256": "6cbd010f5c1e6923b60079e45383f5a6907cabebe53bbf02f9fa31786da57ed2",
+    "target_sha256": "d4d02ad076c052ef174fa4fe7ea5c3a47f79fbf7f3e9d2a787bfa891ee1ce093",
+    "parameter_source": "The Guards' Quarters",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-7709669878bb",
+    "source": "Go to The Kitchen?",
+    "target": "前往厨房？",
+    "source_sha256": "7caa4464b32016c7399f2fd264f922b1d2718fc75a88ebbf1768863d11e56636",
+    "target_sha256": "518fc0998fdc55a435af8d19ef2df054a28da59cb9e54a415d2ec1190c63797b",
+    "parameter_source": "The Kitchen",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-c552dd35004b",
+    "source": "Go to The Landing?",
+    "target": "前往平台？",
+    "source_sha256": "1ed85455b211537215dbde0aae2988f1aede6656bfca46b6fa261125fff3c46b",
+    "target_sha256": "a461a5615b5e7b0d0d8fd55ad5a44037b77f0b98997fcd41b11937455e47a35f",
+    "parameter_source": "The Landing",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-d6b661086b8f",
+    "source": "Go to The Main Deck?",
+    "target": "前往主甲板？",
+    "source_sha256": "0bd5e01f8234a2a34dcb708548b327450c19e23c9db0f14ba2fe3ab707df2a4b",
+    "target_sha256": "49d21323b62e14a54fad7cf718d43822b2a5dad937fb4603a9aa2ab1a9b989a1",
+    "parameter_source": "The Main Deck",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-7293a9379482",
+    "source": "Go to The Royal Gallery?",
+    "target": "前往王室画廊？",
+    "source_sha256": "125f65b6ebc9ff44dc41e2a5733a1c345326f364c3064bf9ebd3b5806a7e220a",
+    "target_sha256": "62793fb9bfe5c2d5a106bef34d22ca66b29b217d29032611bf1ad6ae886d132d",
+    "parameter_source": "The Royal Gallery",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-665097a4d75d",
+    "source": "Go to The Upper Deck?",
+    "target": "前往上甲板？",
+    "source_sha256": "132a003dbeb7463ea156b073f399f300ea55c6cf6dc1d47563149b52f8d0a301",
+    "target_sha256": "bda377e8fddda0585b2de8f9cee340ec8f82d0a4a95f45e3480e00c8a48fb1fc",
+    "parameter_source": "The Upper Deck",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-dbdccc63f587",
+    "source": "Go to The Walls?",
+    "target": "前往城墙？",
+    "source_sha256": "9c6d4a4755115c9d175f342296f5d3b66b95663972a28de3462b835954e97653",
+    "target_sha256": "5be723776df5c367029bf88c63ea7e1b770b6b376d00324f729804bd84d8dacc",
+    "parameter_source": "The Walls",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-room-7a039a391b9f",
+    "source": "Go to Upper Hallway?",
+    "target": "前往上层走廊？",
+    "source_sha256": "0a3a8df21827519a14110221671a5b8531a62aa9e0991c8d9726df97596deefe",
+    "target_sha256": "03e5db28f3244bfc85a29b4fcf04b8af4cff2d8e54ef58886f861fdd5a791cb8",
+    "parameter_source": "Upper Hallway",
+    "parameter_kind": "room",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-a03b221c6c6e",
+    "source": "Go to ????",
+    "target": "前往???？",
+    "source_sha256": "09149764a789b7e14df451352a816d81c65e730c782adb98f8d9c743d641e85a",
+    "target_sha256": "df3b45166c97a241d311301e4b887333b6690c0f658908aed1e0f7b15f18d0b5",
+    "parameter_source": "???",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-d7f2688a9862",
+    "source": "Go to Aldous?",
+    "target": "前往奥尔德斯？",
+    "source_sha256": "6ed8ead0882194d8d536900a96e1b4f42aab87ced93c00c2d7d37a1e3c471ba1",
+    "target_sha256": "dfcecd8c2d4b439ca73feecb2715df4adf8f3e892164e75778e77d040b79522a",
+    "parameter_source": "Aldous",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-1ff3db23075f",
+    "source": "Go to Baptista?",
+    "target": "前往巴普蒂斯塔？",
+    "source_sha256": "c2f7d68d1a02e99bace05479d47524cbe5f0861edc6adafb8d86b94ee76a46e1",
+    "target_sha256": "7beb6bb22705da834f6d2577773b7e60e9e94936955461045ffa9276b621f123",
+    "parameter_source": "Baptista",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-bed1f8891424",
+    "source": "Go to Bernardo?",
+    "target": "前往贝尔纳多？",
+    "source_sha256": "e1484645e2811240962d833bf129b75647b38c48acd9117c5ef6878f7162f5c4",
+    "target_sha256": "a44197e8878a86672969dd26e2f39d01fa10bc600c9acb73344fb8224291542b",
+    "parameter_source": "Bernardo",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-06d09f7680f8",
+    "source": "Go to Brigand?",
+    "target": "前往强盗？",
+    "source_sha256": "0fb12492753fddc23ec810780564e60e43002ff6f638edd66acf8f18bbbea5fa",
+    "target_sha256": "c33550279bc23085dbdfc9115b62f2fee5259cade85d6ef98e0e1e484fac6817",
+    "parameter_source": "Brigand",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-2e786c488b83",
+    "source": "Go to Captain?",
+    "target": "前往船长？",
+    "source_sha256": "ca9e8dd686df79edf297a3a3b9ef16090b849a5c34413b17893f60dede836b6f",
+    "target_sha256": "dc58ce87001d979ba4b57acdca746d8bf8f5a05f4a92988166b6a1eb433c9bab",
+    "parameter_source": "Captain",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-4ae0c1ad8582",
+    "source": "Go to Captain Grace?",
+    "target": "前往格蕾丝船长？",
+    "source_sha256": "eb504ba6525d54be7fdb041155e2bd01552f5d5519f0d21e57a3077dfcd360fe",
+    "target_sha256": "d4e1704e75476067179169c8935bb2164417cbc1943365758a2304e538cc9009",
+    "parameter_source": "Captain Grace",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-52bc246ac7a1",
+    "source": "Go to Corambis?",
+    "target": "前往科兰比斯？",
+    "source_sha256": "845289bbcb5a837f7d03f74b48f203cd6998715dccaf3c719a77d67161a29b95",
+    "target_sha256": "c493e427f94b19b646af3d37595003d60d07a63e522e231b9fe3b48032440e76",
+    "parameter_source": "Corambis",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-f43b39ea311b",
+    "source": "Go to Cygnus?",
+    "target": "前往西格纳斯？",
+    "source_sha256": "13835bbf1ecef4ddd182df73f30e02b30c996bb91efcacd31b8a3bf90c1cfc1f",
+    "target_sha256": "032b6aa3b4338cb63a035c7b9fba14047e1f207c71339c2bdbd5c986977a2c70",
+    "parameter_source": "Cygnus",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-ba9b353684f9",
+    "source": "Go to Elise?",
+    "target": "前往伊莉丝？",
+    "source_sha256": "3d74c9ff223d039bee74ccbb9260d33b2119ebd7d972c390424de34db15d2610",
+    "target_sha256": "a6f13975a4b8f43daa3f0fb3c1d0b5c3f8b0dfd19a1ef03342e62908352cedaf",
+    "parameter_source": "Elise",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-3e912d9fef7e",
+    "source": "Go to Finnegan?",
+    "target": "前往芬尼根？",
+    "source_sha256": "f9169bfa4418a1bb8c790c7da44da7845ba8c69e0d17b5c3a96538cdedb29103",
+    "target_sha256": "9a83aeea6665c49c7ff5123a4e28af56a4fb53e6ffa23cef0067b6457115a44d",
+    "parameter_source": "Finnegan",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-538d73eedc06",
+    "source": "Go to Foreign Soldier?",
+    "target": "前往外国士兵？",
+    "source_sha256": "3e4bd2feb3b82076ed0e6a0b1c211166d345c3641925c75c144524ac7988594a",
+    "target_sha256": "9d84a632de2f57f3b5a886aaac5fc52bfc327d95a46aa43105073e63ab954e6b",
+    "parameter_source": "Foreign Soldier",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-b3984df21669",
+    "source": "Go to Gonzago?",
+    "target": "前往贡扎古？",
+    "source_sha256": "2cadbf6f80144945acb58fb9f314c0d1f316be6a01af697098676f9e520e692b",
+    "target_sha256": "26db792dc9182f51daa25d946ce1ac68c9ac92a71eaa3ab7019dd1383d9a6899",
+    "parameter_source": "Gonzago",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-dcb17698cf83",
+    "source": "Go to Hamlet?",
+    "target": "前往哈姆雷特？",
+    "source_sha256": "7104068d59cbf74d28863936cae770dc6880c843a3f82ec82fa0f0c38e10b2b4",
+    "target_sha256": "22a85741faea565cc2777b8335986e0ed750bf0cd71b22e0f08d2c811bd08367",
+    "parameter_source": "Hamlet",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-290753284f57",
+    "source": "Go to Hooded Figure?",
+    "target": "前往戴兜帽的人？",
+    "source_sha256": "76f6f9cc8b581f5bd68757c30c3c9e1733e67d84a7ab5d41e766fbb5b1bbaf08",
+    "target_sha256": "6bd7a29719290d9b4df45a40841ff8a2ca83b3dbc629c59636efcbaee16f6eb3",
+    "parameter_source": "Hooded Figure",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-b69dfbd0cf13",
+    "source": "Go to Horatio?",
+    "target": "前往霍拉旭？",
+    "source_sha256": "69319c9da8484ffe491bc6c0f08b455d3f35c08d47819239fd90bfa91c350333",
+    "target_sha256": "8ab4d0b03306ca15e57cf582970a16c59bdf9f2fda01a808360a40d004d7f463",
+    "parameter_source": "Horatio",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-61559f650f98",
+    "source": "Go to Irma?",
+    "target": "前往伊尔玛？",
+    "source_sha256": "ae321dd5e69f25105779e59826aa757a9a27237b7f826942460a9181578141c4",
+    "target_sha256": "e8b03e229ceea4b74baab4b85464773de058ebe993fde1362f814cae0b91e881",
+    "parameter_source": "Irma",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-5632e195ae87",
+    "source": "Go to Katherine?",
+    "target": "前往凯瑟琳？",
+    "source_sha256": "cb3b29bfdfb024c320071107ce5152d6ef763de25832e1937ee0486ad0b3d568",
+    "target_sha256": "9a34e9cfd5a7440a7c01aedc7e596e4c363fc29b09634f30914f67738ca1df3a",
+    "parameter_source": "Katherine",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-a01e7de8b6ca",
+    "source": "Go to King Claudius?",
+    "target": "前往克劳狄斯国王？",
+    "source_sha256": "ad150fe2ec57ebe94bf3634f5fea6fe19d5fc9c7523c4090da97eeffabd9567d",
+    "target_sha256": "80464d2fcf89ec0309ed16823870fc6ed0916b931ecf0942ebeb8f85a1f91107",
+    "parameter_source": "King Claudius",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-4aaa816fc533",
+    "source": "Go to Kistler?",
+    "target": "前往基斯特勒？",
+    "source_sha256": "8fcaa633fb92156c388ca2eee4786af1efa4d0d0aef676bde60ef1ffcbcff2a3",
+    "target_sha256": "89800274e70c70973dc8c6692d3009fc7e16291b5fafd525ef6437e080767b71",
+    "parameter_source": "Kistler",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-48eb287d8c3f",
+    "source": "Go to Kubilius?",
+    "target": "前往库比利乌斯？",
+    "source_sha256": "941eaf543688a1f3d5273941acd908c7aac0728780e8cfe4bf8cfd4b140b14e4",
+    "target_sha256": "cfbb337ca27a0d150caeff82134c878d3bb6e5468c2be1d069551e33b506527a",
+    "parameter_source": "Kubilius",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-9c264bc04944",
+    "source": "Go to Lady Brit?",
+    "target": "前往布莉特女士？",
+    "source_sha256": "c014621f34783a9f368612eab7181e7047485825405b86ef60a69fa7661ae2d5",
+    "target_sha256": "de5747c6eac3e8379ec10fbde15e9c77deb88908aef71f3933583d92b44ca537",
+    "parameter_source": "Lady Brit",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-dd107eab2abb",
+    "source": "Go to Lady Guildenstern?",
+    "target": "前往吉尔登斯吞女士？",
+    "source_sha256": "fd8d0166ea0bc9209f88d1a679555581470a3c564e5bb1a54999c5a49f36d0eb",
+    "target_sha256": "664619c969999951e7035939317f1c375e4ff51795ea21406869596d6904630d",
+    "parameter_source": "Lady Guildenstern",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-a4c2b6c0ed91",
+    "source": "Go to Lady Rosencrantz?",
+    "target": "前往罗森克兰兹女士？",
+    "source_sha256": "f94a15ce073046439605ee64d02c07d02909c1426901d54138f794bade695c0d",
+    "target_sha256": "1c5d4deb4ef8308638eddcac0d6ff673642eed92166a9e975b4cc0ec9bebe1a6",
+    "parameter_source": "Lady Rosencrantz",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-1e6aeb999d9e",
+    "source": "Go to Laertes?",
+    "target": "前往雷欧提斯？",
+    "source_sha256": "7ac61126d309f305a525d2e2c9171cf9c71aaddbad0e79c9a7e5f9a0d32b5725",
+    "target_sha256": "6a624bea28e3760c21a6d4f9cae09ead233dd6031c8e60f61d7d2dfd98ec0d1d",
+    "parameter_source": "Laertes",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-974d11c3cd08",
+    "source": "Go to Lucianus?",
+    "target": "前往卢西安纳斯？",
+    "source_sha256": "5df1cc1e8ff528349394992a47cd92b5035652106686a611310216f3f03a02d3",
+    "target_sha256": "40a40544971b576966f74a7720e0172d402b206bb25a6d48ddbfb2ad1c6a3c2a",
+    "parameter_source": "Lucianus",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-c70470565292",
+    "source": "Go to Marcellus?",
+    "target": "前往马塞勒斯？",
+    "source_sha256": "222c6e2f0cce228547e4c5b704f6eed12081dcbbe575a2a213cd0908f4c5a713",
+    "target_sha256": "1e74aa44bd824eae3e2ea7088a5c174e35a40cae93d2274f6f0fad6b436ce139",
+    "parameter_source": "Marcellus",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-597d0dd6aa15",
+    "source": "Go to McDonald?",
+    "target": "前往麦克唐纳？",
+    "source_sha256": "2a240f79776dcb6bf258c7843fbc5e506bf73acc43d08ef50aaf3609dba50f30",
+    "target_sha256": "bf72410692ecc984b8e9c0924d8bdb8b1ad61fdf0c8af4b6c06133b279fdda4b",
+    "parameter_source": "McDonald",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-7eda99495667",
+    "source": "Go to Murphy?",
+    "target": "前往墨菲？",
+    "source_sha256": "d9eb6009942f9355b4b54e2aa7c0083aef31bacc359dec0605b22671695b1323",
+    "target_sha256": "596712a9c9defba199f6c68ed79adce32b98f8745440acb27ca871541d07bfdc",
+    "parameter_source": "Murphy",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-a8d6f7185918",
+    "source": "Go to Old Woman?",
+    "target": "前往老妇人？",
+    "source_sha256": "362a9f3c1878784ce481010eceecd06cfe54d497addadf6c05c76f35c4e92e54",
+    "target_sha256": "8266f1a2d4e12c4a4cbe8e2028b4ca355af03845ab45e81cc80e354bb471dbe3",
+    "parameter_source": "Old Woman",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-ab061919148e",
+    "source": "Go to Ophelia?",
+    "target": "前往奥菲莉娅？",
+    "source_sha256": "ab2e1c8bd8321fd2f23479abd0148329009557486ecc37f4ae210da0b8b232ad",
+    "target_sha256": "0779f7c7e6d4dbf6ca9759dbb603de3b5875888583d9b290b2ff0da3e8ecd300",
+    "parameter_source": "Ophelia",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-f5958436e3f7",
+    "source": "Go to Othello?",
+    "target": "前往奥赛罗？",
+    "source_sha256": "3df5edc0b0019b98a9bb91a599ffba23d51689524234f4d9766a577c231a273e",
+    "target_sha256": "b599addb4573da1d098735a0321c86cf13b5e91bf5523161b6bcf3847bf6fec7",
+    "parameter_source": "Othello",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-aafd8090c534",
+    "source": "Go to Petruchio?",
+    "target": "前往彼特鲁乔？",
+    "source_sha256": "1d2276217cb2e478f34804d8b6e331eb8b900237860303fa326e88ec24b9710a",
+    "target_sha256": "238707c1fccc83d5cd76f08064cd7d7d37c69ae4c9a117b25898276f1efbea0f",
+    "parameter_source": "Petruchio",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-09d7ee05fe70",
+    "source": "Go to Polonius?",
+    "target": "前往波洛涅斯？",
+    "source_sha256": "1d647de0b3bb3916ab8a51fc5d6bdb8cda6d6a6b6f97b44d519338e92d77a6dd",
+    "target_sha256": "073cc48ab541d6242967cc15bdcce7782e2c1633de87047828072d1fff4556f7",
+    "parameter_source": "Polonius",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-96766808ba0c",
+    "source": "Go to Prince Fortinbras?",
+    "target": "前往福丁布拉斯王子？",
+    "source_sha256": "ce2fc746f5ea80b4c5321d02030ad2d6c32cf23fa83e2edf3bb95fd5a1e15628",
+    "target_sha256": "4ad753274b970e5977e4ab37a02f8c879998a67bcdd2b35bef9437e4323478ac",
+    "parameter_source": "Prince Fortinbras",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-8c55cd1308f1",
+    "source": "Go to Queen Gertrude?",
+    "target": "前往乔特鲁德王后？",
+    "source_sha256": "bcbd427aac687620298931fc5b9499b906aa00fb29aa07b1f0581b02a55cd7f9",
+    "target_sha256": "145ac03410948ea901589b2e228b464f6aac8d3a2e42dfd2ff959de8027387d4",
+    "parameter_source": "Queen Gertrude",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-4a1239e4137e",
+    "source": "Go to Quince?",
+    "target": "前往奎因斯？",
+    "source_sha256": "3278ba6d8c91dc86f96eba0306ca30cdef780e26e7a74fdd0c9dc8dd6df6099e",
+    "target_sha256": "4480128c30aea16ecfa1505b67ee21c235545eccfab4037e84cb0f5631e9e419",
+    "parameter_source": "Quince",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-ff8b9f18808c",
+    "source": "Go to Reynaldo?",
+    "target": "前往雷纳尔多？",
+    "source_sha256": "9eb5f27c4fa291bf440a1c3208ea880e4a0a4bdac3d59ff0574e852e57423dfc",
+    "target_sha256": "65068b1b76e1a0f6c1cfc5c50f9465bf4249f79b75010993a89071f6fdcfd367",
+    "parameter_source": "Reynaldo",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-1deb0a3b8675",
+    "source": "Go to Richard?",
+    "target": "前往理查德？",
+    "source_sha256": "1518b114f35dab6eab1fbea97bea7461b0d10287a68e8cd9e700cc8f1634f720",
+    "target_sha256": "ba777f2ab68a85f8ac4d4c3f206868c10c5586e0f6e59f676c637e60353fd3fc",
+    "parameter_source": "Richard",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-fb99f31dcb11",
+    "source": "Go to Sailor?",
+    "target": "前往水手？",
+    "source_sha256": "2955a01a35014d20c99f9420d9149efd362a54660d1548316711cba778518fae",
+    "target_sha256": "dc17ac961ca6436ad078d0e22e3808d88f918fba3e82212ccff00bb7b6bac095",
+    "parameter_source": "Sailor",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-0fb5373afcfe",
+    "source": "Go to Servant?",
+    "target": "前往仆人？",
+    "source_sha256": "3ed7b7b9cec68ac84da2f40e0ba7321a4f2c7acfd4c288f56769dfcaa1b511a1",
+    "target_sha256": "9520bd2645742a8336a31871183158b6315af87f5d8f134605104cf506a5dd23",
+    "parameter_source": "Servant",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-f826baa05bef",
+    "source": "Go to Soldier?",
+    "target": "前往士兵？",
+    "source_sha256": "c6c9e859d54d726d0e4f8cd9e1f79ef937b3c1e2f1813511818d12e221019df5",
+    "target_sha256": "5bb40f9e869863e4ae4afed6deca3d8f2d0b10e96ee883a24f3c5c4ee8366d1f",
+    "parameter_source": "Soldier",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-5c5ff27fa16a",
+    "source": "Go to The Ghost?",
+    "target": "前往幽灵？",
+    "source_sha256": "452e38cafe47e337ddc525b6e600eb1a04edc3b5747c716d39a5d399705d8836",
+    "target_sha256": "e4afa967a1029f6b9ea995da363b7245541b652ed137d7790ea069581fbb14ed",
+    "parameter_source": "The Ghost",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-6b1861e757f5",
+    "source": "Go to Townsperson?",
+    "target": "前往镇民？",
+    "source_sha256": "8e3eafa719b30d63f96c546f650ae7dd1cb72e3cbfb784d5b16c0e1150e8f7fc",
+    "target_sha256": "8773aa4eeb1cf7d7cb45d9a0a511bb016c806e1891dec76ad17e401222780a51",
+    "parameter_source": "Townsperson",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-c0d39454a425",
+    "source": "Go to Villager?",
+    "target": "前往村民？",
+    "source_sha256": "ef6d9d09d954bd4cfb70e623040d7a19b87c4b6226ca989ae06e10b14a435157",
+    "target_sha256": "b5fe836f4638fa540c0c8dce6c961e4a93c721f0d5b5e10efdc3bed3162a5f13",
+    "parameter_source": "Villager",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-character-62ce3f10c8cb",
+    "source": "Go to Voltemand?",
+    "target": "前往伏尔提曼德？",
+    "source_sha256": "7dbc34634652618cdd59a0532e9c60d8fadf5c74eaf7aa26a1952034c5c13fc5",
+    "target_sha256": "c81720f1e8e172e56a470d4b3dd5564485619d1653d9eb3806a1f015e3f77f7b",
+    "parameter_source": "Voltemand",
+    "parameter_kind": "character",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "translation/sol-full-2026-10-09/translations.json:ui-7877149b1753c32e"
+    ],
+    "verification_level": "component",
+    "note": "真实模板与真实显示字段的格式组件回填；不声称这些目的地在当前存档都可导航或已实际确认移动"
+  },
+  {
+    "id": "map-reject-1",
+    "source": "Go to upper_hallway?",
+    "target": null,
+    "source_sha256": "55dda548c0cbb81cee91c9731014231c9eb846d8d2dcace99a96eae2820a7273",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-2",
+    "source": "Go to internal_room?",
+    "target": null,
+    "source_sha256": "745b8c3bc27f6f18311fe4dd6f27431a6296214ccb6718d7d0a6739f457a219f",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-3",
+    "source": "Go to hamlet?",
+    "target": null,
+    "source_sha256": "042fb066f9f95b27a2569185bf7da8376f295cd69f4f40a38d837874513c965e",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-4",
+    "source": "Go to Unknown Room?",
+    "target": null,
+    "source_sha256": "b5797f9a0b5615b2cd17021d6b7316d89366865ab69ff7db810fde24a763b313",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-5",
+    "source": "Go to Upper Hallway East?",
+    "target": null,
+    "source_sha256": "c56b74373e056fa920a0d8a8427995bca4ab9c946411155ffb9c3d66a6d0808d",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-6",
+    "source": "Go to Upper Hallway •?",
+    "target": null,
+    "source_sha256": "bfbc9545d0de104d82b46aa2af2d8eddaafcf9eb77f84eaa56c0a3aa2c198ca3",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-7",
+    "source": "Go to Upper Hallway??",
+    "target": null,
+    "source_sha256": "acdb8e78310d0cd4b9cc54e93f890f2f5488a1e713583237c98d8d04464797d9",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-8",
+    "source": "Go to Upper Hallway? extra",
+    "target": null,
+    "source_sha256": "a671b0f93c40f10e7c8294efa8f88533931325bbc57108cef65995e170e396f4",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-9",
+    "source": "Go to <b>Upper Hallway</b>?",
+    "target": null,
+    "source_sha256": "952b14edba303eeec0da229f4ffe72251fe536fdc9832af029402967ad3d4062",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-10",
+    "source": "go to Upper Hallway?",
+    "target": null,
+    "source_sha256": "d4491993167555806c5e995b14cfff9617bfa0d3f0294222dc773d70556838a5",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-11",
+    "source": "Go to Upper\nHallway?",
+    "target": null,
+    "source_sha256": "a5f1b625adb1d8ad172898d6c36c0d00ac768ceb731ab84311b1ee731fb940fd",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-12",
+    "source": "Go to Upper Hallway?\nMore information",
+    "target": null,
+    "source_sha256": "c23edcb82dc8f8890ff8e64dff132059269c17b139e389dd30e59b6e507b3d9a",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-13",
+    "source": "Go to 42?",
+    "target": null,
+    "source_sha256": "cb2d6d5af001f20327843af5ddefa83dd0bc3402de53913e926dca2af6967063",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  },
+  {
+    "id": "map-reject-14",
+    "source": "Go to 已译房间?",
+    "target": null,
+    "source_sha256": "48f51514b36073801d5c36e6fe612730d47b748f0df4172266d0b3ec56ae4bc3",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json"
+    ],
+    "verification_level": "component",
+    "note": "明确构造的内部ID、未知参数或额外结构负例；非真实游戏正文，应拒绝完整消费"
+  }
+]

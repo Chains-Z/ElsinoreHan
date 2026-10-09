@@ -1,0 +1,51 @@
+{
+  "verified_at": "2026-10-10",
+  "verification_method": "真实已安装XUnity Splitter/ParserResult离线组件消费；逆序首匹配，不在失败后兜底",
+  "source_audit": "analysis/ui-audit/timeline-followup-source-audit.json",
+  "source_audit_sha256": "45dd447dbfadbd990e894c4404a92ada81a69eaf111cf77f6846a6d41b49a87e",
+  "rules_sha256": "69ad63e3f195c619cae01550818c89bd3373fdad4762143b3fb752cc2f9e07c7",
+  "tests_sha256": "01bbc8cdc2ee90a5eb5396fe6c9da0b9f180d71792209be12e23e9adc57f0563",
+  "xunity_sha256": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+  "new_rules": 6,
+  "new_translations": 0,
+  "baseline": {
+    "count": 92,
+    "failures": 18,
+    "failure_ids": [
+      "timeline-followup-including-empty-one",
+      "timeline-followup-including-empty-two",
+      "timeline-followup-including-empty-queen-two",
+      "timeline-followup-including-empty-three",
+      "timeline-followup-including-empty-five",
+      "timeline-followup-including-bare-empty",
+      "timeline-followup-queen-room",
+      "timeline-followup-queen-room-location",
+      "timeline-followup-not-attended-line-height",
+      "timeline-followup-queen-opener",
+      "timeline-followup-queen-bold-opener",
+      "timeline-followup-queen-not-attended-detail",
+      "timeline-followup-scene-room-time-4",
+      "timeline-followup-scene-room-location-4",
+      "timeline-followup-full-empty-hamlet-sleep",
+      "timeline-followup-full-empty-polonius-question",
+      "timeline-followup-full-empty-horatio-queen",
+      "timeline-followup-full-empty-hamlet-play"
+    ]
+  },
+  "candidate": {
+    "count": 92,
+    "failures": 0,
+    "passed": true
+  },
+  "existing_dynamic_ui_tests": {
+    "count": 56,
+    "failures": 0,
+    "passed": true
+  },
+  "unknown_sources_rejected": 9,
+  "real_scene_room_names": 31,
+  "limitations": [
+    "未启动游戏、未调用真实时间线入口、未安装、未读取或修改存档",
+    "完整源组合来自真实格式器IL和原资源字段，但本次离线组件测试不构成真实游玩E2E"
+  ]
+}

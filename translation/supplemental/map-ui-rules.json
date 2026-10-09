@@ -1,0 +1,15 @@
+[
+  {
+    "id": "ui-rule-map-go-to-destination",
+    "priority": 30,
+    "pattern": "^Go to (?<destination>(?:The\\ Captain's\\ Quarters|Castle\\ Town's\\ Streets|The\\ Guards'\\ Quarters|Claudius's\\ Chambers|Gertrude's\\ Chambers|Polonius's\\ Chambers|Laertes's\\ Chambers|Ophelia's\\ Chambers|The\\ Flinty\\ \\&\\ Steel|Hamlet's\\ Chambers|Lady\\ Guildenstern|Prince\\ Fortinbras|The\\ Royal\\ Gallery|Lady\\ Rosencrantz|Foreign\\ Soldier|The\\ Forest\\ Path|The\\ Guard\\ House|A\\ Dungeon\\ Cell|Queen\\ Gertrude|The\\ Great\\ Hall|The\\ Upper\\ Deck|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Lower\\ Hallway|The\\ Courtyard|The\\ Graveyard|The\\ Main\\ Deck|Upper\\ Hallway|Lower\\ Garden|The\\ Dungeon|The\\ Grounds|The\\ Kitchen|The\\ Landing|Townsperson|The\\ Chapel|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Docks|The\\ Ghost|The\\ Walls|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Limbo|Shack|Irma|\\?\\?\\?))\\?\\z$",
+    "replacement": "前往${destination}？",
+    "origins": [
+      "analysis/ui-audit/map-confirmation-source-evidence.json",
+      "Assembly-CSharp.dll:MapUI/<>c__DisplayClass32_0::<Awake>b__2 IL_003e..0070",
+      "Assembly-CSharp.dll:MapUI::<IInitializable.Initialize>b__33_0 IL_002a..0047",
+      "analysis/ui-audit/resource-strings.json:RoomMarker.playerFacingName/name_mapping"
+    ],
+    "note": "仅地图真实Go to {0}?模板及完整已审房间/人物显示值；复用冻结叶子，不翻内部ID、不放宽通用短模板门槛；严格末尾锚点，逆序首匹配失败不另找规则兜底"
+  }
+]

@@ -7831,20 +7831,26 @@
     },
     "artifact_sha256": {
       "translation/supplemental/notification-ui-rules.json": "bb8a27cc0a090c954d7aac44be8bdd105fb405a9da2531bcd4a41ee4cd46c2d3",
-      "translation/supplemental/notification-ui-tests.json": "718cbfea68c92fa1dfd52223d0be97f3a9118cb2919518ead57d8a41541725e1",
-      "translation/supplemental/dynamic-ui-tests.json": "318401e835740e2a2a85442e490896dac928098cb98dd26271c9b0f545fc5102",
+      "translation/supplemental/notification-ui-tests.json": "e67bce3a75381ae933ed2f3c60c4e3e815d1f6db08e7a30e8f7891f7eec9a2ef",
+      "translation/supplemental/dynamic-ui-tests.json": "30ba1f13b983bc26ea1264ba249ec5d39dc55443a7b60e54ccd11a6a3ca6f881",
       "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
-      "translation/sol-full-2026-10-09/dynamic-rules.json": "c5238db07ea63717df99b6b7861647d4900988c294f69915ba1bbcfdc629042a",
-      "translation/sol-full-2026-10-09/translations.json": "53b8d96789d0c7bf4b728c24fec25e3fdbb75905fef0178506069809f5066941",
-      "tools/translation/VerifyRecursiveUiRules.cs": "6785d4fcc78111577ad7a5e7416ea327f19239a3808ed5de3ac0decee0c8584e",
+      "translation/sol-full-2026-10-09/dynamic-rules.json": "2769a54fb76d492d6458eb01e3855a4b5e976788621ec87bf188478c5ed3034d",
+      "translation/sol-full-2026-10-09/translations.json": "be489967112371147b7f84a5e0f864fd269346f297779d16c047f181d07c9731",
+      "tools/translation/VerifyRecursiveUiRules.cs": "700f297a4145c0e4509883f5fcf82d39ec6d93f3e930cf542fc5bb1a2e043e0d",
       "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
-      "translation/supplemental/dynamic-ui-rules.json": "1404b5668f07320ab18f685c94439e0572798199b10c78c41bf5be5b095a8c0c"
+      "translation/supplemental/dynamic-ui-rules.json": "457f063324762104aeb94796e70321b5468ee2c81fbec7a5098375bc5b943910",
+      "translation/supplemental/lead-followup-rules.json": "7ee6f89d0518b3f51410bdc6f808e03260f4ff908c45b113743553e774264d8c",
+      "translation/supplemental/lead-followup-tests.json": "a053e71153f475e56966a163ff51ae6c2e7a4df0841e44440884e518df3a34be",
+      "translation/supplemental/map-ui-rules.json": "90c93810448926186d2daa9eead5edb7fd3f03ded3f8becd786d95b0da51642a",
+      "translation/supplemental/timeline-followup-rules.json": "69ad63e3f195c619cae01550818c89bd3373fdad4762143b3fb752cc2f9e07c7",
+      "translation/supplemental/nested-belief-followup-rules.json": "2a6353def3266e50860adb4e1bd8de5fbd1ecf395f300ec88ecf66b58d153b64",
+      "translation/supplemental/lead-runtime-aliases.json": "eb16f06e974c008f63296e76757b10e91c98de93eda4da7f63f8c814750ce1f9"
     },
     "export": {
       "passed": true,
-      "total_dynamic_rules": 90,
-      "recursive_ui_rules": 66,
-      "total_translations": 16843
+      "total_dynamic_rules": 121,
+      "recursive_ui_rules": 97,
+      "total_translations": 16861
     },
     "corrected_failures": [
       "同源术语修订以两阶段 apply_supplemental 覆盖；同阶段唯一性校验保持严格",
@@ -7852,7 +7858,8 @@
       "3个裸冻结字面量末尾LF用例按精确/Trim优先的既有契约更新预期，不修改源",
       "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留",
       "外层带完整引号的 now/no longer believes 专用规则目标恢复中文弯双引号；未加引号的嵌套或外层分支不新增引号。旧历史3预期按真实带引号源精确更新。",
-      "斜体日志封套先剥i会遮蔽a00941/a00942原含i格式模板；限定负向前瞻排除两种完整结构，单个尾LF由受限notification-trailing封套保留，body再交回旧模板。首匹配失败不换规则兜底。"
+      "斜体日志封套先剥i会遮蔽a00941/a00942原含i格式模板；限定负向前瞻排除两种完整结构，单个尾LF由受限notification-trailing封套保留，body再交回旧模板。首匹配失败不换规则兜底。",
+      "2026-10-10：合并线索双LF与18运行别名、地图短模板、时间线尾空段/房间变体、嵌套认知文风；1538个消费者通过，三个旧嵌套提示预期有记录修订"
     ],
     "game_started": false,
     "online_api_called": false,
@@ -7892,6 +7899,51 @@
         "line-boundary 的有限零参原子本身可为完整条目，不要求原子后额外字符；两侧仍必须非空且完整消费",
         "3个裸冻结字面量末尾LF用例按精确/Trim优先的既有契约更新预期，不修改源",
         "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留"
+      ],
+      "game_started": false,
+      "online_api_called": false,
+      "game_save_accessed": false
+    },
+    {
+      "consumer": "已安装真实 XUnity.AutoTranslator 5.6.2 的 RegexTranslationSplitter + ParserResult.GetTranslationFromParts；词表精确/Trim优先，Splitter逆序首匹配",
+      "notification_suite": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 616,
+        "command": "tools/translation/verify-recursive-ui.ps1 -TestsPath translation/supplemental/notification-ui-tests.json",
+        "existing_cases": 596,
+        "new_quote_cases": 20
+      },
+      "existing_suite": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 56,
+        "existing_cases": 49,
+        "new_italic_template_cases": 7,
+        "command": "runtime/build/VerifyRecursiveUiRules.exe <installed coreDLL> translation/sol-full-2026-10-09/dynamic-rules.json translation/sol-full-2026-10-09/translations.json translation/supplemental/dynamic-ui-tests.json"
+      },
+      "artifact_sha256": {
+        "translation/supplemental/notification-ui-rules.json": "bb8a27cc0a090c954d7aac44be8bdd105fb405a9da2531bcd4a41ee4cd46c2d3",
+        "translation/supplemental/notification-ui-tests.json": "718cbfea68c92fa1dfd52223d0be97f3a9118cb2919518ead57d8a41541725e1",
+        "translation/supplemental/dynamic-ui-tests.json": "318401e835740e2a2a85442e490896dac928098cb98dd26271c9b0f545fc5102",
+        "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
+        "translation/sol-full-2026-10-09/dynamic-rules.json": "c5238db07ea63717df99b6b7861647d4900988c294f69915ba1bbcfdc629042a",
+        "translation/sol-full-2026-10-09/translations.json": "53b8d96789d0c7bf4b728c24fec25e3fdbb75905fef0178506069809f5066941",
+        "tools/translation/VerifyRecursiveUiRules.cs": "6785d4fcc78111577ad7a5e7416ea327f19239a3808ed5de3ac0decee0c8584e",
+        "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+        "translation/supplemental/dynamic-ui-rules.json": "1404b5668f07320ab18f685c94439e0572798199b10c78c41bf5be5b095a8c0c"
+      },
+      "export": {
+        "passed": true,
+        "total_dynamic_rules": 90,
+        "recursive_ui_rules": 66,
+        "total_translations": 16843
+      },
+      "corrected_failures": [
+        "同源术语修订以两阶段 apply_supplemental 覆盖；同阶段唯一性校验保持严格",
+        "line-boundary 的有限零参原子本身可为完整条目，不要求原子后额外字符；两侧仍必须非空且完整消费",
+        "3个裸冻结字面量末尾LF用例按精确/Trim优先的既有契约更新预期，不修改源",
+        "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留",
+        "外层带完整引号的 now/no longer believes 专用规则目标恢复中文弯双引号；未加引号的嵌套或外层分支不新增引号。旧历史3预期按真实带引号源精确更新。",
+        "斜体日志封套先剥i会遮蔽a00941/a00942原含i格式模板；限定负向前瞻排除两种完整结构，单个尾LF由受限notification-trailing封套保留，body再交回旧模板。首匹配失败不换规则兜底。"
       ],
       "game_started": false,
       "online_api_called": false,

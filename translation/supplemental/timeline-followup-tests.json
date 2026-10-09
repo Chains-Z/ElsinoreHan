@@ -1,0 +1,830 @@
+[
+  {
+    "id": "timeline-followup-including-one",
+    "source": "Including Hamlet.",
+    "target": "参与者：哈姆雷特。",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-empty-one",
+    "source": "<line-height=90%>Including Hamlet.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>参与者：哈姆雷特。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-two",
+    "source": "Including Hamlet and Polonius.",
+    "target": "参与者：哈姆雷特和波洛涅斯。",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-empty-two",
+    "source": "<line-height=90%>Including Hamlet and Polonius.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>参与者：哈姆雷特和波洛涅斯。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-queen-two",
+    "source": "Including Queen Gertrude and Horatio.",
+    "target": "参与者：乔特鲁德王后和霍拉旭。",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-empty-queen-two",
+    "source": "<line-height=90%>Including Queen Gertrude and Horatio.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>参与者：乔特鲁德王后和霍拉旭。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-three",
+    "source": "Including Bernardo, King Claudius, and Polonius.",
+    "target": "参与者：贝尔纳多、克劳狄斯国王和波洛涅斯。",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-empty-three",
+    "source": "<line-height=90%>Including Bernardo, King Claudius, and Polonius.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>参与者：贝尔纳多、克劳狄斯国王和波洛涅斯。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-five",
+    "source": "Including King Claudius, Queen Gertrude, Hamlet, Horatio, and Quince.",
+    "target": "参与者：克劳狄斯国王、乔特鲁德王后、哈姆雷特、霍拉旭和奎因斯。",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-empty-five",
+    "source": "<line-height=90%>Including King Claudius, Queen Gertrude, Hamlet, Horatio, and Quince.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>参与者：克劳狄斯国王、乔特鲁德王后、哈姆雷特、霍拉旭和奎因斯。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-including-bare-empty",
+    "source": "Including Hamlet.\n<line-height=40%>\n<line-height=90%>",
+    "target": "参与者：哈姆雷特。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-queen-room",
+    "source": "Saturday, 00:30 in Gertrude's Chambers",
+    "target": "星期六 00:30，乔特鲁德的寝室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-queen-room-location",
+    "source": "Gertrude's Chambers •",
+    "target": "乔特鲁德的寝室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-not-attended-line-height",
+    "source": "<line-height=90%>Ophelia did not attend this event.\n",
+    "target": "<line-height=90%>奥菲莉娅未参与此事件。\n",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-queen-opener",
+    "source": "Saturday, 00:30 in Gertrude's Chambers, <i>in which</i> Hamlet presses his Mother on Claudius's actions.",
+    "target": "星期六 00:30，乔特鲁德的寝室，<i>事件：</i>哈姆雷特追问母亲，质疑克劳狄斯的所作所为。",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-queen-bold-opener",
+    "source": "<b>Saturday, 00:30 in Gertrude's Chambers</b>, <i>in which</i> Hamlet presses his Mother on Claudius's actions.",
+    "target": "<b>星期六 00:30，乔特鲁德的寝室</b>，<i>事件：</i>哈姆雷特追问母亲，质疑克劳狄斯的所作所为。",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-queen-not-attended-detail",
+    "source": "<line-height=90%>Saturday, 00:30 in Gertrude's Chambers, <i>in which</i> Hamlet presses his Mother on Claudius's actions.\n<line-height=40%>\n<line-height=90%><line-height=90%>Ophelia did not attend this event.\n",
+    "target": "<line-height=90%>星期六 00:30，乔特鲁德的寝室，<i>事件：</i>哈姆雷特追问母亲，质疑克劳狄斯的所作所为。\n<line-height=40%>\n<line-height=90%><line-height=90%>奥菲莉娅未参与此事件。\n",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-0",
+    "source": "Saturday, 00:30 in The Captain's Quarters",
+    "target": "星期六 00:30，船长室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-0",
+    "source": "The Captain's Quarters •",
+    "target": "船长室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-1",
+    "source": "Saturday, 00:30 in Castle Town's Streets",
+    "target": "星期六 00:30，城镇街道",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-1",
+    "source": "Castle Town's Streets •",
+    "target": "城镇街道 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-2",
+    "source": "Saturday, 00:30 in The Guards' Quarters",
+    "target": "星期六 00:30，卫兵宿舍",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-2",
+    "source": "The Guards' Quarters •",
+    "target": "卫兵宿舍 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-3",
+    "source": "Saturday, 00:30 in Claudius's Chambers",
+    "target": "星期六 00:30，克劳狄斯的寝室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-3",
+    "source": "Claudius's Chambers •",
+    "target": "克劳狄斯的寝室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-4",
+    "source": "Saturday, 00:30 in Gertrude's Chambers",
+    "target": "星期六 00:30，乔特鲁德的寝室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-4",
+    "source": "Gertrude's Chambers •",
+    "target": "乔特鲁德的寝室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-5",
+    "source": "Saturday, 00:30 in Polonius's Chambers",
+    "target": "星期六 00:30，波洛涅斯的寝室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-5",
+    "source": "Polonius's Chambers •",
+    "target": "波洛涅斯的寝室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-6",
+    "source": "Saturday, 00:30 in Laertes's Chambers",
+    "target": "星期六 00:30，雷欧提斯的寝室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-6",
+    "source": "Laertes's Chambers •",
+    "target": "雷欧提斯的寝室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-7",
+    "source": "Saturday, 00:30 in Ophelia's Chambers",
+    "target": "星期六 00:30，奥菲莉娅的寝室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-7",
+    "source": "Ophelia's Chambers •",
+    "target": "奥菲莉娅的寝室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-8",
+    "source": "Saturday, 00:30 in The Flinty & Steel",
+    "target": "星期六 00:30，燧石与钢酒馆",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-8",
+    "source": "The Flinty & Steel •",
+    "target": "燧石与钢酒馆 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-9",
+    "source": "Saturday, 00:30 in Hamlet's Chambers",
+    "target": "星期六 00:30，哈姆雷特的寝室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-9",
+    "source": "Hamlet's Chambers •",
+    "target": "哈姆雷特的寝室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-10",
+    "source": "Saturday, 00:30 in The Royal Gallery",
+    "target": "星期六 00:30，王室画廊",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-10",
+    "source": "The Royal Gallery •",
+    "target": "王室画廊 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-11",
+    "source": "Saturday, 00:30 in The Forest Path",
+    "target": "星期六 00:30，林间小径",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-11",
+    "source": "The Forest Path •",
+    "target": "林间小径 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-12",
+    "source": "Saturday, 00:30 in The Guard House",
+    "target": "星期六 00:30，卫兵室",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-12",
+    "source": "The Guard House •",
+    "target": "卫兵室 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-13",
+    "source": "Saturday, 00:30 in A Dungeon Cell",
+    "target": "星期六 00:30，牢房",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-13",
+    "source": "A Dungeon Cell •",
+    "target": "牢房 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-14",
+    "source": "Saturday, 00:30 in The Great Hall",
+    "target": "星期六 00:30，大厅",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-14",
+    "source": "The Great Hall •",
+    "target": "大厅 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-15",
+    "source": "Saturday, 00:30 in The Upper Deck",
+    "target": "星期六 00:30，上甲板",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-15",
+    "source": "The Upper Deck •",
+    "target": "上甲板 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-16",
+    "source": "Saturday, 00:30 in Lower Hallway",
+    "target": "星期六 00:30，下层走廊",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-16",
+    "source": "Lower Hallway •",
+    "target": "下层走廊 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-17",
+    "source": "Saturday, 00:30 in The Courtyard",
+    "target": "星期六 00:30，庭院",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-17",
+    "source": "The Courtyard •",
+    "target": "庭院 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-18",
+    "source": "Saturday, 00:30 in The Graveyard",
+    "target": "星期六 00:30，墓地",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-18",
+    "source": "The Graveyard •",
+    "target": "墓地 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-19",
+    "source": "Saturday, 00:30 in The Main Deck",
+    "target": "星期六 00:30，主甲板",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-19",
+    "source": "The Main Deck •",
+    "target": "主甲板 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-20",
+    "source": "Saturday, 00:30 in Upper Hallway",
+    "target": "星期六 00:30，上层走廊",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-20",
+    "source": "Upper Hallway •",
+    "target": "上层走廊 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-21",
+    "source": "Saturday, 00:30 in Lower Garden",
+    "target": "星期六 00:30，下层花园",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-21",
+    "source": "Lower Garden •",
+    "target": "下层花园 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-22",
+    "source": "Saturday, 00:30 in The Dungeon",
+    "target": "星期六 00:30，地牢",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-22",
+    "source": "The Dungeon •",
+    "target": "地牢 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-23",
+    "source": "Saturday, 00:30 in The Grounds",
+    "target": "星期六 00:30，城堡外庭",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-23",
+    "source": "The Grounds •",
+    "target": "城堡外庭 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-24",
+    "source": "Saturday, 00:30 in The Kitchen",
+    "target": "星期六 00:30，厨房",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-24",
+    "source": "The Kitchen •",
+    "target": "厨房 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-25",
+    "source": "Saturday, 00:30 in The Landing",
+    "target": "星期六 00:30，平台",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-25",
+    "source": "The Landing •",
+    "target": "平台 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-26",
+    "source": "Saturday, 00:30 in The Chapel",
+    "target": "星期六 00:30，礼拜堂",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-26",
+    "source": "The Chapel •",
+    "target": "礼拜堂 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-27",
+    "source": "Saturday, 00:30 in The Docks",
+    "target": "星期六 00:30，码头",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-27",
+    "source": "The Docks •",
+    "target": "码头 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-28",
+    "source": "Saturday, 00:30 in The Walls",
+    "target": "星期六 00:30，城墙",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-28",
+    "source": "The Walls •",
+    "target": "城墙 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-29",
+    "source": "Saturday, 00:30 in Limbo",
+    "target": "星期六 00:30，虚空",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-29",
+    "source": "Limbo •",
+    "target": "虚空 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-time-30",
+    "source": "Saturday, 00:30 in Shack",
+    "target": "星期六 00:30，小屋",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-scene-room-location-30",
+    "source": "Shack •",
+    "target": "小屋 •",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-full-empty-hamlet-sleep",
+    "source": "<line-height=90%>Thursday, 06:02 in Ophelia's Chambers, <i>in which</i> Hamlet's ravings interrupt my sleep.\n<line-height=40%>\n<line-height=90%><line-height=90%>Including Hamlet.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>星期四 06:02，奥菲莉娅的寝室，<i>事件：</i>哈姆雷特的疯言疯语扰了我的睡眠。\n<line-height=40%>\n<line-height=90%><line-height=90%>参与者：哈姆雷特。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-full-empty-polonius-question",
+    "source": "<line-height=90%>Thursday, 11:43 in The Royal Gallery, <i>in which</i> Polonius questions Hamlet.\n<line-height=40%>\n<line-height=90%><line-height=90%>Including Hamlet and Polonius.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>星期四 11:43，王室画廊，<i>事件：</i>波洛涅斯询问哈姆雷特。\n<line-height=40%>\n<line-height=90%><line-height=90%>参与者：哈姆雷特和波洛涅斯。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-full-empty-horatio-queen",
+    "source": "<line-height=90%>Saturday, 08:02 in The Grounds, <i>in which</i> Horatio and Gertrude have a heart to heart.\n<line-height=40%>\n<line-height=90%><line-height=90%>Including Queen Gertrude and Horatio.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>星期六 08:02，城堡外庭，<i>事件：</i>霍拉旭与乔特鲁德敞开心扉交谈。\n<line-height=40%>\n<line-height=90%><line-height=90%>参与者：乔特鲁德王后和霍拉旭。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-full-empty-hamlet-play",
+    "source": "<line-height=90%>Friday, 17:15 in The Great Hall, <i>in which</i> Quince puts on the play that Hamlet designed.\n<line-height=40%>\n<line-height=90%><line-height=90%>Including King Claudius, Queen Gertrude, Hamlet, Horatio, and Quince.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>星期五 17:15，大厅，<i>事件：</i>奎因斯上演哈姆雷特设计的戏。\n<line-height=40%>\n<line-height=90%><line-height=90%>参与者：克劳狄斯国王、乔特鲁德王后、哈姆雷特、霍拉旭和奎因斯。\n<line-height=40%>\n<line-height=90%>",
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-0",
+    "source": "Including UnknownCharacter.",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-1",
+    "source": "Including Hamlet and UnknownCharacter.",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-2",
+    "source": "Including King Claudius, UnknownCharacter, and Hamlet.",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-3",
+    "source": "<line-height=90%>Including UnknownCharacter.\n<line-height=40%>\n<line-height=90%>",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-4",
+    "source": "<line-height=90%>Including Hamlet and UnknownCharacter.\n<line-height=40%>\n<line-height=90%>",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-5",
+    "source": "Including Hamlet in another unknown scene.",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-6",
+    "source": "Saturday, 00:30 in UnknownRoom, <i>in which</i> Hamlet presses his Mother on Claudius's actions.",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-7",
+    "source": "Saturday, 00:30 in queens_chambers, <i>in which</i> Hamlet presses his Mother on Claudius's actions.",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  },
+  {
+    "id": "timeline-followup-reject-8",
+    "source": "<line-height=90%>Including Hamlet.\n<line-height=40%>\n<line-height=80%>",
+    "target": null,
+    "origins": [
+      "用户2026-10-10时间线截图",
+      "analysis/ui-audit/timeline-followup-source-audit.json"
+    ]
+  }
+]

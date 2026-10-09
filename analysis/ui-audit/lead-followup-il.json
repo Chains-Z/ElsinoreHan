@@ -1,0 +1,211 @@
+{
+  "scope": "静态IL，只读原程序集；线索活动段按资源顺序用双LF连接，前置90%行高；LeadLine编译时执行九步破折号替换",
+  "files": [
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Elsinore.dll",
+      "sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4"
+    }
+  ],
+  "methods": [
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.String Elsinore.Ui.GuiUtils::FormatLeadText(Elsinore.Game.LeadType,Elsinore.Game.Lead,Elsinore.Game.GameState)",
+      "full_il": [
+        "IL_0000: newobj System.Void Elsinore.Ui.GuiUtils/<>c__DisplayClass19_0::.ctor()",
+        "IL_0005: stloc.0",
+        "IL_0006: ldloc.0",
+        "IL_0007: ldarg.0",
+        "IL_0008: stfld Elsinore.Game.LeadType Elsinore.Ui.GuiUtils/<>c__DisplayClass19_0::typ",
+        "IL_000d: ldloc.0",
+        "IL_000e: ldarg.1",
+        "IL_000f: stfld Elsinore.Game.Lead Elsinore.Ui.GuiUtils/<>c__DisplayClass19_0::lead",
+        "IL_0014: ldloc.0",
+        "IL_0015: ldarg.2",
+        "IL_0016: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_001b: stfld Agakme.Logic/LogicState Elsinore.Ui.GuiUtils/<>c__DisplayClass19_0::logic",
+        "IL_0020: ldloc.0",
+        "IL_0021: ldfld Elsinore.Game.Lead Elsinore.Ui.GuiUtils/<>c__DisplayClass19_0::lead",
+        "IL_0026: callvirt Elsinore.Game.LeadLine[] Elsinore.Game.Lead::get_Lines()",
+        "IL_002b: ldloc.0",
+        "IL_002c: ldftn System.Boolean Elsinore.Ui.GuiUtils/<>c__DisplayClass19_0::<FormatLeadText>b__0(Elsinore.Game.LeadLine)",
+        "IL_0032: newobj System.Void System.Func`2<Elsinore.Game.LeadLine,System.Boolean>::.ctor(System.Object,System.IntPtr)",
+        "IL_0037: call System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<Elsinore.Game.LeadLine>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)",
+        "IL_003c: ldsfld System.Func`2<Elsinore.Game.LeadLine,System.String> Elsinore.Ui.GuiUtils/<>c::<>9__19_1",
+        "IL_0041: dup",
+        "IL_0042: brtrue.s IL_005b",
+        "IL_0044: pop",
+        "IL_0045: ldsfld Elsinore.Ui.GuiUtils/<>c Elsinore.Ui.GuiUtils/<>c::<>9",
+        "IL_004a: ldftn System.String Elsinore.Ui.GuiUtils/<>c::<FormatLeadText>b__19_1(Elsinore.Game.LeadLine)",
+        "IL_0050: newobj System.Void System.Func`2<Elsinore.Game.LeadLine,System.String>::.ctor(System.Object,System.IntPtr)",
+        "IL_0055: dup",
+        "IL_0056: stsfld System.Func`2<Elsinore.Game.LeadLine,System.String> Elsinore.Ui.GuiUtils/<>c::<>9__19_1",
+        "IL_005b: call System.Collections.Generic.IEnumerable`1<!!1> System.Linq.Enumerable::Select<Elsinore.Game.LeadLine,System.String>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,!!1>)",
+        "IL_0060: call !!0[] System.Linq.Enumerable::ToArray<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)",
+        "IL_0065: stloc.1",
+        "IL_0066: ldloc.1",
+        "IL_0067: ldlen",
+        "IL_0068: brfalse.s IL_007b",
+        "IL_006a: ldstr \"\n\n\"",
+        "IL_006f: ldloc.1",
+        "IL_0070: call !!0[] System.Linq.Enumerable::ToArray<System.String>(System.Collections.Generic.IEnumerable`1<!!0>)",
+        "IL_0075: call System.String System.String::Join(System.String,System.String[])",
+        "IL_007a: ret",
+        "IL_007b: ldnull",
+        "IL_007c: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.JournalLeadsTab/<>c__DisplayClass19_0::<OnEnable>b__3(System.Boolean)",
+      "full_il": [
+        "IL_0000: ldarg.1",
+        "IL_0001: brfalse.s IL_006b",
+        "IL_0003: ldarg.0",
+        "IL_0004: ldfld Elsinore.Ui.JournalLeadsTab Elsinore.Ui.JournalLeadsTab/<>c__DisplayClass19_0::<>4__this",
+        "IL_0009: ldfld Elsinore.Ui.UiScrollbar Elsinore.Ui.JournalLeadsTab::DescriptionScrollBar",
+        "IL_000e: ldc.r4 1",
+        "IL_0013: callvirt System.Void UnityEngine.UI.Scrollbar::set_value(System.Single)",
+        "IL_0018: ldarg.0",
+        "IL_0019: ldfld Elsinore.Ui.JournalLeadsTab Elsinore.Ui.JournalLeadsTab/<>c__DisplayClass19_0::<>4__this",
+        "IL_001e: ldfld System.Collections.Generic.Dictionary`2<System.String,Elsinore.Ui.GuiUtils/LeadText> Elsinore.Ui.JournalLeadsTab::leadTextMapping",
+        "IL_0023: ldarg.0",
+        "IL_0024: ldfld Elsinore.Game.Lead Elsinore.Ui.JournalLeadsTab/<>c__DisplayClass19_0::lead",
+        "IL_0029: callvirt System.String Elsinore.Game.Lead::get_Id()",
+        "IL_002e: call V Elsinore.Miscellany::Get<System.String,Elsinore.Ui.GuiUtils/LeadText>(System.Collections.Generic.IDictionary`2<K,V>,K)",
+        "IL_0033: stloc.0",
+        "IL_0034: ldarg.0",
+        "IL_0035: ldfld Elsinore.Ui.JournalLeadsTab Elsinore.Ui.JournalLeadsTab/<>c__DisplayClass19_0::<>4__this",
+        "IL_003a: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.JournalLeadsTab::TitleText",
+        "IL_003f: ldloc.0",
+        "IL_0040: ldfld System.String Elsinore.Ui.GuiUtils/LeadText::Title",
+        "IL_0045: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_004a: ldarg.0",
+        "IL_004b: ldfld Elsinore.Ui.JournalLeadsTab Elsinore.Ui.JournalLeadsTab/<>c__DisplayClass19_0::<>4__this",
+        "IL_0050: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.JournalLeadsTab::DescriptionText",
+        "IL_0055: ldarg.0",
+        "IL_0056: ldfld Elsinore.Ui.JournalLeadsTab Elsinore.Ui.JournalLeadsTab/<>c__DisplayClass19_0::<>4__this",
+        "IL_005b: ldfld System.Text.StringBuilder Elsinore.Ui.JournalLeadsTab::builder",
+        "IL_0060: ldloc.0",
+        "IL_0061: ldfld System.String Elsinore.Ui.GuiUtils/LeadText::Content",
+        "IL_0066: call System.Void Elsinore.Ui.UiStrings::SetTextWithLineHeight(TMPro.TextMeshProUGUI,System.Text.StringBuilder,System.String)",
+        "IL_006b: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder)",
+      "full_il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \"<line-height={0}>\"",
+        "IL_0006: ldstr \"90%\"",
+        "IL_000b: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+        "IL_0010: pop",
+        "IL_0011: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::SetTextWithLineHeight(TMPro.TextMeshProUGUI,System.Text.StringBuilder,System.String)",
+      "full_il": [
+        "IL_0000: ldarg.1",
+        "IL_0001: callvirt System.Text.StringBuilder System.Text.StringBuilder::Clear()",
+        "IL_0006: pop",
+        "IL_0007: ldarg.1",
+        "IL_0008: call System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder)",
+        "IL_000d: ldarg.1",
+        "IL_000e: ldarg.2",
+        "IL_000f: callvirt System.Text.StringBuilder System.Text.StringBuilder::Append(System.String)",
+        "IL_0014: pop",
+        "IL_0015: ldarg.0",
+        "IL_0016: ldarg.1",
+        "IL_0017: callvirt System.Void TMPro.TMP_Text::SetText(System.Text.StringBuilder)",
+        "IL_001c: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "method": "System.Void Elsinore.Ui.UiStrings::SetLineHeight(System.Text.StringBuilder,System.String)",
+      "full_il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \"<line-height={0}>\"",
+        "IL_0006: ldarg.1",
+        "IL_0007: callvirt System.Text.StringBuilder System.Text.StringBuilder::AppendFormat(System.String,System.Object)",
+        "IL_000c: pop",
+        "IL_000d: ret"
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "System.String Elsinore.Game.CompilerPasses::doTextReplacement(System.String)",
+      "full_il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \" -- \"",
+        "IL_0006: ldstr \"—\"",
+        "IL_000b: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_0010: ldstr \" --- \"",
+        "IL_0015: ldstr \"—\"",
+        "IL_001a: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_001f: ldstr \" - \"",
+        "IL_0024: ldstr \"—\"",
+        "IL_0029: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_002e: ldstr \"-- \"",
+        "IL_0033: ldstr \"—\"",
+        "IL_0038: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_003d: ldstr \"--- \"",
+        "IL_0042: ldstr \"—\"",
+        "IL_0047: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_004c: ldstr \" --\"",
+        "IL_0051: ldstr \"—\"",
+        "IL_0056: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_005b: ldstr \" ---\"",
+        "IL_0060: ldstr \"—\"",
+        "IL_0065: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_006a: ldstr \"--\"",
+        "IL_006f: ldstr \"—\"",
+        "IL_0074: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_0079: ldstr \"---\"",
+        "IL_007e: ldstr \"—\"",
+        "IL_0083: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_0088: ret"
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "Elsinore.Game.LeadLine Elsinore.Game.CompilerPasses::f@294-51(Elsinore.Game.LeadLine)",
+      "full_il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldfld System.String Elsinore.Game.LeadLine::Id@",
+        "IL_0006: ldarg.0",
+        "IL_0007: ldfld System.String Elsinore.Game.LeadLine::Text@",
+        "IL_000c: call System.String Elsinore.Game.CompilerPasses::doTextReplacement(System.String)",
+        "IL_0011: ldarg.0",
+        "IL_0012: ldfld Agakme.Scripting.Ast/Expression Elsinore.Game.LeadLine::ActiveCondition@",
+        "IL_0017: ldarg.0",
+        "IL_0018: ldfld Agakme.Scripting.Ast/Expression Elsinore.Game.LeadLine::ObsoleteCondition@",
+        "IL_001d: newobj System.Void Elsinore.Game.LeadLine::.ctor(System.String,System.String,Agakme.Scripting.Ast/Expression,Agakme.Scripting.Ast/Expression)",
+        "IL_0022: ret"
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "Elsinore.Game.LeadLine Elsinore.Game.CompilerPasses::f@294-50(Elsinore.Game.LeadLine)",
+      "full_il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldfld System.String Elsinore.Game.LeadLine::Id@",
+        "IL_0006: ldarg.0",
+        "IL_0007: ldfld System.String Elsinore.Game.LeadLine::Text@",
+        "IL_000c: call System.String Elsinore.Game.CompilerPasses::doTextReplacement(System.String)",
+        "IL_0011: ldarg.0",
+        "IL_0012: ldfld Agakme.Scripting.Ast/Expression Elsinore.Game.LeadLine::ActiveCondition@",
+        "IL_0017: ldarg.0",
+        "IL_0018: ldfld Agakme.Scripting.Ast/Expression Elsinore.Game.LeadLine::ObsoleteCondition@",
+        "IL_001d: newobj System.Void Elsinore.Game.LeadLine::.ctor(System.String,System.String,Agakme.Scripting.Ast/Expression,Agakme.Scripting.Ast/Expression)",
+        "IL_0022: ret"
+      ]
+    }
+  ]
+}

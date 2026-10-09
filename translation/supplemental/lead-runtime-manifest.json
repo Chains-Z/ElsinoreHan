@@ -1,0 +1,2082 @@
+{
+  "0": [
+    {
+      "line_index": 0,
+      "line_id": "book_1",
+      "source": "King Hamlet believes that if he had found a book—the Hand of Dionysus—he could have found a way to put an end to his plight. If this book exists, and is the source of this castle's curse, surely someone has to know something about it.",
+      "target": "哈姆雷特国王相信，如果他当初找到一本名为《狄俄尼索斯之手》的书，就能找到摆脱困境的办法。如果这本书存在，而且是城堡诅咒的源头，那一定有人知道些什么。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[0].text",
+        "field": "text",
+        "record_id": "book_1"
+      },
+      "translation_id": "p00051-4939e5f3905c"
+    },
+    {
+      "line_index": 0,
+      "line_id": "initial",
+      "source": "It's been a long day, and everyone is off to bed. I should go, too.",
+      "target": "漫长的一天终于过去，大家都去睡了。我也该去了。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "2ec2fae74d693a76ca998b587de31433a74c8f5474858272144fe7c1cf2aaa52",
+        "json_path": "$.list[0].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      },
+      "translation_id": "p00198-0d9330778ba7"
+    },
+    {
+      "line_index": 0,
+      "line_id": "initial",
+      "source": "I've woken up in my bed again, but things feel—different. Strange.",
+      "target": "我又在自己的床上醒来，但感觉一切——不一样了。很奇怪。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "c47a11cd12cf2b0d928b3e071f8496034833b027f816affcd6e14dd38bea1bd0",
+        "json_path": "$.list[0].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      },
+      "translation_id": "p10557-97beb69156cc"
+    },
+    {
+      "line_index": 1,
+      "line_id": "book_2",
+      "source": "It seems clear this is the same book Quince had stolen from him long ago. If I can find it, then Quince might be able to offer some guidance on what to do with it next.",
+      "target": "看来很明显，这就是奎因斯很久以前从他那里偷走的那本书。如果我能找到它，奎因斯也许能指点我接下来该如何使用它。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[1].text",
+        "field": "text",
+        "record_id": "book_2"
+      },
+      "translation_id": "p00052-53b3034bfb7d"
+    },
+    {
+      "line_index": 1,
+      "line_id": "complete",
+      "source": "N/A",
+      "target": "不适用",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "2ec2fae74d693a76ca998b587de31433a74c8f5474858272144fe7c1cf2aaa52",
+        "json_path": "$.list[0].lines[1].text",
+        "field": "text",
+        "record_id": "complete"
+      },
+      "translation_id": "p00199-e2f79e5b6033"
+    },
+    {
+      "line_index": 1,
+      "line_id": "second",
+      "source": "My father was waiting, as usual, but not to chastise me—rather, to invite me to some sort of feast in the Great Hall. I'll need to join everyone there.",
+      "target": "父亲像往常一样等着我，但不是为了训斥我——而是邀请我去大厅参加一场宴会。我得去那里和大家会合。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "c47a11cd12cf2b0d928b3e071f8496034833b027f816affcd6e14dd38bea1bd0",
+        "json_path": "$.list[0].lines[1].text",
+        "field": "text",
+        "record_id": "second"
+      },
+      "translation_id": "p10558-0add51fae0da"
+    },
+    {
+      "line_index": 2,
+      "line_id": "book_3",
+      "source": "Lady Simona was last seen with the Book of Fates, and I know something King Hamlet did not: She's still alive. I can find her. Someone who sees a great deal of people on a daily basis might know...",
+      "target": "西蒙娜女士最后一次被人见到时，带着《命运之书》。而我知道一件哈姆雷特国王不知道的事：她还活着。我能找到她。每天都见到很多人的人，也许会知道……",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[2].text",
+        "field": "text",
+        "record_id": "book_3"
+      },
+      "translation_id": "p00053-faed11af299c"
+    },
+    {
+      "line_index": 2,
+      "line_id": "third",
+      "source": "I'd forgotten what it was like to see them all happy. This world—this new world—is this the world that would have been without the Book of Fates, without any of it?",
+      "target": "我都忘了，看见大家都开开心心是什么感觉。这个世界——这个新的世界——难道就是没有《命运之书》、没有这一切时，本该存在的世界吗？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "c47a11cd12cf2b0d928b3e071f8496034833b027f816affcd6e14dd38bea1bd0",
+        "json_path": "$.list[0].lines[2].text",
+        "field": "text",
+        "record_id": "third"
+      },
+      "translation_id": "p10559-88503d769b4e"
+    },
+    {
+      "line_index": 3,
+      "line_id": "book_4",
+      "source": "Othello says Simona has been living in Castle Town all along—her identity hidden, I suppose, but it's easier if no one even suspects they ought to be looking for you. She'll return to the bar on Sunday afternoon.",
+      "target": "奥赛罗说，西蒙娜一直住在城堡镇——我想，她隐瞒了身份，不过，如果根本没人想到要找你，藏身就容易多了。她会在星期天下午回到酒馆。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[3].text",
+        "field": "text",
+        "record_id": "book_4"
+      },
+      "translation_id": "p00054-5a73618999ca"
+    },
+    {
+      "line_index": 4,
+      "line_id": "book_4b",
+      "source": "Othello told me Simona returns to castle town Sunday, but Fortinbras's invasion of Castle Town begins before I have a chance to meet her. How can I push back the invasion's onslaught? Surely there must be a way.",
+      "target": "奥赛罗告诉我，西蒙娜星期天会回到城堡镇，但还没等我有机会见她，福丁布拉斯就开始入侵城堡镇了。我该怎样推迟这场进攻？一定有办法。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[4].text",
+        "field": "text",
+        "record_id": "book_4b"
+      },
+      "translation_id": "p00055-77bd7de4ee30"
+    },
+    {
+      "line_index": 5,
+      "line_id": "book_complete",
+      "source": "I... found it. I possess the Book of Fates. So many pieces had to be moved in order for me to find it, but it now sits on my table. The book itself does not provide one exit, but many—and it seems Quince is far from who I thought he was. ",
+      "target": "我……找到它了。《命运之书》已经在我手里。为了找到它，我不得不改变许多事情，但现在，它就在我的桌上。这本书提供的出路不止一条，而是许多条——看来，奎因斯也远不是我以为的那个人。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[5].text",
+        "field": "text",
+        "record_id": "book_complete"
+      },
+      "translation_id": "p00056-5bbf76b75a35"
+    }
+  ],
+  "1": [
+    {
+      "line_index": 0,
+      "line_id": "fort_1",
+      "source": "Fortinbras' offer of peace was a ruse. Elsinore comes to a violent end when he and his men storm the castle. But now that I know this is coming, surely there must be something I can do?",
+      "target": "福丁布拉斯提出议和只是个幌子。当他带人攻入城堡时，埃尔西诺便在暴力中走向终结。但现在我知道这一切即将发生，一定能做点什么吧？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[1].lines[0].text",
+        "field": "text",
+        "record_id": "fort_1"
+      },
+      "translation_id": "p00058-1b4a8e44bc9b"
+    },
+    {
+      "line_index": 0,
+      "line_id": "initial",
+      "source": "My father is worried about Laertes' upcoming trip, and wants to talk to my brother before he goes. And of course, it falls on me to get him. Where on earth could he be?",
+      "target": "父亲担心雷欧提斯即将启程的这趟旅行，想在哥哥出发前和他谈谈。当然，找他的差事又落在了我头上。他到底会在哪儿呢？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "2ec2fae74d693a76ca998b587de31433a74c8f5474858272144fe7c1cf2aaa52",
+        "json_path": "$.list[1].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      },
+      "translation_id": "p00195-cae6fc53d026"
+    },
+    {
+      "line_index": 1,
+      "line_id": "fort_2",
+      "source": "Apparently Bernardo and Father have been convinced that Fortinbras posed a threat for months, but the King has been reluctant to act. They need more compelling evidence—some source close to Norway that could give me information.",
+      "target": "看来，贝尔纳多和父亲几个月来一直认定福丁布拉斯是个威胁，但国王迟迟不愿采取行动。他们需要更有说服力的证据——某个与挪威关系密切的消息来源，或许能向我提供情报。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[1].lines[1].text",
+        "field": "text",
+        "record_id": "fort_2"
+      },
+      "translation_id": "p00059-3007e5cf0a0d"
+    },
+    {
+      "line_index": 1,
+      "line_id": "atking",
+      "source": "Laertes and Prince Hamlet are currently getting permission from the King to leave Denmark. They can be found in the Great Hall.",
+      "target": "雷欧提斯和哈姆雷特王子正在请求国王准许他们离开丹麦。他们在大厅里。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "2ec2fae74d693a76ca998b587de31433a74c8f5474858272144fe7c1cf2aaa52",
+        "json_path": "$.list[1].lines[1].text",
+        "field": "text",
+        "record_id": "atking"
+      },
+      "translation_id": "p00200-da52c3fe1bc2"
+    },
+    {
+      "line_index": 2,
+      "line_id": "fort_3",
+      "source": "With the help of Lady Brit, of all people, I was able to spy on Fortinbras in town and get the information I needed. I now know where in town the Prince is hiding. Perhaps Father or Bernardo could do something with this.",
+      "target": "没想到，帮我的竟然是布莉特女士。有她相助，我得以在镇上暗中监视福丁布拉斯，拿到了所需的情报。现在我知道王子藏在镇上的什么地方了。也许父亲或贝尔纳多能利用这个消息做点什么。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[1].lines[2].text",
+        "field": "text",
+        "record_id": "fort_3"
+      },
+      "translation_id": "p00060-1a322ac51c5b"
+    },
+    {
+      "line_index": 2,
+      "line_id": "waitingtoend",
+      "source": "Laertes has to wait for the war council meeting to end, but I'm not sure it ever will at this rate. Surely someone at this meeting can intervene on his behalf?",
+      "target": "雷欧提斯得等军事会议结束，但照这个进度，我都怀疑它会不会有结束的时候。与会的人里，总该有人能替他说句话吧？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "2ec2fae74d693a76ca998b587de31433a74c8f5474858272144fe7c1cf2aaa52",
+        "json_path": "$.list[1].lines[2].text",
+        "field": "text",
+        "record_id": "waitingtoend"
+      },
+      "translation_id": "p00201-fc92bd2ba6fa"
+    },
+    {
+      "line_index": 3,
+      "line_id": "fort_4",
+      "source": "Fortinbras is in prison! If I give the War Council the information, Bernardo is able to find him and overwhelm him in town. As long as Norway's prince is in our hands, they won't dare mobilize against us. Could this actually work?",
+      "target": "福丁布拉斯入狱了！如果我把情报交给军事议事会，贝尔纳多就能在镇上找到他，将他制服。只要挪威王子在我们手里，他们就不敢调兵对付我们。这真的能行吗？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[1].lines[3].text",
+        "field": "text",
+        "record_id": "fort_4"
+      },
+      "translation_id": "p00061-a8eef1b22b65"
+    },
+    {
+      "line_index": 3,
+      "line_id": "complete",
+      "source": "By talking to Queen Gertrude, I was finally able to free Laertes from the meeting. King Claudius granted my brother permission to leave for Paris, but denied Prince Hamlet a similar request. Now Laertes wants to meet with me before he leaves.",
+      "target": "和乔特鲁德王后谈过之后，我终于让雷欧提斯脱身离开了会议。克劳狄斯国王准许哥哥前往巴黎，却拒绝了哈姆雷特王子类似的请求。现在，雷欧提斯想在出发前和我见一面。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "2ec2fae74d693a76ca998b587de31433a74c8f5474858272144fe7c1cf2aaa52",
+        "json_path": "$.list[1].lines[3].text",
+        "field": "text",
+        "record_id": "complete"
+      },
+      "translation_id": "p00202-8c81cd121984"
+    },
+    {
+      "line_index": 4,
+      "line_id": "fort_5",
+      "source": "We almost had him! It seems if we suffer any losses, Fortinbras is able to take advantage of our internal disarray and escape. The invasion will still be delayed, but to stop it entirely... well, I'll simply need to keep everyone alive. Sounds deceptively straightforward.",
+      "target": "我们差一点就抓住他了！看来，只要我们有人丧命，福丁布拉斯就能趁内部混乱逃脱。入侵仍会推迟，但要彻底阻止它……嗯，我只需要让所有人都活下来。听着很简单，做起来可没那么容易。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[1].lines[4].text",
+        "field": "text",
+        "record_id": "fort_5"
+      },
+      "translation_id": "p00062-ddad03df1ac1"
+    },
+    {
+      "line_index": 5,
+      "line_id": "fort_complete",
+      "source": "I've... actually done it. The invasion has been held off, and everyone close to me survived! But it seems this is not a clean victory. The coming battles will drain on us and our nation. Is that worth it, to keep all my friends and family alive?",
+      "target": "我……真的做到了。入侵被挡住了，我身边所有亲近的人都活了下来！但看来，这场胜利并非没有代价。接下来的战斗会不断消耗我们和国家的力量。为了让所有亲友都活着，这样做值得吗？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[1].lines[5].text",
+        "field": "text",
+        "record_id": "fort_complete"
+      },
+      "translation_id": "p00063-8e07404fb960"
+    }
+  ],
+  "2": [
+    {
+      "line_index": 0,
+      "line_id": "brit_1",
+      "source": "Brit has never been warm to me, but these days she seems especially down. I wonder if anyone has any ideas as to how I could reach her.",
+      "target": "布莉特从来没对我热情过，但这些天她似乎格外低落。不知道有没有人能帮我想想，怎样才能走近她。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[0].text",
+        "field": "text",
+        "record_id": "brit_1"
+      },
+      "translation_id": "p00065-c57d1a1ff3c9"
+    },
+    {
+      "line_index": 1,
+      "line_id": "brit_2c2",
+      "source": "When I saw Brit and Laertes meet, she told him something interesting: she's been divested of her artist's tools, and hasn't received a single letter from her mother. My brother proposed Horatio could help with the former, and Her Majesty with the latter.",
+      "target": "我看到布莉特和雷欧提斯见面时，她告诉他一件值得注意的事：她的绘画工具被拿走了，而且她连一封母亲的来信都没收到。哥哥提出，前一件事可以找霍拉旭帮忙，后一件则可以找王后陛下。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[1].text",
+        "field": "text",
+        "record_id": "brit_2c2"
+      },
+      "translation_id": "p00066-6c79d4eb03e2"
+    },
+    {
+      "line_index": 2,
+      "line_id": "brit_2a1",
+      "source": "Horatio offered to help make new paints together in order to replace the ones that Brit used to have. Apparently he needs three components: charcoal, eggs, and linen. Pretty sure I can get some linen from my drawers, but I'll have to find a source for the other two.",
+      "target": "霍拉旭提出帮我一起制作新颜料，替代布莉特原来的那些。看来他需要三样东西：木炭、鸡蛋和亚麻布。我应该能从自己的抽屉里找到些亚麻布，但另外两样还得另找来源。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[2].text",
+        "field": "text",
+        "record_id": "brit_2a1"
+      },
+      "translation_id": "p00067-aaa0d6b87deb"
+    },
+    {
+      "line_index": 3,
+      "line_id": "brit_2a2",
+      "source": "I can get charcoal from a fireplace, eggs from Irma's kitchen, and linen from my own dresser. With them, Horatio is able to make Brit a new set of paints!",
+      "target": "我可以从壁炉里拿到木炭，从伊尔玛的厨房拿到鸡蛋，再从自己的衣柜里拿到亚麻布。有了这些，霍拉旭就能为布莉特制作一套新颜料！",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[3].text",
+        "field": "text",
+        "record_id": "brit_2a2"
+      },
+      "translation_id": "p00068-239f49aaec0d"
+    },
+    {
+      "line_index": 4,
+      "line_id": "brit_2c",
+      "source": "I can tell Laertes about Brit's situation, and he will agree to stay behind and check in on her. Hopefully, that meeting will go well.",
+      "target": "我可以把布莉特的情况告诉雷欧提斯，他会同意留下来，去看看她。希望这次见面能顺利。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[4].text",
+        "field": "text",
+        "record_id": "brit_2c"
+      },
+      "translation_id": "p00069-c1bf82b18e88"
+    },
+    {
+      "line_index": 5,
+      "line_id": "brit_2b1",
+      "source": "Gertrude has been encouraging Brit to focus on her duties in the Castle, to the extent that she's been hiding letters from Brit's mother! She said something about 'where unheard wishes go.' What could that mean?",
+      "target": "乔特鲁德一直劝布莉特专心履行城堡里的职责，甚至藏起了布莉特母亲的来信！她提到什么“无人听见的愿望所去之处”。这是什么意思？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[5].text",
+        "field": "text",
+        "record_id": "brit_2b1"
+      },
+      "translation_id": "p00070-b2fe44d7ec37"
+    },
+    {
+      "line_index": 6,
+      "line_id": "brit_2b2",
+      "source": "Gertrude hid letters from Brit's mother in the well in the grounds. Needless to say, Brit was not happy with them having been kept from her when I delivered them.",
+      "target": "乔特鲁德把布莉特母亲的来信藏在了庭院的井里。不用说，我把信交给布莉特时，她对这些信一直被瞒着的事很不高兴。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[6].text",
+        "field": "text",
+        "record_id": "brit_2b2"
+      },
+      "translation_id": "p00071-b1ee3d5cfb15"
+    },
+    {
+      "line_index": 7,
+      "line_id": "brit_3a",
+      "source": "Unfortunately, it seems doing just one thing won't be enough to get Brit to open up to me. I'll have to figure out a couple different things to do.",
+      "target": "可惜，看来只做一件事，还不足以让布莉特向我敞开心扉。我得想想还能做哪几件不同的事。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[7].text",
+        "field": "text",
+        "record_id": "brit_3a"
+      },
+      "translation_id": "p00072-7f37ba3c23b3"
+    },
+    {
+      "line_index": 8,
+      "line_id": "brit_3b",
+      "source": "I've succeeded. I had to perform a couple little acts of service, but I can sense that I'm getting to her. She said she plans head to the Castle Town bar, if I can catch her there, perhaps after we'll finally be able to talk.",
+      "target": "我成功了。我得帮她做几件小事，但能感觉到她开始接纳我了。她说她打算去城堡镇的酒馆，如果我能在那里遇见她，也许之后我们终于能好好谈谈。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[2].lines[8].text",
+        "field": "text",
+        "record_id": "brit_3b"
+      },
+      "translation_id": "p00073-efafe2bcdc7b"
+    }
+  ],
+  "3": [
+    {
+      "line_index": 0,
+      "line_id": "notes_0",
+      "source": "I saw Father burning some notes late at night in his room. What is he trying to hide?",
+      "target": "我看到父亲深夜在房间里烧一些笔记。他想隐瞒什么？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[3].lines[0].text",
+        "field": "text",
+        "record_id": "notes_0"
+      },
+      "translation_id": "p00075-81b12d145594"
+    },
+    {
+      "line_index": 1,
+      "line_id": "notes_0a",
+      "source": "I've learned that by telling others about the burned documents, Father will be imprisoned, but I'm still no closer to learning about what those notes contain. I wonder if there's <b>something I'm missing</b> which might help me here.",
+      "target": "我发现，只要把焚烧文件的事告诉别人，父亲就会被关进监狱，但我还是一点也没弄清那些笔记里写了什么。不知道是不是有<b>什么被我遗漏了</b>，也许能帮我解开这个谜。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[3].lines[1].text",
+        "field": "text",
+        "record_id": "notes_0a"
+      },
+      "translation_id": "p00076-30c3c09bf291"
+    },
+    {
+      "line_index": 2,
+      "line_id": "notes_1",
+      "source": "I met King Hamlet's ghost. King Hamlet's memories are fragmented, but he did give me a lead. My father is in possession of some notes, the King's last words, which contain some crucial but important knowledge. And although my father believes he must destroy them, the ghost claims he's wrong. Now that I know for certain that they were written by King Hamlet, that changes things.",
+      "target": "我见到了哈姆雷特国王的幽灵。他的记忆支离破碎，但还是给了我一条线索。父亲手里有一些笔记，是国王最后留下的话，其中记载着至关重要的信息。虽然父亲认为必须销毁它们，幽灵却说他错了。现在我确切知道这些笔记出自哈姆雷特国王之手，事情就不一样了。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[3].lines[2].text",
+        "field": "text",
+        "record_id": "notes_1"
+      },
+      "translation_id": "p00077-a66c73a7abea"
+    },
+    {
+      "line_index": 3,
+      "line_id": "notes_2",
+      "source": "The spirit says my father is in posession of his notes, and it's clear that these are the same notes my father will burn Thursday evening in his chambers. I have to find a way to stop them from being destroyed.",
+      "target": "幽灵说，他的笔记在我父亲手里。很明显，这正是父亲会在星期四晚上于房间里烧掉的那些笔记。我必须想办法阻止它们被销毁。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[3].lines[3].text",
+        "field": "text",
+        "record_id": "notes_2"
+      },
+      "translation_id": "p00078-d2501976aed8"
+    },
+    {
+      "line_index": 4,
+      "line_id": "notes_complete",
+      "source": "I had to do something truly monstrous in order to get my hands on the King's notes... but I found them nonetheless. Father will be safe and well in the next world. It doesn't make what happened right, but I know now his death is but a passing trial. Now all that's left is to speak to the ghost.",
+      "target": "为了拿到国王的笔记，我不得不做了一件骇人听闻的事……但我终究找到了它们。父亲在另一个世界会平安无事。这并不能让发生的事变得正当，但我现在知道，他的死只是一场暂时的考验。接下来，只剩下去和幽灵谈谈了。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[3].lines[4].text",
+        "field": "text",
+        "record_id": "notes_complete"
+      },
+      "translation_id": "p00079-664ba703faca"
+    }
+  ],
+  "4": [
+    {
+      "line_index": 0,
+      "line_id": "lute_1",
+      "source": "I found a note from my brother discussing a lute he believes was stolen. He thinks Hamlet made off with it. Laertes and Hamlet have always had a contentious relationship, to say the least. I wonder if I can help resolve this situation.",
+      "target": "我找到了一张哥哥留下的字条，上面说他觉得有把鲁特琴被偷了。他认为是哈姆雷特拿走的。说得轻些，雷欧提斯和哈姆雷特一直处得很不愉快。不知道我能不能帮忙解决这件事。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[4].lines[0].text",
+        "field": "text",
+        "record_id": "lute_1"
+      },
+      "translation_id": "p00081-bd6b661f28b1"
+    },
+    {
+      "line_index": 1,
+      "line_id": "lute_2",
+      "source": "As soon as Hamlet and Bernardo had a chance to meet, they quickly realized that the lute was lost, not stolen. They expect to spend some time over the next few days on a wild chase 'round the castle to find it.",
+      "target": "哈姆雷特和贝尔纳多一有机会见面，很快就弄清了：鲁特琴是丢了，并没有被偷。他们预计接下来几天要花些时间，把城堡到处找个遍，才能找到它。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[4].lines[1].text",
+        "field": "text",
+        "record_id": "lute_2"
+      },
+      "translation_id": "p00082-3bc18720c7ce"
+    },
+    {
+      "line_index": 2,
+      "line_id": "lute_3",
+      "source": "They found the lute. I suppose I didn't realize how far Bernardo and Hamlet had drifted apart over the years, and how bad things had gotten between Hamlet and my brother. All this time, it seemed natural to assume we were no less close than we'd always been, but time changes things. I wonder if it's too late for Hamlet and my brother to make amends. If Laertes and Hamlet could only meet, I know something good might finally come of it.",
+      "target": "他们找到了鲁特琴。我想，我以前并没意识到，这些年来贝尔纳多和哈姆雷特已疏远到什么程度，也没意识到哈姆雷特和哥哥的关系已经变得多么糟糕。我一直自然而然地以为，我们还和从前一样亲近，但时间会改变许多事。不知道哈姆雷特和哥哥现在和好还来不来得及。只要雷欧提斯和哈姆雷特能见上一面，我知道事情也许终于会有好的转机。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[4].lines[2].text",
+        "field": "text",
+        "record_id": "lute_3"
+      },
+      "translation_id": "p00083-bb4306337f8a"
+    },
+    {
+      "line_index": 3,
+      "line_id": "lute_complete",
+      "source": "Hamlet returned the found lute to Laertes. At first, Laertes was furious, but I think the conversation was many years in its formation. It seemed to be cathartic, in a way; they understand one another better now, at least. Perhaps I can leverage this to help them keep the peace in the future.",
+      "target": "哈姆雷特把找到的鲁特琴还给了雷欧提斯。起初，雷欧提斯很生气，但我想，这场谈话其实已经酝酿了许多年。某种程度上，他们似乎借此宣泄了积压的情绪；至少，他们现在更理解彼此了。也许我能借此帮助他们今后和睦相处。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[4].lines[3].text",
+        "field": "text",
+        "record_id": "lute_complete"
+      },
+      "translation_id": "p00084-2738d6e142a1"
+    }
+  ],
+  "5": [
+    {
+      "line_index": 0,
+      "line_id": "guilda_1",
+      "source": "Somehow Lady Guildenstern's gotten the idea that she could pretend to be dead, and she finds it rather funny. So funny, in fact, that she's asked me to tell everyone she really <i>is</i> dead. This can't end well.",
+      "target": "不知怎么，吉尔登斯吞女士想到了装死这个主意，还觉得挺有趣。她觉得这实在太有趣了，竟然让我告诉所有人，她<i>确实</i>死了。这肯定不会有好结果。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[5].lines[0].text",
+        "field": "text",
+        "record_id": "guilda_1"
+      },
+      "translation_id": "p00086-8ba7dff5b407"
+    },
+    {
+      "line_index": 1,
+      "line_id": "guilda_2",
+      "source": "Rosencrantz, obviously heartbroken, planned Guilda's funeral as expected. At the very end, Guilda popped out and was... unpleasantly surprised at the lack of attendance. She's now decided that 'nothing matters' and 'we're all unimportant in the scheme of the universe' and other related nonsense. She's decided to plan a party for all of the other 'unimportant' folks in the castle and I'm invited. Insulting, yes, but I <i>do</i> like a good party.",
+      "target": "罗森克兰兹显然伤透了心，果然为吉尔达筹办了葬礼。到了最后，吉尔达突然冒出来，却因为没几个人到场而……大失所望。现在，她认定“什么都无所谓”“在宇宙之中，我们全都无足轻重”，还有诸如此类的胡话。她决定为城堡里其他“无足轻重”的人办一场聚会，我也受邀了。是有点侮辱人，不过我<i>确实</i>喜欢热闹的聚会。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[5].lines[1].text",
+        "field": "text",
+        "record_id": "guilda_2"
+      },
+      "translation_id": "p00087-9be71b3bc6f0"
+    },
+    {
+      "line_index": 2,
+      "line_id": "guilda_3",
+      "source": "I attended Guilda's little party, and at the end of it, I realized something horrible: She's going to die in earnest aboard that ship. They both are. And <i>I</i> have the power to save them. I can get on board and ensure Guilda lives. But first, I need to make sure I'm present when Hamlet and company sail for England on Saturday morning.",
+      "target": "我参加了吉尔达的小聚会。聚会结束时，我意识到一件可怕的事：她会在那艘船上真的死去。她们两个都会。而<i>我</i>有能力救她们。我可以上船，确保吉尔达活下来。但首先，我得保证星期六早上哈姆雷特一行启航去英格兰时，我就在场。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[5].lines[2].text",
+        "field": "text",
+        "record_id": "guilda_3"
+      },
+      "translation_id": "p00088-79a9d886c118"
+    },
+    {
+      "line_index": 3,
+      "line_id": "guilda_6",
+      "source": "Guilda invited me to meet her on the foredeck. I wonder what she wants to discuss? Meanwhile, I need to find a way to avert this impending crisis.",
+      "target": "吉尔达约我在前甲板见面。不知道她想谈什么？与此同时，我得想办法化解这场迫在眉睫的危机。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[5].lines[3].text",
+        "field": "text",
+        "record_id": "guilda_6"
+      },
+      "translation_id": "p00089-6b48ccef1a70"
+    },
+    {
+      "line_index": 4,
+      "line_id": "guilda_7",
+      "source": "I met Guilda on the deck, and there was a... moment, of sorts. I wonder, if we had more time together...",
+      "target": "我在甲板上见到了吉尔达，我们之间有了……某种特别的瞬间。我不禁想，如果我们能有更多时间相处……",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[5].lines[4].text",
+        "field": "text",
+        "record_id": "guilda_7"
+      },
+      "translation_id": "p00090-63d358ed0d23"
+    },
+    {
+      "line_index": 5,
+      "line_id": "guilda_8",
+      "source": "I met Guilda on the deck, and she called me her 'good friend' for the first time. She might be the first true friend I've made in Elsinore recently.",
+      "target": "我在甲板上见到了吉尔达，她第一次称我是她的“好朋友”。她也许是我最近在埃尔西诺交到的第一个真正的朋友。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[5].lines[5].text",
+        "field": "text",
+        "record_id": "guilda_8"
+      },
+      "translation_id": "p00091-a1bec33f0c4c"
+    },
+    {
+      "line_index": 6,
+      "line_id": "guilda_9",
+      "source": "Guilda invited me to leave the castle with her and Rosencrantz forever. They want to gallivant around the countryside, selfishly forgetting and foregoing everything but their own worldly pleasure. Could I be happy, living such a life?",
+      "target": "吉尔达邀我和她、罗森克兰兹一起永远离开城堡。她们想在乡间四处游玩，自私地忘掉、舍弃一切，只顾自己享乐。过这样的生活，我能幸福吗？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[5].lines[6].text",
+        "field": "text",
+        "record_id": "guilda_9"
+      },
+      "translation_id": "p00092-4299db7836bf"
+    }
+  ],
+  "6": [
+    {
+      "line_index": 0,
+      "line_id": "spirit_1",
+      "source": "Hamlet and others have seen a spirit of King Hamlet haunting the castle. This is how he learned of Claudius's deeds. If the ghost is indeed real, maybe there is a way for me to meet it. Surely Hamlet knows something.",
+      "target": "哈姆雷特和其他人都见过哈姆雷特国王的幽灵在城堡里徘徊。他就是这样得知克劳狄斯所做的事的。如果幽灵确实存在，也许我能找到办法见到他。哈姆雷特一定知道些什么。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[6].lines[0].text",
+        "field": "text",
+        "record_id": "spirit_1"
+      },
+      "translation_id": "p00094-08da3dc75c60"
+    },
+    {
+      "line_index": 1,
+      "line_id": "spirit_3",
+      "source": "Hamlet is tight-lipped on the spirit—he needs to be sure he can trust me. He's asked me to get information from a diary his mother keeps in her room. Well, if it's what must be done, then so be it.",
+      "target": "哈姆雷特对幽灵的事守口如瓶——他需要确定能信任我。他让我从他母亲放在房间里的日记中获取信息。好吧，如果非做不可，那就做吧。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[6].lines[1].text",
+        "field": "text",
+        "record_id": "spirit_3"
+      },
+      "translation_id": "p00095-9b86c48adfdd"
+    },
+    {
+      "line_index": 2,
+      "line_id": "spirit_3_5",
+      "source": "I've obtained proof that Gertrude and Claudius's affair started before King Hamlet's death. If I let Hamlet know what I found, I'm certain he'll do something rash. But if that's what it takes to understand what's happening, perhaps it's wiser for me to follow this to its conclusion, no matter what.",
+      "target": "我拿到了证据，证明乔特鲁德和克劳狄斯在哈姆雷特国王去世前就开始了私情。如果我把发现告诉哈姆雷特，我确信他会做出冲动的事。但如果必须这样才能弄清到底发生了什么，也许更明智的做法就是无论如何都追查到底。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[6].lines[2].text",
+        "field": "text",
+        "record_id": "spirit_3_5"
+      },
+      "translation_id": "p00096-898dd26b1680"
+    },
+    {
+      "line_index": 3,
+      "line_id": "spirit_4",
+      "source": "I've obtained proof that Gertrude and Claudius's affair started before King Hamlet's death. When I told Hamlet, he was fully consumed by his desire for revenge. He seems to have a plan he intends to execute during the time period when we would all ordinarily have gathered to watch Peter Quince's performance. I have a bad feeling about this, but if I want to meet this so-called ghost, I'll need to see this through to its end.",
+      "target": "我拿到了证据，证明乔特鲁德和克劳狄斯在哈姆雷特国王死前就有了私情。我把这件事告诉哈姆雷特后，他完全被复仇的欲望吞噬了。他似乎有个计划，打算在我们通常会聚在一起观看彼得·奎因斯演出的那段时间实施。我有种不好的预感，但如果我想见到这个所谓的幽灵，就得把这件事追究到底。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[6].lines[3].text",
+        "field": "text",
+        "record_id": "spirit_4"
+      },
+      "translation_id": "p00097-dd9fcc19f54b"
+    },
+    {
+      "line_index": 4,
+      "line_id": "spirit_complete",
+      "source": "Some truly horrific acts occurred, but in the end, the spirit appeared. King Hamlet spoke to me. He waits on the walls each night at midnight. I've been asked to seek him out.",
+      "target": "发生了一些极其可怕的事，但最后，幽灵出现了。哈姆雷特国王和我说了话。他每晚午夜都会在城墙上等候。我被要求去找他。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[6].lines[4].text",
+        "field": "text",
+        "record_id": "spirit_complete"
+      },
+      "translation_id": "p00098-439a1aa4b353"
+    }
+  ],
+  "7": [
+    {
+      "line_index": 0,
+      "line_id": "irma_1",
+      "source": "Irma believes Hamlet is in need of some long-overdue discipline, and I've heard her grumbling to the Queen about it. There's no doubt that Hamlet's been difficult for everyone in Elsinore to handle. I wonder if I can force the issue to a resolution.",
+      "target": "伊尔玛认为哈姆雷特早就该好好管教了，我也听到她向王后抱怨这件事。毫无疑问，埃尔西诺的所有人都拿哈姆雷特没办法。不知道我能不能推动这件事得到解决。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[7].lines[0].text",
+        "field": "text",
+        "record_id": "irma_1"
+      },
+      "translation_id": "p00100-2483cf3dfb14"
+    },
+    {
+      "line_index": 1,
+      "line_id": "irma_2",
+      "source": "I saw Hamlet and Irma meet, and the both of them fared worse for it. Hamlet was cruel and Irma only fed the flames. I sense something must come to a head sometime soon.",
+      "target": "我看到了哈姆雷特和伊尔玛见面，结果对两人都没好处。哈姆雷特言语刻薄，伊尔玛则只是在火上浇油。我感觉这场矛盾很快就会爆发。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[7].lines[1].text",
+        "field": "text",
+        "record_id": "irma_2"
+      },
+      "translation_id": "p00101-21ca2619c7ba"
+    },
+    {
+      "line_index": 2,
+      "line_id": "irma_3",
+      "source": "I can hardly believe what came of all this. Irma poisoned Gertrude and Claudius to death. Not intentionally, of course; she was trying to eliminate Hamlet. But she was summarily thrown in the dungeon. I don't want to think about what Hamlet might do to her next, but I feel some obligation to see this horrible world run its course.",
+      "target": "我几乎不敢相信事情竟然变成了这样。伊尔玛毒死了乔特鲁德和克劳狄斯。当然，她并不是故意要杀他们；她原本想除掉的是哈姆雷特。但她随即被扔进了地牢。我不愿去想哈姆雷特接下来可能会怎么对待她，但又觉得自己有义务看着这个可怕的世界走到最后。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[7].lines[2].text",
+        "field": "text",
+        "record_id": "irma_3"
+      },
+      "translation_id": "p00102-5aaa79910206"
+    },
+    {
+      "line_index": 3,
+      "line_id": "irma_complete",
+      "source": "Irma's desire to discipline Hamlet ultimately degraded into a poisoning attempt which took the lives of the King, Queen, and herself. The people I love are capable of such horrors. It's frightening to think about. But I feel as though I understand a little better some of the tension bubbling just beneath the surface. And there's a possibility... that what happened here might help me, somehow, in the future.",
+      "target": "伊尔玛原本想管教哈姆雷特，最后却演变成了下毒谋杀，夺去了国王、王后和她自己的性命。我爱的人竟然能做出这么可怕的事。想想都让人害怕。但我似乎对表面之下涌动的种种矛盾多了一点了解。而且，这里发生的事……也有可能在将来以某种方式帮到我。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[7].lines[3].text",
+        "field": "text",
+        "record_id": "irma_complete"
+      },
+      "translation_id": "p00103-35436693d8f5"
+    }
+  ],
+  "8": [
+    {
+      "line_index": 0,
+      "line_id": "claudius_1",
+      "source": "King Claudius clearly holds a lot of power in Elsinore, but at a terrible cost: He killed his own brother. But what I don't know is <i>why.</i> What drives a man to do something like that?\n\nMaybe if I got to know the people close to him, I'd find out. It seems like the only person he trusts in the world is his wife, Queen Gertrude.",
+      "target": "克劳狄斯国王显然在埃尔西诺掌握着很大的权力，但代价惨重：他杀了自己的哥哥。可我不知道的是，<i>为什么。</i>究竟是什么让一个人做出这种事？\n\n也许多了解一下他身边的人，我就能找到答案。他在这世上唯一信任的人，似乎就是他的妻子，乔特鲁德王后。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[0].text",
+        "field": "text",
+        "record_id": "claudius_1"
+      },
+      "translation_id": "p00105-86146ddc6d3c"
+    },
+    {
+      "line_index": 1,
+      "line_id": "claudius_2",
+      "source": "Reading Gertrude's diary, I feel like I peered through a window into her relationship with the King. I get the impression Claudius has spent his entire life chasing Gertrude, his sole confidante and friend. Now, at last, he has her. I wonder what would happen if he didn't.",
+      "target": "读着乔特鲁德的日记，我觉得自己仿佛透过一扇窗，看到了她和国王之间的关系。在我看来，克劳狄斯一生都在追求乔特鲁德，她是他唯一的知己和朋友。如今，他终于得到了她。如果他失去了她，会发生什么呢？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[1].text",
+        "field": "text",
+        "record_id": "claudius_2"
+      },
+      "translation_id": "p00106-3cb3fda4668b"
+    },
+    {
+      "line_index": 2,
+      "line_id": "consort_0",
+      "source": "Queen Gertrude passed away suddenly today. I noticed Claudius fled from the announcement. I wonder where he went off to.",
+      "target": "乔特鲁德王后今天突然去世了。我注意到，宣布这个消息时，克劳狄斯逃离了现场。不知道他去了哪里。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[2].text",
+        "field": "text",
+        "record_id": "consort_0"
+      },
+      "translation_id": "p00107-22b444a589c4"
+    },
+    {
+      "line_index": 3,
+      "line_id": "consort_1",
+      "source": "When I found Claudius, he was a sodden wreck, out of his mind with grief. And then he asked if I would stay with him as he slept. A duty his wife used to perform. I'm not sure I like where this is headed. Ought I to pursue the matter further? After all, I need only turn back the flow of time, and it'll be as though it never happened... for everyone but me, of course.",
+      "target": "我找到克劳狄斯时，他醉得一塌糊涂，悲痛得失去了理智。随后，他问我愿不愿意在他睡觉时陪着他。这原本是他妻子做的事。我不确定自己是否喜欢事情发展的方向。我该继续探究下去吗？毕竟，我只要让时间倒流，一切就像从未发生过一样……当然，对我以外的所有人来说是这样。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[3].text",
+        "field": "text",
+        "record_id": "consort_1"
+      },
+      "translation_id": "p00108-77c65347a743"
+    },
+    {
+      "line_index": 4,
+      "line_id": "consort_2",
+      "source": "I agreed to visit Claudius in his private chambers. And at the end of the night, he made it clear—in no uncertain terms—that he desired to be with me. This is a man I've known since I was a child. It's hard to see him as anything other than Hamlet's uncle. But in his offer there was some implication about the kind of wealth the love of a King can bestow.",
+      "target": "我答应去克劳狄斯的寝室看他。那晚临别时，他说得再清楚不过：他想和我在一起。我从小就认识他。除了哈姆雷特的叔叔，我很难把他看作别的什么人。但他的提议也隐约暗示了，得到国王的爱能带来怎样的财富。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[4].text",
+        "field": "text",
+        "record_id": "consort_2"
+      },
+      "translation_id": "p00109-68def17cc09b"
+    },
+    {
+      "line_index": 5,
+      "line_id": "consort_3",
+      "source": "Claudius gave me a gift: an heirloom necklace. It's the finest thing I've ever worn, and I'm afraid to accept it. He means to make some grand romantic gesture soon, I think.",
+      "target": "克劳狄斯送了我一件礼物：一条传家项链。这是我戴过的最精美的首饰，我却不敢收下。我想，他很快就打算用某种盛大的方式表达爱意。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[5].text",
+        "field": "text",
+        "record_id": "consort_3"
+      },
+      "translation_id": "p00110-289cae8e5c1c"
+    },
+    {
+      "line_index": 6,
+      "line_id": "consort_4",
+      "source": "Claudius asked me to be Queen, and I consented. All this in a matter of <i>days</i>. Men in this family line seem to move unnaturally quickly when their hearts are similarly moved.",
+      "target": "克劳狄斯问我愿不愿意做王后，我答应了。这一切竟然只用了<i>几天</i>。这个家族的男人一旦动了这样的感情，行动似乎就快得异乎寻常。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[6].text",
+        "field": "text",
+        "record_id": "consort_4"
+      },
+      "translation_id": "p00111-9a96efdb6a72"
+    },
+    {
+      "line_index": 7,
+      "line_id": "consort_complete",
+      "source": "Claudius and I underwent an official betrothal ceremony, to the utter surprise of everyone in Elsinore's court. In a scant few weeks, I'd be crowned Queen. I could rule this country, because the one who holds Claudius's heart holds all of him. Gertrude never used that power to her advantage... but I could. Is that right? More importantly, is that a future I <i>want?</i>",
+      "target": "克劳狄斯和我举行了正式的订婚仪式，埃尔西诺宫廷里的所有人都大吃一惊。再过短短几周，我就会被加冕为王后。我可以统治这个国家，因为掌握克劳狄斯的心，就掌握了他的全部。乔特鲁德从未利用这份力量为自己谋利……但我可以。这样做对吗？更重要的是，这是我<i>想要</i>的未来吗？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[8].lines[7].text",
+        "field": "text",
+        "record_id": "consort_complete"
+      },
+      "translation_id": "p00112-882e21321fd6"
+    }
+  ],
+  "9": [
+    {
+      "line_index": 0,
+      "line_id": "quince_0",
+      "source": "I met an odd man named Peter Quince who seems to be a wandering actor of sorts. He's going to perform here in Elsinore Castle and has invited me to attend his performance.",
+      "target": "我遇到了一个名叫彼得·奎因斯的怪人，他似乎是个四处游历的演员。他准备在埃尔西诺城堡演出，并邀请我去观看。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[0].text",
+        "field": "text",
+        "record_id": "quince_0"
+      },
+      "translation_id": "p00114-8c5b3f2b5a22"
+    },
+    {
+      "line_index": 1,
+      "line_id": "quince_1",
+      "source": "Quince wishes to discuss something with me in private about his performances. His only requirement is that I've attended his play first, and then come to see him the morning afterwards in the Gallery.",
+      "target": "奎因斯想私下和我谈一些与他的演出有关的事。他唯一的要求是，我得先看过他的戏，再于第二天早晨去画廊见他。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[1].text",
+        "field": "text",
+        "record_id": "quince_1"
+      },
+      "translation_id": "p00115-1f021bded0f5"
+    },
+    {
+      "line_index": 2,
+      "line_id": "quince_2",
+      "source": "Two things have become abundantly clear. The first is that Quince is outside the flow of time, as I am. And the second is that his plays are little more than cruel improvisation. He's decided to grant any request I might make regarding a subject for one of his plays. Judging by the reaction King Claudius had to the play about him, this might become useful to suss out more information from audience members.",
+      "target": "有两件事已经再清楚不过。第一，奎因斯和我一样，置身于时间流之外。第二，他的戏剧基本上只是残酷的即兴表演。他决定，无论我为他的戏提出什么题材，他都会接受。从克劳狄斯国王看那出关于自己的戏时的反应来看，这也许能帮我从观众身上探出更多信息。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[2].text",
+        "field": "text",
+        "record_id": "quince_2"
+      },
+      "translation_id": "p00116-533c088c9aa6"
+    },
+    {
+      "line_index": 3,
+      "line_id": "quince_3",
+      "source": "I happened upon Quince in the gallery, where he and I exchanged a few words. He spoke to me about tragedy and referenced a tale I'd never heard about before. I don't know what to make of him. Is he teasing me or trying to help me, or both?",
+      "target": "我在画廊偶遇了奎因斯，和他聊了几句。他跟我谈起悲剧，还提到了一个我从未听过的故事。我不知道该怎么看待他。他是在戏弄我，还是想帮我，或者两者都有？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[3].text",
+        "field": "text",
+        "record_id": "quince_3"
+      },
+      "translation_id": "p00117-ede0e711ac20"
+    },
+    {
+      "line_index": 4,
+      "line_id": "quince_4",
+      "source": "Quince performed a little side show in town, and it was odd, to say the least. If his story is to be believed, he's not only immortal, but some great godlike tool of his has been stolen from him. He's here in Elsinore to try and find it.",
+      "target": "奎因斯在镇上演了一出小戏，说得客气点，也实在古怪。如果他的故事可信，他不仅是不死之身，还被人偷走了一件拥有神一般力量的工具。他来到埃尔西诺，就是想找到它。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[4].text",
+        "field": "text",
+        "record_id": "quince_4"
+      },
+      "translation_id": "p00118-fe8b8ef4e498"
+    },
+    {
+      "line_index": 5,
+      "line_id": "quince_5",
+      "source": "Quince visited me in my bedroom. He and King Hamlet's ghost are acquainted already. In fact, the <i>both</i> of them are outside the flow of time, like me. Quince claimed that I can find a way to stop the flow of time from repeating. But if so, how? The spirit must be connected.",
+      "target": "奎因斯来我的卧室找过我。他和哈姆雷特国王的幽灵早就认识。事实上，他们<i>两个</i>都和我一样，置身于时间流之外。奎因斯声称，我能找到办法，让时间不再反复循环。但如果真是这样，该怎么做？那个幽灵一定与此有关。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[5].text",
+        "field": "text",
+        "record_id": "quince_5"
+      },
+      "translation_id": "p00119-938a1f73f917"
+    },
+    {
+      "line_index": 6,
+      "line_id": "quince_6",
+      "source": "King Hamlet's final notes mentioned Quince as 'The Playmaster.' He writes that Quince 'relieved' him of his eternal torment, which explains why he's a spirit in my world and no longer trapped in time. But if Quince has the power to do that, why hasn't he done it for <i>me?</i>\n\nWhat's clear is that all paths seem to lead to me finding this book—this 'Hand of Dionysus.' I'll need to do that before I can understand more.",
+      "target": "哈姆雷特国王在最后的笔记中提到奎因斯，称他为“戏剧主宰”。他写道，奎因斯让他从永恒的折磨中“解脱”了。这解释了为什么他在我的世界里是个幽灵，不再被困在时间之中。可如果奎因斯有这样的力量，为什么不对<i>我</i>这样做？\n\n有一点很清楚：所有的路似乎都指向找到那本书——那本《狄俄尼索斯之手》。我得先找到它，才能弄明白更多事情。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[6].text",
+        "field": "text",
+        "record_id": "quince_6"
+      },
+      "translation_id": "p00120-2ccf89ee1d36"
+    },
+    {
+      "line_index": 7,
+      "line_id": "quince_8",
+      "source": "He lied to me. He's been lying to me this entire time. He's no friend of mine, and he's not here to help me. He tricked me into fetching this book from Simona for him, and then intended to deceive me into using it so that he can have it back.",
+      "target": "他骗了我。他一直都在骗我。他根本不是我的朋友，也不是来帮我的。他骗我替他从西蒙娜那里取来这本书，然后又打算骗我使用它，好让他拿回这本书。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[7].text",
+        "field": "text",
+        "record_id": "quince_8"
+      },
+      "translation_id": "p00121-e5241d07f52c"
+    },
+    {
+      "line_index": 8,
+      "line_id": "quince_9",
+      "source": "We did it. We killed him. We're free. We're really free. Is it over? It must be. I can hardly believe it.\n\nThe rest of my life begins today.",
+      "target": "我们做到了。我们杀了他。我们自由了。我们真的自由了。结束了吗？一定是结束了。我几乎不敢相信。\n\n我的余生，从今天开始。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[8].text",
+        "field": "text",
+        "record_id": "quince_9"
+      },
+      "translation_id": "p00122-c6609c011f87"
+    },
+    {
+      "line_index": 9,
+      "line_id": "quince_complete",
+      "source": "King Hamlet said it best: There will be no way out from this. The Playmaster cannot be defeated or outsmarted. This tragedy is inescapable. But within the confines that bind me, there is choice. That's all I have left to cling to.",
+      "target": "哈姆雷特国王说得最明白：这一切没有出路。戏剧主宰无法被打败，也无法用计胜过他。这场悲剧无可逃避。但在束缚我的种种限制之内，我仍有选择。这是我仅剩的依靠。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[9].text",
+        "field": "text",
+        "record_id": "quince_complete"
+      },
+      "translation_id": "p00123-73a36b661560"
+    }
+  ],
+  "10": [
+    {
+      "line_index": 0,
+      "line_id": "astrid_1",
+      "source": "In various places, I've heard mention of Queen Astrid—Hamlet's grandmother—but I've realized I don't know much about her reign. I could ask around to learn more.",
+      "target": "我在不少地方听人提起过阿斯特丽德女王，也就是哈姆雷特的祖母，但我意识到，自己对她在位时的事所知甚少。我可以四处打听，多了解一些。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[10].lines[0].text",
+        "field": "text",
+        "record_id": "astrid_1"
+      },
+      "translation_id": "p00125-9efb1c0fe659"
+    },
+    {
+      "line_index": 1,
+      "line_id": "astrid_1b",
+      "source": "King Hamlet expressed to me that his mother, Queen Astrid, may have also experienced loops. I've grown up hearing so little about her and her legacy. There must be more to find.",
+      "target": "哈姆雷特国王告诉我，他的母亲阿斯特丽德女王可能也经历过时间循环。从小到大，我很少听人说起她和她留下的影响。一定还有更多事情等着我去发现。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[10].lines[1].text",
+        "field": "text",
+        "record_id": "astrid_1b"
+      },
+      "translation_id": "p00126-dde4939f00e8"
+    },
+    {
+      "line_index": 2,
+      "line_id": "astrid_3",
+      "source": "If I talk to Father about Queen Astrid, he acts evasive. Evidently, the Queen was quite close to my mother, and he finds it painful to discuss her. He mentioned that he visits her grave Thursday night, though...",
+      "target": "只要我和父亲谈起阿斯特丽德女王，他就会回避这个话题。显然，女王和我母亲关系很亲近，而谈起她让父亲感到痛苦。不过，他提到自己会在周四晚上去她的墓前……",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[10].lines[2].text",
+        "field": "text",
+        "record_id": "astrid_3"
+      },
+      "translation_id": "p00127-6e6dfe11d16d"
+    },
+    {
+      "line_index": 3,
+      "line_id": "astrid_4",
+      "source": "I've learned that my mother Elise kept an account of Astrid's story... and it might exist somewhere. My mother contracted plague and was sent away to die in a sanitarium off the southern coast, alone and frightened, by King Hamlet. After she perished, her belongings—along with those of other victims—were brought back by ship and sealed in a small shed near the docks. Perhaps I can learn more information there, if I can find a way in.",
+      "target": "我得知，母亲伊莉丝曾记录过阿斯特丽德的故事……那份记录也许还存放在某个地方。母亲染上瘟疫后，哈姆雷特国王将她送到了南部海岸外的一所疗养院，任她在孤独与恐惧中死去。她去世后，她的遗物和其他死者的遗物一起被船运了回来，封存在码头附近的一间小棚屋里。如果能找到进去的办法，也许我能在那里得到更多信息。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[10].lines[3].text",
+        "field": "text",
+        "record_id": "astrid_4"
+      },
+      "translation_id": "p00128-118a6c721843"
+    },
+    {
+      "line_index": 4,
+      "line_id": "astrid_complete",
+      "source": "The tale of Queen Astrid turned out to be a complex one, involving her husband, his mistress, Simona, and... my mother. I got help retrieving my mother's belongings from the shack on the docks, and the notes she kept were... strange, to say the least. Simona was trapped in a loop as well, it seems, but what was this about a book? About choosing to be Queen? And could she really have escaped Elsinore alive?",
+      "target": "阿斯特丽德女王的故事远比想象中复杂，牵涉到她的丈夫、他的情妇西蒙娜，还有……我的母亲。有人帮我从码头的小屋里取回了母亲的遗物，而她留下的笔记……说得客气点，实在古怪。西蒙娜似乎也被困在时间循环里，可笔记里说的那本书是怎么回事？选择成为王后又是怎么回事？她真的有可能活着逃离埃尔西诺吗？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[10].lines[4].text",
+        "field": "text",
+        "record_id": "astrid_complete"
+      },
+      "translation_id": "p00129-f977ee470320"
+    }
+  ],
+  "11": [
+    {
+      "line_index": 0,
+      "line_id": "chambers_1",
+      "source": "The door to Gertrude's chambers is locked—but I won't let that stop me. There has to be a way to get inside. Someone close to her must know, surely.",
+      "target": "乔特鲁德寝室的门锁着，但我不会就此罢休。一定有办法进去。她身边亲近的人肯定知道。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[0].text",
+        "field": "text",
+        "record_id": "chambers_1"
+      },
+      "translation_id": "p00131-909b2d1ec2e1"
+    },
+    {
+      "line_index": 1,
+      "line_id": "chambers_2",
+      "source": "I've tried asking around about permission to enter Gertrude's chambers. It seems as though only Lady Brit and Irma have keys to enter at the moment.",
+      "target": "我试着四处询问怎样才能获准进入乔特鲁德的寝室。目前似乎只有布莉特女士和伊尔玛有开门的钥匙。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[1].text",
+        "field": "text",
+        "record_id": "chambers_2"
+      },
+      "translation_id": "p00132-860b8e14b7c9"
+    },
+    {
+      "line_index": 2,
+      "line_id": "chambers_3a",
+      "source": "Brit agreed to lend me her key—if I set her up for a 'private rendezvous' with Hamlet. Well, if it's what I need to do, the task seems straightforward enough. I'll just try not to think about the consequences.",
+      "target": "布莉特答应把钥匙借给我，条件是我替她安排一次与哈姆雷特的“私下幽会”。好吧，如果非做不可，这件事看起来倒不难办。我尽量不去想后果就是了。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[2].text",
+        "field": "text",
+        "record_id": "chambers_3a"
+      },
+      "translation_id": "p00133-26940b5839c4"
+    },
+    {
+      "line_index": 3,
+      "line_id": "chambers_3b",
+      "source": "Irma tells me she would be willing to give me her key to Gertrude's room—if I organize a card game for herself, Lady Brit, Horatio, and Marcellus. I'll have to talk to each person she mentioned individually.",
+      "target": "伊尔玛告诉我，她愿意把乔特鲁德房间的钥匙给我，条件是我为她、布莉特女士、霍拉旭和马塞勒斯组织一场牌局。我得分别去找她提到的每个人谈谈。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[3].text",
+        "field": "text",
+        "record_id": "chambers_3b"
+      },
+      "translation_id": "p00134-2892c38f8c06"
+    },
+    {
+      "line_index": 4,
+      "line_id": "chambers_complete",
+      "source": "Gertrude's private chambers are always locked when time resets, but now I know how to get inside. The key is hidden in the shrubbery outside the Queen's door—if I retrieve that key, I'll be able to enter freely from now on.",
+      "target": "每次时间重置，乔特鲁德寝室的门都会锁上，但现在我知道怎么进去了。钥匙就藏在王后门外的灌木丛里，只要拿到它，以后我就能自由出入。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[4].text",
+        "field": "text",
+        "record_id": "chambers_complete"
+      },
+      "translation_id": "p00135-dc5bf2c9a35f"
+    }
+  ],
+  "12": [
+    {
+      "line_index": 0,
+      "line_id": "spy_1",
+      "source": "Bernardo suspects that there is a spy in Elsinore castle, stealing sensitive information and passing it on to unknown forces. I wonder who it could be.",
+      "target": "贝尔纳多怀疑埃尔西诺城堡里有个间谍，正在窃取机密情报，传给身份不明的势力。不知道那个人会是谁。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[0].text",
+        "field": "text",
+        "record_id": "spy_1"
+      },
+      "translation_id": "p00137-0c860fba7e78"
+    },
+    {
+      "line_index": 1,
+      "line_id": "spy_1b",
+      "source": "There is a spy in Elsinore Castle, and I have to find out who it is. If I cannot, then come Saturday morning, I die. But where would I start? Who could help me?",
+      "target": "埃尔西诺城堡里有个间谍，我必须查出那个人是谁。否则，到了周六早晨，我就会死。可我该从哪里查起？谁能帮我？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[1].text",
+        "field": "text",
+        "record_id": "spy_1b"
+      },
+      "translation_id": "p00138-d015773b559a"
+    },
+    {
+      "line_index": 2,
+      "line_id": "spy_2",
+      "source": "Bernardo is running his own investigation, interviewing people about what they know. If I send people to him, perhaps I could learn something by observing the meetings he has with them.",
+      "target": "贝尔纳多也在独自调查，向人们询问他们知道的情况。如果我让人去找他，也许能通过观察他们的会面了解到什么。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[2].text",
+        "field": "text",
+        "record_id": "spy_2"
+      },
+      "translation_id": "p00139-1eff14c6be91"
+    },
+    {
+      "line_index": 3,
+      "line_id": "spy_3",
+      "source": "Someone has suggested my brother could help, but Laertes leaves for Paris early Thursday morning. I wonder if I could convince him to stay?",
+      "target": "有人说我哥哥或许能帮忙，但雷欧提斯周四一早就要动身去巴黎。不知道我能不能说服他留下？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[3].text",
+        "field": "text",
+        "record_id": "spy_3"
+      },
+      "translation_id": "p00140-ca679149578c"
+    },
+    {
+      "line_index": 4,
+      "line_id": "spy_3b",
+      "source": "I can convince Laertes to stay if I tell him of my fears before he leaves. I'm not sure what will come of it, but my brother is determined to unravel the potential threat. I should follow him.",
+      "target": "只要在雷欧提斯离开前告诉他我的担忧，我就能说服他留下。我不知道这会带来什么结果，但哥哥决心查清这个潜在的威胁。我应该跟着他。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[4].text",
+        "field": "text",
+        "record_id": "spy_3b"
+      },
+      "translation_id": "p00141-4652e1d19e17"
+    },
+    {
+      "line_index": 5,
+      "line_id": "spy_4",
+      "source": "Brit seems convinced that it is Claudius having me killed, because he finds my affection for Hamlet dangerous. It's believable, almost... but if Claudius wanted me dead, he's killed before, and wouldn't send another to do that work. Still, maybe there is something to find there.",
+      "target": "布莉特似乎认定，是克劳狄斯派人杀我，因为他觉得我对哈姆雷特的感情很危险。这几乎……说得通。可如果克劳狄斯想让我死，他以前就杀过人，不会派别人来做这件事。不过，也许这条线索还是值得查一查。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[5].text",
+        "field": "text",
+        "record_id": "spy_4"
+      },
+      "translation_id": "p00142-420bc0ce6360"
+    },
+    {
+      "line_index": 6,
+      "line_id": "spy_5",
+      "source": "My efforts paid off. The spy, and my repeated killer, is Lady Brit. She's been in Norway's graces all along. I've got to find a way to expose her before she slits my throat again. Now I just have to stop her.",
+      "target": "我的努力有了回报。那个间谍，那个一次次杀死我的人，就是布莉特女士。她一直都深得挪威的信任。我得在她再次割开我的喉咙之前，想办法揭露她。现在只剩下阻止她了。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[6].text",
+        "field": "text",
+        "record_id": "spy_5"
+      },
+      "translation_id": "p00143-6b4a008f5f10"
+    },
+    {
+      "line_index": 7,
+      "line_id": "spy_6",
+      "source": "Lady Brit is apprehended, locked away in a cell by Bernardo. Does this mean I've successfully prevented my death? If I make it to Saturday night, I'll know I have.",
+      "target": "布莉特女士被捕了，贝尔纳多把她关进了牢房。这是否意味着我已经成功避免了自己的死亡？只要我活到星期六晚上，就能知道自己是否成功了。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[7].text",
+        "field": "text",
+        "record_id": "spy_6"
+      },
+      "translation_id": "p00144-8fb60191d29d"
+    },
+    {
+      "line_index": 8,
+      "line_id": "spy_complete",
+      "source": "By turning Lady Brit in to Bernardo, I managed to stop her from killing me this loop. It seems my success might be permanent—I was surprised by a visit from Quince, who promised me Brit would never come after my life again. How he intends to accomplish this, I'm unsure, but for now—I wonder what else lies before me.",
+      "target": "我向贝尔纳多告发布莉特女士，成功阻止了她在这次循环里杀我。这次成功似乎可能永久有效——奎因斯意外来访，向我保证布莉特再也不会来取我的性命。我不清楚他打算如何做到这一点，但眼下——我想知道，前方还有什么在等着我。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[8].text",
+        "field": "text",
+        "record_id": "spy_complete"
+      },
+      "translation_id": "p00145-aed5472cb28e"
+    }
+  ],
+  "13": [
+    {
+      "line_index": 0,
+      "line_id": "father_1",
+      "source": "Bernardo just delivered the news: Father is <i>dead.</i> Hamlet killed him after the play Friday night. I... am having trouble processing, believing that it's true. There is so much I would have done differently if I had known this was how it was going to end. I'll miss you, Father.",
+      "target": "贝尔纳多刚刚带来了消息：父亲<i>死了。</i>星期五晚上演出结束后，哈姆雷特杀了他。我……还无法接受，也难以相信这是真的。要是早知道会是这样的结局，我有太多事会换一种做法。我会想念你的，父亲。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[0].text",
+        "field": "text",
+        "record_id": "father_1"
+      },
+      "translation_id": "p00147-525db03ef39d"
+    },
+    {
+      "line_index": 1,
+      "line_id": "father_1a",
+      "source": "...And yet, that wasn't the end after all. I'm back at the beginning again, in a time where Father is alive. I've never been so happy to have him berate me. Maybe I have a chance to change his fate! I know that he was killed in Gertrude's rooms, and that Hamlet committed the deed. Seems as good a place to start as any.",
+      "target": "……然而，那终究不是结局。我又回到了起点，回到了父亲还活着的时候。被他训斥，我从未这么高兴过。也许我有机会改变他的命运！我知道他是在乔特鲁德的房间里被杀的，凶手是哈姆雷特。看来就从这里查起也不错。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[1].text",
+        "field": "text",
+        "record_id": "father_1a"
+      },
+      "translation_id": "p00148-04d65834eb53"
+    },
+    {
+      "line_index": 2,
+      "line_id": "father_2",
+      "source": "I decided to try the obvious and tell my father what I had seen. He found my warnings hard to believe, yet he seemed to take them into account anyway. Perhaps that will be enough to save him.",
+      "target": "我决定先试试最直接的办法，把自己看到的事告诉父亲。他觉得我的警告难以置信，但似乎还是放在了心上。也许这样就足以救他。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[2].text",
+        "field": "text",
+        "record_id": "father_2"
+      },
+      "translation_id": "p00149-9531748db3af"
+    },
+    {
+      "line_index": 3,
+      "line_id": "father_2b",
+      "source": "Though my father found my warnings disturbing, it doesn't seem telling him alone was enough to save him. Bernardo just informed me of his death—again. I need to know more about how the events played out—and find a way to change the state of that room.",
+      "target": "虽然我的警告让父亲感到不安，但看来光是告诉他，还不足以救他。贝尔纳多刚刚又告诉我，父亲死了。我需要进一步了解事情是如何发生的，并想办法改变那个房间里的状况。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[3].text",
+        "field": "text",
+        "record_id": "father_2b"
+      },
+      "translation_id": "p00150-986414cd9211"
+    },
+    {
+      "line_index": 4,
+      "line_id": "father_3",
+      "source": "If I can find a way to access Gertrude's private chambers, maybe I can know more about the events that led to my Father's death.",
+      "target": "如果我能想办法进入乔特鲁德的私人寝室，也许就能更清楚地了解导致父亲死亡的那些事。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[4].text",
+        "field": "text",
+        "record_id": "father_3"
+      },
+      "translation_id": "p00151-32d84d79a08a"
+    },
+    {
+      "line_index": 5,
+      "line_id": "father_complete",
+      "source": "I... I did it. I actually saved him. Though it did not come without a cost, it meant so much to me to see him live beyond a fate that previously seemed inescapable. I know it's a temporary victory—at the end of these days it will all be reset, and then he will probably die many times, just as before. But now... at least I know something <i>can</i> be done.",
+      "target": "我……我做到了。我真的救了他。虽然付出了代价，但看到他逃过那曾经似乎无法避免的命运，继续活下去，对我来说意义重大。我知道这只是暂时的胜利——这几天一结束，一切就会重置，他大概又会像以前那样，一次次死去。但现在……至少我知道，<i>确实有办法</i>改变这一切。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[5].text",
+        "field": "text",
+        "record_id": "father_complete"
+      },
+      "translation_id": "p00152-eba0e0634d3e"
+    }
+  ],
+  "14": [
+    {
+      "line_index": 0,
+      "line_id": "hamlet_1",
+      "source": "Hamlet showed up in my room, raving incomprehensibly. He's been difficult before, but this is strange even for him. What could be causing him to act out like this?",
+      "target": "哈姆雷特出现在我的房间里，胡言乱语，让人听不懂。他以前也难以相处，但即便是他，这样也太反常了。究竟是什么让他有了这样的举动？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[14].lines[0].text",
+        "field": "text",
+        "record_id": "hamlet_1"
+      },
+      "translation_id": "p00154-d2f136ace5a6"
+    },
+    {
+      "line_index": 1,
+      "line_id": "hamlet_3",
+      "source": "I've been pointed towards the gallery—perhaps something exists there that could give me some clue as to the origin of Hamlet's recent bout of madness.",
+      "target": "有人指引我去画廊——也许那里有什么线索，能让我了解哈姆雷特最近发疯的缘由。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[14].lines[1].text",
+        "field": "text",
+        "record_id": "hamlet_3"
+      },
+      "translation_id": "p00155-e60f19ebba56"
+    },
+    {
+      "line_index": 2,
+      "line_id": "hamlet_3b",
+      "source": "In the gallery, I found a clue as to Hamlet's madness. Apparently, he's been obsessing over some irregularities in his father's death report. Clearly, Hamlet suspects there is more to this story—but what is he hoping to accomplish?",
+      "target": "我在画廊找到了有关哈姆雷特疯病的线索。看来，他一直在纠结父亲死亡报告里的几处异常。显然，哈姆雷特怀疑这件事另有隐情——但他究竟想做什么？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[14].lines[2].text",
+        "field": "text",
+        "record_id": "hamlet_3b"
+      },
+      "translation_id": "p00156-3a2fc197d1b1"
+    },
+    {
+      "line_index": 3,
+      "line_id": "hamlet_4",
+      "source": "It seems that Hamlet is concentrating most of his energy on putting on a play for this Saturday. Something's brewing. I feel uneasy about this.",
+      "target": "哈姆雷特似乎把大部分精力都花在了筹备本周六的演出上。他在酝酿什么。这让我感到不安。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[14].lines[3].text",
+        "field": "text",
+        "record_id": "hamlet_4"
+      },
+      "translation_id": "p00157-99947980bbf1"
+    },
+    {
+      "line_index": 4,
+      "line_id": "hamlet_5",
+      "source": "Hamlet's actions and plans seem to have borne fruit—after the play, King Claudius confessed to God that he was the snake who killed Hamlet's father. The revelation was stunning, but Hamlet was strangely unsurprised... his actions indicate he already knew? Where could he have gotten his information?",
+      "target": "哈姆雷特的行动和计划似乎有了结果——演出结束后，克劳狄斯国王向上帝忏悔，承认自己就是杀死哈姆雷特父亲的那条毒蛇。这个真相令人震惊，可哈姆雷特竟然毫不意外……从他的举动来看，他早就知道了？他是从哪里得到消息的？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[14].lines[4].text",
+        "field": "text",
+        "record_id": "hamlet_5"
+      },
+      "translation_id": "p00158-0d89402bfa51"
+    },
+    {
+      "line_index": 5,
+      "line_id": "hamlet_complete",
+      "source": "Hamlet's madness was brought on not by love, but by a meeting with what he believes to be the spirit of his father. It's from there he must have gotten his information about Claudius's murder. But the information turned out to be correct—so does this spirit actually exist?",
+      "target": "哈姆雷特发疯并非因为爱情，而是因为他见到了一个他认为是父亲亡魂的存在。他关于克劳狄斯杀人的消息，想必就是从那里得来的。但消息确实属实——难道这个亡魂真的存在？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[14].lines[5].text",
+        "field": "text",
+        "record_id": "hamlet_complete"
+      },
+      "translation_id": "p00159-7e1cb5dbfbf0"
+    }
+  ],
+  "15": [
+    {
+      "line_index": 0,
+      "line_id": "othello_1",
+      "source": "Othello, the barkeep in town, seems to live in a world separate from mine. I'd like to observe what his day-to-day life might be like.",
+      "target": "镇上的酒馆老板奥赛罗，似乎生活在一个与我截然不同的世界里。我想看看他的日常生活是什么样的。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[0].text",
+        "field": "text",
+        "record_id": "othello_1"
+      },
+      "translation_id": "p00161-5f57fe470ae9"
+    },
+    {
+      "line_index": 1,
+      "line_id": "othello_2",
+      "source": "The inn in town has been the target of a group of thugs lately, who are trying to extort Othello for more and more money. The situation is untenable for Othello. If the Royal Guard were aware, they might be able to protect him.",
+      "target": "最近，一伙恶徒盯上了镇上的旅店，不断向奥赛罗勒索越来越多的钱。奥赛罗已经难以支撑下去。如果王家卫队知道了这件事，也许能保护他。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[1].text",
+        "field": "text",
+        "record_id": "othello_2"
+      },
+      "translation_id": "p00162-f1019c497b7a"
+    },
+    {
+      "line_index": 2,
+      "line_id": "othello_3",
+      "source": "Othello has invited me to hear him tell stories... in private, after the bar is closed. I hardly think it's an innocent request, but I also find him respectful enough to feel safe seeing him alone. Father would be furious to know I'd gone without a chaperone, but... well, what he doesn't know can't hurt him, surely.",
+      "target": "奥赛罗邀请我听他讲故事……等酒馆打烊后，私下去听。我不太相信这只是个单纯的邀请，但他对我足够尊重，让我觉得独自见他也很安心。要是父亲知道我没有人陪同就去了，一定会大发雷霆。不过……嗯，只要他不知道，总不会让他难受吧。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[2].text",
+        "field": "text",
+        "record_id": "othello_3"
+      },
+      "translation_id": "p00163-b793629a405c"
+    },
+    {
+      "line_index": 3,
+      "line_id": "othello_4",
+      "source": "Othello told me the most incredible tale, and when he was done, he asked me about Hamlet. I didn't know what to say. Not exactly. But then... we kissed, and it was <i>incredible.</i> It still gives me shivers to think about it. What does this mean for my relationship to him? More importantly, ought I to go and see him again tomorrow, as he requested?",
+      "target": "奥赛罗给我讲了一个精彩极了的故事，讲完后，他问起了哈姆雷特。我不知道该怎么说。也不完全知道。可后来……我们接吻了，那感觉<i>美妙极了。</i>现在想起来，我仍会浑身颤栗。这对我和他的关系意味着什么？更要紧的是，我该不该应他的邀请，明天再去见他？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[3].text",
+        "field": "text",
+        "record_id": "othello_4"
+      },
+      "translation_id": "p00164-3d848fcf3a78"
+    },
+    {
+      "line_index": 4,
+      "line_id": "othello_5",
+      "source": "Othello told me the most incredible tale, and when he was done, he asked me about Hamlet. I didn't know what to say. Not exactly. He asked me if he could kiss me, and I turned him away. I don't think I can think of him that way, at least not right now.",
+      "target": "奥赛罗给我讲了一个精彩极了的故事，讲完后，他问起了哈姆雷特。我不知道该怎么说。也不完全知道。他问能不能吻我，我拒绝了他。我想我没法对他抱有那样的感情，至少现在还不能。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[4].text",
+        "field": "text",
+        "record_id": "othello_5"
+      },
+      "translation_id": "p00165-6a449342d47c"
+    },
+    {
+      "line_index": 5,
+      "line_id": "othello_6",
+      "source": "Othello and I were together for the first time, in the woods. It was <i>nothing</i> like it was with Hamlet... he was gentle, but knew exactly what he was doing. It was the kind of quiet, intimate night I've rarely shared with another person, let alone someone unrelated to me. One of those nights when you feel as if you've known someone forever after just a few hours. Something large has shifted in our relation to one another. We were interrupted by Claudius. I've never been angrier in my life. How dare he try to tell me what's appropriate for me and what isn't? I'll do as I like, go where I will. Othello made it out unscathed, but I'm certain the experience frightened him. I ought to go see him as soon as possible.",
+      "target": "我和奥赛罗第一次亲热，是在树林里。那感觉和我与哈姆雷特在一起时<i>完全不同</i>……他很温柔，也很清楚自己在做什么。这样安静、亲密的夜晚，我很少与别人共度，更别说是没有亲属关系的人。有些夜晚就是这样，短短几个小时，就让你觉得仿佛认识了对方一辈子。我们之间的关系发生了很大的变化。克劳狄斯打断了我们。我这辈子从没这么生气过。他凭什么来告诉我，什么对我合适，什么不合适？我要做自己想做的事，去自己想去的地方。奥赛罗安然无恙地离开了，但我确信这件事吓到了他。我该尽快去看看他。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[5].text",
+        "field": "text",
+        "record_id": "othello_6"
+      },
+      "translation_id": "p00166-3aa62bf32c1d"
+    },
+    {
+      "line_index": 6,
+      "line_id": "othello_7",
+      "source": "Othello and I went to the woods together, and I showed him the castle... or at least, the fringes of it. And he taught me to swim. It was the kind of quiet, intimate night I've rarely shared with another person, let alone someone unrelated to me. One of those nights when you feel as if you've known someone forever after just a few hours. We were interrupted by Claudius. I've never been angrier in my life. How dare he try to tell me what's appropriate for me and what isn't? I'll do as I like, go where I will. Othello made it out unscathed, but I'm certain the experience frightened him. I ought to go see him as soon as possible.",
+      "target": "我和奥赛罗一起去了树林，我带他看了城堡……至少是城堡的外围。他还教了我游泳。这样安静、亲密的夜晚，我很少与别人共度，更别说是没有亲属关系的人。有些夜晚就是这样，短短几个小时，就让你觉得仿佛认识了对方一辈子。克劳狄斯打断了我们。我这辈子从没这么生气过。他凭什么来告诉我，什么对我合适，什么不合适？我要做自己想做的事，去自己想去的地方。奥赛罗安然无恙地离开了，但我确信这件事吓到了他。我该尽快去看看他。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[6].text",
+        "field": "text",
+        "record_id": "othello_7"
+      },
+      "translation_id": "p00167-399f4c20c2e2"
+    },
+    {
+      "line_index": 7,
+      "line_id": "othello_complete",
+      "source": "I found Othello and apologized. He asked me to run away with him, to leave Elsinore forever and travel south. Quince promised me Othello was 'fated to love another,' but that we'd enjoy a good life together until that time came. Maybe that's enough.",
+      "target": "我找到了奥赛罗，向他道了歉。他让我和他一起远走高飞，永远离开埃尔西诺，往南方去。奎因斯向我保证，奥赛罗“命中注定会爱上另一个人”，但在那一天到来之前，我们会一起过上美好的生活。也许这样就够了。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[15].lines[7].text",
+        "field": "text",
+        "record_id": "othello_complete"
+      },
+      "translation_id": "p00168-99441ffbb85e"
+    }
+  ],
+  "16": [
+    {
+      "line_index": 0,
+      "line_id": "hamking_1",
+      "source": "Hamlet asked to meet me in private, and confided to me that he desires to 'prove his worth' to me and rekindle our relationship. First, though, he believes he must complete some 'dark work' of his own.",
+      "target": "哈姆雷特约我私下见面，向我坦言，他想向我“证明自己的价值”，让我们重拾旧情。不过，他认为自己得先完成一些“黑暗之事”。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[0].text",
+        "field": "text",
+        "record_id": "hamking_1"
+      },
+      "translation_id": "p00170-8d88ee3c661b"
+    },
+    {
+      "line_index": 1,
+      "line_id": "hamking_1a",
+      "source": "The 'dark work' to which Hamlet refers is avenging his father's murder. He cannot rest, or become King, until that mission is complete. There are ways I could assist him... were I so inclined.",
+      "target": "哈姆雷特所说的“黑暗之事”，就是为被杀的父亲报仇。在完成这项使命之前，他无法安歇，也无法成为国王。我有办法帮他……如果我愿意的话。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[1].text",
+        "field": "text",
+        "record_id": "hamking_1a"
+      },
+      "translation_id": "p00171-420cc5b124ba"
+    },
+    {
+      "line_index": 2,
+      "line_id": "hamking_2",
+      "source": "Hamlet came to me after the news of his uncle's death was announced. He's done it. He's cleared all obstacles in his path to become King. But will he be able to successfully accomplish all it takes to be named the official heir? I can help him. I can ensure he has the right advice. The next few days shall be a critical window in which to act to determine the fate of the country as a whole, and of Hamlet's life.",
+      "target": "叔父的死讯公布后，哈姆雷特来找了我。他做到了。他扫清了成为国王的所有障碍。但要被正式指定为继承人，他能顺利完成所有必要的事吗？我可以帮他。我可以确保他得到正确的建议。接下来的几天将是采取行动的关键时机，整个国家的命运，以及哈姆雷特一生的命运，都将由此决定。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[2].text",
+        "field": "text",
+        "record_id": "hamking_2"
+      },
+      "translation_id": "p00172-bf5a666988d4"
+    },
+    {
+      "line_index": 3,
+      "line_id": "hamking_3",
+      "source": "I told Hamlet I wanted to try again, with us. That things might be different this time. I truly believe, in my heart of hearts, that he's changed... but will it stay that way? What if he returns to the horrid person he's been all summer? I'll have to abandon him again, then, and I'm not certain what would come of it. But for now, I remain hopeful.",
+      "target": "我告诉哈姆雷特，我想和他重新试一次。这次也许会有所不同。我打心底里相信，他已经变了……可他能一直这样吗？要是他又变回这一整个夏天里那个可怕的人呢？那我就不得不再次离开他，而我不知道那会带来什么后果。但眼下，我仍抱着希望。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[3].text",
+        "field": "text",
+        "record_id": "hamking_3"
+      },
+      "translation_id": "p00173-a03f5f53adc6"
+    },
+    {
+      "line_index": 4,
+      "line_id": "hamking_4",
+      "source": "Hamlet asked me to marry him. To become Queen. I'd never dared to think about it before now. But I consented. I'm going to rule. And when I do, I'm going to do what dozens of queens before me could not. I know the cost of death. I know what it is to suffer. Under me, no one will suffer as I have. Never again.",
+      "target": "哈姆雷特向我求婚了。要我成为王后。在此之前，我从未敢想过这件事。但我答应了。我将统治这个国家。到那时，我要做到前几十位王后都没能做到的事。我知道死亡的代价。我知道受苦是什么滋味。在我的治下，不会有人再遭受我经历过的苦难。再也不会。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[4].text",
+        "field": "text",
+        "record_id": "hamking_4"
+      },
+      "translation_id": "p00174-cb9bc4c47f2d"
+    },
+    {
+      "line_index": 5,
+      "line_id": "hamking_5",
+      "source": "Hamlet <i>lied</i> to me.\n\nHe told me he wanted to make me happy, to honor me... and now he's gone and banished Laertes and my father, believing them to be threats to his rule. Is this the cost of this world? Become Queen, but lose my family? What a rotten, horrid trick to play.\n\nEven so, they might be happier outside Elsinore. And far safer. Perhaps all is not lost.",
+      "target": "哈姆雷特<i>骗了</i>我。\n\n他说，他想让我幸福，想尊重我……可现在，他竟然放逐了雷欧提斯和父亲，认为他们会威胁他的统治。这就是这个世界的代价吗？成为王后，却失去家人？这场骗局真是卑劣又可怕。\n\n即便如此，离开埃尔西诺，他们也许会更快乐。而且安全得多。也许还不算失去了一切。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[5].text",
+        "field": "text",
+        "record_id": "hamking_5"
+      },
+      "translation_id": "p00175-51e4b029b7fe"
+    },
+    {
+      "line_index": 6,
+      "line_id": "hamking_6",
+      "source": "It appears to be the case that if I spurn Hamlet's advances, Queen Gertrude will ensure Brit and Hamlet are betrothed. What sort of world would it be, one where Lady Brit sits the throne? Perhaps it would behoove me to run this journey to its end and find out.",
+      "target": "看来，如果我拒绝哈姆雷特的追求，乔特鲁德王后就会促成布莉特与哈姆雷特的婚约。如果布莉特女士坐上王位，那会是怎样的世界？也许我该把这段旅程走到最后，看看结果。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[6].text",
+        "field": "text",
+        "record_id": "hamking_6"
+      },
+      "translation_id": "p00176-d20e0565cdda"
+    },
+    {
+      "line_index": 7,
+      "line_id": "hamking_complete",
+      "source": "...And suddenly, my betrothal to Hamlet was formally announced. I think it came as quite the shock to everyone. This wedding is moving forward, at least in <i>this</i> world. Is this a world I would want to keep forever?",
+      "target": "……突然间，我与哈姆雷特的婚约就正式公布了。我想，这让所有人都大吃一惊。婚事正在推进，至少在<i>这个</i>世界里是如此。这是我想永远保留下来的世界吗？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[16].lines[7].text",
+        "field": "text",
+        "record_id": "hamking_complete"
+      },
+      "translation_id": "p00177-047a6f1324fe"
+    }
+  ],
+  "17": [
+    {
+      "line_index": 0,
+      "line_id": "sea_1",
+      "source": "Hamlet returned from his voyage to England, thanks to a bizarre scenario where pirates boarded his vessel and took him hostage. He believes there was a plot against his life right from the voyage's start. If I speak to the King about this, maybe I can uncover the truth of the matter.",
+      "target": "哈姆雷特从前往英格兰的航程中回来了，原因是一场离奇的变故：海盗登上他的船，把他劫为人质。他认为，从航程一开始，就有人密谋要他的命。如果我向国王问起这件事，也许能查出真相。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[0].text",
+        "field": "text",
+        "record_id": "sea_1"
+      },
+      "translation_id": "p00179-3123f8568ce7"
+    },
+    {
+      "line_index": 1,
+      "line_id": "sea_1a",
+      "source": "I spoke to the King about the aforementioned plot against Hamlet's life. He seemed surprised and disturbed, but now believes me to be an ally of sorts. If I can only be there <b>at the moment Hamlet steps aboard that ship,</b> I might be able to find a way onto it myself.",
+      "target": "我向国王谈起了前面提到的谋害哈姆雷特一事。他似乎既惊讶又不安，但现在把我当成了某种盟友。只要我能在<b>哈姆雷特登上那艘船的那一刻</b>到场，也许就能想办法一起上船。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[1].text",
+        "field": "text",
+        "record_id": "sea_1a"
+      },
+      "translation_id": "p00180-ceec8843a35a"
+    },
+    {
+      "line_index": 2,
+      "line_id": "sea_2",
+      "source": "I've made it aboard the ship. The King tasked me directly with ensuring Hamlet doesn't return to Denmark, and promised me a rich reward. I'm not certain I <i>want</i> any reward like that. For now, I'd like to merely observe and understand the situation.",
+      "target": "我成功上船了。国王直接交给我一项任务，要我确保哈姆雷特不会回到丹麦，并许诺给我丰厚的奖赏。我不确定自己是否<i>想要</i>这样的奖赏。眼下，我只想观察，弄清这里的情况。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[2].text",
+        "field": "text",
+        "record_id": "sea_2"
+      },
+      "translation_id": "p00181-9a8eb28e90e9"
+    },
+    {
+      "line_index": 3,
+      "line_id": "sea_3",
+      "source": "<i>Pirates.</i> We've been set upon by pirates. Not more than a few hours after we left Danish waters, at that. Their captain calls herself Grace O'Malley, and though she may be coarse, she doesn't seem cruel. Perhaps she can be reasoned with.",
+      "target": "<i>海盗。</i>我们遭到了海盗袭击。而且，那时我们离开丹麦海域才不过几个小时。他们的船长自称格蕾丝·奥马利，虽然举止粗鲁，却似乎并不残忍。也许可以和她讲讲道理。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[3].text",
+        "field": "text",
+        "record_id": "sea_3"
+      },
+      "translation_id": "p00182-a104803200a2"
+    },
+    {
+      "line_index": 4,
+      "line_id": "sea_4",
+      "source": "Hamlet pulled me aside to tell me he's got a plan: when opportunity presents itself, he's going to try and overthrow Grace, leaving Rosie and Guilda to die. This is... worrying. I <i>know</i> there's a bloodless option here—or perhaps something bloodier, depending on how I push my luck. I'm dreading the confrontation.",
+      "target": "哈姆雷特把我拉到一旁，告诉我他有个计划：一有机会，他就要试着推翻格蕾丝，丢下萝茜和吉尔达，任她们去死。这……令人担忧。我<i>知道</i>有办法不流血就解决这件事——不过，也可能会流更多的血，就看我冒多大的险了。我很害怕接下来的冲突。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[4].text",
+        "field": "text",
+        "record_id": "sea_4"
+      },
+      "translation_id": "p00183-93740adcfc8f"
+    },
+    {
+      "line_index": 5,
+      "line_id": "sea_5",
+      "source": "I overheard some of Grace's men discussing her. Such interesting rumors. There's got to be more to find, certainly, and eavesdropping <i>is</i> my specialty. Besides, we're in the middle of the ocean. What else am I to do?",
+      "target": "我偷听到格蕾丝的几个手下在议论她。这些传闻真有意思。肯定还能打听到更多，而且偷听<i>确实</i>是我的拿手好戏。再说，我们身处大海中央。我还能做什么呢？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[5].text",
+        "field": "text",
+        "record_id": "sea_5"
+      },
+      "translation_id": "p00184-3ba08718b8f6"
+    },
+    {
+      "line_index": 6,
+      "line_id": "sea_6",
+      "source": "I accosted Grace in the captain's quarters about all the rumors I'd heard. To my surprise, she just laughed and suggested she teach me how to hold a blade. She's offered to meet me abovedeck and show me a thing or two. This woman is a whirlwind.",
+      "target": "我在船长室找格蕾丝，追问了那些听来的传闻。没想到，她只是笑了笑，提议教我怎么握刀。她邀我到甲板上见面，说要教我几招。这个女人真像一阵旋风。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[6].text",
+        "field": "text",
+        "record_id": "sea_6"
+      },
+      "translation_id": "p00185-c2196ff7f369"
+    },
+    {
+      "line_index": 7,
+      "line_id": "sea_7",
+      "source": "As usual, Hamlet ruins everything. That's all I have to update for now. Must go find Grace in her room and apologize. How embarrassing.",
+      "target": "哈姆雷特又像往常一样，把一切都搞砸了。目前要记的就这些。得去格蕾丝的房间找她道歉。真丢脸。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[7].text",
+        "field": "text",
+        "record_id": "sea_7"
+      },
+      "translation_id": "p00186-b0ba0ba821b6"
+    },
+    {
+      "line_index": 8,
+      "line_id": "sea_8",
+      "source": "Grace and I spent the evening drinking and talking. She's nothing like I thought she was. And... at the end of it... we went to bed. We spent the whole night together. I've never experienced anything like this before. I only wish we had more time together. My heart aches for her.",
+      "target": "我和格蕾丝喝酒聊天，度过了一个晚上。她和我原先想的完全不一样。而且……最后……我们上了床。我们共度了整夜。我从未有过这样的经历。我只希望我们能有更多相处的时间。对她的思念让我心痛。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[8].text",
+        "field": "text",
+        "record_id": "sea_8"
+      },
+      "translation_id": "p00187-8f6f7485f142"
+    },
+    {
+      "line_index": 9,
+      "line_id": "sea_9",
+      "source": "Grace and I spent the evening drinking and talking. She's nothing like I thought she was. And... at the end of it... she asked if I wanted to go to bed, though I declined. Nevertheless, it's clear we're kindred souls. I only wish we had more time together.",
+      "target": "我和格蕾丝喝酒聊天，度过了一个晚上。她和我原先想的完全不一样。而且……最后……她问我愿不愿意和她上床，不过我拒绝了。即便如此，我们显然心意相通。我只希望我们能有更多相处的时间。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[9].text",
+        "field": "text",
+        "record_id": "sea_9"
+      },
+      "translation_id": "p00188-7c236d018285"
+    },
+    {
+      "line_index": 10,
+      "line_id": "sea_10",
+      "source": "We departed the ship just a few moments ago and were returned to shore via longboat. What a strange journey. I sense there are so many ways that situation could have turned out; I must now reap the consequences of my actions, or else return to the point when Hamlet and I left the docks and try once more.",
+      "target": "我们刚刚离开那艘船，乘长艇回到了岸上。真是一段奇异的旅程。我感觉那种局面本可以有许多不同的结局；现在，我必须承担自己行为的后果，或者回到我和哈姆雷特离开码头的那一刻，再试一次。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[10].text",
+        "field": "text",
+        "record_id": "sea_10"
+      },
+      "translation_id": "p00189-633765e8bff2"
+    },
+    {
+      "line_index": 11,
+      "line_id": "sea_complete",
+      "source": "I've agreed to join Grace's crew. I wonder what it would be like, if this was my final fate? To become part of her world of debauchery and action and see where that path might lead...",
+      "target": "我已经答应加入格蕾丝的船队。如果这就是我最终的命运，会是什么样呢？融入她那个纵情享乐、充满冒险的世界，看看这条路会通向何处……",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[17].lines[11].text",
+        "field": "text",
+        "record_id": "sea_complete"
+      },
+      "translation_id": "p00190-ea06624e7ed4"
+    }
+  ],
+  "18": [
+    {
+      "line_index": 0,
+      "line_id": "natural_course_1",
+      "source": "No matter how I try to influence people, those I love get hurt. But I've never actually seen how events would play out if I <i>didn't try to change anything.</i> Perhaps I could learn something by just watching.",
+      "target": "无论我怎么试着影响别人，我爱的人都会受到伤害。但我从未真正见过，如果我<i>什么都不试着改变</i>，事情会如何发展。也许只是旁观，也能让我有所收获。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[18].lines[0].text",
+        "field": "text",
+        "record_id": "natural_course_1"
+      },
+      "translation_id": "p00192-177edba205ad"
+    },
+    {
+      "line_index": 1,
+      "line_id": "natural_course_2",
+      "source": "Even without my involvement, this all ends in bloodshed. Hamlet and my brother kill each other in a foolish duel, the Queen is poisoned, and the King run through. Fortinbras invades shortly after, and our leaderless castle provides no real resistance.\n\nAt least I can be certain than my actions haven't made things worse. They were always destined to be bad.",
+      "target": "即使没有我插手，这一切最终也会以流血收场。哈姆雷特和哥哥在一场愚蠢的决斗中杀死了彼此，王后被毒死，国王被利刃刺穿。不久后，福丁布拉斯入侵，我们的城堡群龙无首，没能作出什么像样的抵抗。\n\n至少我可以确定，我的所作所为没有让事情变得更糟。结局本就注定很糟。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[18].lines[1].text",
+        "field": "text",
+        "record_id": "natural_course_2"
+      },
+      "translation_id": "p00193-a846dc158618"
+    }
+  ],
+  "19": [
+    {
+      "line_index": 0,
+      "line_id": "initial",
+      "source": "My father is worried about Laertes' upcoming trip, and wants to talk to my brother before he goes. And of course, it falls on me to get him. Where on earth could he be?",
+      "target": "父亲担心雷欧提斯即将启程的这趟旅行，想在哥哥出发前和他谈谈。当然，找他的差事又落在了我头上。他到底会在哪儿呢？",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[19].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      },
+      "translation_id": "p00195-cae6fc53d026"
+    },
+    {
+      "line_index": 1,
+      "line_id": "complete",
+      "source": "By talking to Queen Gertrude, I was finally able to free Laertes from the meeting. King Claudius granted my brother permission to leave for Paris, but denied Prince Hamlet a similar request. Laertes wanted to meet before he leaves Thursday morning.",
+      "target": "和乔特鲁德王后谈过之后，我终于让雷欧提斯脱身离开了会议。克劳狄斯国王准许哥哥前往巴黎，却拒绝了哈姆雷特王子类似的请求。雷欧提斯想在星期四早上出发前和我见一面。",
+      "origin": {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[19].lines[1].text",
+        "field": "text",
+        "record_id": "complete"
+      },
+      "translation_id": "p00196-e8cc193d4fbf"
+    }
+  ]
+}

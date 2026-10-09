@@ -1,0 +1,398 @@
+[
+  {
+    "id": "ui-lead-runtime-c4e8022618a96faf",
+    "source": "King Hamlet believes that if he had found a book—the Hand of Dionysus—he could have found a way to put an end to his plight. If this book exists, and is the source of this castle's curse, surely someone has to know something about it.",
+    "target": "哈姆雷特国王相信，如果他当初找到一本名为《狄俄尼索斯之手》的书，就能找到摆脱困境的办法。如果这本书存在，而且是城堡诅咒的源头，那一定有人知道些什么。",
+    "source_sha256": "c4e8022618a96fafa934092dcd990c0b8d82a26834e440abc5ee6521d8f4e4ca",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[0].text",
+        "field": "text",
+        "record_id": "book_1"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00051-4939e5f3905c",
+    "existing_source": "King Hamlet believes that if he had found a book - the Hand of Dionysus - he could have found a way to put an end to his plight. If this book exists, and is the source of this castle's curse, surely someone has to know something about it.",
+    "existing_source_sha256": "4939e5f3905c19df6608100a4035eeb42f9a331cf58520602b6489cd83495ec2",
+    "existing_target_sha256": "3a9948fcabc9d74112719c24e03aa634b1f849542512c09b57694a06d4200385",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-5e4a293ac3f11c1c",
+    "source": "Othello says Simona has been living in Castle Town all along—her identity hidden, I suppose, but it's easier if no one even suspects they ought to be looking for you. She'll return to the bar on Sunday afternoon.",
+    "target": "奥赛罗说，西蒙娜一直住在城堡镇——我想，她隐瞒了身份，不过，如果根本没人想到要找你，藏身就容易多了。她会在星期天下午回到酒馆。",
+    "source_sha256": "5e4a293ac3f11c1c28e226bc00d54b098df45e74389c4b6f667169b97b6163c1",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[3].text",
+        "field": "text",
+        "record_id": "book_4"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00054-5a73618999ca",
+    "existing_source": "Othello says Simona has been living in Castle Town all along - her identity hidden, I suppose, but it's easier if no one even suspects they ought to be looking for you. She'll return to the bar on Sunday afternoon.",
+    "existing_source_sha256": "5a73618999ca0fc6922e3dcb5bf5a314d01d94a5174559745ca38baf77a56943",
+    "existing_target_sha256": "484fb2cc34783e8233f7d4687569dad799cc4688f9e3d62fe1731c45f8214ebf",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-33dfb3ff477b594d",
+    "source": "I... found it. I possess the Book of Fates. So many pieces had to be moved in order for me to find it, but it now sits on my table. The book itself does not provide one exit, but many—and it seems Quince is far from who I thought he was. ",
+    "target": "我……找到它了。《命运之书》已经在我手里。为了找到它，我不得不改变许多事情，但现在，它就在我的桌上。这本书提供的出路不止一条，而是许多条——看来，奎因斯也远不是我以为的那个人。",
+    "source_sha256": "33dfb3ff477b594d627c97d6e51c4c07e9078a7c1a1e051771757dc5471cbced",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[0].lines[5].text",
+        "field": "text",
+        "record_id": "book_complete"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00056-5bbf76b75a35",
+    "existing_source": "I... found it. I possess the Book of Fates. So many pieces had to be moved in order for me to find it, but it now sits on my table. The book itself does not provide one exit, but many - and it seems Quince is far from who I thought he was.",
+    "existing_source_sha256": "5bbf76b75a3520dc4521a8c94ae954f688df2a6408379309f599d4fc0d5283a3",
+    "existing_target_sha256": "27fcd27a48ceb55c2a500f6a2f3fb5180fe72a2da452da189345461d9417b626",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-dc4e7c7a2d424fa9",
+    "source": "Apparently Bernardo and Father have been convinced that Fortinbras posed a threat for months, but the King has been reluctant to act. They need more compelling evidence—some source close to Norway that could give me information.",
+    "target": "看来，贝尔纳多和父亲几个月来一直认定福丁布拉斯是个威胁，但国王迟迟不愿采取行动。他们需要更有说服力的证据——某个与挪威关系密切的消息来源，或许能向我提供情报。",
+    "source_sha256": "dc4e7c7a2d424fa921371a8de7554be9a5c4992d54b028a3a56ee94f6ae2275c",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[1].lines[1].text",
+        "field": "text",
+        "record_id": "fort_2"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00059-3007e5cf0a0d",
+    "existing_source": "Apparently Bernardo and Father have been convinced that Fortinbras posed a threat for months, but the King has been reluctant to act. They need more compelling evidence - some source close to Norway that could give me information.",
+    "existing_source_sha256": "3007e5cf0a0d59d585d3099fdc64b79febbb82dcc1a69dd579a1c36a8e255614",
+    "existing_target_sha256": "8ce7335d3ac3dec816e306d08c440cf7ea0a5af76805116b53857e02f23165f3",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-8bc25c4a5d26610e",
+    "source": "Hamlet is tight-lipped on the spirit—he needs to be sure he can trust me. He's asked me to get information from a diary his mother keeps in her room. Well, if it's what must be done, then so be it.",
+    "target": "哈姆雷特对幽灵的事守口如瓶——他需要确定能信任我。他让我从他母亲放在房间里的日记中获取信息。好吧，如果非做不可，那就做吧。",
+    "source_sha256": "8bc25c4a5d26610ef8efe655e215e7fa4811fcfc4465beee7e419ac0a5927745",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[6].lines[1].text",
+        "field": "text",
+        "record_id": "spirit_3"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00095-9b86c48adfdd",
+    "existing_source": "Hamlet is tight-lipped on the spirit - he needs to be sure he can trust me. He's asked me to get information from a diary his mother keeps in her room. Well, if it's what must be done, then so be it.",
+    "existing_source_sha256": "9b86c48adfdd0e802b951d6e04d447c9e5afd5e8a21c57718561525b28502799",
+    "existing_target_sha256": "84c30564069877d61ded4ac541d6d925c3325affe74d9aaa7e2332563bdfefe9",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-421c4d7afde8f610",
+    "source": "King Hamlet's final notes mentioned Quince as 'The Playmaster.' He writes that Quince 'relieved' him of his eternal torment, which explains why he's a spirit in my world and no longer trapped in time. But if Quince has the power to do that, why hasn't he done it for <i>me?</i>\n\nWhat's clear is that all paths seem to lead to me finding this book—this 'Hand of Dionysus.' I'll need to do that before I can understand more.",
+    "target": "哈姆雷特国王在最后的笔记中提到奎因斯，称他为“戏剧主宰”。他写道，奎因斯让他从永恒的折磨中“解脱”了。这解释了为什么他在我的世界里是个幽灵，不再被困在时间之中。可如果奎因斯有这样的力量，为什么不对<i>我</i>这样做？\n\n有一点很清楚：所有的路似乎都指向找到那本书——那本《狄俄尼索斯之手》。我得先找到它，才能弄明白更多事情。",
+    "source_sha256": "421c4d7afde8f6107de49f0d93b1921382e58a6eae76f7b96524c86e7981d15c",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[9].lines[6].text",
+        "field": "text",
+        "record_id": "quince_6"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00120-2ccf89ee1d36",
+    "existing_source": "King Hamlet's final notes mentioned Quince as 'The Playmaster.' He writes that Quince 'relieved' him of his eternal torment, which explains why he's a spirit in my world and no longer trapped in time. But if Quince has the power to do that, why hasn't he done it for <i>me?</i>\n\nWhat's clear is that all paths seem to lead to me finding this book--this 'Hand of Dionysus.' I'll need to do that before I can understand more.",
+    "existing_source_sha256": "2ccf89ee1d369418a15748d4e67f7179cd01d452e7367ff38cf482e1abc480d4",
+    "existing_target_sha256": "0f55973f64ec22322553bd64f53b8c63754ed3535398878a0c4dc7f081f502dd",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-c90912251a6c447e",
+    "source": "In various places, I've heard mention of Queen Astrid—Hamlet's grandmother—but I've realized I don't know much about her reign. I could ask around to learn more.",
+    "target": "我在不少地方听人提起过阿斯特丽德女王，也就是哈姆雷特的祖母，但我意识到，自己对她在位时的事所知甚少。我可以四处打听，多了解一些。",
+    "source_sha256": "c90912251a6c447eb2099a9852bb8e27b0c7fd2c279bcac6a08263d8a03aba15",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[10].lines[0].text",
+        "field": "text",
+        "record_id": "astrid_1"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00125-9efb1c0fe659",
+    "existing_source": "In various places, I've heard mention of Queen Astrid - Hamlet's grandmother - but I've realized I don't know much about her reign. I could ask around to learn more.",
+    "existing_source_sha256": "9efb1c0fe659c41058eeb222074289ad21c089a7c3be2466f70e5f6b6943c5e5",
+    "existing_target_sha256": "ee69c1e17a797ace4c82e5234557ca2c29e62999a24a45e88bb3804a21b6b519",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-df9316ee65d15ea7",
+    "source": "The door to Gertrude's chambers is locked—but I won't let that stop me. There has to be a way to get inside. Someone close to her must know, surely.",
+    "target": "乔特鲁德寝室的门锁着，但我不会就此罢休。一定有办法进去。她身边亲近的人肯定知道。",
+    "source_sha256": "df9316ee65d15ea7459ea7e8d890732de8aa0d83e87e142463df28b8c35f1e44",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[0].text",
+        "field": "text",
+        "record_id": "chambers_1"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00131-909b2d1ec2e1",
+    "existing_source": "The door to Gertrude's chambers is locked - but I won't let that stop me. There has to be a way to get inside. Someone close to her must know, surely.",
+    "existing_source_sha256": "909b2d1ec2e1681ad0923e10ad94ebbd3fbb6adbd8b175feca9e9c8b280d7abb",
+    "existing_target_sha256": "cdb7dcfbb7b1fa81900d88fd1cb75e36ac88984bec053122f197fa886f4dbb3f",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-3c38d49a17299cfa",
+    "source": "Brit agreed to lend me her key—if I set her up for a 'private rendezvous' with Hamlet. Well, if it's what I need to do, the task seems straightforward enough. I'll just try not to think about the consequences.",
+    "target": "布莉特答应把钥匙借给我，条件是我替她安排一次与哈姆雷特的“私下幽会”。好吧，如果非做不可，这件事看起来倒不难办。我尽量不去想后果就是了。",
+    "source_sha256": "3c38d49a17299cfa9fe8f693db48846349959a6fb3f23251573c28087ffb3764",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[2].text",
+        "field": "text",
+        "record_id": "chambers_3a"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00133-26940b5839c4",
+    "existing_source": "Brit agreed to lend me her key - if I set her up for a 'private rendezvous' with Hamlet. Well, if it's what I need to do, the task seems straightforward enough. I'll just try not to think about the consequences.",
+    "existing_source_sha256": "26940b5839c432f0f901cc50dc676454b7bbfca85a3fdeaa2637c848258c5542",
+    "existing_target_sha256": "e0975ecab0492e354c5a1515958323f325ca947f5cedd9e9a0106c0d46352706",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-bb8bbcdbb9efaeb0",
+    "source": "Irma tells me she would be willing to give me her key to Gertrude's room—if I organize a card game for herself, Lady Brit, Horatio, and Marcellus. I'll have to talk to each person she mentioned individually.",
+    "target": "伊尔玛告诉我，她愿意把乔特鲁德房间的钥匙给我，条件是我为她、布莉特女士、霍拉旭和马塞勒斯组织一场牌局。我得分别去找她提到的每个人谈谈。",
+    "source_sha256": "bb8bbcdbb9efaeb041d7d63b1b13e91f98e2e147eb5b9410ab88a898a837ec30",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[3].text",
+        "field": "text",
+        "record_id": "chambers_3b"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00134-2892c38f8c06",
+    "existing_source": "Irma tells me she would be willing to give me her key to Gertrude's room - if I organize a card game for herself, Lady Brit, Horatio, and Marcellus. I'll have to talk to each person she mentioned individually.",
+    "existing_source_sha256": "2892c38f8c062c9af1377f3d1f69c73c76ece1bb65d9ea40555243d40fc2af8f",
+    "existing_target_sha256": "32747db968ae758cbe73339a117d701629f99a9bd0f873cf35f3e50c5b31bdd5",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-e943804e0852bf38",
+    "source": "Gertrude's private chambers are always locked when time resets, but now I know how to get inside. The key is hidden in the shrubbery outside the Queen's door—if I retrieve that key, I'll be able to enter freely from now on.",
+    "target": "每次时间重置，乔特鲁德寝室的门都会锁上，但现在我知道怎么进去了。钥匙就藏在王后门外的灌木丛里，只要拿到它，以后我就能自由出入。",
+    "source_sha256": "e943804e0852bf386df9bfda9e9d7a1c82edfc5a83563697f6527b4fc3b2f412",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[11].lines[4].text",
+        "field": "text",
+        "record_id": "chambers_complete"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00135-dc5bf2c9a35f",
+    "existing_source": "Gertrude's private chambers are always locked when time resets, but now I know how to get inside. The key is hidden in the shrubbery outside the Queen's door - if I retrieve that key, I'll be able to enter freely from now on.",
+    "existing_source_sha256": "dc5bf2c9a35f02803aafe1dbf70b36bcf76609bc5fc252094137526ba1be7396",
+    "existing_target_sha256": "7b494b3016d83267700bfde622414ec84dd6c25440813d55b2e7c893dd3e99e7",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-572bf572b25100fc",
+    "source": "By turning Lady Brit in to Bernardo, I managed to stop her from killing me this loop. It seems my success might be permanent—I was surprised by a visit from Quince, who promised me Brit would never come after my life again. How he intends to accomplish this, I'm unsure, but for now—I wonder what else lies before me.",
+    "target": "我向贝尔纳多告发布莉特女士，成功阻止了她在这次循环里杀我。这次成功似乎可能永久有效——奎因斯意外来访，向我保证布莉特再也不会来取我的性命。我不清楚他打算如何做到这一点，但眼下——我想知道，前方还有什么在等着我。",
+    "source_sha256": "572bf572b25100fc028884c661c8138887ad3523db841fcf0a9a5ddcc4eb630b",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[12].lines[8].text",
+        "field": "text",
+        "record_id": "spy_complete"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00145-aed5472cb28e",
+    "existing_source": "By turning Lady Brit in to Bernardo, I managed to stop her from killing me this loop. It seems my success might be permanent - I was surprised by a visit from Quince, who promised me Brit would never come after my life again. How he intends to accomplish this, I'm unsure, but for now—I wonder what else lies before me.",
+    "existing_source_sha256": "aed5472cb28ed8c7ed36f103b8f2cd2b8c8108e15c045a5bf5378badce5a0701",
+    "existing_target_sha256": "1d59facd861699b1db3f7d3e1bf75171cfd8abdda752d54bbafa94c4c284891b",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-0dc3c71d73f88c9c",
+    "source": "Though my father found my warnings disturbing, it doesn't seem telling him alone was enough to save him. Bernardo just informed me of his death—again. I need to know more about how the events played out—and find a way to change the state of that room.",
+    "target": "虽然我的警告让父亲感到不安，但看来光是告诉他，还不足以救他。贝尔纳多刚刚又告诉我，父亲死了。我需要进一步了解事情是如何发生的，并想办法改变那个房间里的状况。",
+    "source_sha256": "0dc3c71d73f88c9c3c5baa84b7be8a2a8d3cc34ecca04603bf48fd7a95b18e0f",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[3].text",
+        "field": "text",
+        "record_id": "father_2b"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00150-986414cd9211",
+    "existing_source": "Though my father found my warnings disturbing, it doesn't seem telling him alone was enough to save him. Bernardo just informed me of his death - again. I need to know more about how the events played out - and find a way to change the state of that room.",
+    "existing_source_sha256": "986414cd9211363f02644fc0c3fba3787859fba6e3c90c9b7bd3b453936503c4",
+    "existing_target_sha256": "09881bb76eaae8991e97514eb5201e1724625d681f712f1ec892492258059bc3",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-ef3f06c4c940bc2b",
+    "source": "I... I did it. I actually saved him. Though it did not come without a cost, it meant so much to me to see him live beyond a fate that previously seemed inescapable. I know it's a temporary victory—at the end of these days it will all be reset, and then he will probably die many times, just as before. But now... at least I know something <i>can</i> be done.",
+    "target": "我……我做到了。我真的救了他。虽然付出了代价，但看到他逃过那曾经似乎无法避免的命运，继续活下去，对我来说意义重大。我知道这只是暂时的胜利——这几天一结束，一切就会重置，他大概又会像以前那样，一次次死去。但现在……至少我知道，<i>确实有办法</i>改变这一切。",
+    "source_sha256": "ef3f06c4c940bc2bf6f6ba048bb695adfed98b60adb73c0ef1d6233f715fd0ae",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[13].lines[5].text",
+        "field": "text",
+        "record_id": "father_complete"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00152-eba0e0634d3e",
+    "existing_source": "I... I did it. I actually saved him. Though it did not come without a cost, it meant so much to me to see him live beyond a fate that previously seemed inescapable. I know it's a temporary victory - at the end of these days it will all be reset, and then he will probably die many times, just as before. But now... at least I know something <i>can</i> be done.",
+    "existing_source_sha256": "eba0e0634d3e9628e2951b0d5df2c655beb5046830ed26f6f4832548e1db56bc",
+    "existing_target_sha256": "ac60b4e96128c8224e964066aaff8ed370052ebc0dbe04fc522a6cf932a29c1a",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-e29aee80e2b5b68f",
+    "source": "Hamlet's madness was brought on not by love, but by a meeting with what he believes to be the spirit of his father. It's from there he must have gotten his information about Claudius's murder. But the information turned out to be correct—so does this spirit actually exist?",
+    "target": "哈姆雷特发疯并非因为爱情，而是因为他见到了一个他认为是父亲亡魂的存在。他关于克劳狄斯杀人的消息，想必就是从那里得来的。但消息确实属实——难道这个亡魂真的存在？",
+    "source_sha256": "e29aee80e2b5b68f3ec563cf71d44a0b0287befe60c83057e053cb6f24800ffb",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "02ff7434079c58d8306840ed78239f73b532eef7b7cd903a0dfc21dfaba6ba51",
+        "json_path": "$.list[14].lines[5].text",
+        "field": "text",
+        "record_id": "hamlet_complete"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p00159-7e1cb5dbfbf0",
+    "existing_source": "Hamlet's madness was brought on not by love, but by a meeting with what he believes to be the spirit of his father. It's from there he must have gotten his information about Claudius's murder. But the information turned out to be correct - so does this spirit actually exist?",
+    "existing_source_sha256": "7e1cb5dbfbf049d11dc673c3b374e4f7033faa6856f744619386cff5cab0796c",
+    "existing_target_sha256": "de2c50526bc5d4cfbe2a3c211697ee579d94476fd080b649788ebc274303b42c",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-b28bc15db78ba5a3",
+    "source": "I've woken up in my bed again, but things feel—different. Strange.",
+    "target": "我又在自己的床上醒来，但感觉一切——不一样了。很奇怪。",
+    "source_sha256": "b28bc15db78ba5a3bcbf7c3e72907921ee74e7b297fb5c0e139d07c4cca796bc",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "c47a11cd12cf2b0d928b3e071f8496034833b027f816affcd6e14dd38bea1bd0",
+        "json_path": "$.list[0].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p10557-97beb69156cc",
+    "existing_source": "I've woken up in my bed again, but things feel - different. Strange.",
+    "existing_source_sha256": "97beb69156ccfe00e96e8ee7e76e689abdcc8794c73fc7d096cf283841f907c5",
+    "existing_target_sha256": "229cb6423e3c3185910df38f02a7f3aa8d5ae4793a9da6dd57b7d32b4be5003c",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-5ffdfc41d1e7ded1",
+    "source": "My father was waiting, as usual, but not to chastise me—rather, to invite me to some sort of feast in the Great Hall. I'll need to join everyone there.",
+    "target": "父亲像往常一样等着我，但不是为了训斥我——而是邀请我去大厅参加一场宴会。我得去那里和大家会合。",
+    "source_sha256": "5ffdfc41d1e7ded1dad55c2c09c0c0b2da17b31e473752412fd73febcf1f6cd0",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "c47a11cd12cf2b0d928b3e071f8496034833b027f816affcd6e14dd38bea1bd0",
+        "json_path": "$.list[0].lines[1].text",
+        "field": "text",
+        "record_id": "second"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p10558-0add51fae0da",
+    "existing_source": "My father was waiting, as usual, but not to chastise me -- rather, to invite me to some sort of feast in the Great Hall. I'll need to join everyone there.",
+    "existing_source_sha256": "0add51fae0daedb83fd530b815e0aba54d8845955b549e9a2cf6c8e54d5ff3b0",
+    "existing_target_sha256": "8d3d0ccb7239278cb8d15116476aa37c041f493a3a316f6578d1dca566c6d4db",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  },
+  {
+    "id": "ui-lead-runtime-1e536d95bd3e402c",
+    "source": "I'd forgotten what it was like to see them all happy. This world—this new world—is this the world that would have been without the Book of Fates, without any of it?",
+    "target": "我都忘了，看见大家都开开心心是什么感觉。这个世界——这个新的世界——难道就是没有《命运之书》、没有这一切时，本该存在的世界吗？",
+    "source_sha256": "1e536d95bd3e402c950d76e2e06da32c04904fde9347ac189baa832d2cce0113",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "leads",
+        "asset_sha256": "c47a11cd12cf2b0d928b3e071f8496034833b027f816affcd6e14dd38bea1bd0",
+        "json_path": "$.list[0].lines[2].text",
+        "field": "text",
+        "record_id": "third"
+      },
+      "analysis/ui-audit/lead-followup-il.json"
+    ],
+    "existing_id": "p10559-88503d769b4e",
+    "existing_source": "I'd forgotten what it was like to see them all happy. This world -- this new world -- is this the world that would have been without the Book of Fates, without any of it?",
+    "existing_source_sha256": "88503d769b4e9c5ac5e720042ce155a3305c599d43bc3ed80a42eaa9a8bca2cc",
+    "existing_target_sha256": "fe6d0ab0034a08725317f0f3b1fd29f77f6fb35771d33c71f11a9b4cdb94f0bd",
+    "provenance": "真实LeadLine编译破折号变体，逐字复用冻结译文，不改原资源或进度"
+  }
+]

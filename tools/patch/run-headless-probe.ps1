@@ -9,10 +9,13 @@ if ($env:ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS) {
 if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
     throw 'ELSINOREHAN_PROBE_ITALIC 必须与资料模式一起运行。'
 }
+if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1' -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not $env:ELSINOREHAN_PROBE_LEAD_CASES -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_LEAD_CASES -PathType Leaf))) {
+    throw 'ELSINOREHAN_PROBE_UI_FOLLOWUP 必须使用资料模式和已核实线索重放文件，禁止启动。'
+}
 if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and (-not $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -PathType Leaf))) {
     throw 'ELSINOREHAN_PROBE_CLOSEUP_IDS 缺少冻结资料ID文件，禁止启动。'
 }
-foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS')) {
+foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS', 'ELSINOREHAN_PROBE_LEAD_CASES')) {
     $inputPath = [Environment]::GetEnvironmentVariable($variableName)
     if ($inputPath -and -not (Test-Path -LiteralPath $inputPath -PathType Leaf)) { throw ($variableName + ' 指向的文件不存在，禁止启动。') }
 }
@@ -34,6 +37,7 @@ $process = $null
 $createdPlugin = $false
 $loaderConfigPath = Join-Path $GamePath 'BepInEx/config/BepInEx.cfg'
 $originalLoaderConfig = [IO.File]::ReadAllBytes($loaderConfigPath)
+[IO.File]::WriteAllBytes((Join-Path $runDirectory 'loader-config-before.bin'), $originalLoaderConfig)
 $previousRunId = $env:ELSINOREHAN_PROBE_RUN_ID
 $previousSavePath = $env:ELSINOREHAN_PROBE_SAVE_PATH
 $originalSavePath = Join-Path ([Environment]::GetFolderPath('ApplicationData')) 'Golden Glitch Studios/Elsinore'
@@ -103,6 +107,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
+    if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1') { $reports += @('lead-followup.tsv', 'map-followup.tsv', 'timeline-followup.tsv') }
     foreach ($name in $reports) {
         $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
         if ((Get-Item -LiteralPath $source).LastWriteTimeUtc -lt $launchedAt) { throw ('探针记录不是本轮生成：' + $name) }
@@ -138,6 +143,14 @@ try {
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') {
         python (Join-Path $PSScriptRoot 'verify-italic-geometry.py') (Join-Path $runDirectory 'italic-geometry.json')
         if ($LASTEXITCODE -ne 0) { throw '中文斜体几何验收失败，禁止宣称字体修复通过。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1') {
+        python (Join-Path $PSScriptRoot 'verify-lead-followup.py') (Join-Path $runDirectory 'lead-followup.tsv') --output (Join-Path $runDirectory 'lead-followup-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw '线索完整正文与F8断言失败。' }
+        python (Join-Path $PSScriptRoot 'verify-map-followup.py') (Join-Path $runDirectory 'map-followup.tsv') --output (Join-Path $runDirectory 'map-followup-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw '地图确认与取消移动断言失败。' }
+        python (Join-Path $PSScriptRoot 'verify-timeline-followup.py') (Join-Path $runDirectory 'timeline-followup.tsv') --output (Join-Path $runDirectory 'timeline-followup-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw '时间线完整正文与F8断言失败。' }
     }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'verification.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-ui-verification.json') -Force
     Copy-Item -LiteralPath (Join-Path $runDirectory 'process.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-process.json') -Force

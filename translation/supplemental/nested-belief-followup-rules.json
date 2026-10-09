@@ -1,0 +1,68 @@
+[
+  {
+    "id": "ui-rule-notification-nested-quoted-belief-now",
+    "priority": 35,
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) now (?:believes that|believe that) (?<person>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)) believes that \"(?<term>[^\"\\r\\n]+)\"\\.\\z$",
+    "replacement": "${people}现在认为，${person}相信“${term}”。",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "note": "仅处理外层通知嵌套信念且叶项带真实引号的分支；人名和叶项须完整递归命中。保留两层信念，不将叶项变为客观事实。"
+  },
+  {
+    "id": "ui-rule-notification-nested-ophelia-self-now",
+    "priority": 36,
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) now (?:believes that|believe that) (?<person>Ophelia) believes that \"Ophelia is in danger\"\\.\\z$",
+    "replacement": "${people}现在认为，${person}相信“自己身处危险”。",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "leaf_source": "Ophelia is in danger",
+    "leaf_translation_id": "p14817-137aaee657df",
+    "note": "仅当内层信念主体和叶项主体都为Ophelia时使用自己；复用冻结译文身处危险，不泛化人称替换。",
+    "leaf_source_sha256": "137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+    "leaf_target": "奥菲莉娅身处危险",
+    "leaf_target_sha256": "e594c013eabb77fa091c08fe0334dcfb2eac22583af9df575fdcdf0c5c08072f"
+  },
+  {
+    "id": "ui-rule-notification-nested-quoted-belief-no-longer",
+    "priority": 35,
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) no longer (?:believes that|believe that) (?<person>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)) believes that \"(?<term>[^\"\\r\\n]+)\"\\.\\z$",
+    "replacement": "${people}不再认为${person}相信“${term}”。",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "note": "仅处理外层通知嵌套信念且叶项带真实引号的分支；人名和叶项须完整递归命中。保留两层信念，不将叶项变为客观事实。"
+  },
+  {
+    "id": "ui-rule-notification-nested-ophelia-self-no-longer",
+    "priority": 36,
+    "pattern": "^(?<people>(?:<b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>(?: and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>|(?:, <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)+, and <b>(?:Lady\\ Guildenstern|Prince\\ Fortinbras|Lady\\ Rosencrantz|Foreign\\ Soldier|Queen\\ Gertrude|Captain\\ Grace|Hooded\\ Figure|King\\ Claudius|Townsperson|Katherine|Lady\\ Brit|Marcellus|Old\\ Woman|Petruchio|The\\ Ghost|Voltemand|Baptista|Bernardo|Corambis|Finnegan|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Hamlet|Murphy|Quince|Sailor|Elise|Irma|\\?\\?\\?)</b>)?)) no longer (?:believes that|believe that) (?<person>Ophelia) believes that \"Ophelia is in danger\"\\.\\z$",
+    "replacement": "${people}不再认为${person}相信“自己身处危险”。",
+    "origins": [
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm IL_01aa",
+      "Elsinore.dll:Elsinore.Game.Model::formatElsinoreTerm$cont@531 IL_00eb",
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/zero_parameter_display_audit",
+      "knowledge.mapping[].text:ophelia_in_danger sha256=137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+      "user-screenshot:codex-clipboard-9I71dT.png:2026-10-10"
+    ],
+    "leaf_source": "Ophelia is in danger",
+    "leaf_translation_id": "p14817-137aaee657df",
+    "note": "仅当内层信念主体和叶项主体都为Ophelia时使用自己；复用冻结译文身处危险，不泛化人称替换。",
+    "leaf_source_sha256": "137aaee657df1fad7ee135af6161deb30221645cd2cf066605f1c00ccaed4118",
+    "leaf_target": "奥菲莉娅身处危险",
+    "leaf_target_sha256": "e594c013eabb77fa091c08fe0334dcfb2eac22583af9df575fdcdf0c5c08072f"
+  }
+]

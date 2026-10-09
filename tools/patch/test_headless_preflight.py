@@ -26,6 +26,13 @@ class PreflightTests(unittest.TestCase):
     def test_italic_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_ITALIC": "1"}, "ELSINOREHAN_PROBE_ITALIC")
 
+    def test_followup_without_journal_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_UI_FOLLOWUP": "1"}, "ELSINOREHAN_PROBE_UI_FOLLOWUP")
+
+    def test_followup_without_real_lead_cases_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_UI_FOLLOWUP": "1", "ELSINOREHAN_PROBE_JOURNAL": "1"},
+                            "ELSINOREHAN_PROBE_UI_FOLLOWUP")
+
     def test_journal_without_real_document_ids_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_JOURNAL": "1"}, "ELSINOREHAN_PROBE_CLOSEUP_IDS")
 
