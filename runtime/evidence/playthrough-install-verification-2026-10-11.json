@@ -1,0 +1,34 @@
+{
+  "status": "installed_verified",
+  "candidate_commit": "7ce9155ad8a59be791fc0d411c4b71aa1b290a41",
+  "plugin_version": "1.5.1",
+  "dictionary_count": 17041,
+  "dynamic_rules": 155,
+  "backup_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-96b9a3405bc9430dbe9c7f2d920cd392",
+  "installed_owned_file_sha256": {
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "65be7f7bff70ee7823d9795a1f926a3d2aae0e730fad48c81c751ded72a8524c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "8a2bbb43cf812f412b3532f4d6faad11ed2f2b164c0dcfd52f1df47fd82966a0",
+    "BepInEx/config/AutoTranslatorConfig.ini": "2b9aa76a48f9e71d4c22159b08781e58ad51227272464a39afcc590df6098a49"
+  },
+  "candidate_dll_preserved": true,
+  "original_game_four_files_sha256_mtime_and_size_unchanged": true,
+  "save_files_sha256_mtime_size_and_count_unchanged": true,
+  "save_file_count": 8,
+  "backup_owned_files_verified": 4,
+  "package_file_count": 37,
+  "installed_package_runtime_files_match": 35,
+  "zip_matches_package": true,
+  "zip_sha256": "34415ca7537dcf25f7a06c6738efda8c164460ff63cb2f6988e856dff17d9995",
+  "config_note": "安装器保留现有配置及XUnity默认补全项，打包后复用安装配置以逐字一致",
+  "previous_validation": [
+    "playthrough-followup-2026-10-11.json",
+    "brit-reservation-followup-verification.json",
+    "brit-succession-followup-verification.json",
+    "ghost-context-followup-verification.json"
+  ],
+  "limits": [
+    "本轮只做安装和落盘核对，未启动主游戏或重跑无变化的重型页面测试",
+    "此前各候选与1.5.0安装证据保持原始快照，当前安装及ZIP以本记录为准"
+  ]
+}

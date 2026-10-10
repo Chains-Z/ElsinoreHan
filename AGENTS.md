@@ -2,15 +2,15 @@
 
 更新时间：2026-10-11。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新候选1.5.1、17,041条、155规则已验证，修复负向INVITED错误通知、DoorMarker.OverrideTooltip漏提、4条分享预览及2条信息正文编译变体，补明母亲相关对白指代；格尔塔为乔特鲁德昵称，保留。2200项真实XUnity消费者、16项真实Model格式器断言和23项治理/审计/测试门禁单元通过。**主游戏63308仍运行，正式安装仍为下述1.5.0，候选尚未安装**。当前ZIP为1.5.1候选，安装与候选证据分开；见docs/dev-tasks/localization/playthrough-followup-2026-10-11.md及runtime/evidence/playthrough-followup-2026-10-11.json。不要重跑未改变的重型页面验收。
+最新1.5.1、17,041条、155规则已安装，修复负向INVITED错误通知、DoorMarker.OverrideTooltip漏提、4条分享预览及2条信息正文编译变体，补明母亲相关对白指代；格尔塔为乔特鲁德昵称，保留。2200项真实XUnity消费者、16项真实Model格式器断言和23项治理/审计/测试门禁单元通过。**用户退出后已备份安装，35个运行文件与37文件包及ZIP一致，原游戏四文件及8个存档哈希/时间/数量未变**。最新安装证据为runtime/evidence/playthrough-install-verification-2026-10-11.json；各候选和旧1.5.0证据保持快照，见docs/dev-tasks/localization/playthrough-followup-2026-10-11.md及runtime/evidence/playthrough-followup-2026-10-11.json。不要重跑未改变的重型页面验收。
 
-后续布莉特p09190按用户意见保留“长期预约在这里闲待”的夸张幽默，不改成包场；34项相关消费者和15项导出检查通过。最新候选词表/ZIP哈希以runtime/evidence/brit-reservation-followup-verification.json为准，前轮2200及Model证据保留各自快照；主游戏仍运行，候选未安装。
+后续布莉特p09190按用户意见保留“长期预约在这里闲待”的夸张幽默，不改成包场；34项相关消费者和15项导出检查通过。该阶段候选词表/ZIP哈希见runtime/evidence/brit-reservation-followup-verification.json，前轮2200及Model证据保留各自快照；该阶段当时未安装，现已随1.5.1安装。
 
-最新对白跟进p03368的both of them补明克劳狄斯和哈姆雷特；真实脚本为dead(claudius)分支，Hamlet亦已死，不指福丁布拉斯，不改为未来条件。36项相关消费者及15项导出检查通过；当前候选词表/ZIP SHA以runtime/evidence/brit-succession-followup-verification.json为准，前轮各记录保留快照，候选仍未安装。
+最新对白跟进p03368的both of them补明克劳狄斯和哈姆雷特；真实脚本为dead(claudius)分支，Hamlet亦已死，不指福丁布拉斯，不改为未来条件。36项相关消费者及15项导出检查通过；该阶段候选词表/ZIP SHA见runtime/evidence/brit-succession-followup-verification.json，前轮各记录保留快照，现已随1.5.1安装。
 
-最新语境校订：福丁布拉斯简介补明与丹麦王室重修于好；I do.全部5处真实角色语境核查，裸源用“是的。”，幽灵斜体源用“是的，我也一样。”；幽灵bloody deeds改为有人犯下血腥暴行，不硬补施暴者和受害者。62项相关真实消费者及15项导出检查通过，37文件包与ZIP一致。最新候选SHA见runtime/evidence/ghost-context-followup-verification.json；旧证据保留快照，候选未安装。回归入口prepare_ghost_context_followup.py。
+最新语境校订：福丁布拉斯简介补明与丹麦王室重修于好；I do.全部5处真实角色语境核查，裸源用“是的。”，幽灵斜体源用“是的，我也一样。”；幽灵bloody deeds改为有人犯下血腥暴行，不硬补施暴者和受害者。62项相关真实消费者及15项导出检查通过，37文件包与ZIP一致。终版候选SHA见runtime/evidence/ghost-context-followup-verification.json；旧证据保留快照，现已安装，当前ZIP以本轮安装证据为准。回归入口prepare_ghost_context_followup.py。
 
-最新1.5.0、17,033条、154条规则已安装，修复多人通知弹窗/日志边界、人物简介组合与文档F8位置，并包含后续时间线及奎因斯对白校订；提婆/阿修罗保留。候选阶段128,408项真实消费者、131项真实游戏离线API、14个人物/文档与7历史索引、文档18次和日志8次F8通过。用户退出后备份安装，35个运行文件、37文件包目录及ZIP一致，原游戏四文件和8个存档的哈希/修改时间/数量未变。见 [本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)及runtime/evidence/reading-install-verification.json。下一步继续随实际游玩校订，不重跑未改变的整组测试。
+此前1.5.0、17,033条、154条规则已安装，修复多人通知弹窗/日志边界、人物简介组合与文档F8位置，并包含后续时间线及奎因斯对白校订；提婆/阿修罗保留。候选阶段128,408项真实消费者、131项真实游戏离线API、14个人物/文档与7历史索引、文档18次和日志8次F8通过。用户退出后备份安装，35个运行文件、37文件包目录及ZIP一致，原游戏四文件和8个存档的哈希/修改时间/数量未变。见 [本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)及runtime/evidence/reading-install-verification.json。下一步继续随实际游玩校订，不重跑未改变的整组测试。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -39,13 +39,13 @@
 
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
-- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.5.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
-- 当前正式安装词表 **17,033条**；新增6个简介运行别名。此前17,027条由原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名，以及161个保持通知尾LF的源别名组成（正文逐字复用，不是新翻译）。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
-- 正式安装共154条动态规则：24个数字/F# %s模板，130条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
+- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.5.1。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
+- 当前正式安装词表 **17,041条**；新增6个简介运行别名。此前17,027条由原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名，以及161个保持通知尾LF的源别名组成（正文逐字复用，不是新翻译）。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
+- 正式安装共155条动态规则：25个数字/F# %s模板，130条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
-- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 为已验证但待安装的1.5.1候选，与正式安装1.5.0不同；说明页明确待安装。1.5.0安装哈希保留reading-install-verification.json快照。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
+- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 已与正式安装1.5.1同步；配置逐字复用安装器保留的现有配置及默认补全项，说明页为已安装。当前安装/ZIP哈希见playthrough-install-verification-2026-10-11.json，1.5.0安装哈希保留reading-install-verification.json快照。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
 
 ## 界面提取与译文治理
 
@@ -113,4 +113,6 @@
 
 奎因斯演出回顾语气定向校订见reading-text-review-2026-10-10.md；28项相关消费者和15项导出检查通过。只改一条对白，不补演出时点，不改变规则。当前候选词表/ZIP哈希以runtime/evidence/late-play-text-verification.json为准，37文件逐项一致；仍未安装，前轮快照不改写。
 
-正式安装更新：用户退出游戏后，上述候选已通过install-full.ps1备份安装。当前1.5.0、17,033条、154规则，最新安装与ZIP哈希以reading-install-verification.json为准。此前待安装叙述和证据保留各自历史阶段；当前安装未启动主游戏，8个存档哈希/时间/数量核对未变。
+2026-10-10历史安装更新：用户退出游戏后，上述候选已通过install-full.ps1备份安装。当时为1.5.0、17,033条、154规则，该阶段安装与ZIP哈希见reading-install-verification.json。此前待安装叙述和证据保留各自历史阶段；当前安装未启动主游戏，8个存档哈希/时间/数量核对未变。
+
+2026-10-11正式安装：用户明确退出游戏后，1.5.1候选已通过install-full.ps1安装，备份runtime/backups/full-96b9a3405bc9430dbe9c7f2d920cd392。35运行文件/37包文件/ZIP一致，4个旧补丁文件备份核对成功，8个存档及原游戏四文件SHA/mtime/size/数量未变。未启动主游戏，不重复前轮界面验收。最新安装证据playthrough-install-verification-2026-10-11.json；full-installed-files.json指向本轮安装，旧reading-install-verification.json保留1.5.0快照。

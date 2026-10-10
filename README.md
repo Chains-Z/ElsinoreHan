@@ -1,22 +1,22 @@
 # ElsinoreHan
 
-《Elsinore》的离线中文补丁。**1.5.0插件、17,033条离线词条和154条规则已安装**，正常从 Steam 启动即可使用中文。
+《Elsinore》的离线中文补丁。**1.5.1插件、17,041条离线词条和155条规则已安装**，正常从 Steam 启动即可使用中文。
 
-2026-10-11新增1.5.1候选（17,041条、155规则）：补齐撤回未来事件时的错误通知、“出海”门提示、4条分享预览变体和两条信息正文变体，并明确母亲相关对白的指代。2200项真实翻译消费者及16项真实格式器断言通过，测试弹窗防护和编译失败门禁已修正。**用户主游戏仍运行，本轮尚未安装**；见[本轮修复](docs/dev-tasks/localization/playthrough-followup-2026-10-11.md)。
+2026-10-11新增1.5.1候选（17,041条、155规则）：补齐撤回未来事件时的错误通知、“出海”门提示、4条分享预览变体和两条信息正文变体，并明确母亲相关对白的指代。2200项真实翻译消费者及16项真实格式器断言通过，测试弹窗防护和编译失败门禁已修正。**用户退出后已备份安装，安装及ZIP核验见 [安装记录](runtime/evidence/playthrough-install-verification-2026-10-11.json)**；见[本轮修复](docs/dev-tasks/localization/playthrough-followup-2026-10-11.md)。
 
-随后按用户意见，布莉特对白将“包下来”改为“长期预约”，保留原文幽默比喻和“闲待”；另一句“他们两个都不在了”补明为“克劳狄斯和哈姆雷特都不在了”。最新36项相关消费者及15项导出检查通过，候选词表和ZIP哈希见 `runtime/evidence/brit-succession-followup-verification.json`，仍待退出安装。
+随后按用户意见，布莉特对白将“包下来”改为“长期预约”，保留原文幽默比喻和“闲待”；另一句“他们两个都不在了”补明为“克劳狄斯和哈姆雷特都不在了”。该阶段36项相关消费者及15项导出检查通过，候选词表和ZIP哈希见 `runtime/evidence/brit-succession-followup-verification.json`，保留候选阶段快照；已随1.5.1安装。
 
-随后补明福丁布拉斯“与丹麦王室重修于好”，修正幽灵关于时间循环的“I do.”和“犯下暴行”的搭配，并核查全部5处同形短答。62项相关消费者及15项导出检查通过；最新候选词表和ZIP哈希见 `runtime/evidence/ghost-context-followup-verification.json`，仍未安装。
+随后补明福丁布拉斯“与丹麦王室重修于好”，修正幽灵关于时间循环的“I do.”和“犯下暴行”的搭配，并核查全部5处同形短答。62项相关消费者及15项导出检查通过；候选阶段哈希见 `runtime/evidence/ghost-context-followup-verification.json`；已随1.5.1安装，当前ZIP哈希以本轮安装记录为准。
 
-最新1.5.0修复多人通知连带日志漏译、人物简介更新组合及长文档F8阅读位置，并校订近期截图中的称号、对白和文章。候选阶段128,408项真实翻译消费者、131项真实游戏离线API及隔离副本页面检查通过。**用户退出游戏后已备份安装，安装文件与个人备份ZIP核对一致，安装前后8个存档文件的哈希和修改时间未变**；详见[本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)和[安装核验](runtime/evidence/reading-install-verification.json)。
+此前1.5.0修复多人通知连带日志漏译、人物简介更新组合及长文档F8阅读位置，并校订近期截图中的称号、对白和文章。候选阶段128,408项真实翻译消费者、131项真实游戏离线API及隔离副本页面检查通过。**用户退出游戏后已备份安装，安装文件与个人备份ZIP核对一致，安装前后8个存档文件的哈希和修改时间未变**；详见[本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)和[安装核验](runtime/evidence/reading-install-verification.json)。
 
 后续校订时间线“当前条件下不会发生／未发生”标签；霍拉旭按用户决定保留既有“提婆和阿修罗”，对白与简介两处替换均撤回。748项相关消费者及15项导出检查通过，前轮1512项为历史证据；见[文案跟进](docs/dev-tasks/localization/timeline-religion-review-2026-10-10.md)。这些文案已随本轮安装。
 
-奎因斯“希望你喜欢这场演出”已校订为回顾语气并安装，28项相关消费者及15项导出检查通过；见[正文审校](docs/dev-tasks/localization/reading-text-review-2026-10-10.md)。候选阶段哈希见 `runtime/evidence/late-play-text-verification.json`，当前安装及ZIP哈希以安装核验为准。
+奎因斯“希望你喜欢这场演出”已校订为回顾语气并安装，28项相关消费者及15项导出检查通过；见[正文审校](docs/dev-tasks/localization/reading-text-review-2026-10-10.md)。候选阶段哈希见 `runtime/evidence/late-play-text-verification.json`，当前安装及ZIP哈希以1.5.1安装记录为准。
 
 按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
 
-完整本地备份包（当前为已验证、待安装的1.5.1候选）：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
+完整本地备份包（已与正式安装1.5.1同步）：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
 
 完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
 
@@ -38,7 +38,8 @@
 | tools/patch/ | 插件源码、构建、备份安装、后台自动检查及打包 |
 | runtime/evidence/dialect-review-verification.json | 最新其他角色校订、定向消费者、安装与ZIP核验摘要 |
 | runtime/evidence/reading-followup-verification.json | 本轮通知、简介、文档F8候选阶段验证快照 |
-| runtime/evidence/reading-install-verification.json | 当前1.5.0安装、备份包与存档保护核验 |
+| runtime/evidence/reading-install-verification.json | 历史1.5.0安装、备份包与存档保护核验 |
+| runtime/evidence/playthrough-install-verification-2026-10-11.json | 当前1.5.1安装、备份包与存档保护核验 |
 | runtime/evidence/playthrough-followup-2026-10-11.json | 1.5.1候选验证、测试弹窗处理及待安装状态 |
 | runtime/evidence/irma-review-verification.json | 前轮厨娘审校与安装摘要 |
 | runtime/evidence/mixed-log-verification.json | 前轮混合日志、离线API与安装摘要 |
