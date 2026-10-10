@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "date": "2026-10-10",
+  "reviewed_unique_irma_dialogues": 490,
+  "resource_occurrences": 511,
+  "resource_assets": 8,
+  "supplemental_corrections": 38,
+  "gerta_changed_entries": 33,
+  "gerta_total_entries": 59,
+  "biene_vocatives": 4,
+  "maike_unique_sources": 1,
+  "other_semantic_corrections": 1,
+  "marcellus_target": "再说，其他几个小伙子觉得……资历最老的卫兵，也许该少赌一点……",
+  "actual_recursive_xunity_cases": {
+    "irma_review": 1108,
+    "playthrough_text": 9
+  },
+  "unit_tests": {
+    "irma_governance": 4,
+    "export": 15
+  },
+  "frozen_inputs_raw_outputs_audit_unchanged": true,
+  "original_game_binaries_unchanged": true,
+  "dynamic_dictionary_unchanged": true,
+  "dictionary_entries": 17027,
+  "dynamic_rules": 138,
+  "installed": true,
+  "files": {
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": {
+      "installed": "3396fdcbae1dc6da4e850b102bfb99d6b1e75df49cbb794a9458c6fdd4806ed5",
+      "package": "3396fdcbae1dc6da4e850b102bfb99d6b1e75df49cbb794a9458c6fdd4806ed5",
+      "zip": "3396fdcbae1dc6da4e850b102bfb99d6b1e75df49cbb794a9458c6fdd4806ed5"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": {
+      "installed": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+      "package": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+      "zip": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512"
+    },
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": {
+      "installed": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52",
+      "package": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52",
+      "zip": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52"
+    }
+  },
+  "zip_file_count": 37,
+  "zip_entries_including_directories": 39,
+  "backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-5de3bc0c81b4461ca19565cb1e230a5f",
+  "limits": [
+    "没有重新跑全部114028项消费者或真实游戏资料/F8滚动验收",
+    "跨昵称通知组合为格式压力用例，不代表实际剧情",
+    "本轮人工审校限于伊尔玛资源对白及相关昵称，不能宣称全游戏零错译"
+  ]
+}

@@ -2,7 +2,7 @@
 
 更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新状态：三处实际游玩正文校订已安装，9项定向消费者通过，个人ZIP同步。Maike依方言词义与呼语上下文译为“姑娘”，departure改“这次远行”，保留用户指定“资历最老”；见 [正文校订](docs/dev-tasks/localization/playthrough-text-2026-10-10.md)。前轮日志通知与对白交错补修及Knight-Guard称号统一已安装。当前1.4.0、17,027条、138条规则；三处正文校订之前，114,028项真实XUnity消费者和111项真实游戏离线API检查通过；本轮未重复整组测试。见 [本轮混合日志修复](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮日志四阅读位置八次F8、资料及字体证据保留；本轮未重复重型资料/滚动验收。下一步按实际游玩反馈校订。
+最新状态：伊尔玛490条不同资源对白已集中审校，38条称呼/语义校订与用户指定的马塞勒斯口语版本已安装，个人ZIP同步。1108项厨娘/昵称消费者、9项前轮正文消费者及19项治理/导出测试通过；见 [厨娘审校](docs/dev-tasks/localization/irma-dialogue-review-2026-10-10.md)。当前1.4.0、17,027条、138条规则。此前混合日志114,028项消费者和111项真实游戏离线API检查仍为历史证据，本轮未重复整组或重型资料/滚动验收。下一步按实际游玩反馈校订。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -11,13 +11,14 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
+   docs/dev-tasks/localization/irma-dialogue-review-2026-10-10.md：最新厨娘方言、昵称和用户口语校订。
    docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md：最新混合条目矩阵、尾LF、称号与安装。
    docs/dev-tasks/localization/log-followup-2026-10-10.md：前轮日志全源覆盖、称号统一、F8段落保护及验收边界。
    docs/dev-tasks/localization/ui-followup-2026-10-10.md：最新线索、地图、时间线、嵌套信念与探针修正。
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/playthrough-text-verification.json：最新正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/irma-review-verification.json：最新厨娘审校、消费者与安装核验；playthrough-text-verification.json：前轮正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -88,3 +89,5 @@
 - 百炼四模型比较已停止，旧结果只作历史证据，不恢复调用、不要求新Key。公开业务空间地址在 translation/provider.json，密钥仅在被忽略的api-key.txt，不输出或打包。套餐实际CLI用量见sol-full.md，不能从token数编造周额度扣减百分比。
 
 历史参考 PipistrelloHan 的实现差异与翻译工具调研保存在任务文档；其IL2CPP/BepInEx6/多语言CSV方案不能直接套入本游戏Mono x86现场。
+
+厨娘定向审校由audit_irma_dialogue.py从全部TextAsset的irma发言提取；irma-corrections.json在导出别名前应用，保持准确previous_target。昵称Gerta全表59条统一格尔塔，正式全名乔特鲁德不改。全量派生测试不入Git，来源摘要与test_irma_review.py保留。

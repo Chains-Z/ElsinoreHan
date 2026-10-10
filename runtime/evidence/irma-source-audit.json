@@ -1,0 +1,100 @@
+{
+  "assets": [
+    {
+      "asset": "scenes",
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+      "occurrences": 2
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "occurrences": 311
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "5dbc50cf037a46b33442d6d47c399873ce845fc86bd4f86fe69e1c45491f5cb9",
+      "occurrences": 9
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+      "occurrences": 170
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "occurrences": 4
+    },
+    {
+      "asset": "scenes_enviro",
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+      "occurrences": 2
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119",
+      "occurrences": 4
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "bf42273387829f6f20d26bdd3cb163b8c118f6aed86f764feae39af87ad720c9",
+      "occurrences": 9
+    }
+  ],
+  "occurrences": 511,
+  "unique_dialogues": 490,
+  "related_entries": 64,
+  "consumer_cases": 1108,
+  "dialect_sources": [
+    {
+      "id": "p05718-2781e6afc5a4",
+      "source": "Biene... it's clear something has been weighing heavily on you. You've visited me more and more as of late.",
+      "target": "姑娘……你显然有很重的心事。最近你来看我的次数越来越多了。"
+    },
+    {
+      "id": "p05721-df0fd23b066e",
+      "source": "Though I must ask, Biene, why you do not go to your husband in times like these?",
+      "target": "不过我得问问，姑娘，这种时候你为什么不去找你的丈夫？"
+    },
+    {
+      "id": "p05725-8ba1ea3362fc",
+      "source": "Aye, my lady. I believe the Lord sends us visions through dreams, to inspire us to follow His word in our waking hours.",
+      "target": "相信，王后。我相信主通过梦赐予我们异象，引导我们在清醒时遵循他的话语。"
+    },
+    {
+      "id": "p05750-12de0720d91f",
+      "source": "It all happened so quickly, Biene. The death, the funeral, and the wedding. It was over so soon.",
+      "target": "一切都发生得太快了，姑娘。他的死、葬礼，还有婚礼。那么快就都结束了。"
+    },
+    {
+      "id": "p05757-d3f78d13df14",
+      "source": "Of course, Biene. After all, you have a kingdom to run.",
+      "target": "当然，姑娘。毕竟，你还有一个王国要治理。"
+    },
+    {
+      "id": "p08586-7a2aae025069",
+      "source": "You may not recognize my wisdom or respect my age, but Ophelia is a smart lass. She knows better.",
+      "target": "你也许不认可我的智慧，也不敬重我的年纪，但奥菲莉娅是个聪明姑娘。她比你懂得多。"
+    },
+    {
+      "id": "p09028-f07334925a0c",
+      "source": "Hrmph. If yer lord finds you so <i>useful</i>, why does he ask you to guard the bedchambers and empty walls?",
+      "target": "哼。要是你家大人觉得你这么<i>有用</i>，为什么让你守着寝室和空无一人的城墙？"
+    },
+    {
+      "id": "p14017-84d908bfe9d3",
+      "source": "Aye. She is not here of her own accord.",
+      "target": "知道。她不是自愿来这里的。"
+    },
+    {
+      "id": "p15078-1b6a06c2f81e",
+      "source": "Ay, Maike... What's got your father all in a rush so?",
+      "target": "哎，姑娘……你父亲怎么急成这样？"
+    }
+  ],
+  "limits": [
+    "全部资源文本中以irma作为发言者的对白；不宣称其它人物全文已人工审校",
+    "跨昵称的统一发言标签仅检查格式组合，不代表实际剧情",
+    "记录生成和语义审校分开，生成用例不等于消费者验证通过"
+  ]
+}

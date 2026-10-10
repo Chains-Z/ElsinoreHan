@@ -164,7 +164,7 @@ def main():
     rows = apply_supplemental(rows, export_corrections)
     supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
     rows = apply_supplemental(rows, supplemental)
-    for filename in ("playmaster-corrections.json", "knight-guard-corrections.json"):
+    for filename in ("playmaster-corrections.json", "knight-guard-corrections.json", "irma-corrections.json"):
         terminology_path = SUPPLEMENTAL.with_name(filename)
         if terminology_path.exists():
             terminology = json.loads(terminology_path.read_text(encoding="utf-8"))
