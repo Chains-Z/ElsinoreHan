@@ -1,0 +1,37 @@
+[
+  {
+    "id": "religious-term-f5e993b6694fec24",
+    "original_id": "p07778-f5e993b6694f",
+    "source": "That's correct, yes. I am a <i>heathen.</i> I prefer my devas and asuras. Some wisdom here, a little trickery there... Gods with real <i>personality.</i>",
+    "source_sha256": "f5e993b6694fec24adecff8f2bf3be30adf68a81e04f9cc0e8462173166d6124",
+    "previous_target": "对，没错。我是个<i>异教徒。</i>我更喜欢我们信奉的提婆和阿修罗。有的颇有智慧，有的耍点诡计……这些神才真有<i>个性。</i>",
+    "target": "对，没错。我是个<i>异教徒。</i>我更喜欢我们信奉的天神和阿修罗。有的颇有智慧，有的耍点诡计……这些神才真有<i>个性。</i>",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b38",
+      "Assembly-CSharp.dll:#US:1732191",
+      "用户霍拉旭宗教对白截图，2026-10-10"
+    ],
+    "reason": "devas/asuras是复数类别，不是两位神专名；提婆是有效音译但容易误读，此两条统一为天神，阿修罗通行译名保留",
+    "evidence": [
+      "https://www.himalayanacademy.com/media/books/merging-with-siva/web/glossary_a.html",
+      "https://tl.ddm.org.tw/default-ddmtw/xmnews/cont?qcat=0K297401756442626214&sid=0K305398770129523300&xsmsid=0K297379120077217595"
+    ]
+  },
+  {
+    "id": "religious-term-fb6ebd9198b829d2",
+    "original_id": "p10546-fb6ebd9198b8",
+    "source": "Horatio is religious, but he isn't Catholic or Lutheran. He called himself a 'heathen,' and claimed to worship 'devas' and 'asuras.' I'm not sure what that means.",
+    "source_sha256": "fb6ebd9198b829d2ea1465701278ad36832a3bbca18f6af95402084798d75a8b",
+    "previous_target": "霍拉旭有宗教信仰，但他既不是天主教徒，也不是路德宗信徒。他自称“异教徒”，说自己崇拜“提婆”和“阿修罗”。我不太明白那是什么意思。",
+    "target": "霍拉旭有宗教信仰，但他既不是天主教徒，也不是路德宗信徒。他自称“异教徒”，说自己崇拜“天神”和“阿修罗”。我不太明白那是什么意思。",
+    "origins": [
+      "resources.assets:bios:53db25df9eed:text",
+      "用户霍拉旭宗教对白截图，2026-10-10"
+    ],
+    "reason": "devas/asuras是复数类别，不是两位神专名；提婆是有效音译但容易误读，此两条统一为天神，阿修罗通行译名保留",
+    "evidence": [
+      "https://www.himalayanacademy.com/media/books/merging-with-siva/web/glossary_a.html",
+      "https://tl.ddm.org.tw/default-ddmtw/xmnews/cont?qcat=0K297401756442626214&sid=0K305398770129523300&xsmsid=0K297379120077217595"
+    ]
+  }
+]

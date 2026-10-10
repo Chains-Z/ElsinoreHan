@@ -56,3 +56,5 @@
 测试进程33044已退出；临时探针与appid移除，副本入口配置按原字节恢复。用户进程16700继续运行，原存档比较为 `null`，冻结来源保持不变。候选ZIP与目录37个实文件一致，39个ZIP条目包含目录；没有临时探针或游戏存档。
 
 状态为 `verified_pending_install`，详见 [本轮摘要](../../../runtime/evidence/reading-followup-verification.json)。主游戏仍为1.4.0，`install-full.ps1` 禁止运行中安装；候选ZIP的说明也明确尚未安装。待用户保存并退出后，备份安装、重新打包并更新安装哈希；不要求重跑未改变的整组测试。
+
+后续四条时间线与宗教文案另见 [文案跟进](timeline-religion-review-2026-10-10.md)。此处128408消费者、c260fdd运行及本轮摘要的哈希绑定基线候选；最新词表和ZIP哈希绑定 `timeline-religion-followup-verification.json`，不改写旧运行证据。

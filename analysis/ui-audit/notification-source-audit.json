@@ -7819,24 +7819,24 @@
       "actual_recursive_xunity_consumer_passed": true,
       "count": 616,
       "rerun_date": "2026-10-10",
-      "rerun_evidence": "runtime/evidence/mixed-log-offline-verification.json"
+      "rerun_evidence": "runtime/build/term-followup/notification-ui-tests-result.jsonl"
     },
     "existing_suite": {
       "actual_recursive_xunity_consumer_passed": true,
       "count": 56,
       "rerun_date": "2026-10-10",
-      "rerun_evidence": "runtime/evidence/mixed-log-offline-verification.json"
+      "rerun_evidence": "runtime/build/term-followup/dynamic-ui-tests-result.jsonl"
     },
     "artifact_sha256": {
       "translation/supplemental/notification-ui-rules.json": "847333ed5281822b66efede608654770b3541c14a6143ed9f5532be9d023e6ab",
       "translation/supplemental/notification-ui-tests.json": "7d1bbda16423f0406242d79dbb1d7289534a71e1280e2032c3ddd0decb170dc7",
-      "translation/supplemental/dynamic-ui-tests.json": "30ba1f13b983bc26ea1264ba249ec5d39dc55443a7b60e54ccd11a6a3ca6f881",
+      "translation/supplemental/dynamic-ui-tests.json": "867e970855e104153e816a583628bde8cb928085bfe188b0c2d0f9f4a51459cd",
       "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
-      "translation/sol-full-2026-10-09/dynamic-rules.json": "1cd50101b793513b8282b8f0b2e8e95c8b6b00b177bb78f5775991bb2870b7dd",
-      "translation/sol-full-2026-10-09/translations.json": "6d2471fec43d0ae2dc81c83d34b54cbec578c443572a3a13e2f6e528f758a8ea",
+      "translation/sol-full-2026-10-09/dynamic-rules.json": "feaa1871e8a03da52af616ef78037655c6000c140dfa2d923466fa6125c56194",
+      "translation/sol-full-2026-10-09/translations.json": "04a976fc875911edfdc22c33e31f51e285e34c8791ec49344902c191afe083a3",
       "tools/translation/VerifyRecursiveUiRules.cs": "700f297a4145c0e4509883f5fcf82d39ec6d93f3e930cf542fc5bb1a2e043e0d",
       "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
-      "translation/supplemental/dynamic-ui-rules.json": "457f063324762104aeb94796e70321b5468ee2c81fbec7a5098375bc5b943910",
+      "translation/supplemental/dynamic-ui-rules.json": "f2de4f9fbf545a14d65239ccd2229c0bb23705d72e07116cff790c8a11c3c151",
       "translation/supplemental/lead-followup-rules.json": "7ee6f89d0518b3f51410bdc6f808e03260f4ff908c45b113743553e774264d8c",
       "translation/supplemental/lead-followup-tests.json": "09c55c5e290c3aae6d43063e59907b34ad5c361102cde1a83ee19fbd6251db72",
       "translation/supplemental/map-ui-rules.json": "90c93810448926186d2daa9eead5edb7fd3f03ded3f8becd786d95b0da51642a",
@@ -7866,7 +7866,7 @@
     "game_started": false,
     "online_api_called": false,
     "game_save_accessed": false,
-    "refresh_scope": "本轮实际重跑127644项混合日志、多人通知和既有界面消费者；人物简介738项另列biography-offline-verification.json"
+    "refresh_scope": "时间线/宗教文案跟进实际重跑56旧界面、616通知、92时间线及10定向用例；此前127644完整矩阵为5781209快照，本次未重跑全矩阵"
   },
   "previous_component_verifications": [
     {

@@ -483,7 +483,7 @@
   {
     "id": "Unlikely event:",
     "source": "Unlikely event: The King holds court about recent events.",
-    "target": "不太可能发生的事件：国王召集宫廷众人议论近来的事情。",
+    "target": "当前条件下不会发生的事件：国王召集宫廷众人议论近来的事情。",
     "origins": [
       "用户截图及analysis/ui-audit/dynamic-ui-sources.json真实格式路径"
     ]
@@ -491,7 +491,7 @@
   {
     "id": "Impossible event:",
     "source": "Impossible event: The King holds court about recent events.",
-    "target": "无法发生的事件：国王召集宫廷众人议论近来的事情。",
+    "target": "未发生的事件：国王召集宫廷众人议论近来的事情。",
     "origins": [
       "用户截图及analysis/ui-audit/dynamic-ui-sources.json真实格式路径"
     ]

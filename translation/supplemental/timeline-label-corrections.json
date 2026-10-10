@@ -1,0 +1,30 @@
+[
+  {
+    "id": "timeline-label-c6c55138131bcff5",
+    "original_id": "a00948-c6c55138131b",
+    "source": "Unlikely event: ",
+    "source_sha256": "c6c55138131bcff50bcc04e2988e0082387603a9f6b2bbd2f170cef06e235b8e",
+    "previous_target": "不太可能发生的事件： ",
+    "target": "当前条件下不会发生的事件： ",
+    "origins": [
+      "analysis/ui-audit/timeline-label-source-audit.json",
+      "Assembly-CSharp.dll:TimelineUI.tooltipForItem/createEventContent",
+      "用户时间线标签与详情截图，2026-10-10"
+    ],
+    "reason": "均属于IsImpossibleEvent；未来受当前条件阻断，过去未发生。按实际详情和时间分支区分，不视为概率低或永久不可能"
+  },
+  {
+    "id": "timeline-label-88105f8910771073",
+    "original_id": "a00949-88105f891077",
+    "source": "Impossible event: ",
+    "source_sha256": "88105f8910771073f3b06d6fa94c56abba3b77980f8e13274e0eeadb6ba3a8ca",
+    "previous_target": "不可能发生的事件： ",
+    "target": "未发生的事件： ",
+    "origins": [
+      "analysis/ui-audit/timeline-label-source-audit.json",
+      "Assembly-CSharp.dll:TimelineUI.tooltipForItem/createEventContent",
+      "用户时间线标签与详情截图，2026-10-10"
+    ],
+    "reason": "均属于IsImpossibleEvent；未来受当前条件阻断，过去未发生。按实际详情和时间分支区分，不视为概率低或永久不可能"
+  }
+]

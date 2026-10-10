@@ -1,0 +1,48 @@
+{
+  "status": "verified_pending_install",
+  "baseline_commit": "5781209a81b9390e38c40425b63ce4178f6d5b49",
+  "plugin_unchanged": true,
+  "consumers": {
+    "term-followup-tests": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 10
+    },
+    "dynamic-ui-tests": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 56
+    },
+    "timeline-followup-tests": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 92
+    },
+    "notification-ui-tests": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 616
+    },
+    "biography": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 738
+    }
+  },
+  "total_cases": 1512,
+  "export_governance_tests": 15,
+  "original_game_conditions_changed": false,
+  "font_character_set_unchanged": true,
+  "formal_install_not_changed": true,
+  "candidate_zip_sha256": "83770971f4975ca938d301de588431c5834e1562a7a26b41a4c3f24314bcb7cc",
+  "candidate_zip_matches_directory": true,
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "04a976fc875911edfdc22c33e31f51e285e34c8791ec49344902c191afe083a3",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "feaa1871e8a03da52af616ef78037655c6000c140dfa2d923466fa6125c56194",
+    "translation/supplemental/timeline-label-corrections.json": "644a95e94b410734a005627a184450a521199777d0274007d5748cdb0d3a4590",
+    "translation/supplemental/religious-term-corrections.json": "f445cdd37343c31c7b0daab8422daad0c92368873eb276d3816f4ef75b1173b4",
+    "translation/supplemental/term-followup-tests.json": "f0e73e98809984609d5ccdde376e23d87548b0c1ea914ff498883d839e1c510d",
+    "analysis/ui-audit/timeline-label-source-audit.json": "2fa799beffc3e205bb7865855d3f883a7fa2ac368354271c06486df1eda92f9a"
+  },
+  "limits": [
+    "仅四条文案与两个前缀目标更新，不改变游戏条件或解析语法",
+    "未重复基线128408消费者和重型页面/滚动验收；新文案仅声明本次1512定向消费者通过",
+    "主游戏仍运行，待保存退出后安装"
+  ],
+  "journal_verifier_tests": 39
+}

@@ -66,7 +66,7 @@ def main():
     rule("paragraph", r"^(?<left>[\s\S]+?)(?<separator_i>\n?<line-height=40%>\n<line-height=90%>)(?<right>[\s\S]+)$", "${left}${separator_i}${right}")
     rule("line-height", r"^(?<tag_i><line-height=90%>)(?<body>[\s\S]+)$", "${tag_i}${body}")
     rule("bold", r"^(?<open_i><b>)(?<body>[^<>]+)(?<close_i></b>)$", "${open_i}${body}${close_i}")
-    for prefix, target in (("Future event:", "未来事件："), ("Unlikely event:", "不太可能发生的事件："), ("Impossible event:", "无法发生的事件：")):
+    for prefix, target in (("Future event:", "未来事件："), ("Unlikely event:", "当前条件下不会发生的事件："), ("Impossible event:", "未发生的事件：")):
         rule("prefix-" + prefix.split()[0].lower(), "^" + re.escape(prefix) + r" (?<event>[\\s\\S]+)$", target + "${event}")
     rule("opener", "^(?<when>" + when + " in " + room + r"), <i>in which</i> (?<event>[\\s\\S]+)$", "${when}，<i>事件：</i>${event}")
     rule("opener-bold", "^(?<when><b>" + when + " in " + room + r"</b>), <i>in which</i> (?<event>[\\s\\S]+)$", "${when}，<i>事件：</i>${event}")

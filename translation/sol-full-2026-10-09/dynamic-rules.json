@@ -365,22 +365,28 @@
   {
     "id": "ui-rule-prefix-unlikely",
     "pattern": "^Unlikely\\ event: (?<event>[\\s\\S]+)\\z$",
-    "replacement": "不太可能发生的事件：${event}",
+    "replacement": "当前条件下不会发生的事件：${event}",
     "origins": [
-      "analysis/ui-audit/dynamic-ui-sources.json"
+      "analysis/ui-audit/dynamic-ui-sources.json",
+      "analysis/ui-audit/timeline-label-source-audit.json"
     ],
+    "previous_replacement": "不太可能发生的事件：${event}",
+    "note": "时间线未来不满足当前条件与过去未发生分别命名，和详情一致；保留既有解析语法",
     "kind": "recursive_ui_splitter",
-    "encoded_line": "sr:\"^Unlikely\\\\ event: (?<event>[\\\\s\\\\S]+)\\\\z$\"=\"不太可能发生的事件：${event}\""
+    "encoded_line": "sr:\"^Unlikely\\\\ event: (?<event>[\\\\s\\\\S]+)\\\\z$\"=\"当前条件下不会发生的事件：${event}\""
   },
   {
     "id": "ui-rule-prefix-impossible",
     "pattern": "^Impossible\\ event: (?<event>[\\s\\S]+)\\z$",
-    "replacement": "无法发生的事件：${event}",
+    "replacement": "未发生的事件：${event}",
     "origins": [
-      "analysis/ui-audit/dynamic-ui-sources.json"
+      "analysis/ui-audit/dynamic-ui-sources.json",
+      "analysis/ui-audit/timeline-label-source-audit.json"
     ],
+    "previous_replacement": "无法发生的事件：${event}",
+    "note": "时间线未来不满足当前条件与过去未发生分别命名，和详情一致；保留既有解析语法",
     "kind": "recursive_ui_splitter",
-    "encoded_line": "sr:\"^Impossible\\\\ event: (?<event>[\\\\s\\\\S]+)\\\\z$\"=\"无法发生的事件：${event}\""
+    "encoded_line": "sr:\"^Impossible\\\\ event: (?<event>[\\\\s\\\\S]+)\\\\z$\"=\"未发生的事件：${event}\""
   },
   {
     "id": "ui-rule-opener",
