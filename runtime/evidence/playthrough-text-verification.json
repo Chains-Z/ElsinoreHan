@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "corrected_ids": [
+    "p15078-1b6a06c2f81e",
+    "p15079-26df55e2957f",
+    "p15096-2e2aaa47cce5"
+  ],
+  "actual_recursive_xunity_cases": 9,
+  "frozen_b0102_unchanged": {
+    "translation\\sol-full-2026-10-09\\inputs\\b0102.json": "9c82024ad987c713a32f72bbb0a28b13d7dec7e8c8a2ab11b9f6e4be7139ba91",
+    "translation\\sol-full-2026-10-09\\raw\\b0102.json": "8bd342294f0dba8b8fe56e41076c65582dc9eeb90cd6f88bb9b8d9a631fa50e6",
+    "translation\\sol-full-2026-10-09\\outputs\\b0102.json": "0314dd6e84bc3fc39470fdd192e0a174e75afc849e9bc000d48a86fc7987d7c5",
+    "translation\\sol-full-2026-10-09\\audit\\b0102.json": "ee5276aa86ef9ba97e0e33fee775bcde61f827a236a2bce0e37b17998cb3f6dd"
+  },
+  "rule_dictionary_unchanged": true,
+  "maike_interpretation": "词义与呼语上下文推断为姑娘，非游戏作者直接说明",
+  "maike_source": "https://volkstanz.de/volkstanzwissen/taenze/maike",
+  "performance_audio_investigation": "用户重启游戏后恢复正常并明确取消；不确认重置存档是直接原因",
+  "installed": true,
+  "dictionary_files": {
+    "installed": "8bb1a7170b3174fec8d751cf7d3bd8bd55d05daaac6f15ce50e341acdb46a98f",
+    "package": "8bb1a7170b3174fec8d751cf7d3bd8bd55d05daaac6f15ce50e341acdb46a98f",
+    "zip": "8bb1a7170b3174fec8d751cf7d3bd8bd55d05daaac6f15ce50e341acdb46a98f"
+  },
+  "backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-9a91b7d7ab3e451baf77ce56dded4f80",
+  "dictionary_entries": 17027,
+  "dynamic_rules": 138,
+  "original_game_binaries_unchanged": true,
+  "limits": [
+    "本轮仅9项定向消费者与导出回归；未重新跑完整114028项矩阵或剧情E2E",
+    "已重新生成派生预期，未将重生成当作测试通过",
+    "没有修改原始输入、模型响应或输出；不调整帧率/音量，也未操作用户游戏进程"
+  ]
+}

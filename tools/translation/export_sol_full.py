@@ -149,6 +149,19 @@ def main():
             continue
         rows.append({"id": entry["id"], "source": entry["source"], "target": targets[entry["id"]], "batch": entry["batch"]})
     base_count = len(rows)
+    # 新的正文校订只在导出层应用；冻结输出和原始模型响应保持不变。
+    export_corrections = []
+    for correction in corrections:
+        if correction.get("apply_at_export") is not True:
+            continue
+        original = next((row for row in rows if row["id"] == correction["id"]), None)
+        if original is None or correction["source"] != original["source"]:
+            raise ValueError("正文导出校订的稳定ID或原文不符")
+        export_corrections.append({"id": correction["id"], "source": correction["source"],
+                                   "source_sha256": correction["source_sha256"],
+                                   "previous_target": correction["original_target"],
+                                   "target": correction["corrected_target"], "origins": correction["origins"]})
+    rows = apply_supplemental(rows, export_corrections)
     supplemental = json.loads(SUPPLEMENTAL.read_text(encoding="utf-8")) if SUPPLEMENTAL.exists() else []
     rows = apply_supplemental(rows, supplemental)
     for filename in ("playmaster-corrections.json", "knight-guard-corrections.json"):

@@ -8,7 +8,9 @@
 
 完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
 
-兼容插件1.4.0和138条动态规则已安装。本轮修复日志中通知与对白交错的边界，统一两人的“骑士卫队”称号，并保留固定通知尾换行。114,028项消费者和111项真实游戏离线API检查通过；范围是当前资源与有限格式矩阵，不代表全剧情零漏译。见[本轮修复与验证](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮[日志F8阅读位置保护](docs/dev-tasks/localization/log-followup-2026-10-10.md)、[线索等修复](docs/dev-tasks/localization/ui-followup-2026-10-10.md)与[字体证据](docs/dev-tasks/localization/runtime-ui-followup.md)保留。
+三处实际游玩正文已校订并安装：Maike译为“姑娘”、赴巴黎说“这次远行”、保留“资历最老”并调整口头停顿。9项定向消费者与导出回归通过；见[正文校订](docs/dev-tasks/localization/playthrough-text-2026-10-10.md)。
+
+兼容插件1.4.0和138条动态规则已安装。本轮修复日志中通知与对白交错的边界，统一两人的“骑士卫队”称号，并保留固定通知尾换行。此前114,028项消费者和111项真实游戏离线API检查通过；范围是当前资源与有限格式矩阵，不代表全剧情零漏译。见[本轮修复与验证](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮[日志F8阅读位置保护](docs/dev-tasks/localization/log-followup-2026-10-10.md)、[线索等修复](docs/dev-tasks/localization/ui-followup-2026-10-10.md)与[字体证据](docs/dev-tasks/localization/runtime-ui-followup.md)保留。
 
 ## 目录与维护
 

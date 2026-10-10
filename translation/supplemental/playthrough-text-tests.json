@@ -1,0 +1,73 @@
+[
+  {
+    "id": "p15078-1b6a06c2f81e-leaf",
+    "source": "Ay, Maike... What's got your father all in a rush so?",
+    "target": "哎，姑娘……你父亲怎么急成这样？",
+    "origins": [
+      "Assembly-CSharp.dll:TutorialDataGenerated::Invoke_irma_LaertesisLate IL_01a5",
+      "https://volkstanz.de/volkstanzwissen/taenze/maike",
+      "用户实际游玩截图反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "p15078-1b6a06c2f81e-speaker",
+    "source": "<b>Irma:</b> <indent=16%>Ay, Maike... What's got your father all in a rush so?",
+    "target": "<b>伊尔玛:</b> <indent=16%>哎，姑娘……你父亲怎么急成这样？",
+    "origins": [
+      "Assembly-CSharp.dll:TutorialDataGenerated::Invoke_irma_LaertesisLate IL_01a5",
+      "https://volkstanz.de/volkstanzwissen/taenze/maike",
+      "用户实际游玩截图反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "p15079-26df55e2957f-leaf",
+    "source": "Laertes heads to Paris tomorrow. I think Father's merely overly worried about his departure.",
+    "target": "雷欧提斯明天就要去巴黎了。我想父亲只是太担心他这次远行了。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0102.json",
+      "用户实际游玩截图反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "p15079-26df55e2957f-speaker",
+    "source": "<b>Ophelia:</b> <indent=16%>Laertes heads to Paris tomorrow. I think Father's merely overly worried about his departure.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>雷欧提斯明天就要去巴黎了。我想父亲只是太担心他这次远行了。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0102.json",
+      "用户实际游玩截图反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "p15096-2e2aaa47cce5-leaf",
+    "source": "Besides, some of the other boys thought that maybe, yeh know, the most senior guard ought not to gamble as much...",
+    "target": "再说，其他几个小伙子觉得，资历最老的卫兵嘛，也许不该赌得那么勤……",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0102.json",
+      "用户实际游玩截图反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "p15096-2e2aaa47cce5-speaker",
+    "source": "<b>Marcellus:</b> <indent=16%>Besides, some of the other boys thought that maybe, yeh know, the most senior guard ought not to gamble as much...",
+    "target": "<b>马塞勒斯:</b> <indent=16%>再说，其他几个小伙子觉得，资历最老的卫兵嘛，也许不该赌得那么勤……",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0102.json",
+      "用户实际游玩截图反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "mixed-plays-01",
+    "source": "<b>Irma:</b> <indent=16%>Ay, Maike... What's got your father all in a rush so?</indent>\n<b>Ophelia:</b> <indent=16%>Laertes heads to Paris tomorrow. I think Father's merely overly worried about his departure.",
+    "target": "<b>伊尔玛:</b> <indent=16%>哎，姑娘……你父亲怎么急成这样？</indent>\n<b>奥菲莉娅:</b> <indent=16%>雷欧提斯明天就要去巴黎了。我想父亲只是太担心他这次远行了。"
+  },
+  {
+    "id": "mixed-plays-12",
+    "source": "<b>Ophelia:</b> <indent=16%>Laertes heads to Paris tomorrow. I think Father's merely overly worried about his departure.</indent>\n<b>Marcellus:</b> <indent=16%>Besides, some of the other boys thought that maybe, yeh know, the most senior guard ought not to gamble as much...",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>雷欧提斯明天就要去巴黎了。我想父亲只是太担心他这次远行了。</indent>\n<b>马塞勒斯:</b> <indent=16%>再说，其他几个小伙子觉得，资历最老的卫兵嘛，也许不该赌得那么勤……"
+  },
+  {
+    "id": "mixed-plays-20",
+    "source": "<b>Marcellus:</b> <indent=16%>Besides, some of the other boys thought that maybe, yeh know, the most senior guard ought not to gamble as much...</indent>\n<b>Irma:</b> <indent=16%>Ay, Maike... What's got your father all in a rush so?",
+    "target": "<b>马塞勒斯:</b> <indent=16%>再说，其他几个小伙子觉得，资历最老的卫兵嘛，也许不该赌得那么勤……</indent>\n<b>伊尔玛:</b> <indent=16%>哎，姑娘……你父亲怎么急成这样？"
+  }
+]

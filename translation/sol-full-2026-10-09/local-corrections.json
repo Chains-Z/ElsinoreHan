@@ -6,5 +6,51 @@
     "kind": "format",
     "reason": "去掉破折号上多出的一组斜体标签，保留对她的强调和全部Sol措辞",
     "additional_model_calls": 0
+  },
+  {
+    "id": "p15078-1b6a06c2f81e",
+    "source": "Ay, Maike... What's got your father all in a rush so?",
+    "source_sha256": "1b6a06c2f81e8a4f459833fddcf97b10ecc169dad8e04eff0bf056200aecbfaa",
+    "original_target": "哎，迈克……你父亲怎么急成这样？",
+    "corrected_target": "哎，姑娘……你父亲怎么急成这样？",
+    "kind": "text",
+    "reason": "Maike有威斯特法伦方言“姑娘”用法，结合伊尔玛对奥菲莉娅的呼语作此推断；未发现本游戏作者直接注解。",
+    "origins": [
+      "Assembly-CSharp.dll:TutorialDataGenerated::Invoke_irma_LaertesisLate IL_01a5",
+      "https://volkstanz.de/volkstanzwissen/taenze/maike",
+      "用户实际游玩截图反馈，2026-10-10"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p15079-26df55e2957f",
+    "source": "Laertes heads to Paris tomorrow. I think Father's merely overly worried about his departure.",
+    "source_sha256": "26df55e2957fe34eb232bbd72a622d1128460610ca03d619766b1fb9c7de54f7",
+    "original_target": "雷欧提斯明天就要去巴黎了。我想父亲只是太担心他出门了。",
+    "corrected_target": "雷欧提斯明天就要去巴黎了。我想父亲只是太担心他这次远行了。",
+    "kind": "text",
+    "reason": "departure指离家赴巴黎，改为远行；保留merely与overly的只是/太担心，不补动机。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0102.json",
+      "用户实际游玩截图反馈，2026-10-10"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p15096-2e2aaa47cce5",
+    "source": "Besides, some of the other boys thought that maybe, yeh know, the most senior guard ought not to gamble as much...",
+    "source_sha256": "2e2aaa47cce5b07a20929b5ef8069e37548fff9b16f7d37b9a9e6c65aebde334",
+    "original_target": "再说，其他几个小伙子觉得，也许，你知道，资历最老的卫兵不该赌得那么勤……",
+    "corrected_target": "再说，其他几个小伙子觉得，资历最老的卫兵嘛，也许不该赌得那么勤……",
+    "kind": "text",
+    "reason": "保留用户指定的资历最老；把maybe纳入判断，以嘛承接口语yeh know，避免觉得、也许、你知道生硬连用。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0102.json",
+      "用户实际游玩截图反馈，2026-10-10"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

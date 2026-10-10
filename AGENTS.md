@@ -2,7 +2,7 @@
 
 更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新状态：日志通知与对白交错补修及Knight-Guard称号统一已安装，个人ZIP同步。当前1.4.0、17,027条、138条规则；114,028项真实XUnity消费者和111项真实游戏离线API检查通过。见 [本轮混合日志修复](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮日志四阅读位置八次F8、资料及字体证据保留；本轮未重复重型资料/滚动验收。下一步按实际游玩反馈校订。
+最新状态：三处实际游玩正文校订已安装，9项定向消费者通过，个人ZIP同步。Maike依方言词义与呼语上下文译为“姑娘”，departure改“这次远行”，保留用户指定“资历最老”；见 [正文校订](docs/dev-tasks/localization/playthrough-text-2026-10-10.md)。前轮日志通知与对白交错补修及Knight-Guard称号统一已安装。当前1.4.0、17,027条、138条规则；三处正文校订之前，114,028项真实XUnity消费者和111项真实游戏离线API检查通过；本轮未重复整组测试。见 [本轮混合日志修复](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮日志四阅读位置八次F8、资料及字体证据保留；本轮未重复重型资料/滚动验收。下一步按实际游玩反馈校订。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -17,7 +17,7 @@
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/mixed-log-verification.json：最新混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/playthrough-text-verification.json：最新正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -45,7 +45,7 @@
 - 时间线/教程/结果通过格式器拼接。先审核实际源片段和组合语法，再用限定规则消费译文；人物与房间使用真实白名单，不全局替换程序标识或泛化英文分词。上游Splitter按后加载优先；.NET普通$可能在末尾换行前匹配，新增UI规则使用严格末尾锚点。
 - 13首片尾歌曲保留作品原名；真实工作人员姓名、技术品牌、按键名按实际语境保留。内部条件、动作/音效ID和日志不作为玩家译文。
 - 冻结源输入、raw、outputs和审计在 translation/sol-full-2026-10-09/。保留原始响应及字节哈希，不覆盖raw，不重译已通过批次；.gitattributes已对冻结目录禁用换行转换。
-- 正文修订记录放 local-corrections.json；新界面补译放 translation/supplemental/ui-translations.json，规则放 dynamic-ui-rules.json。已有源词覆盖必须记录准确previous_target，保留来源与source_sha256。60个正文别名只复用旧译文，其中24个仅补外层斜体。
+- 正文修订记录放 local-corrections.json；新的apply_at_export校订带源哈希、原译文和来源，在导出层应用，不改冻结输出或raw。新界面补译放 translation/supplemental/ui-translations.json，规则放 dynamic-ui-rules.json。已有源词覆盖必须记录准确previous_target，保留来源与source_sha256。60个正文别名只复用旧译文，其中24个仅补外层斜体。
 - 文风使用自然易读的现代中文，仅保留原文已有的古雅、戏剧感和人物差异；不统一文言化、不补写关系/动作/情绪。人物身份以本游戏为准，忠实保留否定、时间、条件和推测程度。
 - 按用户偏好保留斜体对应斜体、粗体对应粗体，不全局转换。斜体还用于幽灵声音、唱词、作品名及舞台说明；粗体也用于结构与任务线索，没有统一强弱等级。原句证据见 english-markup-audit.md。
 - 人物页Title限定单行自适应字号，保留全名并避免与Subtitle重叠。运行文档别名源与编译器九步破折号替换契约记录在 runtime-closeup-translations.json，原资源和冻结译文不变。
