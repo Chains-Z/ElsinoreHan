@@ -1,0 +1,1042 @@
+{
+  "schema_version": 1,
+  "verification_method": "只读全部3份真实information资源和Cecil IL，不运行游戏或离线消费者",
+  "assets": [
+    {
+      "name": "information",
+      "sha256": "2f3226a147e60edf59c9668a745ce6490dde89a2363f0e5567c3320aac735bcb",
+      "information_count": 2
+    },
+    {
+      "name": "information",
+      "sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "information_count": 51
+    },
+    {
+      "name": "information",
+      "sha256": "ad4d908a1ea23ac753a42280ae590ef8886f25482a65ab4a83a1b18ab62ccf96",
+      "information_count": 2
+    }
+  ],
+  "field_count": 110,
+  "unique_raw_source_count": 62,
+  "changed_field_count": 4,
+  "unique_changed_source_count": 2,
+  "missing_runtime_field_count": 4,
+  "changed_sources": [
+    {
+      "record_id": "SimonaLives",
+      "field": "long",
+      "json_path": "$.information[25].long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source": "Simona--King Alexander's consort--did not die, but fled the castle. Where could she be?",
+      "raw_source_sha256": "8986880d7a6d96852e0966a35755fef39477487c387f4d44554a17fe8c5345eb",
+      "runtime_source": "Simona—King Alexander's consort—did not die, but fled the castle. Where could she be?",
+      "runtime_source_sha256": "c02f6310ccfdc4fc3d1066183dffc5532fcae73df210dacd269b316bf68942a7",
+      "changed": true,
+      "runtime_found": false,
+      "raw_translation_id": "p14361-8986880d7a6d",
+      "target": "亚历山大国王的配偶西蒙娜并没有死，而是逃离了城堡。她会在哪里？"
+    },
+    {
+      "record_id": "SimonaLives",
+      "field": "short",
+      "json_path": "$.information[25].short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source": "Simona--King Alexander's consort--did not die, but fled the castle. Where could she be?",
+      "raw_source_sha256": "8986880d7a6d96852e0966a35755fef39477487c387f4d44554a17fe8c5345eb",
+      "runtime_source": "Simona—King Alexander's consort—did not die, but fled the castle. Where could she be?",
+      "runtime_source_sha256": "c02f6310ccfdc4fc3d1066183dffc5532fcae73df210dacd269b316bf68942a7",
+      "changed": true,
+      "runtime_found": false,
+      "raw_translation_id": "p14361-8986880d7a6d",
+      "target": "亚历山大国王的配偶西蒙娜并没有死，而是逃离了城堡。她会在哪里？"
+    },
+    {
+      "record_id": "BernardoBoyPlayer",
+      "field": "long",
+      "json_path": "$.information[38].long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source": "By night, Bernardo plays a woman onstage--Katherine--in Castle Town.",
+      "raw_source_sha256": "070763d2825bc9aa8790d19ee5e3df549bbee001f58220761dcbdae1f4fc2486",
+      "runtime_source": "By night, Bernardo plays a woman onstage—Katherine—in Castle Town.",
+      "runtime_source_sha256": "4f02f9ee1771e7d0af00c2042a70f4a232f27383eab9c79bc00f96f02926db98",
+      "changed": true,
+      "runtime_found": false,
+      "raw_translation_id": "p14387-070763d2825b",
+      "target": "夜里，贝尔纳多在城堡镇的舞台上扮演一名女性——凯瑟琳。"
+    },
+    {
+      "record_id": "BernardoBoyPlayer",
+      "field": "short",
+      "json_path": "$.information[38].short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source": "By night, Bernardo plays a woman onstage--Katherine--in Castle Town.",
+      "raw_source_sha256": "070763d2825bc9aa8790d19ee5e3df549bbee001f58220761dcbdae1f4fc2486",
+      "runtime_source": "By night, Bernardo plays a woman onstage—Katherine—in Castle Town.",
+      "runtime_source_sha256": "4f02f9ee1771e7d0af00c2042a70f4a232f27383eab9c79bc00f96f02926db98",
+      "changed": true,
+      "runtime_found": false,
+      "raw_translation_id": "p14387-070763d2825b",
+      "target": "夜里，贝尔纳多在城堡镇的舞台上扮演一名女性——凯瑟琳。"
+    }
+  ],
+  "all_fields": [
+    {
+      "record_id": "LaertesIsLate",
+      "field": "long",
+      "asset_sha256": "2f3226a147e60edf59c9668a745ce6490dde89a2363f0e5567c3320aac735bcb",
+      "raw_source_sha256": "1ed49618e8fe9b9d3024ad1a258784c465028c66080f0cded941e65f28ef6d6c",
+      "runtime_source_sha256": "1ed49618e8fe9b9d3024ad1a258784c465028c66080f0cded941e65f28ef6d6c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "LaertesIsLate",
+      "field": "short",
+      "asset_sha256": "2f3226a147e60edf59c9668a745ce6490dde89a2363f0e5567c3320aac735bcb",
+      "raw_source_sha256": "1ed49618e8fe9b9d3024ad1a258784c465028c66080f0cded941e65f28ef6d6c",
+      "runtime_source_sha256": "1ed49618e8fe9b9d3024ad1a258784c465028c66080f0cded941e65f28ef6d6c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HamletIsStaying",
+      "field": "long",
+      "asset_sha256": "2f3226a147e60edf59c9668a745ce6490dde89a2363f0e5567c3320aac735bcb",
+      "raw_source_sha256": "56aa1b41ed6b7dbab4f615ef9928045d4aa1a7c4c145aacacff9c3511af57d1a",
+      "runtime_source_sha256": "56aa1b41ed6b7dbab4f615ef9928045d4aa1a7c4c145aacacff9c3511af57d1a",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HamletIsStaying",
+      "field": "short",
+      "asset_sha256": "2f3226a147e60edf59c9668a745ce6490dde89a2363f0e5567c3320aac735bcb",
+      "raw_source_sha256": "56aa1b41ed6b7dbab4f615ef9928045d4aa1a7c4c145aacacff9c3511af57d1a",
+      "runtime_source_sha256": "56aa1b41ed6b7dbab4f615ef9928045d4aa1a7c4c145aacacff9c3511af57d1a",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Assassin_PlayHearsay",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "143a30c055833f11681515fb28552fe7d5a1f7fa1c382dd850abeca11e8d63ce",
+      "runtime_source_sha256": "143a30c055833f11681515fb28552fe7d5a1f7fa1c382dd850abeca11e8d63ce",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Assassin_PlayHearsay",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "eb6bc01a47196d43e644e74a11de906d228f86bf7592f5dadf17823284a0edd3",
+      "runtime_source_sha256": "eb6bc01a47196d43e644e74a11de906d228f86bf7592f5dadf17823284a0edd3",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Loop_PlayHearsay",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "946db15e1cdebc6c746ef616d884432cdd8c15afbfb6148fe2926b26a4cae2c6",
+      "runtime_source_sha256": "946db15e1cdebc6c746ef616d884432cdd8c15afbfb6148fe2926b26a4cae2c6",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Loop_PlayHearsay",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "58922678dd1595b879f11e50456914b8d6d8d510c814b40acb73826a82dc5157",
+      "runtime_source_sha256": "58922678dd1595b879f11e50456914b8d6d8d510c814b40acb73826a82dc5157",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Dad_PlayHearsay",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "5db7cec3bbf81adb711c9a033a649f530fe2ebcd93494baf4ce91f2505ee4971",
+      "runtime_source_sha256": "5db7cec3bbf81adb711c9a033a649f530fe2ebcd93494baf4ce91f2505ee4971",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Dad_PlayHearsay",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "5db7cec3bbf81adb711c9a033a649f530fe2ebcd93494baf4ce91f2505ee4971",
+      "runtime_source_sha256": "5db7cec3bbf81adb711c9a033a649f530fe2ebcd93494baf4ce91f2505ee4971",
+      "runtime_found": true
+    },
+    {
+      "record_id": "InconvenientAffections",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "226fa1bd9d2def8ef563c220794741b2ab9a48bd18e03b3f194eb991afd467f0",
+      "runtime_source_sha256": "226fa1bd9d2def8ef563c220794741b2ab9a48bd18e03b3f194eb991afd467f0",
+      "runtime_found": true
+    },
+    {
+      "record_id": "InconvenientAffections",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "226fa1bd9d2def8ef563c220794741b2ab9a48bd18e03b3f194eb991afd467f0",
+      "runtime_source_sha256": "226fa1bd9d2def8ef563c220794741b2ab9a48bd18e03b3f194eb991afd467f0",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Claudius_PlayHearsay",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "647044c4f3218568490adabd31444e1138183d730bdc3bf30c65e53b1e5c222c",
+      "runtime_source_sha256": "647044c4f3218568490adabd31444e1138183d730bdc3bf30c65e53b1e5c222c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Claudius_PlayHearsay",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "647044c4f3218568490adabd31444e1138183d730bdc3bf30c65e53b1e5c222c",
+      "runtime_source_sha256": "647044c4f3218568490adabd31444e1138183d730bdc3bf30c65e53b1e5c222c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Hamlet_PlayHearsay",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "26a4b47171b38135a91ff25de0d2918cece95512b8ea8d714d79d632190d8936",
+      "runtime_source_sha256": "26a4b47171b38135a91ff25de0d2918cece95512b8ea8d714d79d632190d8936",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Hamlet_PlayHearsay",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "26a4b47171b38135a91ff25de0d2918cece95512b8ea8d714d79d632190d8936",
+      "runtime_source_sha256": "26a4b47171b38135a91ff25de0d2918cece95512b8ea8d714d79d632190d8936",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Gertrude_PlayHearsay",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "02eae2f3d45d222105e03eb1f35528e9c3450ff52ab01dd8ab957f590bdddcbc",
+      "runtime_source_sha256": "02eae2f3d45d222105e03eb1f35528e9c3450ff52ab01dd8ab957f590bdddcbc",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Gertrude_PlayHearsay",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "02eae2f3d45d222105e03eb1f35528e9c3450ff52ab01dd8ab957f590bdddcbc",
+      "runtime_source_sha256": "02eae2f3d45d222105e03eb1f35528e9c3450ff52ab01dd8ab957f590bdddcbc",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HamletActingMad",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "c7d45ae3c67a13320a82583c3a3176189646eec96be2c39e39985b2aafacc8ed",
+      "runtime_source_sha256": "c7d45ae3c67a13320a82583c3a3176189646eec96be2c39e39985b2aafacc8ed",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HamletActingMad",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8ab74bc1d1537571f287268e9236dceebf6aa7254c8e6606bb927699b300632c",
+      "runtime_source_sha256": "8ab74bc1d1537571f287268e9236dceebf6aa7254c8e6606bb927699b300632c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "QueensChambers",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "dfd54ee6abb14ecea0dd0829a4fff361c0f01633da8da1699748d82757dcb281",
+      "runtime_source_sha256": "dfd54ee6abb14ecea0dd0829a4fff361c0f01633da8da1699748d82757dcb281",
+      "runtime_found": true
+    },
+    {
+      "record_id": "QueensChambers",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "dfd54ee6abb14ecea0dd0829a4fff361c0f01633da8da1699748d82757dcb281",
+      "runtime_source_sha256": "dfd54ee6abb14ecea0dd0829a4fff361c0f01633da8da1699748d82757dcb281",
+      "runtime_found": true
+    },
+    {
+      "record_id": "IrmaCardGame",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "cee05ade0c11b9c811806e28516ed7f1cbb73e8b3b03ea6e5eca5836d161e12b",
+      "runtime_source_sha256": "cee05ade0c11b9c811806e28516ed7f1cbb73e8b3b03ea6e5eca5836d161e12b",
+      "runtime_found": true
+    },
+    {
+      "record_id": "IrmaCardGame",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "cee05ade0c11b9c811806e28516ed7f1cbb73e8b3b03ea6e5eca5836d161e12b",
+      "runtime_source_sha256": "cee05ade0c11b9c811806e28516ed7f1cbb73e8b3b03ea6e5eca5836d161e12b",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BritHamletMeetup",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "e90690bdbbd8e4091d597f3f4b2492306b87ffb968369716ff9e12c6628c39eb",
+      "runtime_source_sha256": "e90690bdbbd8e4091d597f3f4b2492306b87ffb968369716ff9e12c6628c39eb",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BritHamletMeetup",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "e90690bdbbd8e4091d597f3f4b2492306b87ffb968369716ff9e12c6628c39eb",
+      "runtime_source_sha256": "e90690bdbbd8e4091d597f3f4b2492306b87ffb968369716ff9e12c6628c39eb",
+      "runtime_found": true
+    },
+    {
+      "record_id": "SomeoneKillingMe",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "88b41576ca2e4e4db6accffade73836d7c8383e4d4db6c89dea0e95ff4a519b2",
+      "runtime_source_sha256": "88b41576ca2e4e4db6accffade73836d7c8383e4d4db6c89dea0e95ff4a519b2",
+      "runtime_found": true
+    },
+    {
+      "record_id": "SomeoneKillingMe",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "88b41576ca2e4e4db6accffade73836d7c8383e4d4db6c89dea0e95ff4a519b2",
+      "runtime_source_sha256": "88b41576ca2e4e4db6accffade73836d7c8383e4d4db6c89dea0e95ff4a519b2",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GhostSighting",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "7bfc4fdb2d48b40c494a8ebc389b7bf6b19a72b1a5efdf7723cbbf805580bc91",
+      "runtime_source_sha256": "7bfc4fdb2d48b40c494a8ebc389b7bf6b19a72b1a5efdf7723cbbf805580bc91",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GhostSighting",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "7bfc4fdb2d48b40c494a8ebc389b7bf6b19a72b1a5efdf7723cbbf805580bc91",
+      "runtime_source_sha256": "7bfc4fdb2d48b40c494a8ebc389b7bf6b19a72b1a5efdf7723cbbf805580bc91",
+      "runtime_found": true
+    },
+    {
+      "record_id": "TimeLoops",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8fc22c19cb3d31f6757da0eee6edc925e21fd6e26fa96c955fe1b579a520d67c",
+      "runtime_source_sha256": "8fc22c19cb3d31f6757da0eee6edc925e21fd6e26fa96c955fe1b579a520d67c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "TimeLoops",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8fc22c19cb3d31f6757da0eee6edc925e21fd6e26fa96c955fe1b579a520d67c",
+      "runtime_source_sha256": "8fc22c19cb3d31f6757da0eee6edc925e21fd6e26fa96c955fe1b579a520d67c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "KingWasMurdered",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "3a0948434156edf67316ac7ad03c59c913dcb73924ed41b50741a70b681d9f75",
+      "runtime_source_sha256": "3a0948434156edf67316ac7ad03c59c913dcb73924ed41b50741a70b681d9f75",
+      "runtime_found": true
+    },
+    {
+      "record_id": "KingWasMurdered",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "3a0948434156edf67316ac7ad03c59c913dcb73924ed41b50741a70b681d9f75",
+      "runtime_source_sha256": "3a0948434156edf67316ac7ad03c59c913dcb73924ed41b50741a70b681d9f75",
+      "runtime_found": true
+    },
+    {
+      "record_id": "PoisonStash",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8af2ee71f4b449fb2757889fca4a35d18114d31be5e3327156850f9f999e03d7",
+      "runtime_source_sha256": "8af2ee71f4b449fb2757889fca4a35d18114d31be5e3327156850f9f999e03d7",
+      "runtime_found": true
+    },
+    {
+      "record_id": "PoisonStash",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8af2ee71f4b449fb2757889fca4a35d18114d31be5e3327156850f9f999e03d7",
+      "runtime_source_sha256": "8af2ee71f4b449fb2757889fca4a35d18114d31be5e3327156850f9f999e03d7",
+      "runtime_found": true
+    },
+    {
+      "record_id": "DadWasMurdered",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "766e7896c803d486aa0859f2c4aff3b5b36d8635459a4ab06101a225812d688c",
+      "runtime_source_sha256": "766e7896c803d486aa0859f2c4aff3b5b36d8635459a4ab06101a225812d688c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "DadWasMurdered",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "766e7896c803d486aa0859f2c4aff3b5b36d8635459a4ab06101a225812d688c",
+      "runtime_source_sha256": "766e7896c803d486aa0859f2c4aff3b5b36d8635459a4ab06101a225812d688c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GertrudeClaudiusAffair",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "440fcdd2ec47e62fef6741496812dfe65b89809b3ff1d06dc9c4c0623ffc724f",
+      "runtime_source_sha256": "440fcdd2ec47e62fef6741496812dfe65b89809b3ff1d06dc9c4c0623ffc724f",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GertrudeClaudiusAffair",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "440fcdd2ec47e62fef6741496812dfe65b89809b3ff1d06dc9c4c0623ffc724f",
+      "runtime_source_sha256": "440fcdd2ec47e62fef6741496812dfe65b89809b3ff1d06dc9c4c0623ffc724f",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BritTheSpy",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "735eb165ea96aa8b7be8efa82d1f0c1d408ae90640a39bf9f073ba46963147b6",
+      "runtime_source_sha256": "735eb165ea96aa8b7be8efa82d1f0c1d408ae90640a39bf9f073ba46963147b6",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BritTheSpy",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "735eb165ea96aa8b7be8efa82d1f0c1d408ae90640a39bf9f073ba46963147b6",
+      "runtime_source_sha256": "735eb165ea96aa8b7be8efa82d1f0c1d408ae90640a39bf9f073ba46963147b6",
+      "runtime_found": true
+    },
+    {
+      "record_id": "ASpyInElsinore",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "7b615d23a3d9d93a7cb0631ede3b0f9697be836271acc51e01fce3e2263ea063",
+      "runtime_source_sha256": "7b615d23a3d9d93a7cb0631ede3b0f9697be836271acc51e01fce3e2263ea063",
+      "runtime_found": true
+    },
+    {
+      "record_id": "ASpyInElsinore",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "7b615d23a3d9d93a7cb0631ede3b0f9697be836271acc51e01fce3e2263ea063",
+      "runtime_source_sha256": "7b615d23a3d9d93a7cb0631ede3b0f9697be836271acc51e01fce3e2263ea063",
+      "runtime_found": true
+    },
+    {
+      "record_id": "PlayerPerformance",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "483c684aa7152b12f27c09bd7913154c16d0d509ca1510ed64f2b653337ab7ef",
+      "runtime_source_sha256": "483c684aa7152b12f27c09bd7913154c16d0d509ca1510ed64f2b653337ab7ef",
+      "runtime_found": true
+    },
+    {
+      "record_id": "PlayerPerformance",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "483c684aa7152b12f27c09bd7913154c16d0d509ca1510ed64f2b653337ab7ef",
+      "runtime_source_sha256": "483c684aa7152b12f27c09bd7913154c16d0d509ca1510ed64f2b653337ab7ef",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Nightmare",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "4edb1369aa71d8a251b1b29978a6b690ff7189fc1059ccf6454816af1d8cfc8d",
+      "runtime_source_sha256": "4edb1369aa71d8a251b1b29978a6b690ff7189fc1059ccf6454816af1d8cfc8d",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Nightmare",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "4edb1369aa71d8a251b1b29978a6b690ff7189fc1059ccf6454816af1d8cfc8d",
+      "runtime_source_sha256": "4edb1369aa71d8a251b1b29978a6b690ff7189fc1059ccf6454816af1d8cfc8d",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Invasion",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "2e9c55578233b3a58831fbb13b09c254b091201bb4994b0839a13e22ec855839",
+      "runtime_source_sha256": "2e9c55578233b3a58831fbb13b09c254b091201bb4994b0839a13e22ec855839",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Invasion",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "2e9c55578233b3a58831fbb13b09c254b091201bb4994b0839a13e22ec855839",
+      "runtime_source_sha256": "2e9c55578233b3a58831fbb13b09c254b091201bb4994b0839a13e22ec855839",
+      "runtime_found": true
+    },
+    {
+      "record_id": "PoloniusKingNotes",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8250b2fda2b83be06d7f769a2ba43e6c0a4c050d545c6b605134969a6750223b",
+      "runtime_source_sha256": "8250b2fda2b83be06d7f769a2ba43e6c0a4c050d545c6b605134969a6750223b",
+      "runtime_found": true
+    },
+    {
+      "record_id": "PoloniusKingNotes",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8250b2fda2b83be06d7f769a2ba43e6c0a4c050d545c6b605134969a6750223b",
+      "runtime_source_sha256": "8250b2fda2b83be06d7f769a2ba43e6c0a4c050d545c6b605134969a6750223b",
+      "runtime_found": true
+    },
+    {
+      "record_id": "CursedBook",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "3cc0d45a51ecc3f89d66e59b8cb738ff944801cad94ef94455c03720e863aa44",
+      "runtime_source_sha256": "3cc0d45a51ecc3f89d66e59b8cb738ff944801cad94ef94455c03720e863aa44",
+      "runtime_found": true
+    },
+    {
+      "record_id": "CursedBook",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "3cc0d45a51ecc3f89d66e59b8cb738ff944801cad94ef94455c03720e863aa44",
+      "runtime_source_sha256": "3cc0d45a51ecc3f89d66e59b8cb738ff944801cad94ef94455c03720e863aa44",
+      "runtime_found": true
+    },
+    {
+      "record_id": "SimonaLives",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8986880d7a6d96852e0966a35755fef39477487c387f4d44554a17fe8c5345eb",
+      "runtime_source_sha256": "c02f6310ccfdc4fc3d1066183dffc5532fcae73df210dacd269b316bf68942a7",
+      "runtime_found": false
+    },
+    {
+      "record_id": "SimonaLives",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "8986880d7a6d96852e0966a35755fef39477487c387f4d44554a17fe8c5345eb",
+      "runtime_source_sha256": "c02f6310ccfdc4fc3d1066183dffc5532fcae73df210dacd269b316bf68942a7",
+      "runtime_found": false
+    },
+    {
+      "record_id": "Margaret",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "6ec7342eb8e2d77af34514c5413c6d0dffd4ad2e6c1e0f18436c318c4124710b",
+      "runtime_source_sha256": "6ec7342eb8e2d77af34514c5413c6d0dffd4ad2e6c1e0f18436c318c4124710b",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Margaret",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "6ec7342eb8e2d77af34514c5413c6d0dffd4ad2e6c1e0f18436c318c4124710b",
+      "runtime_source_sha256": "6ec7342eb8e2d77af34514c5413c6d0dffd4ad2e6c1e0f18436c318c4124710b",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HamletDiscipline",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "06cac191586181bd219e5ad4f32ef82efd6b269b7a9de28b3267cc09924db52c",
+      "runtime_source_sha256": "06cac191586181bd219e5ad4f32ef82efd6b269b7a9de28b3267cc09924db52c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HamletDiscipline",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "06cac191586181bd219e5ad4f32ef82efd6b269b7a9de28b3267cc09924db52c",
+      "runtime_source_sha256": "06cac191586181bd219e5ad4f32ef82efd6b269b7a9de28b3267cc09924db52c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "QueenAstrid",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "ec147224eb000fbdd1824390bd0fb0914a467ab9ca73ee8535fa9b06f02b9f6e",
+      "runtime_source_sha256": "ec147224eb000fbdd1824390bd0fb0914a467ab9ca73ee8535fa9b06f02b9f6e",
+      "runtime_found": true
+    },
+    {
+      "record_id": "QueenAstrid",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "ec147224eb000fbdd1824390bd0fb0914a467ab9ca73ee8535fa9b06f02b9f6e",
+      "runtime_source_sha256": "ec147224eb000fbdd1824390bd0fb0914a467ab9ca73ee8535fa9b06f02b9f6e",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Playmaster",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "d65fdb89a860db3df2bf9b66574ece013d18a739020efd5333fd7176d8b3c3fa",
+      "runtime_source_sha256": "d65fdb89a860db3df2bf9b66574ece013d18a739020efd5333fd7176d8b3c3fa",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Playmaster",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "d65fdb89a860db3df2bf9b66574ece013d18a739020efd5333fd7176d8b3c3fa",
+      "runtime_source_sha256": "d65fdb89a860db3df2bf9b66574ece013d18a739020efd5333fd7176d8b3c3fa",
+      "runtime_found": true
+    },
+    {
+      "record_id": "MissingLute",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "e966dd334d0cc3be614cb5aa21705566aaaffb77f920a0b0250b2918e73904c1",
+      "runtime_source_sha256": "e966dd334d0cc3be614cb5aa21705566aaaffb77f920a0b0250b2918e73904c1",
+      "runtime_found": true
+    },
+    {
+      "record_id": "MissingLute",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "e966dd334d0cc3be614cb5aa21705566aaaffb77f920a0b0250b2918e73904c1",
+      "runtime_source_sha256": "e966dd334d0cc3be614cb5aa21705566aaaffb77f920a0b0250b2918e73904c1",
+      "runtime_found": true
+    },
+    {
+      "record_id": "EliseDeath",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "92a0b84cdd656682d37331b96121c532865506bd089517a258e75c4c74ef6787",
+      "runtime_source_sha256": "92a0b84cdd656682d37331b96121c532865506bd089517a258e75c4c74ef6787",
+      "runtime_found": true
+    },
+    {
+      "record_id": "EliseDeath",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "92a0b84cdd656682d37331b96121c532865506bd089517a258e75c4c74ef6787",
+      "runtime_source_sha256": "92a0b84cdd656682d37331b96121c532865506bd089517a258e75c4c74ef6787",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BoatFailure",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "1b8d0af768576de26746dd4ff29f248b694bab871be74d5213d285f8eea92795",
+      "runtime_source_sha256": "1b8d0af768576de26746dd4ff29f248b694bab871be74d5213d285f8eea92795",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BoatFailure",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "1b8d0af768576de26746dd4ff29f248b694bab871be74d5213d285f8eea92795",
+      "runtime_source_sha256": "1b8d0af768576de26746dd4ff29f248b694bab871be74d5213d285f8eea92795",
+      "runtime_found": true
+    },
+    {
+      "record_id": "EvilQuince",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "f85ba519324985e2fd79bd22705a809ad5da4ed67b36d7d3b05f32f2eac6acc6",
+      "runtime_source_sha256": "f85ba519324985e2fd79bd22705a809ad5da4ed67b36d7d3b05f32f2eac6acc6",
+      "runtime_found": true
+    },
+    {
+      "record_id": "EvilQuince",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "f85ba519324985e2fd79bd22705a809ad5da4ed67b36d7d3b05f32f2eac6acc6",
+      "runtime_source_sha256": "f85ba519324985e2fd79bd22705a809ad5da4ed67b36d7d3b05f32f2eac6acc6",
+      "runtime_found": true
+    },
+    {
+      "record_id": "QueenSearching",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "0243998f7b3db1001e1b5f573f37d22d911f1c9384b93e0e0ee8df6d00ef8fc8",
+      "runtime_source_sha256": "0243998f7b3db1001e1b5f573f37d22d911f1c9384b93e0e0ee8df6d00ef8fc8",
+      "runtime_found": true
+    },
+    {
+      "record_id": "QueenSearching",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "0243998f7b3db1001e1b5f573f37d22d911f1c9384b93e0e0ee8df6d00ef8fc8",
+      "runtime_source_sha256": "0243998f7b3db1001e1b5f573f37d22d911f1c9384b93e0e0ee8df6d00ef8fc8",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BurnedDocs",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "ffecc2784edab6b076cc7ad2af6aa8ceb3c7a2008f0d6783d73a5598194418f5",
+      "runtime_source_sha256": "ffecc2784edab6b076cc7ad2af6aa8ceb3c7a2008f0d6783d73a5598194418f5",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BurnedDocs",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "ffecc2784edab6b076cc7ad2af6aa8ceb3c7a2008f0d6783d73a5598194418f5",
+      "runtime_source_sha256": "ffecc2784edab6b076cc7ad2af6aa8ceb3c7a2008f0d6783d73a5598194418f5",
+      "runtime_found": true
+    },
+    {
+      "record_id": "RGShady",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "791422acb2ea121f5fbcba2ef8c745bcaca7975417f6f4abd7afcfbbe049972f",
+      "runtime_source_sha256": "791422acb2ea121f5fbcba2ef8c745bcaca7975417f6f4abd7afcfbbe049972f",
+      "runtime_found": true
+    },
+    {
+      "record_id": "RGShady",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "791422acb2ea121f5fbcba2ef8c745bcaca7975417f6f4abd7afcfbbe049972f",
+      "runtime_source_sha256": "791422acb2ea121f5fbcba2ef8c745bcaca7975417f6f4abd7afcfbbe049972f",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BernardoSummons",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "0e2a68658e4f8fa76e28244ee3a14bf7557eb3f3af4fb0410d9b72dc516c3386",
+      "runtime_source_sha256": "0e2a68658e4f8fa76e28244ee3a14bf7557eb3f3af4fb0410d9b72dc516c3386",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BernardoSummons",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "3981b0d4c48ccb1e5e8391f996e494c030add4c53373eaaf9d09bf728d7549b3",
+      "runtime_source_sha256": "3981b0d4c48ccb1e5e8391f996e494c030add4c53373eaaf9d09bf728d7549b3",
+      "runtime_found": true
+    },
+    {
+      "record_id": "BernardoBoyPlayer",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "070763d2825bc9aa8790d19ee5e3df549bbee001f58220761dcbdae1f4fc2486",
+      "runtime_source_sha256": "4f02f9ee1771e7d0af00c2042a70f4a232f27383eab9c79bc00f96f02926db98",
+      "runtime_found": false
+    },
+    {
+      "record_id": "BernardoBoyPlayer",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "070763d2825bc9aa8790d19ee5e3df549bbee001f58220761dcbdae1f4fc2486",
+      "runtime_source_sha256": "4f02f9ee1771e7d0af00c2042a70f4a232f27383eab9c79bc00f96f02926db98",
+      "runtime_found": false
+    },
+    {
+      "record_id": "Mutiny",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "b8c619f2a8ddadfa62a041d152ec8046cf504619647386eb40a9c601bdf70f29",
+      "runtime_source_sha256": "b8c619f2a8ddadfa62a041d152ec8046cf504619647386eb40a9c601bdf70f29",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Mutiny",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "b8c619f2a8ddadfa62a041d152ec8046cf504619647386eb40a9c601bdf70f29",
+      "runtime_source_sha256": "b8c619f2a8ddadfa62a041d152ec8046cf504619647386eb40a9c601bdf70f29",
+      "runtime_found": true
+    },
+    {
+      "record_id": "OthelloNeedsHelp",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "20c4799efc6af903a80eea2607db26cc912cd16881b60c3b8542abdf72601f5d",
+      "runtime_source_sha256": "20c4799efc6af903a80eea2607db26cc912cd16881b60c3b8542abdf72601f5d",
+      "runtime_found": true
+    },
+    {
+      "record_id": "OthelloNeedsHelp",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "20c4799efc6af903a80eea2607db26cc912cd16881b60c3b8542abdf72601f5d",
+      "runtime_source_sha256": "20c4799efc6af903a80eea2607db26cc912cd16881b60c3b8542abdf72601f5d",
+      "runtime_found": true
+    },
+    {
+      "record_id": "OthellosLife",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "1ba32acbfc2e60b3efd4f2d41f7f327f7d9bc449048797a1a579f8c1826f41a8",
+      "runtime_source_sha256": "1ba32acbfc2e60b3efd4f2d41f7f327f7d9bc449048797a1a579f8c1826f41a8",
+      "runtime_found": true
+    },
+    {
+      "record_id": "OthellosLife",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "1ba32acbfc2e60b3efd4f2d41f7f327f7d9bc449048797a1a579f8c1826f41a8",
+      "runtime_source_sha256": "1ba32acbfc2e60b3efd4f2d41f7f327f7d9bc449048797a1a579f8c1826f41a8",
+      "runtime_found": true
+    },
+    {
+      "record_id": "FailedRomance",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "bd42b6528a78e5175395825733384a0dec9973413a84de58860c0a46fe82b433",
+      "runtime_source_sha256": "bd42b6528a78e5175395825733384a0dec9973413a84de58860c0a46fe82b433",
+      "runtime_found": true
+    },
+    {
+      "record_id": "FailedRomance",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "3aa648820390d1722f8c42cc12d08185f0d248d79a8ee8e86ae49d9998bd91fe",
+      "runtime_source_sha256": "3aa648820390d1722f8c42cc12d08185f0d248d79a8ee8e86ae49d9998bd91fe",
+      "runtime_found": true
+    },
+    {
+      "record_id": "MakingAKing",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "7e688e7a9d3b46810365d6a19504f3b4e185020cd7dcd94b335c2cbcce9e9354",
+      "runtime_source_sha256": "7e688e7a9d3b46810365d6a19504f3b4e185020cd7dcd94b335c2cbcce9e9354",
+      "runtime_found": true
+    },
+    {
+      "record_id": "MakingAKing",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "7e688e7a9d3b46810365d6a19504f3b4e185020cd7dcd94b335c2cbcce9e9354",
+      "runtime_source_sha256": "7e688e7a9d3b46810365d6a19504f3b4e185020cd7dcd94b335c2cbcce9e9354",
+      "runtime_found": true
+    },
+    {
+      "record_id": "LadyBrit",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "264e6b02e53334ed1eca14f36bbaeab9b44b9c4d7080f1aae954828578e25526",
+      "runtime_source_sha256": "264e6b02e53334ed1eca14f36bbaeab9b44b9c4d7080f1aae954828578e25526",
+      "runtime_found": true
+    },
+    {
+      "record_id": "LadyBrit",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "264e6b02e53334ed1eca14f36bbaeab9b44b9c4d7080f1aae954828578e25526",
+      "runtime_source_sha256": "264e6b02e53334ed1eca14f36bbaeab9b44b9c4d7080f1aae954828578e25526",
+      "runtime_found": true
+    },
+    {
+      "record_id": "FortinbrasHideout",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "2b4ac8b737c2b498572bd1209940e90874f75d06327d4e2e16e5604ccadcc9e1",
+      "runtime_source_sha256": "2b4ac8b737c2b498572bd1209940e90874f75d06327d4e2e16e5604ccadcc9e1",
+      "runtime_found": true
+    },
+    {
+      "record_id": "FortinbrasHideout",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "2b4ac8b737c2b498572bd1209940e90874f75d06327d4e2e16e5604ccadcc9e1",
+      "runtime_source_sha256": "2b4ac8b737c2b498572bd1209940e90874f75d06327d4e2e16e5604ccadcc9e1",
+      "runtime_found": true
+    },
+    {
+      "record_id": "NotNeeded",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "e2b1f16dc3d9a0202d8646af6bbab82bd0650e72b3faecee8d92c366f08de031",
+      "runtime_source_sha256": "e2b1f16dc3d9a0202d8646af6bbab82bd0650e72b3faecee8d92c366f08de031",
+      "runtime_found": true
+    },
+    {
+      "record_id": "NotNeeded",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "e2b1f16dc3d9a0202d8646af6bbab82bd0650e72b3faecee8d92c366f08de031",
+      "runtime_source_sha256": "e2b1f16dc3d9a0202d8646af6bbab82bd0650e72b3faecee8d92c366f08de031",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Responsible",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "cff9c19f9b570a346044815b009fe84a2718ecfecbf7b52d149360dc5ecdf827",
+      "runtime_source_sha256": "cff9c19f9b570a346044815b009fe84a2718ecfecbf7b52d149360dc5ecdf827",
+      "runtime_found": true
+    },
+    {
+      "record_id": "Responsible",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "cff9c19f9b570a346044815b009fe84a2718ecfecbf7b52d149360dc5ecdf827",
+      "runtime_source_sha256": "cff9c19f9b570a346044815b009fe84a2718ecfecbf7b52d149360dc5ecdf827",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GuildensternDead",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "883ec18bd243dae60c06880aaf98789cfc67f2b9eaf25ef6cd77e0716b9923ee",
+      "runtime_source_sha256": "883ec18bd243dae60c06880aaf98789cfc67f2b9eaf25ef6cd77e0716b9923ee",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GuildensternDead",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "883ec18bd243dae60c06880aaf98789cfc67f2b9eaf25ef6cd77e0716b9923ee",
+      "runtime_source_sha256": "883ec18bd243dae60c06880aaf98789cfc67f2b9eaf25ef6cd77e0716b9923ee",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GuardsActingShifty",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "d2faefd4a9d1e3cdd93c4c3027ee7eb46df083d6ed265e3679b9cfdf53463dcc",
+      "runtime_source_sha256": "d2faefd4a9d1e3cdd93c4c3027ee7eb46df083d6ed265e3679b9cfdf53463dcc",
+      "runtime_found": true
+    },
+    {
+      "record_id": "GuardsActingShifty",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "36610349dac9be110bf4f50afd5351921c1516969d4ee88fb510130fee914636",
+      "runtime_source_sha256": "36610349dac9be110bf4f50afd5351921c1516969d4ee88fb510130fee914636",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HoratioFriendToHamlet",
+      "field": "long",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "6d962cfaaae75192bbb4b3e0a91622dc98747fa79cff98cb4a9cab3a7351444e",
+      "runtime_source_sha256": "6d962cfaaae75192bbb4b3e0a91622dc98747fa79cff98cb4a9cab3a7351444e",
+      "runtime_found": true
+    },
+    {
+      "record_id": "HoratioFriendToHamlet",
+      "field": "short",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "raw_source_sha256": "6d962cfaaae75192bbb4b3e0a91622dc98747fa79cff98cb4a9cab3a7351444e",
+      "runtime_source_sha256": "6d962cfaaae75192bbb4b3e0a91622dc98747fa79cff98cb4a9cab3a7351444e",
+      "runtime_found": true
+    },
+    {
+      "record_id": "The_Future",
+      "field": "long",
+      "asset_sha256": "ad4d908a1ea23ac753a42280ae590ef8886f25482a65ab4a83a1b18ab62ccf96",
+      "raw_source_sha256": "8a6564070aabae727b2a8fb6bbdf1deedf865b2029e01963145a848854cbc105",
+      "runtime_source_sha256": "8a6564070aabae727b2a8fb6bbdf1deedf865b2029e01963145a848854cbc105",
+      "runtime_found": true
+    },
+    {
+      "record_id": "The_Future",
+      "field": "short",
+      "asset_sha256": "ad4d908a1ea23ac753a42280ae590ef8886f25482a65ab4a83a1b18ab62ccf96",
+      "raw_source_sha256": "d5d51eb364195c887198be1d4e7369c97af178b542820491e25b2d2cb5850d2c",
+      "runtime_source_sha256": "d5d51eb364195c887198be1d4e7369c97af178b542820491e25b2d2cb5850d2c",
+      "runtime_found": true
+    },
+    {
+      "record_id": "IsThisReal",
+      "field": "long",
+      "asset_sha256": "ad4d908a1ea23ac753a42280ae590ef8886f25482a65ab4a83a1b18ab62ccf96",
+      "raw_source_sha256": "600c5810e5fac4e161959ca59a48c574b93113f1ebeee0a3434443cd5ebedc4b",
+      "runtime_source_sha256": "600c5810e5fac4e161959ca59a48c574b93113f1ebeee0a3434443cd5ebedc4b",
+      "runtime_found": true
+    },
+    {
+      "record_id": "IsThisReal",
+      "field": "short",
+      "asset_sha256": "ad4d908a1ea23ac753a42280ae590ef8886f25482a65ab4a83a1b18ab62ccf96",
+      "raw_source_sha256": "600c5810e5fac4e161959ca59a48c574b93113f1ebeee0a3434443cd5ebedc4b",
+      "runtime_source_sha256": "600c5810e5fac4e161959ca59a48c574b93113f1ebeee0a3434443cd5ebedc4b",
+      "runtime_found": true
+    }
+  ],
+  "source_files": [
+    {
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Elsinore.dll",
+      "sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4"
+    }
+  ],
+  "methods": [
+    {
+      "assembly": "Elsinore.dll",
+      "method": "System.String Elsinore.Game.CompilerPasses::doTextReplacement(System.String)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldstr \" -- \"",
+        "IL_0006: ldstr \"—\"",
+        "IL_000b: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_0010: ldstr \" --- \"",
+        "IL_0015: ldstr \"—\"",
+        "IL_001a: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_001f: ldstr \" - \"",
+        "IL_0024: ldstr \"—\"",
+        "IL_0029: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_002e: ldstr \"-- \"",
+        "IL_0033: ldstr \"—\"",
+        "IL_0038: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_003d: ldstr \"--- \"",
+        "IL_0042: ldstr \"—\"",
+        "IL_0047: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_004c: ldstr \" --\"",
+        "IL_0051: ldstr \"—\"",
+        "IL_0056: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_005b: ldstr \" ---\"",
+        "IL_0060: ldstr \"—\"",
+        "IL_0065: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_006a: ldstr \"--\"",
+        "IL_006f: ldstr \"—\"",
+        "IL_0074: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_0079: ldstr \"---\"",
+        "IL_007e: ldstr \"—\"",
+        "IL_0083: callvirt System.String System.String::Replace(System.String,System.String)",
+        "IL_0088: ret"
+      ]
+    },
+    {
+      "assembly": "Elsinore.dll",
+      "method": "Elsinore.Game.Information Elsinore.Game.CompilerPasses::f@294-52(Elsinore.Game.Information)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldfld Elsinore.Game.InformationId Elsinore.Game.Information::Id@",
+        "IL_0006: ldarg.0",
+        "IL_0007: ldfld System.String Elsinore.Game.Information::Name@",
+        "IL_000c: ldarg.0",
+        "IL_000d: ldfld System.String Elsinore.Game.Information::ShortDescription@",
+        "IL_0012: call System.String Elsinore.Game.CompilerPasses::doTextReplacement(System.String)",
+        "IL_0017: ldarg.0",
+        "IL_0018: ldfld System.String Elsinore.Game.Information::LongDescription@",
+        "IL_001d: call System.String Elsinore.Game.CompilerPasses::doTextReplacement(System.String)",
+        "IL_0022: ldarg.0",
+        "IL_0023: ldfld Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.SceneId> Elsinore.Game.Information::AcquireScene@",
+        "IL_0028: ldarg.0",
+        "IL_0029: ldfld Elsinore.Game.InformationScene[] Elsinore.Game.Information::Scenes@",
+        "IL_002e: ldarg.0",
+        "IL_002f: ldfld System.String[] Elsinore.Game.Information::Categories@",
+        "IL_0034: ldarg.0",
+        "IL_0035: ldfld Agakme.Scripting.Ast/Expression Elsinore.Game.Information::TruthCondition@",
+        "IL_003a: newobj System.Void Elsinore.Game.Information::.ctor(Elsinore.Game.InformationId,System.String,System.String,System.String,Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.SceneId>,Elsinore.Game.InformationScene[],System.String[],Agakme.Scripting.Ast/Expression)",
+        "IL_003f: ret"
+      ]
+    }
+  ],
+  "classification_baseline_head": "1104afbd54ba0fb395df875625b67f5e1205e7e4",
+  "unique_missing_runtime_source_count": 2,
+  "validation_note": "缺口按修复前HEAD词表判定；所有110字段按真实资源枚举，未改写历史审计快照"
+}

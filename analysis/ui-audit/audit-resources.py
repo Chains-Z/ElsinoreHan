@@ -137,6 +137,37 @@ def read_string(data, pos):
     return data[pos + 4:pos + 4 + length].decode("utf-8"), (pos + 4 + length + 3) & ~3
 
 
+def door_marker_string_fields(raw, pos):
+    """按真实字段顺序区分门口提示、锁门场景与音效 ID。"""
+    # ConnectedDoor、SpawnPoint、DestinationRoom 三个引用，各十二字节；
+    # IsInteractable、SpawnPointOutsideNavMesh、IgnoreNavChecks 各四字节。
+    tooltip_offset = pos + 3 * 12 + 3 * 4
+    _, locked_offset = read_string(raw, tooltip_offset)
+    _, after_locked = read_string(raw, locked_offset)
+    # CursorDirection、DoesWarp、DoesFadeOnWarp、FadeTime 各四字节。
+    open_offset = after_locked + 4 * 4
+    _, locked_sound_offset = read_string(raw, open_offset)
+    return {
+        tooltip_offset: {
+            "field": "OverrideTooltip", "decision": "player_facing", "category": "door_tooltip",
+            "reason": "DoorMarker.OverrideTooltip；IInteractable.get_Tooltip优先消费非空覆盖提示",
+            "ui_path": "DoorMarker.OverrideTooltip -> IInteractable.get_Tooltip -> GuiUtils.UpdateTooltip -> TMP_Text.set_text",
+        },
+        locked_offset: {
+            "field": "LockedDoorScene", "decision": "excluded", "category": "technical",
+            "reason": "DoorMarker.LockedDoorScene为锁门剧情场景ID，不是提示显示字段",
+        },
+        open_offset: {
+            "field": "OpenAkEventName", "decision": "excluded", "category": "technical",
+            "reason": "DoorMarker.OpenAkEventName为Wwise音效ID，不是提示显示字段",
+        },
+        locked_sound_offset: {
+            "field": "LockedAkEventName", "decision": "excluded", "category": "technical",
+            "reason": "DoorMarker.LockedAkEventName为Wwise音效ID，不是提示显示字段",
+        },
+    }
+
+
 def main():
     translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
     exact = {r["source"]: r for r in translations}
@@ -268,6 +299,7 @@ def main():
                 continue
             classname = script.get("class", "unknown")
             component_stats[classname] += 1
+            door_fields = door_marker_string_fields(raw, pos) if classname == "DoorMarker" else {}
             # 无类型树文件只做组件归属可追溯的四字节对齐字符串扫描；具体字段须通过 IL 消费者核对。
             for offset in range(pos, len(raw) - 4, 4):
                 length = struct.unpack_from("<i", raw, offset)[0]
@@ -288,7 +320,13 @@ def main():
                 decision = "excluded"
                 category = "technical"
                 reason = "组件配置、动画状态、输入绑定/设备数据库、字体字形、音效或对象引用；无玩家文字显示路径"
-                if classname == "RoomMarker" and offset == pos:
+                if offset in door_fields:
+                    descriptor = door_fields[offset]
+                    decision, category, reason = (descriptor[key] for key in ("decision", "category", "reason"))
+                    origin["field"] = descriptor["field"]
+                    if "ui_path" in descriptor:
+                        origin["ui_path"] = descriptor["ui_path"]
+                elif classname == "RoomMarker" and offset == pos:
                     decision, category, reason = "player_facing", "room_name", "RoomMarker.playerFacingName；UiStrings.FormatRoomId与ExplorationUI.updateTimeText消费"
                     origin["field"] = "playerFacingName"
                     origin["ui_path"] = "RoomMarker.playerFacingName -> UiStrings.FormatRoomId / ExplorationUI.updateTimeText -> TMP_Text.SetText"

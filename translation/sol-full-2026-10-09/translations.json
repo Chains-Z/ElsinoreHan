@@ -24284,8 +24284,9 @@
   {
     "id": "p04044-2faad0554345",
     "source": "Your mother was close with the Queen, during her service to her. Certain events transpired which no King since would want to come to light.",
-    "target": "你母亲在侍奉王后期间，和她很亲近。那时发生过一些事，之后的任何一位国王都不愿让它们公之于世。",
-    "batch": "b0032"
+    "target": "你母亲侍奉王后时，和王后很亲近。那时发生过一些事，之后的任何一位国王都不愿让它们公之于世。",
+    "batch": "b0032",
+    "supplement_id": "dialogue-context-2faad055434523ed"
   },
   {
     "id": "p04045-ef48c1509649",
@@ -24302,8 +24303,9 @@
   {
     "id": "p04047-b18e9b908b5c",
     "source": "When she took ill, King Hamlet ordered her put into one of the sanitariums on the southern coast.",
-    "target": "她病倒后，哈姆雷特国王下令把她送进南部海岸的一所疗养院。",
-    "batch": "b0032"
+    "target": "你母亲病倒后，哈姆雷特国王下令把她送进南部海岸的一所疗养院。",
+    "batch": "b0032",
+    "supplement_id": "dialogue-context-b18e9b908b5cf789"
   },
   {
     "id": "p04048-dfaf96dba4fc",
@@ -101152,6 +101154,42 @@
     "batch": "settings-supplemental"
   },
   {
+    "id": "ui-fa1153552ae56de6",
+    "source": "Out to Sea",
+    "target": "出海",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-059b1f0f19960394",
+    "source": "<b>Ophelia</b> no longer has this future event on her <b>Timeline</b>: %s",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示这一未来事件：%s",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-36e2768d1f269603",
+    "source": "<b>Ophelia</b> no longer has a future event on her <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示一项未来事件。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-2ad134cf2ec108f6",
+    "source": "<b>Ophelia</b> no longer has multiple future events on her <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示多项未来事件。",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-12ce34f486ea7813",
+    "source": "<b>Ophelia</b> no longer has a future event on her <b>Timeline</b>.\n",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示一项未来事件。\n",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "mixed-log-terminal-3d5f80f44d77924c",
+    "source": "<b>Ophelia</b> no longer has multiple future events on her <b>Timeline</b>.\n",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示多项未来事件。\n",
+    "batch": "settings-supplemental"
+  },
+  {
     "id": "runtime-closeup-1c8d4a1a61d37350",
     "source": "I remember Celeste rode in the front.\n\nShe was the head of the May parade, wearing a long white dress with a blue ribbon around her waist and flowers braided into her hair. No one had ever seen a May Queen half so pretty, they said. A trail of wagons tied together proceeded down the only street in town and there she sat at the very front, skirts trailing beneath her legs, which dangled off the wagon's edge. Her feet were bare and pale and clean, her eyes a blue to match her sash. And even I had to admit she was beautiful.\n\nI watched her go by from just outside mum's cottage. She turned to smile at me and called out. 'Anna! Come dance with us!' She extended her hands towards me, the bells tied to her wrists tinkling faintly. We had been best friends once, after all.\n\nBut the boys who walked at her side jeered at me. 'Ugly little bitch!' one of them screeched. Another tossed a stone. 'Brown-toothed, slack-jawed, scruff-haired nothing!' One of them came after me with a stick, as though he meant to break it over my back.\n\nTears filling my eyes, I retreated into the woods. Far away from the raucous sounds of the May Day parade, everything here was dark and silent. The trees stretched like fingers overhead, and for a moment I forgot myself in that darkness. I knew not where I went, but walked with my eyes locked upon the mossy ground. There was no path. I needed none.\n\nAll humans know when they have truly become lost. And so I had. It was nearly midnight now, though it had been noon when I left my mother's threshold. A full moon lit my path, casting twining shadows on the forest floor. \n\nAt last I came upon a still lake. And there I prayed to the spirit of spring herself, that great goddess whose image all May Queens were created in. 'Make me beautiful like Celeste,' I cried. 'Make me worthy of being the May Queen, too!'\n\nThe waters parted. A single wave lapped the surface. And then, slowly, the mare climbed out of the water's depths, one hoof at a time. It was a white mare, drenched through, and it shook its head wildly, flicking drops of water from its mane. Surely this must be the goddess herself, manifested in mortal form. Its mane was braided—just as Celeste's had been—but with mossweed, not flowers.\n\nThe mare stood before me, its golden eyes fixed upon me. At last it said (with no mouth that could move, but with a voice all the same) 'Child of man, have you come to seek my aid?'\n\n'I have,' I said, quietly. 'I want to be beautiful. As beautiful as Celeste.'\n\nIt bowed its great head to me and nuzzled my hand. I touched it tenderly, its breath on my fingers. And, flooded with sudden relief that my prayer had been answered, I pressed my face into its mane and sobbed.\n\n'Cry not, child of man,' it told me. 'Come into my dark waters and be reborn as a goddess in your own right. Merely climb on my back, and we'll descend together. You shall be a May Queen yet.'\n\nI wrapped its mane round my fingers and pulled myself up her back with all my might, swinging one leg over her sinewy side. Together, we began to descend into the water. I felt the cold bite of it weighing down my skirts, my shoes; and before I knew it, the water was up to my chest. \n\nIt was then I peered beneath the surface and my heart leapt into my chest. The mare was no mare, but a rotted, hulking thing, its flesh stripped in pieces from its corpse and fluttering in the water's current. The wet stink of death came upon me, and I gagged. I reached for the only thing I could grab—a branch overhanging the pond—and pulled with all my might. The creature ceased its descent beneath the water and turned upon me, its face little more than two shriveled eyes in a grinning skull.\n\nA name rose to my lips, a choked scream. 'Brook horse!'\n\n'Yesssss,' the thing in the water hissed. Its horselike lips pulled back, revealing sharpened teeth.\n\nI turned to swim, but felt those teeth closing down upon my back. The moon grew small, high above the surface, fading from reach. The soft green of it all surrounded me. I sank down to the moss at the bottom. No. Not moss. Remains. And the last thing I saw was that sharp, grinning smile.\n\n'You shall never be Queen,' it rasped. 'But your bones shall be beautiful indeed.'",
     "target": "我记得塞莱斯特坐在最前面。\n\n她领着五月节的游行队伍，身穿白色长裙，腰间系着蓝丝带，头发里编着鲜花。大家说，从没见过哪位五月女王有她一半漂亮。一辆辆相连的马车沿着镇上唯一的街道前行，她就坐在最前头，裙摆垂在腿下，双腿悬在车沿外。她光着脚，双脚白净，眼睛和腰间的丝带一样蓝。就连我也不得不承认，她很美。\n\n我站在妈妈的小屋外，看着她经过。她转过头，对我微笑着喊道：“安娜！来跟我们一起跳舞吧！”她朝我伸出双手，系在手腕上的铃铛轻轻作响。毕竟，我们曾经是最好的朋友。\n\n可走在她身旁的男孩们却嘲笑我。“丑八怪，小贱人！”其中一个尖声叫道。另一个扔来一块石头。“黄牙、呆脸、乱毛的废物！”还有一个拿着棍子朝我追来，像是要往我背上打，直到把棍子打断。\n\n泪水盈满了我的眼睛，我退进树林。这里远离五月节游行的喧闹，一切都幽暗而寂静。树木像手指一样伸展在头顶，一时间，我在黑暗中忘了自己。我不知道自己去了哪里，只顾盯着长满苔藓的地面走。这里没有路。我也不需要路。\n\n人真正迷路时，自己总是知道的。我就是如此。此时已近午夜，而我离开母亲家门时还是正午。一轮满月照着我前行，在林地上投下交错缠绕的影子。 \n\n终于，我来到一片平静的湖边。我在那里向春天之灵祈祷，向那位伟大的女神祈祷——所有五月女王都是仿照她的形象装扮的。“让我像塞莱斯特一样美丽吧，”我哭喊道，“让我也配当五月女王吧！”\n\n湖水分开了。一道波浪轻拍水面。接着，那匹母马缓缓从水底爬出来，一只蹄子接着一只蹄子。那是一匹白色的母马，浑身湿透，猛烈地甩着头，把水珠从鬃毛上甩落。这一定是女神亲自化作凡间的形体，显现在我面前。它的鬃毛也编成了辫子，和塞莱斯特的头发一样，只是编进去的是苔草，而不是鲜花。\n\n母马站在我面前，金色的眼睛注视着我。终于，它开口了（它的嘴并不能动，却仍然发出了声音）：“人类的孩子，你是来向我求助的吗？”\n\n“是的，”我轻声说，“我想变得美丽。像塞莱斯特一样美丽。”\n\n它向我低下硕大的头，用鼻子蹭了蹭我的手。我轻柔地抚摸它，感受着它呼在我指上的气息。祈祷得到了回应，突如其来的宽慰涌上心头，我把脸埋进它的鬃毛里，抽泣起来。\n\n“别哭，人类的孩子，”它对我说，“到我幽暗的水中来，重获新生，成为一位属于你自己的女神。只要爬上我的背，我们就一起下去。你终会成为五月女王。”\n\n我把它的鬃毛缠在手指上，用尽力气爬上它的背，把一条腿跨过它筋肉结实的侧腹。我们一起开始向水中下沉。我感到刺骨的冷水浸透了裙子和鞋子，坠得它们沉甸甸的；还没反应过来，水就已经漫到了胸口。 \n\n就在那时，我往水下看去，心猛地一跳。那母马根本不是马，而是一具腐烂的庞然巨物，尸身上的皮肉一片片剥落，在水流中飘动。湿腐的死亡恶臭扑面而来，我一阵干呕。我伸手抓住唯一够得着的东西——一根伸到池塘上方的树枝——拼命往上拉。那怪物停止了下沉，转头朝向我。它的脸几乎只剩下一颗咧嘴的骷髅头，嵌着两只干瘪的眼睛。\n\n一个名字涌到嘴边，化作一声哽住的尖叫：“溪马！”\n\n“是——啊——”水里的东西嘶声说道。它马一样的嘴唇向后掀起，露出尖利的牙齿。\n\n我转身想游开，却感觉那些牙齿咬住了我的背。月亮在高高的水面上方越变越小，渐渐远得无法触及。四周柔和的绿色包围了我。我沉向水底的苔藓。不。那不是苔藓。是残骸。而我最后看见的，是那道尖牙毕露的狞笑。\n\n“你永远成不了女王，”它嘶哑地说，“不过，你的骨头一定会很美。”",
@@ -101305,6 +101343,18 @@
     "id": "ui-lead-runtime-1e536d95bd3e402c",
     "source": "I'd forgotten what it was like to see them all happy. This world—this new world—is this the world that would have been without the Book of Fates, without any of it?",
     "target": "我都忘了，看见大家都开开心心是什么感觉。这个世界——这个新的世界——难道就是没有《命运之书》、没有这一切时，本该存在的世界吗？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-information-runtime-c02f6310ccfdc4fc",
+    "source": "Simona—King Alexander's consort—did not die, but fled the castle. Where could she be?",
+    "target": "亚历山大国王的配偶西蒙娜并没有死，而是逃离了城堡。她会在哪里？",
+    "batch": "settings-supplemental"
+  },
+  {
+    "id": "ui-information-runtime-4f02f9ee1771e7d0",
+    "source": "By night, Bernardo plays a woman onstage—Katherine—in Castle Town.",
+    "target": "夜里，贝尔纳多在城堡镇的舞台上扮演一名女性——凯瑟琳。",
     "batch": "settings-supplemental"
   },
   {

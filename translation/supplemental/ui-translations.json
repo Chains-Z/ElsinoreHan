@@ -8616,5 +8616,89 @@
     ],
     "kind": "frozen_dialogue_format_alias",
     "translation_method": "本会话Sol定向补译或明确记录的冻结译文复用，无新增API调用"
+  },
+  {
+    "id": "ui-fa1153552ae56de6",
+    "source": "Out to Sea",
+    "target": "出海",
+    "source_sha256": "fa1153552ae56de681289f76fdf597f2ea95925218f6b45c4d11f86412296d05",
+    "origins": [
+      "level1:pathID=15212:DoorMarker.OverrideTooltip:offset=80:absolute=2265752",
+      "用户码头交互入口截图，2026-10-11",
+      "analysis/ui-audit/out-to-sea-source-audit.json"
+    ],
+    "kind": "door_tooltip",
+    "translation_method": "本会话按真实玩家字段定向补译，无新增API调用"
+  },
+  {
+    "id": "ui-059b1f0f19960394",
+    "source": "<b>Ophelia</b> no longer has this future event on her <b>Timeline</b>: %s",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示这一未来事件：%s",
+    "source_sha256": "059b1f0f19960394e46f710f98f5771fdfca6e299882db7c7daf8e4c4a7fc7ef",
+    "origins": [
+      "tools/patch/InvitedEventNotice.cs:负向INVITED格式分支",
+      "Elsinore.Game.Model.formatGroupedLiterals及TimelineUI.CreateTimelines真实IL",
+      "用户奎因斯改戏后错误通知截图，2026-10-11"
+    ],
+    "kind": "negative_future_event_notice",
+    "translation_method": "本会话按原游戏条件状态补齐玩家显示文案；不改事件排程或存档，无新增API调用"
+  },
+  {
+    "id": "ui-36e2768d1f269603",
+    "source": "<b>Ophelia</b> no longer has a future event on her <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示一项未来事件。",
+    "source_sha256": "36e2768d1f269603d2bfc4653d1d15b7f27744454be13046b40d9b5eeb02ece7",
+    "origins": [
+      "tools/patch/InvitedEventNotice.cs:负向INVITED格式分支",
+      "Elsinore.Game.Model.formatGroupedLiterals及TimelineUI.CreateTimelines真实IL",
+      "用户奎因斯改戏后错误通知截图，2026-10-11"
+    ],
+    "kind": "negative_future_event_notice",
+    "translation_method": "本会话按原游戏条件状态补齐玩家显示文案；不改事件排程或存档，无新增API调用"
+  },
+  {
+    "id": "ui-2ad134cf2ec108f6",
+    "source": "<b>Ophelia</b> no longer has multiple future events on her <b>Timeline</b>.",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示多项未来事件。",
+    "source_sha256": "2ad134cf2ec108f6746a8252d4f953a993309b697e239fbd3effe3a04f662507",
+    "origins": [
+      "tools/patch/InvitedEventNotice.cs:负向INVITED格式分支",
+      "Elsinore.Game.Model.formatGroupedLiterals及TimelineUI.CreateTimelines真实IL",
+      "用户奎因斯改戏后错误通知截图，2026-10-11"
+    ],
+    "kind": "negative_future_event_notice",
+    "translation_method": "本会话按原游戏条件状态补齐玩家显示文案；不改事件排程或存档，无新增API调用"
+  },
+  {
+    "id": "mixed-log-terminal-12ce34f486ea7813",
+    "source": "<b>Ophelia</b> no longer has a future event on her <b>Timeline</b>.\n",
+    "source_sha256": "12ce34f486ea781399ab4f7aa8eb34cca26324850da40ca244c53c273f79701e",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示一项未来事件。\n",
+    "base_source": "<b>Ophelia</b> no longer has a future event on her <b>Timeline</b>.",
+    "base_target_sha256": "659af598f7cffc7ea17b9d6c4c5cf72ca1b96d99bb143623b1f45493b2ed91a8",
+    "origins": [
+      "tools/patch/InvitedEventNotice.cs:负向INVITED格式分支",
+      "Elsinore.Game.Model.formatGroupedLiterals及TimelineUI.CreateTimelines真实IL",
+      "用户奎因斯改戏后错误通知截图，2026-10-11",
+      "HistoryTracker.formatEntry为LogicChange追加尾LF"
+    ],
+    "kind": "notification_terminal_lf",
+    "translation_method": "逐字复用已治理的新通知译文并保留尾LF，无新增API调用"
+  },
+  {
+    "id": "mixed-log-terminal-3d5f80f44d77924c",
+    "source": "<b>Ophelia</b> no longer has multiple future events on her <b>Timeline</b>.\n",
+    "source_sha256": "3d5f80f44d77924c5badd016a686ca374ed11f4d0b81fbaf08d9ba71e89a9583",
+    "target": "<b>奥菲莉娅</b>的<b>时间线</b>不再显示多项未来事件。\n",
+    "base_source": "<b>Ophelia</b> no longer has multiple future events on her <b>Timeline</b>.",
+    "base_target_sha256": "fd64b23ba1bcbd2519aa0fd0d02f5718c5d9364844c360a3c0236ef5c97d8054",
+    "origins": [
+      "tools/patch/InvitedEventNotice.cs:负向INVITED格式分支",
+      "Elsinore.Game.Model.formatGroupedLiterals及TimelineUI.CreateTimelines真实IL",
+      "用户奎因斯改戏后错误通知截图，2026-10-11",
+      "HistoryTracker.formatEntry为LogicChange追加尾LF"
+    ],
+    "kind": "notification_terminal_lf",
+    "translation_method": "逐字复用已治理的新通知译文并保留尾LF，无新增API调用"
   }
 ]

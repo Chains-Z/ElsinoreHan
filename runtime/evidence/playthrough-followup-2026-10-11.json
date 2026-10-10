@@ -1,0 +1,76 @@
+{
+  "status": "verified_pending_install",
+  "plugin_version": "1.5.1",
+  "dictionary_count": 17041,
+  "dynamic_rules": 155,
+  "base_installed_commit": "1104afbd54ba0fb395df875625b67f5e1205e7e4",
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 2200
+  },
+  "consumer_groups": {
+    "negative_notice_combinations_and_door": 813,
+    "reading_context": 32,
+    "previous_notification_cases": 616,
+    "present_preview_raw_runtime_and_unknown": 629,
+    "information_runtime_fields": 110
+  },
+  "real_formatter": {
+    "passed": true,
+    "assertions": 16,
+    "real_formatter": true,
+    "game_started": false,
+    "build_directory": "runtime/build/invited-followup/e9bdf3d5603346a88b19609cf98b6265",
+    "inherited_error_ui_suppression_checked": true,
+    "real_resource_sha256": {
+      "schedule": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "names": "16e4bbcbb01d6769cb17429d756bed974e737b899cca57bd9501b0e6ded50489"
+    },
+    "helper_sha256": "0a506f6d06815f5b7b384a6fcf1dbc8b0dcf5dd2aad20c947bcca03128a207aa"
+  },
+  "unit_tests": {
+    "export": 15,
+    "door_tooltip": 3,
+    "information_runtime": 3,
+    "compile_failure_guards": 2
+  },
+  "formal_install_changed": false,
+  "main_game_pid_observed": 63308,
+  "candidate_zip_matches_directory": true,
+  "candidate_package_file_count": 37,
+  "candidate_zip_sha256": "92b223532da5e7915488ca37fb44bef681fde81e73079d34a69bea154f471ba0",
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "723b90f2dd40d9743cd53477a24e35dffbedd9b1f701e035b5068b493559f7e6",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "e8f834712aa3d8535a978365c88645cbeb135b46dcb7d100f57ddeeb0f64ac4a",
+    "translation/supplemental/dialogue-context-corrections.json": "a6ae1469af2ecb521fbdba6d87cea4b9f2ef5dd8d8cf9c4d582f3d78cd2ae599",
+    "translation/supplemental/ui-translations.json": "d38c791f6a2826cc6e1292910a404067701392d85c7f99aba3a6ebcf748b71bc",
+    "translation/supplemental/information-runtime-aliases.json": "2f6e8f5ec9dac2d4eb13971b01973f5531acaadf93a6f1f7d535befd3c2f70d7",
+    "translation/supplemental/notification-ui-rules.json": "87aea161967b43f60592d47646c851f04935045f8f723e64d5c8cbbe6b2e296b",
+    "tools/patch/InvitedEventNotice.cs": "0a506f6d06815f5b7b384a6fcf1dbc8b0dcf5dd2aad20c947bcca03128a207aa",
+    "runtime/build/ElsinoreHan.TranslationToggle.dll": "8a2bbb43cf812f412b3532f4d6faad11ed2f2b164c0dcfd52f1df47fd82966a0",
+    "analysis/ui-audit/invited-event-source-audit.json": "40414d114d3f4845cbfcd8f93007c629507965a690da622ffc667c14a1bcdad9",
+    "analysis/ui-audit/out-to-sea-source-audit.json": "72c4c029ec70337944cca6ce3b20c65589a242ef83685a3f50109f6d18c32b78",
+    "analysis/ui-audit/present-preview-source-audit.json": "e6a160a3bd9fd598361a6249d4665191d9d7ab49e095d4b36d04f706ee6eda75",
+    "analysis/ui-audit/information-runtime-source-audit.json": "04eaec509fc42661791bc5caeca334e3797d4eea8b5ce7a54511522a36041541"
+  },
+  "test_popup_incident": {
+    "test_program": "TestInvitedEventNotice.exe",
+    "reported_dialogs": 2,
+    "stopped": true,
+    "causes": [
+      "缺少Windows错误界面抑制",
+      "编译失败后误跑旧产物"
+    ],
+    "remediation": [
+      "父进程设置可继承SEM标志，子进程断言验证",
+      "独立编译目录及失败门禁",
+      "完整Harmony依赖和真实JSON解析参数校正",
+      "顶层异常捕获、超时回收及无窗口运行"
+    ]
+  },
+  "limits": [
+    "真实CLR游戏格式器与XUnity离线消费者检查，不是该剧情或物理F8端到端验收",
+    "未启动主游戏、改写存档或重跑前轮重型页面/滚动验收",
+    "主游戏仍运行，候选尚未安装；活动存档未读取，不能报告本轮哈希比较"
+  ]
+}

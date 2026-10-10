@@ -1,0 +1,62 @@
+[
+  {
+    "id": "ui-information-runtime-c02f6310ccfdc4fc",
+    "source": "Simona—King Alexander's consort—did not die, but fled the castle. Where could she be?",
+    "source_sha256": "c02f6310ccfdc4fc3d1066183dffc5532fcae73df210dacd269b316bf68942a7",
+    "target": "亚历山大国王的配偶西蒙娜并没有死，而是逃离了城堡。她会在哪里？",
+    "existing_id": "p14361-8986880d7a6d",
+    "existing_source": "Simona--King Alexander's consort--did not die, but fled the castle. Where could she be?",
+    "existing_source_sha256": "8986880d7a6d96852e0966a35755fef39477487c387f4d44554a17fe8c5345eb",
+    "existing_target_sha256": "2681abd1eca61ac28f758194b63daa4c498fcf284ef611af1e5ea339b7e6af91",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "information",
+        "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+        "json_path": "$.information[25].long",
+        "field": "long",
+        "record_id": "SimonaLives"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "information",
+        "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+        "json_path": "$.information[25].short",
+        "field": "short",
+        "record_id": "SimonaLives"
+      },
+      "analysis/ui-audit/information-runtime-source-audit.json"
+    ],
+    "provenance": "Information LongText/ShortText的真实编译破折号变体，逐字复用治理后的冻结译文"
+  },
+  {
+    "id": "ui-information-runtime-4f02f9ee1771e7d0",
+    "source": "By night, Bernardo plays a woman onstage—Katherine—in Castle Town.",
+    "source_sha256": "4f02f9ee1771e7d0af00c2042a70f4a232f27383eab9c79bc00f96f02926db98",
+    "target": "夜里，贝尔纳多在城堡镇的舞台上扮演一名女性——凯瑟琳。",
+    "existing_id": "p14387-070763d2825b",
+    "existing_source": "By night, Bernardo plays a woman onstage--Katherine--in Castle Town.",
+    "existing_source_sha256": "070763d2825bc9aa8790d19ee5e3df549bbee001f58220761dcbdae1f4fc2486",
+    "existing_target_sha256": "22ef4735c8abbfb613e759e9c1ed90ca545f422cd8c492d897b10c46f78027d6",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "information",
+        "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+        "json_path": "$.information[38].long",
+        "field": "long",
+        "record_id": "BernardoBoyPlayer"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "information",
+        "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+        "json_path": "$.information[38].short",
+        "field": "short",
+        "record_id": "BernardoBoyPlayer"
+      },
+      "analysis/ui-audit/information-runtime-source-audit.json"
+    ],
+    "provenance": "Information LongText/ShortText的真实编译破折号变体，逐字复用治理后的冻结译文"
+  }
+]

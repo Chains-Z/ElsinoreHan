@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "verification_method": "只读原资源和程序集；未启动游戏或读取存档",
+  "serialized_file_count": 12,
+  "door_count": 74,
+  "field_checks": 296,
+  "nonempty_internal_fields_rejected": 147,
+  "nonempty_player_sources": [
+    {
+      "source": "Out to Sea",
+      "source_sha256": "fa1153552ae56de681289f76fdf597f2ea95925218f6b45c4d11f86412296d05",
+      "file": "level1",
+      "file_sha256": "346dbdd37e25e69de3c470a2cd138630bd68cd6fe3c66e8b8770eed043945ef2",
+      "path_id": 15212,
+      "field": "OverrideTooltip",
+      "object_offset": 80,
+      "absolute_offset": 2265752,
+      "serialized_object_sha256": "d31b58e96919cd9e31a612f2dd4c4d4b467241eaff74a8c26118476cf047d79e",
+      "ui_path": "DoorMarker.OverrideTooltip -> IInteractable.get_Tooltip -> GuiUtils.UpdateTooltip -> TMP_Text.set_text"
+    }
+  ],
+  "recommended_target": "出海",
+  "assembly": {
+    "path": "D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data/Managed/Assembly-CSharp.dll",
+    "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+  },
+  "tooltip_getter": {
+    "method": "Elsinore.Ui.TooltipInfo DoorMarker::Elsinore.Ui.IInteractable.get_Tooltip()",
+    "il": [
+      "IL_0000: ldarg.0",
+      "IL_0001: ldfld System.String DoorMarker::OverrideTooltip",
+      "IL_0006: call System.Boolean Elsinore.Miscellany::IsEmpty(System.String)",
+      "IL_000b: brtrue.s IL_0015",
+      "IL_000d: ldarg.0",
+      "IL_000e: ldfld System.String DoorMarker::OverrideTooltip",
+      "IL_0013: br.s IL_0020",
+      "IL_0015: ldarg.0",
+      "IL_0016: ldfld RoomMarker DoorMarker::DestinationRoom",
+      "IL_001b: ldfld System.String RoomMarker::playerFacingName",
+      "IL_0020: newobj System.Void Elsinore.Ui.TooltipInfo::.ctor(System.String)",
+      "IL_0025: ret"
+    ]
+  }
+}

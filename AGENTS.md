@@ -1,6 +1,8 @@
 # ElsinoreHan 项目约定与最新交接
 
-更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
+更新时间：2026-10-11。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
+
+最新候选1.5.1、17,041条、155规则已验证，修复负向INVITED错误通知、DoorMarker.OverrideTooltip漏提、4条分享预览及2条信息正文编译变体，补明母亲相关对白指代；格尔塔为乔特鲁德昵称，保留。2200项真实XUnity消费者、16项真实Model格式器断言和23项治理/审计/测试门禁单元通过。**主游戏63308仍运行，正式安装仍为下述1.5.0，候选尚未安装**。当前ZIP为1.5.1候选，安装与候选证据分开；见docs/dev-tasks/localization/playthrough-followup-2026-10-11.md及runtime/evidence/playthrough-followup-2026-10-11.json。不要重跑未改变的重型页面验收。
 
 最新1.5.0、17,033条、154条规则已安装，修复多人通知弹窗/日志边界、人物简介组合与文档F8位置，并包含后续时间线及奎因斯对白校订；提婆/阿修罗保留。候选阶段128,408项真实消费者、131项真实游戏离线API、14个人物/文档与7历史索引、文档18次和日志8次F8通过。用户退出后备份安装，35个运行文件、37文件包目录及ZIP一致，原游戏四文件和8个存档的哈希/修改时间/数量未变。见 [本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)及runtime/evidence/reading-install-verification.json。下一步继续随实际游玩校订，不重跑未改变的整组测试。
 
@@ -37,7 +39,7 @@
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
-- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 已与正式安装1.5.0同步；包配置逐字复用安装器保留的现有配置及XUnity自动补全项。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
+- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 为已验证但待安装的1.5.1候选，与正式安装1.5.0不同；说明页明确待安装。1.5.0安装哈希保留reading-install-verification.json快照。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
 
 ## 界面提取与译文治理
 

@@ -153,5 +153,31 @@
       "用户奎因斯迟到话题截图，2026-10-10"
     ],
     "reason": "保留机会之窗的原文比喻并顺插入语标点；enjoyed的回顾语气以那场演出和看得尽兴体现，不加刚才或已看完。真实脚本只检查改戏期限，不据此推断演出已经结束"
+  },
+  {
+    "id": "dialogue-context-2faad055434523ed",
+    "original_id": "p04044-2faad0554345",
+    "source": "Your mother was close with the Queen, during her service to her. Certain events transpired which no King since would want to come to light.",
+    "source_sha256": "2faad055434523ed9a4ccbbb7971e3295663fc98d87be50c339412123b562cc7",
+    "previous_target": "你母亲在侍奉王后期间，和她很亲近。那时发生过一些事，之后的任何一位国王都不愿让它们公之于世。",
+    "target": "你母亲侍奉王后时，和王后很亲近。那时发生过一些事，之后的任何一位国王都不愿让它们公之于世。",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:ELISE_REVEAL",
+      "用户母亲与阿斯特丽德王后指代截图，2026-10-11"
+    ],
+    "reason": "按同一真实场景前后文补明代词：首句亲近的对象为王后，病倒及后续遭遇的主体为主角母亲。不改人物关系或事件内容。"
+  },
+  {
+    "id": "dialogue-context-b18e9b908b5cf789",
+    "original_id": "p04047-b18e9b908b5c",
+    "source": "When she took ill, King Hamlet ordered her put into one of the sanitariums on the southern coast.",
+    "source_sha256": "b18e9b908b5cf78964f9375eb6abef65aa99ca482425fbf9f63898cf8c58d1ec",
+    "previous_target": "她病倒后，哈姆雷特国王下令把她送进南部海岸的一所疗养院。",
+    "target": "你母亲病倒后，哈姆雷特国王下令把她送进南部海岸的一所疗养院。",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:ELISE_REVEAL",
+      "用户母亲与阿斯特丽德王后指代截图，2026-10-11"
+    ],
+    "reason": "按同一真实场景前后文补明代词：首句亲近的对象为王后，病倒及后续遭遇的主体为主角母亲。不改人物关系或事件内容。"
   }
 ]

@@ -8,7 +8,7 @@ using UnityEngine;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.0")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.1")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -38,6 +38,15 @@ public sealed class TranslationToggle : BaseUnityPlugin
         // 本游戏的 TMP 1.4.0 只将 StringBuilder 写入解析缓冲区，text getter 仍是旧值。
         // 改走正常文本入口，让 XUnity 保存完整原文并翻译；不提前改写成中文。
         var compatibility = new Harmony("elsinorehan.translationtoggle.tmpcompatibility");
+        try
+        {
+            InvitedEventNotice.Apply(compatibility);
+            Logger.LogInfo("负向未来事件通知的玩家文字格式已补齐。");
+        }
+        catch (Exception error)
+        {
+            Logger.LogWarning("未来事件通知格式接口不兼容，保留原游戏输出：" + error.GetType().Name);
+        }
         compatibility.Patch(typeof(TMP_Text).GetMethod("SetText", new Type[] { typeof(StringBuilder) }),
             prefix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("SetBuilderThroughText", BindingFlags.Public | BindingFlags.Static)));
         compatibility.Patch(typeof(TMP_Text).GetMethod("SetText", new Type[] { typeof(string), typeof(bool) }),
