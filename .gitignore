@@ -49,3 +49,5 @@ translation/supplemental/mixed-log-pair-tests.json
 translation/supplemental/irma-review-tests.json
 # 其它角色方言审校逐句/日志用例由脚本复现，保留来源与定向校订。
 translation/supplemental/dialect-review-tests.json
+# 多人通知的姓名位置与包装矩阵由生成器复现，仅提交代表性用例。
+translation/supplemental/notification-list-followup-tests.json

@@ -30,7 +30,7 @@ def main():
     filenames = ["mixed-log-tests.json", "mixed-log-pair-tests.json", "dialogue-log-followup-tests.json",
                  "dialogue-log-depth-tests.json", "lead-followup-tests.json", "map-ui-tests.json",
                  "timeline-followup-tests.json", "nested-belief-followup-tests.json", "dynamic-ui-tests.json",
-                 "notification-ui-tests.json"]
+                 "notification-ui-tests.json", "notification-list-followup-tests.json"]
     with ThreadPoolExecutor(max_workers=2) as executor:
         results = dict(executor.map(run_suite, filenames))
     import hashlib

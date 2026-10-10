@@ -1,0 +1,132 @@
+{
+  "status": "verified_pending_install",
+  "plugin_version": "1.5.0",
+  "dictionary_count": 17033,
+  "dynamic_rules": 154,
+  "run_id": "c260fdd093dd4c1a88fdf2c2b3e5f624",
+  "actual_consumers": {
+    "mixed_and_existing_ui": 127644,
+    "biography": 738,
+    "reading_context": 26,
+    "total": 128408
+  },
+  "unit_and_helper_assertions": 135,
+  "game_checks": {
+    "verification.json": true,
+    "journal-analysis.json": true,
+    "document-scroll-anchor-analysis.json": true,
+    "log-scroll-anchor-analysis.json": true,
+    "biography-replay-analysis.json": true
+  },
+  "real_game_offline_api_cases": 131,
+  "document_f8": {
+    "documents": 3,
+    "switches": 18,
+    "max_ui_error": 9.149999999635838e-05
+  },
+  "log_f8": {
+    "positions": 4,
+    "switches": 8,
+    "max_ui_error": 9.000000000014552e-05
+  },
+  "biography_replay": {
+    "actors": [
+      "bernardo",
+      "brit",
+      "claudius",
+      "gertrude",
+      "guildenstern",
+      "hamlet",
+      "horatio",
+      "irma",
+      "laertes",
+      "marcellus",
+      "ophelia",
+      "polonius",
+      "quince",
+      "rosencrantz"
+    ],
+    "unavailable": [
+      [
+        "bio-runtime-all-fortinbras",
+        "fortinbras"
+      ],
+      [
+        "bio-runtime-all-ghost",
+        "ghost"
+      ],
+      [
+        "bio-runtime-all-grace",
+        "grace"
+      ],
+      [
+        "bio-runtime-all-othello",
+        "othello"
+      ]
+    ],
+    "replayed_cases": 15
+  },
+  "body_coverage": {
+    "real_history_indices": 7,
+    "documents": 14,
+    "characters": 14
+  },
+  "process": {
+    "run_id": "c260fdd093dd4c1a88fdf2c2b3e5f624",
+    "launched_at_utc": "2026-10-10T13:31:58.6679645Z",
+    "pid": 33044,
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10,
+    "arguments": [
+      "-batchmode",
+      "-nographics",
+      "-nosound",
+      "-logFile",
+      "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\c260fdd093dd4c1a88fdf2c2b3e5f624\\player.log\""
+    ]
+  },
+  "save_protection": {
+    "original_save_files_unchanged": null,
+    "original_save_comparison_conclusive": false,
+    "concurrent_user_game": true,
+    "frozen_source_unchanged": true,
+    "save_source_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-86d5eda7118f4a34ab3cdbab2d942d8e",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-c260fdd093dd4c1a88fdf2c2b3e5f624",
+    "files": []
+  },
+  "cleanup": {
+    "probe_removed": true,
+    "temporary_appid_removed": true,
+    "loader_config_restored_byte_for_byte": true
+  },
+  "original_game_files_unchanged": true,
+  "frozen_response_directories_unchanged": true,
+  "font_character_set_unchanged": true,
+  "candidate_package": {
+    "zip_sha256": "e64e2f4c1a02f60ad609c097a6f9baa9e49ea79b37f45e1f3740991d04556563",
+    "files": 37,
+    "zip_entries": 39,
+    "matches_directory": true,
+    "pending_install_notice": true
+  },
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "6d2471fec43d0ae2dc81c83d34b54cbec578c443572a3a13e2f6e528f758a8ea",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "1cd50101b793513b8282b8f0b2e8e95c8b6b00b177bb78f5775991bb2870b7dd",
+    "runtime/build/ElsinoreHan.TranslationToggle.dll": "547aa58b0c3546d494561387eb0a367c8e61bf4924a45e21cc68624e38c9b299",
+    "runtime/build/reading-followup-cache-cases.tsv": "1fcfa413c048e25f481d99f8405f6f1acf34784de303b5a99bfb270def081bbb",
+    "runtime/evidence/headless/c260fdd093dd4c1a88fdf2c2b3e5f624/journal-ui.txt": "2495148db2019dd4df3dab1e99e1602329dd74daf2a0d6d1da325defc1883cbc",
+    "runtime/evidence/headless/c260fdd093dd4c1a88fdf2c2b3e5f624/biography-replay.tsv": "2e8589123cd8dcb2fe2359715ccab139fa5361ddb7292210e7fb385aab5c276a",
+    "runtime/evidence/headless/c260fdd093dd4c1a88fdf2c2b3e5f624/document-scroll-anchor.tsv": "8c49696b7ed4fcd052029434c5b403740025480c9806c7fff3688d936f9bb1c0",
+    "runtime/evidence/headless/c260fdd093dd4c1a88fdf2c2b3e5f624/log-scroll-anchor.tsv": "716f00c1157ca74d94771286f996723a7894a9cdf84e42e4331e8b280046de77"
+  },
+  "limits": [
+    "资源组合与真实界面组件重放不等于截图剧情已触发或全剧情端到端通过",
+    "正式共享F8处理入口未注入物理键盘，段落基线保护不保证逐词阅读位置",
+    "用户继续游玩时原存档比较不下结论；测试只用既有冻结副本且保存拦截",
+    "游戏仍在运行，安装脚本禁止覆盖，候选ZIP与正式安装不同"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "resources_sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd",
+  "assets": 3,
+  "actors": 18,
+  "line_occurrences": 104,
+  "unique_sources": 71,
+  "ordered_subsets": 345,
+  "aliases": 6,
+  "rules": 16,
+  "cases": 738,
+  "runtime_cases": 19,
+  "limits": [
+    "穷举真实资源全部保序非空子集；不声明所有剧情进度可同时成立",
+    "源变体只复用既有目标；未重新翻译人物简介"
+  ]
+}

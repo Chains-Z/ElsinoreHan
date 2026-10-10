@@ -13,11 +13,22 @@ $type = $assembly.GetType('LogScrollAnchor', $true)
 $count = $type.GetMethod('ParagraphCount')
 $at = $type.GetMethod('ParagraphAt')
 $start = $type.GetMethod('ParagraphStart')
+$documentCount = $type.GetMethod('DocumentParagraphCount')
+$documentAt = $type.GetMethod('DocumentParagraphAt')
+$documentStart = $type.GetMethod('DocumentParagraphStart')
 $assertions = 0
 function Assert-Equal($actual, $expected, [string]$name) {
     if ($actual -cne $expected) { throw "$name 的实际值 $actual 与期望值 $expected 不符" }
     $script:assertions++
 }
+Assert-Equal ($documentCount.Invoke($null, @("`n<i></i>`n甲`n`n乙`n"))) 2 '文档空白及空标签不算阅读段落'
+Assert-Equal ($documentCount.Invoke($null, @("a`n`n`nb"))) ($documentCount.Invoke($null, @("甲`n乙"))) '文档空白数量不同仍对应'
+Assert-Equal ($documentStart.Invoke($null, @("a`n`n`nb", 1))) 4 '文档第二非空段起点'
+Assert-Equal ($documentAt.Invoke($null, @("a`n`n`nb", 4))) 1 '文档第二非空段序号'
+Assert-Equal ($documentAt.Invoke($null, @("a`n`n`nb", 2))) 0 '空白分隔属于前段'
+Assert-Equal ($documentStart.Invoke($null, @('单段', -1))) -1 '文档负数段号'
+Assert-Equal ($documentStart.Invoke($null, @('单段', 1))) -1 '文档越界段号'
+Assert-Equal ($documentCount.Invoke($null, @(''))) 0 '文档空正文'
 Assert-Equal ($count.Invoke($null, @('单段文字'))) 1 '单段'
 Assert-Equal ($count.Invoke($null, @("a`n`nb`n"))) 4 '空段和末尾段'
 Assert-Equal ($count.Invoke($null, @("a`r`nb"))) 2 'CRLF 不重复计段'

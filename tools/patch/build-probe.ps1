@@ -26,6 +26,8 @@ $arguments += Join-Path $PSScriptRoot 'LeadFollowupProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'MapFollowupProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'TimelineFollowupProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'LogScrollAnchorProbe.cs'
+$arguments += Join-Path $PSScriptRoot 'DocumentScrollAnchorProbe.cs'
+$arguments += Join-Path $PSScriptRoot 'BiographyReplayProbe.cs'
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw '运行时探针编译失败。' }
 Write-Output $output

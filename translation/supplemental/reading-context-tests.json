@@ -1,0 +1,381 @@
+[
+  {
+    "id": "court-title-b8f0173ed0a9839a-leaf",
+    "source": "Brit is Gertrude's lady-in-waiting. She can be terribly cruel. We've never gotten along since she came to Elsinore three years ago.\n\nShe is the daughter of one of the most powerful noble families in Denmark, as with most of the people here at Elsinore.",
+    "target": "布莉特是乔特鲁德的宫廷侍女。她有时刻薄得可怕。自从三年前她来到埃尔西诺，我们就一直合不来。\n\n她出身于丹麦最有权势的贵族家族之一，和埃尔西诺这里的大多数人一样。",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "49975131f1e00180e528ceea4ea9e630c1d421dc2b4061992df1d63c0add1a85",
+        "json_path": "$.list[6].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[6].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      }
+    ]
+  },
+  {
+    "id": "court-title-d6efd0d9eb2c0f25-leaf",
+    "source": "Brit is Gertrude's lady in waiting. She can be terribly cruel. We've never gotten along since she came to Elsinore three years ago.\n\nShe is the daughter of one of the most powerful noble families in Denmark, as with most of the people here at Elsinore. I can't speak my mind around her or my father would scold me for sullying our name.",
+    "target": "布莉特是乔特鲁德的宫廷侍女。她刻薄起来十分可怕。自从三年前她来到埃尔西诺，我们就一直合不来。\n\n和埃尔西诺这里的大多数人一样，她出身贵族，是丹麦最有权势的家族之一的女儿。在她面前，我不能直说自己的想法，否则父亲会责备我败坏了家族名声。",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[6].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      }
+    ]
+  },
+  {
+    "id": "court-title-b1540d2230d6b5a8-leaf",
+    "source": "My lady-in-waiting, Brit—Birgitta—comes from a high house. She'd make a suitable match, if a bit low in rank. But... I just don't know.",
+    "target": "我的宫廷侍女布莉特——比尔吉塔——出身名门。她会是个合适的婚配对象，虽然身份稍低了些。不过……我实在拿不定主意。",
+    "origins": [
+      {
+        "inventory_id": "p04444-b1540d2230d6",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-2c191eb550726de1-leaf",
+    "source": "Maybe <i>you</i> should hold back, but <i>I'm</i> her lady-in-waiting of House Brockenhuus. She can see me whenever I like.",
+    "target": "也许<i>你</i>该等着，可<i>我</i>是她的宫廷侍女，出身布罗肯胡斯家族。我想什么时候见她，她就能见我。",
+    "origins": [
+      {
+        "inventory_id": "p10705-2c191eb55072",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-c3dc7c18269e31a3-leaf",
+    "source": "No lady-in-waiting, or beautiful silken dress, can replace that bond.",
+    "target": "任何宫廷侍女、任何漂亮的丝绸裙子，都取代不了这份情谊。",
+    "origins": [
+      {
+        "inventory_id": "p10710-c3dc7c18269e",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-4ecd8f1ba6fbb299-leaf",
+    "source": "Her nosy little lady-in-waiting and that Bohemian bullish cook are the only people she ever trusted with that honor.",
+    "target": "她那爱管闲事的小小的宫廷侍女，还有那个蛮横的波希米亚厨娘，是她仅有的两个信任到愿意给她们这份殊荣的人。",
+    "origins": [
+      {
+        "inventory_id": "p11405-4ecd8f1ba6fb",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-63ee99bbc31b7e3d-leaf",
+    "source": "I love moonlight walks! Almost as much as I love my dearest lady-in-waiting exploiting my son's weakened emotional state.",
+    "target": "我最喜欢月下散步了！喜欢的程度，几乎赶得上我最亲爱的宫廷侍女利用我儿子脆弱的心境。",
+    "origins": [
+      {
+        "inventory_id": "p11478-63ee99bbc31b",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-95d0500265d2bd1d-leaf",
+    "source": "Your lady-in-waiting Brit is a spy for the Prince of Norway.",
+    "target": "您的宫廷侍女布莉特是挪威王子的间谍。",
+    "origins": [
+      {
+        "inventory_id": "p11968-95d0500265d2",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-40056b23897cc7c9-leaf",
+    "source": "Lady Brit is my wife's most faithful lady-in-waiting—and a young woman, too. She can do no harm to anyone.",
+    "target": "布莉特女士是我妻子最忠诚的宫廷侍女——何况她还是个年轻姑娘。她伤害不了任何人。",
+    "origins": [
+      {
+        "inventory_id": "p12019-40056b23897c",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-561e72753eccd3a0-leaf",
+    "source": "Hmmph. Now what will I do? Being a lady-in-waiting is so dismal! Attending to the Queen's every little whim, following her from court function to court function...",
+    "target": "哼。那我现在怎么办？当宫廷侍女真是苦闷！王后随便有什么小念头都得伺候，还要跟着她参加一场又一场宫廷活动……",
+    "origins": [
+      {
+        "inventory_id": "p15115-561e72753ecc",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-3cd624871fb25443-leaf",
+    "source": "You may be the Queen's lady-in-waiting, but <i>I</i> am a lady of the Court. Keep your tongue in check.",
+    "target": "你虽是王后的宫廷侍女，可<i>我</i>也是宫廷贵女。说话注意分寸。",
+    "origins": [
+      {
+        "inventory_id": "p15124-3cd624871fb2",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ]
+  },
+  {
+    "id": "court-title-1feebffee2d4c721-leaf",
+    "source": "Lady-in-Waiting to Her Highness",
+    "target": "王后的宫廷侍女",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "49975131f1e00180e528ceea4ea9e630c1d421dc2b4061992df1d63c0add1a85",
+        "json_path": "$.list[6].subtitle",
+        "field": "subtitle",
+        "record_id": "brit"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[6].subtitle",
+        "field": "subtitle",
+        "record_id": "brit"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[6].subtitle",
+        "field": "subtitle",
+        "record_id": "brit"
+      }
+    ]
+  },
+  {
+    "id": "dialogue-context-3308fc1fb0fdecc4-leaf",
+    "source": "And what if it weren't?",
+    "target": "那如果现实不是这样呢？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HamletAndOphelia",
+        "line": 6078
+      },
+      "用户截图语境反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "dialogue-context-d1e4494f09eb40f9-leaf",
+    "source": "No. You've been right to stay away from me.",
+    "target": "不……你一直和我保持距离，是对的。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HamletAndOphelia",
+        "line": 6080
+      },
+      "用户截图语境反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "dialogue-context-17500c24bf523b92-leaf",
+    "source": "Please, no 'sir'. Peter Quince, the one-man thespian. At your service anytime, my lady.",
+    "target": "请别叫我“先生”。彼得·奎因斯，独角戏演员。小姐，随时为您效劳。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Scene_PlayPrepLoop1",
+        "line": 12351
+      },
+      "用户截图职业自称反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "dialogue-context-cfac3c4184a6f256-leaf",
+    "source": "I, your humble Playmaster, have arranged a most magnificent show for you tonight!",
+    "target": "在下是诸位的戏剧大师，今晚为诸位安排了一场精彩绝伦的演出！",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay",
+        "line": 1546
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_ThePlay_Gertrude",
+        "line": 1733
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Hamlet",
+        "line": 2047
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_ThePlay_Assassin",
+        "line": 2180
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Polonius",
+        "line": 2309
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Loops",
+        "line": 2447
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Default",
+        "line": 2579
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_HamletPlay",
+        "line": 13130
+      },
+      "用户截图同位语反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "dialogue-context-446b0d6707f4a1bc-leaf",
+    "source": "She was renowned for her great intellect and keenly inquisitive nature—not to mention her morbid sense of humor.",
+    "target": "她以过人的才智和强烈的求知欲闻名，更别提她那病态的幽默感了。",
+    "origins": [
+      {
+        "frozen_manifest": "translation/sol-full-2026-10-09/manifest.json",
+        "original_id": "p00287-446b0d6707f4",
+        "context": {
+          "scene": "Enviro_EdithPortrait",
+          "speaker": "Ophelia",
+          "cues": "",
+          "line": 347,
+          "asset_sha256": "f24dbe3317f8097f1401453a40ee4919598de0b6c0e606fbdf2d5ea70b53d307"
+        },
+        "resource_origins": [
+          "resources.assets:scenes_enviro:f24dbe3317f8",
+          "Assembly-CSharp.dll:#US:786161"
+        ]
+      },
+      "用户指定morbid译为病态，2026-10-10"
+    ]
+  },
+  {
+    "id": "reading-document-4620b1e72903bafa-leaf",
+    "source": "8 Signs Your Nobleman Is Treacherous",
+    "target": "贵族心怀不轨的八个征兆",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "closeups",
+        "asset_sha256": "7f8d29e0cebc77a9c1186d2538df2247bdad1023e3b75e2726abb91273d31111",
+        "json_path": "$.closeups[10].title",
+        "field": "title",
+        "record_id": "observable_backerbook1"
+      },
+      {
+        "frozen_manifest": "translation/sol-full-2026-10-09/manifest.json",
+        "original_id": "p00020-4620b1e72903"
+      },
+      "用户截图整篇与引语语境反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "reading-document-cfed0264d88b92b0-leaf",
+    "source": "Have you often wondered at the true form and character of your lover? Pay careful mind: here are eight signs he's foe rather than friend! \n\nFIRST, within mere days of your acquaintance, he declares that if you 'call him but love, he'll be new baptis'd.' This nobleman is a walking source of dramatic show, clinging to any poor girl who crosses his path. Abnormally likely to meet his end in poison and tears.\n\nSECOND, he uses the term 'taming' or 'shrew' in your presence—or even worse, in the same sentence. If he attempts to starve you to break your will, eat his heart out.\n\nTHIRD, he suddenly finds himself madly in love with your closest friend after promising you his undying heart. Keep a sharp eye out for faerie dust in the vicinity. \n\nFOURTH, he sticks a dagger in your back, then blames it on your 'ambition.' Don't worry: your restless spirit will have revenge. Stay indoors on March 15 if possible.\n\nFIVE, after you help him murder his friends and cover up the crimes, he begins embarrassing you with inappropriate sobbing at your dinner parties. Even the most heartening prophecy can't revive this relationship. \n\nSIX, he tells you your wife has been unfaithful, but offers flimsy proof. Take a walk, enjoy some deep breathing, and stay away from pillows.\n\nSEVEN, he tries to convince you to kill your brother. One might think this clear as day, yet this author is continually surprised.\n\nEIGHT, sometimes he tells you to get to a nunnery. Other times he tells you he 'did love you once.' Which is it? Send this uncouth boy sulking back to university!",
+    "target": "你是否常常琢磨，恋人的真面目和品性究竟如何？请留个心眼：下面八个征兆，说明他是敌人，而非朋友！ \n\n第一，才认识几天，他就宣称，只要你“叫他一声爱人，他便重新受洗”。这位贵族浑身都是戏，见到哪个可怜姑娘都要纠缠一番。他死于毒药与泪水的可能性高得离谱。\n\n第二，他当着你的面说起“驯服”或“悍妇”——更糟的是，把这两个词用在同一句话里。他若想靠饿着你来磨掉你的意志，那就把他的心挖出来吃掉。\n\n第三，刚向你许下永不变心的誓言，他就突然疯狂地爱上了你最亲密的朋友。留意一下附近有没有仙子的魔法粉。 \n\n第四，他在你背后捅了一刀，却说都是你的“野心”惹的祸。别担心：你不得安息的亡魂自会报仇。三月十五日，能不出门就别出门。\n\n第五，你帮他杀害朋友、掩盖罪行之后，他却在你的晚宴上哭哭啼啼，失态得让你难堪。再鼓舞人心的预言，也救不了这段关系。 \n\n第六，他说你的妻子对你不忠，却拿不出像样的证据。出去散散步，做几个深呼吸，别碰枕头。\n\n第七，他试图说服你杀死自己的兄弟。这迹象似乎再明显不过了，可笔者仍一再为此感到惊讶。\n\n第八，他一会儿叫你进修道院，一会儿又说他“曾经确实爱过你”。到底哪句才算数？把这个没教养的小子赶回大学，让他自己生闷气去！",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "closeups",
+        "asset_sha256": "7f8d29e0cebc77a9c1186d2538df2247bdad1023e3b75e2726abb91273d31111",
+        "json_path": "$.closeups[10].text",
+        "field": "text",
+        "record_id": "observable_backerbook1"
+      },
+      {
+        "frozen_manifest": "translation/sol-full-2026-10-09/manifest.json",
+        "original_id": "p00021-cfed0264d88b"
+      },
+      "用户截图整篇与引语语境反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "reading-document-35a35e5ed06e07b7-leaf",
+    "source": "...And so it came to pass that the King of the Realm died one night, leaving his two sons behind. In this savage and warlike country, it was customary that whichever child inherited the crown for himself would immediately kill the others, eliminating further competition. However, these two brothers were twins, born within a scant few moments of one another. And so they brought the matter to High Executioner Selene.\n\nThey found her standing at the edge of the highest cliff in the kingdom, above the rolling and raging sea. \n\n\"I am twenty seconds older than my brother,\" said the first prince. \"Without any doubt at all, I am the rightful heir. Lady Selene, please cast my brother over this cliff immediately!\" \n\nLady Selene bound the second prince's hands and led him to the edge of the cliff. But the second prince sputtered, suddenly, \"This is wrong! I may be younger, but my brother's body is weak and frail. He becomes sicker each day, and soon he may very well die. Then the Kingdom will be left with no heir at all! Don't kill me—kill him!\"\n\nLady Selene paused to think a moment, then bound the first prince's hands, too.\n\nThe first prince spat with disgust. \"My brother is a jealous imbecile!\" Lady Selene wrapped a blindfold around his eyes.\n\nThe second prince stamped his foot. \"My brother is a weakling and cannot see reason!\" As with the first prince, the second prince, too, was soon blindfolded. Both of them continued to argue at the top of their lungs, screaming for the other one's demise.\n\nThen the sound of Executioner Selene's fading footsteps caught their attention. \"High Executioner, come back! You must kill my brother! I must be king! Where are you going?\"\n\n\"I'm off to pour myself a flagon of wine and then pursue a career change to the next kingdom over, in that order,\" Selene replied. \"Sounds like this one's gone a bit rotten. Good luck finding your way home with those blindfolds and binds on, lads.\"\n\nThe two men lunged at each other, unwilling to stand down. And the both of them went tipping over the edge, careening into the sea. The kingdom was none the worse for it, in the end.",
+    "target": "……于是，一天夜里，这个王国的国王去世了，留下两个儿子。在这个野蛮好战的国家，按惯例，无论哪个孩子继承王位，都会立即杀死其他孩子，铲除日后的竞争者。然而，这两兄弟是双胞胎，出生只相隔短短片刻。因此，他们把这件事交给了首席刽子手塞勒涅。\n\n他们找到她时，她正站在王国最高的悬崖边，下方是翻腾咆哮的大海。 \n\n“我比弟弟早出生二十秒，”第一位王子说，“毫无疑问，我才是合法的继承人。塞勒涅女士，请立刻把我弟弟扔下悬崖！” \n\n塞勒涅女士绑住第二位王子的双手，把他带到悬崖边。可第二位王子突然结结巴巴地喊道：“这不对！我或许年纪小些，但我哥哥身体虚弱，弱不禁风。他一天比一天病得重，很可能不久就会死。到时，王国就一个继承人也没有了！别杀我——杀他！”\n\n塞勒涅女士停下来想了一会儿，然后把第一位王子的双手也绑了起来。\n\n第一位王子厌恶地啐了一口。“我弟弟就是个嫉妒成性的蠢货！”塞勒涅女士用布蒙住了他的眼睛。\n\n第二位王子跺着脚。“我哥哥是个病秧子，根本不讲道理！”和第一位王子一样，第二位王子很快也被蒙住了眼睛。两人仍扯着嗓子争吵，尖叫着要对方去死。\n\n这时，刽子手塞勒涅渐渐远去的脚步声引起了他们的注意。“首席刽子手，回来！你必须杀了我兄弟！我必须当国王！你要去哪儿？”\n\n“我先去给自己斟上一壶酒，再到隔壁王国改行。就按这个顺序来。”塞勒涅答道，“看来这个王国已经有些腐朽了。小伙子们，你们蒙着眼、捆着手，祝你们还能找到回家的路。”\n\n两个男人谁也不肯退让，猛地扑向对方。结果两人一起跌出了崖边，直坠大海。到头来，王国也没因此变得更糟。",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "closeups",
+        "asset_sha256": "7f8d29e0cebc77a9c1186d2538df2247bdad1023e3b75e2726abb91273d31111",
+        "json_path": "$.closeups[6].text",
+        "field": "text",
+        "record_id": "observable_backerbook2"
+      },
+      {
+        "frozen_manifest": "translation/sol-full-2026-10-09/manifest.json",
+        "original_id": "p00013-35a35e5ed06e"
+      },
+      "用户截图整篇与引语语境反馈，2026-10-10"
+    ]
+  },
+  {
+    "id": "dialogue-context-3308fc1fb0fdecc4-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>And what if it weren't?",
+    "target": "<b>哈姆雷特:</b> <indent=16%>那如果现实不是这样呢？"
+  },
+  {
+    "id": "dialogue-context-d1e4494f09eb40f9-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>No. You've been right to stay away from me.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>不……你一直和我保持距离，是对的。"
+  },
+  {
+    "id": "dialogue-context-17500c24bf523b92-speaker",
+    "source": "<b>Quince:</b> <indent=16%>Please, no 'sir'. Peter Quince, the one-man thespian. At your service anytime, my lady.",
+    "target": "<b>奎因斯:</b> <indent=16%>请别叫我“先生”。彼得·奎因斯，独角戏演员。小姐，随时为您效劳。"
+  },
+  {
+    "id": "dialogue-context-cfac3c4184a6f256-speaker",
+    "source": "<b>Quince:</b> <indent=16%>I, your humble Playmaster, have arranged a most magnificent show for you tonight!",
+    "target": "<b>奎因斯:</b> <indent=16%>在下是诸位的戏剧大师，今晚为诸位安排了一场精彩绝伦的演出！"
+  },
+  {
+    "id": "dialogue-context-446b0d6707f4a1bc-speaker",
+    "source": "<b>Ophelia:</b> <indent=16%>She was renowned for her great intellect and keenly inquisitive nature—not to mention her morbid sense of humor.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>她以过人的才智和强烈的求知欲闻名，更别提她那病态的幽默感了。"
+  },
+  {
+    "id": "hamlet-context-pair",
+    "source": "<b>Hamlet:</b> <indent=16%>And what if it weren't?\nNo. You've been right to stay away from me.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>那如果现实不是这样呢？\n不……你一直和我保持距离，是对的。"
+  }
+]

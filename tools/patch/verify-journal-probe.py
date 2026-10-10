@@ -45,8 +45,16 @@ def governed_resource_target(source: str, target: str | None, corrections: list[
 
 
 def resource_corrections() -> list[dict]:
-    path = Path(__file__).resolve().parents[2] / "translation/supplemental/playmaster-corrections.json"
-    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else []
+    directory = Path(__file__).resolve().parents[2] / "translation/supplemental"
+    rows = []
+    # 顺序与正式导出一致；资源期望只消费准确旧值匹配的校订，不直接采用正式显示值。
+    for filename in ("playmaster-corrections.json", "knight-guard-corrections.json", "irma-corrections.json",
+                     "dialect-corrections.json", "court-title-corrections.json", "dialogue-context-corrections.json",
+                     "reading-document-corrections.json"):
+        path = directory / filename
+        if path.exists():
+            rows.extend(json.loads(path.read_text(encoding="utf-8")))
+    return rows
 
 
 def unapproved_english(text: str) -> list[str]:

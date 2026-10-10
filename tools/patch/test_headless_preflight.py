@@ -29,6 +29,12 @@ class PreflightTests(unittest.TestCase):
     def test_log_scroll_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_LOG_SCROLL": "1"}, "ELSINOREHAN_PROBE_LOG_SCROLL")
 
+    def test_document_scroll_without_journal_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS": "observable_backerbook4"}, "文档阅读位置诊断")
+
+    def test_biography_replay_without_journal_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_BIOGRAPHY_CASES": "missing.tsv"}, "人物资料重放")
+
     def test_followup_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_UI_FOLLOWUP": "1"}, "ELSINOREHAN_PROBE_UI_FOLLOWUP")
 

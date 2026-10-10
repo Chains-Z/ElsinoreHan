@@ -1,0 +1,410 @@
+[
+  {
+    "id": "notification-list-state-9204",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now want to destroy King Claudius.",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在想要毁掉克劳狄斯国王。",
+    "source_sha256": "465d7144b61f3d5b9e4fe9e7c1e8fd225c37bb800f4f53aaeed1a0c9ec79e05c",
+    "category": "state",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-state-9208",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> no longer want to destroy King Claudius.",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>不再想要毁掉克劳狄斯国王。",
+    "source_sha256": "43f40de7b41da790b45d148600c9640eb915fe7b2c4fa86f367608063427542c",
+    "category": "state",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-state-9212",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> no longer believe that \"Fortinbras will cross Denmark\".",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>不再相信“福丁布拉斯将穿越丹麦”。",
+    "source_sha256": "dff5db56d495831672261ab1d5f2a799504746cf3a531fa9791d8515a81711ac",
+    "category": "state",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-state-9216",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> die.",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>死去了。",
+    "source_sha256": "49548aa65efcb037f59b2ff4160137ee556538d3eca76c182cc34d6c6873ae22",
+    "category": "state",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-state-9220",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> shatter and will not recover.",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>精神崩溃，无法恢复。",
+    "source_sha256": "af573953806bd1cb80955d3ca1f3aa01a755ce50cce135fdf3355ef343508f4f",
+    "category": "state",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-state-9224",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> become upset but will recover overnight.",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>心烦意乱，但过一夜就会恢复。",
+    "source_sha256": "8c8cea9a73d7dbc81516e64a66d81f0e0972b3cdbf442d0f9f10ed975c1ba88a",
+    "category": "state",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-bio-9228",
+    "source": "Ophelia learns more about <b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b>. Their Character Bios will be updated in the <b>Journal</b>.",
+    "target": "奥菲莉娅进一步了解了<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>。<b>笔记</b>中的人物资料会随之更新。",
+    "source_sha256": "f8a033063d3301ed2da4cd3a54836b36cf7978bbe9f279fc88c5188a8a404ced",
+    "category": "bio",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-nested-9296",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that Hamlet believes that \"Fortinbras will cross Denmark\".",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在认为，哈姆雷特相信“福丁布拉斯将穿越丹麦”。",
+    "source_sha256": "5b32ff61ed1a71245a871cefacc56c37a3abeb8c882e8812d77b7541974fa11b",
+    "category": "nested",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-reject-9300",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Unknown internal proposition\".\n<line-height=40%>\n<line-height=90%>",
+    "target": null,
+    "source_sha256": "39ffdf28e535e8db03ce1e2198c81e349c3587cc37c9f95e474ed57d1fdb7f4a",
+    "category": "reject",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-reject-9301",
+    "source": "<b>Bernardo:</b> <indent=16%>Right, my lord.</indent>\n<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Unknown internal proposition\".\n<b>Polonius:</b> <indent=16%>My King, I also have a grievance!",
+    "target": null,
+    "source_sha256": "aad1423675b446088efef58d3836351277136f2c2e5ea1cb6e1eb7f1f4976ea0",
+    "category": "reject",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-reject-9302",
+    "source": "<line-height=90%><b>UnknownActor</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": null,
+    "source_sha256": "d311d6f90553c9b06ea84df9f50b2597c33afd1b0df9a884242e01b8736638b4",
+    "category": "reject",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-reject-9303",
+    "source": "<b>Bernardo:</b> <indent=16%>Right, my lord.</indent>\n<b>UnknownActor</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<b>Polonius:</b> <indent=16%>My King, I also have a grievance!",
+    "target": null,
+    "source_sha256": "dd87abf9d6c80dc3dc2b4030b6c976b021d7f0bbd98d748baf08422b89a847c9",
+    "category": "reject",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-belief_names-9200",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。",
+    "source_sha256": "7d756abddb016bb2417ead816bae25437ff256608c738bae417af9457677efd3",
+    "category": "belief_names",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-tail-9201",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n",
+    "source_sha256": "8d1993c9427f2c76522b1f4dff52c78b788e1f7ddf1a015f48880cf3238ff943",
+    "category": "tail",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup-9202",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "896538791591edeea003ba7d5efe84fc6e0863e867c18700e462c36403d75f67",
+    "category": "popup",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-mixed-9203",
+    "source": "<b>Bernardo:</b> <indent=16%>Right, my lord.</indent>\n<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<b>Polonius:</b> <indent=16%>My King, I also have a grievance!",
+    "target": "<b>贝尔纳多:</b> <indent=16%>是，陛下。</indent>\n<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<b>波洛涅斯:</b> <indent=16%>陛下，我也有件不满的事要说！",
+    "source_sha256": "69c4c1b0865fc8683527505a406f0f8dab3861c1e3e228bb327774c21009908d",
+    "category": "mixed",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9232",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "0c2902fcb372bd748fd975c6184fffef26b0c15601e0ad368e5666f6f8ec12f5",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9233",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now want to destroy King Claudius.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在想要毁掉克劳狄斯国王。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "f2c802fc399e77e7b89a65dc6d294a43f61f24d488cdef301613ff3c4a39bf00",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9234",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> no longer want to destroy King Claudius.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>不再想要毁掉克劳狄斯国王。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "41a6d703148ddd35c0b55ce3679d31a7bff35e22851781d09ea999e1313666c4",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9235",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> no longer believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>不再相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "3c65976d752d30972e7ccb725b6e3aa1cc4173c58bd11f1bb74f831f914f811e",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9236",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> die.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>死去了。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "da44312662fd62af6d11d9d538c0c5a58551ae608a1e65f91e5e172038a0adb9",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9237",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> shatter and will not recover.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>精神崩溃，无法恢复。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "2a5087d0b25e96b60a355f333a8327cf75daa4f11b41e7ae6e226cc827a7995c",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9238",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> become upset but will recover overnight.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>心烦意乱，但过一夜就会恢复。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "e6387c59b2e9179296ef27e59fbdd125aa06783488f51cf89c0f9df714721a9e",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9239",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>Ophelia learns more about <b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b>. Their Character Bios will be updated in the <b>Journal</b>.\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>奥菲莉娅进一步了解了<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>。<b>笔记</b>中的人物资料会随之更新。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "802d71e0fa17eb75621ec6c8e20c68fad00d7478023e24b2f1646c23b46079f6",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9240",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now want to destroy King Claudius.\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在想要毁掉克劳狄斯国王。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "a58502457d794826d1b99cbc6a46903bd0b0448141287b7e1c32678a0561f5d2",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9248",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> no longer want to destroy King Claudius.\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>不再想要毁掉克劳狄斯国王。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "7366d350b5568640581d9cea938b0b5af35b8c4144420d085dfab1d00b275626",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9256",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> no longer believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>不再相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "e72c0208c2450974f51363010ed805b3b2d572abc212f2c2064f1229049f8cc0",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9264",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> die.\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>死去了。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "7438d218972e421accf8ab6a785f74f4ce2beed91db2ef5d4a6c373a1104f0fc",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9272",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> shatter and will not recover.\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>精神崩溃，无法恢复。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "861fb6b8b4da17a099768dbb8dd6428fb7714211afa5d057ca8b4d55324282a8",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9280",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> become upset but will recover overnight.\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>心烦意乱，但过一夜就会恢复。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "52c652eed4f8f27db390a3d676250bfa473675984959595114d79242d120ff01",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup_pairs-9288",
+    "source": "<line-height=90%>Ophelia learns more about <b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b>. Their Character Bios will be updated in the <b>Journal</b>.\n<line-height=40%>\n<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%>奥菲莉娅进一步了解了<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>。<b>笔记</b>中的人物资料会随之更新。\n<line-height=40%>\n<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "4130f52058836385344ba72e1ed74fcdcc19f488d62b7c2a0944630e938e2bec",
+    "category": "popup_pairs",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-tail-9297",
+    "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that Hamlet believes that \"Fortinbras will cross Denmark\".\n",
+    "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在认为，哈姆雷特相信“福丁布拉斯将穿越丹麦”。\n",
+    "source_sha256": "eb2d6b3f52d714064481a863e3b3021a0f55e1ce41c0230de2daf024b5521e54",
+    "category": "tail",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-popup-9298",
+    "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that Hamlet believes that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+    "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在认为，哈姆雷特相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+    "source_sha256": "01223df8351142ac23bd3c487e2497b7d726cea2ab5b21586306c86953aff365",
+    "category": "popup",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  },
+  {
+    "id": "notification-list-mixed-9299",
+    "source": "<b>Bernardo:</b> <indent=16%>Right, my lord.</indent>\n<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that Hamlet believes that \"Fortinbras will cross Denmark\".\n<b>Polonius:</b> <indent=16%>My King, I also have a grievance!",
+    "target": "<b>贝尔纳多:</b> <indent=16%>是，陛下。</indent>\n<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在认为，哈姆雷特相信“福丁布拉斯将穿越丹麦”。\n<b>波洛涅斯:</b> <indent=16%>陛下，我也有件不满的事要说！",
+    "source_sha256": "3b3ab0aed7174b4ceb7fe06b5258664f6417c2254731e449a08953f4445554b4",
+    "category": "mixed",
+    "origins": [
+      "analysis/ui-audit/notification-source-audit.json:name_mapping/padding_source_evidence",
+      "Elsinore.dll:Model.formatCharacters/formatGroupedLiterals",
+      "Assembly-CSharp.dll:HistoryTracker.formatEntry/DialogueUI.onStartLogicChange"
+    ]
+  }
+]

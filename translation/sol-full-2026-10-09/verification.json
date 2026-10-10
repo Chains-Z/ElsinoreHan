@@ -1,16 +1,16 @@
 {
   "model": "gpt-6.1-sol",
-  "count": 17027,
+  "count": 17033,
   "submitted_candidates": 16229,
   "excluded_nontext": 1,
   "batches": 112,
   "base_translation_count": 16228,
-  "supplemental_entries": 880,
-  "supplemental_new_sources": 799,
+  "supplemental_entries": 906,
+  "supplemental_new_sources": 805,
   "id_count_order_source_hashes_and_markers_passed": true,
   "dictionary_path": "runtime\\package\\ElsinoreHan-Sol\\BepInEx\\Translation\\zh-CN\\Text\\ElsinoreHan-Sol.txt",
-  "dictionary_sha256": "61fb80d258dbd7d6bd34797519948c821ad8435671baeac8029d85c7069b5fa6",
-  "dynamic_dictionary_sha256": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+  "dictionary_sha256": "425a507eb2e57e0bde90e4de165c72a0cfe29fa7737db4fe4df7020a9339b804",
+  "dynamic_dictionary_sha256": "745379730219a8897b18d4f800fde5b5cf600638df79921402284a56e3fc34c6",
   "recorded_codex_usage_including_names": {
     "input_tokens": 5667671,
     "cached_input_tokens": 1028352,
@@ -18,9 +18,9 @@
     "reasoning_output_tokens": 631
   },
   "english_review_notices": 6,
-  "dynamic_format_rules": 138,
+  "dynamic_format_rules": 154,
   "unique_chinese_characters": 2816,
-  "recursive_ui_rules": 114,
+  "recursive_ui_rules": 130,
   "local_recorded_corrections": 4,
   "all_outputs_match_raw_or_recorded_correction": true,
   "limitations": [

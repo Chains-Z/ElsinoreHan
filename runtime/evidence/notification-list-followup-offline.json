@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "root_cause": "旧通知边界仅允许粗体单人后接空格；真实三人及以上 Oxford 名单在首人后接逗号，弹窗尾段落填充与混合日志拆分均未匹配。裸通知正文和人名/命题叶项完整可译。",
+  "runtime_name_format": "每个人各自包<b>，不是一个<b>包整份名单；与真实Model.formatCharacters IL一致。",
+  "baseline_revision": "8be9abbf5f204eac78e62bf257aadb55d571d565",
+  "baseline_cases": [
+    {
+      "id": "notice-canonical",
+      "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".",
+      "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。",
+      "passed": true,
+      "first_matching_rule": "ui-rule-log-quoted-belief-29"
+    },
+    {
+      "id": "notice-tail",
+      "source": "<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n",
+      "target": "<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n",
+      "passed": true,
+      "first_matching_rule": "ui-rule-outcome-final-newline"
+    },
+    {
+      "id": "mixed-screenshot-canonical",
+      "source": "<b>Bernardo:</b> <indent=16%>Right, my lord.</indent>\n<b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<b>Polonius:</b> <indent=16%>My King, I also have a grievance!",
+      "target": "<b>贝尔纳多:</b> <indent=16%>是，陛下。</indent>\n<b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<b>波洛涅斯:</b> <indent=16%>陛下，我也有件不满的事要说！",
+      "passed": false,
+      "first_matching_rule": "ui-rule-log-speaker-shortnames-followup"
+    },
+    {
+      "id": "popup-screenshot-canonical",
+      "source": "<line-height=90%><b>Queen Gertrude</b>, <b>Polonius</b>, and <b>King Claudius</b> now believe that \"Fortinbras will cross Denmark\".\n<line-height=40%>\n<line-height=90%>",
+      "target": "<line-height=90%><b>乔特鲁德王后</b>、<b>波洛涅斯</b>和<b>克劳狄斯国王</b>现在相信“福丁布拉斯将穿越丹麦”。\n<line-height=40%>\n<line-height=90%>",
+      "passed": false,
+      "first_matching_rule": "ui-rule-line-height"
+    }
+  ],
+  "candidate_consumer": {
+    "passed": true,
+    "count": 9304,
+    "exact_screenshot_shapes_passed": 4,
+    "implementation": "真实 XUnity RegexTranslationSplitter / ParserResult；逆序仅首匹配，不启动游戏。"
+  },
+  "unit_tests": {
+    "passed": true,
+    "count": 5
+  },
+  "manifest": {
+    "count": 9304,
+    "name_count": 46,
+    "atoms": 8,
+    "runtime_cases": 20,
+    "scope": "有限真实名单语法、全部二人名字位置及多人数代表性位置；不是全部剧情 E2E"
+  },
+  "installed_files": {
+    "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\BepInEx\\Translation\\zh-CN\\Text\\ElsinoreHan-Sol.txt": "61fb80d258dbd7d6bd34797519948c821ad8435671baeac8029d85c7069b5fa6",
+    "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\BepInEx\\Translation\\zh-CN\\Text\\ElsinoreHan-Dynamic.txt": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512"
+  },
+  "artifact_sha256": {
+    "runtime/build/notification-group/installed-translations.json": "61ae97baa69bbd90b9ba4f48c4ca45a6f8d615ee0243557abc70e8cb39bf5963",
+    "runtime/build/notification-group/installed-dynamic-rules.json": "88f014c6f16a701272cff57e774b21309bc72f8880dff31a2f5411bbf8247cec",
+    "runtime/build/notification-group/candidate-rules.json": "2f95af351efcc6effb533bda91370433a6f929c695a62fccefab9320f153254b",
+    "runtime/build/notification-group/before-result.jsonl": "dde2d4bccbe1463623af1a2d644dac0e8fb630de6457041b6a9204d25148e63b",
+    "runtime/build/notification-group/before-trace.txt": "38b6db3205951cded579c0cddcb5f98cb282a022956a772976dad076ef41d8ba",
+    "runtime/build/notification-group/after-result.jsonl": "30c46bdd0ec37dd35d742fad64872db20691e050e121090b5d16a417e9e299f3",
+    "analysis/ui-audit/notification-list-followup-il.json": "6dcf5728f693457822b5bf20413ab98e15f5a9014e40600cdff6df78dc7b2f49",
+    "translation/supplemental/notification-list-followup-tests.json": "d493d7cd2c02c53e7c2fd76c6a5e588e71b0b52ec6d79b5601b6ddd459be1724",
+    "translation/supplemental/notification-ui-rules.json": "847333ed5281822b66efede608654770b3541c14a6143ed9f5532be9d023e6ab"
+  },
+  "limits": [
+    "这是静态真实格式组合回归，未读取用户存档或附加用户进程。",
+    "46显示名的二人有序位置穷举；三/四/五人各位置代表覆盖，不宣称全部任意排列或无限通知序列。",
+    "正式游戏API/F8显示由主agent独立重放核验后汇总。"
+  ]
+}

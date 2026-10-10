@@ -1,0 +1,140 @@
+[
+  {
+    "id": "ui-bio-runtime-44b23dd028b8eec4",
+    "source": "Gertrude was born in Austria, and is a member of the illustrious Hapsburg family—in fact, her father is the Emperor Maximilian I. She's worked incredibly hard to learn Danish and minimize her accent entirely. I know she has a sister as well, who lives outside Denmark. Royal blood runs thick through her veins.",
+    "target": "乔特鲁德出生于奥地利，是显赫的哈布斯堡家族的一员——事实上，她的父亲就是马克西米利安一世皇帝。她为学习丹麦语、尽可能彻底消除口音付出了极大的努力。我知道她还有一个姐妹，住在丹麦以外。她的血脉中有着深厚的王室渊源。",
+    "source_sha256": "44b23dd028b8eec49b524a511099a2cbbdbbd606066e01347fa9fc9e26666c53",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[2].lines[3].text",
+        "field": "text",
+        "actor": "gertrude",
+        "record_id": "gertrude4"
+      },
+      "runtime/build/document-scroll/biography-il.json"
+    ],
+    "existing_id": "p00549-5a8f9576aa76",
+    "existing_source": "Gertrude was born in Austria, and is a member of the illustrious Hapsburg family - in fact, her father is the Emperor Maximilian I. She's worked incredibly hard to learn Danish and minimize her accent entirely. I know she has a sister as well, who lives outside Denmark. Royal blood runs thick through her veins.",
+    "existing_source_sha256": "5a8f9576aa760ed21c0ab1830cd2126528d42310a70538f833295a67645d41dc",
+    "existing_target_sha256": "b50e8cf7b5611f887d0b22d5593defd4024d54337a857b6bf9d619dc79144994",
+    "provenance": "真实人物简介编译破折号或行内空白变体，逐字复用既有译文"
+  },
+  {
+    "id": "ui-bio-runtime-76f1823ad96b9534",
+    "source": "Irma is one of the most feared women in Elsinore for her quick temper. She's fiercely devoted to the Queen, and originally followed Gertrude from Bohemia, where she and Gertrude were both born and raised.\n\n Despite her teeth, I've seen that she has a warm side. She loves to gamble, and she's quite good; I wouldn't make a bet against her for all the world.",
+    "target": "伊尔玛脾气急躁，是埃尔西诺最让人畏惧的女人之一。她对王后忠心耿耿，当年从波希米亚随乔特鲁德来到这里。她和乔特鲁德都在那里出生、长大。\n\n虽然她很厉害，我也见过她温暖的一面。她喜欢赌博，而且很有一手；说什么我也不会跟她对赌。",
+    "source_sha256": "76f1823ad96b95346d1fdcd57fd1e92df192fc0faa61a5506893ae33d7bd3c83",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[9].lines[0].text",
+        "field": "text",
+        "actor": "irma",
+        "record_id": "initial"
+      },
+      "runtime/build/document-scroll/biography-il.json"
+    ],
+    "existing_id": "p00047-93952dbcb686",
+    "existing_source": "Irma is one of the most feared women in Elsinore for her quick temper. She's fiercely devoted to the Queen, and originally followed Gertrude from Bohemia, where she and Gertrude were both born and raised.\n\nDespite her teeth, I've seen that she has a warm side. She loves to gamble, and she's quite good; I wouldn't make a bet against her for all the world.",
+    "existing_source_sha256": "93952dbcb6863baa44697ca700199a5da29eef187590dd2571284d17f7d36d9f",
+    "existing_target_sha256": "f3376a1b6bc0b47d75e9b3dd6ba1e1cb547307c5679e11b00f1ae6a3fa4334e0",
+    "provenance": "真实人物简介编译破折号或行内空白变体，逐字复用既有译文"
+  },
+  {
+    "id": "ui-bio-runtime-4b1b04fe405a7f2e",
+    "source": "Grace and I spent the night together. I hope I see her again soon—or perhaps, if there's a way out of this repeating world, that I might accept her offer to sail the world.",
+    "target": "格蕾丝和我共度了一夜。希望很快能再见到她——或者，如果有办法离开这个不断重复的世界，也许我能接受她的邀请，航遍世界。",
+    "source_sha256": "4b1b04fe405a7f2e1dced30bbe45a3d45a5ffa4ed5f884c42456d0c0297d4709",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[17].lines[2].text",
+        "field": "text",
+        "actor": "grace",
+        "record_id": "grace3"
+      },
+      "runtime/build/document-scroll/biography-il.json"
+    ],
+    "existing_id": "p00588-25736225403b",
+    "existing_source": "Grace and I spent the night together. I hope I see her again soon-- or perhaps, if there's a way out of this repeating world, that I might accept her offer to sail the world.",
+    "existing_source_sha256": "25736225403b5a4048d54d7cfe928a23f945435dc3017231fdb13a76007c1b32",
+    "existing_target_sha256": "e447d642cbc05fbd23f1a337523f0622a26993afe5e7453b187ac6ee88eab1a4",
+    "provenance": "真实人物简介编译破折号或行内空白变体，逐字复用既有译文"
+  },
+  {
+    "id": "ui-bio-runtime-3fb7f8e57f06b1c9",
+    "source": "When I found Quince in the gallery, he spoke in riddles. Something about the nature and structure of a tragic work. Of course I've read many of the great tragedies—and it sometimes feels like I'm living one—but what does all that have to do with <i>my</i> predicament?",
+    "target": "我在画廊找到奎因斯时，他说话像在打哑谜。说的似乎是悲剧作品的本质和结构。我当然读过许多伟大的悲剧——有时也觉得自己正身处一出悲剧之中——但这一切和<i>我的</i>困境有什么关系？",
+    "source_sha256": "3fb7f8e57f06b1c9fe02a5137dfbaae029efbc9074d71d7c7b07444597e8d701",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[12].lines[3].text",
+        "field": "text",
+        "actor": "quince",
+        "record_id": "quince4"
+      },
+      "runtime/build/document-scroll/biography-il.json"
+    ],
+    "existing_id": "p10552-14fb60108c9a",
+    "existing_source": "When I found Quince in the gallery, he spoke in riddles. Something about the nature and structure of a tragic work. Of course I've read many of the great tragedies-- and it sometimes feels like I'm living one-- but what does all that have to do with <i>my</i> predicament?",
+    "existing_source_sha256": "14fb60108c9abd7578d634e76d61077cd0c8e69b886e9dd495334b6cd9357fed",
+    "existing_target_sha256": "8ce06942326d4c0c7d82832b0bce5287c8e75d9ffd4c4f6bf79e63e1aa061bb4",
+    "provenance": "真实人物简介编译破折号或行内空白变体，逐字复用既有译文"
+  },
+  {
+    "id": "ui-bio-runtime-167d340f1ea63841",
+    "source": "Marcellus has thirteen children, and grandchildren at that. I had no idea he was so—er—<i>prolific.</i> Then again, having to raise thirteen children would explain why nothing fazes him.",
+    "target": "马塞勒斯有十三个孩子，甚至还有孙辈。我真不知道他竟然这么——呃——<i>能生。</i>不过，养大十三个孩子，也就难怪他遇到什么都能泰然处之了。",
+    "source_sha256": "167d340f1ea638417318cbf2a68d9a878a9fd12f6dc2307b0b030e09ffc4f5d3",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[13].lines[1].text",
+        "field": "text",
+        "actor": "marcellus",
+        "record_id": "marcellus2"
+      },
+      "runtime/build/document-scroll/biography-il.json"
+    ],
+    "existing_id": "p10553-8d5928b6472e",
+    "existing_source": "Marcellus has thirteen children, and grandchildren at that. I had no idea he was so-- er-- <i>prolific.</i> Then again, having to raise thirteen children would explain why nothing fazes him.",
+    "existing_source_sha256": "8d5928b6472eed23ca31b3ebf7cade20b2a5d1ae4d03b7918c5042b21dcacb4c",
+    "existing_target_sha256": "b067e7b76897c05050427fae0a75877f6201e67be52a418c8f332688707a2431",
+    "provenance": "真实人物简介编译破折号或行内空白变体，逐字复用既有译文"
+  },
+  {
+    "id": "ui-bio-runtime-b66cecf36b8a4cfe",
+    "source": "I found King Hamlet's abandoned notes describing the end of his life. He was like me. But he gave up, and let madness consume him. He knew and understood everything that was happening around him—his brother's plot against him, his wife turning from him—and he couldn't stop it. Now he remains in Elsinore, neither alive nor fully dead. But why? Will that happen to me, too?",
+    "target": "我找到了哈姆雷特国王遗弃的笔记，里面记述了他生命最后阶段的经历。他和我一样。但他放弃了，任由疯狂吞噬了自己。他知道并理解身边发生的一切——弟弟对他的阴谋、妻子对他的疏远——却无法阻止。如今他仍留在埃尔西诺，既非活人，也未彻底死去。但这是为什么？我也会落得同样的下场吗？",
+    "source_sha256": "b66cecf36b8a4cfe230fba3bc8d465802b602cad828d1ad2421ddd199abccda5",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[14].lines[1].text",
+        "field": "text",
+        "actor": "ghost",
+        "record_id": "ghost2"
+      },
+      "runtime/build/document-scroll/biography-il.json"
+    ],
+    "existing_id": "p10554-85771ef417f4",
+    "existing_source": "I found King Hamlet's abandoned notes describing the end of his life. He was like me. But he gave up, and let madness consume him. He knew and understood everything that was happening around him-- his brother's plot against him, his wife turning from him-- and he couldn't stop it. Now he remains in Elsinore, neither alive nor fully dead. But why? Will that happen to me, too?",
+    "existing_source_sha256": "85771ef417f4d1ebe48f9542a22e9b35f60a62d596c78ac27d492f3100d2287e",
+    "existing_target_sha256": "5382f64f51264bab35a79227a24472d81ece080b3739a0d34fecef0ca9b7eb10",
+    "provenance": "真实人物简介编译破折号或行内空白变体，逐字复用既有译文"
+  }
+]

@@ -3,11 +3,11 @@
   "suites": {
     "mixed-log-tests.json": {
       "actual_recursive_xunity_consumer_passed": true,
-      "count": 52166
+      "count": 53390
     },
     "mixed-log-pair-tests.json": {
       "actual_recursive_xunity_consumer_passed": true,
-      "count": 38746
+      "count": 41834
     },
     "dialogue-log-followup-tests.json": {
       "actual_recursive_xunity_consumer_passed": true,
@@ -40,9 +40,13 @@
     "notification-ui-tests.json": {
       "actual_recursive_xunity_consumer_passed": true,
       "count": 616
+    },
+    "notification-list-followup-tests.json": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 9304
     }
   },
-  "total_cases": 114028,
+  "total_cases": 127644,
   "matrix": {
     "shortnames": [
       "Townsperson",
@@ -92,36 +96,36 @@
       "???"
     ],
     "character_ids": 55,
-    "notification_variants": 189,
+    "notification_variants": 197,
     "types": [
       "Dialogue",
       "LogicChange",
       "Stage",
       "Alert"
     ],
-    "case_count": 52166,
-    "pair_case_count": 38746,
+    "case_count": 53390,
+    "pair_case_count": 41834,
     "categories": {
       "all_dialogues": 23108,
-      "all_shortnames": 25515,
+      "all_shortnames": 26595,
       "depth_stress": 3,
-      "header_matrix": 1158,
+      "header_matrix": 1206,
       "negative": 8,
-      "notification_matrix": 1134,
+      "notification_matrix": 1182,
       "screenshot": 1,
-      "stage_matrix": 1158,
+      "stage_matrix": 1206,
       "type_matrix": 81
     }
   },
   "artifact_sha256": {
-    "translation/sol-full-2026-10-09/translations.json": "aaffbb77b04d46be6d94792c33b899aae2fd684562c42d77ad67665aab145c05",
-    "translation/sol-full-2026-10-09/dynamic-rules.json": "88f014c6f16a701272cff57e774b21309bc72f8880dff31a2f5411bbf8247cec",
-    "translation/supplemental/mixed-log-rules.json": "b617026e3b780597aee0f2350a20afcec154868223c351178afd6cbba565a0e3",
+    "translation/sol-full-2026-10-09/translations.json": "6d2471fec43d0ae2dc81c83d34b54cbec578c443572a3a13e2f6e528f758a8ea",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "1cd50101b793513b8282b8f0b2e8e95c8b6b00b177bb78f5775991bb2870b7dd",
+    "translation/supplemental/mixed-log-rules.json": "d7264ed51b5a1036d8d830df7d59c57def46c954311dc54f7e5724a0bda4b321",
     "translation/supplemental/mixed-log-translations.json": "b1d7bfc569a5cf18bc318592ad233eb92dedf9ace3d793b1432ed42598c6df13",
-    "translation/supplemental/mixed-log-tests.json": "7909001c7fa60fe63d10d95b5dffaa55568c6b1f388d9639737f852efab4f032",
-    "translation/supplemental/mixed-log-pair-tests.json": "b78a3e9a799b7c800c760d0573540946fbb93197a2ba673dee8733caa60844c7",
+    "translation/supplemental/mixed-log-tests.json": "4191620a17ff88ffa010f0d4b91e9f272b3f6ac0a788e1908d2a4e45c64860a5",
+    "translation/supplemental/mixed-log-pair-tests.json": "502a47814ef8d9a56faf0950d853b827f6f5f0269f72064c1857d4dd9ef8e190",
     "translation/supplemental/knight-guard-corrections.json": "bfacf870b10ccc7083f1fea16c336a36fee839578ced4db4622300c4e130696a",
-    "tools/translation/prepare_mixed_log_followup.py": "a84d1bb7f7096530860b629db6e9cce425f32b73848b8d851949f0a07e7d7f27"
+    "tools/translation/prepare_mixed_log_followup.py": "662ef70643978fdeb1444958cd943af6d1e5af1aa3bced1e25b95f10e3df46af"
   },
   "limits": [
     "使用真实XUnity逆序首匹配消费者；未启动游戏或宣称全剧情游玩",

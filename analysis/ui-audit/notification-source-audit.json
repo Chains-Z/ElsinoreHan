@@ -7818,24 +7818,22 @@
     "notification_suite": {
       "actual_recursive_xunity_consumer_passed": true,
       "count": 616,
-      "command": "tools/translation/verify-recursive-ui.ps1 -TestsPath translation/supplemental/notification-ui-tests.json",
-      "existing_cases": 596,
-      "new_quote_cases": 20
+      "rerun_date": "2026-10-10",
+      "rerun_evidence": "runtime/evidence/mixed-log-offline-verification.json"
     },
     "existing_suite": {
       "actual_recursive_xunity_consumer_passed": true,
       "count": 56,
-      "existing_cases": 49,
-      "new_italic_template_cases": 7,
-      "command": "runtime/build/VerifyRecursiveUiRules.exe <installed coreDLL> translation/sol-full-2026-10-09/dynamic-rules.json translation/sol-full-2026-10-09/translations.json translation/supplemental/dynamic-ui-tests.json"
+      "rerun_date": "2026-10-10",
+      "rerun_evidence": "runtime/evidence/mixed-log-offline-verification.json"
     },
     "artifact_sha256": {
-      "translation/supplemental/notification-ui-rules.json": "bb8a27cc0a090c954d7aac44be8bdd105fb405a9da2531bcd4a41ee4cd46c2d3",
-      "translation/supplemental/notification-ui-tests.json": "6a53f777aa5f034be150f69747a6e2ce51ed98f5049e7ad46e62e5165b8f8b67",
+      "translation/supplemental/notification-ui-rules.json": "847333ed5281822b66efede608654770b3541c14a6143ed9f5532be9d023e6ab",
+      "translation/supplemental/notification-ui-tests.json": "7d1bbda16423f0406242d79dbb1d7289534a71e1280e2032c3ddd0decb170dc7",
       "translation/supplemental/dynamic-ui-tests.json": "30ba1f13b983bc26ea1264ba249ec5d39dc55443a7b60e54ccd11a6a3ca6f881",
       "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
-      "translation/sol-full-2026-10-09/dynamic-rules.json": "466010236e3eb71fd851134f54b5c91380bd1c2b5e0dccc0993b35bbd3d2c6e5",
-      "translation/sol-full-2026-10-09/translations.json": "3c58eb8d21ea404660ef9708b33a915ff3e76d4057d43b52032d790fc5c5e42f",
+      "translation/sol-full-2026-10-09/dynamic-rules.json": "1cd50101b793513b8282b8f0b2e8e95c8b6b00b177bb78f5775991bb2870b7dd",
+      "translation/sol-full-2026-10-09/translations.json": "6d2471fec43d0ae2dc81c83d34b54cbec578c443572a3a13e2f6e528f758a8ea",
       "tools/translation/VerifyRecursiveUiRules.cs": "700f297a4145c0e4509883f5fcf82d39ec6d93f3e930cf542fc5bb1a2e043e0d",
       "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
       "translation/supplemental/dynamic-ui-rules.json": "457f063324762104aeb94796e70321b5468ee2c81fbec7a5098375bc5b943910",
@@ -7851,9 +7849,9 @@
     },
     "export": {
       "passed": true,
-      "total_dynamic_rules": 132,
-      "recursive_ui_rules": 108,
-      "total_translations": 16866
+      "total_dynamic_rules": 154,
+      "recursive_ui_rules": 130,
+      "total_translations": 17033
     },
     "corrected_failures": [
       "同源术语修订以两阶段 apply_supplemental 覆盖；同阶段唯一性校验保持严格",
@@ -7867,7 +7865,8 @@
     ],
     "game_started": false,
     "online_api_called": false,
-    "game_save_accessed": false
+    "game_save_accessed": false,
+    "refresh_scope": "本轮实际重跑127644项混合日志、多人通知和既有界面消费者；人物简介738项另列biography-offline-verification.json"
   },
   "previous_component_verifications": [
     {
@@ -7996,5 +7995,61 @@
     "terminal_padding_and_history_combination_verified": true,
     "cases": 20,
     "verification_level": "真实 XUnity 递归组件消费；真实日志骨架与截图通知组合是组件fixture，不声称整段在游戏实际发生"
+  },
+  "previous_component_verification": {
+    "consumer": "已安装真实 XUnity.AutoTranslator 5.6.2 的 RegexTranslationSplitter + ParserResult.GetTranslationFromParts；词表精确/Trim优先，Splitter逆序首匹配",
+    "notification_suite": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 616,
+      "command": "tools/translation/verify-recursive-ui.ps1 -TestsPath translation/supplemental/notification-ui-tests.json",
+      "existing_cases": 596,
+      "new_quote_cases": 20
+    },
+    "existing_suite": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 56,
+      "existing_cases": 49,
+      "new_italic_template_cases": 7,
+      "command": "runtime/build/VerifyRecursiveUiRules.exe <installed coreDLL> translation/sol-full-2026-10-09/dynamic-rules.json translation/sol-full-2026-10-09/translations.json translation/supplemental/dynamic-ui-tests.json"
+    },
+    "artifact_sha256": {
+      "translation/supplemental/notification-ui-rules.json": "bb8a27cc0a090c954d7aac44be8bdd105fb405a9da2531bcd4a41ee4cd46c2d3",
+      "translation/supplemental/notification-ui-tests.json": "6a53f777aa5f034be150f69747a6e2ce51ed98f5049e7ad46e62e5165b8f8b67",
+      "translation/supplemental/dynamic-ui-tests.json": "30ba1f13b983bc26ea1264ba249ec5d39dc55443a7b60e54ccd11a6a3ca6f881",
+      "translation/supplemental/notification-translations.json": "74abd83f73406df5b3ae9b2feab68222ffde2a7acaf8b1bf39ca9bbf33a47382",
+      "translation/sol-full-2026-10-09/dynamic-rules.json": "466010236e3eb71fd851134f54b5c91380bd1c2b5e0dccc0993b35bbd3d2c6e5",
+      "translation/sol-full-2026-10-09/translations.json": "3c58eb8d21ea404660ef9708b33a915ff3e76d4057d43b52032d790fc5c5e42f",
+      "tools/translation/VerifyRecursiveUiRules.cs": "700f297a4145c0e4509883f5fcf82d39ec6d93f3e930cf542fc5bb1a2e043e0d",
+      "D:/SteamLibrary/steamapps/common/Elsinore/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+      "translation/supplemental/dynamic-ui-rules.json": "457f063324762104aeb94796e70321b5468ee2c81fbec7a5098375bc5b943910",
+      "translation/supplemental/lead-followup-rules.json": "7ee6f89d0518b3f51410bdc6f808e03260f4ff908c45b113743553e774264d8c",
+      "translation/supplemental/lead-followup-tests.json": "09c55c5e290c3aae6d43063e59907b34ad5c361102cde1a83ee19fbd6251db72",
+      "translation/supplemental/map-ui-rules.json": "90c93810448926186d2daa9eead5edb7fd3f03ded3f8becd786d95b0da51642a",
+      "translation/supplemental/timeline-followup-rules.json": "69ad63e3f195c619cae01550818c89bd3373fdad4762143b3fb752cc2f9e07c7",
+      "translation/supplemental/nested-belief-followup-rules.json": "2a6353def3266e50860adb4e1bd8de5fbd1ecf395f300ec88ecf66b58d153b64",
+      "translation/supplemental/lead-runtime-aliases.json": "f383bd77794a328ff10c55a6a779449289df3fa409d8b73de1b1a39bd389d058",
+      "translation/supplemental/playmaster-corrections.json": "91295cfdb8f4b806eac39ba9da733e9140bcdc4a095f263c477b444b195b65fa",
+      "translation/supplemental/dialogue-log-followup-rules.json": "1dcdbf453458dd1b8432ef2dc6f81f83fedeb6973224db2a8e12fd954b2371ca",
+      "translation/supplemental/dialogue-log-runtime-aliases.json": "1441efcd1e8799f25b1d21910d26436a65650960ea47c7cd2a2f4ddc38a7a42c"
+    },
+    "export": {
+      "passed": true,
+      "total_dynamic_rules": 132,
+      "recursive_ui_rules": 108,
+      "total_translations": 16866
+    },
+    "corrected_failures": [
+      "同源术语修订以两阶段 apply_supplemental 覆盖；同阶段唯一性校验保持严格",
+      "line-boundary 的有限零参原子本身可为完整条目，不要求原子后额外字符；两侧仍必须非空且完整消费",
+      "3个裸冻结字面量末尾LF用例按精确/Trim优先的既有契约更新预期，不修改源",
+      "旧49的Open Journal与两个Journal日志段落按真实术语证据修改预期；另1条既有历史源的末尾LF按新增受限封套保留",
+      "外层带完整引号的 now/no longer believes 专用规则目标恢复中文弯双引号；未加引号的嵌套或外层分支不新增引号。旧历史3预期按真实带引号源精确更新。",
+      "斜体日志封套先剥i会遮蔽a00941/a00942原含i格式模板；限定负向前瞻排除两种完整结构，单个尾LF由受限notification-trailing封套保留，body再交回旧模板。首匹配失败不换规则兜底。",
+      "2026-10-10：合并线索双LF与18运行别名、地图短模板、时间线尾空段/房间变体、嵌套认知文风；1538个消费者通过，三个旧嵌套提示预期有记录修订",
+      "2026-10-10后续：日志真实短名、5运行源变体、完整8发言块及斜体/原子续行；Playmaster统一戏剧大师；21578全资源消费与1538既有界面回归通过"
+    ],
+    "game_started": false,
+    "online_api_called": false,
+    "game_save_accessed": false
   }
 }

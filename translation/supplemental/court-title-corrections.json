@@ -1,0 +1,302 @@
+[
+  {
+    "id": "court-title-b8f0173ed0a9839a",
+    "original_id": "p00041-b8f0173ed0a9",
+    "source": "Brit is Gertrude's lady-in-waiting. She can be terribly cruel. We've never gotten along since she came to Elsinore three years ago.\n\nShe is the daughter of one of the most powerful noble families in Denmark, as with most of the people here at Elsinore.",
+    "source_sha256": "b8f0173ed0a9839aed8a437f543dbb634df70fa51c766ab84647fa84a121d30b",
+    "previous_target": "布莉特是乔特鲁德的侍女。她有时刻薄得可怕。自从三年前她来到埃尔西诺，我们就一直合不来。\n\n她出身于丹麦最有权势的贵族家族之一，和埃尔西诺这里的大多数人一样。",
+    "target": "布莉特是乔特鲁德的宫廷侍女。她有时刻薄得可怕。自从三年前她来到埃尔西诺，我们就一直合不来。\n\n她出身于丹麦最有权势的贵族家族之一，和埃尔西诺这里的大多数人一样。",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "49975131f1e00180e528ceea4ea9e630c1d421dc2b4061992df1d63c0add1a85",
+        "json_path": "$.list[6].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[6].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-d6efd0d9eb2c0f25",
+    "original_id": "p00556-d6efd0d9eb2c",
+    "source": "Brit is Gertrude's lady in waiting. She can be terribly cruel. We've never gotten along since she came to Elsinore three years ago.\n\nShe is the daughter of one of the most powerful noble families in Denmark, as with most of the people here at Elsinore. I can't speak my mind around her or my father would scold me for sullying our name.",
+    "source_sha256": "d6efd0d9eb2c0f2552f9d0a12e9c668e0ddfb2c7d0613a89a9a9b86a29a118e5",
+    "previous_target": "布莉特是乔特鲁德的侍女。她刻薄起来十分可怕。自从三年前她来到埃尔西诺，我们就一直合不来。\n\n和埃尔西诺这里的大多数人一样，她出身贵族，是丹麦最有权势的家族之一的女儿。在她面前，我不能直说自己的想法，否则父亲会责备我败坏了家族名声。",
+    "target": "布莉特是乔特鲁德的宫廷侍女。她刻薄起来十分可怕。自从三年前她来到埃尔西诺，我们就一直合不来。\n\n和埃尔西诺这里的大多数人一样，她出身贵族，是丹麦最有权势的家族之一的女儿。在她面前，我不能直说自己的想法，否则父亲会责备我败坏了家族名声。",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[6].lines[0].text",
+        "field": "text",
+        "record_id": "initial"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-b1540d2230d6b5a8",
+    "original_id": "p04444-b1540d2230d6",
+    "source": "My lady-in-waiting, Brit—Birgitta—comes from a high house. She'd make a suitable match, if a bit low in rank. But... I just don't know.",
+    "source_sha256": "b1540d2230d6b5a81ad1e30caf7d868577dab1187d2e74c956dfd6db40c3f192",
+    "previous_target": "我的侍女布莉特——比尔吉塔——出身名门。她会是个合适的婚配对象，虽然身份稍低了些。不过……我实在拿不定主意。",
+    "target": "我的宫廷侍女布莉特——比尔吉塔——出身名门。她会是个合适的婚配对象，虽然身份稍低了些。不过……我实在拿不定主意。",
+    "origins": [
+      {
+        "inventory_id": "p04444-b1540d2230d6",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-2c191eb550726de1",
+    "original_id": "p10705-2c191eb55072",
+    "source": "Maybe <i>you</i> should hold back, but <i>I'm</i> her lady-in-waiting of House Brockenhuus. She can see me whenever I like.",
+    "source_sha256": "2c191eb550726de16a1b23b01eadbe4d3fef3f21f523af3b0c7bee45a9d5f5bd",
+    "previous_target": "也许<i>你</i>该等着，可<i>我</i>是她的侍女，出身布罗肯胡斯家族。我想什么时候见她，她就能见我。",
+    "target": "也许<i>你</i>该等着，可<i>我</i>是她的宫廷侍女，出身布罗肯胡斯家族。我想什么时候见她，她就能见我。",
+    "origins": [
+      {
+        "inventory_id": "p10705-2c191eb55072",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-c3dc7c18269e31a3",
+    "original_id": "p10710-c3dc7c18269e",
+    "source": "No lady-in-waiting, or beautiful silken dress, can replace that bond.",
+    "source_sha256": "c3dc7c18269e31a38db41ca1eb412bf3b91091807ed4a494dea7643114bb1dd4",
+    "previous_target": "任何侍女、任何漂亮的丝绸裙子，都取代不了这份情谊。",
+    "target": "任何宫廷侍女、任何漂亮的丝绸裙子，都取代不了这份情谊。",
+    "origins": [
+      {
+        "inventory_id": "p10710-c3dc7c18269e",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-4ecd8f1ba6fbb299",
+    "original_id": "p11405-4ecd8f1ba6fb",
+    "source": "Her nosy little lady-in-waiting and that Bohemian bullish cook are the only people she ever trusted with that honor.",
+    "source_sha256": "4ecd8f1ba6fbb2996823b94550623c87c14eda9c059794dadb01dbd62b4f7d34",
+    "previous_target": "她那爱管闲事的小侍女，还有那个蛮横的波希米亚厨娘，是她仅有的两个信任到愿意给她们这份殊荣的人。",
+    "target": "她那爱管闲事的小小的宫廷侍女，还有那个蛮横的波希米亚厨娘，是她仅有的两个信任到愿意给她们这份殊荣的人。",
+    "origins": [
+      {
+        "inventory_id": "p11405-4ecd8f1ba6fb",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-63ee99bbc31b7e3d",
+    "original_id": "p11478-63ee99bbc31b",
+    "source": "I love moonlight walks! Almost as much as I love my dearest lady-in-waiting exploiting my son's weakened emotional state.",
+    "source_sha256": "63ee99bbc31b7e3dda62679d55ba71f04f0edc808b365b2352037440fb2346e3",
+    "previous_target": "我最喜欢月下散步了！喜欢的程度，几乎赶得上我最亲爱的侍女利用我儿子脆弱的心境。",
+    "target": "我最喜欢月下散步了！喜欢的程度，几乎赶得上我最亲爱的宫廷侍女利用我儿子脆弱的心境。",
+    "origins": [
+      {
+        "inventory_id": "p11478-63ee99bbc31b",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-95d0500265d2bd1d",
+    "original_id": "p11968-95d0500265d2",
+    "source": "Your lady-in-waiting Brit is a spy for the Prince of Norway.",
+    "source_sha256": "95d0500265d2bd1d0566257a1e9db335f55e56297574a36fb0551e682156532a",
+    "previous_target": "您的侍女布莉特是挪威王子的间谍。",
+    "target": "您的宫廷侍女布莉特是挪威王子的间谍。",
+    "origins": [
+      {
+        "inventory_id": "p11968-95d0500265d2",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-40056b23897cc7c9",
+    "original_id": "p12019-40056b23897c",
+    "source": "Lady Brit is my wife's most faithful lady-in-waiting—and a young woman, too. She can do no harm to anyone.",
+    "source_sha256": "40056b23897cc7c92b995a34ad9578bbe7bf767d2d7ea3e1a872240488d43fdd",
+    "previous_target": "布莉特女士是我妻子最忠诚的侍女——何况她还是个年轻姑娘。她伤害不了任何人。",
+    "target": "布莉特女士是我妻子最忠诚的宫廷侍女——何况她还是个年轻姑娘。她伤害不了任何人。",
+    "origins": [
+      {
+        "inventory_id": "p12019-40056b23897c",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-561e72753eccd3a0",
+    "original_id": "p15115-561e72753ecc",
+    "source": "Hmmph. Now what will I do? Being a lady-in-waiting is so dismal! Attending to the Queen's every little whim, following her from court function to court function...",
+    "source_sha256": "561e72753eccd3a0e33ad7f078ca105e0fff429b6af1681ba93cced431cb65ad",
+    "previous_target": "哼。那我现在怎么办？当侍女真是苦闷！王后随便有什么小念头都得伺候，还要跟着她参加一场又一场宫廷活动……",
+    "target": "哼。那我现在怎么办？当宫廷侍女真是苦闷！王后随便有什么小念头都得伺候，还要跟着她参加一场又一场宫廷活动……",
+    "origins": [
+      {
+        "inventory_id": "p15115-561e72753ecc",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-3cd624871fb25443",
+    "original_id": "p15124-3cd624871fb2",
+    "source": "You may be the Queen's lady-in-waiting, but <i>I</i> am a lady of the Court. Keep your tongue in check.",
+    "source_sha256": "3cd624871fb25443ab986878985aa65319e56769be3b89fe81084edc780a96d5",
+    "previous_target": "你虽是王后的侍女，可<i>我</i>也是宫廷贵女。说话注意分寸。",
+    "target": "你虽是王后的宫廷侍女，可<i>我</i>也是宫廷贵女。说话注意分寸。",
+    "origins": [
+      {
+        "inventory_id": "p15124-3cd624871fb2",
+        "inventory": "translation/sol-full-2026-10-09/translations.json"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  },
+  {
+    "id": "court-title-1feebffee2d4c721",
+    "original_id": "ui-1feebffee2d4c721",
+    "source": "Lady-in-Waiting to Her Highness",
+    "source_sha256": "1feebffee2d4c721508e91a6faad4d2c122752717ea51cf0bb303d1fa7f5d1bc",
+    "previous_target": "王后的侍女",
+    "target": "王后的宫廷侍女",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "49975131f1e00180e528ceea4ea9e630c1d421dc2b4061992df1d63c0add1a85",
+        "json_path": "$.list[6].subtitle",
+        "field": "subtitle",
+        "record_id": "brit"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[6].subtitle",
+        "field": "subtitle",
+        "record_id": "brit"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[6].subtitle",
+        "field": "subtitle",
+        "record_id": "brit"
+      }
+    ],
+    "reason": "按用户现代中文偏好将lady-in-waiting统一为宫廷侍女，体现专门宫廷陪侍；attendant侍从不变，不增加主管、首席或贴身等等级",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/us/dictionary/english/lady-in-waiting",
+        "kind": "词典出版机构原始词条",
+        "finding": "女性王室或贵妇人的陪侍人员；中文版给出宫廷女侍臣、宫女、女侍从。不能仅从词本身推断所有此职位都出身贵族。"
+      }
+    ]
+  }
+]

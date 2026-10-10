@@ -1,3 +1,4 @@
+param([switch]$PendingInstall)
 $ErrorActionPreference = 'Stop'
 $projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '../..')).Path
 $package = Join-Path $projectRoot 'runtime/package/ElsinoreHan-Sol'
@@ -30,6 +31,7 @@ Copy-Item -LiteralPath (Join-Path $projectRoot 'runtime/build/ElsinoreHan.Transl
 New-Item -ItemType Directory -Path (Join-Path $package 'BepInEx/config') -Force | Out-Null
 $config = Get-Content -LiteralPath (Join-Path $projectRoot 'runtime/sample/AutoTranslatorConfig.ini') -Raw
 [IO.File]::WriteAllText((Join-Path $package 'BepInEx/config/AutoTranslatorConfig.ini'), $config, [Text.UTF8Encoding]::new($false))
+$installationNote = if ($PendingInstall) { '此包为已验证的候选补丁，尚未安装到主游戏；请先保存并退出游戏，再执行安装。' } else { '本机安装已由项目执行。' }
 $readme = @"
 # Elsinore Sol 中文补丁
 
@@ -37,7 +39,7 @@ $readme = @"
 
 正常启动游戏即可使用中文；按 F8 切换原文和译文，再按一次恢复中文。Alt+R 可重新加载修改后的词表。
 
-本机安装已由项目执行。此文件夹作为完整备份包，包含离线加载器、中文字体和切换插件，不包含游戏本体、存档或任何API Key。
+$installationNote 此文件夹作为完整备份包，包含离线加载器、中文字体和切换插件，不包含游戏本体、存档或任何API Key。
 
 译文为Sol生成的完整初稿，尚未逐分支人工审校。发现错译时可按F8看原文，再记录原句以便校订。
 

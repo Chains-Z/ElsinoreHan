@@ -2,7 +2,7 @@
 
 更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新状态：其他角色方言/口语审校621个角色/源句组合，六处定向校订已安装，2484项真实XUnity消费者与15项导出治理回归通过，个人ZIP同步；见 [其他角色审校](docs/dev-tasks/localization/dialect-dialogue-review-2026-10-10.md)。前轮伊尔玛490条审校与用户指定马塞勒斯口语版本保留。当前1.4.0、17,027条、138条规则。此前混合日志114,028项消费者和111项真实游戏离线API检查仍为历史证据，本轮未重复整组或重型资料/滚动验收。下一步按实际游玩反馈校订。
+最新候选1.5.0、17,033条、154条规则已验证，修复多人通知弹窗/日志边界、人物简介组合与文档F8位置，并校订近期截图文字。128,408项真实消费者、131项真实游戏离线API、14个人物/文档与7历史索引、文档18次和日志8次F8通过；候选ZIP同步。**用户主游戏仍在运行，尚未安装，正式安装仍为1.4.0、17,027条、138规则。**见 [本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)。下一步待保存退出后备份安装并更新记录，不重跑未改变的整组测试。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -11,6 +11,8 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
+   docs/dev-tasks/localization/reading-followup-2026-10-10.md：最新候选通知/简介/文档F8修复，明确待安装。
+   docs/dev-tasks/localization/reading-text-review-2026-10-10.md：小说指定段与八个征兆整篇审校。
    docs/dev-tasks/localization/dialect-dialogue-review-2026-10-10.md：最新其他角色方言/口语审校。
    docs/dev-tasks/localization/irma-dialogue-review-2026-10-10.md：最新厨娘方言、昵称和用户口语校订。
    docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md：最新混合条目矩阵、尾LF、称号与安装。
@@ -19,7 +21,7 @@
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/dialect-review-verification.json：最新其他角色审校、消费者与安装核验；irma-review-verification.json：前轮厨娘审校证据；playthrough-text-verification.json：前轮正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/reading-followup-verification.json：最新候选终版验证及待安装状态；runtime/evidence/dialect-review-verification.json：最新其他角色审校、消费者与安装核验；irma-review-verification.json：前轮厨娘审校证据；playthrough-text-verification.json：前轮正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -30,12 +32,12 @@
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
 - 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.4.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
-- 当前正式词表 **17,027条**：原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名，以及161个保持通知尾LF的源别名（正文逐字复用，不是新翻译）。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
-- 共138条动态规则：24个数字/F# %s模板，114条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
+- 当前正式安装词表 **17,027条**；仓库候选导出17,033条，新增6个简介运行别名。已安装词表由原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名，以及161个保持通知尾LF的源别名（正文逐字复用，不是新翻译）。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
+- 正式安装共138条动态规则（候选154条）：24个数字/F# %s模板，114条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
-- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 已与安装同步。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
+- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 是已验证但待安装的1.5.0候选，与正式安装1.4.0不同；说明页明确待安装。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
 
 ## 界面提取与译文治理
 
@@ -94,3 +96,5 @@
 厨娘定向审校由audit_irma_dialogue.py从全部TextAsset的irma发言提取；irma-corrections.json在导出别名前应用，保持准确previous_target。昵称Gerta全表59条统一格尔塔，正式全名乔特鲁德不改。全量派生测试不入Git，来源摘要与test_irma_review.py保留。
 
 其他角色审校由audit_dialect_dialogue.py筛查全部TextAsset，621项定向选择与2484项单句/真实简称/通知双向用例可再生。dialect-corrections.json在别名层之前按准确旧值应用六项校订；全量重复夹具忽略入Git。非标准拼写只用于筛选，不自动判错或抹平人物口吻。
+
+本轮简介由prepare_biography_followup.py从三份真实bios再生：6别名、16规则、345保序子集裸/行高共690正例及48拒绝例。人物页真实重放限冻结14头像，不造解锁。prepare_notification_list_followup.py修真实个体粗体名单的共享前缀；9304矩阵含完整一/二人位置和三至五人环形位置，不能称三至五人全部排列。终版副本c260fdd已清理；原存档并行比较无法下结论。package-full.ps1 -PendingInstall明确候选包未安装，正式安装后不带此开关再打包。

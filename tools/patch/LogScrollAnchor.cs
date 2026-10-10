@@ -1,11 +1,12 @@
 using System;
 using System.Collections;
 using System.Reflection;
+using System.Text;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// F8 只保持真实对话记录中的阅读段落，不改历史内容或平时的滚动行为。
+// F8 保持真实对话记录或文档中的阅读段落，不改正文或平时的滚动行为。
 public static class LogScrollAnchor
 {
     private const BindingFlags Fields = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
@@ -24,17 +25,19 @@ public static class LogScrollAnchor
         internal string historySource;
         internal int paragraphCount;
         internal float capturedY;
+        internal bool document;
         public int ParagraphIndex;
         public string Outcome = "captured";
         public float RestoreError;
         public int EntryInstanceId { get { return entry == null ? 0 : entry.GetInstanceID(); } }
         public float CapturedY { get { return capturedY; } }
+        public bool IsDocument { get { return document; } }
 
         // 探针读取真实当前段落位置，不能仅由滚动条比例判断是否回到原处。
         public bool TryReadCurrentY(out float y)
         {
             y = 0;
-            return entry != null && viewport != null && ParagraphBaseline(entry, viewport, ParagraphIndex, out y);
+            return entry != null && viewport != null && ParagraphBaseline(entry, viewport, ParagraphIndex, document, out y);
         }
     }
 
@@ -43,6 +46,27 @@ public static class LogScrollAnchor
         int token = ++generation;
         try
         {
+            // 文档是模态阅读页；优先于背后可能仍然激活的日志控件。
+            Type documentType = FindType("Elsinore.Ui.ObjectCloseupUI");
+            if (documentType != null)
+            {
+                foreach (UnityEngine.Object value in Resources.FindObjectsOfTypeAll(documentType))
+                {
+                    Component owner = value as Component;
+                    if (owner == null || !owner.gameObject.activeInHierarchy || !System.Object.Equals(ReadField(owner, "isOpen"), true)) continue;
+                    TMP_Text body = ReadField(owner, "Body") as TMP_Text;
+                    StringBuilder builder = ReadField(owner, "builder") as StringBuilder;
+                    ScrollRect scroll = body == null ? null : body.GetComponentInParent<ScrollRect>();
+                    if (scroll == null || scroll.content == null || builder == null || !body.gameObject.activeInHierarchy
+                        || scroll.content != body.rectTransform || scroll.verticalScrollbar != ReadField(owner, "Scrollbar") as Scrollbar) return null;
+                    RectTransform viewport = scroll.viewport == null ? scroll.transform as RectTransform : scroll.viewport;
+                    if (viewport == null) continue;
+                    Canvas.ForceUpdateCanvases();
+                    Anchor anchor = CaptureEntry(owner, scroll, viewport, body, token, 0, 1, builder.ToString(), true);
+                    // 打开的模态文档没有有效锚点时，不去挪动背后的日志。
+                    return anchor;
+                }
+            }
             Type logType = null;
             foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())
             {
@@ -68,36 +92,66 @@ public static class LogScrollAnchor
                 {
                     TMP_Text entry = entries[index] as TMP_Text;
                     if (entry == null || !entry.gameObject.activeInHierarchy) continue;
-                    entry.ForceMeshUpdate();
-                    TMP_TextInfo info = entry.textInfo;
-                    for (int lineIndex = 0; lineIndex < info.lineCount; lineIndex++)
-                    {
-                        TMP_LineInfo line = info.lineInfo[lineIndex];
-                        if (line.visibleCharacterCount == 0 || line.firstCharacterIndex < 0
-                            || line.firstCharacterIndex >= info.characterCount) continue;
-                        float top = LocalY(entry, viewport, line.ascender);
-                        float bottom = LocalY(entry, viewport, line.descender);
-                        if (bottom >= viewport.rect.yMax || top <= viewport.rect.yMin) continue;
-                        float distance = Mathf.Abs(viewport.rect.yMax - Mathf.Min(top, viewport.rect.yMax));
-                        if (distance >= bestDistance) continue;
-                        int rawIndex = info.characterInfo[line.firstCharacterIndex].index;
-                        int paragraph = ParagraphAt(entry.text, rawIndex);
-                        float baseline;
-                        if (!ParagraphBaseline(entry, viewport, paragraph, out baseline)) continue;
-                        bestDistance = distance;
-                        best = new Anchor {
-                            log = log, scroll = scroll, viewport = viewport, entry = entry,
-                            generation = token, entryIndex = index, entryCount = entries.Count,
-                            historySource = history[index], paragraphCount = ParagraphCount(entry.text),
-                            ParagraphIndex = paragraph, capturedY = baseline
-                        };
-                    }
+                    float distance;
+                    Anchor candidate = CaptureEntry(log, scroll, viewport, entry, token, index, entries.Count,
+                                                    history[index], false, out distance);
+                    if (candidate != null && distance < bestDistance)
+                    { bestDistance = distance; best = candidate; }
                 }
                 return best;
             }
         }
         catch { /* 阅读位置保护不能阻断 F8 或原游戏。 */ }
         return null;
+    }
+
+    private static Type FindType(string name)
+    {
+        foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())
+        {
+            Type type = assembly.GetType(name, false);
+            if (type != null) return type;
+        }
+        return null;
+    }
+
+    private static Anchor CaptureEntry(Component owner, ScrollRect scroll, RectTransform viewport, TMP_Text entry,
+                                       int token, int index, int count, string source, bool document)
+    {
+        float distance;
+        return CaptureEntry(owner, scroll, viewport, entry, token, index, count, source, document, out distance);
+    }
+
+    private static Anchor CaptureEntry(Component owner, ScrollRect scroll, RectTransform viewport, TMP_Text entry,
+                                       int token, int index, int count, string source, bool document, out float bestDistance)
+    {
+        entry.ForceMeshUpdate();
+        TMP_TextInfo info = entry.textInfo;
+        Anchor best = null;
+        bestDistance = float.MaxValue;
+        for (int lineIndex = 0; lineIndex < info.lineCount; lineIndex++)
+        {
+            TMP_LineInfo line = info.lineInfo[lineIndex];
+            if (line.visibleCharacterCount == 0 || line.firstCharacterIndex < 0
+                || line.firstCharacterIndex >= info.characterCount) continue;
+            float top = LocalY(entry, viewport, line.ascender);
+            float bottom = LocalY(entry, viewport, line.descender);
+            if (bottom >= viewport.rect.yMax || top <= viewport.rect.yMin) continue;
+            float distance = Mathf.Abs(viewport.rect.yMax - Mathf.Min(top, viewport.rect.yMax));
+            if (distance >= bestDistance) continue;
+            int rawIndex = info.characterInfo[line.firstCharacterIndex].index;
+            int paragraph = document ? DocumentParagraphAt(entry.text, rawIndex) : ParagraphAt(entry.text, rawIndex);
+            float baseline;
+            if (!ParagraphBaseline(entry, viewport, paragraph, document, out baseline)) continue;
+            bestDistance = distance;
+            best = new Anchor {
+                log = owner, scroll = scroll, viewport = viewport, entry = entry, document = document,
+                generation = token, entryIndex = index, entryCount = count, historySource = source,
+                paragraphCount = document ? DocumentParagraphCount(entry.text) : ParagraphCount(entry.text),
+                ParagraphIndex = paragraph, capturedY = baseline
+            };
+        }
+        return best;
     }
 
     public static IEnumerator Restore(Anchor anchor)
@@ -119,17 +173,34 @@ public static class LogScrollAnchor
             if (anchor.log == null || !anchor.log.gameObject.activeInHierarchy || anchor.entry == null
                 || !anchor.entry.gameObject.activeInHierarchy || anchor.scroll == null || anchor.viewport == null)
             { anchor.Outcome = "closed"; return false; }
-            IList entries = ReadField(anchor.log, "createdEntries") as IList;
-            string[] history = ReadHistory(anchor.log);
-            if (entries == null || history == null || entries.Count != anchor.entryCount
-                || history.Length != anchor.entryCount || !ReferenceEquals(entries[anchor.entryIndex], anchor.entry)
-                || !String.Equals(history[anchor.entryIndex], anchor.historySource, StringComparison.Ordinal))
-            { anchor.Outcome = "history-changed"; return false; }
+            IList entries = null;
+            if (anchor.document)
+            {
+                StringBuilder builder = ReadField(anchor.log, "builder") as StringBuilder;
+                if (!System.Object.Equals(ReadField(anchor.log, "isOpen"), true))
+                { anchor.Outcome = "closed"; return false; }
+                if (!ReferenceEquals(ReadField(anchor.log, "Body"), anchor.entry) || builder == null
+                    || anchor.scroll.content != anchor.entry.rectTransform
+                    || anchor.scroll.verticalScrollbar != ReadField(anchor.log, "Scrollbar") as Scrollbar
+                    || !String.Equals(builder.ToString(), anchor.historySource, StringComparison.Ordinal))
+                { anchor.Outcome = "document-changed"; return false; }
+            }
+            else
+            {
+                entries = ReadField(anchor.log, "createdEntries") as IList;
+                string[] history = ReadHistory(anchor.log);
+                if (entries == null || history == null || entries.Count != anchor.entryCount
+                    || history.Length != anchor.entryCount || !ReferenceEquals(entries[anchor.entryIndex], anchor.entry)
+                    || !String.Equals(history[anchor.entryIndex], anchor.historySource, StringComparison.Ordinal))
+                { anchor.Outcome = "history-changed"; return false; }
+            }
             // 中英文硬换行结构不一致时没有可靠的段落对应，不按高度比例猜测。
-            if (ParagraphCount(anchor.entry.text) != anchor.paragraphCount)
+            int currentCount = anchor.document ? DocumentParagraphCount(anchor.entry.text) : ParagraphCount(anchor.entry.text);
+            if (currentCount != anchor.paragraphCount)
             { anchor.Outcome = "paragraphs-changed"; return false; }
             Canvas.ForceUpdateCanvases();
-            for (int index = 0; index < entries.Count; index++)
+            if (anchor.document) anchor.entry.ForceMeshUpdate();
+            else for (int index = 0; index < entries.Count; index++)
             {
                 TMP_Text entry = entries[index] as TMP_Text;
                 if (entry != null && entry.gameObject.activeInHierarchy) entry.ForceMeshUpdate();
@@ -191,17 +262,76 @@ public static class LogScrollAnchor
         return -1;
     }
 
-    private static bool ParagraphBaseline(TMP_Text entry, RectTransform viewport, int paragraph, out float baseline)
+    // 文档的空白分隔数量可能因翻译不同；只对应非空硬行，不改原正文。
+    public static int DocumentParagraphCount(string text)
+    {
+        if (text == null) return 0;
+        int count = 0;
+        int start = 0;
+        while (start <= text.Length)
+        {
+            int end = text.IndexOf('\n', start);
+            if (end < 0) end = text.Length;
+            if (HasParagraphContent(text, start, end)) count++;
+            if (end == text.Length) break;
+            start = end + 1;
+        }
+        return count;
+    }
+
+    public static int DocumentParagraphAt(string text, int rawIndex)
+    {
+        if (text == null) return 0;
+        int paragraph = 0, ordinal = 0, start = 0;
+        while (start <= text.Length && start <= rawIndex)
+        {
+            int end = text.IndexOf('\n', start);
+            if (end < 0) end = text.Length;
+            if (HasParagraphContent(text, start, end)) paragraph = ordinal++;
+            if (end == text.Length) break;
+            start = end + 1;
+        }
+        return paragraph;
+    }
+
+    public static int DocumentParagraphStart(string text, int paragraph)
+    {
+        if (text == null || paragraph < 0) return -1;
+        int ordinal = 0, start = 0;
+        while (start <= text.Length)
+        {
+            int end = text.IndexOf('\n', start);
+            if (end < 0) end = text.Length;
+            if (HasParagraphContent(text, start, end) && ordinal++ == paragraph) return start;
+            if (end == text.Length) break;
+            start = end + 1;
+        }
+        return -1;
+    }
+
+    private static bool HasParagraphContent(string text, int start, int end)
+    {
+        bool tag = false;
+        for (int index = start; index < end; index++)
+        {
+            if (text[index] == '<') tag = true;
+            else if (text[index] == '>') tag = false;
+            else if (!tag && !Char.IsWhiteSpace(text[index])) return true;
+        }
+        return false;
+    }
+
+    private static bool ParagraphBaseline(TMP_Text entry, RectTransform viewport, int paragraph, bool document, out float baseline)
     {
         baseline = 0;
-        int start = ParagraphStart(entry.text, paragraph);
+        int start = document ? DocumentParagraphStart(entry.text, paragraph) : ParagraphStart(entry.text, paragraph);
         if (start < 0) return false;
         TMP_TextInfo info = entry.textInfo;
         for (int index = 0; index < info.characterCount; index++)
         {
             TMP_CharacterInfo character = info.characterInfo[index];
             if (character.index < start || character.character == '\r' || character.character == '\n') continue;
-            if (ParagraphAt(entry.text, character.index) != paragraph) return false;
+            if ((document ? DocumentParagraphAt(entry.text, character.index) : ParagraphAt(entry.text, character.index)) != paragraph) return false;
             baseline = LocalY(entry, viewport, info.lineInfo[character.lineNumber].baseline);
             return true;
         }

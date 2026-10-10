@@ -12,13 +12,26 @@ if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -n
 if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
     throw 'ELSINOREHAN_PROBE_LOG_SCROLL 必须与真实资料模式一起运行，禁止启动。'
 }
+if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) {
+    if ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -PathType Leaf)) {
+        throw '文档阅读位置诊断必须使用资料模式和冻结文档ID文件。'
+    }
+    $knownDocuments = @(Get-Content -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS | ForEach-Object { ($_ -split "`t")[0].Trim() })
+    $requestedDocuments = @($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS -split ';')
+    if (@($requestedDocuments | Select-Object -Unique).Count -ne $requestedDocuments.Count -or @($requestedDocuments | Where-Object { $_ -notin $knownDocuments }).Count -gt 0) {
+        throw '文档阅读位置诊断ID重复或不在冻结真实文档中。'
+    }
+}
+if ($env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES -PathType Leaf))) {
+    throw '人物资料重放必须使用资料模式和冻结真实资源用例，禁止启动。'
+}
 if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1' -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not $env:ELSINOREHAN_PROBE_LEAD_CASES -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_LEAD_CASES -PathType Leaf))) {
     throw 'ELSINOREHAN_PROBE_UI_FOLLOWUP 必须使用资料模式和已核实线索重放文件，禁止启动。'
 }
 if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and (-not $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -PathType Leaf))) {
     throw 'ELSINOREHAN_PROBE_CLOSEUP_IDS 缺少冻结资料ID文件，禁止启动。'
 }
-foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS', 'ELSINOREHAN_PROBE_LEAD_CASES')) {
+foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS', 'ELSINOREHAN_PROBE_LEAD_CASES', 'ELSINOREHAN_PROBE_BIOGRAPHY_CASES')) {
     $inputPath = [Environment]::GetEnvironmentVariable($variableName)
     if ($inputPath -and -not (Test-Path -LiteralPath $inputPath -PathType Leaf)) { throw ($variableName + ' 指向的文件不存在，禁止启动。') }
 }
@@ -50,13 +63,8 @@ if ($env:ELSINOREHAN_PROBE_SAVE_SOURCE) { $saveSourcePath = (Resolve-Path -Liter
 if ($concurrentGameActive -and $saveSourcePath -eq $originalSavePath) { throw '用户游戏正在运行；诊断须使用既有冻结存档副本，避免读取正在写入的存档。' }
 $isolatedSavePath = Join-Path $projectRoot ('runtime/backups/probe-save-' + $runId)
 New-Item -ItemType Directory -Path $isolatedSavePath -Force | Out-Null
-$saveSnapshot = @()
-if (Test-Path -LiteralPath $originalSavePath) {
-    foreach ($file in Get-ChildItem -LiteralPath $originalSavePath -File -Recurse -Force) {
-        $relative = $file.FullName.Substring($originalSavePath.Length + 1)
-        $saveSnapshot += [pscustomobject]@{ path=$relative; sha256=(Get-FileHash -LiteralPath $file.FullName).Hash; write_time=$file.LastWriteTimeUtc.ToString('o') }
-    }
-}
+. (Join-Path $PSScriptRoot 'ProbeSaveSnapshot.ps1')
+$saveSnapshot = @(Get-ProbeSaveSnapshot -Path $originalSavePath -ConcurrentGameActive $concurrentGameActive)
 $sourceSnapshot = @()
 foreach ($file in Get-ChildItem -LiteralPath $saveSourcePath -File -Recurse -Force) {
     $relative = $file.FullName.Substring($saveSourcePath.Length + 1)
@@ -111,6 +119,8 @@ try {
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += 'log-scroll-anchor.tsv' }
+    if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) { $reports += 'document-scroll-anchor.tsv' }
+    if ($env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES) { $reports += 'biography-replay.tsv' }
     if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1') { $reports += @('lead-followup.tsv', 'map-followup.tsv', 'timeline-followup.tsv') }
     foreach ($name in $reports) {
         $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
@@ -123,12 +133,13 @@ try {
     $muted = $runtimeLog.Contains('Wwise 后台音频暂停结果=AK_Success')
     [pscustomobject]@{ run_id = $runId; launched_at_utc = $launchedAt.ToString('o'); pid = $process.Id; exit_code = $process.ExitCode; main_window_detected = $false; batch_mode_confirmed = $batchMode; wwise_suspend_success = $muted; priority = 'BelowNormal'; target_frame_rate = 10; arguments = $arguments } | ConvertTo-Json -Depth 4 | Set-Content -LiteralPath (Join-Path $runDirectory 'process.json') -Encoding utf8
     if (-not ($batchMode -and $muted)) { throw '后台模式或静音未确认，不能宣称验证通过。' }
-    $saveUnchanged = $true
+    # 用户正在游玩时不读取被独占的实时日志/存档；只核验已冻结来源，原存档比较明确标为无法下结论。
+    $saveUnchanged = if ($concurrentGameActive) { $null } else { $true }
     foreach ($file in $saveSnapshot) {
         $path = Join-Path $originalSavePath $file.path
         if (-not (Test-Path -LiteralPath $path) -or (Get-FileHash -LiteralPath $path).Hash -ne $file.sha256 -or (Get-Item -LiteralPath $path).LastWriteTimeUtc.ToString('o') -ne $file.write_time) { $saveUnchanged = $false }
     }
-    if ((@(Get-ChildItem -LiteralPath $originalSavePath -File -Recurse -Force -ErrorAction SilentlyContinue)).Count -ne $saveSnapshot.Count) { $saveUnchanged = $false }
+    if (-not $concurrentGameActive -and (@(Get-ChildItem -LiteralPath $originalSavePath -File -Recurse -Force -ErrorAction SilentlyContinue)).Count -ne $saveSnapshot.Count) { $saveUnchanged = $false }
     $sourceUnchanged = -not (@($sourceSnapshot | Where-Object { (Get-FileHash -LiteralPath (Join-Path $saveSourcePath $_.path)).Hash -ne $_.sha256 }).Count)
     [pscustomobject]@{ original_save_files_unchanged=$saveUnchanged; original_save_comparison_conclusive=(-not $concurrentGameActive); concurrent_user_game=$concurrentGameActive; frozen_source_unchanged=$sourceUnchanged; save_source_path=$saveSourcePath; isolated_save_path=$isolatedSavePath; files=$saveSnapshot } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $runDirectory 'save-protection.json') -Encoding utf8
     if (-not $sourceUnchanged -or (-not $saveUnchanged -and -not $concurrentGameActive)) { throw '存档保护核验失败。' }
@@ -160,6 +171,14 @@ try {
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') {
         python (Join-Path $PSScriptRoot 'verify-log-scroll-anchor.py') (Join-Path $runDirectory 'log-scroll-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --output (Join-Path $runDirectory 'log-scroll-anchor-analysis.json')
         if ($LASTEXITCODE -ne 0) { throw 'F8对话记录同段落与真实位置断言失败。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) {
+        python (Join-Path $PSScriptRoot 'verify-document-scroll-anchor.py') (Join-Path $runDirectory 'document-scroll-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --ids $env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS --output (Join-Path $runDirectory 'document-scroll-anchor-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw '文档F8同段落、真实坐标或正常滚动断言失败。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES) {
+        python (Join-Path $PSScriptRoot 'verify-biography-replay.py') (Join-Path $runDirectory 'biography-replay.tsv') --cases $env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES --journal-report (Join-Path $runDirectory 'journal-ui.txt') --output (Join-Path $runDirectory 'biography-replay-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw '人物资料真实组件、完整正文、F8或原显示恢复断言失败。' }
     }
     Copy-Item -LiteralPath (Join-Path $runDirectory 'process.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-process.json') -Force
     Write-Output ('本轮后台证据：' + $runDirectory)

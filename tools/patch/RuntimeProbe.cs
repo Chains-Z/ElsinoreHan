@@ -843,6 +843,9 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             JournalLine("CLOSEUP_BATCH\t" + closeupId + "\t" + ReportText(source) + "\t" + ReportText(combined)
                 + "\t" + ReportText(body.text) + "\t" + body.isTextOverflowing);
             JournalLookup("batch:" + closeupId, "builder:Body", combined, body.text ?? "");
+            string scrollIds = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS");
+            if (!string.IsNullOrEmpty(scrollIds) && Array.IndexOf(scrollIds.Split(';'), closeupId) >= 0)
+                yield return DocumentScrollAnchorProbe.Capture(document, closeupId, outputDirectory);
         }
     }
 
@@ -900,6 +903,11 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 JournalControl("character:" + character, "character.profile.body", tab, "DescriptionText");
                 yield return JournalRoundTrip("character:" + character, tab);
             }
+            if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BIOGRAPHY_CASES")))
+            {
+                JournalControl("character:" + character, "character.profile.body", tab, "DescriptionText");
+                yield return BiographyReplayProbe.Capture(tab, character, outputDirectory);
+            }
             var a = WorldTextBounds(title);
             var b = WorldTextBounds(slug);
             bool overlaps = a.width > 0 && a.height > 0 && b.width > 0 && b.height > 0
@@ -907,6 +915,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 && Mathf.Min(a.yMax, b.yMax) - Mathf.Max(a.yMin, b.yMin) > 0.5f;
             JournalLine("CHARACTER_LAYOUT\t" + character + "\t" + overlaps);
         }
+        if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BIOGRAPHY_CASES")))
+            BiographyReplayProbe.Complete(outputDirectory);
     }
 
     private IEnumerator ProbePresentationPreview()

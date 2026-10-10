@@ -39,6 +39,10 @@ def main():
         if row.get("frozen_translation_id") and row["source"] in targets:
             notifications.append({"kind": "LogicChange", "source": row["source"], "target": targets[row["source"]]})
     notifications = list({r["source"]: r for r in notifications}.values())
+    # 三人以上的实际通知同样是 LogicChange 原子；不能用单人前缀代替名单语法。
+    for row in read(OUT / "notification-list-atoms.json") if (OUT / "notification-list-atoms.json").exists() else []:
+        notifications.append({"kind": "LogicChange", "source": row["source"], "target": row["target"]})
+    notifications = list({r["source"]: r for r in notifications}.values())
     prior = next(r for r in read(OUT / "notification-ui-rules.json")
                  if r["id"] == "ui-rule-notification-line-boundary")
     # 复用已审全名、通知前缀及真实命题；不按任意英语行进行拆分。

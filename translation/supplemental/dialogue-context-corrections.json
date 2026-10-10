@@ -1,0 +1,143 @@
+[
+  {
+    "id": "dialogue-context-3308fc1fb0fdecc4",
+    "original_id": "p02686-3308fc1fb0fd",
+    "source": "And what if it weren't?",
+    "source_sha256": "3308fc1fb0fdecc4e9ac4eebbb995fb931597fd1baa1ce30fbd9f5b730114c18",
+    "previous_target": "那如果不是这样呢？",
+    "target": "那如果现实不是这样呢？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HamletAndOphelia",
+        "line": 6078
+      },
+      "用户截图语境反馈，2026-10-10"
+    ],
+    "reason": "补明it指上文身份特权与束缚造成的城堡现实，不补出改变现实的行动"
+  },
+  {
+    "id": "dialogue-context-d1e4494f09eb40f9",
+    "original_id": "p02687-d1e4494f09eb",
+    "source": "No. You've been right to stay away from me.",
+    "source_sha256": "d1e4494f09eb40f91fd1cbcfe04de57f7d3276edad9343ba9b3040ddefab731d",
+    "previous_target": "不。你一直远离我，是对的。",
+    "target": "不……你一直和我保持距离，是对的。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HamletAndOphelia",
+        "line": 6080
+      },
+      "用户截图语境反馈，2026-10-10"
+    ],
+    "reason": "原脚本紧接摇头动作：No自我改口；以省略号表现迟疑，stay away from me译为保持距离，不擅加不爱或生气"
+  },
+  {
+    "id": "dialogue-context-17500c24bf523b92",
+    "original_id": "p04724-17500c24bf52",
+    "source": "Please, no 'sir'. Peter Quince, the one-man thespian. At your service anytime, my lady.",
+    "source_sha256": "17500c24bf523b92198fb38e2b71463ef1532dc629e055fb6de2c94e7a46edd8",
+    "previous_target": "请别叫我“先生”。彼得·奎因斯，独自演戏的演员。小姐，随时为您效劳。",
+    "target": "请别叫我“先生”。彼得·奎因斯，独角戏演员。小姐，随时为您效劳。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Scene_PlayPrepLoop1",
+        "line": 12351
+      },
+      "用户截图职业自称反馈，2026-10-10"
+    ],
+    "reason": "one-man thespian为独角戏演员的职业自称，保留自我介绍口吻；不与Playmaster戏剧大师混作同一原词"
+  },
+  {
+    "id": "dialogue-context-cfac3c4184a6f256",
+    "original_id": "p01429-cfac3c4184a6",
+    "source": "I, your humble Playmaster, have arranged a most magnificent show for you tonight!",
+    "source_sha256": "cfac3c4184a6f2568a1623c7ed7561772ba5e179daf6bdf3a667b5abe55589a6",
+    "previous_target": "我，各位谦卑的戏剧大师，今晚为各位安排了一场精彩绝伦的演出！",
+    "target": "在下是诸位的戏剧大师，今晚为诸位安排了一场精彩绝伦的演出！",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay",
+        "line": 1546
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_ThePlay_Gertrude",
+        "line": 1733
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Hamlet",
+        "line": 2047
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_ThePlay_Assassin",
+        "line": 2180
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Polonius",
+        "line": 2309
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Loops",
+        "line": 2447
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ThePlay_Default",
+        "line": 2579
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_HamletPlay",
+        "line": 13130
+      },
+      "用户截图同位语反馈，2026-10-10"
+    ],
+    "reason": "your humble Playmaster为主语I的同位语，不是称呼观众；在下承接自谦，诸位的明示关系，不把观众称为戏剧大师"
+  },
+  {
+    "id": "dialogue-context-446b0d6707f4a1bc",
+    "original_id": "p00287-446b0d6707f4",
+    "source": "She was renowned for her great intellect and keenly inquisitive nature—not to mention her morbid sense of humor.",
+    "source_sha256": "446b0d6707f4a1bc98d34b28b625c8e51d703fb8ab029be4c8d25c00438a2067",
+    "previous_target": "她以过人的才智和强烈的求知欲闻名，更别提她那阴森的幽默感了。",
+    "target": "她以过人的才智和强烈的求知欲闻名，更别提她那病态的幽默感了。",
+    "origins": [
+      {
+        "frozen_manifest": "translation/sol-full-2026-10-09/manifest.json",
+        "original_id": "p00287-446b0d6707f4",
+        "context": {
+          "scene": "Enviro_EdithPortrait",
+          "speaker": "Ophelia",
+          "cues": "",
+          "line": 347,
+          "asset_sha256": "f24dbe3317f8097f1401453a40ee4919598de0b6c0e606fbdf2d5ea70b53d307"
+        },
+        "resource_origins": [
+          "resources.assets:scenes_enviro:f24dbe3317f8",
+          "Assembly-CSharp.dll:#US:786161"
+        ]
+      },
+      "用户指定morbid译为病态，2026-10-10"
+    ],
+    "reason": "按用户语境意见将morbid sense of humor由阴森改为病态的幽默感，只修此句，不全局替换阴森"
+  }
+]

@@ -2,9 +2,11 @@
 
 《Elsinore》的离线中文补丁。**17,027 条离线词条已完成并安装**，正常从 Steam 启动即可使用中文。
 
+最新候选1.5.0已验证，含17,033条词表和154条规则：修复多人通知连带日志漏译、人物简介更新组合及长文档F8阅读位置，并校订近期截图中的称号、对白和文章。128,408项真实翻译消费者、131项真实游戏离线API及隔离副本页面检查通过。**用户主游戏仍在运行，本轮尚未安装**；详见[本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)。
+
 按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
 
-完整本地备份包：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
+完整本地备份包（当前为待安装候选1.5.0）：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
 
 完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
 
@@ -25,6 +27,7 @@
 | tools/translation/ | 真实来源适配、Sol 调用、校验及离线词表导出 |
 | tools/patch/ | 插件源码、构建、备份安装、后台自动检查及打包 |
 | runtime/evidence/dialect-review-verification.json | 最新其他角色校订、定向消费者、安装与ZIP核验摘要 |
+| runtime/evidence/reading-followup-verification.json | 本轮通知、简介、文档F8与候选包验证；待游戏退出安装 |
 | runtime/evidence/irma-review-verification.json | 前轮厨娘审校与安装摘要 |
 | runtime/evidence/mixed-log-verification.json | 前轮混合日志、离线API与安装摘要 |
 | analysis/ | 原始只读提取脚本、候选清单和统计 |
