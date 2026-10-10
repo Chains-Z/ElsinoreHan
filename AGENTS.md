@@ -2,7 +2,7 @@
 
 更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新状态：伊尔玛490条不同资源对白已集中审校，38条称呼/语义校订与用户指定的马塞勒斯口语版本已安装，个人ZIP同步。1108项厨娘/昵称消费者、9项前轮正文消费者及19项治理/导出测试通过；见 [厨娘审校](docs/dev-tasks/localization/irma-dialogue-review-2026-10-10.md)。当前1.4.0、17,027条、138条规则。此前混合日志114,028项消费者和111项真实游戏离线API检查仍为历史证据，本轮未重复整组或重型资料/滚动验收。下一步按实际游玩反馈校订。
+最新状态：其他角色方言/口语审校621个角色/源句组合，六处定向校订已安装，2484项真实XUnity消费者与15项导出治理回归通过，个人ZIP同步；见 [其他角色审校](docs/dev-tasks/localization/dialect-dialogue-review-2026-10-10.md)。前轮伊尔玛490条审校与用户指定马塞勒斯口语版本保留。当前1.4.0、17,027条、138条规则。此前混合日志114,028项消费者和111项真实游戏离线API检查仍为历史证据，本轮未重复整组或重型资料/滚动验收。下一步按实际游玩反馈校订。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -11,6 +11,7 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
+   docs/dev-tasks/localization/dialect-dialogue-review-2026-10-10.md：最新其他角色方言/口语审校。
    docs/dev-tasks/localization/irma-dialogue-review-2026-10-10.md：最新厨娘方言、昵称和用户口语校订。
    docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md：最新混合条目矩阵、尾LF、称号与安装。
    docs/dev-tasks/localization/log-followup-2026-10-10.md：前轮日志全源覆盖、称号统一、F8段落保护及验收边界。
@@ -18,7 +19,7 @@
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/irma-review-verification.json：最新厨娘审校、消费者与安装核验；playthrough-text-verification.json：前轮正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/dialect-review-verification.json：最新其他角色审校、消费者与安装核验；irma-review-verification.json：前轮厨娘审校证据；playthrough-text-verification.json：前轮正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -91,3 +92,5 @@
 历史参考 PipistrelloHan 的实现差异与翻译工具调研保存在任务文档；其IL2CPP/BepInEx6/多语言CSV方案不能直接套入本游戏Mono x86现场。
 
 厨娘定向审校由audit_irma_dialogue.py从全部TextAsset的irma发言提取；irma-corrections.json在导出别名前应用，保持准确previous_target。昵称Gerta全表59条统一格尔塔，正式全名乔特鲁德不改。全量派生测试不入Git，来源摘要与test_irma_review.py保留。
+
+其他角色审校由audit_dialect_dialogue.py筛查全部TextAsset，621项定向选择与2484项单句/真实简称/通知双向用例可再生。dialect-corrections.json在别名层之前按准确旧值应用六项校订；全量重复夹具忽略入Git。非标准拼写只用于筛选，不自动判错或抹平人物口吻。

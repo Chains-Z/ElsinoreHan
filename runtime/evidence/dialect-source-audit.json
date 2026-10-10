@@ -1,0 +1,128 @@
+{
+  "assets": [
+    {
+      "asset": "scenes_enviro",
+      "asset_sha256": "f24dbe3317f8097f1401453a40ee4919598de0b6c0e606fbdf2d5ea70b53d307",
+      "occurrences": 231
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+      "occurrences": 212
+    },
+    {
+      "asset": "scenes_endings",
+      "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+      "occurrences": 402
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "occurrences": 11157
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "5dbc50cf037a46b33442d6d47c399873ce845fc86bd4f86fe69e1c45491f5cb9",
+      "occurrences": 185
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+      "occurrences": 4149
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "occurrences": 4
+    },
+    {
+      "asset": "scenes_enviro",
+      "asset_sha256": "9a3d161dd723a9a3201b100467dd6d52731fddb2e49411121d608e7164924366",
+      "occurrences": 46
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+      "occurrences": 51
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "ab46b35e4fae1f3e4f5e6437fde97a9c29d32a4163443af8e8905374d7fac6d1",
+      "occurrences": 17
+    },
+    {
+      "asset": "scenes_enviro",
+      "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+      "occurrences": 312
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119",
+      "occurrences": 137
+    },
+    {
+      "asset": "scenes_enviro",
+      "asset_sha256": "78c9ff7be0f8fa317550084e2b862bcc01a1120b8d010a4849f5f420259f6bbe",
+      "occurrences": 50
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "bf42273387829f6f20d26bdd3cb163b8c118f6aed86f764feae39af87ad720c9",
+      "occurrences": 108
+    }
+  ],
+  "resource_occurrences": 17061,
+  "unique_actor_sources_screened": 15181,
+  "resource_actors": 43,
+  "marked_non_irma_rows": 416,
+  "review_selection": 621,
+  "selected_by_actor": {
+    "marcellus": 228,
+    "claudius": 5,
+    "hamlet": 12,
+    "ophelia": 3,
+    "guard": 39,
+    "othello": 5,
+    "laertes": 9,
+    "fortinbras": 1,
+    "horatio": 11,
+    "brit": 22,
+    "simona": 3,
+    "quince": 2,
+    "guard2": 3,
+    "bernardo": 5,
+    "kubilius": 1,
+    "grace": 199,
+    "voltemand": 1,
+    "guildenstern": 3,
+    "polonius": 6,
+    "rosencrantz": 2,
+    "katherine": 1,
+    "villager": 9,
+    "villager2": 9,
+    "brigand": 10,
+    "brigand2": 6,
+    "pirate": 12,
+    "pirate2": 12,
+    "ghost": 1,
+    "gertrude": 1
+  },
+  "full_review_actors": [
+    "brigand",
+    "brigand2",
+    "grace",
+    "guard",
+    "guard2",
+    "marcellus",
+    "pirate",
+    "pirate2",
+    "villager",
+    "villager2"
+  ],
+  "consumer_cases": 2484,
+  "limits": [
+    "词形筛选不等于判断错误，也不代表全部人物全文经过人工审校",
+    "相邻资源上下文可能含互斥分支，不能冒充实际完整游玩",
+    "通知前后组合是消费路径检查，不代表具体剧情出现该组合"
+  ]
+}

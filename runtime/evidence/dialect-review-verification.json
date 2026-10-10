@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "date": "2026-10-10",
+  "resources_screened": {
+    "resource_occurrences": 17061,
+    "unique_actor_sources_screened": 15181,
+    "resource_actors": 43
+  },
+  "reviewed_actor_source_combinations": 621,
+  "full_review_actors": [
+    "brigand",
+    "brigand2",
+    "grace",
+    "guard",
+    "guard2",
+    "marcellus",
+    "pirate",
+    "pirate2",
+    "villager",
+    "villager2"
+  ],
+  "corrections": 6,
+  "actual_recursive_xunity_cases": 2484,
+  "export_governance_tests": 15,
+  "dictionary_entries": 17027,
+  "dynamic_rules": 138,
+  "installed": true,
+  "files": {
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": {
+      "installed": "61fb80d258dbd7d6bd34797519948c821ad8435671baeac8029d85c7069b5fa6",
+      "package": "61fb80d258dbd7d6bd34797519948c821ad8435671baeac8029d85c7069b5fa6",
+      "zip": "61fb80d258dbd7d6bd34797519948c821ad8435671baeac8029d85c7069b5fa6"
+    },
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": {
+      "installed": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+      "package": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512",
+      "zip": "a65f1f6aae8bd22abdb6e041a6594d59c47e46c97d62330dcc3e7dc6f8d38512"
+    },
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": {
+      "installed": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52",
+      "package": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52",
+      "zip": "8d5a67cfbb70351a73fb1b029e41f190e6e07aadab488fb8fb074aa3b9a77b52"
+    }
+  },
+  "zip_file_count": 37,
+  "zip_entries_including_directories": 39,
+  "backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-980fc4edbb9a403f8e6cbbcfa5b9d3b5",
+  "frozen_inputs_raw_outputs_audit_unchanged": true,
+  "original_game_binaries_unchanged": true,
+  "dynamic_dictionary_unchanged": true,
+  "limits": [
+    "词形筛选不是人工审校全部人物全文，人工范围为621个角色/源句组合",
+    "通知双向组合是格式压力，不代表实际剧情",
+    "未重跑完整114028矩阵、真实游戏F8滚动或全剧情E2E"
+  ]
+}

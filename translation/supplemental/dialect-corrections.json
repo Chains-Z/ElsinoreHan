@@ -1,0 +1,153 @@
+[
+  {
+    "id": "dialect-review-a4c4a7fd5356d25c",
+    "original_id": "p05562-a4c4a7fd5356",
+    "source": "One day yer family, the next yer at each other's throats. Out here on the sea, I trust my crew more'n any one of you.",
+    "source_sha256": "a4c4a7fd5356d25cfe180f4f972a086eaa2245359d15cc2b578873f9e4a4e8f2",
+    "previous_target": "今天还是一家人，明天就要互相掐死。在这片海上，我信我的船员，胜过信你们中的任何一个。",
+    "target": "今天还是一家人，明天就斗得不可开交。在这片海上，我信我的船员，胜过信你们中的任何一个。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Mutiny_Grace_Speech",
+        "line": 14838
+      },
+      "其他角色方言与口语集中审校，2026-10-10"
+    ],
+    "reason": "at each other's throats 是激烈争斗的习语，原译具体成互相掐死，添加了掐脖子的杀人方式；用斗得不可开交保留敌对程度及口语。",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/dictionary/english/at-each-other-s-throats",
+        "finding": "释义是 arguing angrily，不要求字面掐脖子。"
+      },
+      {
+        "url": "https://www.collinsdictionary.com/us/dictionary/english/at-each-others-throats",
+        "finding": "释义包括激烈争吵或相互敌对。"
+      }
+    ]
+  },
+  {
+    "id": "dialect-review-ef4cb9c216d0dc64",
+    "original_id": "p05586-ef4cb9c216d0",
+    "source": "I didn't ask yeh, Royal Pain.",
+    "source_sha256": "ef4cb9c216d0dc64ba242eeec9fcae22c31964e4ad4aa9c50627fad188cc9de9",
+    "previous_target": "我没问你，王室小麻烦。",
+    "target": "我没问你，王室烦人精。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Mutiny_Note_Reveal",
+        "line": 14913
+      },
+      "其他角色方言与口语集中审校，2026-10-10"
+    ],
+    "reason": "Royal Pain 是对王子的挖苦称呼，pain 作极其讨厌的人，王室小麻烦过于字面、称人不自然；烦人精保留昵称挖苦与 royal 王室双关。",
+    "evidence": [
+      {
+        "url": "https://dictionary.cambridge.org/dictionary/english/pain-in-the-neck",
+        "finding": "pain 的非正式习语可指极其讨厌的人或事。"
+      }
+    ]
+  },
+  {
+    "id": "dialect-review-aead12d61d70f987",
+    "original_id": "p08805-aead12d61d70",
+    "source": "Anyway. Fancy a drink an' a yarn while you're here?",
+    "source_sha256": "aead12d61d70f9874c35aa8ff898949e6835f63c790b7367fd1250031c5ee0a7",
+    "previous_target": "总之。既然来了，要不要喝一杯，聊聊故事？",
+    "target": "总之。既然来了，要不要喝一杯，讲讲故事？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GRACE_PrivateMeeting",
+        "line": 24618
+      },
+      "其他角色方言与口语集中审校，2026-10-10"
+    ],
+    "reason": "yarn 已正确理解为故事，但聊聊故事搭配生硬；改为讲讲故事，保留邀请喝酒讲述趣事的口语，不额外添加夸张或虚构判断。",
+    "evidence": [
+      {
+        "url": "https://www.oxfordlearnersdictionaries.com/us/definition/american_english/yarn",
+        "finding": "非正式名词指长故事，常为夸张或编造的故事；本场景后续确实讲经历。"
+      }
+    ]
+  },
+  {
+    "id": "dialect-review-603a5ec7100a7957",
+    "original_id": "p08933-603a5ec7100a",
+    "source": "If there's one thing I've learned, it's that unnecessary death always comes t'bite me eventually.",
+    "source_sha256": "603a5ec7100a79570cdc8a6205b69f059306716464dfcf906d0abfcd48c9ee88",
+    "previous_target": "这些年我至少学会了一件事：不必要的死人，迟早总会给我惹来麻烦。",
+    "target": "这些年我至少学会了一件事：没必要闹出的人命，迟早总会给我惹来麻烦。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GRACE_PostMutinyNoDeath",
+        "line": 24879
+      },
+      "其他角色方言与口语集中审校，2026-10-10"
+    ],
+    "reason": "death 是死亡结果，原译不必要的死人把抽象事件变成生硬的人物名词；口语闹出人命对应本场景多余的杀戮，comes to bite 已正确译惹麻烦而保留。",
+    "evidence": [
+      {
+        "type": "context",
+        "finding": "前句说冲突本来可能流更多血，后句说免于全面开战；不是人在死后行动。"
+      }
+    ]
+  },
+  {
+    "id": "dialect-review-e5f94d12cb02ad9e",
+    "original_id": "p06104-e5f94d12cb02",
+    "source": "But I told him it could be all kinds o' people, and not to fret.",
+    "source_sha256": "e5f94d12cb02ad9eed6a624d03a88c9f403481c61599eb7750803c82cb8d0372",
+    "previous_target": "可我跟他说，那人可能是谁都不一定，别瞎担心。",
+    "target": "可我跟他说，那人是谁都有可能，别瞎担心。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_MarcellusSummoned",
+        "line": 16507
+      },
+      "其他角色方言与口语集中审校，2026-10-10"
+    ],
+    "reason": "原译把可能是谁与谁都不一定两个中文结构拼接，语序生硬。all kinds o' people 是身份可能很多，并非特定人物名或方言称呼；保留不确定身份和劝其不要担心。",
+    "evidence": [
+      {
+        "type": "resource_context",
+        "scene": "ASSN_MarcellusSummoned",
+        "asset": "scenes",
+        "line": 16507,
+        "description": "前一句描述霍拉旭见到有人离开城堡往镇上去，并向马塞勒斯打听那人的身份。"
+      }
+    ]
+  },
+  {
+    "id": "dialect-review-16f33652e5124a4e",
+    "original_id": "p03228-16f33652e512",
+    "source": "We came to see if you were all right, lad.",
+    "source_sha256": "16f33652e5124a4eeb002e69f26b28647d5ef54281dc99d67f957269ab0b4317",
+    "previous_target": "我们来看看你还好吗，小伙子。",
+    "target": "我们来看看你有没有事，小伙子。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_LaertesDrunk",
+        "line": 7675
+      },
+      "其他角色方言与口语集中审校，2026-10-10"
+    ],
+    "reason": "嵌入陈述句的间接疑问不保留句末吗，改为自然口语，保留询问对方是否安好的来意与lad呼语",
+    "evidence": [
+      {
+        "type": "resource_context",
+        "description": "前文朋友们听说婚約可能令对方难过，前来问候；不是要询问是否收到邀请。"
+      }
+    ]
+  }
+]
