@@ -101,4 +101,6 @@
 
 后续时间线状态与宗教词文案见docs/dev-tasks/localization/timeline-religion-review-2026-10-10.md。四条新目标和两前缀目标1512项定向消费者通过，不重复基线重型界面；最新候选词表/ZIP SHA绑定runtime/evidence/timeline-religion-followup-verification.json，旧reading-followup记录保留原候选快照。devas/asuras为类别；曾建议改天神，后按用户意见保留提婆/阿修罗；未来ImpossibleEvent标签当前条件下不会发生，过去未发生。
 
-用户最终决定保留提婆/阿修罗；586fd5b的天神改译已撤回，对白及简介两处恢复。religious-term-reviewed.json只记录决定，不加载为校订层。最新候选SHA以runtime/evidence/retained-deva-verification.json为准；748项相关消费者、15项导出检查通过，时间线标签校订保留。
+用户最终决定保留提婆/阿修罗；586fd5b的天神改译已撤回，对白及简介两处恢复。religious-term-reviewed.json只记录决定，不加载为校订层。该阶段候选SHA记录于runtime/evidence/retained-deva-verification.json；748项相关消费者、15项导出检查通过，时间线标签校订保留。
+
+奎因斯演出回顾语气定向校订见reading-text-review-2026-10-10.md；28项相关消费者和15项导出检查通过。只改一条对白，不补演出时点，不改变规则。当前候选词表/ZIP哈希以runtime/evidence/late-play-text-verification.json为准，37文件逐项一致；仍未安装，前轮快照不改写。

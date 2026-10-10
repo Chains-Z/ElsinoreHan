@@ -1,0 +1,27 @@
+{
+  "status": "verified_pending_install",
+  "previous_candidate_commit": "f8ce723a09de1cb3e3e7666ab8a011a30456e4be",
+  "original_id": "p11946-78df2794f513",
+  "source": "That window of opportunity has, shall we say, been shut. I hope you enjoyed the performance.",
+  "target": "那扇机会之窗，可以说已经关上了。希望那场演出让你看得尽兴。",
+  "context": "真实脚本检查改戏期限，不检查演出是否结束；回顾语气不补刚才等时点",
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 28
+  },
+  "export_tests": 15,
+  "formal_install_changed": false,
+  "candidate_zip_matches_directory": true,
+  "candidate_package_file_count": 37,
+  "candidate_zip_sha256": "95bed52e0bb6034c0554efad3d229fbed631fc164727e09c4a77b2ad0bf4167c",
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "969aaf66fa1fc41743c2a349c446fdede221fca1533aa5d63b34879f7659bb11",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "feaa1871e8a03da52af616ef78037655c6000c140dfa2d923466fa6125c56194",
+    "translation/supplemental/dialogue-context-corrections.json": "6972d052e718f92e6fa1516198715970843cfdd7e10f41705188dcbe3ed81c83",
+    "translation/supplemental/reading-context-tests.json": "1f1c67c9225c0e50abaf139c975565f5476c8bb18fbc24acbead854f967f4698"
+  },
+  "limits": [
+    "只校订一条对白，不改变插件或拆分规则",
+    "未重复重型界面和滚动验收；候选尚未安装"
+  ]
+}

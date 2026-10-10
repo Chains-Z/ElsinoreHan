@@ -17,6 +17,7 @@ def main():
                     "p02687-d1e4494f09eb": ("Hamlet", "哈姆雷特"),
                     "p04724-17500c24bf52": ("Quince", "奎因斯"),
                     "p01429-cfac3c4184a6": ("Quince", "奎因斯"),
+                    "p11946-78df2794f513": ("Quince", "奎因斯"),
                     "p00287-446b0d6707f4": ("Ophelia", "奥菲莉娅")}
         name, target_name = speakers[row["original_id"]]
         cases.append({"id": row["id"] + "-speaker",

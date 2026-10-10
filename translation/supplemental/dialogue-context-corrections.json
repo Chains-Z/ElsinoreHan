@@ -139,5 +139,19 @@
       "用户指定morbid译为病态，2026-10-10"
     ],
     "reason": "按用户语境意见将morbid sense of humor由阴森改为病态的幽默感，只修此句，不全局替换阴森"
+  },
+  {
+    "id": "dialogue-context-78df2794f5138609",
+    "original_id": "p11946-78df2794f513",
+    "source": "That window of opportunity has, shall we say, been shut. I hope you enjoyed the performance.",
+    "source_sha256": "78df2794f51386096d1e1ad2cd28c61d38cc1d4f51e1ec12fef5da3750a79761",
+    "previous_target": "那扇机会之窗，可以说，已经关上了。希望你喜欢这场演出。",
+    "target": "那扇机会之窗，可以说已经关上了。希望那场演出让你看得尽兴。",
+    "origins": [
+      "resources.assets:scenes_present:2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+      "Assembly-CSharp.dll:#US:361319",
+      "用户奎因斯迟到话题截图，2026-10-10"
+    ],
+    "reason": "保留机会之窗的原文比喻并顺插入语标点；enjoyed的回顾语气以那场演出和看得尽兴体现，不加刚才或已看完。真实脚本只检查改戏期限，不据此推断演出已经结束"
   }
 ]

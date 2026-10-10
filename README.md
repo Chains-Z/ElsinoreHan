@@ -6,6 +6,8 @@
 
 后续校订时间线“当前条件下不会发生／未发生”标签；霍拉旭按用户决定保留既有“提婆和阿修罗”，对白与简介两处替换均撤回。最新候选748项相关消费者及15项导出检查通过，前轮1512项为历史证据；见[文案跟进](docs/dev-tasks/localization/timeline-religion-review-2026-10-10.md)。候选包已更新，仍待退出安装。
 
+奎因斯“希望你喜欢这场演出”已校订为回顾语气，28项相关消费者及15项导出检查通过；见[正文审校](docs/dev-tasks/localization/reading-text-review-2026-10-10.md)。最新候选哈希见 `runtime/evidence/late-play-text-verification.json`，仍待退出安装。
+
 按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
 
 完整本地备份包（当前为待安装候选1.5.0）：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
