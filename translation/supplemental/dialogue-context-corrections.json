@@ -205,5 +205,107 @@
       "用户布莉特对白both of them指代截图，2026-10-11"
     ],
     "reason": "both of them承接前面的Claudius and Hamlet，不是婚约句中的福丁布拉斯。真实脚本仅在dead(claudius)的else分支显示，前句亦明确Hamlet已死；补明人名，保留已发生时态与原文不在了的措辞，不改为将来条件。"
+  },
+  {
+    "id": "biography-context-20f71bff0a4213df",
+    "original_id": "p00580-20f71bff0a42",
+    "source": "The Prince of Norway, Fortinbras. His father was killed by Hamlet's father, and his uncle now rules Norway at large. Despite his claims of wanting to make amends, he has agents meant to manipulate the court.",
+    "source_sha256": "20f71bff0a4213dfd855948f09bed7aae381115c05ee7ed7895a2e8918cd19d3",
+    "previous_target": "挪威王子福丁布拉斯。他的父亲被哈姆雷特的父亲杀死，如今他的叔父统治着整个挪威。尽管他声称想要修好，却安插了人手，意图操纵宫廷。",
+    "target": "挪威王子福丁布拉斯。他的父亲被哈姆雷特的父亲杀死，如今他的叔父统治着整个挪威。尽管他声称想与丹麦王室重修于好，却安插了人手，意图操纵宫廷。",
+    "origins": [
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "7719667ee3148d299a450be0ca1c4f50e9eeec2ceb537adc8fec60a8a8fa3718",
+        "json_path": "$.list[15].lines[0].text",
+        "field": "text",
+        "actor": "fortinbras",
+        "record_id": "initial"
+      },
+      {
+        "file": "resources.assets",
+        "asset": "bios",
+        "asset_sha256": "53db25df9eedee1d29110dfb8def2e8cdacf935b38c50280419a1713ede21b26",
+        "json_path": "$.list[15].lines[0].text",
+        "field": "text",
+        "actor": "fortinbras",
+        "record_id": "initial"
+      },
+      "用户福丁布拉斯简介要求补明与丹麦王室重修于好，2026-10-11"
+    ],
+    "reason": "按人物简介的两国关系语境补明make amends的对象，使用用户指定的重修于好，避免孤立修好被理解成修理东西；其余正文不变。"
+  },
+  {
+    "id": "short-reply-context-7837be81885c529b",
+    "original_id": "p03634-7837be81885c",
+    "source": "I do.",
+    "source_sha256": "7837be81885c529b9713bfada41f55ee5343357f6aae1e37d6ff592068aa122b",
+    "previous_target": "我明白。",
+    "target": "是的。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_BritExecution",
+        "line": 9082
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HoratioRosencrantzChat",
+        "line": 29324
+      },
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "hamlet_SomeoneKillingMe",
+        "line": 737
+      },
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "irma_simonalives",
+        "line": 4411
+      },
+      "用户幽灵对白截图，2026-10-11"
+    ],
+    "reason": "同一裸源用于理解、建议、信任和相信四种语境，使用共同肯定回答是的，不把do固定理解为明白。"
+  },
+  {
+    "id": "short-reply-context-2a4d534c4eac0f8a",
+    "original_id": "ui-2a4d534c4eac0f8a",
+    "source": "<i>I do.</i>",
+    "source_sha256": "2a4d534c4eac0f8a3571c4af5dba2d3b03f79c84078d2c4dca94f01bff4ac87e",
+    "previous_target": "<i>我明白。</i>",
+    "target": "<i>是的，我也一样。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHOST_GhostApperation",
+        "line": 9564
+      },
+      "用户幽灵对白截图，2026-10-11"
+    ],
+    "reason": "幽灵的do承接前句experience time repeating，肯定自己同样经历时间循环，不是表示明白。保留幽灵斜体，与非斜体共用短句分开校订。"
+  },
+  {
+    "id": "ghost-context-f7da23e9f53627e6",
+    "original_id": "a00148-f7da23e9f536",
+    "source": "<i><i>Terrible, bloody deeds were committed. My father was a cruel and greedy man.</i></i>",
+    "source_sha256": "f7da23e9f53627e6adff65d7ea1cb365dbde977faa0d85525b371a8c914a8b59",
+    "previous_target": "<i><i>发生过可怕而血腥的暴行。我的父亲是个残忍又贪婪的人。</i></i>",
+    "target": "<i><i>有人犯下了可怕的血腥暴行。我的父亲是个残忍又贪婪的人。</i></i>",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "ghost_simonalives",
+        "line": 4459
+      },
+      "用户幽灵对白截图，2026-10-11"
+    ],
+    "reason": "committed对应犯下暴行，替换生硬的发生过暴行；原文未明确施暴者和受害者，不硬补母亲遭受伤害或父亲实施具体行为。保留双层斜体和后句。"
   }
 ]

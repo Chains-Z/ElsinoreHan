@@ -6,6 +6,8 @@
 
 随后按用户意见，布莉特对白将“包下来”改为“长期预约”，保留原文幽默比喻和“闲待”；另一句“他们两个都不在了”补明为“克劳狄斯和哈姆雷特都不在了”。最新36项相关消费者及15项导出检查通过，候选词表和ZIP哈希见 `runtime/evidence/brit-succession-followup-verification.json`，仍待退出安装。
 
+随后补明福丁布拉斯“与丹麦王室重修于好”，修正幽灵关于时间循环的“I do.”和“犯下暴行”的搭配，并核查全部5处同形短答。62项相关消费者及15项导出检查通过；最新候选词表和ZIP哈希见 `runtime/evidence/ghost-context-followup-verification.json`，仍未安装。
+
 最新1.5.0修复多人通知连带日志漏译、人物简介更新组合及长文档F8阅读位置，并校订近期截图中的称号、对白和文章。候选阶段128,408项真实翻译消费者、131项真实游戏离线API及隔离副本页面检查通过。**用户退出游戏后已备份安装，安装文件与个人备份ZIP核对一致，安装前后8个存档文件的哈希和修改时间未变**；详见[本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)和[安装核验](runtime/evidence/reading-install-verification.json)。
 
 后续校订时间线“当前条件下不会发生／未发生”标签；霍拉旭按用户决定保留既有“提婆和阿修罗”，对白与简介两处替换均撤回。748项相关消费者及15项导出检查通过，前轮1512项为历史证据；见[文案跟进](docs/dev-tasks/localization/timeline-religion-review-2026-10-10.md)。这些文案已随本轮安装。

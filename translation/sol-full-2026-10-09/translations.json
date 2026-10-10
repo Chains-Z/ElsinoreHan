@@ -3493,8 +3493,9 @@
   {
     "id": "p00580-20f71bff0a42",
     "source": "The Prince of Norway, Fortinbras. His father was killed by Hamlet's father, and his uncle now rules Norway at large. Despite his claims of wanting to make amends, he has agents meant to manipulate the court.",
-    "target": "挪威王子福丁布拉斯。他的父亲被哈姆雷特的父亲杀死，如今他的叔父统治着整个挪威。尽管他声称想要修好，却安插了人手，意图操纵宫廷。",
-    "batch": "b0010"
+    "target": "挪威王子福丁布拉斯。他的父亲被哈姆雷特的父亲杀死，如今他的叔父统治着整个挪威。尽管他声称想与丹麦王室重修于好，却安插了人手，意图操纵宫廷。",
+    "batch": "b0010",
+    "supplement_id": "biography-context-20f71bff0a4213df"
   },
   {
     "id": "p00581-f5958436e3f7",
@@ -21825,8 +21826,9 @@
   {
     "id": "p03634-7837be81885c",
     "source": "I do.",
-    "target": "我明白。",
-    "batch": "b0030"
+    "target": "是的。",
+    "batch": "b0030",
+    "supplement_id": "short-reply-context-7837be81885c529b"
   },
   {
     "id": "p03635-1241313b6943",
@@ -91568,8 +91570,9 @@
   {
     "id": "a00148-f7da23e9f536",
     "source": "<i><i>Terrible, bloody deeds were committed. My father was a cruel and greedy man.</i></i>",
-    "target": "<i><i>发生过可怕而血腥的暴行。我的父亲是个残忍又贪婪的人。</i></i>",
-    "batch": "b0104"
+    "target": "<i><i>有人犯下了可怕的血腥暴行。我的父亲是个残忍又贪婪的人。</i></i>",
+    "batch": "b0104",
+    "supplement_id": "ghost-context-f7da23e9f53627e6"
   },
   {
     "id": "a00149-0d803d27921d",
@@ -100887,8 +100890,9 @@
   {
     "id": "ui-2a4d534c4eac0f8a",
     "source": "<i>I do.</i>",
-    "target": "<i>我明白。</i>",
-    "batch": "settings-supplemental"
+    "target": "<i>是的，我也一样。</i>",
+    "batch": "settings-supplemental",
+    "supplement_id": "short-reply-context-2a4d534c4eac0f8a"
   },
   {
     "id": "ui-50a72da3149f2c3a",
