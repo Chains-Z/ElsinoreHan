@@ -1,0 +1,25 @@
+{
+  "status": "verified_pending_install",
+  "previous_candidate_commit": "11186a0f51efac9c791cecd06d16e1b09e736693",
+  "original_id": "p09190-4371d46d4f86",
+  "target": "你们两个蠢货在干什么？我可是长期预约了在这儿闲待的。一个人。",
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 34
+  },
+  "export_tests": 15,
+  "formal_install_changed": false,
+  "candidate_zip_matches_directory": true,
+  "candidate_package_file_count": 37,
+  "candidate_zip_sha256": "998b6e17a16aa5aafa854dc7535163f4808dad72f2a649a8e492c8c8cd8ad429",
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "3ea0d29995fdbd6a709e2fc851352ca98215cbaac54c784523ec0df4f5a172b9",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "e8f834712aa3d8535a978365c88645cbeb135b46dcb7d100f57ddeeb0f64ac4a",
+    "translation/supplemental/dialogue-context-corrections.json": "16042b2793286d2f466a99c5c192f28c3741e7c246cc5794b94cef631e35511c",
+    "translation/supplemental/reading-context-tests.json": "440e3e5d000699280f331ffb41a7488cdb86402977050c03e9571605349b76bc"
+  },
+  "limits": [
+    "只改布莉特一句措辞；保留闲待、原文预约比喻及Alone单独强调",
+    "未重跑前轮2200矩阵或重型界面；此前候选验证保留原快照，主游戏运行中尚未安装"
+  ]
+}

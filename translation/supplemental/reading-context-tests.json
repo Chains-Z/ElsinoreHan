@@ -317,6 +317,15 @@
     ]
   },
   {
+    "id": "dialogue-context-4371d46d4f86257c-leaf",
+    "source": "What are you two idiots doing? I have a permanent reservation on loitering here. Alone.",
+    "target": "你们两个蠢货在干什么？我可是长期预约了在这儿闲待的。一个人。",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:FLAVOR_BringBritSupplies:25724",
+      "用户明确要求保留长期预约的幽默夸张说法，2026-10-11"
+    ]
+  },
+  {
     "id": "reading-document-4620b1e72903bafa-leaf",
     "source": "8 Signs Your Nobleman Is Treacherous",
     "target": "贵族心怀不轨的八个征兆",
@@ -415,6 +424,11 @@
     "id": "dialogue-context-b18e9b908b5cf789-speaker",
     "source": "<b>Polonius:</b> <indent=16%>When she took ill, King Hamlet ordered her put into one of the sanitariums on the southern coast.",
     "target": "<b>波洛涅斯:</b> <indent=16%>你母亲病倒后，哈姆雷特国王下令把她送进南部海岸的一所疗养院。"
+  },
+  {
+    "id": "dialogue-context-4371d46d4f86257c-speaker",
+    "source": "<b>Brit:</b> <indent=16%>What are you two idiots doing? I have a permanent reservation on loitering here. Alone.",
+    "target": "<b>布莉特:</b> <indent=16%>你们两个蠢货在干什么？我可是长期预约了在这儿闲待的。一个人。"
   },
   {
     "id": "hamlet-context-pair",
