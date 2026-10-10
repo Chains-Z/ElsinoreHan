@@ -166,7 +166,7 @@ def main():
     rows = apply_supplemental(rows, supplemental)
     for filename in ("playmaster-corrections.json", "knight-guard-corrections.json", "irma-corrections.json", "dialect-corrections.json",
                      "court-title-corrections.json", "dialogue-context-corrections.json", "reading-document-corrections.json",
-                     "timeline-label-corrections.json", "religious-term-corrections.json"):
+                     "timeline-label-corrections.json"):
         terminology_path = SUPPLEMENTAL.with_name(filename)
         if terminology_path.exists():
             terminology = json.loads(terminology_path.read_text(encoding="utf-8"))

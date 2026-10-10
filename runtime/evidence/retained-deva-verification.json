@@ -1,0 +1,30 @@
+{
+  "status": "verified_pending_install",
+  "previous_candidate_commit": "586fd5bbe03debb19b000a71fae8f2dcadd0d902",
+  "decision": "保留提婆和阿修罗；两处天神替换撤回，时间线校订保留",
+  "consumer_suites": {
+    "retained_terms_and_timeline": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 10
+    },
+    "biography": {
+      "actual_recursive_xunity_consumer_passed": true,
+      "count": 738
+    }
+  },
+  "total_cases": 748,
+  "export_tests": 15,
+  "formal_install_changed": false,
+  "candidate_zip_matches_directory": true,
+  "candidate_zip_sha256": "45024f52e0da66ced8f02976cb3a3714c0afd703aab39f0472b7139b0db6a21f",
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "0d7b233bec96cd5c2aa916727159fa59316400c5a80e9eae8d1d379d6db82ccc",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "feaa1871e8a03da52af616ef78037655c6000c140dfa2d923466fa6125c56194",
+    "translation/supplemental/religious-term-reviewed.json": "1f433e339171c5ff166f8943b72db964bc6bc3aeddc02bf683b71a3118e82905",
+    "translation/supplemental/term-followup-tests.json": "01089afa5c513fc91b43e245e7a5d3a790cab3cbb30eeb6ba96774a27301892e"
+  },
+  "limits": [
+    "只回退词语，没有更改插件、解析语法或游戏条件",
+    "未重复完整矩阵、重型界面或滚动验收；主游戏仍运行，候选尚未安装"
+  ]
+}

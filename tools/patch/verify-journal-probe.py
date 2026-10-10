@@ -50,7 +50,7 @@ def resource_corrections() -> list[dict]:
     # 顺序与正式导出一致；资源期望只消费准确旧值匹配的校订，不直接采用正式显示值。
     for filename in ("playmaster-corrections.json", "knight-guard-corrections.json", "irma-corrections.json",
                      "dialect-corrections.json", "court-title-corrections.json", "dialogue-context-corrections.json",
-                     "reading-document-corrections.json", "timeline-label-corrections.json", "religious-term-corrections.json"):
+                     "reading-document-corrections.json", "timeline-label-corrections.json"):
         path = directory / filename
         if path.exists():
             rows.extend(json.loads(path.read_text(encoding="utf-8")))

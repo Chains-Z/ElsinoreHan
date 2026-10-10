@@ -99,4 +99,6 @@
 
 本轮简介由prepare_biography_followup.py从三份真实bios再生：6别名、16规则、345保序子集裸/行高共690正例及48拒绝例。人物页真实重放限冻结14头像，不造解锁。prepare_notification_list_followup.py修真实个体粗体名单的共享前缀；9304矩阵含完整一/二人位置和三至五人环形位置，不能称三至五人全部排列。终版副本c260fdd已清理；原存档并行比较无法下结论。package-full.ps1 -PendingInstall明确候选包未安装，正式安装后不带此开关再打包。
 
-后续时间线状态与宗教词文案见docs/dev-tasks/localization/timeline-religion-review-2026-10-10.md。四条新目标和两前缀目标1512项定向消费者通过，不重复基线重型界面；最新候选词表/ZIP SHA绑定runtime/evidence/timeline-religion-followup-verification.json，旧reading-followup记录保留原候选快照。devas/asuras为类别，两源统一天神/阿修罗；未来ImpossibleEvent标签当前条件下不会发生，过去未发生。
+后续时间线状态与宗教词文案见docs/dev-tasks/localization/timeline-religion-review-2026-10-10.md。四条新目标和两前缀目标1512项定向消费者通过，不重复基线重型界面；最新候选词表/ZIP SHA绑定runtime/evidence/timeline-religion-followup-verification.json，旧reading-followup记录保留原候选快照。devas/asuras为类别；曾建议改天神，后按用户意见保留提婆/阿修罗；未来ImpossibleEvent标签当前条件下不会发生，过去未发生。
+
+用户最终决定保留提婆/阿修罗；586fd5b的天神改译已撤回，对白及简介两处恢复。religious-term-reviewed.json只记录决定，不加载为校订层。最新候选SHA以runtime/evidence/retained-deva-verification.json为准；748项相关消费者、15项导出检查通过，时间线标签校订保留。

@@ -1,4 +1,4 @@
-"""生成时间线状态及宗教类别校订的实际消费者用例，不改游戏条件。"""
+"""生成时间线状态校订与宗教既有音译保留的实际消费者用例。"""
 
 import json
 from prepare_dialogue_log_followup import ROOT, read, save
@@ -7,7 +7,7 @@ from prepare_dialogue_log_followup import ROOT, read, save
 def main():
     directory = ROOT / "translation/supplemental"
     labels = read(directory / "timeline-label-corrections.json")
-    terms = read(directory / "religious-term-corrections.json")
+    terms = read(directory / "religious-term-reviewed.json")
     cases = [{"id": row["id"] + "-leaf", "source": row["source"], "target": row["target"],
               "origins": row["origins"]} for row in labels + terms]
     translations = {r["source"]: r["target"] for r in read(ROOT / "translation/sol-full-2026-10-09/translations.json")}
