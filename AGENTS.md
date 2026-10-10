@@ -6,6 +6,8 @@
 
 后续布莉特p09190按用户意见保留“长期预约在这里闲待”的夸张幽默，不改成包场；34项相关消费者和15项导出检查通过。最新候选词表/ZIP哈希以runtime/evidence/brit-reservation-followup-verification.json为准，前轮2200及Model证据保留各自快照；主游戏仍运行，候选未安装。
 
+最新对白跟进p03368的both of them补明克劳狄斯和哈姆雷特；真实脚本为dead(claudius)分支，Hamlet亦已死，不指福丁布拉斯，不改为未来条件。36项相关消费者及15项导出检查通过；当前候选词表/ZIP SHA以runtime/evidence/brit-succession-followup-verification.json为准，前轮各记录保留快照，候选仍未安装。
+
 最新1.5.0、17,033条、154条规则已安装，修复多人通知弹窗/日志边界、人物简介组合与文档F8位置，并包含后续时间线及奎因斯对白校订；提婆/阿修罗保留。候选阶段128,408项真实消费者、131项真实游戏离线API、14个人物/文档与7历史索引、文档18次和日志8次F8通过。用户退出后备份安装，35个运行文件、37文件包目录及ZIP一致，原游戏四文件和8个存档的哈希/修改时间/数量未变。见 [本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)及runtime/evidence/reading-install-verification.json。下一步继续随实际游玩校订，不重跑未改变的整组测试。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。

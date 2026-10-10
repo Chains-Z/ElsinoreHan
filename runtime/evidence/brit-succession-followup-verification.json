@@ -1,0 +1,29 @@
+{
+  "status": "verified_pending_install",
+  "previous_candidate_commit": "430b189fa2b07793db326c0c86c1f4e4e1506e32",
+  "original_id": "p03368-3de63a5e5390",
+  "antecedents": [
+    "Claudius",
+    "Hamlet"
+  ],
+  "runtime_branch": "if not dead(claudius)的else分支，且此前对白明确Hamlet已死",
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 36
+  },
+  "export_tests": 15,
+  "formal_install_changed": false,
+  "candidate_zip_matches_directory": true,
+  "candidate_package_file_count": 37,
+  "candidate_zip_sha256": "9f12027f2ed5476405edf0095f424b37111f755ac41be78668aa940044f72ff3",
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "d63ba10a1ff223d59c63ac61af5d296fb2a8c766caf2e5707612c7670ee6657c",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "e8f834712aa3d8535a978365c88645cbeb135b46dcb7d100f57ddeeb0f64ac4a",
+    "translation/supplemental/dialogue-context-corrections.json": "041c1b870a7e017c2904f07acdeafbd1c100175201d7319373edddc900378847",
+    "translation/supplemental/reading-context-tests.json": "7290d4406b886d21c142713e11bf1e285f12c567459fe1f77b95a563efa0aea1"
+  },
+  "limits": [
+    "仅补明一条对白代词，不新增福丁布拉斯的死亡或未来条件",
+    "未重跑重型页面或前轮完整矩阵；此前候选记录保留各自快照，最新候选未安装"
+  ]
+}
