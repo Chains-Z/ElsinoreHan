@@ -71,3 +71,5 @@
 保留原文的机会之窗比喻，顺插入语标点；后半句体现 enjoyed 的回顾语气。真实 `quince_AssassinPlay` 等分支只检查改戏期限，不检查演出是否结束，因此没有补“刚才”或“已经看完”。治理层保留准确旧译、源 SHA 和来源，不改冻结响应。
 
 28项真实翻译消费者及15项导出检查通过；37文件候选目录与ZIP逐文件哈希一致。候选尚未安装，没有重跑前轮重型界面和滚动检查。当前词表与ZIP哈希见 `runtime/evidence/late-play-text-verification.json`；前轮证据保留各自快照。
+
+后续安装更新：用户退出游戏后，本页的最新校订已随1.5.0正式安装。当前安装及备份包哈希见 `runtime/evidence/reading-install-verification.json`，上述候选阶段结果和哈希保持历史快照。

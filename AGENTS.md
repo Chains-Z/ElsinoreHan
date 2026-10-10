@@ -2,7 +2,7 @@
 
 更新时间：2026-10-10。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
-最新候选1.5.0、17,033条、154条规则已验证，修复多人通知弹窗/日志边界、人物简介组合与文档F8位置，并校订近期截图文字。128,408项真实消费者、131项真实游戏离线API、14个人物/文档与7历史索引、文档18次和日志8次F8通过；候选ZIP同步。**用户主游戏仍在运行，尚未安装，正式安装仍为1.4.0、17,027条、138规则。**见 [本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)。下一步待保存退出后备份安装并更新记录，不重跑未改变的整组测试。
+最新1.5.0、17,033条、154条规则已安装，修复多人通知弹窗/日志边界、人物简介组合与文档F8位置，并包含后续时间线及奎因斯对白校订；提婆/阿修罗保留。候选阶段128,408项真实消费者、131项真实游戏离线API、14个人物/文档与7历史索引、文档18次和日志8次F8通过。用户退出后备份安装，35个运行文件、37文件包目录及ZIP一致，原游戏四文件和8个存档的哈希/修改时间/数量未变。见 [本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)及runtime/evidence/reading-install-verification.json。下一步继续随实际游玩校订，不重跑未改变的整组测试。
 
 语言、沙盒、Windows通用操作、subagent使用、Git提交和通用测试分级沿用用户级AGENTS，本文件不重复维护。
 
@@ -11,7 +11,7 @@
 ## 接手先读
 
 1. README.md：当前安装、快捷键和入口。
-   docs/dev-tasks/localization/reading-followup-2026-10-10.md：最新候选通知/简介/文档F8修复，明确待安装。
+   docs/dev-tasks/localization/reading-followup-2026-10-10.md：最新通知/简介/文档F8修复及正式安装记录。
    docs/dev-tasks/localization/reading-text-review-2026-10-10.md：小说指定段与八个征兆整篇审校。
    docs/dev-tasks/localization/dialect-dialogue-review-2026-10-10.md：最新其他角色方言/口语审校。
    docs/dev-tasks/localization/irma-dialogue-review-2026-10-10.md：最新厨娘方言、昵称和用户口语校订。
@@ -21,7 +21,7 @@
    docs/dev-tasks/localization/runtime-ui-followup.md：最新日志、通知、文档、长人物名和排版决策。
    docs/dev-tasks/localization/tmp-compatibility.md：TMP兼容实现及前轮验证局限。
 2. docs/dev-tasks/localization/ui-audit.md：最新界面修复、源审计和实际验收。
-3. runtime/evidence/reading-followup-verification.json：最新候选终版验证及待安装状态；runtime/evidence/dialect-review-verification.json：最新其他角色审校、消费者与安装核验；irma-review-verification.json：前轮厨娘审校证据；playthrough-text-verification.json：前轮正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
+3. runtime/evidence/reading-install-verification.json：当前安装及ZIP哈希；reading-followup-verification.json：候选阶段终版验证快照；runtime/evidence/dialect-review-verification.json：最新其他角色审校、消费者与安装核验；irma-review-verification.json：前轮厨娘审校证据；playthrough-text-verification.json：前轮正文校订、原记录保护与安装；mixed-log-verification.json：前轮混合日志、离线API、安装与ZIP核验；log-followup-verification.json保留前轮日志位置保护；ui-followup-verification.json保留前轮阶段，tmp-ui-verification.json保留前轮字体网格证据，ui-audit-verification.json和full-patch-verification.json是历史阶段快照。
 4. docs/dev-tasks/localization/sol-full.md：冻结全文、来源、实际CLI用量与维护方式。
 5. 需要追溯历史时再读 docs/dev-tasks/localization/README.md；原粗提取统计在 analysis/metrics.json，脚本为 analysis/analyze.py。
 
@@ -31,13 +31,13 @@
 
 - 项目：D:\MyProjects\ElsinoreHan；游戏：D:\SteamLibrary\steamapps\common\Elsinore。
 - 已验证游戏：Windows x86、Mono，Unity 2018.4.20f1，《Elsinore》1.4.1（3678），主要文字组件为TextMeshProUGUI。
-- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.4.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
-- 当前正式安装词表 **17,027条**；仓库候选导出17,033条，新增6个简介运行别名。已安装词表由原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名，以及161个保持通知尾LF的源别名（正文逐字复用，不是新翻译）。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
-- 正式安装共138条动态规则（候选154条）：24个数字/F# %s模板，114条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
+- 补丁结构：BepInEx 5 x86 + XUnity.AutoTranslator 5.6.2 + 中文TMP字体 + 本项目F8/TMP兼容插件1.5.0。词表预制离线加载；Endpoint与FallbackEndpoint均为空，不在游玩时调用翻译API。
+- 当前正式安装词表 **17,033条**；新增6个简介运行别名。此前17,027条由原16,228条加界面修复新增613条、一条文档加载变体、一条哈姆雷特资料变体、18个线索运行别名和5个对白运行别名，以及161个保持通知尾LF的源别名组成（正文逐字复用，不是新翻译）。原始全文由 gpt-6.1-sol 经现有Codex登录完成112批；后续只定向补译与校订，不重跑全文。
+- 正式安装共154条动态规则：24个数字/F# %s模板，130条限定UI拆分规则。MaxTextParserRecursion=64支持日期、房间、名单和多段组合；配置变更需重启游戏，Alt+R只重载词表。真实XUnity按逆序只取首个匹配规则，失败不得在验证器中换另一条规则兜底。
 - TMP1.4.0的SetText只写解析缓冲区、getter读旧m_text；插件拦截StringBuilder和字符串双参数入口，转交原文到text setter。即时路径不执行拆分，setter前缀以纯离线API消费并明确登记完整组合内存缓存（Full/scope=-1/persist=false），让XUnity维护原文/F8。只查询TryTranslate不能保证组合被缓存；不直接把中文写成游戏原始数据。
 - F8显示缓存的真实英文原文，再按恢复中文；不是从中文反向翻译。插件源码 tools/patch/TranslationToggle.cs。原手工sample.txt已备份停用。
 - 未覆盖原游戏exe、UnityPlayer.dll、resources.assets或Assembly-CSharp.dll；四文件哈希已核对一致。
-- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 是已验证但待安装的1.5.0候选，与正式安装1.4.0不同；说明页明确待安装。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
+- 当前个人备份包 runtime/package/ElsinoreHan-Sol.zip 已与正式安装1.5.0同步；包配置逐字复用安装器保留的现有配置及XUnity自动补全项。依赖、字体、ZIP、游戏副本、安装/存档备份和密钥均不入Git。
 
 ## 界面提取与译文治理
 
@@ -104,3 +104,5 @@
 用户最终决定保留提婆/阿修罗；586fd5b的天神改译已撤回，对白及简介两处恢复。religious-term-reviewed.json只记录决定，不加载为校订层。该阶段候选SHA记录于runtime/evidence/retained-deva-verification.json；748项相关消费者、15项导出检查通过，时间线标签校订保留。
 
 奎因斯演出回顾语气定向校订见reading-text-review-2026-10-10.md；28项相关消费者和15项导出检查通过。只改一条对白，不补演出时点，不改变规则。当前候选词表/ZIP哈希以runtime/evidence/late-play-text-verification.json为准，37文件逐项一致；仍未安装，前轮快照不改写。
+
+正式安装更新：用户退出游戏后，上述候选已通过install-full.ps1备份安装。当前1.5.0、17,033条、154规则，最新安装与ZIP哈希以reading-install-verification.json为准。此前待安装叙述和证据保留各自历史阶段；当前安装未启动主游戏，8个存档哈希/时间/数量核对未变。

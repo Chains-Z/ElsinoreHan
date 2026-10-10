@@ -34,3 +34,5 @@
 原始响应和原资源没有改动，中文字形集合仍为2816字。候选ZIP重新生成并核对，不包含存档或诊断插件；主游戏进程仍在运行，未安装。本轮摘要为 `runtime/evidence/timeline-religion-followup-verification.json`。此前运行 `c260fdd...` 和128408项矩阵仅作候选基线证据，不冒称其包含本次四条新译文。
 
 用户撤回宗教词替换后的最新候选：10项定向加738项人物简介消费者，共748项通过；15项导出检查通过。候选包重新生成并核对，最新哈希见runtime/evidence/retained-deva-verification.json。前述1512项及timeline-religion-followup记录是586fd5b阶段历史证据，不改写历史结果。
+
+后续安装更新：用户退出游戏后，本页的最新校订已随1.5.0正式安装。当前安装及备份包哈希见 `runtime/evidence/reading-install-verification.json`，上述候选阶段结果和哈希保持历史快照。

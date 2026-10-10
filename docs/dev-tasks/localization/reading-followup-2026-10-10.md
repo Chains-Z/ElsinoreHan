@@ -58,3 +58,11 @@
 状态为 `verified_pending_install`，详见 [本轮摘要](../../../runtime/evidence/reading-followup-verification.json)。主游戏仍为1.4.0，`install-full.ps1` 禁止运行中安装；候选ZIP的说明也明确尚未安装。待用户保存并退出后，备份安装、重新打包并更新安装哈希；不要求重跑未改变的整组测试。
 
 后续四条时间线与宗教文案另见 [文案跟进](timeline-religion-review-2026-10-10.md)。此处128408消费者、c260fdd运行及本轮摘要的哈希绑定基线候选；最新词表和ZIP哈希绑定 `timeline-religion-followup-verification.json`，不改写旧运行证据。
+
+## 正式安装完成（2026-10-10）
+
+用户明确退出主游戏并要求安装后，确认无Elsinore进程，通过install-full.ps1备份后安装1.5.0插件、17,033条词表和154条规则。包含后续时间线、提婆保留决定及奎因斯演出回顾语气校订。
+
+安装备份：`runtime/backups/full-3d41210da8bd4e02a79f31493ce0927a`。已验证候选插件哈希未变，安装的正文及动态词表与导出核验一致。安装器保留现有配置和XUnity自动补全项；备份包复用安装后的完整配置以逐字一致。35个运行文件与主游戏一致，37文件包目录与ZIP逐项一致。
+
+原游戏四文件哈希保持一致；安装前后8个存档文件的哈希、修改时间和数量保持一致。没有启动主游戏或重复前轮重型界面验收。当前安装与ZIP哈希见 `runtime/evidence/reading-install-verification.json`；旧候选记录保留原始快照，不改写历史运行结果。
