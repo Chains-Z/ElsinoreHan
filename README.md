@@ -1,51 +1,81 @@
 # ElsinoreHan
 
-《Elsinore》的离线中文补丁。**1.5.1插件、17,041条离线词条和155条规则已安装**，正常从 Steam 启动即可使用中文。
+《Elsinore》的离线中文汉化项目，包含预制译文、文字提取与校验工具，以及用于中文TextMeshPro显示和F8原文切换的兼容插件。中文初稿可用于游玩，后续根据实际反馈校订。
 
-最新游玩校订将幽灵的“更大一场游戏”改为“一场更大的游戏”，并统一裸源与斜体源。22项真实翻译消费者和15项导出检查通过，候选包已更新，尚未安装；见[本轮记录](docs/dev-tasks/localization/larger-game-followup-2026-10-11.md)。
+游戏运行时直接读取本地词表，不调用翻译API，也不需要API Key。补丁通过加载器工作，不覆盖游戏原始资源或程序集。
 
-2026-10-11新增1.5.1候选（17,041条、155规则）：补齐撤回未来事件时的错误通知、“出海”门提示、4条分享预览变体和两条信息正文变体，并明确母亲相关对白的指代。2200项真实翻译消费者及16项真实格式器断言通过，测试弹窗防护和编译失败门禁已修正。**用户退出后已备份安装，安装及ZIP核验见 [安装记录](runtime/evidence/playthrough-install-verification-2026-10-11.json)**；见[本轮修复](docs/dev-tasks/localization/playthrough-followup-2026-10-11.md)。
+## 功能与适用版本
 
-随后按用户意见，布莉特对白将“包下来”改为“长期预约”，保留原文幽默比喻和“闲待”；另一句“他们两个都不在了”补明为“克劳狄斯和哈姆雷特都不在了”。该阶段36项相关消费者及15项导出检查通过，候选词表和ZIP哈希见 `runtime/evidence/brit-succession-followup-verification.json`，保留候选阶段快照；已随1.5.1安装。
+- 翻译对白、人物资料、文档、线索、日志、地图及时间线等玩家文字，并处理运行时拼接。
+- 使用中文TMP字体，保留原文的粗体与斜体。
+- 按 **F8** 在当前文字的英文原文与中文译文之间切换。
+- 按 **Alt+R** 重载词表；修改加载器配置后需要重启游戏。
 
-随后补明福丁布拉斯“与丹麦王室重修于好”，修正幽灵关于时间循环的“I do.”和“犯下暴行”的搭配，并核查全部5处同形短答。62项相关消费者及15项导出检查通过；候选阶段哈希见 `runtime/evidence/ghost-context-followup-verification.json`；已随1.5.1安装，当前ZIP哈希以本轮安装记录为准。
+已验证环境为Windows x86、Unity 2018.4.20f1、Mono版《Elsinore》1.4.1（3678）。补丁使用BepInEx 5 x86、XUnity.AutoTranslator 5.6.2和本项目兼容插件；其他平台、游戏版本和加载器组合尚未验证。
 
-此前1.5.0修复多人通知连带日志漏译、人物简介更新组合及长文档F8阅读位置，并校订近期截图中的称号、对白和文章。候选阶段128,408项真实翻译消费者、131项真实游戏离线API及隔离副本页面检查通过。**用户退出游戏后已备份安装，安装文件与个人备份ZIP核对一致，安装前后8个存档文件的哈希和修改时间未变**；详见[本轮交接](docs/dev-tasks/localization/reading-followup-2026-10-10.md)和[安装核验](runtime/evidence/reading-install-verification.json)。
+## 使用与安装
 
-后续校订时间线“当前条件下不会发生／未发生”标签；霍拉旭按用户决定保留既有“提婆和阿修罗”，对白与简介两处替换均撤回。748项相关消费者及15项导出检查通过，前轮1512项为历史证据；见[文案跟进](docs/dev-tasks/localization/timeline-religion-review-2026-10-10.md)。这些文案已随本轮安装。
+本仓库保存源码、译文和核验记录。游戏本体、第三方依赖、字体、编译产物及ZIP不纳入Git，克隆仓库不会得到可直接安装的完整补丁。当前没有正式公开发行包：本机生成的 `runtime/package/ElsinoreHan-Sol.zip` 是个人备份，字体的再分发许可仍待核实。
 
-奎因斯“希望你喜欢这场演出”已校订为回顾语气并安装，28项相关消费者及15项导出检查通过；见[正文审校](docs/dev-tasks/localization/reading-text-review-2026-10-10.md)。候选阶段哈希见 `runtime/evidence/late-play-text-verification.json`，当前安装及ZIP哈希以1.5.1安装记录为准。
+已有补丁的游戏正常从Steam启动即可。遇到疑句时按F8查看英文；报告问题时附上原句、截图和场景或说话人，有助于定位实际运行源文。
 
-按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
+维护者更新已有安装时，先准备好本地依赖及候选包，保存并退出游戏，然后在仓库根目录的PowerShell中执行：
 
-完整本地备份包（包含最新待安装对白校订）：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
+```powershell
+./tools/patch/install-full.ps1 -GamePath 'D:\SteamLibrary\steamapps\common\Elsinore'
+```
 
-完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
+`-GamePath` 可替换为实际游戏目录。安装器核对词表哈希、备份已有项目文件，再更新词表、兼容插件和配置；备份路径会显示在输出中，并写入 `runtime/evidence/full-installed-files.json`。
 
-其他角色的方言和口语已定向审校621个角色/源句组合，六处校订已安装，2484项真实翻译消费者及15项导出治理检查通过。重点完整审查马塞勒斯、格蕾丝和常用省音拼写的配角；见[其他角色审校](docs/dev-tasks/localization/dialect-dialogue-review-2026-10-10.md)。
+此脚本用于更新已配置好加载器的环境，要求目标已有 `BepInEx/config/AutoTranslatorConfig.ini`。首次安装所需的加载器准备见 [技术说明](docs/dev-tasks/localization/technical-probe.md)；其中样板与测试结果属于早期记录，完整补丁的干净目录安装验收尚未完成。
 
-伊尔玛490条不同对白已集中审校，方言呼语和昵称已校订，马塞勒斯口语按用户意见调整并安装。1108项定向消费者、9项前轮正文消费者及19项治理/导出测试通过；见[厨娘对白审校](docs/dev-tasks/localization/irma-dialogue-review-2026-10-10.md)。Maike与远行表达的[前轮校订记录](docs/dev-tasks/localization/playthrough-text-2026-10-10.md)保留。
+### 停用与回退
 
-此前1.4.0修复日志中通知与对白交错的边界，统一两人的“骑士卫队”称号，并保留固定通知尾换行。114,028项消费者和111项真实游戏离线API检查是该阶段历史证据；范围是当时资源与有限格式矩阵，不代表全剧情零漏译。见[前轮修复与验证](docs/dev-tasks/localization/mixed-log-followup-2026-10-10.md)。前轮[日志F8阅读位置保护](docs/dev-tasks/localization/log-followup-2026-10-10.md)、[线索等修复](docs/dev-tasks/localization/ui-followup-2026-10-10.md)与[字体证据](docs/dev-tasks/localization/runtime-ui-followup.md)保留。
+退出游戏后，可将游戏目录 `doorstop_config.ini` 的 `[General]` 节中 `enabled` 改为 `false`，再次启动时停用加载器；改回 `true` 可恢复。此操作会停用通过同一加载器加载的其他插件。
 
-## 目录与维护
+回退某次更新时，按安装记录找到对应的 `runtime/backups/full-*` 目录，恢复其中的旧词表、插件及配置。仓库尚未提供完整卸载脚本；如需清理，依据安装记录识别本项目增加的文件，避免删除其他模组共用的加载器或游戏原文件。
+
+## 开发与校订
+
+从 [AGENTS.md](AGENTS.md) 了解修改约束，从 [维护交接](docs/dev-tasks/localization/handoff.md) 查看当前安装、待安装候选和相关实现入口。
+
+译文在 [translations.json](translation/sol-full-2026-10-09/translations.json) 中可检索。原始模型输入、响应与输出保持冻结；修改通过有来源、源哈希及准确旧值的校订层应用，新增界面译文与动态规则位于 `translation/supplemental/`。
+
+词表导出与导出器单元检查使用Python 3；插件编译使用Windows的 .NET Framework C# 编译器，并依赖游戏Managed程序集及本地 `runtime/vendor/` 中的BepInEx、Harmony和XUnity文件。调用资源提取的Python脚本还需要 `pefile`。构建脚本的默认游戏路径为 `D:\SteamLibrary\steamapps\common\Elsinore`。
+
+在依赖齐全的维护环境中，常用命令如下：
+
+```powershell
+# 应用校订并核对冻结来源，生成离线词表
+python tools/translation/export_sol_full.py
+
+# 运行导出器单元检查
+python -m unittest discover -s tools/translation -p test_export_sol_full.py
+
+# 编译兼容插件，可用 -GamePath 指定游戏目录
+./tools/patch/build-toggle.ps1
+
+# 生成尚未安装的个人候选包
+./tools/patch/package-full.ps1 -PendingInstall
+```
+
+导出器会更新生成词表和核验记录。对白、动态组合或插件变化还需运行对应的消费者与组件检查；工具选择和后台游戏测试注意事项见 [维护交接](docs/dev-tasks/localization/handoff.md#生成与验证工具)。
+
+## 目录
 
 | 路径 | 内容 |
 | --- | --- |
-| AGENTS.md | 项目约定与最新交接 |
-| docs/dev-tasks/localization/sol-full.md | 全文来源、套餐实际 token 记录、验证与维护入口 |
-| translation/sol-full-2026-10-09/translations.json | 精确原文、译文与稳定 ID |
-| translation/sol-full-2026-10-09/ | 分批输入、冻结模型响应、输出和审计 |
-| tools/translation/ | 真实来源适配、Sol 调用、校验及离线词表导出 |
-| tools/patch/ | 插件源码、构建、备份安装、后台自动检查及打包 |
-| runtime/evidence/dialect-review-verification.json | 最新其他角色校订、定向消费者、安装与ZIP核验摘要 |
-| runtime/evidence/reading-followup-verification.json | 本轮通知、简介、文档F8候选阶段验证快照 |
-| runtime/evidence/reading-install-verification.json | 历史1.5.0安装、备份包与存档保护核验 |
-| runtime/evidence/playthrough-install-verification-2026-10-11.json | 当前1.5.1安装、备份包与存档保护核验 |
-| runtime/evidence/playthrough-followup-2026-10-11.json | 1.5.1候选验证、测试弹窗处理及待安装状态 |
-| runtime/evidence/irma-review-verification.json | 前轮厨娘审校与安装摘要 |
-| runtime/evidence/mixed-log-verification.json | 前轮混合日志、离线API与安装摘要 |
-| analysis/ | 原始只读提取脚本、候选清单和统计 |
-| docs/dev-tasks/localization/README.md | 历史研究、模型比较及实施记录索引 |
+| `tools/translation/` | 译文导出、来源审计、校订生成与验证工具 |
+| `tools/patch/` | TMP/F8插件源码、构建、安装、打包及后台探针 |
+| `translation/sol-full-2026-10-09/` | 冻结全文、原始响应、合并译文与导出核验 |
+| `translation/supplemental/` | 补译、定向校订、动态规则与回归用例 |
+| `analysis/` | 文字提取与界面来源分析 |
+| `docs/dev-tasks/localization/` | 实现说明、维护交接、任务及历史记录 |
+| `runtime/evidence/` | 验证与安装核验摘要 |
+| `runtime/vendor/`、`runtime/package/`、`runtime/backups/` | 本机依赖、个人补丁包及备份，不入Git |
 
-原模型比较已停止，不重复调用百炼。下载依赖、字体、安装备份、ZIP 和密钥不纳入 Git；仓库只在本机提交，未推送。
+## 已知限制与许可
+
+初稿与自动检查不能保证所有剧情、未知动态组合或图片文字均已覆盖；部分对白和长文档的实际屏幕排版仍需随游玩确认。后台组件或字体网格检查不代表完整游玩及全场景像素验收。
+
+BepInEx、XUnity、Harmony及字体遵循各自的许可。当前字体再分发许可尚未核实，第三方许可整理、完整安装/卸载说明和干净目录安装验证仍是公开发布前的待办。
