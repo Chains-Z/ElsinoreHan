@@ -1,0 +1,37 @@
+{
+  "status": "source_font_researched_not_runtime_replaced",
+  "date": "2026-10-11",
+  "recommended_font": "Source Han Sans SC Regular",
+  "upstream": {
+    "upstream_ref": "2.005R",
+    "font_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.005R/OTF/SimplifiedChinese/SourceHanSansSC-Regular.otf",
+    "license_url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.005R/LICENSE.txt",
+    "provenance_note": "GitHub API限流，改用官方发布标签；下载字节另记SHA256，不声称已取得准确提交哈希"
+  },
+  "font_family": "Source Han Sans SC",
+  "font_version": "Version 2.005;addfeatures 5.0.0b21",
+  "font_sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+  "license_sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+  "license": "SIL Open Font License 1.1",
+  "chinese_character_count": 2816,
+  "missing_chinese_characters": [],
+  "visible_character_count": 2936,
+  "missing_visible_characters": [
+    "č",
+    "ł",
+    "ř",
+    "š"
+  ],
+  "translation_sha256": "b07f3578e5f9d7fc5017e6cd2ae6338bfa7eb2de91f13364f3572629ed72dfba",
+  "preview_path": "runtime/build/font-research/source-han-sans-preview.png",
+  "preview_sha256": "897a052e4c78fd6769bf4fe56948619ba715fb7a1b86d7b499fac47f392e8df6",
+  "reserved_font_name": "Source",
+  "proposed_derived_font_name": "ElsinoreHan Sans",
+  "runtime_compatibility_status": "尚未生成Unity2018/TMP兼容AssetBundle，未做游戏内验证",
+  "main_game_changed": false,
+  "package_changed": false,
+  "retained_font_sample_id": "u00027-aef783a99d65",
+  "missing_visible_characters_scope": "缺少的4个拉丁字母只存在此保留字体测试样例，不出现在其余译文中",
+  "missing_characters_outside_retained_font_sample": [],
+  "glyph_chen_visual_review": "官方OTF离线渲染中右侧几部件上横完整；不代表生成后的TMP图集或游戏像素验收"
+}
