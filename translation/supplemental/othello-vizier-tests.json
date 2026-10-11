@@ -1,0 +1,41 @@
+[
+  {
+    "id": "othello-vizier-leaf",
+    "source": "Toward the end of my decade, I was one of the Sultan's own viziers. I had gardens and treasures aplenty. This feels like a different world entirely.",
+    "target": "那十年快结束时，我已经是苏丹麾下的一名高级大臣了。我拥有许多花园和珍宝。这里简直像另一个世界。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HoratioAndOthello",
+        "line": 28482
+      }
+    ]
+  },
+  {
+    "id": "othello-vizier-speaker",
+    "source": "<b>Othello:</b> <indent=16%>Toward the end of my decade, I was one of the Sultan's own viziers. I had gardens and treasures aplenty. This feels like a different world entirely.",
+    "target": "<b>奥赛罗:</b> <indent=16%>那十年快结束时，我已经是苏丹麾下的一名高级大臣了。我拥有许多花园和珍宝。这里简直像另一个世界。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HoratioAndOthello",
+        "line": 28482
+      }
+    ]
+  },
+  {
+    "id": "othello-vizier-context",
+    "source": "<b>Horatio:</b> <indent=16%>I find that strangely charming. And possibly seductive.</indent>\n<b>Othello:</b> <indent=16%>Hmph. Well, I'm certain there's many a man willing to... grab your head around here.</indent>\n<b>Othello:</b> <indent=16%>Toward the end of my decade, I was one of the Sultan's own viziers. I had gardens and treasures aplenty. This feels like a different world entirely.</indent>\n<b>Horatio:</b> <indent=16%>You gave up all that to come to this rotten, pasty little country? Why on earth?</indent>\n<b>Othello:</b> <indent=16%>Because it was not truly mine. I was an Ottoman slave. Everything I did was in my master's name, even when I surpassed his rank with my own.",
+    "target": "<b>霍拉旭:</b> <indent=16%>奇怪的是，我觉得这还挺有魅力。说不定还挺撩人。</indent>\n<b>奥赛罗:</b> <indent=16%>哼。嗯，我敢肯定，这儿有不少男人都愿意……抓住你的脑袋。</indent>\n<b>奥赛罗:</b> <indent=16%>那十年快结束时，我已经是苏丹麾下的一名高级大臣了。我拥有许多花园和珍宝。这里简直像另一个世界。</indent>\n<b>霍拉旭:</b> <indent=16%>你放弃了那一切，跑到这个腐烂、满是苍白面孔的小国家来？到底为什么？</indent>\n<b>奥赛罗:</b> <indent=16%>因为那一切并不真正属于我。我是奥斯曼帝国的奴隶。我做的每一件事都以主人的名义，即便我的地位已经超过了他。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HoratioAndOthello",
+        "line": 28482
+      }
+    ]
+  }
+]
