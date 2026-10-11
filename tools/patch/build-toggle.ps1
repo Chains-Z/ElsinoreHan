@@ -21,7 +21,8 @@ $references = @(
 # 旧编译器每次产生新的模块标识；只有输入及产物哈希均一致时复用，避免安装后无意义重建。
 $anchorSource = Join-Path $PSScriptRoot 'LogScrollAnchor.cs'
 $invitedSource = Join-Path $PSScriptRoot 'InvitedEventNotice.cs'
-$fingerprint = (@($compiler, $source, $anchorSource, $invitedSource) + $references | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash }) -join ':'
+$strictSource = Join-Path $PSScriptRoot 'StrictLogTranslation.cs'
+$fingerprint = (@($compiler, $source, $anchorSource, $invitedSource, $strictSource) + $references | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash }) -join ':'
 if ((Test-Path -LiteralPath $buildRecord) -and (Test-Path -LiteralPath $output)) {
     $previous = Get-Content -LiteralPath $buildRecord -Raw | ConvertFrom-Json
     if ($previous.input_fingerprint -eq $fingerprint -and $previous.output_sha256 -eq (Get-FileHash -LiteralPath $output).Hash) {
@@ -34,6 +35,7 @@ foreach ($reference in $references) { $arguments += '/reference:' + $reference }
 $arguments += $source
 $arguments += $anchorSource
 $arguments += $invitedSource
+$arguments += $strictSource
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw 'F8扩展编译失败' }
 [pscustomobject]@{ input_fingerprint=$fingerprint; output_sha256=(Get-FileHash -LiteralPath $output).Hash } | ConvertTo-Json | Set-Content -LiteralPath $buildRecord -Encoding utf8

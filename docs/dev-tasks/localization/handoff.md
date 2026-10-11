@@ -1,17 +1,17 @@
 # 汉化维护交接
 
-更新时间：2026-10-11。本文维护当前状态、实现注意事项和记录入口；长期执行约束见 [AGENTS.md](../../../AGENTS.md)，仓库介绍和使用方法见 [README.md](../../../README.md)。每次修改在对应任务文档记录详情，完成安装后再更新本页的正式安装状态。
+更新时间：2026-10-12。本文维护当前状态、实现注意事项和记录入口；长期执行约束见 [AGENTS.md](../../../AGENTS.md)，仓库介绍和使用方法见 [README.md](../../../README.md)。每次修改在对应任务文档记录详情，完成安装后再更新本页的正式安装状态。
 
 ## 当前状态
 
 | 项目 | 状态与依据 |
 | --- | --- |
 | 维护阶段 | 中文初稿已可玩，继续根据实际游玩反馈定向校订，不等待全分支人工审校 |
-| 正式安装 | 插件1.5.2，17,041词条，155动态规则；[安装核验](../../../runtime/evidence/font-replacement-install-verification.json) |
+| 正式安装 | 插件1.5.3，17,041词条，155动态规则；[安装核验](../../../runtime/evidence/offline-log-cache-install-verification-2026-10-12.json)；日志缓存重建修复见[本轮记录](othello-log-followup-2026-10-12.md) |
 | 最新对白校订 | 幽灵“一场更大的游戏”、贝尔纳多“至少，我还有你这个朋友”、奥赛罗“苏丹麾下的一名高级大臣”均已安装；“抓住你的脑袋”按用户决定保留，见[奥赛罗术语核查](othello-term-review-2026-10-11.md) |
 | 个人备份包 | `runtime/package/ElsinoreHan-Sol.zip` 与40文件包目录及38运行文件一致；已换新字体并附3份许可/说明，无旧Arial字库；当前哈希见最新安装核验 |
-| 安装备份 | `runtime/backups/full-c0d1205a32b14ea0abeaccfe52c3bc7d`，旧词表、插件、配置及Arial字库5文件备份均核对成功；`full-installed-files.json` 指向正式1.5.2安装 |
-| 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；安装只改字体配置键，未启动主游戏 |
+| 安装备份 | `runtime/backups/full-1102ff802f4944258cb6846073d5cea5`，8个旧补丁文件核对成功；`full-installed-files.json` 指向正式1.5.3安装 |
+| 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；字库、词表、许可字节不变，配置解码文本逐字相同，未启动主游戏 |
 | 发布状态 | 仅供个人备份；思源字体再分发许可与TMP组件许可已附，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成 |
 | 当前字体 | `ElsinoreHan Sans SDF`，来自思源黑体SC Regular 2.005R，OFL1.1；7,660字形及实际运行纹理与原生生成结果一致，“沉”上横检查通过；[字体替换及验证](font-replacement-2026-10-11.md)、[授权争议复核](font-license-risk-check-2026-10-11.md) |
 
@@ -25,6 +25,7 @@
 | 通知名单、人物简介组合、文档F8 | [阅读界面跟进](reading-followup-2026-10-10.md) |
 | 文章与人物口语审校 | [阅读正文](reading-text-review-2026-10-10.md)、[伊尔玛](irma-dialogue-review-2026-10-10.md)、[其他角色](dialect-dialogue-review-2026-10-10.md) |
 | 日志组合与滚动位置 | [混合日志](mixed-log-followup-2026-10-10.md)、[日志跟进](log-followup-2026-10-10.md) |
+| 最新日志缓存修复、字号核查 | [奥赛罗日志](othello-log-followup-2026-10-12.md)、[候选证明](../../../runtime/evidence/offline-log-cache-verification-2026-10-12.json) |
 | 线索、地图、时间线、界面提取 | [UI跟进](ui-followup-2026-10-10.md)、[源审计](ui-audit.md) |
 | TMP兼容与字体 | [思源字体替换](font-replacement-2026-10-11.md)、[TMP兼容](tmp-compatibility.md)、[运行界面跟进](runtime-ui-followup.md) |
 | 冻结全文、来源与实际CLI用量 | [Sol全文](sol-full.md) |
@@ -48,6 +49,8 @@
 ### TMP、缓存与F8
 
 TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件在StringBuilder和字符串双参数入口转交原文到text setter；即时路径不拆分，setter前缀通过纯离线API消费，并登记完整组合内存缓存（`Full/scope=-1/persist=false`）。只查 `TryTranslate` 不能保证组合已缓存。源码为 `tools/patch/TranslationToggle.cs`。
+
+1.5.3对 `LogCanvas` 单独从文件词表和真实首匹配Splitter完整重建，再准确覆盖此源内存项；不信任主API可能返回的部分译文或既有混合Full缓存。Alt+R失效重载；未知源重建返回null，上游仍可处理，不能宣称整个管线拒绝未知混合。其他页面保留原路径。当前空替换表、数字模板关闭的配置已验证，不泛化任意可选XUnity配置。
 
 人物Title使用单行自适应字号。`LogScrollAnchor` 只保护F8，不能锁住平时滚动；长段内部并非逐词定位，结构或历史变化时保守跳过。当前思源字体合成斜体剪切设为5；旧Arial兼容分支仍为10。参数不是角度，新字体沿用10会导致样本网格相邻边界重叠。TMP1.4迁移旧序列化字段时不能恢复原生SDF8，插件在新字体读取后精确设回SDF8。
 
@@ -83,6 +86,7 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | `prepare_bernardo_friend_followup.py` | 再生贝尔纳多友谊回应、真实相邻语境及日志组合回归 |
 | `prepare_othello_vizier_followup.py` | 再生高级大臣一词及实际相邻语境回归 |
 | `tools/patch/prepare-font-characters.py`、`build-shareable-font.py` | 再生受控字体字符集，装配真实Unity2018生成的图集；源字体与旧模板均不入Git |
+| `prepare_othello_log_cache_followup.py` | 从真实冻结日志和边界再生88项缓存/控件复用输入；新探针输入为 `ELSINOREHAN_PROBE_STRICT_LOG_CASES` |
 | `tools/translation/verify-recursive-ui.ps1` | 真实XUnity递归消费者组件检查，不启动游戏 |
 | `tools/patch/run-toggle-probe.ps1` | 后台游戏探针；具体环境变量和断言契约见源码与对应任务文档 |
 
@@ -98,5 +102,6 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | 2026-10-11正式1.5.1安装 | [游玩跟进](playthrough-followup-2026-10-11.md)、[安装证据](../../../runtime/evidence/playthrough-install-verification-2026-10-11.json) |
 | 2026-10-11待安装对白校订 | [更大的游戏](larger-game-followup-2026-10-11.md)、[友谊回应](bernardo-friend-followup-2026-10-11.md)、[最新候选证据](../../../runtime/evidence/bernardo-friend-followup-verification.json) |
 | 2026-10-11正式1.5.2字体与对白安装 | [字体构建与验证](font-replacement-2026-10-11.md)、[候选快照](../../../runtime/evidence/font-replacement-verification.json)、[安装证据](../../../runtime/evidence/font-replacement-install-verification.json)；前述待安装对白已随本轮安装 |
+| 2026-10-12正式1.5.3日志缓存安装 | [日志跟进](othello-log-followup-2026-10-12.md)、[安装核验](../../../runtime/evidence/offline-log-cache-install-verification-2026-10-12.json)；字号和字库保持用户选定的当前大小 |
 
 百炼四模型比较已停止，不恢复调用；密钥只在被忽略的本机文件中。PipistrelloHan的IL2CPP/BepInEx6/CSV方案不能直接套用于本项目。旧测试与存档事故的限制保留在原记录中，后续通过不能追认此前存档未变或全剧情已验收。

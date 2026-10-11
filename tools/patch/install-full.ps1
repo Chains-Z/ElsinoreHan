@@ -14,7 +14,14 @@ if ((Get-FileHash -LiteralPath $dictionary -Algorithm SHA256).Hash.ToLowerInvari
 $dynamic = Join-Path $sourceRoot 'BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt'
 if ((Get-FileHash -LiteralPath $dynamic -Algorithm SHA256).Hash.ToLowerInvariant() -ne $proof.dynamic_dictionary_sha256) { throw '动态词表哈希与验证记录不符' }
 $font = Join-Path $sourceRoot 'elsinorehan_sans_sdf_u2018'
-$fontValidation = Get-Content -LiteralPath (Join-Path $projectRoot 'runtime/evidence/font-replacement-verification.json') -Raw | ConvertFrom-Json
+$validationPath = Join-Path $projectRoot 'runtime/evidence/font-replacement-verification.json'
+$currentProof = Join-Path $projectRoot 'runtime/evidence/current-patch-verification.json'
+if (Test-Path -LiteralPath $currentProof) {
+    $pointer = Get-Content -LiteralPath $currentProof -Raw | ConvertFrom-Json
+    $validationPath = [IO.Path]::GetFullPath((Join-Path $projectRoot $pointer.verification_path))
+    if (-not $validationPath.StartsWith($projectRoot + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase)) { throw '候选验证记录路径越界' }
+}
+$fontValidation = Get-Content -LiteralPath $validationPath -Raw | ConvertFrom-Json
 if (-not $fontValidation.passed -or (Get-FileHash -LiteralPath $font).Hash.ToLowerInvariant() -ne $fontValidation.font_bundle_sha256) { throw '新字体尚未通过真实加载与字形验收，禁止安装' }
 if ($proof.dictionary_sha256 -ne $fontValidation.dictionary_sha256) { throw '待安装词表与新字体验收的候选不一致' }
 foreach ($name in @('ElsinoreHanSans-OFL.txt', 'ElsinoreHanSans-NOTICE.txt', 'TextMeshPro-Unity-Companion-License.txt')) {

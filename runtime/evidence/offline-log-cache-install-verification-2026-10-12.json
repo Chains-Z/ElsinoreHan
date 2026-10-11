@@ -1,0 +1,28 @@
+{
+  "status": "installed_verified",
+  "passed": true,
+  "plugin_version": "1.5.3",
+  "dictionary_count": 17041,
+  "dynamic_rules": 155,
+  "backup_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-1102ff802f4944258cb6846073d5cea5",
+  "candidate_verification": "offline-log-cache-verification-2026-10-12.json",
+  "plugin_sha256": "3674f661693e86b4f91a5377e7c5187e61638d4b8081b4f4b77267cfa9affcda",
+  "font_bundle_sha256": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+  "dictionary_sha256": "992dba2f46450c04f621ab3856e87753c85158d6f7661470767d1c91e0816ebc",
+  "package_file_count": 40,
+  "installed_package_runtime_files_match": 38,
+  "zip_matches_package": true,
+  "zip_sha256": "9ab36dcde7b5a97bfaacb9436d75e335e73e17181aace0f88b534d994c9acfe1",
+  "backup_owned_files_verified": 8,
+  "font_dictionary_and_license_bytes_unchanged": true,
+  "config_decoded_text_and_settings_unchanged": true,
+  "config_note": "安装器重新写成UTF-8无BOM；解码后逐字相同，字体/字号与其他配置值未改",
+  "original_game_four_files_sha256_mtime_and_size_unchanged": true,
+  "save_files_sha256_mtime_size_and_count_unchanged": true,
+  "save_file_count": 8,
+  "main_game_not_launched": true,
+  "limits": [
+    "保留上一轮字体大小；未直接采集用户现场内存缓存，不把受控复现认定为现场根因的直接证据",
+    "实际缓存修复/组件/F8验证，不代表全剧情或完整屏幕像素E2E"
+  ]
+}

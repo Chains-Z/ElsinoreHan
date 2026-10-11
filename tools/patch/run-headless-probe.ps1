@@ -32,7 +32,7 @@ if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1' -and ($env:ELSINOREHAN_PROBE_JOUR
 if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and (-not $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -PathType Leaf))) {
     throw 'ELSINOREHAN_PROBE_CLOSEUP_IDS 缺少冻结资料ID文件，禁止启动。'
 }
-foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS', 'ELSINOREHAN_PROBE_LEAD_CASES', 'ELSINOREHAN_PROBE_BIOGRAPHY_CASES', 'ELSINOREHAN_PROBE_FONT_SOURCE', 'ELSINOREHAN_PROBE_FONT_CHARACTERS', 'ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE')) {
+foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS', 'ELSINOREHAN_PROBE_LEAD_CASES', 'ELSINOREHAN_PROBE_BIOGRAPHY_CASES', 'ELSINOREHAN_PROBE_FONT_SOURCE', 'ELSINOREHAN_PROBE_FONT_CHARACTERS', 'ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE', 'ELSINOREHAN_PROBE_STRICT_LOG_CASES')) {
     $inputPath = [Environment]::GetEnvironmentVariable($variableName)
     if ($inputPath -and -not (Test-Path -LiteralPath $inputPath -PathType Leaf)) { throw ($variableName + ' 指向的文件不存在，禁止启动。') }
 }
@@ -118,6 +118,7 @@ try {
     $process.WaitForExit()
     if ($process.ExitCode -ne 0) { throw ('后台探针退出码异常：' + $process.ExitCode) }
     $reports = if ($env:ELSINOREHAN_PROBE_FONT_SOURCE) { @('font-bake.json', 'font-atlas-alpha8.bin') } else { @('menu-texts.txt', 'settings-texts.txt') }
+    if ($env:ELSINOREHAN_PROBE_STRICT_LOG_CASES) { $reports += 'strict-log-cache.tsv' }
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
@@ -152,6 +153,10 @@ try {
         if ($LASTEXITCODE -ne 0) { throw '真实字体引擎生成未完成或产物不完整。' }
         Write-Output ('本轮字体生成证据：' + $runDirectory)
         return
+    }
+    if ($env:ELSINOREHAN_PROBE_STRICT_LOG_CASES) {
+        python (Join-Path $PSScriptRoot 'verify-strict-log-cache.py') --evidence (Join-Path $runDirectory 'strict-log-cache.tsv') --cases $env:ELSINOREHAN_PROBE_STRICT_LOG_CASES
+        if ($LASTEXITCODE -ne 0) { throw '完整日志缓存修复、拒绝未知项或F8回归失败。' }
     }
     if ($env:ELSINOREHAN_PROBE_FONT_NAME -eq 'ElsinoreHan Sans SDF' -and $env:ELSINOREHAN_PROBE_FONT_CHARACTERS) {
         foreach ($name in @('font-regression.json', 'font-runtime-atlas.bin')) {

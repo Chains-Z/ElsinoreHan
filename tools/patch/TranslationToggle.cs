@@ -9,7 +9,7 @@ using UnityEngine.TextCore.LowLevel;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.2")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.3")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -30,6 +30,7 @@ public sealed class TranslationToggle : BaseUnityPlugin
     public const string ChineseFontAssetName = "ElsinoreHan Sans SDF";
     private static readonly MethodInfo atlasRenderModeSetter = typeof(TMP_FontAsset).GetProperty("atlasRenderMode").GetSetMethod(true);
     public static byte? OriginalChineseItalicStyle;
+    private static StrictLogTranslation strictLogTranslation;
 
     private void Awake()
     {
@@ -59,6 +60,8 @@ public sealed class TranslationToggle : BaseUnityPlugin
             prefix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("PrepareOfflineText", BindingFlags.Public | BindingFlags.Static)));
         compatibility.Patch(typeof(TMP_FontAsset).GetMethod("ReadFontAssetDefinition", Type.EmptyTypes),
             postfix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("ConfigureChineseItalic", BindingFlags.Public | BindingFlags.Static)));
+        compatibility.Patch(cache.GetType().GetMethod("LoadTranslationFiles", BindingFlags.Instance | BindingFlags.NonPublic),
+            postfix: new HarmonyMethod(typeof(TranslationToggle).GetMethod("InvalidateStrictLogTranslations")));
         foreach (TMP_FontAsset font in Resources.FindObjectsOfTypeAll<TMP_FontAsset>()) ConfigureChineseItalic(font);
         Logger.LogInfo("TMP StringBuilder 与字符串 SetText 文本入口兼容已启用。");
         foreach (Assembly assembly in AppDomain.CurrentDomain.GetAssemblies())
@@ -141,6 +144,15 @@ public sealed class TranslationToggle : BaseUnityPlugin
         try
         {
             var translator = AutoTranslator.Default;
+            for (Transform parent = __instance.transform; parent != null; parent = parent.parent)
+            {
+                if (parent.name != "LogCanvas") continue;
+                if (strictLogTranslation == null) strictLogTranslation = new StrictLogTranslation(translator);
+                string complete = strictLogTranslation.Resolve(__0);
+                if (complete != null && complete != __0)
+                    strictLogTranslation.Register(textCacheField.GetValue(translator), __0, complete);
+                return;
+            }
             string translated;
             if (translator != null && translator.TryTranslate(__0, out translated) && translated != __0)
             {
@@ -159,6 +171,13 @@ public sealed class TranslationToggle : BaseUnityPlugin
                 compatibilityLogger.LogWarning("离线组合缓存登记失败，继续显示原文：" + error.GetType().Name);
             }
         }
+    }
+
+    public static void InvalidateStrictLogTranslations(object __instance)
+    {
+        var translator = AutoTranslator.Default;
+        if (translator != null && ReferenceEquals(textCacheField.GetValue(translator), __instance))
+            strictLogTranslation = null;
     }
 
     private void Update()

@@ -519,6 +519,34 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             JournalLine("TEXT\t" + phase + "\t" + mode + "\t" + text.GetInstanceID()
                 + "\t" + ReportText(TextPath(text.transform)) + "\t" + ReportText(value)
                 + "\t" + text.isTextOverflowing + "\t" + ReportText(raw));
+            if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_TYPOGRAPHY") == "1")
+            {
+                text.ForceMeshUpdate();
+                var parentCanvas = text.GetComponentInParent<Canvas>();
+                JournalLine("TYPOGRAPHY\t" + phase + "\t" + mode + "\t" + text.GetInstanceID()
+                    + "\t" + text.fontSize + "\t" + text.enableAutoSizing
+                    + "\t" + (text.font == null ? "" : text.font.name)
+                    + "\t" + text.transform.lossyScale.x + "\t" + text.transform.lossyScale.y
+                    + "\t" + (parentCanvas == null ? 0f : parentCanvas.scaleFactor));
+                bool latin = false, han = false;
+                for (int characterIndex = 0; characterIndex < text.textInfo.characterCount; characterIndex++)
+                {
+                    var character = text.textInfo.characterInfo[characterIndex];
+                    if (!character.isVisible || character.fontAsset == null) continue;
+                    bool isLatin = (character.character >= 'A' && character.character <= 'Z')
+                        || (character.character >= 'a' && character.character <= 'z');
+                    bool isHan = character.character >= '\u4e00' && character.character <= '\u9fff';
+                    if ((!isLatin || latin) && (!isHan || han)) continue;
+                    latin |= isLatin; han |= isHan;
+                    JournalLine("TYPOGRAPHY_GLYPH\t" + phase + "\t" + mode + "\t" + text.GetInstanceID()
+                        + "\t" + (int)character.character + "\t" + character.fontAsset.name
+                        + "\t" + character.pointSize + "\t" + character.scale
+                        + "\t" + character.ascender + "\t" + character.descender
+                        + "\t" + (character.topRight.x - character.bottomLeft.x)
+                        + "\t" + (character.topRight.y - character.bottomLeft.y));
+                    if (latin && han) break;
+                }
+            }
         }
         JournalLine("CONTENT\t" + phase + "\t" + mode + "\t" + snapshot.Count + "\t" + nonempty);
         if (snapshot.Count == 0) throw new InvalidOperationException("真实页面没有激活的TMP组件：" + phase);
@@ -1365,6 +1393,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             report.AppendLine("PHYSICAL_INPUT_GUARD_ACTIVE=" + physicalInputGuardActive + " BLOCKED=" + blockedPhysicalButtons);
             report.AppendLine("PHYSICAL_INPUT_MODULES_DISABLED=" + disabledPhysicalInputModules);
             var cacheCasesPath = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_CACHE_CASES");
+            if (name == "menu") StrictLogCacheProbe.Run(directory);
             if (name == "menu" && !string.IsNullOrEmpty(cacheCasesPath))
             {
                 try

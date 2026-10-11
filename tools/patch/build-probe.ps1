@@ -19,6 +19,7 @@ $references = @(
     (Join-Path $managed 'UnityEngine.UIModule.dll')
     (Join-Path $managed 'UnityEngine.TextCoreModule.dll')
     (Join-Path $managed 'UnityEngine.TextRenderingModule.dll')
+    (Join-Path $projectRoot 'runtime/vendor/XUnity/BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll')
 )
 $arguments = @('/nologo', '/target:library', '/platform:x86', ('/out:' + $output))
 $arguments += $references | ForEach-Object { '/reference:' + $_ }
@@ -32,6 +33,7 @@ $arguments += Join-Path $PSScriptRoot 'DocumentScrollAnchorProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'BiographyReplayProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'FontBakeProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'FontRegressionProbe.cs'
+$arguments += Join-Path $PSScriptRoot 'StrictLogCacheProbe.cs'
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw '运行时探针编译失败。' }
 Write-Output $output
