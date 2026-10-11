@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-11",
+  "review_scope": "Adobe官方Source Han Sans SC Regular 2.005R，公开字体使用/分发争议与许可复核",
+  "recommendation": "继续推荐官方源字体；依OFL条件制作独立名称的TMP派生资产，不承诺不会收到投诉或索赔通知",
+  "public_report_found": true,
+  "verified_successful_infringement_claim_for_compliant_official_font_found": false,
+  "search_limits": [
+    "仅公开可检索网页，未穷尽司法数据库、未公开和解或来函",
+    "未找到有效索赔或判决不代表证明不存在",
+    "未经公开原邮件和字体文件核验，不认定Monotype来函真伪或诈骗"
+  ],
+  "sources": [
+    {
+      "url": "https://www.reddit.com/r/graphic_design/comments/1l1qgc8/does_monotype_own_source_sans/",
+      "event_date": "2025-06-02",
+      "classification": "个人转述项目经理收到版权邮件，未核实",
+      "outcome": "无公开原邮件、字体文件、判决或后续"
+    },
+    {
+      "url": "https://wlj.me/posts/font-copyright-for-entrepreneurs/",
+      "event_date": "2021-05-28",
+      "classification": "企业使用政策与来函个人自述，具体字体未说明"
+    },
+    {
+      "url": "https://www.maoken.com/messages/comment-page-30",
+      "event_date": "2025-08",
+      "classification": "倒卖字体被处理的留言传闻，无判决或官方声明"
+    },
+    {
+      "url": "https://www.adobe.com/products/type/fonts-by-adobe.html",
+      "classification": "Adobe官方开源字体说明"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/adobe-fonts/source-han-sans/2.005R/LICENSE.txt",
+      "classification": "官方同版本字体许可"
+    },
+    {
+      "url": "https://openfontlicense.org/ofl-faq/",
+      "classification": "许可官方解释，含软件捆绑与既有许可不溯及改变"
+    },
+    {
+      "url": "https://github.com/adobe-fonts/source-han-sans/issues/195",
+      "classification": "游戏开发者分发版权声明问答，维护者答复"
+    },
+    {
+      "url": "https://ubistatic-a.ubisoft.com/0106/gamesites/justdance/credits/JD26_Credits.pdf",
+      "classification": "官方商业游戏法律声明列明Source Han Sans 2.0及OFL",
+      "pdf_page_1_based": 92
+    },
+    {
+      "url": "https://community.software.sil.org/t/how-to-restore-sil-ofl-granted-to-me-if-it-has-become-null-and-void/7158",
+      "classification": "SIL官方社区许可问答，不是索赔事件"
+    }
+  ],
+  "font_metadata": {
+    "copyright": [
+      "© 2014-2025 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+    ],
+    "family": [
+      "Source Han Sans SC",
+      "思源黑体"
+    ],
+    "version": [
+      "Version 2.005;addfeatures 5.0.0b21"
+    ],
+    "trademark": [
+      "Source is a trademark of Adobe in the United States and/or other countries."
+    ],
+    "manufacturer": [
+      "Adobe"
+    ],
+    "license_description": [
+      "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+    ],
+    "license_url": [
+      "http://scripts.sil.org/OFL"
+    ],
+    "fs_type": 0
+  },
+  "font_sha256": "f1d8611151880c6c336aabeac4640ef434fa13cbfbf1ffe82d0a71b2a5637256",
+  "license_sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+  "matches_previous_download": true,
+  "runtime_font_changed": false,
+  "package_changed": false
+}

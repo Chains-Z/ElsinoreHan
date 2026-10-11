@@ -2,6 +2,8 @@
 
 2026-10-11。用户计划在游玩、校对完成后免费分享汉化补丁。本轮仅调查许可、字符覆盖与适配路径，未替换主游戏字体，未更新候选包。
 
+随后应用户要求完成[授权与争议复核](font-license-risk-check-2026-10-11.md)：发现来函个人自述，但未查到其索赔成立的可核实材料；官方原版仍有明确的游戏捆绑授权，不承诺无人投诉或所有使用方式均合规。
+
 ## 推荐方案
 
 首选 **Source Han Sans SC Regular（思源黑体简体中文版常规字重）2.005**。黑体风格接近现有补丁，适合对白、界面及长文；这是基于字体样张的选型判断。静态OTF来自 [Adobe官方2.005R发布标签](https://github.com/adobe-fonts/source-han-sans/tree/2.005R/OTF/SimplifiedChinese)，文件为 `SourceHanSansSC-Regular.otf`。

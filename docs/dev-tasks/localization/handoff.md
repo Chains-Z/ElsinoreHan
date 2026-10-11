@@ -13,7 +13,7 @@
 | 安装备份 | `runtime/backups/full-96b9a3405bc9430dbe9c7f2d920cd392`；`runtime/evidence/full-installed-files.json` 指向正式1.5.1安装 |
 | 安装保护证据 | 正式安装时35运行文件、37包文件与当时ZIP一致，原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；最新候选未操作主游戏或存档 |
 | 发布状态 | 仅供个人备份；`arialuni_sdf_u2018` 再分发许可尚未核实，未完成公开发布所需的许可与干净安装验证 |
-| 字体选型 | 已核查思源黑体SC Regular的OFL许可和全部现有实际译文字符覆盖，“沉”源字形完整；尚未生成TMP资源或替换安装，见[调研记录](shareable-font-research-2026-10-11.md) |
+| 字体选型 | 思源黑体SC Regular覆盖现有实际译文，“沉”源字形完整；[授权与争议复核](font-license-risk-check-2026-10-11.md)确认官方OFL可用于软件捆绑，来函传闻不等于有效索赔；尚未生成TMP资源或替换安装，见[选型记录](shareable-font-research-2026-10-11.md) |
 
 下一步继续处理用户反馈。安装候选时先确认用户游戏已退出，使用安装器备份安装，再生成不带 `-PendingInstall` 的包并记录新证据；不要重跑未改变的重型页面验收。
 
