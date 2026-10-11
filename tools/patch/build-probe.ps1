@@ -26,6 +26,7 @@ $arguments += $references | ForEach-Object { '/reference:' + $_ }
 $arguments += Join-Path $PSScriptRoot 'RuntimeProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'ItalicGeometryProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'LeadFollowupProbe.cs'
+$arguments += Join-Path $PSScriptRoot 'LeadLayoutProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'MapFollowupProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'TimelineFollowupProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'LogScrollAnchorProbe.cs'

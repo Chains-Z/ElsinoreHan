@@ -29,6 +29,9 @@ class PreflightTests(unittest.TestCase):
     def test_log_scroll_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_LOG_SCROLL": "1"}, "ELSINOREHAN_PROBE_LOG_SCROLL")
 
+    def test_lead_layout_without_journal_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_LEAD_LAYOUT": "1"}, "任务按钮布局回归")
+
     def test_document_scroll_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS": "observable_backerbook4"}, "文档阅读位置诊断")
 

@@ -13,6 +13,9 @@ if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -n
 if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
     throw 'ELSINOREHAN_PROBE_LOG_SCROLL 必须与真实资料模式一起运行，禁止启动。'
 }
+if ($env:ELSINOREHAN_PROBE_LEAD_LAYOUT -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
+    throw '任务按钮布局回归必须使用真实资料模式，禁止启动。'
+}
 if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) {
     if ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -PathType Leaf)) {
         throw '文档阅读位置诊断必须使用资料模式和冻结文档ID文件。'
@@ -124,6 +127,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += 'log-scroll-anchor.tsv' }
+    if ($env:ELSINOREHAN_PROBE_LEAD_LAYOUT -eq '1') { $reports += 'lead-layout.tsv' }
     if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) { $reports += 'document-scroll-anchor.tsv' }
     if ($env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES) { $reports += 'biography-replay.tsv' }
     if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1') { $reports += @('lead-followup.tsv', 'map-followup.tsv', 'timeline-followup.tsv') }
@@ -185,6 +189,10 @@ try {
         if ($env:ELSINOREHAN_PROBE_FONT_NAME) { $italicArguments += @('--font', $env:ELSINOREHAN_PROBE_FONT_NAME) }
         python @italicArguments
         if ($LASTEXITCODE -ne 0) { throw '中文斜体几何验收失败，禁止宣称字体修复通过。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_LEAD_LAYOUT -eq '1') {
+        python (Join-Path $PSScriptRoot 'verify-lead-layout.py') (Join-Path $runDirectory 'lead-layout.tsv') --output (Join-Path $runDirectory 'lead-layout-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw '任务背景几何或F8交互回归失败。' }
     }
     if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1') {
         python (Join-Path $PSScriptRoot 'verify-lead-followup.py') (Join-Path $runDirectory 'lead-followup.tsv') --output (Join-Path $runDirectory 'lead-followup-analysis.json')

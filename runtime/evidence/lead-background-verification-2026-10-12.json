@@ -1,0 +1,262 @@
+{
+  "status": "candidate_verified",
+  "passed": true,
+  "installed": false,
+  "plugin_version": "1.5.4",
+  "dictionary_count": 17041,
+  "dynamic_rules": 155,
+  "font_bundle_sha256": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+  "dictionary_sha256": "992dba2f46450c04f621ab3856e87753c85158d6f7661470767d1c91e0816ebc",
+  "dynamic_dictionary_sha256": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+  "plugin_sha256": "73b1175df24832094f9a0e9be17545de376e81923a4039dd748e65fe9a49b00c",
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+    "README.md": "0270cc6670a01ad5cb0b21bf6ab7655333920fa3fc0197fea588068fde74d7ec",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "73b1175df24832094f9a0e9be17545de376e81923a4039dd748e65fe9a49b00c",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "992dba2f46450c04f621ab3856e87753c85158d6f7661470767d1c91e0816ebc",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0"
+  },
+  "candidate_zip_sha256": "f11fdecd54e821142e3c598e029d2bb7044d71e9d927759d8a23eae9a6ef5c15",
+  "runtime_run_id": "29e62f2e0f30490db37c9fe5b66d4c43",
+  "layout_regression": {
+    "passed": true,
+    "checks": {
+      "complete": true,
+      "all_items_and_modes": true,
+      "background_centered": true,
+      "geometry_and_interaction": true,
+      "all_font_sizes_36": true,
+      "original_and_translation_distinct": true,
+      "repeated_modes_restore_exact_text": true
+    },
+    "items": 17,
+    "modes": 8,
+    "records": 136
+  },
+  "unit_tests": 22,
+  "process": {
+    "run_id": "29e62f2e0f30490db37c9fe5b66d4c43",
+    "launched_at_utc": "2026-10-11T17:54:44.5931831Z",
+    "pid": 13832,
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10,
+    "arguments": [
+      "-batchmode",
+      "-nographics",
+      "-nosound",
+      "-logFile",
+      "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\29e62f2e0f30490db37c9fe5b66d4c43\\player.log\""
+    ]
+  },
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-othello-ff4d52112ad14dcf920f367d7a3e8965",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\probe-save-29e62f2e0f30490db37c9fe5b66d4c43",
+    "files": [
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "392298EE3AB33310B91DE181853D8CD7332AA55360BC5B50449ACDEBE4DEA425",
+        "write_time": "2026-10-11T17:03:19.0287519Z"
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "1994FD7E36905A37B977B0F9E6CB2C97A6AAFF1A695B94E46A35CE800ED7AF3F",
+        "write_time": "2026-10-11T11:03:50.9563386Z"
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "3BA6599808A5A228AE8713D2521BE14C77C60F36C1F29D10730C0A48F4166F52",
+        "write_time": "2026-10-10T20:18:06.0509494Z"
+      },
+      {
+        "path": "elsinore_log.json",
+        "sha256": "6331A3030811C48E7FF6A39B1ABEFA87F996A7A5651003557B2226A7C1CC7EFF",
+        "write_time": "2026-10-11T17:47:53.1737127Z"
+      },
+      {
+        "path": "game.save",
+        "sha256": "FFD7E64A9B2C1F9381872B880D12E6E217EE45F48D3156C99CC01EA6684E8089",
+        "write_time": "2026-10-11T17:47:52.7167352Z"
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "4E2AE873319137238CE1A12EBE2AE3457FE33FB7D6BFFE7CD6CC0637EFCAC681",
+        "write_time": "2026-10-10T19:58:39.6085535Z"
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274C5BA9799562C003EB6A47B9E7B526F27555B646787FD7E44CAE3F341",
+        "write_time": "2026-10-11T17:29:37.4576928Z"
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "F7E064F6F930D806A4EFE1E682C7F1F4BA05549015B587F4BE6190CE1E6F87EE",
+        "write_time": "2026-10-10T10:25:08.1873704Z"
+      }
+    ]
+  },
+  "font_dictionary_config_license_unchanged": true,
+  "original_font_size": {
+    "method": "原始level1中JournalLeadsTab的LeadSelectionPrefab引用，沿LeadItem.Text读取原生序列化值；未启动游戏",
+    "assets_sha256": {
+      "level1": "346dbdd37e25e69de3c470a2cd138630bd68cd6fe3c66e8b8770eed043945ef2",
+      "sharedassets1.assets": "4bfcd45b6ca06b7506c1577e2325ff282214a460608dc37aceec00121fadec9f"
+    },
+    "journal_leads_tab": {
+      "asset": "level1",
+      "path_id": 14815,
+      "raw_sha256": "2be9fc3a0eb6b4b75b92dd781ea9de1c9d77b7595587ba66c1b6499e14ddaa7b"
+    },
+    "lead_prefab": {
+      "asset": "sharedassets1.assets",
+      "path_id": 2783,
+      "raw_sha256": "a6111e5f29633598b1c7559631f4eda732e5af26f1ba3f12aee2b754025125bf"
+    },
+    "text": {
+      "asset": "sharedassets1.assets",
+      "path_id": 2682,
+      "raw_sha256": "ed220ea4e601a2fcecb534aef5c907dbb0e75a1f3040fd74093215b544ccf8bb",
+      "text": "The Title of a Lead",
+      "font_size_offset": 272,
+      "font_size": 36.0,
+      "font_size_base": 36.0,
+      "font_weight": 400,
+      "enable_auto_sizing": false,
+      "font_size_min": 18.0,
+      "font_size_max": 72.0,
+      "enable_word_wrapping": true,
+      "overflow_mode": 0,
+      "font_asset": {
+        "asset": "sharedassets1.assets",
+        "path_id": 2652,
+        "raw_sha256": "6e442fc57e8fe7b0bb36c17d17997951157b3a6ebd8698e5c653d0c042cb8e73"
+      },
+      "font_name": "Crimson"
+    },
+    "canvas_scaler": [
+      {
+        "asset": "level1",
+        "path_id": 15270,
+        "raw_sha256": "e205c692199e376605c0741c3c64a06118bbd0e9e2d579f98946543875ccab95",
+        "ui_scale_mode": 1,
+        "reference_pixels_per_unit": 100.0,
+        "scale_factor": 1.0,
+        "reference_resolution": [
+          1440.0,
+          1080.0
+        ],
+        "screen_match_mode": 0,
+        "match_width_or_height": 1.0
+      }
+    ]
+  },
+  "baseline_run_id": "9e55c94d8c994805b9f80cb818061f31",
+  "baseline_background_unresponsive": {
+    "source": "Claudius Coming Undone",
+    "chinese_container_width": 252.01,
+    "english_container_width": 367.76,
+    "tile_count_all_modes": 9,
+    "font_size_all_modes": 36
+  },
+  "journal_checks": {
+    "collection_finished": true,
+    "save_guard_active": true,
+    "frozen_closeup_resource_hashes_valid": true,
+    "all_real_navigation_confirmed": true,
+    "real_log_overlay_owned": true,
+    "all_journal_tabs_activated": true,
+    "real_document_sources_match": true,
+    "api_reported_matches_consistent": true,
+    "characters_body_actual_translation": true,
+    "characters_name_actual_translation": true,
+    "hud_room_actual_translation": true,
+    "hud_time_actual_translation": true,
+    "leads_body_actual_translation": true,
+    "leads_title_actual_translation": true,
+    "log_entry_actual_translation": true,
+    "rumors_body_actual_translation": true,
+    "rumors_title_actual_translation": true,
+    "timeline_detail_actual_translation": true,
+    "log_all_real_history_indices_bound": true,
+    "log_all_entries_completely_translated": true,
+    "log_all_entries_f8_original_exact": true,
+    "log_all_entries_f8_restored_exact": true,
+    "log_no_unapproved_english": true,
+    "real_document_body_components_translated": true,
+    "real_document_cache_targets_complete": true,
+    "real_document_bare_source_cache_exists": true,
+    "document_body_f8_actual_translation": true,
+    "f8_roundtrip_matches": true,
+    "all_required_pages_have_nonempty_actual_text": true,
+    "all_phase_clocks_really_paused_and_stable": true,
+    "all_requested_phases_available": true,
+    "all_closeup_frozen_ids_consumed": true,
+    "all_closeup_complete_real_targets_displayed": true,
+    "all_known_characters_layout_consumed": true,
+    "all_known_character_titles_fit_without_overlap": true,
+    "all_known_character_profiles_translated": true,
+    "hamlet_profile_f8_original_and_restored": true,
+    "real_information_preview_source_whitelisted": true,
+    "real_quoted_information_preview_translated": true,
+    "danger_preview_existing_real_consumer_coverage": true,
+    "information_preview_not_submitted": true
+  },
+  "menu_checks": {
+    "menu_labels_all_translated": true,
+    "menu_labels_no_overflow": true,
+    "menu_no_original_labels": true,
+    "chinese_glyphs_available": true,
+    "headless_cancel_and_submit_input_isolated": true,
+    "save_write_guard_active": true,
+    "toggle_original_menu": true,
+    "toggle_restored_menu": true,
+    "toggle_release_no_change": true
+  },
+  "limits": [
+    "真实组件与正式F8处理入口回归，不代表物理键盘、屏幕像素或全剧情E2E",
+    "LateUpdate在布局变化后同步，可能延后一个渲染帧",
+    "字体纹理等未修改的重型基线沿用1.5.3证明，未重跑"
+  ]
+}

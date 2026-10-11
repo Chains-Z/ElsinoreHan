@@ -821,6 +821,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 JournalControl(tabs[index], "leads.body", tab, "DescriptionText");
                 if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_UI_FOLLOWUP") == "1")
                     yield return LeadFollowupProbe.Capture(tab, outputDirectory, new Action<bool>(SetSettingsTranslatedMode));
+                if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_LEAD_LAYOUT") == "1")
+                    yield return LeadLayoutProbe.Capture(tab, outputDirectory, new Action<bool>(SetSettingsTranslatedMode));
             }
             else
             {
