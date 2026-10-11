@@ -1,11 +1,12 @@
 {
   "game_path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore",
-  "backup_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-96b9a3405bc9430dbe9c7f2d920cd392",
+  "backup_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-c0d1205a32b14ea0abeaccfe52c3bc7d",
   "dictionary_count": 17041,
+  "font": "ElsinoreHan Sans SDF",
   "files": [
     {
       "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
-      "sha256": "65BE7F7BFF70EE7823D9795A1F926A3D2AAE0E730FAD48C81C751DED72A8524C"
+      "sha256": "992DBA2F46450C04F621AB3856E87753C85158D6F7661470767D1C91E0816EBC"
     },
     {
       "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt",
@@ -13,11 +14,34 @@
     },
     {
       "path": "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll",
-      "sha256": "8A2BBB43CF812F412B3532F4D6FAAD11ED2F2B164C0DCFD52F1DF47FD82966A0"
+      "sha256": "A8444CB85D556572DEB77D31625613F37EA816B367B276C63F4316EDDB386F3E"
+    },
+    {
+      "path": "elsinorehan_sans_sdf_u2018",
+      "sha256": "60FDD8619C0D83ACBE762D8CBA88D5655254F73B898280B8A7F09AE712B617FC"
+    },
+    {
+      "path": "licenses/ElsinoreHanSans-OFL.txt",
+      "sha256": "FCAC737E761EC63DBFBDCE11030A1780161920D80315EDBA9C8BEFF1C2BAC5A2"
+    },
+    {
+      "path": "licenses/ElsinoreHanSans-NOTICE.txt",
+      "sha256": "BD43718620F0B4B6AC88550A999CA4F0A9D5655D551C54811FC50E8F94214233"
+    },
+    {
+      "path": "licenses/TextMeshPro-Unity-Companion-License.txt",
+      "sha256": "A334158B898353CA0B46DB7B9D3112961D2D1F72742351B7C090DD4CA309ACB0"
     },
     {
       "path": "BepInEx/config/AutoTranslatorConfig.ini",
-      "sha256": "2B9AA76A48F9E71D4C22159B08781E58AD51227272464A39AFCC590DF6098A49"
+      "sha256": "F8C111C9EF17B7666ED8CED529A64D4B81C2D59158FF883272C03932E74E4586"
+    }
+  ],
+  "removed_files": [
+    {
+      "path": "arialuni_sdf_u2018",
+      "sha256": "F9FFCFA4819499C50A2ACD15D0CC0D398F79B1CFDABA14B5E6B0D6345A22648C",
+      "backup": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-c0d1205a32b14ea0abeaccfe52c3bc7d\\arialuni_sdf_u2018"
     }
   ]
 }

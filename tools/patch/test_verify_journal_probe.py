@@ -46,6 +46,13 @@ class JournalVerificationTests(unittest.TestCase):
         self.directory = tempfile.TemporaryDirectory(dir=ROOT / "runtime/build")
         self.addCleanup(self.directory.cleanup)
         self.report = Path(self.directory.name) / "journal-ui.txt"
+        # 判定器夹具使用当前源文件的元数据；消费者真实执行由独立组件回归负责。
+        self.consumer_evidence = Path(self.directory.name) / "notification-evidence.json"
+        notification_files = ("translation/supplemental/notification-ui-tests.json", "translation/supplemental/notification-ui-rules.json")
+        notification_tests = json.loads((ROOT / notification_files[0]).read_text(encoding="utf-8"))
+        self.consumer_evidence.write_text(json.dumps({
+            "notification_suite": {"actual_recursive_xunity_consumer_passed": True, "count": len(notification_tests)},
+            "artifact_sha256": {file: hashlib.sha256((ROOT / file).read_bytes()).hexdigest() for file in notification_files}}), encoding="utf-8")
         self.rows = [["STATUS", "COLLECTED"], ["SAVE_WRITE_GUARD_ACTIVE", "True"]]
         phases = ["hud", "journal", "timeline", "log", "present"] + list(self.documents)
         self.rows += [["NAVIGATION", phase, "真实页面字段", "True"] for phase in phases]
@@ -146,7 +153,7 @@ class JournalVerificationTests(unittest.TestCase):
 
     def result(self):
         self.report.write_text("\n".join("\t".join(row) for row in self.rows) + "\n", encoding="utf-8")
-        return VERIFY.analyze(self.report, RESOURCE_PATH)
+        return VERIFY.analyze(self.report, RESOURCE_PATH, self.consumer_evidence)
 
     def control(self, role):
         return next(row for row in self.rows if row[0] == "CONTROL" and row[2] == role)

@@ -1,0 +1,9 @@
+ElsinoreHan Sans SDF
+
+基于Adobe官方Source Han Sans SC Regular 2.005R生成，字体软件及派生字形按SIL Open Font License 1.1分发，完整版权及许可见ElsinoreHanSans-OFL.txt。Source为Adobe保留字体名及商标，本派生字体使用独立名称，不暗示Adobe为本补丁背书。
+
+字形由本游戏Unity2018 FontEngine从官方OTF生成，使用独立图集、字形表和metrics，不含Arial Unicode字形或旧图集数据。兼容序列化结构及TMP材质/着色器用于Unity依赖的游戏内容；其Unity许可见TextMeshPro-Unity-Companion-License.txt。
+
+官方来源：https://github.com/adobe-fonts/source-han-sans/tree/2.005R
+TMP许可来源：https://docs.unity.cn/Packages/com.unity.textmeshpro@1.0/license/LICENSE.html
+构建和核验入口：tools/patch/build-shareable-font.py及docs/dev-tasks/localization/font-replacement-2026-10-11.md

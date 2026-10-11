@@ -5,10 +5,11 @@ using BepInEx;
 using HarmonyLib;
 using TMPro;
 using UnityEngine;
+using UnityEngine.TextCore.LowLevel;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.1")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.2")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -25,6 +26,9 @@ public sealed class TranslationToggle : BaseUnityPlugin
     private static BepInEx.Logging.ManualLogSource compatibilityLogger;
     private static bool cacheFailureLogged;
     public const byte ChineseItalicStyle = 10;
+    public const byte SourceHanItalicStyle = 5;
+    public const string ChineseFontAssetName = "ElsinoreHan Sans SDF";
+    private static readonly MethodInfo atlasRenderModeSetter = typeof(TMP_FontAsset).GetProperty("atlasRenderMode").GetSetMethod(true);
     public static byte? OriginalChineseItalicStyle;
 
     private void Awake()
@@ -87,10 +91,13 @@ public sealed class TranslationToggle : BaseUnityPlugin
     public static void ConfigureChineseItalic(TMP_FontAsset __instance)
     {
         // 仅调整本补丁中文回退字体；TMP 合成斜体不增加推进宽度，过大剪切会撞字。
-        if (__instance != null && String.Equals(__instance.name, "ARIALUNI SDF", StringComparison.Ordinal))
+        if (__instance != null && (String.Equals(__instance.name, ChineseFontAssetName, StringComparison.Ordinal)
+            || String.Equals(__instance.name, "ARIALUNI SDF", StringComparison.Ordinal)))
         {
+            if (__instance.name == ChineseFontAssetName)
+                atlasRenderModeSetter.Invoke(__instance, new object[] { GlyphRenderMode.SDF8 });
             if (!OriginalChineseItalicStyle.HasValue) OriginalChineseItalicStyle = __instance.italicStyle;
-            __instance.italicStyle = ChineseItalicStyle;
+            __instance.italicStyle = __instance.name == ChineseFontAssetName ? SourceHanItalicStyle : ChineseItalicStyle;
         }
     }
 

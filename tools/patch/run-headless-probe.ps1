@@ -1,5 +1,6 @@
 param([string]$GamePath = 'D:\SteamLibrary\steamapps\common\Elsinore')
 $ErrorActionPreference = 'Stop'
+if ($env:ELSINOREHAN_PROBE_FONT_SOURCE -and -not $env:ELSINOREHAN_PROBE_FONT_CHARACTERS) { throw '字体生成缺少受控字符集，禁止启动。' }
 if ($env:ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS) {
     $retrySeconds = [float]0
     if (-not [float]::TryParse($env:ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS, [Globalization.NumberStyles]::Float, [Globalization.CultureInfo]::InvariantCulture, [ref]$retrySeconds) -or [float]::IsNaN($retrySeconds) -or [float]::IsInfinity($retrySeconds) -or $retrySeconds -lt 1 -or $retrySeconds -gt 10) {
@@ -31,11 +32,14 @@ if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1' -and ($env:ELSINOREHAN_PROBE_JOUR
 if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and (-not $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_CLOSEUP_IDS -PathType Leaf))) {
     throw 'ELSINOREHAN_PROBE_CLOSEUP_IDS 缺少冻结资料ID文件，禁止启动。'
 }
-foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS', 'ELSINOREHAN_PROBE_LEAD_CASES', 'ELSINOREHAN_PROBE_BIOGRAPHY_CASES')) {
+foreach ($variableName in @('ELSINOREHAN_PROBE_TRANSLATIONS', 'ELSINOREHAN_PROBE_CHARACTERS', 'ELSINOREHAN_PROBE_CACHE_CASES', 'ELSINOREHAN_PROBE_CLOSEUP_IDS', 'ELSINOREHAN_PROBE_LEAD_CASES', 'ELSINOREHAN_PROBE_BIOGRAPHY_CASES', 'ELSINOREHAN_PROBE_FONT_SOURCE', 'ELSINOREHAN_PROBE_FONT_CHARACTERS', 'ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE')) {
     $inputPath = [Environment]::GetEnvironmentVariable($variableName)
     if ($inputPath -and -not (Test-Path -LiteralPath $inputPath -PathType Leaf)) { throw ($variableName + ' 指向的文件不存在，禁止启动。') }
 }
 $projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
+if ($env:ELSINOREHAN_PROBE_FONT_NAME -eq 'ElsinoreHan Sans SDF' -and $env:ELSINOREHAN_PROBE_FONT_CHARACTERS) {
+    if (-not $env:ELSINOREHAN_PROBE_FONT_BAKE_EVIDENCE -or -not (Test-Path -LiteralPath (Join-Path $env:ELSINOREHAN_PROBE_FONT_BAKE_EVIDENCE 'font-bake-verification.json') -PathType Leaf)) { throw '新字体回归缺少真实生成核验，禁止启动。' }
+}
 $GamePath = (Resolve-Path -LiteralPath $GamePath).Path
 if (Get-Process -Name Elsinore -ErrorAction SilentlyContinue | Where-Object { $_.MainModule.FileName -eq (Join-Path $GamePath 'Elsinore.exe') }) { throw '目标目录的游戏正在运行，禁止介入。' }
 & (Join-Path $PSScriptRoot 'build-probe.ps1') -GamePath $GamePath
@@ -100,7 +104,7 @@ try {
     $process = Start-Process -FilePath (Join-Path $GamePath 'Elsinore.exe') -ArgumentList $arguments -WorkingDirectory $GamePath -WindowStyle Hidden -PassThru
     $process.PriorityClass = 'BelowNormal'
     $timer = [Diagnostics.Stopwatch]::StartNew()
-    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { 150 } elseif ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { 70 } else { 50 }
+    $timeoutSeconds = if ($env:ELSINOREHAN_PROBE_FONT_SOURCE) { 240 } elseif ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { 150 } elseif ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { 70 } else { 50 }
     while (-not $process.HasExited -and $timer.Elapsed.TotalSeconds -lt $timeoutSeconds) {
         $process.Refresh()
         if ($process.MainWindowHandle -ne [IntPtr]::Zero) {
@@ -113,7 +117,7 @@ try {
     if (-not $process.HasExited) { Stop-Process -Id $process.Id -Force; throw '后台探针超时，已终止。' }
     $process.WaitForExit()
     if ($process.ExitCode -ne 0) { throw ('后台探针退出码异常：' + $process.ExitCode) }
-    $reports = @('menu-texts.txt', 'settings-texts.txt')
+    $reports = if ($env:ELSINOREHAN_PROBE_FONT_SOURCE) { @('font-bake.json', 'font-atlas-alpha8.bin') } else { @('menu-texts.txt', 'settings-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
@@ -143,6 +147,21 @@ try {
     $sourceUnchanged = -not (@($sourceSnapshot | Where-Object { (Get-FileHash -LiteralPath (Join-Path $saveSourcePath $_.path)).Hash -ne $_.sha256 }).Count)
     [pscustomobject]@{ original_save_files_unchanged=$saveUnchanged; original_save_comparison_conclusive=(-not $concurrentGameActive); concurrent_user_game=$concurrentGameActive; frozen_source_unchanged=$sourceUnchanged; save_source_path=$saveSourcePath; isolated_save_path=$isolatedSavePath; files=$saveSnapshot } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $runDirectory 'save-protection.json') -Encoding utf8
     if (-not $sourceUnchanged -or (-not $saveUnchanged -and -not $concurrentGameActive)) { throw '存档保护核验失败。' }
+    if ($env:ELSINOREHAN_PROBE_FONT_SOURCE) {
+        python (Join-Path $PSScriptRoot 'verify-font-bake.py') --evidence $runDirectory --characters $env:ELSINOREHAN_PROBE_FONT_CHARACTERS
+        if ($LASTEXITCODE -ne 0) { throw '真实字体引擎生成未完成或产物不完整。' }
+        Write-Output ('本轮字体生成证据：' + $runDirectory)
+        return
+    }
+    if ($env:ELSINOREHAN_PROBE_FONT_NAME -eq 'ElsinoreHan Sans SDF' -and $env:ELSINOREHAN_PROBE_FONT_CHARACTERS) {
+        foreach ($name in @('font-regression.json', 'font-runtime-atlas.bin')) {
+            $source = Join-Path $GamePath ('ElsinoreHanProbe\' + $runId + '\' + $name)
+            if ((Get-Item -LiteralPath $source).LastWriteTimeUtc -lt $launchedAt) { throw '字体回归证据不是本轮生成。' }
+            Copy-Item -LiteralPath $source -Destination (Join-Path $runDirectory $name)
+        }
+        python (Join-Path $PSScriptRoot 'verify-font-regression.py') --evidence $runDirectory --bake-directory $env:ELSINOREHAN_PROBE_FONT_BAKE_EVIDENCE
+        if ($LASTEXITCODE -ne 0) { throw '实际字体纹理、字形坐标或沉字笔画回归失败。' }
+    }
     $verifyArguments = @((Join-Path $PSScriptRoot 'verify-probe.py'), '--evidence', $runDirectory)
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $verifyArguments += '--menu-only' }
     if ($env:ELSINOREHAN_PROBE_TRANSLATIONS) { $verifyArguments += @('--translations', $env:ELSINOREHAN_PROBE_TRANSLATIONS) }
@@ -152,11 +171,14 @@ try {
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') {
         $journalArguments = @((Join-Path $PSScriptRoot 'verify-journal-probe.py'), (Join-Path $runDirectory 'journal-ui.txt'), '--output', (Join-Path $runDirectory 'journal-analysis.json'))
         if ($env:ELSINOREHAN_PROBE_JOURNAL_BASELINE -ne '1') { $journalArguments += '--require-translated' }
+        if ($env:ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE) { $journalArguments += @('--notification-evidence', $env:ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE) }
         python @journalArguments
         if ($LASTEXITCODE -ne 0) { throw '资料页面采集或真实译文断言失败；菜单通过不能替代资料验收。' }
     }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') {
-        python (Join-Path $PSScriptRoot 'verify-italic-geometry.py') (Join-Path $runDirectory 'italic-geometry.json')
+        $italicArguments = @((Join-Path $PSScriptRoot 'verify-italic-geometry.py'), (Join-Path $runDirectory 'italic-geometry.json'))
+        if ($env:ELSINOREHAN_PROBE_FONT_NAME) { $italicArguments += @('--font', $env:ELSINOREHAN_PROBE_FONT_NAME) }
+        python @italicArguments
         if ($LASTEXITCODE -ne 0) { throw '中文斜体几何验收失败，禁止宣称字体修复通过。' }
     }
     if ($env:ELSINOREHAN_PROBE_UI_FOLLOWUP -eq '1') {

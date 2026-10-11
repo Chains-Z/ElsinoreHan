@@ -7,7 +7,7 @@
 ## 功能与适用版本
 
 - 翻译对白、人物资料、文档、线索、日志、地图及时间线等玩家文字，并处理运行时拼接。
-- 使用中文TMP字体，保留原文的粗体与斜体。
+- 使用基于思源黑体生成的中文TMP字体，保留原文的粗体与斜体。
 - 按 **F8** 在当前文字的英文原文与中文译文之间切换。
 - 按 **Alt+R** 重载词表；修改加载器配置后需要重启游戏。
 
@@ -15,7 +15,7 @@
 
 ## 使用与安装
 
-本仓库保存源码、译文和核验记录。游戏本体、第三方依赖、字体、编译产物及ZIP不纳入Git，克隆仓库不会得到可直接安装的完整补丁。当前没有正式公开发行包：本机生成的 `runtime/package/ElsinoreHan-Sol.zip` 是个人备份，字体的再分发许可仍待核实。
+本仓库保存源码、译文和核验记录。游戏本体、第三方依赖、字体、编译产物及ZIP不纳入Git，克隆仓库不会得到可直接安装的完整补丁。当前没有正式公开发行包；本机生成的 `runtime/package/ElsinoreHan-Sol.zip` 是个人备份。
 
 已有补丁的游戏正常从Steam启动即可。遇到疑句时按F8查看英文；报告问题时附上原句、截图和场景或说话人，有助于定位实际运行源文。
 
@@ -25,7 +25,7 @@
 ./tools/patch/install-full.ps1 -GamePath 'D:\SteamLibrary\steamapps\common\Elsinore'
 ```
 
-`-GamePath` 可替换为实际游戏目录。安装器核对词表哈希、备份已有项目文件，再更新词表、兼容插件和配置；备份路径会显示在输出中，并写入 `runtime/evidence/full-installed-files.json`。
+`-GamePath` 可替换为实际游戏目录。安装器核对词表、插件及字体的验收哈希，备份已有项目文件，再更新词表、中文字体、许可、兼容插件和配置；备份路径会显示在输出中，并写入 `runtime/evidence/full-installed-files.json`。
 
 此脚本用于更新已配置好加载器的环境，要求目标已有 `BepInEx/config/AutoTranslatorConfig.ini`。首次安装所需的加载器准备见 [技术说明](docs/dev-tasks/localization/technical-probe.md)；其中样板与测试结果属于早期记录，完整补丁的干净目录安装验收尚未完成。
 
@@ -33,7 +33,7 @@
 
 退出游戏后，可将游戏目录 `doorstop_config.ini` 的 `[General]` 节中 `enabled` 改为 `false`，再次启动时停用加载器；改回 `true` 可恢复。此操作会停用通过同一加载器加载的其他插件。
 
-回退某次更新时，按安装记录找到对应的 `runtime/backups/full-*` 目录，恢复其中的旧词表、插件及配置。仓库尚未提供完整卸载脚本；如需清理，依据安装记录识别本项目增加的文件，避免删除其他模组共用的加载器或游戏原文件。
+回退某次更新时，按安装记录找到对应的 `runtime/backups/full-*` 目录，恢复其中的旧词表、插件、字体及配置；字体切换的记录还会列出移除的旧字体及其备份位置。仓库尚未提供完整卸载脚本；如需清理，依据安装记录识别本项目增加的文件，避免删除其他模组共用的加载器或游戏原文件。
 
 ## 开发与校订
 
@@ -61,6 +61,8 @@ python -m unittest discover -s tools/translation -p test_export_sol_full.py
 
 导出器会更新生成词表和核验记录。对白、动态组合或插件变化还需运行对应的消费者与组件检查；工具选择和后台游戏测试注意事项见 [维护交接](docs/dev-tasks/localization/handoff.md#生成与验证工具)。
 
+中文字体通过本游戏Unity2018的字体引擎生成，使用思源黑体SC Regular作为源字体。构建还需要 `fontTools` 和 `UnityPy`；字符集、生成、装配及加载验收步骤见 [字体构建说明](docs/dev-tasks/localization/font-replacement-2026-10-11.md)。
+
 ## 目录
 
 | 路径 | 内容 |
@@ -72,10 +74,13 @@ python -m unittest discover -s tools/translation -p test_export_sol_full.py
 | `analysis/` | 文字提取与界面来源分析 |
 | `docs/dev-tasks/localization/` | 实现说明、维护交接、任务及历史记录 |
 | `runtime/evidence/` | 验证与安装核验摘要 |
+| `licenses/` | 中文字体、来源说明与字体资源中TMP组件的许可 |
 | `runtime/vendor/`、`runtime/package/`、`runtime/backups/` | 本机依赖、个人补丁包及备份，不入Git |
 
 ## 已知限制与许可
 
 初稿与自动检查不能保证所有剧情、未知动态组合或图片文字均已覆盖；部分对白和长文档的实际屏幕排版仍需随游玩确认。后台组件或字体网格检查不代表完整游玩及全场景像素验收。
 
-BepInEx、XUnity、Harmony及字体遵循各自的许可。当前字体再分发许可尚未核实，第三方许可整理、完整安装/卸载说明和干净目录安装验证仍是公开发布前的待办。
+BepInEx、XUnity和Harmony遵循各自的许可。中文字体来自Adobe官方思源黑体，按 [SIL Open Font License 1.1](licenses/ElsinoreHanSans-OFL.txt) 使用和再分发；派生资源名称为 `ElsinoreHan Sans SDF`，来源与TMP组件许可见 [字体说明](licenses/ElsinoreHanSans-NOTICE.txt)。补丁包附带这些许可文件。
+
+公开发布前仍需完成其他依赖的许可整理、完整安装/卸载说明和干净目录安装验证。

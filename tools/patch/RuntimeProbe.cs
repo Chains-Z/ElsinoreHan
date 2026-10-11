@@ -48,6 +48,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
     private static bool physicalInputGuardActive;
     private static int disabledPhysicalInputModules;
     private static string isolatedSaveDirectory;
+    private bool fontBakeStarted;
 
     private void Awake()
     {
@@ -160,6 +161,15 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 audioSuspended = true;
                 Logger.LogInfo("Wwise 后台音频暂停结果=" + result);
             }
+        }
+        if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_FONT_SOURCE")))
+        {
+            if (!fontBakeStarted && audioSuspended && Time.realtimeSinceStartup - started > 2f)
+            {
+                fontBakeStarted = true;
+                StartCoroutine(FontBakeProbe.Run(outputDirectory));
+            }
+            return;
         }
         if ((requireToggle || requireSettingsOptions || requireJournal) && !captured && Time.realtimeSinceStartup - started > 12f
             && Time.realtimeSinceStartup > nextMenuCheck)
@@ -1393,10 +1403,11 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             }
             foreach (var font in Resources.FindObjectsOfTypeAll<TMP_FontAsset>())
             {
-                if (font.name.IndexOf("arial", StringComparison.OrdinalIgnoreCase) >= 0)
+                if (font.name == (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_FONT_NAME") ?? "ARIALUNI SDF"))
                 {
                     report.AppendLine("LOADED_FONT=" + font.name + " VERSION=" + font.version
                         + " GLYPHS_继续游戏设置退出=" + font.HasCharacters("继续游戏设置退出"));
+                    if (name == "menu") FontRegressionProbe.Capture(font, directory);
                     var charactersPath = Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_CHARACTERS");
                     if (!string.IsNullOrEmpty(charactersPath) && File.Exists(charactersPath))
                     {

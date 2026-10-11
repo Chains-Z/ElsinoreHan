@@ -1,0 +1,44 @@
+{
+  "status": "installed_verified",
+  "passed": true,
+  "plugin_version": "1.5.2",
+  "dictionary_count": 17041,
+  "dynamic_rules": 155,
+  "font": "ElsinoreHan Sans SDF",
+  "backup_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-c0d1205a32b14ea0abeaccfe52c3bc7d",
+  "candidate_verification": "font-replacement-verification.json",
+  "font_bundle_sha256": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+  "dictionary_sha256": "992dba2f46450c04f621ab3856e87753c85158d6f7661470767d1c91e0816ebc",
+  "plugin_sha256": "a8444cb85d556572deb77d31625613f37ea816b367b276c63f4316eddb386f3e",
+  "installed_owned_file_sha256": {
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "992dba2f46450c04f621ab3856e87753c85158d6f7661470767d1c91e0816ebc",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "a8444cb85d556572deb77d31625613f37ea816b367b276c63f4316eddb386f3e",
+    "elsinorehan_sans_sdf_u2018": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586"
+  },
+  "package_file_count": 40,
+  "installed_package_runtime_files_match": 38,
+  "zip_matches_package": true,
+  "zip_sha256": "c133d3551823229697d903fb013e2a7716b548370482c52874f1b3c4f23013ec",
+  "backup_owned_files_verified": 5,
+  "old_font_backed_up_and_removed": true,
+  "config_only_font_selection_changed": true,
+  "sample_config_bytes_match_installed": true,
+  "original_game_four_files_sha256_mtime_and_size_unchanged": true,
+  "save_files_sha256_mtime_size_and_count_unchanged": true,
+  "save_file_count": 8,
+  "main_game_not_launched": true,
+  "included_dialogue_reviews": [
+    "larger-game-followup-verification.json",
+    "bernardo-friend-followup-verification.json",
+    "othello-term-review-verification.json"
+  ],
+  "limits": [
+    "后台资源和组件验收不是完整屏幕像素或全剧情E2E验收",
+    "字体许可已整理，个人备份包尚未完成公开发布的全部依赖许可与干净安装验收"
+  ]
+}

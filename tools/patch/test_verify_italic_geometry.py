@@ -54,6 +54,17 @@ class GeometryTests(unittest.TestCase):
     def test_complete_comparison_passes(self):
         self.assertTrue(MODULE.analyze(fixture())["passed"])
 
+    def test_source_han_requires_its_own_font_and_safe_style(self):
+        report = fixture()
+        self.assertFalse(MODULE.analyze(report, "ElsinoreHan Sans SDF")["checks"]["repaired_style_expected"])
+        report["repairedItalicStyle"] = 5
+        for sample in report["samples"]:
+            if sample["mode"] != "old": sample["italicStyle"] = 5
+            for character in sample["characters"]: character["font"] = "ElsinoreHan Sans SDF"
+        self.assertTrue(MODULE.analyze(report, "ElsinoreHan Sans SDF")["passed"])
+        report["samples"][1]["characters"][5]["font"] = "ARIALUNI SDF"
+        self.assertFalse(MODULE.analyze(report, "ElsinoreHan Sans SDF")["checks"]["italic_retained"])
+
     def test_missing_layout_fails(self):
         report = fixture()
         report["samples"] = [s for s in report["samples"] if s["layout"] != "log"]

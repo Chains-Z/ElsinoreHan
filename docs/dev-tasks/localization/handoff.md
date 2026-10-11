@@ -7,13 +7,13 @@
 | 项目 | 状态与依据 |
 | --- | --- |
 | 维护阶段 | 中文初稿已可玩，继续根据实际游玩反馈定向校订，不等待全分支人工审校 |
-| 正式安装 | 插件1.5.1，17,041词条，155动态规则；[安装核验](../../../runtime/evidence/playthrough-install-verification-2026-10-11.json) |
-| 最新候选 | 幽灵“一场更大的游戏”与贝尔纳多“至少，我还有你这个朋友”均待安装；[最新任务记录](bernardo-friend-followup-2026-10-11.md)、[候选核验](../../../runtime/evidence/bernardo-friend-followup-verification.json)；[前轮记录](larger-game-followup-2026-10-11.md)保留快照 |
-| 个人备份包 | `runtime/package/ElsinoreHan-Sol.zip` 已含上述两轮待安装校订，与候选目录37文件一致；当前哈希见最新候选核验，字体仍为原Arial资源 |
-| 安装备份 | `runtime/backups/full-96b9a3405bc9430dbe9c7f2d920cd392`；`runtime/evidence/full-installed-files.json` 指向正式1.5.1安装 |
-| 安装保护证据 | 正式安装时35运行文件、37包文件与当时ZIP一致，原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；最新候选未操作主游戏或存档 |
-| 发布状态 | 仅供个人备份；`arialuni_sdf_u2018` 再分发许可尚未核实，未完成公开发布所需的许可与干净安装验证 |
-| 字体选型 | 思源黑体SC Regular覆盖现有实际译文，“沉”源字形完整；[授权与争议复核](font-license-risk-check-2026-10-11.md)确认官方OFL可用于软件捆绑，来函传闻不等于有效索赔；尚未生成TMP资源或替换安装，见[选型记录](shareable-font-research-2026-10-11.md) |
+| 正式安装 | 插件1.5.2，17,041词条，155动态规则；[安装核验](../../../runtime/evidence/font-replacement-install-verification.json) |
+| 最新对白校订 | 幽灵“一场更大的游戏”、贝尔纳多“至少，我还有你这个朋友”、奥赛罗“苏丹麾下的一名高级大臣”均已安装；“抓住你的脑袋”按用户决定保留，见[奥赛罗术语核查](othello-term-review-2026-10-11.md) |
+| 个人备份包 | `runtime/package/ElsinoreHan-Sol.zip` 与40文件包目录及38运行文件一致；已换新字体并附3份许可/说明，无旧Arial字库；当前哈希见最新安装核验 |
+| 安装备份 | `runtime/backups/full-c0d1205a32b14ea0abeaccfe52c3bc7d`，旧词表、插件、配置及Arial字库5文件备份均核对成功；`full-installed-files.json` 指向正式1.5.2安装 |
+| 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；安装只改字体配置键，未启动主游戏 |
+| 发布状态 | 仅供个人备份；思源字体再分发许可与TMP组件许可已附，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成 |
+| 当前字体 | `ElsinoreHan Sans SDF`，来自思源黑体SC Regular 2.005R，OFL1.1；7,660字形及实际运行纹理与原生生成结果一致，“沉”上横检查通过；[字体替换及验证](font-replacement-2026-10-11.md)、[授权争议复核](font-license-risk-check-2026-10-11.md) |
 
 下一步继续处理用户反馈。安装候选时先确认用户游戏已退出，使用安装器备份安装，再生成不带 `-PendingInstall` 的包并记录新证据；不要重跑未改变的重型页面验收。
 
@@ -26,7 +26,7 @@
 | 文章与人物口语审校 | [阅读正文](reading-text-review-2026-10-10.md)、[伊尔玛](irma-dialogue-review-2026-10-10.md)、[其他角色](dialect-dialogue-review-2026-10-10.md) |
 | 日志组合与滚动位置 | [混合日志](mixed-log-followup-2026-10-10.md)、[日志跟进](log-followup-2026-10-10.md) |
 | 线索、地图、时间线、界面提取 | [UI跟进](ui-followup-2026-10-10.md)、[源审计](ui-audit.md) |
-| TMP兼容与字体 | [TMP兼容](tmp-compatibility.md)、[运行界面跟进](runtime-ui-followup.md) |
+| TMP兼容与字体 | [思源字体替换](font-replacement-2026-10-11.md)、[TMP兼容](tmp-compatibility.md)、[运行界面跟进](runtime-ui-followup.md) |
 | 冻结全文、来源与实际CLI用量 | [Sol全文](sol-full.md) |
 | 存档事故与防护依据 | [存档写入事故](save-write-incident.md) |
 | 更早的研究与阶段记录 | [历史索引](README.md)、[原AGENTS交接内容迁移快照](handoff-history-2026-10-11.md) |
@@ -40,6 +40,7 @@
 - 布莉特p09190保留“长期预约在这里闲待”的夸张幽默；p03368的 `both of them` 指克劳狄斯和哈姆雷特，真实分支中两人已死，不改为未来条件。
 - 福丁布拉斯简介明确“与丹麦王室重修于好”。裸源 `I do.` 的共同肯定答复为“是的。”；幽灵的斜体源承接时间循环，译为“是的，我也一样。”。`bloody deeds` 不补写施暴者或受害者。
 - 未来 `ImpossibleEvent` 标签为“当前条件下不会发生”，过去未发生项按过去时处理。奎因斯演出回顾使用回顾语气，不补演出时点。
+- 奥赛罗 `vizier` 按用户指定译为“苏丹麾下的一名高级大臣”，不是首相；`grab your head` 保留“抓住你的脑袋”及斩首呼应，不把调情双关的推断写成具体动作。
 - 13首片尾歌曲、真实工作人员姓名、技术品牌和按键名按实际语境保留。英文强调用途不代表统一强弱等级，依据见 [标记审计](english-markup-audit.md)。
 
 ## 实现注意事项
@@ -48,7 +49,7 @@
 
 TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件在StringBuilder和字符串双参数入口转交原文到text setter；即时路径不拆分，setter前缀通过纯离线API消费，并登记完整组合内存缓存（`Full/scope=-1/persist=false`）。只查 `TryTranslate` 不能保证组合已缓存。源码为 `tools/patch/TranslationToggle.cs`。
 
-人物Title使用单行自适应字号。`LogScrollAnchor` 只保护F8，不能锁住平时滚动；长段内部并非逐词定位，结构或历史变化时保守跳过。中文字体的合成斜体剪切35降为10并不是角度调整，不能据此换算倾斜角。
+人物Title使用单行自适应字号。`LogScrollAnchor` 只保护F8，不能锁住平时滚动；长段内部并非逐词定位，结构或历史变化时保守跳过。当前思源字体合成斜体剪切设为5；旧Arial兼容分支仍为10。参数不是角度，新字体沿用10会导致样本网格相邻边界重叠。TMP1.4迁移旧序列化字段时不能恢复原生SDF8，插件在新字体读取后精确设回SDF8。
 
 ### 源字段与动态组合
 
@@ -66,7 +67,7 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 
 `ELSINOREHAN_PROBE_JOURNAL=1` 与设置逐档模式互斥；UI_FOLLOWUP同时开启JOURNAL并提供LEAD_CASES。时间线 `loop=0` 为当前，历史索引向过去递增，Previous加1、Next减1，时钟纪元为06:00。反射使用准确签名，未参加/未来项不提前调用Details，缺scene明确跳过，不能造零Changes。
 
-字体网格使用真实参数和冻结译文，隔离样本关闭换行/裁切，只比较glyph包络，不采样纹理alpha，不代表实际页面换行或像素验收。JsonUtility会漏动态探针的嵌套数组，必须显式导出并核对完整证据。
+字体网格使用真实参数和冻结译文，隔离样本关闭换行/裁切，只比较glyph包络；本轮额外核对完整运行时纹理、7,660字形坐标及“沉”的固定笔画区域，仍不代表完整页面像素验收。JsonUtility会漏动态探针的嵌套数组，必须显式导出并核对完整证据。通知门禁的消费者证据须匹配当前夹具/规则哈希，旧阶段快照不改写；需要时真实重跑，并通过 `ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE` 明确传入新证明。
 
 ## 生成与验证工具
 
@@ -80,6 +81,8 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | `audit_irma_dialogue.py`、`audit_dialect_dialogue.py` | 从真实TextAsset筛查口语；非标准拼写仅为选择线索，不自动判错 |
 | `prepare_ghost_context_followup.py` | 再生幽灵短答、暴行语境及“更大的游戏”回归 |
 | `prepare_bernardo_friend_followup.py` | 再生贝尔纳多友谊回应、真实相邻语境及日志组合回归 |
+| `prepare_othello_vizier_followup.py` | 再生高级大臣一词及实际相邻语境回归 |
+| `tools/patch/prepare-font-characters.py`、`build-shareable-font.py` | 再生受控字体字符集，装配真实Unity2018生成的图集；源字体与旧模板均不入Git |
 | `tools/translation/verify-recursive-ui.ps1` | 真实XUnity递归消费者组件检查，不启动游戏 |
 | `tools/patch/run-toggle-probe.ps1` | 后台游戏探针；具体环境变量和断言契约见源码与对应任务文档 |
 
@@ -94,5 +97,6 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | 2026-10-10正式1.5.0安装 | [阅读跟进](reading-followup-2026-10-10.md)、[安装证据](../../../runtime/evidence/reading-install-verification.json) |
 | 2026-10-11正式1.5.1安装 | [游玩跟进](playthrough-followup-2026-10-11.md)、[安装证据](../../../runtime/evidence/playthrough-install-verification-2026-10-11.json) |
 | 2026-10-11待安装对白校订 | [更大的游戏](larger-game-followup-2026-10-11.md)、[友谊回应](bernardo-friend-followup-2026-10-11.md)、[最新候选证据](../../../runtime/evidence/bernardo-friend-followup-verification.json) |
+| 2026-10-11正式1.5.2字体与对白安装 | [字体构建与验证](font-replacement-2026-10-11.md)、[候选快照](../../../runtime/evidence/font-replacement-verification.json)、[安装证据](../../../runtime/evidence/font-replacement-install-verification.json)；前述待安装对白已随本轮安装 |
 
 百炼四模型比较已停止，不恢复调用；密钥只在被忽略的本机文件中。PipistrelloHan的IL2CPP/BepInEx6/CSV方案不能直接套用于本项目。旧测试与存档事故的限制保留在原记录中，后续通过不能追认此前存档未变或全剧情已验收。

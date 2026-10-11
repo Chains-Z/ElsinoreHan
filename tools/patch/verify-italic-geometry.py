@@ -50,7 +50,7 @@ def boundary_evidence_valid(sample):
     return True
 
 
-def analyze(report: dict) -> dict:
+def analyze(report: dict, font_name: str = "ARIALUNI SDF") -> dict:
     """检查真实字形包络、剪切保留及不改字符推进的局部回归。"""
     samples = report.get("samples", [])
     valid_samples = isinstance(samples, list) and all(isinstance(s, dict) for s in samples)
@@ -64,8 +64,8 @@ def analyze(report: dict) -> dict:
         "font_restored": report.get("fontRestored") is True,
         "actual_old_style_recorded": type(report.get("originalItalicStyle")) is int
         and report["originalItalicStyle"] == 35,
-        "repaired_style_ten": type(report.get("repairedItalicStyle")) is int
-        and report["repairedItalicStyle"] == 10,
+        "repaired_style_expected": type(report.get("repairedItalicStyle")) is int
+        and report["repairedItalicStyle"] == (5 if font_name == "ElsinoreHan Sans SDF" else 10),
         "all_twelve_samples": valid_samples and set(keyed) == expected and len(samples) == 12,
         "nonempty_character_samples": bool(samples),
         "mode_style_consistent": True,
@@ -142,7 +142,7 @@ def analyze(report: dict) -> dict:
             checks["old_collision_reproduced"] |= old_collision
             emphasized = [c for c in repaired_chars if c.get("italic")]
             checks["italic_retained"] &= bool(emphasized) and all(
-                c.get("font") == "ARIALUNI SDF" and abs(c["tilt"]) > 0.01 for c in emphasized
+                c.get("font") == font_name and abs(c["tilt"]) > 0.01 for c in emphasized
             )
             checks["normal_not_slanted"] &= bool(normal_chars) and all(
                 not c.get("italic") and abs(c["tilt"]) < 0.01 for c in normal_chars
@@ -173,8 +173,9 @@ def analyze(report: dict) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("report", type=Path)
+    parser.add_argument("--font", default="ARIALUNI SDF")
     args = parser.parse_args()
-    result = analyze(json.loads(args.report.read_text(encoding="utf-8-sig")))
+    result = analyze(json.loads(args.report.read_text(encoding="utf-8-sig")), args.font)
     print(json.dumps(result, ensure_ascii=False, indent=2))
     raise SystemExit(0 if result["passed"] else 1)
 

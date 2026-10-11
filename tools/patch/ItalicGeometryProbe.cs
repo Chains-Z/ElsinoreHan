@@ -35,6 +35,8 @@ public static class ItalicGeometryProbe
         public bool fontRestored; public Sample[] samples;
     }
     private static readonly string[] SourceIds = { "p10804-e0f7f605aeb5", "p10805-9c05de9c31a3" };
+    private static string TargetFontName { get { return Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_FONT_NAME") ?? "ARIALUNI SDF"; } }
+    private static byte RepairedStyle { get { return TargetFontName == "ElsinoreHan Sans SDF" ? (byte)5 : (byte)10; } }
     private static readonly string[] Texts = {
         "他什么时候<i>不</i>古怪了？不过，我想这也说得通。",
         "我相信，那么多人里，他<i>当然会</i>找你寻求安慰，在……呃……之后。"
@@ -62,7 +64,7 @@ public static class ItalicGeometryProbe
         }
         TMP_FontAsset chinese = null;
         foreach (TMP_FontAsset font in Resources.FindObjectsOfTypeAll<TMP_FontAsset>())
-            if (font.name == "ARIALUNI SDF") { chinese = font; break; }
+            if (font.name == TargetFontName) { chinese = font; break; }
         if (chinese == null)
         {
             foreach (TMP_FontAsset font in Resources.FindObjectsOfTypeAll<TMP_FontAsset>()) catalogue.AppendLine("FONT=" + font.name);
@@ -71,7 +73,7 @@ public static class ItalicGeometryProbe
         }
         byte? original = OriginalStyle();
         if (!original.HasValue) throw new InvalidOperationException("无法读取中文字体修复前的真实斜体剪切值");
-        var report = new Report { originalItalicStyle = original.Value };
+        var report = new Report { originalItalicStyle = original.Value, repairedItalicStyle = RepairedStyle };
         var samples = new List<Sample>();
         // 三种网格必须在同一次同步调用中采集，finally恢复字体，禁止跨帧改变别的控件。
         try
@@ -82,11 +84,11 @@ public static class ItalicGeometryProbe
                 for (int sentence = 0; sentence < Texts.Length; sentence++)
                 {
                     samples.Add(Capture(templates[layout], log.transform.parent, layouts[layout], sentence, "old", original.Value, chinese));
-                    samples.Add(Capture(templates[layout], log.transform.parent, layouts[layout], sentence, "repaired", 10, chinese));
-                    samples.Add(Capture(templates[layout], log.transform.parent, layouts[layout], sentence, "normal", 10, chinese));
+                    samples.Add(Capture(templates[layout], log.transform.parent, layouts[layout], sentence, "repaired", RepairedStyle, chinese));
+                    samples.Add(Capture(templates[layout], log.transform.parent, layouts[layout], sentence, "normal", RepairedStyle, chinese));
                 }
         }
-        finally { chinese.italicStyle = 10; report.fontRestored = chinese.italicStyle == 10; }
+        finally { chinese.italicStyle = RepairedStyle; report.fontRestored = chinese.italicStyle == RepairedStyle; }
         report.samples = samples.ToArray();
         Directory.CreateDirectory(outputDirectory);
         // 本机 Unity 的 JsonUtility 会漏掉动态加载探针中的嵌套数组，显式导出全部字段。
@@ -94,6 +96,13 @@ public static class ItalicGeometryProbe
         WriteJson(json, report);
         File.WriteAllText(System.IO.Path.Combine(outputDirectory, "italic-geometry.json"), json.ToString(), new UTF8Encoding(false));
         return true;
+    }
+
+    public static string Serialize(object value)
+    {
+        var output = new StringBuilder();
+        WriteJson(output, value);
+        return output.ToString();
     }
 
     private static void WriteJson(StringBuilder output, object value)
@@ -187,7 +196,7 @@ public static class ItalicGeometryProbe
             {
                 TMP_CharacterInfo info = clone.textInfo.characterInfo[i];
                 if (!info.isVisible) continue;
-                if (info.fontAsset == null || (info.character >= '\u4e00' && info.character <= '\u9fff' && info.fontAsset.name != "ARIALUNI SDF"))
+                if (info.fontAsset == null || (info.character >= '\u4e00' && info.character <= '\u9fff' && info.fontAsset.name != TargetFontName))
                     throw new InvalidOperationException("几何样本没有使用目标中文字体：" + info.character);
                 var mesh = clone.textInfo.meshInfo[info.materialReferenceIndex];
                 int vertex = info.vertexIndex;

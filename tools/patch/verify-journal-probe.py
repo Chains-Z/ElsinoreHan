@@ -71,7 +71,22 @@ def unapproved_english(text: str) -> list[str]:
     return sorted(set(re.findall(r"[A-Za-z][A-Za-z0-9]*(?:['’][A-Za-z]+)*", text)))
 
 
-def analyze(path: Path, resource_path: Path) -> dict:
+def notification_coverage_valid(tests: list[dict], evidence: dict, project_root: Path) -> bool:
+    """消费者证明必须绑定当前夹具与规则；旧阶段哈希不冒充新阶段通过。"""
+    suite = evidence.get("notification_suite", {})
+    hashes = evidence.get("artifact_sha256", {})
+    danger = [row for row in tests if row["source"] in {
+        '"Someone is after my life."',
+        '"Someone is after my life, and I\'ve experienced things I cannot explain."',
+    }]
+    return (suite.get("actual_recursive_xunity_consumer_passed") is True
+            and suite.get("count") == len(tests) and len(tests) >= 596 and len(danger) == 2
+            and all(not unapproved_english(row["target"]) and row["target"] != row["source"] for row in danger)
+            and all(hashlib.sha256((project_root / file).read_bytes()).hexdigest() == hashes.get(file)
+                    for file in ("translation/supplemental/notification-ui-tests.json", "translation/supplemental/notification-ui-rules.json")))
+
+
+def analyze(path: Path, resource_path: Path, notification_evidence: Path | None = None) -> dict:
     rows = [line.split("\t") for line in path.read_text(encoding="utf-8").splitlines() if line]
     required_documents = {"observable_hamletdiary", "observable_poldesk", "observable_backerbook4"}
     expected_navigation = {"hud", "journal", "timeline", "log", "present"} | required_documents
@@ -385,19 +400,15 @@ def analyze(path: Path, resource_path: Path) -> dict:
         and any(row["passed"] and row["original_base64"] == preview_sources[0] for row in preview_controls)
     )
     component_evidence = notification.get("actual_component_verification", {})
+    if notification_evidence is not None:
+        component_evidence = json.loads(notification_evidence.read_text(encoding="utf-8"))
     suite = component_evidence.get("notification_suite", {})
     artifact_hashes = component_evidence.get("artifact_sha256", {})
     danger_cases = [row for row in notification_tests if row["source"] in {
         '"Someone is after my life."',
         '"Someone is after my life, and I\'ve experienced things I cannot explain."',
     }]
-    checks["danger_preview_existing_real_consumer_coverage"] = (
-        suite.get("actual_recursive_xunity_consumer_passed") is True
-        and suite.get("count") == len(notification_tests) and len(notification_tests) >= 596
-        and len(danger_cases) == 2 and all(not unapproved_english(row["target"]) and row["target"] != row["source"] for row in danger_cases)
-        and all(hashlib.sha256((project_root / file).read_bytes()).hexdigest() == artifact_hashes.get(file)
-                for file in ("translation/supplemental/notification-ui-tests.json", "translation/supplemental/notification-ui-rules.json"))
-    )
+    checks["danger_preview_existing_real_consumer_coverage"] = notification_coverage_valid(notification_tests, component_evidence, project_root)
     checks["information_preview_not_submitted"] = [row[1] for row in rows if row[0] == "PRESENT_SUBMIT_BLOCKED_COUNT"] == ["0"]
     counters = {(row[1], row[2], row[3]): int(row[4]) for row in rows if row[0] == "PREFIX_COUNT"}
     prefix_deltas = []
@@ -458,8 +469,9 @@ def main() -> None:
     parser.add_argument("--output", type=Path)
     parser.add_argument("--require-translated", action="store_true")
     parser.add_argument("--resources", type=Path, default=Path(__file__).resolve().parents[2] / "analysis/ui-audit/resource-strings.json")
+    parser.add_argument("--notification-evidence", type=Path)
     args = parser.parse_args()
-    result = analyze(args.report, args.resources)
+    result = analyze(args.report, args.resources, args.notification_evidence)
     rendered = json.dumps(result, ensure_ascii=False, indent=2) + "\n"
     if args.output:
         args.output.write_text(rendered, encoding="utf-8")

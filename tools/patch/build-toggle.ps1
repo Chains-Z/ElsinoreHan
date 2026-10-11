@@ -16,6 +16,7 @@ $references = @(
     (Join-Path $managed 'UnityEngine.dll'),
     (Join-Path $managed 'UnityEngine.CoreModule.dll'),
     (Join-Path $managed 'UnityEngine.InputModule.dll')
+    (Join-Path $managed 'UnityEngine.TextCoreModule.dll')
 )
 # 旧编译器每次产生新的模块标识；只有输入及产物哈希均一致时复用，避免安装后无意义重建。
 $anchorSource = Join-Path $PSScriptRoot 'LogScrollAnchor.cs'
