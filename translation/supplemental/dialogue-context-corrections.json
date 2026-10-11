@@ -307,5 +307,41 @@
       "用户幽灵对白截图，2026-10-11"
     ],
     "reason": "committed对应犯下暴行，替换生硬的发生过暴行；原文未明确施暴者和受害者，不硬补母亲遭受伤害或父亲实施具体行为。保留双层斜体和后句。"
+  },
+  {
+    "id": "ghost-larger-game-2d93feae655f62fa",
+    "original_id": "p03770-2d93feae655f",
+    "source": "It is impossible, yes. It is the rules of the larger game.",
+    "source_sha256": "2d93feae655f62fa7054cbedb9e9049f509421cbf917be57e389c2feb8eeaebe",
+    "previous_target": "是的，那不可能。这是那场更大的游戏的规则。",
+    "target": "是的，那不可能。这是一场更大的游戏的规则。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHOST_GhostApperation",
+        "line": 9488
+      },
+      "用户实际游玩截图反馈，2026-10-11"
+    ],
+    "reason": "按用户意见调整larger game的中文语序为一场更大的游戏，统一裸源与斜体源，保留规则比喻，不补写幕后关系。"
+  },
+  {
+    "id": "ghost-larger-game-bf6c31260029ced3",
+    "original_id": "a00247-bf6c31260029",
+    "source": "<i>It is impossible, yes. It is the rules of the larger game.</i>",
+    "source_sha256": "bf6c31260029ced32ae3bde8415c8d51d5a192ccec8ced309bdafc586367f915",
+    "previous_target": "<i>是的，那不可能。这是更大一场游戏的规则。</i>",
+    "target": "<i>是的，那不可能。这是一场更大的游戏的规则。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHOST_GhostApperation",
+        "line": 9488
+      },
+      "用户实际游玩截图反馈，2026-10-11"
+    ],
+    "reason": "按用户意见调整larger game的中文语序为一场更大的游戏，统一裸源与斜体源，保留规则比喻，不补写幕后关系。"
   }
 ]

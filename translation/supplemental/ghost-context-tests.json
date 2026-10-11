@@ -39,7 +39,59 @@
     ]
   },
   {
+    "id": "ghost-larger-game-bare",
+    "source": "It is impossible, yes. It is the rules of the larger game.",
+    "target": "是的，那不可能。这是一场更大的游戏的规则。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHOST_GhostApperation",
+        "line": 9488
+      }
+    ]
+  },
+  {
     "id": "ghost-context-1-leaf",
+    "source": "<i>It is impossible, yes. It is the rules of the larger game.</i>",
+    "target": "<i>是的，那不可能。这是一场更大的游戏的规则。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHOST_GhostApperation",
+        "line": 9488
+      }
+    ]
+  },
+  {
+    "id": "ghost-context-1-speaker",
+    "source": "<b>Ghost:</b> <indent=16%><i>It is impossible, yes. It is the rules of the larger game.</i>",
+    "target": "<b>幽灵:</b> <indent=16%><i>是的，那不可能。这是一场更大的游戏的规则。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHOST_GhostApperation",
+        "line": 9488
+      }
+    ]
+  },
+  {
+    "id": "ghost-context-1-context",
+    "source": "<b>Ghost:</b> <indent=16%><i>Things are almost peaceful, here at the start of it all.</i></indent>\n<b>Ophelia:</b> <indent=16%>You and I are the only ones who know about what's coming for them. The rest of them—they'll never believe me, will they?</indent>\n<b>Ghost:</b> <indent=16%><i>It is impossible, yes. It is the rules of the larger game.</i></indent>\n<b>Ophelia:</b> <indent=16%>This is a game to you?</indent>\n<b>Ghost:</b> <indent=16%><i>I did not give it that name. But it is a game all the same, and you the one forecasted to lose.</i>",
+    "target": "<b>幽灵:</b> <indent=16%><i>在这一切的开端，这里几乎称得上平静。</i></indent>\n<b>奥菲莉娅:</b> <indent=16%>只有你我知道，他们将要面临什么。其他人——他们永远不会相信我，对吗？</indent>\n<b>幽灵:</b> <indent=16%><i>是的，那不可能。这是一场更大的游戏的规则。</i></indent>\n<b>奥菲莉娅:</b> <indent=16%>在你看来，这是一场游戏？</indent>\n<b>幽灵:</b> <indent=16%><i>这个名字不是我起的。但它终究是一场游戏，而你是被预言会输的那个人。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHOST_GhostApperation",
+        "line": 9488
+      }
+    ]
+  },
+  {
+    "id": "ghost-context-2-leaf",
     "source": "<i>I do.</i>",
     "target": "<i>是的，我也一样。</i>",
     "origins": [
@@ -52,7 +104,7 @@
     ]
   },
   {
-    "id": "ghost-context-1-speaker",
+    "id": "ghost-context-2-speaker",
     "source": "<b>Ghost:</b> <indent=16%><i>I do.</i>",
     "target": "<b>幽灵:</b> <indent=16%><i>是的，我也一样。</i>",
     "origins": [
@@ -65,7 +117,7 @@
     ]
   },
   {
-    "id": "ghost-context-1-context",
+    "id": "ghost-context-2-context",
     "source": "<b>Ophelia:</b> <indent=16%>Yes. You did.</indent>\n<b>Ophelia:</b> <indent=16%>There's something I need to confirm. You also experience time repeating?</indent>\n<b>Ghost:</b> <indent=16%><i>I do.</i></indent>\n<b>Ophelia:</b> <indent=16%>In the graveyard, you told me to meet you here, now. But that was a different world.</indent>\n<b>Ghost:</b> <indent=16%><i>Yes. A world now forever locked behind time's barrier.</i>",
     "target": "<b>奥菲莉娅:</b> <indent=16%>是的。您认识我。</indent>\n<b>奥菲莉娅:</b> <indent=16%>有件事我需要确认。您也经历着时间的重复吗？</indent>\n<b>幽灵:</b> <indent=16%><i>是的，我也一样。</i></indent>\n<b>奥菲莉娅:</b> <indent=16%>在墓地里，您让我这个时候来这里见您。但那是在另一个世界里。</indent>\n<b>幽灵:</b> <indent=16%><i>是的。那个世界，如今已永远锁在时间的屏障后面。</i>",
     "origins": [
@@ -78,7 +130,7 @@
     ]
   },
   {
-    "id": "ghost-context-2-leaf",
+    "id": "ghost-context-3-leaf",
     "source": "I do.",
     "target": "是的。",
     "origins": [
@@ -91,7 +143,7 @@
     ]
   },
   {
-    "id": "ghost-context-2-speaker",
+    "id": "ghost-context-3-speaker",
     "source": "<b>Rosie:</b> <indent=16%>I do.",
     "target": "<b>罗茜:</b> <indent=16%>是的。",
     "origins": [
@@ -104,7 +156,7 @@
     ]
   },
   {
-    "id": "ghost-context-2-context",
+    "id": "ghost-context-3-context",
     "source": "<b>Rosie:</b> <indent=16%>So you'll speak with him?</indent>\n<b>Horatio:</b> <indent=16%>If my lady suggests it.</indent>\n<b>Rosie:</b> <indent=16%>I do.</indent>\n<b>Horatio:</b> <indent=16%>Then who am I to refuse?</indent>\n<b>Horatio:</b> <indent=16%>Thank you, Rosencrantz.",
     "target": "<b>罗茜:</b> <indent=16%>所以，你会去跟他谈？</indent>\n<b>霍拉旭:</b> <indent=16%>既然女士这么建议。</indent>\n<b>罗茜:</b> <indent=16%>是的。</indent>\n<b>霍拉旭:</b> <indent=16%>那我又怎好拒绝？</indent>\n<b>霍拉旭:</b> <indent=16%>谢谢你，罗森克兰兹。",
     "origins": [
@@ -117,7 +169,7 @@
     ]
   },
   {
-    "id": "ghost-context-3-leaf",
+    "id": "ghost-context-4-leaf",
     "source": "I do.",
     "target": "是的。",
     "origins": [
@@ -130,7 +182,7 @@
     ]
   },
   {
-    "id": "ghost-context-3-speaker",
+    "id": "ghost-context-4-speaker",
     "source": "<b>Hamlet:</b> <indent=16%>I do.",
     "target": "<b>哈姆雷特:</b> <indent=16%>是的。",
     "origins": [
@@ -143,7 +195,7 @@
     ]
   },
   {
-    "id": "ghost-context-3-context",
+    "id": "ghost-context-4-context",
     "source": "<b>Hamlet:</b> <indent=16%>As in, a... vision?</indent>\n<b>Ophelia:</b> <indent=16%>Y...Yes. Hamlet, you've got to trust me—please—</indent>\n<b>Hamlet:</b> <indent=16%>I do.</indent>\n<b>Hamlet:</b> <indent=16%>Is there anyone whom you suspect? Have you spoken to Bernardo about this?</indent>\n<b>Hamlet:</b> <indent=16%>Merely say the word, and he'll speak to anyone who troubles you. I'm certain he'll suss out ill intent.",
     "target": "<b>哈姆雷特:</b> <indent=16%>你是说……幻象？</indent>\n<b>奥菲莉娅:</b> <indent=16%>是……是的。哈姆雷特，你一定要相信我——求你了——</indent>\n<b>哈姆雷特:</b> <indent=16%>是的。</indent>\n<b>哈姆雷特:</b> <indent=16%>你有怀疑的人吗？你跟贝尔纳多说过这件事吗？</indent>\n<b>哈姆雷特:</b> <indent=16%>只要你开口，他就会去找那些让你不安的人谈谈。我相信他一定能查出谁心怀恶意。",
     "origins": [
@@ -156,7 +208,7 @@
     ]
   },
   {
-    "id": "ghost-context-4-leaf",
+    "id": "ghost-context-5-leaf",
     "source": "I do.",
     "target": "是的。",
     "origins": [
@@ -169,7 +221,7 @@
     ]
   },
   {
-    "id": "ghost-context-4-speaker",
+    "id": "ghost-context-5-speaker",
     "source": "<b>Ophelia:</b> <indent=16%>I do.",
     "target": "<b>奥菲莉娅:</b> <indent=16%>是的。",
     "origins": [
@@ -182,7 +234,7 @@
     ]
   },
   {
-    "id": "ghost-context-4-context",
+    "id": "ghost-context-5-context",
     "source": "<b>Irma:</b> <indent=16%>I never crossed paths with the woman. Gerta and I came to Elsinore after she had already perished.</indent>\n<b>Irma:</b> <indent=16%>There's a grave for her in the yard. You believe it to be empty?</indent>\n<b>Ophelia:</b> <indent=16%>I do.</indent>\n<b>Irma:</b> <indent=16%>Then this is a thread which presents too much danger for an old woman like me to be interested in pulling it.</indent>\n<b>Irma:</b> <indent=16%>Me, I stick to my drink and my cards and my cuisine, thank you!",
     "target": "<b>伊尔玛:</b> <indent=16%>我从没见过那个女人。格尔塔和我来到埃尔西诺时，她已经死了。</indent>\n<b>伊尔玛:</b> <indent=16%>墓地里有她的坟墓。你觉得里面是空的？</indent>\n<b>奥菲莉娅:</b> <indent=16%>是的。</indent>\n<b>伊尔玛:</b> <indent=16%>那这条线索追查起来就太危险了，我这样的老太婆可没兴趣碰。</indent>\n<b>伊尔玛:</b> <indent=16%>我嘛，还是喝我的酒、打我的牌、做我的菜吧，多谢了！",
     "origins": [
@@ -195,7 +247,7 @@
     ]
   },
   {
-    "id": "ghost-context-5-leaf",
+    "id": "ghost-context-6-leaf",
     "source": "<i><i>Terrible, bloody deeds were committed. My father was a cruel and greedy man.</i></i>",
     "target": "<i><i>有人犯下了可怕的血腥暴行。我的父亲是个残忍又贪婪的人。</i></i>",
     "origins": [
@@ -208,7 +260,7 @@
     ]
   },
   {
-    "id": "ghost-context-5-speaker",
+    "id": "ghost-context-6-speaker",
     "source": "<b>Ghost:</b> <indent=16%><i><i>Terrible, bloody deeds were committed. My father was a cruel and greedy man.</i></i>",
     "target": "<b>幽灵:</b> <indent=16%><i><i>有人犯下了可怕的血腥暴行。我的父亲是个残忍又贪婪的人。</i></i>",
     "origins": [
@@ -221,7 +273,7 @@
     ]
   },
   {
-    "id": "ghost-context-5-context",
+    "id": "ghost-context-6-context",
     "source": "<b>Ghost:</b> <indent=16%><i><i>It wasn't spoken of in my lifetime.</i></i></indent>\n<b>Ghost:</b> <indent=16%><i><i>Even Claudius and I have never passed her name between us. She... my mother...</i></i></indent>\n<b>Ghost:</b> <indent=16%><i><i>Terrible, bloody deeds were committed. My father was a cruel and greedy man.</i></i></indent>\n<b>Ghost:</b> <indent=16%><i><i>I do not know her whereabouts, but if she left Elsinore, she must have passed through town.</i></i></indent>\n<b>Ghost:</b> <indent=16%><i><i>But I am confined to these walls. I may not leave the board's edges.</i>",
     "target": "<b>幽灵:</b> <indent=16%><i><i>我生前，没有人谈论这件事。</i></i></indent>\n<b>幽灵:</b> <indent=16%><i><i>就连克劳狄斯和我，也从没对彼此提起过她的名字。她……我的母亲……</i></i></indent>\n<b>幽灵:</b> <indent=16%><i><i>有人犯下了可怕的血腥暴行。我的父亲是个残忍又贪婪的人。</i></i></indent>\n<b>幽灵:</b> <indent=16%><i><i>我不知道她的下落，但如果她离开了埃尔西诺，就一定经过了镇子。</i></i></indent>\n<b>幽灵:</b> <indent=16%><i><i>可我被困在这些城墙之内。我不能越过棋盘的边界。</i>",
     "origins": [

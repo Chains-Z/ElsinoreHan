@@ -2,6 +2,8 @@
 
 更新时间：2026-10-11。当前阶段：**中文初稿、界面补译与TMP正文兼容修复已安装，继续随实际游玩校订**。本文件只保留项目特有约定、当前进展和接手必需信息；历史选型、原始统计与试译详情见任务文档。
 
+最新待安装校订：幽灵“更大一场游戏”按用户意见改为“一场更大的游戏”，裸源与斜体源统一。22项真实消费者和15项导出检查通过，37文件候选包与ZIP一致；见docs/dev-tasks/localization/larger-game-followup-2026-10-11.md及runtime/evidence/larger-game-followup-verification.json。本轮未操作主游戏或存档，正式安装仍为下述1.5.1，当前个人备份ZIP含此待安装校订。
+
 最新1.5.1、17,041条、155规则已安装，修复负向INVITED错误通知、DoorMarker.OverrideTooltip漏提、4条分享预览及2条信息正文编译变体，补明母亲相关对白指代；格尔塔为乔特鲁德昵称，保留。2200项真实XUnity消费者、16项真实Model格式器断言和23项治理/审计/测试门禁单元通过。**用户退出后已备份安装，35个运行文件与37文件包及ZIP一致，原游戏四文件及8个存档哈希/时间/数量未变**。最新安装证据为runtime/evidence/playthrough-install-verification-2026-10-11.json；各候选和旧1.5.0证据保持快照，见docs/dev-tasks/localization/playthrough-followup-2026-10-11.md及runtime/evidence/playthrough-followup-2026-10-11.json。不要重跑未改变的重型页面验收。
 
 后续布莉特p09190按用户意见保留“长期预约在这里闲待”的夸张幽默，不改成包场；34项相关消费者和15项导出检查通过。该阶段候选词表/ZIP哈希见runtime/evidence/brit-reservation-followup-verification.json，前轮2200及Model证据保留各自快照；该阶段当时未安装，现已随1.5.1安装。

@@ -1,0 +1,69 @@
+{
+  "status": "verified_pending_install",
+  "previous_install_commit": "bcda22b7aaddb964e06dc88222516722dc339a1e",
+  "changed_translation_ids": [
+    "p03770-2d93feae655f",
+    "a00247-bf6c31260029"
+  ],
+  "corrections": [
+    {
+      "id": "ghost-larger-game-2d93feae655f62fa",
+      "original_id": "p03770-2d93feae655f",
+      "source": "It is impossible, yes. It is the rules of the larger game.",
+      "source_sha256": "2d93feae655f62fa7054cbedb9e9049f509421cbf917be57e389c2feb8eeaebe",
+      "previous_target": "是的，那不可能。这是那场更大的游戏的规则。",
+      "target": "是的，那不可能。这是一场更大的游戏的规则。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GHOST_GhostApperation",
+          "line": 9488
+        },
+        "用户实际游玩截图反馈，2026-10-11"
+      ],
+      "reason": "按用户意见调整larger game的中文语序为一场更大的游戏，统一裸源与斜体源，保留规则比喻，不补写幕后关系。"
+    },
+    {
+      "id": "ghost-larger-game-bf6c31260029ced3",
+      "original_id": "a00247-bf6c31260029",
+      "source": "<i>It is impossible, yes. It is the rules of the larger game.</i>",
+      "source_sha256": "bf6c31260029ced32ae3bde8415c8d51d5a192ccec8ced309bdafc586367f915",
+      "previous_target": "<i>是的，那不可能。这是更大一场游戏的规则。</i>",
+      "target": "<i>是的，那不可能。这是一场更大的游戏的规则。</i>",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GHOST_GhostApperation",
+          "line": 9488
+        },
+        "用户实际游玩截图反馈，2026-10-11"
+      ],
+      "reason": "按用户意见调整larger game的中文语序为一场更大的游戏，统一裸源与斜体源，保留规则比喻，不补写幕后关系。"
+    }
+  ],
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 22
+  },
+  "export_tests": 15,
+  "translation_count": 17041,
+  "dynamic_rule_count": 155,
+  "candidate_package_file_count": 37,
+  "candidate_zip_matches_directory": true,
+  "candidate_zip_sha256": "03b71cafa2884aefaf3fc592a60444928668b3431d53939dbf009347a5a20ebc",
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "b07f3578e5f9d7fc5017e6cd2ae6338bfa7eb2de91f13364f3572629ed72dfba",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "e8f834712aa3d8535a978365c88645cbeb135b46dcb7d100f57ddeeb0f64ac4a",
+    "runtime/package/ElsinoreHan-Sol/BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "2fbe8f5ac0c1d3c12f76e3f9537d2d8d3265b88f00b52d8bbffc222d55cdb53b",
+    "translation/supplemental/dialogue-context-corrections.json": "71b5fc68a66cc4dec1cc06475a6e0005c7ea8886ece61bb0c1ca17512d1c2a28",
+    "translation/supplemental/ghost-context-tests.json": "768e9ac21c60ab22e0231dabcc24679b9ff8cc8153680fd7c859533ef27dab10"
+  },
+  "formal_install_changed": false,
+  "limits": [
+    "定向组件验证，不称完整游玩E2E或像素排版验收",
+    "未操作主游戏或存档，候选尚未安装",
+    "旧阶段证据保留快照"
+  ]
+}

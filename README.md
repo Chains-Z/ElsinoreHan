@@ -2,6 +2,8 @@
 
 《Elsinore》的离线中文补丁。**1.5.1插件、17,041条离线词条和155条规则已安装**，正常从 Steam 启动即可使用中文。
 
+最新游玩校订将幽灵的“更大一场游戏”改为“一场更大的游戏”，并统一裸源与斜体源。22项真实翻译消费者和15项导出检查通过，候选包已更新，尚未安装；见[本轮记录](docs/dev-tasks/localization/larger-game-followup-2026-10-11.md)。
+
 2026-10-11新增1.5.1候选（17,041条、155规则）：补齐撤回未来事件时的错误通知、“出海”门提示、4条分享预览变体和两条信息正文变体，并明确母亲相关对白的指代。2200项真实翻译消费者及16项真实格式器断言通过，测试弹窗防护和编译失败门禁已修正。**用户退出后已备份安装，安装及ZIP核验见 [安装记录](runtime/evidence/playthrough-install-verification-2026-10-11.json)**；见[本轮修复](docs/dev-tasks/localization/playthrough-followup-2026-10-11.md)。
 
 随后按用户意见，布莉特对白将“包下来”改为“长期预约”，保留原文幽默比喻和“闲待”；另一句“他们两个都不在了”补明为“克劳狄斯和哈姆雷特都不在了”。该阶段36项相关消费者及15项导出检查通过，候选词表和ZIP哈希见 `runtime/evidence/brit-succession-followup-verification.json`，保留候选阶段快照；已随1.5.1安装。
@@ -16,7 +18,7 @@
 
 按 **F8** 切换当前文字的英文原文与中文译文，再按一次恢复中文；修改词表后可按 Alt+R 重新加载。译文是供游玩校订的完整初稿，普通对白自然易读，适度保留原文的戏剧感。游戏运行时不调用翻译 API，无需额外 Key。
 
-完整本地备份包（已与正式安装1.5.1同步）：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
+完整本地备份包（包含最新待安装对白校订）：[ElsinoreHan-Sol.zip](runtime/package/ElsinoreHan-Sol.zip)。适用于本机已验证的 Windows x86、Unity Mono《Elsinore》1.4.1（3678），安装位置为 D:\SteamLibrary\steamapps\common\Elsinore。
 
 完整词表解析、动态参数消费、后台中文字体及 F8 往返检查通过；全剧情分支和对白/资料像素排版没有逐项验收，可边玩边反馈。详情见[全文交付与验证](docs/dev-tasks/localization/sol-full.md)。
 

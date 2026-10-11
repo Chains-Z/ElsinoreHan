@@ -1,4 +1,4 @@
-"""从真实对白再生幽灵短答与暴行语境的定向消费者回归。"""
+"""从真实对白再生幽灵短答、暴行语境与游戏比喻的定向消费者回归。"""
 
 import json
 import re
@@ -12,7 +12,8 @@ def main():
     targets = {row["source"]: row["target"] for row in translations}
     rows, _ = extract_rows(translations)
     selected = [row for row in rows if row["source"].strip() == "I do."
-                or "Terrible, bloody deeds were committed." in row["source"]]
+                or "Terrible, bloody deeds were committed." in row["source"]
+                or row["source"] == "It is impossible, yes. It is the rules of the larger game."]
     # 按真实出现位置检查，防止只改幽灵后遗留同形短句的错误解释。
     assert {row["actor"] for row in selected if row["source"] == "I do."} == {
         "brit", "ghost", "rosencrantz", "hamlet", "ophelia"}
@@ -36,6 +37,11 @@ def main():
         assert row["target"] is not None
         if row["source"] == "I do.":
             assert row["target"] == ("<i>是的，我也一样。</i>" if row["actor"] == "ghost" else "是的。")
+        if row["source"] == "It is impossible, yes. It is the rules of the larger game.":
+            assert row["target"] == "<i>是的，那不可能。这是一场更大的游戏的规则。</i>"
+            assert targets[row["source"]] == "是的，那不可能。这是一场更大的游戏的规则。"
+            cases.append({"id": "ghost-larger-game-bare", "source": row["source"],
+                          "target": targets[row["source"]], "origins": row["origins"]})
         source, target = speaker(row)
         contexts = [speaker(by_actor_source[(part["actor"], part["source"])]) for part in row["context"]]
         for kind, source, target in (
