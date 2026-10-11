@@ -8,8 +8,8 @@
 | --- | --- |
 | 维护阶段 | 中文初稿已可玩，继续根据实际游玩反馈定向校订，不等待全分支人工审校 |
 | 正式安装 | 插件1.5.1，17,041词条，155动态规则；[安装核验](../../../runtime/evidence/playthrough-install-verification-2026-10-11.json) |
-| 最新候选 | 幽灵“更大一场游戏”改为“一场更大的游戏”，裸源与斜体源统一，尚未安装；[任务记录](larger-game-followup-2026-10-11.md)、[候选核验](../../../runtime/evidence/larger-game-followup-verification.json) |
-| 个人备份包 | `runtime/package/ElsinoreHan-Sol.zip` 已含上述待安装校订，与候选目录37文件一致；不能再用正式安装记录的ZIP哈希核对此候选包 |
+| 最新候选 | 幽灵“一场更大的游戏”与贝尔纳多“至少，我还有你这个朋友”均待安装；[最新任务记录](bernardo-friend-followup-2026-10-11.md)、[候选核验](../../../runtime/evidence/bernardo-friend-followup-verification.json)；[前轮记录](larger-game-followup-2026-10-11.md)保留快照 |
+| 个人备份包 | `runtime/package/ElsinoreHan-Sol.zip` 已含上述两轮待安装校订，与候选目录37文件一致；当前哈希见最新候选核验，字体仍为原Arial资源 |
 | 安装备份 | `runtime/backups/full-96b9a3405bc9430dbe9c7f2d920cd392`；`runtime/evidence/full-installed-files.json` 指向正式1.5.1安装 |
 | 安装保护证据 | 正式安装时35运行文件、37包文件与当时ZIP一致，原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；最新候选未操作主游戏或存档 |
 | 发布状态 | 仅供个人备份；`arialuni_sdf_u2018` 再分发许可尚未核实，未完成公开发布所需的许可与干净安装验证 |
@@ -79,6 +79,7 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | `prepare_biography_followup.py`、`prepare_notification_list_followup.py` | 简介组合及真实个体粗体名单；人物重放只用冻结头像，不造解锁 |
 | `audit_irma_dialogue.py`、`audit_dialect_dialogue.py` | 从真实TextAsset筛查口语；非标准拼写仅为选择线索，不自动判错 |
 | `prepare_ghost_context_followup.py` | 再生幽灵短答、暴行语境及“更大的游戏”回归 |
+| `prepare_bernardo_friend_followup.py` | 再生贝尔纳多友谊回应、真实相邻语境及日志组合回归 |
 | `tools/translation/verify-recursive-ui.ps1` | 真实XUnity递归消费者组件检查，不启动游戏 |
 | `tools/patch/run-toggle-probe.ps1` | 后台游戏探针；具体环境变量和断言契约见源码与对应任务文档 |
 
@@ -92,6 +93,6 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | 日志/UI/字体及阅读页面演进 | 上述接手入口中的对应任务文档；具体数量、运行编号与边界见[迁移快照](handoff-history-2026-10-11.md) |
 | 2026-10-10正式1.5.0安装 | [阅读跟进](reading-followup-2026-10-10.md)、[安装证据](../../../runtime/evidence/reading-install-verification.json) |
 | 2026-10-11正式1.5.1安装 | [游玩跟进](playthrough-followup-2026-10-11.md)、[安装证据](../../../runtime/evidence/playthrough-install-verification-2026-10-11.json) |
-| 2026-10-11最新待安装对白校订 | [更大的游戏](larger-game-followup-2026-10-11.md)、[候选证据](../../../runtime/evidence/larger-game-followup-verification.json) |
+| 2026-10-11待安装对白校订 | [更大的游戏](larger-game-followup-2026-10-11.md)、[友谊回应](bernardo-friend-followup-2026-10-11.md)、[最新候选证据](../../../runtime/evidence/bernardo-friend-followup-verification.json) |
 
 百炼四模型比较已停止，不恢复调用；密钥只在被忽略的本机文件中。PipistrelloHan的IL2CPP/BepInEx6/CSV方案不能直接套用于本项目。旧测试与存档事故的限制保留在原记录中，后续通过不能追认此前存档未变或全剧情已验收。

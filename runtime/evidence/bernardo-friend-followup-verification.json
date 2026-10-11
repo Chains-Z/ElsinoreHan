@@ -1,0 +1,48 @@
+{
+  "status": "verified_pending_install",
+  "previous_candidate_commit": "abd790fb9f8a9921742e8460cf3694198719e638",
+  "correction": {
+    "id": "bernardo-friend-context-3fe8b0d733fb8f1c",
+    "original_id": "p06181-3fe8b0d733fb",
+    "source": "There's that, at least.",
+    "source_sha256": "3fe8b0d733fb8f1c58f2ec611f81c35ba4648bdc5842ae14f80feac0c4ee7339",
+    "previous_target": "至少，我还有这个。",
+    "target": "至少，我还有你这个朋友。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BernardoPerformance",
+        "line": 16699
+      },
+      "用户实际游玩日志截图反馈，2026-10-11"
+    ],
+    "reason": "that承接奥菲莉娅前句永远是你的朋友的承诺，明确友谊指代，保留at least的退而求其次语气，不译成拥有某件物品。"
+  },
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 27,
+    "bernardo_friend": 5,
+    "ghost_context": 22
+  },
+  "export_tests": 15,
+  "translation_count": 17041,
+  "dynamic_rule_count": 155,
+  "candidate_zip_matches_directory": true,
+  "candidate_package_file_count": 37,
+  "candidate_zip_sha256": "f5b994e9a777b3a26ef0616170a94af5cefc28f0afb199eec41cb20423b14cb9",
+  "artifact_sha256": {
+    "translation/sol-full-2026-10-09/translations.json": "2f90258a3495eccaacd85ed1e4940a54d34d655207bbac574739f70dfbc07172",
+    "translation/sol-full-2026-10-09/dynamic-rules.json": "e8f834712aa3d8535a978365c88645cbeb135b46dcb7d100f57ddeeb0f64ac4a",
+    "runtime/package/ElsinoreHan-Sol/BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "46d1c2059fdd53c1bbd48c91257afd36aeaae500ed0c191e7076a0be2df0a3e9",
+    "translation/supplemental/dialogue-context-corrections.json": "4eddc95694638cf49934a7c26b7e44afbf83a6713ce27bfa0d00fb21f8721d33",
+    "translation/supplemental/bernardo-friend-tests.json": "854ee626a16cf5c94e69c79ccf35bdd0e2fe602d9137d97ec38d69d46d6dbef2"
+  },
+  "formal_install_changed": false,
+  "font_changed": false,
+  "limits": [
+    "真实资源语境与定向组件检查，不称完整游玩E2E或像素验收通过",
+    "未操作主游戏或存档，候选尚未安装",
+    "含上一轮幽灵语序校订，各旧证据保留阶段快照"
+  ]
+}

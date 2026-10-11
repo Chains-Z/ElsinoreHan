@@ -343,5 +343,23 @@
       "用户实际游玩截图反馈，2026-10-11"
     ],
     "reason": "按用户意见调整larger game的中文语序为一场更大的游戏，统一裸源与斜体源，保留规则比喻，不补写幕后关系。"
+  },
+  {
+    "id": "bernardo-friend-context-3fe8b0d733fb8f1c",
+    "original_id": "p06181-3fe8b0d733fb",
+    "source": "There's that, at least.",
+    "source_sha256": "3fe8b0d733fb8f1c58f2ec611f81c35ba4648bdc5842ae14f80feac0c4ee7339",
+    "previous_target": "至少，我还有这个。",
+    "target": "至少，我还有你这个朋友。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BernardoPerformance",
+        "line": 16699
+      },
+      "用户实际游玩日志截图反馈，2026-10-11"
+    ],
+    "reason": "that承接奥菲莉娅前句永远是你的朋友的承诺，明确友谊指代，保留at least的退而求其次语气，不译成拥有某件物品。"
   }
 ]

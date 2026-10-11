@@ -1,0 +1,67 @@
+[
+  {
+    "id": "bernardo-friend-leaf",
+    "source": "There's that, at least.",
+    "target": "至少，我还有你这个朋友。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BernardoPerformance",
+        "line": 16699
+      }
+    ]
+  },
+  {
+    "id": "bernardo-friend-speaker",
+    "source": "<b>Bernardo:</b> <indent=16%>There's that, at least.",
+    "target": "<b>贝尔纳多:</b> <indent=16%>至少，我还有你这个朋友。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BernardoPerformance",
+        "line": 16699
+      }
+    ]
+  },
+  {
+    "id": "bernardo-friend-context",
+    "source": "<b>Ophelia:</b> <indent=16%>If this is your truth, then God will love you for it.</indent>\n<b>Ophelia:</b> <indent=16%>What you choose to tell others is up to you. But I will always—<i>always</i> be your friend.</indent>\n<b>Bernardo:</b> <indent=16%>There's that, at least.</indent>\n<b>Ophelia:</b> <indent=16%>How should I call you?</indent>\n<b>Ophelia:</b> <indent=16%>By which I mean, how would you <i>like</i> to be called?",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>如果这就是真实的你，上帝就会因此爱你。</indent>\n<b>奥菲莉娅:</b> <indent=16%>要告诉别人什么，由你自己决定。但我会永远——<i>永远</i>是你的朋友。</indent>\n<b>贝尔纳多:</b> <indent=16%>至少，我还有你这个朋友。</indent>\n<b>奥菲莉娅:</b> <indent=16%>我该怎么称呼你？</indent>\n<b>奥菲莉娅:</b> <indent=16%>我是说，你<i>希望</i>别人怎么称呼你？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BernardoPerformance",
+        "line": 16699
+      }
+    ]
+  },
+  {
+    "id": "bernardo-friend-notice-before",
+    "source": "<b>Ophelia</b> learns about an event.\n<b>Bernardo:</b> <indent=16%>There's that, at least.",
+    "target": "<b>奥菲莉娅</b>得知了一个事件。\n<b>贝尔纳多:</b> <indent=16%>至少，我还有你这个朋友。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BernardoPerformance",
+        "line": 16699
+      }
+    ]
+  },
+  {
+    "id": "bernardo-friend-notice-after",
+    "source": "<b>Bernardo:</b> <indent=16%>There's that, at least.</indent>\n<b>Ophelia</b> learns about an event.\n",
+    "target": "<b>贝尔纳多:</b> <indent=16%>至少，我还有你这个朋友。</indent>\n<b>奥菲莉娅</b>得知了一个事件。\n",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BernardoPerformance",
+        "line": 16699
+      }
+    ]
+  }
+]
