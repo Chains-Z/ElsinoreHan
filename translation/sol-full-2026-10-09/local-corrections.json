@@ -498,5 +498,22 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p05583-e12b76cd222a",
+    "source": "Not even a little slice? What about a thumb? Surely he can get by with just <i>one</i> thumb up his arse.",
+    "source_sha256": "e12b76cd222a56734aee7c98816f823e071b3b8e44779a657442525e1f84e360",
+    "original_target": "连切一小块都不行？一根拇指怎么样？往屁股里塞拇指，<i>一根</i>肯定也够他用了吧。",
+    "corrected_target": "连割一小块都不行？那砍根拇指呢？他闲着没事，把拇指往屁股里塞，留<i>一根</i>也够用了吧。",
+    "kind": "text",
+    "reason": "用户确认稍作显化的双关译法：以闲着没事提示thumb up one's arse嘲讽无所事事的俚语义，同时保留砍拇指、往屁股里塞及留一根的字面玩笑；保留one的原斜体，不补写性取向。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0041.json:p05583-e12b76cd222a",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Mutiny_Note_Reveal:14907",
+      "https://en.wiktionary.org/wiki/with_one%27s_thumbs_up_one%27s_ass",
+      "用户确认双关显化译文并要求修改，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

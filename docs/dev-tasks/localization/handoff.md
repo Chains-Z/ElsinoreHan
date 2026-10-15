@@ -15,8 +15,9 @@
 | 待安装人物对白 | 雷欧提斯“憎恨这门新语言”、船上争论的比较与权力差距、格蕾丝以奥马利自称及“恶毒的臭婊子”；详见[对白校订](hamlet-social-dialogue-followup-2026-10-15.md)与[该阶段候选核验](../../../runtime/evidence/shakespeare-dialogue-verification-2026-10-15.json) |
 | 待安装海盗观察 | 外貌描述“不好惹”改为“粗犷”，保留不修边幅及大海女主人的比喻；未补写容貌损伤。详见[语境与单条校订](pirate-appearance-followup-2026-10-15.md)与[最新候选核验](../../../runtime/evidence/pirate-appearance-verification-2026-10-15.json) |
 | 待安装打斗对白 | 教匕首的annoying/dangerous改为“给对手添点麻烦，还谈不上让你成为多大的威胁”；人命一句按用户建议改为“闹出没必要的人命”。5项真实消费者通过，见[格蕾丝对白校订](grace-combat-dialogue-followup-2026-10-15.md) |
+| 待安装拇指双关 | 按用户确认，以“他闲着没事，把拇指往屁股里塞，留一根也够用了吧”显化俚语义，保留“一根”斜体；3项真实消费者通过，见[译文与语境](grace-combat-dialogue-followup-2026-10-15.md#拇指玩笑核查)及[最新候选核验](../../../runtime/evidence/grace-thumb-verification-2026-10-15.json) |
 | 待安装F8修复 | 插件1.5.5：日志已到底部时中英文切换继续保留底部，手动滚离后沿用段落定位；真实隔离UI集成探针对照通过，见[问题与验证](f8-log-bottom-followup-2026-10-15.md)及[最新候选核验](../../../runtime/evidence/log-bottom-verification-2026-10-15.json) |
-| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前包含1.5.5日志底部修复及鲁特琴简介、独白润色、人物对白、海盗外貌和打斗对白待安装校订，与40文件候选目录一致；字体与3份许可/说明不变，哈希见最新候选核验；不代表当前游戏的已安装快照 |
+| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前包含1.5.5日志底部修复及鲁特琴简介、独白润色、人物对白、海盗外貌、打斗对白和拇指双关待安装校订，与40文件候选目录一致；字体与3份许可/说明不变，哈希见最新候选核验；不代表当前游戏的已安装快照 |
 | 备份策略 | 按用户2026-10-15要求停止长期备份；20份旧补丁备份与55份测试存档副本已明确授权删除，释放417,372,433字节。旧安装证据中的备份路径仅为历史记录，已不可用；测试临时存档仍隔离，结束后清理，见[公开上传与清理记录](public-repository-2026-10-15.md) |
 | 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；正文词表更新，配置仅移除UTF-8 BOM且解码文本逐字相同；字库、插件、动态词表和许可不变，未启动主游戏 |
 | 发布状态 | [GitHub源码与译文仓库](https://github.com/Chains-Z/ElsinoreHan)已公开，当前文件与完整历史通过凭证及字体/二进制检查；字体、依赖、游戏、存档和ZIP未上传。可安装补丁包仍仅为本机个人构建，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成，见[公开核验](../../../runtime/evidence/public-repository-verification-2026-10-15.json) |
@@ -106,6 +107,7 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | `prepare_hamlet_soliloquy_followup.py` | 再生完整独白、憎恨比喻、船上争论与船长自称的裸句、角色及真实相邻日志回归 |
 | `prepare_pirate_appearance_followup.py` | 再生海盗外貌裸句、角色日志及强盗原译保留回归 |
 | `prepare_grace_sword_followup.py` | 再生格蕾丝打斗语境及人命语序的5项真实消费者回归 |
+| `prepare_grace_thumb_followup.py` | 再生格蕾丝拇指双关裸句、角色日志及真实相邻语境的3项消费者回归 |
 | `tools/patch/verify-log-bottom-anchor.py` | 绑定真实历史和中英文全文，核验日志末尾双向F8及手动滚离；不能用段落restored替代底部断言 |
 | `tools/patch/prepare-font-characters.py`、`build-shareable-font.py` | 再生受控字体字符集，装配真实Unity2018生成的图集；源字体与旧模板均不入Git |
 | `prepare_othello_log_cache_followup.py` | 从真实冻结日志和边界再生88项缓存/控件复用输入；新探针输入为 `ELSINOREHAN_PROBE_STRICT_LOG_CASES` |
