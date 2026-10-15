@@ -1,6 +1,6 @@
 # 日志尾段漏译核查
 
-状态：已验证候选，尚未安装。插件仍为1.5.6，动态规则155→157，正文17,041词条不变。[候选证据](../../../runtime/evidence/ambient-log-verification-2026-10-15.json)。
+状态：已于2026-10-16随1.5.7安装，见[安装核验](../../../runtime/evidence/ending-book-install-verification-2026-10-16.json)。本阶段候选插件为1.5.6，动态规则155→157，正文17,041词条不变；[候选证据](../../../runtime/evidence/ambient-log-verification-2026-10-15.json)保持阶段快照。
 
 用户确认关闭并重开日志仍有英文。截图四句均已有正文译文：马塞勒斯“A' course, Cap'n.”、贝尔纳多“Good. Dismissed.”以及奥菲莉娅的号角与公告时机两句，不是缺失词条。
 
