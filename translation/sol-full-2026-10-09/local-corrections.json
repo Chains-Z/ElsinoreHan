@@ -109,5 +109,22 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p01401-bac2254636db",
+    "source": "To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.",
+    "source_sha256": "bac2254636dbb3d1c57d47cd8761daf46359003d71268ae62e27d6812b47f515",
+    "original_target": "死去——不再入睡——而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。",
+    "corrected_target": "死去——不过是睡去，如此而已。而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。",
+    "kind": "text",
+    "reason": "结合原著第三幕第一场的To die, to sleep—No more及游戏后文的死亡如睡眠含义，将no more按如此而已断句，不误译为不再入睡；保留游戏现代改写的其余措辞，不整段套用其他中文译本。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0016.json:p01401-bac2254636db",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Spine_ToBeOrNotToBe:1489",
+      "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3-1/",
+      "用户实际游玩截图及校订要求，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

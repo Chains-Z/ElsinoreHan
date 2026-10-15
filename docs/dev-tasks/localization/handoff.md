@@ -11,7 +11,8 @@
 | 最新对白校订 | 幽灵“一场更大的游戏”、贝尔纳多“至少，我还有你这个朋友”、奥赛罗“苏丹麾下的一名高级大臣”均已安装；“抓住你的脑袋”按用户决定保留，见[奥赛罗术语核查](othello-term-review-2026-10-11.md) |
 | 本轮对白校订 | 奥赛罗故事“我感觉她把我留在了那里好多年”“说来有些病态，我也想让她吞食我的心”、奥菲莉娅“你……你和她……有过肌肤之亲吗？”均已安装，见[本轮记录](othello-story-followup-2026-10-15.md)与[安装核验](../../../runtime/evidence/othello-story-install-verification-2026-10-15.json) |
 | 待安装时间线校订 | 鲁特琴第三次搜寻改为“贝尔纳多和哈姆雷特此前没有收获的搜寻仍在继续。”，保留fruitless，不断言整场失败；游戏运行中，未安装，见[分支核查与校订](lute-timeline-followup-2026-10-15.md)与[候选核验](../../../runtime/evidence/lute-timeline-verification-2026-10-15.json) |
-| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前为鲁特琴简介待安装候选，与40文件候选目录一致；字体与3份许可/说明不变，哈希见最新候选核验；不代表当前游戏的已安装快照 |
+| 待安装独白校订 | “死去——不再入睡”改为“死去——不过是睡去，如此而已。”；已确认游戏首段保留“生存，还是毁灭……”；游戏运行中，未安装，见[独白核查](hamlet-soliloquy-followup-2026-10-15.md)与[最新候选核验](../../../runtime/evidence/hamlet-soliloquy-verification-2026-10-15.json) |
+| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前包含鲁特琴简介与独白断句两项待安装校订，与40文件候选目录一致；字体与3份许可/说明不变，哈希见最新候选核验；不代表当前游戏的已安装快照 |
 | 备份策略 | 按用户2026-10-15要求停止长期备份；20份旧补丁备份与55份测试存档副本已明确授权删除，释放417,372,433字节。旧安装证据中的备份路径仅为历史记录，已不可用；测试临时存档仍隔离，结束后清理，见[公开上传与清理记录](public-repository-2026-10-15.md) |
 | 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；正文词表更新，配置仅移除UTF-8 BOM且解码文本逐字相同；字库、插件、动态词表和许可不变，未启动主游戏 |
 | 发布状态 | [GitHub源码与译文仓库](https://github.com/Chains-Z/ElsinoreHan)已公开，当前文件与完整历史通过凭证及字体/二进制检查；字体、依赖、游戏、存档和ZIP未上传。可安装补丁包仍仅为本机个人构建，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成，见[公开核验](../../../runtime/evidence/public-repository-verification-2026-10-15.json) |
@@ -26,6 +27,7 @@
 | 最新游玩校订、通知/分享/信息正文修复 | [1.5.1跟进](playthrough-followup-2026-10-11.md)、[更大的游戏](larger-game-followup-2026-10-11.md) |
 | 奥赛罗仙境故事与迟疑问句 | [三句校订及安装结果](othello-story-followup-2026-10-15.md) |
 | 鲁特琴搜寻简介与真实分支 | [fruitless校订及待安装状态](lute-timeline-followup-2026-10-15.md) |
+| 哈姆雷特独白与原著对应 | [开头核查与死亡如睡眠的断句校订](hamlet-soliloquy-followup-2026-10-15.md) |
 | 通知名单、人物简介组合、文档F8 | [阅读界面跟进](reading-followup-2026-10-10.md) |
 | 文章与人物口语审校 | [阅读正文](reading-text-review-2026-10-10.md)、[伊尔玛](irma-dialogue-review-2026-10-10.md)、[其他角色](dialect-dialogue-review-2026-10-10.md) |
 | 日志组合与滚动位置 | [混合日志](mixed-log-followup-2026-10-10.md)、[日志跟进](log-followup-2026-10-10.md) |
@@ -93,6 +95,7 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | `prepare_bernardo_friend_followup.py` | 再生贝尔纳多友谊回应、真实相邻语境及日志组合回归 |
 | `prepare_othello_vizier_followup.py` | 再生高级大臣一词及实际相邻语境回归 |
 | `prepare_othello_story_followup.py` | 再生仙境时间感受、奥菲莉娅迟疑问句、渴望评价及真实相邻日志回归 |
+| `prepare_hamlet_soliloquy_followup.py` | 再生独白“不过是睡去”校订的裸句、角色与相邻日志回归 |
 | `tools/patch/prepare-font-characters.py`、`build-shareable-font.py` | 再生受控字体字符集，装配真实Unity2018生成的图集；源字体与旧模板均不入Git |
 | `prepare_othello_log_cache_followup.py` | 从真实冻结日志和边界再生88项缓存/控件复用输入；新探针输入为 `ELSINOREHAN_PROBE_STRICT_LOG_CASES` |
 | `tools/translation/verify-recursive-ui.ps1` | 真实XUnity递归消费者组件检查，不启动游戏 |
