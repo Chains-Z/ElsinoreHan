@@ -60,5 +60,38 @@
         "date": "2026-10-10"
       }
     ]
+  },
+  {
+    "id": "p07165-f8345cba1765",
+    "source": "I thought she kept me there for years. Wandering her woods, listening to her singing, lying on beds of flowers.",
+    "source_sha256": "f8345cba17657f6dbd81c88845b45bd06117e219d3eca51b0a5105d6a4306812",
+    "original_target": "我以为她把我留在那里好多年。我在她的林间漫步，听她唱歌，躺在鲜花铺成的床上。",
+    "corrected_target": "我感觉她把我留在了那里好多年。我在她的林间漫步，听她唱歌，躺在鲜花铺成的床上。",
+    "kind": "text",
+    "reason": "thought表达对停留时长的主观感受；后文明确仙境多年在人间仅过一夜。按用户确认改为感觉，避免以为暗示后来证实判断错误。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0051.json:p07165-f8345cba1765",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:OTH_OthelloStorytimePrivate1:19567",
+      "translation/sol-full-2026-10-09/inputs/b0052.json:p07175-ea152c1d56df",
+      "用户实际游玩中英文截图及确认，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p07167-c35c01cc5880",
+    "source": "Were... you... did you and she... lie together intimately?",
+    "source_sha256": "c35c01cc5880391afc7ad473741b6d27a272a4ba9b8093099e48c02a7821df18",
+    "original_target": "你们……你……你和她……亲密地同床过吗？",
+    "corrected_target": "你……你和她……有过肌肤之亲吗？",
+    "kind": "text",
+    "reason": "Were... you...是未说完又改口的迟疑，不支持将单独you译成你们；以肌肤之亲自然表达lie together intimately的委婉性含义，保留结巴与疑问。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0051.json:p07167-c35c01cc5880",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:OTH_OthelloStorytimePrivate1:19571",
+      "用户实际游玩中英文截图反馈，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

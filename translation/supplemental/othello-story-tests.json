@@ -1,0 +1,80 @@
+[
+  {
+    "id": "othello-story-time-leaf",
+    "source": "I thought she kept me there for years. Wandering her woods, listening to her singing, lying on beds of flowers.",
+    "target": "我感觉她把我留在了那里好多年。我在她的林间漫步，听她唱歌，躺在鲜花铺成的床上。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19567
+      }
+    ]
+  },
+  {
+    "id": "othello-story-time-speaker",
+    "source": "<b>Othello:</b> <indent=16%>I thought she kept me there for years. Wandering her woods, listening to her singing, lying on beds of flowers.",
+    "target": "<b>奥赛罗:</b> <indent=16%>我感觉她把我留在了那里好多年。我在她的林间漫步，听她唱歌，躺在鲜花铺成的床上。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19567
+      }
+    ]
+  },
+  {
+    "id": "othello-story-time-context",
+    "source": "<b>Othello:</b> <indent=16%>Hmm! I make no claims, my lady, beyond what I saw that night.</indent>\n<b>Othello:</b> <indent=16%>Titania pulled me into her arms and—everything went strange after that.</indent>\n<b>Othello:</b> <indent=16%>I thought she kept me there for years. Wandering her woods, listening to her singing, lying on beds of flowers.</indent>\n<b>Othello:</b> <indent=16%>She told me she loved me and demanded I love her in return. I told her I could not. And she promised never to let me leave until I was hers.</indent>\n<b>Ophelia:</b> <indent=16%>Were... you... did you and she... lie together intimately?",
+    "target": "<b>奥赛罗:</b> <indent=16%>嗯！女士，我只说那晚亲眼所见的事，除此之外不作任何断言。</indent>\n<b>奥赛罗:</b> <indent=16%>泰坦妮娅把我拉进怀里，然后——一切都变得奇怪了。</indent>\n<b>奥赛罗:</b> <indent=16%>我感觉她把我留在了那里好多年。我在她的林间漫步，听她唱歌，躺在鲜花铺成的床上。</indent>\n<b>奥赛罗:</b> <indent=16%>她说她爱我，要求我也爱她。我告诉她，我做不到。她便说，只要我还不属于她，她就绝不会让我离开。</indent>\n<b>奥菲莉娅:</b> <indent=16%>你……你和她……有过肌肤之亲吗？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19567
+      }
+    ]
+  },
+  {
+    "id": "othello-story-intimacy-leaf",
+    "source": "Were... you... did you and she... lie together intimately?",
+    "target": "你……你和她……有过肌肤之亲吗？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19571
+      }
+    ]
+  },
+  {
+    "id": "othello-story-intimacy-speaker",
+    "source": "<b>Ophelia:</b> <indent=16%>Were... you... did you and she... lie together intimately?",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>你……你和她……有过肌肤之亲吗？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19571
+      }
+    ]
+  },
+  {
+    "id": "othello-story-intimacy-context",
+    "source": "<b>Othello:</b> <indent=16%>I thought she kept me there for years. Wandering her woods, listening to her singing, lying on beds of flowers.</indent>\n<b>Othello:</b> <indent=16%>She told me she loved me and demanded I love her in return. I told her I could not. And she promised never to let me leave until I was hers.</indent>\n<b>Ophelia:</b> <indent=16%>Were... you... did you and she... lie together intimately?</indent>\n<b>Othello:</b> <indent=16%>I think so. It's hard to remember. B-but I think so. When you're pulled into the embrace of a being like that... nothing makes sense.</indent>\n<b>Othello:</b> <indent=16%>Still, I always knew I didn't love her. Sometimes she brought other mortal men and women into her fold. They professed their love to her immediately, and she consumed their hearts.",
+    "target": "<b>奥赛罗:</b> <indent=16%>我感觉她把我留在了那里好多年。我在她的林间漫步，听她唱歌，躺在鲜花铺成的床上。</indent>\n<b>奥赛罗:</b> <indent=16%>她说她爱我，要求我也爱她。我告诉她，我做不到。她便说，只要我还不属于她，她就绝不会让我离开。</indent>\n<b>奥菲莉娅:</b> <indent=16%>你……你和她……有过肌肤之亲吗？</indent>\n<b>奥赛罗:</b> <indent=16%>我想是的。很难记清了。不、不过我想是的。被那样的存在拥入怀中时……一切都变得无法理解。</indent>\n<b>奥赛罗:</b> <indent=16%>可我始终知道，我不爱她。有时，她会把别的凡人男女带到她身边。他们立刻向她表白爱意，她便吞食了他们的心。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19571
+      }
+    ]
+  }
+]
