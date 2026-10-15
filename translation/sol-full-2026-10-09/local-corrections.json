@@ -93,5 +93,21 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p07170-9ac8238bb4ff",
+    "source": "In some sick way, I <i>wanted</i> her to consume my heart, too. I wanted to give in. But I couldn't. Something wouldn't let me.",
+    "source_sha256": "9ac8238bb4ff761817fce36d083ebd53da92086744e2468d61872fc3b80a717f",
+    "original_target": "出于某种病态的念头，我也<i>想</i>让她吞食我的心。我想屈服。可我做不到。有某种东西不让我这么做。",
+    "corrected_target": "说来有些病态，我也<i>想</i>让她吞食我的心。我想屈服。可我做不到。有某种东西不让我这么做。",
+    "kind": "text",
+    "reason": "In some sick way是对自身渴望的评价，旧译出于某种病态的念头引入原因说明；按用户确认改为说来有些病态，保留wanted斜体强调及其余文字。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0051.json:p07170-9ac8238bb4ff",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:OTH_OthelloStorytimePrivate1:19578",
+      "用户实际游玩截图反馈及确认，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

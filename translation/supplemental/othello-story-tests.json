@@ -76,5 +76,44 @@
         "line": 19571
       }
     ]
+  },
+  {
+    "id": "othello-story-desire-leaf",
+    "source": "In some sick way, I <i>wanted</i> her to consume my heart, too. I wanted to give in. But I couldn't. Something wouldn't let me.",
+    "target": "说来有些病态，我也<i>想</i>让她吞食我的心。我想屈服。可我做不到。有某种东西不让我这么做。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19578
+      }
+    ]
+  },
+  {
+    "id": "othello-story-desire-speaker",
+    "source": "<b>Othello:</b> <indent=16%>In some sick way, I <i>wanted</i> her to consume my heart, too. I wanted to give in. But I couldn't. Something wouldn't let me.",
+    "target": "<b>奥赛罗:</b> <indent=16%>说来有些病态，我也<i>想</i>让她吞食我的心。我想屈服。可我做不到。有某种东西不让我这么做。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19578
+      }
+    ]
+  },
+  {
+    "id": "othello-story-desire-context",
+    "source": "<b>Othello:</b> <indent=16%>I think so. It's hard to remember. B-but I think so. When you're pulled into the embrace of a being like that... nothing makes sense.</indent>\n<b>Othello:</b> <indent=16%>Still, I always knew I didn't love her. Sometimes she brought other mortal men and women into her fold. They professed their love to her immediately, and she consumed their hearts.</indent>\n<b>Othello:</b> <indent=16%>In some sick way, I <i>wanted</i> her to consume my heart, too. I wanted to give in. But I couldn't. Something wouldn't let me.</indent>\n<b>Othello:</b> <indent=16%>One night, Titania grew furious. She raged at me, threw me against a tree with the force of her magic.</indent>\n<b>Othello:</b> <indent=16%>She buried me under the earth so I couldn't breathe, tore my limbs apart and grew them anew.",
+    "target": "<b>奥赛罗:</b> <indent=16%>我想是的。很难记清了。不、不过我想是的。被那样的存在拥入怀中时……一切都变得无法理解。</indent>\n<b>奥赛罗:</b> <indent=16%>可我始终知道，我不爱她。有时，她会把别的凡人男女带到她身边。他们立刻向她表白爱意，她便吞食了他们的心。</indent>\n<b>奥赛罗:</b> <indent=16%>说来有些病态，我也<i>想</i>让她吞食我的心。我想屈服。可我做不到。有某种东西不让我这么做。</indent>\n<b>奥赛罗:</b> <indent=16%>一天夜里，泰坦妮娅大发雷霆。她朝我怒吼，用魔法把我狠狠摔向一棵树。</indent>\n<b>奥赛罗:</b> <indent=16%>她把我埋进土里，让我无法呼吸，扯断我的四肢，又让它们重新长出来。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "OTH_OthelloStorytimePrivate1",
+        "line": 19578
+      }
+    ]
   }
 ]

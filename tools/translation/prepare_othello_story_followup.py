@@ -1,4 +1,4 @@
-"""从真实奥赛罗故事对白再生时间感受与迟疑问句的消费者回归。"""
+"""从真实奥赛罗故事对白再生时间感受、迟疑问句与渴望评价的消费者回归。"""
 
 from audit_dialect_dialogue import extract_rows
 from prepare_dialogue_log_followup import ROOT, read, save, short_name
@@ -12,6 +12,8 @@ def main():
         "p07165-f8345cba1765": ("time", "othello", 19567,
                                "我感觉她把我留在了那里好多年。我在她的林间漫步，听她唱歌，躺在鲜花铺成的床上。"),
         "p07167-c35c01cc5880": ("intimacy", "ophelia", 19571, "你……你和她……有过肌肤之亲吗？"),
+        "p07170-9ac8238bb4ff": ("desire", "othello", 19578,
+                               "说来有些病态，我也<i>想</i>让她吞食我的心。我想屈服。可我做不到。有某种东西不让我这么做。"),
     }
     selected = [row for row in rows if row["id"] in expected]
     assert len(selected) == len(expected)
@@ -44,7 +46,7 @@ def main():
                           "</indent>\n".join(part[1] for part in context))))
     save(ROOT / "translation/supplemental/othello-story-tests.json", cases)
     save(ROOT / "runtime/build/othello-time/source-audit.json", selected)
-    print("6项时间感受、迟疑问句的裸句、角色日志与真实相邻语境用例已生成")
+    print("9项时间感受、迟疑问句与渴望评价的裸句、角色日志与真实相邻语境用例已生成")
 
 
 if __name__ == "__main__":

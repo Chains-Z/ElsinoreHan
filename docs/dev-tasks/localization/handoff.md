@@ -9,7 +9,7 @@
 | 维护阶段 | 中文初稿已可玩，继续根据实际游玩反馈定向校订，不等待全分支人工审校 |
 | 正式安装 | 插件1.5.4，17,041词条，155动态规则；[安装核验](../../../runtime/evidence/lead-background-install-verification-2026-10-12.json)；F8任务背景修复及原英文字号见[本轮记录](lead-background-followup-2026-10-12.md)，日志缓存重建保留 |
 | 最新对白校订 | 幽灵“一场更大的游戏”、贝尔纳多“至少，我还有你这个朋友”、奥赛罗“苏丹麾下的一名高级大臣”均已安装；“抓住你的脑袋”按用户决定保留，见[奥赛罗术语核查](othello-term-review-2026-10-11.md) |
-| 待安装对白校订 | 奥赛罗故事“我感觉她把我留在了那里好多年”、奥菲莉娅“你……你和她……有过肌肤之亲吗？”已进入候选个人包；游戏运行中，未安装，见[本轮记录](othello-story-followup-2026-10-15.md)与[候选核验](../../../runtime/evidence/othello-story-verification-2026-10-15.json) |
+| 待安装对白校订 | 奥赛罗故事“我感觉她把我留在了那里好多年”“说来有些病态，我也想让她吞食我的心”、奥菲莉娅“你……你和她……有过肌肤之亲吗？”已进入候选个人包；游戏运行中，未安装，见[本轮记录](othello-story-followup-2026-10-15.md)与[最新候选核验](../../../runtime/evidence/othello-desire-verification-2026-10-15.json) |
 | 个人备份包 | `runtime/package/ElsinoreHan-Sol.zip` 当前为2026-10-15待安装候选，与40文件候选目录一致，不能视为当前游戏的已安装快照；字体与3份许可/说明不变；哈希见本轮候选核验 |
 | 安装备份 | `runtime/backups/full-c3981692ad7e4012bcb97941c8eadc7d`，8个旧补丁文件核对成功；`full-installed-files.json` 指向正式1.5.4安装 |
 | 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；字库、词表、许可字节不变，配置解码文本逐字相同，未启动主游戏 |
@@ -23,7 +23,7 @@
 | 任务 | 首选资料 |
 | --- | --- |
 | 最新游玩校订、通知/分享/信息正文修复 | [1.5.1跟进](playthrough-followup-2026-10-11.md)、[更大的游戏](larger-game-followup-2026-10-11.md) |
-| 奥赛罗仙境故事与迟疑问句 | [两句校订及待安装状态](othello-story-followup-2026-10-15.md) |
+| 奥赛罗仙境故事与迟疑问句 | [三句校订及待安装状态](othello-story-followup-2026-10-15.md) |
 | 通知名单、人物简介组合、文档F8 | [阅读界面跟进](reading-followup-2026-10-10.md) |
 | 文章与人物口语审校 | [阅读正文](reading-text-review-2026-10-10.md)、[伊尔玛](irma-dialogue-review-2026-10-10.md)、[其他角色](dialect-dialogue-review-2026-10-10.md) |
 | 日志组合与滚动位置 | [混合日志](mixed-log-followup-2026-10-10.md)、[日志跟进](log-followup-2026-10-10.md) |
@@ -90,7 +90,7 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | `prepare_ghost_context_followup.py` | 再生幽灵短答、暴行语境及“更大的游戏”回归 |
 | `prepare_bernardo_friend_followup.py` | 再生贝尔纳多友谊回应、真实相邻语境及日志组合回归 |
 | `prepare_othello_vizier_followup.py` | 再生高级大臣一词及实际相邻语境回归 |
-| `prepare_othello_story_followup.py` | 再生仙境时间感受、奥菲莉娅迟疑问句及真实相邻日志回归 |
+| `prepare_othello_story_followup.py` | 再生仙境时间感受、奥菲莉娅迟疑问句、渴望评价及真实相邻日志回归 |
 | `tools/patch/prepare-font-characters.py`、`build-shareable-font.py` | 再生受控字体字符集，装配真实Unity2018生成的图集；源字体与旧模板均不入Git |
 | `prepare_othello_log_cache_followup.py` | 从真实冻结日志和边界再生88项缓存/控件复用输入；新探针输入为 `ELSINOREHAN_PROBE_STRICT_LOG_CASES` |
 | `tools/translation/verify-recursive-ui.ps1` | 真实XUnity递归消费者组件检查，不启动游戏 |
