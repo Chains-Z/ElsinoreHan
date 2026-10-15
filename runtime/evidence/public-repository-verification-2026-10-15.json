@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-15",
+  "passed": true,
+  "repository_url": "https://github.com/Chains-Z/ElsinoreHan",
+  "visibility": "PUBLIC",
+  "default_branch": "master",
+  "initial_published_head": "035e54454fb1ee84a3b6f148d707dc958a287e55",
+  "initial_remote_head_matched_local": true,
+  "initial_pre_push_audit": {
+    "commits": 43,
+    "tracked_files": 980,
+    "history_blobs": 1365,
+    "exact_local_secret_values_compared": 1,
+    "worktree_findings": 0,
+    "history_findings": 0,
+    "untracked_findings": 0,
+    "fonts_game_binaries_dependencies_archives_and_personal_saves_in_git": false,
+    "test_placeholders_reviewed_with_exact_path_and_value": true
+  },
+  "backup_cleanup": {
+    "explicit_user_confirmation_received": true,
+    "removed_install_backup_directories": 20,
+    "removed_test_save_copy_directories": 55,
+    "removed_bytes": 417372433,
+    "remaining_backup_items": 0,
+    "future_install_backups": false,
+    "test_save_copies_temporary_and_isolated": true,
+    "real_game_saves_not_deleted": true
+  },
+  "validation": {
+    "isolated_real_installer_integration_tests": 1,
+    "headless_preflight_tests": 11,
+    "publication_audit_unit_tests": 4,
+    "powershell_scripts_parse_passed": true,
+    "main_game_launched": false
+  },
+  "limits": [
+    "本记录绑定首次上传；后续证据文档提交另行扫描并核对远端哈希",
+    "扫描匹配已知完整Key及常见凭证格式，不能保证识别所有未知秘密格式",
+    "没有发布可安装补丁包或字体；Git不保存被忽略的本机依赖及存档"
+  ]
+}

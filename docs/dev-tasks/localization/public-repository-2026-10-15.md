@@ -12,7 +12,7 @@
 
 ## 公开范围与检查
 
-公开目标为当前登录账号的 `Chains-Z/ElsinoreHan`，上传Git分支及其历史，不上传Release或补丁ZIP。已有未跟踪的 `tools/translation/prepare_expanded_review.py` 不属于本任务，不主动纳入提交。
+已创建公开仓库 [Chains-Z/ElsinoreHan](https://github.com/Chains-Z/ElsinoreHan)，上传Git分支及其历史，不上传Release或补丁ZIP。首轮推送为 `035e54454fb1ee84a3b6f148d707dc958a287e55`，GitHub返回 `PUBLIC`，默认分支 `master`，远端分支哈希与本地一致。已有未跟踪的 `tools/translation/prepare_expanded_review.py` 不属于本任务，未纳入提交。
 
 `tools/audit_public_repository.py` 逐个检查所有可达历史blob、当前已跟踪文件及未忽略的未跟踪文件。把本地 `api-key.txt` 中的完整Key仅在内存中按UTF-8和UTF-16字节精确比对，并检查常见服务Key、GitHub令牌、AWS访问Key、私钥头、凭证字面值以及字体、程序集、压缩包和存档路径或文件头。报告不输出Key正文。
 
@@ -26,4 +26,4 @@
 - 11项后台启动前置校验通过；没有为本轮变更启动真实游戏。
 - 4项公开扫描单元检查通过，包括准确占位值的路径限制、测试目录中其他Key拒绝、真实值多编码匹配和字体/存档拒绝。
 
-完整扫描报告保留在本机 `runtime/build/publication-audit.json`，推送前及推送后核对远端公开状态与分支哈希。
+首轮推送前的完整扫描覆盖43个提交、980个已跟踪文件、1,365个历史blob，精确比对1把本地完整Key，当前文件和历史均无待处理项。完整扫描报告保留在本机 `runtime/build/publication-audit.json`，公开状态、首次推送哈希及清理摘要见 [核验记录](../../../runtime/evidence/public-repository-verification-2026-10-15.json)。后续推送仍须核对公开状态及分支哈希。
