@@ -938,6 +938,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             RecordCharacterGeometry(character, "title", title);
             RecordCharacterGeometry(character, "subtitle", slug);
             JournalBuilder("character:" + character, tab, "DescriptionText");
+            if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BIO_SCROLL") == "1")
+                yield return BiographyScrollProbe.Capture(tab, character, outputDirectory);
             if (character == "hamlet")
             {
                 JournalControl("character:" + character, "character.profile.body", tab, "DescriptionText");
@@ -957,6 +959,7 @@ public sealed class RuntimeProbe : BaseUnityPlugin
         }
         if (!string.IsNullOrEmpty(Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BIOGRAPHY_CASES")))
             BiographyReplayProbe.Complete(outputDirectory);
+        if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BIO_SCROLL") == "1") BiographyScrollProbe.Complete();
     }
 
     private IEnumerator ProbePresentationPreview()
@@ -1120,6 +1123,8 @@ public sealed class RuntimeProbe : BaseUnityPlugin
                 yield return JournalRoundTrip("log", log, history, logEntries);
                 if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_LOG_SCROLL") == "1")
                     yield return LogScrollAnchorProbe.Capture(log, outputDirectory);
+                if (!String.IsNullOrEmpty(Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_LOG_SPEAKERS")))
+                    yield return LogSpeakerLayoutProbe.Capture(log, outputDirectory);
             }
         }
     }

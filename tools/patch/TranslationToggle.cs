@@ -9,7 +9,7 @@ using UnityEngine.TextCore.LowLevel;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.5")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.6")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -43,6 +43,15 @@ public sealed class TranslationToggle : BaseUnityPlugin
         // 本游戏的 TMP 1.4.0 只将 StringBuilder 写入解析缓冲区，text getter 仍是旧值。
         // 改走正常文本入口，让 XUnity 保存完整原文并翻译；不提前改写成中文。
         var compatibility = new Harmony("elsinorehan.translationtoggle.tmpcompatibility");
+        try
+        {
+            LogSpeakerLayout.Apply(compatibility);
+            Logger.LogInfo("日志长姓名的正文缩进保护已启用。");
+        }
+        catch (Exception error)
+        {
+            Logger.LogWarning("日志缩进接口不兼容，保留原布局：" + error.GetType().Name);
+        }
         try
         {
             LeadSplotchLayout.Apply(compatibility);

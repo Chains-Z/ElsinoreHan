@@ -13,6 +13,12 @@ if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -n
 if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
     throw 'ELSINOREHAN_PROBE_LOG_SCROLL 必须与真实资料模式一起运行，禁止启动。'
 }
+if ($env:ELSINOREHAN_PROBE_LOG_SPEAKERS -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_LOG_SPEAKERS -PathType Leaf))) {
+    throw '日志姓名排版回归需要真实资料模式与资源重放输入，禁止启动。'
+}
+if ($env:ELSINOREHAN_PROBE_BIO_SCROLL -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
+    throw '人物介绍阅读位置回归必须使用真实资料模式，禁止启动。'
+}
 if ($env:ELSINOREHAN_PROBE_LEAD_LAYOUT -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
     throw '任务按钮布局回归必须使用真实资料模式，禁止启动。'
 }
@@ -127,6 +133,8 @@ try {
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += @('log-scroll-anchor.tsv', 'log-bottom-anchor.tsv') }
+    if ($env:ELSINOREHAN_PROBE_LOG_SPEAKERS) { $reports += 'log-speaker-layout.tsv' }
+    if ($env:ELSINOREHAN_PROBE_BIO_SCROLL -eq '1') { $reports += 'biography-scroll.tsv' }
     if ($env:ELSINOREHAN_PROBE_LEAD_LAYOUT -eq '1') { $reports += 'lead-layout.tsv' }
     if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) { $reports += 'document-scroll-anchor.tsv' }
     if ($env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES) { $reports += 'biography-replay.tsv' }
@@ -208,6 +216,10 @@ try {
         if ($LASTEXITCODE -ne 0) { throw 'F8对话记录同段落与真实位置断言失败。' }
         python (Join-Path $PSScriptRoot 'verify-log-bottom-anchor.py') (Join-Path $runDirectory 'log-bottom-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --output (Join-Path $runDirectory 'log-bottom-anchor-analysis.json')
         if ($LASTEXITCODE -ne 0) { throw 'F8日志底部保持或手动滚离底部回归失败。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_LOG_SPEAKERS -and $env:ELSINOREHAN_PROBE_BIO_SCROLL -eq '1') {
+        python (Join-Path $PSScriptRoot 'verify-reading-layout.py') --directory $runDirectory --speaker-cases $env:ELSINOREHAN_PROBE_LOG_SPEAKERS --output (Join-Path $runDirectory 'reading-layout-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw '日志姓名排版或人物介绍F8位置回归失败。' }
     }
     if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) {
         python (Join-Path $PSScriptRoot 'verify-document-scroll-anchor.py') (Join-Path $runDirectory 'document-scroll-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --ids $env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS --output (Join-Path $runDirectory 'document-scroll-anchor-analysis.json')

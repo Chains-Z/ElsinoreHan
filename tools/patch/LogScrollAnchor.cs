@@ -6,7 +6,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// F8 保持真实对话记录或文档中的阅读段落，不改正文或平时的滚动行为。
+// F8保持真实对话记录、文档或人物介绍的阅读段落，不改正文或平时的滚动行为。
 public static class LogScrollAnchor
 {
     private const BindingFlags Fields = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
@@ -26,6 +26,8 @@ public static class LogScrollAnchor
         internal int paragraphCount;
         internal float capturedY;
         internal bool document;
+        internal bool biography;
+        internal object portrait;
         public int ParagraphIndex;
         public bool PinnedToBottom;
         public string Outcome = "captured";
@@ -33,6 +35,7 @@ public static class LogScrollAnchor
         public int EntryInstanceId { get { return entry == null ? 0 : entry.GetInstanceID(); } }
         public float CapturedY { get { return capturedY; } }
         public bool IsDocument { get { return document; } }
+        public bool IsBiography { get { return biography; } }
 
         // 探针读取真实当前段落位置，不能仅由滚动条比例判断是否回到原处。
         public bool TryReadCurrentY(out float y)
@@ -65,6 +68,31 @@ public static class LogScrollAnchor
                     Canvas.ForceUpdateCanvases();
                     Anchor anchor = CaptureEntry(owner, scroll, viewport, body, token, 0, 1, builder.ToString(), true);
                     // 打开的模态文档没有有效锚点时，不去挪动背后的日志。
+                    return anchor;
+                }
+            }
+            Type biographyType = FindType("Elsinore.Ui.JournalCharactersTab");
+            if (biographyType != null)
+            {
+                foreach (UnityEngine.Object value in Resources.FindObjectsOfTypeAll(biographyType))
+                {
+                    Component owner = value as Component;
+                    if (owner == null || !owner.gameObject.activeInHierarchy) continue;
+                    TMP_Text body = ReadField(owner, "DescriptionText") as TMP_Text;
+                    StringBuilder builder = ReadField(owner, "builder") as StringBuilder;
+                    ScrollRect scroll = body == null ? null : body.GetComponentInParent<ScrollRect>();
+                    if (body == null || builder == null || scroll == null || scroll.content != body.rectTransform
+                        || !body.gameObject.activeInHierarchy) return null;
+                    RectTransform viewport = scroll.viewport == null ? scroll.transform as RectTransform : scroll.viewport;
+                    Canvas.ForceUpdateCanvases();
+                    Anchor anchor = CaptureEntry(owner, scroll, viewport, body, token, 0, 1, builder.ToString(), true);
+                    if (anchor != null)
+                    {
+                        anchor.biography = true;
+                        anchor.portrait = ReadField(owner, "HighlightedPortrait");
+                        anchor.PinnedToBottom = ShouldPinToBottom(scroll.verticalNormalizedPosition,
+                            scroll.content.rect.height - viewport.rect.height);
+                    }
                     return anchor;
                 }
             }
@@ -177,7 +205,16 @@ public static class LogScrollAnchor
                 || !anchor.entry.gameObject.activeInHierarchy || anchor.scroll == null || anchor.viewport == null)
             { anchor.Outcome = "closed"; return false; }
             IList entries = null;
-            if (anchor.document)
+            if (anchor.biography)
+            {
+                StringBuilder builder = ReadField(anchor.log, "builder") as StringBuilder;
+                if (!ReferenceEquals(ReadField(anchor.log, "DescriptionText"), anchor.entry) || builder == null
+                    || anchor.scroll.content != anchor.entry.rectTransform
+                    || !ReferenceEquals(ReadField(anchor.log, "HighlightedPortrait"), anchor.portrait)
+                    || !String.Equals(builder.ToString(), anchor.historySource, StringComparison.Ordinal))
+                { anchor.Outcome = "biography-changed"; return false; }
+            }
+            else if (anchor.document)
             {
                 StringBuilder builder = ReadField(anchor.log, "builder") as StringBuilder;
                 if (!System.Object.Equals(ReadField(anchor.log, "isOpen"), true))
