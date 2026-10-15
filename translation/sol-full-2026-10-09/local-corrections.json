@@ -515,5 +515,23 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p01287-ff7ef393f145",
+    "source": "Yes, my lord.",
+    "source_sha256": "ff7ef393f145d1008637e3a0cccfc7e8230cefb24c16dc850fe49d916cf162fa",
+    "original_target": "是，陛下。",
+    "corrected_target": "是，大人。",
+    "kind": "text",
+    "reason": "用户截图中布莉特教说yes, my lord，奥菲莉娅逐字照说，必须与指令中的大人一致。该短答也被贝尔纳多复用，保留my lord的泛敬称大人，不把所有复用场景擅自限定为君主；原文明写Your Majesty的布莉特介绍句保留陛下。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0016.json:p01287-ff7ef393f145",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:FORT_SecretTownMeeting:26209,26239",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Brit_Fortinbras_Ophelia:26287",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Spine_FortinbrasHamletMeeting:1131",
+      "用户实际游玩截图中的敬称不一致反馈，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
