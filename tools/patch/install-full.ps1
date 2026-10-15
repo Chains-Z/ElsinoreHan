@@ -42,17 +42,11 @@ $disabled = Join-Path $GamePath 'BepInEx/Translation/zh-CN/Text/sample.txt.disab
 if ((Test-Path -LiteralPath $sample) -and (Test-Path -LiteralPath $disabled)) { throw '已有样板停用文件，安装前拒绝覆盖' }
 & (Join-Path $PSScriptRoot 'build-toggle.ps1') -GamePath $GamePath
 if ((Get-FileHash -LiteralPath (Join-Path $projectRoot 'runtime/build/ElsinoreHan.TranslationToggle.dll')).Hash.ToLowerInvariant() -ne $fontValidation.plugin_sha256) { throw '待安装兼容插件与新字体验收不一致' }
-$backup = Join-Path $projectRoot ('runtime/backups/full-' + [Guid]::NewGuid().ToString('N'))
-New-Item -ItemType Directory -Path $backup | Out-Null
+# 用户选择不保留旧补丁备份；版本恢复通过Git重建与本机依赖完成。
 $changes = [System.Collections.Generic.List[object]]::new()
 function Install-OwnedFile([string]$source, [string]$relative) {
     $target = [IO.Path]::GetFullPath((Join-Path $GamePath $relative))
     if (-not $target.StartsWith($GamePath + [IO.Path]::DirectorySeparatorChar, [StringComparison]::OrdinalIgnoreCase)) { throw '安装目标越界' }
-    if (Test-Path -LiteralPath $target) {
-        $saved = Join-Path $backup $relative
-        New-Item -ItemType Directory -Path (Split-Path $saved) -Force | Out-Null
-        Copy-Item -LiteralPath $target -Destination $saved
-    }
     New-Item -ItemType Directory -Path (Split-Path $target) -Force | Out-Null
     Copy-Item -LiteralPath $source -Destination $target -Force
     $changes.Add([pscustomobject]@{ path=$relative; sha256=(Get-FileHash -LiteralPath $target).Hash })
@@ -65,12 +59,10 @@ foreach ($name in @('ElsinoreHanSans-OFL.txt', 'ElsinoreHanSans-NOTICE.txt', 'Te
     Install-OwnedFile (Join-Path $sourceRoot ('licenses/' + $name)) ('licenses/' + $name)
 }
 
-# 只停用本项目早期样板，避免旧译名与全文词表相互覆盖；保留备份。
+# 只移除本项目早期样板，避免旧译名与全文词表相互覆盖。
 if (Test-Path -LiteralPath $sample) {
-    Copy-Item -LiteralPath $sample -Destination (Join-Path $backup 'sample.txt')
-    Move-Item -LiteralPath $sample -Destination $disabled
+    Remove-Item -LiteralPath $sample
 }
-Copy-Item -LiteralPath $config -Destination (Join-Path $backup 'AutoTranslatorConfig.ini')
 $lines = [System.Collections.Generic.List[string]]::new()
 $section = ''
 foreach ($line in Get-Content -LiteralPath $config) {
@@ -93,11 +85,8 @@ foreach ($line in Get-Content -LiteralPath $config) {
 $changes.Add([pscustomobject]@{ path='BepInEx/config/AutoTranslatorConfig.ini'; sha256=(Get-FileHash -LiteralPath $config).Hash })
 $removedFiles = @()
 if (Test-Path -LiteralPath $oldFont) {
-    $savedFont = Join-Path $backup 'arialuni_sdf_u2018'
-    Copy-Item -LiteralPath $oldFont -Destination $savedFont
-    if ((Get-FileHash -LiteralPath $savedFont).Hash -ne $oldFontHash) { throw '旧字体备份核对失败，禁止移除' }
     Remove-Item -LiteralPath $oldFont
-    $removedFiles += [pscustomobject]@{ path='arialuni_sdf_u2018'; sha256=$oldFontHash; backup=$savedFont }
+    $removedFiles += [pscustomobject]@{ path='arialuni_sdf_u2018'; sha256=$oldFontHash }
 }
-[pscustomobject]@{ game_path=$GamePath; backup_path=$backup; dictionary_count=$proof.count; font='ElsinoreHan Sans SDF'; files=$changes; removed_files=$removedFiles } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $projectRoot 'runtime/evidence/full-installed-files.json') -Encoding utf8
-Write-Output ('全文离线补丁已安装，F8切换原文/译文；备份：' + $backup)
+[pscustomobject]@{ game_path=$GamePath; backup_path=$null; backup_policy='disabled'; dictionary_count=$proof.count; font='ElsinoreHan Sans SDF'; files=$changes; removed_files=$removedFiles } | ConvertTo-Json -Depth 5 | Set-Content -LiteralPath (Join-Path $projectRoot 'runtime/evidence/full-installed-files.json') -Encoding utf8
+Write-Output '全文离线补丁已安装，F8切换原文/译文；按用户设置不保留旧补丁备份。'

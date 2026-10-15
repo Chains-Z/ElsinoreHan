@@ -12,6 +12,21 @@ __pycache__/
 *api-key*
 *credentials*
 
+# 公开仓库不接收字体、二进制依赖、安装包、私钥或个人存档。
+*.ttf
+*.otf
+*.ttc
+*.woff
+*.woff2
+*.dll
+*.exe
+*.zip
+*.7z
+*.pem
+*.pfx
+*.save
+elsinore_log*.json
+
 # 下载依赖、游戏备份和运行日志
 downloads/
 runtime/downloads/

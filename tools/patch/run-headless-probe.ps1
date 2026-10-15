@@ -68,20 +68,20 @@ $concurrentGameActive = [bool](Get-Process -Name Elsinore -ErrorAction SilentlyC
 $saveSourcePath = $originalSavePath
 if ($env:ELSINOREHAN_PROBE_SAVE_SOURCE) { $saveSourcePath = (Resolve-Path -LiteralPath $env:ELSINOREHAN_PROBE_SAVE_SOURCE).Path }
 if ($concurrentGameActive -and $saveSourcePath -eq $originalSavePath) { throw '用户游戏正在运行；诊断须使用既有冻结存档副本，避免读取正在写入的存档。' }
-$isolatedSavePath = Join-Path $projectRoot ('runtime/backups/probe-save-' + $runId)
-New-Item -ItemType Directory -Path $isolatedSavePath -Force | Out-Null
-. (Join-Path $PSScriptRoot 'ProbeSaveSnapshot.ps1')
-$saveSnapshot = @(Get-ProbeSaveSnapshot -Path $originalSavePath -ConcurrentGameActive $concurrentGameActive)
-$sourceSnapshot = @()
-foreach ($file in Get-ChildItem -LiteralPath $saveSourcePath -File -Recurse -Force) {
-    $relative = $file.FullName.Substring($saveSourcePath.Length + 1)
-    $destination = Join-Path $isolatedSavePath $relative
-    New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
-    Copy-Item -LiteralPath $file.FullName -Destination $destination
-    $sourceSnapshot += [pscustomobject]@{ path=$relative; sha256=(Get-FileHash -LiteralPath $file.FullName).Hash }
-}
-$saveSnapshot | ConvertTo-Json -AsArray | Set-Content -LiteralPath (Join-Path $runDirectory 'original-save-before.json') -Encoding utf8
+$isolatedSavePath = Join-Path $runDirectory 'isolated-save'
 try {
+    New-Item -ItemType Directory -Path $isolatedSavePath -Force | Out-Null
+    . (Join-Path $PSScriptRoot 'ProbeSaveSnapshot.ps1')
+    $saveSnapshot = @(Get-ProbeSaveSnapshot -Path $originalSavePath -ConcurrentGameActive $concurrentGameActive)
+    $sourceSnapshot = @()
+    foreach ($file in Get-ChildItem -LiteralPath $saveSourcePath -File -Recurse -Force) {
+        $relative = $file.FullName.Substring($saveSourcePath.Length + 1)
+        $destination = Join-Path $isolatedSavePath $relative
+        New-Item -ItemType Directory -Path (Split-Path $destination) -Force | Out-Null
+        Copy-Item -LiteralPath $file.FullName -Destination $destination
+        $sourceSnapshot += [pscustomobject]@{ path=$relative; sha256=(Get-FileHash -LiteralPath $file.FullName).Hash }
+    }
+    $saveSnapshot | ConvertTo-Json -AsArray | Set-Content -LiteralPath (Join-Path $runDirectory 'original-save-before.json') -Encoding utf8
     # Application 带 BeforeFieldInit，旧入口可能迟于游戏启动时的分辨率应用。
     # 临时改到实际业务 Awake 之前加载保护；只改测试配置，退出后按字节还原。
     $loaderLines = [IO.File]::ReadAllLines($loaderConfigPath)
@@ -218,11 +218,19 @@ try {
     Copy-Item -LiteralPath (Join-Path $runDirectory 'process.json') -Destination (Join-Path $projectRoot 'runtime\evidence\headless-process.json') -Force
     Write-Output ('本轮后台证据：' + $runDirectory)
 } finally {
-    if ($process -and -not $process.HasExited) { Stop-Process -Id $process.Id -Force }
+    if ($process -and -not $process.HasExited) {
+        Stop-Process -Id $process.Id -Force
+        if (-not $process.WaitForExit(10000)) { throw '测试进程未退出，禁止清理其存档副本。' }
+    }
     # 诊断插件退出后移除，避免用户后续正常游玩被自动退出或静音。
     if ($createdPlugin -and (Test-Path -LiteralPath $plugin)) { Remove-Item -LiteralPath $plugin }
     if ($createdAppId -and (Test-Path -LiteralPath $appIdPath)) { Remove-Item -LiteralPath $appIdPath }
     [IO.File]::WriteAllBytes($loaderConfigPath, $originalLoaderConfig)
     $env:ELSINOREHAN_PROBE_RUN_ID = $previousRunId
     $env:ELSINOREHAN_PROBE_SAVE_PATH = $previousSavePath
+    # 临时隔离存档仅服务本轮测试，退出后不作长期备份留存。
+    $saveCleanupRoot = [IO.Path]::GetFullPath((Join-Path $projectRoot 'runtime/evidence/headless')) + [IO.Path]::DirectorySeparatorChar
+    $saveCleanupPath = [IO.Path]::GetFullPath($isolatedSavePath)
+    if (-not $saveCleanupPath.StartsWith($saveCleanupRoot, [StringComparison]::OrdinalIgnoreCase) -or (Split-Path $saveCleanupPath -Leaf) -ne 'isolated-save') { throw '临时存档清理路径越界。' }
+    if (Test-Path -LiteralPath $saveCleanupPath) { Remove-Item -LiteralPath $saveCleanupPath -Recurse -Force }
 }

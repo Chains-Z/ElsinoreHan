@@ -25,7 +25,7 @@
 ./tools/patch/install-full.ps1 -GamePath 'D:\SteamLibrary\steamapps\common\Elsinore'
 ```
 
-`-GamePath` 可替换为实际游戏目录。安装器核对词表、插件及字体的验收哈希，备份已有项目文件，再更新词表、中文字体、许可、兼容插件和配置；备份路径会显示在输出中，并写入 `runtime/evidence/full-installed-files.json`。
+`-GamePath` 可替换为实际游戏目录。安装器核对词表、插件及字体的验收哈希，再更新词表、中文字体、许可、兼容插件和配置，不保留旧补丁备份。安装结果写入 `runtime/evidence/full-installed-files.json`。
 
 此脚本用于更新已配置好加载器的环境，要求目标已有 `BepInEx/config/AutoTranslatorConfig.ini`。首次安装所需的加载器准备见 [技术说明](docs/dev-tasks/localization/technical-probe.md)；其中样板与测试结果属于早期记录，完整补丁的干净目录安装验收尚未完成。
 
@@ -33,7 +33,7 @@
 
 退出游戏后，可将游戏目录 `doorstop_config.ini` 的 `[General]` 节中 `enabled` 改为 `false`，再次启动时停用加载器；改回 `true` 可恢复。此操作会停用通过同一加载器加载的其他插件。
 
-回退某次更新时，按安装记录找到对应的 `runtime/backups/full-*` 目录，恢复其中的旧词表、插件、字体及配置；字体切换的记录还会列出移除的旧字体及其备份位置。仓库尚未提供完整卸载脚本；如需清理，依据安装记录识别本项目增加的文件，避免删除其他模组共用的加载器或游戏原文件。
+回退某次更新时，从Git取得对应版本的源码和校订数据，使用本机依赖重新导出、构建、验证并安装。Git不包含字体、第三方依赖或个人存档，不能恢复这些文件；项目不再长期保留旧补丁或测试存档副本。后台测试仍使用临时隔离存档，结束后清理。仓库尚未提供完整卸载脚本；如需清理，依据安装记录识别本项目增加的文件，避免删除其他模组共用的加载器或游戏原文件。
 
 ## 开发与校订
 
@@ -84,3 +84,5 @@ python -m unittest discover -s tools/translation -p test_export_sol_full.py
 BepInEx、XUnity和Harmony遵循各自的许可。中文字体来自Adobe官方思源黑体，按 [SIL Open Font License 1.1](licenses/ElsinoreHanSans-OFL.txt) 使用和再分发；派生资源名称为 `ElsinoreHan Sans SDF`，来源与TMP组件许可见 [字体说明](licenses/ElsinoreHanSans-NOTICE.txt)。补丁包附带这些许可文件。
 
 公开发布前仍需完成其他依赖的许可整理、完整安装/卸载说明和干净目录安装验证。
+
+上述要求针对可安装补丁包。公开Git仓库保存源码、译文与审计资料，不上传本机API Key、字体文件、游戏本体、存档、下载依赖或安装包。历史字体名称和许可核查文档仅记录研究过程，不表示仓库包含这些字体。
