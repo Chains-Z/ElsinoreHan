@@ -193,7 +193,7 @@ def main():
     ui_rules_path = ROOT / "translation" / "supplemental" / "dynamic-ui-rules.json"
     ui_rules = json.loads(ui_rules_path.read_text(encoding="utf-8")) if ui_rules_path.exists() else []
     for filename in ("notification-ui-rules.json", "lead-followup-rules.json", "biography-followup-rules.json", "map-ui-rules.json",
-                     "timeline-followup-rules.json", "nested-belief-followup-rules.json", "dialogue-log-followup-rules.json", "mixed-log-rules.json"):
+                     "timeline-followup-rules.json", "nested-belief-followup-rules.json", "dialogue-log-followup-rules.json", "mixed-log-rules.json", "ambient-log-followup-rules.json"):
         followup_path = ui_rules_path.with_name(filename)
         if followup_path.exists():
             ui_rules += json.loads(followup_path.read_text(encoding="utf-8"))

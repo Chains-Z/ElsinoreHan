@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ui-rule-log-orphan-indent-prefix",
+    "priority": 71,
+    "pattern": "^(?<prefix_i>(?:</indent>)?\\n)(?<body><b>(?:Townsperson|Fortinbras|Katherine|Marcellus|Petruchio|Voltemand|Baptista|Bernardo|Claudius|Corambis|Finnegan|Gertrude|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Figure|Guilda|Hamlet|Murphy|Quince|Sailor|Elise|Ghost|Grace|Rosie|Woman|Brit|Irma|\\?\\?\\?):</b> <indent=16%>[\\s\\S]+)\\z$",
+    "replacement": "${prefix_i}${body}",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "resources.assets:name_mapping",
+      "用户重开仍漏译的日志截图及真实保存记录，2026-10-15"
+    ],
+    "note": "真实formatEntry在前一发言仍存在而显示尾段的builder为空时，先追加结束缩进换行；仅接受真实姓名及日志缩进结构，未知正文仍须递归失败，不更换后续规则兜底"
+  },
+  {
+    "id": "ui-rule-log-closed-indent-final-newline",
+    "priority": 72,
+    "pattern": "^(?<body><b>(?:Townsperson|Fortinbras|Katherine|Marcellus|Petruchio|Voltemand|Baptista|Bernardo|Claudius|Corambis|Finnegan|Gertrude|Kubilius|Lucianus|McDonald|Polonius|Reynaldo|Villager|Brigand|Captain|Gonzago|Horatio|Kistler|Laertes|Ophelia|Othello|Richard|Servant|Soldier|Aldous|Cygnus|Figure|Guilda|Hamlet|Murphy|Quince|Sailor|Elise|Ghost|Grace|Rosie|Woman|Brit|Irma|\\?\\?\\?):</b> <indent=16%>[\\s\\S]+?)(?<close_i></indent>)(?<newline_i>\\n)\\z$",
+    "replacement": "${body}${close_i}${newline_i}",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "resources.assets:name_mapping",
+      "用户重开仍漏译的日志截图及真实保存记录，2026-10-15"
+    ],
+    "note": "formatEntry从对白转到无显示文字的逻辑/舞台条目时仍先关闭缩进并换行；保护准确末尾格式，不泛化任意英文换行"
+  }
+]

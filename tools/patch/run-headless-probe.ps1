@@ -13,6 +13,9 @@ if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -n
 if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1' -and $env:ELSINOREHAN_PROBE_JOURNAL -ne '1') {
     throw 'ELSINOREHAN_PROBE_LOG_SCROLL 必须与真实资料模式一起运行，禁止启动。'
 }
+if ($env:ELSINOREHAN_PROBE_LOG_FORMATTER -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_LOG_FORMATTER -PathType Leaf))) {
+    throw '日志格式器核查需要真实资料模式与冻结输入，禁止启动。'
+}
 if ($env:ELSINOREHAN_PROBE_LOG_SPEAKERS -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_LOG_SPEAKERS -PathType Leaf))) {
     throw '日志姓名排版回归需要真实资料模式与资源重放输入，禁止启动。'
 }
@@ -128,6 +131,7 @@ try {
     if ($process.ExitCode -ne 0) { throw ('后台探针退出码异常：' + $process.ExitCode) }
     $reports = if ($env:ELSINOREHAN_PROBE_FONT_SOURCE) { @('font-bake.json', 'font-atlas-alpha8.bin') } else { @('menu-texts.txt', 'settings-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_STRICT_LOG_CASES) { $reports += 'strict-log-cache.tsv' }
+    if ($env:ELSINOREHAN_PROBE_LOG_FORMATTER) { $reports += 'ambient-log-formatter.json' }
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
@@ -169,6 +173,12 @@ try {
     if ($env:ELSINOREHAN_PROBE_STRICT_LOG_CASES) {
         python (Join-Path $PSScriptRoot 'verify-strict-log-cache.py') --evidence (Join-Path $runDirectory 'strict-log-cache.tsv') --cases $env:ELSINOREHAN_PROBE_STRICT_LOG_CASES
         if ($LASTEXITCODE -ne 0) { throw '完整日志缓存修复、拒绝未知项或F8回归失败。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_LOG_FORMATTER) {
+        $formatter = Get-Content -LiteralPath (Join-Path $runDirectory 'ambient-log-formatter.json') -Raw | ConvertFrom-Json
+        if (-not $formatter.passed -or $formatter.entries -ne 4 -or $formatter.actual_base64 -cne $formatter.expected_base64 -or $formatter.input_sha256 -ne (Get-FileHash -LiteralPath $env:ELSINOREHAN_PROBE_LOG_FORMATTER).Hash.ToLowerInvariant()) {
+            throw '真实日志格式器边界或输入绑定失败。'
+        }
     }
     if ($env:ELSINOREHAN_PROBE_FONT_NAME -eq 'ElsinoreHan Sans SDF' -and $env:ELSINOREHAN_PROBE_FONT_CHARACTERS) {
         foreach ($name in @('font-regression.json', 'font-runtime-atlas.bin')) {

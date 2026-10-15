@@ -1,0 +1,130 @@
+[
+  {
+    "id": "summons-tail-prefix-1",
+    "source": "</indent>\n<b>Marcellus:</b> <indent=16%>A' course, Cap'n.",
+    "target": "</indent>\n<b>马塞勒斯:</b> <indent=16%>当然明白，队长。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_CallToArms",
+        "line": 11072
+      }
+    ]
+  },
+  {
+    "id": "summons-tail-prefix-2",
+    "source": "</indent>\n<b>Marcellus:</b> <indent=16%>A' course, Cap'n.</indent>\n<b>Bernardo:</b> <indent=16%>Good. Dismissed.",
+    "target": "</indent>\n<b>马塞勒斯:</b> <indent=16%>当然明白，队长。</indent>\n<b>贝尔纳多:</b> <indent=16%>很好。解散。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_CallToArms",
+        "line": 11072
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_CallToArms",
+        "line": 11074
+      }
+    ]
+  },
+  {
+    "id": "summons-tail-prefix-3",
+    "source": "</indent>\n<b>Marcellus:</b> <indent=16%>A' course, Cap'n.</indent>\n<b>Bernardo:</b> <indent=16%>Good. Dismissed.</indent>\n<b>Ophelia:</b> <indent=16%>That's the herald's horn.",
+    "target": "</indent>\n<b>马塞勒斯:</b> <indent=16%>当然明白，队长。</indent>\n<b>贝尔纳多:</b> <indent=16%>很好。解散。</indent>\n<b>奥菲莉娅:</b> <indent=16%>那是传令官的号角声。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_CallToArms",
+        "line": 11072
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_CallToArms",
+        "line": 11074
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_FortinbrasArrestedAnnouncement",
+        "line": 10705
+      }
+    ]
+  },
+  {
+    "id": "summons-tail-prefix-4",
+    "source": "</indent>\n<b>Marcellus:</b> <indent=16%>A' course, Cap'n.</indent>\n<b>Bernardo:</b> <indent=16%>Good. Dismissed.</indent>\n<b>Ophelia:</b> <indent=16%>That's the herald's horn.\nThis is an unusual time for an announcement.",
+    "target": "</indent>\n<b>马塞勒斯:</b> <indent=16%>当然明白，队长。</indent>\n<b>贝尔纳多:</b> <indent=16%>很好。解散。</indent>\n<b>奥菲莉娅:</b> <indent=16%>那是传令官的号角声。\n这个时候发布公告，可不寻常。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_CallToArms",
+        "line": 11072
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_CallToArms",
+        "line": 11074
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_FortinbrasArrestedAnnouncement",
+        "line": 10705
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FORT_FortinbrasArrestedAnnouncement",
+        "line": 10713
+      }
+    ]
+  },
+  {
+    "id": "summons-tail-line-height",
+    "source": "<line-height=90%></indent>\n<b>Marcellus:</b> <indent=16%>A' course, Cap'n.</indent>\n<b>Bernardo:</b> <indent=16%>Good. Dismissed.</indent>\n<b>Ophelia:</b> <indent=16%>That's the herald's horn.\nThis is an unusual time for an announcement.",
+    "target": "<line-height=90%></indent>\n<b>马塞勒斯:</b> <indent=16%>当然明白，队长。</indent>\n<b>贝尔纳多:</b> <indent=16%>很好。解散。</indent>\n<b>奥菲莉娅:</b> <indent=16%>那是传令官的号角声。\n这个时候发布公告，可不寻常。",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "resources.assets:name_mapping",
+      "用户重开仍漏译的日志截图及真实保存记录，2026-10-15"
+    ]
+  },
+  {
+    "id": "summons-tail-closed",
+    "source": "</indent>\n<b>Marcellus:</b> <indent=16%>A' course, Cap'n.</indent>\n<b>Bernardo:</b> <indent=16%>Good. Dismissed.</indent>\n<b>Ophelia:</b> <indent=16%>That's the herald's horn.\nThis is an unusual time for an announcement.</indent>\n",
+    "target": "</indent>\n<b>马塞勒斯:</b> <indent=16%>当然明白，队长。</indent>\n<b>贝尔纳多:</b> <indent=16%>很好。解散。</indent>\n<b>奥菲莉娅:</b> <indent=16%>那是传令官的号角声。\n这个时候发布公告，可不寻常。</indent>\n",
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "resources.assets:name_mapping",
+      "用户重开仍漏译的日志截图及真实保存记录，2026-10-15"
+    ]
+  },
+  {
+    "id": "summons-tail-unknown-body",
+    "source": "</indent>\n<b>Marcellus:</b> <indent=16%>Unreviewed marker.",
+    "target": null,
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "resources.assets:name_mapping",
+      "用户重开仍漏译的日志截图及真实保存记录，2026-10-15"
+    ]
+  },
+  {
+    "id": "summons-tail-unknown-name",
+    "source": "</indent>\n<b>UnknownActor:</b> <indent=16%>Good. Dismissed.",
+    "target": null,
+    "origins": [
+      "analysis/ui-audit/dialogue-log-followup-il.json:HistoryTracker.formatEntry",
+      "resources.assets:name_mapping",
+      "用户重开仍漏译的日志截图及真实保存记录，2026-10-15"
+    ]
+  }
+]
