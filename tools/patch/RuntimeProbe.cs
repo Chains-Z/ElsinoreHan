@@ -719,6 +719,20 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             yield return OptionalJournalPhase(closeupId, ProbeDocument(closeupId));
         yield return OptionalJournalPhase("closeups.batch", ProbeCloseupBatch());
         yield return OptionalJournalPhase("hud", ProbeHud());
+        if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BOOK_PAGES") != null)
+        {
+            yield return WaitForUiIdle("book:before");
+            JournalTransition("ActivateBook", null);
+            yield return new WaitForSecondsRealtime(0.6f);
+            yield return WaitForUiIdle("book:after");
+            yield return EndingBookProbe.Capture(JournalCanvas("endingSelectCanvas", "book"), outputDirectory);
+        }
+        if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BOOK_ONLY") == "1")
+        {
+            JournalLine("STATUS\tCOLLECTED");
+            journalFinished = true;
+            yield break;
+        }
         yield return OptionalJournalPhase("journal", ProbeJournalTabs());
         yield return OptionalJournalPhase("present", ProbePresentationPreview());
         yield return OptionalJournalPhase("timeline", ProbeTimeline());

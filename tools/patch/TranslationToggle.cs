@@ -9,7 +9,7 @@ using UnityEngine.TextCore.LowLevel;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.6")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.7")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -43,6 +43,15 @@ public sealed class TranslationToggle : BaseUnityPlugin
         // 本游戏的 TMP 1.4.0 只将 StringBuilder 写入解析缓冲区，text getter 仍是旧值。
         // 改走正常文本入口，让 XUnity 保存完整原文并翻译；不提前改写成中文。
         var compatibility = new Harmony("elsinorehan.translationtoggle.tmpcompatibility");
+        try
+        {
+            EndingBookLabels.Apply(compatibility);
+            Logger.LogInfo("命运之书背景印字的中文显示层已启用。");
+        }
+        catch (Exception error)
+        {
+            Logger.LogWarning("命运之书接口不兼容，保留原背景：" + error.GetType().Name);
+        }
         try
         {
             LogSpeakerLayout.Apply(compatibility);
@@ -221,6 +230,7 @@ public sealed class TranslationToggle : BaseUnityPlugin
         {
             var logAnchor = LogScrollAnchor.Capture();
             toggleMethod.Invoke(instance, null);
+            EndingBookLabels.SetTranslated((bool)modeField.GetValue(instance));
             if (logAnchor != null) StartCoroutine(LogScrollAnchor.Restore(logAnchor));
             Logger.LogInfo("F8显示模式=" + ((bool)modeField.GetValue(instance) ? "译文" : "原文"));
             return true;

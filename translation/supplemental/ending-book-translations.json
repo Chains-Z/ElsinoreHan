@@ -1,0 +1,394 @@
+[
+  {
+    "id": "ui-ending-6182ca1c18bb8c2a",
+    "source": "STRUGGLE",
+    "target": "挣扎",
+    "source_sha256": "6182ca1c18bb8c2ac552c38eb9b79832044f859e34e85911f46e8afd3732f9d7",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Resignation",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-2e61d805164cb7f0",
+    "source": "RELIEF",
+    "target": "解脱",
+    "source_sha256": "2e61d805164cb7f0b598bfc7948adb401d9cea76bc9ea301e5c6a016d5e0e72a",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Resignation",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-d509f3ddd511711c",
+    "source": "PRESTIGE",
+    "target": "声望",
+    "source_sha256": "d509f3ddd511711c7bd37ea54bf781a0a852dafaa635d9be0bf0e458c60cc59d",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Exile",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-0c0a9c87f940fd25",
+    "source": "FAMILY",
+    "target": "家人",
+    "source_sha256": "0c0a9c87f940fd2515de33cd4f067210555049dc69ded4eaa40b8dff3dc60bf5",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Exile",
+        "field": "sacrifice-for"
+      },
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_HamletMarriage",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-48ce635e4a058fae",
+    "source": "INNOCENCE",
+    "target": "纯真",
+    "source_sha256": "48ce635e4a058fae03b9ffeaab9347a6d5a8b9c32a7f55889b7eb0ad99bbe4d9",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Queen",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-10149aa571ab7f5f",
+    "source": "POWER",
+    "target": "权力",
+    "source_sha256": "10149aa571ab7f5f987c9fec11ed8062491e6fee2cd7fa0e3058088af42a0f2a",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Queen",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-b0d7824580e202b6",
+    "source": "MORTALITY",
+    "target": "凡人之身",
+    "source_sha256": "b0d7824580e202b6217a7833f2d8eeb60ba7508eaa59f990d852845f99cb208b",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_JoinQuince",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-d4b7bdb35a75579c",
+    "source": "GODHOOD",
+    "target": "神格",
+    "source_sha256": "d4b7bdb35a75579cef000e9e85075a78def0c3efabf83f50e707977e2115f236",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_JoinQuince",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-6e779d3634705ea2",
+    "source": "LEGACY",
+    "target": "传承",
+    "source_sha256": "6e779d3634705ea2ed91ee059566ec7290b305ef850ef3664f6ad2e63a27d5e9",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_HamletMarriage",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-54a88dc2544d5c26",
+    "source": "REALITY",
+    "target": "现实",
+    "source_sha256": "54a88dc2544d5c26c1c5fca05ba4f752bdf59200b45f709137ca5e3654c58e8d",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Delusion",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-912a2343d51cdba6",
+    "source": "JOY",
+    "target": "欢乐",
+    "source_sha256": "912a2343d51cdba6e4adc1ab3037c21977d1f9a588d81b7d0553b30ced7542f8",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Delusion",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-6c6bb5b5e8b82792",
+    "source": "ETERNITY",
+    "target": "永恒",
+    "source_sha256": "6c6bb5b5e8b82792f9d1a278ac8ce2da3d561cddcb0fdd331d271822cdb4a74f",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Revenge",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-acd3082fe5cfba36",
+    "source": "REVENGE",
+    "target": "复仇",
+    "source_sha256": "acd3082fe5cfba368d661fcee09d1603da7f6021fa800cc8c8cb0e45a853489e",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Revenge",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-ac75a28e0b60c63e",
+    "source": "PEACE",
+    "target": "和平",
+    "source_sha256": "ac75a28e0b60c63eebd039451b4c61a17f82e059a3207d7da29ba6dc43f5bd48",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Survival",
+        "field": "sacrifice-what"
+      },
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_FortinbrasPeaceful",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-1b9b0dfbd0e8a3be",
+    "source": "SURVIVAL",
+    "target": "生存",
+    "source_sha256": "1b9b0dfbd0e8a3beddb40a63654b53437442b11183458c8ef38c820f4f19e1f2",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Survival",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-566ee65534b7b9da",
+    "source": "PERMANENCE",
+    "target": "长久",
+    "source_sha256": "566ee65534b7b9da76e1a08da4deac907c003c25f9d16f1b55cb4cd38e951ea9",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Othello",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-475bc0f8e2a1553f",
+    "source": "PASSION",
+    "target": "激情",
+    "source_sha256": "475bc0f8e2a1553f008a5799870fee9b53a388fe24ad2fd8896923366f4d3bc0",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Othello",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-22caf04f8068889f",
+    "source": "PREDICTABILITY",
+    "target": "安稳",
+    "source_sha256": "22caf04f8068889fcfa5ff1fb9ca6b24c29b517b937718606fda712b4a98a550",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Pirate",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-549f2b17195c6477",
+    "source": "ADVENTURE",
+    "target": "冒险",
+    "source_sha256": "549f2b17195c6477d67c66ab8863f0275bce28183967a52d39feadb2d6f675f9",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Pirate",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-ea2a18cf2730a881",
+    "source": "EVERYONE",
+    "target": "所有人",
+    "source_sha256": "ea2a18cf2730a881c9a90d1b423cac9900554c7cf30901a095b0c9c49384ec22",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_SentAway",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-66b09814ebb9e572",
+    "source": "MYSELF",
+    "target": "自己",
+    "source_sha256": "66b09814ebb9e5722cebc5b3b155eb7afd498214195d52595474850d9c60d73d",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_SentAway",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-51c725aff92818f9",
+    "source": "RESPONSIBILITY",
+    "target": "责任",
+    "source_sha256": "51c725aff92818f9e2163fbc356abbef85f1a84deab36723353a7b731b9ffbab",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_RosAndGuil",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-151d744d6af7d54a",
+    "source": "INDULGENCE",
+    "target": "纵情",
+    "source_sha256": "151d744d6af7d54ad9d6034f505b86c0182ba33b0f08a87ba5dd049f7e9fa374",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_RosAndGuil",
+        "field": "sacrifice-for"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-f0a5e9edf8185929",
+    "source": "INDEPENDENCE",
+    "target": "独立",
+    "source_sha256": "f0a5e9edf8185929f6a0f8a2c1b8282f7380ce1151f0336810522a2170fc4440",
+    "origins": [
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_FortinbrasPeaceful",
+        "field": "sacrifice-what"
+      }
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-139bf30f616c69ce",
+    "source": "<i>Sacrifice</i>",
+    "target": "<i>舍弃</i>",
+    "source_sha256": "139bf30f616c69ce17d4380fc16657f658caa809fd69f7834dbb6c91a70f4a8d",
+    "origins": [
+      "真实UI_Book_BackGround2书页印字；EndingBookLabels创建的斜体文本源"
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  },
+  {
+    "id": "ui-ending-a2c77ef5c40663bf",
+    "source": "<i>for</i>",
+    "target": "<i>换取</i>",
+    "source_sha256": "a2c77ef5c40663bfb70784567e81c6e7a28f1736928a5c967f7e612f19863cb5",
+    "origins": [
+      "真实UI_Book_BackGround2书页印字；EndingBookLabels创建的斜体文本源"
+    ],
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+  }
+]

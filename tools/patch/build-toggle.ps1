@@ -25,7 +25,8 @@ $strictSource = Join-Path $PSScriptRoot 'StrictLogTranslation.cs'
 $splotchSource = Join-Path $PSScriptRoot 'LeadSplotchLayout.cs'
 $geometrySource = Join-Path $PSScriptRoot 'SplotchTileGeometry.cs'
 $speakerSource = Join-Path $PSScriptRoot 'LogSpeakerLayout.cs'
-$fingerprint = (@($compiler, $source, $anchorSource, $invitedSource, $strictSource, $splotchSource, $geometrySource, $speakerSource) + $references | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash }) -join ':'
+$bookSource = Join-Path $PSScriptRoot 'EndingBookLabels.cs'
+$fingerprint = (@($compiler, $source, $anchorSource, $invitedSource, $strictSource, $splotchSource, $geometrySource, $speakerSource, $bookSource) + $references | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash }) -join ':'
 if ((Test-Path -LiteralPath $buildRecord) -and (Test-Path -LiteralPath $output)) {
     $previous = Get-Content -LiteralPath $buildRecord -Raw | ConvertFrom-Json
     if ($previous.input_fingerprint -eq $fingerprint -and $previous.output_sha256 -eq (Get-FileHash -LiteralPath $output).Hash) {
@@ -42,6 +43,7 @@ $arguments += $strictSource
 $arguments += $splotchSource
 $arguments += $geometrySource
 $arguments += $speakerSource
+$arguments += $bookSource
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw 'F8扩展编译失败' }
 [pscustomobject]@{ input_fingerprint=$fingerprint; output_sha256=(Get-FileHash -LiteralPath $output).Hash } | ConvertTo-Json | Set-Content -LiteralPath $buildRecord -Encoding utf8

@@ -26,6 +26,12 @@ class PreflightTests(unittest.TestCase):
     def test_italic_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_ITALIC": "1"}, "ELSINOREHAN_PROBE_ITALIC")
 
+    def test_book_without_journal_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_BOOK_PAGES": "missing.tsv"}, "命运书页回归")
+
+    def test_book_only_without_sources_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_BOOK_ONLY": "1"}, "命运书页专项模式")
+
     def test_log_scroll_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_LOG_SCROLL": "1"}, "ELSINOREHAN_PROBE_LOG_SCROLL")
 

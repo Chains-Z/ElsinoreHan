@@ -172,7 +172,7 @@ def main():
             terminology = json.loads(terminology_path.read_text(encoding="utf-8"))
             rows = apply_supplemental(rows, terminology)
             supplemental += terminology
-    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "bio-runtime-aliases.json", "lead-runtime-aliases.json", "information-runtime-aliases.json", "dialogue-log-runtime-aliases.json", "mixed-log-translations.json"):
+    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "bio-runtime-aliases.json", "lead-runtime-aliases.json", "information-runtime-aliases.json", "dialogue-log-runtime-aliases.json", "mixed-log-translations.json", "ending-book-translations.json"):
         extra_path = SUPPLEMENTAL.with_name(filename)
         if extra_path.exists():
             extra_entries = json.loads(extra_path.read_text(encoding="utf-8"))

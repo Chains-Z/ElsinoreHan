@@ -1,5 +1,7 @@
 param([string]$GamePath = 'D:\SteamLibrary\steamapps\common\Elsinore')
 $ErrorActionPreference = 'Stop'
+if ($env:ELSINOREHAN_PROBE_BOOK_PAGES -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES -PathType Leaf))) { throw '命运书页回归需要资料模式及真实资源输入。' }
+if ($env:ELSINOREHAN_PROBE_BOOK_ONLY -eq '1' -and -not $env:ELSINOREHAN_PROBE_BOOK_PAGES) { throw '命运书页专项模式缺少页面输入。' }
 if ($env:ELSINOREHAN_PROBE_FONT_SOURCE -and -not $env:ELSINOREHAN_PROBE_FONT_CHARACTERS) { throw '字体生成缺少受控字符集，禁止启动。' }
 if ($env:ELSINOREHAN_PROBE_MENU_RETRY_DELAY_SECONDS) {
     $retrySeconds = [float]0
@@ -135,6 +137,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
+    if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += 'ending-book.json' }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += @('log-scroll-anchor.tsv', 'log-bottom-anchor.tsv') }
     if ($env:ELSINOREHAN_PROBE_LOG_SPEAKERS) { $reports += 'log-speaker-layout.tsv' }
@@ -195,7 +198,12 @@ try {
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $verifyArguments += '--require-settings-options' }
     python @verifyArguments
     if ($LASTEXITCODE -ne 0) { throw '后台 UI 集成断言失败。' }
-    if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') {
+    if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) {
+        $bookReport = Get-Content -LiteralPath (Join-Path $runDirectory 'ending-book.json') -Raw | ConvertFrom-Json
+        $bookCases = @(Get-Content -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES | Where-Object { ($_ -split "`t")[1] -eq 'True' })
+        if (-not $bookReport.passed -or $bookReport.page_count -ne $bookCases.Count -or $bookReport.pages.Count -ne $bookCases.Count -or $bookReport.input_sha256 -ne (Get-FileHash -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES).Hash.ToLowerInvariant()) { throw '命运之书回归不完整或来源哈希不符。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and $env:ELSINOREHAN_PROBE_BOOK_ONLY -ne '1') {
         $journalArguments = @((Join-Path $PSScriptRoot 'verify-journal-probe.py'), (Join-Path $runDirectory 'journal-ui.txt'), '--output', (Join-Path $runDirectory 'journal-analysis.json'))
         if ($env:ELSINOREHAN_PROBE_JOURNAL_BASELINE -ne '1') { $journalArguments += '--require-translated' }
         if ($env:ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE) { $journalArguments += @('--notification-evidence', $env:ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE) }
