@@ -1,12 +1,13 @@
 {
   "game_path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore",
-  "backup_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\full-2fcfe86a4bae49b28cd5556b531ebb54",
+  "backup_path": null,
+  "backup_policy": "disabled",
   "dictionary_count": 17041,
   "font": "ElsinoreHan Sans SDF",
   "files": [
     {
       "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
-      "sha256": "CE71241F26A970ADFE12771841FF05BE3325100DABA260F5285E23BA17F41AC4"
+      "sha256": "927E85C8CB24348BEFCC352B5563DB5191A180301F03FCF52F195F901D953720"
     },
     {
       "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt",
@@ -14,7 +15,7 @@
     },
     {
       "path": "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll",
-      "sha256": "73B1175DF24832094F9A0E9BE17545DE376E81923A4039DD748E65FE9A49B00C"
+      "sha256": "FE42A10FBDB7BDEC46CE9E91A948A9170F38D05DC2653F7AB431067809350D48"
     },
     {
       "path": "elsinorehan_sans_sdf_u2018",

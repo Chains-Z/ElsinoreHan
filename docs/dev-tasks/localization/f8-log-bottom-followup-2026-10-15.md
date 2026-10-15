@@ -37,3 +37,5 @@
 测试中用户游戏并行运行，因此原存档前后比较不具结论性：`original_save_files_unchanged=null`、`original_save_comparison_conclusive=false`。能够确认的是测试业务初始化前启用存档路径重定向、写入/迁移保护，且只读冻结源在测试前后未变；不把null写成原存档未变。
 
 本机候选已打包；未安装。最终40文件、插件和词表哈希、测试源码摘要见[候选核验](../../../runtime/evidence/log-bottom-verification-2026-10-15.json)。实测正文词表哈希为 `8236f6646db143a58157e2d80dfc064e0074d2fadc1f6d1d9b614a7991d90126`，随后[人命语序修订](grace-combat-dialogue-followup-2026-10-15.md)只经消费者与导出验证，未重复未改变的重型F8验收。
+
+用户随后要求安装，1.5.5现已随全部累积文字校订安装，原候选证据保留为阶段快照。原游戏与存档未变，未启动主游戏、未创建备份；见[安装核验](../../../runtime/evidence/grace-thumb-install-verification-2026-10-15.json)。
