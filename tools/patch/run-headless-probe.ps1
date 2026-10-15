@@ -126,7 +126,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
-    if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += 'log-scroll-anchor.tsv' }
+    if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += @('log-scroll-anchor.tsv', 'log-bottom-anchor.tsv') }
     if ($env:ELSINOREHAN_PROBE_LEAD_LAYOUT -eq '1') { $reports += 'lead-layout.tsv' }
     if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) { $reports += 'document-scroll-anchor.tsv' }
     if ($env:ELSINOREHAN_PROBE_BIOGRAPHY_CASES) { $reports += 'biography-replay.tsv' }
@@ -206,6 +206,8 @@ try {
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') {
         python (Join-Path $PSScriptRoot 'verify-log-scroll-anchor.py') (Join-Path $runDirectory 'log-scroll-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --output (Join-Path $runDirectory 'log-scroll-anchor-analysis.json')
         if ($LASTEXITCODE -ne 0) { throw 'F8对话记录同段落与真实位置断言失败。' }
+        python (Join-Path $PSScriptRoot 'verify-log-bottom-anchor.py') (Join-Path $runDirectory 'log-bottom-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --output (Join-Path $runDirectory 'log-bottom-anchor-analysis.json')
+        if ($LASTEXITCODE -ne 0) { throw 'F8日志底部保持或手动滚离底部回归失败。' }
     }
     if ($env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS) {
         python (Join-Path $PSScriptRoot 'verify-document-scroll-anchor.py') (Join-Path $runDirectory 'document-scroll-anchor.tsv') --journal-report (Join-Path $runDirectory 'journal-ui.txt') --ids $env:ELSINOREHAN_PROBE_DOCUMENT_SCROLL_IDS --output (Join-Path $runDirectory 'document-scroll-anchor-analysis.json')

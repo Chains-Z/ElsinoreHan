@@ -16,6 +16,7 @@ $start = $type.GetMethod('ParagraphStart')
 $documentCount = $type.GetMethod('DocumentParagraphCount')
 $documentAt = $type.GetMethod('DocumentParagraphAt')
 $documentStart = $type.GetMethod('DocumentParagraphStart')
+$pinToBottom = $type.GetMethod('ShouldPinToBottom')
 $assertions = 0
 function Assert-Equal($actual, $expected, [string]$name) {
     if ($actual -cne $expected) { throw "$name 的实际值 $actual 与期望值 $expected 不符" }
@@ -30,6 +31,14 @@ Assert-Equal ($documentStart.Invoke($null, @('单段', -1))) -1 '文档负数段
 Assert-Equal ($documentStart.Invoke($null, @('单段', 1))) -1 '文档越界段号'
 Assert-Equal ($documentCount.Invoke($null, @(''))) 0 '文档空正文'
 Assert-Equal ($count.Invoke($null, @('单段文字'))) 1 '单段'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]0, [single]30000))) $true '实际日志底部'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]-0.00000001, [single]30000))) $true '底部浮点误差'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]0.00001, [single]30000))) $true '底部一单位容差'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]0.001, [single]30000))) $false '长日志比例很小但已离开底部'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]0.35, [single]30000))) $false '手动滚动不能吸附末尾'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]0, [single]0))) $false '无需滚动的短内容不锚定末尾'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]::NaN, [single]30000))) $false '非数位置拒绝'
+Assert-Equal ($pinToBottom.Invoke($null, @([single]0, [single]::PositiveInfinity))) $false '无限内容高度拒绝'
 Assert-Equal ($count.Invoke($null, @("a`n`nb`n"))) 4 '空段和末尾段'
 Assert-Equal ($count.Invoke($null, @("a`r`nb"))) 2 'CRLF 不重复计段'
 Assert-Equal ($at.Invoke($null, @("a`nb", 1))) 0 '换行字符属于前段'

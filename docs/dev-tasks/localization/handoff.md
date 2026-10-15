@@ -14,7 +14,9 @@
 | 待安装独白校订 | 参考朱生豪、卞之琳的译法润色游戏改写，保留“生存，还是毁灭……”，修正“这是一个值得考虑的问题”及死、睡、梦的断句与节奏；游戏运行中，未安装，见[独白核查与整段译文](hamlet-soliloquy-followup-2026-10-15.md) |
 | 待安装人物对白 | 雷欧提斯“憎恨这门新语言”、船上争论的比较与权力差距、格蕾丝以奥马利自称及“恶毒的臭婊子”；详见[对白校订](hamlet-social-dialogue-followup-2026-10-15.md)与[该阶段候选核验](../../../runtime/evidence/shakespeare-dialogue-verification-2026-10-15.json) |
 | 待安装海盗观察 | 外貌描述“不好惹”改为“粗犷”，保留不修边幅及大海女主人的比喻；未补写容貌损伤。详见[语境与单条校订](pirate-appearance-followup-2026-10-15.md)与[最新候选核验](../../../runtime/evidence/pirate-appearance-verification-2026-10-15.json) |
-| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前包含鲁特琴简介、独白润色、人物对白及海盗外貌待安装校订，与40文件候选目录一致；字体与3份许可/说明不变，哈希见最新候选核验；不代表当前游戏的已安装快照 |
+| 待安装打斗对白 | 教匕首的annoying/dangerous改为“给对手添点麻烦，还谈不上让你成为多大的威胁”；人命一句按用户建议改为“闹出没必要的人命”。5项真实消费者通过，见[格蕾丝对白校订](grace-combat-dialogue-followup-2026-10-15.md) |
+| 待安装F8修复 | 插件1.5.5：日志已到底部时中英文切换继续保留底部，手动滚离后沿用段落定位；真实隔离UI集成探针对照通过，见[问题与验证](f8-log-bottom-followup-2026-10-15.md)及[最新候选核验](../../../runtime/evidence/log-bottom-verification-2026-10-15.json) |
+| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前包含1.5.5日志底部修复及鲁特琴简介、独白润色、人物对白、海盗外貌和打斗对白待安装校订，与40文件候选目录一致；字体与3份许可/说明不变，哈希见最新候选核验；不代表当前游戏的已安装快照 |
 | 备份策略 | 按用户2026-10-15要求停止长期备份；20份旧补丁备份与55份测试存档副本已明确授权删除，释放417,372,433字节。旧安装证据中的备份路径仅为历史记录，已不可用；测试临时存档仍隔离，结束后清理，见[公开上传与清理记录](public-repository-2026-10-15.md) |
 | 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；正文词表更新，配置仅移除UTF-8 BOM且解码文本逐字相同；字库、插件、动态词表和许可不变，未启动主游戏 |
 | 发布状态 | [GitHub源码与译文仓库](https://github.com/Chains-Z/ElsinoreHan)已公开，当前文件与完整历史通过凭证及字体/二进制检查；字体、依赖、游戏、存档和ZIP未上传。可安装补丁包仍仅为本机个人构建，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成，见[公开核验](../../../runtime/evidence/public-repository-verification-2026-10-15.json) |
@@ -32,6 +34,8 @@
 | 哈姆雷特独白与原著对应 | [开头核查与死亡如睡眠的断句校订](hamlet-soliloquy-followup-2026-10-15.md) |
 | 憎恨比喻、船上争论与格蕾丝自称 | [指代、权力差距及粗口力度校订](hamlet-social-dialogue-followup-2026-10-15.md) |
 | 船上海盗的外貌观察 | [粗犷与不好惹的语境区分](pirate-appearance-followup-2026-10-15.md) |
+| 教匕首、人命语序与拇指玩笑 | [格蕾丝打斗对白及习语解释](grace-combat-dialogue-followup-2026-10-15.md) |
+| F8在日志底部向上跳 | [底部定位、手动滚离及真实对照](f8-log-bottom-followup-2026-10-15.md) |
 | 通知名单、人物简介组合、文档F8 | [阅读界面跟进](reading-followup-2026-10-10.md) |
 | 文章与人物口语审校 | [阅读正文](reading-text-review-2026-10-10.md)、[伊尔玛](irma-dialogue-review-2026-10-10.md)、[其他角色](dialect-dialogue-review-2026-10-10.md) |
 | 日志组合与滚动位置 | [混合日志](mixed-log-followup-2026-10-10.md)、[日志跟进](log-followup-2026-10-10.md) |
@@ -63,7 +67,7 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 
 1.5.3对 `LogCanvas` 单独从文件词表和真实首匹配Splitter完整重建，再准确覆盖此源内存项；不信任主API可能返回的部分译文或既有混合Full缓存。Alt+R失效重载；未知源重建返回null，上游仍可处理，不能宣称整个管线拒绝未知混合。其他页面保留原路径。当前空替换表、数字模板关闭的配置已验证，不泛化任意可选XUnity配置。
 
-人物Title使用单行自适应字号。`LogScrollAnchor` 只保护F8，不能锁住平时滚动；长段内部并非逐词定位，结构或历史变化时保守跳过。当前思源字体合成斜体剪切设为5；旧Arial兼容分支仍为10。参数不是角度，新字体沿用10会导致样本网格相邻边界重叠。TMP1.4迁移旧序列化字段时不能恢复原生SDF8，插件在新字体读取后精确设回SDF8。
+人物Title使用单行自适应字号。`LogScrollAnchor` 只保护F8，不能锁住平时滚动；1.5.5对距日志底部不超过1个UI单位的切换保持末尾，其余位置沿用段落锚点，每次F8重新捕获，手动上滚后不吸回底部。长段内部并非逐词定位，结构或历史变化时保守跳过。当前思源字体合成斜体剪切设为5；旧Arial兼容分支仍为10。参数不是角度，新字体沿用10会导致样本网格相邻边界重叠。TMP1.4迁移旧序列化字段时不能恢复原生SDF8，插件在新字体读取后精确设回SDF8。
 
 1.5.4的 `LeadSplotchLayout` 仅同步真实任务按钮的自动墨迹背景几何，不重跑原Setup或增加颜色监听，不调整字号。原任务预制体与实际中英文任务字号均36，自动字号关闭；Canvas按屏幕高度缩放。布局变化后同步可能延后一帧，回归须等待布局稳定，不能用立即采样冒称当帧像素验证。
 
@@ -101,6 +105,8 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 | `prepare_othello_story_followup.py` | 再生仙境时间感受、奥菲莉娅迟疑问句、渴望评价及真实相邻日志回归 |
 | `prepare_hamlet_soliloquy_followup.py` | 再生完整独白、憎恨比喻、船上争论与船长自称的裸句、角色及真实相邻日志回归 |
 | `prepare_pirate_appearance_followup.py` | 再生海盗外貌裸句、角色日志及强盗原译保留回归 |
+| `prepare_grace_sword_followup.py` | 再生格蕾丝打斗语境及人命语序的5项真实消费者回归 |
+| `tools/patch/verify-log-bottom-anchor.py` | 绑定真实历史和中英文全文，核验日志末尾双向F8及手动滚离；不能用段落restored替代底部断言 |
 | `tools/patch/prepare-font-characters.py`、`build-shareable-font.py` | 再生受控字体字符集，装配真实Unity2018生成的图集；源字体与旧模板均不入Git |
 | `prepare_othello_log_cache_followup.py` | 从真实冻结日志和边界再生88项缓存/控件复用输入；新探针输入为 `ELSINOREHAN_PROBE_STRICT_LOG_CASES` |
 | `tools/translation/verify-recursive-ui.ps1` | 真实XUnity递归消费者组件检查，不启动游戏 |

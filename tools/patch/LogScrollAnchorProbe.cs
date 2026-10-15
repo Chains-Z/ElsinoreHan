@@ -31,7 +31,7 @@ public static class LogScrollAnchorProbe
 
     public static IEnumerator Capture(Component log, string outputDirectory)
     {
-        var context = new Context { Log = log, Path = System.IO.Path.Combine(outputDirectory, "log-scroll-anchor.tsv"), Deadline = Time.realtimeSinceStartup + 15f };
+        var context = new Context { Log = log, Path = System.IO.Path.Combine(outputDirectory, "log-scroll-anchor.tsv"), Deadline = Time.realtimeSinceStartup + 25f };
         context.Line("SCHEMA\t1");
         context.Line("SCOPE\t" + Enc("真实冻结历史控件、TMP基线与正式F8共享路径；坐标为UI单位，非物理键盘或像素验收"));
         var routines = new Stack<IEnumerator>();
@@ -45,7 +45,7 @@ public static class LogScrollAnchorProbe
                 Exception failure = null;
                 try
                 {
-                    if (Time.realtimeSinceStartup > context.Deadline) throw new TimeoutException("日志阅读位置诊断超过15秒");
+                    if (Time.realtimeSinceStartup > context.Deadline) throw new TimeoutException("日志阅读位置诊断超过25秒");
                     more = routines.Peek().MoveNext();
                     if (more) current = routines.Peek().Current;
                 }
@@ -136,9 +136,56 @@ public static class LogScrollAnchorProbe
             for (int frame = 0; frame < 3; frame++) yield return null;
             yield return Case(context, names[sample], indices[sample], sample == 0 ? "short" : "long");
         }
+        yield return BottomCases(context, System.IO.Path.GetDirectoryName(context.Path));
         SetMode(context, context.InitialMode);
         for (int frame = 0; frame < 4; frame++) yield return null;
         context.Complete = true;
+    }
+
+    private static IEnumerator BottomCases(Context context, string outputDirectory)
+    {
+        string path = System.IO.Path.Combine(outputDirectory, "log-bottom-anchor.tsv");
+        File.WriteAllText(path, "SCHEMA\t1\n", new UTF8Encoding(false));
+        SetMode(context, true);
+        for (int frame = 0; frame < 4; frame++) yield return null;
+        context.Scroll.StopMovement();
+        context.Scroll.verticalNormalizedPosition = 0;
+        for (int frame = 0; frame < 3; frame++) yield return null;
+        foreach (string name in new[] { "bottom-to-original", "bottom-to-translated", "manual-away" })
+        {
+            if (name == "manual-away")
+            {
+                context.Scroll.StopMovement();
+                context.Scroll.verticalNormalizedPosition = 0.35f;
+                for (int frame = 0; frame < 3; frame++) yield return null;
+            }
+            object before = context.Helper.GetMethod("Capture").Invoke(null, null);
+            if (before == null) throw new InvalidOperationException("底部回归无法捕获真实日志锚点");
+            BottomSnapshot(context, path, name, "before", before);
+            SetMode(context, !Mode(context));
+            for (int frame = 0; frame < 4; frame++) yield return null;
+            object after = context.Helper.GetField("LastCompleted").GetValue(null);
+            if (after == null) throw new InvalidOperationException("底部回归没有正式F8完成记录");
+            BottomSnapshot(context, path, name, "after", after);
+        }
+        File.AppendAllText(path, "STATUS\tCOLLECTED\n", new UTF8Encoding(false));
+    }
+
+    private static void BottomSnapshot(Context context, string path, string name, string stage, object anchor)
+    {
+        TMP_Text entry = Field(anchor, "entry") as TMP_Text;
+        int index = (int)Field(anchor, "entryIndex");
+        RectTransform viewport = context.Scroll.viewport == null ? context.Scroll.transform as RectTransform : context.Scroll.viewport;
+        float hidden = Mathf.Max(0, context.Scroll.content.rect.height - viewport.rect.height);
+        FieldInfo pinned = anchor.GetType().GetField("PinnedToBottom", Members);
+        string line = "SAMPLE\t" + name + "\t" + stage + "\t" + Mode(context)
+            + "\t" + Number(context.Scroll.verticalNormalizedPosition)
+            + "\t" + Number(Mathf.Abs(context.Scroll.verticalNormalizedPosition) * hidden)
+            + "\t" + index + "\t" + Property(anchor, "EntryInstanceId") + "\t" + Field(anchor, "generation")
+            + "\t" + (pinned != null && (bool)pinned.GetValue(anchor)) + "\t" + Field(anchor, "Outcome")
+            + "\t" + Field(anchor, "ParagraphIndex") + "\t" + Number((float)Field(anchor, "RestoreError"))
+            + "\t" + Enc(History(context)[index]) + "\t" + Enc(entry == null ? "" : entry.text);
+        File.AppendAllText(path, line + "\n", new UTF8Encoding(false));
     }
 
     private static IEnumerator Case(Context context, string name, int intendedIndex, string kind)

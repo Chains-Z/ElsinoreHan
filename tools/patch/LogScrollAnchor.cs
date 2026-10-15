@@ -27,6 +27,7 @@ public static class LogScrollAnchor
         internal float capturedY;
         internal bool document;
         public int ParagraphIndex;
+        public bool PinnedToBottom;
         public string Outcome = "captured";
         public float RestoreError;
         public int EntryInstanceId { get { return entry == null ? 0 : entry.GetInstanceID(); } }
@@ -148,7 +149,9 @@ public static class LogScrollAnchor
                 log = owner, scroll = scroll, viewport = viewport, entry = entry, document = document,
                 generation = token, entryIndex = index, entryCount = count, historySource = source,
                 paragraphCount = document ? DocumentParagraphCount(entry.text) : ParagraphCount(entry.text),
-                ParagraphIndex = paragraph, capturedY = baseline
+                ParagraphIndex = paragraph, capturedY = baseline,
+                PinnedToBottom = !document && ShouldPinToBottom(scroll.verticalNormalizedPosition,
+                    scroll.content.rect.height - viewport.rect.height)
             };
         }
         return best;
@@ -196,7 +199,7 @@ public static class LogScrollAnchor
             }
             // 中英文硬换行结构不一致时没有可靠的段落对应，不按高度比例猜测。
             int currentCount = anchor.document ? DocumentParagraphCount(anchor.entry.text) : ParagraphCount(anchor.entry.text);
-            if (currentCount != anchor.paragraphCount)
+            if (currentCount != anchor.paragraphCount && !anchor.PinnedToBottom)
             { anchor.Outcome = "paragraphs-changed"; return false; }
             Canvas.ForceUpdateCanvases();
             if (anchor.document) anchor.entry.ForceMeshUpdate();
@@ -207,6 +210,19 @@ public static class LogScrollAnchor
             }
             LayoutRebuilder.ForceRebuildLayoutImmediate(anchor.scroll.content);
             Canvas.ForceUpdateCanvases();
+            // 已读到底部时，切换后继续展示末尾；保留上沿段落会把较长的英文尾部挤出视口。
+            // 每次F8重新捕获，手动滚离底部后仍走原来的段落定位，不能持续吸附末尾。
+            if (anchor.PinnedToBottom)
+            {
+                anchor.scroll.StopMovement();
+                anchor.scroll.verticalNormalizedPosition = 0;
+                Canvas.ForceUpdateCanvases();
+                float hidden = Mathf.Max(0, anchor.scroll.content.rect.height - anchor.viewport.rect.height);
+                anchor.RestoreError = Mathf.Abs(anchor.scroll.verticalNormalizedPosition) * hidden;
+                anchor.Outcome = anchor.RestoreError <= 1f ? "bottom-restored" : "bottom-unavailable";
+                LastCompleted = anchor;
+                return anchor.RestoreError <= 1f;
+            }
             float y;
             if (!anchor.TryReadCurrentY(out y)) { anchor.Outcome = "missing-paragraph"; return false; }
             anchor.scroll.StopMovement();
@@ -229,6 +245,14 @@ public static class LogScrollAnchor
     {
         FieldInfo field = value.GetType().GetField(name, Fields);
         return field == null ? null : field.GetValue(value);
+    }
+
+    // 使用实际内容距离判断，避免长日志中的固定比例阈值误吞几十行用户滚动。
+    public static bool ShouldPinToBottom(float normalizedPosition, float hiddenHeight)
+    {
+        return !Single.IsNaN(normalizedPosition) && !Single.IsInfinity(normalizedPosition)
+            && !Single.IsNaN(hiddenHeight) && !Single.IsInfinity(hiddenHeight)
+            && hiddenHeight > 1f && Mathf.Abs(normalizedPosition) * hiddenHeight <= 1f;
     }
 
     private static string[] ReadHistory(Component log)

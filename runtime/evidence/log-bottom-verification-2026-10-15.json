@@ -1,0 +1,204 @@
+{
+  "date": "2026-10-15",
+  "status": "candidate_verified",
+  "passed": true,
+  "installed": false,
+  "plugin_version": "1.5.5",
+  "font_bundle_sha256": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+  "plugin_sha256": "fe42a10fbdb7bdec46ce9e91a948a9170f38d05dc2653f7ab431067809350d48",
+  "dictionary_sha256": "e7d23c8a7210c69d4de4f96b8a9f6de82573e55dd9e88527e2a46309042354f2",
+  "dynamic_dictionary_sha256": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+  "dictionary_count": 17041,
+  "dynamic_rules": 155,
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "fe42a10fbdb7bdec46ce9e91a948a9170f38d05dc2653f7ab431067809350d48",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "e7d23c8a7210c69d4de4f96b8a9f6de82573e55dd9e88527e2a46309042354f2",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+    "README.md": "0270cc6670a01ad5cb0b21bf6ab7655333920fa3fc0197fea588068fde74d7ec",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933"
+  },
+  "candidate_zip_sha256": "2d2845878107f21b8a14480469d909d8cb1c1e2600f3b1cb60a5372bfd195893",
+  "zip_matches_package": true,
+  "previous_candidate_verification": "runtime/evidence/pirate-appearance-verification-2026-10-15.json",
+  "changed_package_files": [
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt"
+  ],
+  "translation_changes": [
+    {
+      "id": "p08751-b3c5b792c58b",
+      "source": "Although yer a wee mite smaller than most—we might have to settle for teachin' you to be annoying rather than dangerous.",
+      "previous_target": "不过你比大多数人都娇小些——我们可能只能退而求其次，教你怎么惹人烦，而不是怎么伤人。",
+      "target": "不过，你比大多数人都娇小些——恐怕得退而求其次，教你给对手添点麻烦，还谈不上让你成为多大的威胁。"
+    },
+    {
+      "id": "p08933-603a5ec7100a",
+      "source": "If there's one thing I've learned, it's that unnecessary death always comes t'bite me eventually.",
+      "previous_target": "这些年我至少学会了一件事：没必要闹出的人命，迟早总会给我惹来麻烦。",
+      "target": "这些年我至少学会了一件事：闹出没必要的人命，迟早总会给我惹来麻烦。"
+    }
+  ],
+  "frozen_inputs_raw_outputs_and_audit_unchanged": true,
+  "translation_character_set_unchanged": true,
+  "font_dynamic_rules_config_and_licenses_unchanged": true,
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 5,
+    "fixture_sha256": {
+      "translation/supplemental/grace-sword-tests.json": "13d337133c326934a4b48b516e73106814eb6f84d967e16f9176fce093187a54"
+    }
+  },
+  "unit_tests": {
+    "export": 15,
+    "csharp_anchor_mapping_and_bottom_threshold": 28,
+    "log_report_analyzers": 25,
+    "headless_preflight": 11
+  },
+  "ui_run": {
+    "run_id": "df96119cad1c4bccb370599a04c477c9",
+    "test_level": "真实隔离游戏UI集成探针，非物理按键、像素或完整剧情E2E",
+    "dictionary_sha256": "8236f6646db143a58157e2d80dfc064e0074d2fadc1f6d1d9b614a7991d90126",
+    "plugin_sha256": "fe42a10fbdb7bdec46ce9e91a948a9170f38d05dc2653f7ab431067809350d48",
+    "process": {
+      "run_id": "df96119cad1c4bccb370599a04c477c9",
+      "launched_at_utc": "2026-10-15T13:17:01.4920817Z",
+      "pid": 38188,
+      "exit_code": 0,
+      "main_window_detected": false,
+      "batch_mode_confirmed": true,
+      "wwise_suspend_success": true,
+      "priority": "BelowNormal",
+      "target_frame_rate": 10,
+      "arguments": [
+        "-batchmode",
+        "-nographics",
+        "-nosound",
+        "-logFile",
+        "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\df96119cad1c4bccb370599a04c477c9\\player.log\""
+      ]
+    },
+    "menu_checks": 10,
+    "journal_checks": 41,
+    "paragraph_checks": 10,
+    "bottom_checks": {
+      "passed": true,
+      "checks": {
+        "complete_three_cases": true,
+        "real_history_and_text": true,
+        "fresh_toggle_completion": true,
+        "both_languages_stay_at_bottom": true,
+        "manual_scroll_uses_paragraph_anchor": true
+      },
+      "cases": [
+        {
+          "case": "bottom-to-original",
+          "history_index": 29,
+          "bottom_distance_before": 0.0009765625,
+          "bottom_distance_after": 0.0009765625,
+          "outcome": "bottom-restored"
+        },
+        {
+          "case": "bottom-to-translated",
+          "history_index": 29,
+          "bottom_distance_before": 0.0009765625,
+          "bottom_distance_after": 0.0009765625,
+          "outcome": "bottom-restored"
+        },
+        {
+          "case": "manual-away",
+          "history_index": 20,
+          "bottom_distance_before": 10622.01,
+          "bottom_distance_after": 11503.4307,
+          "outcome": "restored"
+        }
+      ],
+      "limitations": [
+        "真实冻结历史、正式共享F8路径及ScrollRect组件几何；不冒充物理按键或像素验收"
+      ]
+    },
+    "subsequent_dictionary_change": "随后仅调整p08933人命一句中文语序，通过真实XUnity消费者与导出检查；没有重跑未改变的重型F8探针",
+    "report_sha256": {
+      "process.json": "97c235f8ff1f28c69393bf43346693654f668219a877de3a611ffa67fe26ce07",
+      "save-protection.json": "bc5f337150d9e3318f50f8ac225a7708fb959ca364574d88e6aff2418d4541aa",
+      "verification.json": "bab06fff93ad25c8b0c8077f32844f90f4a96eab5adad3a2de20df8751c19d83",
+      "journal-analysis.json": "488559ba363fe4b5463f79d0c1dc2f0dd1cafa43e9254536b7227afa09b628f2",
+      "log-scroll-anchor-analysis.json": "2d0cf89a8dec22139ae6d35f032447caf7a35dca4e4f666f46f7ccaabd852bdb",
+      "log-bottom-anchor-analysis.json": "93bc69dbde70dadfcd43ee9b45484de649e72ccea83182f5644351c480b5e50d"
+    }
+  },
+  "baseline": {
+    "run_id": "564ffa60157c4c948fc1d9abe24f97f2",
+    "bottom_distance_after_switch": 128.327148,
+    "old_outcome": "restored",
+    "new_analyzer_rejects_old_result": true,
+    "full_suite_passed": false,
+    "failure_reason": "未显式指定当前字体名，探针仍查旧Arial字体；不是当前字体缺字的结论",
+    "checkpoint": "真实周六17:42、30条历史，末条17:23船员闲聊；不是19:08现场内存"
+  },
+  "protection": {
+    "save_guard": {
+      "original_save_files_unchanged": null,
+      "original_save_comparison_conclusive": false,
+      "concurrent_user_game": true,
+      "frozen_source_unchanged": true,
+      "save_source_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\build\\f8-scroll-followup\\source-save",
+      "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\df96119cad1c4bccb370599a04c477c9\\isolated-save",
+      "files": []
+    },
+    "source_and_per_run_save_copies_cleaned": true,
+    "test_loader_config_bytes_restored": true,
+    "temporary_probe_and_appid_removed": true,
+    "test_processes_exited": true,
+    "main_game_not_launched_or_operated": true,
+    "backup_created": false
+  },
+  "source_sha256": {
+    "tools/patch/LogScrollAnchor.cs": "182a5173a0f1d58d752fe9771c27e58380f8587e45225e1144ddccf1aa5a2f2d",
+    "tools/patch/TranslationToggle.cs": "a772bfb2f100142a46035fef970a0f262ef6a3f50f91334f7ab2e50dcb949ffb",
+    "tools/patch/LogScrollAnchorProbe.cs": "1f7cecdd34f7c7ad58111d78fb6a4fe6cb3a50b988745b53f107b26a67cf2eee",
+    "tools/patch/verify-log-bottom-anchor.py": "f5d9a10c5d8956accbe1783186bd06aadd4c5d1e88c12d506cd688131a513396",
+    "tools/patch/test_verify_log_bottom_anchor.py": "36cae405801f19cb79622c9879c57e843a6abb6b4b0e910e9d3e4fbde2c9ee68",
+    "tools/patch/run-headless-probe.ps1": "c25b8ff7ee08a7303932e63e336d1d59f20ac620252f81f521e7dcaafe581599",
+    "tools/patch/test-log-scroll-anchor.ps1": "6d8fa908d751e9e41715b7ae50798f57b238a9d6325faff193d0b7914c9487cd",
+    "tools/translation/prepare_grace_sword_followup.py": "515185b1199f16828a2480b0390dbea30d1eb44ae0f39caff87a73d8d8aaf2c4"
+  },
+  "verification_limits": [
+    "不据并行用户游戏期间的原存档哈希比较宣称原存档未变",
+    "候选未安装，当前游戏不会自动加载新插件"
+  ]
+}
