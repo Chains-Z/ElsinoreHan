@@ -1,0 +1,59 @@
+[
+  {
+    "id": "pirate-appearance-leaf",
+    "source": "Looks like a tough, scruffy sort. The sea is a harsh mistress, I suppose...",
+    "target": "看起来是个粗犷、不修边幅的人。我想，大海这位女主人可不好伺候……",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "ST_Generic_Pirate",
+        "line": 166
+      },
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "ab46b35e4fae1f3e4f5e6437fde97a9c29d32a4163443af8e8905374d7fac6d1",
+        "scene": "ST_Generic_Pirate",
+        "line": 165
+      }
+    ]
+  },
+  {
+    "id": "pirate-appearance-log",
+    "source": "<b>Ophelia:</b> <indent=16%>Looks like a tough, scruffy sort. The sea is a harsh mistress, I suppose...",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>看起来是个粗犷、不修边幅的人。我想，大海这位女主人可不好伺候……",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "ST_Generic_Pirate",
+        "line": 166
+      },
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "ab46b35e4fae1f3e4f5e6437fde97a9c29d32a4163443af8e8905374d7fac6d1",
+        "scene": "ST_Generic_Pirate",
+        "line": 165
+      }
+    ]
+  },
+  {
+    "id": "brigand-appearance-unchanged",
+    "source": "Looks like a tough, scruffy sort. I'd better not try to intervene.",
+    "target": "看起来是个不好惹、不修边幅的人。我最好别插手。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "ST_Generic_Brigand",
+        "line": 148
+      },
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "ab46b35e4fae1f3e4f5e6437fde97a9c29d32a4163443af8e8905374d7fac6d1",
+        "scene": "ST_Generic_Brigand",
+        "line": 147
+      }
+    ]
+  }
+]

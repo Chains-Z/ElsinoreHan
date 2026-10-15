@@ -465,5 +465,22 @@
         "date": "2026-10-15"
       }
     ]
+  },
+  {
+    "id": "p14494-606bd47163df",
+    "source": "Looks like a tough, scruffy sort. The sea is a harsh mistress, I suppose...",
+    "source_sha256": "606bd47163df59a67902ce3cd02627a2c4495fc392e093a17627891499751d05",
+    "original_target": "看起来是个不好惹、不修边幅的人。我想，大海这位女主人可不好伺候……",
+    "corrected_target": "看起来是个粗犷、不修边幅的人。我想，大海这位女主人可不好伺候……",
+    "kind": "text",
+    "reason": "真实ST_Generic_Pirate为对海盗外貌的观察，后句将海上生活比为严苛女主人；tough在此以粗犷保留强悍外观，避免不好惹将重点转为性情。scruffy仍为不修边幅，不补写原文未明确的皮肤损伤或不成人样。ST_Generic_Brigand随后明确最好别插手，其不好惹原译保留，不全局替换。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0099.json:p14494-606bd47163df",
+      "resources.assets:scenes_smalltalk:aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd:ST_Generic_Pirate:166",
+      "resources.assets:scenes_smalltalk:ab46b35e4fae1f3e4f5e6437fde97a9c29d32a4163443af8e8905374d7fac6d1:ST_Generic_Pirate:165",
+      "用户实际游玩截图与外貌语境反馈，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
