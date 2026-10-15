@@ -26,5 +26,20 @@
       "用户时间线标签与详情截图，2026-10-10"
     ],
     "reason": "均属于IsImpossibleEvent；未来受当前条件阻断，过去未发生。按实际详情和时间分支区分，不视为概率低或永久不可能"
+  },
+  {
+    "id": "timeline-lute-search-e37e6107dd38fd9e",
+    "original_id": "ui-e37e6107dd38fd9e",
+    "source": "Bernardo and Hamlet's fruitless search continues.",
+    "source_sha256": "e37e6107dd38fd9e9d2d6c8e56b16118987e2fdcd0e5c3e539735c268226077e",
+    "previous_target": "贝尔纳多和哈姆雷特继续寻找，却毫无结果。",
+    "target": "贝尔纳多和哈姆雷特此前没有收获的搜寻仍在继续。",
+    "origins": [
+      "analysis/ui-audit/resource-ui-candidates.json:SC_BOYS_Meeting3:$.events[207].description",
+      "resources.assets:schedule:path_id=448:sha256=c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "resources.assets:scenes:path_id=474:BOYS_Meeting3:12605-12711:sha256=6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "用户时间线截图及指定保留fruitless含义，2026-10-15"
+    ],
+    "reason": "保留fruitless所指的无收获状态，以此前说明延续的是先前尚无收获的搜寻；原场景在共同流程找到鲁特琴，无找到/未找到结局分支，不能将整场结果断言为毫无结果，也不能省略fruitless。"
   }
 ]

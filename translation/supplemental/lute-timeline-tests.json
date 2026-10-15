@@ -1,0 +1,20 @@
+[
+  {
+    "id": "lute-timeline-description",
+    "source": "Bernardo and Hamlet's fruitless search continues.",
+    "target": "贝尔纳多和哈姆雷特此前没有收获的搜寻仍在继续。",
+    "origins": ["resources.assets:schedule:SC_BOYS_Meeting3.description"]
+  },
+  {
+    "id": "lute-timeline-future-tooltip",
+    "source": "Future event: Bernardo and Hamlet's fruitless search continues.",
+    "target": "未来事件：贝尔纳多和哈姆雷特此前没有收获的搜寻仍在继续。",
+    "origins": ["resources.assets:schedule:SC_BOYS_Meeting3.description", "analysis/ui-audit/timeline-label-source-audit.json:TimelineUI.tooltipForItem"]
+  },
+  {
+    "id": "lute-timeline-detail-format",
+    "source": "<line-height=90%>Bernardo and Hamlet's fruitless search continues.",
+    "target": "<line-height=90%>贝尔纳多和哈姆雷特此前没有收获的搜寻仍在继续。",
+    "origins": ["resources.assets:schedule:SC_BOYS_Meeting3.description", "analysis/ui-audit/timeline-followup-source-audit.json:UiStrings.FormatEvent/SetLineHeight"]
+  }
+]
