@@ -1,8 +1,164 @@
 [
   {
-    "id": "hamlet-soliloquy-leaf",
+    "id": "hamlet-p01397-d66f4bbd3a6f-leaf",
+    "source": "To be or not to be...",
+    "target": "生存，还是毁灭……",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1480
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01397-d66f4bbd3a6f-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>To be or not to be...",
+    "target": "<b>哈姆雷特:</b> <indent=16%>生存，还是毁灭……",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1480
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01397-d66f4bbd3a6f-context",
+    "source": "<b>Polonius:</b> <indent=16%>Perhaps if we catch him and my daughter together, I can finally show my theories are justified!</indent>\n<b>Polonius:</b> <indent=16%>Hmmm. Yes.</indent>\n<b>Hamlet:</b> <indent=16%>To be or not to be...</indent>\n<b>Hamlet:</b> <indent=16%>That is the question.</indent>\n<b>Hamlet:</b> <indent=16%>Whether it's nobler to try and suffer through the pain...",
+    "target": "<b>波洛涅斯:</b> <indent=16%>也许只要撞见他和我女儿在一起，我就终于能证明我的推断有道理了！</indent>\n<b>波洛涅斯:</b> <indent=16%>唔。没错。</indent>\n<b>哈姆雷特:</b> <indent=16%>生存，还是毁灭……</indent>\n<b>哈姆雷特:</b> <indent=16%>这是一个值得考虑的问题。</indent>\n<b>哈姆雷特:</b> <indent=16%>究竟是强忍痛苦、勉力支撑更为高贵……",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1480
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01398-278e713c8a99-leaf",
+    "source": "That is the question.",
+    "target": "这是一个值得考虑的问题。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1481
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01398-278e713c8a99-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>That is the question.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>这是一个值得考虑的问题。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1481
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01398-278e713c8a99-context",
+    "source": "<b>Polonius:</b> <indent=16%>Hmmm. Yes.</indent>\n<b>Hamlet:</b> <indent=16%>To be or not to be...</indent>\n<b>Hamlet:</b> <indent=16%>That is the question.</indent>\n<b>Hamlet:</b> <indent=16%>Whether it's nobler to try and suffer through the pain...</indent>\n<b>Hamlet:</b> <indent=16%>Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.",
+    "target": "<b>波洛涅斯:</b> <indent=16%>唔。没错。</indent>\n<b>哈姆雷特:</b> <indent=16%>生存，还是毁灭……</indent>\n<b>哈姆雷特:</b> <indent=16%>这是一个值得考虑的问题。</indent>\n<b>哈姆雷特:</b> <indent=16%>究竟是强忍痛苦、勉力支撑更为高贵……</indent>\n<b>哈姆雷特:</b> <indent=16%>还是抛却这一切，早些投入那终将到来的死亡的怀抱？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1481
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01399-44b99c899e19-leaf",
+    "source": "Whether it's nobler to try and suffer through the pain...",
+    "target": "究竟是强忍痛苦、勉力支撑更为高贵……",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1484
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01399-44b99c899e19-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>Whether it's nobler to try and suffer through the pain...",
+    "target": "<b>哈姆雷特:</b> <indent=16%>究竟是强忍痛苦、勉力支撑更为高贵……",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1484
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01399-44b99c899e19-context",
+    "source": "<b>Hamlet:</b> <indent=16%>To be or not to be...</indent>\n<b>Hamlet:</b> <indent=16%>That is the question.</indent>\n<b>Hamlet:</b> <indent=16%>Whether it's nobler to try and suffer through the pain...</indent>\n<b>Hamlet:</b> <indent=16%>Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.</indent>\n<b>Hamlet:</b> <indent=16%>To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>生存，还是毁灭……</indent>\n<b>哈姆雷特:</b> <indent=16%>这是一个值得考虑的问题。</indent>\n<b>哈姆雷特:</b> <indent=16%>究竟是强忍痛苦、勉力支撑更为高贵……</indent>\n<b>哈姆雷特:</b> <indent=16%>还是抛却这一切，早些投入那终将到来的死亡的怀抱？</indent>\n<b>哈姆雷特:</b> <indent=16%>死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1484
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01400-5af5343a778d-leaf",
+    "source": "Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.",
+    "target": "还是抛却这一切，早些投入那终将到来的死亡的怀抱？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1486
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01400-5af5343a778d-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>还是抛却这一切，早些投入那终将到来的死亡的怀抱？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1486
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01400-5af5343a778d-context",
+    "source": "<b>Hamlet:</b> <indent=16%>That is the question.</indent>\n<b>Hamlet:</b> <indent=16%>Whether it's nobler to try and suffer through the pain...</indent>\n<b>Hamlet:</b> <indent=16%>Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.</indent>\n<b>Hamlet:</b> <indent=16%>To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.</indent>\n<b>Hamlet:</b> <indent=16%>I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?",
+    "target": "<b>哈姆雷特:</b> <indent=16%>这是一个值得考虑的问题。</indent>\n<b>哈姆雷特:</b> <indent=16%>究竟是强忍痛苦、勉力支撑更为高贵……</indent>\n<b>哈姆雷特:</b> <indent=16%>还是抛却这一切，早些投入那终将到来的死亡的怀抱？</indent>\n<b>哈姆雷特:</b> <indent=16%>死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。</indent>\n<b>哈姆雷特:</b> <indent=16%>但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1486
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01401-bac2254636db-leaf",
     "source": "To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.",
-    "target": "死去——不过是睡去，如此而已。而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。",
+    "target": "死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。",
     "origins": [
       {
         "asset": "scenes",
@@ -13,9 +169,9 @@
     ]
   },
   {
-    "id": "hamlet-soliloquy-speaker",
+    "id": "hamlet-p01401-bac2254636db-speaker",
     "source": "<b>Hamlet:</b> <indent=16%>To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.",
-    "target": "<b>哈姆雷特:</b> <indent=16%>死去——不过是睡去，如此而已。而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。",
+    "target": "<b>哈姆雷特:</b> <indent=16%>死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。",
     "origins": [
       {
         "asset": "scenes",
@@ -26,15 +182,142 @@
     ]
   },
   {
-    "id": "hamlet-soliloquy-context",
+    "id": "hamlet-p01401-bac2254636db-context",
     "source": "<b>Hamlet:</b> <indent=16%>Whether it's nobler to try and suffer through the pain...</indent>\n<b>Hamlet:</b> <indent=16%>Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.</indent>\n<b>Hamlet:</b> <indent=16%>To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.</indent>\n<b>Hamlet:</b> <indent=16%>I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?</indent>\n<b>Hamlet:</b> <indent=16%>What do you think... <i>Ophelia</i>?",
-    "target": "<b>哈姆雷特:</b> <indent=16%>究竟是努力熬过痛苦更为高尚……</indent>\n<b>哈姆雷特:</b> <indent=16%>还是背弃这一切，早一些迎接那终将到来的死亡之拥。</indent>\n<b>哈姆雷特:</b> <indent=16%>死去——不过是睡去，如此而已。而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。</indent>\n<b>哈姆雷特:</b> <indent=16%>真希望我能做到。就这样死去——睡去，睡去，也许做个梦……就这么结束。谁知道死后我会梦见什么？</indent>\n<b>哈姆雷特:</b> <indent=16%>你觉得呢……<i>奥菲莉娅</i>？",
+    "target": "<b>哈姆雷特:</b> <indent=16%>究竟是强忍痛苦、勉力支撑更为高贵……</indent>\n<b>哈姆雷特:</b> <indent=16%>还是抛却这一切，早些投入那终将到来的死亡的怀抱？</indent>\n<b>哈姆雷特:</b> <indent=16%>死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。</indent>\n<b>哈姆雷特:</b> <indent=16%>但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？</indent>\n<b>哈姆雷特:</b> <indent=16%>你觉得呢……<i>奥菲莉娅</i>？",
     "origins": [
       {
         "asset": "scenes",
         "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
         "scene": "Spine_ToBeOrNotToBe",
         "line": 1489
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01402-938308c47843-leaf",
+    "source": "I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?",
+    "target": "但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1491
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01402-938308c47843-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?",
+    "target": "<b>哈姆雷特:</b> <indent=16%>但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1491
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01402-938308c47843-context",
+    "source": "<b>Hamlet:</b> <indent=16%>Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.</indent>\n<b>Hamlet:</b> <indent=16%>To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.</indent>\n<b>Hamlet:</b> <indent=16%>I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?</indent>\n<b>Hamlet:</b> <indent=16%>What do you think... <i>Ophelia</i>?</indent>\n<b>Ophelia:</b> <indent=16%>All this fortune coming your way, and <i>still</i> you wax philosophical?",
+    "target": "<b>哈姆雷特:</b> <indent=16%>还是抛却这一切，早些投入那终将到来的死亡的怀抱？</indent>\n<b>哈姆雷特:</b> <indent=16%>死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。</indent>\n<b>哈姆雷特:</b> <indent=16%>但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？</indent>\n<b>哈姆雷特:</b> <indent=16%>你觉得呢……<i>奥菲莉娅</i>？</indent>\n<b>奥菲莉娅:</b> <indent=16%>这么多好事都落到你头上了，你<i>还</i>在谈哲学？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1491
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01403-07f57b1f3827-leaf",
+    "source": "What do you think... <i>Ophelia</i>?",
+    "target": "你觉得呢……<i>奥菲莉娅</i>？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1494
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01403-07f57b1f3827-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>What do you think... <i>Ophelia</i>?",
+    "target": "<b>哈姆雷特:</b> <indent=16%>你觉得呢……<i>奥菲莉娅</i>？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1494
+      }
+    ]
+  },
+  {
+    "id": "hamlet-p01403-07f57b1f3827-context",
+    "source": "<b>Hamlet:</b> <indent=16%>To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.</indent>\n<b>Hamlet:</b> <indent=16%>I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?</indent>\n<b>Hamlet:</b> <indent=16%>What do you think... <i>Ophelia</i>?</indent>\n<b>Ophelia:</b> <indent=16%>All this fortune coming your way, and <i>still</i> you wax philosophical?</indent>\n<b>Hamlet:</b> <indent=16%>It's not in my nature to be pleased with things like this. You know that.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。</indent>\n<b>哈姆雷特:</b> <indent=16%>但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？</indent>\n<b>哈姆雷特:</b> <indent=16%>你觉得呢……<i>奥菲莉娅</i>？</indent>\n<b>奥菲莉娅:</b> <indent=16%>这么多好事都落到你头上了，你<i>还</i>在谈哲学？</indent>\n<b>哈姆雷特:</b> <indent=16%>我天生就不会为这种事高兴。你知道的。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1494
+      }
+    ]
+  },
+  {
+    "id": "hamlet-soliloquy-complete",
+    "source": "<b>Hamlet:</b> <indent=16%>To be or not to be...\nThat is the question.\nWhether it's nobler to try and suffer through the pain...\nOr turn our backs to all of it and welcome the inevitable embrace of death a little earlier.\nTo die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.\nI wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?\nWhat do you think... <i>Ophelia</i>?",
+    "target": "<b>哈姆雷特:</b> <indent=16%>生存，还是毁灭……\n这是一个值得考虑的问题。\n究竟是强忍痛苦、勉力支撑更为高贵……\n还是抛却这一切，早些投入那终将到来的死亡的怀抱？\n死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。\n但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？\n你觉得呢……<i>奥菲莉娅</i>？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1480
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1481
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1484
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1486
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1489
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1491
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_ToBeOrNotToBe",
+        "line": 1494
       }
     ]
   }

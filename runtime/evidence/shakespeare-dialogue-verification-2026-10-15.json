@@ -1,0 +1,566 @@
+{
+  "date": "2026-10-15",
+  "status": "candidate_verified",
+  "passed": true,
+  "installed": false,
+  "plugin_version": "1.5.4",
+  "font_bundle_sha256": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+  "plugin_sha256": "73b1175df24832094f9a0e9be17545de376e81923a4039dd748e65fe9a49b00c",
+  "dynamic_dictionary_sha256": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+  "dictionary_count": 17041,
+  "dynamic_rules": 155,
+  "dictionary_sha256": "1c125de6082b7a9c0ba769aa1b50306969dea8bc5c06cbf05e713fbab92fddfd",
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "73b1175df24832094f9a0e9be17545de376e81923a4039dd748e65fe9a49b00c",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "57f1e6461e27abe1bea68c0efd925f17b77858f7a97b5c94f2700df769ba1db6",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "1c125de6082b7a9c0ba769aa1b50306969dea8bc5c06cbf05e713fbab92fddfd",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+    "README.md": "0270cc6670a01ad5cb0b21bf6ab7655333920fa3fc0197fea588068fde74d7ec",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933"
+  },
+  "candidate_zip_sha256": "8fddd73efa1598167750a91d500c5a7aa0f1ebd58d6b1e45101c314b3d582eb3",
+  "zip_matches_package": true,
+  "previous_candidate_verification": "runtime/evidence/hamlet-soliloquy-verification-2026-10-15.json",
+  "changed_translation_rows": [
+    {
+      "id": "p01398-278e713c8a99",
+      "source": "That is the question.",
+      "previous_target": "这是个问题。",
+      "target": "这是一个值得考虑的问题。"
+    },
+    {
+      "id": "p01399-44b99c899e19",
+      "source": "Whether it's nobler to try and suffer through the pain...",
+      "previous_target": "究竟是努力熬过痛苦更为高尚……",
+      "target": "究竟是强忍痛苦、勉力支撑更为高贵……"
+    },
+    {
+      "id": "p01400-5af5343a778d",
+      "source": "Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.",
+      "previous_target": "还是背弃这一切，早一些迎接那终将到来的死亡之拥。",
+      "target": "还是抛却这一切，早些投入那终将到来的死亡的怀抱？"
+    },
+    {
+      "id": "p01401-bac2254636db",
+      "source": "To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.",
+      "previous_target": "死去——不过是睡去，如此而已。而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。",
+      "target": "死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。"
+    },
+    {
+      "id": "p01402-938308c47843",
+      "source": "I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?",
+      "previous_target": "真希望我能做到。就这样死去——睡去，睡去，也许做个梦……就这么结束。谁知道死后我会梦见什么？",
+      "target": "但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？"
+    },
+    {
+      "id": "p04895-16b2765c8599",
+      "source": "I learned a new language of hatred in order to know my own feelings for you.",
+      "previous_target": "为了弄明白我对你的感受，我学会了一种全新的仇恨语言。",
+      "target": "我学会了“憎恨”这门新语言，才读懂自己对你的感情。"
+    },
+    {
+      "id": "p05384-9448400f6ab9",
+      "source": "<i>So do I.</i> What have I done wrong to find women like the two of you attractive?",
+      "previous_target": "<i>我也一样。</i>觉得像你们这样的女人有魅力，我做错了什么？",
+      "target": "<i>我也一样。</i>觉得像你们俩这样的女人有魅力，我做错了什么？"
+    },
+    {
+      "id": "p05389-a41d610348f3",
+      "source": "Women like 'her.' The lily-faced, fair-haired sort who loudly protest every whim. And Danish women who look like her are <i>all</i> that way.",
+      "previous_target": "像“她”那样的女人。脸色白皙、头发浅淡，一点心思不顺就大声抗议的那种。长得像她的丹麦女人<i>全都</i>这样。",
+      "target": "像“她”那样的女人。皮肤白皙、头发浅色，随便提个念头就要大声反对的那种。长得像她的丹麦女人<i>全都</i>这样。"
+    },
+    {
+      "id": "p05390-f4645159eb19",
+      "source": "Merely being near women like that is exhausting. I far prefer the company of women of your nature. You know. <i>real</i> women.",
+      "previous_target": "光是待在那种女人身边就很累。我更喜欢和你们这种性情的女人相处。你们懂的。<i>真正的</i>女人。",
+      "target": "光是待在那种女人身边就够累的。我更喜欢和你们这样的女人相处。你们懂的，<i>真正的</i>女人。"
+    },
+    {
+      "id": "p05391-6df9700c78c0",
+      "source": "And so--you feel that 'all women' like myself and Lady Guildenstern are somehow—different?",
+      "previous_target": "所以——你觉得像我和吉尔登斯吞女士这样的“所有女人”，都在某种程度上——与众不同？",
+      "target": "所以——你觉得，像我和吉尔登斯吞女士这样的女人，“全都”跟她们——不一样？"
+    },
+    {
+      "id": "p05392-60062c417e4f",
+      "source": "Of course. Isn't that clear? You sort are far kindlier, with greater cheer and a captivating graciousness.",
+      "previous_target": "当然。这还不明显吗？你们这类女人要和善得多，更开朗，还有一种迷人的温柔体贴。",
+      "target": "当然。这还不明显吗？你们这类女人要和善得多，更开朗，还那么温和有礼，令人着迷。"
+    },
+    {
+      "id": "p05393-7bf7721fe7d0",
+      "source": "Graciousness? Is that what you call it?",
+      "previous_target": "温柔体贴？你是这么称呼它的？",
+      "target": "温和有礼？你是这么称呼的？"
+    },
+    {
+      "id": "p05394-4a4c780cc262",
+      "source": "At Wittenberg, women who looked like Ophelia and me were <i>afraid</i> to refuse you. You're a Prince.",
+      "previous_target": "在维滕贝格，长得像奥菲莉娅和我这样的女人，<i>害怕</i>拒绝你。你是王子。",
+      "target": "在维滕贝格，长得像奥菲莉娅和我这样的女人，<i>不敢</i>拒绝你。你是王子。"
+    },
+    {
+      "id": "p05395-e91ec703d462",
+      "source": "And if one of us was to spurn your advances, and you were to become angry for it? Well, then.",
+      "previous_target": "如果我们中有人拒绝了你的追求，而你因此恼羞成怒呢？那可就……",
+      "target": "如果我们中有人拒绝你的追求，而你又为此动怒呢？那可就……"
+    },
+    {
+      "id": "p05398-60df77082ce8",
+      "source": "Do not mistake fear for graciousness, Hamlet. Or you're more the fool than I ever thought.",
+      "previous_target": "别把恐惧当成温柔体贴，哈姆雷特。否则，你就比我想过的还要愚蠢。",
+      "target": "别把恐惧当成温和有礼，哈姆雷特。不然，你就比我想的还要蠢。"
+    },
+    {
+      "id": "p05399-310ea68d3af2",
+      "source": "We may be landed, styled women, but we are not equal to you. Not in this world. Not in Denmark.",
+      "previous_target": "我们也许有土地、有头衔，但我们的地位并不与你平等。在这个世界不是，在丹麦也不是。",
+      "target": "我们虽有土地、有头衔，却不能与你平起平坐。在这个世界如此，在丹麦也如此。"
+    },
+    {
+      "id": "p05400-7d4fdbccd434",
+      "source": "And you used that against us to find your next match.",
+      "previous_target": "而你利用这一点对付我们，寻找你的下一个伴侣。",
+      "target": "而你就利用我们的弱势，物色你的下一个伴侣。"
+    },
+    {
+      "id": "p05441-6889e3eb71db",
+      "source": "Tell you wot. If you won't come to O'Malley's vessel, we'll take over <i>yer</i> beaten old ship for ourselves.",
+      "previous_target": "这样吧。你不肯上奥马利的船，那我们就把<i>你们</i>这条破旧的船占为己有。",
+      "target": "这样吧。你不肯上我奥马利的船，那我们就把<i>你们</i>这条破旧的船据为己有。"
+    },
+    {
+      "id": "p05445-f8fdc8f5d77d",
+      "source": "Name's Grace O'Malley, though you can call me 'evil salty bitch' if it makes yeh feel any better.",
+      "previous_target": "我叫格蕾丝·奥马利，不过要是能让你们心里舒服些，叫我“海上恶婆娘”也行。",
+      "target": "我叫格蕾丝·奥马利。不过，你们要是觉得解气，叫我“恶毒的臭婊子”也行。"
+    },
+    {
+      "id": "a00521-147a66cd7f6c",
+      "source": "And so—you feel that 'all women' like myself and Lady Guildenstern are somehow—different?",
+      "previous_target": "所以——你觉得，像我和吉尔登斯吞女士这样的“所有女人”，都在某种程度上——不一样？",
+      "target": "所以——你觉得，像我和吉尔登斯吞女士这样的女人，“全都”跟她们——不一样？"
+    }
+  ],
+  "changed_translation_row_count": 20,
+  "corrections": [
+    {
+      "id": "p01398-278e713c8a99",
+      "source": "That is the question.",
+      "source_sha256": "278e713c8a99daedd710efeb822670d88cf64ae5c179c9653a7a40ce801d5208",
+      "original_target": "这是个问题。",
+      "corrected_target": "这是一个值得考虑的问题。",
+      "kind": "text",
+      "reason": "参考朱生豪译本的经典开头，恢复郑重自问的完整语气。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0016.json:p01398-278e713c8a99",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Spine_ToBeOrNotToBe:1481",
+        "https://wenhui.whb.cn/third/jinri/202011/27/381815.html",
+        "https://www.aisixiang.com/data/163380.html",
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3-1/"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p01399-44b99c899e19",
+      "source": "Whether it's nobler to try and suffer through the pain...",
+      "source_sha256": "44b99c899e19123d1df3c09867f0f277ea562d3b8c8455cef7da64edc0f46cbc",
+      "original_target": "究竟是努力熬过痛苦更为高尚……",
+      "corrected_target": "究竟是强忍痛苦、勉力支撑更为高贵……",
+      "kind": "text",
+      "reason": "参考中译本的独白节奏，保留游戏改写中的忍受痛苦与努力支撑，不补入原著已被游戏删去的毒箭或反抗意象。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0016.json:p01399-44b99c899e19",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Spine_ToBeOrNotToBe:1484",
+        "https://wenhui.whb.cn/third/jinri/202011/27/381815.html",
+        "https://www.aisixiang.com/data/163380.html",
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3-1/"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p01400-5af5343a778d",
+      "source": "Or turn our backs to all of it and welcome the inevitable embrace of death a little earlier.",
+      "source_sha256": "5af5343a778dbc7cde1acdebe2c034a4445cb55535dd65287545cb617057beff",
+      "original_target": "还是背弃这一切，早一些迎接那终将到来的死亡之拥。",
+      "corrected_target": "还是抛却这一切，早些投入那终将到来的死亡的怀抱？",
+      "kind": "text",
+      "reason": "承接Whether形成生死两难的问句；turn our backs不附加背叛的道德判断，保留游戏改写的提前迎接死亡，而非套用原著拿起武器反抗的内容。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0016.json:p01400-5af5343a778d",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Spine_ToBeOrNotToBe:1486",
+        "https://wenhui.whb.cn/third/jinri/202011/27/381815.html",
+        "https://www.aisixiang.com/data/163380.html",
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3-1/"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p01401-bac2254636db",
+      "source": "To die—to sleep no more—And by sleeping, I mean to end the heartache, the thousand little pains I have to bear.",
+      "source_sha256": "bac2254636dbb3d1c57d47cd8761daf46359003d71268ae62e27d6812b47f515",
+      "original_target": "死去——不再入睡——而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。",
+      "corrected_target": "死去——便是睡去，不过如此。我说的睡眠，是让心头的创痛，以及我必须承受的千般细碎苦楚，就此终结。",
+      "kind": "text",
+      "reason": "沿用no more意为不过如此的断句，参照经典译本的停顿与创痛意象润色；保留游戏的第一人称、必须承受及little pains，不增加原著已被改写的肉体打击。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0016.json:p01401-bac2254636db",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Spine_ToBeOrNotToBe:1489",
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3-1/",
+        "用户实际游玩截图及校订要求，2026-10-15",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "https://wenhui.whb.cn/third/jinri/202011/27/381815.html",
+        "https://www.aisixiang.com/data/163380.html"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0,
+      "revision_history": [
+        {
+          "previous_corrected_target": "死去——不过是睡去，如此而已。而我说的睡眠，是让心痛终结，让我必须承受的千般细碎痛楚终结。",
+          "previous_reason": "结合原著第三幕第一场的To die, to sleep—No more及游戏后文的死亡如睡眠含义，将no more按如此而已断句，不误译为不再入睡；保留游戏现代改写的其余措辞，不整段套用其他中文译本。",
+          "reason": "沿用no more意为不过如此的断句，参照经典译本的停顿与创痛意象润色；保留游戏的第一人称、必须承受及little pains，不增加原著已被改写的肉体打击。",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "p01402-938308c47843",
+      "source": "I wish I could. Just die—sleep, sleep, and maybe dream... that would be it. Who knows what I might dream of in death?",
+      "source_sha256": "938308c478439bdd1e9f2d4cc530bbfe7065d81aa1899cd5e486bf03a5f8551f",
+      "original_target": "真希望我能做到。就这样死去——睡去，睡去，也许做个梦……就这么结束。谁知道死后我会梦见什么？",
+      "corrected_target": "但愿我能如此。死去——睡去；睡去，也许还会做梦……那便一切了结了。可谁知道，死后我会梦见什么？",
+      "kind": "text",
+      "reason": "以短句和重复再现死、睡、梦的独白节奏，保留游戏的愿望、也许及对死后梦境的疑问，不补回游戏未出现的整段原著。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0017.json:p01402-938308c47843",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:Spine_ToBeOrNotToBe:1491",
+        "https://wenhui.whb.cn/third/jinri/202011/27/381815.html",
+        "https://www.aisixiang.com/data/163380.html",
+        "https://www.folger.edu/explore/shakespeares-works/hamlet/read/3-1/"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p04895-16b2765c8599",
+      "source": "I learned a new language of hatred in order to know my own feelings for you.",
+      "source_sha256": "16b2765c859983669295cc68be0e41fb446bff6ac1b7af0920731adca5d5ba8b",
+      "original_target": "为了弄明白我对你的感受，我学会了一种全新的仇恨语言。",
+      "corrected_target": "我学会了“憎恨”这门新语言，才读懂自己对你的感情。",
+      "kind": "text",
+      "reason": "按用户确认保留语言作为理解自身憎恨的比喻，避免仇恨语言被读成辱骂或现实中的仇恨言论；know my own feelings仍译为读懂自身感情。以引号明确憎恨是这门语言的比喻名称，避免误读成学会憎恨某门语言。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0037.json:p04895-16b2765c8599",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:BOYS_Meeting4:12769",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:BOYS_Meeting4:12777"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05384-9448400f6ab9",
+      "source": "<i>So do I.</i> What have I done wrong to find women like the two of you attractive?",
+      "source_sha256": "9448400f6ab9440e8d9864d92d45da99c8bffd114ba4cc80ee45d7a095f8a587",
+      "original_target": "<i>我也一样。</i>觉得像你们这样的女人有魅力，我做错了什么？",
+      "corrected_target": "<i>我也一样。</i>觉得像你们俩这样的女人有魅力，我做错了什么？",
+      "kind": "text",
+      "reason": "the two of you明确指面前两位谈话者，补足俩而不将此处正确的复数you改成单数。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05384-9448400f6ab9",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14196"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05389-a41d610348f3",
+      "source": "Women like 'her.' The lily-faced, fair-haired sort who loudly protest every whim. And Danish women who look like her are <i>all</i> that way.",
+      "source_sha256": "a41d610348f3989818a3d6b9b1c25bf706449c0cc02090f4b8512ed0608f5db7",
+      "original_target": "像“她”那样的女人。脸色白皙、头发浅淡，一点心思不顺就大声抗议的那种。长得像她的丹麦女人<i>全都</i>这样。",
+      "corrected_target": "像“她”那样的女人。皮肤白皙、头发浅色，随便提个念头就要大声反对的那种。长得像她的丹麦女人<i>全都</i>这样。",
+      "kind": "text",
+      "reason": "fair-haired自然译为头发浅色；结合下文拒绝追求的语境，protest every whim是反对随性的念头，旧译一点心思不顺补出了女人自身意愿不被满足的动机。新译不额外指定念头的所有者，保留原文的群体概括与all斜体。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05389-a41d610348f3",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14209"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05390-f4645159eb19",
+      "source": "Merely being near women like that is exhausting. I far prefer the company of women of your nature. You know. <i>real</i> women.",
+      "source_sha256": "f4645159eb19bdc3eca58250907281b4f90063550d80327147d013be6e93c145",
+      "original_target": "光是待在那种女人身边就很累。我更喜欢和你们这种性情的女人相处。你们懂的。<i>真正的</i>女人。",
+      "corrected_target": "光是待在那种女人身边就够累的。我更喜欢和你们这样的女人相处。你们懂的，<i>真正的</i>女人。",
+      "kind": "text",
+      "reason": "women of your nature承接外貌出身与类型概括，不提前将其窄化为性情；保留哈姆雷特本人使用的真正的女人及斜体，不能替人物删去其偏见。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05390-f4645159eb19",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14210"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05391-6df9700c78c0",
+      "source": "And so--you feel that 'all women' like myself and Lady Guildenstern are somehow—different?",
+      "source_sha256": "6df9700c78c0b8d1c6658c8a6a2f7407266587ff5f0189c1b3d0d286233f28f7",
+      "original_target": "所以——你觉得像我和吉尔登斯吞女士这样的“所有女人”，都在某种程度上——与众不同？",
+      "corrected_target": "所以——你觉得，像我和吉尔登斯吞女士这样的女人，“全都”跟她们——不一样？",
+      "kind": "text",
+      "reason": "承接前句浅发白皙女人与我们这样的女人的比较，明确different的比较对象；somehow不是程度刻度，去掉某种程度上，以停顿保留质问；保留all的反讽引用，不译成带赞许色彩的与众不同。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05391-6df9700c78c0",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14212"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05392-60062c417e4f",
+      "source": "Of course. Isn't that clear? You sort are far kindlier, with greater cheer and a captivating graciousness.",
+      "source_sha256": "60062c417e4f68e70acd50d30205b062041d8340f8b120970f51cbd392bfa522",
+      "original_target": "当然。这还不明显吗？你们这类女人要和善得多，更开朗，还有一种迷人的温柔体贴。",
+      "corrected_target": "当然。这还不明显吗？你们这类女人要和善得多，更开朗，还那么温和有礼，令人着迷。",
+      "kind": "text",
+      "reason": "graciousness在随后被指出实际源于畏惧拒绝王子的语境中指待人温和有礼，避免温柔体贴偏向主动的亲密关怀；kindlier与cheer仍分别保留和善及开朗。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05392-60062c417e4f",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14214"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05393-7bf7721fe7d0",
+      "source": "Graciousness? Is that what you call it?",
+      "source_sha256": "7bf7721fe7d0c51e17c08aebd8638f51ac1234b89f4caf0bed3c261b6f2fc206",
+      "original_target": "温柔体贴？你是这么称呼它的？",
+      "corrected_target": "温和有礼？你是这么称呼的？",
+      "kind": "text",
+      "reason": "逐字承接上一句graciousness的校订，保留对其错误命名的反问。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05393-7bf7721fe7d0",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14217"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05394-4a4c780cc262",
+      "source": "At Wittenberg, women who looked like Ophelia and me were <i>afraid</i> to refuse you. You're a Prince.",
+      "source_sha256": "4a4c780cc26255f3213261b18675d9b87d87348e5031ab646f1026c562ae86c7",
+      "original_target": "在维滕贝格，长得像奥菲莉娅和我这样的女人，<i>害怕</i>拒绝你。你是王子。",
+      "corrected_target": "在维滕贝格，长得像奥菲莉娅和我这样的女人，<i>不敢</i>拒绝你。你是王子。",
+      "kind": "text",
+      "reason": "afraid to refuse在权力差距的语境下用不敢拒绝自然表达，保留原有斜体强调。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05394-4a4c780cc262",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14219"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05395-e91ec703d462",
+      "source": "And if one of us was to spurn your advances, and you were to become angry for it? Well, then.",
+      "source_sha256": "e91ec703d462513bb3a0ed12bb6e19d4bdf8e7670a29b4e957b93962b310159a",
+      "original_target": "如果我们中有人拒绝了你的追求，而你因此恼羞成怒呢？那可就……",
+      "corrected_target": "如果我们中有人拒绝你的追求，而你又为此动怒呢？那可就……",
+      "kind": "text",
+      "reason": "原文仅说因拒绝而生气，恼羞成怒擅加羞耻动机；保留两重假设及未说完的后果。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05395-e91ec703d462",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14220"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05398-60df77082ce8",
+      "source": "Do not mistake fear for graciousness, Hamlet. Or you're more the fool than I ever thought.",
+      "source_sha256": "60df77082ce844150ed567ff4c5203732165ecbfbb0da33e8a975ecd6f3a8dee",
+      "original_target": "别把恐惧当成温柔体贴，哈姆雷特。否则，你就比我想过的还要愚蠢。",
+      "corrected_target": "别把恐惧当成温和有礼，哈姆雷特。不然，你就比我想的还要蠢。",
+      "kind": "text",
+      "reason": "与前两处graciousness保持术语回指，恢复fear与表面礼貌的对照，并修正比我想过的生硬句式。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05398-60df77082ce8",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14226"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05399-310ea68d3af2",
+      "source": "We may be landed, styled women, but we are not equal to you. Not in this world. Not in Denmark.",
+      "source_sha256": "310ea68d3af2beaad3009e60e7ccf2fe89c657f5b5c6de6e8a05d98319c58737",
+      "original_target": "我们也许有土地、有头衔，但我们的地位并不与你平等。在这个世界不是，在丹麦也不是。",
+      "corrected_target": "我们虽有土地、有头衔，却不能与你平起平坐。在这个世界如此，在丹麦也如此。",
+      "kind": "text",
+      "reason": "may be...but是让步而非不确定是否拥有土地头衔，改为虽有；后两句的如此承接不能平起平坐，保留现实与丹麦两重否定判断。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05399-310ea68d3af2",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14228"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05400-7d4fdbccd434",
+      "source": "And you used that against us to find your next match.",
+      "source_sha256": "7d4fdbccd43490a41a524b26bd8f28714a5f2a858dbf5f6baa503cf47c78207d",
+      "original_target": "而你利用这一点对付我们，寻找你的下一个伴侣。",
+      "corrected_target": "而你就利用我们的弱势，物色你的下一个伴侣。",
+      "kind": "text",
+      "reason": "that回指刚说明的不平等地位，明确利用我们的弱势，避免对付我们使恋爱中的权力差距被误读成泛指敌对行为；保留寻找下一位伴侣。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0040.json:p05400-7d4fdbccd434",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GuildAndHamlet:14229"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05441-6889e3eb71db",
+      "source": "Tell you wot. If you won't come to O'Malley's vessel, we'll take over <i>yer</i> beaten old ship for ourselves.",
+      "source_sha256": "6889e3eb71dbddb4d39a3deef12eac9635847193417bc6d59c16f16dfc14ef4d",
+      "original_target": "这样吧。你不肯上奥马利的船，那我们就把<i>你们</i>这条破旧的船占为己有。",
+      "corrected_target": "这样吧。你不肯上我奥马利的船，那我们就把<i>你们</i>这条破旧的船据为己有。",
+      "kind": "text",
+      "reason": "O'Malley是说话人格蕾丝的姓，同场14379行自报Grace O'Malley；Finnegan另指水手。译名不变，用我奥马利明确姓氏自称，避免误以为指另一位船长；保留yer的原有斜体及破旧的船。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0041.json:p05441-6889e3eb71db",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GraceAttack:14368",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GraceAttack:14379",
+        "用户实际游玩截图与姓名核查要求，2026-10-15"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    },
+    {
+      "id": "p05445-f8fdc8f5d77d",
+      "source": "Name's Grace O'Malley, though you can call me 'evil salty bitch' if it makes yeh feel any better.",
+      "source_sha256": "f8fdc8f5d77d1e56b9e24899df9a8815151a51fe4bdcc184809ad5190202643c",
+      "original_target": "我叫格蕾丝·奥马利，不过要是能让你们心里舒服些，叫我“海上恶婆娘”也行。",
+      "corrected_target": "我叫格蕾丝·奥马利。不过，你们要是觉得解气，叫我“恶毒的臭婊子”也行。",
+      "kind": "text",
+      "reason": "用户指出海上恶婊生硬；此处call me...if it makes you feel any better是允许对方用骂法解气，而非报正式称号。结合salty可指粗俗的词义与海盗口吻，将evil salty bitch按自然中文骂法处理为恶毒的臭婊子，保留evil的恶毒、bitch的粗口与整句自嘲挑衅，不机械拼接海上。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0041.json:p05445-f8fdc8f5d77d",
+        "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:PIRATE_GraceAttack:14379",
+        "用户实际游玩截图与粗口力度校订要求，2026-10-15",
+        "https://dictionary.cambridge.org/dictionary/english/salty",
+        "用户反馈中文称呼生硬，2026-10-15"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0,
+      "revision_history": [
+        {
+          "previous_corrected_target": "我叫格蕾丝·奥马利，不过要是能让你们心里舒服些，叫我“海上恶婊”也行。",
+          "previous_reason": "按用户反馈保留bitch的明确辱骂力度，以海上恶婊承接evil salty bitch的恶毒、自嘲与海上身份；旧译恶婆娘明显弱化粗口，不删人物主动使用此称呼的挑衅语气。",
+          "reason": "用户指出海上恶婊生硬；此处call me...if it makes you feel any better是允许对方用骂法解气，而非报正式称号。结合salty可指粗俗的词义与海盗口吻，将evil salty bitch按自然中文骂法处理为恶毒的臭婊子，保留evil的恶毒、bitch的粗口与整句自嘲挑衅，不机械拼接海上。",
+          "date": "2026-10-15"
+        }
+      ]
+    },
+    {
+      "id": "a00521-147a66cd7f6c",
+      "source": "And so—you feel that 'all women' like myself and Lady Guildenstern are somehow—different?",
+      "source_sha256": "147a66cd7f6c94e0353d6055cc77067a6763b84563086b70cbeb83d55de69aad",
+      "original_target": "所以——你觉得，像我和吉尔登斯吞女士这样的“所有女人”，都在某种程度上——不一样？",
+      "corrected_target": "所以——你觉得，像我和吉尔登斯吞女士这样的女人，“全都”跟她们——不一样？",
+      "kind": "text",
+      "reason": "真实编译破折号变体逐字复用p05391-6df9700c78c0的本轮校订；承接前句浅发白皙女人与我们这样的女人的比较，明确different的比较对象；somehow不是程度刻度，去掉某种程度上，以停顿保留质问；保留all的反讽引用，不译成带赞许色彩的与众不同。",
+      "origins": [
+        "translation/sol-full-2026-10-09/inputs/b0107.json:a00521-147a66cd7f6c",
+        "用户实际游玩截图与校订要求，2026-10-15",
+        "真实对白九步破折号编译变体，与正文校订逐字一致"
+      ],
+      "apply_at_export": true,
+      "additional_model_calls": 0
+    }
+  ],
+  "unchanged_row_ids_order_sources_and_other_targets": true,
+  "frozen_inputs_raw_outputs_and_audit_unchanged": true,
+  "character_set_and_dynamic_rules_unchanged": true,
+  "font_plugin_config_and_licenses_unchanged": true,
+  "consumer_suite": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 75,
+    "suites": {
+      "translation/supplemental/hamlet-soliloquy-tests.json": 22,
+      "translation/supplemental/hamlet-social-dialogue-tests.json": 50,
+      "translation/supplemental/lute-timeline-tests.json": 3
+    },
+    "fixture_sha256": {
+      "translation/supplemental/hamlet-soliloquy-tests.json": "c10a9fa6192825aa9547f032ac37419f1bb37e4c3c7f9860359b4fa97f1887e2",
+      "translation/supplemental/hamlet-social-dialogue-tests.json": "723342c61231f2eff2e95228e6cae94c0511e5766d4f5725aaf7eb6c8ffbc7e7",
+      "translation/supplemental/lute-timeline-tests.json": "2ed0fed3b2386c93c8364af137ee809881a98ac44ad1491c56965c55bea7331e"
+    }
+  },
+  "export_tests": 15,
+  "game_process_detected_installation_deferred": true,
+  "main_game_not_launched_or_modified": true,
+  "backup_created": false,
+  "verification_limits": [
+    "真实XUnity词表与递归消费者组件验证，未启动游戏或执行完整剧情E2E",
+    "独白整段与船上争论组合来自真实脚本次序，不代表页面像素验收",
+    "先前鲁特琴简介仍包含于此候选；主游戏当前安装保持旧版本"
+  ]
+}
