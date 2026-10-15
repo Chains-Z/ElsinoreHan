@@ -81,7 +81,7 @@
     "source": "If there's one thing I've learned, it's that unnecessary death always comes t'bite me eventually.",
     "source_sha256": "603a5ec7100a79570cdc8a6205b69f059306716464dfcf906d0abfcd48c9ee88",
     "previous_target": "这些年我至少学会了一件事：不必要的死人，迟早总会给我惹来麻烦。",
-    "target": "这些年我至少学会了一件事：没必要闹出的人命，迟早总会给我惹来麻烦。",
+    "target": "这些年我至少学会了一件事：闹出没必要的人命，迟早总会给我惹来麻烦。",
     "origins": [
       {
         "asset": "scenes",
@@ -89,9 +89,19 @@
         "scene": "GRACE_PostMutinyNoDeath",
         "line": 24879
       },
-      "其他角色方言与口语集中审校，2026-10-10"
+      "其他角色方言与口语集中审校，2026-10-10",
+      "translation/sol-full-2026-10-09/inputs/b0063.json:p08933-603a5ec7100a",
+      "用户实际游玩截图与语序修订建议，2026-10-15"
     ],
-    "reason": "death 是死亡结果，原译不必要的死人把抽象事件变成生硬的人物名词；口语闹出人命对应本场景多余的杀戮，comes to bite 已正确译惹麻烦而保留。",
+    "reason": "按用户指定将没必要闹出的人命调整为闹出没必要的人命，使闹出直接带宾语；保留unnecessary对死亡的不必要性及eventually的迟早语气，不改动其余句意。",
+    "revision_history": [
+      {
+        "previous_target": "这些年我至少学会了一件事：没必要闹出的人命，迟早总会给我惹来麻烦。",
+        "previous_reason": "death 是死亡结果，原译不必要的死人把抽象事件变成生硬的人物名词；口语闹出人命对应本场景多余的杀戮，comes to bite 已正确译惹麻烦而保留。",
+        "reason": "按用户建议调整中文语序",
+        "date": "2026-10-15"
+      }
+    ],
     "evidence": [
       {
         "type": "context",

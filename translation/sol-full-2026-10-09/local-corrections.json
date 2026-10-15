@@ -482,5 +482,21 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p08751-b3c5b792c58b",
+    "source": "Although yer a wee mite smaller than most—we might have to settle for teachin' you to be annoying rather than dangerous.",
+    "source_sha256": "b3c5b792c58bedfe08800a91251516d7fb589731f1889260969c4b307505ea45",
+    "original_target": "不过你比大多数人都娇小些——我们可能只能退而求其次，教你怎么惹人烦，而不是怎么伤人。",
+    "corrected_target": "不过，你比大多数人都娇小些——恐怕得退而求其次，教你给对手添点麻烦，还谈不上让你成为多大的威胁。",
+    "kind": "text",
+    "reason": "真实匕首教学的玩笑以annoying和dangerous对照，指让对手难缠而非社交上的惹人烦；dangerous是构成威胁，不是具体怎么伤人的动作。重组整句并保留娇小、might的推测与settle for的退而求其次，不擅加攻击部位或杀伤程度。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0062.json:p08751-b3c5b792c58b",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:GRACE_SwordLesson:24491",
+      "用户实际游玩截图与整句语境反馈，2026-10-15"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
