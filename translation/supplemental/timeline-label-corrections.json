@@ -41,5 +41,30 @@
       "用户时间线截图及指定保留fruitless含义，2026-10-15"
     ],
     "reason": "保留fruitless所指的无收获状态，以此前说明延续的是先前尚无收获的搜寻；原场景在共同流程找到鲁特琴，无找到/未找到结局分支，不能将整场结果断言为毫无结果，也不能省略fruitless。"
+  },
+  {
+    "id": "timeline-brit-question-b9647fadcdd2d009",
+    "original_id": "ui-b9647fadcdd2d009",
+    "source": "Bernardo begins to question Brit.",
+    "source_sha256": "b9647fadcdd2d0090b882085ac9a4704c338f35b610ffe9e59da12a5724243b1",
+    "previous_target": "贝尔纳多开始询问布莉特。",
+    "target": "贝尔纳多开始盘问布莉特。",
+    "origins": [
+      {
+        "asset": "schedule",
+        "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+        "event": "SC_ASSN_BritInterrigationOne",
+        "field": "description",
+        "line": 3905
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_BritInterrigationOne",
+        "line": 8788
+      },
+      "用户2026-10-18确认：首次question改为盘问，后两次interrogate保留审问"
+    ],
+    "reason": "question在地牢追查间谍证据并以家人施压的语境中为盘问；保留与后续interrogate审问的用词差别，不将首次描述为普通询问"
   }
 ]

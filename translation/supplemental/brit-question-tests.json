@@ -1,0 +1,42 @@
+[
+  {
+    "id": "brit-question-1",
+    "source": "Bernardo begins to question Brit.",
+    "target": "贝尔纳多开始盘问布莉特。",
+    "source_sha256": "b9647fadcdd2d0090b882085ac9a4704c338f35b610ffe9e59da12a5724243b1",
+    "origins": [
+      {
+        "asset": "schedule",
+        "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+        "event": "SC_ASSN_BritInterrigationOne",
+        "field": "description",
+        "line": 3905
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_BritInterrigationOne",
+        "line": 8788
+      },
+      "用户2026-10-18确认：首次question改为盘问，后两次interrogate保留审问"
+    ]
+  },
+  {
+    "id": "brit-question-2",
+    "source": "Bernardo continues to interrogate Brit.",
+    "target": "贝尔纳多继续审问布莉特。",
+    "source_sha256": "cc08ce98495f94baa1c42c88c4ebb95293b5b1a4c0a242648bd1ed57757f4269",
+    "origins": [
+      "resources.assets:schedule:SC_ASSN_BritInterrigationTwo/Three:description；原文interrogate保留审问"
+    ]
+  },
+  {
+    "id": "brit-question-3",
+    "source": "Bernardo interrogates Brit once more.",
+    "target": "贝尔纳多再次审问布莉特。",
+    "source_sha256": "0f4d05f1b4632576137bd6c60c97d368fd8ea1669a8ff8922395f1c2ddfc986a",
+    "origins": [
+      "resources.assets:schedule:SC_ASSN_BritInterrigationTwo/Three:description；原文interrogate保留审问"
+    ]
+  }
+]
