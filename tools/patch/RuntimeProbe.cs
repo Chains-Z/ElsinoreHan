@@ -729,6 +729,18 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             yield return new WaitForSecondsRealtime(0.6f);
             yield return WaitForUiIdle("book:after");
             yield return EndingBookProbe.Capture(JournalCanvas("endingSelectCanvas", "book"), outputDirectory);
+            yield return WaitForUiIdle("confirmation:before");
+            var gameOver = (Component)RequiredField(gui, "gameOverCanvas");
+            var transitions = CurrentTransitions();
+            var activateGameOver = transitions.GetType().GetMethod("ActivateGameOver", InstanceFields);
+            Type endingType = Nullable.GetUnderlyingType(activateGameOver.GetParameters()[0].ParameterType);
+            // 使用真实已解锁的疯人院结局，不解锁其它结局，也不按下选择或重启按钮。
+            object endingId = Activator.CreateInstance(endingType, new object[] { "END_Delusion" });
+            activateGameOver.Invoke(transitions, new object[] { endingId, "I tried. I tried to tell them. But they wouldn't believe me.",
+                RequiredField(gameOver, "nextMode") });
+            yield return new WaitForSecondsRealtime(1.2f);
+            yield return WaitForUiIdle("confirmation:after");
+            yield return EndingBookProbe.CaptureConfirmation(JournalCanvas("gameOverCanvas", "confirmation"), outputDirectory);
         }
         if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BOOK_ONLY") == "1")
         {

@@ -43,7 +43,34 @@ class BookPaperTests(unittest.TestCase):
 
     def test_codec_and_rejection_boundaries(self):
         result = subprocess.run([str(self.executable)], check=True, capture_output=True, text=True)
-        self.assertEqual(json.loads(result.stdout), {"pure_cases": 7, "passed": True})
+        self.assertEqual(json.loads(result.stdout), {"pure_cases": 8, "passed": True})
+
+    def test_game_over_confirmation_uses_its_own_source_and_ink_regions(self):
+        with STREAM.open("rb") as stream:
+            stream.seek(95762528)
+            blocks = stream.read(916 * 1252)
+        self.assertEqual(hashlib.sha256(blocks).hexdigest(),
+                         "4f29559662c2813ad68de49fbe63ecfea23d03d9ce48e9f74fc4b0c2d95c667b")
+        source, output = self.directory / "unlock.dxt5", self.directory / "unlock"
+        source.write_bytes(blocks)
+        result = subprocess.run([str(self.executable), str(source), str(output), "unlock"],
+                                check=True, capture_output=True, text=True)
+        original = np.frombuffer((self.directory / "unlock-source.rgba").read_bytes(), np.uint8).reshape(1252, 916, 4)
+        clean = np.frombuffer((self.directory / "unlock-clean.rgba").read_bytes(), np.uint8).reshape(1252, 916, 4)
+        np.testing.assert_array_equal(original, np.array(Image.frombytes("RGBA", (916, 1252), blocks, "bcn", 3)))
+        indices = [int(v) for v in (self.directory / "unlock-mask.txt").read_text().splitlines()]
+        mask = np.zeros(1252 * 916, dtype=bool)
+        mask[indices] = True
+        changed = np.any(original != clean, axis=2).reshape(-1)
+        self.assertGreater(np.sum(changed), 5000)
+        self.assertFalse(np.any(changed & ~mask))
+        np.testing.assert_array_equal(original[:, :, 3], clean[:, :, 3])
+        for x1, y1, x2, y2 in ((345, 180, 605, 263), (410, 398, 515, 480)):
+            self.assertFalse(np.any(np.max(clean[::-1][y1:y2, x1:x2, :3], axis=2) < 150))
+        # 四条原生分隔线必须逐像素不变。
+        for y in (274, 384, 494, 604):
+            np.testing.assert_array_equal(original[::-1][y-3:y+4], clean[::-1][y-3:y+4])
+        self.assertLess(json.loads(result.stdout)["residual"], 0.0021)
 
     def test_decoder_matches_standard_consumer_exactly(self):
         reference = np.array(Image.frombytes("RGBA", (2048, 1400), self.blocks, "bcn", 3))

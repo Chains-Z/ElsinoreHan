@@ -8,8 +8,8 @@
 | --- | --- |
 | 维护阶段 | 中文初稿已可玩，继续根据实际游玩反馈定向校订，不等待全分支人工审校 |
 | 已安装日志规则 | 已随1.5.7安装157动态规则；补齐真实日志尾段结束缩进/换行封套，45,543资源用例及隔离缓存/F8与真实保存日志通过，见[漏译核查](ambient-log-followup-2026-10-15.md)与[候选证明](../../../runtime/evidence/ambient-log-verification-2026-10-15.json) |
-| 最新书页候选 | 1.5.7经用户截图确认有补块、偏位及翻页悬浮缺陷；1.5.8候选已移除补块，改为内存去字纹理与原生正文层级。11页/F8/悬停层级及三种软件合成预览通过，见[本轮修复](ending-book-paper-followup-2026-10-17.md)与[候选证明](../../../runtime/evidence/ending-book-paper-verification-2026-10-17.json)，尚未安装 |
-| 正式安装 | 插件1.5.7，17,067词条，157动态规则；[最新安装核验](../../../runtime/evidence/ending-book-install-verification-2026-10-16.json)；包含书页标题、日志尾段及此前全部修复，未启动用户游戏 |
+| 已安装书页修复 | 1.5.9已安装：包含1.5.8内存去字/原生层级修复，并补上GameOverUI单页确认入口；11页/F8/悬停回归及13组确认页标题重放通过。见[书页视觉修复](ending-book-paper-followup-2026-10-17.md)、[确认页修复](ending-confirmation-followup-2026-10-17.md)与[候选证明](../../../runtime/evidence/ending-confirmation-verification-2026-10-17.json) |
+| 正式安装 | 插件1.5.9，17,067词条，157动态规则；[最新安装核验](../../../runtime/evidence/ending-confirmation-install-verification-2026-10-17.json)；包含双页/单页书页标题、日志尾段及此前全部修复，未启动用户游戏 |
 | 最新对白校订 | 幽灵“一场更大的游戏”、贝尔纳多“至少，我还有你这个朋友”、奥赛罗“苏丹麾下的一名高级大臣”均已安装；“抓住你的脑袋”按用户决定保留，见[奥赛罗术语核查](othello-term-review-2026-10-11.md) |
 | 本轮对白校订 | 奥赛罗故事“我感觉她把我留在了那里好多年”“说来有些病态，我也想让她吞食我的心”、奥菲莉娅“你……你和她……有过肌肤之亲吗？”均已安装，见[本轮记录](othello-story-followup-2026-10-15.md)与[安装核验](../../../runtime/evidence/othello-story-install-verification-2026-10-15.json) |
 | 已安装时间线校订 | 鲁特琴第三次搜寻改为“贝尔纳多和哈姆雷特此前没有收获的搜寻仍在继续。”，保留fruitless，不断言整场失败；见[分支核查与校订](lute-timeline-followup-2026-10-15.md)，已随1.5.5安装 |
@@ -20,7 +20,7 @@
 | 已安装拇指双关 | 按用户确认，以“他闲着没事，把拇指往屁股里塞，留一根也够用了吧”显化俚语义，保留“一根”斜体；3项真实消费者通过，见[译文与语境](grace-combat-dialogue-followup-2026-10-15.md#拇指玩笑核查)，已随1.5.5安装 |
 | 已安装F8修复 | 插件1.5.5：日志已到底部时中英文切换继续保留底部，手动滚离后沿用段落定位；真实隔离UI集成探针对照通过，见[问题与验证](f8-log-bottom-followup-2026-10-15.md)及[安装核验](../../../runtime/evidence/grace-thumb-install-verification-2026-10-15.json) |
 | 已安装阅读修复 | 插件1.5.6：日志长姓名后正文自动让位，保留姓名/字号与原文字符串；18人物介绍支持F8同段落与底部保持，108次双向切换通过。另将共享Yes, my lord改为“是，大人。”，保留原文明写Your Majesty的“陛下”。见[本轮修复与边界](reading-layout-followup-2026-10-15.md)及[安装核验](../../../runtime/evidence/reading-layout-install-verification-2026-10-15.json) |
-| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 为1.5.8待安装候选，40文件与ZIP逐项一致；相对1.5.7候选仅插件DLL变化，字体、词表、配置与许可不变；仍仅为本机个人构建 |
+| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 为1.5.9已安装本机包，40文件与ZIP逐项一致；相对1.5.8候选仅插件DLL及安装状态说明变化，字体、词表、配置与许可不变；仍仅为本机个人构建 |
 | 备份策略 | 按用户2026-10-15要求停止长期备份；20份旧补丁备份与55份测试存档副本已明确授权删除，释放417,372,433字节。旧安装证据中的备份路径仅为历史记录，已不可用；测试临时存档仍隔离，结束后清理，见[公开上传与清理记录](public-repository-2026-10-15.md) |
 | 安装保护证据 | 原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；正文词表、动态词表及插件更新；配置仅移除UTF-8 BOM且解码文本逐字相同，字库和许可字节不变，未启动主游戏、未创建备份 |
 | 发布状态 | [GitHub源码与译文仓库](https://github.com/Chains-Z/ElsinoreHan)已公开，当前文件与完整历史通过凭证及字体/二进制检查；字体、依赖、游戏、存档和ZIP未上传。可安装补丁包仍仅为本机个人构建，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成，见[公开核验](../../../runtime/evidence/public-repository-verification-2026-10-15.json) |
@@ -47,6 +47,7 @@
 | 最新日志缓存修复、字号核查 | [奥赛罗日志](othello-log-followup-2026-10-12.md)、[候选证明](../../../runtime/evidence/offline-log-cache-verification-2026-10-12.json) |
 | 日志尾段、命运书页标题 | [旁听漏译与入侵时间](ambient-log-followup-2026-10-15.md)、[书页四行及图片印字](ending-book-followup-2026-10-16.md) |
 | 书页纸块、英文残留及卷页层级 | [完整Sprite坐标、内存去字、11页悬停与软件预览](ending-book-paper-followup-2026-10-17.md) |
+| 重温结局后的单页确认标题 | [GameOverUI入口、单页去字、13组标题及1.5.9安装](ending-confirmation-followup-2026-10-17.md) |
 | 任务按钮F8背景、原英文字号 | [背景修复与原资源核查](lead-background-followup-2026-10-12.md)、[候选证明](../../../runtime/evidence/lead-background-verification-2026-10-12.json) |
 | 线索、地图、时间线、界面提取 | [UI跟进](ui-followup-2026-10-10.md)、[源审计](ui-audit.md) |
 | TMP兼容与字体 | [思源字体替换](font-replacement-2026-10-11.md)、[TMP兼容](tmp-compatibility.md)、[运行界面跟进](runtime-ui-followup.md) |
@@ -82,6 +83,8 @@ TMP1.4.0的 `SetText` 只写解析缓冲区，getter读取旧 `m_text`。插件�
 1.5.4的 `LeadSplotchLayout` 仅同步真实任务按钮的自动墨迹背景几何，不重跑原Setup或增加颜色监听，不调整字号。原任务预制体与实际中英文任务字号均36，自动字号关闭；Canvas按屏幕高度缩放。布局变化后同步可能延后一帧，回归须等待布局稳定，不能用立即采样冒称当帧像素验证。
 
 1.5.7的书页纸块方案已被用户截图证实有缺陷，勿恢复。1.5.8候选的 `EndingBookLabels` 只读哈希绑定的DXT5书页，在内存中清除英文笔画，新增48号斜体TMP与60号粗体关键词共享原生正文父级，服从卷页遮挡；F8恢复真实原Sprite。坐标必须依据Sprite完整2048×1400矩形及真实关键词列中心，不能拿2041×1322裁剪图直接归一化。关键词仍使用SacrificeWhat/For真实字段，不能误当内部标识排除；字符网格、像素掩码、悬停层级与软件合成预览须分别核验，后者不冒充GPU截图。
+
+1.5.9已安装上述视觉修复，并对 `GameOverUI.Activate` 的916×1252单页 `UI_Book_Unlock` 单独绑定来源及坐标；字段为EndingUnlockTexture、EndingUnlockPage和EndingTitleWhat/For，连接词按原生64号关键词取0.8倍字号。不能以EndingSelectUI的11页通过代替确认页验收。新增探针走真实ActivateGameOver入口，13组标题是控件资源重放，不解锁其它结局或选择命运；EndingId.ToString带类型包装，验证ID须按同类型值比较。
 
 ### 源字段与动态组合
 

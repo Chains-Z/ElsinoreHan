@@ -12,6 +12,14 @@ using UnityEngine.UI;
 // 通过真实翻页按钮消费全部书页；不解锁结局、不选择重温，也不修改结局元数据。
 public static class EndingBookProbe
 {
+    [Serializable] public class Confirmation
+    {
+        public string navigation_ending = "END_Delusion", original_sprite, displayed_what, displayed_for, actual_ending_debug;
+        public int schema = 1, resource_replay_count, repair_mask_count;
+        public float label_size, keyword_size;
+        public bool actual_navigation, translated, original, restored, hidden_with_page, no_cover_graphics,
+            labels_inside_rows, geometry_fits, styles, resource_replays, passed;
+    }
     [Serializable] public class Page
     {
         public string id, what_source, for_source, what_display, for_display, geometry_details;
@@ -65,6 +73,86 @@ public static class EndingBookProbe
             }
         }
         return true;
+    }
+    public static IEnumerator CaptureConfirmation(Component canvas, string directory)
+    {
+        var report = new Confirmation();
+        var image = (Image)Field(canvas, "EndingUnlockTexture");
+        var page = (Image)Field(canvas, "EndingUnlockPage");
+        var what = (TMP_Text)Field(canvas, "EndingTitleWhat");
+        var forText = (TMP_Text)Field(canvas, "EndingTitleFor");
+        var activeEnding = Field(canvas, "activeEnding");
+        object id = activeEnding == null ? null : activeEnding.GetType().GetProperty("Id").GetValue(activeEnding, null);
+        report.actual_ending_debug = Convert.ToString(id);
+        report.actual_navigation = canvas.gameObject.activeInHierarchy && page.gameObject.activeInHierarchy
+            && id != null && id.Equals(Activator.CreateInstance(id.GetType(), new object[] { "END_Delusion" }));
+        var layerTransform = what.transform.parent.Find("ElsinoreHanBookLabels");
+        // 旧版未拦截GameOverUI.Activate，必须以缺层明确失败，不能只验证普通词表。
+        if (layerTransform == null) throw new InvalidOperationException("结局确认页仍缺少图片标题翻译层");
+        var layer = layerTransform.gameObject;
+        var a = layer.transform.Find("SacrificeText").GetComponent<TMP_Text>();
+        var b = layer.transform.Find("forText").GetComponent<TMP_Text>();
+        var labels = image.GetComponent("EndingBookLabels");
+        var original = (Sprite)labels.GetType().GetProperty("OriginalSprite").GetValue(labels, null);
+        var clean = (Sprite)labels.GetType().GetProperty("CleanSprite").GetValue(labels, null);
+        MonoBehaviour toggle = null;
+        foreach (var item in Resources.FindObjectsOfTypeAll<MonoBehaviour>()) if (item != null && item.GetType().Name == "TranslationToggle") toggle = item;
+        var handle = toggle.GetType().GetMethod("HandleKey");
+        var mode = toggle.GetType().GetMethod("IsTranslatedMode");
+        bool initial = (bool)mode.Invoke(toggle, null);
+        if (!initial) handle.Invoke(toggle, new object[] { true });
+        try
+        {
+            report.original_sprite = original.name;
+            report.repair_mask_count = (int)labels.GetType().GetProperty("RepairMaskCount").GetValue(labels, null);
+            report.displayed_what = what.text; report.displayed_for = forText.text;
+            report.translated = what.text == "现实" && forText.text == "欢乐" && a.text == "<i>舍弃</i>" && b.text == "<i>换取</i>"
+                && layer.activeInHierarchy && image.sprite == clean && original.name == "UI_Book_Unlock";
+            report.no_cover_graphics = layer.GetComponentsInChildren<Image>(true).Length == 0 && layer.GetComponentsInChildren<RawImage>(true).Length == 0;
+            report.label_size = a.fontSize; report.keyword_size = what.fontSize;
+            report.styles = (what.fontStyle & FontStyles.Bold) != 0 && (forText.fontStyle & FontStyles.Bold) != 0
+                && a.fontSize == what.fontSize * 0.8f;
+            report.geometry_fits = Fits(a) && Fits(b) && Fits(what) && Fits(forText);
+            report.styles &= (a.textInfo.characterInfo[0].style & FontStyles.Italic) != 0 && (b.textInfo.characterInfo[0].style & FontStyles.Italic) != 0;
+            report.labels_inside_rows = InsideRow(a, image, new Rect(0.15f, 1f - 270f / 1252, 0.75f, 110f / 1252))
+                && InsideRow(b, image, new Rect(0.15f, 1f - 490f / 1252, 0.75f, 102f / 1252));
+            File.WriteAllBytes(Path.Combine(directory, "confirmation-clean.rgba"), clean.texture.GetRawTextureData());
+            EndingBookArtProbe.Dump(canvas, image, directory, "confirmation");
+            handle.Invoke(toggle, new object[] { true });
+            yield return new WaitForSecondsRealtime(0.2f);
+            report.original = what.text == "REALITY" && forText.text == "JOY" && !layer.activeSelf && image.sprite == original;
+            handle.Invoke(toggle, new object[] { true });
+            yield return new WaitForSecondsRealtime(0.2f);
+            report.restored = what.text == "现实" && forText.text == "欢乐" && layer.activeInHierarchy && image.sprite == clean;
+            // 在相同真实控件上重放全部来源标题；不篡改activeEnding、解锁或剧情状态。
+            report.resource_replays = true;
+            foreach (string line in File.ReadAllLines(Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BOOK_PAGES"), Encoding.UTF8))
+            {
+                var parts = line.Split('\t');
+                what.text = Decode(parts[2]); forText.text = Decode(parts[4]);
+                yield return new WaitForSecondsRealtime(0.1f);
+                report.resource_replays &= what.text == Decode(parts[3]) && forText.text == Decode(parts[5]) && Fits(what) && Fits(forText)
+                    && a.text == "<i>舍弃</i>" && b.text == "<i>换取</i>" && layer.activeInHierarchy;
+                report.resource_replay_count++;
+            }
+            what.text = "REALITY"; forText.text = "JOY";
+            page.gameObject.SetActive(false);
+            handle.Invoke(toggle, new object[] { true }); handle.Invoke(toggle, new object[] { true });
+            report.hidden_with_page = !layer.activeInHierarchy && image.sprite == original;
+            page.gameObject.SetActive(true);
+            handle.Invoke(toggle, new object[] { true }); handle.Invoke(toggle, new object[] { true });
+            report.hidden_with_page &= layer.activeInHierarchy && image.sprite == clean;
+            report.passed = report.actual_navigation && report.translated && report.original && report.restored && report.hidden_with_page
+                && report.no_cover_graphics && report.labels_inside_rows && report.geometry_fits && report.styles
+                && report.resource_replays && report.resource_replay_count > 0 && report.repair_mask_count > 0;
+        }
+        finally
+        {
+            page.gameObject.SetActive(true);
+            if ((bool)mode.Invoke(toggle, null) != initial) handle.Invoke(toggle, new object[] { true });
+            File.WriteAllText(Path.Combine(directory, "ending-confirmation.json"), JsonUtility.ToJson(report, true), new UTF8Encoding(false));
+        }
+        if (!report.passed) throw new InvalidOperationException("结局确认页图片标题、样式、F8或真实来源重放失败");
     }
     public static IEnumerator Capture(Component book, string directory)
     {

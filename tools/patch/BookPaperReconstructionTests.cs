@@ -7,10 +7,12 @@ public static class BookPaperReconstructionTests
     private static void Check(bool result) { if (!result) throw new Exception("书页像素逻辑断言失败"); }
     public static int Main(string[] args)
     {
-        if (args.Length == 2)
+        if (args.Length >= 2)
         {
-            byte[] original = BookPaperReconstruction.DecodeDxt5(File.ReadAllBytes(args[0]), 2048, 1400);
-            var result = BookPaperReconstruction.Reconstruct(original, 2048, 1400);
+            bool unlock = args.Length == 3 && args[2] == "unlock";
+            int width = unlock ? 916 : 2048, height = unlock ? 1252 : 1400;
+            byte[] original = BookPaperReconstruction.DecodeDxt5(File.ReadAllBytes(args[0]), width, height);
+            var result = BookPaperReconstruction.Reconstruct(original, width, height);
             File.WriteAllBytes(args[1] + "-source.rgba", original);
             File.WriteAllBytes(args[1] + "-clean.rgba", result.pixels);
             File.WriteAllLines(args[1] + "-mask.txt", Array.ConvertAll(result.mask, value => value.ToString()));
@@ -33,7 +35,10 @@ public static class BookPaperReconstructionTests
         Check(rejected); rejected = false;
         try { BookPaperReconstruction.Reconstruct(new byte[2048 * 1400 * 4], 2048, 1400); } catch (InvalidOperationException) { rejected = true; }
         Check(rejected);
-        Console.WriteLine("{\"pure_cases\":7,\"passed\":true}");
+        rejected = false;
+        try { BookPaperReconstruction.Reconstruct(new byte[916 * 1252 * 4], 916, 1252); } catch (InvalidOperationException) { rejected = true; }
+        Check(rejected);
+        Console.WriteLine("{\"pure_cases\":8,\"passed\":true}");
         return 0;
     }
 }

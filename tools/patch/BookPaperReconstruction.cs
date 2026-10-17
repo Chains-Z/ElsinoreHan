@@ -60,11 +60,15 @@ public static class BookPaperReconstruction
 
     public static Result Reconstruct(byte[] original, int width, int height)
     {
-        if (width != 2048 || height != 1400 || original.Length != width * height * 4)
+        bool spread = width == 2048 && height == 1400;
+        bool unlock = width == 916 && height == 1252;
+        if ((!spread && !unlock) || original.Length != width * height * 4)
             throw new ArgumentException("未核查的书页像素布局");
         var seeds = new HashSet<int>();
         // 原始完整纹理坐标，左上原点；不能使用Sprite裁剪后PNG的1322高度。
-        int[][] regions = { new int[] { 1350, 240, 1650, 334 }, new int[] { 1425, 458, 1555, 548 } };
+        int[][] regions = spread
+            ? new int[][] { new int[] { 1350, 240, 1650, 334 }, new int[] { 1425, 458, 1555, 548 } }
+            : new int[][] { new int[] { 345, 180, 605, 263 }, new int[] { 410, 398, 515, 480 } };
         foreach (var box in regions)
             for (int top = box[1]; top < box[3]; top++) for (int x = box[0]; x < box[2]; x++)
             {

@@ -84,7 +84,7 @@ def main():
     parser.add_argument("--game-data", type=Path, default=Path("D:/SteamLibrary/steamapps/common/Elsinore/Elsinore_Data"))
     args = parser.parse_args()
     scenes = [json.loads(p.read_text(encoding="utf-8")) for p in sorted(args.directory.glob("book-render-*.json"))]
-    if len(scenes) != 3:
+    if not {"normal", "turn-left", "turn-right"}.issubset({scene["state"] for scene in scenes}):
         raise ValueError("书页预览必须同时包含静态、向左及向右翻页")
     wanted = {p["texture"] for s in scenes for p in s["pictures"] if not p.get("raw_file")}
     environment = UnityPy.load(str(args.game_data))

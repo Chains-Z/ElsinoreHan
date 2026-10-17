@@ -38,7 +38,8 @@ public static class EndingBookArtProbe
     {
         Vector3 local = paper.rectTransform.InverseTransformPoint(from.TransformPoint(position));
         Rect rect = paper.rectTransform.rect;
-        return new Vertex { x = (local.x - rect.x) / rect.width * 2048, y = (rect.yMax - local.y) / rect.height * 1400, u = uv.x, v = uv.y };
+        return new Vertex { x = (local.x - rect.x) / rect.width * paper.sprite.rect.width,
+            y = (rect.yMax - local.y) / rect.height * paper.sprite.rect.height, u = uv.x, v = uv.y };
     }
     private static Picture ImageData(Image image, Image paper)
     {
@@ -61,11 +62,14 @@ public static class EndingBookArtProbe
         var texts = new List<Glyph>();
         Type type = canvas.GetType();
         var current = ImageData(paper, paper);
-        current.raw_file = paper.sprite.name == "UI_Book_BackGround2" ? "paper-source.rgba" : "paper-clean.rgba";
+        current.raw_file = state == "confirmation" ? "confirmation-clean.rgba"
+            : paper.sprite.name == "UI_Book_BackGround2" ? "paper-source.rgba" : "paper-clean.rgba";
         images.Add(current);
         foreach (string field in new string[] { "icon", "Background" })
         {
-            var image = (Image)type.GetField(field, flags).GetValue(canvas);
+            var member = type.GetField(field, flags);
+            if (member == null) continue;
+            var image = (Image)member.GetValue(canvas);
             if (image.gameObject.activeInHierarchy && image.sprite != null) images.Add(ImageData(image, paper));
         }
         foreach (TMP_Text text in canvas.GetComponentsInChildren<TMP_Text>())
@@ -90,7 +94,8 @@ public static class EndingBookArtProbe
                     threshold = 0.5f - (weight + material.GetFloat("_FaceDilate")) * ratio * 0.5f, vertices = points });
             }
         }
-        var scene = new Scene { state = state, pictures = images.ToArray(), glyphs = texts.ToArray() };
+        var scene = new Scene { state = state, width = (int)paper.sprite.rect.width, height = (int)paper.sprite.rect.height,
+            pictures = images.ToArray(), glyphs = texts.ToArray() };
         File.WriteAllText(Path.Combine(directory, "book-render-" + state + ".json"), ItalicGeometryProbe.Serialize(scene), new UTF8Encoding(false));
     }
 }

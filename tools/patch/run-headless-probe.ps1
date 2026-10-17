@@ -139,6 +139,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += 'ending-book.json' }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('paper-source.rgba', 'paper-clean.rgba', 'book-render-normal.json', 'book-render-turn-right.json', 'book-render-turn-left.json') }
+    if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('ending-confirmation.json', 'confirmation-clean.rgba', 'book-render-confirmation.json') }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += @('log-scroll-anchor.tsv', 'log-bottom-anchor.tsv') }
     if ($env:ELSINOREHAN_PROBE_LOG_SPEAKERS) { $reports += 'log-speaker-layout.tsv' }
@@ -206,6 +207,9 @@ try {
         $bookReport = Get-Content -LiteralPath (Join-Path $runDirectory 'ending-book.json') -Raw | ConvertFrom-Json
         $bookCases = @(Get-Content -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES | Where-Object { ($_ -split "`t")[1] -eq 'True' })
         if (-not $bookReport.passed -or $bookReport.schema -ne 2 -or -not $bookReport.no_cover_graphics -or -not $bookReport.source_texture_untouched -or $bookReport.page_count -ne $bookCases.Count -or $bookReport.pages.Count -ne $bookCases.Count -or $bookReport.input_sha256 -ne (Get-FileHash -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES).Hash.ToLowerInvariant()) { throw '命运之书回归不完整或来源哈希不符。' }
+        $confirmation = Get-Content -LiteralPath (Join-Path $runDirectory 'ending-confirmation.json') -Raw | ConvertFrom-Json
+        $allEndingCases = @(Get-Content -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES)
+        if (-not $confirmation.passed -or -not $confirmation.actual_navigation -or -not $confirmation.resource_replays -or $confirmation.schema -ne 1 -or $confirmation.navigation_ending -ne 'END_Delusion' -or $confirmation.original_sprite -ne 'UI_Book_Unlock' -or $confirmation.resource_replay_count -ne $allEndingCases.Count) { throw '结局确认页入口、资源标题重放或背景来源核验失败。' }
     }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and $env:ELSINOREHAN_PROBE_BOOK_ONLY -ne '1') {
         $journalArguments = @((Join-Path $PSScriptRoot 'verify-journal-probe.py'), (Join-Path $runDirectory 'journal-ui.txt'), '--output', (Join-Path $runDirectory 'journal-analysis.json'))
