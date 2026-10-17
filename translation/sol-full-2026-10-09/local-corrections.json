@@ -1012,5 +1012,47 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p05260-713050d17cc9",
+    "source": "But some day, you're going to realize you can get past the log at the other end of it.",
+    "source_sha256": "713050d17cc94e1423f8847f2ec07b61b1540a79cffbfbdad3bc891541c80a5c",
+    "original_target": "但总有一天，你会发现，自己能越过池塘另一头的那根木头。",
+    "corrected_target": "但总有一天，你会发现，自己能越过池塘那头挡路的那截树干。",
+    "kind": "text",
+    "reason": "用户明确确认细化log为一截树干，保留小池塘之鱼越过障碍游向大海的比喻；木头过于笼统，将get past语境中的障碍作用显化为挡路，不增加新去向。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0039.json:p05260-713050d17cc9",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GuilRomance",
+        "line": 13845
+      },
+      "用户2026-10-18原木比喻修改确认及here we are表白对白截图反馈"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p05282-e3b4f04b277d",
+    "source": "A-and now, well, here we are.",
+    "source_sha256": "e3b4f04b277ddb61a7772b78d4ae66a77d033caf70b791775f59c4c3b0ca9e47",
+    "original_target": "而、而现在，嗯，我们就在这里了。",
+    "corrected_target": "而、而现在，嗯……我们已经走到这一步了。",
+    "kind": "text",
+    "reason": "用户指出here we are不能按地点直译。前句表达曾想亲吻女主、后句担心被拒绝，此处指关系进展至眼下表白时刻，保留紧张结巴和含蓄，不暗示已经接吻或获得同意。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0039.json:p05282-e3b4f04b277d",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GuilRomance",
+        "line": 13898
+      },
+      "用户2026-10-18原木比喻修改确认及here we are表白对白截图反馈"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
