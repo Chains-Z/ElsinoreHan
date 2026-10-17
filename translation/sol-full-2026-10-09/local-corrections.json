@@ -850,5 +850,146 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p10109-73015e7ede83",
+    "source": "It's a little—shall we say—<i>romantic?</i>",
+    "source_sha256": "73015e7ede8361ad3c858db8f8aca14cbaefe0fd676f18806d0a15120fe14d68",
+    "original_target": "有点——该怎么说呢——<i>香艳？</i>",
+    "corrected_target": "有点——该怎么说呢——<i>浪漫？</i>",
+    "kind": "text",
+    "reason": "用户明确要求romantic改为浪漫；歌词是求爱的情诗，没有漏译露骨内容，香艳过度强化色情意味。保留犹豫断句、问号及原斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0070.json:p10109-73015e7ede83",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28616
+      },
+      "用户2026-10-18明确指令：改，浪漫那个也改"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "s00102-b356a126e431",
+    "source": "Oh.",
+    "source_sha256": "b356a126e4318643dbf54db33635cfdeb6f432960fe14752ab6caeec04b5dbfe",
+    "original_target": "哦。",
+    "corrected_target": "噢。",
+    "kind": "text",
+    "reason": "用户明确要求Oh.由哦。改为噢。，偏好短叹的阅读效果。核对全部15处共用发言的上下文，包含惊讶、领悟、感动和失落，改为噢均可成立；只改完整Oh.，不全局替换包含Oh的其他组合句或中文哦字。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0111.json:s00102-b356a126e431",
+      {
+        "actor": "brit",
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "VictoryDinner",
+        "line": 287
+      },
+      {
+        "actor": "brit",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_LaertesConfesses",
+        "line": 8028
+      },
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_VengeanceFulfilled",
+        "line": 23038
+      },
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23629
+      },
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Advice_Polonius",
+        "line": 24396
+      },
+      {
+        "actor": "ophelia",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BritDrinking",
+        "line": 25982
+      },
+      {
+        "actor": "ophelia",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusGrieving",
+        "line": 26477
+      },
+      {
+        "actor": "brit",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "DEATHREACT_FirstLoop",
+        "line": 26961
+      },
+      {
+        "actor": "guildenstern",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28625
+      },
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HoratioHamletChat",
+        "line": 29444
+      },
+      {
+        "actor": "horatio",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "horatio_elisedeath",
+        "line": 5137
+      },
+      {
+        "actor": "rosencrantz",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "rosencrantz_boatfailure",
+        "line": 5559
+      },
+      {
+        "actor": "guildenstern",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "guil_oddduo",
+        "line": 5881
+      },
+      {
+        "actor": "bernardo",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "bernardo_boyplayer",
+        "line": 6351
+      },
+      {
+        "actor": "claudius",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "claudius_poisonstash",
+        "line": 8459
+      },
+      "用户2026-10-18明确指令：改，浪漫那个也改"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

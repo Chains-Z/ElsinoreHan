@@ -1,0 +1,317 @@
+[
+  {
+    "id": "romantic-oh-romantic-leaf",
+    "source": "It's a little—shall we say—<i>romantic?</i>",
+    "target": "有点——该怎么说呢——<i>浪漫？</i>",
+    "source_sha256": "73015e7ede8361ad3c858db8f8aca14cbaefe0fd676f18806d0a15120fe14d68",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28616
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-romantic-dialogue",
+    "source": "<line-height=90%>It's a little—shall we say—<i>romantic?</i>",
+    "target": "<line-height=90%>有点——该怎么说呢——<i>浪漫？</i>",
+    "source_sha256": "2a0bdd218395a3f98da6ea69b8f42bd719120e6cba2fe8eed7b4fb1a573bd0f5",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28616
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-romantic-speaker",
+    "source": "<b>Rosie:</b> <indent=16%>It's a little—shall we say—<i>romantic?</i>",
+    "target": "<b>罗茜:</b> <indent=16%>有点——该怎么说呢——<i>浪漫？</i>",
+    "source_sha256": "5983fbea5b737d039a0c3c22a20ed2a4ba16c4d0fdcadd8e7b705683ff509893",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28616
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-romantic-context",
+    "source": "<b>Rosie:</b> <indent=16%>Ah, well, that verse you chose...</indent>\n<b>Rosie:</b> <indent=16%>It's a little—shall we say—<i>romantic?</i></indent>\n<b>Guilda:</b> <indent=16%>Well, of course. That's the only sort of verse worth knowing.",
+    "target": "<b>罗茜:</b> <indent=16%>啊，这个嘛，你选的那段诗……</indent>\n<b>罗茜:</b> <indent=16%>有点——该怎么说呢——<i>浪漫？</i></indent>\n<b>吉尔妲:</b> <indent=16%>那当然。只有这种诗才值得记。",
+    "source_sha256": "ab568961545dc0ad3543bc78d0ae232016f794d81df9ada86b7f2a64341d0c95",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28616
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-leaf",
+    "source": "Oh.",
+    "target": "噢。",
+    "source_sha256": "b356a126e4318643dbf54db33635cfdeb6f432960fe14752ab6caeec04b5dbfe",
+    "origins": [
+      {
+        "actor": "guildenstern",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28625
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-dialogue",
+    "source": "<line-height=90%>Oh.",
+    "target": "<line-height=90%>噢。",
+    "source_sha256": "fa5960fcc6af76a293725be56e17eb91f5ac9dcb0eb42389fa52e4f3597ca1ac",
+    "origins": [
+      {
+        "actor": "guildenstern",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28625
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-1",
+    "source": "<b>Laertes:</b> <indent=16%>Tonight, I'd like to ask Lady Birgitta for her hand in marriage.</indent>\n<b>Brit:</b> <indent=16%>Oh.</indent>\n<b>Gertrude:</b> <indent=16%>Ah! Yesh! <i>Yesh!</i>",
+    "target": "<b>雷欧提斯:</b> <indent=16%>今晚，我想向比尔吉塔女士求婚。</indent>\n<b>布莉特:</b> <indent=16%>噢。</indent>\n<b>乔特鲁德:</b> <indent=16%>啊！好哇！<i>好哇！</i>",
+    "source_sha256": "1920dc9da5702190e4f7c51e1e26d319536c8e15d5cee479b214f0ac9f9eb7ec",
+    "origins": [
+      {
+        "actor": "brit",
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "VictoryDinner",
+        "line": 287
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-2",
+    "source": "<b>Laertes:</b> <indent=16%>I pushed Hamlet off the walls. Hamlet is <i>dead.</i> I killed him.</indent>\n<b>Brit:</b> <indent=16%>Oh.</indent>\n<b>Brit:</b> <indent=16%>Oh, my God.",
+    "target": "<b>雷欧提斯:</b> <indent=16%>我把哈姆雷特推下了城墙。哈姆雷特<i>死了。</i>是我杀了他。</indent>\n<b>布莉特:</b> <indent=16%>噢。</indent>\n<b>布莉特:</b> <indent=16%>哦，天哪。",
+    "source_sha256": "971133f97528754764e30c2e59d072353298f3c20a6a5b968ea2b7d00b9e4504",
+    "origins": [
+      {
+        "actor": "brit",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "ASSN_LaertesConfesses",
+        "line": 8028
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-3",
+    "source": "<b>Hamlet:</b> <indent=16%>I, ah...</indent>\n<b>Hamlet:</b> <indent=16%>Oh.</indent>\n<b>Ophelia:</b> <indent=16%>Why are you crying? Isn't this what you wanted?",
+    "target": "<b>哈姆雷特:</b> <indent=16%>我，啊……</indent>\n<b>哈姆雷特:</b> <indent=16%>噢。</indent>\n<b>奥菲莉娅:</b> <indent=16%>你怎么哭了？这不是你想要的吗？",
+    "source_sha256": "54d6766199b3da5662fd18c72eacbd9a201047e1f394a40f40439a81ba97cf6c",
+    "origins": [
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_VengeanceFulfilled",
+        "line": 23038
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-4",
+    "source": "<b>Ophelia:</b> <indent=16%>I don't think I can, Hamlet.</indent>\n<b>Hamlet:</b> <indent=16%>Oh.</indent>\n<b>Hamlet:</b> <indent=16%>I see.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我想我做不到，哈姆雷特。</indent>\n<b>哈姆雷特:</b> <indent=16%>噢。</indent>\n<b>哈姆雷特:</b> <indent=16%>我明白了。",
+    "source_sha256": "f833a5049d9b658c261e01454aafbce56503b0326f6ca2ef73038d81f880a79b",
+    "origins": [
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23629
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-5",
+    "source": "<b>Hamlet:</b> <indent=16%>Ah, but who would want me dead? I can only—</indent>\n<b>Hamlet:</b> <indent=16%>Oh.</indent>\n<b>Hamlet:</b> <indent=16%>Y-you're right, Polonius. I can't believe I was so blind.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>啊，可谁会想要我死呢？我只能——</indent>\n<b>哈姆雷特:</b> <indent=16%>噢。</indent>\n<b>哈姆雷特:</b> <indent=16%>你、你说得对，波洛涅斯。真不敢相信，我竟然这么盲目。",
+    "source_sha256": "9630e69ee923b7baca366dc5bf6fc37b153911e8f031f44a325b460f46cf3646",
+    "origins": [
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Advice_Polonius",
+        "line": 24396
+      },
+      {
+        "exported_runtime_source_id": "a00641-f57731dd4305",
+        "note": "相邻句使用游戏编译后的单破折号源，对应既有运行源词条译文；不改字典或迁就其他规则。"
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-6",
+    "source": "<b>Brit:</b> <indent=16%>...He would be if you were dead. Everyone sees the love your brother has for you. It's unparalleled.</indent>\n<b>Ophelia:</b> <indent=16%>Oh.</indent>\n<b>Brit:</b> <indent=16%>I don't know why I'm telling you this.",
+    "target": "<b>布莉特:</b> <indent=16%>……如果你死了，他就会变成那样。所有人都看得出你哥哥有多爱你。无人能及。</indent>\n<b>奥菲莉娅:</b> <indent=16%>噢。</indent>\n<b>布莉特:</b> <indent=16%>我不知道自己为什么要告诉你这些。",
+    "source_sha256": "2fb35b91b3897e71decaaadfcdf4b75dfad14357202283df814257fc59710ff5",
+    "origins": [
+      {
+        "actor": "ophelia",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BritDrinking",
+        "line": 25982
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-7",
+    "source": "<b>Claudius:</b> <indent=16%>Would you be willing to sit with me a while?</indent>\n<b>Ophelia:</b> <indent=16%>Oh.</indent>\n<b>Ophelia:</b> <indent=16%>Here, my lord. Your chambers.",
+    "target": "<b>克劳狄斯:</b> <indent=16%>你愿意坐下来陪我一会儿吗？</indent>\n<b>奥菲莉娅:</b> <indent=16%>噢。</indent>\n<b>奥菲莉娅:</b> <indent=16%>到了，陛下。您的寝宫。",
+    "source_sha256": "6fbd2442b5930bdb416f2b17b755bbe6e44b724e406855faf3c6a84b25ae9d7b",
+    "origins": [
+      {
+        "actor": "ophelia",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusGrieving",
+        "line": 26477
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-8",
+    "source": "<b>Horatio:</b> <indent=16%>What?</indent>\n<b>Brit:</b> <indent=16%>Oh.</indent>\n<b>Irma:</b> <indent=16%>That <i>boy.</i>",
+    "target": "<b>霍拉旭:</b> <indent=16%>什么？</indent>\n<b>布莉特:</b> <indent=16%>噢。</indent>\n<b>伊尔玛:</b> <indent=16%>那个<i>小子。</i>",
+    "source_sha256": "5e112956d7bda077ed31a58783ac290e079f10e5bcec0a1692153e8402794cba",
+    "origins": [
+      {
+        "actor": "brit",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "DEATHREACT_FirstLoop",
+        "line": 26961
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-9",
+    "source": "<b>Irma:</b> <indent=16%>I've had enough. I'm returning to the castle.</indent>\n<b>Guilda:</b> <indent=16%>Oh.</indent>\n<b>Guilda:</b> <indent=16%>Well, there goes our last chance to ever deal in at Irma's table again.",
+    "target": "<b>伊尔玛:</b> <indent=16%>我受够了。我要回城堡。</indent>\n<b>吉尔妲:</b> <indent=16%>噢。</indent>\n<b>吉尔妲:</b> <indent=16%>唉，这下连重回伊尔玛牌桌的最后一点机会也没了。",
+    "source_sha256": "6133f0109948fabc05829aeb7cdb7643dcedff2e187819c82ec19f4b3518f629",
+    "origins": [
+      {
+        "actor": "guildenstern",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28625
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-10",
+    "source": "<b>Horatio:</b> <indent=16%>I've been in love with you for a long time, Hamlet.</indent>\n<b>Hamlet:</b> <indent=16%>Oh.</indent>\n<b>Horatio:</b> <indent=16%>Haven't you got anything to say in response?",
+    "target": "<b>霍拉旭:</b> <indent=16%>我爱你很久了，哈姆雷特。</indent>\n<b>哈姆雷特:</b> <indent=16%>噢。</indent>\n<b>霍拉旭:</b> <indent=16%>你就没有什么话要回应我吗？",
+    "source_sha256": "f3f8205fe8d1bc0cbe847df35c323b9c337bbafb25294cb19bdadc1e4000c3ee",
+    "origins": [
+      {
+        "actor": "hamlet",
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_HoratioHamletChat",
+        "line": 29444
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-11",
+    "source": "<b>Horatio:</b> <indent=16%>But why not simply let her heal up within the castle, just like the others?</indent>\n<b>Horatio:</b> <indent=16%>Oh.</indent>\n<b>Ophelia:</b> <indent=16%>You and I both know why. Because we'll always be outsiders within Denmark.",
+    "target": "<b>霍拉旭:</b> <indent=16%>可为什么不让她像其他人一样，留在城堡里养好病呢？</indent>\n<b>霍拉旭:</b> <indent=16%>噢。</indent>\n<b>奥菲莉娅:</b> <indent=16%>你我都知道为什么。因为在丹麦，我们永远都是外人。",
+    "source_sha256": "ca60260275be3ada329116b7e4257286a6f1d77ce610e8a110ce3b87383815e7",
+    "origins": [
+      {
+        "actor": "horatio",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "horatio_elisedeath",
+        "line": 5137
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-12",
+    "source": "<b>Rosie:</b> <indent=16%>Yes, but...</indent>\n<b>Rosie:</b> <indent=16%>Oh.</indent>\n<b>Rosie:</b> <indent=16%>There's something awful in that letter, isn't there?",
+    "target": "<b>罗茜:</b> <indent=16%>是的，可是……</indent>\n<b>罗茜:</b> <indent=16%>噢。</indent>\n<b>罗茜:</b> <indent=16%>那封信里写着什么可怕的事，是不是？",
+    "source_sha256": "e2a3fd89b999ee886e56a91cc2c1636cbb491db58f462aa107f1744f51935fee",
+    "origins": [
+      {
+        "actor": "rosencrantz",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "rosencrantz_boatfailure",
+        "line": 5559
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-13",
+    "source": "<b>Ophelia:</b> <indent=16%>Me. <i>I</i> want to know.</indent>\n<b>Guilda:</b> <indent=16%>Oh.</indent>\n<b>Guilda:</b> <indent=16%>Well, it's a secret!",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我。是<i>我</i>想知道。</indent>\n<b>吉尔妲:</b> <indent=16%>噢。</indent>\n<b>吉尔妲:</b> <indent=16%>这是秘密！",
+    "source_sha256": "3eb316f2370b567c95fc581c841f85592e383c7134f30816fddcffb03b78c1b7",
+    "origins": [
+      {
+        "actor": "guildenstern",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "guil_oddduo",
+        "line": 5881
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-14",
+    "source": "<b>Ophelia:</b> <indent=16%>And that I am, as always, your faithful friend. No matter how you want to be called.</indent>\n<b>Bernardo:</b> <indent=16%>Oh.</indent>\n<b>Bernardo:</b> <indent=16%>I—",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我也会一如既往，做你忠实的朋友。不管你希望别人怎么称呼你。</indent>\n<b>贝尔纳多:</b> <indent=16%>噢。</indent>\n<b>贝尔纳多:</b> <indent=16%>我——",
+    "source_sha256": "21fec91251e57c1f1bbd8bd7a7fb2606883302871e3ad539dda05314ba888cc1",
+    "origins": [
+      {
+        "actor": "bernardo",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "bernardo_boyplayer",
+        "line": 6351
+      }
+    ]
+  },
+  {
+    "id": "romantic-oh-oh-context-15",
+    "source": "<b>Claudius:</b> <indent=16%>...</indent>\n<b>Claudius:</b> <indent=16%>Oh.</indent>\n<b>Claudius:</b> <indent=16%>I never saw myself as a man who would take his brother's life. Not once.",
+    "target": "<b>克劳狄斯:</b> <indent=16%>...</indent>\n<b>克劳狄斯:</b> <indent=16%>噢。</indent>\n<b>克劳狄斯:</b> <indent=16%>我从没觉得自己会是一个杀害亲哥哥的人。一次都没有。",
+    "source_sha256": "158d5b4cfa758fb647aa6939c069f23423154b0681f0344bb8bc137faebb2079",
+    "origins": [
+      {
+        "actor": "claudius",
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "claudius_poisonstash",
+        "line": 8459
+      }
+    ]
+  }
+]
