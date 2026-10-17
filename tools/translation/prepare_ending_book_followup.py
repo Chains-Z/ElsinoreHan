@@ -10,7 +10,7 @@ from analyze import read_text_assets
 WORDS = {
     "STRUGGLE": "挣扎", "RELIEF": "解脱", "PRESTIGE": "声望", "FAMILY": "家人",
     "INNOCENCE": "纯真", "POWER": "权力", "MORTALITY": "凡人之身", "GODHOOD": "神格",
-    "LEGACY": "传承", "REALITY": "现实", "JOY": "欢乐", "ETERNITY": "永恒",
+    "LEGACY": "基业", "REALITY": "现实", "JOY": "欢乐", "ETERNITY": "永恒",
     "REVENGE": "复仇", "PEACE": "和平", "SURVIVAL": "生存", "PERMANENCE": "长久",
     "PASSION": "激情", "PREDICTABILITY": "安稳", "ADVENTURE": "冒险",
     "EVERYONE": "所有人", "MYSELF": "自己", "RESPONSIBILITY": "责任",
@@ -37,6 +37,9 @@ def main():
                 "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"}
         if source in previous and previous[source] != target:
             item["previous_target"] = previous[source]
+        if source == "LEGACY":
+            item["previous_target"] = "传承"
+            item["correction_reason"] = "用户2026-10-18确认：结合与哈姆雷特共同治理丹麦、延续王权的结局语境，改为基业；不补写子嗣"
         translations.append(item)
         tests.append({"id": item["id"], "source": source, "target": target})
     for row in endings:

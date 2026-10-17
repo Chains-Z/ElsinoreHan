@@ -128,7 +128,7 @@
   {
     "id": "ui-ending-6e779d3634705ea2",
     "source": "LEGACY",
-    "target": "传承",
+    "target": "基业",
     "source_sha256": "6e779d3634705ea2ed91ee059566ec7290b305ef850ef3664f6ad2e63a27d5e9",
     "origins": [
       {
@@ -138,7 +138,9 @@
         "field": "sacrifice-for"
       }
     ],
-    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系",
+    "previous_target": "传承",
+    "correction_reason": "用户2026-10-18确认：结合与哈姆雷特共同治理丹麦、延续王权的结局语境，改为基业；不补写子嗣"
   },
   {
     "id": "ui-ending-54a88dc2544d5c26",

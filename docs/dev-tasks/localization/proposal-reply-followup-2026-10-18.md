@@ -1,6 +1,6 @@
 # 求婚答复与片段缓存冲突
 
-状态：候选已验证，尚未安装。用户游戏仍在运行，未覆盖主游戏补丁、未启动游戏、未访问存档。见[候选核验](../../../runtime/evidence/proposal-reply-verification-2026-10-18.json)。原版地点不一致按用户要求不改。
+状态：已随“基业”标题校订合并安装。最初候选阶段用户游戏仍在运行，未覆盖主游戏补丁；用户退出并确认标题译法后安装，未启动主游戏。见[原候选核验](../../../runtime/evidence/proposal-reply-verification-2026-10-18.json)、[合并安装记录](legacy-term-followup-2026-10-18.md)及[安装核验](../../../runtime/evidence/legacy-term-install-verification-2026-10-18.json)。原版地点不一致按用户要求不改。
 
 ## 原因与修复
 

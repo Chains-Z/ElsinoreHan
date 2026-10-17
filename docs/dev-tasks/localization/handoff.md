@@ -9,8 +9,9 @@
 | 维护阶段 | 中文初稿已可玩，继续根据实际游玩反馈定向校订，不等待全分支人工审校 |
 | 已安装日志规则 | 已随1.5.7安装157动态规则；补齐真实日志尾段结束缩进/换行封套，45,543资源用例及隔离缓存/F8与真实保存日志通过，见[漏译核查](ambient-log-followup-2026-10-15.md)与[候选证明](../../../runtime/evidence/ambient-log-verification-2026-10-15.json) |
 | 已安装书页修复 | 1.5.9已安装：包含1.5.8内存去字/原生层级修复，并补上GameOverUI单页确认入口；11页/F8/悬停回归及13组确认页标题重放通过。见[书页视觉修复](ending-book-paper-followup-2026-10-17.md)、[确认页修复](ending-confirmation-followup-2026-10-17.md)与[候选证明](../../../runtime/evidence/ending-confirmation-verification-2026-10-17.json) |
-| 正式安装 | 插件1.5.9，17,067词条，157动态规则；[最新安装核验](../../../runtime/evidence/gertrude-family-install-verification-2026-10-17.json)；包含母子感情、订婚追问、调情打趣、寝宫斥骂校订及此前全部修复，未启动用户游戏 |
-| 待安装求婚答复 | `I will.`对话框串译为“我会动手。”已通过精确行高封套别名修复；6项真实片段缓存回归、4项正文/日志消费者及16项治理测试通过，17,068词条、157规则，插件仍为1.5.9。用户游戏运行中，尚未安装；见[修复记录](proposal-reply-followup-2026-10-18.md)及[候选核验](../../../runtime/evidence/proposal-reply-verification-2026-10-18.json) |
+| 正式安装 | 插件1.5.9，17,068词条，157动态规则；[最新安装核验](../../../runtime/evidence/legacy-term-install-verification-2026-10-18.json)；包含求婚答复串译修复、LEGACY“基业”校订及此前全部修复，未启动用户游戏 |
+| 已安装求婚答复 | `I will.`对话框串译为“我会动手。”已通过精确行高封套别名修复；6项真实片段缓存回归、4项正文/日志消费者及16项治理测试通过。见[修复记录](proposal-reply-followup-2026-10-18.md)及[原候选核验](../../../runtime/evidence/proposal-reply-verification-2026-10-18.json)；已随标题校订合并安装 |
+| 已安装结局标题 | 按用户确认将LEGACY“传承”改为“基业”，26项真实标题消费者通过，字体与插件不变；见[用词与安装记录](legacy-term-followup-2026-10-18.md) |
 | 最新对白校订 | 幽灵“一场更大的游戏”、贝尔纳多“至少，我还有你这个朋友”、奥赛罗“苏丹麾下的一名高级大臣”均已安装；“抓住你的脑袋”按用户决定保留，见[奥赛罗术语核查](othello-term-review-2026-10-11.md) |
 | 本轮对白校订 | 奥赛罗故事“我感觉她把我留在了那里好多年”“说来有些病态，我也想让她吞食我的心”、奥菲莉娅“你……你和她……有过肌肤之亲吗？”均已安装，见[本轮记录](othello-story-followup-2026-10-15.md)与[安装核验](../../../runtime/evidence/othello-story-install-verification-2026-10-15.json) |
 | 已安装寝宫对白 | 哈姆雷特“你这杀人害命、背信弃义的女人！”已安装，6项真实消费者及15项治理测试通过；国王“在楼下睡着”有原文downstairs及寝宫楼梯顶端标记支持，原译保留。见[核查与范围](royal-chambers-followup-2026-10-17.md)及[候选证明](../../../runtime/evidence/royal-chambers-verification-2026-10-17.json)；插件保持1.5.9 |
@@ -24,7 +25,7 @@
 | 已安装拇指双关 | 按用户确认，以“他闲着没事，把拇指往屁股里塞，留一根也够用了吧”显化俚语义，保留“一根”斜体；3项真实消费者通过，见[译文与语境](grace-combat-dialogue-followup-2026-10-15.md#拇指玩笑核查)，已随1.5.5安装 |
 | 已安装F8修复 | 插件1.5.5：日志已到底部时中英文切换继续保留底部，手动滚离后沿用段落定位；真实隔离UI集成探针对照通过，见[问题与验证](f8-log-bottom-followup-2026-10-15.md)及[安装核验](../../../runtime/evidence/grace-thumb-install-verification-2026-10-15.json) |
 | 已安装阅读修复 | 插件1.5.6：日志长姓名后正文自动让位，保留姓名/字号与原文字符串；18人物介绍支持F8同段落与底部保持，108次双向切换通过。另将共享Yes, my lord改为“是，大人。”，保留原文明写Your Majesty的“陛下”。见[本轮修复与边界](reading-layout-followup-2026-10-15.md)及[安装核验](../../../runtime/evidence/reading-layout-install-verification-2026-10-15.json) |
-| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前为包含求婚答复修复的1.5.9待安装候选，40文件与ZIP逐项一致；相对已安装包仅新增一条正文运行别名及候选状态说明，字体、插件、动态规则、配置与许可不变；仍仅为本机个人构建 |
+| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前为包含求婚答复修复与“基业”校订的1.5.9已安装本机包，40文件与ZIP逐项一致；字体、插件、动态规则与许可不变；仍仅为本机个人构建 |
 | 备份策略 | 按用户2026-10-15要求停止长期备份；20份旧补丁备份与55份测试存档副本已明确授权删除，释放417,372,433字节。旧安装证据中的备份路径仅为历史记录，已不可用；测试临时存档仍隔离，结束后清理，见[公开上传与清理记录](public-repository-2026-10-15.md) |
 | 安装保护证据 | 本次原游戏四文件及8个存档的哈希、修改时间、大小和数量未变；正文词表更新，游戏配置仅移除UTF-8 BOM且解码文本逐字一致，动态词表、插件、字体和许可字节不变，未启动主游戏、未创建备份 |
 | 发布状态 | [GitHub源码与译文仓库](https://github.com/Chains-Z/ElsinoreHan)已公开，当前文件与完整历史通过凭证及字体/二进制检查；字体、依赖、游戏、存档和ZIP未上传。可安装补丁包仍仅为本机个人构建，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成，见[公开核验](../../../runtime/evidence/public-repository-verification-2026-10-15.json) |
