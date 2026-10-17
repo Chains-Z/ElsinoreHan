@@ -548,5 +548,21 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p09518-1b2d2dfe69a1",
+    "source": "Cheeky, cheeky girl.",
+    "source_sha256": "1b2d2dfe69a129a7dc2df1ae0d815856b5f3adbc6e6a50de7ee037f4cc01f19b",
+    "original_target": "真是个放肆、放肆的姑娘。",
+    "corrected_target": "你这姑娘，胆子可真不小。",
+    "kind": "text",
+    "reason": "用户确认自然口语译法。真实FLAVOR_ClaudiusRomanceNight2中奥菲莉娅调情请国王展示本事，克劳狄斯以happy及Chuckle回应；将cheeky的大胆打趣译为胆子可真不小，避免重复放肆形成生硬严厉斥责，不添加原文未明写的动作或关系。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0066.json:p09518-1b2d2dfe69a1",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:FLAVOR_ClaudiusRomanceNight2:26674",
+      "用户实际游玩截图与译文修改确认，2026-10-17"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

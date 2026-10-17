@@ -1,0 +1,59 @@
+[
+  {
+    "id": "claudius-cheeky-leaf",
+    "source": "Cheeky, cheeky girl.",
+    "target": "你这姑娘，胆子可真不小。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusRomanceNight2",
+        "line": 26674
+      }
+    ]
+  },
+  {
+    "id": "claudius-cheeky-speaker",
+    "source": "<b>Claudius:</b> <indent=16%>Cheeky, cheeky girl.",
+    "target": "<b>克劳狄斯:</b> <indent=16%>你这姑娘，胆子可真不小。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusRomanceNight2",
+        "line": 26674
+      }
+    ]
+  },
+  {
+    "id": "claudius-cheeky-context",
+    "source": "<b>Ophelia:</b> <indent=16%>I agree. And I'd like to come to know you in all senses.</indent>\n<b>Ophelia:</b> <indent=16%>Why don't you show me what a King can do?</indent>\n<b>Claudius:</b> <indent=16%>Cheeky, cheeky girl.</indent>\n<b>Claudius:</b> <indent=16%>But I warn you, now that you're mine, you won't be going <i>anywhere</i> soon...",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我同意。而且，我想从各个方面了解你。</indent>\n<b>奥菲莉娅:</b> <indent=16%>不如让我见识一下，国王有什么本事？</indent>\n<b>克劳狄斯:</b> <indent=16%>你这姑娘，胆子可真不小。</indent>\n<b>克劳狄斯:</b> <indent=16%>不过我可要提醒你，既然你已经是我的了，一时半会儿你就<i>哪儿</i>也别想去……",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusRomanceNight2",
+        "line": 26669
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusRomanceNight2",
+        "line": 26672
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusRomanceNight2",
+        "line": 26674
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusRomanceNight2",
+        "line": 26677
+      }
+    ]
+  }
+]
