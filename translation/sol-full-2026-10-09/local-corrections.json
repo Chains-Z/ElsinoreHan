@@ -680,5 +680,26 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p09004-305ddd1474b1",
+    "source": "I want a monument with my name on it! First <i>and</i> last. 'Lady Gu—'... Wait a minute. What <i>is</i> my first name?",
+    "source_sha256": "305ddd1474b18aa96ace57c0758bc4ea37138e36c118e7dc60c295e4e83302f2",
+    "original_target": "我要一座刻着我姓名的纪念碑！名字<i>和</i>姓氏都要。“吉尔——女士”……等等。我的名字<i>到底</i>是什么？",
+    "corrected_target": "我要一座刻着我姓名的纪念碑！名字<i>和</i>姓氏都要。“吉尔——”……等等。我的名字<i>到底</i>是什么？",
+    "kind": "text",
+    "reason": "用户指出将Lady移到名字后方破坏自报姓名中途停顿的笑话，并要求兼顾两人正式称呼的自然语序。正式称呼保持某某女士；仅在这句未念完的引文省去称谓，保留吉尔——的中断及随后询问自己名字的顺序，不全局倒置称谓。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0063.json:p09004-305ddd1474b1",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GUILD_Funeral",
+        "line": 25106
+      },
+      "用户2026-10-18两张葬礼对白截图及语序修改指令"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
