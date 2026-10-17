@@ -533,5 +533,20 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p01792-2b04744ea8bf",
+    "source": "You murderous, traitorous woman. You owe my father's honor your life.",
+    "source_sha256": "2b04744ea8bfd469581a1bd1f96cc10184eccf1d1a7691f70c7e5752f240396d",
+    "original_target": "你这个杀人、背叛的女人。你得用命来偿还我父亲的名誉。",
+    "corrected_target": "你这杀人害命、背信弃义的女人！你得用命来偿还我父亲的名誉。",
+    "kind": "text",
+    "reason": "按用户确认修正并列形容词murderous、traitorous的生硬译法，保留杀人及背叛两项指控与后半句含义",
+    "origins": [
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:HAMGERT_AftermathNoOne:3077",
+      "用户实际游玩截图及修改确认，2026-10-17"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

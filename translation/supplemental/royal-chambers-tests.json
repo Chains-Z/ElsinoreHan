@@ -1,0 +1,80 @@
+[
+  {
+    "id": "royal-chambers-hamlet-leaf",
+    "source": "You murderous, traitorous woman. You owe my father's honor your life.",
+    "target": "你这杀人害命、背信弃义的女人！你得用命来偿还我父亲的名誉。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMGERT_AftermathNoOne",
+        "line": 3077
+      }
+    ]
+  },
+  {
+    "id": "royal-chambers-hamlet-speaker",
+    "source": "<b>Hamlet:</b> <indent=16%>You murderous, traitorous woman. You owe my father's honor your life.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>你这杀人害命、背信弃义的女人！你得用命来偿还我父亲的名誉。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMGERT_AftermathNoOne",
+        "line": 3077
+      }
+    ]
+  },
+  {
+    "id": "royal-chambers-hamlet-context",
+    "source": "<b>Hamlet:</b> <indent=16%>You murderous, traitorous woman. You owe my father's honor your life.</indent>\n<b>Gertrude:</b> <indent=16%>Please, Hamlet, don't do this!</indent>\n<b>Gertrude:</b> <indent=16%>I love you with all my heart. Please don't let it come to this.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>你这杀人害命、背信弃义的女人！你得用命来偿还我父亲的名誉。</indent>\n<b>乔特鲁德:</b> <indent=16%>求你了，哈姆雷特，别这样！</indent>\n<b>乔特鲁德:</b> <indent=16%>我全心全意地爱你。求你，别走到这一步。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMGERT_AftermathNoOne",
+        "line": 3077
+      }
+    ]
+  },
+  {
+    "id": "royal-chambers-ophelia-leaf",
+    "source": "(He's asleep downstairs, at last.)",
+    "target": "（他终于在楼下睡着了。）",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusGrieving",
+        "line": 26500
+      }
+    ]
+  },
+  {
+    "id": "royal-chambers-ophelia-speaker",
+    "source": "<b>Ophelia:</b> <indent=16%>(He's asleep downstairs, at last.)",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>（他终于在楼下睡着了。）",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusGrieving",
+        "line": 26500
+      }
+    ]
+  },
+  {
+    "id": "royal-chambers-ophelia-context",
+    "source": "<b>Ophelia:</b> <indent=16%>Sleep now, Claudius. You're not making any sense.</indent>\n<b>Claudius:</b> <indent=16%>...</indent>\n<b>Ophelia:</b> <indent=16%>(He's asleep downstairs, at last.)</indent>\n<b>Ophelia:</b> <indent=16%>(Even though I know what he's capable of—what he's done—I still somehow feel terrible for him.)</indent>\n<b>Ophelia:</b> <indent=16%>(I've seldom been in Claudius's chambers, let alone unattended...)",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>睡吧，克劳狄斯。你说的话都没头没脑的。</indent>\n<b>克劳狄斯:</b> <indent=16%>...</indent>\n<b>奥菲莉娅:</b> <indent=16%>（他终于在楼下睡着了。）</indent>\n<b>奥菲莉娅:</b> <indent=16%>（虽然我知道他做得出什么——也知道他做过什么——可不知为什么，我还是很同情他。）</indent>\n<b>奥菲莉娅:</b> <indent=16%>（我很少来克劳狄斯的寝宫，更别说像这样无人陪同了……）",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_ClaudiusGrieving",
+        "line": 26500
+      }
+    ]
+  }
+]
