@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-18",
+  "status": "candidate_verified",
+  "passed": true,
+  "installed": false,
+  "plugin_version": "1.5.9",
+  "plugin_sha256": "a68de90d31f53d8db6da19ae7e2366c96127de436c32a08cc6b5e4d6f7605823",
+  "font_bundle_sha256": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+  "dictionary_count": 17068,
+  "dictionary_sha256": "43807a0f8a7e5720d3962ab3e62648e514c90df78ec184908709abced04aa19c",
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dynamic_rules": 157,
+  "previous_candidate": "runtime/evidence/graveyard-morbid-verification-2026-10-18.json",
+  "changes_since_previous_candidate": [
+    {
+      "id": "p09034-362db4afaf05",
+      "source": "Well, <i>that's</i> horribly morbid. Lady, I like your style.",
+      "source_sha256": "362db4afaf056358b9c0534b5478b231b014cdc8a12390f0d689165f3dfa7454",
+      "previous_target": "哎呀，<i>这话</i>可真够阴沉的。女士，我喜欢你这风格。",
+      "target": "哎呀，<i>这话</i>可真够晦气的。女士，我喜欢你这风格。"
+    },
+    {
+      "id": "p09036-fd85d11e8186",
+      "source": "Ah, my good Marcellus, how kind of you to call upon me.",
+      "source_sha256": "fd85d11e818620f995151c059d6b08766d406928de52b76986a60368b2424498",
+      "previous_target": "啊，好马塞勒斯，承蒙你点名，真是客气。",
+      "target": "啊，亲爱的马塞勒斯，多谢你想到我。"
+    },
+    {
+      "id": "p09037-7d1fd7068b9b",
+      "source": "As a master of the stage, my position is behind the curtains, out of sight and mind.",
+      "source_sha256": "7d1fd7068b9b95b3f21d88b4ccc518d48be9f4dcc80233b1ea3a5bd202d9b639",
+      "previous_target": "身为舞台的掌控者，我的位置在幕后，不露面，也不被人惦记。",
+      "target": "身为舞台的掌控者，我的位置在幕后——无人看见，无人想起。"
+    }
+  ],
+  "actual_recursive_xunity_consumer_passed": true,
+  "consumer_cases": 11,
+  "export_governance_unit_tests": 18,
+  "tests_sha256": "61d6b10e87f3c33bb39f268513cf6071fc860f6bb987b80b53586689bbbdb31d",
+  "chinese_character_set_unchanged": true,
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "a68de90d31f53d8db6da19ae7e2366c96127de436c32a08cc6b5e4d6f7605823",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "43807a0f8a7e5720d3962ab3e62648e514c90df78ec184908709abced04aa19c",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+    "README.md": "4a04d0fc3732a4720a4888e5def318b224eb3919eea965e0aa6c0008fc1becfb",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933"
+  },
+  "changed_package_files": [
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt"
+  ],
+  "zip_matches_package": true,
+  "zip_sha256": "bea7d76ec5f47521a268e2e11e8052201e92dd4099e72ffeedc11423e2e8d762",
+  "includes_prior_pending_corrections": [
+    "首次盘问",
+    "波洛涅斯离开前安排对白",
+    "二字结局标题及三条正文校订",
+    "葬礼姓名笑点及纪念碑措辞",
+    "墓地瘆人及务实答复"
+  ],
+  "game_installation_modified": false,
+  "game_started_by_task": false,
+  "saves_accessed": false,
+  "limitations": [
+    "真实XUnity组件与离线词表核验，不代表实际对话框像素、物理F8或完整剧情E2E",
+    "只生成候选，未安装，未访问存档"
+  ]
+}
