@@ -808,5 +808,47 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p10070-93c3853c2e36",
+    "source": "Yes! This is humane!",
+    "source_sha256": "93c3853c2e36e36b829f5c222c530ac231c97954ecb56b0d0eb3ad0c6a6d017a",
+    "original_target": "没错！这太人道了！",
+    "corrected_target": "没错！简直荒无人道！",
+    "kind": "text",
+    "reason": "用户明确接受用荒无人烟与惨无人道的串词替代humane/inhumane用词失误，避免中文把人道理解为反讽，也避免刻意将无换成有；保留附和抗议、说错词、被纠正后嘴硬的笑点。纠正处粗体从不迁移至惨，不改前句剥削与后句我就是这么说的。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0069.json:p10070-93c3853c2e36",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28508
+      },
+      "用户2026-10-18明确确认荒无人道／惨无人道的笑话本地化"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p10071-47f516406fef",
+    "source": "You mean <b>in</b>humane, Guilda.",
+    "source_sha256": "47f516406fef5118fc75f36e28883d64e5c7c1fd129cd0b78f2ea4a00873ba47",
+    "original_target": "你是想说<b>不</b>人道，吉尔达。",
+    "corrected_target": "是“<b>惨</b>无人道”，吉尔达。",
+    "kind": "text",
+    "reason": "用户明确接受用荒无人烟与惨无人道的串词替代humane/inhumane用词失误，避免中文把人道理解为反讽，也避免刻意将无换成有；保留附和抗议、说错词、被纠正后嘴硬的笑点。纠正处粗体从不迁移至惨，不改前句剥削与后句我就是这么说的。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0069.json:p10071-47f516406fef",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28510
+      },
+      "用户2026-10-18明确确认荒无人道／惨无人道的笑话本地化"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

@@ -1,0 +1,105 @@
+[
+  {
+    "id": "busking-wordplay-p10070-93c3853c2e36-leaf",
+    "source": "Yes! This is humane!",
+    "target": "没错！简直荒无人道！",
+    "source_sha256": "93c3853c2e36e36b829f5c222c530ac231c97954ecb56b0d0eb3ad0c6a6d017a",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28508
+      }
+    ]
+  },
+  {
+    "id": "busking-wordplay-p10070-93c3853c2e36-dialogue",
+    "source": "<line-height=90%>Yes! This is humane!",
+    "target": "<line-height=90%>没错！简直荒无人道！",
+    "source_sha256": "23bac4b1c79ec41db6177fcf0565a394e1c1bbc9ae5c98d7fc334214befe7e83",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28508
+      }
+    ]
+  },
+  {
+    "id": "busking-wordplay-p10070-93c3853c2e36-speaker",
+    "source": "<b>Guilda:</b> <indent=16%>Yes! This is humane!",
+    "target": "<b>吉尔妲:</b> <indent=16%>没错！简直荒无人道！",
+    "source_sha256": "c87d3712b29e6a5a9da4550c681ce25b8b4765f2d0528faef1cb168f8f1f1fbe",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28508
+      }
+    ]
+  },
+  {
+    "id": "busking-wordplay-p10071-47f516406fef-leaf",
+    "source": "You mean <b>in</b>humane, Guilda.",
+    "target": "是“<b>惨</b>无人道”，吉尔达。",
+    "source_sha256": "47f516406fef5118fc75f36e28883d64e5c7c1fd129cd0b78f2ea4a00873ba47",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28510
+      }
+    ]
+  },
+  {
+    "id": "busking-wordplay-p10071-47f516406fef-dialogue",
+    "source": "<line-height=90%>You mean <b>in</b>humane, Guilda.",
+    "target": "<line-height=90%>是“<b>惨</b>无人道”，吉尔达。",
+    "source_sha256": "c545213733ac98623864de78f202d9b83e037bdff366ff71813e21218bbb2d46",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28510
+      }
+    ]
+  },
+  {
+    "id": "busking-wordplay-p10071-47f516406fef-speaker",
+    "source": "<b>Rosie:</b> <indent=16%>You mean <b>in</b>humane, Guilda.",
+    "target": "<b>罗茜:</b> <indent=16%>是“<b>惨</b>无人道”，吉尔达。",
+    "source_sha256": "36e6d6d047e534d9bb43850a0830d27ee88255c9c4376a0e0f1809fb89bccea0",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28510
+      }
+    ]
+  },
+  {
+    "id": "busking-wordplay-full-exchange",
+    "source": "<b>Rosie:</b> <indent=16%>T-t-this is exploitation!</indent>\n<b>Guilda:</b> <indent=16%>Yes! This is humane!</indent>\n<b>Rosie:</b> <indent=16%>You mean <b>in</b>humane, Guilda.</indent>\n<b>Guilda:</b> <indent=16%>That's what I said!",
+    "target": "<b>罗茜:</b> <indent=16%>这、这、这是剥削！</indent>\n<b>吉尔妲:</b> <indent=16%>没错！简直荒无人道！</indent>\n<b>罗茜:</b> <indent=16%>是“<b>惨</b>无人道”，吉尔达。</indent>\n<b>吉尔妲:</b> <indent=16%>我就是这么说的！",
+    "source_sha256": "58b5943f4b3a39721e32199b833dbaf88b8b39660518c97f4995a78d28126d61",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "lines": [
+          28506,
+          28508,
+          28510,
+          28512
+        ]
+      }
+    ]
+  }
+]
