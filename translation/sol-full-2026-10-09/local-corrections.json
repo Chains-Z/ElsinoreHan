@@ -1054,5 +1054,26 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p05316-6f4f165eab4d",
+    "source": "It sounds like the kind of thing you'd put in a room to decorate a corner. 'Oh, and here's an antique vase, next to that Hamlet over there. Brightens up the room.'",
+    "source_sha256": "6f4f165eab4d04d299962b1c55e04cf90abcdedcffff48f05bdd0f03184a0197",
+    "original_target": "听起来像是摆在房间角落里当装饰的东西。“哦，这儿还有个古董花瓶，就在那边那个哈姆雷特旁边。给房间添点亮色。”",
+    "corrected_target": "这名字听着不像人名，倒像某种摆在墙角的装饰品。“噢，还有这只古董花瓶，就摆在那边那个‘哈姆雷特’旁边。给房间添点亮色。”",
+    "kind": "text",
+    "reason": "用户确认点明把人名当摆件名称的主观怪联想，保留原文假装介绍室内陈设的玩笑；不声称Hamlet有装饰品词义，也不另造无依据的谐音或具体摆件种类。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0040.json:p05316-6f4f165eab4d",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GuilRomance2",
+        "line": 14005
+      },
+      "用户2026-10-18确认姓名装饰品玩笑译文"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

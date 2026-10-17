@@ -1,0 +1,58 @@
+[
+  {
+    "id": "hamlet-name-leaf",
+    "source": "It sounds like the kind of thing you'd put in a room to decorate a corner. 'Oh, and here's an antique vase, next to that Hamlet over there. Brightens up the room.'",
+    "target": "这名字听着不像人名，倒像某种摆在墙角的装饰品。“噢，还有这只古董花瓶，就摆在那边那个‘哈姆雷特’旁边。给房间添点亮色。”",
+    "source_sha256": "6f4f165eab4d04d299962b1c55e04cf90abcdedcffff48f05bdd0f03184a0197",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GuilRomance2",
+        "line": 14005
+      }
+    ]
+  },
+  {
+    "id": "hamlet-name-dialogue",
+    "source": "<line-height=90%>It sounds like the kind of thing you'd put in a room to decorate a corner. 'Oh, and here's an antique vase, next to that Hamlet over there. Brightens up the room.'",
+    "target": "<line-height=90%>这名字听着不像人名，倒像某种摆在墙角的装饰品。“噢，还有这只古董花瓶，就摆在那边那个‘哈姆雷特’旁边。给房间添点亮色。”",
+    "source_sha256": "36d04800c689e87ed46da620bd153ac14be367a89e2d1db92efc2bbb41bbd75c",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GuilRomance2",
+        "line": 14005
+      }
+    ]
+  },
+  {
+    "id": "hamlet-name-speaker",
+    "source": "<b>Guilda:</b> <indent=16%>It sounds like the kind of thing you'd put in a room to decorate a corner. 'Oh, and here's an antique vase, next to that Hamlet over there. Brightens up the room.'",
+    "target": "<b>吉尔妲:</b> <indent=16%>这名字听着不像人名，倒像某种摆在墙角的装饰品。“噢，还有这只古董花瓶，就摆在那边那个‘哈姆雷特’旁边。给房间添点亮色。”",
+    "source_sha256": "9a066ae4caa40fc86a9659435827d4f1d737b3d4e7626066eae300788416d940",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GuilRomance2",
+        "line": 14005
+      }
+    ]
+  },
+  {
+    "id": "hamlet-name-context",
+    "source": "<b>Guilda:</b> <indent=16%>Of course. Rosie and I travel everywhere. We've seen all <i>sorts</i> of strange things. Like a Danish boy named Hamlet, for example. What a <i>ridiculous</i> name.</indent>\n<b>Guilda:</b> <indent=16%>It sounds like the kind of thing you'd put in a room to decorate a corner. 'Oh, and here's an antique vase, next to that Hamlet over there. Brightens up the room.'</indent>\n<b>Guilda:</b> <indent=16%>Although I wouldn't have believed you if I hadn't gotten to know you like this. You <i>do</i> have a reputation as a bit of a loon.",
+    "target": "<b>吉尔妲:</b> <indent=16%>当然。萝茜和我到处旅行，见过<i>各种各样</i>的怪事。比如有个丹麦男孩叫哈姆雷特。这名字真<i>荒唐</i>。</indent>\n<b>吉尔妲:</b> <indent=16%>这名字听着不像人名，倒像某种摆在墙角的装饰品。“噢，还有这只古董花瓶，就摆在那边那个‘哈姆雷特’旁边。给房间添点亮色。”</indent>\n<b>吉尔妲:</b> <indent=16%>不过，要是没有这样了解你，我是不会信的。毕竟大家<i>确实</i>都说你有点疯疯癫癫。",
+    "source_sha256": "71d70f2e9253ad2238b7a8657fdf538b53f43ccb80610c6cc702a562f5202333",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GuilRomance2",
+        "line": 14005
+      }
+    ]
+  }
+]
