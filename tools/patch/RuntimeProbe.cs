@@ -715,9 +715,12 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             yield return new WaitForSecondsRealtime(0.4f);
         }
         // 文档故障优先采集，每一页独立失败；不再让其它页面的不可交互按钮截断它们。
-        foreach (string closeupId in new string[] { "observable_hamletdiary", "observable_poldesk", "observable_backerbook4" })
-            yield return OptionalJournalPhase(closeupId, ProbeDocument(closeupId));
-        yield return OptionalJournalPhase("closeups.batch", ProbeCloseupBatch());
+        if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BOOK_ONLY") != "1")
+        {
+            foreach (string closeupId in new string[] { "observable_hamletdiary", "observable_poldesk", "observable_backerbook4" })
+                yield return OptionalJournalPhase(closeupId, ProbeDocument(closeupId));
+            yield return OptionalJournalPhase("closeups.batch", ProbeCloseupBatch());
+        }
         yield return OptionalJournalPhase("hud", ProbeHud());
         if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BOOK_PAGES") != null)
         {

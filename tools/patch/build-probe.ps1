@@ -39,6 +39,7 @@ $arguments += Join-Path $PSScriptRoot 'FontRegressionProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'StrictLogCacheProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'AmbientLogFormatterProbe.cs'
 $arguments += Join-Path $PSScriptRoot 'EndingBookProbe.cs'
+$arguments += Join-Path $PSScriptRoot 'EndingBookArtProbe.cs'
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw '运行时探针编译失败。' }
 Write-Output $output

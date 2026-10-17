@@ -1,37 +1,44 @@
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Reflection;
+using System.Security.Cryptography;
 using HarmonyLib;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-// 背景上的两行英文没有文本控件；以原书页空白区域覆盖印字，另建可切换的斜体中文。
+// 从玩家自己的原始书页重建去字纹理；新增文字与正文共享层级，受原翻页图遮挡。
 public sealed class EndingBookLabels : MonoBehaviour
 {
+    public const int PaperWidth = 2048, PaperHeight = 1400;
+    public const long PaperStreamOffset = 371948484;
+    public const string PaperStreamSha256 = "7bd5234ad6cf2d6b3dfaa78b8a140c506f1ad4f9e435f6c75810188fafdc35fb";
     private static readonly List<EndingBookLabels> instances = new List<EndingBookLabels>();
+    private static readonly BindingFlags fields = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
     private static bool translated = true;
     private GameObject layer;
     private Image book;
     private GameObject content;
-    private static readonly BindingFlags fields = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
+    private TMP_Text template;
+    private TMP_Text first, second;
+    private bool failed;
+    public Sprite OriginalSprite { get; private set; }
+    public Sprite CleanSprite { get; private set; }
+    public int RepairMaskCount { get; private set; }
+    public float ReconstructionResidual { get; private set; }
 
     public static void Apply(Harmony harmony)
     {
         Type type = AccessTools.TypeByName("Elsinore.Ui.EndingSelectUI");
         harmony.Patch(AccessTools.Method(type, "populate"), postfix: new HarmonyMethod(typeof(EndingBookLabels), "AfterPopulate"));
     }
-
     public static void SetTranslated(bool value)
     {
         translated = value;
         for (int index = instances.Count - 1; index >= 0; index--)
-        {
-            if (instances[index] == null) instances.RemoveAt(index);
-            else instances[index].Refresh();
-        }
+            if (instances[index] == null) instances.RemoveAt(index); else instances[index].Refresh();
     }
-
     public static void AfterPopulate(Component __instance)
     {
         var type = __instance.GetType();
@@ -43,88 +50,94 @@ public sealed class EndingBookLabels : MonoBehaviour
             labels = image.gameObject.AddComponent<EndingBookLabels>();
             labels.book = image;
             labels.content = (GameObject)type.GetField("contentPanel", fields).GetValue(__instance);
-            labels.Create((TMP_Text)type.GetField("sacrificeWhatText", fields).GetValue(__instance));
+            labels.template = (TMP_Text)type.GetField("sacrificeWhatText", fields).GetValue(__instance);
             instances.Add(labels);
+            try { labels.Create(); }
+            catch (Exception error)
+            {
+                labels.failed = true;
+                if (labels.layer != null) labels.layer.SetActive(false);
+                Debug.LogWarning("命运书页重建失败，保留原始背景：" + error.GetType().Name);
+            }
         }
         labels.Refresh();
     }
-
-    private void Create(TMP_Text template)
+    public static byte[] ReadSourcePixels()
     {
-        if (book.type != Image.Type.Simple || book.preserveAspect || book.sprite.packingRotation != SpritePackingRotation.None)
-            throw new InvalidOperationException("命运书页的贴图映射与已核查资源不一致");
+        var blocks = new byte[PaperWidth * PaperHeight];
+        string path = Path.Combine(Application.dataPath, "sharedassets1.assets.resS");
+        using (var stream = new FileStream(path, FileMode.Open, FileAccess.Read, FileShare.Read))
+        {
+            stream.Position = PaperStreamOffset;
+            int count = 0;
+            while (count < blocks.Length)
+            {
+                int got = stream.Read(blocks, count, blocks.Length - count);
+                if (got == 0) throw new EndOfStreamException("书页原始像素块不完整");
+                count += got;
+            }
+        }
+        using (var hash = SHA256.Create())
+            if (BitConverter.ToString(hash.ComputeHash(blocks)).Replace("-", "").ToLowerInvariant() != PaperStreamSha256)
+                throw new InvalidDataException("书页原始像素哈希不符");
+        return BookPaperReconstruction.DecodeDxt5(blocks, PaperWidth, PaperHeight);
+    }
+    private void Create()
+    {
+        OriginalSprite = book.sprite;
+        if (book.type != Image.Type.Simple || book.preserveAspect || OriginalSprite.rect.width != PaperWidth || OriginalSprite.rect.height != PaperHeight)
+            throw new InvalidOperationException("未核查的完整书页映射");
+        var repair = BookPaperReconstruction.Reconstruct(ReadSourcePixels(), PaperWidth, PaperHeight);
+        RepairMaskCount = repair.mask.Length; ReconstructionResidual = repair.residual;
+        var texture = new Texture2D(PaperWidth, PaperHeight, TextureFormat.RGBA32, false);
+        texture.name = "ElsinoreHan Book Paper"; texture.hideFlags = HideFlags.DontSave;
+        texture.filterMode = OriginalSprite.texture.filterMode; texture.wrapMode = TextureWrapMode.Clamp;
+        texture.LoadRawTextureData(repair.pixels); texture.Apply(false, false);
+        CleanSprite = Sprite.Create(texture, new Rect(0, 0, PaperWidth, PaperHeight), new Vector2(OriginalSprite.pivot.x / PaperWidth, OriginalSprite.pivot.y / PaperHeight),
+            OriginalSprite.pixelsPerUnit, 0, SpriteMeshType.FullRect, OriginalSprite.border);
+        CleanSprite.name = "ElsinoreHan Book Paper"; CleanSprite.hideFlags = HideFlags.DontSave;
         layer = new GameObject("ElsinoreHanBookLabels", typeof(RectTransform));
         var rect = layer.GetComponent<RectTransform>();
-        rect.SetParent(book.transform, false);
+        rect.SetParent(template.transform.parent, false);
         rect.anchorMin = Vector2.zero; rect.anchorMax = Vector2.one;
         rect.offsetMin = Vector2.zero; rect.offsetMax = Vector2.zero;
-        CreateRow("Sacrifice", new Rect(0.64f, 0.795f, 0.19f, 0.075f), new Rect(0.64f, 0.87f, 0.19f, 0.075f), template);
-        CreateRow("for", new Rect(0.69f, 0.625f, 0.10f, 0.075f), new Rect(0.69f, 0.425f, 0.10f, 0.075f), template);
+        first = CreateText("Sacrifice"); second = CreateText("for");
+        PositionLabels();
     }
-
-    private void CreateRow(string source, Rect target, Rect sample, TMP_Text template)
+    private TMP_Text CreateText(string source)
     {
-        var cover = new GameObject(source + "Cover", typeof(RectTransform), typeof(BookLabelCover));
-        var rect = cover.GetComponent<RectTransform>();
-        rect.SetParent(layer.transform, false);
-        rect.anchorMin = new Vector2(target.xMin, target.yMin); rect.anchorMax = new Vector2(target.xMax, target.yMax);
-        rect.offsetMin = Vector2.zero; rect.offsetMax = Vector2.zero;
-        var graphic = cover.GetComponent<BookLabelCover>();
-        graphic.raycastTarget = false;
-        graphic.Configure(book.sprite, sample);
         var label = new GameObject(source + "Text", typeof(RectTransform), typeof(TextMeshProUGUI));
-        var textRect = label.GetComponent<RectTransform>();
-        textRect.SetParent(cover.transform, false);
-        textRect.anchorMin = Vector2.zero; textRect.anchorMax = Vector2.one;
-        // 中文字体行距大于印字区域；扩展不可见排版框，字形仍居中，不缩小字号。
-        textRect.offsetMin = new Vector2(0, -template.fontSize * 0.25f);
-        textRect.offsetMax = new Vector2(0, template.fontSize * 0.25f);
+        var rect = label.GetComponent<RectTransform>(); rect.SetParent(layer.transform, false);
+        rect.anchorMin = rect.anchorMax = new Vector2(0.5f, 0.5f); rect.sizeDelta = new Vector2(600, 160);
         var text = label.GetComponent<TextMeshProUGUI>();
-        text.font = template.font;
-        text.fontSize = template.fontSize;
-        text.fontStyle = FontStyles.Normal;
-        text.color = new Color(0.035f, 0.03f, 0.02f, 1);
-        text.alignment = TextAlignmentOptions.Center;
-        text.enableWordWrapping = false; text.raycastTarget = false;
+        text.font = template.font; text.fontSize = template.fontSize * 0.8f;
+        text.fontStyle = FontStyles.Normal; text.color = template.color;
+        text.alignment = TextAlignmentOptions.Center; text.enableWordWrapping = false; text.raycastTarget = false;
         text.text = "<i>" + source + "</i>";
+        return text;
     }
-
+    private void PositionLabels()
+    {
+        Rect paper = book.rectTransform.rect;
+        // 列中心沿用原生关键词，行中心取完整1400像素纹理；不能拿1322裁剪图直接归一化。
+        float column = book.rectTransform.InverseTransformPoint(template.transform.TransformPoint(Vector3.zero)).x;
+        first.rectTransform.position = book.rectTransform.TransformPoint(new Vector3(column, paper.yMax - paper.height * (288.5f / PaperHeight), 0));
+        second.rectTransform.position = book.rectTransform.TransformPoint(new Vector3(column, paper.yMax - paper.height * (505.5f / PaperHeight), 0));
+    }
     private void Refresh()
     {
-        if (layer != null) layer.SetActive(translated && content != null && content.activeSelf && book.sprite != null && book.sprite.name == "UI_Book_BackGround2");
+        if (failed || layer == null) return;
+        bool visible = translated && content != null && content.activeSelf;
+        var expected = visible ? CleanSprite : OriginalSprite;
+        if (book.sprite != expected) book.sprite = expected;
+        layer.SetActive(visible);
+        PositionLabels();
     }
-
     private void LateUpdate() { Refresh(); }
-    private void OnDestroy() { instances.Remove(this); }
-}
-
-// 只采样原贴图无字区域；3像素羽化位于英文笔画以外，保留分隔线及纸面层次。
-public sealed class BookLabelCover : MaskableGraphic
-{
-    private Sprite source;
-    private Rect sample;
-    public override Texture mainTexture { get { return source == null ? Texture2D.whiteTexture : source.texture; } }
-    public void Configure(Sprite sprite, Rect area) { source = sprite; sample = area; SetAllDirty(); }
-
-    protected override void OnPopulateMesh(VertexHelper mesh)
+    private void OnDestroy()
     {
-        mesh.Clear();
-        if (source == null) return;
-        Rect rect = GetPixelAdjustedRect();
-        Rect tex = source.textureRect;
-        float[] xs = { 0, 3f / source.rect.width / (rectTransform.anchorMax.x - rectTransform.anchorMin.x), 1f - 3f / source.rect.width / (rectTransform.anchorMax.x - rectTransform.anchorMin.x), 1 };
-        float[] ys = { 0, 3f / source.rect.height / (rectTransform.anchorMax.y - rectTransform.anchorMin.y), 1f - 3f / source.rect.height / (rectTransform.anchorMax.y - rectTransform.anchorMin.y), 1 };
-        for (int y = 0; y < 4; y++) for (int x = 0; x < 4; x++)
-        {
-            var uv = new Vector2((tex.x + (sample.x + sample.width * xs[x]) * tex.width) / source.texture.width,
-                                 (tex.y + (sample.y + sample.height * ys[y]) * tex.height) / source.texture.height);
-            var tint = new Color(1, 1, 1, x == 0 || x == 3 || y == 0 || y == 3 ? 0 : 1);
-            mesh.AddVert(new Vector3(rect.x + rect.width * xs[x], rect.y + rect.height * ys[y]), tint, uv);
-        }
-        for (int y = 0; y < 3; y++) for (int x = 0; x < 3; x++)
-        {
-            int a = y * 4 + x;
-            mesh.AddTriangle(a, a + 4, a + 5); mesh.AddTriangle(a, a + 5, a + 1);
-        }
+        instances.Remove(this);
+        if (CleanSprite != null) { var texture = CleanSprite.texture; Destroy(CleanSprite); Destroy(texture); }
+        if (layer != null) Destroy(layer);
     }
 }

@@ -138,6 +138,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += 'ending-book.json' }
+    if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('paper-source.rgba', 'paper-clean.rgba', 'book-render-normal.json', 'book-render-turn-right.json', 'book-render-turn-left.json') }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }
     if ($env:ELSINOREHAN_PROBE_LOG_SCROLL -eq '1') { $reports += @('log-scroll-anchor.tsv', 'log-bottom-anchor.tsv') }
     if ($env:ELSINOREHAN_PROBE_LOG_SPEAKERS) { $reports += 'log-speaker-layout.tsv' }
@@ -152,6 +153,9 @@ try {
         Copy-Item -LiteralPath $source -Destination (Join-Path $runDirectory $name)
     }
     Copy-Item -LiteralPath (Join-Path $GamePath 'BepInEx\LogOutput.log') -Destination (Join-Path $runDirectory 'BepInEx.log')
+    if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) {
+        Get-ChildItem -LiteralPath (Join-Path $GamePath ('ElsinoreHanProbe/' + $runId)) -Filter 'book-atlas-*.bin' | ForEach-Object { Copy-Item -LiteralPath $_.FullName -Destination (Join-Path $runDirectory $_.Name) }
+    }
     $runtimeLog = Get-Content -LiteralPath (Join-Path $runDirectory 'BepInEx.log') -Raw
     $batchMode = $runtimeLog.Contains('Application.isBatchMode=True')
     $muted = $runtimeLog.Contains('Wwise 后台音频暂停结果=AK_Success')
@@ -201,7 +205,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) {
         $bookReport = Get-Content -LiteralPath (Join-Path $runDirectory 'ending-book.json') -Raw | ConvertFrom-Json
         $bookCases = @(Get-Content -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES | Where-Object { ($_ -split "`t")[1] -eq 'True' })
-        if (-not $bookReport.passed -or $bookReport.page_count -ne $bookCases.Count -or $bookReport.pages.Count -ne $bookCases.Count -or $bookReport.input_sha256 -ne (Get-FileHash -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES).Hash.ToLowerInvariant()) { throw '命运之书回归不完整或来源哈希不符。' }
+        if (-not $bookReport.passed -or $bookReport.schema -ne 2 -or -not $bookReport.no_cover_graphics -or -not $bookReport.source_texture_untouched -or $bookReport.page_count -ne $bookCases.Count -or $bookReport.pages.Count -ne $bookCases.Count -or $bookReport.input_sha256 -ne (Get-FileHash -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES).Hash.ToLowerInvariant()) { throw '命运之书回归不完整或来源哈希不符。' }
     }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and $env:ELSINOREHAN_PROBE_BOOK_ONLY -ne '1') {
         $journalArguments = @((Join-Path $PSScriptRoot 'verify-journal-probe.py'), (Join-Path $runDirectory 'journal-ui.txt'), '--output', (Join-Path $runDirectory 'journal-analysis.json'))
