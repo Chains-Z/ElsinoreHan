@@ -1,0 +1,58 @@
+[
+  {
+    "id": "polonius-preparations-leaf",
+    "source": "Necessary preparations ought to be made—but of course, there is little use in me making them, as I owe the court nothing further.",
+    "target": "临走前总该做些安排——不过，我已不欠宫廷什么了，再由我来操办，也没什么意义。",
+    "source_sha256": "58c2ae910d95bda09e4a025cfe24ed9ee943e2510a9f8f3cd2824efe645cf16d",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "leave_decision",
+        "line": 20959
+      }
+    ]
+  },
+  {
+    "id": "polonius-preparations-dialogue",
+    "source": "<line-height=90%>Necessary preparations ought to be made—but of course, there is little use in me making them, as I owe the court nothing further.",
+    "target": "<line-height=90%>临走前总该做些安排——不过，我已不欠宫廷什么了，再由我来操办，也没什么意义。",
+    "source_sha256": "f3639f9f72276691d276ed8b8e17b92bfd3ebb09f6639805f91b6b02b73487a4",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "leave_decision",
+        "line": 20959
+      }
+    ]
+  },
+  {
+    "id": "polonius-preparations-speaker",
+    "source": "<b>Polonius:</b> <indent=16%>Necessary preparations ought to be made—but of course, there is little use in me making them, as I owe the court nothing further.",
+    "target": "<b>波洛涅斯:</b> <indent=16%>临走前总该做些安排——不过，我已不欠宫廷什么了，再由我来操办，也没什么意义。",
+    "source_sha256": "db860b55da8e6897353da8408307552bbb6f4716562b6555741d897e59d98040",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "leave_decision",
+        "line": 20959
+      }
+    ]
+  },
+  {
+    "id": "polonius-preparations-context",
+    "source": "<b>Polonius:</b> <indent=16%>Then we shall depart as soon as possible.</indent>\n<b>Polonius:</b> <indent=16%>Necessary preparations ought to be made—but of course, there is little use in me making them, as I owe the court nothing further.</indent>\n<b>Laertes:</b> <indent=16%>Let us gather our belongings, Father. I'll have Reynaldo staff a carriage.",
+    "target": "<b>波洛涅斯:</b> <indent=16%>那我们就尽快启程。</indent>\n<b>波洛涅斯:</b> <indent=16%>临走前总该做些安排——不过，我已不欠宫廷什么了，再由我来操办，也没什么意义。</indent>\n<b>雷欧提斯:</b> <indent=16%>我们收拾行李吧，父亲。我会让雷纳尔多为马车安排人手。",
+    "source_sha256": "5e02bd7b027782054752f43db721820bfd6d11cc2ec75de7e52297a1804cff73",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "leave_decision",
+        "line": 20959
+      }
+    ]
+  }
+]

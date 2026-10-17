@@ -596,5 +596,26 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p07685-58c2ae910d95",
+    "source": "Necessary preparations ought to be made—but of course, there is little use in me making them, as I owe the court nothing further.",
+    "source_sha256": "58c2ae910d95bda09e4a025cfe24ed9ee943e2510a9f8f3cd2824efe645cf16d",
+    "original_target": "必要的安排还是该做——不过，我当然也没什么必要去做了，毕竟我对宫廷已不再负有什么义务。",
+    "corrected_target": "临走前总该做些安排——不过，我已不欠宫廷什么了，再由我来操办，也没什么意义。",
+    "kind": "text",
+    "reason": "用户确认自然译法。little use in me making them译为再由我来操办也没什么意义，保留先说应当准备再改口的语气；owe the court nothing further译为已不欠宫廷什么。不擅自指定为公文交接、辞职手续或不愿收拾行李。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0055.json:p07685-58c2ae910d95",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "leave_decision",
+        "line": 20959
+      },
+      "用户2026-10-18实际游玩截图及整句修改确认"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
