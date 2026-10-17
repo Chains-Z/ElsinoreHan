@@ -1,0 +1,100 @@
+[
+  {
+    "id": "proposal-dialogue",
+    "source": "<line-height=90%>I will.",
+    "before": "<line-height=90%>我会动手。",
+    "target": "<line-height=90%>我愿意。",
+    "source_sha256": "b4007f15b10fb9aa7bf551bc7c1537bd978e7526a267bb5e171b1572a9b674a6",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23587
+      },
+      "Assembly-CSharp.dll:DialogueUI.onStartDialogue 调用 UiStrings.SetLineHeight，添加 <line-height=90%> 后传入 DialogueAction.Text",
+      "用户2026-10-18反馈：求婚答复在对话框串译为动手，日志正确"
+    ]
+  },
+  {
+    "id": "proposal-bare",
+    "source": "I will.",
+    "before": "我愿意。",
+    "target": "我愿意。",
+    "source_sha256": "b6fb1c286b88b03c6656d36f3f05fa32dd889a5da6249c3350e1ddc030c710ad",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23587
+      },
+      "Assembly-CSharp.dll:DialogueUI.onStartDialogue 调用 UiStrings.SetLineHeight，添加 <line-height=90%> 后传入 DialogueAction.Text",
+      "用户2026-10-18反馈：求婚答复在对话框串译为动手，日志正确"
+    ]
+  },
+  {
+    "id": "threat-0-bare",
+    "source": "If you won't stop him, rest assured that if he <b>ever</b> sets foot on Danish soil again, <b>I will.</b> Farewell.",
+    "before": "如果你不肯阻止他，那你放心，只要他<b>有朝一日</b>再次踏上丹麦的土地，<b>我就会动手。</b>告辞。",
+    "target": "如果你不肯阻止他，那你放心，只要他<b>有朝一日</b>再次踏上丹麦的土地，<b>我就会动手。</b>告辞。",
+    "source_sha256": "6296e016e11e284e370e9c0c052d8aa4eb387ca76c8491e6eeeb7645012af4f1",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_LaertesAsksBernardosHelp",
+        "line": 28882
+      },
+      "原词表ID:p10210-6296e016e11e"
+    ]
+  },
+  {
+    "id": "threat-0-dialogue",
+    "source": "<line-height=90%>If you won't stop him, rest assured that if he <b>ever</b> sets foot on Danish soil again, <b>I will.</b> Farewell.",
+    "before": "<line-height=90%>如果你不肯阻止他，那你放心，只要他<b>有朝一日</b>再次踏上丹麦的土地，<b>我就会动手。</b>告辞。",
+    "target": "<line-height=90%>如果你不肯阻止他，那你放心，只要他<b>有朝一日</b>再次踏上丹麦的土地，<b>我就会动手。</b>告辞。",
+    "source_sha256": "d1e8f36b43f2b9a6eb5685d974a517705693eb760748ddbdeebcb22049437399",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_LaertesAsksBernardosHelp",
+        "line": 28882
+      },
+      "原词表ID:p10210-6296e016e11e"
+    ]
+  },
+  {
+    "id": "threat-1-bare",
+    "source": "If you won't stop him, rest assured, <b>I will.</b> Farewell.",
+    "before": "如果你不肯阻止他，那你放心，<b>我会动手。</b>告辞。",
+    "target": "如果你不肯阻止他，那你放心，<b>我会动手。</b>告辞。",
+    "source_sha256": "3d82a78916a658f9f18af0b2bd63343bc6193797459e2058fdcc94952b6d2beb",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_LaertesAsksBernardosHelp",
+        "line": 28884
+      },
+      "原词表ID:p10211-3d82a78916a6"
+    ]
+  },
+  {
+    "id": "threat-1-dialogue",
+    "source": "<line-height=90%>If you won't stop him, rest assured, <b>I will.</b> Farewell.",
+    "before": "<line-height=90%>如果你不肯阻止他，那你放心，<b>我会动手。</b>告辞。",
+    "target": "<line-height=90%>如果你不肯阻止他，那你放心，<b>我会动手。</b>告辞。",
+    "source_sha256": "786d90fbe0bc882918b0a8ae93d66c414563304336c101631316a4bdefcbe043",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_LaertesAsksBernardosHelp",
+        "line": 28884
+      },
+      "原词表ID:p10211-3d82a78916a6"
+    ]
+  }
+]

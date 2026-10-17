@@ -8,6 +8,19 @@ from export_sol_full import ROOT, apply_supplemental, encode, format_rule, print
 
 
 class DynamicFormatTests(unittest.TestCase):
+    def test_dialogue_runtime_alias_reuses_governed_text_and_exact_envelope(self):
+        alias = json.loads((ROOT / "translation/supplemental/dialogue-runtime-aliases.json").read_text(encoding="utf-8"))[0]
+        translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
+        original = next(row for row in translations if row["id"] == alias["existing_id"])
+        self.assertEqual(apply_supplemental([original], [alias])[-1]["target"], "<line-height=90%>我愿意。")
+        for field in ("runtime_prefix", "target", "existing_target_sha256"):
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                apply_supplemental([original], [{**alias, field: alias[field] + "变更"}])
+        changed_source = {**alias, "source": "<line-height=90%>I do."}
+        changed_source["source_sha256"] = hashlib.sha256(changed_source["source"].encode()).hexdigest()
+        with self.assertRaises(ValueError):
+            apply_supplemental([original], [changed_source])
+
     def test_exact_alias_export_rejects_changed_target_or_provenance(self):
         alias = json.loads((ROOT / "translation/supplemental/hamlet-bio-alias.json").read_text(encoding="utf-8"))[0]
         translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))

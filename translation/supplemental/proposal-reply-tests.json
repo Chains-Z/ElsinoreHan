@@ -1,0 +1,66 @@
+[
+  {
+    "id": "proposal-bare",
+    "source": "I will.",
+    "target": "我愿意。",
+    "source_sha256": "b6fb1c286b88b03c6656d36f3f05fa32dd889a5da6249c3350e1ddc030c710ad",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23587
+      },
+      "Assembly-CSharp.dll:DialogueUI.onStartDialogue 调用 UiStrings.SetLineHeight，添加 <line-height=90%> 后传入 DialogueAction.Text",
+      "用户2026-10-18反馈：求婚答复在对话框串译为动手，日志正确"
+    ]
+  },
+  {
+    "id": "proposal-dialogue",
+    "source": "<line-height=90%>I will.",
+    "target": "<line-height=90%>我愿意。",
+    "source_sha256": "b4007f15b10fb9aa7bf551bc7c1537bd978e7526a267bb5e171b1572a9b674a6",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23587
+      },
+      "Assembly-CSharp.dll:DialogueUI.onStartDialogue 调用 UiStrings.SetLineHeight，添加 <line-height=90%> 后传入 DialogueAction.Text",
+      "用户2026-10-18反馈：求婚答复在对话框串译为动手，日志正确"
+    ]
+  },
+  {
+    "id": "proposal-log",
+    "source": "<b>Ophelia:</b> <indent=16%>I will.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我愿意。",
+    "source_sha256": "bb63a3b5e6f9a4bdd9afa60660732c86329442c663c133aee127aed53360f370",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23587
+      },
+      "Assembly-CSharp.dll:DialogueUI.onStartDialogue 调用 UiStrings.SetLineHeight，添加 <line-height=90%> 后传入 DialogueAction.Text",
+      "用户2026-10-18反馈：求婚答复在对话框串译为动手，日志正确"
+    ]
+  },
+  {
+    "id": "proposal-log-context",
+    "source": "<b>Ophelia:</b> <indent=16%>I will.</indent>\n<b>Hamlet:</b> <indent=16%>Oh... ha. My heart's fluttering as fast as a rat's. I can hardly breathe.</indent>\n<b>Ophelia:</b> <indent=16%>Your face is so pale. You look absolutely frightened.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我愿意。</indent>\n<b>哈姆雷特:</b> <indent=16%>哦……哈。我的心跳得像老鼠的心一样快。我都快喘不过气了。</indent>\n<b>奥菲莉娅:</b> <indent=16%>你的脸好苍白。看起来简直吓坏了。",
+    "source_sha256": "53027eecf1635df9ab7a94fb6588d490d7ae3832cdc9ae26adc345a3e4c9fcb4",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23587
+      },
+      "Assembly-CSharp.dll:DialogueUI.onStartDialogue 调用 UiStrings.SetLineHeight，添加 <line-height=90%> 后传入 DialogueAction.Text",
+      "用户2026-10-18反馈：求婚答复在对话框串译为动手，日志正确"
+    ]
+  }
+]

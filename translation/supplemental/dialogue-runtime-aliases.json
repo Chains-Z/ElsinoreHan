@@ -1,0 +1,24 @@
+[
+  {
+    "id": "dialogue-line-height-i-will",
+    "source": "<line-height=90%>I will.",
+    "source_sha256": "b4007f15b10fb9aa7bf551bc7c1537bd978e7526a267bb5e171b1572a9b674a6",
+    "target": "<line-height=90%>我愿意。",
+    "existing_id": "p08435-b6fb1c286b88",
+    "existing_source": "I will.",
+    "existing_source_sha256": "b6fb1c286b88b03c6656d36f3f05fa32dd889a5da6249c3350e1ddc030c710ad",
+    "existing_target_sha256": "68ff294db41a7cfe7703953b43e90ad9617eee382a07dda869fe962b5039896e",
+    "runtime_prefix": "<line-height=90%>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23587
+      },
+      "Assembly-CSharp.dll:DialogueUI.onStartDialogue 调用 UiStrings.SetLineHeight，添加 <line-height=90%> 后传入 DialogueAction.Text",
+      "用户2026-10-18反馈：求婚答复在对话框串译为动手，日志正确"
+    ],
+    "reason": "完整运行原文优先命中，绕过从雷欧提斯威胁台词生成的 I will. 片段译文；正文逐字复用经治理译文，不改变原业务数据或地点"
+  }
+]

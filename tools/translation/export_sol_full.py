@@ -31,10 +31,14 @@ def apply_supplemental(rows, entries):
                 raise ValueError("日志尾LF别名必须逐字复用真实通知原子")
         if "existing_id" in entry:
             original = by_id.get(entry["existing_id"])
+            prefix = entry.get("runtime_prefix", "")
+            if prefix and (prefix != "<line-height=90%>" or original is None
+                           or source != prefix + original["source"]):
+                raise ValueError("对白运行别名必须使用真实行高封套和原句")
             if (original is None or entry.get("existing_source") != original["source"]
                     or entry.get("existing_source_sha256") != hashlib.sha256(original["source"].encode("utf-8")).hexdigest()
                     or entry.get("existing_target_sha256") != hashlib.sha256(original["target"].encode("utf-8")).hexdigest()
-                    or entry["target"] != original["target"]):
+                    or entry["target"] != prefix + original["target"]):
                 raise ValueError("精确源别名必须完整复用已记录的原条目及译文")
         if not re.search(r"[\u3400-\u9fff]", entry["target"]) or validate([entry], {"translations": [{"id": entry["id"], "target": entry["target"]}]}):
             raise ValueError("补译内容或格式不完整")
@@ -172,7 +176,7 @@ def main():
             terminology = json.loads(terminology_path.read_text(encoding="utf-8"))
             rows = apply_supplemental(rows, terminology)
             supplemental += terminology
-    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "bio-runtime-aliases.json", "lead-runtime-aliases.json", "information-runtime-aliases.json", "dialogue-log-runtime-aliases.json", "mixed-log-translations.json", "ending-book-translations.json"):
+    for filename in ("notification-translations.json", "runtime-closeup-translations.json", "hamlet-bio-alias.json", "bio-runtime-aliases.json", "lead-runtime-aliases.json", "information-runtime-aliases.json", "dialogue-log-runtime-aliases.json", "dialogue-runtime-aliases.json", "mixed-log-translations.json", "ending-book-translations.json"):
         extra_path = SUPPLEMENTAL.with_name(filename)
         if extra_path.exists():
             extra_entries = json.loads(extra_path.read_text(encoding="utf-8"))
