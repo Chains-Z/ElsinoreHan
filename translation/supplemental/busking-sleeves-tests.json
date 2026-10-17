@@ -1,0 +1,58 @@
+[
+  {
+    "id": "busking-sleeves-leaf",
+    "source": "Aye! Take 'er sleeves down!",
+    "target": "对啊！把她衣服扒下来！",
+    "source_sha256": "6a30500c5d4341256261eac5cdfc330003163969ea0e932046bee63a858222e0",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28635
+      }
+    ]
+  },
+  {
+    "id": "busking-sleeves-dialogue",
+    "source": "<line-height=90%>Aye! Take 'er sleeves down!",
+    "target": "<line-height=90%>对啊！把她衣服扒下来！",
+    "source_sha256": "0ba1fe251d9f5d276cef8fd58e4598f85807b6d435b3793aaf3e52aa9b6c4986",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28635
+      }
+    ]
+  },
+  {
+    "id": "busking-sleeves-speaker",
+    "source": "<b>Brigand:</b> <indent=16%>Aye! Take 'er sleeves down!",
+    "target": "<b>强盗:</b> <indent=16%>对啊！把她衣服扒下来！",
+    "source_sha256": "4e1b866493a17c3583d5025f89811fc76bda58151ca6bd8f6aa07c068b0831bb",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28635
+      }
+    ]
+  },
+  {
+    "id": "busking-sleeves-context",
+    "source": "<b>Brigand:</b> <indent=16%>I can think of a few ways you can entertain each other!</indent>\n<b>Brigand:</b> <indent=16%>Aye! Take 'er sleeves down!</indent>\n<b>Villager:</b> <indent=16%>We'll pay yeh!</indent>\n<b>Rosie:</b> <indent=16%>Y-you're all vile!</indent>\n<b>Guilda:</b> <indent=16%>Yeah! Shame on you! Our love is <i>not</i> for sale!",
+    "target": "<b>强盗:</b> <indent=16%>我倒能想到几种让你们彼此取乐的法子！</indent>\n<b>强盗:</b> <indent=16%>对啊！把她衣服扒下来！</indent>\n<b>村民:</b> <indent=16%>我们给你们钱！</indent>\n<b>罗茜:</b> <indent=16%>你、你们都太下流了！</indent>\n<b>吉尔妲:</b> <indent=16%>就是！你们要不要脸！我们的爱<i>不</i>卖！",
+    "source_sha256": "3bf946ed2d529c17e3c42f358760bbc49d2db2c9bc80a8e21083d86215e088c7",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28635
+      }
+    ]
+  }
+]

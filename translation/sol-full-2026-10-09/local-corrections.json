@@ -991,5 +991,26 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p10117-6a30500c5d43",
+    "source": "Aye! Take 'er sleeves down!",
+    "source_sha256": "6a30500c5d4341256261eac5cdfc330003163969ea0e932046bee63a858222e0",
+    "original_target": "对啊！把她的袖子扒下来！",
+    "corrected_target": "对啊！把她衣服扒下来！",
+    "kind": "text",
+    "reason": "用户明确接受语境意译。sleeves本身为衣袖，没有确认固定俚语义；前文观众等着看她们脱裙子，后文起哄彼此取乐和给钱，故将具体衣袖泛化为衣服以自然传达脱衣起哄，不补成脱光，不声称sleeves另指身体部位。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0070.json:p10117-6a30500c5d43",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_Busking",
+        "line": 28635
+      },
+      "用户2026-10-18确认：对啊！把她衣服扒下来！"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
