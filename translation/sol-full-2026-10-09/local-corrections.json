@@ -724,5 +724,26 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p08385-00e6de3a584f",
+    "source": "Hm. Morbid.",
+    "source_sha256": "00e6de3a584f4b61ab034143d31e354d852ac33f7b4aed6006d9c523c2866535",
+    "original_target": "嗯。真阴郁。",
+    "corrected_target": "嗯，你这想法可够瘆人的。",
+    "kind": "text",
+    "reason": "用户确认morbid在墓地对话中评价哈姆雷特从死亡确定性获得安慰的想法，不是情绪阴郁或忌讳不吉利。改为瘆人，保留轻微打趣；用户明确要求下句practical保留务实，不使用实际。未全局替换其他morbid或聚会句。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0059.json:p08385-00e6de3a584f",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23464
+      },
+      "用户2026-10-18确认瘆人的译法并要求保留务实"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

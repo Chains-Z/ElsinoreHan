@@ -1,0 +1,58 @@
+[
+  {
+    "id": "graveyard-morbid-leaf",
+    "source": "Hm. Morbid.",
+    "target": "嗯，你这想法可够瘆人的。",
+    "source_sha256": "00e6de3a584f4b61ab034143d31e354d852ac33f7b4aed6006d9c523c2866535",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23464
+      }
+    ]
+  },
+  {
+    "id": "graveyard-morbid-dialogue",
+    "source": "<line-height=90%>Hm. Morbid.",
+    "target": "<line-height=90%>嗯，你这想法可够瘆人的。",
+    "source_sha256": "e33adf7e2ae126234b64d01ea1781cebe5b5566465842db35193ca3983d575f6",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23464
+      }
+    ]
+  },
+  {
+    "id": "graveyard-morbid-speaker",
+    "source": "<b>Ophelia:</b> <indent=16%>Hm. Morbid.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>嗯，你这想法可够瘆人的。",
+    "source_sha256": "406f5ce0e14a46ba0d66417f53e48ab6df0b1403bc6c93d17727dba4c29b10a5",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23464
+      }
+    ]
+  },
+  {
+    "id": "graveyard-morbid-context",
+    "source": "<b>Hamlet:</b> <indent=16%>Or—maybe it's the certainty of death in an otherwise-uncertain world. There's something comforting in that.</indent>\n<b>Ophelia:</b> <indent=16%>Hm. Morbid.</indent>\n<b>Hamlet:</b> <indent=16%>I prefer 'practical'.",
+    "target": "<b>哈姆雷特:</b> <indent=16%>又或者——这世上什么都难以确定，唯有死亡是确定的。也许这让我感到些许安慰。</indent>\n<b>奥菲莉娅:</b> <indent=16%>嗯，你这想法可够瘆人的。</indent>\n<b>哈姆雷特:</b> <indent=16%>我更愿意叫它“务实”。",
+    "source_sha256": "cdc5cd761dc9da373cbe6c4620f5afe56b5ce53af5e54774c8ebde009a6edef9",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "HAMROM_Results",
+        "line": 23464
+      }
+    ]
+  }
+]
