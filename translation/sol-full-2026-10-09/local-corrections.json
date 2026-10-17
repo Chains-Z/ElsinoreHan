@@ -580,5 +580,21 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p07484-4211bd063067",
+    "source": "You tore me from my son. My son from his <i>father.</i>",
+    "source_sha256": "4211bd063067a9ff678d3810c8d2d7f3d25620728584b8055a4399961d31b936",
+    "original_target": "你让我与儿子分离。让我的儿子失去了他的<i>父亲。</i>",
+    "corrected_target": "你毁了我们母子的感情，也让我的儿子失去了他的<i>父亲。</i>",
+    "kind": "text",
+    "reason": "按用户确认将tore me from my son的母子关系撕裂译为毁了我们母子的感情，避免分离被理解为分居或强行带走。真实FLAVOR_GertrudeQuestionClaudius中乔特鲁德指责克劳狄斯谋杀及谎言毁掉家庭，后半句保留儿子失去父亲的含义与父亲的斜体，不增添具体分离动作。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0053.json:p07484-4211bd063067",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:FLAVOR_GertrudeQuestionClaudius:20408",
+      "用户实际游玩截图、母子感情语境反馈及修改确认，2026-10-17"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

@@ -1,0 +1,65 @@
+[
+  {
+    "id": "gertrude-family-leaf",
+    "source": "You tore me from my son. My son from his <i>father.</i>",
+    "target": "你毁了我们母子的感情，也让我的儿子失去了他的<i>父亲。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_GertrudeQuestionClaudius",
+        "line": 20408
+      }
+    ]
+  },
+  {
+    "id": "gertrude-family-speaker",
+    "source": "<b>Gertrude:</b> <indent=16%>You tore me from my son. My son from his <i>father.</i>",
+    "target": "<b>乔特鲁德:</b> <indent=16%>你毁了我们母子的感情，也让我的儿子失去了他的<i>父亲。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_GertrudeQuestionClaudius",
+        "line": 20408
+      }
+    ]
+  },
+  {
+    "id": "gertrude-family-context",
+    "source": "<b>Gertrude:</b> <indent=16%>You don't think I understand that? I was <i>married</i> to him, you coward!</indent>\n<b>Gertrude:</b> <indent=16%>But murder—cold murder—that was wrong. You took my family away from me.</indent>\n<b>Gertrude:</b> <indent=16%>You tore me from my son. My son from his <i>father.</i></indent>\n<b>Claudius:</b> <indent=16%>I know. I know it was wrong, and I've repented and prayed daily to the Lord...</indent>\n<b>Gertrude:</b> <indent=16%>No. It's not the Lord you need to repent to. It's <b>me.</b>",
+    "target": "<b>乔特鲁德:</b> <indent=16%>你以为我不明白吗？我可是<i>嫁给了</i>他，你这个懦夫！</indent>\n<b>乔特鲁德:</b> <indent=16%>可是谋杀——冷血的谋杀——那是错的。你夺走了我的家人。</indent>\n<b>乔特鲁德:</b> <indent=16%>你毁了我们母子的感情，也让我的儿子失去了他的<i>父亲。</i></indent>\n<b>克劳狄斯:</b> <indent=16%>我知道。我知道那是错的，我每天都在向主忏悔、祈祷……</indent>\n<b>乔特鲁德:</b> <indent=16%>不。你需要忏悔的对象不是主。是<b>我。</b>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_GertrudeQuestionClaudius",
+        "line": 20405
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_GertrudeQuestionClaudius",
+        "line": 20407
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_GertrudeQuestionClaudius",
+        "line": 20408
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_GertrudeQuestionClaudius",
+        "line": 20410
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_GertrudeQuestionClaudius",
+        "line": 20412
+      }
+    ]
+  }
+]
