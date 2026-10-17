@@ -1,0 +1,167 @@
+{
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "a68de90d31f53d8db6da19ae7e2366c96127de436c32a08cc6b5e4d6f7605823",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "489bf86da5cc6b262270a79e3aa5b8d1769aa51e09290d0fdca5b1ddfaef206e",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+    "README.md": "d7ff8d9ef09244c92c533f0f7ce2b9f8ab4191b4ed8c5a14e0c13ccdd22b908f",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933"
+  },
+  "package_file_count": 40,
+  "zip_sha256": "6fc99766d3edbfb137330ecc81b0b34e4748c5a64aebfd772c49ab9c3a05e3fc",
+  "zip_matches_package": true,
+  "plugin_version": "1.5.9",
+  "plugin_sha256": "a68de90d31f53d8db6da19ae7e2366c96127de436c32a08cc6b5e4d6f7605823",
+  "font_bundle_sha256": "60fdd8619c0d83acbe762d8cba88d5655254f73b898280b8a7f09ae712b617fc",
+  "date": "2026-10-17",
+  "status": "installed_verified",
+  "passed": true,
+  "installed": true,
+  "dictionary_count": 17067,
+  "dictionary_sha256": "489bf86da5cc6b262270a79e3aa5b8d1769aa51e09290d0fdca5b1ddfaef206e",
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dynamic_rules": 157,
+  "changed_vs_installed_package": [
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
+    "README.md"
+  ],
+  "changed_translation_ids": [
+    "p09518-1b2d2dfe69a1",
+    "s00175-cb53f9849d9e"
+  ],
+  "source": "To—<i>Ophelia?</i>",
+  "target": "和——<i>奥菲莉娅？</i>",
+  "source_sha256": "cb53f9849d9e6b200ca48275d3a2658d42249a1fad324bca6408f59b51b3b6ec",
+  "source_scene": "QUEEN_Coronation",
+  "source_line": 15107,
+  "source_asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+  "chinese_character_set_unchanged": true,
+  "actual_recursive_xunity_consumer_passed": true,
+  "consumer_cases": 6,
+  "export_governance_unit_tests": 15,
+  "limits": [
+    "真实XUnity组件及离线来源核验通过；未启动游戏，未执行UI像素或剧情端到端测试"
+  ],
+  "candidate_verification": "runtime/evidence/brit-betrothal-verification-2026-10-17.json",
+  "backup_path": null,
+  "backup_created": false,
+  "backup_policy": "disabled",
+  "game_started": false,
+  "original_game_files_unchanged": true,
+  "original_save_files_unchanged": true,
+  "original_save_files_count": 8,
+  "protection": {
+    "game_files": [
+      {
+        "path": "Elsinore.exe",
+        "sha256": "df4fa0642113adec0d1f717a47526084314b3181b5f62a4547fcf05cd318fcf0",
+        "mtime_ns": 1710060162433595200,
+        "size": 639488
+      },
+      {
+        "path": "UnityPlayer.dll",
+        "sha256": "ccba993e746eef5c51de3eafa4ef3d62efddf463383ba42ec4341e88f4f3a449",
+        "mtime_ns": 1710060162468174600,
+        "size": 18116096
+      },
+      {
+        "path": "Elsinore_Data/resources.assets",
+        "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd",
+        "mtime_ns": 1710060162435595100,
+        "size": 6971564
+      },
+      {
+        "path": "Elsinore_Data/Managed/Assembly-CSharp.dll",
+        "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af",
+        "mtime_ns": 1710060162434595700,
+        "size": 5664768
+      }
+    ],
+    "save_files": [
+      {
+        "path": "elsinore_log.json",
+        "sha256": "dfc52755e317faa9ddf1c1d227161bf29b32c322f3cee635f38b79c0942bed50",
+        "mtime_ns": 1792233772427466500,
+        "size": 8761416
+      },
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "ab90ba4921012b8a321de8826680db96970048a6a8d2ab7b6ce8aade4bbe2fef",
+        "mtime_ns": 1792231757143824000,
+        "size": 12620358
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "610355fcfed494bf6bb085deb9ea49d41b126bb9d02d28f0b88a806fef06b65f",
+        "mtime_ns": 1792229150677914500,
+        "size": 14240014
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "03233e96ff421d82eaefd0fc5e33796159e680b1f0eda0c8c260f6cde259a917",
+        "mtime_ns": 1792079374738223500,
+        "size": 4567222
+      },
+      {
+        "path": "game.save",
+        "sha256": "b93e46e2dc0d5a83164546ba3a9ad5a11f2cfecf2c498b7df8ad709aec60b8a0",
+        "mtime_ns": 1792233759355977100,
+        "size": 3552164
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968",
+        "mtime_ns": 1792230271423042800,
+        "size": 151
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341",
+        "mtime_ns": 1792231962736201500,
+        "size": 52
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee",
+        "mtime_ns": 1791627908187370400,
+        "size": 106
+      }
+    ]
+  },
+  "plugin_bytes_unchanged": true,
+  "font_bytes_unchanged": true
+}

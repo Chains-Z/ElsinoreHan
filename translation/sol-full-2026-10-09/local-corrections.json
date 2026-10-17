@@ -564,5 +564,21 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "s00175-cb53f9849d9e",
+    "source": "To—<i>Ophelia?</i>",
+    "source_sha256": "cb53f9849d9e6b200ca48275d3a2658d42249a1fad324bca6408f59b51b3b6ec",
+    "original_target": "给——<i>奥菲莉娅？</i>",
+    "corrected_target": "和——<i>奥菲莉娅？</i>",
+    "kind": "text",
+    "reason": "用户确认修正订婚介词误译。真实QUEEN_Coronation中克劳狄斯刚宣布与奥菲莉娅订婚，布莉特惊讶追问，To承接betrothed to，表示与谁订婚；译为和而非给，保留破折号停顿、疑问及原斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0111.json:s00175-cb53f9849d9e",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:QUEEN_Coronation:15107",
+      "用户实际游玩截图及修改安装指令，2026-10-17"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
