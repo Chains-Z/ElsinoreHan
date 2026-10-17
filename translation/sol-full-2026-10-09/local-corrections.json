@@ -617,5 +617,68 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p00941-3dd934ed0356",
+    "source": "Without thinking, I strip myself of my cloak and surcoat and with my meager weight pull him as far up the bank as I can. His feet find purchase, and he stumbles up onto the shore.",
+    "source_sha256": "3dd934ed035673d1233bd88536d14863ea898c00ea6aa8cdef5a2117b20fa5ab",
+    "original_target": "我不假思索地脱下披风和外衣，用自己轻微的体重，尽力把他往岸上拉。他的双脚终于有了着力处，踉跄着爬上了岸。",
+    "corrected_target": "我不假思索地脱下披风和外衣，借着自己那点体重，尽力把他往岸上拉。他的双脚终于有了着力处，踉跄着爬上了岸。",
+    "kind": "text",
+    "reason": "用户确认修正meager weight的不自然搭配，保留体重有限及尽力救人，不增加援手或动作",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00941-3dd934ed0356",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 528
+      },
+      "用户2026-10-18明确要求修正"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p00964-4197d8fc51e7",
+    "source": "The Queen is dead. Long live the Queen.\nIf I sat on the throne, I could create nearly any world I liked.\nBut that sort of power comes with a price.",
+    "source_sha256": "4197d8fc51e7e2b7ff9ea01609c46a2e4a86dee05c606859d41e7addeefe899e",
+    "original_target": "女王已死。女王万岁。\n如果我坐上王位，几乎就能创造任何我想要的世界。\n但这样的权力，是有代价的。",
+    "corrected_target": "王后已死。女王万岁。\n如果我坐上王位，几乎就能创造任何我想要的世界。\n但这样的权力，是有代价的。",
+    "kind": "text",
+    "reason": "用户确认死者乔特鲁德称王后；后一句新女王的称谓保留，不全局互换Queen",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00964-4197d8fc51e7",
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Queen",
+        "field": "description"
+      },
+      "用户2026-10-18明确要求修正"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p00926-69f375d99aed",
+    "source": "Hamlet doesn't understand how to rule on his own. He's never had the head for it. But he's damn well willing to try.",
+    "source_sha256": "69f375d99aed2aae901dd8b7886c18657189f7840a1b3d2a124e556da4431131",
+    "original_target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。但他还真他妈愿意试一试。",
+    "corrected_target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可是，妈的，他就是愿意试一试。",
+    "kind": "text",
+    "reason": "用户2026-10-18明确要求保留原文damn well的粗口强调，并选定可是，妈的，他就是愿意试一试。将粗口移为叙述者插语，避免两个他相连，不改成对哈姆雷特的辱骂；保留愿意尝试而非保证成功。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0013.json:p00926-69f375d99aed",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 511
+      },
+      "用户2026-10-18通过选项明确确认此版粗口译法"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]

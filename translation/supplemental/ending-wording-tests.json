@@ -1,0 +1,146 @@
+[
+  {
+    "id": "ending-wording-p00941-3dd934ed0356-leaf",
+    "source": "Without thinking, I strip myself of my cloak and surcoat and with my meager weight pull him as far up the bank as I can. His feet find purchase, and he stumbles up onto the shore.",
+    "target": "我不假思索地脱下披风和外衣，借着自己那点体重，尽力把他往岸上拉。他的双脚终于有了着力处，踉跄着爬上了岸。",
+    "source_sha256": "3dd934ed035673d1233bd88536d14863ea898c00ea6aa8cdef5a2117b20fa5ab",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00941-3dd934ed0356",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 528
+      },
+      "用户2026-10-18明确要求修正"
+    ]
+  },
+  {
+    "id": "ending-wording-p00941-3dd934ed0356-dialogue",
+    "source": "<line-height=90%>Without thinking, I strip myself of my cloak and surcoat and with my meager weight pull him as far up the bank as I can. His feet find purchase, and he stumbles up onto the shore.",
+    "target": "<line-height=90%>我不假思索地脱下披风和外衣，借着自己那点体重，尽力把他往岸上拉。他的双脚终于有了着力处，踉跄着爬上了岸。",
+    "source_sha256": "40f599dd217f7a7d65b4d9f4f7479ded3b865725a75bbd4a96224805aa6a8d40",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00941-3dd934ed0356",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 528
+      },
+      "用户2026-10-18明确要求修正"
+    ]
+  },
+  {
+    "id": "ending-wording-p00941-3dd934ed0356-log",
+    "source": "<b>Ophelia:</b> <indent=16%>Without thinking, I strip myself of my cloak and surcoat and with my meager weight pull him as far up the bank as I can. His feet find purchase, and he stumbles up onto the shore.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我不假思索地脱下披风和外衣，借着自己那点体重，尽力把他往岸上拉。他的双脚终于有了着力处，踉跄着爬上了岸。",
+    "source_sha256": "04d3170d05917bdc8587a7afe22189d16d5cd28ca01aa95f70585d2b081855bb",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00941-3dd934ed0356",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 528
+      },
+      "用户2026-10-18明确要求修正"
+    ]
+  },
+  {
+    "id": "ending-wording-p00964-4197d8fc51e7-leaf",
+    "source": "The Queen is dead. Long live the Queen.\nIf I sat on the throne, I could create nearly any world I liked.\nBut that sort of power comes with a price.",
+    "target": "王后已死。女王万岁。\n如果我坐上王位，几乎就能创造任何我想要的世界。\n但这样的权力，是有代价的。",
+    "source_sha256": "4197d8fc51e7e2b7ff9ea01609c46a2e4a86dee05c606859d41e7addeefe899e",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00964-4197d8fc51e7",
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Queen",
+        "field": "description"
+      },
+      "用户2026-10-18明确要求修正"
+    ]
+  },
+  {
+    "id": "ending-wording-p00964-4197d8fc51e7-dialogue",
+    "source": "<line-height=90%>The Queen is dead. Long live the Queen.\nIf I sat on the throne, I could create nearly any world I liked.\nBut that sort of power comes with a price.",
+    "target": "<line-height=90%>王后已死。女王万岁。\n如果我坐上王位，几乎就能创造任何我想要的世界。\n但这样的权力，是有代价的。",
+    "source_sha256": "54920b47402694b063ff537c3c166207726bd4143d00c5334d6f4562d575a837",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00964-4197d8fc51e7",
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Queen",
+        "field": "description"
+      },
+      "用户2026-10-18明确要求修正"
+    ]
+  },
+  {
+    "id": "ending-wording-p00964-4197d8fc51e7-log",
+    "source": "<b>Ophelia:</b> <indent=16%>The Queen is dead. Long live the Queen.\nIf I sat on the throne, I could create nearly any world I liked.\nBut that sort of power comes with a price.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>王后已死。女王万岁。\n如果我坐上王位，几乎就能创造任何我想要的世界。\n但这样的权力，是有代价的。",
+    "source_sha256": "bb68159803b38bd8c7ab05a4574ce3458b065940d95609512664cf8b6b42afd9",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0014.json:p00964-4197d8fc51e7",
+      {
+        "asset": "endings",
+        "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+        "record_id": "END_Queen",
+        "field": "description"
+      },
+      "用户2026-10-18明确要求修正"
+    ]
+  },
+  {
+    "id": "ending-wording-p00926-69f375d99aed-leaf",
+    "source": "Hamlet doesn't understand how to rule on his own. He's never had the head for it. But he's damn well willing to try.",
+    "target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可是，妈的，他就是愿意试一试。",
+    "source_sha256": "69f375d99aed2aae901dd8b7886c18657189f7840a1b3d2a124e556da4431131",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0013.json:p00926-69f375d99aed",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 511
+      },
+      "用户2026-10-18通过选项明确确认此版粗口译法"
+    ]
+  },
+  {
+    "id": "ending-wording-p00926-69f375d99aed-dialogue",
+    "source": "<line-height=90%>Hamlet doesn't understand how to rule on his own. He's never had the head for it. But he's damn well willing to try.",
+    "target": "<line-height=90%>哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可是，妈的，他就是愿意试一试。",
+    "source_sha256": "dda6380448f379f398376a14a97f298104fc3bafcf0079c53292e760209209a0",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0013.json:p00926-69f375d99aed",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 511
+      },
+      "用户2026-10-18通过选项明确确认此版粗口译法"
+    ]
+  },
+  {
+    "id": "ending-wording-p00926-69f375d99aed-log",
+    "source": "<b>Ophelia:</b> <indent=16%>Hamlet doesn't understand how to rule on his own. He's never had the head for it. But he's damn well willing to try.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可是，妈的，他就是愿意试一试。",
+    "source_sha256": "b39e7ffaa6891f3fb576a41ba255cc8f30d5c3d7a08a2dc7d9fa827f22200da5",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0013.json:p00926-69f375d99aed",
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 511
+      },
+      "用户2026-10-18通过选项明确确认此版粗口译法"
+    ]
+  }
+]

@@ -8,13 +8,22 @@ from analyze import read_text_assets
 
 
 WORDS = {
-    "STRUGGLE": "挣扎", "RELIEF": "解脱", "PRESTIGE": "声望", "FAMILY": "家人",
-    "INNOCENCE": "纯真", "POWER": "权力", "MORTALITY": "凡人之身", "GODHOOD": "神格",
+    "STRUGGLE": "挣扎", "RELIEF": "解脱", "PRESTIGE": "地位", "FAMILY": "家人",
+    "INNOCENCE": "纯真", "POWER": "权力", "MORTALITY": "凡躯", "GODHOOD": "神格",
     "LEGACY": "基业", "REALITY": "现实", "JOY": "欢乐", "ETERNITY": "永恒",
-    "REVENGE": "复仇", "PEACE": "和平", "SURVIVAL": "生存", "PERMANENCE": "长久",
+    "REVENGE": "复仇", "PEACE": "和平", "SURVIVAL": "生存", "PERMANENCE": "厮守",
     "PASSION": "激情", "PREDICTABILITY": "安稳", "ADVENTURE": "冒险",
-    "EVERYONE": "所有人", "MYSELF": "自己", "RESPONSIBILITY": "责任",
-    "INDULGENCE": "纵情", "INDEPENDENCE": "独立",
+    "EVERYONE": "众人", "MYSELF": "自己", "RESPONSIBILITY": "责任",
+    "INDULGENCE": "享乐", "INDEPENDENCE": "独立",
+}
+
+TITLE_CORRECTIONS = {
+    "LEGACY": ("传承", "用户2026-10-18确认：结合与哈姆雷特共同治理丹麦、延续王权的结局语境，改为基业；不补写子嗣"),
+    "PRESTIGE": ("声望", "用户2026-10-18要求准确二字标题；流放失去的是贵族与宫廷地位，不仅是名声"),
+    "MORTALITY": ("凡人之身", "用户2026-10-18要求所有标题词为二字；用凡躯承接凡人之身与终有一死的存在状态，和神格对应"),
+    "PERMANENCE": ("长久", "用户2026-10-18要求将长相厮守压为二字；以厮守表达爱情长久相伴这一语境，不增加永生或子嗣含义"),
+    "EVERYONE": ("所有人", "用户2026-10-18要求所有标题词为二字；以众人指代被抛在身后的家人朋友等其他人，不改为杀死所有人"),
+    "INDULGENCE": ("纵情", "用户2026-10-18确认统一准确二字标题；享乐更清楚表达饮酒游荡寻欢与放下责任的对照"),
 }
 
 
@@ -37,9 +46,8 @@ def main():
                 "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"}
         if source in previous and previous[source] != target:
             item["previous_target"] = previous[source]
-        if source == "LEGACY":
-            item["previous_target"] = "传承"
-            item["correction_reason"] = "用户2026-10-18确认：结合与哈姆雷特共同治理丹麦、延续王权的结局语境，改为基业；不补写子嗣"
+        if source in TITLE_CORRECTIONS:
+            item["previous_target"], item["correction_reason"] = TITLE_CORRECTIONS[source]
         translations.append(item)
         tests.append({"id": item["id"], "source": source, "target": target})
     for row in endings:

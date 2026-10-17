@@ -8,6 +8,27 @@ from export_sol_full import ROOT, apply_supplemental, encode, format_rule, print
 
 
 class DynamicFormatTests(unittest.TestCase):
+    def test_ending_emphasis_preserves_swear_without_repeated_pronoun(self):
+        rows = json.loads((ROOT / "translation/sol-full-2026-10-09/local-corrections.json").read_text(encoding="utf-8"))
+        row = next(row for row in rows if row["id"] == "p00926-69f375d99aed")
+        self.assertIn("damn well", row["source"])
+        self.assertIn("妈的", row["corrected_target"])
+        self.assertNotIn("他他妈", row["corrected_target"])
+
+    def test_ending_title_keywords_remain_exactly_two_chinese_characters(self):
+        rows = json.loads((ROOT / "translation/supplemental/ending-book-translations.json").read_text(encoding="utf-8"))
+        keywords = [row for row in rows if re.fullmatch(r"[A-Z]+", row["source"])]
+        self.assertEqual(len(keywords), 24)
+        self.assertEqual(len({row["source"] for row in keywords}), 24)
+        endings = set()
+        for row in keywords:
+            with self.subTest(source=row["source"]):
+                self.assertRegex(row["target"], r"^[\u3400-\u9fff]{2}$")
+                self.assertEqual(row["source_sha256"], hashlib.sha256(row["source"].encode()).hexdigest())
+                self.assertTrue(row["origins"])
+                endings.update(origin["record_id"] for origin in row["origins"])
+        self.assertEqual(len(endings), 13)
+
     def test_dialogue_runtime_alias_reuses_governed_text_and_exact_envelope(self):
         alias = json.loads((ROOT / "translation/supplemental/dialogue-runtime-aliases.json").read_text(encoding="utf-8"))[0]
         translations = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))

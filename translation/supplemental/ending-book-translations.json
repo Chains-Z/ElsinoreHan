@@ -32,7 +32,7 @@
   {
     "id": "ui-ending-d509f3ddd511711c",
     "source": "PRESTIGE",
-    "target": "声望",
+    "target": "地位",
     "source_sha256": "d509f3ddd511711c7bd37ea54bf781a0a852dafaa635d9be0bf0e458c60cc59d",
     "origins": [
       {
@@ -42,7 +42,9 @@
         "field": "sacrifice-what"
       }
     ],
-    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系",
+    "previous_target": "声望",
+    "correction_reason": "用户2026-10-18要求准确二字标题；流放失去的是贵族与宫廷地位，不仅是名声"
   },
   {
     "id": "ui-ending-0c0a9c87f940fd25",
@@ -98,7 +100,7 @@
   {
     "id": "ui-ending-b0d7824580e202b6",
     "source": "MORTALITY",
-    "target": "凡人之身",
+    "target": "凡躯",
     "source_sha256": "b0d7824580e202b6217a7833f2d8eeb60ba7508eaa59f990d852845f99cb208b",
     "origins": [
       {
@@ -108,7 +110,9 @@
         "field": "sacrifice-what"
       }
     ],
-    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系",
+    "previous_target": "凡人之身",
+    "correction_reason": "用户2026-10-18要求所有标题词为二字；用凡躯承接凡人之身与终有一死的存在状态，和神格对应"
   },
   {
     "id": "ui-ending-d4b7bdb35a75579c",
@@ -241,7 +245,7 @@
   {
     "id": "ui-ending-566ee65534b7b9da",
     "source": "PERMANENCE",
-    "target": "长久",
+    "target": "厮守",
     "source_sha256": "566ee65534b7b9da76e1a08da4deac907c003c25f9d16f1b55cb4cd38e951ea9",
     "origins": [
       {
@@ -251,7 +255,9 @@
         "field": "sacrifice-what"
       }
     ],
-    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系",
+    "previous_target": "长久",
+    "correction_reason": "用户2026-10-18要求将长相厮守压为二字；以厮守表达爱情长久相伴这一语境，不增加永生或子嗣含义"
   },
   {
     "id": "ui-ending-475bc0f8e2a1553f",
@@ -301,7 +307,7 @@
   {
     "id": "ui-ending-ea2a18cf2730a881",
     "source": "EVERYONE",
-    "target": "所有人",
+    "target": "众人",
     "source_sha256": "ea2a18cf2730a881c9a90d1b423cac9900554c7cf30901a095b0c9c49384ec22",
     "origins": [
       {
@@ -311,7 +317,9 @@
         "field": "sacrifice-what"
       }
     ],
-    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系",
+    "previous_target": "所有人",
+    "correction_reason": "用户2026-10-18要求所有标题词为二字；以众人指代被抛在身后的家人朋友等其他人，不改为杀死所有人"
   },
   {
     "id": "ui-ending-66b09814ebb9e572",
@@ -346,7 +354,7 @@
   {
     "id": "ui-ending-151d744d6af7d54a",
     "source": "INDULGENCE",
-    "target": "纵情",
+    "target": "享乐",
     "source_sha256": "151d744d6af7d54ad9d6034f505b86c0182ba33b0f08a87ba5dd049f7e9fa374",
     "origins": [
       {
@@ -356,7 +364,9 @@
         "field": "sacrifice-for"
       }
     ],
-    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系",
+    "previous_target": "纵情",
+    "correction_reason": "用户2026-10-18确认统一准确二字标题；享乐更清楚表达饮酒游荡寻欢与放下责任的对照"
   },
   {
     "id": "ui-ending-f0a5e9edf8185929",
