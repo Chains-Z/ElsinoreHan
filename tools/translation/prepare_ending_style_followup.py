@@ -11,19 +11,26 @@ DIRECTORY = ROOT / "translation/supplemental"
 def apply_styles(rows):
     """已审定的旧阶段条目经准确旧值校验后承接当前文字校订。"""
     sources = {row["source"] for row in rows}
-    return apply_supplemental(rows, [
-        row for row in read(DIRECTORY / "ending-style-corrections.json") if row["source"] in sources])
+    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json"):
+        path = DIRECTORY / filename
+        if path.exists():
+            rows = apply_supplemental(rows, [row for row in read(path) if row["source"] in sources])
+    return rows
 
 
 def reading_style(reviewed):
     """承接历史审查与姓名校订后，分别核对资源及编译源的精确旧译。"""
     from prepare_all_endings_followup import apply_reading_followup, paragraph_overrides
     sources = {row[key] for row in reviewed for key in ("source", "runtime_source")}
-    changes = [row for row in read(DIRECTORY / "ending-style-corrections.json") if row["source"] in sources]
-    overrides, used = paragraph_overrides(changes), set()
-    result = [apply_reading_followup(row, overrides, used) for row in reviewed]
-    assert used == set(overrides)
-    return result
+    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json"):
+        path = DIRECTORY / filename
+        if not path.exists():
+            continue
+        changes = [row for row in read(path) if row["source"] in sources]
+        overrides, used = paragraph_overrides(changes), set()
+        reviewed = [apply_reading_followup(row, overrides, used) for row in reviewed]
+        assert used == set(overrides)
+    return reviewed
 
 
 def main():

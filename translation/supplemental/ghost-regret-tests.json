@@ -1,0 +1,72 @@
+[
+  {
+    "id": "p06417-6e24570a8441",
+    "source": "But I fled, and I have spent every moment of consciousness since regretting the world I chose.",
+    "target": "但我逃了，从此每一个清醒的时刻，我都在为自己选择的世界后悔。",
+    "source_sha256": "6e24570a8441471bef42f1119cd9111a60c05a9199e5fd2294fb10f840675f9c",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17426
+      }
+    ]
+  },
+  {
+    "id": "a00646-cef96f43d65f",
+    "source": "<i>But I fled, and I have spent every moment of consciousness since regretting the world I chose.</i>",
+    "target": "<i>但我逃了，从此每一个清醒的时刻，我都在为自己选择的世界后悔。</i>",
+    "source_sha256": "cef96f43d65f2fa4e659ff6a749807f2033070efec7934d3df39e9703f282552",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17426
+      }
+    ]
+  },
+  {
+    "id": "ghost-regret-box",
+    "source": "<line-height=90%><i>But I fled, and I have spent every moment of consciousness since regretting the world I chose.</i>",
+    "target": "<line-height=90%><i>但我逃了，从此每一个清醒的时刻，我都在为自己选择的世界后悔。</i>",
+    "source_sha256": "241e7a364c2a8da1be4fdb60a44795b3921a5c4da1b12799a60e64631b068d60",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17426
+      }
+    ]
+  },
+  {
+    "id": "ghost-regret-speaker",
+    "source": "<b>Ghost:</b> <indent=16%><i>But I fled, and I have spent every moment of consciousness since regretting the world I chose.</i>",
+    "target": "<b>幽灵:</b> <indent=16%><i>但我逃了，从此每一个清醒的时刻，我都在为自己选择的世界后悔。</i>",
+    "source_sha256": "748bd72197e769364e8b5512385222d00a2a8f370163a7bfdce78361bcd36510",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17426
+      }
+    ]
+  },
+  {
+    "id": "ghost-regret-same-speaker",
+    "source": "<b>Ghost:</b> <indent=16%><i>No man or woman could lay blame with you.</i>\n<i>But I fled, and I have spent every moment of consciousness since regretting the world I chose.</i>",
+    "target": "<b>幽灵:</b> <indent=16%><i>无论男女，都不能因此责怪你。</i>\n<i>但我逃了，从此每一个清醒的时刻，我都在为自己选择的世界后悔。</i>",
+    "source_sha256": "2fec52029409a1db5ca77622ae2a9c63ed42e44aef56fbf62e4b6972bb0b4b31",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17426
+      }
+    ]
+  }
+]

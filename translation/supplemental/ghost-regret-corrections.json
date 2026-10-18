@@ -1,0 +1,40 @@
+[
+  {
+    "id": "ghost-regret-6e24570a8441471b",
+    "original_id": "p06417-6e24570a8441",
+    "source": "But I fled, and I have spent every moment of consciousness since regretting the world I chose.",
+    "source_sha256": "6e24570a8441471bef42f1119cd9111a60c05a9199e5fd2294fb10f840675f9c",
+    "previous_target": "但我逃了，从那以后，只要意识还在，我每时每刻都在后悔自己选择的世界。",
+    "target": "但我逃了，从此每一个清醒的时刻，我都在为自己选择的世界后悔。",
+    "reason": "用户指出原文But I fled, and将逃离与此后持续的后悔连成一句；去掉译文中割裂语气的句号，保留每一个清醒时刻和所选世界的对象，资源与实际斜体分别绑定旧译。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17426,
+        "actor": "ghost"
+      },
+      "用户2026-10-19截图反馈"
+    ]
+  },
+  {
+    "id": "ghost-regret-cef96f43d65f2fa4",
+    "original_id": "a00646-cef96f43d65f",
+    "source": "<i>But I fled, and I have spent every moment of consciousness since regretting the world I chose.</i>",
+    "source_sha256": "cef96f43d65f2fa4e659ff6a749807f2033070efec7934d3df39e9703f282552",
+    "previous_target": "<i>但我逃了。从那以后，每一个清醒的瞬间，我都在为自己选择的世界后悔。</i>",
+    "target": "<i>但我逃了，从此每一个清醒的时刻，我都在为自己选择的世界后悔。</i>",
+    "reason": "用户指出原文But I fled, and将逃离与此后持续的后悔连成一句；去掉译文中割裂语气的句号，保留每一个清醒时刻和所选世界的对象，资源与实际斜体分别绑定旧译。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17426,
+        "actor": "ghost"
+      },
+      "用户2026-10-19截图反馈"
+    ]
+  }
+]
