@@ -15,7 +15,9 @@
 
 ## 使用与安装
 
-本仓库保存源码、译文和核验记录。游戏本体、第三方依赖、字体、编译产物及ZIP不纳入Git，克隆仓库不会得到可直接安装的完整补丁。当前没有正式公开发行包；本机生成的 `runtime/package/ElsinoreHan-Sol.zip` 是个人备份。
+可安装的完整补丁从 [GitHub Releases](https://github.com/Chains-Z/ElsinoreHan/releases) 下载。保存并退出游戏，将补丁ZIP中的所有内容解压到 `Elsinore.exe` 所在目录，再正常从Steam启动即可，不需要运行额外脚本。详细步骤与可选冲突检查、卸载工具见 [玩家安装说明](docs/release/INSTALL.md)。已有其他模组时先查看说明，避免直接覆盖共用加载器。
+
+本仓库保存源码、译文和核验记录；游戏本体、玩家存档、第三方二进制、字体与ZIP不纳入Git，克隆仓库不会得到完整运行包。Release附件单独提供经过白名单与敏感信息检查的运行组件、许可和必要对应源码。
 
 已有补丁的游戏正常从Steam启动即可。遇到疑句时按F8查看英文；报告问题时附上原句、截图和场景或说话人，有助于定位实际运行源文。
 
@@ -27,13 +29,15 @@
 
 `-GamePath` 可替换为实际游戏目录。安装器核对词表、插件及字体的验收哈希，再更新词表、中文字体、许可、兼容插件和配置，不保留旧补丁备份。安装结果写入 `runtime/evidence/full-installed-files.json`。
 
-此脚本用于更新已配置好加载器的环境，要求目标已有 `BepInEx/config/AutoTranslatorConfig.ini`。首次安装所需的加载器准备见 [技术说明](docs/dev-tasks/localization/technical-probe.md)；其中样板与测试结果属于早期记录，完整补丁的干净目录安装验收尚未完成。
+此脚本供维护者更新已配置好加载器的环境，要求目标已有 `BepInEx/config/AutoTranslatorConfig.ini`；玩家首次安装直接使用Release完整包。公开包的打包入口为 `tools/release/build-public-release.py`，需要本地已验证运行包和许可审计材料，详见 [公开发布工作记录](docs/dev-tasks/public-release/README.md)。
 
 ### 停用与回退
 
 退出游戏后，可将游戏目录 `doorstop_config.ini` 的 `[General]` 节中 `enabled` 改为 `false`，再次启动时停用加载器；改回 `true` 可恢复。此操作会停用通过同一加载器加载的其他插件。
 
-回退某次更新时，从Git取得对应版本的源码和校订数据，使用本机依赖重新导出、构建、验证并安装。Git不包含字体、第三方依赖或个人存档，不能恢复这些文件；项目不再长期保留旧补丁或测试存档副本。后台测试仍使用临时隔离存档，结束后清理。仓库尚未提供完整卸载脚本；如需清理，依据安装记录识别本项目增加的文件，避免删除其他模组共用的加载器或游戏原文件。
+退出游戏后，可使用公开包 `ElsinoreHan/Uninstall.cmd` 卸载，具体边界见 [卸载说明](docs/release/INSTALL.md#卸载)。直接解压没有安装归属记录，工具只移除准确匹配的本项目独有文件，保留共用加载器和其他模组；通过辅助安装器安装时按归属记录处理，仍保留用户修改内容及其他模组需要的环境。
+
+回退某次更新时，可保留相应Release完整包，或从Git取得对应源码和校订数据，使用本机依赖重新导出、构建、验证。Git不包含字体、第三方依赖或个人存档，不能恢复这些文件；项目不自动积累旧补丁备份。后台测试使用临时隔离存档，结束后清理。
 
 ## 开发与校订
 
@@ -68,13 +72,15 @@ python -m unittest discover -s tools/translation -p test_export_sol_full.py
 | 路径 | 内容 |
 | --- | --- |
 | `tools/translation/` | 译文导出、来源审计、校订生成与验证工具 |
+| `tools/release/` | 公开包白名单构建、辅助安装与保守卸载工具及测试 |
+| `docs/release/` | 玩家安装、故障排查、版本及发布说明 |
 | `tools/patch/` | TMP/F8插件源码、构建、安装、打包及后台探针 |
 | `translation/sol-full-2026-10-09/` | 冻结全文、原始响应、合并译文与导出核验 |
 | `translation/supplemental/` | 补译、定向校订、动态规则与回归用例 |
 | `analysis/` | 文字提取与界面来源分析 |
 | `docs/dev-tasks/localization/` | 实现说明、维护交接、任务及历史记录 |
 | `runtime/evidence/` | 验证与安装核验摘要 |
-| `licenses/` | 中文字体、来源说明与字体资源中TMP组件的许可 |
+| `licenses/` | 加载器、翻译组件、字体及TMP组件的完整许可与对应源码说明 |
 | `runtime/vendor/`、`runtime/package/`、`runtime/backups/` | 本机依赖、个人补丁包及备份，不入Git |
 
 ## 已知限制与许可
@@ -83,6 +89,6 @@ python -m unittest discover -s tools/translation -p test_export_sol_full.py
 
 BepInEx、XUnity和Harmony遵循各自的许可。中文字体来自Adobe官方思源黑体，按 [SIL Open Font License 1.1](licenses/ElsinoreHanSans-OFL.txt) 使用和再分发；派生资源名称为 `ElsinoreHan Sans SDF`，来源与TMP组件许可见 [字体说明](licenses/ElsinoreHanSans-NOTICE.txt)。补丁包附带这些许可文件。
 
-公开发布前仍需完成其他依赖的许可整理、完整安装/卸载说明和干净目录安装验证。
+完整第三方许可及源码索引见 [THIRD-PARTY-NOTICES.md](licenses/THIRD-PARTY-NOTICES.md)。公开包随附Doorstop的对应源码归档；运行文件与Git源码分开提供。干净目录解压、实际加载、中文／英文切换和卸载验证记录见 [公开发布验收](docs/dev-tasks/public-release/verification.md)。
 
-上述要求针对可安装补丁包。公开Git仓库保存源码、译文与审计资料，不上传本机API Key、字体文件、游戏本体、存档、下载依赖或安装包。历史字体名称和许可核查文档仅记录研究过程，不表示仓库包含这些字体。
+公开Git仓库保存源码、译文与审计资料，不上传本机API Key、字体文件、游戏本体、存档、下载依赖或安装包。Release附件仅按许可分发白名单运行组件，不包含游戏和个人数据。历史字体名称和许可核查文档仅记录研究过程，不表示仓库包含这些字体。

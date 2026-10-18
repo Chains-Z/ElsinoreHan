@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-19",
+  "status": "restored_verified",
+  "passed": true,
+  "user_requested": true,
+  "source_checkpoint": "runtime/backups/player-checkpoints/before-special-endings-20261019-040551/Elsinore",
+  "file_count": 8,
+  "source_manifest_verified": true,
+  "restored_matches_backup": true,
+  "restored_mtimes_match": true,
+  "restored_loop": 58,
+  "restored_mode": "MainGame",
+  "checkpoint_checks": {
+    "mode_is_main": true,
+    "all_11_normal_endings_completed": true,
+    "playmaster_complete": true,
+    "last_ghost_attended": true,
+    "burn_book_unlocked": true,
+    "burn_book_not_completed": true,
+    "ascension_not_completed": true,
+    "ascension_information_not_accepted": true,
+    "demon_sequence_not_started": true
+  },
+  "original_backup_retained": true,
+  "temporary_rollback_cleaned": true,
+  "game_started": false
+}

@@ -1,0 +1,94 @@
+{
+    "schema_version":  1,
+    "passed":  true,
+    "time_utc":  "2026-10-18T21:59:55.4602756Z",
+    "powershell_version":  "5.1.22621.4249",
+    "case_count":  18,
+    "cases":  [
+                  {
+                      "name":  "原生PowerShell5.1独立脚本干净安装、重复安装、卸载及四原件保护",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "未知冲突整批预检拒绝且不写任何文件",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "已有同哈希共享依赖不认领且卸载保留",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "安装后加入其他模组时卸载保留完整共享运行环境",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "共享配置已修改时卸载保留共享运行环境",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "有清单升级接受已拥有哈希",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "旧正式证明允许无清单升级",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "修改自有文件拒绝升级、卸载保留并记录",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "平铺直接解压无清单卸载仅清理项目独有文件",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "平铺源等于目标时辅助安装不自拷贝",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "manifest路径穿越、原游戏文件及大小写变体被拒绝",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "manifest哈希大小及重复项拒绝",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "伪造安装记录的任意哈希和越界拒绝",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "目标目录链接拒绝且外部哨兵不变",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "源目录链接和游戏根链接拒绝",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "安装目标子目录链接整批拒绝且不写入",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "同名异路径哨兵不阻挡、目标路径运行拒绝且不操作进程",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "文件位置被目录占用拒绝",
+                      "passed":  true
+                  }
+              ],
+    "script_sha256":  {
+                          "common.ps1":  "53f12b4b1518098b8827604e0be41d4c32f9e5946b163c0dc62462e817ea8cb1",
+                          "Uninstall.cmd":  "eced3503de97d48b20893818db7263e8eb7ca2fa9a2a211361bb516c6a343d2c",
+                          "install.ps1":  "a5f2e839d74c2f780f8e2eb09bf927f887acee422731fa6f7e148d84bec9fd90",
+                          "test-installer.ps1":  "b1908524e3024b8a00c105f7fbbfd943c09e9934e80167193533a44d4a2f7e4a",
+                          "uninstall.ps1":  "d1b7f995ef6a4b30379ff040781c677889b3c8f3174bde65a945fb50ffa37766",
+                          "Install.cmd":  "f46fcd290417b8f8c26832e90e0b95bcdbcdc7216fda09b4de709155678d37a0"
+                      },
+    "real_game_started":  false,
+    "player_saves_accessed":  false,
+    "test_processes_exited":  true,
+    "temporary_directory_removed":  true,
+    "scope":  "临时目录文件系统集成及原生PowerShell5.1脚本测试；非真实游戏E2E"
+}

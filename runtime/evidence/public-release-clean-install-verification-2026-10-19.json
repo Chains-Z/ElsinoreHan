@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-19",
+  "passed": true,
+  "release_id": "v1.5.15-zh.20261019",
+  "archive_sha256": "3c702b733c4bbcb0e9736492801fd0d1aca377b8393b961854e6cc1ac576f092",
+  "test_level": "直接解压与真实后台Unity UI集成、实际文件安装/卸载；非物理按键或完整剧情E2E",
+  "archive_flat_runtime_files": 39,
+  "original_game_clone_files": 268,
+  "original_game_clone_files_unchanged": true,
+  "game_original_4_files_unchanged": true,
+  "main_save_matches_requested_checkpoint": true,
+  "save_files_verified": 8,
+  "runtime_manifest_sha256": "879a858b45548f216ef9c2a397ac1a694f96330c6e47b2af0be42d428ab13e0d",
+  "ui_assertions": {
+    "menu_labels_all_translated": true,
+    "menu_labels_no_overflow": true,
+    "menu_no_original_labels": true,
+    "chinese_glyphs_available": true,
+    "settings_pointer_navigation_logged": true,
+    "settings_page_opened": true,
+    "settings_visible_texts_no_overflow": true,
+    "headless_cancel_and_submit_input_isolated": true,
+    "full_translation_chinese_glyphs_available": true,
+    "save_write_guard_active": true,
+    "toggle_original_menu": true,
+    "toggle_restored_menu": true,
+    "toggle_release_no_change": true
+  },
+  "runtime_process": {
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10
+  },
+  "headless_evidence": "runtime/evidence/headless/4a1cacbb637343ffbf5f57e4ae8bd6ae",
+  "direct_extract_uninstall_exclusive_removed": 6,
+  "direct_extract_uninstall_shared_retained": 33,
+  "clean_install_owned_files": 39,
+  "clean_uninstall_owned_removed": 39,
+  "clean_uninstall_original_files_exact": true,
+  "temporary_save_removed": true,
+  "probe_and_appid_removed": true,
+  "limits": [
+    "菜单与设置经真实UI入口，F8通过正式切换组件调用；未模拟物理键盘，未做屏幕像素或全剧情E2E。",
+    "首次探针准备因未提供早期加载配置而在启动前拒绝；第二次误用旧字体名导致诊断项失败，修正探针输入后完整通过。失败记录保留，不修改正式插件来迁就验证。",
+    "用户报告本轮操作期间出现一次系统运行确认；未独立定位来源，不因进程无主窗口而宣称系统绝无提示。"
+  ],
+  "temporary_game_copies_removed": true
+}

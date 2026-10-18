@@ -1,0 +1,938 @@
+{
+  "date": "2026-10-19",
+  "scope": "公开发布前第三方依赖、字体结构及源码随附审计，不执行游戏",
+  "status": "许可证及Doorstop对应源码已准备，最终ZIP由发布打包流程另验",
+  "snapshot_file_count": 40,
+  "snapshot_files": [
+    {
+      "path": ".doorstop_version",
+      "size": 5,
+      "sha256": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/config/AutoTranslatorConfig.ini",
+      "size": 2915,
+      "sha256": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+      "origin": [],
+      "classification": "本项目生成的插件、词表、配置或说明",
+      "licenses": [
+        "项目自身内容，第三方许可不代为授权"
+      ]
+    },
+    {
+      "path": "BepInEx/core/0Harmony.dll",
+      "size": 204800,
+      "sha256": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/0Harmony.xml",
+      "size": 267107,
+      "sha256": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/0Harmony20.dll",
+      "size": 112640,
+      "sha256": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/BepInEx.dll",
+      "size": 128512,
+      "sha256": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Harmony.dll",
+      "size": 6656,
+      "sha256": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Harmony.xml",
+      "size": 4056,
+      "sha256": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.dll",
+      "size": 43008,
+      "sha256": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.xml",
+      "size": 7964,
+      "sha256": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/BepInEx.xml",
+      "size": 89835,
+      "sha256": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/HarmonyXInterop.dll",
+      "size": 23552,
+      "sha256": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.dll",
+      "size": 339456,
+      "sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+      "size": 43008,
+      "sha256": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+      "size": 86528,
+      "sha256": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+      "size": 27648,
+      "sha256": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+      "size": 105984,
+      "sha256": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.xml",
+      "size": 9414,
+      "sha256": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.dll",
+      "size": 187904,
+      "sha256": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.xml",
+      "size": 78973,
+      "sha256": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/core/XUnity.Common.dll",
+      "size": 77824,
+      "sha256": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll",
+      "size": 61952,
+      "sha256": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+      "origin": [],
+      "classification": "本项目生成的插件、词表、配置或说明",
+      "licenses": [
+        "项目自身内容，第三方许可不代为授权"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/README (AutoTranslator).md",
+      "size": 159457,
+      "sha256": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll",
+      "size": 13312,
+      "sha256": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll",
+      "size": 6144,
+      "sha256": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll",
+      "size": 654848,
+      "sha256": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll",
+      "size": 10752,
+      "sha256": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll",
+      "size": 6144,
+      "sha256": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll",
+      "size": 72704,
+      "sha256": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+      "origin": [
+        "XUnity"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt",
+      "size": 2125868,
+      "sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+      "origin": [],
+      "classification": "本项目生成的插件、词表、配置或说明",
+      "licenses": [
+        "项目自身内容，第三方许可不代为授权"
+      ]
+    },
+    {
+      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
+      "size": 2310627,
+      "sha256": "08f60886259def74463910b07928348f878e64a8865629ad593c3cccda8676a0",
+      "origin": [],
+      "classification": "本项目生成的插件、词表、配置或说明",
+      "licenses": [
+        "项目自身内容，第三方许可不代为授权"
+      ]
+    },
+    {
+      "path": "changelog.txt",
+      "size": 338,
+      "sha256": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "doorstop_config.ini",
+      "size": 1460,
+      "sha256": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+      "origin": [
+        "BepInEx"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "MIT"
+      ]
+    },
+    {
+      "path": "elsinorehan_sans_sdf_u2018",
+      "size": 15131870,
+      "sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+      "origin": [],
+      "classification": "思源派生字体及复用的Unity TMP资产",
+      "licenses": [
+        "OFL-1.1",
+        "Unity-Companion-1.0"
+      ]
+    },
+    {
+      "path": "licenses/ElsinoreHanSans-NOTICE.txt",
+      "size": 887,
+      "sha256": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+      "origin": [],
+      "classification": "已随运行包提供的字体许可",
+      "licenses": [
+        "OFL-1.1"
+      ]
+    },
+    {
+      "path": "licenses/ElsinoreHanSans-OFL.txt",
+      "size": 4463,
+      "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+      "origin": [],
+      "classification": "已随运行包提供的字体许可",
+      "licenses": [
+        "OFL-1.1"
+      ]
+    },
+    {
+      "path": "licenses/TextMeshPro-Unity-Companion-License.txt",
+      "size": 5701,
+      "sha256": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+      "origin": [],
+      "classification": "已随运行包提供的字体许可",
+      "licenses": [
+        "Unity-Companion-1.0"
+      ]
+    },
+    {
+      "path": "README.md",
+      "size": 878,
+      "sha256": "8ce2229bdd305198caa1ba65c3936840ff7dd2539a76f22ec72735ecdd286bc7",
+      "origin": [],
+      "classification": "本项目生成的插件、词表、配置或说明",
+      "licenses": [
+        "项目自身内容，第三方许可不代为授权"
+      ]
+    },
+    {
+      "path": "winhttp.dll",
+      "size": 22016,
+      "sha256": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+      "origin": [
+        "BepInEx",
+        "UnityDoorstop 4.5.0 Windows x86 官方发行"
+      ],
+      "classification": "未修改的官方发行文件",
+      "licenses": [
+        "LGPL-2.1"
+      ]
+    },
+    {
+      "path": "XUnity-LICENSE",
+      "size": 1062,
+      "sha256": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+      "origin": [],
+      "classification": "从XUnity精确来源保留的MIT许可",
+      "licenses": [
+        "MIT"
+      ]
+    }
+  ],
+  "public_license_files": [
+    {
+      "repository_path": "licenses/BepInEx-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/BepInEx-LICENSE.txt",
+      "sha256": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+      "size": 1062
+    },
+    {
+      "repository_path": "licenses/BepInEx.Harmony-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/BepInEx.Harmony-LICENSE.txt",
+      "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d",
+      "size": 1057
+    },
+    {
+      "repository_path": "licenses/ElsinoreHanSans-NOTICE.txt",
+      "release_path": "ElsinoreHan/licenses/ElsinoreHanSans-NOTICE.txt",
+      "sha256": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+      "size": 887
+    },
+    {
+      "repository_path": "licenses/ElsinoreHanSans-OFL.txt",
+      "release_path": "ElsinoreHan/licenses/ElsinoreHanSans-OFL.txt",
+      "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+      "size": 4463
+    },
+    {
+      "repository_path": "licenses/ExIni-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/ExIni-LICENSE.txt",
+      "sha256": "73afad824656869c2c413bdc9750863f0859746e6e29a459eec6b9880af9d636",
+      "size": 1076
+    },
+    {
+      "repository_path": "licenses/Harmony-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/Harmony-LICENSE.txt",
+      "sha256": "07cfa3e4aa04ae179d538735629ac69d272b8c3ffc58a20ebdba5e8b63f9f42f",
+      "size": 1092
+    },
+    {
+      "repository_path": "licenses/HarmonyX-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/HarmonyX-LICENSE.txt",
+      "sha256": "7e54ab4766ef78637a05fb3454663a66de6bb960dbd4c7088890ed76b0844f36",
+      "size": 1063
+    },
+    {
+      "repository_path": "licenses/JetBrains.Annotations-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/JetBrains.Annotations-LICENSE.txt",
+      "sha256": "2942dd916582f142026c22b222e060d5e6fb7be9163aa662a97e8655e0e10a9c",
+      "size": 1091
+    },
+    {
+      "repository_path": "licenses/Mono.Cecil-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/Mono.Cecil-LICENSE.txt",
+      "sha256": "13d58ecbed676511c0c4c4009bff107025e50007ff5e7901dc562700ec62509e",
+      "size": 1098
+    },
+    {
+      "repository_path": "licenses/MonoMod-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/MonoMod-LICENSE.txt",
+      "sha256": "0b64833222e3c6a426ad29362d26334619fe02eaf2b89ea9c37805521896c920",
+      "size": 1080
+    },
+    {
+      "repository_path": "licenses/SimpleJSON-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/SimpleJSON-LICENSE.txt",
+      "sha256": "a527f5f9f6a52bc2d21365d774d3acd01022cba6ec8a48ae074afad53ee2c7c2",
+      "size": 1095
+    },
+    {
+      "repository_path": "licenses/TextMeshPro-Unity-Companion-License.txt",
+      "release_path": "ElsinoreHan/licenses/TextMeshPro-Unity-Companion-License.txt",
+      "sha256": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+      "size": 5701
+    },
+    {
+      "repository_path": "licenses/THIRD-PARTY-NOTICES.md",
+      "release_path": "ElsinoreHan/licenses/THIRD-PARTY-NOTICES.md",
+      "sha256": "f88054fa4e4d4c08f362d7f44a73e1385404715fb3971698a602d42eaad4974c",
+      "size": 5709
+    },
+    {
+      "repository_path": "licenses/UnityDoorstop-LGPL-2.1.txt",
+      "release_path": "ElsinoreHan/licenses/UnityDoorstop-LGPL-2.1.txt",
+      "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+      "size": 26526
+    },
+    {
+      "repository_path": "licenses/UnityDoorstop-SOURCE.md",
+      "release_path": "ElsinoreHan/licenses/UnityDoorstop-SOURCE.md",
+      "sha256": "0b5b1b929da891fa0be199f19e2951d38734846574dbe9efda08e113225bea84",
+      "size": 2237
+    },
+    {
+      "repository_path": "licenses/XUnity.AutoTranslator-LICENSE.txt",
+      "release_path": "ElsinoreHan/licenses/XUnity.AutoTranslator-LICENSE.txt",
+      "sha256": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+      "size": 1062
+    }
+  ],
+  "corresponding_source": {
+    "local_path": "runtime/build/public-license-audit/UnityDoorstop-4.5.0-source.zip",
+    "release_path": "ElsinoreHan/sources/UnityDoorstop-4.5.0-source.zip",
+    "url": "https://codeload.github.com/NeighTools/UnityDoorstop/zip/refs/tags/v4.5.0",
+    "commit": "33dab9a6733862eb81869ff08431d9478b28784b",
+    "sha256": "7f0c963104aa08bf5fefef8ff85e7fecd8306838f5af3101487d9db4e9188d63",
+    "size": 109881,
+    "file_count": 55,
+    "git_submodules": [],
+    "members": [
+      {
+        "path": "UnityDoorstop-4.5.0/.clang-format",
+        "size": 49,
+        "sha256": "b3df578a5d8b3d533547eb22d8ad9953bdc212f1371472147f25605520a70c5d"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/.gitattributes",
+        "size": 60,
+        "sha256": "656bbd0ac69d977eb6b1840799e2c1bc55f7246c03afb4e1b199aae50bb306f2"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/.github/workflows/build-be.yml",
+        "size": 8085,
+        "sha256": "6fc9cb2de71b72e8e1c13d489161dd859601360c62f74271de88917fcb4f8192"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/.gitignore",
+        "size": 103,
+        "sha256": "1c31c3bf0437dbe6bc86e9404cf1c0c9c17daa81e51adcecfc918badeb6895b5"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/.vscode/c_cpp_properties.json",
+        "size": 311,
+        "sha256": "51ad38995f3356b29be4d67f49bf9b3e35e7b568238c0d4d2397d07143c68079"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/.vscode/settings.json",
+        "size": 1049,
+        "sha256": "3f7667a656c13c9f6d97bedd59ad995d48dc6f6f24c176e8e98164a61c94c9fc"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/CHANGES.md",
+        "size": 3994,
+        "sha256": "82f3f0b5b8f9598a20bcaa58481347a4fb3225fa234c3152679f94391773ac51"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/LICENSE",
+        "size": 26526,
+        "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/README.md",
+        "size": 9118,
+        "sha256": "f77052a999bd6bb9cfcdd74d2312193abf41361658c25bdb9f6c7a447ded4d98"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/assets/img/icon.png",
+        "size": 32516,
+        "sha256": "6e1410bfbad8556035296ff872201e4ea36853f45c23822b7446317121ff26fa"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/assets/nix/run.sh",
+        "size": 10606,
+        "sha256": "5d22a362902fea2a65bea0a42a7851e709c02fbe15e34f1e207d6e49cbc698ad"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/assets/windows/doorstop_config.ini",
+        "size": 1632,
+        "sha256": "ce03d9e3d28e248a32dcc6ccd7177ccd5c51f4ee9d86d2b25e32538fb8664af7"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/build.bat",
+        "size": 89,
+        "sha256": "55d934ea3c5c95b6f8d21e05cf0aa8ab991fcdf5e0700dd1c2ed914bbceebec5"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/build.ps1",
+        "size": 1817,
+        "sha256": "46b0dee0571af590fb8b30a8757c712898d4fddab70e71558b2f51ad27035f18"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/build.sh",
+        "size": 8915,
+        "sha256": "4d551dd908238625dcbc358afd0c19e503640664d61fb07a6e4d309319def1b0"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/info.lua",
+        "size": 290,
+        "sha256": "60403860b1aeb7d25475f2a5a663f2d2b847bcab9c90f51f0be58ccf9eb754cf"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/bootstrap.c",
+        "size": 14516,
+        "sha256": "4dcfcf3c464d2024bdb9fb38ac9e8071622af23d2424e39c2dd2b30ca5a76b96"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/bootstrap.h",
+        "size": 701,
+        "sha256": "1c3a1ad3fc8c5083d297d1b84175bb2d1b7efbedce9ba2f570d0c03dd633301e"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/config/common.c",
+        "size": 1182,
+        "sha256": "9ebde237ed59eee06b7f00ef8b06f14450ae75fd2be74564d4fec8a1c205dd07"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/config/config.h",
+        "size": 2216,
+        "sha256": "2ed43e01af0370a1f9efe466bf8236e6de2201f0dfc2e473db712dec567f5207"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/crt.h",
+        "size": 614,
+        "sha256": "dc7efd1044722673ac7bae3f2ce3c54143c9ffc7e1b93e6d3d40cb68bde901f6"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/nix/config.c",
+        "size": 2610,
+        "sha256": "60b909494217266c8317937e16d09d09bcdc1f3877281cdcbb4b728a97481789"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/nix/entrypoint.c",
+        "size": 6261,
+        "sha256": "5bc533ea6076bed22edb3b4075f7057475b9ef5f55b1eb44502a3286a88d1591"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/nix/logger.h",
+        "size": 1139,
+        "sha256": "8eac2c27685a887e7e3f900c159a7af5838263f932471395f88ee814c91b6518"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/nix/plthook/plthook.h",
+        "size": 2814,
+        "sha256": "a4e6e36abfe39c616f02954bcf9f11b6bedc9556de6468415159d070a800fec4"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/nix/plthook/plthook_elf.c",
+        "size": 27057,
+        "sha256": "e2ff8ec78da90a1a1ff879232160bf1216770b1ef34ae49c0597150bd6e6b48b"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/nix/plthook/plthook_osx.c",
+        "size": 43969,
+        "sha256": "23ef795870762868a561684203fa55b5a7015d636923f97b291932a34ba8ec35"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/nix/util.c",
+        "size": 4715,
+        "sha256": "18a2a2ac74259f5452aab7b6f4afdee514aacaf5aff094be5c2c9e4dc7c667b5"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/runtimes/coreclr.h",
+        "size": 828,
+        "sha256": "49921f72b7b72416080daa600660f3d082f335c14f402bc910b8c9a4684b8524"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/runtimes/func_import.h",
+        "size": 1091,
+        "sha256": "9987933b5916e22feea4ce234a1f9fa3fadcc80a6ca3818405d34dfe84ef7105"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/runtimes/globals.c",
+        "size": 123,
+        "sha256": "9f90c035466a072105d6943361e02944a2eced1056c88984878e941980e1b785"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/runtimes/il2cpp.h",
+        "size": 459,
+        "sha256": "40a7243eda2f2d46926a642ea12820782c48ae47d6f1f7648bfc9ececa04e3bc"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/runtimes/mono.h",
+        "size": 2353,
+        "sha256": "4bca7d11f700a74d7c1abd7c900dd4f18b90a2d8b1adee49a658f20a75377e79"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/util/logging.h",
+        "size": 443,
+        "sha256": "2dedad8459016625d13cb0ebed1f79d67eb5ecd0b6bd911daebd7894759c9613"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/util/paths.c",
+        "size": 1309,
+        "sha256": "79218fd06e05cdf530b2dece033b9e1f3385cf8451e4a267841e62c8420d0631"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/util/paths.h",
+        "size": 333,
+        "sha256": "7e79ed42d7b08f914fd37ac1c324b7f8ffd1a9d997e088a08e1dab00e6970558"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/util/util.h",
+        "size": 3613,
+        "sha256": "2b3c2f00ebdaeb82bf96a9d20ab57bba28e686dfc17e0dafd5aa5b0cd14da19a"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/build_tools/dll.def.in",
+        "size": 23,
+        "sha256": "cd0a4b55eeba58a6aaa3a86ae8a5a8ba398209919a622830aa28ced8b56c6dfe"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/build_tools/info.rc.in",
+        "size": 765,
+        "sha256": "b217c1f6a2b4c5f0ee00beebed3790b5f7d7be9cd366289b32ff3fb264a9ce44"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/build_tools/proxy.c.in",
+        "size": 219,
+        "sha256": "ba94044626b75a848279e8dfd3a1f54a4cd02b9cc81d429f1151cdc47900f351"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/build_tools/proxygen.lua",
+        "size": 1845,
+        "sha256": "7bdabff2cb7600115a656070598b2e0aa99ede3f6600b497727c4c7e3c830448"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/build_tools/rcgen.lua",
+        "size": 675,
+        "sha256": "602173c06000e50e9ecbcdc8b9788efb60a0b18fc2886c6d9ce2f7d56d8a5e16"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/build_tools/util.lua",
+        "size": 302,
+        "sha256": "34f66203ab968ab5f89aa5c1c6f611d0eab0e2bd567258c618c18278fc61a836"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/config.c",
+        "size": 6944,
+        "sha256": "04d55277b5dfccd470cfd6ae0c086d097dc415684e8291be90c231778527f673"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/entrypoint.c",
+        "size": 10505,
+        "sha256": "6f10ab317582512874903ad01dd4ed259c9503669fc8e5be3b7d9740a315c5ae"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/entrypoint.h",
+        "size": 139,
+        "sha256": "b5bfead2068037c46f41dad1f739ac9993c02a298aee75aad2f1465a75e4533b"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/hook.h",
+        "size": 2378,
+        "sha256": "0cf8667d361df8d7378eba49623237f18aad6b0f49a331afea99d79fdc00f78e"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/logger.c",
+        "size": 120,
+        "sha256": "8c92c2bafc4d3eef52e6211d4366bebe18a1849508bb9bbffb7d2fdd5754f8a4"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/logger.h",
+        "size": 2909,
+        "sha256": "dd5d9a5a07ea4f2f2fab7434efb11d0eaaf83e9b89264bc0818e78809c68bead"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/proxy/proxy.h",
+        "size": 1434,
+        "sha256": "8021163997fc7aabe0ac8456aaf357cd3e40b1f6e8c773b332b07436cd5167a2"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/proxy/proxylist.txt",
+        "size": 1957,
+        "sha256": "a73812837219321e50d32619ea3973ecea0e689c97eb61a32b06f84e1530c44d"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/util.c",
+        "size": 3393,
+        "sha256": "2922ecd80c3a7a36026e43110da7a81ccfa68eb12d0c6e7a6e3a3406131cfb53"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/wincrt.c",
+        "size": 4035,
+        "sha256": "ef64668579c587557759482d385d8c73d5098e977cf156a56a91900f7c1e9a84"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/src/windows/wincrt.h",
+        "size": 1852,
+        "sha256": "194a2bc3c5d866c5569a4f491dc9707e94d8cccafdbd049232743b7b3a86dde2"
+      },
+      {
+        "path": "UnityDoorstop-4.5.0/xmake.lua",
+        "size": 5140,
+        "sha256": "5cf19a37be13785b376e9b60e736d23bdb8a8c2012d1cdc343fdda483d5fa74b"
+      }
+    ]
+  },
+  "upstream_source_audit": [
+    {
+      "component": "BepInEx",
+      "archive_sha256": "e6e277190ed5af4d681357393993942c628ec0e1bca6d4dea6c6324117208bf1",
+      "commit": "57f1fb859bd4d0264cd2a59074d0e96c6a492a33"
+    },
+    {
+      "component": "HarmonyX",
+      "archive_sha256": "bad7b944c50796c6e99cbad20cc0c838805ac2e7b751530095895d27afb81e75",
+      "commit": "31d794f3affce55fa87c99efac7dae23a126cf52"
+    },
+    {
+      "component": "MonoMod",
+      "archive_sha256": "f151f8b67ec8b6a8dba839ac113ac32b2b5685a9afc4a5082501c7aa35bb617a",
+      "commit": "68cf23127bd2394004e8a812b160a0862c95a309"
+    },
+    {
+      "component": "BepInEx.Harmony",
+      "archive_sha256": "f0ac461d591f16fb59c1f297bf951941443f088ff371847820bc500ecc10896a",
+      "commit": "d4cdcb4cdeac14a0b77012165f5f5a9f5032a9fa"
+    },
+    {
+      "component": "Mono.Cecil",
+      "archive_sha256": "c891b09dcc463d3062a36ddb915b060e4e25756f4a486a7bef213fcd8d5f07c6",
+      "commit": "98ec890d44643ad88d573e97be0e120435eda732"
+    },
+    {
+      "component": "ExIni",
+      "archive_sha256": "511ac482775ccf7bb21f6c002d7c8dc335b322b70b5cab03cae37b407053adaa",
+      "commit": "cf85ca6f3fc361cf48bf56107e4cec9102b7f5eb"
+    },
+    {
+      "component": "XUnity.AutoTranslator",
+      "archive_sha256": "e8a222319f60d14ee701f1d67a079491a4f8387b9ffe2c28edf9c39c2463269d",
+      "commit": "491c02e96be50831ce5b4de5b73dba42221b8010"
+    }
+  ],
+  "doorstop_binary": {
+    "sha256": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "matches_official_doorstop_x86": true,
+    "matches_fresh_official_bepinex_x86": true,
+    "official_release_url": "https://github.com/NeighTools/UnityDoorstop/releases/download/v4.5.0/doorstop_win_release_4.5.0.zip",
+    "official_release_archive_sha256": "7bb953e8d883c8bde76ced96f6d0e45660ad6e0151880d8ab5856bf4f532b147",
+    "fresh_bepinex_archive_sha256": "37651c79e40d6f909572a4f461ac25350bb3ef8fe7fbd29f1aa8791a33b84c82"
+  },
+  "font_objects": [
+    {
+      "type": "Shader",
+      "name": "TextMeshPro/Mobile/Distance Field"
+    },
+    {
+      "type": "Texture2D",
+      "name": "ElsinoreHan Sans SDF Atlas"
+    },
+    {
+      "type": "AssetBundle",
+      "name": "elsinorehan_sans_sdf_u2018"
+    },
+    {
+      "type": "MonoScript",
+      "name": "TMP_FontAsset"
+    },
+    {
+      "type": "Shader",
+      "name": "TextMeshPro/Distance Field"
+    },
+    {
+      "type": "Material",
+      "name": "ElsinoreHan Sans SDF Material"
+    },
+    {
+      "type": "MonoBehaviour",
+      "name": "ElsinoreHan Sans SDF"
+    }
+  ],
+  "font_no_font_object": true,
+  "font_no_external_ress": true,
+  "limitations": [
+    "未执行第三方构建脚本或重编译位级再现",
+    "TMP着色器身份依据样板来源与实际名称，未与Unity官方编译产物逐位匹配",
+    "此证据不宣称主游戏或存档验收",
+    "此证据不授予游戏内容或项目自身内容新的许可"
+  ]
+}

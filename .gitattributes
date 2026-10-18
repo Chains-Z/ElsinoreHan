@@ -2,3 +2,9 @@
 translation/sol-full-2026-10-09/** -text whitespace=cr-at-eol
 # 真实界面采集原件保留组件原文中的尾部空白。
 translation/sol-full-2026-10-09/runtime-ui-source.txt whitespace=cr-at-eol,-blank-at-eol
+
+# 上游许可保留原始字节，避免克隆时行尾转换破坏来源哈希。
+licenses/*.txt -text whitespace=cr-at-eol
+# 这两份官方原文包含行尾空格或末尾空行，原样保留。
+licenses/BepInEx.Harmony-LICENSE.txt whitespace=-blank-at-eol
+licenses/ExIni-LICENSE.txt whitespace=-blank-at-eof
