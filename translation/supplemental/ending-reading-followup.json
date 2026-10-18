@@ -142,6 +142,22 @@
         },
         "用户2026-10-19确认结局措辞"
       ]
+    },
+    {
+      "source": "Hamlet doesn't understand how to rule on his own. He's never had the head for it. But he's damn well willing to try.",
+      "source_sha256": "69f375d99aed2aae901dd8b7886c18657189f7840a1b3d2a124e556da4431131",
+      "previous_target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可是，妈的，他就是愿意试一试。",
+      "target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可他还真就愿意试一试。",
+      "reason": "用户2026-10-19结合实际结局确认此句是奥菲莉娅旁白；damn well在此主要加强肯定语气，以还真就保留反差和强调，撤回独立插语妈的，保留愿意尝试而非保证成功。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_FortinbrasPeaceful",
+          "line": 511
+        },
+        "用户2026-10-19结局截图、旁白口吻反馈及确认"
+      ]
     }
   ],
   "titles": []

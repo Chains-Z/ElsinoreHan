@@ -665,9 +665,9 @@
     "source": "Hamlet doesn't understand how to rule on his own. He's never had the head for it. But he's damn well willing to try.",
     "source_sha256": "69f375d99aed2aae901dd8b7886c18657189f7840a1b3d2a124e556da4431131",
     "original_target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。但他还真他妈愿意试一试。",
-    "corrected_target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可是，妈的，他就是愿意试一试。",
+    "corrected_target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可他还真就愿意试一试。",
     "kind": "text",
-    "reason": "用户2026-10-18明确要求保留原文damn well的粗口强调，并选定可是，妈的，他就是愿意试一试。将粗口移为叙述者插语，避免两个他相连，不改成对哈姆雷特的辱骂；保留愿意尝试而非保证成功。",
+    "reason": "用户2026-10-19结合实际结局确认此句是奥菲莉娅旁白；damn well在此主要加强肯定语气，以还真就保留反差和强调，撤回独立插语妈的，保留愿意尝试而非保证成功。",
     "origins": [
       "translation/sol-full-2026-10-09/inputs/b0013.json:p00926-69f375d99aed",
       {
@@ -676,10 +676,19 @@
         "scene": "ENDING_FortinbrasPeaceful",
         "line": 511
       },
-      "用户2026-10-18通过选项明确确认此版粗口译法"
+      "用户2026-10-18通过选项明确确认此版粗口译法",
+      "用户2026-10-19结局截图、旁白口吻反馈及确认"
     ],
     "apply_at_export": true,
-    "additional_model_calls": 0
+    "additional_model_calls": 0,
+    "revision_history": [
+      {
+        "previous_corrected_target": "哈姆雷特不懂如何独自治国。他从来就没有这方面的头脑。可是，妈的，他就是愿意试一试。",
+        "previous_reason": "用户2026-10-18明确要求保留原文damn well的粗口强调，并选定可是，妈的，他就是愿意试一试。将粗口移为叙述者插语，避免两个他相连，不改成对哈姆雷特的辱骂；保留愿意尝试而非保证成功。",
+        "reason": "用户2026-10-19结合实际结局确认此句是奥菲莉娅旁白；damn well在此主要加强肯定语气，以还真就保留反差和强调，撤回独立插语妈的，保留愿意尝试而非保证成功。",
+        "date": "2026-10-19"
+      }
+    ]
   },
   {
     "id": "p09004-305ddd1474b1",

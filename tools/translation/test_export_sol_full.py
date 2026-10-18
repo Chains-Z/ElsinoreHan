@@ -18,11 +18,12 @@ class DynamicFormatTests(unittest.TestCase):
         self.assertEqual(targets["Brit"], "布莉特")
         self.assertEqual(targets["Lady Brit"], "布莉特女士")
 
-    def test_ending_emphasis_preserves_swear_without_repeated_pronoun(self):
+    def test_ending_emphasis_matches_ophelia_narration(self):
         rows = json.loads((ROOT / "translation/sol-full-2026-10-09/local-corrections.json").read_text(encoding="utf-8"))
         row = next(row for row in rows if row["id"] == "p00926-69f375d99aed")
         self.assertIn("damn well", row["source"])
-        self.assertIn("妈的", row["corrected_target"])
+        self.assertIn("可他还真就愿意试一试。", row["corrected_target"])
+        self.assertNotIn("妈的", row["corrected_target"])
         self.assertNotIn("他他妈", row["corrected_target"])
 
     def test_ending_title_keywords_remain_exactly_two_chinese_characters(self):
