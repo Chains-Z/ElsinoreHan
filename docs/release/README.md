@@ -31,6 +31,12 @@
 
 补丁不包含游戏本体或玩家存档，不替换游戏原始文件。游戏权利归原权利人所有。
 
+本项目原创插件、工具脚本及配套技术文档采用 LGPL-2.1 或更高版本发布，完整许可及范围说明见 ElsinoreHan/licenses/ElsinoreHan-LICENSE.txt 和 ElsinoreHan/licenses/ElsinoreHan-NOTICE.txt。游戏原文、译文及剧情数据不属于该代码许可的授权范围。
+
+欢迎通过项目仓库提交改进和译文修正。LGPL允许收费分发，也不强制把修改提交到本仓库；发布相关修改时仍须遵守提供对应源码等许可要求。
+
 第三方许可及说明在 ElsinoreHan/licenses/，对应源码材料在 ElsinoreHan/sources/。字体基于思源黑体生成，使用许可见 ElsinoreHan/licenses/ElsinoreHanSans-OFL.txt。
+
+本项目插件对应源码为 ElsinoreHan/sources/ElsinoreHan-1.5.15-source.zip，内含全部编译源文件、原构建脚本和 BUILD.md。可在游戏退出后自行重建并替换插件；游戏及第三方引用程序集需自行准备，不随源码再分发。
 
 项目仓库：https://github.com/Chains-Z/ElsinoreHan

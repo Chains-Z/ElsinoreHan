@@ -12,6 +12,30 @@ SPEC.loader.exec_module(BUILDER)
 class PublicReleaseChecks(unittest.TestCase):
     PLUGIN_SOURCE = '[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.15")]'
 
+    def source_fixture(self):
+        sources = {name: ("测试源码：" + name).encode("utf-8") for name in BUILDER.PLUGIN_SOURCES}
+        script = (Path(__file__).parent.parent / "patch/build-toggle.ps1").read_text(encoding="utf-8-sig")
+        hashes = ["b" * 64] + [BUILDER.digest(sources[name]) for name in BUILDER.PLUGIN_SOURCES] + ["c" * 64] * 10
+        return sources, script, {"input_fingerprint": ":".join(hashes), "output_sha256": "a" * 64}
+
+    def test_complete_sources_match_original_build_record(self):
+        sources, script, record = self.source_fixture()
+        BUILDER.verify_plugin_sources(sources, script, record, "a" * 64)
+
+    def test_missing_changed_or_unrelated_binary_sources_rejected(self):
+        sources, script, record = self.source_fixture()
+        for invalid_sources, plugin_hash in (({k: v for k, v in sources.items() if k != "CreditsHoldSkip.cs"}, "a" * 64),
+                                             ({**sources, "CreditsHoldSkip.cs": b"changed"}, "a" * 64),
+                                             (sources, "d" * 64)):
+            with self.subTest(plugin_hash=plugin_hash), self.assertRaises(ValueError):
+                BUILDER.verify_plugin_sources(invalid_sources, script, record, plugin_hash)
+
+    def test_new_build_source_cannot_be_omitted_from_archive(self):
+        sources, script, record = self.source_fixture()
+        changed_script = script + "\n$newSource = Join-Path $PSScriptRoot 'NewFeature.cs'\n"
+        with self.assertRaises(ValueError):
+            BUILDER.verify_plugin_sources(sources, changed_script, record, "a" * 64)
+
     def test_player_documents_are_readable_without_markdown_viewer(self):
         data = BUILDER.player_document('# 使用说明\n\n按 **Ctrl** 跳过，详见 [安装方法](INSTALL.md)。\n[项目仓库](https://github.com/Chains-Z/ElsinoreHan)\n> 补丁版本：`1.0.0`\n')
         self.assertTrue(data.startswith(b'\xef\xbb\xbf'))

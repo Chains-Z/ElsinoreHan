@@ -92,8 +92,12 @@ python -m unittest discover -s tools/translation -p test_export_sol_full.py
 
 初稿与自动检查不能保证所有剧情、未知动态组合或图片文字均已覆盖；部分对白和长文档的实际屏幕排版仍需随游玩确认。后台组件或字体网格检查不代表完整游玩及全场景像素验收。
 
+本项目原创插件、工具脚本及配套技术文档采用 **LGPL-2.1 或更高版本** 发布，完整条款见 [LICENSE](LICENSE)，适用范围见 [LICENSE-SCOPE.md](LICENSE-SCOPE.md)。游戏原文、译文及剧情数据不属于该代码许可证的授权范围；第三方组件和字体分别遵守各自许可。
+
+欢迎通过 Issue 反馈问题，通过 Pull Request 提交代码改进和译文修正，方便大家共享维护成果。LGPL允许商业使用和收费分发，也不强制修改者把代码提交到本仓库；分发相关修改时仍须履行对应源码等许可义务。贡献回本仓库是我们的协作倡议。
+
 BepInEx、XUnity和Harmony遵循各自的许可。中文字体来自Adobe官方思源黑体，按 [SIL Open Font License 1.1](licenses/ElsinoreHanSans-OFL.txt) 使用和再分发；派生资源名称为 `ElsinoreHan Sans SDF`，来源与TMP组件许可见 [字体说明](licenses/ElsinoreHanSans-NOTICE.txt)。补丁包附带这些许可文件。
 
-完整第三方许可及源码索引见 [THIRD-PARTY-NOTICES.md](licenses/THIRD-PARTY-NOTICES.md)。公开包随附Doorstop的对应源码归档；运行文件与Git源码分开提供。干净目录解压、实际加载、中文／英文切换和卸载验证记录见 [公开发布验收](docs/dev-tasks/public-release/verification.md)。
+完整第三方许可及源码索引见 [THIRD-PARTY-NOTICES.md](licenses/THIRD-PARTY-NOTICES.md)。公开包随附本项目插件及Doorstop的对应源码归档、构建说明和完整许可，源码不含游戏程序集。干净目录解压、实际加载、中文／英文切换和卸载验证记录见 [公开发布验收](docs/dev-tasks/public-release/verification.md)。
 
 公开Git仓库保存源码、译文与审计资料，不上传本机API Key、字体文件、游戏本体、存档、下载依赖或安装包。Release附件仅按许可分发白名单运行组件，不包含游戏和个人数据。历史字体名称和许可核查文档仅记录研究过程，不表示仓库包含这些字体。

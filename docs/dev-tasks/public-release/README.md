@@ -8,7 +8,7 @@
 
 - 版本：`v1.0.0`，兼容插件仍为1.5.15。
 - 公开包：`runtime/package/public-release/ElsinoreHan-v1.0.0-windows.zip`，配 `SHA256SUMS.txt`。
-- 39个运行文件直接平铺，完整解压至 `Elsinore.exe` 旁即可使用。四份中文TXT说明位于根目录；可选安装卸载工具、16份许可及Doorstop对应源码位于 `ElsinoreHan/`；共66文件。
+- 39个运行文件直接平铺，完整解压至 `Elsinore.exe` 旁即可使用。四份中文TXT说明位于根目录；可选安装卸载工具、18份许可（第三方16份、项目2份）、项目插件及Doorstop对应源码位于 `ElsinoreHan/`；共69文件。
 - 主游戏已通过既有安装器安装累计15条校订，无待安装内容。原游戏4文件不变。
 - 用户另行要求将主存档恢复为第58轮特殊结局前检查点，8文件哈希及mtime与备份一致。保留检查点，不把存档恢复功能或备份发进公开包。
 
@@ -16,6 +16,7 @@
 
 - [玩家文档](../../release/README.md)、[GitHub发布说明](../../release/GITHUB-RELEASE.md)
 - [许可与对应源码](licenses.md)
+- [项目LGPL授权及源码随附](project-license.md)
 - [辅助安装／卸载契约](installer.md)
 - [验收与边界](verification.md)
 - [独立版本号约定与本次验证范围](versioning.md)

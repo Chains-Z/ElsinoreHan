@@ -49,6 +49,12 @@ DOCS = {"README.md": "使用说明.txt", "INSTALL.md": "安装方法.txt",
         "TROUBLESHOOTING.md": "常见问题.txt", "CHANGELOG.md": "更新说明.txt"}
 SCRIPTS = ("common.ps1", "install.ps1", "uninstall.ps1", "Install.cmd", "Uninstall.cmd")
 SOURCE_ARCHIVE = "UnityDoorstop-4.5.0-source.zip"
+PLUGIN_SOURCES = (
+    "TranslationToggle.cs", "LogScrollAnchor.cs", "InvitedEventNotice.cs", "StrictLogTranslation.cs",
+    "LeadSplotchLayout.cs", "SplotchTileGeometry.cs", "LogSpeakerLayout.cs", "EndingBookLabels.cs",
+    "BookPaperReconstruction.cs", "CreditsHoldSkip.cs", "CreditsSkipGesture.cs", "CreditsSkipRing.cs",
+    "FifthEndingReturn.cs",
+)
 
 
 def read(path: Path):
@@ -57,6 +63,43 @@ def read(path: Path):
 
 def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def verify_plugin_sources(sources: dict[str, bytes], script: str, record: dict, plugin_hash: str) -> None:
+    """源码须完整覆盖实际构建列表，并匹配产生已安装DLL的原始构建记录。"""
+    declared = re.findall(r"Join-Path \$PSScriptRoot '([^']+\.cs)'", script)
+    references = re.search(r"\$references = @\((.*?)\r?\n\)", script, re.DOTALL)
+    if tuple(declared) != PLUGIN_SOURCES or set(sources) != set(PLUGIN_SOURCES) or not references:
+        raise ValueError("插件编译源文件与随附源码白名单不一致")
+    fingerprints = record["input_fingerprint"].split(":")
+    reference_count = len(re.findall(r"\(Join-Path ", references[1]))
+    if (len(fingerprints) != 1 + len(PLUGIN_SOURCES) + reference_count or
+            any(re.fullmatch(r"[a-fA-F0-9]{64}", value) is None for value in fingerprints) or
+            record["output_sha256"].lower() != plugin_hash.lower()):
+        raise ValueError("插件源码缺少与正式DLL一致的构建记录")
+    for name, expected in zip(PLUGIN_SOURCES, fingerprints[1:]):
+        if digest(sources[name]) != expected.lower():
+            raise ValueError("源码与正式DLL构建输入不符：" + name)
+
+
+def plugin_source_archive(version: str, plugin_hash: str) -> tuple[bytes, dict[str, bytes]]:
+    sources = {name: (ROOT / "tools/patch" / name).read_bytes() for name in PLUGIN_SOURCES}
+    script = (ROOT / "tools/patch/build-toggle.ps1").read_bytes()
+    verify_plugin_sources(sources, script.decode("utf-8-sig"),
+                          read(ROOT / "runtime/build/translation-toggle-build.json"), plugin_hash)
+    files = {"tools/patch/" + name: data for name, data in sources.items()}
+    files.update({"tools/patch/build-toggle.ps1": script, "LICENSE": (ROOT / "LICENSE").read_bytes(),
+                  "LICENSE-SCOPE.md": (ROOT / "LICENSE-SCOPE.md").read_bytes(),
+                  "BUILD.md": (ROOT / "docs/release/SOURCE-BUILD.md").read_bytes()})
+    if version not in files["BUILD.md"].decode("utf-8-sig"):
+        raise ValueError("源码构建说明未同步内部版本")
+    buffer = io.BytesIO()
+    with zipfile.ZipFile(buffer, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as archive:
+        for name, data in sorted(files.items()):
+            entry = zipfile.ZipInfo(name)
+            entry.compress_type = zipfile.ZIP_DEFLATED
+            archive.writestr(entry, data)
+    return buffer.getvalue(), files
 
 
 def player_document(source: str) -> bytes:
@@ -137,6 +180,12 @@ def main() -> None:
         content["ElsinoreHan/" + name] = (ROOT / "tools/release" / name).read_bytes()
     for name in LICENSES:
         content["ElsinoreHan/licenses/" + name] = (ROOT / "licenses" / name).read_bytes()
+    project_license = (ROOT / "LICENSE").read_bytes()
+    if project_license != content["ElsinoreHan/licenses/UnityDoorstop-LGPL-2.1.txt"]:
+        raise ValueError("项目根LICENSE与已核验的完整LGPL文本不符")
+    content["ElsinoreHan/licenses/ElsinoreHan-LICENSE.txt"] = project_license
+    content["ElsinoreHan/licenses/ElsinoreHan-NOTICE.txt"] = player_document(
+        (ROOT / "LICENSE-SCOPE.md").read_text(encoding="utf-8-sig"))
 
     license_proof = read(ROOT / "runtime/evidence/public-release-license-audit-2026-10-19.json")
     for entry in license_proof["public_license_files"]:
@@ -148,6 +197,9 @@ def main() -> None:
     if digest(source_data) != "7f0c963104aa08bf5fefef8ff85e7fecd8306838f5af3101487d9db4e9188d63":
         raise ValueError("Doorstop对应源码归档不符")
     content["ElsinoreHan/sources/" + SOURCE_ARCHIVE] = source_data
+    project_archive_name = "ElsinoreHan-" + versions["internal_version"] + "-source.zip"
+    project_source_data, project_source_files = plugin_source_archive(versions["internal_version"], installed["plugin_sha256"])
+    content["ElsinoreHan/sources/" + project_archive_name] = project_source_data
 
     entries = [{"path": name, "sha256": digest(content[name]), "size": len(content[name])} for name in PAYLOAD]
     # 仅认可已正式安装的旧词表，不泛化成任意历史文件或未知安装。
@@ -165,6 +217,8 @@ def main() -> None:
         raise ValueError("旧词表重建与历史正式安装哈希不符")
     legacy = [{"path": dictionary, "sha256": digest(old_data), "size": len(old_data)}]
     manifest = {"schema_version": 1, "package_id": "ElsinoreHan", **versions,
+                "project_code_license": "LGPL-2.1-or-later",
+                "project_source_archive": "ElsinoreHan/sources/" + project_archive_name,
                 "files": entries, "legacy_files": legacy}
     content["ElsinoreHan/manifest.json"] = (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     secrets = local_secrets()
@@ -178,6 +232,14 @@ def main() -> None:
         for item in nested:
             safe_name(item.filename)
             scan_secret(z.read(item), "Doorstop-source/" + item.filename, secrets)
+    with zipfile.ZipFile(io.BytesIO(project_source_data)) as archive:
+        if len(archive.namelist()) != len(project_source_files) or set(archive.namelist()) != set(project_source_files):
+            raise ValueError("项目源码归档清单不一致")
+        for name, data in project_source_files.items():
+            safe_name(name)
+            scan_secret(data, "ElsinoreHan-source/" + name, secrets)
+            if archive.read(name) != data:
+                raise ValueError("项目源码归档字节不一致：" + name)
     verify_offline_config(content["BepInEx/config/AutoTranslatorConfig.ini"])
 
     output = ROOT / "runtime/package/public-release"
@@ -211,7 +273,13 @@ def main() -> None:
     report = {"date": "2026-10-19", **versions, "passed": True,
               "archive": result.relative_to(ROOT).as_posix(), "archive_sha256": archive_hash,
               "archive_size": result.stat().st_size, "flat_archive": True, "runtime_files": 39,
-              "total_files": len(content), "source_archive_members": 55, "license_files": len(LICENSES),
+              "total_files": len(content), "source_archive_members": 55, "license_files": len(LICENSES) + 2,
+              "third_party_license_files": len(LICENSES), "project_license_files": 2,
+              "project_code_license": "LGPL-2.1-or-later", "project_source_archive": project_archive_name,
+              "project_source_archive_members": len(project_source_files),
+              "project_source_archive_sha256": digest(project_source_data),
+              "plugin_sources_match_installed_build": True,
+              "project_source_files": [{"path": n, "sha256": digest(b)} for n, b in sorted(project_source_files.items())],
               "local_secret_values_compared": len(secrets), "no_unlisted_files": True,
               "no_game_saves_or_backup_in_archive": True, "offline_endpoints_empty": True,
               "files": [{"path": n, "sha256": digest(b), "size": len(b)} for n, b in sorted(content.items())]}

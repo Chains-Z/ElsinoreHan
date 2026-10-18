@@ -5,13 +5,90 @@
   "release_id": "v1.0.0",
   "passed": true,
   "archive": "runtime/package/public-release/ElsinoreHan-v1.0.0-windows.zip",
-  "archive_sha256": "a62fe4dbbc60ad8293792d89d48ba1cfd1537f3d26c59cc407085e91e98c0288",
-  "archive_size": 16200719,
+  "archive_sha256": "4dedf2e9eb4852cfbdd449aee6262b72a4beba87d56ea845bf656810e3d8b6f6",
+  "archive_size": 16256092,
   "flat_archive": true,
   "runtime_files": 39,
-  "total_files": 66,
+  "total_files": 69,
   "source_archive_members": 55,
-  "license_files": 16,
+  "license_files": 18,
+  "third_party_license_files": 16,
+  "project_license_files": 2,
+  "project_code_license": "LGPL-2.1-or-later",
+  "project_source_archive": "ElsinoreHan-1.5.15-source.zip",
+  "project_source_archive_members": 17,
+  "project_source_archive_sha256": "47e479155cba8e931d2abae87b55e5bad0c08c412e07fbe521d33f5e6a985d24",
+  "plugin_sources_match_installed_build": true,
+  "project_source_files": [
+    {
+      "path": "BUILD.md",
+      "sha256": "c9ac86b12c75b369aba0204b2cc18e0b4ec3c8d1a31ccd49239c223f6c6f28aa"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331"
+    },
+    {
+      "path": "LICENSE-SCOPE.md",
+      "sha256": "1c6f6a167b98298343e3e3f22c21d6de99075c243a95acc60c84998420f8a5f2"
+    },
+    {
+      "path": "tools/patch/BookPaperReconstruction.cs",
+      "sha256": "0b9bfe431e3cdec8d22c1ff66dd770490b83af4d9d8d273990ef53224ffb9953"
+    },
+    {
+      "path": "tools/patch/CreditsHoldSkip.cs",
+      "sha256": "01ba60f5117730429bf3ee77e399a9837d7aab901b526bcc98d50192b27d00f3"
+    },
+    {
+      "path": "tools/patch/CreditsSkipGesture.cs",
+      "sha256": "cf48682a9373ea4ca2e194ff818909919b2cc8c755fee9221ce38ad22c71ae2a"
+    },
+    {
+      "path": "tools/patch/CreditsSkipRing.cs",
+      "sha256": "759cf2c1fdeb3f6811d62ac960d19d8da93f7aadd1296b79f525d1cc7f1233e3"
+    },
+    {
+      "path": "tools/patch/EndingBookLabels.cs",
+      "sha256": "6fdad3af69ebfe71cce42c62489d09598ae4b9c21b54b61937cf9491e323d569"
+    },
+    {
+      "path": "tools/patch/FifthEndingReturn.cs",
+      "sha256": "a3a1f2979f7ceed5fccd7def9682cae4f08788fbfff0da2f17e4f84ddc6214f6"
+    },
+    {
+      "path": "tools/patch/InvitedEventNotice.cs",
+      "sha256": "0a506f6d06815f5b7b384a6fcf1dbc8b0dcf5dd2aad20c947bcca03128a207aa"
+    },
+    {
+      "path": "tools/patch/LeadSplotchLayout.cs",
+      "sha256": "a3a7b0e1479d06af147f79cacb86681a1c2d304c57bfd026a808f35af4fb9bef"
+    },
+    {
+      "path": "tools/patch/LogScrollAnchor.cs",
+      "sha256": "88f8dce9185545d19a8dc20611fe059e0fae062ecc6530384e743e5c34e156ce"
+    },
+    {
+      "path": "tools/patch/LogSpeakerLayout.cs",
+      "sha256": "104a2ad4a5c4e52a4f3ec6b01a75120ad0c10f511aef538c3635eead658b5e31"
+    },
+    {
+      "path": "tools/patch/SplotchTileGeometry.cs",
+      "sha256": "2eeb8bd38571be93b7fcb642b935bf438c8bdeb5058b3b0bb963c6a6bd12a58c"
+    },
+    {
+      "path": "tools/patch/StrictLogTranslation.cs",
+      "sha256": "7aec57b7c12d1bf1461b8731fe928404f20346fd74c01e00e71559bcbadb575a"
+    },
+    {
+      "path": "tools/patch/TranslationToggle.cs",
+      "sha256": "9cb2bcff3af6509e924384281b5c73991ac1216549fc0681b486b0f772b7de44"
+    },
+    {
+      "path": "tools/patch/build-toggle.ps1",
+      "sha256": "0e3b5b7b85ff4cfc53a228ba27901d28daf054b9eef9d283d942cb9b1ae980c2"
+    }
+  ],
   "local_secret_values_compared": 1,
   "no_unlisted_files": true,
   "no_game_saves_or_backup_in_archive": true,
@@ -203,6 +280,16 @@
       "size": 1057
     },
     {
+      "path": "ElsinoreHan/licenses/ElsinoreHan-LICENSE.txt",
+      "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+      "size": 26526
+    },
+    {
+      "path": "ElsinoreHan/licenses/ElsinoreHan-NOTICE.txt",
+      "sha256": "ddd2659a108142cc5cad8dbcf622b602e50da5cb0107cb504b1079be80dfe57b",
+      "size": 2556
+    },
+    {
       "path": "ElsinoreHan/licenses/ElsinoreHanSans-NOTICE.txt",
       "sha256": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
       "size": 887
@@ -274,8 +361,13 @@
     },
     {
       "path": "ElsinoreHan/manifest.json",
-      "sha256": "af35d2306c11600c0067831f676c5fa1bf144180ce400a7dbc52f8a06bc8eacb",
-      "size": 7091
+      "sha256": "deb3c32b92931eec2aa29e564ef0595b541691c77d0dce101ec57c39a9c847d3",
+      "size": 7219
+    },
+    {
+      "path": "ElsinoreHan/sources/ElsinoreHan-1.5.15-source.zip",
+      "sha256": "47e479155cba8e931d2abae87b55e5bad0c08c412e07fbe521d33f5e6a985d24",
+      "size": 44808
     },
     {
       "path": "ElsinoreHan/sources/UnityDoorstop-4.5.0-source.zip",
@@ -329,8 +421,8 @@
     },
     {
       "path": "使用说明.txt",
-      "sha256": "8e3fe58bebe484b84adef099c5a88c94ced719ff055638af0afdf252a740b5ea",
-      "size": 1987
+      "sha256": "e7929079e9c6243170970efac5275ecaeea0e0c2b82b924d6d48a89ec4bbfbac",
+      "size": 2759
     },
     {
       "path": "安装方法.txt",
@@ -344,8 +436,8 @@
     },
     {
       "path": "更新说明.txt",
-      "sha256": "0716dcfa51cd719ef8641b6eb32f2cedbdb5d145dc398b7b527dcd8a4b2bb8b7",
-      "size": 1893
+      "sha256": "1e4d8e9d7318796a2874191eef896a41b97ae9de5a0ca2a44412e37e8a31436d",
+      "size": 2049
     }
   ]
 }

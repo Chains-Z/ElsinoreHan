@@ -30,4 +30,8 @@
 
 下载后可使用本页附件 [SHA256SUMS.txt](https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.0.0/SHA256SUMS.txt) 核对 ZIP 的 SHA-256。
 
-包内 `ElsinoreHan/licenses/THIRD-PARTY-NOTICES.md` 提供第三方组件与许可索引，`ElsinoreHan/sources/UnityDoorstop-4.5.0-source.zip` 随附对应源码和构建脚本。[本版项目源码与译文维护资料](https://github.com/Chains-Z/ElsinoreHan/tree/v1.0.0)另见版本标签；各部分许可按包内及仓库中的对应文件执行。
+本项目原创插件、工具脚本及配套技术文档采用 **LGPL-2.1 或更高版本**，完整许可和范围说明随包提供，仓库中见 [LICENSE](https://github.com/Chains-Z/ElsinoreHan/blob/v1.0.0/LICENSE) 与 [LICENSE-SCOPE.md](https://github.com/Chains-Z/ElsinoreHan/blob/v1.0.0/LICENSE-SCOPE.md)。游戏原文、译文及剧情数据不属于该代码许可的授权范围，第三方内容遵循各自许可。
+
+欢迎通过 Issue 和 Pull Request 贡献修正。LGPL允许商业使用及收费分发，不强制把修改提交到本仓库；分发相关修改时仍须遵守提供对应源码等要求。
+
+包内 `ElsinoreHan/licenses/THIRD-PARTY-NOTICES.md` 提供第三方组件与许可索引。`ElsinoreHan/sources/ElsinoreHan-1.5.15-source.zip` 包含本项目插件全部编译源文件、原构建脚本、许可和构建说明；`ElsinoreHan/sources/UnityDoorstop-4.5.0-source.zip` 另附Doorstop对应源码和构建脚本。[本版项目源码与译文维护资料](https://github.com/Chains-Z/ElsinoreHan/tree/v1.0.0)另见版本标签。

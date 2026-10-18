@@ -8,3 +8,6 @@ licenses/*.txt -text whitespace=cr-at-eol
 # 这两份官方原文包含行尾空格或末尾空行，原样保留。
 licenses/BepInEx.Harmony-LICENSE.txt whitespace=-blank-at-eol
 licenses/ExIni-LICENSE.txt whitespace=-blank-at-eof
+
+# 根许可证沿用已核验的完整上游文本，保留原始字节。
+LICENSE -text whitespace=cr-at-eol

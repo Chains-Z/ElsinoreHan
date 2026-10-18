@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-19",
+  "passed": true,
+  "license": "LGPL-2.1-or-later",
+  "patch_version": "1.0.0",
+  "internal_version": "1.5.15",
+  "root_license_identical_to_verified_lgpl": true,
+  "total_files": 69,
+  "runtime_files_identical_to_previous_release": 39,
+  "added_paths": [
+    "ElsinoreHan/licenses/ElsinoreHan-LICENSE.txt",
+    "ElsinoreHan/licenses/ElsinoreHan-NOTICE.txt",
+    "ElsinoreHan/sources/ElsinoreHan-1.5.15-source.zip"
+  ],
+  "changed_paths": [
+    "ElsinoreHan/manifest.json",
+    "使用说明.txt",
+    "更新说明.txt"
+  ],
+  "project_source_archive_members": 17,
+  "compiled_cs_sources": 13,
+  "plugin_sources_match_original_build_record": true,
+  "installed_dll_matches_build_record_output": true,
+  "third_party_license_files_unchanged": 16,
+  "doorstop_source_members_unchanged": 55,
+  "unit_checks_passed": 11,
+  "installer_manifest_read_and_payload_hash_check": true,
+  "frozen_translation_data_or_runtime_changed": false,
+  "player_game_or_saves_changed": false,
+  "game_or_test_processes_started": false,
+  "source_archive_has_no_probes_game_or_dependencies": true,
+  "commercial_use_allowed_and_pr_voluntary_documented": true,
+  "previous_runtime_ui_and_installer_checks_reused": true,
+  "archive_sha256": "4dedf2e9eb4852cfbdd449aee6262b72a4beba87d56ea845bf656810e3d8b6f6"
+}
