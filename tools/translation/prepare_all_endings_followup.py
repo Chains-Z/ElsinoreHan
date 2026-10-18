@@ -7,6 +7,31 @@ from prepare_dialogue_log_followup import GAME_RESOURCE, ROOT, digest, read, rea
 from prepare_lead_followup import runtime_source
 
 
+def paragraph_overrides(entries):
+    """后续修订必须绑定精确源与旧译，原始整段审查保留快照。"""
+    result = {}
+    for entry in entries:
+        source = entry["source"]
+        if source in result or digest(source) != entry["source_sha256"] or not entry.get("origins"):
+            raise ValueError("阅读稿后续修订的源哈希、来源或唯一性不符")
+        result[source] = entry
+    return result
+
+
+def apply_reading_followup(reviewed, overrides, used):
+    """分别核对资源源句和实际编译源，不能依靠另一变体的译文兜底。"""
+    result = dict(reviewed)
+    for source_key, target_key in (("source", "resource_target"), ("runtime_source", "target")):
+        entry = overrides.get(reviewed[source_key])
+        if entry is None:
+            continue
+        if reviewed[target_key] != entry["previous_target"]:
+            raise ValueError("阅读稿后续修订缺少准确旧译")
+        result[target_key] = entry["target"]
+        used.add(entry["source"])
+    return result
+
+
 def extract_endings():
     assets = {name: (sha, text) for name, sha, text in read_text_assets(GAME_RESOURCE.read_bytes())
               if name in ("scenes_endings", "endings")}
@@ -34,6 +59,12 @@ def extract_endings():
 
 def main():
     review = read(ROOT / "translation/supplemental/all-endings-review.json")
+    followup_path = ROOT / "translation/supplemental/ending-reading-followup.json"
+    followup = read(followup_path) if followup_path.exists() else {"paragraphs": [], "titles": []}
+    overrides = paragraph_overrides(followup["paragraphs"])
+    title_overrides = {entry["ending_id"]: entry for entry in followup["titles"]}
+    assert len(title_overrides) == len(followup["titles"])
+    used_overrides, used_titles = set(), set()
     source_sha, metadata_sha, actual = extract_endings()
     assert source_sha == review["asset_sha256"]
     assert metadata_sha == review["metadata_sha256"]
@@ -49,12 +80,20 @@ def main():
         assert len(extracted["paragraphs"]) == len(ending["paragraphs"])
         meta = extracted["metadata"]
         title = "舍弃" + translations[meta["sacrifice-what"]]["target"] + "，换取" + translations[meta["sacrifice-for"]]["target"]
-        assert ending["title"] == title and ending["ending_id"] == meta["id"]
+        title_revision = title_overrides.get(meta["id"])
+        if title_revision is not None:
+            assert title_revision["previous_title"] == ending["title"] and title_revision.get("origins")
+            assert title_revision["title"] == title
+            used_titles.add(meta["id"])
+        else:
+            assert ending["title"] == title
+        assert ending["ending_id"] == meta["id"]
         reading.extend([title, "=" * 32, ""])
         for index, (source, reviewed) in enumerate(zip(extracted["paragraphs"], ending["paragraphs"])):
             for key in ("actor", "cue", "source", "runtime_source", "line"):
                 assert source[key] == reviewed[key], (ending["scene"], index, key)
             raw, runtime = source["source"], source["runtime_source"]
+            reviewed = apply_reading_followup(reviewed, overrides, used_overrides)
             assert digest(raw) == reviewed["source_sha256"]
             assert digest(runtime) == reviewed["runtime_source_sha256"]
             if reviewed["nonlexical"]:
@@ -85,6 +124,7 @@ def main():
             original = re.sub(r'<(?:i|b)>(.*?)</(?:i|b)>', r'「\1」', runtime)
             reading.extend([content, original, ""])
     assert (narrative, pauses, variants, changed) == (399, 3, 5, 15)
+    assert used_overrides == set(overrides) and used_titles == set(title_overrides)
     assert len(cases) == 407
     save(ROOT / "translation/supplemental/all-endings-tests.json", cases)
     destination = ROOT / "docs/dev-tasks/localization/endings-review-2026-10-18/ending-texts-zh-CN.txt"

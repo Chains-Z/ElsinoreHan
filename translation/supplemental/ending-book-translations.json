@@ -324,7 +324,7 @@
   {
     "id": "ui-ending-66b09814ebb9e572",
     "source": "MYSELF",
-    "target": "自己",
+    "target": "自我",
     "source_sha256": "66b09814ebb9e5722cebc5b3b155eb7afd498214195d52595474850d9c60d73d",
     "origins": [
       {
@@ -334,7 +334,9 @@
         "field": "sacrifice-for"
       }
     ],
-    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系"
+    "translation_method": "根据真实结局语境定向补译；保持四行牺牲与换取的对应关系",
+    "previous_target": "自己",
+    "correction_reason": "用户2026-10-18要求重新考虑二字标题；候选采用自我，表达选择属于自己的人生，避免独活将其缩成仅仅保命"
   },
   {
     "id": "ui-ending-51c725aff92818f9",

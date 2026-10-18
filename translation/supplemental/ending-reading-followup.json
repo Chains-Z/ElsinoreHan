@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-18",
+  "paragraphs": [
+    {
+      "source": "And to his credit, he does not lie to me or beg me to keep him. He nods, kisses me goodbye, and leaves without another word.",
+      "source_sha256": "5ed49fd2ede493bd40f97d3a92a1084ce81771a4323519e9e3f4e3da8468896a",
+      "previous_target": "值得肯定的是，他没有骗我，也没有求我留下他。他点点头，吻我道别，便一言不发地走了。",
+      "target": "不过，他倒也坦诚，没有骗我，也没有求我挽留。他点点头，吻我道别，便一言不发地走了。",
+      "reason": "用户对照阅读反馈：赎金、分手叙述语气与全称昵称关联",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_Othello",
+          "line": 251
+        }
+      ]
+    },
+    {
+      "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is -- for a price.",
+      "source_sha256": "1e3259793e9ff59f551cbad5477a06d268befd8acb5b6116853ce5a0a1028b9c",
+      "previous_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+      "target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。",
+      "reason": "用户对照阅读反馈：赎金、分手叙述语气与全称昵称关联",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_Survival",
+          "line": 317
+        }
+      ]
+    },
+    {
+      "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is—for a price.",
+      "source_sha256": "f6fca141ccf4379cbc07416eec1037468bbb4d4ae754bc5f1c5401c0fd5121f6",
+      "previous_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+      "target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。",
+      "reason": "用户对照阅读反馈：赎金、分手叙述语气与全称昵称关联",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_Survival",
+          "line": 317
+        }
+      ]
+    },
+    {
+      "source": "One day, a messenger arrives. I learn that the new Queen has sent for me—Queen Birgitta.",
+      "source_sha256": "1cf9d95feb290e51b372ecefa6a2beec44dc8ac865b720fa0cdc8c5b6d2d72cc",
+      "previous_target": "一天，一名信使来了。我得知新王后召我前去——比尔吉塔王后。",
+      "target": "一天，一名信使来了。我得知新王后召我前去——布莉吉塔王后。",
+      "reason": "用户对照阅读反馈：赎金、分手叙述语气与全称昵称关联",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_SentAway",
+          "line": 435
+        }
+      ]
+    }
+  ],
+  "titles": [
+    {
+      "ending_id": "END_SentAway",
+      "previous_title": "舍弃众人，换取自己",
+      "title": "舍弃众人，换取自我",
+      "origins": [
+        "resources.assets:endings:9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1:END_SentAway:sacrifice-for",
+        "MYSELF保留二字格式的候选用词，2026-10-18"
+      ]
+    }
+  ]
+}

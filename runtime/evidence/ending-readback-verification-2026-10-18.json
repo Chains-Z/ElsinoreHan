@@ -1,0 +1,843 @@
+{
+  "date": "2026-10-18",
+  "status": "candidate_verified",
+  "passed": true,
+  "installed": false,
+  "plugin_version": "1.5.11",
+  "plugin_sha256": "c56adec60a179314d46f3a79467b8d8fc26b8c0bd561c807dfd8861090e9782b",
+  "font_bundle_sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+  "font_glyph_count": 7661,
+  "font_validation_reused_from": "runtime/evidence/credits-skip-install-verification-2026-10-18.json",
+  "previous_installed_verification": "runtime/evidence/credits-skip-install-verification-2026-10-18.json",
+  "previous_candidate_verification": "runtime/evidence/all-endings-verification-2026-10-18.json",
+  "new_changed_dictionary_entries": 41,
+  "changes_since_previous_candidate": [
+    {
+      "id": "p00040-3a35f58d015c",
+      "source": "Birgitta 'Brit' Brockenhuus",
+      "source_sha256": "3a35f58d015c298771087ff051cfd726563a0bbe5cd3ccb410d6e55336192fae",
+      "previous_target": "比尔吉塔·“布莉特”·布罗肯胡斯",
+      "target": "布莉吉塔·“布莉特”·布罗肯胡斯"
+    },
+    {
+      "id": "p00411-3d6d3331cb90",
+      "source": "Tonight, I'd like to ask Lady Birgitta for her hand in marriage.",
+      "source_sha256": "3d6d3331cb9002eed695b7e58a04d38834e3ed07e836a956b84b593a35891571",
+      "previous_target": "今晚，我想向比尔吉塔女士求婚。",
+      "target": "今晚，我想向布莉吉塔女士求婚。"
+    },
+    {
+      "id": "p00555-6716473a5435",
+      "source": "Birgitta ('Brit')",
+      "source_sha256": "6716473a5435242e929e377ea2c0e5e58e1f26e84ad0713416f2e4c31ea4cb2e",
+      "previous_target": "比尔吉塔（“布莉特”）",
+      "target": "布莉吉塔（“布莉特”）"
+    },
+    {
+      "id": "p00756-5ed49fd2ede4",
+      "source": "And to his credit, he does not lie to me or beg me to keep him. He nods, kisses me goodbye, and leaves without another word.",
+      "source_sha256": "5ed49fd2ede493bd40f97d3a92a1084ce81771a4323519e9e3f4e3da8468896a",
+      "previous_target": "值得肯定的是，他没有骗我，也没有求我留下他。他点点头，吻我道别，便一言不发地走了。",
+      "target": "不过，他倒也坦诚，没有骗我，也没有求我挽留。他点点头，吻我道别，便一言不发地走了。"
+    },
+    {
+      "id": "p00799-1e3259793e9f",
+      "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is -- for a price.",
+      "source_sha256": "1e3259793e9ff59f551cbad5477a06d268befd8acb5b6116853ce5a0a1028b9c",
+      "previous_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+      "target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。"
+    },
+    {
+      "id": "p00876-1cf9d95feb29",
+      "source": "One day, a messenger arrives. I learn that the new Queen has sent for me—Queen Birgitta.",
+      "source_sha256": "1cf9d95feb290e51b372ecefa6a2beec44dc8ac865b720fa0cdc8c5b6d2d72cc",
+      "previous_target": "一天，一名信使来了。我得知新王后召我前去——比尔吉塔王后。",
+      "target": "一天，一名信使来了。我得知新王后召我前去——布莉吉塔王后。"
+    },
+    {
+      "id": "p01967-0995ce8610bd",
+      "source": "Speaking of springing forth... I've heard that Prince Hamlet and Lady Birgitta are to be wed soon.",
+      "source_sha256": "0995ce8610bd182eaf09f5d91b70060c319be2fcaa1c42b8580c81071a157e42",
+      "previous_target": "说起接踵而来的事……我听说哈姆雷特王子和比尔吉塔女士很快就要结婚了。",
+      "target": "说起接踵而来的事……我听说哈姆雷特王子和布莉吉塔女士很快就要结婚了。"
+    },
+    {
+      "id": "p02348-2c7e82dcbc2b",
+      "source": "I understand you and Lady Birgitta have made such an arrangement already. Her father has been loyal to Us for some time.",
+      "source_sha256": "2c7e82dcbc2b92c6b595ee3f1cdaab5b13491d7d71d9f2dfaa6d866cead97ffb",
+      "previous_target": "据我所知，你和比尔吉塔女士已经有了这样的安排。她的父亲效忠我们已有一段时间了。",
+      "target": "据我所知，你和布莉吉塔女士已经有了这样的安排。她的父亲效忠我们已有一段时间了。"
+    },
+    {
+      "id": "p02352-0d32ac6afe48",
+      "source": "Lady Birgitta's father has already petitioned me with such an arrangement.",
+      "source_sha256": "0d32ac6afe486aec403f46ff1dc9cc124f29f3737ce1ca69d549bf1a443c8625",
+      "previous_target": "比尔吉塔女士的父亲已经向我请求过这样的安排。",
+      "target": "布莉吉塔女士的父亲已经向我请求过这样的安排。"
+    },
+    {
+      "id": "p02628-3ac07a466639",
+      "source": "Yes, Lady Birgitta? Does something trouble you?",
+      "source_sha256": "3ac07a466639e0e38d3ceb0d8283e12fcd5e623512d641f715f8e36ba93c7903",
+      "previous_target": "怎么了，比尔吉塔女士？有什么事困扰着你吗？",
+      "target": "怎么了，布莉吉塔女士？有什么事困扰着你吗？"
+    },
+    {
+      "id": "p02994-10d0f42c88e4",
+      "source": "Lady Birgitta!",
+      "source_sha256": "10d0f42c88e47e25b83c61930874b936100c1bd821b6d97f5c6575612b7863b3",
+      "previous_target": "比尔吉塔女士！",
+      "target": "布莉吉塔女士！"
+    },
+    {
+      "id": "p03156-c8c9700a321a",
+      "source": "My nephew Prince Hamlet and Lady Birgitta are to be betrothed today.",
+      "source_sha256": "c8c9700a321accc5e18f79038a8fd999afbb7d5af49503b0e444c99ba89c69b0",
+      "previous_target": "我的侄子哈姆雷特王子与比尔吉塔女士，今日将订立婚约。",
+      "target": "我的侄子哈姆雷特王子与布莉吉塔女士，今日将订立婚约。"
+    },
+    {
+      "id": "p03157-3606591d7ed8",
+      "source": "In light of Lady Birgitta settling into her role within the court, we felt it was the right time to make such a match.",
+      "source_sha256": "3606591d7ed831d33ec6c3e38954b94f98fa2c2225778193f8f63f95360f909e",
+      "previous_target": "比尔吉塔女士已逐渐适应了自己在宫廷中的身份，我们认为，是时候促成这桩婚事了。",
+      "target": "布莉吉塔女士已逐渐适应了自己在宫廷中的身份，我们认为，是时候促成这桩婚事了。"
+    },
+    {
+      "id": "p03159-82f6d01b0950",
+      "source": "My son Prince Hamlet and Lady Birgitta are to be betrothed today.",
+      "source_sha256": "82f6d01b09507ddd5eb3f2a0b2c4029c6056e72b2d60b1cfb999c229a8218555",
+      "previous_target": "我的儿子哈姆雷特王子与比尔吉塔女士，今日将订立婚约。",
+      "target": "我的儿子哈姆雷特王子与布莉吉塔女士，今日将订立婚约。"
+    },
+    {
+      "id": "p03169-9f1f01c27602",
+      "source": "Let us all bear witness to the betrothal of Prince Hamlet of Denmark, and Lady Birgitta of House Brockenhuus.",
+      "source_sha256": "9f1f01c276023c9b915b7487ff9428546d3e198608fa72d37cee36c35e8ffa7c",
+      "previous_target": "让我们共同见证丹麦的哈姆雷特王子，与布罗肯胡斯家族的比尔吉塔女士订立婚约。",
+      "target": "让我们共同见证丹麦的哈姆雷特王子，与布罗肯胡斯家族的布莉吉塔女士订立婚约。"
+    },
+    {
+      "id": "p03236-cb8eaa673a46",
+      "source": "Young Laertes here is deeply in love with Lady Birgitta. Who, as we all know, is a mite above his station.",
+      "source_sha256": "cb8eaa673a4611ab36c3e1ca06349a1e5d03bfb752b0ca129e231c1a4c3bb1cc",
+      "previous_target": "咱们这位小雷欧提斯，深深爱着比尔吉塔女士。大家都知道，她的身份比他高了那么一点。",
+      "target": "咱们这位小雷欧提斯，深深爱着布莉吉塔女士。大家都知道，她的身份比他高了那么一点。"
+    },
+    {
+      "id": "p03266-4a84fa69e23c",
+      "source": "Lady Birgitta, we've spoken with your father Soren already. He has given his word. You will be wed.",
+      "source_sha256": "4a84fa69e23c6cb64bf3251eaf54aef034a2d750c544e2e0bfd56cb760b17176",
+      "previous_target": "比尔吉塔女士，我们已经与你的父亲索伦谈过了。他已应允。你们将结为夫妻。",
+      "target": "布莉吉塔女士，我们已经与你的父亲索伦谈过了。他已应允。你们将结为夫妻。"
+    },
+    {
+      "id": "p03269-b35b9769e44e",
+      "source": "Lady Birgitta, we've spoken with your father Soren already. As the de facto speaker for the noble houses, he has given his word. You will be wed.",
+      "source_sha256": "b35b9769e44e5617f13f3a70b5c88019b97d884aa8bb0c0c468c266ae7e28878",
+      "previous_target": "比尔吉塔女士，我们已经与你的父亲索伦谈过了。他是贵族各家实际上的代言人，已经应允。你们将结为夫妻。",
+      "target": "布莉吉塔女士，我们已经与你的父亲索伦谈过了。他是贵族各家实际上的代言人，已经应允。你们将结为夫妻。"
+    },
+    {
+      "id": "p03436-a9d775f6ec6f",
+      "source": "Lady Birgitta, a moment, please.",
+      "source_sha256": "a9d775f6ec6f62b568018f7d7966e41f84f458604dbeba624ce5526fba869b36",
+      "previous_target": "比尔吉塔女士，请留步。",
+      "target": "布莉吉塔女士，请留步。"
+    },
+    {
+      "id": "p03461-0c2ea30cc21b",
+      "source": "I apprehended Lady Birgitta earlier today. She is in custody now.",
+      "source_sha256": "0c2ea30cc21bc2cac5662defe9c6a743a69d36d876ecac807636956c23f72ce8",
+      "previous_target": "今天早些时候，我逮捕了比尔吉塔女士。她现在已被拘押。",
+      "target": "今天早些时候，我逮捕了布莉吉塔女士。她现在已被拘押。"
+    },
+    {
+      "id": "p03524-f957ea6cd5aa",
+      "source": "Birgitta Sophie Brockenhuus. That's your full name, correct? As I've heard it, the roots of the Brockenhuus family run deep.",
+      "source_sha256": "f957ea6cd5aa4711e0773cec9e0deeec16444b6cabed195546cb7738ab1d8dc7",
+      "previous_target": "比尔吉塔·索菲·布罗肯胡斯。这是你的全名，对吧？据我所知，布罗肯胡斯家族的根基很深。",
+      "target": "布莉吉塔·索菲·布罗肯胡斯。这是你的全名，对吧？据我所知，布罗肯胡斯家族的根基很深。"
+    },
+    {
+      "id": "p03540-6fdedba40f97",
+      "source": "Lady Birgitta Brockenhuus, I sentence you to die this night.",
+      "source_sha256": "6fdedba40f9728b29e68bf88cfb35ab093c2900f6c9b6c61b3ae5bf1028fe824",
+      "previous_target": "比尔吉塔·布罗肯胡斯女士，我判你今晚处死。",
+      "target": "布莉吉塔·布罗肯胡斯女士，我判你今晚处死。"
+    },
+    {
+      "id": "p03564-d19d7acd6c72",
+      "source": "See you soon, Lady Birgitta.",
+      "source_sha256": "d19d7acd6c72e30b34b4294a3d71bc0250c5832fc4ddc2ce5db2a55077911085",
+      "previous_target": "很快再见，比尔吉塔女士。",
+      "target": "很快再见，布莉吉塔女士。"
+    },
+    {
+      "id": "p03594-7d2d50282467",
+      "source": "Lady Birgitta Brockenhuus, you are hereby sentenced to die for the crime of highest treason against the Danish Crown.",
+      "source_sha256": "7d2d50282467aee46977f99daa3bd1be6dd6fb7f16a9bf98c1c8ead0008e1fb1",
+      "previous_target": "比尔吉塔·布罗肯胡斯女士，你犯下了背叛丹麦王室的重罪，现判处你死刑。",
+      "target": "布莉吉塔·布罗肯胡斯女士，你犯下了背叛丹麦王室的重罪，现判处你死刑。"
+    },
+    {
+      "id": "p03639-f9bd046c625a",
+      "source": "Especially in light of your request that Lady Birgitta be executed in a hidden place, rather than in public.",
+      "source_sha256": "f9bd046c625af885e5674dc2aa83c08a0847fa0792cd07e490a2e8c8e081351f",
+      "previous_target": "尤其是您要求在隐秘的地方处决比尔吉塔女士，而不是公开行刑。",
+      "target": "尤其是您要求在隐秘的地方处决布莉吉塔女士，而不是公开行刑。"
+    },
+    {
+      "id": "p04257-e741a18b6d7b",
+      "source": "Don't fret, Lady Birgitta.",
+      "source_sha256": "e741a18b6d7b705d8f4fbab7410e04288c8cd8f92025413656a9ad11816a84bc",
+      "previous_target": "别担心，比尔吉塔女士。",
+      "target": "别担心，布莉吉塔女士。"
+    },
+    {
+      "id": "p04261-4e505f3ee62b",
+      "source": "Lady Birgitta.",
+      "source_sha256": "4e505f3ee62bbda743ce3985958e280169d517fe796d7f4d95c6261b547d5688",
+      "previous_target": "比尔吉塔女士。",
+      "target": "布莉吉塔女士。"
+    },
+    {
+      "id": "p04287-fb859dad5e0e",
+      "source": "Lady Birgitta is missing as well.",
+      "source_sha256": "fb859dad5e0eee226b3b69d1e39179a77e74570313b175852d1c4398587afb6d",
+      "previous_target": "比尔吉塔女士也不见了。",
+      "target": "布莉吉塔女士也不见了。"
+    },
+    {
+      "id": "p04444-b1540d2230d6",
+      "source": "My lady-in-waiting, Brit—Birgitta—comes from a high house. She'd make a suitable match, if a bit low in rank. But... I just don't know.",
+      "source_sha256": "b1540d2230d6b5a81ad1e30caf7d868577dab1187d2e74c956dfd6db40c3f192",
+      "previous_target": "我的宫廷侍女布莉特——比尔吉塔——出身名门。她会是个合适的婚配对象，虽然身份稍低了些。不过……我实在拿不定主意。",
+      "target": "我的宫廷侍女布莉特——布莉吉塔——出身名门。她会是个合适的婚配对象，虽然身份稍低了些。不过……我实在拿不定主意。"
+    },
+    {
+      "id": "p06259-b06e18004a13",
+      "source": "You're doing a magnificent thing, Lady Birgitta. You mustn't forget it.",
+      "source_sha256": "b06e18004a132011654ab6f499dcbb847bd4ef701fe989a6c5e8e8ec0ba3e7cc",
+      "previous_target": "你在做一件伟大的事，比尔吉塔女士。千万别忘了这一点。",
+      "target": "你在做一件伟大的事，布莉吉塔女士。千万别忘了这一点。"
+    },
+    {
+      "id": "p07434-5e4e0adf5967",
+      "source": "A clever little play to put on. To whit, it sends Lady Birgitta scrambling, not that she poses a danger to you anymore.",
+      "source_sha256": "5e4e0adf5967bc998d269a2c77974f8dc39a64cc7009e03857e626546302e834",
+      "previous_target": "上演这么一出小戏，倒是很聪明。它让比尔吉塔女士乱了阵脚，虽说她已经不再对你构成威胁。",
+      "target": "上演这么一出小戏，倒是很聪明。它让布莉吉塔女士乱了阵脚，虽说她已经不再对你构成威胁。"
+    },
+    {
+      "id": "p09354-29b45c951150",
+      "source": "Lady Birgitta. Tomorrow is the morning we've waited for.",
+      "source_sha256": "29b45c951150ac212e98b23db8ade9f51116cd4a6bac51812721a6e77fb8aa31",
+      "previous_target": "比尔吉塔女士。明天就是我们等待已久的那个早晨。",
+      "target": "布莉吉塔女士。明天就是我们等待已久的那个早晨。"
+    },
+    {
+      "id": "p09707-e0ef91ad2626",
+      "source": "Even during these tragedies, I have carried out my duty. The traitor Birgitta has been put to death.",
+      "source_sha256": "e0ef91ad262638cb457c1a1cc88a8999460d185d927c4edc8b0333f78dc5e311",
+      "previous_target": "即使接连发生这些悲剧，我也履行了自己的职责。叛徒比尔吉塔已被处死。",
+      "target": "即使接连发生这些悲剧，我也履行了自己的职责。叛徒布莉吉塔已被处死。"
+    },
+    {
+      "id": "p09708-47b986543152",
+      "source": "The traitor Birgitta has been put to death.",
+      "source_sha256": "47b98654315267ab0c3b21314a9b891c51f0d2863a2abf1565708a36abac0a7a",
+      "previous_target": "叛徒比尔吉塔已被处死。",
+      "target": "叛徒布莉吉塔已被处死。"
+    },
+    {
+      "id": "p12008-341ea152517e",
+      "source": "Lady Birgitta? Are you certain?",
+      "source_sha256": "341ea152517e0a132e8fa525d3b202ed32146bfbaaa51c74e0c2fd1377040dd9",
+      "previous_target": "比尔吉塔女士？你确定吗？",
+      "target": "布莉吉塔女士？你确定吗？"
+    },
+    {
+      "id": "p12028-94af4cb1ec7c",
+      "source": "But Lady Birgitta is a respected member of the court—this must be pursued gently. I will speak with her, at the very least.",
+      "source_sha256": "94af4cb1ec7c957937059b52e08f0282ce02e1c9478fd145d573f29381ad0abf",
+      "previous_target": "但比尔吉塔女士在宫廷里很受尊重——调查这件事必须采取温和的方式。至少，我会跟她谈谈。",
+      "target": "但布莉吉塔女士在宫廷里很受尊重——调查这件事必须采取温和的方式。至少，我会跟她谈谈。"
+    },
+    {
+      "id": "p13648-8f3d5a424a4f",
+      "source": "In fact, I'm about to arrange a suitable match for him with Lady Birgitta.",
+      "source_sha256": "8f3d5a424a4f3df3820e844f99e874651a2239b965e6dd767bffd171d953781e",
+      "previous_target": "事实上，我正要为他和比尔吉塔女士安排一桩合适的婚事。",
+      "target": "事实上，我正要为他和布莉吉塔女士安排一桩合适的婚事。"
+    },
+    {
+      "id": "p13650-633b674873a4",
+      "source": "In fact, I was about to arrange a match between Hamlet and Lady Birgitta, before she proved herself a liar.",
+      "source_sha256": "633b674873a40b04c2219e770469b37a50a0ae244c853e3b555b8359df6faad7",
+      "previous_target": "事实上，在比尔吉塔女士暴露出骗子的真面目之前，我正要安排她和哈姆雷特的婚事。",
+      "target": "事实上，在布莉吉塔女士暴露出骗子的真面目之前，我正要安排她和哈姆雷特的婚事。"
+    },
+    {
+      "id": "p13660-8615b4faaafc",
+      "source": "In fact, my husband is about to arrange a suitable match for him with Lady Birgitta.",
+      "source_sha256": "8615b4faaafca4715d91a559cac22e931a545549980ec93d353d6de428a855f7",
+      "previous_target": "事实上，我丈夫正要为他和比尔吉塔女士安排一桩合适的婚事。",
+      "target": "事实上，我丈夫正要为他和布莉吉塔女士安排一桩合适的婚事。"
+    },
+    {
+      "id": "a00237-f6fca141ccf4",
+      "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is—for a price.",
+      "source_sha256": "f6fca141ccf4379cbc07416eec1037468bbb4d4ae754bc5f1c5401c0fd5121f6",
+      "previous_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+      "target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。"
+    },
+    {
+      "id": "ui-ending-66b09814ebb9e572",
+      "source": "MYSELF",
+      "source_sha256": "66b09814ebb9e5722cebc5b3b155eb7afd498214195d52595474850d9c60d73d",
+      "previous_target": "自己",
+      "target": "自我"
+    }
+  ],
+  "total_pending_changed_dictionary_entries": 61,
+  "changes_since_previous_install": [
+    {
+      "id": "p00040-3a35f58d015c",
+      "source": "Birgitta 'Brit' Brockenhuus",
+      "source_sha256": "3a35f58d015c298771087ff051cfd726563a0bbe5cd3ccb410d6e55336192fae",
+      "previous_target": "比尔吉塔·“布莉特”·布罗肯胡斯",
+      "target": "布莉吉塔·“布莉特”·布罗肯胡斯"
+    },
+    {
+      "id": "p00411-3d6d3331cb90",
+      "source": "Tonight, I'd like to ask Lady Birgitta for her hand in marriage.",
+      "source_sha256": "3d6d3331cb9002eed695b7e58a04d38834e3ed07e836a956b84b593a35891571",
+      "previous_target": "今晚，我想向比尔吉塔女士求婚。",
+      "target": "今晚，我想向布莉吉塔女士求婚。"
+    },
+    {
+      "id": "p00555-6716473a5435",
+      "source": "Birgitta ('Brit')",
+      "source_sha256": "6716473a5435242e929e377ea2c0e5e58e1f26e84ad0713416f2e4c31ea4cb2e",
+      "previous_target": "比尔吉塔（“布莉特”）",
+      "target": "布莉吉塔（“布莉特”）"
+    },
+    {
+      "id": "p00590-c3ff31865adb",
+      "source": "How weary, stale, flat, and unprofitable seem to me all the uses of this world.",
+      "source_sha256": "c3ff31865adbdc36491ac3dc324aaf5b94e790c79d1b171cb288612b525da128",
+      "previous_target": "世间的一切，在我看来都如此疲惫、陈腐、乏味，毫无意义。",
+      "target": "世间的一切，在我看来都如此令人厌倦、陈腐、乏味，毫无意义。"
+    },
+    {
+      "id": "p00602-7f7e6b0bbc9f",
+      "source": "It is far too late to do otherwise. I can't go back, not after knowing what I know now.",
+      "source_sha256": "7f7e6b0bbc9fdc08a5781623d6ca9cdcfc9933436bc219338ac02f693bd51e87",
+      "previous_target": "想做别的选择，早就太迟了。我回不去了，尤其是在知道了如今这一切之后。",
+      "target": "想做别的选择，早就太迟了。如今知道了这一切，我就再也回不去了。"
+    },
+    {
+      "id": "p00658-55473fba77aa",
+      "source": "For a while, it is a good, warm life, for what little it's worth. Every night, Laertes strums his lute as Father and I drift off to sleep by the fire.",
+      "source_sha256": "55473fba77aaf6e7d3c07497d5f678546a93f8c75f35080f0798d5ee221654d2",
+      "previous_target": "有一段时间，日子过得不错，也很温暖，虽说这并没有多大意义。每晚，雷欧提斯拨弄着鲁特琴，父亲和我则在炉火旁渐渐睡去。",
+      "target": "有一段时间，日子过得不错，也很温暖，虽然这也算不得多大安慰。每晚，雷欧提斯拨弄着鲁特琴，父亲和我则在炉火旁渐渐睡去。"
+    },
+    {
+      "id": "p00699-b82761b0c5b8",
+      "source": "And no one within Denmark speaks of me, Hamlet, or anyone else again—save in whispers told to children too young to have witnessed the invasion firsthand.",
+      "source_sha256": "b82761b0c5b89d0eef433c01b43687dc1cf4952939ccce58c7717efb7a5a74c8",
+      "previous_target": "丹麦再也无人提起我、哈姆雷特或其他任何人——只有低声讲给孩子们听的故事里还会提及。他们当年太小，未曾亲眼见过那场入侵。",
+      "target": "丹麦再也无人提起我、哈姆雷特或其他任何人——只有低声讲给孩子们听的故事里还会提及。这些孩子年纪太小，未曾亲眼见过那场入侵。"
+    },
+    {
+      "id": "p00703-d21d5dda1d83",
+      "source": "I join Grace's crew, and my old life disappears into the wake of her new vessel.",
+      "source_sha256": "d21d5dda1d83fe86eefb7eb525054ec5e28ad207408ec5702d343308d0f422ae",
+      "previous_target": "我加入了格蕾丝的船队，旧日的生活消失在她新船驶过的尾浪里。",
+      "target": "我成了格蕾丝的船员，旧日的生活消失在她新船驶过的尾浪里。"
+    },
+    {
+      "id": "p00754-6eab5617128c",
+      "source": "And the next, with just a slight shift—one look of those bright eyes—everything has changed.",
+      "source_sha256": "6eab5617128c282fc77231456c0e3c3672da93aadfdae921ed01dfeb2cc60e12",
+      "previous_target": "下一刻，只是轻轻一动——那双明亮的眼睛投来一瞥——一切就都变了。",
+      "target": "下一刻，只消一点细微的变化——那双明亮的眼睛投来一瞥——一切就都变了。"
+    },
+    {
+      "id": "p00756-5ed49fd2ede4",
+      "source": "And to his credit, he does not lie to me or beg me to keep him. He nods, kisses me goodbye, and leaves without another word.",
+      "source_sha256": "5ed49fd2ede493bd40f97d3a92a1084ce81771a4323519e9e3f4e3da8468896a",
+      "previous_target": "值得肯定的是，他没有骗我，也没有求我留下他。他点点头，吻我道别，便一言不发地走了。",
+      "target": "不过，他倒也坦诚，没有骗我，也没有求我挽留。他点点头，吻我道别，便一言不发地走了。"
+    },
+    {
+      "id": "p00759-73d915598caa",
+      "source": "For years I loved a man who loved me more than life itself. A love to surpass the stars. A love which outshone even Desdemona.",
+      "source_sha256": "73d915598caa19d41bae7e460eb04bc2a3069096ba70c9ff768abf4115ca97c5",
+      "previous_target": "多年来，我爱着一个爱我胜过生命的男人。那份爱超越星辰。那份爱甚至让苔丝狄蒙娜也黯然失色。",
+      "target": "那些年，我爱着一个爱我胜过生命的男人。那份爱超越星辰。那份爱甚至让苔丝狄蒙娜也黯然失色。"
+    },
+    {
+      "id": "p00766-3704d0e458b0",
+      "source": "I was once Cassandra, cursed to warn people and have them reject me.",
+      "source_sha256": "3704d0e458b0fb3b80610ceba3bfadafee805d05de3c5f13f13c9598195220e3",
+      "previous_target": "我曾是卡珊德拉，受诅咒向人们发出警告，却遭到他们拒绝。",
+      "target": "我曾是卡珊德拉，身负诅咒：向人们发出警告，却始终无人肯信。"
+    },
+    {
+      "id": "p00769-032e59bc68be",
+      "source": "He agrees the war is senseless, so I cede him his little swamp, and we end it.",
+      "source_sha256": "032e59bc68be808ab5295738305148c9eb28193c74bb3cf865926944121e9849",
+      "previous_target": "他也认为这场战争毫无意义，于是我把他那一小片沼泽割让给他，我们就此结束了战争。",
+      "target": "他也认为这场战争毫无意义，于是我把那一小片沼泽割让给他，就此结束了战争。"
+    },
+    {
+      "id": "p00777-ce5b670d771b",
+      "source": "I have nothing to lose. I have lost it all a hundred times before. And in that, the nobles find respect for me.",
+      "source_sha256": "ce5b670d771b232df89f84ab67434334d022e68b422f4955277e3678a7f346f9",
+      "previous_target": "我已经没什么可失去的了。我早已失去过一切，上百次。而这一点，让贵族们对我生出了敬意。",
+      "target": "我已经没什么可失去的了。一切，我早已失去过上百次。也正因如此，贵族们对我生出了敬意。"
+    },
+    {
+      "id": "p00785-7bf687926024",
+      "source": "They wonder what happened to Ophelia, the girl—not Ophelia, the queen.",
+      "source_sha256": "7bf687926024186d04f71c683e90d8ffb0fb08dbe02b2c46a51c2a238dcbc345",
+      "previous_target": "他们想知道，奥菲莉娅那个姑娘究竟怎么了——而不是奥菲莉娅这位女王。",
+      "target": "他们想知道，奥菲莉娅究竟怎么了——他们问的是那个姑娘，而非这位女王。"
+    },
+    {
+      "id": "p00786-f61a57b9645a",
+      "source": "I know what became of the girl. Her future was stolen from her. She was forced to endure hell. And she came through it, alive but only half human.",
+      "source_sha256": "f61a57b9645a562800e9d6974d105a1f9eb6aed7ea6ce7b5d2896d129c904c37",
+      "previous_target": "我知道那个姑娘变成了什么样。她的未来被夺走了。她被迫承受地狱般的折磨。她熬了过来，还活着，却只剩下一半人性。",
+      "target": "我知道那个姑娘变成了什么样。她的未来被夺走了。她被迫承受地狱般的折磨。她熬了过来，还活着，却已不再是一个完整的人。"
+    },
+    {
+      "id": "p00794-20c46923e804",
+      "source": "From now on, my life will be focused on the Denmark that will <i>be.</i> The great nation to which all others will aspire.",
+      "source_sha256": "20c46923e804dfbdff6d470373e909300de9beb92cf933031a3b41cf6af93efd",
+      "previous_target": "从今往后，我的人生将专注于<i>未来</i>的丹麦。一个其他国家都会向往的伟大国度。",
+      "target": "从今往后，我的人生将专注于<i>未来</i>的丹麦。一个其他所有国家都渴望效仿的伟大国度。"
+    },
+    {
+      "id": "p00799-1e3259793e9f",
+      "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is -- for a price.",
+      "source_sha256": "1e3259793e9ff59f551cbad5477a06d268befd8acb5b6116853ce5a0a1028b9c",
+      "previous_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，得付出代价。",
+      "target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。"
+    },
+    {
+      "id": "p00818-a75d2f18bc5f",
+      "source": "This life is not glorious. Denmark slips more and more into obscurity as the shadow of war shrinks away.",
+      "source_sha256": "a75d2f18bc5f7a9f3431bf622ef1f57b29b4c7bb406d1f8d49cd9f4f8484198f",
+      "previous_target": "这样的生活并不光彩。随着战争的阴影渐渐退去，丹麦也越来越默默无闻。",
+      "target": "这样的生活谈不上荣耀。随着战争的阴影渐渐退去，丹麦也越来越默默无闻。"
+    },
+    {
+      "id": "p00826-73e91e696a18",
+      "source": "He would cast long shadows on the floor, or summon illusions to whisper my name.",
+      "source_sha256": "73e91e696a18890b12ff117bdb6660e967c2865c85b0eeaef651ab9f7bd3b637",
+      "previous_target": "他会在地板上投下长长的影子，或召出幻象，低声呼唤我的名字。",
+      "target": "他会在地板上投下长长的影子，或召出幻象，让它们低声呼唤我的名字。"
+    },
+    {
+      "id": "p00834-4457a761361b",
+      "source": "Even if he kills me and rips my skin from my bones, or turns me into pulp...",
+      "source_sha256": "4457a761361b32f47f22f2be862b7f36fe55a3bd9e9591f099fbfa00a07a921b",
+      "previous_target": "哪怕他杀了我，把我的皮从骨头上撕下来，或把我打成肉泥……",
+      "target": "哪怕他杀了我，把我的皮从骨头上撕下来，或把我变成肉泥……"
+    },
+    {
+      "id": "p00871-89287b225611",
+      "source": "...And for two years, I do. I linger.",
+      "source_sha256": "89287b225611de15bccc7d9359258eef9a8f6f63c497895e3463cab434230517",
+      "previous_target": "……两年来，我确实如此。我就这么留着。",
+      "target": "……就这样，我过了两年。迟迟没有离开。"
+    },
+    {
+      "id": "p00876-1cf9d95feb29",
+      "source": "One day, a messenger arrives. I learn that the new Queen has sent for me—Queen Birgitta.",
+      "source_sha256": "1cf9d95feb290e51b372ecefa6a2beec44dc8ac865b720fa0cdc8c5b6d2d72cc",
+      "previous_target": "一天，一名信使来了。我得知新王后召我前去——比尔吉塔王后。",
+      "target": "一天，一名信使来了。我得知新王后召我前去——布莉吉塔王后。"
+    },
+    {
+      "id": "p00889-ea58c1950bcb",
+      "source": "I take my time, a tardy explorer—like King Hamlet's spirit wandering the walls, like a fairy-sprite made of dust, never alighting permanently on anything or anyone.",
+      "source_sha256": "ea58c1950bcb7cddf117a515a8f54983bbdd9928630b53f7aeef9a646fd8cae3",
+      "previous_target": "我不紧不慢，做个慢悠悠的探寻者——像哈姆雷特国王的幽灵游荡在城墙上，像尘埃化成的小精灵，永远不会停驻在任何事物或任何人身上。",
+      "target": "我不紧不慢，做个慢悠悠的探寻者——像哈姆雷特国王的幽灵游荡在城墙上，像尘埃化成的小精灵，从不在任何事物或任何人身上长久停驻。"
+    },
+    {
+      "id": "p00908-e2fb637c5518",
+      "source": "We had something strong that evening. My fingers are tingling, my cheeks still warm and flush with it. I feel uniquely alive.",
+      "source_sha256": "e2fb637c55180622346c65b6f1d10cf00ee15f775fdf89b23f9dfdeb47cd937e",
+      "previous_target": "那天晚上，我们喝了些烈酒。我的手指阵阵发麻，脸颊还因酒意而发烫、泛红。我从未如此鲜明地感到自己活着。",
+      "target": "那天晚上，我们喝了些烈酒。我的手指阵阵发麻，脸颊还因酒意而发烫、泛红。我格外鲜明地感到自己活着。"
+    },
+    {
+      "id": "p00954-4a88b61d86a0",
+      "source": "But now the future lies before us. Ferdinand was never meant to stay in Elsinore. Now he makes preparations to go to Kalmar, to assist in Sweden's integration.",
+      "source_sha256": "4a88b61d86a06e72fee8be23129639308cc5cf4d9c1651610b4fc9dabc36e569",
+      "previous_target": "而如今，未来就在我们眼前。费迪南德本就不打算长留埃尔西诺。现在，他正准备前往卡尔马，协助瑞典融入统一后的国家。",
+      "target": "而如今，未来就在我们眼前。费迪南德本就不会长留埃尔西诺。现在，他正准备前往卡尔马，协助瑞典融入统一后的国家。"
+    },
+    {
+      "id": "p01967-0995ce8610bd",
+      "source": "Speaking of springing forth... I've heard that Prince Hamlet and Lady Birgitta are to be wed soon.",
+      "source_sha256": "0995ce8610bd182eaf09f5d91b70060c319be2fcaa1c42b8580c81071a157e42",
+      "previous_target": "说起接踵而来的事……我听说哈姆雷特王子和比尔吉塔女士很快就要结婚了。",
+      "target": "说起接踵而来的事……我听说哈姆雷特王子和布莉吉塔女士很快就要结婚了。"
+    },
+    {
+      "id": "p02348-2c7e82dcbc2b",
+      "source": "I understand you and Lady Birgitta have made such an arrangement already. Her father has been loyal to Us for some time.",
+      "source_sha256": "2c7e82dcbc2b92c6b595ee3f1cdaab5b13491d7d71d9f2dfaa6d866cead97ffb",
+      "previous_target": "据我所知，你和比尔吉塔女士已经有了这样的安排。她的父亲效忠我们已有一段时间了。",
+      "target": "据我所知，你和布莉吉塔女士已经有了这样的安排。她的父亲效忠我们已有一段时间了。"
+    },
+    {
+      "id": "p02352-0d32ac6afe48",
+      "source": "Lady Birgitta's father has already petitioned me with such an arrangement.",
+      "source_sha256": "0d32ac6afe486aec403f46ff1dc9cc124f29f3737ce1ca69d549bf1a443c8625",
+      "previous_target": "比尔吉塔女士的父亲已经向我请求过这样的安排。",
+      "target": "布莉吉塔女士的父亲已经向我请求过这样的安排。"
+    },
+    {
+      "id": "p02628-3ac07a466639",
+      "source": "Yes, Lady Birgitta? Does something trouble you?",
+      "source_sha256": "3ac07a466639e0e38d3ceb0d8283e12fcd5e623512d641f715f8e36ba93c7903",
+      "previous_target": "怎么了，比尔吉塔女士？有什么事困扰着你吗？",
+      "target": "怎么了，布莉吉塔女士？有什么事困扰着你吗？"
+    },
+    {
+      "id": "p02994-10d0f42c88e4",
+      "source": "Lady Birgitta!",
+      "source_sha256": "10d0f42c88e47e25b83c61930874b936100c1bd821b6d97f5c6575612b7863b3",
+      "previous_target": "比尔吉塔女士！",
+      "target": "布莉吉塔女士！"
+    },
+    {
+      "id": "p03156-c8c9700a321a",
+      "source": "My nephew Prince Hamlet and Lady Birgitta are to be betrothed today.",
+      "source_sha256": "c8c9700a321accc5e18f79038a8fd999afbb7d5af49503b0e444c99ba89c69b0",
+      "previous_target": "我的侄子哈姆雷特王子与比尔吉塔女士，今日将订立婚约。",
+      "target": "我的侄子哈姆雷特王子与布莉吉塔女士，今日将订立婚约。"
+    },
+    {
+      "id": "p03157-3606591d7ed8",
+      "source": "In light of Lady Birgitta settling into her role within the court, we felt it was the right time to make such a match.",
+      "source_sha256": "3606591d7ed831d33ec6c3e38954b94f98fa2c2225778193f8f63f95360f909e",
+      "previous_target": "比尔吉塔女士已逐渐适应了自己在宫廷中的身份，我们认为，是时候促成这桩婚事了。",
+      "target": "布莉吉塔女士已逐渐适应了自己在宫廷中的身份，我们认为，是时候促成这桩婚事了。"
+    },
+    {
+      "id": "p03159-82f6d01b0950",
+      "source": "My son Prince Hamlet and Lady Birgitta are to be betrothed today.",
+      "source_sha256": "82f6d01b09507ddd5eb3f2a0b2c4029c6056e72b2d60b1cfb999c229a8218555",
+      "previous_target": "我的儿子哈姆雷特王子与比尔吉塔女士，今日将订立婚约。",
+      "target": "我的儿子哈姆雷特王子与布莉吉塔女士，今日将订立婚约。"
+    },
+    {
+      "id": "p03169-9f1f01c27602",
+      "source": "Let us all bear witness to the betrothal of Prince Hamlet of Denmark, and Lady Birgitta of House Brockenhuus.",
+      "source_sha256": "9f1f01c276023c9b915b7487ff9428546d3e198608fa72d37cee36c35e8ffa7c",
+      "previous_target": "让我们共同见证丹麦的哈姆雷特王子，与布罗肯胡斯家族的比尔吉塔女士订立婚约。",
+      "target": "让我们共同见证丹麦的哈姆雷特王子，与布罗肯胡斯家族的布莉吉塔女士订立婚约。"
+    },
+    {
+      "id": "p03236-cb8eaa673a46",
+      "source": "Young Laertes here is deeply in love with Lady Birgitta. Who, as we all know, is a mite above his station.",
+      "source_sha256": "cb8eaa673a4611ab36c3e1ca06349a1e5d03bfb752b0ca129e231c1a4c3bb1cc",
+      "previous_target": "咱们这位小雷欧提斯，深深爱着比尔吉塔女士。大家都知道，她的身份比他高了那么一点。",
+      "target": "咱们这位小雷欧提斯，深深爱着布莉吉塔女士。大家都知道，她的身份比他高了那么一点。"
+    },
+    {
+      "id": "p03266-4a84fa69e23c",
+      "source": "Lady Birgitta, we've spoken with your father Soren already. He has given his word. You will be wed.",
+      "source_sha256": "4a84fa69e23c6cb64bf3251eaf54aef034a2d750c544e2e0bfd56cb760b17176",
+      "previous_target": "比尔吉塔女士，我们已经与你的父亲索伦谈过了。他已应允。你们将结为夫妻。",
+      "target": "布莉吉塔女士，我们已经与你的父亲索伦谈过了。他已应允。你们将结为夫妻。"
+    },
+    {
+      "id": "p03269-b35b9769e44e",
+      "source": "Lady Birgitta, we've spoken with your father Soren already. As the de facto speaker for the noble houses, he has given his word. You will be wed.",
+      "source_sha256": "b35b9769e44e5617f13f3a70b5c88019b97d884aa8bb0c0c468c266ae7e28878",
+      "previous_target": "比尔吉塔女士，我们已经与你的父亲索伦谈过了。他是贵族各家实际上的代言人，已经应允。你们将结为夫妻。",
+      "target": "布莉吉塔女士，我们已经与你的父亲索伦谈过了。他是贵族各家实际上的代言人，已经应允。你们将结为夫妻。"
+    },
+    {
+      "id": "p03436-a9d775f6ec6f",
+      "source": "Lady Birgitta, a moment, please.",
+      "source_sha256": "a9d775f6ec6f62b568018f7d7966e41f84f458604dbeba624ce5526fba869b36",
+      "previous_target": "比尔吉塔女士，请留步。",
+      "target": "布莉吉塔女士，请留步。"
+    },
+    {
+      "id": "p03461-0c2ea30cc21b",
+      "source": "I apprehended Lady Birgitta earlier today. She is in custody now.",
+      "source_sha256": "0c2ea30cc21bc2cac5662defe9c6a743a69d36d876ecac807636956c23f72ce8",
+      "previous_target": "今天早些时候，我逮捕了比尔吉塔女士。她现在已被拘押。",
+      "target": "今天早些时候，我逮捕了布莉吉塔女士。她现在已被拘押。"
+    },
+    {
+      "id": "p03524-f957ea6cd5aa",
+      "source": "Birgitta Sophie Brockenhuus. That's your full name, correct? As I've heard it, the roots of the Brockenhuus family run deep.",
+      "source_sha256": "f957ea6cd5aa4711e0773cec9e0deeec16444b6cabed195546cb7738ab1d8dc7",
+      "previous_target": "比尔吉塔·索菲·布罗肯胡斯。这是你的全名，对吧？据我所知，布罗肯胡斯家族的根基很深。",
+      "target": "布莉吉塔·索菲·布罗肯胡斯。这是你的全名，对吧？据我所知，布罗肯胡斯家族的根基很深。"
+    },
+    {
+      "id": "p03540-6fdedba40f97",
+      "source": "Lady Birgitta Brockenhuus, I sentence you to die this night.",
+      "source_sha256": "6fdedba40f9728b29e68bf88cfb35ab093c2900f6c9b6c61b3ae5bf1028fe824",
+      "previous_target": "比尔吉塔·布罗肯胡斯女士，我判你今晚处死。",
+      "target": "布莉吉塔·布罗肯胡斯女士，我判你今晚处死。"
+    },
+    {
+      "id": "p03564-d19d7acd6c72",
+      "source": "See you soon, Lady Birgitta.",
+      "source_sha256": "d19d7acd6c72e30b34b4294a3d71bc0250c5832fc4ddc2ce5db2a55077911085",
+      "previous_target": "很快再见，比尔吉塔女士。",
+      "target": "很快再见，布莉吉塔女士。"
+    },
+    {
+      "id": "p03594-7d2d50282467",
+      "source": "Lady Birgitta Brockenhuus, you are hereby sentenced to die for the crime of highest treason against the Danish Crown.",
+      "source_sha256": "7d2d50282467aee46977f99daa3bd1be6dd6fb7f16a9bf98c1c8ead0008e1fb1",
+      "previous_target": "比尔吉塔·布罗肯胡斯女士，你犯下了背叛丹麦王室的重罪，现判处你死刑。",
+      "target": "布莉吉塔·布罗肯胡斯女士，你犯下了背叛丹麦王室的重罪，现判处你死刑。"
+    },
+    {
+      "id": "p03639-f9bd046c625a",
+      "source": "Especially in light of your request that Lady Birgitta be executed in a hidden place, rather than in public.",
+      "source_sha256": "f9bd046c625af885e5674dc2aa83c08a0847fa0792cd07e490a2e8c8e081351f",
+      "previous_target": "尤其是您要求在隐秘的地方处决比尔吉塔女士，而不是公开行刑。",
+      "target": "尤其是您要求在隐秘的地方处决布莉吉塔女士，而不是公开行刑。"
+    },
+    {
+      "id": "p04257-e741a18b6d7b",
+      "source": "Don't fret, Lady Birgitta.",
+      "source_sha256": "e741a18b6d7b705d8f4fbab7410e04288c8cd8f92025413656a9ad11816a84bc",
+      "previous_target": "别担心，比尔吉塔女士。",
+      "target": "别担心，布莉吉塔女士。"
+    },
+    {
+      "id": "p04261-4e505f3ee62b",
+      "source": "Lady Birgitta.",
+      "source_sha256": "4e505f3ee62bbda743ce3985958e280169d517fe796d7f4d95c6261b547d5688",
+      "previous_target": "比尔吉塔女士。",
+      "target": "布莉吉塔女士。"
+    },
+    {
+      "id": "p04287-fb859dad5e0e",
+      "source": "Lady Birgitta is missing as well.",
+      "source_sha256": "fb859dad5e0eee226b3b69d1e39179a77e74570313b175852d1c4398587afb6d",
+      "previous_target": "比尔吉塔女士也不见了。",
+      "target": "布莉吉塔女士也不见了。"
+    },
+    {
+      "id": "p04444-b1540d2230d6",
+      "source": "My lady-in-waiting, Brit—Birgitta—comes from a high house. She'd make a suitable match, if a bit low in rank. But... I just don't know.",
+      "source_sha256": "b1540d2230d6b5a81ad1e30caf7d868577dab1187d2e74c956dfd6db40c3f192",
+      "previous_target": "我的宫廷侍女布莉特——比尔吉塔——出身名门。她会是个合适的婚配对象，虽然身份稍低了些。不过……我实在拿不定主意。",
+      "target": "我的宫廷侍女布莉特——布莉吉塔——出身名门。她会是个合适的婚配对象，虽然身份稍低了些。不过……我实在拿不定主意。"
+    },
+    {
+      "id": "p06259-b06e18004a13",
+      "source": "You're doing a magnificent thing, Lady Birgitta. You mustn't forget it.",
+      "source_sha256": "b06e18004a132011654ab6f499dcbb847bd4ef701fe989a6c5e8e8ec0ba3e7cc",
+      "previous_target": "你在做一件伟大的事，比尔吉塔女士。千万别忘了这一点。",
+      "target": "你在做一件伟大的事，布莉吉塔女士。千万别忘了这一点。"
+    },
+    {
+      "id": "p07434-5e4e0adf5967",
+      "source": "A clever little play to put on. To whit, it sends Lady Birgitta scrambling, not that she poses a danger to you anymore.",
+      "source_sha256": "5e4e0adf5967bc998d269a2c77974f8dc39a64cc7009e03857e626546302e834",
+      "previous_target": "上演这么一出小戏，倒是很聪明。它让比尔吉塔女士乱了阵脚，虽说她已经不再对你构成威胁。",
+      "target": "上演这么一出小戏，倒是很聪明。它让布莉吉塔女士乱了阵脚，虽说她已经不再对你构成威胁。"
+    },
+    {
+      "id": "p09354-29b45c951150",
+      "source": "Lady Birgitta. Tomorrow is the morning we've waited for.",
+      "source_sha256": "29b45c951150ac212e98b23db8ade9f51116cd4a6bac51812721a6e77fb8aa31",
+      "previous_target": "比尔吉塔女士。明天就是我们等待已久的那个早晨。",
+      "target": "布莉吉塔女士。明天就是我们等待已久的那个早晨。"
+    },
+    {
+      "id": "p09707-e0ef91ad2626",
+      "source": "Even during these tragedies, I have carried out my duty. The traitor Birgitta has been put to death.",
+      "source_sha256": "e0ef91ad262638cb457c1a1cc88a8999460d185d927c4edc8b0333f78dc5e311",
+      "previous_target": "即使接连发生这些悲剧，我也履行了自己的职责。叛徒比尔吉塔已被处死。",
+      "target": "即使接连发生这些悲剧，我也履行了自己的职责。叛徒布莉吉塔已被处死。"
+    },
+    {
+      "id": "p09708-47b986543152",
+      "source": "The traitor Birgitta has been put to death.",
+      "source_sha256": "47b98654315267ab0c3b21314a9b891c51f0d2863a2abf1565708a36abac0a7a",
+      "previous_target": "叛徒比尔吉塔已被处死。",
+      "target": "叛徒布莉吉塔已被处死。"
+    },
+    {
+      "id": "p12008-341ea152517e",
+      "source": "Lady Birgitta? Are you certain?",
+      "source_sha256": "341ea152517e0a132e8fa525d3b202ed32146bfbaaa51c74e0c2fd1377040dd9",
+      "previous_target": "比尔吉塔女士？你确定吗？",
+      "target": "布莉吉塔女士？你确定吗？"
+    },
+    {
+      "id": "p12028-94af4cb1ec7c",
+      "source": "But Lady Birgitta is a respected member of the court—this must be pursued gently. I will speak with her, at the very least.",
+      "source_sha256": "94af4cb1ec7c957937059b52e08f0282ce02e1c9478fd145d573f29381ad0abf",
+      "previous_target": "但比尔吉塔女士在宫廷里很受尊重——调查这件事必须采取温和的方式。至少，我会跟她谈谈。",
+      "target": "但布莉吉塔女士在宫廷里很受尊重——调查这件事必须采取温和的方式。至少，我会跟她谈谈。"
+    },
+    {
+      "id": "p13648-8f3d5a424a4f",
+      "source": "In fact, I'm about to arrange a suitable match for him with Lady Birgitta.",
+      "source_sha256": "8f3d5a424a4f3df3820e844f99e874651a2239b965e6dd767bffd171d953781e",
+      "previous_target": "事实上，我正要为他和比尔吉塔女士安排一桩合适的婚事。",
+      "target": "事实上，我正要为他和布莉吉塔女士安排一桩合适的婚事。"
+    },
+    {
+      "id": "p13650-633b674873a4",
+      "source": "In fact, I was about to arrange a match between Hamlet and Lady Birgitta, before she proved herself a liar.",
+      "source_sha256": "633b674873a40b04c2219e770469b37a50a0ae244c853e3b555b8359df6faad7",
+      "previous_target": "事实上，在比尔吉塔女士暴露出骗子的真面目之前，我正要安排她和哈姆雷特的婚事。",
+      "target": "事实上，在布莉吉塔女士暴露出骗子的真面目之前，我正要安排她和哈姆雷特的婚事。"
+    },
+    {
+      "id": "p13660-8615b4faaafc",
+      "source": "In fact, my husband is about to arrange a suitable match for him with Lady Birgitta.",
+      "source_sha256": "8615b4faaafca4715d91a559cac22e931a545549980ec93d353d6de428a855f7",
+      "previous_target": "事实上，我丈夫正要为他和比尔吉塔女士安排一桩合适的婚事。",
+      "target": "事实上，我丈夫正要为他和布莉吉塔女士安排一桩合适的婚事。"
+    },
+    {
+      "id": "a00237-f6fca141ccf4",
+      "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is—for a price.",
+      "source_sha256": "f6fca141ccf4379cbc07416eec1037468bbb4d4ae754bc5f1c5401c0fd5121f6",
+      "previous_target": "挪威的攻势被成功挡住了。但这不会长久。福丁布拉斯必须被送回他的人民身边，而他也确实被送了回去——代价却不可避免。",
+      "target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。"
+    },
+    {
+      "id": "ui-ending-66b09814ebb9e572",
+      "source": "MYSELF",
+      "source_sha256": "66b09814ebb9e5722cebc5b3b155eb7afd498214195d52595474850d9c60d73d",
+      "previous_target": "自己",
+      "target": "自我"
+    }
+  ],
+  "brit_full_name": "布莉吉塔",
+  "brit_nickname": "布莉特",
+  "full_name_entries": 37,
+  "old_full_name_remaining": 0,
+  "all_name_consumer_cases": 335,
+  "affected_context_consumer_cases": 175,
+  "readback_and_ransom_context_cases": 5,
+  "actual_recursive_xunity_consumer_passed": true,
+  "name_and_readback_consumer_cases": 515,
+  "all_endings_consumer_cases": 407,
+  "ending_title_consumer_cases": 26,
+  "export_governance_unit_tests": 19,
+  "reading_followup_guard_tests": 4,
+  "legacy_fixture_repairs": [
+    {
+      "fixture": "dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-be595f8f7f8e",
+      "source": "Oh.",
+      "previous_expected": "哦。",
+      "current_governed_target": "噢。",
+      "baseline_failure_confirmed": true
+    },
+    {
+      "fixture": "dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-5fa474c8751c",
+      "source": "I do.",
+      "previous_expected": "我明白。",
+      "current_governed_target": "是的。",
+      "baseline_failure_confirmed": true
+    },
+    {
+      "fixture": "dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-da0af8843700",
+      "source": "Yes, my lord.",
+      "previous_expected": "是，陛下。",
+      "current_governed_target": "是，大人。",
+      "baseline_failure_confirmed": true
+    },
+    {
+      "fixture": "dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-71",
+      "source": "Oh.",
+      "previous_expected": "哦。",
+      "current_governed_target": "噢。",
+      "baseline_failure_confirmed": true
+    }
+  ],
+  "legacy_failures_preexisting_and_output_delta_verified": true,
+  "reading_copy_sha256": "87e064381a2088ee720a18677674116fbfc7dbb3b7330ce2fd74d5fa493badac",
+  "reading_pairs_checked": 402,
+  "dictionary_count": 17069,
+  "dictionary_sha256": "37c735746411861d5a889e9ede83d564f30ea612f3f6fe2c61dfd24352ff384e",
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dynamic_rules": 157,
+  "chinese_character_set_unchanged": true,
+  "chinese_character_count": 2817,
+  "only_reviewed_targets_changed": true,
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+    "README.md": "aa551b5a839cb3bba531932814f03ef2233f25c8a9ee4f9fba838632a60a7a81",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "c56adec60a179314d46f3a79467b8d8fc26b8c0bd561c807dfd8861090e9782b",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "37c735746411861d5a889e9ede83d564f30ea612f3f6fe2c61dfd24352ff384e",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0"
+  },
+  "zip_matches_package": true,
+  "zip_sha256": "ad5bae9ecb12e97460ee3f8dae7032921b1d3094459345f2e13e2fc75b86f15b",
+  "game_installation_modified": false,
+  "game_started_by_task": false,
+  "saves_accessed": false,
+  "limitations": [
+    "本轮为有来源的正文、全游戏姓名与二字标题校订和真实离线消费者，不称画面或完整剧情E2E通过",
+    "MYSELF当前采用自我作为候选；未更改原始英文或角色业务数据",
+    "旧完整审查、原候选与阅读稿排版证据保持历史快照，当前内容通过精确后续覆盖生成",
+    "未安装，主游戏仍使用此前已安装的1.5.11及旧词表"
+  ]
+}

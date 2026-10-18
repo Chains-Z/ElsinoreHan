@@ -8,6 +8,16 @@ from export_sol_full import ROOT, apply_supplemental, encode, format_rule, print
 
 
 class DynamicFormatTests(unittest.TestCase):
+    def test_brit_full_name_and_nickname_stay_linked_across_game(self):
+        rows = json.loads((ROOT / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
+        full_names = [row for row in rows if "Birgitta" in row["source"]]
+        self.assertEqual(len(full_names), 37)
+        self.assertTrue(all("布莉吉塔" in row["target"] for row in full_names))
+        self.assertFalse(any("比尔吉塔" in row["target"] for row in rows))
+        targets = {row["source"]: row["target"] for row in rows}
+        self.assertEqual(targets["Brit"], "布莉特")
+        self.assertEqual(targets["Lady Brit"], "布莉特女士")
+
     def test_ending_emphasis_preserves_swear_without_repeated_pronoun(self):
         rows = json.loads((ROOT / "translation/sol-full-2026-10-09/local-corrections.json").read_text(encoding="utf-8"))
         row = next(row for row in rows if row["id"] == "p00926-69f375d99aed")

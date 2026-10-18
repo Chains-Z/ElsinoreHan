@@ -13,7 +13,7 @@ WORDS = {
     "LEGACY": "基业", "REALITY": "现实", "JOY": "欢乐", "ETERNITY": "永恒",
     "REVENGE": "复仇", "PEACE": "和平", "SURVIVAL": "生存", "PERMANENCE": "厮守",
     "PASSION": "激情", "PREDICTABILITY": "安稳", "ADVENTURE": "冒险",
-    "EVERYONE": "众人", "MYSELF": "自己", "RESPONSIBILITY": "责任",
+    "EVERYONE": "众人", "MYSELF": "自我", "RESPONSIBILITY": "责任",
     "INDULGENCE": "享乐", "INDEPENDENCE": "独立",
 }
 
@@ -24,6 +24,7 @@ TITLE_CORRECTIONS = {
     "PERMANENCE": ("长久", "用户2026-10-18要求将长相厮守压为二字；以厮守表达爱情长久相伴这一语境，不增加永生或子嗣含义"),
     "EVERYONE": ("所有人", "用户2026-10-18要求所有标题词为二字；以众人指代被抛在身后的家人朋友等其他人，不改为杀死所有人"),
     "INDULGENCE": ("纵情", "用户2026-10-18确认统一准确二字标题；享乐更清楚表达饮酒游荡寻欢与放下责任的对照"),
+    "MYSELF": ("自己", "用户2026-10-18要求重新考虑二字标题；候选采用自我，表达选择属于自己的人生，避免独活将其缩成仅仅保命"),
 }
 
 

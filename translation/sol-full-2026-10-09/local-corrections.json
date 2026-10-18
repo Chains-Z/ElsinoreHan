@@ -1478,16 +1478,27 @@
     "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is -- for a price.",
     "source_sha256": "1e3259793e9ff59f551cbad5477a06d268befd8acb5b6116853ce5a0a1028b9c",
     "original_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，得付出代价。",
-    "corrected_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+    "corrected_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。",
     "kind": "text",
-    "reason": "for a price是放回战俘所要求的代价，避免误读成丹麦承担遣返成本；不把代价具体化为赎金",
+    "reason": "对照FORT_AccostFortinbras前文明确的ransom和补充国库用途，将复仇式代价改为交易性质的赎金；同步资源与实际编译源",
     "origins": [
       "translation/sol-full-2026-10-09/inputs/b0012.json:p00799-1e3259793e9f",
       "resources.assets:scenes_endings:208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7:ENDING_Survival:317",
-      "用户要求完整审校13个结局正文，2026-10-18"
+      "用户要求完整审校13个结局正文，2026-10-18",
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00799-1e3259793e9f",
+      "用户逐段对照反馈并要求修改，2026-10-18",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:FORT_AccostFortinbras:10680,10683"
     ],
     "apply_at_export": true,
-    "additional_model_calls": 0
+    "additional_model_calls": 0,
+    "revision_history": [
+      {
+        "date": "2026-10-18",
+        "previous_corrected_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+        "previous_reason": "for a price是放回战俘所要求的代价，避免误读成丹麦承担遣返成本；不把代价具体化为赎金",
+        "reason": "对照FORT_AccostFortinbras前文明确的ransom和补充国库用途，将复仇式代价改为交易性质的赎金；同步资源与实际编译源"
+      }
+    ]
   },
   {
     "id": "p00818-a75d2f18bc5f",
@@ -1606,13 +1617,41 @@
     "source": "Norway is deflected successfully. But not forever. Fortinbras must be returned to his people, and returned he is—for a price.",
     "source_sha256": "f6fca141ccf4379cbc07416eec1037468bbb4d4ae754bc5f1c5401c0fd5121f6",
     "original_target": "挪威的攻势被成功挡住了。但这不会长久。福丁布拉斯必须被送回他的人民身边，而他也确实被送了回去——代价却不可避免。",
-    "corrected_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+    "corrected_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，而我们也确实放他回去了——当然，先收了赎金。",
     "kind": "text",
-    "reason": "for a price是放回战俘所要求的代价，避免误读成丹麦承担遣返成本；不把代价具体化为赎金；同步真实编译后的破折号源，避免只改资源源句",
+    "reason": "对照FORT_AccostFortinbras前文明确的ransom和补充国库用途，将复仇式代价改为交易性质的赎金；同步资源与实际编译源",
     "origins": [
       "translation/sol-full-2026-10-09/inputs/b0105.json:a00237-f6fca141ccf4",
       "analysis/ui-audit/assembly-strings.json:System.Void GameDataGenerated::Invoke_ENDING_Survival() IL_0100",
-      "用户要求完整审校13个结局正文，2026-10-18"
+      "用户要求完整审校13个结局正文，2026-10-18",
+      "translation/sol-full-2026-10-09/inputs/b0105.json:a00237-f6fca141ccf4",
+      "用户逐段对照反馈并要求修改，2026-10-18",
+      "resources.assets:scenes:6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a:FORT_AccostFortinbras:10680,10683"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0,
+    "revision_history": [
+      {
+        "date": "2026-10-18",
+        "previous_corrected_target": "我们成功挡住了挪威。但这并非一劳永逸。福丁布拉斯必须被送回他的人民身边，他也确实被送了回去——不过，对方得付出代价。",
+        "previous_reason": "for a price是放回战俘所要求的代价，避免误读成丹麦承担遣返成本；不把代价具体化为赎金；同步真实编译后的破折号源，避免只改资源源句",
+        "reason": "对照FORT_AccostFortinbras前文明确的ransom和补充国库用途，将复仇式代价改为交易性质的赎金；同步资源与实际编译源"
+      }
+    ]
+  },
+  {
+    "id": "p00756-5ed49fd2ede4",
+    "source": "And to his credit, he does not lie to me or beg me to keep him. He nods, kisses me goodbye, and leaves without another word.",
+    "source_sha256": "5ed49fd2ede493bd40f97d3a92a1084ce81771a4323519e9e3f4e3da8468896a",
+    "original_target": "值得肯定的是，他没有骗我，也没有求我留下他。他点点头，吻我道别，便一言不发地走了。",
+    "corrected_target": "不过，他倒也坦诚，没有骗我，也没有求我挽留。他点点头，吻我道别，便一言不发地走了。",
+    "kind": "text",
+    "reason": "to his credit是叙述者承认对方尚算坦诚的优点，用倒也坦诚取代像外部评分的值得肯定，并将求我留下他自然表述为求我挽留",
+    "origins": [
+      "resources.assets:scenes_endings:208f35f21b8b",
+      "Assembly-CSharp.dll:#US:732839",
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00756-5ed49fd2ede4",
+      "用户逐段对照反馈并要求修改，2026-10-18"
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
