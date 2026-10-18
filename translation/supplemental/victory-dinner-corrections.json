@@ -1,0 +1,36 @@
+[
+  {
+    "id": "victory-dinner-p00407-aad5a7d7d482",
+    "original_id": "p00407-aad5a7d7d482",
+    "source": "To some, our relationship has been known a long time. To others, it may be—er—more of a surprise.",
+    "source_sha256": "aad5a7d7d4823b7cbcaac923e77f8dc3119364e08d572b7ca58a69e983f0895a",
+    "previous_target": "有些人早就知道我们的关系。对另一些人来说，这可能——呃——更像是个意外。",
+    "target": "有些人早就知道我们的关系。对另一些人来说，这可能——呃——会让他们很意外。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "VictoryDinner",
+        "line": 278
+      }
+    ],
+    "reason": "用户反馈：改用形容词表达surprise，避免是个意外造成事故或意外怀孕的联想。"
+  },
+  {
+    "id": "victory-dinner-p00399-8973db81737f",
+    "original_id": "p00399-8973db81737f",
+    "source": "Come, Ophelia. Let me show you to your seat. Shall we dine?",
+    "source_sha256": "8973db81737f9056937a5e65de3689bdb70a5724f73ae41dee661b7b472557c5",
+    "previous_target": "来，奥菲莉娅。我带你入座。我们用餐吧？",
+    "target": "来，奥菲莉娅。我带你入座。那我们开始用餐吧？",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "VictoryDinner",
+        "line": 238
+      }
+    ],
+    "reason": "保留Shall we dine的礼貌提议，不改为私人用餐邀请，也不加请女主许可的意味；共享答复当然不变。"
+  }
+]

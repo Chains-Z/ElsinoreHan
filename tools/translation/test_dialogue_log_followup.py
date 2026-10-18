@@ -30,7 +30,9 @@ class DialogueLogFollowupTests(unittest.TestCase):
         self.assertEqual(len(rows),5)
         for row in rows:
             original=base[row["existing_id"]]
-            self.assertEqual(row["target"],original["target"])
+            # 别名文件保留历史覆盖阶段；当前两端由单一规范译文生成。
+            self.assertEqual(digest(row["target"]), row["existing_target_sha256"])
+            self.assertEqual(base[row["id"]]["target"],original["target"])
             self.assertEqual(row["source_sha256"],digest(row["source"]))
             self.assertEqual(row["existing_source_sha256"],digest(original["source"]))
 

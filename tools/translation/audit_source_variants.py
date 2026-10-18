@@ -99,6 +99,17 @@ def audit_aliases(translations, entries):
     return checked, mismatches
 
 
+def audit_generation(pairs, manifest):
+    """新发现的实际变体必须进入派生合同或有理由的语境例外，防止继续漏维护。"""
+    # 多个人物共用完全相同的源和格式关系时，合同只保留一份。
+    covered = {(row["resource_source"], row["variant"])
+               for row in manifest["relationships"] + manifest["context_exceptions"]
+               if row["kind"] == "dialogue"}
+    missing = [{"source": row["source"], "runtime_source": row["runtime_source"], "actor": row["actor"]}
+               for row in pairs if (row["source"], row["runtime_source"]) not in covered]
+    return {"pairs_covered": len(pairs) - len(missing), "unmanaged_pairs": missing}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--write-reviewed-baseline", action="store_true",
@@ -129,13 +140,15 @@ def main():
         if isinstance(data, list):
             entries.extend(entry for entry in data if isinstance(entry, dict))
     aliases_checked, alias_mismatches = audit_aliases(translations, entries)
+    generation = audit_generation(pairs, read(ROOT / "translation/supplemental/generated-variant-bindings.json"))
     result = {
         "dialogue_rows": len(dialogue), "paired_rows": len(pairs),
         "equal_pairs": len(pairs) - len(differences), "reviewed_differences": len(differences) - len(unreviewed),
         "unreviewed_differences": len(unreviewed), "aliases_checked": aliases_checked,
         "alias_mismatches": alias_mismatches, "missing": missing, "exclusions": exclusions,
         "pairs": pairs, "unreviewed": unreviewed,
-        "passed": not (unreviewed or missing or alias_mismatches),
+        "generation": generation,
+        "passed": not (unreviewed or missing or alias_mismatches or generation["unmanaged_pairs"]),
         "limitations": ["已检查成对变体的差异，不等同所有对白完整语义或全部剧情E2E审校"],
     }
     save(OUTPUT, result)

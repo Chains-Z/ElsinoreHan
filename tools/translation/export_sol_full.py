@@ -6,6 +6,7 @@ from pathlib import Path
 import re
 
 from run_sol_full import load_exclusions, validate
+from source_variant_generation import render_variants
 
 ROOT = Path(__file__).resolve().parents[2]
 DIRECTORY = ROOT / "translation" / "sol-full-2026-10-09"
@@ -190,12 +191,15 @@ def main():
         names = json.loads(name_path.read_text(encoding="utf-8"))
         rows = apply_supplemental(rows, names)
         supplemental += names
-    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json"):
+    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json", "playmaster-title-corrections.json", "victory-dinner-corrections.json"):
         style_path = SUPPLEMENTAL.with_name(filename)
         if style_path.exists():
             styles = json.loads(style_path.read_text(encoding="utf-8"))
             rows = apply_supplemental(rows, styles)
             supplemental += styles
+    canonical = json.loads(SUPPLEMENTAL.with_name("canonical-variant-translations.json").read_text(encoding="utf-8"))
+    variants = json.loads(SUPPLEMENTAL.with_name("generated-variant-bindings.json").read_text(encoding="utf-8"))
+    rows = render_variants(rows, canonical, variants)
     (DIRECTORY / "translations.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     package = ROOT / "runtime" / "package" / "ElsinoreHan-Sol" / "BepInEx" / "Translation" / "zh-CN" / "Text"
     package.mkdir(parents=True, exist_ok=True)
@@ -250,6 +254,8 @@ def main():
              "recorded_codex_usage_including_names": usage, "english_review_notices": len(notices),
              "dynamic_format_rules": len(dynamic), "unique_chinese_characters": len(characters),
              "recursive_ui_rules": len(ui_rules),
+             "canonical_variant_translations": len(canonical), "generated_variant_bindings": len(variants["bindings"]),
+             "generated_variant_relationships": len(variants["relationships"]), "context_exceptions": len(variants["context_exceptions"]),
              "local_recorded_corrections": len(corrections), "all_outputs_match_raw_or_recorded_correction": True,
              "limitations": ["正文来自真实Sol执行，不是百炼或人工虚构输出", "完整性通过不代表全分支意义和文风无误", "尚未声明游戏内对白排版通过", "没有观测订阅周额度的实际扣减"]}
     (DIRECTORY / "verification.json").write_text(json.dumps(proof, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

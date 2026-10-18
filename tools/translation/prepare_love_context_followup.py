@@ -28,8 +28,15 @@ def main():
             row for row in read(ROOT / "translation/supplemental" / filename)
             if row["source"] in reviewed
         ])
+    # 完整结局阅读反馈也可能覆盖love句，例如politician的从政的人；已应用的准确终值不重复覆盖。
+    effective = {row["source"]: row for row in effective_review}
+    followups = read(ROOT / "translation/supplemental/ending-reading-followup.json")["paragraphs"]
+    effective_review = apply_supplemental(effective_review, [
+        {**row, "id": effective[row["source"]]["id"]} for row in followups
+        if row["source"] in effective and effective[row["source"]]["target"] != row["target"]])
     effective_review = apply_names(effective_review)
-    corrections = apply_names(corrections)
+    # 覆盖记录ID与实际词条ID不同；派生合同必须校验实际词条的稳定ID。
+    corrections = apply_names([{**row, "id": row["original_id"]} for row in corrections])
     actual = {row["source"] for row in translations
               if re.search(review["word_pattern"], row["source"], re.I)}
     assert len(actual) == len(reviewed) == len(review["entries"]) == 431

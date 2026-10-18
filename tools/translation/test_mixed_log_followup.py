@@ -58,10 +58,10 @@ class MixedLogFollowupTests(unittest.TestCase):
         for row in read(OUT / "mixed-log-translations.json"):
             base = targets[row["base_source"]]
             self.assertEqual(row["source"], base["source"] + "\n")
-            self.assertEqual(row["target"], base["target"] + "\n")
-            self.assertEqual(row["base_target_sha256"], digest(base["target"]))
+            self.assertEqual(targets[row["source"]]["target"], base["target"] + "\n")
+            self.assertEqual(row["base_target_sha256"], digest(row["target"][:-1]))
             self.assertEqual(row["source_sha256"], digest(row["source"]))
-            base_rows = [base]
+            base_rows = [{**base, "target": row["target"][:-1]}]
             self.assertEqual(apply_supplemental(base_rows, [row])[-1]["target"], row["target"])
             corrupt = copy.deepcopy(row)
             corrupt["target"] = "未经允许的新正文。\n"

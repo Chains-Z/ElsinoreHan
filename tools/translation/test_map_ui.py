@@ -9,11 +9,22 @@ import struct
 import tempfile
 import unittest
 
-from export_sol_full import encode, format_rule
+from export_sol_full import apply_supplemental, encode, format_rule
 from prepare_map_ui import EVIDENCE, FULL, OUT, ROOT, build, read
 
 
 class MapUiTests(unittest.TestCase):
+    def current_destinations(self):
+        """地图证据保留当时译名；仅承接已有姓名校订，逐项核对旧值。"""
+        records = [dict(row) for row in self.evidence["destinations"]]
+        changes = {row["source"]: row for row in read(OUT / "shakespeare-name-corrections.json")}
+        for row in records:
+            entry = changes.get(row["source"])
+            if entry and row["target"] != entry["target"]:
+                updated = apply_supplemental([{**row, "id": row["translation_id"]}], [entry])[0]
+                row["target"] = updated["target"]
+        return records
+
     @classmethod
     def setUpClass(cls):
         cls.rules = read(OUT / "map-ui-rules.json")
@@ -31,7 +42,7 @@ class MapUiTests(unittest.TestCase):
         rules, tests, records, _, groups = build()
         self.assertEqual(rules, self.rules)
         self.assertEqual(tests, self.tests)
-        self.assertEqual(records, self.evidence["destinations"])
+        self.assertEqual(records, self.current_destinations())
         self.assertEqual(len(groups["room"]), 33)
         rooms = {row["source"] for row in groups["room"]}
         self.assertEqual(len(rooms), 31)
@@ -54,7 +65,7 @@ class MapUiTests(unittest.TestCase):
 
     def test_case_hashes_and_frozen_leaf_translations_match(self):
         translations = {row["source"]: row for row in read(FULL / "translations.json")}
-        for destination in self.evidence["destinations"]:
+        for destination in self.current_destinations():
             if destination["source"] == "???":
                 self.assertIsNone(destination["translation_id"])
                 self.assertEqual(destination["target"], "???")

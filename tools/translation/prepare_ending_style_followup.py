@@ -3,26 +3,44 @@
 from export_sol_full import apply_supplemental
 from audit_dialect_dialogue import extract_rows
 from prepare_dialogue_log_followup import ROOT, SPECIAL_NAMES, digest, read, save, short_name
+from source_variant_generation import project_subset, reading_overrides
 
 
 DIRECTORY = ROOT / "translation/supplemental"
+LAYERS = ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json", "playmaster-title-corrections.json", "victory-dinner-corrections.json")
+
+
+def project_current(rows):
+    return project_subset(rows, read(DIRECTORY / "canonical-variant-translations.json"),
+                          read(DIRECTORY / "generated-variant-bindings.json"))
+
+
+def reading_generated(reviewed):
+    from prepare_all_endings_followup import apply_reading_followup, paragraph_overrides
+    sources = {row[key] for row in reviewed for key in ("source", "runtime_source")}
+    overrides = paragraph_overrides(reading_overrides(sources,
+        read(DIRECTORY / "canonical-variant-translations.json"), read(DIRECTORY / "generated-variant-bindings.json")))
+    used = set()
+    result = [apply_reading_followup(row, overrides, used) for row in reviewed]
+    assert used == set(overrides)
+    return result
 
 
 def apply_styles(rows):
     """已审定的旧阶段条目经准确旧值校验后承接当前文字校订。"""
     sources = {row["source"] for row in rows}
-    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json"):
+    for filename in LAYERS:
         path = DIRECTORY / filename
         if path.exists():
             rows = apply_supplemental(rows, [row for row in read(path) if row["source"] in sources])
-    return rows
+    return project_current(rows)
 
 
 def reading_style(reviewed):
     """承接历史审查与姓名校订后，分别核对资源及编译源的精确旧译。"""
     from prepare_all_endings_followup import apply_reading_followup, paragraph_overrides
     sources = {row[key] for row in reviewed for key in ("source", "runtime_source")}
-    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json"):
+    for filename in LAYERS:
         path = DIRECTORY / filename
         if not path.exists():
             continue
@@ -30,7 +48,7 @@ def reading_style(reviewed):
         overrides, used = paragraph_overrides(changes), set()
         reviewed = [apply_reading_followup(row, overrides, used) for row in reviewed]
         assert used == set(overrides)
-    return reviewed
+    return reading_generated(reviewed)
 
 
 def main():

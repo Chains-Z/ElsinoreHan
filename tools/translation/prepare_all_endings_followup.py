@@ -58,6 +58,7 @@ def extract_endings():
 
 
 def main():
+    from prepare_ending_style_followup import reading_generated
     review = read(ROOT / "translation/supplemental/all-endings-review.json")
     followup_path = ROOT / "translation/supplemental/ending-reading-followup.json"
     followup = read(followup_path) if followup_path.exists() else {"paragraphs": [], "titles": []}
@@ -107,6 +108,7 @@ def main():
             reviewed = apply_reading_followup(reviewed, overrides, used_overrides)
             reviewed = apply_reading_followup(reviewed, name_overrides, used_names)
             reviewed = apply_reading_followup(reviewed, style_overrides, used_styles)
+            reviewed = reading_generated([reviewed])[0]
             assert digest(raw) == reviewed["source_sha256"]
             assert digest(runtime) == reviewed["runtime_source_sha256"]
             if reviewed["nonlexical"]:

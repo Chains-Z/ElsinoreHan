@@ -114,7 +114,7 @@ def main():
                              if item["id"] == origin["alias_id"])
                 prefix = alias.get("runtime_prefix", "")
                 suffix = "\n" if alias["id"].startswith("mixed-log-terminal-") else ""
-                assert row["target"] == prefix + targets[origin["base_source"]]["target"] + suffix
+                assert expected == prefix + targets[origin["base_source"]]["target"] + suffix
         cases.append({"id": row["id"], "source": row["source"], "target": expected,
                       "source_sha256": digest(row["source"]), "origins": row["origins"]})
     mapping = {row["origin"]["field"]: row["source"]

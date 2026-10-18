@@ -3,6 +3,7 @@
 from audit_dialect_dialogue import extract_rows
 from export_sol_full import apply_supplemental
 from prepare_dialogue_log_followup import ROOT, SPECIAL_NAMES, digest, read, save, short_name
+from prepare_ending_style_followup import project_current
 
 
 DIRECTORY = ROOT / "translation/supplemental"
@@ -13,6 +14,7 @@ def main():
     changes = read(DIRECTORY / "source-variant-corrections.json")
     followup_path = DIRECTORY / "place-and-dialogue-corrections.json"
     followups = read(followup_path) if followup_path.exists() else []
+    followups += read(DIRECTORY / "playmaster-title-corrections.json")
     checked = apply_supplemental([
         {"id": row["original_id"], "source": row["source"], "target": row["previous_target"]}
         for row in changes], changes)
@@ -41,7 +43,7 @@ def main():
             {"id": targets[source]["id"], "source": source, "target": plan["canonical_target"]},
             {"id": targets[runtime]["id"], "source": runtime, "target": plan["expected_runtime_target"]},
         ], [row for row in followups if row["source"] in {source, runtime}])
-        resource_target, runtime_target = (row["target"] for row in expected_rows)
+        resource_target, runtime_target = (row["target"] for row in project_current(expected_rows))
         for kind, text, expected in (
             ("resource", source, resource_target),
             ("runtime", runtime, runtime_target),
