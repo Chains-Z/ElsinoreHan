@@ -1,0 +1,12 @@
+[
+  {
+    "id": "credits-skip-hint-leaf",
+    "source": "Hold Ctrl to skip",
+    "target": "长按 Ctrl 跳过",
+    "source_sha256": "1f5cc981f41a68a307cea8bb812f1f5ad91ce2aec01e5e21d3c8c66c53da6d98",
+    "origins": [
+      "tools/patch/CreditsHoldSkip.cs:CreditsHoldSkip.HintSource",
+      "用户2026-10-18要求右下角白字长按Ctrl提示及圆环倒计时"
+    ]
+  }
+]

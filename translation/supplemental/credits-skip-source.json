@@ -1,0 +1,87 @@
+{
+  "source_sha256": {
+    "Managed/Assembly-CSharp.dll": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af",
+    "Managed/Elsinore.dll": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4",
+    "level4": "043c8bb78e6188ecf1e85d01e783300ace09742b2c12d03d5b7b8833ebb01711"
+  },
+  "entry": {
+    "ending_scene": "Elsinore.Ui.EndingSceneUI.Update在动作队列耗尽时设置isDone=true，启动GoToCredits协程",
+    "go_to_credits_order": [
+      "空等一帧",
+      "3秒实时淡出FadeCover到1",
+      "等待2秒实时",
+      "Assert EndingViewed(currentEnding.Id)",
+      "Assert EndingConfirmed(currentEnding.Id)",
+      "Assert AnyEndingConfirmed",
+      "CreditsPlayer.SelectedEnding=currentEnding.Id",
+      "tracker.Boss.ActivateCredits()"
+    ],
+    "activate_credits_order": [
+      "SaveLoad.SaveData(Info.State, null, GameMode=0)",
+      "SceneManager.LoadScene(Scenes/credits)"
+    ],
+    "save_semantics": "SaveData同步ProgressFromState并调用GameRunner.SaveProgress；SaveProgress同步序列化tempsave后SafeReplace到game.save/demo.save并删除bak。SaveData捕获异常只记日志，不能把片尾出现推断为磁盘保存成功。补丁不应重做本保存。"
+  },
+  "credits_type": "Elsinore.Ui.CreditsPlayer",
+  "original_timings_seconds": {
+    "pre_scroll": 2,
+    "scroll": 226,
+    "post_scroll": 1.5,
+    "still_fade_in": 6,
+    "final_still": 10
+  },
+  "original_completion": [
+    "Application.Quit()",
+    "Debug.Break()"
+  ],
+  "original_completion_il": "<PlayCredits>d__16.MoveNext IL_0268–IL_027a",
+  "original_fast_forward": "Rewired.GetButton(2)，4倍滚动及音乐；补丁不替换其输入或协程实现",
+  "patch_entry": "CreditsPlayer.Start后置挂载CreditsHoldSkip",
+  "controls": {
+    "keys": [
+      "LeftControl",
+      "RightControl"
+    ],
+    "hold_seconds": 1,
+    "clock": "Time.realtimeSinceStartup",
+    "arm": "进入片尾或失焦后必须先释放Ctrl；不接续上一页面的长按",
+    "release": "松开/失焦清零，满环后只触发一次",
+    "completion": "停止CreditsPlayer自身协程，显示一帧满环，再调用与原结尾相同的Quit/Break；不重走结局选择、保存或加载"
+  },
+  "overlay": {
+    "scope": "仅CreditsPlayer实例，独立根Canvas随播放器销毁",
+    "position": "右下角，参考1920×1080，边距32，按分辨率等比缩放",
+    "hint_source": "Hold Ctrl to skip",
+    "hint_target": "长按 Ctrl 跳过",
+    "text_color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "font_size": 24,
+    "progress_color": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "track_color": [
+      0.25,
+      0.25,
+      0.25,
+      1
+    ],
+    "ring_size": [
+      36,
+      36
+    ],
+    "ring_start": "顶部，顺时针",
+    "ring_rendering": "原生UI圆环网格，不打包图片",
+    "raycast_targets": false,
+    "translation": "TMP英文原文交给离线词表及现有F8切换"
+  },
+  "game_files_written": false,
+  "saves_accessed": false,
+  "runtime_verified": false
+}

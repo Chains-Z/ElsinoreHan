@@ -1,0 +1,13 @@
+[
+  {
+    "id": "ui-credits-skip-hint",
+    "source": "Hold Ctrl to skip",
+    "source_sha256": "1f5cc981f41a68a307cea8bb812f1f5ad91ce2aec01e5e21d3c8c66c53da6d98",
+    "target": "长按 Ctrl 跳过",
+    "origins": [
+      "tools/patch/CreditsHoldSkip.cs:CreditsHoldSkip.HintSource",
+      "用户2026-10-18要求右下角白字长按Ctrl提示及圆环倒计时"
+    ],
+    "note": "项目自有片尾控件的完整可见提示，经TMP原文赋值进入现有离线翻译及F8切换路径"
+  }
+]
