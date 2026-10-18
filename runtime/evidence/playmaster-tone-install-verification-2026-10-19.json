@@ -1,0 +1,189 @@
+{
+  "plugin_version": "1.5.15",
+  "plugin_sha256": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+  "font_bundle_sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+  "font_glyph_count": 7661,
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dynamic_rules": 157,
+  "dictionary_count": 17069,
+  "dictionary_sha256": "1ba63dd0fe00be3f22abb78a95dcc228b3a1640224f2ae22490399672bad22ac",
+  "date": "2026-10-19",
+  "status": "installed_verified",
+  "passed": true,
+  "installed": true,
+  "pending_dictionary_changes": 0,
+  "installed_dictionary_changes": 561,
+  "runtime_files_verified": 38,
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+    "README.md": "8ce2229bdd305198caa1ba65c3936840ff7dd2539a76f22ec72735ecdd286bc7",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "1ba63dd0fe00be3f22abb78a95dcc228b3a1640224f2ae22490399672bad22ac",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0"
+  },
+  "package_file_count": 40,
+  "zip_matches_package": true,
+  "zip_sha256": "4eeec6f23da5d3a1efb2a5cd312357af0d77eba0e3c6b5904812de7c29529caa",
+  "candidate_verification": "runtime/evidence/playmaster-tone-verification-2026-10-19.json",
+  "game_original_files_unchanged": true,
+  "game_original_files": [
+    {
+      "path": "Elsinore.exe",
+      "size": 639488,
+      "mtime_ns": 1710060162433595200,
+      "sha256": "df4fa0642113adec0d1f717a47526084314b3181b5f62a4547fcf05cd318fcf0"
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "size": 18116096,
+      "mtime_ns": 1710060162468174600,
+      "sha256": "ccba993e746eef5c51de3eafa4ef3d62efddf463383ba42ec4341e88f4f3a449"
+    },
+    {
+      "path": "Elsinore_Data/resources.assets",
+      "size": 6971564,
+      "mtime_ns": 1710060162435595100,
+      "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd"
+    },
+    {
+      "path": "Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "size": 5664768,
+      "mtime_ns": 1710060162434595700,
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    }
+  ],
+  "save_files_unchanged": true,
+  "save_files": [
+    {
+      "path": "elsinore_log.json",
+      "size": 3042932,
+      "mtime_ns": 1792353778351575200,
+      "sha256": "9c16954265141f37f75e0c0f209f3bb803bee7d6f33931e1d431fc3dfaa313c3"
+    },
+    {
+      "path": "elsinore_log_2.json",
+      "size": 2048277,
+      "mtime_ns": 1792347872606934800,
+      "sha256": "c91da1816d12770f2a43f010ac69868d54953b5db8eb965b91f4d532ace2080d"
+    },
+    {
+      "path": "elsinore_log_3.json",
+      "size": 87244,
+      "mtime_ns": 1792345242819011900,
+      "sha256": "6a45d774dde8da46e1bd749c33ea4bdb5740ef09f349ac2f908a37fd36a9554f"
+    },
+    {
+      "path": "elsinore_log_4.json",
+      "size": 86227,
+      "mtime_ns": 1792342416433599900,
+      "sha256": "72350a6fe2c851bf13fbae0503e96cd575517d759a141537665fef5a5c500e3d"
+    },
+    {
+      "path": "game.save",
+      "size": 3354863,
+      "mtime_ns": 1792353777809449700,
+      "sha256": "8bfb281a164b42e4649ebaf316df7362cd7d88ebc367fef0682d449780e357a1"
+    },
+    {
+      "path": "prefs.save",
+      "size": 151,
+      "mtime_ns": 1792230271423042800,
+      "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968"
+    },
+    {
+      "path": "steam_autocloud.vdf",
+      "size": 52,
+      "mtime_ns": 1792348477095183600,
+      "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341"
+    },
+    {
+      "path": "system.cfg",
+      "size": 106,
+      "mtime_ns": 1791627908187370400,
+      "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee"
+    }
+  ],
+  "save_checkpoint": {
+    "mode": "MainGame",
+    "loop": 58,
+    "quicksave_time": "66.04806",
+    "checks": {
+      "mode_is_main": true,
+      "all_11_normal_endings_completed": true,
+      "playmaster_complete": true,
+      "last_ghost_attended": true,
+      "burn_book_unlocked": true,
+      "burn_book_not_completed": true,
+      "ascension_not_completed": true,
+      "ascension_information_not_accepted": true,
+      "demon_sequence_not_started": true
+    },
+    "counters": {
+      "numberEndingsBurned": 11,
+      "perfectday": 1,
+      "witnessed(SC_NOESCAPE_Ghostlastmanifest)": 1
+    },
+    "facts": {
+      "believes(ophelia,ghostdestroyed)": true,
+      "playerAttended(SC_NOESCAPE_Ghostlastmanifest)": true,
+      "leadActive(lead,Quince_Story,quince_complete)": true,
+      "unlockedEnding(END_Revenge)": true,
+      "viewedEnding(END_Revenge)": false,
+      "viewedEnding(END_JoinQuince)": false,
+      "ownedInformation(NotNeeded)": false,
+      "demontripped": false
+    }
+  },
+  "player_backup": {
+    "requested_by_user": true,
+    "purpose": "两个特殊结局分支前的共同检查点",
+    "path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\player-checkpoints\\before-special-endings-20261019-040551",
+    "data_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\backups\\player-checkpoints\\before-special-endings-20261019-040551\\Elsinore",
+    "files": 8,
+    "byte_hashes_match_original": true,
+    "kept_intentionally": true,
+    "ignored_by_git": true
+  },
+  "main_game_started_by_task": false,
+  "save_business_loaded_by_task": false,
+  "save_gameplay_modified_by_task": false,
+  "backup_policy": "按用户本次明确要求保留一份玩家分支检查点；未建立旧补丁备份或临时测试存档",
+  "limits": [
+    "安装验证及存档只读状态核查，不称两个特殊结局已完成或剧情E2E通过"
+  ]
+}
