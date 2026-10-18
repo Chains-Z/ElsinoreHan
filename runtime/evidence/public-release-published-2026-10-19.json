@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-19",
+  "status": "published_verified",
+  "passed": true,
+  "repository": "Chains-Z/ElsinoreHan",
+  "repository_visibility": "PUBLIC",
+  "tag": "v1.5.15-zh.20261019",
+  "source_commit": "e460b97e238dcfdb794fee068018dccf9ad5a8f6",
+  "url": "https://github.com/Chains-Z/ElsinoreHan/releases/tag/v1.5.15-zh.20261019",
+  "published_at": "2026-10-18T22:08:47Z",
+  "is_draft": false,
+  "is_prerelease": false,
+  "assets": [
+    {
+      "name": "ElsinoreHan-v1.5.15-zh.20261019-win-x86.zip",
+      "size": 16203018,
+      "download_url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.5.15-zh.20261019/ElsinoreHan-v1.5.15-zh.20261019-win-x86.zip"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 111,
+      "download_url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.5.15-zh.20261019/SHA256SUMS.txt"
+    }
+  ],
+  "archive_sha256": "3c702b733c4bbcb0e9736492801fd0d1aca377b8393b961854e6cc1ac576f092",
+  "cloud_download_byte_comparison_passed": true,
+  "archive_files_verified": 66,
+  "archive_runtime_files": 39,
+  "save_backup_retained_local_and_ignored": true,
+  "temporary_games_removed": true,
+  "repository_scan": {
+    "passed": true,
+    "head": "e460b97e238dcfdb794fee068018dccf9ad5a8f6",
+    "commits": 144,
+    "tracked_files": 1376,
+    "history_blobs": 2509,
+    "local_secret_values_compared": 1,
+    "worktree_findings": [],
+    "history_findings": [],
+    "untracked_findings": []
+  },
+  "test_evidence": [
+    "runtime/evidence/public-release-clean-install-verification-2026-10-19.json",
+    "runtime/evidence/public-release-installer-tests-2026-10-19.json",
+    "runtime/evidence/public-release-license-audit-2026-10-19.json",
+    "runtime/evidence/public-release-package-verification-2026-10-19.json"
+  ],
+  "limits": [
+    "Git仓库不含字体、依赖及ZIP；这些仅作为明确白名单的Release附件发布。",
+    "敏感信息扫描匹配本地完整Key及常见凭证格式，不声称能识别所有未知格式。"
+  ]
+}
