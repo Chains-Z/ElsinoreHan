@@ -30,7 +30,8 @@ $paperSource = Join-Path $PSScriptRoot 'BookPaperReconstruction.cs'
 $creditsSource = Join-Path $PSScriptRoot 'CreditsHoldSkip.cs'
 $gestureSource = Join-Path $PSScriptRoot 'CreditsSkipGesture.cs'
 $ringSource = Join-Path $PSScriptRoot 'CreditsSkipRing.cs'
-$fingerprint = (@($compiler, $source, $anchorSource, $invitedSource, $strictSource, $splotchSource, $geometrySource, $speakerSource, $bookSource, $paperSource, $creditsSource, $gestureSource, $ringSource) + $references | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash }) -join ':'
+$returnSource = Join-Path $PSScriptRoot 'FifthEndingReturn.cs'
+$fingerprint = (@($compiler, $source, $anchorSource, $invitedSource, $strictSource, $splotchSource, $geometrySource, $speakerSource, $bookSource, $paperSource, $creditsSource, $gestureSource, $ringSource, $returnSource) + $references | ForEach-Object { (Get-FileHash -LiteralPath $_ -Algorithm SHA256).Hash }) -join ':'
 if ((Test-Path -LiteralPath $buildRecord) -and (Test-Path -LiteralPath $output)) {
     $previous = Get-Content -LiteralPath $buildRecord -Raw | ConvertFrom-Json
     if ($previous.input_fingerprint -eq $fingerprint -and $previous.output_sha256 -eq (Get-FileHash -LiteralPath $output).Hash) {
@@ -52,6 +53,7 @@ $arguments += $paperSource
 $arguments += $creditsSource
 $arguments += $gestureSource
 $arguments += $ringSource
+$arguments += $returnSource
 & $compiler @arguments
 if ($LASTEXITCODE -ne 0) { throw 'F8扩展编译失败' }
 [pscustomobject]@{ input_fingerprint=$fingerprint; output_sha256=(Get-FileHash -LiteralPath $output).Hash } | ConvertTo-Json | Set-Content -LiteralPath $buildRecord -Encoding utf8
