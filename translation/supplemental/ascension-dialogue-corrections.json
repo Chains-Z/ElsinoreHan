@@ -216,5 +216,59 @@
     ],
     "reason": "用户确认将care to see译为没兴趣见，以表达冷淡的意愿而非主动拒绝；不将care to误解成care about，保留原文斜体强调他们。",
     "reference": "https://dictionary.cambridge.org/dictionary/english/care"
+  },
+  {
+    "id": "empty-castle-savior-p14632-a95cef9a9aab",
+    "original_id": "p14632-a95cef9a9aab",
+    "source": "I could never have been the savior you wanted. Not really.",
+    "source_sha256": "a95cef9a9aabd30fd9b3b84f63255cc2c77be04b1b311795a411220a4e8ee30e",
+    "previous_target": "我从来都不可能成为你想要的救世主。真正意义上的救世主。",
+    "target": "我从来都不可能成为你期望的救世主。真的不可能。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_KingHamletPortrait",
+        "line": 366,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户确认将Not really作为对前句否定的补充，去掉孤立的真正意义上的救世主，保留否定和强调。"
+  },
+  {
+    "id": "empty-castle-wonder-p14571-fc99a9188250",
+    "original_id": "p14571-fc99a9188250",
+    "source": "When the Book erased them, where did they go, I wonder?",
+    "source_sha256": "fc99a9188250d76fddf16ad1fc1ecf384bb96fb870b7c47c04953c590ceb3f82",
+    "previous_target": "那本书抹去他们的时候，他们去了哪里呢？",
+    "target": "我在想，那本书抹去他们以后，他们都去了哪里？",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Alter",
+        "line": 116,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户确认显式表达I wonder的自问，而非只用疑问句末的呢承接。"
+  },
+  {
+    "id": "empty-castle-mother-p14772-21629b48bf6a",
+    "original_id": "p14772-21629b48bf6a",
+    "source": "I fear you and I shall never be together, Mother.",
+    "source_sha256": "21629b48bf6a8bc0faf4d059a15175a78063bb84669ea822f861e0cea76697a1",
+    "previous_target": "母亲，我怕我们永远也无法团聚了。",
+    "target": "母亲，恐怕我和你永远也无法团聚了。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Grave_Elise",
+        "line": 872,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户确认I fear用恐怕表达忧虑的判断，保留you and I对应我和你的直接称呼。"
   }
 ]

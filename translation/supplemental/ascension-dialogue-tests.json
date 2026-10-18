@@ -936,5 +936,131 @@
         "actor": "ophelia"
       }
     ]
+  },
+  {
+    "id": "empty-castle-savior-leaf",
+    "source": "I could never have been the savior you wanted. Not really.",
+    "target": "我从来都不可能成为你期望的救世主。真的不可能。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_KingHamletPortrait",
+        "line": 366,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-savior-box",
+    "source": "<line-height=90%>I could never have been the savior you wanted. Not really.",
+    "target": "<line-height=90%>我从来都不可能成为你期望的救世主。真的不可能。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_KingHamletPortrait",
+        "line": 366,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-savior-log",
+    "source": "<b>Ophelia:</b> <indent=16%>I could never have been the savior you wanted. Not really.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我从来都不可能成为你期望的救世主。真的不可能。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_KingHamletPortrait",
+        "line": 366,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-wonder-leaf",
+    "source": "When the Book erased them, where did they go, I wonder?",
+    "target": "我在想，那本书抹去他们以后，他们都去了哪里？",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Alter",
+        "line": 116,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-wonder-box",
+    "source": "<line-height=90%>When the Book erased them, where did they go, I wonder?",
+    "target": "<line-height=90%>我在想，那本书抹去他们以后，他们都去了哪里？",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Alter",
+        "line": 116,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-wonder-log",
+    "source": "<b>Ophelia:</b> <indent=16%>When the Book erased them, where did they go, I wonder?",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我在想，那本书抹去他们以后，他们都去了哪里？",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Alter",
+        "line": 116,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-mother-leaf",
+    "source": "I fear you and I shall never be together, Mother.",
+    "target": "母亲，恐怕我和你永远也无法团聚了。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Grave_Elise",
+        "line": 872,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-mother-box",
+    "source": "<line-height=90%>I fear you and I shall never be together, Mother.",
+    "target": "<line-height=90%>母亲，恐怕我和你永远也无法团聚了。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Grave_Elise",
+        "line": 872,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "empty-castle-mother-log",
+    "source": "<b>Ophelia:</b> <indent=16%>I fear you and I shall never be together, Mother.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>母亲，恐怕我和你永远也无法团聚了。",
+    "origins": [
+      {
+        "asset": "scenes_enviro",
+        "asset_sha256": "430eb8bd272b7d7c6ba5a6700a5fd8ec448ffe606468fba284acb1f7bf97bd08",
+        "scene": "Enviro_Grave_Elise",
+        "line": 872,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]
