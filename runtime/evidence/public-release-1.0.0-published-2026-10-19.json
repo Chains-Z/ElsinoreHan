@@ -5,22 +5,22 @@
   "patch_version": "1.0.0",
   "internal_version": "1.5.15",
   "release_url": "https://github.com/Chains-Z/ElsinoreHan/releases/tag/v1.0.0",
-  "source_commit": "e4080ca461c0a188daef3566ef434d27e404c6ad",
+  "source_commit": "ade884ce9c12a94a97d9772d1f027d01064bcdca",
   "is_draft": false,
   "is_prerelease": false,
   "is_latest": true,
-  "published_at_utc": "2026-10-18T22:38:31Z",
+  "published_at_utc": "2026-10-18T22:57:06Z",
   "assets": [
     {
       "name": "ElsinoreHan-v1.0.0-windows.zip",
-      "size": 16256092,
-      "sha256": "4dedf2e9eb4852cfbdd449aee6262b72a4beba87d56ea845bf656810e3d8b6f6",
+      "size": 16258142,
+      "sha256": "8cc8121aac0b4726d8568b68b6b496a2fa1418dbb8d3da203227ee1a059f166e",
       "url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.0.0/ElsinoreHan-v1.0.0-windows.zip"
     },
     {
       "name": "SHA256SUMS.txt",
       "size": 98,
-      "sha256": "ab6192b8278eeeb08ca1b2b74ff34a02de4ea5488b1c195b189d1ab628d1038c",
+      "sha256": "5578064cce69779b36e9989fc819a45270b9ddebe182727d3192e19ba894f892",
       "url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.0.0/SHA256SUMS.txt"
     }
   ],
@@ -38,10 +38,10 @@
   "previous_release_removed": "v1.5.15-zh.20261019",
   "repository_audit": {
     "passed": true,
-    "head": "e4080ca461c0a188daef3566ef434d27e404c6ad",
-    "commits": 152,
-    "tracked_files": 1387,
-    "history_blobs": 2575,
+    "head": "ade884ce9c12a94a97d9772d1f027d01064bcdca",
+    "commits": 155,
+    "tracked_files": 1392,
+    "history_blobs": 2605,
     "local_secret_values_compared": 1,
     "worktree_findings": [],
     "history_findings": [],
@@ -60,7 +60,8 @@
   "previous_1_0_0_source_commits": [
     "9b947ae343ebbfc745d0369567c4fd5e2c72574c",
     "b330457373aeb9d362c081837e860bf62bd38bf0",
-    "c97662854979d13d9efd8d54d7c6458caa245e1e"
+    "c97662854979d13d9efd8d54d7c6458caa245e1e",
+    "e4080ca461c0a188daef3566ef434d27e404c6ad"
   ],
   "previous_git_tag_removed_at_user_request": "v1.5.15-zh.20261019",
   "previous_commits_and_evidence_preserved": true,
@@ -74,6 +75,12 @@
   "github_root_license_detected_as": "LGPL-2.1",
   "project_source_archive": "ElsinoreHan-1.5.15-source.zip",
   "project_source_archive_members": 17,
-  "project_source_archive_sha256": "47e479155cba8e931d2abae87b55e5bad0c08c412e07fbe521d33f5e6a985d24",
-  "plugin_sources_match_original_build_record": true
+  "project_source_archive_sha256": "71b3edfab69f48758172f423265d6e86eb0ff7af84c61399aaf09b4e11aed807",
+  "plugin_sources_match_original_build_record": true,
+  "requested_statement_first_sentence_preserved_verbatim": true,
+  "steamdeck_original_valve_verified": true,
+  "steamdeck_patch_device_tested": false,
+  "steamdeck_proton_windows_reference_documented": true,
+  "steam_guide_draft": "docs/release/Steam指南草稿.txt",
+  "steam_guide_post_published": false
 }

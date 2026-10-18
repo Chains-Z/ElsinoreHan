@@ -26,3 +26,7 @@
 - https://github.com/Aiden2014/PipistrelloHan#许可证
 - https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans
 - https://choosealicense.com/licenses/lgpl-2.1/
+
+## 发布完成
+
+声明和Steam Deck配置参考已随1.0.0更新发布；发行标签对应提交`ade884ce9c12a94a97d9772d1f027d01064bcdca`。GitHub附件回读的两个文件与本地完全相同，69个ZIP条目逐项匹配打包目录；ZIP SHA256为`8cc8121aac0b4726d8568b68b6b496a2fa1418dbb8d3da203227ee1a059f166e`。完整公开范围扫描通过（155提交、1392跟踪文件、2605历史blob），11项包边界／源码治理检查通过。未提交无关的prepare_expanded_review.py，未启动游戏、未更改安装和存档，也未代用户发布Steam指南或上传网盘。
