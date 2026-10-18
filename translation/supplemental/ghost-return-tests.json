@@ -1,0 +1,72 @@
+[
+  {
+    "id": "ghost-return-leaf",
+    "source": "Of course I do. But why would you consider such a thing?",
+    "target": "当然知道。可你为什么会有这种念头？",
+    "source_sha256": "b4d623ece42bba21b2dd548221ec6c833311bc0d6dc7161cf04ad67d3e9ecd83",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29533
+      }
+    ]
+  },
+  {
+    "id": "ghost-return-italic",
+    "source": "<i>Of course I do. But why would you consider such a thing?</i>",
+    "target": "<i>当然知道。可你为什么会有这种念头？</i>",
+    "source_sha256": "78e318dc72614e407ee32276a3445ede8c6ef2695376386b76fcbc1694dca560",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29533
+      }
+    ]
+  },
+  {
+    "id": "ghost-return-dialogue",
+    "source": "<line-height=90%><i>Of course I do. But why would you consider such a thing?</i>",
+    "target": "<line-height=90%><i>当然知道。可你为什么会有这种念头？</i>",
+    "source_sha256": "57a0c5d267f2c32b96908ee6f193df076e7d13b575a792a0feb81fb130b7999b",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29533
+      }
+    ]
+  },
+  {
+    "id": "ghost-return-speaker",
+    "source": "<b>Ghost:</b> <indent=16%><i>Of course I do. But why would you consider such a thing?</i>",
+    "target": "<b>幽灵:</b> <indent=16%><i>当然知道。可你为什么会有这种念头？</i>",
+    "source_sha256": "c4fd7f66a35a57907bfe619018b06e6e419ee0e4f0d998bb1b516e6cc9d59582",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29533
+      }
+    ]
+  },
+  {
+    "id": "ghost-return-context",
+    "source": "<b>Ophelia:</b> <indent=16%>Can you help me? Do you still know how to return?</indent>\n<b>Ghost:</b> <indent=16%><i>Of course I do. But why would you consider such a thing?</i>",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>你能帮我吗？你还知道怎么回去吗？</indent>\n<b>幽灵:</b> <indent=16%><i>当然知道。可你为什么会有这种念头？</i>",
+    "source_sha256": "eef768ea06670bf624247005a3a2372b484ff37d47c466ef094f94016f17973a",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29533
+      }
+    ]
+  }
+]

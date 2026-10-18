@@ -1117,5 +1117,47 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p10431-b4d623ece42b",
+    "source": "Of course I do. But why would you consider such a thing?",
+    "source_sha256": "b4d623ece42bba21b2dd548221ec6c833311bc0d6dc7161cf04ad67d3e9ecd83",
+    "original_target": "当然知道。但你为什么会有这种念头？",
+    "corrected_target": "当然知道。可你为什么会有这种念头？",
+    "kind": "text",
+    "reason": "用户确认将回答know how to return的省略句译为当然知道，避免误作会帮忙或会做；同步修正实际幽灵斜体运行源和裸源，保留原文反问与斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0072.json:p10431-b4d623ece42b",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29533
+      },
+      "用户2026-10-18返回埃尔西诺对白截图及修改确认"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "a00358-78e318dc7261",
+    "source": "<i>Of course I do. But why would you consider such a thing?</i>",
+    "source_sha256": "78e318dc72614e407ee32276a3445ede8c6ef2695376386b76fcbc1694dca560",
+    "original_target": "<i>我当然会。但你为什么会考虑这种事？</i>",
+    "corrected_target": "<i>当然知道。可你为什么会有这种念头？</i>",
+    "kind": "text",
+    "reason": "用户确认将回答know how to return的省略句译为当然知道，避免误作会帮忙或会做；同步修正实际幽灵斜体运行源和裸源，保留原文反问与斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0106.json:a00358-78e318dc7261",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29533
+      },
+      "用户2026-10-18返回埃尔西诺对白截图及修改确认"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
