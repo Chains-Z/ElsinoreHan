@@ -3,7 +3,9 @@
   "passed": true,
   "patch_version": "1.0.0",
   "internal_version": "1.5.15",
-  "statement": "本汉化补丁为民间无偿汉化，免费发布，仅作学习交流使用。请支持正版游戏。\n\n项目作者保留其依法享有的翻译及校订成果权利。未经许可，不得将本项目自有译文及校订成果用于商业用途，也不得擅自修改后重新打包发布。原样转载本项目发布的汉化包时，请注明作者 Chains-Z 及项目来源，并保留本声明及文件完整性。\n\n上述译文及原包转载声明不限制 LGPL-2.1-or-later 授权的代码与技术文档，也不改变第三方组件和字体的原有许可。相关代码可以依其许可证修改、用于商业用途及再分发；欢迎通过项目仓库提交改进与译文修正。游戏原文及原作的权利归相应权利人所有。",
+  "statement": "本汉化补丁为无偿汉化，免费发布，仅作学习交流使用，汉化补丁作者保留翻译文本的所有权，保留一切解释权利。\n\n上述权利保留限于项目作者依法享有的翻译及校订成果，不涉及游戏原文或其他权利人的权利。未经许可，不得将本项目自有译文及校订成果用于商业用途，也不得擅自修改后重新打包发布。原样转载本项目发布的汉化包时，请注明作者 Chains-Z 及项目来源，并保留本声明及文件完整性。\n\n上述译文及原包转载声明不限制 LGPL-2.1-or-later 授权的代码与技术文档，也不改变第三方组件和字体的原有许可。相关代码可以依其许可证修改、用于商业用途及再分发；欢迎通过项目仓库提交改进与译文修正。游戏原文及原作的权利归相应权利人所有。",
+  "user_requested_first_sentence": "本汉化补丁为无偿汉化，免费发布，仅作学习交流使用，汉化补丁作者保留翻译文本的所有权，保留一切解释权利。",
+  "requested_sentence_preserved_verbatim_in_all_views": true,
   "statement_consistent_in_5_repository_views_and_package": true,
   "noncommercial_and_repackaging_rules_scoped_to_lawful_translation_rights": true,
   "lgpl_and_third_party_rights_preserved": true,
@@ -16,11 +18,16 @@
     "ElsinoreHan/licenses/ElsinoreHan-NOTICE.txt",
     "ElsinoreHan/sources/ElsinoreHan-1.5.15-source.zip",
     "使用说明.txt",
+    "安装方法.txt",
+    "常见问题.txt",
     "更新说明.txt"
   ],
   "project_source_members": 17,
   "only_license_scope_changed_in_project_source": true,
+  "steamdeck_command": "WINEDLLOVERRIDES=\"winhttp=n,b\" %command%",
+  "steamdeck_requires_windows_build_under_proton_documented": true,
+  "steamdeck_patch_not_device_tested_documented": true,
   "game_or_saves_changed": false,
   "game_or_test_processes_started": false,
-  "archive_sha256": "f9c65ea850e613e9b2b8f3f12eab3b2d693346b7bf5542edce1ac87c1e6e8df3"
+  "archive_sha256": "8cc8121aac0b4726d8568b68b6b496a2fa1418dbb8d3da203227ee1a059f166e"
 }

@@ -4,6 +4,14 @@
 
 能。本补丁适用于 Windows 版《Elsinore》1.4.1（3678），已在64位 Windows 上验证。游戏程序本身是32位，不代表只能用32位电脑。
 
+## Steam Deck装完仍是英文
+
+先参照[安装方法](INSTALL.md)的Steam Deck步骤，确认通过Proton启动的是Windows版，安装目录能看到 Elsinore.exe，且启动选项完整填写为：
+
+    WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+游戏有Linux原生版，本Windows补丁不能直接用在该版本上。若配置后仍有问题，反馈时请注明SteamOS版本、所用Proton版本，并提供BepInEx/LogOutput.log中的相关报错。本汉化尚未经过Steam Deck实机验证。
+
 ## 装完还是英文，或 F8 没反应
 
 先完全退出游戏，检查是不是多套了一层文件夹。winhttp.dll、doorstop_config.ini 和 BepInEx 文件夹必须与 Elsinore.exe 放在一起。确认启动的是这个文件夹里的游戏，再重新启动。

@@ -5,8 +5,8 @@
   "release_id": "v1.0.0",
   "passed": true,
   "archive": "runtime/package/public-release/ElsinoreHan-v1.0.0-windows.zip",
-  "archive_sha256": "f9c65ea850e613e9b2b8f3f12eab3b2d693346b7bf5542edce1ac87c1e6e8df3",
-  "archive_size": 16257061,
+  "archive_sha256": "8cc8121aac0b4726d8568b68b6b496a2fa1418dbb8d3da203227ee1a059f166e",
+  "archive_size": 16258142,
   "flat_archive": true,
   "runtime_files": 39,
   "total_files": 69,
@@ -17,7 +17,7 @@
   "project_code_license": "LGPL-2.1-or-later",
   "project_source_archive": "ElsinoreHan-1.5.15-source.zip",
   "project_source_archive_members": 17,
-  "project_source_archive_sha256": "c04b119220d0b8f1b93b1bb9d5e51a2254627ac6b4b82f61acf0a463df605a87",
+  "project_source_archive_sha256": "71b3edfab69f48758172f423265d6e86eb0ff7af84c61399aaf09b4e11aed807",
   "plugin_sources_match_installed_build": true,
   "project_source_files": [
     {
@@ -30,7 +30,7 @@
     },
     {
       "path": "LICENSE-SCOPE.md",
-      "sha256": "008dac3d644b7116e4df100c52727c9477e2fa26afa28ffd5afecce2988d39a1"
+      "sha256": "664d7148931540496504b2458b7c96b50bb2f639f6997e74abcd9d5145d8cf6d"
     },
     {
       "path": "tools/patch/BookPaperReconstruction.cs",
@@ -286,8 +286,8 @@
     },
     {
       "path": "ElsinoreHan/licenses/ElsinoreHan-NOTICE.txt",
-      "sha256": "dd2eca1a49afa9140902c44c06b8751ed664fc4ba3ed2daafbd8c6d0bc16d172",
-      "size": 3342
+      "sha256": "26bda1c379c552d4f462fc20a96a418996f6ca7885cce7a1d74768b796b29111",
+      "size": 3450
     },
     {
       "path": "ElsinoreHan/licenses/ElsinoreHanSans-NOTICE.txt",
@@ -366,8 +366,8 @@
     },
     {
       "path": "ElsinoreHan/sources/ElsinoreHan-1.5.15-source.zip",
-      "sha256": "c04b119220d0b8f1b93b1bb9d5e51a2254627ac6b4b82f61acf0a463df605a87",
-      "size": 45100
+      "sha256": "71b3edfab69f48758172f423265d6e86eb0ff7af84c61399aaf09b4e11aed807",
+      "size": 45132
     },
     {
       "path": "ElsinoreHan/sources/UnityDoorstop-4.5.0-source.zip",
@@ -421,23 +421,23 @@
     },
     {
       "path": "使用说明.txt",
-      "sha256": "634b66fddf2cd69a47c2554132bbaf1fe93952657ff328b5db09b8c554561669",
-      "size": 3545
+      "sha256": "126a70f23e60d5ab7c3c75c7f4613596021373d1207f1619b3bc74fc190b9715",
+      "size": 3946
     },
     {
       "path": "安装方法.txt",
-      "sha256": "6f24cf8b72452698dbf70c7ff4f1ebaad3116f37f03c5ebce145421ebd7d8c22",
-      "size": 1915
+      "sha256": "bba3d5c40b45b584e58eb42bcb4c828719897b91522c646b35ec8e4fad3e36c5",
+      "size": 2982
     },
     {
       "path": "常见问题.txt",
-      "sha256": "4dfd022872e5cace850fcf48dd9e0ff325592c1262a288ff2bce1554c66e312a",
-      "size": 2030
+      "sha256": "52f074c9ee1b7669fba790f1bedf40ec7ce68bc938ff83ab947e46d327fe7b05",
+      "size": 2550
     },
     {
       "path": "更新说明.txt",
-      "sha256": "bc471c24477ce420d26f3b3a68a61cda3bf9b56ebbef4edf415061678dcccd48",
-      "size": 2176
+      "sha256": "76dc4cf7e0676e5cb2574248c7a8cbc969ed4eddf80930209ea03980165ee01a",
+      "size": 2306
     }
   ]
 }

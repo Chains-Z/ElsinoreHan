@@ -18,6 +18,7 @@
 - [许可与对应源码](licenses.md)
 - [项目LGPL授权及源码随附](project-license.md)
 - [Steam简介、汉化声明及文案范围](localization-statement.md)
+- [Steam Deck官方状态与未实测配置参考](steamdeck.md)
 - [辅助安装／卸载契约](installer.md)
 - [验收与边界](verification.md)
 - [独立版本号约定与本次验证范围](versioning.md)

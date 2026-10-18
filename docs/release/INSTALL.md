@@ -14,6 +14,22 @@
 
 常用按键见[使用说明](README.md)。
 
+## Steam Deck（SteamOS）
+
+游戏原版已通过Valve的Steam Deck验证，并提供Linux原生版。本汉化包针对Windows版，尚未经过Steam Deck实机验证；下面是Proton配置参考。
+
+1.在Steam库中打开《Elsinore》的“属性”→“兼容性”，勾选“强制使用特定Steam Play兼容工具”，选择Proton。
+
+2.等待Steam完成Windows版游戏文件的下载或更新。退出游戏后，在桌面模式打开游戏的本地文件，把补丁全部内容解压到能看到 Elsinore.exe 的目录中。
+
+3.在游戏“属性”→“通用”→“启动选项”中，填写下面这一整行：
+
+    WINEDLLOVERRIDES="winhttp=n,b" %command%
+
+4.从Steam启动游戏，检查中文是否正常显示。F8原文切换和Ctrl跳过可使用外接键盘，或通过Steam输入映射到按键。
+
+不要把补丁直接解压到游戏的Linux原生版本目录；需先切换到Proton运行的Windows版。包内Install.cmd、Uninstall.cmd及PowerShell脚本是Windows工具，SteamOS按本节手动解压步骤操作。
+
 ## 更新旧补丁，或已安装其他模组
 
 先退出游戏，把新版补丁完整解压到一个临时文件夹，再打开其中的 ElsinoreHan 文件夹，双击 Install.cmd，粘贴游戏目录并回车。它会先检查是否有文件冲突；成功后即可启动游戏。

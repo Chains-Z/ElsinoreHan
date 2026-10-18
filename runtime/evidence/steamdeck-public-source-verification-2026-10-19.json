@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-19",
+  "query_utc": "2026-10-18T22:52:21.9574786Z",
+  "scope": "公开来源核查；没有执行Steam Deck或Proton实机测试",
+  "appid": 512890,
+  "official_deck_category": 3,
+  "official_deck_interpretation": "Verified",
+  "valve_deck_report": {
+    "success": 1,
+    "results": {
+      "appid": 512890,
+      "resolved_category": 3,
+      "resolved_items": [
+        {
+          "display_type": 4,
+          "loc_token": "#SteamDeckVerified_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        {
+          "display_type": 4,
+          "loc_token": "#SteamDeckVerified_TestResult_ControllerGlyphsMatchDeckDevice"
+        },
+        {
+          "display_type": 4,
+          "loc_token": "#SteamDeckVerified_TestResult_InterfaceTextIsLegible"
+        },
+        {
+          "display_type": 4,
+          "loc_token": "#SteamDeckVerified_TestResult_DefaultConfigurationIsPerformant"
+        }
+      ],
+      "steam_deck_blog_url": "",
+      "search_id": null,
+      "steamos_resolved_category": 2,
+      "steamos_resolved_items": [
+        {
+          "display_type": 3,
+          "loc_token": "#SteamOS_TestResult_GameStartupFunctional"
+        }
+      ],
+      "machine_resolved_category": 3,
+      "machine_resolved_items": [
+        {
+          "display_type": 4,
+          "loc_token": "#SteamMachine_TestResult_DefaultControllerConfigFullyFunctional"
+        },
+        {
+          "display_type": 4,
+          "loc_token": "#SteamMachine_TestResult_ControllerGlyphsMatchDevice"
+        },
+        {
+          "display_type": 4,
+          "loc_token": "#SteamMachine_TestResult_DefaultConfigurationIsPerformant"
+        }
+      ],
+      "frame_resolved_category": null,
+      "frame_resolved_items": []
+    }
+  },
+  "official_platforms": {
+    "windows": true,
+    "mac": true,
+    "linux": true
+  },
+  "deck_report_url": "https://store.steampowered.com/saleaction/ajaxgetdeckappcompatibilityreport?nAppID=512890",
+  "store_api_url": "https://store.steampowered.com/api/appdetails?appids=512890&l=english",
+  "store_page_url": "https://store.steampowered.com/app/512890/Elsinore/",
+  "loader_reference": "https://docs.bepinex.dev/master/articles/advanced/steam_interop.html#adding-the-dll-override",
+  "launch_options": "WINEDLLOVERRIDES=\"winhttp=n,b\" %command%",
+  "patch_requires_windows_build_under_proton": true,
+  "patch_native_linux_support_claimed": false,
+  "patch_deck_device_tested": false,
+  "user_game_or_saves_changed": false
+}
