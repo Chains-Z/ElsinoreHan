@@ -1,0 +1,870 @@
+{
+  "date": "2026-10-19",
+  "status": "candidate_verified",
+  "passed": true,
+  "installed": false,
+  "plugin_version": "1.5.15",
+  "plugin_sha256": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+  "dictionary_count": 17069,
+  "dictionary_sha256": "e0a84579777cd6ebf9404a593089405eefb15e2d15c16528ff96aece6af5a920",
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dynamic_rules": 157,
+  "font_bundle_sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+  "font_glyph_count": 7661,
+  "changes_since_previous_candidate": 38,
+  "pending_dictionary_changes": 59,
+  "wittenberg_scope": 39,
+  "wittenberg_changes": 32,
+  "fate_wording_changes": 4,
+  "guh_changes": 2,
+  "corrections": [
+    {
+      "id": "place-dialogue-6f8b948dd1af0be6",
+      "original_id": "p00005-6f8b948dd1af",
+      "source": "May 2, MDXXXV\n\nTonight my husband seemed distressed. At first I thought he was missing our son, gone to Wittenberg. But... as the night progressed, he seemed to grow old before my eyes. He seemed... broken, somehow. When the second course was served, he collapsed while raising a toast—ironically, a toast to our health. I took him on my shoulders and bore him out of the great hall and up to his bedroom myself. \n\nAs I lay him down in his bed, I noticed tears in his eyes. I tried to comfort him by kissing his forehead, but he pushed me away. \"You will betray me,\" he rasped. \"You will always betray me. Every time. You cannot do otherwise.\" \n\nHe collapsed into something like sleep, then, and would not answer my questions.\n\nWhen I returned to the party, our guests were concerned, but Claudius stepped in to assure them. \"Everything's all right!\" he boomed, in his loudest, most regal voice. \"Everyone—Drink more! Don't take your health for granted!\"\n\nThen he turned and offered me his hand. \"Now. I think a dance with the Queen will restore some life to this party. Don't you?\" he said, smiling at me. It was as though I were the only woman in the whole world. In all my time married to Hamlet, he never once looked at me like that.\n\nThat evening, when all the guests had gone to bed, I found myself outside my bedroom door, saying my goodnights to Claudius.\n\n\"I don't want to go to bed,\" I told him, laughing. \"I want the night to continue. Stop the dawn!\"\n\n\"As you wish, my Queen,\" he said, and kissed me.\n\nI was surprised at first. And yet—I wasn't. \n\nI kissed him back. He pulled my bedroom door shut behind him.\n\nSurely I, too, deserve some happiness in this world that has been so cruel to me.\n\nDon't I?",
+      "source_sha256": "6f8b948dd1af0be687b5f41a79be1a9e52741d4fa04a03443e15d2d029733516",
+      "previous_target": "MDXXXV年5月2日\n\n今晚，丈夫似乎心神不宁。起初，我以为他在想念去了维滕贝格的儿子。但……随着夜色渐深，他仿佛在我眼前衰老了。他看起来……像是被什么击垮了。第二道菜端上来时，他正举杯祝酒，却倒了下去——讽刺的是，他祝的正是我们身体安康。我把他扛在肩上，亲自将他带出大厅，送上楼送进他的卧室。 \n\n把他放到床上时，我发现他眼里有泪。我吻了吻他的额头，想安慰他，他却推开了我。“你会背叛我，”他声音嘶哑地说，“你永远都会背叛我。每一次。你做不到别的。” \n\n随后，他陷入了像是睡眠的状态，不再回答我的问题。\n\n我回到宴会上时，宾客们都很担心，克劳狄斯却站出来安抚他们。“一切都好！”他用最洪亮、最有王者威严的声音说道，“各位——再多喝些！别把身体安康当成理所当然！”\n\n接着，他转身向我伸出手。“来吧。我想，与王后共舞一曲，会让这场宴会重新热闹起来。你说呢？”他说着，朝我微笑。仿佛我是全世界唯一的女人。嫁给哈姆雷特这么久，他从未这样看过我，哪怕一次。\n\n那晚，宾客们都去睡了，我站在自己的卧室门外，正向克劳狄斯道晚安。\n\n“我不想睡，”我笑着对他说，“我想让这一夜继续下去。别让天亮！”\n\n“遵命，我的王后。”他说，然后吻了我。\n\n起初我很惊讶。然而——我又并不惊讶。 \n\n我回吻了他。他随手关上了身后的卧室门。\n\n这个世界对我如此残酷，我当然也该得到一些幸福。\n\n难道不是吗？",
+      "target": "MDXXXV年5月2日\n\n今晚，丈夫似乎心神不宁。起初，我以为他在想念去了威登堡的儿子。但……随着夜色渐深，他仿佛在我眼前衰老了。他看起来……像是被什么击垮了。第二道菜端上来时，他正举杯祝酒，却倒了下去——讽刺的是，他祝的正是我们身体安康。我把他扛在肩上，亲自将他带出大厅，送上楼送进他的卧室。 \n\n把他放到床上时，我发现他眼里有泪。我吻了吻他的额头，想安慰他，他却推开了我。“你会背叛我，”他声音嘶哑地说，“你永远都会背叛我。每一次。你做不到别的。” \n\n随后，他陷入了像是睡眠的状态，不再回答我的问题。\n\n我回到宴会上时，宾客们都很担心，克劳狄斯却站出来安抚他们。“一切都好！”他用最洪亮、最有王者威严的声音说道，“各位——再多喝些！别把身体安康当成理所当然！”\n\n接着，他转身向我伸出手。“来吧。我想，与王后共舞一曲，会让这场宴会重新热闹起来。你说呢？”他说着，朝我微笑。仿佛我是全世界唯一的女人。嫁给哈姆雷特这么久，他从未这样看过我，哪怕一次。\n\n那晚，宾客们都去睡了，我站在自己的卧室门外，正向克劳狄斯道晚安。\n\n“我不想睡，”我笑着对他说，“我想让这一夜继续下去。别让天亮！”\n\n“遵命，我的王后。”他说，然后吻了我。\n\n起初我很惊讶。然而——我又并不惊讶。 \n\n我回吻了他。他随手关上了身后的卧室门。\n\n这个世界对我如此残酷，我当然也该得到一些幸福。\n\n难道不是吗？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        "resources.assets:closeups:7f8d29e0cebc:text"
+      ]
+    },
+    {
+      "id": "place-dialogue-9e2ba93d22780990",
+      "original_id": "p00009-9e2ba93d2278",
+      "source": "June 6, MDXXXV\n\nOphelia will not even look at me. My love for her means nothing now. And in the great hall, they rejoice my uncle's crowning, my father's proud form but a distant memory. If my uncle does not allow me to return to Wittenberg soon, I fear I will well and truly perish.\n\n August 8\n\nThat <i>thing</i> was not my father. It can't be. My father lies buried. \n\nBut if it wasn't my father... what devil or evil spirit was it? Am I truly losing my mind? Was it real? Can I be certain it wasn't just a horrid dream? No, the others saw it too... even if they won't speak to me of it.\n\nMy uncle cannot be trusted. Devils disregarded, there is yet something evil in him. I found the literature which Bernardo mentioned, tucked away in the gallery downstairs... it only confirms my suspicions. And yet... something in me keeps me from acting on it. What has stolen my courage?",
+      "source_sha256": "9e2ba93d22780990b029ac59ca7ec61e717744dce537a9257fedc438bb0de082",
+      "previous_target": "MDXXXV年6月6日\n\n奥菲莉娅连看都不愿看我一眼。我对她的爱，如今已毫无意义。大厅里，他们欢庆着叔父加冕，父亲那威严的身影却已成了遥远的记忆。如果叔父不尽快准许我回维滕贝格，我怕自己真的会死去。\n\n 8月8日\n\n那个<i>东西</i>不是我的父亲。不可能是。我的父亲已埋在地下。 \n\n但如果那不是父亲……那又是什么魔鬼或邪灵？我真的正在发疯吗？那是真的吗？我能确定那不只是一场可怕的梦吗？不，其他人也看见了……即使他们不愿和我谈起它。\n\n叔父不可信。即便不去管那些魔鬼，他身上也仍有邪恶的东西。我找到了贝尔纳多提过的文字，藏在楼下的画廊里……它只是进一步证实了我的怀疑。然而……我心里有什么东西，让我迟迟无法据此采取行动。是什么夺走了我的勇气？",
+      "target": "MDXXXV年6月6日\n\n奥菲莉娅连看都不愿看我一眼。我对她的爱，如今已毫无意义。大厅里，他们欢庆着叔父加冕，父亲那威严的身影却已成了遥远的记忆。如果叔父不尽快准许我回威登堡，我怕自己真的会死去。\n\n 8月8日\n\n那个<i>东西</i>不是我的父亲。不可能是。我的父亲已埋在地下。 \n\n但如果那不是父亲……那又是什么魔鬼或邪灵？我真的正在发疯吗？那是真的吗？我能确定那不只是一场可怕的梦吗？不，其他人也看见了……即使他们不愿和我谈起它。\n\n叔父不可信。即便不去管那些魔鬼，他身上也仍有邪恶的东西。我找到了贝尔纳多提过的文字，藏在楼下的画廊里……它只是进一步证实了我的怀疑。然而……我心里有什么东西，让我迟迟无法据此采取行动。是什么夺走了我的勇气？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        "resources.assets:closeups:7f8d29e0cebc:text"
+      ]
+    },
+    {
+      "id": "place-dialogue-449ed994c76f677b",
+      "original_id": "p00045-449ed994c76f",
+      "source": "Horatio is Hamlet's schoolmate from Wittenberg. From the look of him he can't be Danish, but I've never known his origin.\n\nHe served as a soldier in the last war alongside Bernardo, and from the way he carries himself he must be of noble birth, though exactly how I'm not sure. He's well-educated and eloquent, and always has something interesting to say.",
+      "source_sha256": "449ed994c76f677bc5b7dd2c19dd7a7a5d9cfb640a696add065054a4817cf50f",
+      "previous_target": "霍拉旭是哈姆雷特在维滕贝格的同学。看他的相貌，他不可能是丹麦人，但我从来不知道他来自哪里。\n\n上一次战争中，他曾和贝尔纳多一起当兵。从他的举止来看，他一定出身贵族，至于具体是什么来头，我不清楚。他学识丰富，口才很好，说的话总是很有趣。",
+      "target": "霍拉旭是哈姆雷特在威登堡的同学。看他的相貌，他不可能是丹麦人，但我从来不知道他来自哪里。\n\n上一次战争中，他曾和贝尔纳多一起当兵。从他的举止来看，他一定出身贵族，至于具体是什么来头，我不清楚。他学识丰富，口才很好，说的话总是很有趣。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        "resources.assets:bios:49975131f1e0:text",
+        "resources.assets:bios:7719667ee314:text",
+        "resources.assets:bios:53db25df9eed:text"
+      ]
+    },
+    {
+      "id": "place-dialogue-eda428fdc3155316",
+      "original_id": "p00545-eda428fdc315",
+      "source": "Hamlet and I were together for two years, in secret. In that time, he was... different. Happier. He had a sense of humor then. Neither of us had ever loved another before, but he treated me with respect and an unfailing kindness. He went away to Wittenberg for University, and then his father passed, and he came back a changed person. These days, it's hard to look at him; all I see is the person he used to be.",
+      "source_sha256": "eda428fdc3155316db322ddad5709eb403b7dddd1996d47180474ca87f272286",
+      "previous_target": "哈姆雷特和我曾秘密交往了两年。那时候，他……不一样。更快乐。那时的他还有幽默感。我们此前都没有爱过别人，但他尊重我，对我的温柔体贴也从未变过。他去了维滕贝格上大学，后来父亲去世了，他回来时就变了个人。如今，我很难面对他；看着他，我眼里只有他过去的样子。",
+      "target": "哈姆雷特和我曾秘密交往了两年。那时候，他……不一样。更快乐。那时的他还有幽默感。我们此前都没有爱过别人，但他尊重我，对我的温柔体贴也从未变过。他去了威登堡上大学，后来父亲去世了，他回来时就变了个人。如今，我很难面对他；看着他，我眼里只有他过去的样子。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        "resources.assets:bios:7719667ee314:text"
+      ]
+    },
+    {
+      "id": "place-dialogue-edb527da0d897712",
+      "original_id": "p00560-edb527da0d89",
+      "source": "Horatio was born in India, the son of a spice merchant who sailed between Venice and Calicut. He never knew his mother. He was raised as a Venetian, and at some point made his way to Denmark, which is where he entered King Hamlet's employ as a soldier. He's remained here ever since, barring the time he was with Hamlet at Wittenberg.",
+      "source_sha256": "edb527da0d897712099c11862237ecb7be960b830e2b0d7c3fbae4c503c59e7a",
+      "previous_target": "霍拉旭出生于印度，父亲是往返于威尼斯和卡利卡特的香料商人。他从未认识自己的母亲。他作为威尼斯人长大，后来在某个时候辗转来到丹麦，在这里受雇于哈姆雷特国王，成为一名士兵。此后他一直留在这里，只有陪哈姆雷特去维滕贝格的那段时间除外。",
+      "target": "霍拉旭出生于印度，父亲是往返于威尼斯和卡利卡特的香料商人。他从未认识自己的母亲。他作为威尼斯人长大，后来在某个时候辗转来到丹麦，在这里受雇于哈姆雷特国王，成为一名士兵。此后他一直留在这里，只有陪哈姆雷特去威登堡的那段时间除外。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        "resources.assets:bios:7719667ee314:text",
+        "resources.assets:bios:53db25df9eed:text"
+      ]
+    },
+    {
+      "id": "place-dialogue-318b3c3eed256caf",
+      "original_id": "p00562-318b3c3eed25",
+      "source": "Hamlet and Horatio departed for Wittenberg together, it turns out. King Hamlet sent Horatio to watch over Hamlet while Hamlet was in school, since Horatio was older and calmer than Hamlet. But Horatio and Hamlet became close, and Horatio told Rosencrantz that he's been in love with Hamlet ever since.",
+      "source_sha256": "318b3c3eed256cafbf7933bc3db98fc86bceb65d1367394e9afff5e19ad842b1",
+      "previous_target": "原来，哈姆雷特和霍拉旭是一起去维滕贝格的。霍拉旭比哈姆雷特年长，也更沉稳，所以哈姆雷特国王派他在哈姆雷特求学期间照看王子。不过，霍拉旭和哈姆雷特变得亲密起来，霍拉旭告诉罗森克兰兹，从那时起，他就一直爱着哈姆雷特。",
+      "target": "原来，哈姆雷特和霍拉旭是一起去威登堡的。霍拉旭比哈姆雷特年长，也更沉稳，所以哈姆雷特国王派他在哈姆雷特求学期间照看王子。不过，霍拉旭和哈姆雷特变得亲密起来，霍拉旭告诉罗森克兰兹，从那时起，他就一直爱着哈姆雷特。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        "resources.assets:bios:7719667ee314:text",
+        "resources.assets:bios:53db25df9eed:text"
+      ]
+    },
+    {
+      "id": "place-dialogue-aef489d73fbf8e75",
+      "original_id": "p01252-aef489d73fbf",
+      "source": "When he returned from Wittenberg, I thought... well.",
+      "source_sha256": "aef489d73fbf8e75ea6de2d825dc5284ab7d9a09d3feac762031c4f95aa37c2a",
+      "previous_target": "他从维滕贝格回来时，我还以为……唉。",
+      "target": "他从威登堡回来时，我还以为……唉。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_FortinbrasHamletMeeting",
+          "line": 1039
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_FortinbrasHamletMeeting",
+          "line": 1039
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-dbe6b5bbbf91e22e",
+      "original_id": "p01388-dbe6b5bbbf91",
+      "source": "Back to university at Wittenberg, you mean?",
+      "source_sha256": "dbe6b5bbbf91e22e764769157fd56fea6704ebb0ff2990456a865b6bf6e2cdbb",
+      "previous_target": "您是说，送他回维滕贝格的大学？",
+      "target": "您是说，送他回威登堡的大学？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_PoloniusPlanSpying",
+          "line": 1458
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_PoloniusPlanSpying",
+          "line": 1458
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-c8365c30cfd59800",
+      "original_id": "p01389-c8365c30cfd5",
+      "source": "Wittenberg? No, no. The prince deserves to see new sights, don't you think?",
+      "source_sha256": "c8365c30cfd59800fa1cfac519d5352719e6f88c1383eb1ed4d7b4150b91962b",
+      "previous_target": "维滕贝格？不，不。王子也该见识些新风景，你说呢？",
+      "target": "威登堡？不，不。王子也该见识些新风景，你说呢？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_PoloniusPlanSpying",
+          "line": 1460
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_PoloniusPlanSpying",
+          "line": 1460
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-f1b1f78bd51d8e47",
+      "original_id": "p04388-f1b1f78bd51d",
+      "source": "There's not much to tell, my lady. I'm but a poor footsoldier. Then I followed Hamlet to Wittenberg, for a time.",
+      "source_sha256": "f1b1f78bd51d8e4777cabdd530be9aac3d5d1a6249732afd085d39afa70dc7ef",
+      "previous_target": "没什么可说的，王后。我不过是个穷步兵。后来我跟着哈姆雷特去了维滕贝格，待过一段时间。",
+      "target": "没什么可说的，王后。我不过是个穷步兵。后来我跟着哈姆雷特去了威登堡，待过一段时间。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GARDENWALKS_GertrudeAndHoratio01",
+          "line": 11270
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GARDENWALKS_GertrudeAndHoratio01",
+          "line": 11270
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-8f8fe5c1c53f2120",
+      "original_id": "p04823-8f8fe5c1c53f",
+      "source": "Might it not be in the woods by the pond? I seem to recall us going out there the last time you were home from Wittenberg.",
+      "source_sha256": "8f8fe5c1c53f21204a8553b0ad825771fbf723f4a4d642707056bd8d86717cdf",
+      "previous_target": "会不会在池塘边的树林里？我好像记得，上次你从维滕贝格回家时，我们去过那里。",
+      "target": "会不会在池塘边的树林里？我好像记得，上次你从威登堡回家时，我们去过那里。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "BOYS_Meeting2",
+          "line": 12601
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "BOYS_Meeting2",
+          "line": 12601
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-d8c8ac7aeb25c8b2",
+      "original_id": "p05088-d8c8ac7aeb25",
+      "source": "<i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i>",
+      "source_sha256": "d8c8ac7aeb25c8b24db7bd15329f53da29dbc1482bffa02f6062f34bfcefcdb3",
+      "previous_target": "<i>不要恨他，我的爱人。是命运沉缓的步伐逼他出手。</i>",
+      "target": "<i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i>",
+      "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "play_confrontation",
+          "line": 13295
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-30aca2c52c05a9de",
+      "original_id": "p05098-30aca2c52c05",
+      "source": "<i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i>",
+      "source_sha256": "30aca2c52c05a9de6b5c4da3c45e126a9f77b6a62bbcdde0602effd5e81a3080",
+      "previous_target": "<i>也不要恨克劳狄斯，我的好臣子。是命运沉缓的步伐逼我弟弟出手。</i>",
+      "target": "<i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i>",
+      "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "play_confrontation",
+          "line": 13315
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-f4809e7ccf172a62",
+      "original_id": "p05244-f4809e7ccf17",
+      "source": "Say, Ophelia. I don't think I want to go back to Wittenberg, where we all went to school.",
+      "source_sha256": "f4809e7ccf172a623c2629c2aa5c4325f6484e22c3fa8b490ed45c1e4706464f",
+      "previous_target": "对了，奥菲莉娅。我想我不愿意再回维滕贝格了，就是我们一起上学的地方。",
+      "target": "对了，奥菲莉娅。我想我不愿意再回威登堡了，就是我们一起上学的地方。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GuilRomance",
+          "line": 13810
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GuilRomance",
+          "line": 13810
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-ace1b99d76ad6d31",
+      "original_id": "p05349-ace1b99d76ad",
+      "source": "Initially, I persuaded Rosie to come to Elsinore in part because... of what happened between us in Wittenberg.",
+      "source_sha256": "ace1b99d76ad6d31510fc444e4384de70870602b428165d52750365155ca1a50",
+      "previous_target": "起初，我劝萝茜来埃尔西诺，部分原因是……我们在维滕贝格发生的那些事。",
+      "target": "起初，我劝萝茜来埃尔西诺，部分原因是……我们在威登堡发生的那些事。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14105
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14105
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-7dcc322c9fbbd0ef",
+      "original_id": "p05365-7dcc322c9fbb",
+      "source": "Everything that happened between us in Wittenberg seemed...",
+      "source_sha256": "7dcc322c9fbbd0ef39b4a9db0c2e782567494a97802a966fd806f9ad217415a3",
+      "previous_target": "我们在维滕贝格发生的一切，似乎……",
+      "target": "我们在威登堡发生的一切，似乎……",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14136
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14136
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-4a4c780cc26255f3",
+      "original_id": "p05394-4a4c780cc262",
+      "source": "At Wittenberg, women who looked like Ophelia and me were <i>afraid</i> to refuse you. You're a Prince.",
+      "source_sha256": "4a4c780cc26255f3213261b18675d9b87d87348e5031ab646f1026c562ae86c7",
+      "previous_target": "在维滕贝格，长得像奥菲莉娅和我这样的女人，<i>不敢</i>拒绝你。你是王子。",
+      "target": "在威登堡，长得像奥菲莉娅和我这样的女人，<i>不敢</i>拒绝你。你是王子。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14219
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14219
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-2c59fd99346cc103",
+      "original_id": "p07093-2c59fd99346c",
+      "source": "When I was with Hamlet at Wittenburg, there was a game some of the students liked to play.",
+      "source_sha256": "2c59fd99346cc1033450fd6a11b4148de4de85c46cac80ef26dbf30eda72fa6b",
+      "previous_target": "我和哈姆雷特在维滕贝格的时候，有些学生很喜欢玩一个游戏。",
+      "target": "我和哈姆雷特在威登堡的时候，有些学生很喜欢玩一个游戏。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "OTH_OthelloDrinkingGame_PreviouslyDefended",
+          "line": 19366
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "OTH_OthelloDrinkingGame_PreviouslyDefended",
+          "line": 19366
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-cfbdbb8078075bb4",
+      "original_id": "p07120-cfbdbb807807",
+      "source": "You just <i>came</i> from Wittenberg. I've no doubt Martin Luther is bar crawling, basking in his unpopularity there still... for <i>now.</i>",
+      "source_sha256": "cfbdbb8078075bb46259128054f8e5b755150e3190cd1df3c0ebfe542c19dac4",
+      "previous_target": "你刚从维滕贝格<i>回来</i>。我毫不怀疑马丁·路德还在那里一家酒馆接一家地喝，享受着自己不受欢迎的名声……<i>暂时如此。</i>",
+      "target": "你刚从威登堡<i>回来</i>。我毫不怀疑马丁·路德还在那里一家酒馆接一家地喝，享受着自己不受欢迎的名声……<i>暂时如此。</i>",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "OTH_OthelloDrinkingGame_PreviouslyDefended",
+          "line": 19408
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "OTH_OthelloDrinkingGame_PreviouslyDefended",
+          "line": 19408
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-5170d58145fcee5a",
+      "original_id": "p08334-5170d58145fc",
+      "source": "They want to return to Wittenberg, and for me to join them.",
+      "source_sha256": "5170d58145fcee5a059e7fa3887ea6ec7e46a9738d859f3ac0624c28f78dc301",
+      "previous_target": "她们想回维滕贝格，也想让我一起去。",
+      "target": "她们想回威登堡，也想让我一起去。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Results",
+          "line": 23352
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Results",
+          "line": 23352
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-a5a5488ca0482160",
+      "original_id": "p08335-a5a5488ca048",
+      "source": "<i>Wittenberg?</i> At a time like this?",
+      "source_sha256": "a5a5488ca04821604c6648e36828c770656491cac582b6f0ab83a62c5b774d9c",
+      "previous_target": "<i>维滕贝格？</i>在这种时候？",
+      "target": "<i>威登堡？</i>在这种时候？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Results",
+          "line": 23353
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Results",
+          "line": 23353
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-7981c7193ae00a1f",
+      "original_id": "p08401-7981c7193ae0",
+      "source": "When I was at Wittenberg I was surrounded by men and women in the midst of a great rebirth. Arts, culture, knowledge—it was fantastic.",
+      "source_sha256": "7981c7193ae00a1fb006111e2f2612bdffe0f6fc3d7688ce80e6e70774abe553",
+      "previous_target": "在维滕贝格时，我身边的男男女女都置身于一场伟大的复兴之中。艺术、文化、知识——那一切都太精彩了。",
+      "target": "在威登堡时，我身边的男男女女都置身于一场伟大的复兴之中。艺术、文化、知识——那一切都太精彩了。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Results",
+          "line": 23496
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Results",
+          "line": 23496
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-5da94e727d63f45e",
+      "original_id": "p08683-5da94e727d63",
+      "source": "Come back to Wittenberg with us. Let some other fool run the country!",
+      "source_sha256": "5da94e727d63f45ed3d6443d6f86700447dc579344359f6b78f807fa15d34eea",
+      "previous_target": "跟我们回维滕贝格吧。让别的蠢货去治理这个国家！",
+      "target": "跟我们回威登堡吧。让别的蠢货去治理这个国家！",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Advice_RnG",
+          "line": 24313
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_Advice_RnG",
+          "line": 24313
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-7bfd479657ea4e33",
+      "original_id": "p10314-7bfd479657ea",
+      "source": "Hamlet was to be educated at Wittenberg soon. But Hamlet's father was worried about him.",
+      "source_sha256": "7bfd479657ea4e338466bbe19b18a51e2d4d819b1552c245548a871beb020561",
+      "previous_target": "哈姆雷特不久就要去威滕贝格求学了。但他的父亲很不放心。",
+      "target": "哈姆雷特不久就要去威登堡求学了。但他的父亲很不放心。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioRosencrantzChat",
+          "line": 29233
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioRosencrantzChat",
+          "line": 29233
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-9ee3e6225180276a",
+      "original_id": "p10321-9ee3e6225180",
+      "source": "So King Hamlet sent you along to Wittenberg to watch over Hamlet. Is that it?",
+      "source_sha256": "9ee3e6225180276ae67dfcbc35eb9e0daa27ffbf1b295592ef7d89a34bb089fe",
+      "previous_target": "所以哈姆雷特国王派你一起去威滕贝格，照看哈姆雷特。是这样吗？",
+      "target": "所以哈姆雷特国王派你一起去威登堡，照看哈姆雷特。是这样吗？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioRosencrantzChat",
+          "line": 29251
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioRosencrantzChat",
+          "line": 29251
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-b80d64c16a58ff7c",
+      "original_id": "p10329-b80d64c16a58",
+      "source": "Horatio, you ought to know me better than that. How many of <i>my</i> lady loves did you meet at Wittenberg?",
+      "source_sha256": "b80d64c16a58ff7c6ea03b6c8c68c9933c930283a6a425daf57fdccee9ce4e92",
+      "previous_target": "霍拉旭，你应该更了解我才对。在威滕贝格，你见过多少位<i>我的</i>女情人？",
+      "target": "霍拉旭，你应该更了解我才对。在威登堡，你见过多少位<i>我的</i>女情人？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioRosencrantzChat",
+          "line": 29271
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioRosencrantzChat",
+          "line": 29271
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-6ef6a93be10a795d",
+      "original_id": "p10378-6ef6a93be10a",
+      "source": "Do you remember that night in Wittenberg, during that first year?",
+      "source_sha256": "6ef6a93be10a795de3cbadc0651de7d0d31686c1215efc12443b6552432aeb23",
+      "previous_target": "你还记得在威滕贝格第一年时的那个晚上吗？",
+      "target": "你还记得在威登堡第一年时的那个晚上吗？",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioHamletChat",
+          "line": 29407
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_HoratioHamletChat",
+          "line": 29407
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-dda136641ec48f56",
+      "original_id": "p10596-dda136641ec4",
+      "source": "And I want to return to Wittenberg, because—I agree—these Danish walls are absolutely miserable.",
+      "source_sha256": "dda136641ec48f56a27324a24f465937a755cc047e08b8666f2f1506b90ac322",
+      "previous_target": "而我想回维滕贝格，因为——我也这么觉得——丹麦这城墙里的日子实在难熬。",
+      "target": "而我想回威登堡，因为——我也这么觉得——丹麦这城墙里的日子实在难熬。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "5dbc50cf037a46b33442d6d47c399873ce845fc86bd4f86fe69e1c45491f5cb9",
+          "scene": "MeetingEnd",
+          "line": 113
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "5dbc50cf037a46b33442d6d47c399873ce845fc86bd4f86fe69e1c45491f5cb9",
+          "scene": "MeetingEnd",
+          "line": 113
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-27dc32e1cc882527",
+      "original_id": "p10854-27dc32e1cc88",
+      "source": "I'll kill him. I'll tear him down until he regrets leaving Wittenberg.",
+      "source_sha256": "27dc32e1cc882527036fb34f26190142c247e788211a26bf10ab3d98bf235793",
+      "previous_target": "我要杀了他。我要把他彻底打垮，让他后悔离开维滕贝格。",
+      "target": "我要杀了他。我要把他彻底打垮，让他后悔离开威登堡。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "Laertes_FoulMood",
+          "line": 228
+        },
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "Laertes_FoulMood",
+          "line": 228
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-d679f808f9c80e12",
+      "original_id": "p13828-d679f808f9c8",
+      "source": "Guh-- Get away from me! From all of us!",
+      "source_sha256": "d679f808f9c80e12bd470f51ccfecb65f4d02cbe104d73ff9a6f04992d1cff81",
+      "previous_target": "呃——离我远点！离我们所有人远点！",
+      "target": "啊——离我远点！离我们所有人远点！",
+      "reason": "用户指出此处呃不自然，选择其允许的啊表现惊惧时短促发声；两版同步。",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "rosencrantz_responsible",
+          "line": 7730
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-87edf0f2c28e47aa",
+      "original_id": "p14268-87edf0f2c28e",
+      "source": "But, you know, before they went to Wittenberg, the two of them didn't get along very well at all. It's wonderful to see things have changed.",
+      "source_sha256": "87edf0f2c28e47aa822a9ed2a5d7470b63c38588f79867dd4f18cdcaf536258d",
+      "previous_target": "不过，你知道吗，在去维滕贝格之前，他们两个相处得很不好。看到他们如今变了，真让人高兴。",
+      "target": "不过，你知道吗，在去威登堡之前，他们两个相处得很不好。看到他们如今变了，真让人高兴。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "gertrude_horatio",
+          "line": 8851
+        },
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "gertrude_horatio",
+          "line": 8851
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-9d2b79617dd0aa78",
+      "original_id": "p14294-9d2b79617dd0",
+      "source": "Not much. Merely that Hamlet went away to Wittenberg with Horatio, and when the both of them returned, Rosencrantz and Guildenstern were in tow.",
+      "source_sha256": "9d2b79617dd0aa78510d3fc8b4a70a21236b8a2ce6e14819d226b0e42d23a75c",
+      "previous_target": "不多。只知道哈姆雷特和霍拉旭一起去了维滕贝格，等他们两个回来时，罗森克兰兹和吉尔登斯吞也跟着来了。",
+      "target": "不多。只知道哈姆雷特和霍拉旭一起去了威登堡，等他们两个回来时，罗森克兰兹和吉尔登斯吞也跟着来了。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "bernardo_horatio",
+          "line": 8930
+        },
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "bernardo_horatio",
+          "line": 8930
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-56aa1b41ed6b7dba",
+      "original_id": "p14305-56aa1b41ed6b",
+      "source": "The King denied Hamlet's request to return to Wittenberg, on the grounds that the Queen needs him here.",
+      "source_sha256": "56aa1b41ed6b7dbab4f615ef9928045d4aa1a7c4c145aacacff9c3511af57d1a",
+      "previous_target": "国王拒绝了哈姆雷特返回维滕贝格的请求，理由是王后需要他留在这里。",
+      "target": "国王拒绝了哈姆雷特返回威登堡的请求，理由是王后需要他留在这里。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        "resources.assets:information:2f3226a147e6:long",
+        "resources.assets:information:2f3226a147e6:short"
+      ]
+    },
+    {
+      "id": "place-dialogue-6911e29b57429b11",
+      "original_id": "p15017-6911e29b5742",
+      "source": "He came from Wittenberg to see his father before the elder Hamlet passed of plague.",
+      "source_sha256": "6911e29b57429b11e3a803076cf201fe30f6882826c475d7312c38551e738d73",
+      "previous_target": "在老哈姆雷特因瘟疫去世之前，他从维滕贝格赶回来看望父亲。",
+      "target": "在老哈姆雷特因瘟疫去世之前，他从威登堡赶回来看望父亲。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119",
+          "scene": "polonius_real",
+          "line": 217
+        },
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119",
+          "scene": "polonius_real",
+          "line": 217
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-5589bc61bed452e8",
+      "original_id": "p15134-5589bc61bed4",
+      "source": "She needs some time to mother him here. If he goes to Wittenberg, what then? She'll be a worried tangle for the whole year.",
+      "source_sha256": "5589bc61bed452e83a263c6ee654c871facf5e5d9d3c98428914f5f8507ab376",
+      "previous_target": "她需要一些时间，让他留在这里，好好照顾他。要是他去了维滕贝格，那怎么办？她会一整年都忧心忡忡。",
+      "target": "她需要一些时间，让他留在这里，好好照顾他。要是他去了威登堡，那怎么办？她会一整年都忧心忡忡。",
+      "reason": "用户要求全游戏采用朱生豪《哈姆雷特》译名威登堡；包括英文Wittenburg拼写变体，英文及格式不改。",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "bf42273387829f6f20d26bdd3cb163b8c118f6aed86f764feae39af87ad720c9",
+          "scene": "claudius_HamletIsStaying",
+          "line": 197
+        },
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "bf42273387829f6f20d26bdd3cb163b8c118f6aed86f764feae39af87ad720c9",
+          "scene": "claudius_HamletIsStaying",
+          "line": 197
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-57a37b78cad64e80",
+      "original_id": "a00224-57a37b78cad6",
+      "source": "Guh—Get away from me! From all of us!",
+      "source_sha256": "57a37b78cad64e8054a4a5a72dc10dfe62ede121b2a3cef4f8e4bf6ce266d622",
+      "previous_target": "呃——离我远点！离我们所有人远点！",
+      "target": "啊——离我远点！离我们所有人远点！",
+      "reason": "用户指出此处呃不自然，选择其允许的啊表现惊惧时短促发声；两版同步。",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "rosencrantz_responsible",
+          "line": 7730
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-4ef20fb06483d226",
+      "original_id": "a00456-4ef20fb06483",
+      "source": "<i><i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i></i>",
+      "source_sha256": "4ef20fb06483d226743379f1a16ca79c5619f406e9314a7c01f356034b26133c",
+      "previous_target": "<i><i>不要恨他，我的爱人。是命运迟缓的脚步逼他动了手。</i></i>",
+      "target": "<i><i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i></i>",
+      "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "play_confrontation",
+          "line": 13295
+        }
+      ]
+    },
+    {
+      "id": "place-dialogue-500d1e0bebd8e59e",
+      "original_id": "a00460-500d1e0bebd8",
+      "source": "<i><i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i></i>",
+      "source_sha256": "500d1e0bebd8e59e406dc78a4098a77c3c90e624e2474490057383557ab318d4",
+      "previous_target": "<i><i>也不要恨克劳狄斯，我的好伙计。是命运迟缓的脚步逼我弟弟动了手。</i></i>",
+      "target": "<i><i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i></i>",
+      "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "play_confrontation",
+          "line": 13315
+        }
+      ]
+    }
+  ],
+  "new_characters": [],
+  "old_candidate_consumer_failed_cases": 94,
+  "consumer_cases": 109,
+  "source_variant_consumer_cases": 84,
+  "updated_existing_fixture_cases": 137,
+  "updated_existing_fixture_files": 8,
+  "existing_fixture_consumer_cases": 137,
+  "historically_stale_stress_fixtures_rebuilt_from_real_resources": 5,
+  "export_governance_tests": 19,
+  "reading_followup_guard_tests": 4,
+  "source_variant_guard_tests": 7,
+  "variant_audit": {
+    "dialogue_rows": 15181,
+    "paired_rows": 708,
+    "equal_pairs": 213,
+    "reviewed_differences": 495,
+    "unreviewed_differences": 0,
+    "aliases_checked": 33,
+    "alias_mismatches": [],
+    "missing": []
+  },
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "e0a84579777cd6ebf9404a593089405eefb15e2d15c16528ff96aece6af5a920",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+    "README.md": "aa551b5a839cb3bba531932814f03ef2233f25c8a9ee4f9fba838632a60a7a81",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933"
+  },
+  "package_file_count": 40,
+  "zip_sha256": "fe49754d3c906ecc8566e5ae9e9b718a004316fb540ea7fc4376bfc668f35457",
+  "zip_matches_package": true,
+  "package_changes_since_install": [
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
+    "README.md"
+  ],
+  "previous_candidate_verification": "runtime/evidence/source-variant-verification-2026-10-19.json",
+  "previous_install_verification": "runtime/evidence/ending-seven-install-verification-2026-10-19.json",
+  "playmaster_title_changed": false,
+  "you_have_no_idea_changed": false,
+  "main_game_started_by_task": false,
+  "game_installation_modified": false,
+  "saves_accessed": false,
+  "limits": [
+    "真实XUnity离线消费者与资源时序核对，不称画面、物理按键或剧情E2E通过",
+    "Playmaster建议班主，尚未全局替换",
+    "本轮候选尚未安装，用户当前游戏仍读取上次安装词表"
+  ]
+}

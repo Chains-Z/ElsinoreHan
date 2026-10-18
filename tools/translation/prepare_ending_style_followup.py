@@ -11,7 +11,7 @@ DIRECTORY = ROOT / "translation/supplemental"
 def apply_styles(rows):
     """已审定的旧阶段条目经准确旧值校验后承接当前文字校订。"""
     sources = {row["source"] for row in rows}
-    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json"):
+    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json"):
         path = DIRECTORY / filename
         if path.exists():
             rows = apply_supplemental(rows, [row for row in read(path) if row["source"] in sources])
@@ -22,7 +22,7 @@ def reading_style(reviewed):
     """承接历史审查与姓名校订后，分别核对资源及编译源的精确旧译。"""
     from prepare_all_endings_followup import apply_reading_followup, paragraph_overrides
     sources = {row[key] for row in reviewed for key in ("source", "runtime_source")}
-    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json"):
+    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json"):
         path = DIRECTORY / filename
         if not path.exists():
             continue

@@ -190,7 +190,7 @@ def main():
         names = json.loads(name_path.read_text(encoding="utf-8"))
         rows = apply_supplemental(rows, names)
         supplemental += names
-    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json"):
+    for filename in ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json"):
         style_path = SUPPLEMENTAL.with_name(filename)
         if style_path.exists():
             styles = json.loads(style_path.read_text(encoding="utf-8"))

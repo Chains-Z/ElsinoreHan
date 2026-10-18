@@ -11,6 +11,8 @@ DIRECTORY = ROOT / "translation/supplemental"
 def main():
     plans = read(DIRECTORY / "source-variant-review.json")
     changes = read(DIRECTORY / "source-variant-corrections.json")
+    followup_path = DIRECTORY / "place-and-dialogue-corrections.json"
+    followups = read(followup_path) if followup_path.exists() else []
     checked = apply_supplemental([
         {"id": row["original_id"], "source": row["source"], "target": row["previous_target"]}
         for row in changes], changes)
@@ -34,13 +36,19 @@ def main():
         covered.update({source, runtime} & changed_sources)
         name = short_name(actor, mapping)
         translated_name = SPECIAL_NAMES.get(name) or targets[name]["target"]
+        # 原审查记录保留阶段快照，消费者经精确旧值承接用户后续校订。
+        expected_rows = apply_supplemental([
+            {"id": targets[source]["id"], "source": source, "target": plan["canonical_target"]},
+            {"id": targets[runtime]["id"], "source": runtime, "target": plan["expected_runtime_target"]},
+        ], [row for row in followups if row["source"] in {source, runtime}])
+        resource_target, runtime_target = (row["target"] for row in expected_rows)
         for kind, text, expected in (
-            ("resource", source, plan["canonical_target"]),
-            ("runtime", runtime, plan["expected_runtime_target"]),
+            ("resource", source, resource_target),
+            ("runtime", runtime, runtime_target),
             ("dialogue", "<line-height=90%>" + runtime,
-             "<line-height=90%>" + plan["expected_runtime_target"]),
+             "<line-height=90%>" + runtime_target),
             ("log", "<b>" + name + ":</b> <indent=16%>" + runtime,
-             "<b>" + translated_name + ":</b> <indent=16%>" + plan["expected_runtime_target"]),
+             "<b>" + translated_name + ":</b> <indent=16%>" + runtime_target),
         ):
             cases.append({"id": "source-variant-" + str(plan["review_index"]) + "-" + kind,
                           "source": text, "target": expected, "source_sha256": digest(text),
