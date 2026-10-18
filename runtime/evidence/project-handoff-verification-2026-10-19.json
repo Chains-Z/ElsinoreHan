@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-19",
+  "passed": true,
+  "scope": "真实公开仓库克隆及公开发行附件离线恢复，不是游戏剧情验收",
+  "source_commit": "fb60f5c0daeef54b1310808b62f61424f940d3f9",
+  "repository_url": "https://github.com/Chains-Z/ElsinoreHan",
+  "release_url": "https://github.com/Chains-Z/ElsinoreHan/releases/tag/v1.0.0",
+  "release_archive_sha256": "8cc8121aac0b4726d8568b68b6b496a2fa1418dbb8d3da203227ee1a059f166e",
+  "cloud_archive_and_checksum_downloaded_again": true,
+  "clone_initially_without_runtime_dependencies": true,
+  "restore_repeat_created_files": 0,
+  "frozen_batch_files_unchanged": 448,
+  "export_unit_tests": 19,
+  "release_and_recovery_unit_tests": 15,
+  "all_69_rebuilt_entries_identical_to_cloud": true,
+  "runtime_files": 39,
+  "recovery_metadata_manifest": "runtime/evidence/recovery-baseline/manifest.json",
+  "full_repository_audit": {
+    "passed": true,
+    "head": "fb60f5c0daeef54b1310808b62f61424f940d3f9",
+    "commits": 158,
+    "tracked_files": 1399,
+    "history_blobs": 2621,
+    "local_secret_values_compared": 1,
+    "worktree_findings": [],
+    "history_findings": [],
+    "untracked_findings": [],
+    "untracked_not_selected_for_upload": [
+      "tools/translation/prepare_expanded_review.py"
+    ],
+    "ignored_local_paths": [
+      ".env",
+      "api-key.txt",
+      "runtime/vendor",
+      "runtime/backups",
+      "runtime/package",
+      "runtime/game-test"
+    ],
+    "reviewed_test_placeholders": [
+      "tools/translation/test_check_provider.py",
+      "tools/translation/upstream-runner/test_request_audit.py"
+    ],
+    "largest_history_blobs": [
+      {
+        "path": "analysis/ui-audit/resource-strings.json",
+        "bytes": 34825514
+      },
+      {
+        "path": "analysis/ui-audit/resource-exclusions.json",
+        "bytes": 33445326
+      },
+      {
+        "path": "analysis/ui-audit/assembly-strings.json",
+        "bytes": 27593977
+      },
+      {
+        "path": "analysis/ui-audit/assembly-exclusions.json",
+        "bytes": 11808979
+      },
+      {
+        "path": "translation/sol-full-2026-10-09/manifest.json",
+        "bytes": 10873699
+      }
+    ],
+    "limits": [
+      "匹配本地密钥及常见凭证格式，不保证识别所有未知密钥格式",
+      "字体及二进制按路径、后缀和文件头检查；文本中的历史字体引用不代表上传字体文件"
+    ]
+  },
+  "commands": [
+    {
+      "command": "python tools/release/restore-release-workspace.py --archive runtime/downloads/ElsinoreHan-v1.0.0-windows.zip",
+      "passed": true,
+      "log_sha256": "8898a22bf461d6d67f9bdaf48535dd22c78cfb3ca856a030f979ca3947d4812e"
+    },
+    {
+      "command": "python tools/release/restore-release-workspace.py --archive runtime/downloads/ElsinoreHan-v1.0.0-windows.zip",
+      "passed": true,
+      "log_sha256": "175384b9bda85be29339b99ff6a89a1d0fad28bb2942c7cbb536615842df24db"
+    },
+    {
+      "command": "python tools/translation/export_sol_full.py",
+      "passed": true,
+      "log_sha256": "db3414b2b5796a2eb1e7fa04571973668626a647319210939acfabd8a67fda98"
+    },
+    {
+      "command": "python -m unittest discover -s tools/translation -p test_export_sol_full.py",
+      "passed": true,
+      "log_sha256": "9dc27d5a892ea495968f85f38cf36a670cd405ad428dff2f37b4eddf7ccfd6c0"
+    },
+    {
+      "command": "python -m unittest discover -s tools/release -p test_*.py",
+      "passed": true,
+      "log_sha256": "28e9789d56e4d0b7eb837b60d16567ed78a645794ff7141a51e36329c3acefca"
+    },
+    {
+      "command": "python tools/release/build-public-release.py",
+      "passed": true,
+      "log_sha256": "3f4b20b2fb4cb6c466c1ea7a1330f6c0b9f93d684ed6c534810564003ab61a67"
+    }
+  ],
+  "clone_status_after_regeneration": "M runtime/evidence/public-release-1.0.0-package-verification-2026-10-19.json",
+  "original_game_or_saves_accessed": false,
+  "original_game_or_saves_changed": false,
+  "game_or_native_test_executable_started": false,
+  "model_or_translation_api_called": false,
+  "release_assets_changed": false,
+  "release_tag_moved": false,
+  "personal_saves_keys_or_game_binaries_uploaded": false,
+  "unused_untracked_helper_not_selected": true,
+  "temporary_recovery_clone_removed": true,
+  "github_repository_read_only_archived": false,
+  "github_issues_enabled": true,
+  "remote_release_tag": "ade884ce9c12a94a97d9772d1f027d01064bcdca"
+}
