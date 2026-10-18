@@ -70,5 +70,41 @@
       }
     ],
     "reason": "将Not at the end作为前句的时间补充合并，避免把神志不清重复说成两句话；不添加推测。"
+  },
+  {
+    "id": "ascension-parallel-p07866-25392c0aee45",
+    "original_id": "p07866-25392c0aee45",
+    "source": "They're just bodies. Just things. Just little dolls, or characters. They're not people, not really.",
+    "source_sha256": "25392c0aee45ee64fad2cef009128629cff87a5cda418f8f0c06b31e8a11bff9",
+    "previous_target": "他们只是躯体。只是东西。只是小人偶，或者角色。他们不是人，并不是真正的人。",
+    "target": "他们只是躯壳。只是物件。只是人偶，或是角色。他们不是人，并不是真正的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21549,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户要求四个二字词保持原文名词并列节奏；躯壳、物件、人偶、角色保留物化他人的递进及反复只是。"
+  },
+  {
+    "id": "ascension-nice-p07875-e64b1b97c245",
+    "original_id": "p07875-e64b1b97c245",
+    "source": "I must admit, I didn't realize how nice it would be to see someone else like me. Someone who <i>understands.</i>",
+    "source_sha256": "e64b1b97c245a3a452867bde65470c3e8259e21c6e6d7868adf237915e72050c",
+    "previous_target": "我得承认，我没想到，见到另一个和我一样的人会这么好。一个<i>明白这一切</i>的人。",
+    "target": "我得承认，我没想到，见到另一个和我一样的人，竟会让我这么高兴。一个<i>明白这一切</i>的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21568,
+        "actor": "quince"
+      }
+    ],
+    "reason": "用户指出会这么好未表达nice的主观愉快感；明确见到同类让昆斯高兴，保留未料到及原斜体，不另添欣慰或孤独等心理叙述。"
   }
 ]

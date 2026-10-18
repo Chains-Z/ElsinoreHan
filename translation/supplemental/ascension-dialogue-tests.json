@@ -600,5 +600,89 @@
         "actor": "ophelia"
       }
     ]
+  },
+  {
+    "id": "ascension-parallel-leaf",
+    "source": "They're just bodies. Just things. Just little dolls, or characters. They're not people, not really.",
+    "target": "他们只是躯壳。只是物件。只是人偶，或是角色。他们不是人，并不是真正的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21549,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-parallel-box",
+    "source": "<line-height=90%>They're just bodies. Just things. Just little dolls, or characters. They're not people, not really.",
+    "target": "<line-height=90%>他们只是躯壳。只是物件。只是人偶，或是角色。他们不是人，并不是真正的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21549,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-parallel-log",
+    "source": "<b>Ophelia:</b> <indent=16%>They're just bodies. Just things. Just little dolls, or characters. They're not people, not really.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>他们只是躯壳。只是物件。只是人偶，或是角色。他们不是人，并不是真正的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21549,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-nice-leaf",
+    "source": "I must admit, I didn't realize how nice it would be to see someone else like me. Someone who <i>understands.</i>",
+    "target": "我得承认，我没想到，见到另一个和我一样的人，竟会让我这么高兴。一个<i>明白这一切</i>的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21568,
+        "actor": "quince"
+      }
+    ]
+  },
+  {
+    "id": "ascension-nice-box",
+    "source": "<line-height=90%>I must admit, I didn't realize how nice it would be to see someone else like me. Someone who <i>understands.</i>",
+    "target": "<line-height=90%>我得承认，我没想到，见到另一个和我一样的人，竟会让我这么高兴。一个<i>明白这一切</i>的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21568,
+        "actor": "quince"
+      }
+    ]
+  },
+  {
+    "id": "ascension-nice-log",
+    "source": "<b>Quince:</b> <indent=16%>I must admit, I didn't realize how nice it would be to see someone else like me. Someone who <i>understands.</i>",
+    "target": "<b>昆斯:</b> <indent=16%>我得承认，我没想到，见到另一个和我一样的人，竟会让我这么高兴。一个<i>明白这一切</i>的人。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_Ascension",
+        "line": 21568,
+        "actor": "quince"
+      }
+    ]
   }
 ]
