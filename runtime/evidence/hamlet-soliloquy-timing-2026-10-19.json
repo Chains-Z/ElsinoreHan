@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-19",
+  "status": "static_source_and_il_verified",
+  "schedule_asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+  "event": {
+    "condition": [
+      [
+        "wants(hamlet,avoid(ophelia))"
+      ]
+    ],
+    "duration": {
+      "assembly": 30,
+      "teardown": 1,
+      "trigger": 60
+    },
+    "flags": [
+      "sensitive"
+    ],
+    "id": "SC_SPINE_ToBeOrNotToBe",
+    "participants": {
+      "hamlet": "chap_aisel"
+    },
+    "room": "chapel",
+    "scene": "Spine_ToBeOrNotToBe",
+    "time": [
+      {
+        "begin": [
+          2,
+          12,
+          30
+        ]
+      }
+    ],
+    "type": "observation",
+    "description": "Hamlet contemplates existence."
+  },
+  "scene_asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+  "first_section": "section shout 10\n[noblock Play(hamlet,am_theatrical2)]\nhamlet: {To_Be_Or_Not_To_Be} \"To be or not to be...\"\nhamlet: \"That is the question.\"",
+  "day_conversion": {
+    "method": "Elsinore.Game.GameClock.DayString",
+    "indexing": "clockDays[day-1]",
+    "days": [
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "schedule_day": 2,
+    "weekday": "Friday"
+  },
+  "nominal_timeline": {
+    "assembly_start": "Friday 12:30",
+    "assembly_minutes": 30,
+    "opening_shout_start": "Friday 13:00",
+    "opening_section_minutes": 10,
+    "opening_section_end": "Friday 13:10",
+    "recommended_arrival": "Friday 12:45 or earlier"
+  },
+  "verified_methods": [
+    "Elsinore.Game.GTime.fromDayHourMinute",
+    "Elsinore.Game.GameClock.DayString",
+    "Elsinore.Game.HighLevelScheduler.events@193.Invoke",
+    "Elsinore.Game.HighLevelScheduler.copyBasicInfo",
+    "Elsinore.Game.Scheduler.EventInfo.get_StateEndTime",
+    "Elsinore.Game.Scheduler.updateEventStates",
+    "ScheduleManager.UpdateTickSchedule"
+  ],
+  "saves_accessed": false,
+  "game_started": false,
+  "game_logic_modified": false,
+  "limits": [
+    "依据原游戏资源和IL推导默认时序，未在本轮实际游玩中逐分钟复现",
+    "事件条件是wants(hamlet,avoid(ophelia))，并无国王死亡后固定倒计时；未满足条件或其它剧情占用时不能保证按默认时刻发生",
+    "开头两句位于shout短段；section 60为后续可交互段，晚到后段不能重播前段"
+  ]
+}
