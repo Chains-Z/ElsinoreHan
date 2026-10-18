@@ -12,7 +12,7 @@
 
 运行时只读取本地译文，不调用在线翻译 API，也不需要 API Key。**Alt+R** 可重载本地词表；更新补丁、字体或配置后请重启游戏。
 
-已有其他模组或更新旧补丁时，建议先将 ZIP 解压到外部目录，用其中 `ElsinoreHan/Install.cmd` 检查冲突。包内 `ElsinoreHan/` 提供详细安装、停用、卸载和故障排查说明；也可查看[本版安装说明](https://github.com/Chains-Z/ElsinoreHan/blob/v1.0.0/docs/release/INSTALL.md)与[故障排查](https://github.com/Chains-Z/ElsinoreHan/blob/v1.0.0/docs/release/TROUBLESHOOTING.md)。
+已有其他模组或更新旧补丁时，建议先将 ZIP 解压到外部目录，用其中 `ElsinoreHan/Install.cmd` 检查冲突。压缩包根目录提供可双击阅读的“安装方法.txt”“使用说明.txt”“常见问题.txt”“更新说明.txt”；也可查看[本版安装说明](https://github.com/Chains-Z/ElsinoreHan/blob/v1.0.0/docs/release/INSTALL.md)与[故障排查](https://github.com/Chains-Z/ElsinoreHan/blob/v1.0.0/docs/release/TROUBLESHOOTING.md)。
 
 ## 内容与限制
 

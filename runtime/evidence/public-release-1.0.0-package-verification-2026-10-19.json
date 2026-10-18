@@ -5,8 +5,8 @@
   "release_id": "v1.0.0",
   "passed": true,
   "archive": "runtime/package/public-release/ElsinoreHan-v1.0.0-windows.zip",
-  "archive_sha256": "ebf625c97f12b8885365943ec3b17b9800f1499434a1d53596c6784aa44812e5",
-  "archive_size": 16203342,
+  "archive_sha256": "fbfeb20c9ebb5fd51a225c8d4b621e0163ad20520a3243e85e5769acac2efb4a",
+  "archive_size": 16200468,
   "flat_archive": true,
   "runtime_files": 39,
   "total_files": 66,
@@ -173,29 +173,9 @@
       "size": 72704
     },
     {
-      "path": "ElsinoreHan/CHANGELOG.md",
-      "sha256": "3f9d5ff64ebbb79d4c09caf0eb767f253a70f801f9b61f1cb9864a41f41e99fd",
-      "size": 1647
-    },
-    {
-      "path": "ElsinoreHan/INSTALL.md",
-      "sha256": "475f12167bf24027086c6c43c44eda9bd7ec462f28a1fbd501210464dd02c6d2",
-      "size": 4694
-    },
-    {
       "path": "ElsinoreHan/Install.cmd",
       "sha256": "f46fcd290417b8f8c26832e90e0b95bcdbcdc7216fda09b4de709155678d37a0",
       "size": 264
-    },
-    {
-      "path": "ElsinoreHan/README.md",
-      "sha256": "ec7f373cebc975c6cf2eec1485f6ac98aeb1b6e87423f1fb32047f5ea07d0590",
-      "size": 3080
-    },
-    {
-      "path": "ElsinoreHan/TROUBLESHOOTING.md",
-      "sha256": "c1e46393800e001461624ebdf5fbf21459b6c9578d35283895c2d3d5e5932512",
-      "size": 3689
     },
     {
       "path": "ElsinoreHan/Uninstall.cmd",
@@ -346,6 +326,26 @@
       "path": "winhttp.dll",
       "sha256": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
       "size": 22016
+    },
+    {
+      "path": "使用说明.txt",
+      "sha256": "1005b93a75030e75cc9d0b0f77ee44268215d153dadfb54bb1838d0dc5d057a2",
+      "size": 1747
+    },
+    {
+      "path": "安装方法.txt",
+      "sha256": "6f24cf8b72452698dbf70c7ff4f1ebaad3116f37f03c5ebce145421ebd7d8c22",
+      "size": 1915
+    },
+    {
+      "path": "常见问题.txt",
+      "sha256": "4dfd022872e5cace850fcf48dd9e0ff325592c1262a288ff2bce1554c66e312a",
+      "size": 2030
+    },
+    {
+      "path": "更新说明.txt",
+      "sha256": "26ce16ad09f31c21e298ad75886eb0666fec180bebf9e9c6650517cea49c15fb",
+      "size": 1653
     }
   ]
 }

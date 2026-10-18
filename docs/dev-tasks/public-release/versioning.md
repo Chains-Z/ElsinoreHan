@@ -18,4 +18,6 @@
 
 本次不修改玩家存档或本地安装，不重新宣称剧情或物理按键验收。先前公开包的证据不覆盖，新证据使用含公开版本号的路径。
 
-本地结果：7项包边界及版本治理测试通过；66个归档文件中仅4份玩家说明与清单变化，39个运行文件全部与旧包逐字节一致；现有PowerShell安装器读取并核验新清单成功。详见[版本与范围核验](../../../runtime/evidence/public-release-1.0.0-version-verification-2026-10-19.json)和[新包完整清单](../../../runtime/evidence/public-release-1.0.0-package-verification-2026-10-19.json)。
+本地结果：8项包边界、版本治理及纯文本转换测试通过；66个归档文件中仅4份玩家说明的位置、格式、内容与清单变化，39个运行文件全部与旧包逐字节一致；现有PowerShell安装器读取并核验新清单成功。详见[版本与范围核验](../../../runtime/evidence/public-release-1.0.0-version-verification-2026-10-19.json)和[新包完整清单](../../../runtime/evidence/public-release-1.0.0-package-verification-2026-10-19.json)。
+
+玩家说明现按用户要求移到ZIP根目录，生成中文文件名的TXT，记事本可读；维护源保留Markdown以便GitHub查看。根目录AGENTS.md已补充双版本、公开包及中文说明规范，并明确长期剧情检查点不可作为临时测试副本清理。

@@ -5,14 +5,24 @@
   "internal_version": "1.5.15",
   "runtime_files_identical_to_previous_release": 39,
   "total_files": 66,
-  "changed_archive_paths": [
+  "added_root_documents": [
+    "使用说明.txt",
+    "安装方法.txt",
+    "常见问题.txt",
+    "更新说明.txt"
+  ],
+  "removed_nested_documents": [
     "ElsinoreHan/CHANGELOG.md",
     "ElsinoreHan/INSTALL.md",
     "ElsinoreHan/README.md",
-    "ElsinoreHan/TROUBLESHOOTING.md",
+    "ElsinoreHan/TROUBLESHOOTING.md"
+  ],
+  "changed_common_paths": [
     "ElsinoreHan/manifest.json"
   ],
-  "version_governance_tests_passed": 7,
+  "version_and_document_governance_tests_passed": 8,
+  "documents_bom_utf8_crlf": true,
+  "installer_manifest_read_and_hash_verification": true,
   "previous_runtime_ui_assertions_reused": 13,
   "previous_installer_integration_cases_reused": 18,
   "game_or_test_processes_started": false,

@@ -12,6 +12,18 @@ SPEC.loader.exec_module(BUILDER)
 class PublicReleaseChecks(unittest.TestCase):
     PLUGIN_SOURCE = '[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.15")]'
 
+    def test_player_documents_are_readable_without_markdown_viewer(self):
+        data = BUILDER.player_document('# 使用说明\n\n按 **Ctrl** 跳过，详见 [安装方法](INSTALL.md)。\n[项目仓库](https://github.com/Chains-Z/ElsinoreHan)\n> 补丁版本：`1.0.0`\n')
+        self.assertTrue(data.startswith(b'\xef\xbb\xbf'))
+        text = data.decode('utf-8-sig')
+        self.assertIn('安装方法（安装方法.txt）', text)
+        self.assertIn('项目仓库（https://github.com/Chains-Z/ElsinoreHan）', text)
+        self.assertIn('按 Ctrl 跳过', text)
+        self.assertNotIn('**', text)
+        self.assertNotIn('\n', text.replace('\r\n', ''))
+        self.assertEqual(len(set(BUILDER.DOCS.values())), 4)
+        self.assertTrue(all('/' not in name and name.endswith('.txt') for name in BUILDER.DOCS.values()))
+
     def test_public_version_changes_independently(self):
         for public_version in ("1.0.0", "1.0.1", "2.0.0"):
             result = BUILDER.verify_versions({"patch_version": public_version, "internal_version": "1.5.15"}, "1.5.15", self.PLUGIN_SOURCE)

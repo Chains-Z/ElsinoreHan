@@ -45,7 +45,8 @@ LICENSES = (
     "SimpleJSON-LICENSE.txt", "TextMeshPro-Unity-Companion-License.txt", "THIRD-PARTY-NOTICES.md",
     "UnityDoorstop-LGPL-2.1.txt", "UnityDoorstop-SOURCE.md", "XUnity.AutoTranslator-LICENSE.txt",
 )
-DOCS = ("README.md", "INSTALL.md", "TROUBLESHOOTING.md", "CHANGELOG.md")
+DOCS = {"README.md": "使用说明.txt", "INSTALL.md": "安装方法.txt",
+        "TROUBLESHOOTING.md": "常见问题.txt", "CHANGELOG.md": "更新说明.txt"}
 SCRIPTS = ("common.ps1", "install.ps1", "uninstall.ps1", "Install.cmd", "Uninstall.cmd")
 SOURCE_ARCHIVE = "UnityDoorstop-4.5.0-source.zip"
 
@@ -56,6 +57,20 @@ def read(path: Path):
 
 def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
+
+
+def player_document(source: str) -> bytes:
+    """从维护用Markdown生成Windows记事本可直接阅读的中文说明。"""
+    for original, filename in DOCS.items():
+        source = source.replace("](" + original + ")", "](" + filename + ")")
+    def link(match):
+        label, target = match.groups()
+        return label if label == target else label + "（" + target + "）"
+    source = re.sub(r"\[([^\]]+)\]\(([^)]+)\)", link, source)
+    source = re.sub(r"^#{1,6}\s+", "", source, flags=re.MULTILINE)
+    source = re.sub(r"^> ?", "", source, flags=re.MULTILINE)
+    source = source.replace("**", "").replace("`", "")
+    return (source.rstrip().replace("\r\n", "\n").replace("\n", "\r\n") + "\r\n").encode("utf-8-sig")
 
 
 def verify_versions(metadata: dict, installed_version: str, plugin_source: str) -> dict[str, str]:
@@ -116,8 +131,8 @@ def main() -> None:
             raise ValueError("运行文件与正式安装证明不符：" + name)
         content[name] = data
     assert len(content) == 39
-    for name in DOCS:
-        content["ElsinoreHan/" + name] = (ROOT / "docs/release" / name).read_bytes()
+    for name, filename in DOCS.items():
+        content[filename] = player_document((ROOT / "docs/release" / name).read_text(encoding="utf-8-sig"))
     for name in SCRIPTS:
         content["ElsinoreHan/" + name] = (ROOT / "tools/release" / name).read_bytes()
     for name in LICENSES:
@@ -168,6 +183,11 @@ def main() -> None:
     output = ROOT / "runtime/package/public-release"
     stage = output / "stage"
     stage.mkdir(parents=True, exist_ok=True)
+    # 只移除上一布局的四个已知说明，不递归清空暂存目录，额外文件仍应触发拒绝。
+    for name in DOCS:
+        previous_document = stage / "ElsinoreHan" / name
+        if previous_document.is_file():
+            previous_document.unlink()
     for name, data in content.items():
         target = stage / name
         target.parent.mkdir(parents=True, exist_ok=True)
