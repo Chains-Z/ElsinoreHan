@@ -60,6 +60,8 @@ Steam Deck（SteamOS）玩家请先看[安装说明中的Steam Deck步骤](docs/
 
 ## 开发与校订
 
+本轮汉化已发布，后续按具体反馈维护。项目维护资料以本仓库及Releases附件为准；从全新电脑恢复开发环境的方法见[项目交接与恢复](docs/archive/project-handoff-2026-10-19/README.md)。已公开的Steam下载指南见[汉化补丁指南](https://steamcommunity.com/sharedfiles/filedetails/?id=3822643409)，反馈可在指南下留言或[提交Issue](https://github.com/Chains-Z/ElsinoreHan/issues)。
+
 从 [AGENTS.md](AGENTS.md) 了解修改约束，从 [维护交接](docs/dev-tasks/localization/handoff.md) 查看当前安装、待安装候选和相关实现入口。
 
 译文在 [translations.json](translation/sol-full-2026-10-09/translations.json) 中可检索。原始模型输入、响应与输出保持冻结；修改通过有来源、源哈希及准确旧值的校订层应用，新增界面译文与动态规则位于 `translation/supplemental/`。

@@ -1,0 +1,25 @@
+{
+  "release_tag": "v1.0.0",
+  "release_archive": "ElsinoreHan-v1.0.0-windows.zip",
+  "release_sha256": "8cc8121aac0b4726d8568b68b6b496a2fa1418dbb8d3da203227ee1a059f166e",
+  "files": [
+    {
+      "path": "plugin-build.json",
+      "original_path": "runtime/build/translation-toggle-build.json",
+      "size": 1680,
+      "sha256": "9c551f747a2071090c8633a913537db9b6433d20a31d7da378864c7867bb3861"
+    },
+    {
+      "path": "font-assembly.json",
+      "original_path": "runtime/vendor/fonts/elsinorehan_sans_sdf_u2018.verification.json",
+      "size": 958,
+      "sha256": "c22d6549bf720efa3a57fac57007a12fd583fc52419448849735d0c0d27bf562"
+    },
+    {
+      "path": "font-bake.json",
+      "original_path": "runtime/evidence/headless/c0c627c1683c4ef98fad271ce9fca946/font-bake.json",
+      "size": 1274601,
+      "sha256": "f30c0dde2ffd401e8a65d9208a1d1f74a54784cb6b2f7caac0fc008737f3a407"
+    }
+  ]
+}

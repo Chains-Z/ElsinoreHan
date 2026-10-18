@@ -1,12 +1,14 @@
 # ElsinoreHan 项目约定
 
-《Elsinore》的离线中文补丁，先提供可玩的中文初稿，再随实际游玩定向校订。游戏为 Windows x86、Unity 2018.4.20f1、Mono，主要使用 TextMeshProUGUI；补丁采用 BepInEx 5、XUnity.AutoTranslator、中文TMP字体和本项目F8兼容插件。
+《Elsinore》的离线中文补丁，已完成全文翻译及随实际游玩的定向校订。游戏为 Windows x86、Unity 2018.4.20f1、Mono，主要使用 TextMeshProUGUI；补丁采用 BepInEx 5、XUnity.AutoTranslator、中文TMP字体和本项目F8兼容插件。
 
 语言、沙盒、Git提交和通用测试规则沿用用户级AGENTS。项目位于 `D:\MyProjects\ElsinoreHan`，游戏位于 `D:\SteamLibrary\steamapps\common\Elsinore`。
 
 ## 文档与维护入口
 
 - 开始任务时先读 [交接文档的当前状态](docs/dev-tasks/localization/handoff.md#当前状态)，实现细节按任务需要查阅。
+- 项目已完成首轮发布，用户不保留本地环境。今后以GitHub仓库与Release附件为维护依据，不假定旧游戏路径、存档、字体缓存或构建目录仍存在；恢复入口见[项目交接归档](docs/archive/project-handoff-2026-10-19/README.md)。维护以已完成的GPT-6.1-sol译文、现有校订和具体反馈为基础；需要游戏验证时另行准备隔离环境。GitHub保留Issue入口，不将仓库设为只读归档。
+- `runtime/evidence/recovery-baseline/`保存原始构建及字体证明；保持字节不变。`tools/release/restore-release-workspace.py`仅从哈希匹配的公开ZIP恢复被忽略的维护依赖，禁止用恢复证明冒充新构建验收；不依赖或上传旧玩家检查点。
 - [README.md](README.md) 面向仓库读者，说明用途、使用方式和开发入口；进展、版本号、统计、哈希及安装历史写入 `docs/dev-tasks/localization/` 和 `runtime/evidence/`，不追加到本文件。
 - `tools/translation/export_sol_full.py` 导出词表；`tools/patch/install-full.ps1` 核验后安装，不保留旧补丁备份；`tools/patch/package-full.ps1` 按白名单打包。候选包使用 `-PendingInstall`，安装后再生成已安装包；区分候选与正式安装证据，保留Git中的旧阶段证据快照。按用户2026-10-15决定，不再长期保存安装备份或测试存档副本；测试仍须临时克隆并隔离真实存档，结束后清理，不能直接使用玩家存档执行测试。
 - 用户明确要求保留的剧情检查点属于长期玩家备份，不作为临时测试副本清理；仅保存在被忽略的本地目录，禁止进入Git或公开包。
@@ -25,7 +27,7 @@
 
 ## 翻译与运行约束
 
-- 根据实际反馈定向修复，先确认真实源字段、角色语境、运行变体和拦截路径。不要重新识别引擎、从零选模型、重译全文或恢复已停止的模型比较。
+- 根据实际反馈定向修复，先确认真实源字段、角色语境、运行变体和拦截路径；在已完成的正式译文及校订层上维护，不重新翻译全文。
 - 使用自然易读的现代中文，保留原文的戏剧感和人物差异；不补写关系、动作、情绪或未明确的指代，忠实保留否定、时间、条件和推测程度。人物身份以本游戏为准，既有术语决定见交接文档。
 - 保留原文斜体、粗体、占位符及必要换行，不全局互换强调格式。
 - `translation/sol-full-2026-10-09/` 的输入、raw、outputs和审计保持冻结。正文校订通过 `local-corrections.json` 的 `apply_at_export` 或既有专项校订层应用；界面补译与规则放在 `translation/supplemental/`。覆盖已有源词必须记录准确旧值、来源和 `source_sha256`，别名须复用经治理的译文。

@@ -11,3 +11,20 @@ licenses/ExIni-LICENSE.txt whitespace=-blank-at-eof
 
 # 根许可证沿用已核验的完整上游文本，保留原始字节。
 LICENSE -text whitespace=cr-at-eol
+
+# 归档恢复依赖原始证明和实际编译源文件的字节哈希，跨系统克隆不得转换换行。
+runtime/evidence/recovery-baseline/*.json -text whitespace=cr-at-eol
+LICENSE-SCOPE.md -text whitespace=cr-at-eol
+tools/patch/TranslationToggle.cs -text
+tools/patch/LogScrollAnchor.cs -text
+tools/patch/InvitedEventNotice.cs -text
+tools/patch/StrictLogTranslation.cs -text
+tools/patch/LeadSplotchLayout.cs -text
+tools/patch/SplotchTileGeometry.cs -text
+tools/patch/LogSpeakerLayout.cs -text
+tools/patch/EndingBookLabels.cs -text
+tools/patch/BookPaperReconstruction.cs -text
+tools/patch/CreditsHoldSkip.cs -text
+tools/patch/CreditsSkipGesture.cs -text
+tools/patch/CreditsSkipRing.cs -text
+tools/patch/FifthEndingReturn.cs -text
