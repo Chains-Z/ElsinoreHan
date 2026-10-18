@@ -96,5 +96,47 @@
         "actor": "ophelia"
       }
     ]
+  },
+  {
+    "id": "ascension-reality-leaf",
+    "source": "It's so easy. They don't even feel real.",
+    "target": "太容易了。我甚至都不觉得他们是真实存在的人了。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7453,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-reality-box",
+    "source": "<line-height=90%>It's so easy. They don't even feel real.",
+    "target": "<line-height=90%>太容易了。我甚至都不觉得他们是真实存在的人了。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7453,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-reality-log",
+    "source": "<b>Ophelia:</b> <indent=16%>It's so easy. They don't even feel real.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>太容易了。我甚至都不觉得他们是真实存在的人了。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7453,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]
