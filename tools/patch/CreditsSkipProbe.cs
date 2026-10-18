@@ -219,6 +219,11 @@ public static class CreditsSkipProbe
     }
     public static IEnumerator Capture(string directory)
     {
+        if (!String.IsNullOrEmpty(Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_CREDITS_PROFILE")))
+        {
+            yield return CreditsPerformanceProbe.Capture(directory);
+            yield break;
+        }
         var report = new Report();
         var harmony = new Harmony(HarmonyId);
         MonoBehaviour player = null, toggle = null;
@@ -233,6 +238,8 @@ public static class CreditsSkipProbe
             var skipType = AccessTools.TypeByName("CreditsHoldSkip");
             var creditsType = AccessTools.TypeByName("Elsinore.Ui.CreditsPlayer");
             Check(report, "real_plugin_types", skipType != null && creditsType != null, "反射读取正式插件及游戏类型");
+            harmony.Patch(AccessTools.Method(creditsType, "Start"),
+                postfix: new HarmonyMethod(typeof(CreditsPerformanceProbe), "LimitFrameRate"));
             MethodInfo finishMoveNext = null;
             foreach (var nested in skipType.GetNestedTypes(BindingFlags.Public | BindingFlags.NonPublic))
                 if (nested.Name.StartsWith("<FinishAfterFullRing>", StringComparison.Ordinal)) finishMoveNext = AccessTools.Method(nested, "MoveNext");
@@ -266,11 +273,17 @@ public static class CreditsSkipProbe
             }
             Check(report, "real_credits_start", player != null && controlled != null && controlled.enabled,
                 "真实ActivateCredits加载场景并经Start挂载插件");
+            Check(report, "ten_fps_after_credits_start", Application.targetFrameRate == 10, "片尾Start后重新限制后台10FPS");
             report.scene = player.gameObject.scene.name;
             Check(report, "credits_scene", report.scene == "credits", report.scene);
             var overlay = (GameObject)Field(controlled, "overlay");
             var canvas = overlay.GetComponent<Canvas>();
             var label = overlay.transform.Find("Hint/HintText").GetComponent<TMP_Text>();
+            var body = (TMP_Text)Field(player, "TextField");
+            var isBody = skipType.GetMethod("IsCreditsBody", BindingFlags.Public | BindingFlags.Static);
+            Check(report, "only_real_credits_body_excluded", isBody != null
+                && (bool)isBody.Invoke(null, new object[] { body })
+                && !(bool)isBody.Invoke(null, new object[] { label }), "真实正文已登记，提示仍走翻译");
             var ring = (Graphic)Field(controlled, "progressRing");
             Handle(controlled, false, true, 0);
             Handle(controlled, true, true, 0.1);
@@ -313,6 +326,7 @@ public static class CreditsSkipProbe
             originalMode = (bool)toggle.GetType().GetMethod("IsTranslatedMode").Invoke(toggle, null);
             SetMode(toggle, true);
             yield return new WaitForSecondsRealtime(0.3f);
+            string bodyBeforeToggle = body.text;
             report.text_translated = label.text;
             Check(report, "hint_chinese", label.text == "长按 Ctrl 跳过", label.text);
             CaptureGlyphs(report, label);
@@ -324,6 +338,8 @@ public static class CreditsSkipProbe
             yield return new WaitForSecondsRealtime(0.3f);
             report.text_restored = label.text;
             Check(report, "hint_f8_restored", label.text == "长按 Ctrl 跳过", label.text);
+            Check(report, "body_unchanged_across_f8", body.text == bodyBeforeToggle && body.text.Length > 100000,
+                "F8双向切换后完整名单逐字一致");
             Canvas.ForceUpdateCanvases(); label.ForceMeshUpdate();
             report.screen_width = Screen.width; report.screen_height = Screen.height;
             report.label_screen_corners = Corners(label.rectTransform); report.ring_screen_corners = Corners(ring.rectTransform);
@@ -372,6 +388,9 @@ public static class CreditsSkipProbe
                 && !Handle(controlled, false, true, now + 21) && !Handle(controlled, true, true, now + 23), "完成后再按不重复退出");
             yield return null;
             Check(report, "exit_one_shot", quitCalls == 1 && breakCalls == 1, "两个测试回调各一次");
+            UnityEngine.Object.DestroyImmediate(controlled);
+            Check(report, "body_exclusion_released_on_destroy", !(bool)isBody.Invoke(null, new object[] { body }),
+                "组件销毁时释放正文登记，存活正文恢复自动翻译许可");
             report.passed = true;
         }
         finally

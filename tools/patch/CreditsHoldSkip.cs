@@ -7,6 +7,7 @@ using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using XUnity.AutoTranslator.Plugin.Core;
 
 // 仅在原CreditsPlayer完成Start后附加；保留原输入、滚动及音乐快进逻辑。
 public sealed class CreditsHoldSkip : MonoBehaviour
@@ -16,6 +17,10 @@ public sealed class CreditsHoldSkip : MonoBehaviour
     private GameObject overlay;
     private CreditsSkipRing progressRing;
     private TMP_Text hintLabel;
+    private TMP_Text creditsBody;
+    private static readonly HashSet<TMP_Text> creditsBodies = new HashSet<TMP_Text>();
+    private static FieldInfo stabilizationUi, stabilizationInfo;
+    private static PropertyInfo stabilizationFlag;
     private bool creditsPrepared;
     private int firstPresentationFrame = -1;
     private bool completionQueued;
@@ -29,6 +34,23 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         if (start == null || start.ReturnType != typeof(void) || play == null || play.ReturnType != typeof(IEnumerator)
             || !typeof(MonoBehaviour).IsAssignableFrom(type))
             throw new MissingMethodException("CreditsPlayer.Start/PlayCredits");
+        var translatorType = typeof(AutoTranslator).Assembly.GetType("XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin", true);
+        MethodInfo stabilization = null;
+        foreach (var nested in translatorType.GetNestedTypes(BindingFlags.Public | BindingFlags.NonPublic))
+        {
+            if (!nested.Name.StartsWith("<WaitForTextStablization>", StringComparison.Ordinal)) continue;
+            var ui = AccessTools.Field(nested, "ui");
+            var info = AccessTools.Field(nested, "info");
+            if (ui == null || ui.FieldType != typeof(object) || info == null
+                || info.FieldType.FullName != "XUnity.AutoTranslator.Plugin.Core.TextTranslationInfo") continue;
+            if (stabilization != null) throw new AmbiguousMatchException("XUnity文字稳定组件协程不唯一");
+            stabilization = AccessTools.Method(nested, "MoveNext");
+            stabilizationUi = ui; stabilizationInfo = info;
+            stabilizationFlag = info.FieldType.GetProperty("IsStabilizingText");
+        }
+        if (stabilization == null || stabilization.ReturnType != typeof(bool) || stabilizationFlag == null || !stabilizationFlag.CanWrite)
+            throw new MissingMethodException("XUnity.WaitForTextStablization组件协程");
+        harmony.Patch(stabilization, prefix: new HarmonyMethod(typeof(CreditsHoldSkip), "ContinueStabilization"));
         harmony.Patch(start, postfix: new HarmonyMethod(typeof(CreditsHoldSkip), "AfterStart"),
             transpiler: new HarmonyMethod(typeof(CreditsHoldSkip), "WrapPreparation"));
     }
@@ -89,6 +111,11 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         skip.creditsPrepared = false;
         skip.firstPresentationFrame = -1;
         skip.completionQueued = false;
+        try { skip.IgnoreCreditsBody(); }
+        catch (Exception error)
+        {
+            Debug.LogWarning("片尾名单翻译排除失败，保留原文本处理：" + error.GetType().Name);
+        }
         try { skip.CreateOverlay(); }
         catch (Exception error)
         {
@@ -116,7 +143,39 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         Canvas.willRenderCanvases += ObserveCanvasReady;
         if (overlay != null) overlay.SetActive(true);
     }
-    private void OnDestroy() { if (overlay != null) Destroy(overlay); }
+    public static bool IsCreditsBody(TMP_Text component) { return creditsBodies.Contains(component); }
+    public static bool ContinueStabilization(object __instance, ref bool __result)
+    {
+        if (creditsBodies.Count == 0 || !IsCreditsBody(stabilizationUi.GetValue(__instance) as TMP_Text)) return true;
+        // TMP启用时可能已排队，XUnity旧协程恢复时不会再检查ShouldIgnore。
+        // 在真实MoveNext检查，避开Mono内联迭代器工厂的问题；只终止同一正文的延迟任务。
+        stabilizationFlag.SetValue(stabilizationInfo.GetValue(__instance), false, null);
+        __result = false;
+        return false;
+    }
+    private void IgnoreCreditsBody()
+    {
+        var field = AccessTools.Field(player.GetType(), "TextField");
+        var body = field == null ? null : field.GetValue(player) as TMP_Text;
+        var translator = AutoTranslator.Default;
+        if (body == null || translator == null) return;
+        // 仅排除真实名单正文：保留人员姓名及原格式，避免巨型富文本重复拆分与上下文分配。
+        // 提示文字仍走正常离线翻译和F8；不按字数或对象名称泛化排除其它正文。
+        translator.IgnoreTextComponent(body);
+        creditsBody = body;
+        creditsBodies.Add(body);
+    }
+    private void OnDestroy()
+    {
+        if (!ReferenceEquals(creditsBody, null))
+        {
+            creditsBodies.Remove(creditsBody);
+            if (creditsBody != null && AutoTranslator.Default != null)
+                AutoTranslator.Default.UnignoreTextComponent(creditsBody);
+            creditsBody = null;
+        }
+        if (overlay != null) Destroy(overlay);
+    }
     private void CreateOverlay()
     {
         if (overlay != null) { overlay.SetActive(true); return; }

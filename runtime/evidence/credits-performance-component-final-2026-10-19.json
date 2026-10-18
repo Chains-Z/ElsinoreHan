@@ -1,0 +1,1215 @@
+{
+  "date": "2026-10-19",
+  "mode": "component-final",
+  "run_id": "6310f50934fc4b7198c495c7cd83cedf",
+  "plugin_sha256": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+  "runner_error": null,
+  "report": {
+    "passed": true,
+    "mode": "component-final",
+    "error": null,
+    "scope": "真实片尾CPU方法和自然帧间隔采样；无图形后台显式刷新Canvas，不是GPU或实际玩家停顿的录制",
+    "body_font": "Crimson",
+    "body_sha256": "5bb99ff814e978c68b7da5da525e8cfa30ee926f2efe48ee95421d53b0d3ef62",
+    "body_input_sha256": "5bb99ff814e978c68b7da5da525e8cfa30ee926f2efe48ee95421d53b0d3ef62",
+    "body_source_characters": 111095,
+    "body_rendered_characters": 20312,
+    "body_vertices": 63696,
+    "maximum_rich_text_parts": 0,
+    "maximum_context_references": 0,
+    "body_auto_sizing": false,
+    "ten_fps_enforced": true,
+    "body_font_size": 36,
+    "capture_ms": 8071.409,
+    "activate_ms": 0.2414,
+    "methods": [
+      {
+        "method": "TMPro.TextMeshProUGUI.OnPreRenderCanvas()",
+        "calls": 6,
+        "maximum_frame": 1347,
+        "total_ms": 25.914,
+        "maximum_ms": 25.3196
+      },
+      {
+        "method": "TMPro.TextMeshProUGUI.GenerateTextMesh()",
+        "calls": 4,
+        "maximum_frame": 1347,
+        "total_ms": 15.2528,
+        "maximum_ms": 14.9783
+      },
+      {
+        "method": "TMPro.TMP_Text.get_preferredHeight()",
+        "calls": 2,
+        "maximum_frame": 1346,
+        "total_ms": 0.00140000007,
+        "maximum_ms": 0.001
+      },
+      {
+        "method": "TMPro.TMP_Text.ParseInputText()",
+        "calls": 8,
+        "maximum_frame": 1347,
+        "total_ms": 258.78,
+        "maximum_ms": 243.3931
+      },
+      {
+        "method": "TMPro.TMP_Text.GetPreferredHeight()",
+        "calls": 2,
+        "maximum_frame": 1347,
+        "total_ms": 10.4917,
+        "maximum_ms": 10.4798
+      },
+      {
+        "method": "TMPro.TMP_Text.GetPreferredHeight(Vector2,)",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "TMPro.TMP_Text.CalculatePreferredValues(Single,Vector2,Boolean,)",
+        "calls": 4,
+        "maximum_frame": 1347,
+        "total_ms": 12.6078,
+        "maximum_ms": 6.8252
+      },
+      {
+        "method": "TranslationToggle.SetBuilderThroughText(TMP_Text,StringBuilder,)",
+        "calls": 1,
+        "maximum_frame": 1347,
+        "total_ms": 1.954,
+        "maximum_ms": 1.954
+      },
+      {
+        "method": "TranslationToggle.PrepareOfflineText(TMP_Text,String,)",
+        "calls": 4,
+        "maximum_frame": 1346,
+        "total_ms": 0.0505,
+        "maximum_ms": 0.0348
+      },
+      {
+        "method": "CreditsHoldSkip.AfterStart(MonoBehaviour,)",
+        "calls": 1,
+        "maximum_frame": 1346,
+        "total_ms": 2.7989,
+        "maximum_ms": 2.7989
+      },
+      {
+        "method": "CreditsHoldSkip.MarkCreditsPrepared()",
+        "calls": 1,
+        "maximum_frame": 1347,
+        "total_ms": 286.3747,
+        "maximum_ms": 286.3747
+      },
+      {
+        "method": "CreditsHoldSkip.HandleKey(Boolean,Boolean,Double,)",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "Elsinore.Game.Credits.formatCredits(StringBuilder,JsonValue,)",
+        "calls": 1,
+        "maximum_frame": 1347,
+        "total_ms": 100.7052,
+        "maximum_ms": 100.7052
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.TranslateOrQueueWebJob(Object,String,Boolean,TextTranslationInfo,)",
+        "calls": 6,
+        "maximum_frame": 1346,
+        "total_ms": 0.7199001,
+        "maximum_ms": 0.6758
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.TryTranslate(String,Int32,String&,)",
+        "calls": 2,
+        "maximum_frame": 1346,
+        "total_ms": 0.0175,
+        "maximum_ms": 0.016
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.TranslateByParserResult(TranslationEndpointManager,ParserResult,Int32,InternalTranslationResult,Boolean,Boolean,Boolean,ParserTranslationContext,)",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.TranslateOrQueueWebJobImmediate(Object,String,Int32,TextTranslationInfo,Boolean,Boolean,Boolean,Boolean,IReadOnlyTextTranslationCache,UntranslatedTextInfo,ParserTranslationContext,)",
+        "calls": 6,
+        "maximum_frame": 1346,
+        "total_ms": 0.708600044,
+        "maximum_ms": 0.6703
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.TranslateByEndpoint(Object,String,UntranslatedText,Boolean,Boolean,Int32,TextTranslationInfo,Boolean,Boolean,Boolean,IReadOnlyTextTranslationCache,UntranslatedTextInfo,ParserTranslationContext,)",
+        "calls": 1,
+        "maximum_frame": 1346,
+        "total_ms": 0.0136,
+        "maximum_ms": 0.0136
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.TranslateOrQueueWebJobImmediateByParserResult(Object,ParserResult,Int32,Boolean,Boolean,Boolean,IReadOnlyTextTranslationCache,ParserTranslationContext,)",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin.Update()",
+        "calls": 76,
+        "maximum_frame": 1400,
+        "total_ms": 0.539700031,
+        "maximum_ms": 0.014
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.TextTranslationCache.TryGetTranslation(UntranslatedText,Boolean,Boolean,Int32,String&,)",
+        "calls": 4,
+        "maximum_frame": 1346,
+        "total_ms": 0.0167,
+        "maximum_ms": 0.0141
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin+<GetAllRoots>d__124.MoveNext()",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin+<HookLoadedPlugins>d__103.MoveNext()",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin+<WaitForTextStablization>d__96.MoveNext()",
+        "calls": 2,
+        "maximum_frame": 1346,
+        "total_ms": 0.0022,
+        "maximum_ms": 0.0014
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.AutoTranslationPlugin+<WaitForTextStablization>d__97.MoveNext()",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.Parsing.RichTextParser.Parse(String,Int32,)",
+        "calls": 1,
+        "maximum_frame": 1346,
+        "total_ms": 0.0148,
+        "maximum_ms": 0.0148
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.Parsing.RegexSplittingTextParser.Parse(String,Int32,IReadOnlyTextTranslationCache,)",
+        "calls": 1,
+        "maximum_frame": 1346,
+        "total_ms": 0.1514,
+        "maximum_ms": 0.1514
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.UntranslatedText.PerformInternalTrimming(String,Boolean,StringBuilder&,)",
+        "calls": 4,
+        "maximum_frame": 1346,
+        "total_ms": 0.239799976,
+        "maximum_ms": 0.2355
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.UntranslatedText.PrepareUntranslatedText(String,)",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "XUnity.AutoTranslator.Plugin.Core.UntranslatedText.FixTranslatedText(String,Boolean,)",
+        "calls": 0,
+        "maximum_frame": 0,
+        "total_ms": 0,
+        "maximum_ms": 0
+      },
+      {
+        "method": "Elsinore.Ui.CreditsPlayer+<PlayCredits>d__16.MoveNext()",
+        "calls": 15,
+        "maximum_frame": 1347,
+        "total_ms": 103.969513,
+        "maximum_ms": 103.719
+      }
+    ],
+    "slow_calls": [
+      {
+        "method": "CreditsHoldSkip.AfterStart(MonoBehaviour,)",
+        "frame": 1346,
+        "ms": 2.7989
+      },
+      {
+        "method": "Elsinore.Game.Credits.formatCredits(StringBuilder,JsonValue,)",
+        "frame": 1347,
+        "ms": 100.7052
+      },
+      {
+        "method": "Elsinore.Ui.CreditsPlayer+<PlayCredits>d__16.MoveNext()",
+        "frame": 1347,
+        "ms": 103.719
+      },
+      {
+        "method": "TMPro.TMP_Text.ParseInputText()",
+        "frame": 1347,
+        "ms": 243.3931
+      },
+      {
+        "method": "TMPro.TMP_Text.CalculatePreferredValues(Single,Vector2,Boolean,)",
+        "frame": 1347,
+        "ms": 6.8252
+      },
+      {
+        "method": "TMPro.TMP_Text.ParseInputText()",
+        "frame": 1347,
+        "ms": 4.7271
+      },
+      {
+        "method": "TMPro.TMP_Text.CalculatePreferredValues(Single,Vector2,Boolean,)",
+        "frame": 1347,
+        "ms": 5.746
+      },
+      {
+        "method": "TMPro.TMP_Text.GetPreferredHeight()",
+        "frame": 1347,
+        "ms": 10.4798
+      },
+      {
+        "method": "TMPro.TMP_Text.ParseInputText()",
+        "frame": 1347,
+        "ms": 10.3329
+      },
+      {
+        "method": "TMPro.TextMeshProUGUI.GenerateTextMesh()",
+        "frame": 1347,
+        "ms": 14.9783
+      },
+      {
+        "method": "TMPro.TextMeshProUGUI.OnPreRenderCanvas()",
+        "frame": 1347,
+        "ms": 25.3196
+      },
+      {
+        "method": "CreditsHoldSkip.MarkCreditsPrepared()",
+        "frame": 1347,
+        "ms": 286.3747
+      }
+    ],
+    "frames": [
+      {
+        "frame": 1345,
+        "gc0": 44,
+        "gc1": 44,
+        "gc2": 44,
+        "memory_kb": 489888,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 0.0017,
+        "canvas_ms": 0.0139
+      },
+      {
+        "frame": 1346,
+        "gc0": 45,
+        "gc1": 45,
+        "gc2": 45,
+        "memory_kb": 488460,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 380.9178,
+        "canvas_ms": 3.9551
+      },
+      {
+        "frame": 1347,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 395.2683,
+        "canvas_ms": 0.0009
+      },
+      {
+        "frame": 1348,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 0.6296,
+        "canvas_ms": 0.0009
+      },
+      {
+        "frame": 1349,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.0225,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1350,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9001,
+        "canvas_ms": 0.0027
+      },
+      {
+        "frame": 1351,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9298,
+        "canvas_ms": 0.0033
+      },
+      {
+        "frame": 1352,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.8835,
+        "canvas_ms": 0.0025
+      },
+      {
+        "frame": 1353,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.3083,
+        "canvas_ms": 0.0023
+      },
+      {
+        "frame": 1354,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.4832,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1355,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9111,
+        "canvas_ms": 0.0027
+      },
+      {
+        "frame": 1356,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.5531,
+        "canvas_ms": 0.003
+      },
+      {
+        "frame": 1357,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.245,
+        "canvas_ms": 0.0025
+      },
+      {
+        "frame": 1358,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9043,
+        "canvas_ms": 0.0028
+      },
+      {
+        "frame": 1359,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.8959,
+        "canvas_ms": 0.0027
+      },
+      {
+        "frame": 1360,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.8977,
+        "canvas_ms": 0.0027
+      },
+      {
+        "frame": 1361,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9531,
+        "canvas_ms": 0.0026
+      },
+      {
+        "frame": 1362,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9585,
+        "canvas_ms": 0.0027
+      },
+      {
+        "frame": 1363,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.1384,
+        "canvas_ms": 0.0029
+      },
+      {
+        "frame": 1364,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.0595,
+        "canvas_ms": 0.0031
+      },
+      {
+        "frame": 1365,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.5362,
+        "canvas_ms": 0.0037
+      },
+      {
+        "frame": 1366,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.0016,
+        "canvas_ms": 0.0033
+      },
+      {
+        "frame": 1367,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.6547,
+        "canvas_ms": 0.0023
+      },
+      {
+        "frame": 1368,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9887,
+        "canvas_ms": 0.0035
+      },
+      {
+        "frame": 1369,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.803,
+        "canvas_ms": 0.0031
+      },
+      {
+        "frame": 1370,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 101.3897,
+        "canvas_ms": 0.0034
+      },
+      {
+        "frame": 1371,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 98.4367,
+        "canvas_ms": 0.0037
+      },
+      {
+        "frame": 1372,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9414,
+        "canvas_ms": 0.0035
+      },
+      {
+        "frame": 1373,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.8641,
+        "canvas_ms": 0.003
+      },
+      {
+        "frame": 1374,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.3777,
+        "canvas_ms": 0.0024
+      },
+      {
+        "frame": 1375,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.3997,
+        "canvas_ms": 0.003
+      },
+      {
+        "frame": 1376,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.8196,
+        "canvas_ms": 0.0029
+      },
+      {
+        "frame": 1377,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.3092,
+        "canvas_ms": 0.0044
+      },
+      {
+        "frame": 1378,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.5828,
+        "canvas_ms": 0.0028
+      },
+      {
+        "frame": 1379,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.7974,
+        "canvas_ms": 0.0044
+      },
+      {
+        "frame": 1380,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.3932,
+        "canvas_ms": 0.0032
+      },
+      {
+        "frame": 1381,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.4854,
+        "canvas_ms": 0.0026
+      },
+      {
+        "frame": 1382,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.1477,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1383,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.7388,
+        "canvas_ms": 0.0029
+      },
+      {
+        "frame": 1384,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.5238,
+        "canvas_ms": 0.0025
+      },
+      {
+        "frame": 1385,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.2063,
+        "canvas_ms": 0.0028
+      },
+      {
+        "frame": 1386,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.3824,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1387,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.4377,
+        "canvas_ms": 0.0023
+      },
+      {
+        "frame": 1388,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.7149,
+        "canvas_ms": 0.0025
+      },
+      {
+        "frame": 1389,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.0424,
+        "canvas_ms": 0.0023
+      },
+      {
+        "frame": 1390,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9055,
+        "canvas_ms": 0.0021
+      },
+      {
+        "frame": 1391,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.1424,
+        "canvas_ms": 0.0027
+      },
+      {
+        "frame": 1392,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.103,
+        "canvas_ms": 0.0028
+      },
+      {
+        "frame": 1393,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.4815,
+        "canvas_ms": 0.0023
+      },
+      {
+        "frame": 1394,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.8798,
+        "canvas_ms": 0.0032
+      },
+      {
+        "frame": 1395,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.8943,
+        "canvas_ms": 0.0025
+      },
+      {
+        "frame": 1396,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.3805,
+        "canvas_ms": 0.0021
+      },
+      {
+        "frame": 1397,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.4276,
+        "canvas_ms": 0.0025
+      },
+      {
+        "frame": 1398,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9098,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1399,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.905,
+        "canvas_ms": 0.0033
+      },
+      {
+        "frame": 1400,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.0036,
+        "canvas_ms": 0.0033
+      },
+      {
+        "frame": 1401,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.7714,
+        "canvas_ms": 0.0024
+      },
+      {
+        "frame": 1402,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.7913,
+        "canvas_ms": 0.0033
+      },
+      {
+        "frame": 1403,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.0158,
+        "canvas_ms": 0.0031
+      },
+      {
+        "frame": 1404,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.9037,
+        "canvas_ms": 0.0023
+      },
+      {
+        "frame": 1405,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.3156,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1406,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.4883,
+        "canvas_ms": 0.0028
+      },
+      {
+        "frame": 1407,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.0731,
+        "canvas_ms": 0.0029
+      },
+      {
+        "frame": 1408,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.735,
+        "canvas_ms": 0.0029
+      },
+      {
+        "frame": 1409,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.3069,
+        "canvas_ms": 0.003
+      },
+      {
+        "frame": 1410,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.4797,
+        "canvas_ms": 0.0034
+      },
+      {
+        "frame": 1411,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.1544,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1412,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.6418,
+        "canvas_ms": 0.0028
+      },
+      {
+        "frame": 1413,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.6756,
+        "canvas_ms": 0.0034
+      },
+      {
+        "frame": 1414,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.548,
+        "canvas_ms": 0.0022
+      },
+      {
+        "frame": 1415,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.6223,
+        "canvas_ms": 0.0033
+      },
+      {
+        "frame": 1416,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.4397,
+        "canvas_ms": 0.0025
+      },
+      {
+        "frame": 1417,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.2108,
+        "canvas_ms": 0.0023
+      },
+      {
+        "frame": 1418,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 100.2104,
+        "canvas_ms": 0.0021
+      },
+      {
+        "frame": 1419,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 99.6273,
+        "canvas_ms": 0.003
+      },
+      {
+        "frame": 1420,
+        "gc0": 46,
+        "gc1": 46,
+        "gc2": 46,
+        "memory_kb": 764244,
+        "target_fps": 10,
+        "vsync": 1,
+        "interval_ms": 101.0227,
+        "canvas_ms": 0.0028
+      }
+    ],
+    "notes": []
+  },
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "C:\\Users\\71095\\AppData\\Roaming\\Golden Glitch Studios\\Elsinore",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\6310f50934fc4b7198c495c7cd83cedf\\isolated-save",
+    "files": [
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "7426B08A01B3F49A691AB775ADCE52104A278FEB50F6762CEA026DDCE692D33E",
+        "write_time": "2026-10-18T16:48:15.1343794Z"
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "5F613C0590AF2357E650F19EBB0B32D7B529A5D28C1FFFC8BE3EED6A3B0FFFCF",
+        "write_time": "2026-10-18T16:34:51.1289685Z"
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "6E58DD953A6811534BDFA1F4184537F54F576F0B2FFE5E93669CE3BF4DB09DFA",
+        "write_time": "2026-10-18T16:20:29.5095987Z"
+      },
+      {
+        "path": "elsinore_log.json",
+        "sha256": "72350A6FE2C851BF13FBAE0503E96CD575517D759A141537665FEF5A5C500E3D",
+        "write_time": "2026-10-18T16:53:36.4335999Z"
+      },
+      {
+        "path": "game.save",
+        "sha256": "3956456D3E98212AA22E1EE5E94AA732DF9A6562D894463C1A5C1FA85A31CDCA",
+        "write_time": "2026-10-18T16:53:33.0065474Z"
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "525EE98EADA121EDA7411A576268E661E343AF5C02DA313FF574FE3DF3F34968",
+        "write_time": "2026-10-17T09:44:31.4230428Z"
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274C5BA9799562C003EB6A47B9E7B526F27555B646787FD7E44CAE3F341",
+        "write_time": "2026-10-18T16:49:34.3796607Z"
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "F7E064F6F930D806A4EFE1E682C7F1F4BA05549015B587F4BE6190CE1E6F87EE",
+        "write_time": "2026-10-10T10:25:08.1873704Z"
+      }
+    ]
+  },
+  "process": {
+    "run_id": "6310f50934fc4b7198c495c7cd83cedf",
+    "launched_at_utc": "2026-10-18T17:14:23.1423053Z",
+    "pid": 31948,
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10,
+    "arguments": [
+      "-batchmode",
+      "-nographics",
+      "-nosound",
+      "-logFile",
+      "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\6310f50934fc4b7198c495c7cd83cedf\\player.log\""
+    ]
+  },
+  "isolated_save_removed": true
+}

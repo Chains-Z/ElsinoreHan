@@ -9,7 +9,7 @@ using UnityEngine.TextCore.LowLevel;
 using XUnity.AutoTranslator.Plugin.Core;
 
 // 复用 XUnity 已保留的原文和译文，不反向翻译，不修改存档或游戏资源。
-[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.14")]
+[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.15")]
 [BepInDependency("gravydevsupreme.xunity.autotranslator")]
 public sealed class TranslationToggle : BaseUnityPlugin
 {
@@ -164,7 +164,7 @@ public sealed class TranslationToggle : BaseUnityPlugin
 
     public static void PrepareOfflineText(TMP_Text __instance, string __0)
     {
-        if (!(__instance is TextMeshProUGUI) || string.IsNullOrEmpty(__0)) return;
+        if (!(__instance is TextMeshProUGUI) || string.IsNullOrEmpty(__0) || CreditsHoldSkip.IsCreditsBody(__instance)) return;
         if (__instance.gameObject.name == "Title")
         {
             for (Transform parent = __instance.transform.parent; parent != null; parent = parent.parent)
