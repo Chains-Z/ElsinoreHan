@@ -5,27 +5,26 @@
   "patch_version": "1.0.0",
   "internal_version": "1.5.15",
   "release_url": "https://github.com/Chains-Z/ElsinoreHan/releases/tag/v1.0.0",
-  "source_commit": "c97662854979d13d9efd8d54d7c6458caa245e1e",
+  "source_commit": "e4080ca461c0a188daef3566ef434d27e404c6ad",
   "is_draft": false,
   "is_prerelease": false,
   "is_latest": true,
-  "published_at_utc": "2026-10-18T22:23:19Z",
+  "published_at_utc": "2026-10-18T22:38:31Z",
   "assets": [
     {
       "name": "ElsinoreHan-v1.0.0-windows.zip",
-      "size": 16200719,
-      "sha256": "a62fe4dbbc60ad8293792d89d48ba1cfd1537f3d26c59cc407085e91e98c0288",
+      "size": 16256092,
+      "sha256": "4dedf2e9eb4852cfbdd449aee6262b72a4beba87d56ea845bf656810e3d8b6f6",
       "url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.0.0/ElsinoreHan-v1.0.0-windows.zip"
     },
     {
       "name": "SHA256SUMS.txt",
       "size": 98,
-      "sha256": "3b31d50d4f19c19ea27c5d31b4535b8369878bb3adc845c2435d4651824d7955",
+      "sha256": "ab6192b8278eeeb08ca1b2b74ff34a02de4ea5488b1c195b189d1ab628d1038c",
       "url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.0.0/SHA256SUMS.txt"
     }
   ],
   "cloud_assets_identical_to_local": true,
-  "all_66_cloud_entries_match_stage": true,
   "root_player_documents": [
     "安装方法.txt",
     "使用说明.txt",
@@ -39,10 +38,10 @@
   "previous_release_removed": "v1.5.15-zh.20261019",
   "repository_audit": {
     "passed": true,
-    "head": "c97662854979d13d9efd8d54d7c6458caa245e1e",
-    "commits": 149,
-    "tracked_files": 1381,
-    "history_blobs": 2554,
+    "head": "e4080ca461c0a188daef3566ef434d27e404c6ad",
+    "commits": 152,
+    "tracked_files": 1387,
+    "history_blobs": 2575,
     "local_secret_values_compared": 1,
     "worktree_findings": [],
     "history_findings": [],
@@ -60,11 +59,21 @@
   "initial_release_editorial_revision": true,
   "previous_1_0_0_source_commits": [
     "9b947ae343ebbfc745d0369567c4fd5e2c72574c",
-    "b330457373aeb9d362c081837e860bf62bd38bf0"
+    "b330457373aeb9d362c081837e860bf62bd38bf0",
+    "c97662854979d13d9efd8d54d7c6458caa245e1e"
   ],
   "previous_git_tag_removed_at_user_request": "v1.5.15-zh.20261019",
   "previous_commits_and_evidence_preserved": true,
   "remaining_public_tags": [
     "v1.0.0"
-  ]
+  ],
+  "all_69_cloud_entries_match_stage": true,
+  "total_archive_files": 69,
+  "license_files": 18,
+  "project_code_license": "LGPL-2.1-or-later",
+  "github_root_license_detected_as": "LGPL-2.1",
+  "project_source_archive": "ElsinoreHan-1.5.15-source.zip",
+  "project_source_archive_members": 17,
+  "project_source_archive_sha256": "47e479155cba8e931d2abae87b55e5bad0c08c412e07fbe521d33f5e6a985d24",
+  "plugin_sources_match_original_build_record": true
 }

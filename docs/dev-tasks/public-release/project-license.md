@@ -28,3 +28,5 @@
 发布前扫描完整Git历史和当前文件；上传后回读全部外层文件及内层源码，与本地逐项核对。历史发布证据保留在Git，当前发行证据与本轮专题核验分别记录最终结果。
 
 依据：LGPL-2.1标准文本第2、4、5、6节及本项目现有第三方许可审计；官方说明可参见 https://choosealicense.com/licenses/lgpl-2.1/ 。
+
+已公开更新1.0.0并完成69个外层文件及17个项目源码文件回读，GitHub已识别根LICENSE。当前完整结果见[专题核验](../../../runtime/evidence/public-release-project-license-verification-2026-10-19.json)及[发布记录](../../../runtime/evidence/public-release-1.0.0-published-2026-10-19.json)。
