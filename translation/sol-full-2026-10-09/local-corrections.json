@@ -1264,5 +1264,101 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p00766-3704d0e458b0",
+    "source": "I was once Cassandra, cursed to warn people and have them reject me.",
+    "source_sha256": "3704d0e458b0fb3b80610ceba3bfadafee805d05de3c5f13f13c9598195220e3",
+    "original_target": "我曾是卡珊德拉，受诅咒向人们发出警告，却遭到他们拒绝。",
+    "corrected_target": "我曾是卡珊德拉，身负诅咒：向人们发出警告，却始终无人肯信。",
+    "kind": "text",
+    "reason": "把诅咒明确关联到示警而不被相信，避免读成被迫警告或单纯遭人拒绝；不补写神话背景",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00766-3704d0e458b0",
+      "resources.assets:scenes_endings:208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7:ENDING_Queen:272",
+      "用户要求核查完整女王结局并一并修正，2026-10-18"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p00769-032e59bc68be",
+    "source": "He agrees the war is senseless, so I cede him his little swamp, and we end it.",
+    "source_sha256": "032e59bc68be808ab5295738305148c9eb28193c74bb3cf865926944121e9849",
+    "original_target": "他也认为这场战争毫无意义，于是我把他那一小片沼泽割让给他，我们就此结束了战争。",
+    "corrected_target": "他也认为这场战争毫无意义，于是我把那一小片沼泽割让给他，就此结束了战争。",
+    "kind": "text",
+    "reason": "去除“把他那一小片……割让给他”的所属与动作冲突，保留小片沼泽、割让及停战",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00769-032e59bc68be",
+      "resources.assets:scenes_endings:208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7:ENDING_Queen:277",
+      "用户要求核查完整女王结局并一并修正，2026-10-18"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p00777-ce5b670d771b",
+    "source": "I have nothing to lose. I have lost it all a hundred times before. And in that, the nobles find respect for me.",
+    "source_sha256": "ce5b670d771b232df89f84ab67434334d022e68b422f4955277e3678a7f346f9",
+    "original_target": "我已经没什么可失去的了。我早已失去过一切，上百次。而这一点，让贵族们对我生出了敬意。",
+    "corrected_target": "我已经没什么可失去的了。一切，我早已失去过上百次。也正因如此，贵族们对我生出了敬意。",
+    "kind": "text",
+    "reason": "调整后置上百次的生硬断句，保留反复失去一切与贵族敬意之间的因果",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00777-ce5b670d771b",
+      "resources.assets:scenes_endings:208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7:ENDING_Queen:285",
+      "用户要求核查完整女王结局并一并修正，2026-10-18"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p00785-7bf687926024",
+    "source": "They wonder what happened to Ophelia, the girl—not Ophelia, the queen.",
+    "source_sha256": "7bf687926024186d04f71c683e90d8ffb0fb08dbe02b2c46a51c2a238dcbc345",
+    "original_target": "他们想知道，奥菲莉娅那个姑娘究竟怎么了——而不是奥菲莉娅这位女王。",
+    "corrected_target": "他们想知道，奥菲莉娅究竟怎么了——他们问的是那个姑娘，而非这位女王。",
+    "kind": "text",
+    "reason": "明确姑娘与女王是同一个人的两种身份，避免而不是的比较对象在中文里悬空",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00785-7bf687926024",
+      "resources.assets:scenes_endings:208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7:ENDING_Queen:293",
+      "用户要求核查完整女王结局并一并修正，2026-10-18"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p00786-f61a57b9645a",
+    "source": "I know what became of the girl. Her future was stolen from her. She was forced to endure hell. And she came through it, alive but only half human.",
+    "source_sha256": "f61a57b9645a562800e9d6974d105a1f9eb6aed7ea6ce7b5d2896d129c904c37",
+    "original_target": "我知道那个姑娘变成了什么样。她的未来被夺走了。她被迫承受地狱般的折磨。她熬了过来，还活着，却只剩下一半人性。",
+    "corrected_target": "我知道那个姑娘变成了什么样。她的未来被夺走了。她被迫承受地狱般的折磨。她熬了过来，还活着，却已不再是一个完整的人。",
+    "kind": "text",
+    "reason": "half human承接循环创伤与情感麻木，以人的完整性表达损耗，避免只剩一半人性被读成道德败坏；不改成半人半神",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00786-f61a57b9645a",
+      "resources.assets:scenes_endings:208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7:ENDING_Queen:294",
+      "用户要求核查完整女王结局并一并修正，2026-10-18"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p00794-20c46923e804",
+    "source": "From now on, my life will be focused on the Denmark that will <i>be.</i> The great nation to which all others will aspire.",
+    "source_sha256": "20c46923e804dfbdff6d470373e909300de9beb92cf933031a3b41cf6af93efd",
+    "original_target": "从今往后，我的人生将专注于<i>未来</i>的丹麦。一个其他国家都会向往的伟大国度。",
+    "corrected_target": "从今往后，我的人生将专注于<i>未来</i>的丹麦。一个其他所有国家都渴望效仿的伟大国度。",
+    "kind": "text",
+    "reason": "aspire指其他国家追求达到这种国家的高度，不是向往前往丹麦；保留未来斜体及所有国家的范围",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0012.json:p00794-20c46923e804",
+      "resources.assets:scenes_endings:208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7:ENDING_Queen:304",
+      "用户要求核查完整女王结局并一并修正，2026-10-18"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
