@@ -1,0 +1,1438 @@
+进入结局前的谢幕：完整中英对照
+
+共11个结局分支，加共用开场和收尾；449段发言。不同分支不会在一次游玩中全部播放。
+中文在上，英文在下；「」提示原文斜体或粗体；保留条件标记供分支核对。
+所有内容按真实脚本列出，包含只在条件满足时播放的发言。
+
+谢幕共用开场
+END_CurtainCall_GenericSetup
+========================================
+
+【条件：if not believes(ophelia,curtaincall):】
+
+奥菲莉娅：我……在哪儿？
+Ophelia: Where... am I?
+
+【条件：endif】
+
+【条件：if not believes(ophelia,curtaincall):】
+
+奥菲莉娅：刚才发生了什么？
+Ophelia: What just happened?
+
+罗森克兰兹女士：奥菲莉娅！
+Lady Rosencrantz: Ophelia!
+
+吉尔登斯吞女士：你来了！
+Lady Guildenstern: You've arrived!
+
+奥菲莉娅：大家……都在这里……做什么？
+Ophelia: What's... everyone... doing here?
+
+吉尔登斯吞女士：呃，你是说你不知道？戏都快结束了！
+Lady Guildenstern: Um, you mean you don't know? The show's nearly over!
+
+罗森克兰兹女士：我们是为最后一幕来的，算是吧。
+Lady Rosencrantz: We're here for the final act, of sorts.
+
+吉尔登斯吞女士：我们都来看看，你接下来会做什么。
+Lady Guildenstern: We all came here to see what you'd do next.
+
+吉尔登斯吞女士：我是说，在你离开这个世界之后。
+Lady Guildenstern: After you've left this world, that is.
+
+罗森克兰兹女士：「当然」，我们也会就这些事给出真诚、发自内心的建议。
+Lady Rosencrantz: And of 「course」, to offer our sincere and heartfelt advice on these matters.
+
+吉尔登斯吞女士：不过，任何事都不是我们说了算。
+Lady Guildenstern: Not that we have the final say in anything.
+
+罗森克兰兹女士：没错。全由「你」决定，亲爱的。
+Lady Rosencrantz: Indeed. It's all up to 「you」, love.
+
+罗森克兰兹女士：把这里当作一个「暂时的空间，探索已经发生的事，以及可能发生的事。」
+Lady Rosencrantz: Consider this a 「temporary space to explore what has been and might be.」
+
+奥菲莉娅：……所以这里是……
+Ophelia: ...So this is...
+
+奥菲莉娅：……这算是某种……谢幕？
+Ophelia: ...This is some kind of... curtain call?
+
+奥菲莉娅：如果我离开这里……那……这一切……就会结束？
+Ophelia: And if I leave here... then... all of this... will be over?
+
+奥菲莉娅：时间会继续向前——而这就会——成为我的命运？
+Ophelia: Time will move forward—and this will—be my fate?
+
+罗森克兰兹女士：是的，这样说「倒是」很有道理。
+Lady Rosencrantz: Yes, that 「would」 seem to make good sense.
+
+布莉特女士：……或者，还有第二种选择，你可以别再这么费劲地琢磨了。
+Lady Brit: ...Or, Option B, you could just stop thinking about it so hard.
+
+布莉特女士：我「讨厌」剧院里的那些人。什么都要翻来覆去地分析个没完。
+Lady Brit: I 「hate」 those people at the theater. Always scrutinizing everything to death.
+
+布莉特女士：我们都是来给你送行的。连死去的人都来了。这还不够吗？
+Lady Brit: We're all here to see you off. Even the dead are here. Isn't that enough?
+
+奥菲莉娅：死去的人？
+Ophelia: The dead?
+
+幽灵：「确实。命运之书能让这样的奇迹也成为可能，哪怕只有片刻。」
+The Ghost: 「Indeed. For a small while, the Book of Fates can make even this miracle possible.」
+
+奥菲莉娅：...
+Ophelia: ...
+
+奥菲莉娅：我明白了。
+Ophelia: I see.
+
+奥菲莉娅：那我不会浪费这个机会的，各位。
+Ophelia: Then I won't waste this chance, everyone.
+
+奥菲莉娅：我会尽我所能，做出最好的决定。
+Ophelia: I'm going to make the best decision I can.
+
+吉尔登斯吞女士：好耶——！
+Lady Guildenstern: Hooraaaay!
+
+罗森克兰兹女士：太好了。我们开始吧。
+Lady Rosencrantz: Marvelous. Let's get to it.
+
+【条件：else:】
+
+吉尔登斯吞女士：啊，她来了，她来了！
+Lady Guildenstern: Aah, she's here, she's here!
+
+罗森克兰兹女士：各位，请就位！拜托了！最后的谢幕要开始了！
+Lady Rosencrantz: Places, everyone! Please! It's time for the final curtain call!
+
+【条件：endif】
+
+舍弃挣扎，换取解脱
+END_CurtainCall_Resignation
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备利用命运之书结束自己的生命。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to end her life.
+
+罗森克兰兹女士：朋友们，你们对此有什么看法？
+Lady Rosencrantz: What say you about this, friends?
+
+雷欧提斯：我当然反对。
+Laertes: I'm opposed, of course.
+
+哈姆雷特：我也反对。奥菲莉娅，你怎么连这样离开我们的「念头」都能有？
+Hamlet: As am I. Ophelia, how could you even 「think」 of leaving us like that?
+
+雷欧提斯：我爱你。我希望你继续活下去。我无法想象，没有你的人生还能完整。
+Laertes: I love you. I want you to live on. I can't imagine a complete life without you.
+
+哈姆雷特：哦，「你」无法想象没有她的生活？你可是会丢下她，跑去巴黎寻欢作乐的人啊？
+Hamlet: Oh, 「you」 can't imagine life without her? You, who would leave her to gallivant around Paris?
+
+哈姆雷特：「四万」个兄弟的爱加在一起，也抵不过我的爱——
+Hamlet: Forty 「thousand」 brothers could not, with all their quantity of love, make up my sum—
+
+波洛涅斯：够了，小伙子们。「别吵了」。你们两个非得什么事都争个高下吗？
+Polonius: Stop that, lads. 「Stop bickering」. Need everything be a competition with you two?
+
+波洛涅斯：……奥菲莉娅，心爱的孩子，你已经知道我的想法了。
+Polonius: ...Ophelia, dear heart, you already know my thoughts.
+
+波洛涅斯：想到我会像失去你母亲那样失去你——我会崩溃的。
+Polonius: To think of losing you the way I lost your mother—it would crush me.
+
+波洛涅斯：我知道自己一定撑不下去。
+Polonius: I'm certain I couldn't survive it.
+
+波洛涅斯：你是我们生命中为数不多的美好之一。对我们每个人来说，都是如此。
+Polonius: You are one of the few good things in our life. In all of our lives.
+
+波洛涅斯：现在也许看不到希望。可是，亲爱的，就没有别的办法了吗？一定还有的。
+Polonius: Things might seem dark now. But isn't there another way, my love? Surely there must be.
+
+布莉特女士：你错了。
+Lady Brit: You're wrong.
+
+布莉特女士：我理解你为什么这么说，波洛涅斯。但你错了。
+Lady Brit: I understand why you're saying this, Polonius. But you're wrong.
+
+布莉特女士：你很清楚自己在做什么，对吧，奥菲莉娅？
+Lady Brit: You know exactly what you're doing, don't you, Ophelia?
+
+布莉特女士：如果你死了……
+Lady Brit: If you were to die...
+
+布莉特女士：接下来，局面就会一步步崩塌。你的哥哥会报仇。丹麦王室会开始从内部瓦解。哈姆雷特会死。
+Lady Brit: Then one by one, the next pieces fall. Your brother gets his revenge. The Danish throne begins to implode. Hamlet dies.
+
+布莉特女士：一切都会毁灭。
+Lady Brit: Everything goes to ruin.
+
+布莉特女士：可是，看看这个国家如今的情形——它正在从内部腐烂。你看到了我们看不到的一面。
+Lady Brit: But the way things are now, in this country—it's festering from the inside. You see a side of it we don't.
+
+布莉特女士：如果你死了，就能让新的事物诞生。所以我曾经奉命去杀你。
+Lady Brit: If you die, then that allows something new to be born. That's why I was sent to kill you once.
+
+布莉特女士：坦白说，那是我们「所有人」都该心怀感激的未来。
+Lady Brit: To be frank, that's a future we should 「all」 be grateful for.
+
+伊尔玛：可如果奥菲莉娅必须为此受苦，这样的未来又有什么价值？
+Irma: But what is a future like that worth if Ophelia must suffer for it?
+
+伊尔玛：她什么都没做错。她是无辜的。
+Irma: She has done nothing wrong. She is innocent.
+
+布莉特女士：那不重要。只有她的死，才能造就这样的命运。
+Lady Brit: It doesn't matter. She's the only one who can die to create this fate.
+
+乔特鲁德王后：我和我丈夫也会受苦。奥菲莉娅，这等于判了我们死刑。
+Queen Gertrude: My husband and I will suffer, too. This is a death sentence for us, Ophelia.
+
+乔特鲁德王后：我们确实……不是一直都做得对。我们两个都做过让自己感到羞愧的事。
+Queen Gertrude: It's true we... weren't always good. Both of us did things we aren't proud of.
+
+乔特鲁德王后：可如果布莉特说的是真的，你就该因此判我们死刑吗？
+Queen Gertrude: But if what Brit's saying is true, is it right that you condemn us to death for it?
+
+乔特鲁德王后：你可以选择救我们。我不想死！我想活下去，找到办法做个好人！
+Queen Gertrude: You have the choice to save us. I don't want to die! I want to live and find a way to be good!
+
+克劳狄斯国王：我妻子说得对。选择这个结局，我就再也没有机会赎罪了。
+King Claudius: My wife speaks the truth. Choosing this ending leaves me with no path to redeem myself.
+
+克劳狄斯国王：哈姆雷特也一样。
+King Claudius: Nor Hamlet.
+
+哈姆雷特：是的。虽然我曾经渴望死亡——可我心里一直没有拿定主意。
+Hamlet: Yes. Although death is what I wished for, once—in my heart I've always been uncertain.
+
+哈姆雷特：如果我本该活下去呢？如果比起死去，我还能为这个世界做些更有意义的事呢？
+Hamlet: What if I was meant to live? What if there are greater things I could do for this world than to die?
+
+哈姆雷特：如果你选择这个命运，我就永远没机会知道了。
+Hamlet: If you choose this fate, I'll never get to find out.
+
+幽灵：「曾经，我的无所作为为自己招来了这样的命运。」
+The Ghost: 「This was the fate I brought upon myself by virtue of my inaction, once.」
+
+幽灵：「当时我不知道自己还有选择。我从未找到命运之书。但在内心最深处，我仍然选择了它。」
+The Ghost: 「I did not know I had a choice to make at the time. I never found the Book of Fates. But in my heart of hearts, I chose it all the same.」
+
+幽灵：「如果这就是你想要的未来，奥菲莉娅，那就明确地选择它。」
+The Ghost: 「If this is the future you desire, choose it with intent, Ophelia.」
+
+幽灵：「不要像我那样逃避世界。带着力量向黑暗中前行。带着目标前行。」
+The Ghost: 「Do not shy away from the world, as I did. Go into the darkness with strength. Go with purpose.」
+
+幽灵：「我要说的就是这些。」
+The Ghost: 「That is all.」
+
+【插入共用段落：call "CurtainCall_End"】
+
+谢幕共用收尾
+CurtainCall_End
+========================================
+
+奥菲莉娅：...
+Ophelia: ...
+
+奥菲莉娅：谢谢大家。
+Ophelia: Thank you, everyone.
+
+奥菲莉娅：我想，现在我已经知道了自己该知道的事。
+Ophelia: I think I know what I ought to know, now.
+
+【进入所选结局】
+
+舍弃纯真，换取权力
+END_CurtainCall_Queen
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备利用命运之书成为丹麦王后。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to become Queen of Denmark.
+
+罗森克兰兹女士：朋友们，你们对此有什么看法？
+Lady Rosencrantz: What say you about this, friends?
+
+克劳狄斯国王：我们最近已经向埃尔西诺的所有人宣布了这个消息。
+King Claudius: We recently announced the news to all at Elsinore.
+
+克劳狄斯国王：等战火平息，我们就会从订婚走向成婚。
+King Claudius: Once the tide of war has receded, we'll make the leap from betrothal to wedding.
+
+克劳狄斯国王：诚然，会有一些反对的声音，但……我相信，我有足够的依据迎娶奥菲莉娅。
+King Claudius: Admittedly, there will be some pushback, but... I believe there's ample standing here to make Ophelia my wife.
+
+乔特鲁德王后：...
+Queen Gertrude: ...
+
+乔特鲁德王后：可是她……就是我死去的原因。
+Queen Gertrude: But she... is the reason I'm dead.
+
+乔特鲁德王后：如果不是因为你，奥菲莉娅，我还会和我丈夫在一起。
+Queen Gertrude: Were it not for you, Ophelia, I'd be with my husband.
+
+乔特鲁德王后：我——我知道，国王身边有一位王后，是他与生俱来的权利。
+Queen Gertrude: I—I know it is the birthright of a King that he have a Queen beside him.
+
+乔特鲁德王后：而且，假以时日，我丈夫也许会主动来找你，这倒是真的。
+Queen Gertrude: And my husband might have come to you himself in time, it's true.
+
+乔特鲁德王后：但你去找了他，趁他最绝望的时候，耍手段利用了他的感情，不是吗？
+Queen Gertrude: But you went to him and you ployed his affections in his moment of deepest despair, didn't you?
+
+乔特鲁德王后：你「清楚」自己在做什么。
+Queen Gertrude: You 「knew」 what you were doing.
+
+克劳狄斯国王：对，对，确实如此！你把我玩弄于股掌之间！
+King Claudius: Yes, yes, that's certainly true! You played me like a fiddle!
+
+克劳狄斯国王：我们两个都该祈祷，「真正的」我永远不会发现你做过的事！
+King Claudius: We ought to both hope that the 「real」 me never uncovers what you did!
+
+克劳狄斯国王：是啊，这段婚姻远谈不上健康。甚至可以说，双方都在肆无忌惮地掠夺对方。
+King Claudius: Yes, this was far from a healthy match. One might call it outright predatory on both ends.
+
+克劳狄斯国王：不过，即便如此，我还是觉得你会成为一位出色的王后。
+King Claudius: Still, in spite of that, I think you'd make an excellent queen.
+
+哈姆雷特：……他说得没错。
+Hamlet: ...He's right, you know.
+
+哈姆雷特：我……觉得自己永远都无法接受你嫁给克劳狄斯。我永远都会为此愤怒。
+Hamlet: I... don't think I can ever accept you marrying Claudius. I'll always be furious about that.
+
+哈姆雷特：他谋杀了我的父亲。而你站在了他那边。这样一来，你也是个恶魔。你并不比他好。
+Hamlet: He murdered my father. And you sided with him. That makes you a monster. You're no better than he is.
+
+哈姆雷特：但即便如此，作为统治者，你身上有我从未拥有的东西。
+Hamlet: But even despite that, as a ruler, you have something in you that I never did.
+
+哈姆雷特：决心。
+Hamlet: Determination.
+
+哈姆雷特：如果你想在我父亲的死所留下的创伤中活下来，就必须有冷酷而坚定的决心。
+Hamlet: You will need to be ruthlessly determined if you intend to survive the damage my father's death left behind.
+
+布莉特女士：嗯，「我」倒是很庆幸，既不用嫁给哈姆雷特，「也」不用嫁给克劳狄斯。
+Lady Brit: Well, 「I'm」 glad that I don't have to marry Hamlet 「or」 Claudius.
+
+布莉特女士：我原本怕父亲想安排一桩政治联姻。而我差一点就躲不过去了。
+Lady Brit: I was afraid my father would want to make a political match. And I came rather close.
+
+雷欧提斯：现在我们两个可以结婚了。
+Laertes: Now the two of us may be wed.
+
+波洛涅斯：我倒没想到这一点！是啊，嗯……是啊……如果她父亲愿意，那会是一桩美好的婚事。
+Polonius: I didn't think of that! Yes, hrm... yes... a delightful match, if her father is willing.
+
+布莉特女士：通常他是不会愿意的。但雷欧提斯的妹妹成了新王后，情况就不同了。
+Lady Brit: Under ordinary circumstances, he wouldn't be. But with Laertes' sister as the new Queen, things have shifted.
+
+雷欧提斯：所以，谢谢你，奥菲莉娅。你的决定至少可能给我们两个带来一些幸福。
+Laertes: So thank you, Ophelia. Your decision might bring the two of us some happiness, at least.
+
+波洛涅斯：虽然我从未确知克劳狄斯就是杀害他哥哥的凶手……
+Polonius: Although I never knew for certain that Claudius was his brother's killer...
+
+波洛涅斯：但在内心最深处，我一直有所怀疑。看着女儿陪在他身边，我不知道自己还能不能过得快乐。
+Polonius: I always suspected it, in my heart of hearts. I don't know that I could ever live happy, seeing my daughter at his side.
+
+幽灵：「世事如此发展，真是奇妙。」
+The Ghost: 「It is strange, how these matters bear forth.」
+
+幽灵：「你总能带来种种意外。这件事，我绝不会预料到。」
+The Ghost: 「You are a source of myriad surprises. I would never have anticipated this.」
+
+幽灵：「我无权评判这段结合。说到底，乔特鲁德也无权评判。」
+The Ghost: 「It is not my place to pass judgement on this union. Nor is it Gertrude's, in the end.」
+
+幽灵：「毕竟，这已经不再是我们的世界。」
+The Ghost: 「After all, this is not our world any longer.」
+
+幽灵：「它属于活着的人。属于你。」
+The Ghost: 「It belongs to the living. To you.」
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃安稳，换取冒险
+END_CurtainCall_Pirate
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备利用命运之书，乘着格蕾丝·奥马利偷来的船扬帆远去。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to sail off on Grace O'Malley's stolen vessel.
+
+罗森克兰兹女士：朋友们，你们对此有什么看法？
+Lady Rosencrantz: What say you about this, friends?
+
+哈姆雷特：我明白了。所以你要离开我们。
+Hamlet: I see. So you're leaving us.
+
+霍拉旭：奥菲莉娅，如果你走了，恐怕剩下的人会自相残杀。
+Horatio: If you go, Ophelia, the rest of them shall tear each other apart, I fear.
+
+雷欧提斯：没有你，埃尔西诺就再没有任何美好的东西了。我们所有人肯定都会死。
+Laertes: Without you, there's nothing good remaining in Elsinore. We will all surely die.
+
+波洛涅斯：而在这个世界里，我要么已经死了，要么被与哈姆雷特之间的遭遇伤得太深，主动要求永远离开埃尔西诺。那之后就再也回不来了。
+Polonius: And I'm already dead in this world, or so traumatized by my experiences with Hamlet that I ask to leave Elsinore forever. There's no returning from that.
+
+哈姆雷特：确实如此。每一次，我们都是因为我试图杀死你父亲，才被送出海的。因为我太危险，已经无法控制。
+Hamlet: It's true. Every time, we are sent to sea because I tried to kill your father. Because I am too dangerous to contain.
+
+乔特鲁德王后：奥菲莉娅……你为什么要在我们最黑暗的时刻离开？
+Queen Gertrude: Ophelia... why would you leave us in our darkest hour?
+
+乔特鲁德王后：在你眼里，我们就那么一文不值，让你为了自己的快乐就能抛下我们？
+Queen Gertrude: Are we so utterly worthless to you that you'd cast us aside for your own joy?
+
+贝尔纳多：就连我也得承认，想到这个就让人不安。
+Bernardo: Even I must admit the thought is troubling.
+
+哈姆雷特：求你了。别抛弃我们。
+Hamlet: Please. Don't abandon us.
+
+雷欧提斯：别走，妹妹。我们还需要你。
+Laertes: Don't go, sister. We still need you.
+
+格蕾丝船长：奥菲莉娅！我错过什么了？
+Captain Grace: Ophelia! What'd I miss?
+
+奥菲莉娅：格蕾丝？
+Ophelia: Grace?
+
+奥菲莉娅：「你」怎么会在这里？
+Ophelia: What are 「you」 doing here?
+
+格蕾丝船长：我也想问自己这个问题。可管他呢，我反正来了。
+Captain Grace: Coulda asked myself that same question. But hell, here I am.
+
+格蕾丝船长：我讨厌待在这岸上。总觉得自己一点用都没有。
+Captain Grace: I hate bein' out 'ere on shore. I jes' feel useless.
+
+格蕾丝船长：不管了。咱们走！快来！
+Captain Grace: Anyway. Off we go! C'mon!
+
+贝尔纳多：等一下。奥菲莉娅还没有答应抛下我们。
+Bernardo: Hold a moment. Ophelia has not consented to leave us behind yet.
+
+哈姆雷特：而如果她答应了，我们就全都会死。
+Hamlet: And if she does, we shall all perish.
+
+格蕾丝船长：哦，我懂了！这「可真是」个「有意思」的难题。
+Captain Grace: Oh, I see! This 「is」 such an 「interestin'」 quandary.
+
+格蕾丝船长：所以，奥菲莉娅，你的选择是跟我走，扬帆出海，过上冒险的日子……
+Captain Grace: So yer options, Ophelia, are t' come with me an' set sail for a life of adventure...
+
+格蕾丝船长：喝酒、操个痛快，洗劫每一座遇上的岛，把堆成山的金子从一个秘密海湾运到另一个……
+Captain Grace: Drinkin', fuckin', and pillagin' every island we come across, cartin' mountains of gold from secret cove to secret cove...
+
+格蕾丝船长：看遍无论男人还是女人都从未见过的景色……
+Captain Grace: Seein' sights no man or woman has ever laid eyes on before...
+
+格蕾丝船长：然后带着你那堆金子，挑座属于自己的城堡，退休享福……
+Captain Grace: Then retirin' with yer pile o' gold to the private castle of yer choosin'...
+
+格蕾丝船长：或者留在这儿，跟这群自以为是、像白水煮鸡一样寡淡无趣的蠢货，像狗一样死掉！
+Captain Grace: Or dyin' here like a dog with all o' these self-righteous, boring-as-boiled-chicken fools!
+
+格蕾丝船长：这选择可真是「有趣，又耐人寻味」啊。
+Captain Grace: What an 「interesting, nuanced」 decision.
+
+格蕾丝船长：你这么苦苦挣扎，就从来不觉得累吗？
+Captain Grace: Don't you ever get tired o' strugglin' so much?
+
+格蕾丝船长：要我说，也该把自己放在头一位了——就为自己着想一次。
+Captain Grace: Seems t'me like it's time to look out for number one—to scratch yer own back for once.
+
+奥菲莉娅：没那么简单，格蕾丝。这是我的家人。这些人，我从小就认识。
+Ophelia: It's not that simple, Grace. This is my family. These are people I've known my whole life.
+
+奥菲莉娅：在这个世界里，我得抛下我爱的人，让他们死在彼此手里，把丹麦也一同拖向毁灭。
+Ophelia: This world requires me to leave the people I love to die by each other's hand, and to take Denmark down with them.
+
+幽灵：「奥菲莉娅。」
+The Ghost: 「Ophelia.」
+
+幽灵：「逃避对所爱之人生命的责任，确实很诱人。」
+The Ghost: 「It is tempting to flee responsibility for the lives of those you love.」
+
+幽灵：「我也曾想这么做。」
+The Ghost: 「I sought to do the same.」
+
+幽灵：「无论男女，都不能因此责怪你。」
+The Ghost: 「No man or woman could lay blame with you.」
+
+幽灵：「但我逃了。从那以后，每一个清醒的瞬间，我都在为自己选择的世界后悔。」
+The Ghost: 「But I fled, and I have spent every moment of consciousness since regretting the world I chose.」
+
+幽灵：「无论你选择什么——无论你赋予自己怎样的命运——都别忘了，此后活着的日子里，那些被你留下的面孔会一直出现在你的梦中。」
+The Ghost: 「Whatever you choose—whatever fate you grant yourself—do not forget that you must live dreaming of the faces you left behind.」
+
+波洛涅斯：我爱你，奥菲莉娅。
+Polonius: I love you, Ophelia.
+
+雷欧提斯：我也爱你。全心全意地爱你。一个没有我妹妹的世界，不值得拥有。
+Laertes: As do I. With all my heart. A world without my little sister in it isn't one worth having.
+
+乔特鲁德王后：是啊。没有你，我们该怎么办？
+Queen Gertrude: Yes. What would we do without you?
+
+哈姆雷特：我无法想象。至少很难想象。
+Hamlet: I cannot imagine it. Not without great difficulty.
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃厮守，换取激情
+END_CurtainCall_Othello
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备利用命运之书，与酒馆老板奥赛罗私奔。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to elope with Othello the barkeep.
+
+罗森克兰兹女士：朋友们，你们对此有什么看法？
+Lady Rosencrantz: What say you about this, friends?
+
+哈姆雷特：你几乎不「了解」这个男人，奥菲莉娅。怎么能确定自己想跟他走？
+Hamlet: You hardly 「know」 this man, Ophelia. How can you be certain you want to leave with him?
+
+乔特鲁德王后：哦，我倒不在意这个。你看，我的姐妹嫁给了一个只在小时候见过一面的男人。这很常见！
+Queen Gertrude: Oh, that's no matter to me. Why, my sister married a man she'd met but once as a child. It's very common!
+
+乔特鲁德王后：其实，也许最美满的婚姻，恰恰是由陌生人结成的。
+Queen Gertrude: In fact, perhaps the best matches are made between strangers.
+
+乔特鲁德王后：你看，这样婚姻才有慢慢发展的余地。
+Queen Gertrude: There's room for the marriage to grow, you see.
+
+乔特鲁德王后：我只是希望，你心里已经准备好面对前方的困难。亲爱的，抛下原来的生活可不是件容易的事。
+Queen Gertrude: I merely hope your heart is ready for the difficulties which lie ahead of you. Leaving your life behind is no small feat, my love.
+
+贝尔纳多：王后说得对。你准备好承受可能要面对的重担了吗？
+Bernardo: The Queen is correct. Are you prepared for the burdens you might have to endure?
+
+霍拉旭：她会过得很好的。我对此深信不疑。
+Horatio: She'll be just fine. I'm certain of it.
+
+霍拉旭：毕竟，奥菲莉娅最近可没少经历苦难！
+Horatio: After all, Ophelia's been no stranger to hardship lately!
+
+哈姆雷特：...
+Hamlet: ...
+
+哈姆雷特：如果这就是你想要的，那就这样吧。
+Hamlet: If this is what you desire, then so be it.
+
+奥赛罗：各位，请听我说。
+Othello: Please, everyone, listen.
+
+奥赛罗：我知道自己出身卑微，也没让大家看清我的用意。
+Othello: I know my origins are humble, my intentions unclear.
+
+奥赛罗：我从来不是一个笃定、安稳的人。我的人生一路曲折，经历过许多低谷与高峰。
+Othello: I have never been a man given to certainty and to stability. My life has woven its course through many ditches and peaks.
+
+奥赛罗：但是……「我爱奥菲莉娅。」我整个人，从内到外，都确信这份爱是真的。
+Othello: But... 「I love Ophelia.」 And I know it to be true to the core of everything in me.
+
+奥赛罗：过去，我从未看出自己曲折的人生竟在「走向」某个目标。
+Othello: Never before could I see that my life was weaving 「towards」 something.
+
+奥赛罗：可如今，所有的路都通向她。我过去的生活已化为灰烬。而我别无所求。
+Othello: But now, all roads lead to her. My old life has turned to ash. And I wish for nothing more.
+
+奥赛罗：跟我走吧，奥菲莉娅。牵住我的手。
+Othello: Come with me, Ophelia. Take my hand.
+
+奎因斯：先别急，奥菲莉娅。
+Quince: Not so fast, Ophelia.
+
+奥菲莉娅：奎因斯！
+Ophelia: Quince!
+
+奎因斯：你听过我的警告，却「仍然」在探索这个世界。
+Quince: You've heard my warning, and yet you 「still」 explore this world.
+
+奎因斯：你「明知道」，他现在说的这些话，总有一天也会说给别人听！
+Quince: You 「know」 all these words he's saying will go right into someone else's ear someday!
+
+奎因斯：这就像看着一只飞蛾，一头扑进敞开的灯笼里。
+Quince: It's like watching a moth drive itself right into the open lantern.
+
+奎因斯：你我算不上好朋友，但就连「我」也得承认，我希望你能有个更好的结果。
+Quince: I wouldn't call us chums, you and me, but even 「I」 must admit I'd wish better for you.
+
+奥菲莉娅：那就走吧。你没必要留在这里看这些。
+Ophelia: Then leave. You don't have to be here for this.
+
+奎因斯：那就随你吧。
+Quince: Have it your way, then.
+
+奎因斯：转瞬即逝的世界总是最甜美的，消逝时也最残酷。
+Quince: The fleeting worlds are always the sweetest, and the harshest when they're gone.
+
+幽灵：「奥菲莉娅。」
+The Ghost: 「Ophelia.」
+
+幽灵：「他虽以欺骗为业，却说对了一件事。」
+The Ghost: 「Though he trades in deception, he speaks one truth.」
+
+幽灵：「这个世界能给你短暂却真实的幸福。」
+The Ghost: 「This world guarantees a short but true happiness.」
+
+幽灵：「大多数人终其一生都不曾体验过这样的幸福。我便是如此。我们面前的这些好人，许多也会如此。」
+The Ghost: 「Most live life without ever experiencing such a thing. I certainly did. So shall many of these good people before us.」
+
+幽灵：「不要小看几年美好时光的力量，它足以改变你的人生轨迹……」
+The Ghost: 「Do not underestimate the power of a few good years to transform the course of your life...」
+
+幽灵：「……即使那些美好的岁月注定会结束。」
+The Ghost: 「...Even if those good years are certain to end.」
+
+幽灵：「大多数普通人选择去爱时，都不知道未来会走向何方。」
+The Ghost: 「Most ordinary folk choose love not knowing where the future might lead.」
+
+幽灵：「奎因斯让你知晓未来，以此诅咒了你。他毒害了你。而他自己「清楚」这一点。」
+The Ghost: 「Quince has cursed you with this knowing. He's poisoned you. And he 「knows」 it.」
+
+幽灵：「但你对奥赛罗的感情，还有他对你的感情，都写在你们各自的脸上。」
+The Ghost: 「But your feelings for Othello, and his for you, are written on both of your faces.」
+
+幽灵：「如果你选择这个世界，就欣然走进去。别让不可避免的痛苦消磨你炽热的爱意。」
+The Ghost: 「If you choose this world, go into it gladly. Do not let the inevitable pain rob the intensity of your love.」
+
+幽灵：「否则，最后赢的就一定是戏剧大师。」
+The Ghost: 「Or surely, the Playmaster will have won in the end.」
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃众人，换取自己
+END_CurtainCall_OpheliaLeaves
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备使用《命运之书》，在福丁布拉斯入侵后独自离开埃尔西诺，抛下所有人，让他们各自面对自己的命运。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to leave Elsinore on her own after Fortinbras' invasion, abandoning everyone to their respective fates.
+
+罗森克兰兹女士：朋友们，你们对此有什么看法？
+Lady Rosencrantz: What say you about this, friends?
+
+霍拉旭：这当然也是一种选择。告别过去的生活，重新开始。
+Horatio: That's certainly an option. Leave your old life behind. Find a fresh start.
+
+雷欧提斯：「重新开始？」
+Laertes: A 「fresh start?」
+
+雷欧提斯：「这话」是什么意思？我们其他人就被留在那个世界里自相残杀！
+Laertes: What does 「that」 mean? The rest of us are left to slaughter each other in that world!
+
+克劳狄斯国王：我、我也这么想！而且我才是最可能死的那个！要知道，我「可」也想保住自己的命！
+King Claudius: I-I agree! And I'm the very one most likely to die! I 「do」 have an interest in self-preservation, you know!
+
+乔特鲁德王后：恐怕……我也是。奥菲莉娅。你这样会把我们所有人留给一个令人极度不安的命运。
+Queen Gertrude: As... do I, I'm afraid. Ophelia. You would be leaving us all to a most disconcerting fate.
+
+乔特鲁德王后：我们当然都不完美。但我们就该死，就该眼看珍视的一切都被毁掉吗？
+Queen Gertrude: Certainly none of us are perfect beings. But do we deserve death and the destruction of all we hold dear?
+
+乔特鲁德王后：告诉我，这怎么能算公平！这不公平，不是吗？
+Queen Gertrude: Tell me how that can be fair! It cannot, can it?
+
+贝尔纳多：我得承认……
+Bernardo: I must admit...
+
+贝尔纳多：我……害怕……死亡。我不知道那会是什么样。
+Bernardo: I am... frightened... to die. I don't know what it might be like.
+
+幽灵：「那是一场睡眠，却不记得自己何时入睡。」
+The Ghost: 「It is a sleep which one has no memory of entering.」
+
+幽灵：「那不是人们向我们许诺的至高天堂，贝尔纳多。但那是一份无梦、无忧的安宁。」
+The Ghost: 「It is not the sovereign Heaven we were promised, Bernardo. But it is a dreamless peace, and an untroubled one.」
+
+贝尔纳多：看来我一直还抱着希望。唉，这可不好。
+Bernardo: I suppose I was holding out hope. Well, that's no good.
+
+波洛涅斯：我的宝贝。
+Polonius: My sweet.
+
+波洛涅斯：请你。听我说。求你了。
+Polonius: Please. Listen. I beg of you.
+
+波洛涅斯：我一直只希望你能活着，过得幸福。这比世上任何事都更让我在意。
+Polonius: All I've ever wanted for you, more than anything in this world, is to live and be happy.
+
+波洛涅斯：从我第一次抱着你、望进你眼睛的那一刻起，我就知道，只要能给你一个获得那份幸福的机会，我就甘愿赴死。
+Polonius: From the moment I first held you and looked into your eyes, I knew that I would gladly die to give you a chance at that happiness.
+
+波洛涅斯：如果你认为这就是你想要的命运，那我也无力劝你改变心意。
+Polonius: If you think this is the fate you desire, then I am powerless to tell you otherwise.
+
+波洛涅斯：你哥哥和我早已注定了自己的命运。我们在恶人的世界里周旋。我们知道自己在挑起争斗，却毫不在乎。
+Polonius: Your brother and I sealed our fates long ago. We dealt in the world of wicked men. We knew we were making war. But we didn't care.
+
+雷欧提斯：...
+Laertes: ...
+
+雷欧提斯：父亲说得对。
+Laertes: Father's right.
+
+雷欧提斯：这场血腥杀戮里，我们谁都不无辜。如果埃尔西诺注定要覆灭，那也许我们就该与它一同覆灭。
+Laertes: None of us were innocent in this bloodbath. If Elsinore must fall, then perhaps we should fall with it.
+
+波洛涅斯：所以……
+Polonius: That's... why...
+
+波洛涅斯：你一定要「活着」，奥菲莉娅。你一定要活下去。无论发生什么。求你了！
+Polonius: You must 「live」, Ophelia. You must live on. No matter what happens. Please!
+
+波洛涅斯：告诉我，你会活下去！
+Polonius: Tell me you will!
+
+哈姆雷特：奥菲莉娅。
+Hamlet: Ophelia.
+
+哈姆雷特：我也有件事想求你。
+Hamlet: I have a request of you, too.
+
+哈姆雷特：……如果这就是你选择的命运，如果你真的离开了埃尔西诺……
+Hamlet: ...If this is the fate you choose, and you really do leave Elsinore...
+
+哈姆雷特：我希望你能找到全心全意爱你的人。那些——善良、内心完整的人。不像我。不像我们这些人。
+Hamlet: I want you to find people who love you with all their heart. People who are—good, and whole. Not like me. Not like all of us.
+
+哈姆雷特：如果你离开埃尔西诺，整个辽阔的世界都在等着你。你可以去任何地方。见识任何事物。
+Hamlet: If you leave Elsinore, then the whole, wide world awaits you. You could go anywhere. See anything.
+
+哈姆雷特：当然，这一屋子的人都曾以为自己爱你。
+Hamlet: You have a room full of people here who all thought they loved you, of course.
+
+哈姆雷特：但我直到现在才明白。对我们来说，爱就是占有，就是把它弄坏，因为抓得太紧而将它捏碎。
+Hamlet: But I'm only realizing this now. To us, love is owning something, breaking it, crushing it as you hold it too tightly.
+
+幽灵：「仔细想想这件事，奥菲莉娅。」
+The Ghost: 「Think carefully upon this, Ophelia.」
+
+幽灵：「你再也无法回头。」
+The Ghost: 「You can never turn back.」
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃责任，换取享乐
+END_CurtainCall_RosAndGuil
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备使用《命运之书》，和我、吉尔登斯吞一起离开埃尔西诺，抛下所有人，让他们各自面对自己的命运。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to leave Elsinore with myself and Guildenstern, abandoning everyone to their respective fates.
+
+罗森克兰兹女士：我得承认，我对这个提议「有那么一点」偏心。
+Lady Rosencrantz: I must admit, I'm a 「tad」 biased towards this proposal.
+
+吉尔登斯吞女士：我也是！我们会玩得很开心的，奥菲莉娅。你知道吗，外面的世界真的大得很！
+Lady Guildenstern: Me, too! We'll have so much fun, Ophelia. It really is a massive world out there, you know!
+
+吉尔登斯吞女士：而且过一阵子，你就不会再在乎留下的任何东西了。很简单！把它们全都压成一小团虚无就行！
+Lady Guildenstern: And after a while, you just cease caring about anything you leave behind. It's simple! Just crunch it all down into a little ball of nothingness!
+
+罗森克兰兹女士：连挥手道别都省了。我们就喜欢这样出发。
+Lady Rosencrantz: Nary so much as a 'goodbye' wave. That's how we like to travel.
+
+霍拉旭：嗯。我得说，我自己也做过几次这样的选择。
+Horatio: Hm. I must say, this is an option I myself have pursued a few times.
+
+雷欧提斯：就这样？你要去欧洲各地逍遥快活，留我们其他人死在这里？
+Laertes: So that's it? You're off to go enjoy yourself across Europe as the rest of us die here?
+
+雷欧提斯：奥菲莉娅，我以为你是个更坚强的女人。我这辈子都不会抛下你。
+Laertes: I thought you a stronger woman than that, Ophelia. I would never in all my life abandon you.
+
+乔特鲁德王后：他说得对，奥菲莉娅。我们当然都不完美。或许可以说，我们中没几个算得上好人。但我……害怕死亡。
+Queen Gertrude: He's right, Ophelia. Certainly none of us are perfect. It could be argued that few of us are good. But I am... afraid to die.
+
+乔特鲁德王后：求你了。我一直像爱亲生女儿一样爱你。别在这时候抛下我。你对我们有责任，就像我们曾对你有责任一样。
+Queen Gertrude: Please. I've always loved you like my own daughter. Don't abandon me now. You have a responsibility to us, just as we did to you.
+
+雷欧提斯：对。责任。就是这个词。
+Laertes: Yes. Responsibility. That's the word.
+
+奥菲莉娅：不负责任？你们觉得这个选择就是不负责任？我从没「要求」来这里！
+Ophelia: Irresponsible? That's what you think this choice is? I never 「asked」 to be here!
+
+奥菲莉娅：身处这样悲惨的境地，我想找一点幸福，就有那么自私吗？
+Ophelia: Is it so selfish of me to seek out some happiness in this miserable situation?
+
+奥菲莉娅：「你」去巴黎，不也是为了这个吗？为了逃离埃尔西诺。为了自由。
+Ophelia: 「You」 went to Paris for that same reason, didn't you? To escape Elsinore. To be free.
+
+波洛涅斯：我的宝贝。
+Polonius: My sweet.
+
+波洛涅斯：很久以前，我曾对你哥哥说过这句话。
+Polonius: I told your brother this once, a long time ago.
+
+波洛涅斯：忠于你自己。
+Polonius: To thine own self be true.
+
+波洛涅斯：现在比以往任何时候都更是如此。即使——
+Polonius: It's true now more than ever. Even if—
+
+波洛涅斯：即使这意味着我再也见不到心爱的女儿。
+Polonius: Even if it means I'll never see my beloved daughter again.
+
+波洛涅斯：如果你认为这就是你想要的命运，那我也无力劝你改变心意。
+Polonius: If you think this is the fate you desire, then I am powerless to tell you otherwise.
+
+波洛涅斯：你只要知道，我一直全心全意地爱着你。只要能换来你永远的幸福，我就甘愿赴死。
+Polonius: Just know that I have always loved you with everything in my heart, and I would gladly die if it brought you eternal happiness.
+
+雷欧提斯：...
+Laertes: ...
+
+雷欧提斯：我想父亲说得对。
+Laertes: I suppose Father's right.
+
+雷欧提斯：我确实试过离开这里，去巴黎开始自己的新生活。
+Laertes: I did try to leave for Paris to make a new life for myself.
+
+雷欧提斯：而且，如果我当时成功了，也许这些可怕的世界就都不会出现。
+Laertes: And perhaps, if I had succeeded, none of these horrible worlds would have come to pass.
+
+哈姆雷特：走吧，奥菲莉娅。
+Hamlet: Go, Ophelia.
+
+哈姆雷特：你曾是我活下去的唯一理由。
+Hamlet: You were the only thing worth living for.
+
+哈姆雷特：如果你离开埃尔西诺，依我拙见，我们剩下的人也不如死了算了。
+Hamlet: If you leave Elsinore, then the rest of us might as well perish, in my humble opinion.
+
+哈姆雷特：我——觉得如果我还活着，也许能成为一个善良、有用的人。可我永远没法知道了。
+Hamlet: I— think I could make something good and useful of myself, had I lived. But I'll never know for sure.
+
+哈姆雷特：而你并没有义务为我这么做：拿你自己的命运来换我的。
+Hamlet: And that is not an obligation you bear me: to trade your own destiny for mine.
+
+哈姆雷特：所以，走吧。走吧，活下去。
+Hamlet: So, go. Go, and live.
+
+吉尔登斯吞女士：嘁。你们也太「当真」了。
+Lady Guildenstern: Pfft. You're all taking this so 「seriously.」
+
+罗森克兰兹女士：我承认，这还真让我挺意外的，吉尔达。
+Lady Rosencrantz: I admit, it rather takes me by surprise, Guilda.
+
+吉尔登斯吞女士：难怪你们一个个互相捅刀子，还走到哪儿都要来一段独白！
+Lady Guildenstern: No wonder you're all shanking each other and soliloquizing all over the place!
+
+罗森克兰兹女士：我们离开这地方吧。我们三个一起。
+Lady Rosencrantz: Let's begone from this place. All three of us.
+
+吉尔登斯吞女士：奥菲莉娅，让我给你一点吉尔登斯吞式的独家忠告：
+Lady Guildenstern: Ophelia, let me give you a little advice, Guildenstern Special Style:
+
+吉尔登斯吞女士：「别人对彼此做出的那些可怕的事，不是你的责任。」
+Lady Guildenstern: 「You aren't responsible for the horrible things anyone does to anyone else.」
+
+吉尔登斯吞女士：所以别再想这些了，好好享受吧！
+Lady Guildenstern: So stop thinking about it, and just enjoy yourself!
+
+罗森克兰兹女士：说真的，这就是世上「唯一」要紧的事。
+Lady Rosencrantz: Truly, that's 「all」 that matters in this world.
+
+吉尔登斯吞女士：还有，要弄清楚你究竟能吃多少个甜面包卷才会吐。
+Lady Guildenstern: That, and understanding exactly how many sweetrolls you can eat before you puke.
+
+罗森克兰兹女士：十三个。答案就是十三个。
+Lady Rosencrantz: Thirteen. Thirteen is that number.
+
+吉尔登斯吞女士：看看我们今晚能不能吃到十四个！
+Lady Guildenstern: Let's see if we can reach fourteen tonight!
+
+罗森克兰兹女士：好。我们走吧？
+Lady Rosencrantz: Agreed. Shall we go?
+
+幽灵：「仔细想想这件事，奥菲莉娅。」
+The Ghost: 「Think carefully upon this, Ophelia.」
+
+幽灵：「你再也无法回头。」
+The Ghost: 「You can never turn back.」
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃地位，换取家人
+END_CurtainCall_Exile
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备使用《命运之书》，选择让她一家人永远被流放出埃尔西诺。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to choose exile for her family from Elsinore forever.
+
+罗森克兰兹女士：朋友们，你们对此有什么看法？
+Lady Rosencrantz: What say you about this, friends?
+
+雷欧提斯：当然，我没什么意见。我一直最盼望的就是离开这座城堡。
+Laertes: Certainly, it's no trouble to me. I've longed for nothing more than to leave the castle behind.
+
+雷欧提斯：但如果我们离开宫廷……父亲就必须辞去王室顾问的职务。
+Laertes: But if we leave court... Father must relinquish his advisory role to the throne.
+
+雷欧提斯：那个职位就是他的「一切」。
+Laertes: That role means 「everything」 to him.
+
+波洛涅斯：曾经是。
+Polonius: It did, once.
+
+波洛涅斯：但这几天让我产生了异乎寻常的犹疑。
+Polonius: But these last few days have given me unnatural pause.
+
+波洛涅斯：毕竟，在其他世界里，哈姆雷特杀了我，而……没有人为我的死感到悲伤。
+Polonius: After all, in other worlds, Hamlet kills me, and... no one grieves my loss.
+
+波洛涅斯：如果这就是我在国王和王后眼中的价值，那我到底要怎么做，才能让他们重新看待我？
+Polonius: If that's the measure of my use to the King and Queen, then what must I do to make them rethink their feelings towards me?
+
+克劳狄斯国王：你从没给过我信任你的理由，波洛涅斯！
+King Claudius: You gave me no reason to trust you, Polonius!
+
+克劳狄斯国王：你从来不掩饰自己对我兄长至死不渝的忠诚。
+King Claudius: You were never secretive about your undying faith to my brother.
+
+克劳狄斯国王：总是对我隐瞒事情，背着我挑起事端……
+King Claudius: Always hiding things from me, going behind my back to stir up trouble...
+
+波洛涅斯：因为我在他生前就向他立过誓！
+Polonius: Because I swore an oath to him in life!
+
+波洛涅斯：向「您」立过誓，陛下！
+Polonius: To 「you」, my lord!
+
+波洛涅斯：我会永远怀着敬意缅怀您，我的国王。
+Polonius: I will always honor your memory, my King.
+
+波洛涅斯：但我和孩子们也该继续自己的人生了。
+Polonius: But it is time for my children and me to move on.
+
+幽灵：「我绝不会因为这种事责怪你，波洛涅斯。」
+The Ghost: 「I could never hold such a thing against you, Polonius.」
+
+幽灵：「毕竟，为了维护王位，你甚至让自己的土地和庄园都荒废了。」
+The Ghost: 「After all, you let even your own lands and estates go fallow in your mission to uphold the throne.」
+
+波洛涅斯：确实如此。我们家虽有这些头衔，却一无所有。恐怕已经身无分文了。
+Polonius: It's true. Our family has nothing, for all our titles. We are quite penniless, I'm afraid.
+
+波洛涅斯：如果我当初更用心经营庄园，我们或许会过得更好。
+Polonius: Had I been more actively managing our estates, we might have found more success.
+
+波洛涅斯：可我多年没有打理那些产业——全是为了更好地效忠陛下——如今家中的钱财已经耗尽了。
+Polonius: But years of idleness on that front—all in the interest of better dedicating myself to His Majesty—have run our coffers dry.
+
+雷欧提斯：那我们要住在哪里，父亲？
+Laertes: Then where shall we live, Father?
+
+波洛涅斯：住在我们仅剩的那座庄园里。那地方很小，也被人遗忘了。远比不上埃尔西诺城堡的奢华。
+Polonius: In the last remaining estate we have. A small and forgotten place. It is far from the luxury of Elsinore Castle.
+
+雷欧提斯：听到这消息真遗憾。但显然，我们不能留在这里。
+Laertes: That's unfortunate to hear. But it is clear we cannot stay here.
+
+雷欧提斯：如果这就是奥菲莉娅选择的世界，那我们就得去那个被遗忘的地方，看看能不能让家里的境况好转。
+Laertes: If this is the world Ophelia chooses, then we must go to that forgotten place and see if we can't turn our fortunes around.
+
+波洛涅斯：我觉得希望不大。恐怕我们这个贵族家族就要走到尽头了。
+Polonius: I find the notion unlikely. I fear this may be the very last of our noble house.
+
+波洛涅斯：这个世界会意味着这样的结局。
+Polonius: That's what this world would mean.
+
+雷欧提斯：我明白了。那么，妹妹，希望你能做出正确的选择。
+Laertes: I see. Then, sister, I hope you make the right choice.
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃现实，换取欢乐
+END_CurtainCall_Insanity
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上回说到奥菲莉娅时，她正准备使用《命运之书》，永远留在一个完美的地方。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to remain in a perfect place forever.
+
+罗森克兰兹女士：朋友们，你们对此有什么看法？
+Lady Rosencrantz: What say you about this, friends?
+
+波洛涅斯：我的好女儿来了。
+Polonius: There's my girl.
+
+雷欧提斯：我们都准备好迎接你了。
+Laertes: We're all ready for you.
+
+乔特鲁德王后：奥菲莉娅！我们刚刚还在说你呢。说谁谁就到！
+Queen Gertrude: Ophelia! We were just saying your name. Speak of the devil!
+
+奥菲莉娅：大家，这里是怎么回事？
+Ophelia: What's going on here, everyone?
+
+哈姆雷特：嗯，我们正等着「你」来告诉我们呢。
+Hamlet: Well, we were waiting for 「you」 to tell us that.
+
+克劳狄斯国王：是的，奥菲莉娅女士。你是这个世界的故事讲述者。你想象得到的事，我们都能做到。
+King Claudius: Yes, Lady Ophelia. You're the storyteller of this world. Anything you imagine, we can do.
+
+哈姆雷特：如果你想给我多写点戏份，我也不会反对……
+Hamlet: If you wanted to write me a larger part, I wouldn't be opposed to that...
+
+雷欧提斯：或者你想把哈姆雷特从故事里彻底删掉，也可以。
+Laertes: Or if you wanted to cut Hamlet out of the narrative altogether. That's an option, too.
+
+霍拉旭：天哪。
+Horatio: Goodness.
+
+波洛涅斯：小伙子们！立刻住口。这里要考虑的是奥菲莉娅的愿望，不是你们的。
+Polonius: Lads! Stop that talk, immediately. This is about Ophelia's desires. Not yours.
+
+雷欧提斯：您说得对，父亲。
+Laertes: You're right, Father.
+
+雷欧提斯：奥菲莉娅，对不起。你只管下令，我们会照你的吩咐做。
+Laertes: Ophelia, I apologize. Merely command us and we will do your bidding.
+
+伊尔玛：如果你不喜欢结果——只要叫我们换一种做法就行，一遍又一遍。
+Irma: And if you don't like the result—merely tell us to act differently, again and again.
+
+乔特鲁德王后：我们会永远留在这里。永不离开，不受任何伤害，也不会死去。
+Queen Gertrude: We'll be here forever. And we'll never leave, or be harmed by anything, or pass away.
+
+波洛涅斯：当然，除非你「希望」如此。
+Polonius: Unless that's your 「desire」, of course.
+
+贝尔纳多：那样的话，我们也很乐意照办。
+Bernardo: In which case, we'd be happy to oblige.
+
+布莉特女士：你甚至可以创造一个我会对你「友善」的世界。好好想想吧！
+Lady Brit: You could even create a world where I was 「nice」 to you. Just think about that for a moment!
+
+布莉特女士：真是疯了，对吧？
+Lady Brit: It's insane, isn't it?
+
+奥菲莉娅：疯了……
+Ophelia: Insane...
+
+奥菲莉娅：疯了……
+Ophelia: Insane...
+
+幽灵：「奥菲莉娅。停下吧。」
+The Ghost: 「Ophelia. Cease this.」
+
+幽灵：「你不能留在这个世界。」
+The Ghost: 「You cannot stay in this world.」
+
+幽灵：「它早就该消失，却一直留存至今。」
+The Ghost: 「It has lingered long past its due.」
+
+奥菲莉娅：你怎么能确定？
+Ophelia: How can you be certain of that?
+
+奥菲莉娅：你看看。看看他们都多么「开心」。
+Ophelia: Look at this. Look at how 「happy」 they all are.
+
+幽灵：「...」
+The Ghost: 「...」
+
+幽灵：「这样的埃尔西诺……不过是个幻想。」
+The Ghost: 「This version of Elsinore... is merely a fantasy.」
+
+幽灵：「这是你自己的头脑编造出来的骗局。」
+The Ghost: 「It is a trick invented by your own mind.」
+
+幽灵：「这样的事态也许永远不会发生。当所有幻象都被抹去，这个世界的真相就是如此。你孤身一人。」
+The Ghost: 「This version of events may never come to pass. This is the reality of this world when all illusion is wiped away. You are alone.」
+
+奥菲莉娅：...
+Ophelia: ...
+
+幽灵：「生前，我没有与疯狂抗争。我把自己交给了她。我被她征服、吞噬，最终死亡带走了我。」
+The Ghost: 「In life, I did not fight Insanity. I relinquished myself to her. I was subjugated, consumed, and finally death took me.」
+
+幽灵：「仔细想想，你是否也想这么做。」
+The Ghost: 「Think carefully on whether you wish to do the same.」
+
+幽灵：「在你受妄想控制的时候，所有还活着的人都会迎来惨烈的命运。无论做多少梦，都无法救他们逃过这一劫。」
+The Ghost: 「While you lie in the grip of your delusion, everyone still alive will meet a grisly fate. No amount of dreaming can save them from that.」
+
+奥菲莉娅：如果我选择这个结局……我就必须接受……它永远不可能是真的。
+Ophelia: If I choose this ending... I have to accept... that it can never be real.
+
+奥菲莉娅：可它「感觉」那么真实。它仍然可以给我这种感觉。
+Ophelia: But it 「felt」 real. It still can.
+
+【进入所选结局】
+
+舍弃和平，换取生存
+END_CurtainCall_EveryoneSurvives
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上次说到奥菲莉娅时，她正准备利用《命运之书》阻止福丁布拉斯的入侵，救下所有人的性命。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to hold off Fortinbras' invasion and save everyone's lives.
+
+吉尔登斯吞女士：那、那她成功了！她让我们所有人都逃过了悲惨的命运！
+Lady Guildenstern: S-so she did it! She's saved us all from a tragic fate!
+
+罗森克兰兹女士：啊……看来是这样。
+Lady Rosencrantz: Ah... so it would seem.
+
+霍拉旭：至少我「高兴极了」，总算不是只有我一个人活下来了。
+Horatio: I for one am 「thrilled」 to not be the only one left alive.
+
+霍拉旭：虽然你们都是一群情绪多变、爱小题大做的傻瓜，但如今，你们已经是「我的」那群傻瓜了。
+Horatio: As much as you're all a group of rather moody, melodramatic fools, you've become 「my」 melodramatic fools.
+
+伊尔玛：我本以为自己活不到把从卫兵那里骗来的军饷全花光的那一天。
+Irma: I did not think I would live long enough to spend all the money I made fleecing the guards out of their pay.
+
+伊尔玛：发现自己想错了，真让人松了一口气。
+Irma: What a relief it is to be proven wrong.
+
+贝尔纳多：我相信，在你不甘不愿地咽气之前，你还会偷走他们「更多」的军饷，老太婆。
+Bernardo: And I'm sure you'll steal a lot 「more」 of their pay before you go to your grave kicking, old woman.
+
+伊尔玛：没错，除非他们长点脑子，看出我的骰子做了手脚。不过我肯定等不到那天就死了。一群蠢货。
+Irma: Yes, or until they grow wiser about my loaded dice. I'm sure I'll die before that happens. Idiots.
+
+哈姆雷特：曾有一段时间，我一心只想死。
+Hamlet: At one point, I wanted nothing more than to die.
+
+哈姆雷特：如今，生命这份礼物却被硬塞给了我们。
+Hamlet: Now the gift of life is thrust upon us.
+
+哈姆雷特：就连我们当中那些不配活着的人，也还在这里。
+Hamlet: Even those of us who didn't deserve to live are here.
+
+乔特鲁德王后：别这样说，哈姆雷特。
+Queen Gertrude: Stop that, Hamlet.
+
+乔特鲁德王后：你和你叔叔最近确实不和。不过……
+Queen Gertrude: It's true you and your uncle have been at odds lately. However...
+
+乔特鲁德王后：如今战争已经打赢了，我们都有时间按自己的方式、自己的步调，找到各自的安宁！
+Queen Gertrude: Now that the war is won, there is time for peace to come to us all, in our own ways, in our own time!
+
+乔特鲁德王后：是啊，我们应该庆祝这份赐予我们所有人的和平！
+Queen Gertrude: Yes, we ought to celebrate this gift of peace we've all been given!
+
+贝尔纳多：殿下……这场战争「还没」打赢。
+Bernardo: Your Highness... the war is 「not」 won.
+
+贝尔纳多：您以为战争已经结束了吗？
+Bernardo: Did you think the war was over?
+
+哈姆雷特：还……还没有？
+Hamlet: It... it isn't?
+
+布莉特女士：...
+Lady Brit: ...
+
+布莉特女士：没有。当然没有。
+Lady Brit: No. Of course it isn't.
+
+布莉特女士：福丁布拉斯眼下或许被挡住了，但他不会善罢甘休，他的手下也对他死心塌地，凶残至极。
+Lady Brit: Fortinbras may have been stopped for now, but he is relentless, and his men are brutally faithful to him.
+
+布莉特女士：他们会来救他。等他重获自由，他们就会来夺取我们的国家。
+Lady Brit: They will come for him. And when he is free, they will come for our country.
+
+克劳狄斯国王：但我们已经做好了充分的准备。我已经召集了一批优秀的人到我身边。都是能派上用场的人。
+King Claudius: But we are well prepared. I've rallied good men to my side. Useful men.
+
+克劳狄斯国王：就让我们和他们痛痛快快地打一场！
+King Claudius: Let us give them a fight worth fighting!
+
+布莉特女士：这不会是一场交战，而是一场缓慢的屠杀。
+Lady Brit: This won't be a fight. It'll be a slow massacre.
+
+布莉特女士：前方等着我们的，只有一场消耗战。
+Lady Brit: Only a war of attrition lies ahead.
+
+贝尔纳多：陛下，她说的是真的。福丁布拉斯不会退让，我们也不会。
+Bernardo: What she speaks is truth, my lord. Fortinbras will not relent. And neither shall we.
+
+贝尔纳多：我们召集的兵力够用，却远称不上强大。我预计，往后多年都会疲于征战。
+Bernardo: The men we have rallied are sufficient, but not a force worth marveling at. I predict weary years ahead.
+
+贝尔纳多：我们阻止了一场政变，却没有赢得一场战争。
+Bernardo: We averted a coup. We have not won a war.
+
+哈姆雷特：那么，无论未来带来怎样的未知，我们都将一同见证。
+Hamlet: Then we shall all bear witness to whatever mysteries the future brings.
+
+乔特鲁德王后：我想，我们确实无从知道。至少现在还不知道。
+Queen Gertrude: I suppose we cannot truly know. Not yet.
+
+幽灵：「是的，大致就是这样。」
+The Ghost: 「That is the summary of it, yes.」
+
+幽灵：「仔细考虑你的选择，奥菲莉娅。」
+The Ghost: 「Consider your options carefully, Ophelia.」
+
+幽灵：「以生代死，并不总是恩赐。你我比任何人都明白这一点。」
+The Ghost: 「Life in place of death is not always a gift. You and I know that truest of all.」
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃家人，换取基业
+END_CurtainCall_Hamlet
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上次说到奥菲莉娅时，她正准备利用《命运之书》嫁给哈姆雷特王子，成为丹麦王后。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to marry Prince Hamlet and become Queen of Denmark.
+
+吉尔登斯吞女士：大家对此有什么看法？
+Lady Guildenstern: What say you all about this?
+
+布莉特女士：太好了。总算摆脱你们两个了。
+Lady Brit: Excellent. Good riddance to both of you.
+
+布莉特女士：尤其要谢谢你，奥菲莉娅。多亏了你，我不用一辈子待在哈姆雷特身边了。
+Lady Brit: And a special thanks to you, Ophelia. You've saved me from a life of having to be near Hamlet.
+
+哈姆雷特：看来我最近的坏情绪，比我想的还要让大家讨厌。
+Hamlet: Evidently my mood of late was more offensive to all of you than I thought.
+
+贝尔纳多：再好的人也有这种时候，哈姆雷特。不过，看来这次订婚让你的状态好转了。
+Bernardo: Happens to the best of us, Hamlet. But it seems as though this betrothal has turned your state around.
+
+霍拉旭：虽然不愿承认，但我从没见过你这么开心。
+Horatio: Much as I hate to admit it, I've never seen you happier.
+
+哈姆雷特：我想……这确实改变了我。
+Hamlet: I suppose... it's changed me.
+
+哈姆雷特：各位，我必须为最近的坏情绪向大家道歉。
+Hamlet: Everyone, I must apologize for my mood as of late.
+
+哈姆雷特：这是我一生中最黑暗的一年。有些时候，我祈求死亡的心，比我对任何事物的渴望都要强烈。
+Hamlet: It's been the darkest year of my life. There were moments when I prayed for death more fervently than I've ever wanted anything.
+
+哈姆雷特：但是……奥菲莉娅让我看到了一个世界，在那里，我还有可能找回从前的自己。
+Hamlet: But... Ophelia showed me a world where it was possible to reclaim who I was before.
+
+哈姆雷特：从前的我并没有消失。他只是被令人动弹不得的恐惧压在了深处。
+Hamlet: The old me wasn't gone. He was merely buried under the weight of paralyzing fear.
+
+哈姆雷特：而如今，我不再害怕了。
+Hamlet: And I'm no longer afraid.
+
+哈姆雷特：尤其是有你在我身边。
+Hamlet: Especially with you by my side.
+
+乔特鲁德王后：我一直盼望的就是这桩婚事。
+Queen Gertrude: This was the union I always desired.
+
+乔特鲁德王后：我只希望这一天能来得更早些。不过……
+Queen Gertrude: I merely wish it had happened sooner. But...
+
+乔特鲁德王后：唉，当时的情况不同。
+Queen Gertrude: Well, circumstances were different then.
+
+克劳狄斯国王：我反对这桩婚事，而且永远都会反对。
+King Claudius: I am, and shall always be, opposed to this union.
+
+克劳狄斯国王：我们都知道，波洛涅斯的家产已经空了。她没有嫁妆，没有人脉，没有地位……这会削弱丹麦。
+King Claudius: We know Polonius's estate is dry. No dowry to her name, no social ties, no status... it weakens Denmark.
+
+克劳狄斯国王：国王的婚姻应当讲究策略，不能凭自己一时的盲目冲动！
+King Claudius: A King ought to marry strategically. Not on his own blind whim!
+
+幽灵：「安静些，弟弟。」
+The Ghost: 「Hush, brother.」
+
+幽灵：「这个世界属于活着的人。」
+The Ghost: 「This world belongs to the living.」
+
+幽灵：「我们只是过客，只在这奇异的一刻短暂停留。」
+The Ghost: 「We are merely passing through, here only for this singular moment in time.」
+
+幽灵：「奥菲莉娅。但愿我能给你一个满怀慈爱的拥抱，如公公对待自己的女儿那样。」
+The Ghost: 「Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.」
+
+幽灵：「我的儿子……过去几个月里，他心中滋生的黑暗已被埋藏，却并未真正被遗忘。」
+The Ghost: 「My son... the darkness which unfolded within him in these past months has been buried, but not truly forgotten.」
+
+幽灵：「总有一天，它会再度涌起，伤害你们两人。」
+The Ghost: 「And someday, it shall rise up again to lash against you both.」
+
+幽灵：「你能准备好永远面对这一切吗？明知它曾伤害过你，你仍能爱他吗？」
+The Ghost: 「Can you be prepared for that eternity? Can you love him despite that, knowing it has hurt you before?」
+
+幽灵：「在决定他和你自己的命运之前，想清楚这一点。」
+The Ghost: 「Think on that before you decide his fate, and yours.」
+
+雷欧提斯：还有父亲和我呢。他把我们流放了，奥菲莉娅。
+Laertes: And then there's Father and I. He exiled us, Ophelia.
+
+雷欧提斯：如果可以，他会杀了我们。
+Laertes: He'd kill us if he could.
+
+雷欧提斯：无论你怎么努力，都改变不了他在这件事上的心意。他知道我对他是个威胁。而他是对的。我永远不会奉他为王，向他效忠。
+Laertes: Try as you might, you won't change his heart on this front. He knows I'm a danger to him. And he's right. I'll never serve him as my King.
+
+雷欧提斯：你会慢慢老去，而你的生活里再也没有我们两个人。
+Laertes: You will grow old without either of us in your life.
+
+雷欧提斯：父亲和我对你就这么不重要，让你甘愿抛弃我们吗？
+Laertes: Do Father and I mean so little to you that you're willing to throw us away?
+
+【插入共用段落：call "CurtainCall_End"】
+
+舍弃独立，换取和平
+END_CurtainCall_FortinbrasRules
+========================================
+
+罗森克兰兹女士：容我先交代一下眼下的情形。
+Lady Rosencrantz: If you'll allow me, I shall set the scene.
+
+罗森克兰兹女士：上次说到奥菲莉娅时，她正准备利用《命运之书》让挪威通过哈姆雷特进行统治，使两国形成某种合作关系。
+Lady Rosencrantz: When we last left Ophelia, she was ready to use the Book of Fates to allow Norway to rule through Hamlet, bringing the two countries into a partnership of sorts.
+
+吉尔登斯吞女士：大家对此有什么看法？
+Lady Guildenstern: What say you all about this?
+
+霍拉旭：这不正是任何一个正直的人都会追求的世界吗？一个所有人都能活下来的世界？
+Horatio: Is this not the world any decent person would seek? A world where all survive?
+
+霍拉旭：在这个世界里，哈姆雷特能够继承父亲的王位，又因另一位统治者的存在而被迫行动，不再困在原地、动弹不得？
+Horatio: One where Hamlet is free to take his father's throne, and forced by virtue of another ruler to act, rather than remain paralyzed?
+
+吉尔登斯吞女士：「我」当然这么认为。
+Lady Guildenstern: Certainly 「I」 think so.
+
+克劳狄斯国王：那、那「我呢？」我的命又算什么？
+King Claudius: W-well, what about 「me?」 Where is my life in all this?
+
+克劳狄斯国王：奥菲莉娅，你已经认定我无可救赎了吗？你要拯救的人里，没有我吗？
+King Claudius: Ophelia, have you deemed me beyond redemption? Am I not included in your salvation?
+
+伊尔玛：呸！你杀掉一位好端端的国王之前，就该想想「这事」！
+Irma: Feh! Should've considered 「that」 before you offed a perfectly good king!
+
+伊尔玛：瞧瞧你把这一切弄成了什么样！
+Irma: Look at the mess you made of it all!
+
+克劳狄斯国王：「我」弄成的烂摊子？那丹麦呢？我们的国家呢？
+King Claudius: The mess 「I've」 made? What of Denmark? What of our nation?
+
+克劳狄斯国王：如今，我们几乎已经失去了自主，只是挪威野心投下的一道黯淡影子。
+King Claudius: We're scarcely our own people now. Merely a pale shadow of Norway's ambitions.
+
+克劳狄斯国王：十几年后，或是一百年后，丹麦又会变成什么样？我们还会存在吗？
+King Claudius: And what shall become of Denmark in a dozen years, or in a hundred? Shall we even exist?
+
+克劳狄斯国王：我们所有的故事，我们所有人的「自我」，都会被遗忘！
+King Claudius: All of our stories, all of our 「selves」 forgotten!
+
+克劳狄斯国王：你们都忘了奥吉尔，查理曼的那位骑士吗？传说他的灵魂就栖居在这座城堡里。
+King Claudius: Have all of you forgotten Ogier, that knight of Charlemagne? Legend says his spirit dwells within this very castle.
+
+克劳狄斯国王：当丹麦面临最大的危难时，他会起身拿起武器，保卫我们所有人。你们忘了别人付出过怎样的牺牲吗？
+King Claudius: And when Denmark is most at peril, he shall rise and take arms to defend us all. Have you forgotten what others sacrificed?
+
+克劳狄斯国王：为丹麦而战，是丹麦国王的「使命」。怎样的懦夫，才会就这么把她交到敌人手里？
+King Claudius: It is the King of Denmark's 「calling」 to fight on her behalf. What kind of coward merely hands her over to her enemies?
+
+克劳狄斯国王：一个国家的身份认同，绝不能被一个毛头小子的任性抹去！
+King Claudius: An entire nation's identity must not be snuffed out by the whims of a boy!
+
+乔特鲁德王后：克劳狄斯说得没错。
+Queen Gertrude: Claudius is not wrong.
+
+乔特鲁德王后：但在所有外国统治者中，我想，我丈夫最敬重的就是福丁布拉斯和他的家族。
+Queen Gertrude: But of all foreign rulers, I think my husband respected Fortinbras and his family as the greatest.
+
+乔特鲁德王后：是这样吗，哈姆雷特？
+Queen Gertrude: Is that true, Hamlet?
+
+幽灵：「的确。你一直最懂我的心，格尔塔。」
+The Ghost: 「Indeed. You always knew my heart best, Gerta.」
+
+乔特鲁德王后：不过……
+Queen Gertrude: At the same time...
+
+幽灵：「失去我毕生为之奋斗的一切，当然不值得我骄傲。」
+The Ghost: 「I am certainly not proud to lose everything I spent my life fighting for.」
+
+乔特鲁德王后：是的。
+Queen Gertrude: Yes.
+
+幽灵：「我希望我的儿子能足够坚强，挺身而出，奋起抗争。」
+The Ghost: 「I wish my son were strong enough to stand and fight.」
+
+哈姆雷特：...
+Hamlet: ...
+
+哈姆雷特：我也这么希望，父亲。
+Hamlet: As do I, Father.
+
+哈姆雷特：恐怕今后的每个清晨，我都会想起这件事，直到有一天，你我能在天堂里好好谈一谈。
+Hamlet: I fear I shall think of that every morning until you and I can discuss it at length in Heaven one day.
+
+贝尔纳多：我们不能对哈姆雷特太苛刻。
+Bernardo: We mustn't be too hard on Hamlet.
+
+贝尔纳多：如果与福丁布拉斯开战，代价会比我们任何人所知的都要大。
+Bernardo: A war with Fortinbras would have cost more than any of us know.
+
+贝尔纳多：我说不准我们能不能赢。但造成的破坏一定会……极其惨重。
+Bernardo: I cannot say whether we would have won. But the destruction would have been... extensive.
+
+贝尔纳多：许多人会为了让丹麦仍是丹麦而死。
+Bernardo: Many would have died to keep Denmark as Denmark.
+
+贝尔纳多：奥菲莉娅，你是用一个国家，换取人们的生存。
+Bernardo: Ophelia, you're trading away a nation to keep people alive.
+
+贝尔纳多：我父亲不会做这样的交换。克劳狄斯不会，哈姆雷特国王也不会。
+Bernardo: My father would not have made that trade. Claudius would not. Neither would King Hamlet.
+
+贝尔纳多：……说实话，我也不能说「我」会这么做。
+Bernardo: ...Nor, truthfully, can I claim that 「I」 would, either.
+
+贝尔纳多：但你和我们任何人都不同。正因如此，你才能让我们所有人活下来。
+Bernardo: But you aren't like any of us. That's why you were able to keep all of us alive.
+
+贝尔纳多：只是，一定要慎重。想清楚你愿意放弃什么。要知道，失去了就再也拿不回来了。
+Bernardo: Just be careful. Be careful what you're willing to give up. Know that it cannot be recovered.
+
+【插入共用段落：call "CurtainCall_End"】

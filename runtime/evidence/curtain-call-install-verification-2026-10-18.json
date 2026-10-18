@@ -1,0 +1,949 @@
+{
+  "date": "2026-10-18",
+  "status": "installed_verified",
+  "passed": true,
+  "installed": true,
+  "previous_installed_verification": "runtime/evidence/love-context-install-verification-2026-10-18.json",
+  "plugin_version": "1.5.11",
+  "plugin_sha256": "c56adec60a179314d46f3a79467b8d8fc26b8c0bd561c807dfd8861090e9782b",
+  "font_bundle_sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+  "font_glyph_count": 7661,
+  "font_validation_reused_from": "runtime/evidence/credits-skip-install-verification-2026-10-18.json",
+  "dictionary_count": 17069,
+  "dictionary_sha256": "712dc12d85dd3a297f168fc010b662bd35dc4538bb2aad57b3b3e5e6b712e0c7",
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dynamic_rules": 157,
+  "curtain_call_source_review": {
+    "source_asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+    "metadata_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+    "scene_counts": {
+      "END_CurtainCall_GenericSetup": 31,
+      "END_CurtainCall_Resignation": 40,
+      "CurtainCall_End": 3,
+      "END_CurtainCall_Queen": 36,
+      "END_CurtainCall_Pirate": 42,
+      "END_CurtainCall_Othello": 40,
+      "END_CurtainCall_OpheliaLeaves": 36,
+      "END_CurtainCall_RosAndGuil": 46,
+      "END_CurtainCall_Exile": 29,
+      "END_CurtainCall_Insanity": 38,
+      "END_CurtainCall_EveryoneSurvives": 36,
+      "END_CurtainCall_Hamlet": 34,
+      "END_CurtainCall_FortinbrasRules": 38
+    },
+    "reviewed_occurrences": 449,
+    "unique_runtime_sources": 418,
+    "corrected_occurrences": 14,
+    "changed_dictionary_sources": 15,
+    "consumer_cases": 570,
+    "changed_source_regression_cases": 15,
+    "all_runtime_sources_found_in_assembly": true,
+    "reading_copy": "docs\\dev-tasks\\localization\\curtain-call-review-2026-10-18\\curtain-call-texts-zh-CN.txt"
+  },
+  "curtain_call_review_sha256": "862d3fccf7935a69cbba25f3658df7df9d0d1be7b599b14b3ad699830c3d9b9e",
+  "assembly_source_audit_sha256": "5a9543139811afd192678f45cfd11581ecdefc6a55e93ae41630a7f94627ca8d",
+  "curtain_call_changed_dictionary_sources": 15,
+  "curtain_call_corrected_occurrences": 14,
+  "additional_ending_body_corrections": 2,
+  "new_changed_dictionary_entries": 17,
+  "total_pending_changed_dictionary_entries": 0,
+  "changes_since_previous_install": [
+    {
+      "id": "curtain-call-fa42c0dc29d417ba",
+      "original_id": "p06312-fa42c0dc29d4",
+      "source": "When we last left Ophelia, she was ready to use the Book of Fates to end her life.",
+      "source_sha256": "fa42c0dc29d417baae3805648929e1109c95aa9caad6a9ad53162f78e5283feb",
+      "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书结束自己的生命。",
+      "target": "上回说到奥菲莉娅时，她正准备利用命运之书结束自己的生命。",
+      "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Resignation",
+          "line": 17115,
+          "actor": "rosencrantz"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-83f6d2780d008feb",
+      "original_id": "p06353-83f6d2780d00",
+      "source": "When we last left Ophelia, she was ready to use the Book of Fates to become Queen of Denmark.",
+      "source_sha256": "83f6d2780d008feb0f7fcd2b71a9a96c3875fecfd61e5d601c9e42ccf0724ffe",
+      "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书成为丹麦王后。",
+      "target": "上回说到奥菲莉娅时，她正准备利用命运之书成为丹麦王后。",
+      "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Queen",
+          "line": 17244,
+          "actor": "rosencrantz"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-7d3109b3042dbbec",
+      "original_id": "p06385-7d3109b3042d",
+      "source": "When we last left Ophelia, she was ready to use the Book of Fates to sail off on Grace O'Malley's stolen vessel.",
+      "source_sha256": "7d3109b3042dbbec3757b24cd63ddc8a5f24d090f823c14fd9e3666b5114459f",
+      "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书，乘着格蕾丝·奥马利偷来的船扬帆远去。",
+      "target": "上回说到奥菲莉娅时，她正准备利用命运之书，乘着格蕾丝·奥马利偷来的船扬帆远去。",
+      "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Pirate",
+          "line": 17346,
+          "actor": "rosencrantz"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-42b7d51ed845f0ae",
+      "original_id": "p06423-42b7d51ed845",
+      "source": "When we last left Ophelia, she was ready to use the Book of Fates to elope with Othello the barkeep.",
+      "source_sha256": "42b7d51ed845f0aed40f1160acc746745aae0a9d6a6235237c6862f766ee1d2e",
+      "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书，与酒馆老板奥赛罗私奔。",
+      "target": "上回说到奥菲莉娅时，她正准备利用命运之书，与酒馆老板奥赛罗私奔。",
+      "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Othello",
+          "line": 17444,
+          "actor": "rosencrantz"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-24ec6f81f18d714f",
+      "original_id": "p06323-24ec6f81f18d",
+      "source": "You are one of the few good things in our life. In all of our lives.",
+      "source_sha256": "24ec6f81f18d714feb6a08b26eadb9567c63991e6c6b6c69b2ca3494ef61583e",
+      "previous_target": "你是我们生命中为数不多的美好之一。我们所有人都是如此。",
+      "target": "你是我们生命中为数不多的美好之一。对我们每个人来说，都是如此。",
+      "reason": "补清后半句承接女主对每个人的意义，避免读成众人也都是美好之一。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Resignation",
+          "line": 17149,
+          "actor": "polonius"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-67e5e8db1a5002ba",
+      "original_id": "a00647-67e5e8db1a50",
+      "source": "<i>Whatever you choose—whatever fate you grant yourself—do not forget that you must live dreaming of the faces you left behind.</i>",
+      "source_sha256": "67e5e8db1a5002ba72c0621b599ec8133fabdc27d06f627c8075b8704401c2b2",
+      "previous_target": "<i>不管你如何选择——不管你给自己怎样的命运——别忘了，今后你仍须活下去，梦里会有那些被你留下的面孔。</i>",
+      "target": "<i>无论你选择什么——无论你赋予自己怎样的命运——都别忘了，此后活着的日子里，那些被你留下的面孔会一直出现在你的梦中。</i>",
+      "reason": "实际斜体源复用已正确的资源译文：此后活着都要梦见留下的人，不是另加必须活下去的劝告。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Pirate",
+          "line": 17428,
+          "actor": "ghost"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-d64e332232757df0",
+      "original_id": "a00599-d64e33223275",
+      "source": "<i>Do not underestimate the power of a few good years to transform the course of your life...</i>",
+      "source_sha256": "d64e332232757df09a95aef0b57d901ee1c7af50074a22229b4e78ea0a8fe461",
+      "previous_target": "<i>不要小看几段美好年华的力量，它们足以改变你的一生……</i>",
+      "target": "<i>不要小看几年美好时光的力量，它足以改变你的人生轨迹……</i>",
+      "reason": "实际斜体源复用已正确的资源译文，a few good years是几年美好时光，不是几段美好年华。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Othello",
+          "line": 17534,
+          "actor": "ghost"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-520834f0712b359a",
+      "original_id": "p06479-520834f0712b",
+      "source": "That's... why...",
+      "source_sha256": "520834f0712b359acbcdeefce3e9c18a9ec777644b5f2dfce902b930d2ff6d93",
+      "previous_target": "所以……才……",
+      "target": "所以……",
+      "reason": "保留断续因果开头，与下一句你一定要活下去衔接，删去无着落的才。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_OpheliaLeaves",
+          "line": 17600,
+          "actor": "polonius"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-8768251400ca7076",
+      "original_id": "p06484-8768251400ca",
+      "source": "I want you to find people who love you with all their heart. People who are—good, and whole. Not like me. Not like all of us.",
+      "source_sha256": "8768251400ca7076423bccfc572122ee5999e7c35f0a3b5070675bf3bc379ad1",
+      "previous_target": "我希望你能找到全心全意爱你的人。那些——善良、内心完整的人。别像我。别像我们这些人。",
+      "target": "我希望你能找到全心全意爱你的人。那些——善良、内心完整的人。不像我。不像我们这些人。",
+      "reason": "Not like me承接对那些人的描述，是自省，不是命令女主别像自己。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_OpheliaLeaves",
+          "line": 17611,
+          "actor": "hamlet"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-03d169f26f29c51e",
+      "original_id": "p06530-03d169f26f29",
+      "source": "When we last left Ophelia, she was ready to use the Book of Fates to choose exile for her family from Elsinore forever.",
+      "source_sha256": "03d169f26f29c51ecf3e9da52172a79cc7a73df47a5073953270f6d4003e74a5",
+      "previous_target": "上回说到奥菲莉娅时，她正准备使用《命运之书》，选择让她的家人永远被流放出埃尔西诺。",
+      "target": "上回说到奥菲莉娅时，她正准备使用《命运之书》，选择让她一家人永远被流放出埃尔西诺。",
+      "reason": "一家人包含作出选择的女主，与她和父兄一同离开的结局一致。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Exile",
+          "line": 17734,
+          "actor": "rosencrantz"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-d1e52bc736129ee5",
+      "original_id": "p06537-d1e52bc73612",
+      "source": "If that's the measure of my use to the King and Queen, then what must I do to make them rethink their feelings towards me?",
+      "source_sha256": "d1e52bc736129ee505ff1e3dcf90e4e1871070a3a80eb89a9dcf65549aa22601",
+      "previous_target": "如果这就是我在国王和王后眼中的价值，那我到底要怎么做，才能让他们重新考虑对我的感情？",
+      "target": "如果这就是我在国王和王后眼中的价值，那我到底要怎么做，才能让他们重新看待我？",
+      "reason": "波洛涅斯衡量政治地位与君主评价，feelings towards me译为对我的看法。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Exile",
+          "line": 17754,
+          "actor": "polonius"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-a0c1d919a4f32fa9",
+      "original_id": "p06594-a0c1d919a4f3",
+      "source": "And I'm sure you'll steal a lot <i>more</i> of their pay before you go to your grave kicking, old woman.",
+      "source_sha256": "a0c1d919a4f32fa99beb3c17f63f05a010e08f47fc6822bf49062f0cfeed3ce4",
+      "previous_target": "我相信，在你蹬着腿、不甘心地进坟墓之前，你还会偷走他们<i>更多</i>的军饷，老太婆。",
+      "target": "我相信，在你不甘不愿地咽气之前，你还会偷走他们<i>更多</i>的军饷，老太婆。",
+      "reason": "去世时仍不肯服输的调侃，不直译为蹬腿进坟墓；保留更多的斜体。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_EveryoneSurvives",
+          "line": 17960,
+          "actor": "bernardo"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-0d1deac132094196",
+      "original_id": "p06669-0d1deac13209",
+      "source": "An entire nation's identity must not be snuffed out by the whims of a boy!",
+      "source_sha256": "0d1deac13209419627c175a34b08c4c3e7e47e7c27e33a2c883c88b1bcb71229",
+      "previous_target": "一个国家的全部认同，绝不能被一个毛头小子的任性抹去！",
+      "target": "一个国家的身份认同，绝不能被一个毛头小子的任性抹去！",
+      "reason": "identity为国家的身份认同；entire修饰nation，不是全部认同。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_FortinbrasRules",
+          "line": 18210,
+          "actor": "claudius"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-05cd365c70710bc0",
+      "original_id": "p06643-05cd365c7071",
+      "source": "We are merely passing through, here only for this singular moment in time.",
+      "source_sha256": "05cd365c70710bc0fdf571d36ac27cd1dbec3f56ba910f190be0567aba9b4c09",
+      "previous_target": "我们只是过客，只在此刻短暂停留。",
+      "target": "我们只是过客，只在这奇异的一刻短暂停留。",
+      "reason": "按玩家反馈，singular在生者亡者暂时相聚的语境中取奇异之意，避免独一无二的生硬表达。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Hamlet",
+          "line": 18132,
+          "actor": "ghost"
+        }
+      ]
+    },
+    {
+      "id": "curtain-call-fff520c3dc428df0",
+      "original_id": "a00627-fff520c3dc42",
+      "source": "<i>We are merely passing through, here only for this singular moment in time.</i>",
+      "source_sha256": "fff520c3dc428df0be27176e68918b464fd97adab237b820d31608686a5d5ff4",
+      "previous_target": "<i>我们只是过客，只在这独一无二的片刻停留。</i>",
+      "target": "<i>我们只是过客，只在这奇异的一刻短暂停留。</i>",
+      "reason": "与资源源句同步，保留幽灵实际外层斜体；按玩家反馈采用奇异。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Hamlet",
+          "line": 18132,
+          "actor": "ghost"
+        }
+      ]
+    },
+    {
+      "id": "ending-bleeding-bcb25f5b974cd56d",
+      "original_id": "p00859-bcb25f5b974c",
+      "source": "That this life is suffering from start to finish, punctuated by fleeting moments of bliss. Love merely stops the bleeding a while.",
+      "source_sha256": "bcb25f5b974cd56d1ceaff8dc1ce1aa3f2a630bc21555767114dd4aa8d7d1433",
+      "previous_target": "她说，人生从头到尾都是苦难，只有短暂的幸福穿插其中。爱不过是暂时止住流血。",
+      "target": "她说，人生从头到尾都是苦难，幸福只是转瞬即逝的点缀。爱，也只能暂时缓解这些苦痛。",
+      "reason": "用户确认优先自然中文：将突然出现的止血比喻意译为暂时缓解苦痛，保留爱情无法根除人生苦难的限制，不补写前文没有的伤口描写。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_HamletMarriage",
+          "line": 405
+        }
+      ]
+    },
+    {
+      "id": "ending-marriage-ec0ce78e955db6f5",
+      "original_id": "p00866-ec0ce78e955d",
+      "source": "After all, it's a beautiful day for a wedding.",
+      "source_sha256": "ec0ce78e955db6f57a761209061a24bace0d7ae6d03c11bfccdbaa3d7dcd45e7",
+      "previous_target": "毕竟，今天是个适合举行婚礼的好日子。",
+      "target": "毕竟，今天这么美，正适合举行婚礼。",
+      "reason": "用户确认：beautiful day呼应阳光和婚纱的美好场景，After all作为叙述收束，不增写因果理由或自我安慰的潜台词。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_HamletMarriage",
+          "line": 414
+        }
+      ]
+    }
+  ],
+  "shared_source_audit": {
+    "scanned_dialogue_occurrences": 11554,
+    "changed_sources": 15,
+    "references_outside_reviewed_scenes": []
+  },
+  "consumer_validation": [
+    {
+      "name": "before-changed-sources",
+      "exit_code": 1,
+      "count": 17,
+      "failures": 17,
+      "consumer": {
+        "actual_recursive_xunity_consumer_passed": false,
+        "count": 17
+      },
+      "tests": "runtime\\build\\curtain-call-review\\regression-all-tests.json",
+      "tests_sha256": "b9e0f4da7a4e0ff0dea77b61eede617c5337ad13d73b2c638b07db8b9ba727a2"
+    },
+    {
+      "name": "after-changed-sources",
+      "exit_code": 0,
+      "count": 17,
+      "failures": 0,
+      "consumer": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 17
+      },
+      "tests": "runtime\\build\\curtain-call-review\\regression-all-tests.json",
+      "tests_sha256": "b9e0f4da7a4e0ff0dea77b61eede617c5337ad13d73b2c638b07db8b9ba727a2"
+    },
+    {
+      "name": "curtain-call",
+      "exit_code": 0,
+      "count": 570,
+      "failures": 0,
+      "consumer": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 570
+      },
+      "tests": "translation\\supplemental\\curtain-call-tests.json",
+      "tests_sha256": "a9037b258985cf599ce2ad3d52e840dd10d375f85834d7872468c49a742690ce"
+    },
+    {
+      "name": "love-context",
+      "exit_code": 0,
+      "count": 642,
+      "failures": 0,
+      "consumer": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 642
+      },
+      "tests": "translation\\supplemental\\love-context-tests.json",
+      "tests_sha256": "f62ee730a240d349cafc22da63b4506843aff5277f4044e308d9be7505a86d29"
+    },
+    {
+      "name": "all-endings",
+      "exit_code": 0,
+      "count": 407,
+      "failures": 0,
+      "consumer": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 407
+      },
+      "tests": "translation\\supplemental\\all-endings-tests.json",
+      "tests_sha256": "dc79575150b5f34209ae16a8176a20a5f14d168a3425fe739628afb4710a018b"
+    },
+    {
+      "name": "legacy-compatibility",
+      "exit_code": 0,
+      "count": 79,
+      "failures": 0,
+      "consumer": {
+        "actual_recursive_xunity_consumer_passed": true,
+        "count": 79
+      },
+      "tests": "runtime\\build\\curtain-call-review\\compatibility-tests.json",
+      "tests_sha256": "d9dc6c367b3937ccfd880d8dd1205c67af01ed07dbb0e92fd019c9e97f173dd1"
+    }
+  ],
+  "consumer_passed_cases_excluding_focused_rechecks": 1698,
+  "export_governance_tests_passed": 19,
+  "reading_override_guard_tests_passed": 4,
+  "legacy_fixture_updates": [
+    {
+      "path": "translation\\supplemental\\dialogue-log-depth-tests.json",
+      "cases": 9,
+      "ids": [
+        "dialogue-log-scene-stress-d9737b8e3e87",
+        "dialogue-log-scene-stress-d394d0f4da1e",
+        "dialogue-log-scene-stress-7497d7e20d0d",
+        "dialogue-log-scene-stress-c78c1223d3ab",
+        "dialogue-log-scene-stress-b3e8119484e9",
+        "dialogue-log-scene-stress-44c7fefc4588",
+        "dialogue-log-scene-stress-5a4f436fb696",
+        "dialogue-log-scene-stress-a6efacc740f9",
+        "dialogue-log-scene-stress-3bf866330926"
+      ]
+    },
+    {
+      "path": "translation\\supplemental\\dialogue-log-followup-tests.json",
+      "cases": 42,
+      "ids": [
+        "dialogue-log-single-6466",
+        "dialogue-log-pair-6466",
+        "dialogue-log-pair-6467",
+        "dialogue-log-single-6477",
+        "dialogue-log-pair-6477",
+        "dialogue-log-pair-6478",
+        "dialogue-log-single-6509",
+        "dialogue-log-pair-6509",
+        "dialogue-log-pair-6510",
+        "dialogue-log-single-6545",
+        "dialogue-log-pair-6545",
+        "dialogue-log-pair-6546",
+        "dialogue-log-single-6581",
+        "dialogue-log-pair-6581",
+        "dialogue-log-pair-6582",
+        "dialogue-log-single-6587",
+        "dialogue-log-pair-6587",
+        "dialogue-log-pair-6588",
+        "dialogue-log-single-6619",
+        "dialogue-log-pair-6619",
+        "dialogue-log-pair-6620",
+        "dialogue-log-single-6650",
+        "dialogue-log-pair-6650",
+        "dialogue-log-pair-6651",
+        "dialogue-log-single-6656",
+        "dialogue-log-pair-6656",
+        "dialogue-log-pair-6657",
+        "dialogue-log-single-6709",
+        "dialogue-log-pair-6709",
+        "dialogue-log-pair-6710",
+        "dialogue-log-single-6717",
+        "dialogue-log-pair-6717",
+        "dialogue-log-pair-6718",
+        "dialogue-log-single-6783",
+        "dialogue-log-pair-6783",
+        "dialogue-log-pair-6784",
+        "dialogue-log-single-6834",
+        "dialogue-log-pair-6834",
+        "dialogue-log-pair-6835",
+        "dialogue-log-single-6862",
+        "dialogue-log-pair-6862",
+        "dialogue-log-pair-6863"
+      ]
+    },
+    {
+      "path": "translation\\supplemental\\mixed-log-tests.json",
+      "cases": 28,
+      "ids": [
+        "mixed-all-dialogue-6466-before",
+        "mixed-all-dialogue-6466-after",
+        "mixed-all-dialogue-6477-before",
+        "mixed-all-dialogue-6477-after",
+        "mixed-all-dialogue-6509-before",
+        "mixed-all-dialogue-6509-after",
+        "mixed-all-dialogue-6545-before",
+        "mixed-all-dialogue-6545-after",
+        "mixed-all-dialogue-6581-before",
+        "mixed-all-dialogue-6581-after",
+        "mixed-all-dialogue-6587-before",
+        "mixed-all-dialogue-6587-after",
+        "mixed-all-dialogue-6619-before",
+        "mixed-all-dialogue-6619-after",
+        "mixed-all-dialogue-6650-before",
+        "mixed-all-dialogue-6650-after",
+        "mixed-all-dialogue-6656-before",
+        "mixed-all-dialogue-6656-after",
+        "mixed-all-dialogue-6709-before",
+        "mixed-all-dialogue-6709-after",
+        "mixed-all-dialogue-6717-before",
+        "mixed-all-dialogue-6717-after",
+        "mixed-all-dialogue-6783-before",
+        "mixed-all-dialogue-6783-after",
+        "mixed-all-dialogue-6834-before",
+        "mixed-all-dialogue-6834-after",
+        "mixed-all-dialogue-6862-before",
+        "mixed-all-dialogue-6862-after"
+      ]
+    }
+  ],
+  "legacy_preexisting_failure": {
+    "preexisting_failure_reproduced_with_previous_dictionary": true,
+    "case_id": "dialogue-log-scene-stress-d9737b8e3e87",
+    "previously_installed_correction_ids": [
+      "p06318-d1a781768d22",
+      "a00334-487149ff01bb",
+      "a00335-36a20b5fb547"
+    ],
+    "new_translation_changes_for_this_fixture_repair": 0
+  },
+  "english_sources_stable_ids_order_unchanged": true,
+  "frozen_inputs_raw_outputs_and_prior_semantic_reviews_unchanged": true,
+  "unique_chinese_characters": 2817,
+  "new_chinese_characters": [
+    "缀"
+  ],
+  "removed_chinese_characters": [
+    "蹬"
+  ],
+  "all_chinese_in_existing_font": true,
+  "font_character_list_sha256": "65bfce38a7be1d68969526eff282b777d56244d0436288d4f900975e56ae3cc0",
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "c56adec60a179314d46f3a79467b8d8fc26b8c0bd561c807dfd8861090e9782b",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "712dc12d85dd3a297f168fc010b662bd35dc4538bb2aad57b3b3e5e6b712e0c7",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+    "README.md": "8ce2229bdd305198caa1ba65c3936840ff7dd2539a76f22ec72735ecdd286bc7",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933"
+  },
+  "package_file_count": 40,
+  "package_changes_since_previous_install": [
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt"
+  ],
+  "zip_matches_package": true,
+  "zip_sha256": "12bf29c5ba977442d4c7b13e1ce357283bedbbca2ab35805d00d95e5988bdde3",
+  "online_endpoints_empty": true,
+  "original_game_hashes_match_previous_install": true,
+  "original_game_file_count": 4,
+  "original_game_files": [
+    {
+      "path": "Elsinore.exe",
+      "sha256": "df4fa0642113adec0d1f717a47526084314b3181b5f62a4547fcf05cd318fcf0",
+      "size": 639488
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "sha256": "ccba993e746eef5c51de3eafa4ef3d62efddf463383ba42ec4341e88f4f3a449",
+      "size": 18116096
+    },
+    {
+      "path": "Elsinore_Data/resources.assets",
+      "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd",
+      "size": 6971564
+    },
+    {
+      "path": "Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af",
+      "size": 5664768
+    }
+  ],
+  "installed_dictionary_still_previous_version": false,
+  "saves_accessed": true,
+  "saves_written_by_task": false,
+  "game_installation_modified": true,
+  "main_game_started_by_task": false,
+  "isolated_test_game_started": false,
+  "limitations": [
+    "17条校订已通过真实离线消费者并安装；未启动游戏，不称游戏内像素、逐分支实测或完整剧情E2E通过。",
+    "字体与插件字节未变，复用此前运行验收；存档仅作只读哈希和元数据核对。",
+    "止血比喻按用户选择意译为暂时缓解苦痛，舍去血液意象；保留原文限制，不补写伤口前提。"
+  ],
+  "protected_before_install": [
+    {
+      "scope": "game",
+      "path": "Elsinore.exe",
+      "size": 639488,
+      "modified_ticks": 638456569624335952,
+      "sha256": "df4fa0642113adec0d1f717a47526084314b3181b5f62a4547fcf05cd318fcf0"
+    },
+    {
+      "scope": "game",
+      "path": "UnityPlayer.dll",
+      "size": 18116096,
+      "modified_ticks": 638456569624681746,
+      "sha256": "ccba993e746eef5c51de3eafa4ef3d62efddf463383ba42ec4341e88f4f3a449"
+    },
+    {
+      "scope": "game",
+      "path": "Elsinore_Data/resources.assets",
+      "size": 6971564,
+      "modified_ticks": 638456569624355951,
+      "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd"
+    },
+    {
+      "scope": "game",
+      "path": "Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "size": 5664768,
+      "modified_ticks": 638456569624345957,
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log.json",
+      "size": 76688,
+      "modified_ticks": 639279327387350346,
+      "sha256": "406ba5cd5daf3b35da36b695e14a712036890403ed68618b7befb80f3eebc451"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_2.json",
+      "size": 50556,
+      "modified_ticks": 639279304678952059,
+      "sha256": "494799ee8054dbcfab51510b267aedcfebbb44b2a64b763c070a63a1f96b2760"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_3.json",
+      "size": 103141,
+      "modified_ticks": 639279260057682550,
+      "sha256": "7fa6c2d810887280180f2cdb02352a7766608ee49600ef743f6b36d7707dc19a"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_4.json",
+      "size": 97094,
+      "modified_ticks": 639279234424023927,
+      "sha256": "4f34bab52254fd57198886065c4ce6f67b9f43b1cf7dc9a388f2e7eec07793e4"
+    },
+    {
+      "scope": "save",
+      "path": "game.save",
+      "size": 3240930,
+      "modified_ticks": 639279327292974746,
+      "sha256": "7648a43899a396de5ee7c82f123ff3408f59d52ea4992fbe8b4d1fcd5856c188"
+    },
+    {
+      "scope": "save",
+      "path": "prefs.save",
+      "size": 151,
+      "modified_ticks": 639278270714230428,
+      "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968"
+    },
+    {
+      "scope": "save",
+      "path": "steam_autocloud.vdf",
+      "size": 52,
+      "modified_ticks": 639279321463759368,
+      "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341"
+    },
+    {
+      "scope": "save",
+      "path": "system.cfg",
+      "size": 106,
+      "modified_ticks": 639272247081873704,
+      "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee"
+    }
+  ],
+  "candidate_verification": "runtime/evidence/curtain-call-verification-2026-10-18.json",
+  "offline_validation_reused_from": "runtime/evidence/curtain-call-verification-2026-10-18.json",
+  "installed_changed_dictionary_entries": 17,
+  "installer_used": "tools/patch/install-full.ps1",
+  "backup_created": false,
+  "installed_runtime_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "c56adec60a179314d46f3a79467b8d8fc26b8c0bd561c807dfd8861090e9782b",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "712dc12d85dd3a297f168fc010b662bd35dc4538bb2aad57b3b3e5e6b712e0c7",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0"
+  },
+  "installed_runtime_file_count": 38,
+  "original_game_files_unchanged": true,
+  "original_saves_unchanged": true,
+  "original_save_file_count": 8,
+  "protected_before": [
+    {
+      "scope": "game",
+      "path": "Elsinore.exe",
+      "size": 639488,
+      "modified_ticks": 638456569624335952,
+      "sha256": "df4fa0642113adec0d1f717a47526084314b3181b5f62a4547fcf05cd318fcf0"
+    },
+    {
+      "scope": "game",
+      "path": "UnityPlayer.dll",
+      "size": 18116096,
+      "modified_ticks": 638456569624681746,
+      "sha256": "ccba993e746eef5c51de3eafa4ef3d62efddf463383ba42ec4341e88f4f3a449"
+    },
+    {
+      "scope": "game",
+      "path": "Elsinore_Data/resources.assets",
+      "size": 6971564,
+      "modified_ticks": 638456569624355951,
+      "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd"
+    },
+    {
+      "scope": "game",
+      "path": "Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "size": 5664768,
+      "modified_ticks": 638456569624345957,
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log.json",
+      "size": 76688,
+      "modified_ticks": 639279327387350346,
+      "sha256": "406ba5cd5daf3b35da36b695e14a712036890403ed68618b7befb80f3eebc451"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_2.json",
+      "size": 50556,
+      "modified_ticks": 639279304678952059,
+      "sha256": "494799ee8054dbcfab51510b267aedcfebbb44b2a64b763c070a63a1f96b2760"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_3.json",
+      "size": 103141,
+      "modified_ticks": 639279260057682550,
+      "sha256": "7fa6c2d810887280180f2cdb02352a7766608ee49600ef743f6b36d7707dc19a"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_4.json",
+      "size": 97094,
+      "modified_ticks": 639279234424023927,
+      "sha256": "4f34bab52254fd57198886065c4ce6f67b9f43b1cf7dc9a388f2e7eec07793e4"
+    },
+    {
+      "scope": "save",
+      "path": "game.save",
+      "size": 3240930,
+      "modified_ticks": 639279327292974746,
+      "sha256": "7648a43899a396de5ee7c82f123ff3408f59d52ea4992fbe8b4d1fcd5856c188"
+    },
+    {
+      "scope": "save",
+      "path": "prefs.save",
+      "size": 151,
+      "modified_ticks": 639278270714230428,
+      "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968"
+    },
+    {
+      "scope": "save",
+      "path": "steam_autocloud.vdf",
+      "size": 52,
+      "modified_ticks": 639279321463759368,
+      "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341"
+    },
+    {
+      "scope": "save",
+      "path": "system.cfg",
+      "size": 106,
+      "modified_ticks": 639272247081873704,
+      "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee"
+    }
+  ],
+  "protected_after": [
+    {
+      "scope": "game",
+      "path": "Elsinore.exe",
+      "size": 639488,
+      "modified_ticks": 638456569624335952,
+      "sha256": "df4fa0642113adec0d1f717a47526084314b3181b5f62a4547fcf05cd318fcf0"
+    },
+    {
+      "scope": "game",
+      "path": "UnityPlayer.dll",
+      "size": 18116096,
+      "modified_ticks": 638456569624681746,
+      "sha256": "ccba993e746eef5c51de3eafa4ef3d62efddf463383ba42ec4341e88f4f3a449"
+    },
+    {
+      "scope": "game",
+      "path": "Elsinore_Data/resources.assets",
+      "size": 6971564,
+      "modified_ticks": 638456569624355951,
+      "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd"
+    },
+    {
+      "scope": "game",
+      "path": "Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "size": 5664768,
+      "modified_ticks": 638456569624345957,
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log.json",
+      "size": 76688,
+      "modified_ticks": 639279327387350346,
+      "sha256": "406ba5cd5daf3b35da36b695e14a712036890403ed68618b7befb80f3eebc451"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_2.json",
+      "size": 50556,
+      "modified_ticks": 639279304678952059,
+      "sha256": "494799ee8054dbcfab51510b267aedcfebbb44b2a64b763c070a63a1f96b2760"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_3.json",
+      "size": 103141,
+      "modified_ticks": 639279260057682550,
+      "sha256": "7fa6c2d810887280180f2cdb02352a7766608ee49600ef743f6b36d7707dc19a"
+    },
+    {
+      "scope": "save",
+      "path": "elsinore_log_4.json",
+      "size": 97094,
+      "modified_ticks": 639279234424023927,
+      "sha256": "4f34bab52254fd57198886065c4ce6f67b9f43b1cf7dc9a388f2e7eec07793e4"
+    },
+    {
+      "scope": "save",
+      "path": "game.save",
+      "size": 3240930,
+      "modified_ticks": 639279327292974746,
+      "sha256": "7648a43899a396de5ee7c82f123ff3408f59d52ea4992fbe8b4d1fcd5856c188"
+    },
+    {
+      "scope": "save",
+      "path": "prefs.save",
+      "size": 151,
+      "modified_ticks": 639278270714230428,
+      "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968"
+    },
+    {
+      "scope": "save",
+      "path": "steam_autocloud.vdf",
+      "size": 52,
+      "modified_ticks": 639279321463759368,
+      "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341"
+    },
+    {
+      "scope": "save",
+      "path": "system.cfg",
+      "size": 106,
+      "modified_ticks": 639272247081873704,
+      "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee"
+    }
+  ]
+}

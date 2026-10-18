@@ -77,6 +77,40 @@
         "resources.assets:scenes_endings:208f35f21b8b",
         "Assembly-CSharp.dll:#US:775355"
       ]
+    },
+    {
+      "id": "ending-bleeding-bcb25f5b974cd56d",
+      "original_id": "p00859-bcb25f5b974c",
+      "source": "That this life is suffering from start to finish, punctuated by fleeting moments of bliss. Love merely stops the bleeding a while.",
+      "source_sha256": "bcb25f5b974cd56d1ceaff8dc1ce1aa3f2a630bc21555767114dd4aa8d7d1433",
+      "previous_target": "她说，人生从头到尾都是苦难，只有短暂的幸福穿插其中。爱不过是暂时止住流血。",
+      "target": "她说，人生从头到尾都是苦难，幸福只是转瞬即逝的点缀。爱，也只能暂时缓解这些苦痛。",
+      "reason": "用户确认优先自然中文：将突然出现的止血比喻意译为暂时缓解苦痛，保留爱情无法根除人生苦难的限制，不补写前文没有的伤口描写。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_HamletMarriage",
+          "line": 405
+        }
+      ]
+    },
+    {
+      "id": "ending-marriage-ec0ce78e955db6f5",
+      "original_id": "p00866-ec0ce78e955d",
+      "source": "After all, it's a beautiful day for a wedding.",
+      "source_sha256": "ec0ce78e955db6f57a761209061a24bace0d7ae6d03c11bfccdbaa3d7dcd45e7",
+      "previous_target": "毕竟，今天是个适合举行婚礼的好日子。",
+      "target": "毕竟，今天这么美，正适合举行婚礼。",
+      "reason": "用户确认：beautiful day呼应阳光和婚纱的美好场景，After all作为叙述收束，不增写因果理由或自我安慰的潜台词。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_HamletMarriage",
+          "line": 414
+        }
+      ]
     }
   ],
   "titles": []

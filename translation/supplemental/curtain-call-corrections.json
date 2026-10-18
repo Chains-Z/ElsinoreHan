@@ -1,0 +1,272 @@
+[
+  {
+    "id": "curtain-call-fa42c0dc29d417ba",
+    "original_id": "p06312-fa42c0dc29d4",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to end her life.",
+    "source_sha256": "fa42c0dc29d417baae3805648929e1109c95aa9caad6a9ad53162f78e5283feb",
+    "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书结束自己的生命。",
+    "target": "上回说到奥菲莉娅时，她正准备利用命运之书结束自己的生命。",
+    "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Resignation",
+        "line": 17115,
+        "actor": "rosencrantz"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-83f6d2780d008feb",
+    "original_id": "p06353-83f6d2780d00",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to become Queen of Denmark.",
+    "source_sha256": "83f6d2780d008feb0f7fcd2b71a9a96c3875fecfd61e5d601c9e42ccf0724ffe",
+    "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书成为丹麦王后。",
+    "target": "上回说到奥菲莉娅时，她正准备利用命运之书成为丹麦王后。",
+    "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Queen",
+        "line": 17244,
+        "actor": "rosencrantz"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-7d3109b3042dbbec",
+    "original_id": "p06385-7d3109b3042d",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to sail off on Grace O'Malley's stolen vessel.",
+    "source_sha256": "7d3109b3042dbbec3757b24cd63ddc8a5f24d090f823c14fd9e3666b5114459f",
+    "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书，乘着格蕾丝·奥马利偷来的船扬帆远去。",
+    "target": "上回说到奥菲莉娅时，她正准备利用命运之书，乘着格蕾丝·奥马利偷来的船扬帆远去。",
+    "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17346,
+        "actor": "rosencrantz"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-42b7d51ed845f0ae",
+    "original_id": "p06423-42b7d51ed845",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to elope with Othello the barkeep.",
+    "source_sha256": "42b7d51ed845f0aed40f1160acc746745aae0a9d6a6235237c6862f766ee1d2e",
+    "previous_target": "上次我们离开奥菲莉娅时，她正准备利用命运之书，与酒馆老板奥赛罗私奔。",
+    "target": "上回说到奥菲莉娅时，她正准备利用命运之书，与酒馆老板奥赛罗私奔。",
+    "reason": "这是剧情回顾惯用语，不是众人上次在空间上离开女主。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Othello",
+        "line": 17444,
+        "actor": "rosencrantz"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-24ec6f81f18d714f",
+    "original_id": "p06323-24ec6f81f18d",
+    "source": "You are one of the few good things in our life. In all of our lives.",
+    "source_sha256": "24ec6f81f18d714feb6a08b26eadb9567c63991e6c6b6c69b2ca3494ef61583e",
+    "previous_target": "你是我们生命中为数不多的美好之一。我们所有人都是如此。",
+    "target": "你是我们生命中为数不多的美好之一。对我们每个人来说，都是如此。",
+    "reason": "补清后半句承接女主对每个人的意义，避免读成众人也都是美好之一。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Resignation",
+        "line": 17149,
+        "actor": "polonius"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-67e5e8db1a5002ba",
+    "original_id": "a00647-67e5e8db1a50",
+    "source": "<i>Whatever you choose—whatever fate you grant yourself—do not forget that you must live dreaming of the faces you left behind.</i>",
+    "source_sha256": "67e5e8db1a5002ba72c0621b599ec8133fabdc27d06f627c8075b8704401c2b2",
+    "previous_target": "<i>不管你如何选择——不管你给自己怎样的命运——别忘了，今后你仍须活下去，梦里会有那些被你留下的面孔。</i>",
+    "target": "<i>无论你选择什么——无论你赋予自己怎样的命运——都别忘了，此后活着的日子里，那些被你留下的面孔会一直出现在你的梦中。</i>",
+    "reason": "实际斜体源复用已正确的资源译文：此后活着都要梦见留下的人，不是另加必须活下去的劝告。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Pirate",
+        "line": 17428,
+        "actor": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-d64e332232757df0",
+    "original_id": "a00599-d64e33223275",
+    "source": "<i>Do not underestimate the power of a few good years to transform the course of your life...</i>",
+    "source_sha256": "d64e332232757df09a95aef0b57d901ee1c7af50074a22229b4e78ea0a8fe461",
+    "previous_target": "<i>不要小看几段美好年华的力量，它们足以改变你的一生……</i>",
+    "target": "<i>不要小看几年美好时光的力量，它足以改变你的人生轨迹……</i>",
+    "reason": "实际斜体源复用已正确的资源译文，a few good years是几年美好时光，不是几段美好年华。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Othello",
+        "line": 17534,
+        "actor": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-520834f0712b359a",
+    "original_id": "p06479-520834f0712b",
+    "source": "That's... why...",
+    "source_sha256": "520834f0712b359acbcdeefce3e9c18a9ec777644b5f2dfce902b930d2ff6d93",
+    "previous_target": "所以……才……",
+    "target": "所以……",
+    "reason": "保留断续因果开头，与下一句你一定要活下去衔接，删去无着落的才。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_OpheliaLeaves",
+        "line": 17600,
+        "actor": "polonius"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-8768251400ca7076",
+    "original_id": "p06484-8768251400ca",
+    "source": "I want you to find people who love you with all their heart. People who are—good, and whole. Not like me. Not like all of us.",
+    "source_sha256": "8768251400ca7076423bccfc572122ee5999e7c35f0a3b5070675bf3bc379ad1",
+    "previous_target": "我希望你能找到全心全意爱你的人。那些——善良、内心完整的人。别像我。别像我们这些人。",
+    "target": "我希望你能找到全心全意爱你的人。那些——善良、内心完整的人。不像我。不像我们这些人。",
+    "reason": "Not like me承接对那些人的描述，是自省，不是命令女主别像自己。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_OpheliaLeaves",
+        "line": 17611,
+        "actor": "hamlet"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-03d169f26f29c51e",
+    "original_id": "p06530-03d169f26f29",
+    "source": "When we last left Ophelia, she was ready to use the Book of Fates to choose exile for her family from Elsinore forever.",
+    "source_sha256": "03d169f26f29c51ecf3e9da52172a79cc7a73df47a5073953270f6d4003e74a5",
+    "previous_target": "上回说到奥菲莉娅时，她正准备使用《命运之书》，选择让她的家人永远被流放出埃尔西诺。",
+    "target": "上回说到奥菲莉娅时，她正准备使用《命运之书》，选择让她一家人永远被流放出埃尔西诺。",
+    "reason": "一家人包含作出选择的女主，与她和父兄一同离开的结局一致。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Exile",
+        "line": 17734,
+        "actor": "rosencrantz"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-d1e52bc736129ee5",
+    "original_id": "p06537-d1e52bc73612",
+    "source": "If that's the measure of my use to the King and Queen, then what must I do to make them rethink their feelings towards me?",
+    "source_sha256": "d1e52bc736129ee505ff1e3dcf90e4e1871070a3a80eb89a9dcf65549aa22601",
+    "previous_target": "如果这就是我在国王和王后眼中的价值，那我到底要怎么做，才能让他们重新考虑对我的感情？",
+    "target": "如果这就是我在国王和王后眼中的价值，那我到底要怎么做，才能让他们重新看待我？",
+    "reason": "波洛涅斯衡量政治地位与君主评价，feelings towards me译为对我的看法。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Exile",
+        "line": 17754,
+        "actor": "polonius"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-a0c1d919a4f32fa9",
+    "original_id": "p06594-a0c1d919a4f3",
+    "source": "And I'm sure you'll steal a lot <i>more</i> of their pay before you go to your grave kicking, old woman.",
+    "source_sha256": "a0c1d919a4f32fa99beb3c17f63f05a010e08f47fc6822bf49062f0cfeed3ce4",
+    "previous_target": "我相信，在你蹬着腿、不甘心地进坟墓之前，你还会偷走他们<i>更多</i>的军饷，老太婆。",
+    "target": "我相信，在你不甘不愿地咽气之前，你还会偷走他们<i>更多</i>的军饷，老太婆。",
+    "reason": "去世时仍不肯服输的调侃，不直译为蹬腿进坟墓；保留更多的斜体。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_EveryoneSurvives",
+        "line": 17960,
+        "actor": "bernardo"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-0d1deac132094196",
+    "original_id": "p06669-0d1deac13209",
+    "source": "An entire nation's identity must not be snuffed out by the whims of a boy!",
+    "source_sha256": "0d1deac13209419627c175a34b08c4c3e7e47e7c27e33a2c883c88b1bcb71229",
+    "previous_target": "一个国家的全部认同，绝不能被一个毛头小子的任性抹去！",
+    "target": "一个国家的身份认同，绝不能被一个毛头小子的任性抹去！",
+    "reason": "identity为国家的身份认同；entire修饰nation，不是全部认同。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_FortinbrasRules",
+        "line": 18210,
+        "actor": "claudius"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-05cd365c70710bc0",
+    "original_id": "p06643-05cd365c7071",
+    "source": "We are merely passing through, here only for this singular moment in time.",
+    "source_sha256": "05cd365c70710bc0fdf571d36ac27cd1dbec3f56ba910f190be0567aba9b4c09",
+    "previous_target": "我们只是过客，只在此刻短暂停留。",
+    "target": "我们只是过客，只在这奇异的一刻短暂停留。",
+    "reason": "按玩家反馈，singular在生者亡者暂时相聚的语境中取奇异之意，避免独一无二的生硬表达。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Hamlet",
+        "line": 18132,
+        "actor": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-fff520c3dc428df0",
+    "original_id": "a00627-fff520c3dc42",
+    "source": "<i>We are merely passing through, here only for this singular moment in time.</i>",
+    "source_sha256": "fff520c3dc428df0be27176e68918b464fd97adab237b820d31608686a5d5ff4",
+    "previous_target": "<i>我们只是过客，只在这独一无二的片刻停留。</i>",
+    "target": "<i>我们只是过客，只在这奇异的一刻短暂停留。</i>",
+    "reason": "与资源源句同步，保留幽灵实际外层斜体；按玩家反馈采用奇异。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Hamlet",
+        "line": 18132,
+        "actor": "ghost"
+      }
+    ]
+  }
+]

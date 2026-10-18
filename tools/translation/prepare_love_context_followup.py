@@ -4,6 +4,7 @@ import json
 import re
 
 from audit_dialect_dialogue import extract_rows
+from export_sol_full import apply_supplemental
 from prepare_dialogue_log_followup import (
     DIALOGUE, GAME_RESOURCE, ROOT, SCENE, dialogue_source, digest, read,
     read_text_assets, save, short_name,
@@ -19,12 +20,19 @@ def main():
     review = read(ROOT / "translation/supplemental/love-context-review.json")
     corrections = read(ROOT / "translation/supplemental/love-context-corrections.json")
     reviewed = {row["source"]: row for row in review["entries"]}
+    # 原审查记录保持快照；后续修正只能凭源哈希和准确旧值承接，不用当前输出倒推预期。
+    effective_review = review["entries"]
+    for filename in ("curtain-call-corrections.json", "ending-marriage-corrections.json"):
+        effective_review = apply_supplemental(effective_review, [
+            row for row in read(ROOT / "translation/supplemental" / filename)
+            if row["source"] in reviewed
+        ])
     actual = {row["source"] for row in translations
               if re.search(review["word_pattern"], row["source"], re.I)}
     assert len(actual) == len(reviewed) == len(review["entries"]) == 431
     assert actual == set(reviewed)
     cases = []
-    for index, row in enumerate(review["entries"]):
+    for index, row in enumerate(effective_review):
         assert digest(row["source"]) == row["source_sha256"] and row["origins"]
         assert targets[row["source"]]["id"] == row["id"]
         assert targets[row["source"]]["target"] == row["target"]
