@@ -7,7 +7,7 @@ from source_variant_generation import project_subset, reading_overrides
 
 
 DIRECTORY = ROOT / "translation/supplemental"
-LAYERS = ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json", "playmaster-title-corrections.json", "victory-dinner-corrections.json", "playmaster-tone-corrections.json")
+LAYERS = ("ending-style-corrections.json", "ghost-regret-corrections.json", "source-variant-corrections.json", "place-and-dialogue-corrections.json", "playmaster-title-corrections.json", "victory-dinner-corrections.json", "playmaster-tone-corrections.json", "post-burn-dialogue-corrections.json")
 
 
 def project_current(rows):

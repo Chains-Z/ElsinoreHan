@@ -1,0 +1,4285 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-19",
+  "scope": "只读资源与程序集、原IL布尔分支重放、真实XUnity离线文字消费者；未启动游戏、未读取或修改玩家存档、未安装",
+  "source_files": [
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Assembly-CSharp.dll",
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\Managed\\Elsinore.dll",
+      "sha256": "b2e9262cad8d73b3e0afe643277560be5e5e04f01ded55573755ea56b17b8bd4"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\resources.assets",
+      "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\Elsinore_Data\\level1",
+      "sha256": "346dbdd37e25e69de3c470a2cd138630bd68cd6fe3c66e8b8770eed043945ef2"
+    },
+    {
+      "path": "D:\\MyProjects\\ElsinoreHan\\translation\\sol-full-2026-10-09\\translations.json",
+      "sha256": "9e8dd1e6aedf08653e03854dbb212db4099f1fe8783ef6bdcff67a51c1d8a0df"
+    },
+    {
+      "path": "D:\\MyProjects\\ElsinoreHan\\translation\\sol-full-2026-10-09\\dynamic-rules.json",
+      "sha256": "d4a70e405457c460f53112a9b13848fddf148fecb6545daef674f998dbcba2fc"
+    },
+    {
+      "path": "D:\\SteamLibrary\\steamapps\\common\\Elsinore\\BepInEx\\Translation\\zh-CN\\Text\\ElsinoreHan-Sol.txt",
+      "sha256": "1ba63dd0fe00be3f22abb78a95dcc228b3a1640224f2ae22490399672bad22ac"
+    }
+  ],
+  "endings_asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+  "scenes_asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+  "key_methods": [
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "EndingBookObject",
+      "name": "System.Void EndingBookObject::Initialize(IGameInfo)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: ldarg.1",
+        "IL_0002: callvirt System.Boolean IGameInfo::get_IsNonMainGame()",
+        "IL_0007: brtrue.s IL_0044",
+        "IL_0009: ldarg.1",
+        "IL_000a: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_000f: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_0014: call Agakme.GroundAtom Elsinore.Game.Model/Atom::get_HaveEndingBook()",
+        "IL_0019: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_001e: brfalse.s IL_0044",
+        "IL_0020: ldarg.1",
+        "IL_0021: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0026: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_002b: ldstr \"END_JoinQuince\"",
+        "IL_0030: newobj System.Void Elsinore.Game.EndingId::.ctor(System.String)",
+        "IL_0035: call Agakme.GroundAtom Elsinore.Game.Model/Atom::EndingViewed(Elsinore.Game.EndingId)",
+        "IL_003a: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_003f: ldc.i4.0",
+        "IL_0040: ceq",
+        "IL_0042: br.s IL_0045",
+        "IL_0044: ldc.i4.0",
+        "IL_0045: call System.Void EndingBookObject::set_BookEnabled(System.Boolean)",
+        "IL_004a: ldarg.0",
+        "IL_004b: call UnityEngine.Transform UnityEngine.Component::get_transform()",
+        "IL_0050: ldc.i4.0",
+        "IL_0051: callvirt UnityEngine.Transform UnityEngine.Transform::GetChild(System.Int32)",
+        "IL_0056: callvirt !!0 UnityEngine.Component::GetComponent<UnityEngine.MeshRenderer>()",
+        "IL_005b: ldarg.0",
+        "IL_005c: call System.Boolean EndingBookObject::get_BookEnabled()",
+        "IL_0061: callvirt System.Void UnityEngine.Renderer::set_enabled(System.Boolean)",
+        "IL_0066: ldarg.0",
+        "IL_0067: call !!0 UnityEngine.Component::GetComponent<UnityEngine.BoxCollider>()",
+        "IL_006c: ldarg.0",
+        "IL_006d: call System.Boolean EndingBookObject::get_BookEnabled()",
+        "IL_0072: callvirt System.Void UnityEngine.Collider::set_enabled(System.Boolean)",
+        "IL_0077: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "EndingBookObject",
+      "name": "System.Void EndingBookObject::Interact(Elsinore.Ui.AllTheGui/UiTransitions)",
+      "il": [
+        "IL_0000: ldarg.0",
+        "IL_0001: call System.Boolean EndingBookObject::get_BookEnabled()",
+        "IL_0006: brfalse.s IL_000f",
+        "IL_0008: ldarga.s t",
+        "IL_000a: call System.Void Elsinore.Ui.AllTheGui/UiTransitions::ActivateBook()",
+        "IL_000f: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "Elsinore.Ui.EndingSelectUI",
+      "name": "System.Void Elsinore.Ui.EndingSelectUI::Elsinore.Ui.IActivatableModalCanvas.Activate()",
+      "il": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_000a: dup",
+        "IL_000b: callvirt Elsinore.Game.ElsinoreData IGameInfo::get_Data()",
+        "IL_0010: callvirt Elsinore.Game.EndingList Elsinore.Game.ElsinoreData::get_Endings()",
+        "IL_0015: callvirt Elsinore.Game.Ending[] Elsinore.Game.EndingList::get_List()",
+        "IL_001a: stloc.0",
+        "IL_001b: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0020: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_0025: stloc.1",
+        "IL_0026: ldloc.0",
+        "IL_0027: ldsfld System.Func`2<Elsinore.Game.Ending,System.Boolean> Elsinore.Ui.EndingSelectUI/<>c::<>9__38_0",
+        "IL_002c: dup",
+        "IL_002d: brtrue.s IL_0046",
+        "IL_002f: pop",
+        "IL_0030: ldsfld Elsinore.Ui.EndingSelectUI/<>c Elsinore.Ui.EndingSelectUI/<>c::<>9",
+        "IL_0035: ldftn System.Boolean Elsinore.Ui.EndingSelectUI/<>c::<Elsinore.Ui.IActivatableModalCanvas.Activate>b__38_0(Elsinore.Game.Ending)",
+        "IL_003b: newobj System.Void System.Func`2<Elsinore.Game.Ending,System.Boolean>::.ctor(System.Object,System.IntPtr)",
+        "IL_0040: dup",
+        "IL_0041: stsfld System.Func`2<Elsinore.Game.Ending,System.Boolean> Elsinore.Ui.EndingSelectUI/<>c::<>9__38_0",
+        "IL_0046: call System.Collections.Generic.IEnumerable`1<!!0> System.Linq.Enumerable::Where<Elsinore.Game.Ending>(System.Collections.Generic.IEnumerable`1<!!0>,System.Func`2<!!0,System.Boolean>)",
+        "IL_004b: call !!0[] System.Linq.Enumerable::ToArray<Elsinore.Game.Ending>(System.Collections.Generic.IEnumerable`1<!!0>)",
+        "IL_0050: stloc.2",
+        "IL_0051: ldarg.0",
+        "IL_0052: ldloc.2",
+        "IL_0053: ldlen",
+        "IL_0054: conv.i4",
+        "IL_0055: stfld System.Int32 Elsinore.Ui.EndingSelectUI::TotalPages",
+        "IL_005a: ldarg.0",
+        "IL_005b: ldloc.2",
+        "IL_005c: stfld Elsinore.Game.Ending[] Elsinore.Ui.EndingSelectUI::UnlockedEndings",
+        "IL_0061: ldloc.1",
+        "IL_0062: ldsfld Elsinore.Game.EndingId Elsinore.Ui.EndingSelectUI::ENDING_REVENGE",
+        "IL_0067: call Agakme.GroundAtom Elsinore.Game.Model/Atom::UnlockedEnding(Elsinore.Game.EndingId)",
+        "IL_006c: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0071: brfalse.s IL_0088",
+        "IL_0073: ldloc.1",
+        "IL_0074: ldsfld Elsinore.Game.EndingId Elsinore.Ui.EndingSelectUI::ENDING_REVENGE",
+        "IL_0079: call Agakme.GroundAtom Elsinore.Game.Model/Atom::EndingViewed(Elsinore.Game.EndingId)",
+        "IL_007e: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0083: ldc.i4.0",
+        "IL_0084: ceq",
+        "IL_0086: br.s IL_0089",
+        "IL_0088: ldc.i4.0",
+        "IL_0089: stloc.3",
+        "IL_008a: ldarg.0",
+        "IL_008b: ldfld Elsinore.Ui.ElsinoreButton[] Elsinore.Ui.EndingSelectUI::BurnBookButtons",
+        "IL_0090: stloc.s V_4",
+        "IL_0092: ldc.i4.0",
+        "IL_0093: stloc.s V_5",
+        "IL_0095: br.s IL_00ad",
+        "IL_0097: ldloc.s V_4",
+        "IL_0099: ldloc.s V_5",
+        "IL_009b: ldelem.ref",
+        "IL_009c: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_00a1: ldloc.3",
+        "IL_00a2: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_00a7: ldloc.s V_5",
+        "IL_00a9: ldc.i4.1",
+        "IL_00aa: add",
+        "IL_00ab: stloc.s V_5",
+        "IL_00ad: ldloc.s V_5",
+        "IL_00af: ldloc.s V_4",
+        "IL_00b1: ldlen",
+        "IL_00b2: conv.i4",
+        "IL_00b3: blt.s IL_0097",
+        "IL_00b5: ldarg.0",
+        "IL_00b6: ldc.i4.0",
+        "IL_00b7: call System.Void Elsinore.Ui.EndingSelectUI::populate(System.Int32)",
+        "IL_00bc: ldloc.1",
+        "IL_00bd: ldsfld Elsinore.Game.EndingId Elsinore.Ui.EndingSelectUI::ENDING_REVENGE",
+        "IL_00c2: call Agakme.GroundAtom Elsinore.Game.Model/Atom::EndingViewed(Elsinore.Game.EndingId)",
+        "IL_00c7: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_00cc: brfalse.s IL_00e6",
+        "IL_00ce: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_00d3: callvirt SoundManager ObjectTracker::get_SoundManager()",
+        "IL_00d8: ldstr \"M_Wishing_Well_Instrumental\"",
+        "IL_00dd: ldc.i4.1",
+        "IL_00de: callvirt System.Boolean SoundManager::SetMusicState(System.String,System.Boolean)",
+        "IL_00e3: pop",
+        "IL_00e4: br.s IL_00fc",
+        "IL_00e6: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_00eb: callvirt SoundManager ObjectTracker::get_SoundManager()",
+        "IL_00f0: ldstr \"M_Great_Book\"",
+        "IL_00f5: ldc.i4.1",
+        "IL_00f6: callvirt System.Boolean SoundManager::SetMusicState(System.String,System.Boolean)",
+        "IL_00fb: pop",
+        "IL_00fc: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0101: callvirt SoundManager ObjectTracker::get_SoundManager()",
+        "IL_0106: ldstr \"Duck_Ambience\"",
+        "IL_010b: ldnull",
+        "IL_010c: callvirt System.UInt32 SoundManager::PostGlobalEvent(System.String,UnityEngine.GameObject)",
+        "IL_0111: pop",
+        "IL_0112: ldarg.0",
+        "IL_0113: ldc.i4.1",
+        "IL_0114: stfld System.Boolean Elsinore.Ui.EndingSelectUI::isOpen",
+        "IL_0119: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "Elsinore.Ui.EndingSelectUI",
+      "name": "System.Boolean Elsinore.Ui.EndingSelectUI::isEndingBurnt(Elsinore.Game.EndingId)",
+      "il": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_000a: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_000f: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_0014: stloc.0",
+        "IL_0015: ldloc.0",
+        "IL_0016: ldsfld Elsinore.Game.EndingId Elsinore.Ui.EndingSelectUI::ENDING_REVENGE",
+        "IL_001b: call Agakme.GroundAtom Elsinore.Game.Model/Atom::EndingViewed(Elsinore.Game.EndingId)",
+        "IL_0020: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0025: brfalse.s IL_0029",
+        "IL_0027: ldc.i4.1",
+        "IL_0028: ret",
+        "IL_0029: ldloc.0",
+        "IL_002a: ldarg.1",
+        "IL_002b: call Agakme.GroundAtom Elsinore.Game.Model/Atom::EndingViewed(Elsinore.Game.EndingId)",
+        "IL_0030: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0035: brfalse.s IL_0039",
+        "IL_0037: ldc.i4.1",
+        "IL_0038: ret",
+        "IL_0039: ldc.i4.0",
+        "IL_003a: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "Elsinore.Ui.EndingSelectUI",
+      "name": "System.Void Elsinore.Ui.EndingSelectUI::populate(System.Int32)",
+      "il": [
+        "IL_0000: ldarg.1",
+        "IL_0001: ldc.i4.0",
+        "IL_0002: blt IL_01b7",
+        "IL_0007: ldarg.1",
+        "IL_0008: ldarg.0",
+        "IL_0009: ldfld System.Int32 Elsinore.Ui.EndingSelectUI::TotalPages",
+        "IL_000e: bge IL_01b7",
+        "IL_0013: ldarg.0",
+        "IL_0014: ldarg.1",
+        "IL_0015: stfld System.Int32 Elsinore.Ui.EndingSelectUI::CurrentPage",
+        "IL_001a: ldarg.0",
+        "IL_001b: ldfld UnityEngine.GameObject Elsinore.Ui.EndingSelectUI::contentPanel",
+        "IL_0020: ldc.i4.1",
+        "IL_0021: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_0026: ldarg.0",
+        "IL_0027: ldfld Elsinore.Game.Ending[] Elsinore.Ui.EndingSelectUI::UnlockedEndings",
+        "IL_002c: ldarg.1",
+        "IL_002d: ldelem.ref",
+        "IL_002e: stloc.0",
+        "IL_002f: ldarg.0",
+        "IL_0030: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.EndingSelectUI::sacrificeWhatText",
+        "IL_0035: ldloc.0",
+        "IL_0036: callvirt System.String Elsinore.Game.Ending::get_SacrificeWhat()",
+        "IL_003b: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_0040: ldarg.0",
+        "IL_0041: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.EndingSelectUI::sacrificeForText",
+        "IL_0046: ldloc.0",
+        "IL_0047: callvirt System.String Elsinore.Game.Ending::get_SacrificeFor()",
+        "IL_004c: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_0051: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0056: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_005b: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0060: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_0065: ldarg.0",
+        "IL_0066: ldloc.0",
+        "IL_0067: callvirt Elsinore.Game.EndingId Elsinore.Game.Ending::get_Id()",
+        "IL_006c: call System.Boolean Elsinore.Ui.EndingSelectUI::isEndingBurnt(Elsinore.Game.EndingId)",
+        "IL_0071: stloc.1",
+        "IL_0072: ldarg.0",
+        "IL_0073: ldfld UnityEngine.UI.Image Elsinore.Ui.EndingSelectUI::BurntOverlay",
+        "IL_0078: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_007d: ldloc.1",
+        "IL_007e: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_0083: ldloc.0",
+        "IL_0084: callvirt Elsinore.Game.EndingId Elsinore.Game.Ending::get_Id()",
+        "IL_0089: call Agakme.GroundAtom Elsinore.Game.Model/Atom::UnlockedEnding(Elsinore.Game.EndingId)",
+        "IL_008e: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0093: brfalse.s IL_00e6",
+        "IL_0095: ldarg.0",
+        "IL_0096: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.EndingSelectUI::description",
+        "IL_009b: ldloc.0",
+        "IL_009c: callvirt System.String Elsinore.Game.Ending::get_Description()",
+        "IL_00a1: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_00a6: ldarg.0",
+        "IL_00a7: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.EndingSelectUI::RevisitEndingButton",
+        "IL_00ac: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_00b1: ldloc.1",
+        "IL_00b2: ldc.i4.0",
+        "IL_00b3: ceq",
+        "IL_00b5: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_00ba: ldarg.0",
+        "IL_00bb: ldfld UnityEngine.UI.Image Elsinore.Ui.EndingSelectUI::icon",
+        "IL_00c0: ldarg.0",
+        "IL_00c1: ldfld Elsinore.Game.Ending[] Elsinore.Ui.EndingSelectUI::UnlockedEndings",
+        "IL_00c6: ldarg.1",
+        "IL_00c7: ldelem.ref",
+        "IL_00c8: call UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::loadStillForEnding(Elsinore.Game.Ending)",
+        "IL_00cd: callvirt System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)",
+        "IL_00d2: ldarg.0",
+        "IL_00d3: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.EndingSelectUI::gui",
+        "IL_00d8: ldarg.0",
+        "IL_00d9: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.EndingSelectUI::RevisitEndingButton",
+        "IL_00de: callvirt System.Boolean Elsinore.Ui.AllTheGui::SetSelection(UnityEngine.UI.Selectable)",
+        "IL_00e3: pop",
+        "IL_00e4: br.s IL_012c",
+        "IL_00e6: ldarg.0",
+        "IL_00e7: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.EndingSelectUI::description",
+        "IL_00ec: ldstr \"<i>This world has not yet come to pass.</i>\"",
+        "IL_00f1: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_00f6: ldarg.0",
+        "IL_00f7: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.EndingSelectUI::RevisitEndingButton",
+        "IL_00fc: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_0101: ldc.i4.0",
+        "IL_0102: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_0107: ldarg.0",
+        "IL_0108: ldfld UnityEngine.UI.Image Elsinore.Ui.EndingSelectUI::icon",
+        "IL_010d: ldarg.0",
+        "IL_010e: ldfld Elsinore.Game.Ending[] Elsinore.Ui.EndingSelectUI::UnlockedEndings",
+        "IL_0113: ldarg.1",
+        "IL_0114: ldelem.ref",
+        "IL_0115: call UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::loadStillForLockedEnding(Elsinore.Game.Ending)",
+        "IL_011a: callvirt System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)",
+        "IL_011f: ldarg.0",
+        "IL_0120: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.EndingSelectUI::gui",
+        "IL_0125: ldnull",
+        "IL_0126: callvirt System.Boolean Elsinore.Ui.AllTheGui::SetSelection(UnityEngine.UI.Selectable)",
+        "IL_012b: pop",
+        "IL_012c: ldarg.1",
+        "IL_012d: ldc.i4.0",
+        "IL_012e: bge.s IL_0143",
+        "IL_0130: ldarg.0",
+        "IL_0131: ldfld UnityEngine.UI.Image Elsinore.Ui.EndingSelectUI::book",
+        "IL_0136: ldarg.0",
+        "IL_0137: ldfld UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::BookStart",
+        "IL_013c: callvirt System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)",
+        "IL_0141: br.s IL_0188",
+        "IL_0143: ldarg.1",
+        "IL_0144: ldarg.0",
+        "IL_0145: ldfld System.Int32 Elsinore.Ui.EndingSelectUI::TotalPages",
+        "IL_014a: blt.s IL_015f",
+        "IL_014c: ldarg.0",
+        "IL_014d: ldfld UnityEngine.UI.Image Elsinore.Ui.EndingSelectUI::book",
+        "IL_0152: ldarg.0",
+        "IL_0153: ldfld UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::BookEnd",
+        "IL_0158: callvirt System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)",
+        "IL_015d: br.s IL_0188",
+        "IL_015f: ldarg.1",
+        "IL_0160: ldc.i4.2",
+        "IL_0161: rem",
+        "IL_0162: brtrue.s IL_0177",
+        "IL_0164: ldarg.0",
+        "IL_0165: ldfld UnityEngine.UI.Image Elsinore.Ui.EndingSelectUI::book",
+        "IL_016a: ldarg.0",
+        "IL_016b: ldfld UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::BookMid",
+        "IL_0170: callvirt System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)",
+        "IL_0175: br.s IL_0188",
+        "IL_0177: ldarg.0",
+        "IL_0178: ldfld UnityEngine.UI.Image Elsinore.Ui.EndingSelectUI::book",
+        "IL_017d: ldarg.0",
+        "IL_017e: ldfld UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::BookMid2",
+        "IL_0183: callvirt System.Void UnityEngine.UI.Image::set_sprite(UnityEngine.Sprite)",
+        "IL_0188: ldarg.0",
+        "IL_0189: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.EndingSelectUI::PrevPageButton",
+        "IL_018e: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_0193: ldarg.1",
+        "IL_0194: ldc.i4.0",
+        "IL_0195: cgt",
+        "IL_0197: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_019c: ldarg.0",
+        "IL_019d: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.EndingSelectUI::NextPageButton",
+        "IL_01a2: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_01a7: ldarg.1",
+        "IL_01a8: ldarg.0",
+        "IL_01a9: ldfld System.Int32 Elsinore.Ui.EndingSelectUI::TotalPages",
+        "IL_01ae: ldc.i4.1",
+        "IL_01af: sub",
+        "IL_01b0: clt",
+        "IL_01b2: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_01b7: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "Elsinore.Ui.EndingSelectUI/<>c",
+      "name": "System.Boolean Elsinore.Ui.EndingSelectUI/<>c::<Elsinore.Ui.IActivatableModalCanvas.Activate>b__38_0(Elsinore.Game.Ending)",
+      "il": [
+        "IL_0000: ldarg.1",
+        "IL_0001: callvirt System.Boolean Elsinore.Game.Ending::get_IsVisibleInBook()",
+        "IL_0006: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "Elsinore.Ui.GameOverUI",
+      "name": "System.Void Elsinore.Ui.GameOverUI::Activate(System.ValueTuple`3<System.Nullable`1<Elsinore.Game.EndingId>,System.String,Elsinore.Game.GameMode>)",
+      "il": [
+        "IL_0000: newobj System.Void Elsinore.Ui.GameOverUI/<>c__DisplayClass28_0::.ctor()",
+        "IL_0005: stloc.0",
+        "IL_0006: ldloc.0",
+        "IL_0007: ldarg.0",
+        "IL_0008: stfld Elsinore.Ui.GameOverUI Elsinore.Ui.GameOverUI/<>c__DisplayClass28_0::<>4__this",
+        "IL_000d: ldarg.1",
+        "IL_000e: ldfld !0 System.ValueTuple`3<System.Nullable`1<Elsinore.Game.EndingId>,System.String,Elsinore.Game.GameMode>::Item1",
+        "IL_0013: stloc.1",
+        "IL_0014: ldloc.0",
+        "IL_0015: ldarg.1",
+        "IL_0016: ldfld !1 System.ValueTuple`3<System.Nullable`1<Elsinore.Game.EndingId>,System.String,Elsinore.Game.GameMode>::Item2",
+        "IL_001b: stfld System.String Elsinore.Ui.GameOverUI/<>c__DisplayClass28_0::message",
+        "IL_0020: ldarg.1",
+        "IL_0021: ldfld !2 System.ValueTuple`3<System.Nullable`1<Elsinore.Game.EndingId>,System.String,Elsinore.Game.GameMode>::Item3",
+        "IL_0026: stloc.2",
+        "IL_0027: ldarg.0",
+        "IL_0028: ldnull",
+        "IL_0029: stfld Elsinore.Game.Ending Elsinore.Ui.GameOverUI::activeEnding",
+        "IL_002e: ldarg.0",
+        "IL_002f: ldloc.2",
+        "IL_0030: stfld Elsinore.Game.GameMode Elsinore.Ui.GameOverUI::nextMode",
+        "IL_0035: ldarg.0",
+        "IL_0036: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_003b: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_0040: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0045: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_004a: call Agakme.GroundAtom Elsinore.Game.Model/Atom::get_HaveEndingBook()",
+        "IL_004f: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0054: stloc.3",
+        "IL_0055: ldloca.s V_1",
+        "IL_0057: call System.Boolean System.Nullable`1<Elsinore.Game.EndingId>::get_HasValue()",
+        "IL_005c: brfalse.s IL_00bc",
+        "IL_005e: ldarg.0",
+        "IL_005f: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_0064: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_0069: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_006e: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_0073: call Agakme.GroundAtom Elsinore.Game.Model/Atom::get_ForceConfirmEnding()",
+        "IL_0078: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_007d: brfalse.s IL_00bc",
+        "IL_007f: ldarg.0",
+        "IL_0080: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_0085: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_008a: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_008f: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_0094: ldloca.s V_1",
+        "IL_0096: call !0 System.Nullable`1<Elsinore.Game.EndingId>::get_Value()",
+        "IL_009b: callvirt Elsinore.Game.Ending Elsinore.Game.DataLookup::Ending(Elsinore.Game.EndingId)",
+        "IL_00a0: stloc.s V_4",
+        "IL_00a2: ldarg.0",
+        "IL_00a3: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_00a8: ldarg.0",
+        "IL_00a9: ldfld Elsinore.Ui.AllTheGui/UiTransitions Elsinore.Ui.GameOverUI::transitioner",
+        "IL_00ae: ldloc.s V_4",
+        "IL_00b0: callvirt Elsinore.Game.EndingId Elsinore.Game.Ending::get_Id()",
+        "IL_00b5: ldc.i4.0",
+        "IL_00b6: callvirt System.Void ImTheBoss::SelectEnding(Elsinore.Ui.AllTheGui/UiTransitions,Elsinore.Game.EndingId,Elsinore.Game.FadeColor)",
+        "IL_00bb: ret",
+        "IL_00bc: ldloc.3",
+        "IL_00bd: brfalse IL_02c5",
+        "IL_00c2: ldloca.s V_1",
+        "IL_00c4: call System.Boolean System.Nullable`1<Elsinore.Game.EndingId>::get_HasValue()",
+        "IL_00c9: brfalse IL_02c5",
+        "IL_00ce: ldarg.0",
+        "IL_00cf: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_00d4: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_00d9: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_00de: callvirt Elsinore.Game.DataLookup Elsinore.Game.GameState::get_Lookup()",
+        "IL_00e3: ldloca.s V_1",
+        "IL_00e5: call !0 System.Nullable`1<Elsinore.Game.EndingId>::get_Value()",
+        "IL_00ea: callvirt Elsinore.Game.Ending Elsinore.Game.DataLookup::Ending(Elsinore.Game.EndingId)",
+        "IL_00ef: stloc.s V_5",
+        "IL_00f1: ldarg.0",
+        "IL_00f2: ldloca.s V_1",
+        "IL_00f4: call !0 System.Nullable`1<Elsinore.Game.EndingId>::get_Value()",
+        "IL_00f9: call System.Boolean Elsinore.Ui.GameOverUI::isEndingBurnt(Elsinore.Game.EndingId)",
+        "IL_00fe: stloc.s V_6",
+        "IL_0100: ldarg.0",
+        "IL_0101: ldloc.s V_5",
+        "IL_0103: stfld Elsinore.Game.Ending Elsinore.Ui.GameOverUI::activeEnding",
+        "IL_0108: ldarg.0",
+        "IL_0109: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_010e: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_0113: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0118: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_011d: ldloca.s V_1",
+        "IL_011f: call !0 System.Nullable`1<Elsinore.Game.EndingId>::get_Value()",
+        "IL_0124: call Agakme.GroundAtom Elsinore.Game.Model/Atom::UnlockedEnding(Elsinore.Game.EndingId)",
+        "IL_0129: callvirt Agakme.Logic/Origin Agakme.Logic/LogicState::ProvenanceOf(Agakme.GroundAtom)",
+        "IL_012e: callvirt System.Int32 Agakme.Logic/Origin::get_Loop()",
+        "IL_0133: ldarg.0",
+        "IL_0134: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_0139: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_013e: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0143: callvirt Elsinore.Game.Scheduler/ScheduleState Elsinore.Game.GameState::get_Schedule()",
+        "IL_0148: callvirt Elsinore.Game.GameTime Elsinore.Game.Scheduler/ScheduleState::get_GameTime()",
+        "IL_014d: stloc.s V_8",
+        "IL_014f: ldloca.s V_8",
+        "IL_0151: call System.Int32 Elsinore.Game.GameTime::get_Loop()",
+        "IL_0156: ceq",
+        "IL_0158: stloc.s V_7",
+        "IL_015a: ldc.i4.0",
+        "IL_015b: stloc.s V_9",
+        "IL_015d: br.s IL_0183",
+        "IL_015f: ldarg.0",
+        "IL_0160: ldfld UnityEngine.CanvasGroup[] Elsinore.Ui.GameOverUI::elementsToFadeIn",
+        "IL_0165: ldloc.s V_9",
+        "IL_0167: ldelem.ref",
+        "IL_0168: ldloc.s V_7",
+        "IL_016a: brtrue.s IL_0173",
+        "IL_016c: ldc.r4 1",
+        "IL_0171: br.s IL_0178",
+        "IL_0173: ldc.r4 0",
+        "IL_0178: callvirt System.Void UnityEngine.CanvasGroup::set_alpha(System.Single)",
+        "IL_017d: ldloc.s V_9",
+        "IL_017f: ldc.i4.1",
+        "IL_0180: add",
+        "IL_0181: stloc.s V_9",
+        "IL_0183: ldloc.s V_9",
+        "IL_0185: ldarg.0",
+        "IL_0186: ldfld UnityEngine.CanvasGroup[] Elsinore.Ui.GameOverUI::elementsToFadeIn",
+        "IL_018b: ldlen",
+        "IL_018c: conv.i4",
+        "IL_018d: blt.s IL_015f",
+        "IL_018f: ldarg.0",
+        "IL_0190: ldfld UnityEngine.UI.Image Elsinore.Ui.GameOverUI::BurntEndingUnlockOverlay",
+        "IL_0195: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_019a: ldloc.s V_6",
+        "IL_019c: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_01a1: ldarg.0",
+        "IL_01a2: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.GameOverUI::FateUnlockedHeader",
+        "IL_01a7: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_01ac: ldloc.s V_7",
+        "IL_01ae: brfalse.s IL_01b7",
+        "IL_01b0: ldloc.s V_6",
+        "IL_01b2: ldc.i4.0",
+        "IL_01b3: ceq",
+        "IL_01b5: br.s IL_01b8",
+        "IL_01b7: ldc.i4.0",
+        "IL_01b8: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_01bd: ldarg.0",
+        "IL_01be: ldfld UnityEngine.UI.Image Elsinore.Ui.GameOverUI::EndingUnlockPage",
+        "IL_01c3: call System.Void Elsinore.Ui.GuiUtils::EnableChildAndDisableOthers<UnityEngine.UI.Image>(T)",
+        "IL_01c8: ldarg.0",
+        "IL_01c9: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.GameOverUI::EndingTitleWhat",
+        "IL_01ce: ldloc.s V_5",
+        "IL_01d0: callvirt System.String Elsinore.Game.Ending::get_SacrificeWhat()",
+        "IL_01d5: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_01da: ldarg.0",
+        "IL_01db: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.GameOverUI::EndingTitleFor",
+        "IL_01e0: ldloc.s V_5",
+        "IL_01e2: callvirt System.String Elsinore.Game.Ending::get_SacrificeFor()",
+        "IL_01e7: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_01ec: ldarg.0",
+        "IL_01ed: ldfld TMPro.TextMeshProUGUI Elsinore.Ui.GameOverUI::EndingDescription",
+        "IL_01f2: ldloc.s V_5",
+        "IL_01f4: callvirt System.String Elsinore.Game.Ending::get_Description()",
+        "IL_01f9: callvirt System.Void TMPro.TMP_Text::set_text(System.String)",
+        "IL_01fe: ldstr \"newly unlocked? {0}\"",
+        "IL_0203: ldloc.s V_7",
+        "IL_0205: box System.Boolean",
+        "IL_020a: call System.String System.String::Format(System.String,System.Object)",
+        "IL_020f: call System.Void UnityEngine.Debug::Log(System.Object)",
+        "IL_0214: ldarg.0",
+        "IL_0215: ldfld ImTheBoss Elsinore.Ui.GameOverUI::boss",
+        "IL_021a: callvirt IGameInfo ImTheBoss::get_Info()",
+        "IL_021f: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_0224: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_0229: call Agakme.GroundAtom Elsinore.Game.Model/Atom::get_SceneAccessedFromEndingUi()",
+        "IL_022e: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0233: ldc.i4.0",
+        "IL_0234: ceq",
+        "IL_0236: ldloc.s V_6",
+        "IL_0238: or",
+        "IL_0239: brfalse.s IL_024e",
+        "IL_023b: ldarg.0",
+        "IL_023c: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.GameOverUI::ConfirmEndingButton",
+        "IL_0241: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_0246: ldc.i4.0",
+        "IL_0247: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_024c: br.s IL_025f",
+        "IL_024e: ldarg.0",
+        "IL_024f: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.GameOverUI::ConfirmEndingButton",
+        "IL_0254: callvirt UnityEngine.GameObject UnityEngine.Component::get_gameObject()",
+        "IL_0259: ldc.i4.1",
+        "IL_025a: callvirt System.Void UnityEngine.GameObject::SetActive(System.Boolean)",
+        "IL_025f: ldloc.s V_7",
+        "IL_0261: brfalse.s IL_02b2",
+        "IL_0263: ldarg.0",
+        "IL_0264: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.GameOverUI::allTheGui",
+        "IL_0269: ldnull",
+        "IL_026a: callvirt System.Boolean Elsinore.Ui.AllTheGui::SetSelection(UnityEngine.UI.Selectable)",
+        "IL_026f: pop",
+        "IL_0270: ldloc.s V_6",
+        "IL_0272: brtrue.s IL_028d",
+        "IL_0274: ldarg.0",
+        "IL_0275: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.GameOverUI::allTheGui",
+        "IL_027a: ldarg.0",
+        "IL_027b: ldfld UnityEngine.CanvasGroup[] Elsinore.Ui.GameOverUI::elementsToFadeIn",
+        "IL_0280: ldc.i4.1",
+        "IL_0281: ldelem.ref",
+        "IL_0282: ldc.r4 1",
+        "IL_0287: ldnull",
+        "IL_0288: callvirt System.Void Elsinore.Ui.AllTheGui::FadeInCanvasGroup(UnityEngine.CanvasGroup,System.Single,System.Action)",
+        "IL_028d: ldarg.0",
+        "IL_028e: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.GameOverUI::allTheGui",
+        "IL_0293: ldarg.0",
+        "IL_0294: ldfld UnityEngine.CanvasGroup[] Elsinore.Ui.GameOverUI::elementsToFadeIn",
+        "IL_0299: ldc.i4.0",
+        "IL_029a: ldelem.ref",
+        "IL_029b: ldc.r4 0.02",
+        "IL_02a0: ldloc.0",
+        "IL_02a1: ldftn System.Void Elsinore.Ui.GameOverUI/<>c__DisplayClass28_0::<Activate>b__2()",
+        "IL_02a7: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+        "IL_02ac: callvirt System.Void Elsinore.Ui.AllTheGui::FadeInCanvasGroup(UnityEngine.CanvasGroup,System.Single,System.Action)",
+        "IL_02b1: ret",
+        "IL_02b2: ldarg.0",
+        "IL_02b3: ldfld Elsinore.Ui.AllTheGui Elsinore.Ui.GameOverUI::allTheGui",
+        "IL_02b8: ldarg.0",
+        "IL_02b9: ldfld Elsinore.Ui.ElsinoreButton Elsinore.Ui.GameOverUI::CancelEndingButton",
+        "IL_02be: callvirt System.Boolean Elsinore.Ui.AllTheGui::SetSelection(UnityEngine.UI.Selectable)",
+        "IL_02c3: pop",
+        "IL_02c4: ret",
+        "IL_02c5: ldarg.0",
+        "IL_02c6: call System.Void Elsinore.Ui.GuiUtils::DisableAllChildren<Elsinore.Ui.GameOverUI>(T)",
+        "IL_02cb: ldarg.0",
+        "IL_02cc: ldflda Elsinore.Ui.AllTheGui/UiTransitions Elsinore.Ui.GameOverUI::transitioner",
+        "IL_02d1: ldc.i4.0",
+        "IL_02d2: ldc.r4 2",
+        "IL_02d7: ldc.r4 1",
+        "IL_02dc: ldloc.0",
+        "IL_02dd: ldftn System.Void Elsinore.Ui.GameOverUI/<>c__DisplayClass28_0::<Activate>b__0()",
+        "IL_02e3: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+        "IL_02e8: ldsfld System.Action Elsinore.Ui.GameOverUI/<>c::<>9__28_1",
+        "IL_02ed: dup",
+        "IL_02ee: brtrue.s IL_0307",
+        "IL_02f0: pop",
+        "IL_02f1: ldsfld Elsinore.Ui.GameOverUI/<>c Elsinore.Ui.GameOverUI/<>c::<>9",
+        "IL_02f6: ldftn System.Void Elsinore.Ui.GameOverUI/<>c::<Activate>b__28_1()",
+        "IL_02fc: newobj System.Void System.Action::.ctor(System.Object,System.IntPtr)",
+        "IL_0301: dup",
+        "IL_0302: stsfld System.Action Elsinore.Ui.GameOverUI/<>c::<>9__28_1",
+        "IL_0307: call System.Void Elsinore.Ui.AllTheGui/UiTransitions::FadeUiToAndBack(Elsinore.Game.FadeColor,System.Single,System.Single,System.Action,System.Action)",
+        "IL_030c: ret"
+      ]
+    },
+    {
+      "assembly": "Assembly-CSharp.dll",
+      "type": "Elsinore.Ui.GameOverUI",
+      "name": "System.Boolean Elsinore.Ui.GameOverUI::isEndingBurnt(Elsinore.Game.EndingId)",
+      "il": [
+        "IL_0000: call ObjectTracker ObjectTracker::get_Instance()",
+        "IL_0005: callvirt IGameInfo ObjectTracker::get_Info()",
+        "IL_000a: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+        "IL_000f: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+        "IL_0014: stloc.0",
+        "IL_0015: ldloc.0",
+        "IL_0016: ldsfld Elsinore.Game.EndingId Elsinore.Ui.GameOverUI::ENDING_REVENGE",
+        "IL_001b: call Agakme.GroundAtom Elsinore.Game.Model/Atom::EndingViewed(Elsinore.Game.EndingId)",
+        "IL_0020: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0025: brfalse.s IL_0029",
+        "IL_0027: ldc.i4.1",
+        "IL_0028: ret",
+        "IL_0029: ldloc.0",
+        "IL_002a: ldarg.1",
+        "IL_002b: call Agakme.GroundAtom Elsinore.Game.Model/Atom::EndingViewed(Elsinore.Game.EndingId)",
+        "IL_0030: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+        "IL_0035: brfalse.s IL_0039",
+        "IL_0037: ldc.i4.1",
+        "IL_0038: ret",
+        "IL_0039: ldc.i4.0",
+        "IL_003a: ret"
+      ]
+    }
+  ],
+  "state_references": [
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 4723,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 4824,
+      "text": "        [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 4851,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 6275,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 6303,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 6354,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "smalltalk",
+      "asset_sha256": "e0618e4f9d84d9630808cfdd3f3e92ca4b617807d91a5f32fd064278438870ed",
+      "line": 230,
+      "text": "        \"condition\": \"shattered(quince)\","
+    },
+    {
+      "asset": "smalltalk",
+      "asset_sha256": "e0618e4f9d84d9630808cfdd3f3e92ca4b617807d91a5f32fd064278438870ed",
+      "line": 237,
+      "text": "        \"condition\": \"shattered(quince)\","
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 129,
+      "text": "if previously anyEndingConfirmed && not viewedEnding(END_Revenge):"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 174,
+      "text": "if viewedEnding(END_Revenge):"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 175,
+      "text": "    assert shattered(quince)"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 510,
+      "text": "elif viewedEnding(END_Revenge):"
+    },
+    {
+      "asset": "musiccues",
+      "asset_sha256": "198abad9ba0bbc2ac99c6b062c472cbcf659b46c01e775986037875ab04ad3f0",
+      "line": 55,
+      "text": "        \"condition\": [\"occurred(SC_SPINE_OpheliaHamletStarter)\",\"CurrentTime < Time(1,13,00)\",\"not demontripped\",\"not dead(hamlet)\",\"not dead(claudius)\",\"not dead(gertrude)\",\"not dead(polonius)\",\"not viewedEnding(END_JoinQuince)\",\"not viewedEnding(END_Revenge)\"],"
+    },
+    {
+      "asset": "smalltalk",
+      "asset_sha256": "0122007f2e4f20d2e1e0e3109dbde358cbb1d6215f258c05b82f7d90778106f7",
+      "line": 237,
+      "text": "        \"condition\": \"shattered(quince)\","
+    }
+  ],
+  "visible_sources": [
+    {
+      "source": "STRUGGLE",
+      "source_sha256": "6182ca1c18bb8c2ac552c38eb9b79832044f859e34e85911f46e8afd3732f9d7",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Resignation",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-6182ca1c18bb8c2a",
+      "target": "挣扎",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "RELIEF",
+      "source_sha256": "2e61d805164cb7f0b598bfc7948adb401d9cea76bc9ea301e5c6a016d5e0e72a",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Resignation",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-2e61d805164cb7f0",
+      "target": "解脱",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "This world wishes I had died. That was my original fate.\nI could accept the way things were meant to be.\nA simple fate. One where I follow the story to its end.",
+      "source_sha256": "d0e223dab5b7b6e1d9ceb10cac6d406dae86fd2c280fad42ea59e11869bfe8ed",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Resignation",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00962-d0e223dab5b7",
+      "target": "这个世界希望我已经死去。那是我原本的命运。\n我可以接受一切原本注定的样子。\n一个简单的命运。我只需沿着故事走到结局。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "PRESTIGE",
+      "source_sha256": "d509f3ddd511711c7bd37ea54bf781a0a852dafaa635d9be0bf0e458c60cc59d",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Exile",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-d509f3ddd511711c",
+      "target": "地位",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "FAMILY",
+      "source_sha256": "0c0a9c87f940fd2515de33cd4f067210555049dc69ded4eaa40b8dff3dc60bf5",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Exile",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-0c0a9c87f940fd25",
+      "target": "家人",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "My family and I could leave Elsinore behind forever.\nWe are utterly without land, coffers, or a way to get by.\nBut at least we'd have each other.",
+      "source_sha256": "2139f6c1c6c2a4083edcb7b9d88b1f91a467b3dbed6f20dcee4e982031166091",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Exile",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00963-2139f6c1c6c2",
+      "target": "我和家人可以永远离开埃尔西诺。\n我们没有土地，没有钱财，也没有谋生的办法。\n但至少，我们还能彼此相依。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "INNOCENCE",
+      "source_sha256": "48ce635e4a058fae03b9ffeaab9347a6d5a8b9c32a7f55889b7eb0ad99bbe4d9",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Queen",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-48ce635e4a058fae",
+      "target": "纯真",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "POWER",
+      "source_sha256": "10149aa571ab7f5f987c9fec11ed8062491e6fee2cd7fa0e3058088af42a0f2a",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Queen",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-10149aa571ab7f5f",
+      "target": "权力",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "The Queen is dead. Long live the Queen.\nIf I sat on the throne, I could create nearly any world I liked.\nBut that sort of power comes with a price.",
+      "source_sha256": "4197d8fc51e7e2b7ff9ea01609c46a2e4a86dee05c606859d41e7addeefe899e",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Queen",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00964-4197d8fc51e7",
+      "target": "王后已死。女王万岁。\n如果我坐上王位，几乎就能创造任何我想要的世界。\n但这样的权力，是有代价的。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "MORTALITY",
+      "source_sha256": "b0d7824580e202b6217a7833f2d8eeb60ba7508eaa59f990d852845f99cb208b",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_JoinQuince",
+          "field": "sacrifice-what",
+          "inbook": false
+        }
+      ],
+      "translation_id": "ui-ending-b0d7824580e202b6",
+      "target": "凡躯",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "GODHOOD",
+      "source_sha256": "d4b7bdb35a75579cef000e9e85075a78def0c3efabf83f50e707977e2115f236",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_JoinQuince",
+          "field": "sacrifice-for",
+          "inbook": false
+        }
+      ],
+      "translation_id": "ui-ending-d4b7bdb35a75579c",
+      "target": "神格",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I was always meant to rise beyond this world.\nBesides, there isn't a way back. Not anymore.\nNot after what I've done.",
+      "source_sha256": "f5d6db23b54fa4d10351f492c575ed259f24733bbd14f76caaeb780d7752c336",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_JoinQuince",
+          "field": "description",
+          "inbook": false
+        }
+      ],
+      "translation_id": "p00965-f5d6db23b54f",
+      "target": "我本就注定要超越这个世界。\n况且，已经没有回头路了。再也没有了。\n做过那些事后，我就回不去了。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "FAMILY",
+      "source_sha256": "0c0a9c87f940fd2515de33cd4f067210555049dc69ded4eaa40b8dff3dc60bf5",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_HamletMarriage",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-0c0a9c87f940fd25",
+      "target": "家人",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "LEGACY",
+      "source_sha256": "6e779d3634705ea2ed91ee059566ec7290b305ef850ef3664f6ad2e63a27d5e9",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_HamletMarriage",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-6e779d3634705ea2",
+      "target": "基业",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Hamlet will make a good King... with me at his side, that is.\nStill, this world would cost me my family.\nThe heaviest price at all.",
+      "source_sha256": "dbeb4c87dccbec2bef634d6f7ac5db21dd8a4aaf683643940207e7403ec233cd",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_HamletMarriage",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00966-dbeb4c87dccb",
+      "target": "哈姆雷特会成为一位好国王……当然，前提是有我在他身边。\n可这个世界会让我失去家人。\n那是最沉重的代价。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "REALITY",
+      "source_sha256": "54a88dc2544d5c26c1c5fca05ba4f752bdf59200b45f709137ca5e3654c58e8d",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Delusion",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-54a88dc2544d5c26",
+      "target": "现实",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "JOY",
+      "source_sha256": "912a2343d51cdba6e4adc1ab3037c21977d1f9a588d81b7d0553b30ced7542f8",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Delusion",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-912a2343d51cdba6",
+      "target": "欢乐",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I have the power to create the perfect world.\nIt might exist only in my mind, but it'd be real to me.\nSome call it insanity. I call it closure.",
+      "source_sha256": "dfa79adf61c05d08714b1f876dd81a722b3bf9278de654ff056acc3fbea8d8ce",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Delusion",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00967-dfa79adf61c0",
+      "target": "我有能力创造一个完美的世界。\n它也许只存在于我的脑海，但对我而言，它就是真实的。\n有人称之为疯狂。我称之为释怀。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "ETERNITY",
+      "source_sha256": "6c6bb5b5e8b82792f9d1a278ac8ce2da3d561cddcb0fdd331d271822cdb4a74f",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Revenge",
+          "field": "sacrifice-what",
+          "inbook": false
+        }
+      ],
+      "translation_id": "ui-ending-6c6bb5b5e8b82792",
+      "target": "永恒",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "REVENGE",
+      "source_sha256": "acd3082fe5cfba368d661fcee09d1603da7f6021fa800cc8c8cb0e45a853489e",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Revenge",
+          "field": "sacrifice-for",
+          "inbook": false
+        }
+      ],
+      "translation_id": "ui-ending-acd3082fe5cfba36",
+      "target": "复仇",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "No, Quince. You may not leave. Not now. Not ever.\nI'm not your prisoner anymore. You're mine.\nLet's both live out eternity in this hell.",
+      "source_sha256": "41ccfe4c1b0b4c519191d907227c499d6d4597416386294ec450dfe5bbe80691",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Revenge",
+          "field": "description",
+          "inbook": false
+        }
+      ],
+      "translation_id": "p00968-41ccfe4c1b0b",
+      "target": "不，昆斯。你不准离开。现在不准。永远不准。\n我不再是你的囚徒。你才是我的囚徒。\n就让我们一起在这地狱里度过永恒吧。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "PEACE",
+      "source_sha256": "ac75a28e0b60c63eebd039451b4c61a17f82e059a3207d7da29ba6dc43f5bd48",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Survival",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-ac75a28e0b60c63e",
+      "target": "和平",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "SURVIVAL",
+      "source_sha256": "1b9b0dfbd0e8a3beddb40a63654b53437442b11183458c8ef38c820f4f19e1f2",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Survival",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-1b9b0dfbd0e8a3be",
+      "target": "生存",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I found a world where nobody's life was lost.\nFortinbras's assault was repelled... for now.\nBut the fires of war cannot be so easily doused.",
+      "source_sha256": "868f14fd89e74245d72cfcfc2c0862243b6ea2a3ca3b962cc554d1e2d995c779",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Survival",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00969-868f14fd89e7",
+      "target": "我找到了一个无人丧命的世界。\n福丁布拉斯的进攻被击退了……暂时如此。\n但战火没那么容易扑灭。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "PERMANENCE",
+      "source_sha256": "566ee65534b7b9da76e1a08da4deac907c003c25f9d16f1b55cb4cd38e951ea9",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Othello",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-566ee65534b7b9da",
+      "target": "厮守",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "PASSION",
+      "source_sha256": "475bc0f8e2a1553f008a5799870fee9b53a388fe24ad2fd8896923366f4d3bc0",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Othello",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-475bc0f8e2a1553f",
+      "target": "激情",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Othello promised me the world, and I want to take it.\nQuince warned me our time together is fated to end.\nIs brilliant bliss worth the sorrow which follows?",
+      "source_sha256": "901fc81874a5c4f18bf2449183162e36ec71f5e68dc833e8eede3c08f37ef9c5",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Othello",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00970-901fc81874a5",
+      "target": "奥赛罗许诺给我整个世界，而我想接受。\n昆斯警告我，我们相伴的时光注定会结束。\n灿烂的幸福，值得用随之而来的悲伤换取吗？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "PREDICTABILITY",
+      "source_sha256": "22caf04f8068889fcfa5ff1fb9ca6b24c29b517b937718606fda712b4a98a550",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Pirate",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-22caf04f8068889f",
+      "target": "安稳",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "ADVENTURE",
+      "source_sha256": "549f2b17195c6477d67c66ab8863f0275bce28183967a52d39feadb2d6f675f9",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Pirate",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-549f2b17195c6477",
+      "target": "冒险",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I have begun to yearn for the sea.\nGrace may be volatile, but her heart is true.\nWith her at the helm, who knows where we might go?",
+      "source_sha256": "291a6ec860a367c56fc3b124bba43aed190719cab8da18b205ee00f37f4f4b89",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_Pirate",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00971-291a6ec860a3",
+      "target": "我开始向往大海。\n格蕾丝或许喜怒无常，但她的心是真诚的。\n由她掌舵，谁知道我们会去往何方？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "EVERYONE",
+      "source_sha256": "ea2a18cf2730a881c9a90d1b423cac9900554c7cf30901a095b0c9c49384ec22",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_SentAway",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-ea2a18cf2730a881",
+      "target": "众人",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "MYSELF",
+      "source_sha256": "66b09814ebb9e5722cebc5b3b155eb7afd498214195d52595474850d9c60d73d",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_SentAway",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-66b09814ebb9e572",
+      "target": "自己",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Fortinbras' arrival shatters my old life into pieces.\nBut I am left alive. I could leave Elsinore behind.\nWhere would I go if I were beholden to no one?",
+      "source_sha256": "3f8a40330ab62f7c076defa55c76091c082def17018859e8baa76e88f9e08fd9",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_SentAway",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00972-3f8a40330ab6",
+      "target": "福丁布拉斯的到来，将我过去的生活击得粉碎。\n但我还活着。我可以离开埃尔西诺。\n如果不再受任何人牵绊，我会去哪里？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "RESPONSIBILITY",
+      "source_sha256": "51c725aff92818f9e2163fbc356abbef85f1a84deab36723353a7b731b9ffbab",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_RosAndGuil",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-51c725aff92818f9",
+      "target": "责任",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "INDULGENCE",
+      "source_sha256": "151d744d6af7d54ad9d6034f505b86c0182ba33b0f08a87ba5dd049f7e9fa374",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_RosAndGuil",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-151d744d6af7d54a",
+      "target": "享乐",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Guildenstern and Rosencrantz invited me on an adventure.\nAn endless caper, wherever the path might lead.\nLife is short and brutal. Why not have fun?",
+      "source_sha256": "d99e1eddcc85ffa31974b85fece5354e24c3f590aa848fc9d8d95eeee5df64ce",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_RosAndGuil",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00973-d99e1eddcc85",
+      "target": "吉尔登斯吞和罗森克兰兹邀我一起冒险。\n无论道路通向何处，这场嬉闹都永无止境。\n人生短暂而残酷。何不寻些乐趣？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "INDEPENDENCE",
+      "source_sha256": "f0a5e9edf8185929f6a0f8a2c1b8282f7380ce1151f0336810522a2170fc4440",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_FortinbrasPeaceful",
+          "field": "sacrifice-what",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-f0a5e9edf8185929",
+      "target": "独立",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "PEACE",
+      "source_sha256": "ac75a28e0b60c63eebd039451b4c61a17f82e059a3207d7da29ba6dc43f5bd48",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_FortinbrasPeaceful",
+          "field": "sacrifice-for",
+          "inbook": true
+        }
+      ],
+      "translation_id": "ui-ending-ac75a28e0b60c63e",
+      "target": "和平",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Fortinbras will make Hamlet into a beautiful puppet king.\nAll of us will dance at Norway's behest.\nBut if it means we all live on, that might be worth the price.",
+      "source_sha256": "7bfeb776d2b5ea0fc1a3fb00d7b066db1f8a1336a988944b5cfe43530f762a1a",
+      "category": "ending_metadata",
+      "origins": [
+        {
+          "asset": "endings",
+          "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+          "ending_id": "END_FortinbrasPeaceful",
+          "field": "description",
+          "inbook": true
+        }
+      ],
+      "translation_id": "p00974-7bfeb776d2b5",
+      "target": "福丁布拉斯会把哈姆雷特变成一个漂亮的傀儡国王。\n我们所有人都要听从挪威的摆布。\n但如果这能让我们都活下去，也许值得付出这个代价。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Hand of Dionysus",
+      "source_sha256": "e64614142e34c7c8c2cef8e0d1187dd661bdfe8aa696fa5fc7d94eee84037043",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "Elsinore.Ui.TooltipInfo EndingBookObject::Elsinore.Ui.IInteractable.get_Tooltip()",
+          "il_offset": "IL_0000"
+        }
+      ],
+      "translation_id": "a00722-e64614142e34",
+      "target": "狄俄尼索斯之手",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Abandon current timeline and revisit the event that cemented this fate?",
+      "source_sha256": "785eab7b06000e02a2e207dbda93bee393371dd8d3515a58bb6a3cd644b5d4ab",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+          "il_offset": "IL_0167"
+        }
+      ],
+      "translation_id": "a00918-785eab7b0600",
+      "target": "放弃当前时间线，回到决定这一命运的事件？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Take Me There",
+      "source_sha256": "317006dd46cdd777e6283006c2acd5c9c1df99d1ccee4a3f941f24f5d86f4272",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+          "il_offset": "IL_017d"
+        }
+      ],
+      "translation_id": "a00919-317006dd46cd",
+      "target": "带我过去",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Stay",
+      "source_sha256": "08fd1de4b04df4a2fe763ac67ade9d0fd7c65202c49be6adb5397717fa96504e",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+          "il_offset": "IL_019e"
+        }
+      ],
+      "translation_id": "ui-08fd1de4b04df4a2",
+      "target": "留下",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "<b>Sacrifice Choice for Revenge?</b>\nIf you damage the book, you, Quince, and everyone else will be trapped for eternity.\n<b>There will be no going back.</b>",
+      "source_sha256": "45ebd4379b5a6a56766b24d4695e54fb8736148bccc95a5dc8328273210415ba",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+          "il_offset": "IL_0217"
+        }
+      ],
+      "translation_id": "a00920-45ebd4379b5a",
+      "target": "<b>为复仇放弃选择？</b>\n如果你损坏这本书，你、昆斯和其他所有人都会永远被困住。\n<b>再也无法回头。</b>",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Let It Burn",
+      "source_sha256": "5fd8b02279b8b176ae7a694d5a055ded63e5da7876caf4e380c8c1e1bf512c46",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+          "il_offset": "IL_022d"
+        }
+      ],
+      "translation_id": "ui-5fd8b02279b8b176",
+      "target": "任它烧毁",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Back Down",
+      "source_sha256": "9586b0ca9e66efe621d520fc4d44591f965347d41a0846a92c4da9088bdfbb02",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+          "il_offset": "IL_024e"
+        }
+      ],
+      "translation_id": "ui-9586b0ca9e66efe6",
+      "target": "退让",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "<i>This world has not yet come to pass.</i>",
+      "source_sha256": "ab73c7bf5fc64ad156c1d6ce70248816f9094e13230bf1c872839fe48f6c0b23",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.EndingSelectUI::populate(System.Int32)",
+          "il_offset": "IL_00ec"
+        }
+      ],
+      "translation_id": "a00921-ab73c7bf5fc6",
+      "target": "<i>这个世界尚未成为现实。</i>",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Start over from Day 1?",
+      "source_sha256": "5562ce7c9189636107c0b29ced46be157a419280cd38469eeed75573a370ba93",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.GameOverUI::Awake()",
+          "il_offset": "IL_0059"
+        }
+      ],
+      "translation_id": "a00924-5562ce7c9189",
+      "target": "从第1天重新开始？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Try Again",
+      "source_sha256": "df0fe9e00d354b01c502bf2d9c755a2b0d8a1ec3719a389d086ad2f8667ef8f4",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.GameOverUI::Awake()",
+          "il_offset": "IL_0065"
+        }
+      ],
+      "translation_id": "ui-df0fe9e00d354b01",
+      "target": "再试一次",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "This will be inscribed as the true fate of Elsinore Castle, ending you from your endless loop.<br>There will be no turning back.",
+      "source_sha256": "3ec1521ee28ea798835d5282c348d4139b2e68bde43db2bbeb4b6c69680fe353",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.GameOverUI::Awake()",
+          "il_offset": "IL_00a4"
+        }
+      ],
+      "translation_id": "a00925-3ec1521ee28e",
+      "target": "这将被铭刻为埃尔西诺城堡真正的命运，让你摆脱无尽的循环。<br>再也无法回头。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Choose This Ending",
+      "source_sha256": "f50c456477e9dbcf6f82ede0a2e0f5253ab5a5981f43a1c8b7fde3566820f791",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.GameOverUI::Awake()",
+          "il_offset": "IL_00b0"
+        }
+      ],
+      "translation_id": "a00926-f50c456477e9",
+      "target": "选择这个结局",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Not Yet",
+      "source_sha256": "c1038e9506317891fed27c6679255816df905a59c3366138159b6472bd513ab2",
+      "category": "assembly_visible_literal",
+      "origins": [
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void Elsinore.Ui.GameOverUI::Awake()",
+          "il_offset": "IL_00c1"
+        }
+      ],
+      "translation_id": "u00001-c1038e950631",
+      "target": "暂时不要",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Never Mind",
+      "source_sha256": "e6ac897f35beb955b1e7af917606636c39aeaf8aa55d0ff60afec54c5c0f1fe3",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 12955,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 1982300,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00006-e6ac897f35be",
+      "target": "算了",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Choose This Fate",
+      "source_sha256": "8ceddf9600caedae347841659b0a4bb42c2faf1da279c3abd02cb18e6fbe3d2c",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 12956,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 1982940,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00007-8ceddf9600ca",
+      "target": "选择此命运",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "NEW FATE UNLOCKED",
+      "source_sha256": "4d3622f42944a9dab092647f3b37692c2fa49bacb31608077e71ee6b626e2584",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 12958,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 1984228,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00008-4d3622f42944",
+      "target": "已解锁新命运",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Cancel",
+      "source_sha256": "19766ed6ccb2f4a32778eed80d1928d2c87a18d7c275ccb163ec6709d3eb2e27",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 12965,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 1988964,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00000-19766ed6ccb2",
+      "target": "取消",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Revisit this Fate",
+      "source_sha256": "7514746684b1a1d4ff47fc2eae7f0851c83d4cfa3e4dbc8f804a6c0a9967d578",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 12970,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 1992804,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00015-7514746684b1",
+      "target": "重温此命运",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Next Page",
+      "source_sha256": "6ead5dfdc11ef7da26e4c09f348d42a8d6306b7faa54ce0a7dc6c567dab1db6f",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13087,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 2071780,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00070-6ead5dfdc11e",
+      "target": "下一页",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Previous Page",
+      "source_sha256": "a163aaa22cf7ce6c4c2a634f98bef10d0fe0a0602ada2aa50d60b262dc70b2d9",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13094,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 2076228,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00073-a163aaa22cf7",
+      "target": "上一页",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Destroy Book",
+      "source_sha256": "cdb76ea48eb7ee6fa3c7b50c4a11adcbd51352327e78ec642cf8e2e03918ab01",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13096,
+          "class": "TextMeshProUGUI",
+          "component_name": "",
+          "script": {
+            "name": "TextMeshProUGUI",
+            "class": "TextMeshProUGUI",
+            "namespace": "TMPro",
+            "assembly": "Unity.TextMeshPro.dll"
+          },
+          "object_offset": 68,
+          "absolute_offset": 2077500,
+          "field": "m_text"
+        }
+      ],
+      "translation_id": "u00074-cdb76ea48eb7",
+      "target": "销毁书籍",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Next Page",
+      "source_sha256": "6ead5dfdc11ef7da26e4c09f348d42a8d6306b7faa54ce0a7dc6c567dab1db6f",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 13710,
+          "class": "ElsinoreButton",
+          "component_name": "",
+          "script": {
+            "name": "ElsinoreButton",
+            "class": "ElsinoreButton",
+            "namespace": "Elsinore.Ui",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 264,
+          "absolute_offset": 2130432,
+          "field": "tooltip"
+        }
+      ],
+      "translation_id": "u00070-6ead5dfdc11e",
+      "target": "下一页",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Destroy Book",
+      "source_sha256": "cdb76ea48eb7ee6fa3c7b50c4a11adcbd51352327e78ec642cf8e2e03918ab01",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14279,
+          "class": "ElsinoreButton",
+          "component_name": "",
+          "script": {
+            "name": "ElsinoreButton",
+            "class": "ElsinoreButton",
+            "namespace": "Elsinore.Ui",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 264,
+          "absolute_offset": 2181424,
+          "field": "tooltip"
+        }
+      ],
+      "translation_id": "u00074-cdb76ea48eb7",
+      "target": "销毁书籍",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Destroy Book",
+      "source_sha256": "cdb76ea48eb7ee6fa3c7b50c4a11adcbd51352327e78ec642cf8e2e03918ab01",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 14899,
+          "class": "ElsinoreButton",
+          "component_name": "",
+          "script": {
+            "name": "ElsinoreButton",
+            "class": "ElsinoreButton",
+            "namespace": "Elsinore.Ui",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 264,
+          "absolute_offset": 2237168,
+          "field": "tooltip"
+        }
+      ],
+      "translation_id": "u00074-cdb76ea48eb7",
+      "target": "销毁书籍",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Previous Page",
+      "source_sha256": "a163aaa22cf7ce6c4c2a634f98bef10d0fe0a0602ada2aa50d60b262dc70b2d9",
+      "category": "serialized_static_label_or_tooltip",
+      "origins": [
+        {
+          "file": "level1",
+          "path_id": 15000,
+          "class": "ElsinoreButton",
+          "component_name": "",
+          "script": {
+            "name": "ElsinoreButton",
+            "class": "ElsinoreButton",
+            "namespace": "Elsinore.Ui",
+            "assembly": "Assembly-CSharp.dll"
+          },
+          "object_offset": 264,
+          "absolute_offset": 2247496,
+          "field": "tooltip"
+        }
+      ],
+      "translation_id": "u00073-a163aaa22cf7",
+      "target": "上一页",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "<i>Sacrifice</i>",
+      "source_sha256": "139bf30f616c69ce17d4380fc16657f658caa809fd69f7834dbb6c91a70f4a8d",
+      "category": "paper_image_overlay",
+      "origins": [
+        {
+          "contract": "translation/supplemental/ending-burnt-paper-source.json",
+          "consumer": "tools/patch/TranslationToggle.cs EndingBookLabels；沿用1.5.11已安装验证"
+        }
+      ],
+      "translation_id": "ui-ending-139bf30f616c69ce",
+      "target": "<i>舍弃</i>",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "<i>for</i>",
+      "source_sha256": "a2c77ef5c40663bfb70784567e81c6e7a28f1736928a5c967f7e612f19863cb5",
+      "category": "paper_image_overlay",
+      "origins": [
+        {
+          "contract": "translation/supplemental/ending-burnt-paper-source.json",
+          "consumer": "tools/patch/TranslationToggle.cs EndingBookLabels；沿用1.5.11已安装验证"
+        }
+      ],
+      "translation_id": "ui-ending-a2c77ef5c40663bf",
+      "target": "<i>换取</i>",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "...",
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 512,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0c0a"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0e23"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0f73"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10ea"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_1f7b"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_22c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28ab"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2994"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2d0f"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2fd0"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_3792"
+        }
+      ],
+      "translation_id": null,
+      "target": "...",
+      "match": "nonlexical",
+      "installed_exact_encoded_line": null
+    },
+    {
+      "source": "...",
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 512,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0c0a"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0e23"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0f73"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10ea"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_1f7b"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_22c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28ab"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2994"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2d0f"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2fd0"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_3792"
+        }
+      ],
+      "translation_id": null,
+      "target": "...",
+      "match": "nonlexical",
+      "installed_exact_encoded_line": null
+    },
+    {
+      "source": "What number is this? Two thousand? Three?",
+      "source_sha256": "73d7a67e8c87441fc289c8b8002e62892b6d09f2bb511e5890e0fe9f64423fb0",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 513,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28c9"
+        }
+      ],
+      "translation_id": "p01072-73d7a67e8c87",
+      "target": "这是第几次了？两千次？三千次？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "What number is this? Two thousand? Three?",
+      "source_sha256": "73d7a67e8c87441fc289c8b8002e62892b6d09f2bb511e5890e0fe9f64423fb0",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 513,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28c9"
+        }
+      ],
+      "translation_id": "p01072-73d7a67e8c87",
+      "target": "这是第几次了？两千次？三千次？",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I suppose it doesn't really matter anymore.",
+      "source_sha256": "2eea26540a345a62456ae89a3c4208d1a87593759707ca53465d7e3010ec22c9",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 514,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28e7"
+        }
+      ],
+      "translation_id": "p01073-2eea26540a34",
+      "target": "我想，这已经不重要了。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I suppose it doesn't really matter anymore.",
+      "source_sha256": "2eea26540a345a62456ae89a3c4208d1a87593759707ca53465d7e3010ec22c9",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 514,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28e7"
+        }
+      ],
+      "translation_id": "p01073-2eea26540a34",
+      "target": "我想，这已经不重要了。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Enter Hamlet, stage left.",
+      "source_sha256": "0fe62e81bf90606aa6c562e00fb1ff1f430d1e3f45f809b5e10f317f7e024639",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 518,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2924"
+        }
+      ],
+      "translation_id": "p01074-0fe62e81bf90",
+      "target": "哈姆雷特从舞台左侧上场。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Enter Hamlet, stage left.",
+      "source_sha256": "0fe62e81bf90606aa6c562e00fb1ff1f430d1e3f45f809b5e10f317f7e024639",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 518,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2924"
+        }
+      ],
+      "translation_id": "p01074-0fe62e81bf90",
+      "target": "哈姆雷特从舞台左侧上场。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Another round, then.",
+      "source_sha256": "0fc3c557af4112fb57aefccdeb6dfd56a3ef0747522944e53a56ef291c447755",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 520,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2947"
+        }
+      ],
+      "translation_id": "p01075-0fc3c557af41",
+      "target": "那就再来一轮吧。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Another round, then.",
+      "source_sha256": "0fc3c557af4112fb57aefccdeb6dfd56a3ef0747522944e53a56ef291c447755",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 520,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2947"
+        }
+      ],
+      "translation_id": "p01075-0fc3c557af41",
+      "target": "那就再来一轮吧。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Maybe I'll just go back to sleep.",
+      "source_sha256": "e3e0d565d04ec6f41b00dd446bc3ba9b14de6e5a9d4ae93da95b48be1d70ad19",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 524,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2974"
+        }
+      ],
+      "translation_id": "p01076-e3e0d565d04e",
+      "target": "也许我干脆接着睡算了。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Maybe I'll just go back to sleep.",
+      "source_sha256": "e3e0d565d04ec6f41b00dd446bc3ba9b14de6e5a9d4ae93da95b48be1d70ad19",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 524,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2974"
+        }
+      ],
+      "translation_id": "p01076-e3e0d565d04e",
+      "target": "也许我干脆接着睡算了。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "...",
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 526,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0c0a"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0e23"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0f73"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10ea"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_1f7b"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_22c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28ab"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2994"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2d0f"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2fd0"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_3792"
+        }
+      ],
+      "translation_id": null,
+      "target": "...",
+      "match": "nonlexical",
+      "installed_exact_encoded_line": null
+    },
+    {
+      "source": "...",
+      "source_sha256": "ab5df625bc76dbd4e163bed2dd888df828f90159bb93556525c31821b6541d46",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 526,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0c0a"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0e23"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0f73"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10ea"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_1f7b"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_22c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28ab"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2994"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2d0f"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2fd0"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_3792"
+        }
+      ],
+      "translation_id": null,
+      "target": "...",
+      "match": "nonlexical",
+      "installed_exact_encoded_line": null
+    },
+    {
+      "source": "I hope Quince is as bored as I am.",
+      "source_sha256": "3c2d51f5445a92d2da170e83ff1749079f1072ca143a28df29201038856c4fa5",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 527,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_29b2"
+        }
+      ],
+      "translation_id": "p01077-3c2d51f5445a",
+      "target": "希望昆斯也跟我一样无聊。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I hope Quince is as bored as I am.",
+      "source_sha256": "3c2d51f5445a92d2da170e83ff1749079f1072ca143a28df29201038856c4fa5",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 527,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_29b2"
+        }
+      ],
+      "translation_id": "p01077-3c2d51f5445a",
+      "target": "希望昆斯也跟我一样无聊。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Go away, Hamlet.",
+      "source_sha256": "d5d15888c843f17f7d6317615dd831060e5116710470f145d3d77338a2e967ae",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 532,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2a06"
+        }
+      ],
+      "translation_id": "p01078-d5d15888c843",
+      "target": "走开，哈姆雷特。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Go away, Hamlet.",
+      "source_sha256": "d5d15888c843f17f7d6317615dd831060e5116710470f145d3d77338a2e967ae",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 532,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2a06"
+        }
+      ],
+      "translation_id": "p01078-d5d15888c843",
+      "target": "走开，哈姆雷特。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "What? I--",
+      "source_sha256": "76c0ffd836a56f7ba1a556eb9314e6b19336e9934ec9b9dcd043d9caadd78b52",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 538,
+          "actor": "hamlet"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2abf"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2e46"
+        }
+      ],
+      "translation_id": "p01079-76c0ffd836a5",
+      "target": "什么？我——",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "What? I—",
+      "source_sha256": "6e66670cdce0e67fc3afb28390e7f8f55a732a819d82bc1e181865d225bda40e",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 538,
+          "actor": "hamlet"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2abf"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2e46"
+        }
+      ],
+      "translation_id": "ui-6e66670cdce0e67f",
+      "target": "什么？我——",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I know there's no going back from what I did. I don't regret burning that book.",
+      "source_sha256": "4710cc967f32a49eef064b4830ddb2783ace26ac9cce9fe1e13902bd00ac2ca9",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 550,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c06"
+        }
+      ],
+      "translation_id": "p01080-4710cc967f32",
+      "target": "我知道，做了这件事就再也无法回头了。我不后悔烧掉那本书。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "I know there's no going back from what I did. I don't regret burning that book.",
+      "source_sha256": "4710cc967f32a49eef064b4830ddb2783ace26ac9cce9fe1e13902bd00ac2ca9",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 550,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c06"
+        }
+      ],
+      "translation_id": "p01080-4710cc967f32",
+      "target": "我知道，做了这件事就再也无法回头了。我不后悔烧掉那本书。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Every minute of these four days is like the brick of a cell wall. And I've memorized them all.",
+      "source_sha256": "65fd1ec8155621a0f037f7c9bfa3802ab01b3172e78399bcdc9d312169f98a88",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 551,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c24"
+        }
+      ],
+      "translation_id": "p01081-65fd1ec81556",
+      "target": "这四天里的每一分钟，都像牢房墙上的一块砖。而我已经把它们全都记住了。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "Every minute of these four days is like the brick of a cell wall. And I've memorized them all.",
+      "source_sha256": "65fd1ec8155621a0f037f7c9bfa3802ab01b3172e78399bcdc9d312169f98a88",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 551,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c24"
+        }
+      ],
+      "translation_id": "p01081-65fd1ec81556",
+      "target": "这四天里的每一分钟，都像牢房墙上的一块砖。而我已经把它们全都记住了。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "But it's worth it if Quince can never hurt anyone again.",
+      "source_sha256": "852988458db769b8878ef207ecddd38ee272f6f7837189c0849a5b87d9c8e2aa",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 552,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c42"
+        }
+      ],
+      "translation_id": "p01082-852988458db7",
+      "target": "但只要昆斯再也不能伤害任何人，这就值得。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "But it's worth it if Quince can never hurt anyone again.",
+      "source_sha256": "852988458db769b8878ef207ecddd38ee272f6f7837189c0849a5b87d9c8e2aa",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 552,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c42"
+        }
+      ],
+      "translation_id": "p01082-852988458db7",
+      "target": "但只要昆斯再也不能伤害任何人，这就值得。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "It <i>has</i> has to be worth it.",
+      "source_sha256": "6a13e9722b307c10764e08918a786f87b10c32cd488074937acf25dd9bc590c4",
+      "category": "post_burn_morning_resource",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 553,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c60"
+        }
+      ],
+      "translation_id": "p01083-6a13e9722b30",
+      "target": "这<i>必须</i>、必须是值得的。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    },
+    {
+      "source": "It <i>has</i> has to be worth it.",
+      "source_sha256": "6a13e9722b307c10764e08918a786f87b10c32cd488074937acf25dd9bc590c4",
+      "category": "post_burn_morning_runtime",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 553,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c60"
+        }
+      ],
+      "translation_id": "p01083-6a13e9722b30",
+      "target": "这<i>必须</i>、必须是值得的。",
+      "match": "exact",
+      "installed_exact_encoded_line": true
+    }
+  ],
+  "excluded_literals": [
+    {
+      "source": "END_JoinQuince",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void EndingBookObject::Initialize(IGameInfo)",
+        "il_offset": "IL_002b"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "RevisitConfirmCanvas",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+        "il_offset": "IL_0131"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "BurnBookConfirmCanvas",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::Awake()",
+        "il_offset": "IL_01e1"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "M_Wishing_Well_Instrumental",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::Elsinore.Ui.IActivatableModalCanvas.Activate()",
+        "il_offset": "IL_00d8"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "M_Great_Book",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::Elsinore.Ui.IActivatableModalCanvas.Activate()",
+        "il_offset": "IL_00f0"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Duck_Ambience",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::Elsinore.Ui.IActivatableModalCanvas.Activate()",
+        "il_offset": "IL_0106"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Unduck_Ambience",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::OnDisable()",
+        "il_offset": "IL_002f"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Textures/EndingThumbnails/{0}",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::loadStillForEnding(Elsinore.Game.Ending)",
+        "il_offset": "IL_0007"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Unable to load ending still {0}!",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::loadStillForEnding(Elsinore.Game.Ending)",
+        "il_offset": "IL_0021"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Textures/EndingThumbnails/{0}_Faded",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::loadStillForLockedEnding(Elsinore.Game.Ending)",
+        "il_offset": "IL_0007"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Unable to load ending still {0}!",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "UnityEngine.Sprite Elsinore.Ui.EndingSelectUI::loadStillForLockedEnding(Elsinore.Game.Ending)",
+        "il_offset": "IL_0021"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Fates_Book_Select",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::onConfirmRevisitEnding(Elsinore.Game.EndingId)",
+        "il_offset": "IL_0039"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "END_Revenge",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI::.cctor()",
+        "il_offset": "IL_0000"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "Fates_Book_Select",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.EndingSelectUI/<>c__DisplayClass35_0::<Awake>b__8()",
+        "il_offset": "IL_000a"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "test\ntest\ntest",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.GameOverUI::Awake()",
+        "il_offset": "IL_0049"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "newly unlocked? {0}",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.GameOverUI::Activate(System.ValueTuple`3<System.Nullable`1<Elsinore.Game.EndingId>,System.String,Elsinore.Game.GameMode>)",
+        "il_offset": "IL_01fe"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "END_Revenge",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.GameOverUI::.cctor()",
+        "il_offset": "IL_0000"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    },
+    {
+      "source": "M_Great_Book_EndSting_Live",
+      "origin": {
+        "assembly": "Assembly-CSharp.dll",
+        "method": "System.Void Elsinore.Ui.GameOverUI/<>c__DisplayClass28_0::<Activate>b__2()",
+        "il_offset": "IL_000a"
+      },
+      "reason": "对象/资源/音乐标识、日志或初始化占位；无新增烧书提示"
+    }
+  ],
+  "morning_dialogue": [
+    {
+      "source": "...",
+      "runtime_source": "...",
+      "target": "...",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 512,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0c0a"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0e23"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0f73"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10ea"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_1f7b"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_22c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28ab"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2994"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2d0f"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2fd0"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_3792"
+        }
+      ]
+    },
+    {
+      "source": "What number is this? Two thousand? Three?",
+      "runtime_source": "What number is this? Two thousand? Three?",
+      "target": "这是第几次了？两千次？三千次？",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 513,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28c9"
+        }
+      ]
+    },
+    {
+      "source": "I suppose it doesn't really matter anymore.",
+      "runtime_source": "I suppose it doesn't really matter anymore.",
+      "target": "我想，这已经不重要了。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 514,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28e7"
+        }
+      ]
+    },
+    {
+      "source": "Enter Hamlet, stage left.",
+      "runtime_source": "Enter Hamlet, stage left.",
+      "target": "哈姆雷特从舞台左侧上场。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 518,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2924"
+        }
+      ]
+    },
+    {
+      "source": "Another round, then.",
+      "runtime_source": "Another round, then.",
+      "target": "那就再来一轮吧。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 520,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2947"
+        }
+      ]
+    },
+    {
+      "source": "Maybe I'll just go back to sleep.",
+      "runtime_source": "Maybe I'll just go back to sleep.",
+      "target": "也许我干脆接着睡算了。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 524,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2974"
+        }
+      ]
+    },
+    {
+      "source": "...",
+      "runtime_source": "...",
+      "target": "...",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 526,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0c0a"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0e23"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_0f73"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_10ea"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_1f7b"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_22c7"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_28ab"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2994"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2d0f"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2fd0"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_3792"
+        }
+      ]
+    },
+    {
+      "source": "I hope Quince is as bored as I am.",
+      "runtime_source": "I hope Quince is as bored as I am.",
+      "target": "希望昆斯也跟我一样无聊。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 527,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_29b2"
+        }
+      ]
+    },
+    {
+      "source": "Go away, Hamlet.",
+      "runtime_source": "Go away, Hamlet.",
+      "target": "走开，哈姆雷特。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 532,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2a06"
+        }
+      ]
+    },
+    {
+      "source": "What? I--",
+      "runtime_source": "What? I—",
+      "target": "什么？我——",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 538,
+          "actor": "hamlet"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2abf"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2e46"
+        }
+      ]
+    },
+    {
+      "source": "I know there's no going back from what I did. I don't regret burning that book.",
+      "runtime_source": "I know there's no going back from what I did. I don't regret burning that book.",
+      "target": "我知道，做了这件事就再也无法回头了。我不后悔烧掉那本书。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 550,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c06"
+        }
+      ]
+    },
+    {
+      "source": "Every minute of these four days is like the brick of a cell wall. And I've memorized them all.",
+      "runtime_source": "Every minute of these four days is like the brick of a cell wall. And I've memorized them all.",
+      "target": "这四天里的每一分钟，都像牢房墙上的一块砖。而我已经把它们全都记住了。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 551,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c24"
+        }
+      ]
+    },
+    {
+      "source": "But it's worth it if Quince can never hurt anyone again.",
+      "runtime_source": "But it's worth it if Quince can never hurt anyone again.",
+      "target": "但只要昆斯再也不能伤害任何人，这就值得。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 552,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c42"
+        }
+      ]
+    },
+    {
+      "source": "It <i>has</i> has to be worth it.",
+      "runtime_source": "It <i>has</i> has to be worth it.",
+      "target": "这<i>必须</i>、必须是值得的。",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_OpheliaHamletStarter",
+          "line": 553,
+          "actor": "ophelia"
+        },
+        {
+          "assembly": "Assembly-CSharp.dll",
+          "method": "System.Void GameDataGenerated::Invoke_Spine_OpheliaHamletStarter__SC_SPINE_OpheliaHamletStarter__0()",
+          "il_offset": "IL_2c60"
+        }
+      ]
+    }
+  ],
+  "state_matrix": [
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Resignation",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Exile",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Queen",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_HamletMarriage",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Delusion",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Survival",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Othello",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_Pirate",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_SentAway",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_RosAndGuil",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": false,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": false,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": false,
+      "replayed_burnt": false,
+      "revisit_visible_by_populate_il": true,
+      "confirm_visible_if_accessed_from_book_by_activate_il": true
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": true,
+      "revenge_viewed": false,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": false,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    },
+    {
+      "ending_id": "END_FortinbrasPeaceful",
+      "unlocked": true,
+      "revenge_viewed": true,
+      "page_viewed": true,
+      "replayed_burnt": true,
+      "revisit_visible_by_populate_il": false,
+      "confirm_visible_if_accessed_from_book_by_activate_il": false
+    }
+  ],
+  "summary": {
+    "ordinary_pages": 11,
+    "all_endings": 13,
+    "state_matrix_rows": 88,
+    "original_il_predicate_replays": 176,
+    "visible_source_checks": 94,
+    "consumer_cases": 127,
+    "missing_sources": 0,
+    "installed_line_mismatches": 0
+  },
+  "morning_reachable_paths": [
+    [
+      0,
+      1,
+      2,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13
+    ],
+    [
+      3,
+      8,
+      9
+    ],
+    [
+      4,
+      8,
+      9
+    ],
+    [
+      5,
+      8,
+      9
+    ],
+    [
+      6,
+      7,
+      8,
+      9
+    ]
+  ],
+  "burn_button_condition": "unlockedEnding(END_Revenge) && !viewedEnding(END_Revenge)",
+  "limitations": [
+    "原IL重放只解释isEndingBurnt的状态读取与布尔跳转；界面显示条件由原populate/Activate静态核对，不称真实Unity组件或像素/E2E验证。",
+    "省略号保持非词汇原样；未执行任何存档业务或解锁/采用操作。",
+    "POSTEND_QuinceBookBurned的31句由并行主任务独立审查；此证据记录选择限制、界面与晨间14次发言。"
+  ],
+  "consumer_verification": {
+    "actual_recursive_xunity_consumer_passed": true,
+    "count": 127,
+    "tests_sha256": "4eb7b00c98a74722cae3445aadbfb983c1a1cf289fdc66734ddbe3cf65de5333",
+    "verifier_source_sha256": "700f297a4145c0e4509883f5fcf82d39ec6d93f3e930cf542fc5bb1a2e043e0d",
+    "actual_core_sha256": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "definition": "真实XUnity Splitter/ParserResult，逆序首匹配，递归上限64；纯离线，不启动Unity。"
+  }
+}

@@ -1,0 +1,308 @@
+[
+  {
+    "id": "post-burn-p14506-3bf7e11752b1",
+    "original_id": "p14506-3bf7e11752b1",
+    "source": "I know it's been a while.",
+    "source_sha256": "3bf7e11752b15f10b4d7ce6a7bc47bcfc7f3e5e6dc6061b5cfbfa6ba1891d045",
+    "previous_target": "我知道，已经有一阵子了。",
+    "target": "我知道，我们已经很久没说话了。",
+    "reason": "明确一阵子指两人久未交谈，承接昆斯准确计日。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 222
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14508-d5fb902bbb5c",
+    "original_id": "p14508-d5fb902bbb5c",
+    "source": "A little less than that if one considers withering glares a form of speech.",
+    "source_sha256": "d5fb902bbb5cb9e95e86a17769c3a1140e09ed1bc2dbea12af06a348d9b34e87",
+    "previous_target": "如果把恶狠狠的瞪视也算作一种说话方式，那就短一些。",
+    "target": "如果把怒目相向也算作交谈，那就没那么久。",
+    "reason": "保留带敌意的瞪视，避免一种说话方式的生硬名词结构。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 225
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14509-58e63e69825c",
+    "original_id": "p14509-58e63e69825c",
+    "source": "I don't. But I'm glad you're counting.",
+    "source_sha256": "58e63e69825c82035f21e80d7429eeda55344ac46e475ff5ae4b1a94927af898",
+    "previous_target": "我不这么算。不过很高兴你还在数。",
+    "target": "我不这么算。不过，很高兴你还在记日子。",
+    "reason": "补明数的是两人没有交谈的日子，不补写额外关系。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 226
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14512-d341108a8c7c",
+    "original_id": "p14512-d341108a8c7c",
+    "source": "In a thousand ways, yes. But each of them pales in comparison to this:",
+    "source_sha256": "d341108a8c7cf01cbca88eb2aa624d3e10625aa3c25b73133e5b305e689f7f11",
+    "previous_target": "是的，我有一千种理由恨你。但每一种都比不上这一点：",
+    "target": "是的，我有一千种理由恨你。但都比不上这一种：",
+    "reason": "用户指出此处承接恨她的理由，用这一种衔接下一句。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 233
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14514-4b957c199f39",
+    "original_id": "p14514-4b957c199f39",
+    "source": "I have had my fun in killing you any number of horrid ways. Frightening you. Breaking you...",
+    "source_sha256": "4b957c199f391ea51ddda21acb1e69945afcd92b52f4f69613bd2c718100e78a",
+    "previous_target": "我用无数种可怕的方式杀死你，已经尽兴了。恐吓你。让你崩溃……",
+    "target": "用种种骇人的手段杀死你、恐吓你、摧垮你……这些乐子我都享受过了。",
+    "reason": "按意义合并列举，保留过去从杀害、恐吓和摧垮中取乐的意思。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 237
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14516-99d241093a14",
+    "original_id": "p14516-99d241093a14",
+    "source": "You are correct. For at the end of it all, only then did the strangest thing happen. You truly <i>did</i> give up. You lost the fight.",
+    "source_sha256": "99d241093a141efd87a75417347b06f5d2f0863fa63a56d86e1770229f39f4a3",
+    "previous_target": "你说对了。因为直到这一切的最后，最奇怪的事才发生。你<i>确实</i>放弃了。你输掉了这场较量。",
+    "target": "没错。直到最后，最奇怪的事才终于发生：你<i>真的</i>放弃了。你输掉了这场较量。",
+    "reason": "不将衔接独白的For机械译成独立因为，保留最终发生和放弃的强调。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 241
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14517-a7ea8d6dbe7c",
+    "original_id": "p14517-a7ea8d6dbe7c",
+    "source": "As you have ceased to be a player in this game these past years, retreating entirely, I find all of Elsinore has merged into one shapeless mass. Boredom has sanded off all the edges.",
+    "source_sha256": "a7ea8d6dbe7c96d25edc7ac3c691e7b18d3db087036b911de2cb5ba17d151c32",
+    "previous_target": "这些年来，你彻底退缩，不再参与这场游戏。我发现，整个埃尔西诺已经融成了没有形状的一团。无聊磨平了所有棱角。",
+    "target": "这些年来，你彻底退缩，不再参与这场游戏。在我眼中，整个埃尔西诺都已变得模糊不清，混成了一团。无聊磨平了所有棱角。",
+    "reason": "将无定形一团的比喻落在昆斯的感知，保留混合及棱角磨平，不暗示城堡实际融化。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 242
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14518-baf96c0c05d9",
+    "original_id": "p14518-baf96c0c05d9",
+    "source": "Each of its inhabitants is both alive and dead, joyful and grieving, clever and cruel, all at once. For I can no longer remember what is true any longer.",
+    "source_sha256": "baf96c0c05d9fba583333810ea9275bbeffe33d616d00e687a2d18092148cabf",
+    "previous_target": "这里的每个人都同时活着又死去，欢喜又悲伤，聪明又残忍。因为我已经再也记不清什么是真的了。",
+    "target": "这里的每个人都同时活着又死去，欢喜又悲伤，聪明又残忍——我已经记不清，究竟什么才是真的了。",
+    "reason": "用破折号接上这些矛盾印象的原因，消除因为断句及已经再也的重复。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 243
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14520-9647719e7481",
+    "original_id": "p14520-9647719e7481",
+    "source": "I fear I have gone quite mad, Ophelia.",
+    "source_sha256": "9647719e7481d51ad92e17a7ff918df9af77342bbb0b2c006da92dfbd0d4a943",
+    "previous_target": "奥菲莉娅，我恐怕已经彻底疯了。",
+    "target": "奥菲莉娅，我怕是已经彻底疯了。",
+    "reason": "将我恐怕的生硬搭配改为自然的怕是，保留担忧和推测。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 248
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14521-e5e7492c3022",
+    "original_id": "p14521-e5e7492c3022",
+    "source": "Perhaps I never was sane to begin with. Perhaps it's always been this way. Or perhaps this will always be our shared delusion, you and I.",
+    "source_sha256": "e5e7492c3022cd3d8d3b069ea9285a01237ef94d93b197a0a63d68849c95b97b",
+    "previous_target": "也许我从一开始就没清醒过。也许一直都是这样。又或者，这永远都会是你我共有的妄想。",
+    "target": "也许我从来就没正常过。也许一直都是这样。又或者，这永远都会是你我共同的妄想。",
+    "reason": "sane指心智正常，避免没清醒过的睡醒歧义；保留三重也许。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 249
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14522-eac6709ca9aa",
+    "original_id": "p14522-eac6709ca9aa",
+    "source": "They say love is that sort of thing. A shared delusion. I wouldn't know. I've never been in love.",
+    "source_sha256": "eac6709ca9aa88461ebe68e5f0fa8cf6ae0b6ece99663fedeada5e414c8077dc",
+    "previous_target": "人们说爱情就是这样。一种共同的妄想。我不知道。我从没爱过谁。",
+    "target": "人们说，爱情就是这样——两个人共同的妄想。我也不懂。我从没爱上过谁。",
+    "reason": "连接爱情与共同妄想；in love限定恋爱，不扩大为从未对任何人有过爱。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 250
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14525-4c241b1e97c4",
+    "original_id": "p14525-4c241b1e97c4",
+    "source": "The Book came to me for a reason. It chose me. Or it was granted to me. Why?",
+    "source_sha256": "4c241b1e97c494648324bbb1774ce8c4a5a042404610cb88a7a1262e1377fc4f",
+    "previous_target": "那本书来到我手里，是有原因的。它选择了我。或者，是谁把它赐给了我。为什么？",
+    "target": "那本书来到我手里，是有原因的。它选择了我。又或者，是谁将它赐给了我。为什么？",
+    "reason": "顺畅表达主动选择与被赐予的两个可能，不指定赐书者身份。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 254
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14526-74fcc302a8b2",
+    "original_id": "p14526-74fcc302a8b2",
+    "source": "Why, indeed, if my fate was merely to become trapped in my own creation like a fool?",
+    "source_sha256": "74fcc302a8b25e2365e6f2092a3fd017bc314d25cdc52851b4f1b9c0129a6349",
+    "previous_target": "如果我的命运只是像个傻瓜一样，被困在自己创造的东西里，那究竟是为什么？",
+    "target": "如果我的命运仅仅是像个傻瓜一样，被困在自己创造的一切之中，那这一切究竟是为了什么？",
+    "reason": "承接前句的追问，保留受困于自身创造的反讽，不额外指认创造了什么。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 255
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14527-671c22cf25c7",
+    "original_id": "p14527-671c22cf25c7",
+    "source": "...But, no.",
+    "source_sha256": "671c22cf25c79a1b77d034d35e4fbdd3ed79ce018f1a05bcb76448934c7e90a0",
+    "previous_target": "……不过，不。",
+    "target": "……不过，算了。",
+    "reason": "承接反复思索后又任其消散的转折，避免不过不的生硬对译。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 258
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14528-71a17a92760f",
+    "original_id": "p14528-71a17a92760f",
+    "source": "I have let all these thoughts crash over me ten thousand times. And there they go, washing away again out to sea.",
+    "source_sha256": "71a17a92760f58839ba99fbaa72464cd4e1bb6aaab76b1237cdae3761b66d2ff",
+    "previous_target": "这些念头已经像海浪一样，冲击了我一万次。如今它们又退去了，再次流回大海。",
+    "target": "这些念头已如海浪般冲击过我一万次。如今，它们又退去了，再次流回大海。",
+    "reason": "保留冲击与退回海里的意象，顺畅衔接前句放下思索。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 259
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14531-abccc0e084ac",
+    "original_id": "p14531-abccc0e084ac",
+    "source": "I don't want to spend eternity at odds with you.",
+    "source_sha256": "abccc0e084acd97810c256d251f4c4c434b470e9eff46ffd87a6e6a7d8d7f668",
+    "previous_target": "我不想永远和你作对。",
+    "target": "我不想永远和你敌对下去。",
+    "reason": "at odds是双方关系不和，不是女主主动和他作对。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 266
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14532-e5bc2e980dd4",
+    "original_id": "p14532-e5bc2e980dd4",
+    "source": "Unfortunately for you, darling, <i>I</i> do.",
+    "source_sha256": "e5bc2e980dd4debc7ad9de726cfadb97bae4f4c7681cbd6865371957c541331a",
+    "previous_target": "亲爱的，可惜的是，<i>我</i>想。",
+    "target": "可惜，亲爱的，<i>我</i>倒想。",
+    "reason": "承接永远敌对，保留昆斯刻意强调我及带讥讽的反话。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 267
+      }
+    ]
+  },
+  {
+    "id": "post-burn-p14534-79b68e515cf7",
+    "original_id": "p14534-79b68e515cf7",
+    "source": "I think we have precious little to say to one another anymore.",
+    "source_sha256": "79b68e515cf7f522308419868b7ce3a48b7161f73df319d3fa2f1b5e6ebca4b2",
+    "previous_target": "我想，我们如今已经没什么话可对彼此说了。",
+    "target": "我想，我们之间已经没什么可说的了。",
+    "reason": "自然表达如今彼此几乎无话可说，保留我想的判断语气。",
+    "origins": [
+      {
+        "asset": "scenes_smalltalk",
+        "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+        "scene": "POSTEND_QuinceBookBurned",
+        "line": 271
+      }
+    ]
+  }
+]
