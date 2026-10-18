@@ -66,3 +66,5 @@
 - `long purples`的文学植物称呼没有据不确定的植物辨认改名；既有长穗紫兰保留。[皇家莎士比亚剧团的排练记录](https://www.rsc.org.uk/hamlet/past-productions/in-focus-gregory-doran-2008)描述了高高的紫色花穗，但不足以据此为本译文指定唯一学名。
 
 这些保留并不意味着没有其它可选译法。逐段审查以能说明的语义偏差为修改依据，不将个人偏好的不同写法全部判作错译。
+
+后续安装：本审查及阅读反馈已按用户要求合并安装，原游戏文件与存档未变；见[安装核验](../../../../runtime/evidence/ending-readback-install-verification-2026-10-18.json)。
