@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "scope": "真实已编译插件的纯手势类离线对照，受控采样间隔；不是Unity运行、物理按键或CPU卡顿根因定位",
+  "rows": [
+    {
+      "passed": true,
+      "mode": "baseline",
+      "half_progress": 0.5,
+      "sample_gap_seconds": 2,
+      "post_gap_progress": 1,
+      "completed_at_gap": true,
+      "plugin_sha256": "3eb134f71cbe80663bcb22e5b836692a5e36052ba1cbec1645866fd622d114d4"
+    },
+    {
+      "passed": true,
+      "mode": "candidate",
+      "half_progress": 0.5,
+      "sample_gap_seconds": 2,
+      "post_gap_progress": 0.6,
+      "completed_at_gap": false,
+      "plugin_sha256": "210eb44fedf984f7f9834dea240990de99684a4439b59d7aee9f269812c4dfcc"
+    }
+  ]
+}

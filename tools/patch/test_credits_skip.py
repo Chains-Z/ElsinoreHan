@@ -11,6 +11,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[2]
 COMPILER = Path(os.environ.get("WINDIR", "C:/Windows")) / "Microsoft.NET/Framework/v4.0.30319/csc.exe"
 CASES = (
+    "half_progress_stall_resumes", "release_after_stall_cancels",
+    "focus_after_stall_cancels", "normal_frame_rates_keep_hold_duration",
     "loading_hold_starts_at_zero_when_visible", "preheld_loading_still_requires_release",
     "release_during_loading_cancels_pending_hold", "presentation_loss_discards_elapsed_time",
     "short_press", "one_second_boundary", "quarter_and_half_progress", "release_cancels_progress",

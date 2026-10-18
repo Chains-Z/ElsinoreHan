@@ -43,10 +43,12 @@
       "RightControl"
     ],
     "hold_seconds": 1,
-    "clock": "Time.realtimeSinceStartup",
+    "clock": "相邻有效采样的Time.realtimeSinceStartup差逐次累计，不再直接使用按下以来的总时长",
     "arm": "进入片尾或失焦后必须先释放Ctrl；不接续上一页面的长按",
     "release": "松开/失焦清零，满环后只触发一次",
-    "completion": "停止CreditsPlayer自身协程，显示一帧满环，再调用与原结尾相同的Quit/Break；不重走结局选择、保存或加载"
+    "completion": "停止CreditsPlayer自身协程，显示一帧满环，再调用与原结尾相同的Quit/Break；不重走结局选择、保存或加载",
+    "maximum_frame_seconds": 0.1,
+    "stall": "每次更新最多推进0.1秒／10%圆环；中途长帧不一次补满。正常刷新约1秒，低帧率或卡顿时会延长；松开与失焦仍立即清零。"
   },
   "overlay": {
     "scope": "仅CreditsPlayer实例，独立根Canvas随播放器销毁",

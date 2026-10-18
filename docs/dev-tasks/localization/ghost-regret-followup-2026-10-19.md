@@ -1,6 +1,6 @@
 # 幽灵逃离与悔恨的断句
 
-状态：两条译文已修订并生成候选，尚未安装。插件仍为已安装的1.5.13。见[当前候选核验](../../../runtime/evidence/ghost-regret-wording-verification-2026-10-19.json)；[前轮只改断句的候选](../../../runtime/evidence/ghost-regret-verification-2026-10-19.json)保留快照。
+状态：两条最终译文已随1.5.14安装，见[本轮安装核验](../../../runtime/evidence/credits-stall-install-verification-2026-10-19.json)。下列候选与离线检查保持当时阶段。见[当前候选核验](../../../runtime/evidence/ghost-regret-wording-verification-2026-10-19.json)；[前轮只改断句的候选](../../../runtime/evidence/ghost-regret-verification-2026-10-19.json)保留快照。
 
 海盗结局谢幕`END_CurtainCall_Pirate`第17426行，幽灵原文：
 
@@ -13,3 +13,5 @@
 用“自从逃走以后”交代起点，“只要清醒着，就没有一刻不在后悔”表达此后持续的悔恨，避免直搬英文并列结构；保留所选世界的对象，不补写新事件。游戏实际斜体保留，未改变前后的劝诫。两种源的哈希、稳定ID和来源见[校订层](../../../translation/supplemental/ghost-regret-corrections.json)，谢幕对照稿已更新。
 
 5项真实裸句／斜体／对话框／单句日志／连续发言消费者、574项谢幕及115项前轮书名／并列句回归通过，共694项；19项导出治理和4项双源覆盖保护通过。词条数17069、动态规则157、插件和字体及中文字集合不变；40文件候选ZIP与包逐项一致。没有启动游戏、操作存档或安装；此前1.5.13安装仍然有效，这两条是安装之后新增的候选修改。
+
+2026-10-19后续：用户退出游戏后，已将最终措辞与片尾长帧修复一起安装；此前“尚未安装”的描述仅指本次候选阶段，当前无待安装条目。

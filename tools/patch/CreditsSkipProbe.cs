@@ -112,6 +112,12 @@ public static class CreditsSkipProbe
     {
         return (bool)skip.GetType().GetMethod("HandleKey", Fields).Invoke(skip, new object[] { held, focused, now });
     }
+    private static bool HoldThrough(MonoBehaviour skip, double from, double to)
+    {
+        for (double sample = from + 1.0 / 32; sample < to; sample += 1.0 / 32)
+            if (Handle(skip, true, true, sample)) return true;
+        return Handle(skip, true, true, to);
+    }
     private static float Progress(Graphic ring)
     {
         return (float)ring.GetType().GetProperty("Progress").GetValue(ring, null);
@@ -292,7 +298,7 @@ public static class CreditsSkipProbe
             double readyNow = Math.Max(6, Time.realtimeSinceStartup);
             Check(report, "early_hold_restarts_at_zero", !Handle(controlled, true, true, readyNow) && Progress(ring) == 0,
                 "无需松开加载期间新按下的Ctrl，显示就绪后从零起算");
-            Handle(controlled, true, true, readyNow + 0.25);
+            HoldThrough(controlled, readyNow, readyNow + 0.25);
             CaptureRing(report, ring, "startup_quarter", 0.25f);
             Handle(controlled, false, true, readyNow + 0.3);
             Check(report, "independent_overlay", overlay.activeInHierarchy && canvas.renderMode == RenderMode.ScreenSpaceOverlay
@@ -326,19 +332,28 @@ public static class CreditsSkipProbe
             double now = Time.realtimeSinceStartup;
             Handle(controlled, false, true, now);
             Handle(controlled, true, true, now + 0.1);
-            Check(report, "quarter_not_complete", !Handle(controlled, true, true, now + 0.35), "受控输入25%");
+            Check(report, "quarter_not_complete", !HoldThrough(controlled, now + 0.1, now + 0.35), "受控32FPS输入25%");
             CaptureRing(report, ring, "quarter", 0.25f);
-            Check(report, "half_not_complete", !Handle(controlled, true, true, now + 0.6), "受控输入50%");
+            Check(report, "half_not_complete", !HoldThrough(controlled, now + 0.35, now + 0.6), "受控32FPS输入50%");
             CaptureRing(report, ring, "half", 0.5f);
-            Check(report, "release_not_complete", !Handle(controlled, false, true, now + 0.7), "松开取消");
+            bool longFrameComplete = Handle(controlled, true, true, now + 2.6);
+            Check(report, "long_frame_does_not_complete", !longFrameComplete && Progress(ring) < 0.7f
+                && quitCalls == 0 && breakCalls == 0, "半圈后注入2秒采样间隔；progress=" + Progress(ring)
+                + ";complete=" + longFrameComplete);
+            CaptureRing(report, ring, "stalled", 0.6f);
+            Check(report, "long_frame_resumes_progress", !HoldThrough(controlled, now + 2.6, now + 2.7),
+                "长帧后恢复正常采样，继续增长而不直接退出");
+            CaptureRing(report, ring, "resumed", 0.7f);
+            Check(report, "release_not_complete", !Handle(controlled, false, true, now + 2.8), "松开取消");
             CaptureRing(report, ring, "released", 0);
+            now += 4;
             // 调用正式焦点事件，让暂停后台Update的情形也经过实际复位入口。
             AccessTools.Method(skipType, "OnApplicationFocus").Invoke(controlled, new object[] { false });
             Check(report, "preheld_needs_release", !Handle(controlled, true, true, now + 1)
                 && !Handle(controlled, true, true, now + 3), "重新获得焦点时已按住不得累计");
             CaptureRing(report, ring, "preheld", 0);
             Handle(controlled, false, true, now + 4); Handle(controlled, true, true, now + 5);
-            Handle(controlled, true, true, now + 5.5);
+            HoldThrough(controlled, now + 5, now + 5.5);
             Check(report, "unfocused_not_complete", !Handle(controlled, true, false, now + 10), "后台时间不能累计");
             CaptureRing(report, ring, "unfocused", 0);
             Check(report, "focus_return_still_held", !Handle(controlled, true, true, now + 11), "恢复焦点仍须释放");
@@ -346,7 +361,7 @@ public static class CreditsSkipProbe
             Check(report, "no_early_exit", quitCalls == 0 && breakCalls == 0, "短按、松开及失焦均无退出回调");
             Handle(controlled, false, true, now + 12); Handle(controlled, true, true, now + 13);
             report.trigger_frame = Time.frameCount;
-            Check(report, "full_hold_complete", Handle(controlled, true, true, now + 14), "连续1秒走真实HandleKey完成路径");
+            Check(report, "full_hold_complete", HoldThrough(controlled, now + 13, now + 14), "连续1秒正常采样走真实HandleKey完成路径");
             CaptureRing(report, ring, "full", 1);
             Check(report, "full_ring_before_exit", quitCalls == 0 && breakCalls == 0, "原退出协程先yield一帧");
             for (int frame = 0; frame < 5 && (quitCalls == 0 || breakCalls == 0); frame++) yield return null;

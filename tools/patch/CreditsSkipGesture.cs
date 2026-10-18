@@ -4,14 +4,15 @@ using System;
 public sealed class CreditsSkipGesture
 {
     public const double HoldSeconds = 1.0;
+    public const double MaximumFrameSeconds = 0.1;
     private bool armed, pressed, triggered;
-    private double started, lastNow;
+    private double elapsed, lastNow;
     public float Progress { get; private set; }
 
     public void Reset()
     {
         armed = pressed = triggered = false;
-        started = lastNow = 0;
+        elapsed = lastNow = 0;
         Progress = 0;
     }
     public bool Tick(bool active, bool focused, bool controlHeld, double now)
@@ -24,12 +25,15 @@ public sealed class CreditsSkipGesture
         if (!active || !focused || Double.IsNaN(now) || Double.IsInfinity(now) || now < 0)
         {
             armed = pressed = false;
+            elapsed = 0;
             Progress = 0;
             return false;
         }
+        double frameSeconds = Math.Max(0, now - lastNow);
         if (now < lastNow)
         {
             pressed = false;
+            elapsed = 0;
             Progress = 0;
         }
         lastNow = now;
@@ -37,6 +41,7 @@ public sealed class CreditsSkipGesture
         {
             armed = true;
             pressed = false;
+            elapsed = 0;
             Progress = 0;
             return false;
         }
@@ -46,18 +51,21 @@ public sealed class CreditsSkipGesture
         if (!presentationReady)
         {
             pressed = false;
+            elapsed = 0;
             Progress = 0;
             return false;
         }
-        if (!pressed || now < started)
+        if (!pressed)
         {
-            started = now;
+            elapsed = 0;
             pressed = true;
             Progress = 0;
             return false;
         }
-        Progress = (float)Math.Min(1.0, (now - started) / HoldSeconds);
-        if (now - started < HoldSeconds) return false;
+        // 没有显示更新的长帧不能一次补满圆环；正常10FPS及以上仍累计完整1秒。
+        elapsed += Math.Min(frameSeconds, MaximumFrameSeconds);
+        Progress = (float)Math.Min(1.0, elapsed / HoldSeconds);
+        if (elapsed < HoldSeconds) return false;
         triggered = true;
         return true;
     }
