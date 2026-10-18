@@ -75,6 +75,23 @@ class ProbeRegressionTests(unittest.TestCase):
         self.assertTrue(result["settings_page_opened"])
         self.assertFalse(result["settings_visible_texts_no_overflow"])
 
+    def test_return_to_elsinore_menu_uses_frozen_translation_and_f8(self):
+        root = Path(__file__).resolve().parents[2]
+        rows = json.loads((root / "translation/sol-full-2026-10-09/translations.json").read_text(encoding="utf-8"))
+        self.assertEqual(next(row["target"] for row in rows if row["source"] == "Return to Elsinore"), "返回埃尔西诺")
+        result = evaluate([visible("返回埃尔西诺"), visible("设置"), visible("退出游戏")], [],
+                          "GLYPHS_继续游戏设置退出=True", "", include_settings=False)
+        self.assertTrue(all(result.values()))
+        result = module.evaluate_toggle({"Options", "Quit Game", "Return to Elsinore"},
+                                        {"设置", "退出游戏", "返回埃尔西诺"}, "F8_RELEASE_NO_CHANGE=True")
+        self.assertTrue(all(result.values()))
+
+    def test_return_menu_english_or_overflow_still_fails(self):
+        result = evaluate([visible("Return to Elsinore"), visible("返回埃尔西诺"), visible("设置"), visible("退出游戏")], [], "", "")
+        self.assertFalse(result["menu_no_original_labels"])
+        result = evaluate([visible("返回埃尔西诺", True), visible("设置"), visible("退出游戏")], [], "", "")
+        self.assertFalse(result["menu_labels_no_overflow"])
+
     def test_new_game_menu_is_valid_alternative(self):
         result = evaluate([visible("开始新游戏"), visible("设置"), visible("退出游戏")], [], "", "")
         self.assertTrue(result["menu_labels_all_translated"])

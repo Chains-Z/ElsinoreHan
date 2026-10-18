@@ -714,6 +714,13 @@ public sealed class RuntimeProbe : BaseUnityPlugin
             JournalTransition("CloseSelf", null);
             yield return new WaitForSecondsRealtime(0.4f);
         }
+        if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_CREDITS_SKIP") == "1")
+        {
+            yield return CreditsSkipProbe.Capture(outputDirectory);
+            JournalLine("STATUS\tCOLLECTED");
+            journalFinished = true;
+            yield break;
+        }
         // 文档故障优先采集，每一页独立失败；不再让其它页面的不可交互按钮截断它们。
         if (Environment.GetEnvironmentVariable("ELSINOREHAN_PROBE_BOOK_ONLY") != "1")
         {

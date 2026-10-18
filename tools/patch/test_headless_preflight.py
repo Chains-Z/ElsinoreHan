@@ -26,6 +26,13 @@ class PreflightTests(unittest.TestCase):
     def test_italic_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_ITALIC": "1"}, "ELSINOREHAN_PROBE_ITALIC")
 
+    def test_credits_without_journal_is_rejected(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_CREDITS_SKIP": "1"}, "片尾跳过回归")
+
+    def test_credits_cannot_mix_with_book_capture(self):
+        self.check_rejected({"ELSINOREHAN_PROBE_CREDITS_SKIP": "1", "ELSINOREHAN_PROBE_JOURNAL": "1",
+                             "ELSINOREHAN_PROBE_BOOK_PAGES": "unused.tsv"}, "片尾跳过回归")
+
     def test_book_without_journal_is_rejected(self):
         self.check_rejected({"ELSINOREHAN_PROBE_BOOK_PAGES": "missing.tsv"}, "命运书页回归")
 

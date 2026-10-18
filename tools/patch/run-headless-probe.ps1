@@ -1,5 +1,6 @@
 param([string]$GamePath = 'D:\SteamLibrary\steamapps\common\Elsinore')
 $ErrorActionPreference = 'Stop'
+if ($env:ELSINOREHAN_PROBE_CREDITS_SKIP -eq '1' -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or $env:ELSINOREHAN_PROBE_BOOK_PAGES)) { throw '片尾跳过回归需要独立资料模式，不能和书页采集混用。' }
 if ($env:ELSINOREHAN_PROBE_BOOK_PAGES -and ($env:ELSINOREHAN_PROBE_JOURNAL -ne '1' -or -not (Test-Path -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES -PathType Leaf))) { throw '命运书页回归需要资料模式及真实资源输入。' }
 if ($env:ELSINOREHAN_PROBE_BOOK_ONLY -eq '1' -and -not $env:ELSINOREHAN_PROBE_BOOK_PAGES) { throw '命运书页专项模式缺少页面输入。' }
 if ($env:ELSINOREHAN_PROBE_FONT_SOURCE -and -not $env:ELSINOREHAN_PROBE_FONT_CHARACTERS) { throw '字体生成缺少受控字符集，禁止启动。' }
@@ -137,6 +138,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_TOGGLE -eq '1') { $reports += @('original-menu-texts.txt', 'restored-menu-texts.txt') }
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
+    if ($env:ELSINOREHAN_PROBE_CREDITS_SKIP -eq '1') { $reports += 'credits-skip.json' }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += 'ending-book.json' }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('burnt-clean.rgba', 'confirmation-burnt-clean.rgba', 'book-render-burnt.json', 'book-render-confirmation-burnt.json') }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('paper-source.rgba', 'paper-clean.rgba', 'book-render-normal.json', 'book-render-turn-right.json', 'book-render-turn-left.json') }
@@ -212,7 +214,11 @@ try {
         $allEndingCases = @(Get-Content -LiteralPath $env:ELSINOREHAN_PROBE_BOOK_PAGES)
         if (-not $confirmation.passed -or -not $confirmation.actual_navigation -or -not $confirmation.resource_replays -or $confirmation.schema -ne 1 -or $confirmation.navigation_ending -ne 'END_Delusion' -or $confirmation.original_sprite -ne 'UI_Book_Unlock' -or $confirmation.resource_replay_count -ne $allEndingCases.Count) { throw '结局确认页入口、资源标题重放或背景来源核验失败。' }
     }
-    if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and $env:ELSINOREHAN_PROBE_BOOK_ONLY -ne '1') {
+    if ($env:ELSINOREHAN_PROBE_CREDITS_SKIP -eq '1') {
+        $creditsReport = Get-Content -LiteralPath (Join-Path $runDirectory 'credits-skip.json') -Raw | ConvertFrom-Json
+        if (-not $creditsReport.passed) { throw '片尾真实UI、计时或退出回归失败。' }
+    }
+    if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1' -and $env:ELSINOREHAN_PROBE_BOOK_ONLY -ne '1' -and $env:ELSINOREHAN_PROBE_CREDITS_SKIP -ne '1') {
         $journalArguments = @((Join-Path $PSScriptRoot 'verify-journal-probe.py'), (Join-Path $runDirectory 'journal-ui.txt'), '--output', (Join-Path $runDirectory 'journal-analysis.json'))
         if ($env:ELSINOREHAN_PROBE_JOURNAL_BASELINE -ne '1') { $journalArguments += '--require-translated' }
         if ($env:ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE) { $journalArguments += @('--notification-evidence', $env:ELSINOREHAN_PROBE_NOTIFICATION_EVIDENCE) }

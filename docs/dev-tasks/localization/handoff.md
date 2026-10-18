@@ -9,7 +9,7 @@
 | 维护阶段 | 中文初稿已可玩，继续根据实际游玩反馈定向校订，不等待全分支人工审校 |
 | 已安装日志规则 | 已随1.5.7安装157动态规则；补齐真实日志尾段结束缩进/换行封套，45,543资源用例及隔离缓存/F8与真实保存日志通过，见[漏译核查](ambient-log-followup-2026-10-15.md)与[候选证明](../../../runtime/evidence/ambient-log-verification-2026-10-15.json) |
 | 已安装书页修复 | 1.5.9已安装：包含1.5.8内存去字/原生层级修复，并补上GameOverUI单页确认入口；11页/F8/悬停回归及13组确认页标题重放通过。见[书页视觉修复](ending-book-paper-followup-2026-10-17.md)、[确认页修复](ending-confirmation-followup-2026-10-17.md)与[候选证明](../../../runtime/evidence/ending-confirmation-verification-2026-10-17.json) |
-| 正式安装 | 插件1.5.9，17,068词条，157动态规则，新字体7,661字形；“噁”及此前全部候选校订已安装，38运行文件与包一致，原游戏4文件及8存档未变，见[补字与安装记录](eugh-font-followup-2026-10-18.md)及[最新安装核验](../../../runtime/evidence/eugh-font-install-verification-2026-10-18.json) |
+| 正式安装 | 插件1.5.11，17,069词条，157动态规则，字体7,661字形；此前候选对白、烧毁叠层及片尾Ctrl白字圆环全部安装。38运行文件与40文件个人ZIP核验一致，原游戏4文件及8存档未变，见[最新安装核验](../../../runtime/evidence/credits-skip-install-verification-2026-10-18.json) |
 | 已安装时间线盘问 | 首次question按用户确认改为“贝尔纳多开始盘问布莉特。”，后两次interrogate保留“审问”；3项真实消费者、16项治理测试通过。见[校订记录](brit-question-followup-2026-10-18.md)及[候选核验](../../../runtime/evidence/brit-question-verification-2026-10-18.json)；已随本轮补字安装 |
 | 已安装离开前安排对白 | 波洛涅斯改为“临走前总该做些安排——不过，我已不欠宫廷什么了，再由我来操办，也没什么意义。”；4项真实正文/对话框封套/日志消费者、16项治理测试通过，见[校订记录](polonius-preparations-followup-2026-10-18.md)及[原候选核验](../../../runtime/evidence/polonius-preparations-verification-2026-10-18.json)。已随本轮补字安装 |
 | 已安装求婚答复 | `I will.`对话框串译为“我会动手。”已通过精确行高封套别名修复；6项真实片段缓存回归、4项正文/日志消费者及16项治理测试通过。见[修复记录](proposal-reply-followup-2026-10-18.md)及[原候选核验](../../../runtime/evidence/proposal-reply-verification-2026-10-18.json)；已随标题校订合并安装 |
@@ -24,10 +24,10 @@
 | 已安装原木与表白语境 | log按用户确认细化为“池塘那头挡路的那截树干”；here we are改为“而、而现在，嗯……我们已经走到这一步了。”；8项真实消费者及18项治理测试通过，见[校订记录](log-confession-followup-2026-10-18.md)及[原候选核验](../../../runtime/evidence/log-confession-verification-2026-10-18.json)；已随本轮补字安装 |
 | 已安装姓名摆件玩笑 | 用户确认点明“这名字听着不像人名，倒像某种摆在墙角的装饰品”，保留假装介绍陈设的调侃；4项真实消费者及18项治理测试通过，见[校订记录](hamlet-name-followup-2026-10-18.md)及[原候选核验](../../../runtime/evidence/hamlet-name-verification-2026-10-18.json)；已随本轮补字安装 |
 | 已安装嫌恶声补字 | 两句Eugh按用户确认使用“噁”；原生生成、实际字体加载与字形图集、115项词表消费者、18项治理及6项字体判定器测试通过；已安装，见[本轮记录](eugh-font-followup-2026-10-18.md) |
-| 待安装返回方法答复 | 幽灵“Of course I do”承接知道回去的方法，裸源和实际斜体源统一为“当然知道。可你为什么会有这种念头？”；5项真实消费者及18项治理测试通过，候选40文件与ZIP一致，见[校订记录](ghost-return-followup-2026-10-18.md)及[候选核验](../../../runtime/evidence/ghost-return-verification-2026-10-18.json) |
-| 待安装烧毁书页 | 1.5.10已补齐普通书页与确认页的独立烧毁叠层去字；7项像素/命令行、8项C#边界及13项启动保护通过，已查看离线合成。用户选择继续游玩，尚未做本轮真实UI/F8回归，候选passed=false并阻止安装；见[修复记录](ending-burnt-paper-followup-2026-10-18.md)及[离线核验](../../../runtime/evidence/ending-burnt-paper-verification-2026-10-18.json) |
-| 待安装谢幕对白 | 哈姆雷特“四万个兄弟的爱加在一起，也抵不过我的爱——”；幽灵两次go统一“前行”，That is all改“我要说的就是这些。”，裸源/实际斜体同步。新增15项消费者与18项治理通过；见[兄弟对白](hamlet-brothers-followup-2026-10-18.md)及[幽灵发言](ghost-farewell-followup-2026-10-18.md) |
-| 待安装片尾跳过 | 1.5.11已加入右下角纯白“长按 Ctrl 跳过”及白色圆环，左右Ctrl长按1秒、松开/失焦清零，保留原快进，沿用原片尾退出。21项手势/CLI、18项治理及21项待安装词表消费者通过；仍待真实UI与输入回归，见[功能记录](credits-skip-followup-2026-10-18.md)及[离线核验](../../../runtime/evidence/credits-skip-verification-2026-10-18.json) |
+| 已安装返回方法答复 | 幽灵裸源和实际斜体统一为“当然知道。可你为什么会有这种念头？”，已随1.5.11安装。见[校订记录](ghost-return-followup-2026-10-18.md)及[安装核验](../../../runtime/evidence/credits-skip-install-verification-2026-10-18.json) |
+| 已安装烧毁书页 | 1.5.11已安装普通书页与确认页独立烧毁叠层去字；11页/F8/悬停及13组确认标题资源重放通过，实际重建纹理与离线像素结果一致，软件预览已查看。见[修复与运行记录](ending-burnt-paper-followup-2026-10-18.md)及[安装核验](../../../runtime/evidence/credits-skip-install-verification-2026-10-18.json) |
+| 已安装谢幕对白 | 哈姆雷特“四万个兄弟的爱加在一起，也抵不过我的爱——”；幽灵两次go统一“前行”，That is all改“我要说的就是这些。”，裸源/实际斜体同步，已随1.5.11安装。见[兄弟对白](hamlet-brothers-followup-2026-10-18.md)、[幽灵发言](ghost-farewell-followup-2026-10-18.md)及[安装核验](../../../runtime/evidence/credits-skip-install-verification-2026-10-18.json) |
+| 已安装片尾跳过 | 1.5.11已安装右下角纯白“长按 Ctrl 跳过”及白色圆环；左右Ctrl长按1秒、松开/失焦清零，保留原快进。真实片尾入口33项组件断言、7组圆环状态及F8通过；受控输入验收不称物理键盘或GPU验收。见[功能与运行记录](credits-skip-followup-2026-10-18.md)及[安装核验](../../../runtime/evidence/credits-skip-install-verification-2026-10-18.json) |
 | 当前游玩进度核查 | 第32轮普通命运11/11解锁、正式采用0，线索19/20完成（仅戏剧大师未完），两个特殊终局未解锁；只读核查原8存档未变，结局门槛/分支检查点与验收口径见[进度核查](completion-review-2026-10-18.md) |
 | 最新对白校订 | 幽灵“一场更大的游戏”、贝尔纳多“至少，我还有你这个朋友”、奥赛罗“苏丹麾下的一名高级大臣”均已安装；“抓住你的脑袋”按用户决定保留，见[奥赛罗术语核查](othello-term-review-2026-10-11.md) |
 | 本轮对白校订 | 奥赛罗故事“我感觉她把我留在了那里好多年”“说来有些病态，我也想让她吞食我的心”、奥菲莉娅“你……你和她……有过肌肤之亲吗？”均已安装，见[本轮记录](othello-story-followup-2026-10-15.md)与[安装核验](../../../runtime/evidence/othello-story-install-verification-2026-10-15.json) |
@@ -42,13 +42,13 @@
 | 已安装拇指双关 | 按用户确认，以“他闲着没事，把拇指往屁股里塞，留一根也够用了吧”显化俚语义，保留“一根”斜体；3项真实消费者通过，见[译文与语境](grace-combat-dialogue-followup-2026-10-15.md#拇指玩笑核查)，已随1.5.5安装 |
 | 已安装F8修复 | 插件1.5.5：日志已到底部时中英文切换继续保留底部，手动滚离后沿用段落定位；真实隔离UI集成探针对照通过，见[问题与验证](f8-log-bottom-followup-2026-10-15.md)及[安装核验](../../../runtime/evidence/grace-thumb-install-verification-2026-10-15.json) |
 | 已安装阅读修复 | 插件1.5.6：日志长姓名后正文自动让位，保留姓名/字号与原文字符串；18人物介绍支持F8同段落与底部保持，108次双向切换通过。另将共享Yes, my lord改为“是，大人。”，保留原文明写Your Majesty的“陛下”。见[本轮修复与边界](reading-layout-followup-2026-10-15.md)及[安装核验](../../../runtime/evidence/reading-layout-install-verification-2026-10-15.json) |
-| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前为1.5.11待安装个人候选，包含片尾Ctrl白字圆环、烧毁叠层及本轮对白校订，40文件与ZIP逐项一致；字体仍7,661字形，动态规则和许可不变。真实UI回归待完成；主游戏仍安装1.5.9 |
+| 本机构建包 | `runtime/package/ElsinoreHan-Sol.zip` 当前为1.5.11已安装个人构建，包含片尾Ctrl白字圆环、烧毁叠层及本轮对白校订，40文件与ZIP逐项一致；字体仍7,661字形，动态规则和许可不变。运行组件与F8核验已通过，不称完整剧情E2E或公开发布包 |
 | 备份策略 | 按用户2026-10-15要求停止长期备份；20份旧补丁备份与55份测试存档副本已明确授权删除，释放417,372,433字节。旧安装证据中的备份路径仅为历史记录，已不可用；测试临时存档仍隔离，结束后清理，见[公开上传与清理记录](public-repository-2026-10-15.md) |
-| 安装保护证据 | 原游戏4文件及8个存档的哈希、修改时间、大小和数量均未变；更新正文词表与字体，通过安装器安装且不创建旧补丁备份。两次后台字体测试使用临时存档副本并已清理，未启动用户主游戏 |
+| 安装保护证据 | 本轮安装前后原游戏4文件及8个存档的哈希、修改时间、大小和数量均未变；通过安装器更新且不创建旧补丁备份。隔离运行测试使用临时存档副本并已清理，未启动或操作用户主游戏 |
 | 发布状态 | [GitHub源码与译文仓库](https://github.com/Chains-Z/ElsinoreHan)已公开，当前文件与完整历史通过凭证及字体/二进制检查；字体、依赖、游戏、存档和ZIP未上传。可安装补丁包仍仅为本机个人构建，其他依赖许可、完整卸载说明与干净目录安装验证仍待完成，见[公开核验](../../../runtime/evidence/public-repository-verification-2026-10-15.json) |
 | 当前字体 | `ElsinoreHan Sans SDF`，来自思源黑体SC Regular 2.005R，OFL1.1；7,661字形及实际运行图集与原生生成结果一致，新字“噁”与“沉”上横检查通过，见[最新补字验收](eugh-font-followup-2026-10-18.md)、[字体来源](font-replacement-2026-10-11.md)与[授权复核](font-license-risk-check-2026-10-11.md) |
 
-下一步继续处理用户反馈。此前候选已安装；本轮返回方法答复、谢幕对白、烧毁叠层和片尾Ctrl跳过为待安装候选。用户继续游玩，本轮仅做离线验证；待退出后先完成1.5.11真实片尾Ctrl/提示圆环及烧毁页/UI/F8回归，再更新passed与安装状态。后续安装仍须确认游戏退出、使用安装器核验、不创建旧补丁备份，并在安装后生成不带 `-PendingInstall` 的包；不要重跑未改变的重型页面验收。公开仓库不上传API Key、字体、依赖、游戏本体、存档和安装包，后续推送可用 `tools/audit_public_repository.py` 扫描当前文件和完整历史。
+下一步继续处理用户反馈。本轮返回方法答复、谢幕对白、烧毁叠层和片尾Ctrl跳过均已随1.5.11安装。旧离线候选passed=false及首次菜单/探针失败证据保持快照；本轮新增运行与安装证明记录通过结果。后续安装仍须确认游戏退出、使用安装器核验、不创建旧补丁备份，并在安装后生成不带 `-PendingInstall` 的包；不要重跑未改变的重型页面验收。公开仓库不上传API Key、字体、依赖、游戏本体、存档和安装包。
 
 ## 接手入口
 
