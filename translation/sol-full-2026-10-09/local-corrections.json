@@ -1803,5 +1803,25 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p00957-7367087e34bb",
+    "source": "I have to believe that the world I'm leaving behind is a strong one. At the same time, leaving Elsinore with a man who knows little of my old life is... strange.",
+    "source_sha256": "7367087e34bbdcd2502aa965135e02b8c8cb26535376cd06e48b3ce0a8b51f39",
+    "original_target": "我必须相信，我留下的那个世界足够坚强。与此同时，和一个对我过去的生活知之甚少的男人离开埃尔西诺，感觉……很奇怪。",
+    "corrected_target": "我必须相信，我即将告别的那个世界足够坚强。与此同时，和一个对我过去的生活知之甚少的男人离开埃尔西诺，感觉……很奇怪。",
+    "kind": "text",
+    "reason": "用户2026-10-19确认：the world I am leaving behind指女主离开、留在身后的世界，改为即将告别避免我留下的被误解为创造或遗留某物；只改第一句，后续叙述不变。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 545
+      },
+      "用户2026-10-19截图反馈及确认"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
