@@ -1,6 +1,6 @@
 # 结局中的伶王称号与从政身份
 
-状态：两条校订离线验证通过，待安装；与此前女主强调句、血气方刚句合计四条。见[候选核验](../../../runtime/evidence/player-king-politician-verification-2026-10-19.json)。
+状态：已随2026-10-19七条结局措辞安装，当前无待安装修改。见[安装核验](../../../runtime/evidence/ending-seven-install-verification-2026-10-19.json)。下列内容保留候选阶段记录。
 
 真实出处为`scenes_endings`资产SHA256 `208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7`、`ENDING_FortinbrasPeaceful`。
 

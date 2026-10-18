@@ -1,0 +1,43 @@
+{
+  "read_only": true,
+  "save_sha256": "29e38271116d7df77d69dfda736f773a9c78673ab6538fa89cba636644ed2746",
+  "mode": "MainGame",
+  "root_loop": 55,
+  "viewed_endings": {
+    "viewedEnding(END_Delusion)": true,
+    "viewedEnding(END_Exile)": true,
+    "viewedEnding(END_FortinbrasPeaceful)": true,
+    "viewedEnding(END_HamletMarriage)": true,
+    "viewedEnding(END_JoinQuince)": false,
+    "viewedEnding(END_Othello)": true,
+    "viewedEnding(END_Pirate)": true,
+    "viewedEnding(END_Queen)": true,
+    "viewedEnding(END_Resignation)": true,
+    "viewedEnding(END_Revenge)": false,
+    "viewedEnding(END_RosAndGuil)": true,
+    "viewedEnding(END_SentAway)": true,
+    "viewedEnding(END_Survival)": true
+  },
+  "facts": {
+    "ownedInformation(EvilQuince)": true,
+    "hasSeen(hamlet,EvilQuince)": false,
+    "believes(ghost,quince_is_dangerous)": false,
+    "believes(hamlet,quince_is_dangerous)": false,
+    "believes(ophelia,ghostdestroyed)": false,
+    "playerAttended(SC_NOESCAPE_Ghostlastmanifest)": false,
+    "ownedInformation(NotNeeded)": false,
+    "unlockedEnding(END_Revenge)": false,
+    "viewedEnding(END_Revenge)": false,
+    "viewedEnding(END_JoinQuince)": false,
+    "leadActive(lead,Quince_Story,quince_complete)": false
+  },
+  "counters": {
+    "numberEndingsBurned": 11,
+    "perfectday": 0,
+    "depressedwakeup": 0,
+    "witnessed(SC_NOESCAPE_HamletPlay)": 0,
+    "witnessed(SC_NOESCAPE_Ghostlastmanifest)": 0
+  },
+  "ghost_belief_persistent": true,
+  "saves_unchanged": true
+}

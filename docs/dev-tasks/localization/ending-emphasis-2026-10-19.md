@@ -1,6 +1,6 @@
 # 女主结局旁白的强调语气
 
-状态：已完成离线验证，待安装。见[候选核验](../../../runtime/evidence/ending-emphasis-verification-2026-10-19.json)。正式安装仍为此前三条措辞版本，插件1.5.15不变。
+状态：已随2026-10-19七条结局措辞安装，当前无待安装修改。见[安装核验](../../../runtime/evidence/ending-seven-install-verification-2026-10-19.json)。下列内容保留候选阶段记录。
 
 `scenes_endings`资产SHA256为`208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7`，`ENDING_FortinbrasPeaceful`第511行、`p00926-69f375d99aed`明确由奥菲莉娅叙述。原文末句为`But he's damn well willing to try.`。用户在实际结局中确认说话人后，要求保留强调而减轻粗口，最终确认“可他还真就愿意试一试。”，替换已安装的“可是，妈的，他就是愿意试一试。”。
 

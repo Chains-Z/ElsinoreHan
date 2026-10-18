@@ -1,6 +1,6 @@
 # 费迪南德提亲的结局旁白
 
-状态：离线验证通过，待安装；与此前四条合计五条。见[候选核验](../../../runtime/evidence/ferdinand-proposal-verification-2026-10-19.json)。
+状态：已随2026-10-19七条结局措辞安装，当前无待安装修改。见[安装核验](../../../runtime/evidence/ending-seven-install-verification-2026-10-19.json)。下列内容保留候选阶段记录。
 
 用户最终确认将“到了二月，他向父亲求娶我。”改为“到了二月，他向父亲提亲，希望娶我为妻。”，接受与古代宫廷背景相合的传统婚俗语感；后续父女对话不变。源文第一句为`When February comes, he asks my father for my hand in marriage.`，稳定ID为`p00951-8b390bbfef37`，真实出处为`scenes_endings`资产SHA256 `208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7`、`ENDING_FortinbrasPeaceful`第538行。
 

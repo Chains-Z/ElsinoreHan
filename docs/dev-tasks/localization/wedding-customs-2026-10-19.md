@@ -1,6 +1,6 @@
 # 庭园婚礼的旁人非议
 
-状态：离线验证通过，待安装；与此前五条合计六条。见[候选核验](../../../runtime/evidence/wedding-customs-verification-2026-10-19.json)。
+状态：已随2026-10-19七条结局措辞安装，当前无待安装修改。见[安装核验](../../../runtime/evidence/ending-seven-install-verification-2026-10-19.json)。下列内容保留候选阶段记录。
 
 用户确认将`p00953-a314b9f6d502`中的“有些人觉得这有伤风化。”改为“有些人觉得这有违礼俗。”。原文为`Some find it scandalous.`，结合庭园婚礼及教会的前文，保留旁人认为不合礼俗的非议，避免现代中文“有伤风化”额外暗示色情或举止不检点。其余叙述不变，保留此前的“钟爱”。真实出处为`scenes_endings`资产SHA256 `208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7`、`ENDING_FortinbrasPeaceful`第540行。
 

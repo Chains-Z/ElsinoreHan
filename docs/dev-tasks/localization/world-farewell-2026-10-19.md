@@ -1,6 +1,6 @@
 # 告别旧世界的结局旁白
 
-状态：离线验证通过，待安装；与此前六条合计七条。见[候选核验](../../../runtime/evidence/world-farewell-verification-2026-10-19.json)。
+状态：已随2026-10-19七条结局措辞安装，当前无待安装修改。见[安装核验](../../../runtime/evidence/ending-seven-install-verification-2026-10-19.json)。下列内容保留候选阶段记录。
 
 用户确认将`p00957-7367087e34bb`第一句改为“我必须相信，我即将告别的那个世界足够坚强。”，对应`I have to believe that the world I'm leaving behind is a strong one.`。用“即将告别”明确离开、留在身后的意思，避免“我留下的”被误解为创造或遗留某物；后半段保持原样。真实出处为`scenes_endings`资产SHA256 `208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7`、`ENDING_FortinbrasPeaceful`第545行。
 

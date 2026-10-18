@@ -1,6 +1,6 @@
 # 福丁布拉斯与哈姆雷特的结局比较
 
-状态：离线验证通过，待安装；与此前女主强调句合计两条。见[候选核验](../../../runtime/evidence/fortinbras-comparison-verification-2026-10-19.json)。
+状态：已随2026-10-19七条结局措辞安装，当前无待安装修改。见[安装核验](../../../runtime/evidence/ending-seven-install-verification-2026-10-19.json)。下列内容保留候选阶段记录。
 
 用户确认将`p00936-ce768f62ba90`改为“这个血气方刚的入侵者，和那个被他彻底颠覆了人生的年轻人，竟比我想象的还要相像。”。源文为`They are far more alike than I could ever have imagined, this hot-headed invader and the young man whose world he shattered.`，真实出处为`scenes_endings`资产SHA256 `208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7`、`ENDING_FortinbrasPeaceful`第522行。
 
