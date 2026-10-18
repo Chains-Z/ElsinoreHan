@@ -37,7 +37,6 @@
   "supports_64_bit_windows_documented": true,
   "project_agents_updated": true,
   "previous_release_removed": "v1.5.15-zh.20261019",
-  "previous_git_tag_and_evidence_preserved": true,
   "repository_audit": {
     "passed": true,
     "head": "c97662854979d13d9efd8d54d7c6458caa245e1e",
@@ -62,5 +61,10 @@
   "previous_1_0_0_source_commits": [
     "9b947ae343ebbfc745d0369567c4fd5e2c72574c",
     "b330457373aeb9d362c081837e860bf62bd38bf0"
+  ],
+  "previous_git_tag_removed_at_user_request": "v1.5.15-zh.20261019",
+  "previous_commits_and_evidence_preserved": true,
+  "remaining_public_tags": [
+    "v1.0.0"
   ]
 }
