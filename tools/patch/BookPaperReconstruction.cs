@@ -60,6 +60,16 @@ public static class BookPaperReconstruction
 
     public static Result Reconstruct(byte[] original, int width, int height)
     {
+        return Repair(original, width, InkMask(original, width, height));
+    }
+    public static Result ReconstructBurnt(byte[] original, byte[] reference, int width, int height)
+    {
+        if (original.Length != reference.Length) throw new ArgumentException("烧毁图与正常纸尺寸不符");
+        // 烧痕与英文混合后无法用暗色阈值分离；沿用同布局正常纸的笔画位置。
+        return Repair(original, width, InkMask(reference, width, height));
+    }
+    private static int[] InkMask(byte[] original, int width, int height)
+    {
         bool spread = width == 2048 && height == 1400;
         bool unlock = width == 916 && height == 1252;
         if ((!spread && !unlock) || original.Length != width * height * 4)
@@ -80,6 +90,11 @@ public static class BookPaperReconstruction
         foreach (int p in seeds)
             for (int dy = -2; dy <= 2; dy++) for (int dx = -2; dx <= 2; dx++) mask.Add(p + dy * width + dx);
         int[] indices = new int[mask.Count]; mask.CopyTo(indices); Array.Sort(indices);
+        return indices;
+    }
+    private static Result Repair(byte[] original, int width, int[] indices)
+    {
+        var mask = new HashSet<int>(indices);
         var lookup = new Dictionary<int, int>();
         for (int i = 0; i < indices.Length; i++) lookup.Add(indices[i], i);
         var values = new float[indices.Length * 3];

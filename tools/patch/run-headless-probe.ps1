@@ -138,6 +138,7 @@ try {
     if ($env:ELSINOREHAN_PROBE_SETTINGS_OPTIONS -eq '1') { $reports += 'settings-options.txt' }
     if ($env:ELSINOREHAN_PROBE_JOURNAL -eq '1') { $reports += 'journal-ui.txt' }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += 'ending-book.json' }
+    if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('burnt-clean.rgba', 'confirmation-burnt-clean.rgba', 'book-render-burnt.json', 'book-render-confirmation-burnt.json') }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('paper-source.rgba', 'paper-clean.rgba', 'book-render-normal.json', 'book-render-turn-right.json', 'book-render-turn-left.json') }
     if ($env:ELSINOREHAN_PROBE_BOOK_PAGES) { $reports += @('ending-confirmation.json', 'confirmation-clean.rgba', 'book-render-confirmation.json') }
     if ($env:ELSINOREHAN_PROBE_ITALIC -eq '1') { $reports += 'italic-geometry.json' }

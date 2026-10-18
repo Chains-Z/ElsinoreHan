@@ -1,0 +1,114 @@
+{
+  "purpose": "烧毁叠层中的Sacrifice/for去字；不改游戏资源，只读哈希绑定的DXT5并在内存重建",
+  "sprite_asset": "sharedassets1.assets",
+  "stream_file": "sharedassets1.assets.resS",
+  "assembly_sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af",
+  "level1_sha256": "346dbdd37e25e69de3c470a2cd138630bd68cd6fe3c66e8b8770eed043945ef2",
+  "layouts": [
+    {
+      "layout": "spread",
+      "field": "BurntOverlay",
+      "sprite_path_id": 2051,
+      "sprite_name": "UI_Book_BurntOverlay",
+      "sprite_raw_sha256": "f339bfbc7ac2e4e51e1048cdedfb9a7e60b75e083b59f00fd4477cc9b845faf8",
+      "sprite_rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 2048.0,
+        "height": 1400.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pixels_per_unit": 100.0,
+      "texture_path_id": 92,
+      "texture_raw_sha256": "b035321b4812ba0eb29082e830266c0380436e08afff43bbaa5c75b5f4f3b90f",
+      "texture_format": "DXT5",
+      "texture_dimensions": [
+        2048,
+        1400
+      ],
+      "stream_offset": 43684,
+      "stream_size": 2867200,
+      "stream_sha256": "f6a373a556c8312d612da992270534ffab99e38cd3b6991599ed52709516df52",
+      "ink_search_regions": [
+        [
+          1350,
+          240,
+          1650,
+          334
+        ],
+        [
+          1425,
+          458,
+          1555,
+          548
+        ]
+      ],
+      "mask": 8336,
+      "iterations": 157,
+      "residual": 0.001995087,
+      "source_sha256": "f6a373a556c8312d612da992270534ffab99e38cd3b6991599ed52709516df52",
+      "clean_rgba_sha256": "ce9399716c12a33d8604ed52165cae185f561f4076301d2aed2cca5cdaf88fe5",
+      "changed_pixels": 7360,
+      "alpha_unchanged": true
+    },
+    {
+      "layout": "unlock",
+      "field": "BurntEndingUnlockOverlay",
+      "sprite_path_id": 2072,
+      "sprite_name": "UI_Book_Unlock_Burnt",
+      "sprite_raw_sha256": "127b69229d1fc6b883c3a91c709ab7582fa35d6207a6544c0b5d96cf65940d64",
+      "sprite_rect": {
+        "x": 0.0,
+        "y": 0.0,
+        "width": 916.0,
+        "height": 1252.0
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "pixels_per_unit": 100.0,
+      "texture_path_id": 128,
+      "texture_raw_sha256": "b7027b208f10c04892ad7ddde6cd5f09f2ca753949cb529752f45a9c9427c868",
+      "texture_format": "DXT5",
+      "texture_dimensions": [
+        916,
+        1252
+      ],
+      "stream_offset": 55161088,
+      "stream_size": 1146832,
+      "stream_sha256": "ca3d0e3a05c0e6a417519409c389f6c5437f815b9c4e52a1ae6deae099d58406",
+      "ink_search_regions": [
+        [
+          345,
+          180,
+          605,
+          263
+        ],
+        [
+          410,
+          398,
+          515,
+          480
+        ]
+      ],
+      "mask": 8336,
+      "iterations": 157,
+      "residual": 0.001968384,
+      "source_sha256": "ca3d0e3a05c0e6a417519409c389f6c5437f815b9c4e52a1ae6deae099d58406",
+      "clean_rgba_sha256": "6dfab13061cd7996e7a3d64d0162f8320d25448ae54a23a8d9bc01030efe095e",
+      "changed_pixels": 7672,
+      "alpha_unchanged": true
+    }
+  ],
+  "coordinate_contract": "完整Sprite矩形；英文区域采用左上原点，RGBA缓存为Unity左下原点",
+  "mask_contract": "复用同布局正常纸的英文暗色笔画及2像素扩展，不对焦纸重新阈值分割",
+  "repair_contract": "仅对mask内RGB做四邻域调和插值；全部alpha及mask外所有字节原样保留",
+  "lifecycle_contract": "沿用原BurntOverlay/BurntEndingUnlockOverlay的显示开关与层级；中文使用内存clean，F8恢复原Sprite；不重复创建中文标签",
+  "original_files_written": false,
+  "game_raster_files_packaged_or_committed": false,
+  "runtime_verified": false
+}

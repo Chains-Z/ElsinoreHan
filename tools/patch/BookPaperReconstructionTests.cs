@@ -7,12 +7,25 @@ public static class BookPaperReconstructionTests
     private static void Check(bool result) { if (!result) throw new Exception("书页像素逻辑断言失败"); }
     public static int Main(string[] args)
     {
+        try { return Run(args); }
+        catch (Exception error)
+        {
+            // 预期失败只写标准错误，避免Windows错误报告或即时调试器弹窗。
+            Console.Error.WriteLine(error.GetType().Name + ": " + error.Message);
+            return 1;
+        }
+    }
+    private static int Run(string[] args)
+    {
         if (args.Length >= 2)
         {
-            bool unlock = args.Length == 3 && args[2] == "unlock";
+            bool unlock = args.Length >= 3 && args[2].StartsWith("unlock", StringComparison.Ordinal);
+            bool burnt = args.Length >= 3 && args[2].EndsWith("burnt", StringComparison.Ordinal);
             int width = unlock ? 916 : 2048, height = unlock ? 1252 : 1400;
             byte[] original = BookPaperReconstruction.DecodeDxt5(File.ReadAllBytes(args[0]), width, height);
-            var result = BookPaperReconstruction.Reconstruct(original, width, height);
+            var result = burnt ? BookPaperReconstruction.ReconstructBurnt(original,
+                BookPaperReconstruction.DecodeDxt5(File.ReadAllBytes(args[3]), width, height), width, height)
+                : BookPaperReconstruction.Reconstruct(original, width, height);
             File.WriteAllBytes(args[1] + "-source.rgba", original);
             File.WriteAllBytes(args[1] + "-clean.rgba", result.pixels);
             File.WriteAllLines(args[1] + "-mask.txt", Array.ConvertAll(result.mask, value => value.ToString()));

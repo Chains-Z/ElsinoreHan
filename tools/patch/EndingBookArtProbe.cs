@@ -62,15 +62,21 @@ public static class EndingBookArtProbe
         var texts = new List<Glyph>();
         Type type = canvas.GetType();
         var current = ImageData(paper, paper);
-        current.raw_file = state == "confirmation" ? "confirmation-clean.rgba"
+        current.raw_file = state.StartsWith("confirmation", StringComparison.Ordinal) ? "confirmation-clean.rgba"
             : paper.sprite.name == "UI_Book_BackGround2" ? "paper-source.rgba" : "paper-clean.rgba";
         images.Add(current);
-        foreach (string field in new string[] { "icon", "Background" })
+        foreach (string field in new string[] { "icon", "Background", "BurntOverlay", "BurntEndingUnlockOverlay" })
         {
             var member = type.GetField(field, flags);
             if (member == null) continue;
             var image = (Image)member.GetValue(canvas);
-            if (image.gameObject.activeInHierarchy && image.sprite != null) images.Add(ImageData(image, paper));
+            if (image.gameObject.activeInHierarchy && image.sprite != null)
+            {
+                var picture = ImageData(image, paper);
+                if (image.sprite.name == "ElsinoreHan Burnt Paper") picture.raw_file =
+                    state.StartsWith("confirmation", StringComparison.Ordinal) ? "confirmation-burnt-clean.rgba" : "burnt-clean.rgba";
+                images.Add(picture);
+            }
         }
         foreach (TMP_Text text in canvas.GetComponentsInChildren<TMP_Text>())
         {

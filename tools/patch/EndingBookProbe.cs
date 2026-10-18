@@ -18,14 +18,15 @@ public static class EndingBookProbe
         public int schema = 1, resource_replay_count, repair_mask_count;
         public float label_size, keyword_size;
         public bool actual_navigation, translated, original, restored, hidden_with_page, no_cover_graphics,
-            labels_inside_rows, geometry_fits, styles, resource_replays, passed;
+            labels_inside_rows, geometry_fits, styles, resource_replays, burnt_prepared, burnt_original, burnt_restored, passed;
     }
     [Serializable] public class Page
     {
         public string id, what_source, for_source, what_display, for_display, geometry_details;
         public int what_style, for_style;
         public float keyword_size, label_size;
-        public bool translated, labels_italic, geometry_fits, labels_inside_rows, keywords_bold, original, restored, sprite_unchanged, turning_occludes_labels;
+        public bool translated, labels_italic, geometry_fits, labels_inside_rows, keywords_bold, original, restored, sprite_unchanged, turning_occludes_labels,
+            burnt_prepared, burnt_original, burnt_restored, burnt_activation_preserved;
     }
     [Serializable] public class Report
     {
@@ -95,6 +96,10 @@ public static class EndingBookProbe
         var labels = image.GetComponent("EndingBookLabels");
         var original = (Sprite)labels.GetType().GetProperty("OriginalSprite").GetValue(labels, null);
         var clean = (Sprite)labels.GetType().GetProperty("CleanSprite").GetValue(labels, null);
+        var burnt = (Image)Field(canvas, "BurntEndingUnlockOverlay");
+        var originalBurnt = (Sprite)labels.GetType().GetProperty("OriginalBurntSprite").GetValue(labels, null);
+        var cleanBurnt = (Sprite)labels.GetType().GetProperty("CleanBurntSprite").GetValue(labels, null);
+        bool burntActive = burnt.gameObject.activeSelf;
         MonoBehaviour toggle = null;
         foreach (var item in Resources.FindObjectsOfTypeAll<MonoBehaviour>()) if (item != null && item.GetType().Name == "TranslationToggle") toggle = item;
         var handle = toggle.GetType().GetMethod("HandleKey");
@@ -108,6 +113,9 @@ public static class EndingBookProbe
             report.displayed_what = what.text; report.displayed_for = forText.text;
             report.translated = what.text == "现实" && forText.text == "欢乐" && a.text == "<i>舍弃</i>" && b.text == "<i>换取</i>"
                 && layer.activeInHierarchy && image.sprite == clean && original.name == "UI_Book_Unlock";
+            report.burnt_prepared = originalBurnt != null && originalBurnt.name == "UI_Book_Unlock_Burnt"
+                && cleanBurnt != null && burnt.sprite == cleanBurnt;
+            if (!report.burnt_prepared) throw new InvalidOperationException("确认页烧毁叠层未去字");
             report.no_cover_graphics = layer.GetComponentsInChildren<Image>(true).Length == 0 && layer.GetComponentsInChildren<RawImage>(true).Length == 0;
             report.label_size = a.fontSize; report.keyword_size = what.fontSize;
             report.styles = (what.fontStyle & FontStyles.Bold) != 0 && (forText.fontStyle & FontStyles.Bold) != 0
@@ -118,11 +126,21 @@ public static class EndingBookProbe
                 && InsideRow(b, image, new Rect(0.15f, 1f - 490f / 1252, 0.75f, 102f / 1252));
             File.WriteAllBytes(Path.Combine(directory, "confirmation-clean.rgba"), clean.texture.GetRawTextureData());
             EndingBookArtProbe.Dump(canvas, image, directory, "confirmation");
+            File.WriteAllBytes(Path.Combine(directory, "confirmation-burnt-clean.rgba"), cleanBurnt.texture.GetRawTextureData());
+            try
+            {
+                // 仅重放可见层，不改已采用结局或任何逻辑标志。
+                burnt.gameObject.SetActive(true);
+                EndingBookArtProbe.Dump(canvas, image, directory, "confirmation-burnt");
+            }
+            finally { burnt.gameObject.SetActive(burntActive); }
             handle.Invoke(toggle, new object[] { true });
             yield return new WaitForSecondsRealtime(0.2f);
+            report.burnt_original = burnt.sprite == originalBurnt && burnt.gameObject.activeSelf == burntActive;
             report.original = what.text == "REALITY" && forText.text == "JOY" && !layer.activeSelf && image.sprite == original;
             handle.Invoke(toggle, new object[] { true });
             yield return new WaitForSecondsRealtime(0.2f);
+            report.burnt_restored = burnt.sprite == cleanBurnt && burnt.gameObject.activeSelf == burntActive;
             report.restored = what.text == "现实" && forText.text == "欢乐" && layer.activeInHierarchy && image.sprite == clean;
             // 在相同真实控件上重放全部来源标题；不篡改activeEnding、解锁或剧情状态。
             report.resource_replays = true;
@@ -144,7 +162,8 @@ public static class EndingBookProbe
             report.hidden_with_page &= layer.activeInHierarchy && image.sprite == clean;
             report.passed = report.actual_navigation && report.translated && report.original && report.restored && report.hidden_with_page
                 && report.no_cover_graphics && report.labels_inside_rows && report.geometry_fits && report.styles
-                && report.resource_replays && report.resource_replay_count > 0 && report.repair_mask_count > 0;
+                && report.resource_replays && report.resource_replay_count > 0 && report.repair_mask_count > 0
+                && report.burnt_prepared && report.burnt_original && report.burnt_restored;
         }
         finally
         {
@@ -189,6 +208,11 @@ public static class EndingBookProbe
                 var labels = image.GetComponent("EndingBookLabels");
                 var original = (Sprite)labels.GetType().GetProperty("OriginalSprite").GetValue(labels, null);
                 var clean = (Sprite)labels.GetType().GetProperty("CleanSprite").GetValue(labels, null);
+                var burnt = (Image)Field(book, "BurntOverlay");
+                var originalBurnt = (Sprite)labels.GetType().GetProperty("OriginalBurntSprite").GetValue(labels, null);
+                var cleanBurnt = (Sprite)labels.GetType().GetProperty("CleanBurntSprite").GetValue(labels, null);
+                bool burntActive = burnt.gameObject.activeSelf;
+                if (originalBurnt == null || cleanBurnt == null) throw new InvalidOperationException("命运书页烧毁叠层未去字");
                 report.repair_mask_count = (int)labels.GetType().GetProperty("RepairMaskCount").GetValue(labels, null);
                 report.no_cover_graphics = layer.GetComponentsInChildren<Image>(true).Length == 0 && layer.GetComponentsInChildren<RawImage>(true).Length == 0;
                 report.source_texture_untouched = original.texture != clean.texture;
@@ -197,10 +221,18 @@ public static class EndingBookProbe
                     File.WriteAllBytes(Path.Combine(directory, "paper-source.rgba"), (byte[])labels.GetType().GetMethod("ReadSourcePixels").Invoke(null, null));
                     File.WriteAllBytes(Path.Combine(directory, "paper-clean.rgba"), clean.texture.GetRawTextureData());
                     EndingBookArtProbe.Dump(book, image, directory, "normal");
+                    File.WriteAllBytes(Path.Combine(directory, "burnt-clean.rgba"), cleanBurnt.texture.GetRawTextureData());
+                    try
+                    {
+                        burnt.gameObject.SetActive(true);
+                        EndingBookArtProbe.Dump(book, image, directory, "burnt");
+                    }
+                    finally { burnt.gameObject.SetActive(burntActive); }
                 }
                 var page = new Page { id = expected[0], what_source = whatSource, for_source = forSource,
                     what_display = what.text, for_display = forText.text, what_style = (int)what.fontStyle,
                     for_style = (int)forText.fontStyle, keyword_size = what.fontSize, label_size = a.fontSize };
+                page.burnt_prepared = originalBurnt.name == "UI_Book_BurntOverlay" && burnt.sprite == cleanBurnt;
                 page.translated = what.text == Decode(expected[3]) && forText.text == Decode(expected[5])
                     && a.text == "<i>舍弃</i>" && b.text == "<i>换取</i>" && layer.activeInHierarchy;
                 page.geometry_fits = Fits(a) && Fits(b) && Fits(what) && Fits(forText);
@@ -214,10 +246,13 @@ public static class EndingBookProbe
                     && (b.textInfo.characterInfo[0].style & FontStyles.Italic) != 0;
                 handle.Invoke(toggle, new object[] { true });
                 yield return new WaitForSecondsRealtime(0.2f);
+                page.burnt_original = burnt.sprite == originalBurnt;
                 page.original = what.text == whatSource && forText.text == forSource && !layer.activeSelf
                     && image.sprite == original && (int)what.fontStyle == page.what_style && (int)forText.fontStyle == page.for_style;
                 handle.Invoke(toggle, new object[] { true });
                 yield return new WaitForSecondsRealtime(0.2f);
+                page.burnt_restored = burnt.sprite == cleanBurnt;
+                page.burnt_activation_preserved = burnt.gameObject.activeSelf == burntActive;
                 page.restored = what.text == page.what_display && forText.text == page.for_display && layer.activeInHierarchy;
                 page.sprite_unchanged = image.sprite == clean && (Sprite)labels.GetType().GetProperty("OriginalSprite").GetValue(labels, null) == original;
                 object hoverButton = Field(book, index + 1 < endings.Length ? "NextPageButton" : "PrevPageButton");
@@ -243,7 +278,8 @@ public static class EndingBookProbe
             }
             report.page_count = report.pages.Count;
             report.passed = report.page_count == cases.Count && report.no_cover_graphics && report.source_texture_untouched && report.repair_mask_count > 0
-                && report.pages.TrueForAll(p => p.translated && p.labels_italic && p.geometry_fits && p.labels_inside_rows && p.keywords_bold && p.original && p.restored && p.sprite_unchanged && p.turning_occludes_labels);
+                && report.pages.TrueForAll(p => p.translated && p.labels_italic && p.geometry_fits && p.labels_inside_rows && p.keywords_bold && p.original && p.restored && p.sprite_unchanged && p.turning_occludes_labels
+                    && p.burnt_prepared && p.burnt_original && p.burnt_restored && p.burnt_activation_preserved);
         }
         finally
         {

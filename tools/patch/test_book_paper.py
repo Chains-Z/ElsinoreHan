@@ -72,6 +72,60 @@ class BookPaperTests(unittest.TestCase):
             np.testing.assert_array_equal(original[::-1][y-3:y+4], clean[::-1][y-3:y+4])
         self.assertLess(json.loads(result.stdout)["residual"], 0.0021)
 
+    def test_burnt_overlays_reuse_ink_mask_and_keep_all_alpha(self):
+        # 两种烧毁页均有独立英文图片，不可对烧痕直接使用正常纸的暗色阈值。
+        layouts = [
+            ("burnt", 2048, 1400, 43684,
+             "f6a373a556c8312d612da992270534ffab99e38cd3b6991599ed52709516df52",
+             371948484, ((1350, 240, 1650, 334), (1425, 458, 1555, 548))),
+            ("unlock-burnt", 916, 1252, 55161088,
+             "ca3d0e3a05c0e6a417519409c389f6c5437f815b9c4e52a1ae6deae099d58406",
+             95762528, ((345, 180, 605, 263), (410, 398, 515, 480))),
+        ]
+        for mode, width, height, offset, digest, normal_offset, regions in layouts:
+            with self.subTest(mode=mode), STREAM.open("rb") as stream:
+                stream.seek(offset)
+                blocks = stream.read(width * height)
+                self.assertEqual(hashlib.sha256(blocks).hexdigest(), digest)
+                source, reference = self.directory / (mode + ".dxt5"), self.directory / (mode + "-normal.dxt5")
+                output = self.directory / mode
+                source.write_bytes(blocks)
+                stream.seek(normal_offset)
+                reference.write_bytes(stream.read(width * height))
+                result = subprocess.run([str(self.executable), str(source), str(output), mode, str(reference)],
+                                        check=True, capture_output=True, text=True, encoding="utf-8", timeout=20)
+                shape = height, width, 4
+                original = np.frombuffer(output.with_name(mode + "-source.rgba").read_bytes(), np.uint8).reshape(shape)
+                clean = np.frombuffer(output.with_name(mode + "-clean.rgba").read_bytes(), np.uint8).reshape(shape)
+                np.testing.assert_array_equal(original, np.array(Image.frombytes("RGBA", (width, height), blocks, "bcn", 3)))
+                indices = [int(v) for v in output.with_name(mode + "-mask.txt").read_text().splitlines()]
+                mask = np.zeros((height, width), dtype=bool)
+                mask.reshape(-1)[indices] = True
+                np.testing.assert_array_equal(original[~mask], clean[~mask])
+                # 焦孔与渐变由alpha决定；所有透明度必须逐字节保留。
+                np.testing.assert_array_equal(original[:, :, 3], clean[:, :, 3])
+                changed = np.count_nonzero(np.any(original != clean, axis=2))
+                self.assertGreater(changed, 3000)
+                self.assertLess(changed, 10000)
+                # 准确空间契约：改动只能落在两行英文附近，不触及任何分隔线或焦纸外缘。
+                allowed = np.zeros((height, width), dtype=bool)
+                for x1, y1, x2, y2 in regions:
+                    allowed[height-y2-2:height-y1+2, x1-2:x2+2] = True
+                self.assertFalse(np.any(mask & ~allowed))
+                self.assertLess(json.loads(result.stdout)["residual"], 0.0021)
+                # 复现旧错误路径：烧毁图不能独立用正常纸阈值识字，应受控拒绝而非弹出崩溃框。
+                rejected = subprocess.run([str(self.executable), str(source), str(self.directory / "rejected"),
+                                           "unlock" if width == 916 else "normal"], capture_output=True,
+                                          text=True, encoding="utf-8", timeout=5)
+                self.assertEqual(rejected.returncode, 1)
+                self.assertIn("InvalidOperationException", rejected.stderr)
+
+    def test_invalid_cli_input_reports_error_without_unhandled_exception(self):
+        result = subprocess.run([str(self.executable), str(self.directory / "missing.dxt5"), "unused"],
+                                capture_output=True, text=True, encoding="utf-8", timeout=5)
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("FileNotFoundException", result.stderr)
+
     def test_decoder_matches_standard_consumer_exactly(self):
         reference = np.array(Image.frombytes("RGBA", (2048, 1400), self.blocks, "bcn", 3))
         np.testing.assert_array_equal(self.original, reference)
