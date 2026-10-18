@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-18",
+  "status": "candidate_verified",
+  "installed": false,
+  "passed": true,
+  "previous_installed_verification": "runtime/evidence/inlaw-install-verification-2026-10-18.json",
+  "dictionary_count": 17069,
+  "dictionary_sha256": "389602adff30ec11b425798df0ac87849a1aeb2c22a6f2ca29379660df857a31",
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "changed_dictionary_sources": 243,
+  "terms": {
+    "quince": 202,
+    "perdita": 1,
+    "florizel": 2,
+    "titania": 3,
+    "katherine": 30,
+    "hortensio": 1,
+    "sycorax": 4
+  },
+  "font_coverage_passed": true,
+  "font_and_plugin_unchanged": true,
+  "consumers": {
+    "shakespeare_names": 2339,
+    "environment_and_documents": 454,
+    "affected_existing": 10426,
+    "endings": 407,
+    "love_and_postending": 642,
+    "curtain_call": 574
+  },
+  "governance_tests": {
+    "export": 19,
+    "reading_followup": 4
+  },
+  "preexisting_stale_fixture_cases": 13,
+  "preexisting_failure_comparison": "旧输出只替换批准姓名后与新输出完全一致；根据既有准确旧值校订更新旧预期",
+  "limitations": [
+    "未启动游戏；未执行图形或剧情E2E；未安装",
+    "不修改原游戏业务英文、程序或存档",
+    "历史审查快照保持不变，当前阅读稿使用精确后续覆盖链"
+  ]
+}

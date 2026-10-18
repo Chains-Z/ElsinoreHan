@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-18",
+  "scope": "真实资源与全量导出词表中的跨剧人物、舞台角色和典故姓名；不把同名历史人物或新编角色当作莎剧人物。",
+  "terms": [
+    {
+      "id": "quince",
+      "pattern": "\\bQuince\\b",
+      "previous_name": "奎因斯",
+      "name": "昆斯",
+      "work": "仲夏夜之梦",
+      "reference": "https://angelibrary.com/western/shespia/cxyzm.htm"
+    },
+    {
+      "id": "perdita",
+      "pattern": "\\bPerdita\\b",
+      "previous_name": "珀迪塔",
+      "name": "潘狄塔",
+      "work": "冬天的故事",
+      "reference": "https://angelibrary.com/western/shespia/dtdgs.htm"
+    },
+    {
+      "id": "florizel",
+      "pattern": "\\bFlorizel\\b",
+      "previous_name": "弗洛里泽尔",
+      "name": "弗罗利泽",
+      "work": "冬天的故事",
+      "reference": "https://angelibrary.com/western/shespia/dtdgs.htm"
+    },
+    {
+      "id": "titania",
+      "pattern": "\\bTitania\\b",
+      "previous_name": "泰坦妮娅",
+      "name": "提泰妮娅",
+      "work": "仲夏夜之梦",
+      "reference": "https://www.cp.com.cn/book/c7500ffe-b.html"
+    },
+    {
+      "id": "katherine",
+      "pattern": "\\bKath(?:er|ar)ine\\b",
+      "previous_name": "凯瑟琳",
+      "name": "凯瑟丽娜",
+      "work": "驯悍记",
+      "reference": "https://angelibrary.com/western/shespia/xxj.htm"
+    },
+    {
+      "id": "hortensio",
+      "pattern": "\\bHortensio\\b",
+      "previous_name": "霍滕西奥",
+      "name": "霍坦西奥",
+      "work": "驯悍记",
+      "reference": "https://angelibrary.com/western/shespia/xxj.htm"
+    },
+    {
+      "id": "sycorax",
+      "pattern": "\\bSycorax\\b",
+      "previous_name": "西科拉克斯",
+      "name": "西考拉克斯",
+      "work": "暴风雨",
+      "reference": "https://mphilosophy.sysu.edu.cn/sites/default/files/2024-05/现代哲学2023第4期.pdf"
+    }
+  ],
+  "changed_dictionary_sources": 243,
+  "counts": {
+    "quince": 202,
+    "perdita": 1,
+    "florizel": 2,
+    "titania": 3,
+    "katherine": 30,
+    "hortensio": 1,
+    "sycorax": 4
+  }
+}

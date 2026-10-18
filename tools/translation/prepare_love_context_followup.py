@@ -5,6 +5,7 @@ import re
 
 from audit_dialect_dialogue import extract_rows
 from export_sol_full import apply_supplemental
+from prepare_shakespeare_names_followup import apply_names
 from prepare_dialogue_log_followup import (
     DIALOGUE, GAME_RESOURCE, ROOT, SCENE, dialogue_source, digest, read,
     read_text_assets, save, short_name,
@@ -27,6 +28,8 @@ def main():
             row for row in read(ROOT / "translation/supplemental" / filename)
             if row["source"] in reviewed
         ])
+    effective_review = apply_names(effective_review)
+    corrections = apply_names(corrections)
     actual = {row["source"] for row in translations
               if re.search(review["word_pattern"], row["source"], re.I)}
     assert len(actual) == len(reviewed) == len(review["entries"]) == 431

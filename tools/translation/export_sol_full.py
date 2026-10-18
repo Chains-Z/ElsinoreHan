@@ -184,6 +184,12 @@ def main():
             # 后续校订须匹配上轮译文，保持每层来源唯一和覆盖链可审计。
             rows = apply_supplemental(rows, extra_entries)
             supplemental += extra_entries
+    # 姓名统一在历史别名治理之后应用，并显式覆盖基本词条和受影响别名。
+    name_path = SUPPLEMENTAL.with_name("shakespeare-name-corrections.json")
+    if name_path.exists():
+        names = json.loads(name_path.read_text(encoding="utf-8"))
+        rows = apply_supplemental(rows, names)
+        supplemental += names
     (DIRECTORY / "translations.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     package = ROOT / "runtime" / "package" / "ElsinoreHan-Sol" / "BepInEx" / "Translation" / "zh-CN" / "Text"
     package.mkdir(parents=True, exist_ok=True)

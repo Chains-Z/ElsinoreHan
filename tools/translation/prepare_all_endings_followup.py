@@ -62,6 +62,13 @@ def main():
     followup_path = ROOT / "translation/supplemental/ending-reading-followup.json"
     followup = read(followup_path) if followup_path.exists() else {"paragraphs": [], "titles": []}
     overrides = paragraph_overrides(followup["paragraphs"])
+    # 原审查及阅读反馈先按历史顺序生效，再承接本轮姓名；不改写旧审查快照。
+    sources = {row[key] for ending in review["endings"] for row in ending["paragraphs"]
+               for key in ("source", "runtime_source")}
+    name_overrides = paragraph_overrides([
+        row for row in read(ROOT / "translation/supplemental/shakespeare-name-corrections.json")
+        if row["source"] in sources])
+    used_names = set()
     title_overrides = {entry["ending_id"]: entry for entry in followup["titles"]}
     assert len(title_overrides) == len(followup["titles"])
     used_overrides, used_titles = set(), set()
@@ -94,6 +101,7 @@ def main():
                 assert source[key] == reviewed[key], (ending["scene"], index, key)
             raw, runtime = source["source"], source["runtime_source"]
             reviewed = apply_reading_followup(reviewed, overrides, used_overrides)
+            reviewed = apply_reading_followup(reviewed, name_overrides, used_names)
             assert digest(raw) == reviewed["source_sha256"]
             assert digest(runtime) == reviewed["runtime_source_sha256"]
             if reviewed["nonlexical"]:
@@ -125,6 +133,7 @@ def main():
             reading.extend([content, original, ""])
     assert (narrative, pauses, variants, changed) == (399, 3, 5, 15)
     assert used_overrides == set(overrides) and used_titles == set(title_overrides)
+    assert used_names == set(name_overrides)
     assert len(cases) == 407
     save(ROOT / "translation/supplemental/all-endings-tests.json", cases)
     destination = ROOT / "docs/dev-tasks/localization/endings-review-2026-10-18/ending-texts-zh-CN.txt"

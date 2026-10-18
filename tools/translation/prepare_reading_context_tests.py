@@ -15,9 +15,9 @@ def main():
             continue
         speakers = {"p02686-3308fc1fb0fd": ("Hamlet", "哈姆雷特"),
                     "p02687-d1e4494f09eb": ("Hamlet", "哈姆雷特"),
-                    "p04724-17500c24bf52": ("Quince", "奎因斯"),
-                    "p01429-cfac3c4184a6": ("Quince", "奎因斯"),
-                    "p11946-78df2794f513": ("Quince", "奎因斯"),
+                    "p04724-17500c24bf52": ("Quince", "昆斯"),
+                    "p01429-cfac3c4184a6": ("Quince", "昆斯"),
+                    "p11946-78df2794f513": ("Quince", "昆斯"),
                     "p04044-2faad0554345": ("Polonius", "波洛涅斯"),
                     "p04047-b18e9b908b5c": ("Polonius", "波洛涅斯"),
                     "p09190-4371d46d4f86": ("Brit", "布莉特"),

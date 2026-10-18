@@ -4,6 +4,7 @@ import json
 import re
 
 from export_sol_full import apply_supplemental
+from prepare_shakespeare_names_followup import reading_names
 from prepare_dialogue_log_followup import (
     DIALOGUE, GAME_RESOURCE, ROOT, SCENE, dialogue_source, digest, read,
     read_text_assets, save, short_name, source_rows,
@@ -34,6 +35,8 @@ def display(value):
 
 def main():
     review = read(DIRECTORY / "curtain-call-review.json")
+    for scene in review["scenes"]:
+        scene["paragraphs"] = reading_names(scene["paragraphs"])
     corrections = read(DIRECTORY / "curtain-call-corrections.json")
     translations = read(ROOT / "translation/sol-full-2026-10-09/translations.json")
     targets = {row["source"]: row for row in translations}
