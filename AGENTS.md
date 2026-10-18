@@ -15,6 +15,7 @@
 
 - 对外汉化补丁版本与内部兼容插件版本分别编号，唯一配置为 `tools/release/version.json`。公开标签、ZIP文件名使用对外版本；构建时核对内部版本与插件声明及安装证据，不因文案或词表发布而强制改插件版本。具体约定见 [版本维护](docs/dev-tasks/public-release/versioning.md)。
 - 公开包用 `tools/release/build-public-release.py` 按白名单生成，运行文件平铺，玩家直接解压到 `Elsinore.exe` 旁即可使用。玩家说明放在ZIP根目录，使用中文命名的“安装方法.txt”“使用说明.txt”“常见问题.txt”“更新说明.txt”，由维护用Markdown生成带BOM的UTF-8纯文本，默认双击记事本可读，避免要求玩家理解Markdown或命令行。
+- 仓库README、包内使用说明及发布说明注明翻译来源：翻译为GPT-6.1-sol，校对为GPT-6.1-sol与项目作者（Chains-Z）；按实际口径说明已检查全部结局路线，但未必穷尽所有已知对白，不承诺每句逐句校对，不夸大覆盖度。
 - 玩家说明优先写简单安装步骤及F8、长按Ctrl约1秒跳过演职人员名单等实际功能；平台写Windows版并说明支持64位Windows，避免将游戏程序的x86架构误写成要求32位电脑。高级安装／卸载工具、许可及对应源码留在 `ElsinoreHan/`。
 - 发布前核对字体再分发许可、完整第三方许可及对应源码、安装／卸载说明和干净目录验证；扫描Git及完整历史、包白名单和敏感信息。上传后下载附件核对内容与哈希，再发布；玩家文档、GitHub说明与附件版本一致。具体步骤和证据见 [公开发布任务](docs/dev-tasks/public-release/README.md)。
 
