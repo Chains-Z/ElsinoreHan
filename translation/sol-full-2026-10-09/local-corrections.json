@@ -1723,5 +1723,25 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p00936-ce768f62ba90",
+    "source": "They are far more alike than I could ever have imagined, this hot-headed invader and the young man whose world he shattered.",
+    "source_sha256": "ce768f62ba90d15779f92bce94263f0fdf29e3884bcc054df068df538fd084cb",
+    "original_target": "这个冲动的入侵者，与那个被他击碎了整个世界的年轻人，竟远比我所能想象的更加相像。",
+    "corrected_target": "这个血气方刚的入侵者，和那个被他彻底颠覆了人生的年轻人，竟比我想象的还要相像。",
+    "kind": "text",
+    "reason": "用户2026-10-19确认采用此前建议：hot-headed译为血气方刚，保留急躁、容易冲动的性格意味，避免热血的单纯褒义；重组后半句使中文自然，不新增两人的关系。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 522
+      },
+      "用户2026-10-19截图反馈并确认血气方刚的整句译法"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
