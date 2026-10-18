@@ -894,5 +894,47 @@
         "actor": "ophelia"
       }
     ]
+  },
+  {
+    "id": "ascension-care-leaf",
+    "source": "I suppose you're right. There's nothing for me there. Certainly I don't care to see any of <i>them.</i>",
+    "target": "我想你说得对。那里已经没有什么值得我留恋的了。我当然也没兴趣见<i>他们</i>中的任何一个。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaAloneStarter",
+        "line": 219,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-care-box",
+    "source": "<line-height=90%>I suppose you're right. There's nothing for me there. Certainly I don't care to see any of <i>them.</i>",
+    "target": "<line-height=90%>我想你说得对。那里已经没有什么值得我留恋的了。我当然也没兴趣见<i>他们</i>中的任何一个。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaAloneStarter",
+        "line": 219,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-care-log",
+    "source": "<b>Ophelia:</b> <indent=16%>I suppose you're right. There's nothing for me there. Certainly I don't care to see any of <i>them.</i>",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我想你说得对。那里已经没有什么值得我留恋的了。我当然也没兴趣见<i>他们</i>中的任何一个。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaAloneStarter",
+        "line": 219,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]

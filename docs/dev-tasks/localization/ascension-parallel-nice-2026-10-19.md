@@ -91,3 +91,16 @@ nice说的是这次相遇带给昆斯的愉快感受。用高兴明确体验者�
 幼稚体现女主如今对过去判断的否定，单纯承接她对昔日生活和如今见识的比较，呼应后面自比孩子。来源为scenes_endings/ENDING_JoinQuince行36、37；旧人名校订保留快照，本轮通过后置准确旧值覆盖层处理。
 
 本次仅2条目标变化，累计11词条待安装；60项真实消费者及17,069项字典解析通过，无新增字，40文件ZIP逐项一致。插件、字体和动态规则未变。未安装、启动游戏或访问存档。[最新候选](../../../runtime/evidence/ascension-naive-simple-verification-2026-10-19.json)
+
+
+## 后续：care to see的冷淡意愿
+
+英文：I suppose you're right. There's nothing for me there. Certainly I don't care to see any of <i>them.</i>
+
+改前：我想你说得对。那里已经没有什么值得我留恋的了。我当然也不想见<i>他们</i>中的任何一个。
+
+改后：我想你说得对。那里已经没有什么值得我留恋的了。我当然也没兴趣见<i>他们</i>中的任何一个。
+
+用户确认该译法：care to see表示想见或愿意见，采用没兴趣见突出对昔日人物的漠然，少一点主动拒绝；不将care to按care about的在乎义拆译。保留原文them的斜体强调。来源为scenes/Spine_OpheliaAloneStarter行219，源SHA及准确旧值见既有校订层。
+
+本次仅1条目标变化，累计12词条待安装；63项真实消费者及17,069项字典解析通过，无新增字，40文件ZIP逐项一致。插件、字体和动态规则未变。未安装、启动游戏或访问存档。[最新候选](../../../runtime/evidence/ascension-care-verification-2026-10-19.json)

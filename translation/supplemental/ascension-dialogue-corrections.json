@@ -197,5 +197,24 @@
       }
     ],
     "reason": "用户确认simple译为单纯，承接昔日生活与如今见识的对照；采用已确认整句，不添加新的行为或情绪。"
+  },
+  {
+    "id": "ascension-care-p00984-91a5b2075017",
+    "original_id": "p00984-91a5b2075017",
+    "source": "I suppose you're right. There's nothing for me there. Certainly I don't care to see any of <i>them.</i>",
+    "source_sha256": "91a5b2075017149c5823975b65eaf1fbb29080678f7534027611997a860799ac",
+    "previous_target": "我想你说得对。那里已经没有什么值得我留恋的了。我当然也不想见<i>他们</i>中的任何一个。",
+    "target": "我想你说得对。那里已经没有什么值得我留恋的了。我当然也没兴趣见<i>他们</i>中的任何一个。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaAloneStarter",
+        "line": 219,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户确认将care to see译为没兴趣见，以表达冷淡的意愿而非主动拒绝；不将care to误解成care about，保留原文斜体强调他们。",
+    "reference": "https://dictionary.cambridge.org/dictionary/english/care"
   }
 ]
