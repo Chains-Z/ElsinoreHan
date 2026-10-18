@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-19",
+  "passed": true,
+  "release_id": "v1.0.0",
+  "patch_version": "1.0.0",
+  "internal_version": "1.5.15",
+  "release_url": "https://github.com/Chains-Z/ElsinoreHan/releases/tag/v1.0.0",
+  "source_commit": "c97662854979d13d9efd8d54d7c6458caa245e1e",
+  "is_draft": false,
+  "is_prerelease": false,
+  "is_latest": true,
+  "published_at_utc": "2026-10-18T22:23:19Z",
+  "assets": [
+    {
+      "name": "ElsinoreHan-v1.0.0-windows.zip",
+      "size": 16200719,
+      "sha256": "a62fe4dbbc60ad8293792d89d48ba1cfd1537f3d26c59cc407085e91e98c0288",
+      "url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.0.0/ElsinoreHan-v1.0.0-windows.zip"
+    },
+    {
+      "name": "SHA256SUMS.txt",
+      "size": 98,
+      "sha256": "3b31d50d4f19c19ea27c5d31b4535b8369878bb3adc845c2435d4651824d7955",
+      "url": "https://github.com/Chains-Z/ElsinoreHan/releases/download/v1.0.0/SHA256SUMS.txt"
+    }
+  ],
+  "cloud_assets_identical_to_local": true,
+  "all_66_cloud_entries_match_stage": true,
+  "root_player_documents": [
+    "安装方法.txt",
+    "使用说明.txt",
+    "常见问题.txt",
+    "更新说明.txt"
+  ],
+  "runtime_files_identical_to_previous_release": 39,
+  "ctrl_hold_skip_documented": true,
+  "supports_64_bit_windows_documented": true,
+  "project_agents_updated": true,
+  "previous_release_removed": "v1.5.15-zh.20261019",
+  "previous_git_tag_and_evidence_preserved": true,
+  "repository_audit": {
+    "passed": true,
+    "head": "c97662854979d13d9efd8d54d7c6458caa245e1e",
+    "commits": 149,
+    "tracked_files": 1381,
+    "history_blobs": 2554,
+    "local_secret_values_compared": 1,
+    "worktree_findings": [],
+    "history_findings": [],
+    "untracked_findings": []
+  },
+  "game_or_test_processes_started": false,
+  "player_install_or_saves_changed": false,
+  "no_saves_or_keys_or_game_files_in_archive": true,
+  "unrelated_untracked_file_not_committed": "tools/translation/prepare_expanded_review.py",
+  "release_notes_match_repository_after_line_ending_normalization": true,
+  "translation_model": "GPT-6.1-sol",
+  "proofreading_model": "GPT-6.1-sol",
+  "proofreading_author": "Chains-Z",
+  "user_confirmed_coverage_statement": "已经人工游玩所有路线，应该没有重大翻译错误，但不代表已穷尽所有已知对白，也不保证每句对白都经过逐句校对。",
+  "initial_release_editorial_revision": true,
+  "previous_1_0_0_source_commits": [
+    "9b947ae343ebbfc745d0369567c4fd5e2c72574c",
+    "b330457373aeb9d362c081837e860bf62bd38bf0"
+  ]
+}
