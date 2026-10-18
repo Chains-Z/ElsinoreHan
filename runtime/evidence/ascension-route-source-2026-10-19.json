@@ -1,0 +1,1358 @@
+{
+  "scope": "只读核查本机真实游戏资源与既有原IL；未启动游戏、操作存档或联网；本文件不是游玩通过证据。",
+  "resources_assets_sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd",
+  "schedule_events": [
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7005,
+      "event": {
+        "condition": [
+          [
+            "not ownedInformation(NotNeeded)"
+          ],
+          [
+            "believes(ophelia,ghostdestroyed)"
+          ],
+          [
+            "counter_(numberEndingsBurned,4)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_InitialKickoff",
+        "participants": [
+          "quince"
+        ],
+        "scene": "WITCH_InitialKickoff",
+        "time": [
+          {
+            "begin": [
+              2,
+              7,
+              0
+            ]
+          }
+        ],
+        "type": "mandatory",
+        "description": "Quince has a suggestion for me."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7029,
+      "event": {
+        "condition": [
+          [
+            "dead(polonius)"
+          ],
+          [
+            "dead(claudius)"
+          ],
+          [
+            "dead(hamlet)"
+          ],
+          [
+            "dead(laertes)"
+          ],
+          [
+            "dead(gertrude)"
+          ],
+          [
+            "dead(rosencrantz)"
+          ],
+          [
+            "dead(guildenstern)"
+          ],
+          [
+            "dead(horatio)"
+          ],
+          [
+            "dead(irma)"
+          ],
+          [
+            "dead(brit)"
+          ],
+          [
+            "dead(bernardo)"
+          ],
+          [
+            "dead(marcellus)"
+          ],
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 20,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_ASCENSION",
+        "participants": {
+          "quince": "kingthrone"
+        },
+        "room": "great_hall",
+        "scene": "WITCH_Ascension",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Quince extends me an invitation too good to refuse."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7064,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [
+          "deadcharactersallowed",
+          "HighActivationPriority"
+        ],
+        "id": "SC_WITCH_InitialMeeting",
+        "participants": {
+          "quince": "BernardoPart2"
+        },
+        "observers": {
+          "bernardo": "gh_rugupleft1",
+          "marcellus": "gh_rugupleft",
+          "brit": "gh_rugdownright1",
+          "claudius": "gh_rugdownleft1",
+          "gertrude": "gh_rugdownleft",
+          "irma": "gh_rugdownright2",
+          "rosencrantz": "gh_rugupright3",
+          "guildenstern": "gh_rugupright4",
+          "laertes": "gh_rugupright",
+          "horatio": "gh_bernardotable",
+          "hamlet": "gh_rugupright2",
+          "polonius": "gh_rugupright1"
+        },
+        "room": "great_hall",
+        "scene": "WITCH_InitialMeeting",
+        "time": [
+          {
+            "end": [
+              3,
+              0,
+              0
+            ]
+          }
+        ],
+        "type": "mandatory",
+        "description": "A chill falls on Elsinore Castle."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7101,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [
+          "deadcharactersallowed",
+          "HighActivationPriority"
+        ],
+        "id": "SC_WITCH_SecondMeeting",
+        "participants": {
+          "quince": "BernardoPart2"
+        },
+        "observers": {
+          "bernardo": "gh_rugupleft1",
+          "marcellus": "gh_rugupleft",
+          "brit": "gh_rugdownright1",
+          "claudius": "gh_rugdownleft1",
+          "gertrude": "gh_rugdownleft",
+          "irma": "gh_rugdownright2",
+          "rosencrantz": "gh_rugupright3",
+          "guildenstern": "gh_rugupright4",
+          "laertes": "gh_rugupright",
+          "horatio": "gh_bernardotable",
+          "hamlet": "gh_rugupright2",
+          "polonius": "gh_rugupright1"
+        },
+        "room": "great_hall",
+        "scene": "WITCH_SecondMeeting",
+        "time": [
+          {
+            "end": [
+              3,
+              0,
+              0
+            ]
+          }
+        ],
+        "type": "mandatory",
+        "description": "Panic sets in."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7139,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [
+          "deadcharactersallowed",
+          "HighActivationPriority"
+        ],
+        "id": "SC_WITCH_ThirdMeeting",
+        "participants": {
+          "quince": "BernardoPart2"
+        },
+        "observers": {
+          "bernardo": "gh_rugupleft1",
+          "marcellus": "gh_rugupleft",
+          "brit": "gh_rugdownright1",
+          "claudius": "gh_rugdownleft1",
+          "gertrude": "gh_rugdownleft",
+          "irma": "gh_rugdownright2",
+          "rosencrantz": "gh_rugupright3",
+          "guildenstern": "gh_rugupright4",
+          "laertes": "gh_rugupright",
+          "horatio": "gh_bernardotable",
+          "hamlet": "gh_rugupright2",
+          "polonius": "gh_rugupright1"
+        },
+        "room": "great_hall",
+        "scene": "WITCH_ThirdMeeting",
+        "time": [
+          {
+            "end": [
+              3,
+              0,
+              0
+            ]
+          }
+        ],
+        "type": "mandatory",
+        "description": "They cower in fear."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7177,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [
+          "deadcharactersallowed"
+        ],
+        "id": "SC_WITCH_KillOphelia",
+        "participants": {
+          "quince": "kingthrone"
+        },
+        "observers": [],
+        "scene": "WITCH_KillOphelia",
+        "time": [
+          {
+            "begin": [
+              3,
+              0,
+              0
+            ]
+          }
+        ],
+        "type": "mandatory",
+        "description": "Quince exposes me."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7200,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(brit,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_BritResponse",
+        "participants": {
+          "brit": false
+        },
+        "scene": "WITCH_BritResponse",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Brit stops me."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7222,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(bernardo,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_BernardoResponse",
+        "participants": {
+          "bernardo": false
+        },
+        "scene": "WITCH_BernardoResponse",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Bernardo stops me."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7244,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(marcellus,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_MarcellusResponse",
+        "participants": {
+          "marcellus": false
+        },
+        "scene": "WITCH_MarcellusResponse",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Marcellus stops me."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7266,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(claudius,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_ClaudiusResponse",
+        "participants": {
+          "claudius": false
+        },
+        "scene": "WITCH_ClaudiusResponse",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Claudius stops me."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7288,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(hamlet,demon)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_HamletResponse1",
+        "participants": {
+          "hamlet": false
+        },
+        "scene": "Witch_HamletResponse1",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Hamlet pleads with me to stop."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7312,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(hamlet,demon)"
+          ],
+          [
+            "counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_HamletResponse2",
+        "participants": {
+          "hamlet": false
+        },
+        "scene": "Witch_HamletResponse2",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Hamlet finally works up the will to act."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7334,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(polonius,demon)"
+          ],
+          [
+            "counter_(erasedCount,6)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_Witch_PoloniusDespair",
+        "participants": {
+          "polonius": "walls2_2"
+        },
+        "scene": "Witch_PoloniusDespair",
+        "time": [
+          {}
+        ],
+        "type": "observation",
+        "room": "walls",
+        "description": "Father breaks."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7357,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(laertes,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 15,
+          "teardown": 10,
+          "trigger": 1
+        },
+        "flags": [],
+        "id": "SC_WITCH_LaertesResponse1",
+        "participants": {
+          "laertes": false
+        },
+        "scene": "WITCH_LaertesResponse1",
+        "room": "bedroom_laertes",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Laertes tries to reason with me."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7381,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(irma,demon)"
+          ],
+          [
+            "hasSeen(gertrude,NotNeeded)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_IrmaFightBack",
+        "participants": {
+          "irma": false
+        },
+        "scene": "WITCH_IrmaFightBack",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Irma avenges Gertrude."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7403,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(gertrude,demon)"
+          ],
+          [
+            "dead(bernardo)"
+          ]
+        ],
+        "duration": {
+          "assembly": 20,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_Witch_GertrudeResponse1",
+        "participants": [
+          "claudius",
+          "gertrude"
+        ],
+        "scene": "Witch_GertrudeResponse1",
+        "time": [
+          {}
+        ],
+        "room": "great_hall",
+        "type": "observation",
+        "description": "Gertrude runs to Claudius for help."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7427,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(gertrude,demon)"
+          ],
+          [
+            "not dead(bernardo)"
+          ]
+        ],
+        "duration": {
+          "assembly": 20,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_Witch_GertrudeResponse2",
+        "participants": [
+          "bernardo",
+          "gertrude"
+        ],
+        "scene": "Witch_GertrudeResponse2",
+        "time": [
+          {}
+        ],
+        "room": "great_hall",
+        "type": "observation",
+        "description": "Gertrude runs to Bernardo for help."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7451,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(gertrude,demon)"
+          ],
+          [
+            "dead(claudius)"
+          ],
+          [
+            "dead(bernardo)"
+          ],
+          [
+            "not dead(marcellus)"
+          ]
+        ],
+        "duration": {
+          "assembly": 20,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_Witch_GertrudeResponse3",
+        "participants": [
+          "marcellus",
+          "gertrude"
+        ],
+        "scene": "Witch_GertrudeResponse3",
+        "time": [
+          {}
+        ],
+        "room": "great_hall",
+        "type": "observation",
+        "description": "Gertrude runs to Marcellus for help."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7475,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(gertrude,demon)"
+          ],
+          [
+            "dead(claudius)"
+          ],
+          [
+            "dead(bernardo)"
+          ],
+          [
+            "dead(marcellus)"
+          ],
+          [
+            "not dead(polonius)"
+          ]
+        ],
+        "duration": {
+          "assembly": 20,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_Witch_GertrudeResponse4",
+        "participants": [
+          "polonius",
+          "gertrude"
+        ],
+        "scene": "Witch_GertrudeResponse4",
+        "time": [
+          {}
+        ],
+        "room": "great_hall",
+        "type": "observation",
+        "description": "Gertrude runs to Polonius for help."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7499,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(horatio,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 20,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_Witch_HoratioResponse",
+        "participants": {
+          "horatio": "GertrudePart2",
+          "hamlet": "ClaudiusPart2"
+        },
+        "scene": "Witch_HoratioResponse",
+        "time": [
+          {}
+        ],
+        "room": "great_hall",
+        "type": "observation",
+        "description": "Horatio tries to warm Hamlet."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7523,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(gertrude,demon)"
+          ],
+          [
+            "dead(claudius)"
+          ],
+          [
+            "dead(bernardo)"
+          ],
+          [
+            "dead(marcellus)"
+          ],
+          [
+            " dead(polonius)"
+          ]
+        ],
+        "duration": {
+          "assembly": 20,
+          "teardown": 10,
+          "trigger": 20000
+        },
+        "flags": [
+          "occurswhentriggered",
+          "highprioritybackground"
+        ],
+        "id": "SC_Witch_GertrudeResponse5",
+        "participants": [
+          "gertrude"
+        ],
+        "scene": "Witch_GertrudeResponse5",
+        "time": [
+          {}
+        ],
+        "room": "chapel",
+        "type": "involuntaryloopingbackground",
+        "description": "Gertrude despairs."
+      }
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "source_line": 7547,
+      "event": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(polonius,demon)"
+          ],
+          [
+            "not counter_(erasedCount,4)"
+          ]
+        ],
+        "duration": {
+          "assembly": 45,
+          "teardown": 10,
+          "trigger": 60
+        },
+        "flags": [],
+        "id": "SC_WITCH_PoloniusResponse",
+        "participants": {
+          "polonius": false
+        },
+        "scene": "WITCH_PoloniusResponse",
+        "time": [
+          {}
+        ],
+        "type": "mandatory",
+        "description": "Father is horrified."
+      }
+    }
+  ],
+  "scene_evidence": [
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "section": "WITCH_InitialKickoff",
+      "source_line": 21463,
+      "text": "{WITCH_InitialKickoff}\nquince: [happy] \"If the clock strikes midnight on Friday evening and you've <b>used this power</b> on everyone, we'll speak further.\"\nassert ownedInformation(NotNeeded)"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "section": "WITCH_Ascension",
+      "source_line": 21519,
+      "text": "{WITCH_Ascension}\n[EnableEnvironment(great_hall_default)]\n[Teleport(ophelia,gh_audiencemidleft)]\nassert forceConfirmEnding\nForceGameOver(\"The ending!\")"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "section": "WITCH_KillOphelia",
+      "source_line": 22299,
+      "text": "{WITCH_KillOphelia} //Time Up\nquince: \"That includes <b>Claudius, Hamlet, Gertrude, Bernardo, Polonius, Laertes, Marcellus, Irma, Horatio, Rosencrantz, and Guildenstern.</b>\"\nForceGameOver(\"This world's no good to me anymore.\")"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "section": "WITCH_BritResponse",
+      "source_line": 22400,
+      "text": "{WITCH_BritResponse}\nForceGameOver(\"Uncovered for my acts.\")"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "section": "WITCH_BernardoResponse",
+      "source_line": 22342,
+      "text": "{WITCH_BernardoResponse}\nForceGameOver(\"Uncovered for my acts.\")"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "section": "WITCH_MarcellusResponse",
+      "source_line": 22361,
+      "text": "{WITCH_MarcellusResponse}\nForceGameOver(\"Uncovered for my acts.\")"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "section": "WITCH_ClaudiusResponse",
+      "source_line": 22379,
+      "text": "{WITCH_ClaudiusResponse}\nForceGameOver(\"Uncovered for my acts.\")"
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+      "section": "bernardo_notneeded",
+      "source_line": 7144,
+      "text": "{bernardo_notneeded}\n[Play(bernardo,am_stand)]\n[Play(bernardo,am_neutral)]\n[PlaySound2D(Quince_Pause_World)]\nlabel facing\n[noblock LookAtWithBody(bernardo,ophelia)]\nophelia: \"<i>Exit BERNARDO.</i>\"\n[PlayMusic(M_Nothing)]\nblockedby facing\n[PlaySound2D(VO_Bernardo_Choking)]\n[Play(bernardo,am_choke_supernatural)]\n[Play(bernardo,am_death_supernatural)]\n[ClearPreSceneState(bernardo)]\nNotNeededHack_ForceKillCharactersEvent(bernardo)\nassert dead(bernardo)\nassert demontripped\ncall \"notneeded_react\"\n"
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+      "section": "notneeded_react",
+      "source_line": 7307,
+      "text": "{notneeded_react}\nincrement erasedCount\nif not dead(othello) && IsCharacterHere(othello):\n    assert believes(othello,demon)\nif not dead(guildenstern) && IsCharacterHere(guildenstern):\n    assert believes(guildenstern,demon)\nif not dead(rosencrantz) && IsCharacterHere(rosencrantz):\n    assert believes(rosencrantz,demon)\nif not dead(horatio) && IsCharacterHere(horatio):\n    assert believes(horatio,demon)\nif not dead(irma) && IsCharacterHere(irma):\n    assert believes(irma,demon)\nif not dead(brit) && IsCharacterHere(brit):\n    assert believes(brit,demon)\nif not dead(marcellus) && IsCharacterHere(marcellus):\n    assert believes(marcellus,demon)\nif not dead(bernardo) && IsCharacterHere(bernardo):\n    assert believes(bernardo,demon)\nif not dead(laertes) && IsCharacterHere(laertes):\n    assert believes(laertes,demon)\nif not dead(gertrude) && IsCharacterHere(gertrude):\n    assert believes(gertrude,demon)\nif not dead(claudius) && IsCharacterHere(claudius):\n    assert believes(claudius,demon)\nif not dead(hamlet) && IsCharacterHere(hamlet):\n    assert believes(hamlet,demon)\nif not dead(polonius) && IsCharacterHere(polonius):\n    assert believes(polonius,demon)\nincrement erasedCountPersistent"
+    },
+    {
+      "asset": "scenes_present",
+      "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+      "section": "quince_notneeded",
+      "source_line": 7288,
+      "text": "{quince_notneeded}\n[PlaySound2D(Quince_Pause_World)]\nophelia: \"<i>Exit QUINCE.</i>\"\n[Delay(3.0)]\n[PlaySound2D(Quince_Resume_World)]\nif (erasedCountPersistent = 0): //TEMP: You theoretically don't know what this does yet\n    [noblock Play(quince,am_shrug)]\n    quince: [happy] {Hmm} \"Hmmm. Nothing.\"\n    quince: \"Clearly you need more practice. Run along and try that on someone else, why don't you?\"\nelse:\n    [noblock Play(quince,am_big_laugh)]\n    quince: [happy] {Chuckle} \"Oho. Not a bad plan.\"\n    [noblock Play(quince,am_shake_head)]\n    quince: [happy] \"Alas, I am no pawn, and cannot be removed from play. <b>Invalid move!</b>\"\n    [noblock Play(quince,am_shrug)]\n    quince: [smile] \"But I can hardly fault you. That's the first thing <i>I</i> would have tried, myself.\"\nendif\n\n"
+    }
+  ],
+  "metadata": [
+    {
+      "asset": "information",
+      "asset_sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "data": {
+        "categories": [
+          "All",
+          "Otherworldly Occurrences"
+        ],
+        "id": "NotNeeded",
+        "long": "Please leave the stage immediately.",
+        "name": "Exeunt All",
+        "scenes": [
+          {
+            "character": "claudius",
+            "scene": "claudius_notneeded"
+          },
+          {
+            "character": "polonius",
+            "scene": "polonius_notneeded"
+          },
+          {
+            "character": "gertrude",
+            "scene": "gertrude_notneeded"
+          },
+          {
+            "character": "hamlet",
+            "scene": "hamlet_notneeded"
+          },
+          {
+            "character": "laertes",
+            "scene": "laertes_notneeded"
+          },
+          {
+            "character": "quince",
+            "scene": "quince_notneeded"
+          },
+          {
+            "character": "bernardo",
+            "scene": "bernardo_notneeded"
+          },
+          {
+            "character": "marcellus",
+            "scene": "marcellus_notneeded"
+          },
+          {
+            "character": "brit",
+            "scene": "brit_notneeded"
+          },
+          {
+            "character": "irma",
+            "scene": "irma_notneeded"
+          },
+          {
+            "character": "rosencrantz",
+            "scene": "rosencrantz_notneeded"
+          },
+          {
+            "character": "guildenstern",
+            "scene": "guildenstern_notneeded"
+          },
+          {
+            "character": "horatio",
+            "scene": "horatio_notneeded"
+          },
+          {
+            "character": "othello",
+            "scene": "othello_notneeded"
+          }
+        ],
+        "short": "Please leave the stage immediately.",
+        "type": "hearsay",
+        "truth": "not believes(claudius, ophelia_on_boat)"
+      }
+    }
+  ],
+  "same_name_assets": [
+    {
+      "asset": "schedule",
+      "sha256": "7c547dc32556425287d21f9084cbbe46d5e29a311d24316552fcd840d927dcbc",
+      "length": 6104,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    },
+    {
+      "asset": "schedule",
+      "sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "length": 289162,
+      "contains_kickoff": true,
+      "contains_notneeded": true
+    },
+    {
+      "asset": "schedule",
+      "sha256": "68d28fa8147079542ead3cab83fa6142e7aebe3a38688ef92188112531a2f3c3",
+      "length": 6631,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    },
+    {
+      "asset": "scenes",
+      "sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+      "length": 33307,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    },
+    {
+      "asset": "scenes",
+      "sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "length": 1476742,
+      "contains_kickoff": true,
+      "contains_notneeded": true
+    },
+    {
+      "asset": "scenes",
+      "sha256": "5dbc50cf037a46b33442d6d47c399873ce845fc86bd4f86fe69e1c45491f5cb9",
+      "length": 23784,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    },
+    {
+      "asset": "scenes_present",
+      "sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+      "length": 511510,
+      "contains_kickoff": false,
+      "contains_notneeded": true
+    },
+    {
+      "asset": "information",
+      "sha256": "2f3226a147e60edf59c9668a745ce6490dde89a2363f0e5567c3320aac735bcb",
+      "length": 2522,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    },
+    {
+      "asset": "information",
+      "sha256": "988217b4da7ce4ef7c5262853d23e1b7ae575d77a0bb89a69dfdb4bc4d40d0da",
+      "length": 53660,
+      "contains_kickoff": false,
+      "contains_notneeded": true
+    },
+    {
+      "asset": "information",
+      "sha256": "ad4d908a1ea23ac753a42280ae590ef8886f25482a65ab4a83a1b18ab62ccf96",
+      "length": 1945,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    },
+    {
+      "asset": "scenes_present",
+      "sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119",
+      "length": 14610,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    },
+    {
+      "asset": "scenes_present",
+      "sha256": "bf42273387829f6f20d26bdd3cb163b8c118f6aed86f764feae39af87ad720c9",
+      "length": 12508,
+      "contains_kickoff": false,
+      "contains_notneeded": false
+    }
+  ],
+  "installed_translations": {
+    "sha256": "4fded3e374e3ce8fc5d84cb2454170ebe39cfbd59f79c2eeb2ec1df0d1164919",
+    "rows": [
+      {
+        "source": "Hamlet",
+        "target": "哈姆雷特"
+      },
+      {
+        "source": "Gertrude",
+        "target": "乔特鲁德"
+      },
+      {
+        "source": "Claudius",
+        "target": "克劳狄斯"
+      },
+      {
+        "source": "Polonius",
+        "target": "波洛涅斯"
+      },
+      {
+        "source": "Laertes",
+        "target": "雷欧提斯"
+      },
+      {
+        "source": "Bernardo",
+        "target": "贝尔纳多"
+      },
+      {
+        "source": "Horatio",
+        "target": "霍拉旭"
+      },
+      {
+        "source": "Irma",
+        "target": "伊尔玛"
+      },
+      {
+        "source": "Marcellus",
+        "target": "马塞勒斯"
+      },
+      {
+        "source": "Rosencrantz",
+        "target": "罗森克兰兹"
+      },
+      {
+        "source": "Guildenstern",
+        "target": "吉尔登斯吞"
+      },
+      {
+        "source": "Please leave the stage immediately.",
+        "target": "请立刻离开舞台。"
+      },
+      {
+        "source": "Exeunt All",
+        "target": "全体退场"
+      },
+      {
+        "source": "Talk",
+        "target": "交谈"
+      },
+      {
+        "source": "Shareable Information",
+        "target": "可分享的信息"
+      },
+      {
+        "source": "Confirm",
+        "target": "确认"
+      },
+      {
+        "source": "Guilda",
+        "target": "吉尔妲"
+      },
+      {
+        "source": "Rosie",
+        "target": "罗茜"
+      },
+      {
+        "source": "Brit",
+        "target": "布莉特"
+      }
+    ]
+  },
+  "clock_il": [
+    {
+      "assembly": "Elsinore.dll",
+      "method": "System.String Elsinore.Game.GameClock::DayString(System.Int32)",
+      "il": [
+        "IL_0000: ldc.i4.4",
+        "IL_0001: newarr System.String",
+        "IL_0006: dup",
+        "IL_0007: ldc.i4.0",
+        "IL_0008: ldstr \"Thursday\"",
+        "IL_000d: stelem.any System.String",
+        "IL_0012: dup",
+        "IL_0013: ldc.i4.1",
+        "IL_0014: ldstr \"Friday\"",
+        "IL_0019: stelem.any System.String",
+        "IL_001e: dup",
+        "IL_001f: ldc.i4.2",
+        "IL_0020: ldstr \"Saturday\"",
+        "IL_0025: stelem.any System.String",
+        "IL_002a: dup",
+        "IL_002b: ldc.i4.3",
+        "IL_002c: ldstr \"Sunday\"",
+        "IL_0031: stelem.any System.String",
+        "IL_0036: ldarg.0",
+        "IL_0037: ldc.i4.1",
+        "IL_0038: sub",
+        "IL_0039: ldelem.any System.String",
+        "IL_003e: stloc.0",
+        "IL_003f: leave.s IL_0064",
+        "IL_0041: castclass System.Exception",
+        "IL_0046: stloc.1",
+        "IL_0047: ldloc.1",
+        "IL_0048: isinst System.IndexOutOfRangeException",
+        "IL_004d: stloc.2",
+        "IL_004e: ldloc.2",
+        "IL_004f: brfalse.s IL_0059",
+        "IL_0051: ldstr \"Sunday\"",
+        "IL_0056: stloc.0",
+        "IL_0057: leave.s IL_0064",
+        "IL_0059: rethrow",
+        "IL_005b: ldnull",
+        "IL_005c: unbox.any System.String",
+        "IL_0061: stloc.0",
+        "IL_0062: leave.s IL_0064",
+        "IL_0064: ldloc.0",
+        "IL_0065: ret"
+      ],
+      "literal_sources": [
+        {
+          "source": "Thursday",
+          "il_offset": "IL_0008"
+        },
+        {
+          "source": "Friday",
+          "il_offset": "IL_0014"
+        },
+        {
+          "source": "Saturday",
+          "il_offset": "IL_0020"
+        },
+        {
+          "source": "Sunday",
+          "il_offset": "IL_002c"
+        },
+        {
+          "source": "Sunday",
+          "il_offset": "IL_0051"
+        }
+      ]
+    }
+  ],
+  "conclusions": {
+    "kickoff": "周五07:00起可调度，mandatory，无固定room；满足无NotNeeded、ghostdestroyed、已烧至少4普通命运。",
+    "deadline": "周五夜24:00，即周六00:00；SC_WITCH_KillOphelia begin=[3,0,0]。",
+    "targets": [
+      "polonius",
+      "claudius",
+      "hamlet",
+      "laertes",
+      "gertrude",
+      "rosencrantz",
+      "guildenstern",
+      "horatio",
+      "irma",
+      "brit",
+      "bernardo",
+      "marcellus"
+    ],
+    "death_contract": "升格检查dead而非hasSeen(NotNeeded)或erasedCount=12，因此其他剧情死亡也满足相应人物项；仍须本轮demontripped为真。",
+    "automatic_ending": "mandatory，time=[{}]；WITCH_Ascension将女主传送大厅，forceConfirmEnding后ForceGameOver；自动采用，观看后续与片尾即可。",
+    "warning": "失败提示只列11人而漏Brit，按真实调度12人条件为准；同处存活人物通过IsCharacterHere获知demon，不应仅凭没站在视线前判断安全。",
+    "recommended_route": "首次周五07:00起获得全体退场后，使用游戏内重置循环回到第1天，保留情报；在雷欧提斯周四10:00离开前处理他，再在同轮周五午夜前满足全部12人死亡与demontripped。不是恢复备份，恢复备份会丢掉新学的情报。"
+  },
+  "laertes_note": {
+    "source": "主游戏schedule SC_SPINE_LaertesLeaves",
+    "time": [
+      {
+        "begin": [
+          1,
+          10,
+          0
+        ]
+      }
+    ],
+    "condition": "believes(laertes,paris_trip)",
+    "scope": "已确认普通离开早于首次口令，推荐拿口令后重置循环，利用信息持久性在下一轮离开前处理；不依赖杀戮模式使其返回。"
+  },
+  "notneeded_retractions": [
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "context": "rning\nif viewedEnding(END_Revenge):\n    assert shattered(quince)\n    retract ownedInformation(EvilQuince)\n    retract ownedInformation(NotNeeded)\n    retract ownedInformation(Responsible)\n    retract ownedInformatio"
+    }
+  ],
+  "persistent_owned_info_definition": {
+    "source": "runtime/build/save-completion-audit/branch-guards-il.json",
+    "method": "System.Void <StartupCode$Elsinore>.$Elsinore.Game.Model::.cctor()",
+    "il": [
+      "IL_0020: ldstr \"ownedInformation\"",
+      "IL_0025: ldc.i4.1",
+      "IL_0026: newobj System.Void Agakme.Predicate::.ctor(System.String,System.Int32)",
+      "IL_002b: stsfld Agakme.Predicate <StartupCode$Elsinore>.$Elsinore.Game.Model::OWNED_INFO@15",
+      "IL_0259: call Agakme.Predicate Elsinore.Game.Model::get_OWNED_INFO()",
+      "IL_02f7: stsfld Agakme.Predicate[] <StartupCode$Elsinore>.$Elsinore.Game.Model::persistentPredicates@58"
+    ]
+  },
+  "loop_reset_readonly_il": {
+    "source": "本轮通过Mono.Cecil只读读取原Elsinore.dll，不执行游戏程序集",
+    "methods": [
+      {
+        "name": "Elsinore.Game.GameState Elsinore.GameRunner::ResetGameStateForNextLoop(Elsinore.Game.ElsinoreDataEx,Elsinore.Game.GameState)",
+        "instructions": [
+          "IL_00a5: call Agakme.Logic/LogicState Agakme.Logic/LogicState::NewWithPersistentFromOther(Agakme.Logic/LogicDomain,Agakme.Logic/LogicState)",
+          "IL_014d: newobj System.Void Elsinore.Game.Scheduler/ScheduleState::.ctor(Elsinore.Game.Scheduler/StaticScheduleData,System.Int32)"
+        ]
+      },
+      {
+        "name": "System.Boolean Elsinore.Game.Model::isPersistentTruth(Agakme.Scripting.Ast/Atom)",
+        "instructions": [
+          "IL_005b: call Agakme.Predicate[] Elsinore.Game.Model::get_persistentPredicates()",
+          "IL_0062: call System.Boolean Microsoft.FSharp.Collections.ArrayModule::Exists<Agakme.Predicate>(Microsoft.FSharp.Core.FSharpFunc`2<!!0,System.Boolean>,!!0[])"
+        ]
+      }
+    ],
+    "existing_report": "runtime/build/save-completion-audit/report.json: ownedInformation(NotNeeded) index3574 mode=p"
+  },
+  "restart_ui_evidence": {
+    "source": "主会话只读核对 analysis/ui-audit/resource-strings.json 与当前安装词表",
+    "visible_label": {
+      "source": "Restart Time",
+      "target": "重启时间",
+      "asset": "level1",
+      "path_id": 12996,
+      "field": "TMP m_text"
+    },
+    "tooltip": {
+      "source": "Reset Loop",
+      "target": "重置循环",
+      "asset": "level1",
+      "path_id": 15964,
+      "field": "ElsinoreButton.tooltip"
+    },
+    "confirmation": {
+      "source": "Start over from Day 1?",
+      "target": "从第1天重新开始？"
+    }
+  }
+}

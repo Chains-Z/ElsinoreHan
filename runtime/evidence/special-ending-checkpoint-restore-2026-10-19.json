@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-19",
+  "status": "restored_verified",
+  "passed": true,
+  "user_requested": true,
+  "source_checkpoint": "runtime/backups/player-checkpoints/before-special-endings-20261019-040551/Elsinore",
+  "destination": "C:\\Users\\71095\\AppData\\Roaming\\Golden Glitch Studios\\Elsinore",
+  "file_count": 8,
+  "source_manifest_verified": true,
+  "restored_matches_backup": true,
+  "previous_loop": 60,
+  "previous_mode": "MainGame",
+  "restored_loop": 58,
+  "restored_mode": "MainGame",
+  "checkpoint_checks": {
+    "mode_is_main": true,
+    "all_11_normal_endings_completed": true,
+    "playmaster_complete": true,
+    "last_ghost_attended": true,
+    "burn_book_unlocked": true,
+    "burn_book_not_completed": true,
+    "ascension_not_completed": true,
+    "ascension_information_not_accepted": true,
+    "demon_sequence_not_started": true
+  },
+  "before_files": [
+    {
+      "path": "elsinore_log_2.json",
+      "size": 35889,
+      "mtime_utc_ticks": 639279510562272904,
+      "sha256": "a1d6a8acfff18dccf9b5c313c137c9f95e4d8af955bda467128ea0e01c80bc73"
+    },
+    {
+      "path": "elsinore_log_3.json",
+      "size": 3042932,
+      "mtime_utc_ticks": 639279505783515752,
+      "sha256": "9c16954265141f37f75e0c0f209f3bb803bee7d6f33931e1d431fc3dfaa313c3"
+    },
+    {
+      "path": "elsinore_log_4.json",
+      "size": 2048277,
+      "mtime_utc_ticks": 639279446726069348,
+      "sha256": "c91da1816d12770f2a43f010ac69868d54953b5db8eb965b91f4d532ace2080d"
+    },
+    {
+      "path": "elsinore_log.json",
+      "size": 622040,
+      "mtime_utc_ticks": 639279514767718784,
+      "sha256": "0bf35c27682f83c8473a7c0e262561c3e308b83e0ddbcc25d34b371ad73c5776"
+    },
+    {
+      "path": "game.save",
+      "size": 3365209,
+      "mtime_utc_ticks": 639279514762042577,
+      "sha256": "f4dfdc0d942e38341241a294712e72e7ffc0834c1fd9f45dffd5b4dd7ede2f91"
+    },
+    {
+      "path": "prefs.save",
+      "size": 151,
+      "mtime_utc_ticks": 639278270714230428,
+      "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968"
+    },
+    {
+      "path": "steam_autocloud.vdf",
+      "size": 52,
+      "mtime_utc_ticks": 639279510645858756,
+      "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341"
+    },
+    {
+      "path": "system.cfg",
+      "size": 106,
+      "mtime_utc_ticks": 639272247081873704,
+      "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee"
+    }
+  ],
+  "restored_files": [
+    {
+      "path": "elsinore_log_2.json",
+      "size": 2048277,
+      "mtime_utc_ticks": 639279446726069348,
+      "sha256": "c91da1816d12770f2a43f010ac69868d54953b5db8eb965b91f4d532ace2080d"
+    },
+    {
+      "path": "elsinore_log_3.json",
+      "size": 87244,
+      "mtime_utc_ticks": 639279420428190119,
+      "sha256": "6a45d774dde8da46e1bd749c33ea4bdb5740ef09f349ac2f908a37fd36a9554f"
+    },
+    {
+      "path": "elsinore_log_4.json",
+      "size": 86227,
+      "mtime_utc_ticks": 639279392164335999,
+      "sha256": "72350a6fe2c851bf13fbae0503e96cd575517d759a141537665fef5a5c500e3d"
+    },
+    {
+      "path": "elsinore_log.json",
+      "size": 3042932,
+      "mtime_utc_ticks": 639279505783515752,
+      "sha256": "9c16954265141f37f75e0c0f209f3bb803bee7d6f33931e1d431fc3dfaa313c3"
+    },
+    {
+      "path": "game.save",
+      "size": 3354863,
+      "mtime_utc_ticks": 639279505778094497,
+      "sha256": "8bfb281a164b42e4649ebaf316df7362cd7d88ebc367fef0682d449780e357a1"
+    },
+    {
+      "path": "prefs.save",
+      "size": 151,
+      "mtime_utc_ticks": 639278270714230428,
+      "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968"
+    },
+    {
+      "path": "steam_autocloud.vdf",
+      "size": 52,
+      "mtime_utc_ticks": 639279452770951836,
+      "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341"
+    },
+    {
+      "path": "system.cfg",
+      "size": 106,
+      "mtime_utc_ticks": 639272247081873704,
+      "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee"
+    }
+  ],
+  "original_checkpoint_preserved": true,
+  "temporary_rollback_removed": true,
+  "main_game_started": false,
+  "game_process_count_before": 0,
+  "note": "用户明确要求恢复共同检查点；撤销烧书之后的本地进度，未修改存档业务内容或启动游戏。补丁保持当前安装。"
+}
