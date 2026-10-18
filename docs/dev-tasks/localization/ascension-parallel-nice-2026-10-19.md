@@ -29,3 +29,16 @@ nice说的是这次相遇带给昆斯的愉快感受。用高兴明确体验者�
 45项真实XUnity递归消费者和17,069项字典解析通过；英文键、ID和顺序不变，相对上一候选仅2处中文变化，无新增字。40文件ZIP逐项一致，插件、字体和157项动态规则不变。未执行游戏剧情或页面验收。
 
 [候选核验](../../../runtime/evidence/ascension-parallel-nice-verification-2026-10-19.json)
+
+
+## 后续：nothing的内心空无
+
+英文：All the love and hate I feel for them has vanished, to be replaced with... nothing.
+
+改前：我对他们所有的爱与恨都已消失，取而代之的是……一片空白。
+
+改后：我对他们所有的爱与恨都已消失，只剩下……空无一物。
+
+用户明确选择空无一物，并要求剩下后停顿、去掉的。该词可以形容内心的空无；不能将其仅限定为空间用语。采用只剩下保留停顿后的nothing落点。源为scenes_endings/ENDING_JoinQuince行18，准确旧值及源SHA见既有升格校订层。
+
+本次仅1条目标变化，累计7词条待安装；48项真实消费者及17,069项字典解析通过，无新增字，40文件ZIP逐项一致。插件、字体和动态规则未变。未安装、启动游戏或访问存档。[最新候选](../../../runtime/evidence/ascension-nothing-verification-2026-10-19.json)

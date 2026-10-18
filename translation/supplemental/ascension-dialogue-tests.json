@@ -684,5 +684,47 @@
         "actor": "quince"
       }
     ]
+  },
+  {
+    "id": "ascension-nothing-leaf",
+    "source": "All the love and hate I feel for them has vanished, to be replaced with... nothing.",
+    "target": "我对他们所有的爱与恨都已消失，只剩下……空无一物。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 18,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-nothing-box",
+    "source": "<line-height=90%>All the love and hate I feel for them has vanished, to be replaced with... nothing.",
+    "target": "<line-height=90%>我对他们所有的爱与恨都已消失，只剩下……空无一物。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 18,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-nothing-log",
+    "source": "<b>Ophelia:</b> <indent=16%>All the love and hate I feel for them has vanished, to be replaced with... nothing.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我对他们所有的爱与恨都已消失，只剩下……空无一物。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 18,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]
