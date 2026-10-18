@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ascension-midnight-p07858-e6864abf74a8",
+    "original_id": "p07858-e6864abf74a8",
+    "source": "If the clock strikes midnight on Friday evening and you've <b>used this power</b> on everyone, we'll speak further.",
+    "source_sha256": "e6864abf74a8be7ba13f29102afcdfd35664bb9643fe581a05ca1045441b4c08",
+    "previous_target": "如果星期五夜里的钟敲响了午夜，而你已经对每个人都<b>用过这种力量</b>，我们就再好好谈谈。",
+    "target": "等星期五午夜的钟声响起，如果你已经对每个人都<b>用过这种力量</b>，我们就再好好谈谈。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_InitialKickoff",
+        "line": 21512,
+        "actor": "quince"
+      }
+    ],
+    "reason": "用户指出敲响了午夜搭配生硬；按时间从句改为午夜的钟声响起，保留每个人、已经和原有加粗。"
+  }
+]

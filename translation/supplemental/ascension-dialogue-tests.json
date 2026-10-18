@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ascension-midnight-leaf",
+    "source": "If the clock strikes midnight on Friday evening and you've <b>used this power</b> on everyone, we'll speak further.",
+    "target": "等星期五午夜的钟声响起，如果你已经对每个人都<b>用过这种力量</b>，我们就再好好谈谈。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_InitialKickoff",
+        "line": 21512,
+        "actor": "quince"
+      }
+    ]
+  },
+  {
+    "id": "ascension-midnight-box",
+    "source": "<line-height=90%>If the clock strikes midnight on Friday evening and you've <b>used this power</b> on everyone, we'll speak further.",
+    "target": "<line-height=90%>等星期五午夜的钟声响起，如果你已经对每个人都<b>用过这种力量</b>，我们就再好好谈谈。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_InitialKickoff",
+        "line": 21512,
+        "actor": "quince"
+      }
+    ]
+  },
+  {
+    "id": "ascension-midnight-log",
+    "source": "<b>Quince:</b> <indent=16%>If the clock strikes midnight on Friday evening and you've <b>used this power</b> on everyone, we'll speak further.",
+    "target": "<b>昆斯:</b> <indent=16%>等星期五午夜的钟声响起，如果你已经对每个人都<b>用过这种力量</b>，我们就再好好谈谈。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "WITCH_InitialKickoff",
+        "line": 21512,
+        "actor": "quince"
+      }
+    ]
+  }
+]
