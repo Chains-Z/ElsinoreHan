@@ -1159,5 +1159,110 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p06318-d1a781768d22",
+    "source": "Forty <b>thousand</b> brothers could not, with all their quantity of love, make up my sum—",
+    "source_sha256": "d1a781768d2204f15005b2d443481333aef6673efd31f8a453b5f7a34ba65b6b",
+    "original_target": "四十个<b>千</b>，也就是四万个兄弟，把他们所有的爱加在一起，也抵不过我的爱——",
+    "corrected_target": "<b>四万</b>个兄弟的爱加在一起，也抵不过我的爱——",
+    "kind": "text",
+    "reason": "用户指出四十个千的逐词解释生硬，要求改为自然中文。将forty thousand合并为中文数词四万，保留数量强调、兄弟之爱的总和比较及句末被打断；my sum译为我的爱，不增写原句未明说的对她或对你。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0046.json:p06318-d1a781768d22",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Resignation",
+        "line": 17134
+      },
+      "用户2026-10-18哈姆雷特四万个兄弟对白截图及自然表达修改要求"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p06349-1839ddf4c47b",
+    "source": "Do not shy away from the world, as I did. Go into the darkness with strength. Go with purpose.",
+    "source_sha256": "1839ddf4c47b815b1484feacaa767017980141b22ab05fbe1c6c13c052d1f834",
+    "original_target": "不要像我一样逃避这个世界。坚强地走进黑暗。带着目标前行。",
+    "corrected_target": "不要像我那样逃避世界。带着力量向黑暗中前行。带着目标前行。",
+    "kind": "text",
+    "reason": "用户要求保留两次Go的重复句式，统一为前行并保留走入黑暗的方向；紧随的That is all为幽灵结束发言，用我要说的就是这些自然收束，不增添要求或道德评判。裸源与真实整体斜体运行源同步校订，保留原斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0046.json:p06349-1839ddf4c47b",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Resignation",
+        "line": 17211
+      },
+      "用户2026-10-18幽灵最后发言截图及重复句式、自然收束修改要求"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "a00334-487149ff01bb",
+    "source": "<i>Do not shy away from the world, as I did. Go into the darkness with strength. Go with purpose.</i>",
+    "source_sha256": "487149ff01bb32c56c95a1871c5f6c347a43a5370c5ca696fc6997165cbb83d5",
+    "original_target": "<i>不要像我那样逃避世界。带着力量走进黑暗。带着目标前行。</i>",
+    "corrected_target": "<i>不要像我那样逃避世界。带着力量向黑暗中前行。带着目标前行。</i>",
+    "kind": "text",
+    "reason": "用户要求保留两次Go的重复句式，统一为前行并保留走入黑暗的方向；紧随的That is all为幽灵结束发言，用我要说的就是这些自然收束，不增添要求或道德评判。裸源与真实整体斜体运行源同步校订，保留原斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0106.json:a00334-487149ff01bb",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Resignation",
+        "line": 17211
+      },
+      "用户2026-10-18幽灵最后发言截图及重复句式、自然收束修改要求"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "p06350-5c7367ee3690",
+    "source": "That is all.",
+    "source_sha256": "5c7367ee369043f31ab02fb8e0367275cd2a566f7c61324737a830a2478744ee",
+    "original_target": "我要说的就这些。",
+    "corrected_target": "我要说的就是这些。",
+    "kind": "text",
+    "reason": "用户要求保留两次Go的重复句式，统一为前行并保留走入黑暗的方向；紧随的That is all为幽灵结束发言，用我要说的就是这些自然收束，不增添要求或道德评判。裸源与真实整体斜体运行源同步校订，保留原斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0046.json:p06350-5c7367ee3690",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Resignation",
+        "line": 17213
+      },
+      "用户2026-10-18幽灵最后发言截图及重复句式、自然收束修改要求"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
+  },
+  {
+    "id": "a00335-36a20b5fb547",
+    "source": "<i>That is all.</i>",
+    "source_sha256": "36a20b5fb547d33d24b03192f9c1d7a26fe3980a8eac63e395c5561878829426",
+    "original_target": "<i>就这些。</i>",
+    "corrected_target": "<i>我要说的就是这些。</i>",
+    "kind": "text",
+    "reason": "用户要求保留两次Go的重复句式，统一为前行并保留走入黑暗的方向；紧随的That is all为幽灵结束发言，用我要说的就是这些自然收束，不增添要求或道德评判。裸源与真实整体斜体运行源同步校订，保留原斜体。",
+    "origins": [
+      "translation/sol-full-2026-10-09/inputs/b0106.json:a00335-36a20b5fb547",
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Resignation",
+        "line": 17213
+      },
+      "用户2026-10-18幽灵最后发言截图及重复句式、自然收束修改要求"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
