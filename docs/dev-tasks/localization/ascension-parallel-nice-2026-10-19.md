@@ -55,3 +55,18 @@ nice说的是这次相遇带给昆斯的愉快感受。用高兴明确体验者�
 原文是a dozen，不是dozens of。前者可以是确数十二，也可指约十二；[Oxford词条](https://www.oxfordlearnersdictionaries.com/us/definition/english/dozen)及[Collins词条](https://www.collinsdictionary.com/dictionary/english/dozen)收录概数用法。结合这段概述游历、未逐个列举世界的语气，选择十来个更自然，但不将该判断说成原文明示，亦不泛化成不保留数量级的很多个或无数。来源为scenes_endings/ENDING_JoinQuince行27。
 
 本次仅1条目标变化，累计8词条待安装；51项真实消费者及17,069项字典解析通过，无新增字，40文件ZIP逐项一致。插件、字体和动态规则未变。未安装、启动游戏或访问存档。[最新候选](../../../runtime/evidence/ascension-dozen-verification-2026-10-19.json)
+
+
+## 后续：怜悯落在配音末尾
+
+英文：I've seen countless bloody and unnatural ends, brought on by lust, by greed, by compassion.
+
+改前：我见过无数血腥、非自然的死亡，由色欲、贪婪、怜悯所致。
+
+改后：我见过无数血腥、非自然的死亡，源于色欲、贪婪……怜悯。
+
+按用户现场听音反馈，三种原因置于最后，在怜悯前加省略号；不保留后置所致，避免中文落点越过最后的关键词。英文源文本只有逗号，未声称由工具直接听音验收。来源为scenes_endings/ENDING_JoinQuince行31。
+
+用户追问词义：compassion是对他人苦难的同情、怜悯并希望帮助，[Cambridge词典](https://dictionary.cambridge.org/dictionary/english/compassion)支持该义。结合三项并列及后续冷漠宇宙的叙述，可理解为连出于善意的行动也可能带来死亡；这是语境解释。原句未说明具体事例，不能将安乐死、为解脱而杀等解释性例子写入正文。保留怜悯，不将其误解成单指饶命。
+
+本次仅1条目标变化，累计9词条待安装；54项真实消费者及17,069项字典解析通过，无新增字，40文件ZIP逐项一致。插件、字体和动态规则未变。未安装、启动游戏或访问存档。[最新候选](../../../runtime/evidence/ascension-compassion-verification-2026-10-19.json)

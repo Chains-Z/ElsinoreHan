@@ -143,5 +143,23 @@
     ],
     "reason": "用户指出a dozen在游历概述中可能为概数；采用十来个保留约十二的规模，避免十二个的精确计数感，也不泛化成无规模的很多个。",
     "reference": "https://www.oxfordlearnersdictionaries.com/us/definition/english/dozen"
+  },
+  {
+    "id": "ascension-compassion-p00609-6a69d46dbc08",
+    "original_id": "p00609-6a69d46dbc08",
+    "source": "I've seen countless bloody and unnatural ends, brought on by lust, by greed, by compassion.",
+    "source_sha256": "6a69d46dbc08ed797a2beacaa0d504f72e8960c93ac284321f1d3ae2f9a1307d",
+    "previous_target": "我见过无数血腥、非自然的死亡，由色欲、贪婪、怜悯所致。",
+    "target": "我见过无数血腥、非自然的死亡，源于色欲、贪婪……怜悯。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 31,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户依据现场配音要求将三种原因置于句末，并在最后的怜悯前加省略号，避免所致落在最后破坏配音停顿；英语文本仅有逗号，停顿信息来源于用户听音反馈。"
   }
 ]

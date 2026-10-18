@@ -768,5 +768,47 @@
         "actor": "ophelia"
       }
     ]
+  },
+  {
+    "id": "ascension-compassion-leaf",
+    "source": "I've seen countless bloody and unnatural ends, brought on by lust, by greed, by compassion.",
+    "target": "我见过无数血腥、非自然的死亡，源于色欲、贪婪……怜悯。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 31,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-compassion-box",
+    "source": "<line-height=90%>I've seen countless bloody and unnatural ends, brought on by lust, by greed, by compassion.",
+    "target": "<line-height=90%>我见过无数血腥、非自然的死亡，源于色欲、贪婪……怜悯。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 31,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-compassion-log",
+    "source": "<b>Ophelia:</b> <indent=16%>I've seen countless bloody and unnatural ends, brought on by lust, by greed, by compassion.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我见过无数血腥、非自然的死亡，源于色欲、贪婪……怜悯。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 31,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]
