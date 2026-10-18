@@ -1783,5 +1783,25 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p00951-8b390bbfef37",
+    "source": "When February comes, he asks my father for my hand in marriage. My father, of course, turns to me. 'I like him, Father,' I say, laughing. 'Truly, I do.'",
+    "source_sha256": "8b390bbfef375834d6623296eadcc47de320a19831a16bd110237d6bcb721329",
+    "original_target": "到了二月，他向父亲求娶我。父亲自然转头看向我。“我喜欢他，父亲。”我笑着说，“真的喜欢。”",
+    "corrected_target": "到了二月，他向父亲提亲，希望娶我为妻。父亲自然转头看向我。“我喜欢他，父亲。”我笑着说，“真的喜欢。”",
+    "kind": "text",
+    "reason": "用户2026-10-19最终确认：求娶过于凝练，改为向父亲提亲，希望娶我为妻；保留提亲与古代宫廷背景相合的传统婚俗语感，不采用请求父亲同意他娶我的候选。后续父女对话不变。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_FortinbrasPeaceful",
+        "line": 538
+      },
+      "用户2026-10-19截图反馈及最终用词确认"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
