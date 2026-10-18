@@ -1,0 +1,548 @@
+老国王归来劝诫：完整中英对照
+包含全部互斥分支，不代表一次连续播放。
+条件保留原脚本标识；中文在上，英文在下；斜体、粗体以「」作阅读提示。
+
+POSTEND_Return
+================================
+
+【条件：if numberEndingsBurned = 1:】
+
+幽灵：「你回来了。」
+ghost: 「You have returned.」
+
+奥菲莉娅：哈姆雷特国王？不可能真的是你吧。
+ophelia: King Hamlet? Surely that can't be you.
+
+幽灵：「是的。」
+ghost: 「It is.」
+
+奥菲莉娅：好久不见了。
+ophelia: It's been a long time.
+
+幽灵：「是吗？」
+ghost: 「Has it?」
+
+【条件：if not previously endingConfirmed(END_Resignation):】
+
+奥菲莉娅：至少，我觉得——我觉得自己已经离开很久了。
+ophelia: Or at least, I think—I think I've been gone a long time.
+
+【条件：endif】
+
+幽灵：「从上次见到你，到现在这次醒来，我感觉只过了一瞬。那我想，我应该一直在等你吧。」
+ghost: 「It felt like an instant between the last time I saw you and this awakening, now. I suppose I must have been waiting for you, then.」
+
+奥菲莉娅：见到你真好。我们这对搭档还真奇怪，不是吗？不过，我还有些事没办完。
+ophelia: It's good to see you. We make an odd pair, don't we? But I've got some unfinished business.
+
+幽灵：「看来是的。」
+ghost: 「Evidently so.」
+
+【条件：if not previously endingConfirmed(END_Resignation):】
+
+奥菲莉娅：对了，这里没有镜子。我现在是什么样子？
+ophelia: Say, there isn't a mirror in here. What do I look like?
+
+奥菲莉娅：我的手——好柔嫩！
+ophelia: My hands—they're so soft!
+
+幽灵：「你的模样和那时一模一样。」
+ghost: 「You look just as you did then.」
+
+奥菲莉娅：这双年轻、纤细的手，真有意思。在那之后的余生里，我一直不知道，这双手当时就已经有多大的力量。
+ophelia: It's a funny thing, these young, delicate hands. I spent the rest of my life not knowing how strong these hands already were.
+
+【条件：endif】
+
+幽灵：「很高兴死亡没有磨去你的坚毅。」
+ghost: 「Glad to see death hasn't sapped you of your steel.」
+
+奥菲莉娅：当然没有。我们在哪儿？现在是「什么时候」？
+ophelia: Of course not. Where are we? 「When」 are we?
+
+幽灵：「这里是死后之境。既不是天堂，也不是地狱。只是夹在两者之间的虚无。」
+ghost: 「This is the afterwards. Neither Heaven nor Hell. Simply the nothingness in between.」
+
+奥菲莉娅：我想，我是为了某件事才来这里的。
+ophelia: I came here for a reason, I think.
+
+奥菲莉娅：我得回埃尔西诺去。
+ophelia: I have to go back to Elsinore.
+
+幽灵：「「回去？」」
+ghost: 「Go 「back?」」
+
+奥菲莉娅：是的。
+ophelia: Yes.
+
+奥菲莉娅：你能帮我吗？你还知道怎么回去吗？
+ophelia: Can you help me? Do you still know how to return?
+
+幽灵：「当然知道。可你为什么会有这种念头？」
+ghost: 「Of course I do. But why would you consider such a thing?」
+
+幽灵：「都过了这么久……」
+ghost: 「After all this time...」
+
+幽灵：「你已经「做出了选择，」奥菲莉娅！」
+ghost: 「You 「chose,」 Ophelia!」
+
+幽灵：「你已经告别了那个世界。为什么偏偏是现在？」
+ghost: 「You left that world behind. Why now?」
+
+奥菲莉娅：因为——
+ophelia: Because—
+
+奥菲莉娅：可要是我选「错了」呢？
+ophelia: What if I chose 「wrong?」
+
+幽灵：「那又有什么区别？」
+ghost: 「What difference does that make?」
+
+奥菲莉娅：那是一整个人生的区别！
+ophelia: An entire lifetime of difference!
+
+奥菲莉娅：还有所有那些人的人生，都会不同。要是还有另一个世界，一个更好的世界呢？我难道不该为他们争取吗？
+ophelia: And a difference in the lives of all those people. What if there's a different world, a better world? Don't I owe them that?
+
+幽灵：「奥菲莉娅。你知道我愿意付出多大的代价，换来生前离开埃尔西诺的机会吗？哪怕只有一次。」
+ghost: 「Ophelia. Do you know what I would give to have left Elsinore behind in life, even just once?」
+
+幽灵：「那个机会被人从我手中夺走了。」
+ghost: 「That chance was stolen from me.」
+
+幽灵：「如今你却把它当成可以随意交换的东西。仿佛能把自己的人生放回架子上，再挑一个。」
+ghost: 「Now you treat it as though it's something easily exchanged. As though you could put your life back on the shelf and choose another.」
+
+奥菲莉娅：我知道这很痛苦。对不起，我又唤醒了你。我本想让你安息——我并不「知道」回来会变成这样。
+ophelia: I know it's painful. I'm sorry to have woken you again. I wanted to let you rest—I didn't 「know」 coming back would be like this.
+
+奥菲莉娅：你知道，我绝不会有意伤害你，哈姆雷特。
+ophelia: You know I'd never intend to hurt you, Hamlet.
+
+奥菲莉娅：说实话，我甚至不确定自己「该不该」重新打开命运之书。
+ophelia: Truth be told, I'm not even certain I 「should」 be re-opening the Book of Fates.
+
+奥菲莉娅：如果找不到另一种值得追求的命运，我也许就会就此作罢，最终还是回到我原先选择的世界。
+ophelia: If I cannot find another fate worth pursuing, I may simply let the matter rest and return to the world I had chosen after all.
+
+奥菲莉娅：我随时都能回到这里，不是吗？
+ophelia: I can always return here, can I not?
+
+幽灵：「不，不。我想，有些关于命运之线的事，你还不明白。它们交织成一体，成为一幅超凡的织锦。」
+ghost: 「No, no. There is something you do not understand about the threads of fate, I think. They are woven together as one, a transcendent tapestry.」
+
+幽灵：「这可不是随意看看那些本可能发生的事那么简单。」
+ghost: 「This is not a simple matter of browsing what might have been.」
+
+幽灵：「当你选择那个世界时，你就将那个世界的丝线永久地抽了出来。如果你选择回到埃尔西诺，「就再也无法回到你选过的那条路。」」
+ghost: 「By choosing the world you did, you pulled that world's thread forever. If you choose to return to Elsinore, 「you cannot return to the path you chose.」」
+
+奥菲莉娅：你的意思是……
+ophelia: You're saying...
+
+幽灵：「是的。换句话说，「你将无法再回到那个特定的命运。」」
+ghost: 「Yes. In other words, 「you will not be able to return to that particular fate.」」
+
+幽灵：「它已经破碎。消失了。而一旦你重新踏入埃尔西诺，就会失去关于自己所选命运的一切记忆。」
+ghost: 「It is shattered. Gone. And once you set foot back in Elsinore, you will lose all memory of what you chose.」
+
+【插入结局专属提醒，全文见末节】
+
+奥菲莉娅：我明白了。
+ophelia: I see.
+
+幽灵：「求你了。奥菲莉娅，我恳求你不要这么做。我全心全意地恳求你。」
+ghost: 「Please. I urge you not to do this, Ophelia. I urge you with everything in my heart.」
+
+幽灵：「现在回头还来得及！」
+ghost: 「It's not too late to turn back!」
+
+【选择：不顾老国王的劝告，返回埃尔西诺？】
+
+【条件：elif numberEndingsBurned = 2:】
+
+幽灵：「你又一次来到了这里。」
+ghost: 「Here you are yet again.」
+
+奥菲莉娅：哈姆雷特国王？不可能真的是你吧。
+ophelia: King Hamlet? Surely that can't be you.
+
+幽灵：「...」
+ghost: 「...」
+
+幽灵：「是的。」
+ghost: 「It is.」
+
+奥菲莉娅：好久不见了。
+ophelia: It's been a long time.
+
+幽灵：「也许是。也许不是。」
+ghost: 「Perhaps. Perhaps not.」
+
+幽灵：「你还记得什么？」
+ghost: 「What do you recall?」
+
+奥菲莉娅：只记得我在生命结束时来到了这里。而且我现在知道了——虽然在埃尔西诺时并不知道——你我以前就在这里，在这个地方交谈过。
+ophelia: Only that I came here at the end of my life. And I know now—though I did not know in Elsinore—that you and I have spoken here before, in this place.
+
+奥菲莉娅：这片……夹在两者之间的地方。
+ophelia: This... in-between.
+
+幽灵：「那之前呢？我们上一次交谈之前呢？」
+ghost: 「And what before that? What before we last spoke?」
+
+奥菲莉娅：啊……
+ophelia: Ah...
+
+奥菲莉娅：我想不起来。
+ophelia: I cannot remember.
+
+幽灵：「那就和我警告过你的一样。你已经不记得自己先前选择的命运了。」
+ghost: 「Then it is as I warned you. You have no memory of the fate you chose before.」
+
+奥菲莉娅：一定是这样。
+ophelia: That must be true.
+
+奥菲莉娅：可我想，我回到这里，是因为我必须回埃尔西诺去。
+ophelia: Still, I think I returned to this place because I have to go back to Elsinore.
+
+幽灵：「你已经「回去过了。」」
+ghost: 「You already 「have.」」
+
+奥菲莉娅：而显然，我没有找到我想找的东西。
+ophelia: And evidently, I didn't find what I was looking for.
+
+幽灵：「是的。那次回去，并没有给你带来比最初的命运更多的幸福。」
+ghost: 「Yes. Your return on that occasion brought you no more happiness than your first fate.」
+
+幽灵：「是什么让你相信，这次尝试能带来更好的结果？」
+ghost: 「What leads you to believe that this attempt shall yield more fruitful results?」
+
+幽灵：「况且，如果你再次回到埃尔西诺，也会失去关于「这一次」命运的一切记忆。」
+ghost: 「Besides, if you return to Elsinore again, you will lose all memory of 「this」 fate, too.」
+
+【插入结局专属提醒，全文见末节】
+
+幽灵：「上一次……当你选择自己的命运时……「那个」我，那个哈姆雷特，对这片夹缝之境一无所知。你也一样。」
+ghost: 「This past time... when you chose your fate... 「that」 me, that Hamlet, had no knowledge of this in-between place. Neither did you.」
+
+幽灵：「那个我相信我们仍是朋友。但现在，我头脑清醒地看着你，却不那么确定了。」
+ghost: 「That version of me believed we were still friends. But now, looking at you, my wits about me, I am not so certain.」
+
+幽灵：「你知道，你不必继续下去。你终于肯让我们所有人安息了吗？」
+ghost: 「You need not continue, you know. Will you finally allow all of us to rest?」
+
+幽灵：「还是说，你要逼我们两个继续忍受这地狱般的折磨？」
+ghost: 「Or will you force the both of us to continue to endure this hell?」
+
+【选择：不顾老国王的劝告，返回埃尔西诺？】
+
+【条件：elif numberEndingsBurned = 3:】
+
+幽灵：「我原以为你肯定不会再回来了。」
+ghost: 「I had thought you'd surely not return.」
+
+奥菲莉娅：我也这么想过。
+ophelia: I thought the same.
+
+幽灵：「你知道吗，每当我被拉回埃尔西诺，我都十分珍视你。」
+ghost: 「You know, I cherish you dearly when I am pulled back to Elsinore.」
+
+幽灵：「我不记得这个地方，不记得这片夹缝之境。」
+ghost: 「I have no memory of this place, this in-between.」
+
+幽灵：「然后，当你死去，我又被带回这里，想起你选择把我也送回埃尔西诺，那痛苦实在难以承受。」
+ghost: 「Then I am brought back here when you die, and I remember you chose to return me to Elsinore too, and it aches so terribly.」
+
+奥菲莉娅：我——
+ophelia: I—
+
+奥菲莉娅：每次我这么做，都是在逼你再次醒来，是吗？
+ophelia: I'm forcing you to wake up again every time I do this, aren't I?
+
+幽灵：「是的。」
+ghost: 「Yes.」
+
+幽灵：「而这已经是第三次了。」
+ghost: 「And this is the third time.」
+
+奥菲莉娅：可我只记得自己经历过「一种」命运。只有最近的那一次。
+ophelia: But I can remember living only 「one」 fate. Only the last.
+
+奥菲莉娅：哈姆雷特，你说——我选过的其他命运都是什么样的？
+ophelia: Say, Hamlet—what were those other fates I chose?
+
+奥菲莉娅：它们是不是——我是不是——更幸福些？
+ophelia: Were they—was I—happier?
+
+幽灵：「...」
+ghost: 「...」
+
+幽灵：「我猜到你会想知道这个。」
+ghost: 「I suspected you would find yourself wondering this.」
+
+幽灵：「但我不知道。我看不到你在埃尔西诺之外的人生。我不是神。只是一个人，或者曾经是人的存在，站在这里，和你一样困惑。」
+ghost: 「But I do not know. I do not see your life beyond Elsinore. I am not a god. Just a man, or what was once a man, standing here as confused as you.」
+
+幽灵：「求你了，奥菲莉娅。」
+ghost: 「Please, Ophelia.」
+
+幽灵：「「不要再回埃尔西诺了。」」
+ghost: 「「Do not return to Elsinore again.」」
+
+幽灵：「如果你曾真心在乎我，如果你曾觉得我值得你花时间……那就与我一同留在这里，在虚无的寂静中永远安息吧。」
+ghost: 「If ever you did love me, if ever you did find me worthy of your time... then you will join me here in the quiet of oblivion, and take up an eternal rest.」
+
+奥菲莉娅：你知道我在乎你，哈姆雷特。
+ophelia: You know I do, Hamlet.
+
+奥菲莉娅：可我回到这里，一定是有原因的。我想，我在埃尔西诺要做的事还没做完。
+ophelia: But I must have returned here for a reason. I think my work in Elsinore is not yet complete.
+
+幽灵：「那「永远」也做不完。」
+ghost: 「It will 「never」 be complete.」
+
+幽灵：「我恳求你明白这一点！」
+ghost: 「I urge you to understand this!」
+
+幽灵：「奥菲莉娅，生前我对你怀着深切而不可动摇的敬意。不要在死后证明我是个傻子。」
+ghost: 「I harbored a deep and impenetrable respect for you in life, Ophelia. Do not prove me a fool in death.」
+
+幽灵：「别让我看到，我们一同经历的一切，比起你对不可能之事的渴望，竟然微不足道。」
+ghost: 「Do not show me that everything we went through together was trivial compared to your pining for the impossible.」
+
+幽灵：「如果你再次回到埃尔西诺，就会再次失去关于你刚刚选择的命运的一切记忆，也无法再选择它。换句话说……」
+ghost: 「If you return to Elsinore again, you will again lose all memory of the fate you just chose, and you will not be able to choose it again. In other words...」
+
+【插入结局专属提醒，全文见末节】
+
+奥菲莉娅：看来，我得做一个很难受的选择。
+ophelia: I have a rather unpleasant choice to make, it seems.
+
+【选择：不顾老国王的劝告，返回埃尔西诺？】
+
+【条件：elif numberEndingsBurned = 4:】
+
+幽灵：「你知道吗，你并不比他好。」
+ghost: 「You are no better than him, you know.」
+
+幽灵：「你已经让我看清，你和他一样，不肯施以仁慈。」
+ghost: 「You have shown me already that, like him, you will not grant mercy.」
+
+幽灵：「对你来说，我们不过是玩物。」
+ghost: 「We are simply playthings to you.」
+
+幽灵：「在你抛弃上次选择的命运之际，我必须提醒你……」
+ghost: 「I must remind you, as you abandon the fate you last chose...」
+
+【插入结局专属提醒，全文见末节】
+
+幽灵：「那就让我给你想要的东西吧。一个寻找别的可能的机会。寻找“更好的”可能。」
+ghost: 「Let me give you what you desire, then. The chance to find something else. Something 'better.'」
+
+【条件：elif numberEndingsBurned > 5:】
+
+幽灵：「...」
+ghost: 「...」
+
+幽灵：「让我把你来这里想要的东西给你吧。毕竟，我们已经没什么可对彼此说的了。」
+ghost: 「Let me give you what you came here for. We have nothing more to say to one another, after all.」
+
+【条件：endif】
+
+POSTEND_Return_Part2
+================================
+
+【条件：if numberEndingsBurned = 1:】
+
+【条件：if consented(SC_SPINE_OpheliaHamletStarter):】
+
+奥菲莉娅：我已经决定了。我要回埃尔西诺。
+ophelia: I've already made my decision. I want to return to Elsinore.
+
+奥菲莉娅：对不起，哈姆雷特。
+ophelia: I'm sorry, Hamlet.
+
+幽灵：「...」
+ghost: 「...」
+
+幽灵：「我明白了。」
+ghost: 「I see.」
+
+幽灵：「生前，我从没想过你竟会这么固执。」
+ghost: 「I never thought you were quite this stubborn in life.」
+
+幽灵：「不过，我还是会为你指出回埃尔西诺的路。」
+ghost: 「Nevertheless, I will show you the way back to Elsinore.」
+
+【条件：else:】
+
+奥菲莉娅：要是不听你的劝，我才是傻子。
+ophelia: I would be a fool not to listen to you.
+
+幽灵：「我会永远感激你。」
+ghost: 「You have my eternal thanks.」
+
+幽灵：「你的智慧与仁慈，远远超出了那个破碎的世界所配得到的。」
+ghost: 「You are wiser and more merciful than that broken world ever deserved.」
+
+幽灵：「我们走吧，奥菲莉娅。永远离开。」
+ghost: 「Let us go away now, Ophelia. Forever.」
+
+奥菲莉娅：我再同意不过了，我的朋友。无论我们身在何处……
+ophelia: Couldn't agree more, my friend. Wherever we are...
+
+奥菲莉娅：我想，我们都该享有死亡的长眠，以及随之而来的任何梦境了。
+ophelia: I think we've both earned that sleep of death, and whatever dreams may come.
+
+奥菲莉娅：永别了，埃尔西诺。
+ophelia: Farewell, Elsinore.
+
+【返回标题画面】
+
+【条件：endif】
+
+【条件：elif numberEndingsBurned = 2:】
+
+【条件：if consented(SC_SPINE_OpheliaHamletStarter):】
+
+奥菲莉娅：我必须再回埃尔西诺。
+ophelia: I must return to Elsinore again.
+
+奥菲莉娅：我知道，无论我说什么，都无法让这件事少一点残忍。
+ophelia: I know nothing I could say would make it any less of a cruelty.
+
+幽灵：「那就这样吧。」
+ghost: 「So be it, then.」
+
+幽灵：「我为你抛下的命运哀悼，因为如果我们再次相见，你我必定都不会再记得它。」
+ghost: 「I mourn the fate you leave behind, for certainly neither you nor I will recall it if we ever meet again.」
+
+【条件：else:】
+
+奥菲莉娅：要是不听你的劝，我才是傻子。
+ophelia: I would be a fool not to listen to you.
+
+幽灵：「我会永远感激你。」
+ghost: 「You have my eternal thanks.」
+
+幽灵：「你的智慧与仁慈，远远超出了那个破碎的世界所配得到的。」
+ghost: 「You are wiser and more merciful than that broken world ever deserved.」
+
+幽灵：「我们走吧，奥菲莉娅。永远离开。」
+ghost: 「Let us go away now, Ophelia. Forever.」
+
+奥菲莉娅：我再同意不过了，我的朋友。无论我们身在何处……
+ophelia: Couldn't agree more, my friend. Wherever we are...
+
+奥菲莉娅：我想，我们都该享有死亡的长眠，以及随之而来的任何梦境了。
+ophelia: I think we've both earned that sleep of death, and whatever dreams may come.
+
+奥菲莉娅：永别了，埃尔西诺。
+ophelia: Farewell, Elsinore.
+
+【返回标题画面】
+
+【条件：endif】
+
+【条件：elif numberEndingsBurned = 3:】
+
+【条件：if consented(SC_SPINE_OpheliaHamletStarter):】
+
+奥菲莉娅：我已经决定了。我要再次回到埃尔西诺。第三次。
+ophelia: I've already made my decision. I want to return to Elsinore again. A third time.
+
+奥菲莉娅：对不起，哈姆雷特。我真的很抱歉。
+ophelia: I'm sorry, Hamlet. I truly am.
+
+幽灵：「那就这样吧。既然如此，我希望我们永不再见。」
+ghost: 「So be it. I hope we never meet again, then.」
+
+幽灵：「即使我们再见，我也不会再试图阻拦你。」
+ghost: 「And if we ever do, I shall no longer try to stand in your way.」
+
+幽灵：「试着让一个人免受痛苦，是只有对朋友才会给予的关照。」
+ghost: 「Trying to save someone from pain is a courtesy one only extends to friends.」
+
+【条件：else:】
+
+奥菲莉娅：要是不听你的劝，我才是傻子。
+ophelia: I would be a fool not to listen to you.
+
+奥菲莉娅：无论我们身在何处……
+ophelia: Wherever we are...
+
+奥菲莉娅：我想，我们都该享有死亡的长眠，以及随之而来的任何梦境了。
+ophelia: I think we've both earned that sleep of death, and whatever dreams may come.
+
+奥菲莉娅：永别了，埃尔西诺。
+ophelia: Farewell, Elsinore.
+
+【返回标题画面】
+
+【条件：endif】
+
+【条件：elif numberEndingsBurned > 3:】
+
+【条件：endif】
+
+remindAboutEndingLost
+================================
+
+【条件：if previously endingConfirmed(END_Pirate):】
+
+幽灵：「你与格蕾丝共度的时光——你经历的那些冒险——都会消失。」
+ghost: 「Your time with Grace—the adventures you embarked on—will vanish.」
+
+【条件：elif previously endingConfirmed(END_Resignation):】
+
+幽灵：「你为他人做出的那份牺牲将变得毫无意义，因为再没有与之相似的路可走。」
+ghost: 「That sacrifice you made for the sake of others will have been meaningless, for there is no such similar path.」
+
+【条件：elif previously endingConfirmed(END_Exile):】
+
+幽灵：「你与雷欧提斯和父亲共度时光的记忆，无论好坏，都会消失。」
+ghost: 「Your memory of the time you spent with Laertes and your father, both the good and bad, will vanish.」
+
+【条件：elif previously endingConfirmed(END_Queen):】
+
+幽灵：「你再也不会拥有随心所欲颠覆各国的力量。至少——无法再用同样的方式。」
+ghost: 「You will never again have the power to overturn nations at your whim. At least—not in the same way.」
+
+【条件：elif previously endingConfirmed(END_HamletMarriage):】
+
+幽灵：「你再也无法在哈姆雷特身边度过余生。」
+ghost: 「You will never again live out the rest of your life at Hamlet's side.」
+
+【条件：elif previously endingConfirmed(END_Delusion):】
+
+幽灵：「你创造的那个完美世界将会破碎。而我要现在就警告你：你能选择的其他命运，都不可能带来那样的幸福。」
+ghost: 「That perfect world you created will shatter. And I will warn you now: No other fate you could choose could possibly live up to its happiness.」
+
+【条件：elif previously endingConfirmed(END_Survival):】
+
+幽灵：「你再也无法保证埃尔西诺的每个人都能活下来。」
+ghost: 「You will never again be able to guarantee that everyone in Elsinore survives.」
+
+【条件：elif previously endingConfirmed(END_Othello):】
+
+幽灵：「你会舍弃与奥赛罗共同建立的生活。而如果他没有和你一起离开埃尔西诺，很可能会在这里被杀。」
+ghost: 「You will forego the life you and Othello built together. And without leaving Elsinore with you, he is likely to be killed here.」
+
+【条件：elif previously endingConfirmed(END_SentAway):】
+
+幽灵：「你再也无法拥有那个远离埃尔西诺、靠自己建立、不受他人苦难牵累的未来。」
+ghost: 「You will never again have a future you built away from Elsinore, on your own, free of others' misery.」
+
+【条件：elif previously endingConfirmed(END_RosAndGuil):】
+
+幽灵：「你再也无法与吉尔登斯吞女士和罗森克兰兹女士一起安定下来，尽管你曾在她们身边找到安宁。」
+ghost: 「Never again will you settle down with Lady Guildenstern and Lady Rosencrantz, though you had found peace with them.」
+
+【条件：elif previously endingConfirmed(END_FortinbrasPeaceful):】
+
+幽灵：「在福丁布拉斯成为埃尔西诺真正国王的那个世界里，埃尔西诺享有的安宁，是其他任何世界都无法给予的。」
+ghost: 「There is no other world with such a peaceful existence for Elsinore as the one where Fortinbras was its true King.」
+
+【条件：endif】

@@ -60,6 +60,23 @@
           "line": 435
         }
       ]
+    },
+    {
+      "source": "By the time the flowers are blooming, Ferdinand and I marry in the grounds we love so dearly. Neither of us was ever much for the church. Some find it scandalous. We don't mind.",
+      "source_sha256": "a314b9f6d50261c9ad27e8fe221fc182cf9c3604b77d970c6eae858bc4264a64",
+      "previous_target": "鲜花盛开时，费迪南德和我在我们深爱的庭园里成婚。我们两人向来都不怎么热衷于教会。有些人觉得这有伤风化。我们并不在意。",
+      "target": "鲜花盛开时，费迪南德和我在我们钟爱的庭园里成婚。我们两人向来都不怎么热衷于教会。有些人觉得这有伤风化。我们并不在意。",
+      "reason": "对场所的喜爱用钟爱，保留感情强度并避免深爱的生硬搭配",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_FortinbrasPeaceful",
+          "line": 540
+        },
+        "resources.assets:scenes_endings:208f35f21b8b",
+        "Assembly-CSharp.dll:#US:775355"
+      ]
     }
   ],
   "titles": []

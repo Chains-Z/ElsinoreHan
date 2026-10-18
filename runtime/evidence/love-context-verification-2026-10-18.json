@@ -1,0 +1,1685 @@
+{
+  "date": "2026-10-18",
+  "plugin_version": "1.5.11",
+  "plugin_sha256": "c56adec60a179314d46f3a79467b8d8fc26b8c0bd561c807dfd8861090e9782b",
+  "font_bundle_sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+  "font_glyph_count": 7661,
+  "font_validation_reused_from": "runtime/evidence/credits-skip-install-verification-2026-10-18.json",
+  "dictionary_count": 17069,
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dynamic_rules": 157,
+  "status": "candidate_verified",
+  "passed": true,
+  "installed": false,
+  "previous_installed_verification": "runtime/evidence/ending-readback-install-verification-2026-10-18.json",
+  "previous_candidate_verification": "runtime/evidence/ending-readback-install-verification-2026-10-18.json",
+  "new_changed_dictionary_entries": 28,
+  "total_pending_changed_dictionary_entries": 28,
+  "changes_since_previous_install": [
+    {
+      "id": "love-context-2429ee3b5bf82188",
+      "source": "The Queen is one of the kindest people I've ever met, and her people love her dearly. Gertrude isn't Danish, but married into the throne via her late husband, the King Hamlet. She remarried quickly after his death—now she is Claudius's wife.\n\nAfter my mother passed away when I was a child, Gertrude sort of took Laertes and me under her wing. I've been eternally grateful to her for her kindness ever since.",
+      "source_sha256": "2429ee3b5bf82188e88710ba7e7aad364eab2f16332a71812cceeb627d34830e",
+      "original_id": "p00546-2429ee3b5bf8",
+      "previous_target": "王后是我见过最善良的人之一，她的子民也深爱着她。乔特鲁德不是丹麦人，而是嫁给了已故的哈姆雷特国王，成为王后。丈夫去世后，她很快就再婚了——如今她是克劳狄斯的妻子。\n\n我小时候母亲去世后，乔特鲁德算是把雷欧提斯和我纳入了她的羽翼之下。从那时起，我就一直感激她的善意。",
+      "target": "王后是我见过最善良的人之一，她的子民也十分爱戴她。乔特鲁德不是丹麦人，而是嫁给了已故的哈姆雷特国王，成为王后。丈夫去世后，她很快就再婚了——如今她是克劳狄斯的妻子。\n\n我小时候母亲去世后，乔特鲁德算是把雷欧提斯和我纳入了她的羽翼之下。从那时起，我就一直感激她的善意。",
+      "reason": "人民对王后的love是爱戴，与另一人物简介用词统一，不暗示恋慕",
+      "origins": [
+        "resources.assets:bios:7719667ee314:text"
+      ]
+    },
+    {
+      "id": "love-context-a314b9f6d50261c9",
+      "source": "By the time the flowers are blooming, Ferdinand and I marry in the grounds we love so dearly. Neither of us was ever much for the church. Some find it scandalous. We don't mind.",
+      "source_sha256": "a314b9f6d50261c9ad27e8fe221fc182cf9c3604b77d970c6eae858bc4264a64",
+      "original_id": "p00953-a314b9f6d502",
+      "previous_target": "鲜花盛开时，费迪南德和我在我们深爱的庭园里成婚。我们两人向来都不怎么热衷于教会。有些人觉得这有伤风化。我们并不在意。",
+      "target": "鲜花盛开时，费迪南德和我在我们钟爱的庭园里成婚。我们两人向来都不怎么热衷于教会。有些人觉得这有伤风化。我们并不在意。",
+      "reason": "对场所的喜爱用钟爱，保留感情强度并避免深爱的生硬搭配",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_FortinbrasPeaceful",
+          "line": 540
+        },
+        "resources.assets:scenes_endings:208f35f21b8b",
+        "Assembly-CSharp.dll:#US:775355"
+      ]
+    },
+    {
+      "id": "love-context-793d3eaa00185c71",
+      "source": "We share a brotherly bond in some ways. We've fought like siblings. And I'm... I miss your father. I loved him, though I was poor at showing it.",
+      "source_sha256": "793d3eaa00185c714cbbf1d79fccc897c5e4dd2812eed52780292e7960ce3748",
+      "original_id": "p02152-793d3eaa0018",
+      "previous_target": "从某些方面来说，我们之间有兄弟般的情谊。我们也像兄弟一样争吵。而我……我想念你的父亲。我爱他，只是不善于表达。",
+      "target": "从某些方面来说，我们之间有兄弟般的情谊。我们也像兄弟一样争吵。而我……我想念你的父亲。我对他感情很深，只是不善于表达。",
+      "reason": "哈姆雷特悼念雷欧提斯的父亲；保留深厚感情，不将love窄化为爱情或单纯尊敬",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_LaertesHamletDuel",
+          "line": 4207
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_LaertesHamletDuel_NoGert",
+          "line": 4521
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1267726"
+      ]
+    },
+    {
+      "id": "love-context-070f97405be189e9",
+      "source": "Don't you dare. If you ever loved me, Horatio, as I do you...",
+      "source_sha256": "070f97405be189e994a9385513e1b9007882b599f41dd3e82fd0a752f3c2a73c",
+      "original_id": "p02224-070f97405be1",
+      "previous_target": "你敢。霍拉旭，如果你曾爱过我，像我爱你一样……",
+      "target": "不许你这么做。霍拉旭，如果你曾在乎过我，像我在乎你一样……",
+      "reason": "阻止霍拉旭殉死；在乎兼容双方不同性质的感情，不把哈姆雷特的答复擅自写成互相恋爱；Don’t you dare译出明确阻止",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_LaertesHamletDuel",
+          "line": 4452
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "Spine_LaertesHamletDuel_NoGert",
+          "line": 4713
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1275786"
+      ]
+    },
+    {
+      "id": "love-context-56a4f08cfc9d3c56",
+      "source": "Some noble hearts cannot be beaten into obedience. But love them well, and they will love back, ever faithful.",
+      "source_sha256": "56a4f08cfc9d3c56d74a8885b180c58a551b993764685c78e0a0dbabe6405247",
+      "original_id": "p02722-56a4f08cfc9d",
+      "previous_target": "有些高贵的心，靠打是打不服的。但好好爱他们，他们就会回报你的爱，永远忠贞。",
+      "target": "有些高贵的心，靠打是打不服的。但只要真心关爱他们，他们也会回以真情，始终忠诚。",
+      "reason": "王后请求克劳狄斯善待儿子，love指关爱，faithful指忠诚；避免回报你的爱、永远忠贞带出恋爱誓言腔",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_ClaudiusHamletReconcileAttempt",
+          "line": 6168
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:2043196"
+      ]
+    },
+    {
+      "id": "love-context-1a2af80b49dbab3e",
+      "source": "This is the best possible thing for you and for Denmark. Some day you will understand I do this not to cause you pain, but out of love.",
+      "source_sha256": "1a2af80b49dbab3eefb11cf828aa2e0e49cee5b6e5e97d790590d50029f21d0d",
+      "original_id": "p03295-1a2af80b49db",
+      "previous_target": "对你和丹麦而言，这是最好的安排。总有一天你会明白，我这么做不是为了让你痛苦，而是出于爱。",
+      "target": "对你和丹麦而言，这是最好的安排。总有一天你会明白，我这么做不是为了让你痛苦，而是出于疼爱。",
+      "reason": "王后对儿子解释婚约安排，love是母亲自称的疼爱，保留角色自我辩护而不替其行为背书",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "HAMROM_BetrothalBrit",
+          "line": 7852
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1914439"
+      ]
+    },
+    {
+      "id": "love-context-b37d457d81211710",
+      "source": "My notes—my notes, taken by him, out of love, out of protection—",
+      "source_sha256": "b37d457d81211710d9834dcc414fd4eb429c2614d724e4ca5657f225d4477482",
+      "original_id": "p03830-b37d457d8121",
+      "previous_target": "我的笔记——我的笔记，被他拿走了，出于爱，出于保护——",
+      "target": "我的笔记——我的笔记，被他拿走了，出于关切，出于保护——",
+      "reason": "波洛涅斯拿走老国王笔记的关切与保护，不补恋爱关系",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GHOST_GhostApperation",
+          "line": 9579
+        },
+        "resources.assets:scenes:6f4f49b19b38"
+      ]
+    },
+    {
+      "id": "love-context-d5dfb71e5597ef16",
+      "source": "<i>My notes—my notes, taken by him, out of love, out of protection—</i>",
+      "source_sha256": "d5dfb71e5597ef16b93869e13038c5d136b7265fbab802d6b1168756f11770f2",
+      "original_id": "a00288-d5dfb71e5597",
+      "previous_target": "<i>我的笔记——我的笔记，他拿走了，出于爱，出于保护——</i>",
+      "target": "<i>我的笔记——我的笔记，他拿走了，出于关切，出于保护——</i>",
+      "reason": "真实斜体运行源与笔记裸源同步关切；保留断裂表达和斜体",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "GHOST_GhostApperation",
+          "line": 9579
+        },
+        "assembly_review:288"
+      ]
+    },
+    {
+      "id": "love-context-49229336171ebad6",
+      "source": "—Or any love deep in the fog of your madness!",
+      "source_sha256": "49229336171ebad632eb87c034c7c238e36e999f383d5b617a8b9f1a46df79c4",
+      "original_id": "p04498-49229336171e",
+      "previous_target": "——或者在您那疯狂的迷雾深处，还剩半点爱！",
+      "target": "——或者在您那疯狂的迷雾深处，还剩半点温情！",
+      "reason": "伊尔玛责备哈姆雷特对母亲冷酷，泛指情感与温情；不补恋爱或特定感情对象",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POISON_HamletIrmaKickoff",
+          "line": 11536
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1538525"
+      ]
+    },
+    {
+      "id": "love-context-064f250ccbd8cde9",
+      "source": "Certainly no love, either.",
+      "source_sha256": "064f250ccbd8cde968953f09d04b9064377f6556112108929ece36cdaa7d16d0",
+      "original_id": "p04499-064f250ccbd8",
+      "previous_target": "爱当然也没有。",
+      "target": "温情当然也没有。",
+      "reason": "与伊尔玛上一句love译为温情的反驳成对同步",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POISON_HamletIrmaKickoff",
+          "line": 11538
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1538617"
+      ]
+    },
+    {
+      "id": "love-context-2ba139a70c8306dd",
+      "source": "All my lady <i>ever</i> did was try to love you with all of her soul.",
+      "source_sha256": "2ba139a70c8306dd33f1b4bfbdf1b9a31fbd8f2cef7e9c0c0c8538a5bce1c9d1",
+      "original_id": "p04566-2ba139a70c83",
+      "previous_target": "王后<i>从始至终</i>，都只是在努力全心全意地爱你。",
+      "target": "王后<i>从始至终</i>都只是想全心全意地疼爱你。",
+      "reason": "王后对哈姆雷特的母爱；try to love并非勉强产生爱情，保留她的努力与深情",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POISON_IrmaJailVisit",
+          "line": 11744
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1545022"
+      ]
+    },
+    {
+      "id": "love-context-640605f4b832c352",
+      "source": "And now I feel strongly about this. Even if Ophelia doesn't return my affections, I love her still.",
+      "source_sha256": "640605f4b832c3527c5568a57f9217f141ad83c4369deb24013a527862971042",
+      "original_id": "p05360-640605f4b832",
+      "previous_target": "但如今，这件事让我有了强烈的感情。即使奥菲莉娅不回应我的爱，我依然爱她。",
+      "target": "可如今，我有了这样强烈的感情。即使奥菲莉娅不回应我的爱意，我依然爱她。",
+      "reason": "承接此前难以对任何事产生强烈感情；保留明确的恋爱表白，不补原文未指定的外部事件原因",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14123
+        },
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "PIRATE_GuildAndHamlet",
+          "line": 14151
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1137452"
+      ]
+    },
+    {
+      "id": "love-context-6c5f699734d11442",
+      "source": "If you choose this world, go into it gladly. Do not let the inevitable pain rob the intensity of your love.",
+      "source_sha256": "6c5f699734d11442dd74cf5a251553304f37cf6a9a35aca8be56a4ea66a97d51",
+      "original_id": "p06456-6c5f699734d1",
+      "previous_target": "如果你选择这个世界，就欣然走进去。不要让注定到来的痛苦削弱你爱的热烈。",
+      "target": "如果你选择这个世界，就欣然走进去。别让不可避免的痛苦消磨你炽热的爱意。",
+      "reason": "奥赛罗结局谢幕明确谈爱情，保留恋爱义，只修爱的热烈搭配",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Othello",
+          "line": 17542
+        },
+        "resources.assets:scenes:6f4f49b19b38"
+      ]
+    },
+    {
+      "id": "love-context-08534b58aa039d0b",
+      "source": "<i>If you choose this world, go into it gladly. Do not let the inevitable pain rob the intensity of your love.</i>",
+      "source_sha256": "08534b58aa039d0b985d0a6b1a0b6036d57b73575dbd21bc9d6455d4839b1432",
+      "original_id": "a00604-08534b58aa03",
+      "previous_target": "<i>如果你选择这个世界，就欣然走进去。别让不可避免的痛苦夺走你爱的热烈。</i>",
+      "target": "<i>如果你选择这个世界，就欣然走进去。别让不可避免的痛苦消磨你炽热的爱意。</i>",
+      "reason": "奥赛罗结局谢幕真实斜体源同步；保留恋爱义及源斜体",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "END_CurtainCall_Othello",
+          "line": 17542
+        },
+        "assembly_review:604"
+      ]
+    },
+    {
+      "id": "love-context-aa91ebf5b47f38a6",
+      "source": "Even when you aren't in love anymore, that link still remains. I know he's suffering even now.",
+      "source_sha256": "aa91ebf5b47f38a692d02236ba109d4ca4870dddda2efe24433528343a310521",
+      "original_id": "p07185-aa91ebf5b47f",
+      "previous_target": "就算已经不再相爱，那份牵连也还在。我知道，他现在依然很痛苦。",
+      "target": "就算不再爱那个人了，那份牵绊也还在。我知道，他现在依然很痛苦。",
+      "reason": "you aren’t in love只陈述一方，不再相爱误加双方都不爱的断言；保留恋爱义与仍存的牵绊",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "OTH_OthelloStorytimePrivate1",
+          "line": 19600
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1693778"
+      ]
+    },
+    {
+      "id": "love-context-4c956e73257361ca",
+      "source": "But if we love Hamlet, and want to see him flourish, then...",
+      "source_sha256": "4c956e73257361cafac3413a4f884857021313cf2946b2bcd7d66bb537458b1d",
+      "original_id": "p07786-4c956e732573",
+      "previous_target": "可如果我们爱哈姆雷特，希望他过得好，那……",
+      "target": "可如果我们在乎哈姆雷特，希望他过得好，那……",
+      "reason": "萝茜与吉尔达讨论朋友安危，集体love用在乎兼容友谊和吉尔达曾有的恋情，不写成两人共同表白",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_RGNervous",
+          "line": 21288
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1733534"
+      ]
+    },
+    {
+      "id": "love-context-ae54bc51716fe01f",
+      "source": "Because of the love you bear for my wife, I should hope.",
+      "source_sha256": "ae54bc51716fe01f3469497e4ee51429018636e31c9b9146e41dcdf44ad56b0b",
+      "original_id": "p10278-ae54bc51716f",
+      "previous_target": "我希望，是因为你对我妻子的爱。",
+      "target": "我希望，是出于你对我妻子的敬爱。",
+      "reason": "克劳狄斯要求贝尔纳多看在王后的情分上保密；上下文没有卫队长与王后的恋情",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "FLAVOR_MargaretLetter",
+          "line": 29108
+        },
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:1891215"
+      ]
+    },
+    {
+      "id": "love-context-0b07935aaf95d727",
+      "source": "If ever you did love me, if ever you did find me worthy of your time... then you will join me here in the quiet of oblivion, and take up an eternal rest.",
+      "source_sha256": "0b07935aaf95d727b38a6d1d76bd53163c12ce91c6bcf1c8eb9da0ede95d0bb2",
+      "original_id": "p10489-0b07935aaf95",
+      "previous_target": "如果你曾爱过我，如果你曾觉得我值得你花时间……那就留在这里，与我一同归于虚无的寂静，永远安息。",
+      "target": "如果你曾真心在乎我，如果你曾觉得我值得你花时间……那就与我一同留在这里，在虚无的寂静中永远安息吧。",
+      "reason": "老国王第三次归来劝诫明确谈友谊与尊重，love是深厚情义；不增加恋爱关系或相伴动作",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return",
+          "line": 29618
+        },
+        "resources.assets:scenes:6f4f49b19b38"
+      ]
+    },
+    {
+      "id": "love-context-de48913dc2b5c8cc",
+      "source": "<i>If ever you did love me, if ever you did find me worthy of your time... then you will join me here in the quiet of oblivion, and take up an eternal rest.</i>",
+      "source_sha256": "de48913dc2b5c8cc567f4dcb99feb3ed89fe71bd91aa83b7bc94f1716b4f651c",
+      "original_id": "a00408-de48913dc2b5",
+      "previous_target": "<i>如果你曾经爱过我，如果你曾经觉得我值得你花时间相伴……那就来这里与我一起，在这虚无的寂静中永远安息吧。</i>",
+      "target": "<i>如果你曾真心在乎我，如果你曾觉得我值得你花时间……那就与我一同留在这里，在虚无的寂静中永远安息吧。</i>",
+      "reason": "真实幽灵斜体源与裸源同步，纠正爱过我的恋爱歧义并保留全部标签",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return",
+          "line": 29618
+        },
+        "assembly_review:408"
+      ]
+    },
+    {
+      "id": "love-context-f2a136fbee7eab5c",
+      "source": "You know I do, Hamlet.",
+      "source_sha256": "f2a136fbee7eab5c3e182b39decbf71799cab132a0cd45fe272f957ab127e659",
+      "original_id": "p10490-f2a136fbee7e",
+      "previous_target": "你知道我爱你，哈姆雷特。",
+      "target": "你知道我在乎你，哈姆雷特。",
+      "reason": "do承接老国王上一句love me；与在乎同步，不在英文省略谓语处补成恋爱告白",
+      "origins": [
+        "resources.assets:scenes:6f4f49b19b38",
+        "Assembly-CSharp.dll:#US:948730"
+      ]
+    },
+    {
+      "id": "love-context-53561b8ded5035b4",
+      "source": "<i>You already <i>have.</i></i>",
+      "source_sha256": "53561b8ded5035b426caf825c4f67607f475ae26f03f0fd24892e326e96e438a",
+      "original_id": "a00390-53561b8ded50",
+      "previous_target": "<i>你已经<i>做过了。</i></i>",
+      "target": "<i>你已经<i>回去过了。</i></i>",
+      "reason": "have承接回埃尔西诺；实际斜体译文做过了丢失明确动作，保留源中的双层斜体",
+      "origins": [
+        "assembly_review:390"
+      ]
+    },
+    {
+      "id": "love-context-e648a54a46973692",
+      "source": "<i>It will <b>never</b> be complete.</i>",
+      "source_sha256": "e648a54a469736920575e0ea3d626eb801cd3b8dbbdf3c3d40f5fc996e91c301",
+      "original_id": "a00409-e648a54a4697",
+      "previous_target": "<i>它<b>永远</b>不会完整。</i>",
+      "target": "<i>那<b>永远</b>也做不完。</i>",
+      "reason": "complete承接女主要做的事；实际斜体误译不会完整，复用正确裸源语义",
+      "origins": [
+        "assembly_review:409"
+      ]
+    },
+    {
+      "id": "love-context-bb146963582bab7d",
+      "source": "<i>Do not show me that everything we went through together was trivial compared to your pining for the impossible.</i>",
+      "source_sha256": "bb146963582bab7d1622838d6bdd546f0fb42f94cb0bc4a48bce3040ed21f798",
+      "original_id": "a00412-bb146963582b",
+      "previous_target": "<i>不要让我发现，与我们共同经历的一切相比，你对不可能之事的渴望才更重要。</i>",
+      "target": "<i>别让我看到，我们一同经历的一切，比起你对不可能之事的渴望，竟然微不足道。</i>",
+      "reason": "trivial是微不足道，实际斜体译成另一个更重要弱化程度；复用准确裸源并保留斜体",
+      "origins": [
+        "assembly_review:412"
+      ]
+    },
+    {
+      "id": "love-context-952f8b07ef08ca66",
+      "source": "I had expected that one day someone I love would approach me and say this very thing.",
+      "source_sha256": "952f8b07ef08ca66cc25aab2317ce6751f8e545194ecba220c19717eda4e8800",
+      "original_id": "p11552-952f8b07ef08",
+      "previous_target": "我早料到，总有一天，我爱的人会走到我面前，说出这番话。",
+      "target": "我早料到，总有一天，我所珍视的人会走到我面前，说出这番话。",
+      "reason": "王后对女主谈婚外情被亲近之人揭穿；love不限于情人，保留泛指亲近的人",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "gertrude_affair",
+          "line": 1785
+        },
+        "resources.assets:scenes_present:2b1c89384554",
+        "Assembly-CSharp.dll:#US:309288"
+      ]
+    },
+    {
+      "id": "love-context-6fcdb1ff63074584",
+      "source": "If there is any love in your heart, you will not unveil me to them, Ophelia. I beg this of you. <i>Please.</i>",
+      "source_sha256": "6fcdb1ff6307458440cb805a520752d99e1d00eb3a802eaff3ecc86409a6a0e5",
+      "original_id": "p11555-6fcdb1ff6307",
+      "previous_target": "奥菲莉娅，如果你心里还有一点爱，就不要向他们揭露我的秘密。我恳求你。<i>求你了。</i>",
+      "target": "奥菲莉娅，如果你心里还有一点温情，就不要向他们揭露我的秘密。我恳求你。<i>求你了。</i>",
+      "reason": "王后求女主体恤并保密，抽象love是温情，不补两人恋情",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "gertrude_affair",
+          "line": 1791
+        },
+        "resources.assets:scenes_present:2b1c89384554",
+        "Assembly-CSharp.dll:#US:309751"
+      ]
+    },
+    {
+      "id": "love-context-b243a01b862dc6dd",
+      "source": "I'm sorry to hear about your mother. You are living proof that there can be a better way, Ophelia. You're loved by all.",
+      "source_sha256": "b243a01b862dc6dd6492c339e1f4e5780c16048d0678ea4851f1ec49ea358e59",
+      "original_id": "p12947-b243a01b862d",
+      "previous_target": "听到你母亲的事，我很难过。奥菲莉娅，你就是活生生的证明，证明事情可以变得更好。大家都爱你。",
+      "target": "听到你母亲的事，我很难过。奥菲莉娅，你就是活生生的证明，证明事情可以变得更好。大家都很喜爱你。",
+      "reason": "谈异乡人融入与被众人接纳，love不是人人向女主求爱",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "horatio_elisedeath",
+          "line": 5156
+        },
+        "resources.assets:scenes_present:2b1c89384554",
+        "Assembly-CSharp.dll:#US:516500"
+      ]
+    },
+    {
+      "id": "love-context-362fe0414f8923d0",
+      "source": "...If I am loved, it is only for my father's blood.",
+      "source_sha256": "362fe0414f8923d05e54ed244239451205dfc27a0910e35aa76b0dac2000a56b",
+      "original_id": "p12948-362fe0414f89",
+      "previous_target": "……如果有人爱我，那也只是因为我身上流着父亲的血。",
+      "target": "……如果有人喜爱我，那也只是因为我身上流着父亲的血。",
+      "reason": "与群体喜爱答复成对，保留她对血统及社会地位的质疑",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+          "scene": "horatio_elisedeath",
+          "line": 5157
+        },
+        "resources.assets:scenes_present:2b1c89384554",
+        "Assembly-CSharp.dll:#US:516741"
+      ]
+    },
+    {
+      "id": "love-context-642c4c3c6f4e8f88",
+      "source": "And I know that someday soon, you two will come to love each other as dearly as I love her.",
+      "source_sha256": "642c4c3c6f4e8f880a398921f4ec95ba2de6c132f06e164c4d648676f94743d6",
+      "original_id": "p14961-642c4c3c6f4e",
+      "previous_target": "我知道，用不了多久，你们就会像我爱她那样，深深地爱着彼此。",
+      "target": "我知道，用不了多久，你们也会彼此关爱，感情就像我对她的一样深厚。",
+      "reason": "哥哥期待妹妹与未来嫂嫂成为家人后的亲厚，不误写成两女相爱；保留与自己的爱情同样深厚的比较",
+      "origins": [
+        {
+          "asset": "scenes_present",
+          "asset_sha256": "8e6f17cfdf85c465cb0dd13a66ebcab63ee4b5579338782489ddb5af27159119",
+          "scene": "laertes_future",
+          "line": 94
+        },
+        "resources.assets:scenes_present:8e6f17cfdf85",
+        "Assembly-CSharp.dll:#US:2070735"
+      ]
+    }
+  ],
+  "love_dictionary_sources": 431,
+  "love_related_corrected_sources": 24,
+  "love_related_retained_sources": 407,
+  "post_ending_dialogue_occurrences": 148,
+  "post_ending_unique_runtime_sources": 132,
+  "post_ending_corrected_occurrences": 5,
+  "post_ending_scene_counts": {
+    "POSTEND_Return": 104,
+    "POSTEND_Return_Part2": 33,
+    "remindAboutEndingLost": 11
+  },
+  "actual_recursive_xunity_consumer_passed": true,
+  "love_and_post_ending_consumer_cases": 651,
+  "all_endings_consumer_cases": 407,
+  "affected_existing_context_consumer_cases": 113,
+  "export_governance_unit_tests": 19,
+  "reading_followup_guard_tests": 4,
+  "runtime_source_regression_reproduced_before": 3,
+  "runtime_source_regression_passed_after": 3,
+  "preexisting_fixture_failures": 4,
+  "preexisting_fixture_failures_verified_against_before_dictionary": true,
+  "fixture_updates": [
+    {
+      "file": "translation/supplemental/brit-name-tests.json",
+      "id": "brit-name-context-dialogue-log-depth-tests-dialogue-log-scene-stress-4ce848e9485d",
+      "correction_ids": [
+        "p03295-1a2af80b49db"
+      ],
+      "previous_target_sha256": "b97c0217521f170d5d0636c4783dfd6c4efc38784176dc41df58680586ea2aea",
+      "target_sha256": "ae1c9efda49d6ea725fa3b51ffb59383f00ccb1c621856d650a52d662ea46824"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-e6de3d9e89d9",
+      "correction_ids": [
+        "p02152-793d3eaa0018",
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "ad40543dc8cbfec82c241d6194a96f4695564d7f86c22e4e25add2b23f7cb15c",
+      "target_sha256": "d2d968bcdb78640895411ec491f8e71fb51fe980556f0f7e178e0aab0a4e2406"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-74dd4398bfaf",
+      "correction_ids": [
+        "p02152-793d3eaa0018",
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "b65e54923c20be507ae700cc1ae64219c53b8bbc334214b8ad351afdf356e3c2",
+      "target_sha256": "c683f2f500982e81175e932b0872ed2d97f768b2fbad03fb454d599a854248ee"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-24d3c9abf078",
+      "correction_ids": [
+        "p02722-56a4f08cfc9d"
+      ],
+      "previous_target_sha256": "360ba42c43ca4a091446a4b1ec6c2ee675145c714882eabadd6999a53379b9b5",
+      "target_sha256": "4657cb6f6591228eb2dd46e1340c8b196d4511a2f9369a1c61a5358479689967"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-4ce848e9485d",
+      "correction_ids": [
+        "p03295-1a2af80b49db"
+      ],
+      "previous_target_sha256": "b97c0217521f170d5d0636c4783dfd6c4efc38784176dc41df58680586ea2aea",
+      "target_sha256": "ae1c9efda49d6ea725fa3b51ffb59383f00ccb1c621856d650a52d662ea46824"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-31a38402bea8",
+      "correction_ids": [
+        "a00288-d5dfb71e5597"
+      ],
+      "previous_target_sha256": "d92050f36960e6dd8c800d0baf46991d7ee3ba8130723c927a17d2eedfbe2bcf",
+      "target_sha256": "6685d32e933a2a5c9236aca166ebb20a96b7b8760216f723e960d0969ed65445"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-12c0a5b460af",
+      "correction_ids": [
+        "p04498-49229336171e",
+        "p04499-064f250ccbd8"
+      ],
+      "previous_target_sha256": "82604063c1c76622e28040ed4236662d407c04340fa33ab9f42fdeddd8c7656f",
+      "target_sha256": "ac43acb987e4ea16840b5452aeb9ab6429f552ee5cb14a658c90fbf2178c8e75"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-4410f18a01de",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "ea5e402861679ce7e8fd94bfc2e453fd85e1826213707f5e21463018207a20b7",
+      "target_sha256": "f1ce9ffe6e964571428b62c05d186d3029f63251b760f5ae0b7526ce10cba932"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-3fdd4d2eb063",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "186c91d7c265b13b522cb04710f38af363216c1f8a2649c8f670ba802eaab9ff",
+      "target_sha256": "b249ce3ef48500c1c3e3386f6028333eb5605bef6baf3490c2b6c3d2b24874b5"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-c78c1223d3ab",
+      "correction_ids": [
+        "a00604-08534b58aa03"
+      ],
+      "previous_target_sha256": "e7e7315a40706ed6f122d52affc9b725ac2ba676220618418d60558935b5fc28",
+      "target_sha256": "887a5413b820b72590592df4ee7c9b303df0afd537a65d5d090a217e71da7a56"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-ddb82fe40b2b",
+      "correction_ids": [
+        "p07185-aa91ebf5b47f"
+      ],
+      "previous_target_sha256": "322b22bce36ca7729064c610a8ff4d11ba5f7b3334dc992ccf954769250dc3d1",
+      "target_sha256": "49d94f23ffa0a1df3e0bcea99009e96b9362b4496ec661eb88a2f9379ef76a4b"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-bb330830de81",
+      "correction_ids": [
+        "p07786-4c956e732573"
+      ],
+      "previous_target_sha256": "28ef5e489155a80807dc6e2545884361dcb13e02bb572640945bf6b170c33ef1",
+      "target_sha256": "05e96fbc757f2d534b857227ae6e06578c2b986283cc6a7078a06cdbdc71aa0b"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-8d795bb608fd",
+      "correction_ids": [
+        "p10278-ae54bc51716f"
+      ],
+      "previous_target_sha256": "3abe191986ee732e8ab0786739ebef12efdc28b463f28a5cc4debde56a9bace2",
+      "target_sha256": "f16e3ef9707367175ec5952c5b39909a0fd385106e3bab65d740a84563719c34"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-5547c07953b9",
+      "correction_ids": [
+        "a00408-de48913dc2b5",
+        "p10490-f2a136fbee7e",
+        "a00390-53561b8ded50",
+        "a00409-e648a54a4697",
+        "a00412-bb146963582b"
+      ],
+      "previous_target_sha256": "72a7f9598d157f8c13a745c23cb4e62f850cd50cec200c5fa975ecefc053366a",
+      "target_sha256": "af4965c20fa5bbd19b6cb80f9a51d9b3b4064f2b9722b46f3399c9e5f14a2dc3"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-1575",
+      "correction_ids": [
+        "p02152-793d3eaa0018"
+      ],
+      "previous_target_sha256": "2cc58c7045afe8e975fbb679f84cad20a7e73e229e4a3b671f7746c654e0fb49",
+      "target_sha256": "496354abbc2aef848bbe42e53cf1349e181e94aff47b3f29147bb0431a64eed0"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-1575",
+      "correction_ids": [
+        "p02152-793d3eaa0018"
+      ],
+      "previous_target_sha256": "423f00e5ba2d928772674449bcac0e72c7ff049499f1da8976942335a36b6166",
+      "target_sha256": "602a6e7296c73e91dde6cf4ddd3f84b925a88e68ca27ae38c93a13463fdf1334"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-1576",
+      "correction_ids": [
+        "p02152-793d3eaa0018"
+      ],
+      "previous_target_sha256": "a87edef900b995ee4d05a97418ae4743c1cb64f93b6c3c81a9a32ec7171f0f67",
+      "target_sha256": "8878b8b7fe4ed289670c356a8433dbd9d288a68e3ce000dc87a7df0a586fa291"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-1669",
+      "correction_ids": [
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "c89e6b3fa309a28c00498ed64564e247ff6d7143d9db6fb3ed352333dba41b1e",
+      "target_sha256": "0de076e5d5a001c31800f54fcfd18ca231aa1b743bb0dd044d33986ffcbc1c81"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-1669",
+      "correction_ids": [
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "24333ea3356aefc94a6699e17162dc8f574c70dfc09c68231fb01a89a2523cbe",
+      "target_sha256": "79ee836d3c5bf81593626368b450c148a7c5b57be44de1291546d9f3bd1f728e"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-1670",
+      "correction_ids": [
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "21e97d9265ec28528231211f70c43d2d283553deda8eb4661c50aa6fd6f68a52",
+      "target_sha256": "d9918e87f979e6ae420221aa09914c1d77b8b65bbaa1cf367d45a4a4c4c10808"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-2336",
+      "correction_ids": [
+        "p02722-56a4f08cfc9d"
+      ],
+      "previous_target_sha256": "47f630eab64e6ff4392e57d73c13a48a8d5524c6eaafd950fcf35f828934f5f3",
+      "target_sha256": "9cceb25e0dda23df0991fba92cbb61e91cbe1e2065773f89be7fb67f9df51e4b"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-2336",
+      "correction_ids": [
+        "p02722-56a4f08cfc9d"
+      ],
+      "previous_target_sha256": "ee8aec94381387ef7144ea8254339be7e253c207ab15cbe0f00462929b230536",
+      "target_sha256": "68a49da0049f0e441bbee614c9f5f69434273e5e68fad49c9d14a27112a7f1c8"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-2337",
+      "correction_ids": [
+        "p02722-56a4f08cfc9d"
+      ],
+      "previous_target_sha256": "2421d8d6f6e07428748869804dbd52e1192fd428143a639538602afecf678f3d",
+      "target_sha256": "f0afd728f5f2ed5693145a9cf2bfd96be82d351045765a6857db8d987a1e5c4a"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-2984",
+      "correction_ids": [
+        "p03295-1a2af80b49db"
+      ],
+      "previous_target_sha256": "d822e3570a4838efc0a5752e4690c1782b47e4a6e11f180c8c8b9b9ebbc0bbc2",
+      "target_sha256": "90edbcc728382b2f307b3ed12a3debb2ccc65522fbb14c810e02b707998dc7ba"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-2984",
+      "correction_ids": [
+        "p03295-1a2af80b49db"
+      ],
+      "previous_target_sha256": "98caf14e6558cf6b0de802564cd915ff1a6e7f4d4820c31be40b702f10f50b91",
+      "target_sha256": "eb6d0b395fc65ce2c50325893c73bc006821fa4a03b98a62d2d3bc67f4da3488"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-2985",
+      "correction_ids": [
+        "p03295-1a2af80b49db"
+      ],
+      "previous_target_sha256": "1793c1dc9e065bd0e4166ab7f941e4b93704b3ac5c2981a73b2545a83b8ffc97",
+      "target_sha256": "eeeda5d6bd13f382dd9a3f593e1c19d1d5f5ac7f83bd6ce2dd438fd5cea2943a"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-3620",
+      "correction_ids": [
+        "a00288-d5dfb71e5597"
+      ],
+      "previous_target_sha256": "27f95be18c0133d0da285be2c9181ee5992d1becb617dea317d03cf7e3d6d244",
+      "target_sha256": "8e749a37b8cee2647d0a5796ceae69cd31b6c23ba481fe93d950d5b7b03b7744"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-3620",
+      "correction_ids": [
+        "a00288-d5dfb71e5597"
+      ],
+      "previous_target_sha256": "9b270cb9bbe97fea6d0ea7ccce4d9c76aa5e15686d8b1d261ee254e36e070ab4",
+      "target_sha256": "f748ff11f9a0516bb5a2fb56da3145fd948c4b557aa7244bc1d1402483a16b35"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-3621",
+      "correction_ids": [
+        "a00288-d5dfb71e5597"
+      ],
+      "previous_target_sha256": "802e7dbcb23502281fc8bc33076f96c1079c660a7aa4b2b6300ac8a4d18d50a9",
+      "target_sha256": "d3669726a903a9e345ac30b1fd6d5b1abf5befaa980bcc9ec658a9ed54f54ff0"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-4370",
+      "correction_ids": [
+        "p04498-49229336171e"
+      ],
+      "previous_target_sha256": "977f2b04bc8d56a217e40c860a07f77248994a2971be94db076eed2d62053ba3",
+      "target_sha256": "693c9a8901056be22e392bda4f7fec8edabbfe8406fd198df2ef5df01a3d7479"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-4370",
+      "correction_ids": [
+        "p04498-49229336171e"
+      ],
+      "previous_target_sha256": "09c37e3c6a6e275e98b5d7bbbb2aa7fd50d3ab26b830970d4af9f34fe50b0ef3",
+      "target_sha256": "a32f1ac7353b238499c5092223297e294088976ed74d232cdc45ab62049fbd0a"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-4371",
+      "correction_ids": [
+        "p04499-064f250ccbd8"
+      ],
+      "previous_target_sha256": "0dd4d5a85621b51d5d8f69b76d055978efb260e599d9996f67ef833b2bb1b8de",
+      "target_sha256": "2ad5c47831dbf3a16eb5286d68f540fb7a58954936b548121b51c6686fda1818"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-4371",
+      "correction_ids": [
+        "p04498-49229336171e",
+        "p04499-064f250ccbd8"
+      ],
+      "previous_target_sha256": "07ac80b1e960ebe25342c686dbe39d9ba5c05244330e5a0842750d56fdb4d8e9",
+      "target_sha256": "184fa520fe7249f4f38e0abcfbbe9ef7894f4664c17d42a7f9181d4aeb2c533c"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-4372",
+      "correction_ids": [
+        "p04499-064f250ccbd8"
+      ],
+      "previous_target_sha256": "b50c425c978883b78e23953ad4cb650074082f819ecd3df02a850e80a0fa18d9",
+      "target_sha256": "d0df9ac9085530e985edf3175fe2db43dcacdf7c4eebad418c764de0bc286382"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-4444",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "59c89fcae1d88b7bdbd53498e7b727562b81f9a32a79cc1929ed98f155fe0181",
+      "target_sha256": "434733d273137ad895bbf4c782dd25f4344b9122c3501508541e8da32fcd794a"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-4444",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "9ba6c93c5de97735951683c11ec4cdee2af8f5181e40ef5cf0d79384f1f56e32",
+      "target_sha256": "6f6b961e84725704bc312566dd66b3eca0a8463daa2b978164d678ca524e0452"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-4445",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "4ce58de5a1e183333b71144e3f84eace80a24b0b98002e99512e216957c40395",
+      "target_sha256": "b427f5e48bc752aef722b01f6644899ccf6139fb051473918d0f8d7c499c1f2a"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-5376",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "c64d090973c2e497fe814afc9c2904e50b0278b17006607e28355565b0a37ba2",
+      "target_sha256": "029b3fb268b7175d563d3c1e4c983670754e4ceb23d3bb436a7245a8e04b6284"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-5376",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "7d8a3a1d4649c223a547750e4a2451e3653887d451a1deccd253d37b75c4f1e3",
+      "target_sha256": "9e11427e5ccbeea26d897eeaf138c2e56a6e45742914670ec8be9e67d39a662a"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-5377",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "a73c1733c8dc107f50be3711f566490a0f2e592e175648de66f8a64ad2a98dac",
+      "target_sha256": "66ff4b2101066e9923ee6df0b2a1dd7d2fe808d93af4e8c9c1df058b790fc469"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-5391",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "639304cdb025e0e010ec14aa579daba0d1c2038d0c19e13dfe832f60fa3fabf7",
+      "target_sha256": "434740e1dd204bc897a69bbbb80b7c951c3782f73ceb1ea19c0043df09a2bd8e"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-6624",
+      "correction_ids": [
+        "a00604-08534b58aa03"
+      ],
+      "previous_target_sha256": "5fd2ae55a5a506dff7ab2cf9049ab267a809c41d0eca816079505a5cde7668be",
+      "target_sha256": "17430371896cf467942c92a7f8359a9ed22d84aca4104a23f7986c7db0f44015"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-6624",
+      "correction_ids": [
+        "a00604-08534b58aa03"
+      ],
+      "previous_target_sha256": "a2d47b6f648c9ac42530d206292ed459530fee5fcc75cdbf8ad9a416af45ca46",
+      "target_sha256": "da8ad4505c8e03f540bb26b1425da6a30b7c3e04d1fce44477d52c112d18b87a"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-6625",
+      "correction_ids": [
+        "a00604-08534b58aa03"
+      ],
+      "previous_target_sha256": "709e0d91c7eea84ab81615e169400e82cd40667b83d75dd38a4f4ce7ab7f3895",
+      "target_sha256": "0523af9686fbc1c7dcbedc06f5d8432e8fda16bf03c5741134c97932668b4f77"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-7459",
+      "correction_ids": [
+        "p07185-aa91ebf5b47f"
+      ],
+      "previous_target_sha256": "6cdfceda319278b4f8309bb617c3b63c2dd3d6f7a93b9f2ab04bc5642ca7413a",
+      "target_sha256": "1c878d86ef3dc71854402c3d9e47f905a9e0ee98d002b50c761c04e99c4adb68"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-7459",
+      "correction_ids": [
+        "p07185-aa91ebf5b47f"
+      ],
+      "previous_target_sha256": "d4c9591b2b0cb56949ea733454b2476b99d311e488acf091e7d2ae570c59d17c",
+      "target_sha256": "92bc9afb0bf86876faa40b9a35f9c61f7ae36cbe50a77c24636a787c49fc52ca"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-7460",
+      "correction_ids": [
+        "p07185-aa91ebf5b47f"
+      ],
+      "previous_target_sha256": "26c222d5cd1680428e48242a56b15a7361a3153964361349fed52f35adb8cf8f",
+      "target_sha256": "cae939c465fa7f47cbf09273afaf9a702973841188a5be159df5aa4bd6db077f"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-8143",
+      "correction_ids": [
+        "p07786-4c956e732573"
+      ],
+      "previous_target_sha256": "772603e87d2d8ca3aba346f608e4b0209c7a7fbb0a2b060ec7a6e90603864fd3",
+      "target_sha256": "3b54152c22f93dfce8189683811977e8b90bbd3fb589190f96c987fa871b7325"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-8143",
+      "correction_ids": [
+        "p07786-4c956e732573"
+      ],
+      "previous_target_sha256": "6ff596b893853961a072b72ec72d6c32b542afdf21a28cc1fe4dc2841fc4d7a9",
+      "target_sha256": "c250eac824c943508b1bc90a4f4d61b1735041daf93409ad1a4ea8e2ec43e40c"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-8144",
+      "correction_ids": [
+        "p07786-4c956e732573"
+      ],
+      "previous_target_sha256": "8c6876f554067642857176fa10b70ce27b8b2f3b1934c439ba5cf96d42d06925",
+      "target_sha256": "b7266a41e09c1cf2dba44d1a9b57c85d6c0b91b5f2a73652ca4d81dbec03b5d0"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-11066",
+      "correction_ids": [
+        "p10278-ae54bc51716f"
+      ],
+      "previous_target_sha256": "bfadde6ae2d3a96cfb960ce9b2cdf9ae2e2a5e74b98cb88014eb51a18692b8b9",
+      "target_sha256": "b52e912e613a97dc5d51b1f2fce61d2ed9581d02e30d273670d80f8a9a058e4e"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11066",
+      "correction_ids": [
+        "p10278-ae54bc51716f"
+      ],
+      "previous_target_sha256": "996d80232c8d5010c7e5d7cb947c6075638d55ad2e2f62cc3f952d95d1a4fd83",
+      "target_sha256": "003445a75094851f69574fc4a38bba308cedca208c1c3174a30e2cef0aa36aa2"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11067",
+      "correction_ids": [
+        "p10278-ae54bc51716f"
+      ],
+      "previous_target_sha256": "3150f94afcf0ef8a7a2807cf5b2450cec3a6e483f7a06376af4392396fd870ed",
+      "target_sha256": "c0e432d220649ddf1ba01491bd5375d38151dc940c82388cb9f2b68148dbb269"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-11283",
+      "correction_ids": [
+        "a00390-53561b8ded50"
+      ],
+      "previous_target_sha256": "fea06cde112a20a3b85d875fe373049fcae3d0a3900b721a6d1dc618813f743f",
+      "target_sha256": "c26702f77bf3dc8c919d77c403cc3d5c96b389ab56c7dd1e6a350952efb1f880"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11283",
+      "correction_ids": [
+        "a00390-53561b8ded50"
+      ],
+      "previous_target_sha256": "841280ba399520c5cff7637e943d0c4f6f0acfb009e06857037b30df4170911c",
+      "target_sha256": "6374843d3781d201f04ca230fc6df7537ad687677e9ebefc5832b41fb7c87c6c"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11284",
+      "correction_ids": [
+        "a00390-53561b8ded50"
+      ],
+      "previous_target_sha256": "ef0c7c25c8eaeb7762e2537d12b0194cdb5874879a747e21f88c027f58a864bb",
+      "target_sha256": "dc9eccdf96dd9c38f49de18c5882e61c48fdb9ef9c5a27a16b06187147c38b8c"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-11309",
+      "correction_ids": [
+        "a00408-de48913dc2b5"
+      ],
+      "previous_target_sha256": "de719b4ab6c4d734d302249c4bd8dcef9b169fcd859f836fcbc565dcc2d202b9",
+      "target_sha256": "42141dc4f8ae6c8c52f8b28cf2b10f83247b033c053cbb1865b09373251caced"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11309",
+      "correction_ids": [
+        "a00408-de48913dc2b5"
+      ],
+      "previous_target_sha256": "bd0b753b4f6c9a994eae22a488bb1c7c6b3bbf0e42b5ff4bf3a12a0a877ae6c8",
+      "target_sha256": "3a0a040d1db0515248f97db95a876f52dc5b1220483fd95c7c4669b258d80100"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-11310",
+      "correction_ids": [
+        "p10490-f2a136fbee7e"
+      ],
+      "previous_target_sha256": "fe595f4b295c3304f83da737851d273643ead780cd97f3af1f932afcac54221f",
+      "target_sha256": "3a7b7b17edac9d35dfee502cfbfaa6be5c4b44429cb0a2bedb3d888d442168b6"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11310",
+      "correction_ids": [
+        "a00408-de48913dc2b5",
+        "p10490-f2a136fbee7e"
+      ],
+      "previous_target_sha256": "2b836b066260b82c1a77067257ed0acd1ce6ac6c43136f33881e4ffe3655d4c9",
+      "target_sha256": "fabfeb61613afc24a89ac1f8c253290e81c74c092102a9d5ce1f1291d755b355"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11311",
+      "correction_ids": [
+        "p10490-f2a136fbee7e"
+      ],
+      "previous_target_sha256": "00cd3a233e901286b793e9bc016bd4a72fda42938c59b40f5cb4aca380829784",
+      "target_sha256": "2ed41d757d77fb1b4017d8667d0a361d3fa6f8e784e90d92616faaae5f52d157"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-11312",
+      "correction_ids": [
+        "a00409-e648a54a4697"
+      ],
+      "previous_target_sha256": "6452e15e1a6ef5170c78a39a80558dba7d9eea3d9643e7cd9c1a56f9351f1d0f",
+      "target_sha256": "2f641cbd29f2515fd050501334e5fac710931cf39f8ee989cdfd7a0219042f05"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11312",
+      "correction_ids": [
+        "a00409-e648a54a4697"
+      ],
+      "previous_target_sha256": "1c282c706d5e9cb4c56b6a309a8949fff821b6836edf5a9f675f17d0a2c4d17f",
+      "target_sha256": "9bfa2a60fb485ab4287e70633a3a185039ba58af201e4400a0fb8e41f53fbe23"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11313",
+      "correction_ids": [
+        "a00409-e648a54a4697"
+      ],
+      "previous_target_sha256": "027805aed06866dc54089e5bde4522cd7e05273aeeecb6e38c3fca5b650edf46",
+      "target_sha256": "ca0408cece362f105c4baa86112de0a9cdfe832b07c36b7997eb385582e628a7"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-single-11315",
+      "correction_ids": [
+        "a00412-bb146963582b"
+      ],
+      "previous_target_sha256": "9904a1166bb1ee1aaed8c27815657a1f71060cc3c2ae14903b77d5e32bcb4616",
+      "target_sha256": "1c05e559f2687a5a893fc7143d6f4cba64670b9e2fc586bd3c3d3aafd8b220db"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11315",
+      "correction_ids": [
+        "a00412-bb146963582b"
+      ],
+      "previous_target_sha256": "d4e06a0e1fb80fc506560ad27dfa8b9d60445975fa506c216ecffa50eb6fa167",
+      "target_sha256": "846fa0a9cf442da6093ad27ffe5b496ed3785fb5aac354e448f0163b557bd933"
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-followup-tests.json",
+      "id": "dialogue-log-pair-11316",
+      "correction_ids": [
+        "a00412-bb146963582b"
+      ],
+      "previous_target_sha256": "438a5f74fdda7922471eebc10007b143cde9ca5a3c6df8cbfbaf0c453ec3aad9",
+      "target_sha256": "7315209e5bea52a61b053dfb7231390040e72406cf0b7981fc93bb27efc42fa4"
+    },
+    {
+      "file": "translation/supplemental/irma-review-tests.json",
+      "id": "irma-leaf-69",
+      "correction_ids": [
+        "p04498-49229336171e"
+      ],
+      "previous_target_sha256": "13666f3d50f71b02638fd570f678478a44296d53eb7545d12061aacdfc8f2dcd",
+      "target_sha256": "a77e097356dcfc7d6a12d132dbe4c43bb867aac8936d9c75829021136afdce36"
+    },
+    {
+      "file": "translation/supplemental/irma-review-tests.json",
+      "id": "irma-speaker-69",
+      "correction_ids": [
+        "p04498-49229336171e"
+      ],
+      "previous_target_sha256": "977f2b04bc8d56a217e40c860a07f77248994a2971be94db076eed2d62053ba3",
+      "target_sha256": "693c9a8901056be22e392bda4f7fec8edabbfe8406fd198df2ef5df01a3d7479"
+    },
+    {
+      "file": "translation/supplemental/irma-review-tests.json",
+      "id": "irma-leaf-95",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "9c0e1730e294c9f3c2529ec19311f00c86ab952ff43e63192fc0ec83b1df1e21",
+      "target_sha256": "24b7bcd977a6d6807af9bdb0aca16e27f4006a0800d44f3de1f5b26b14aca3b4"
+    },
+    {
+      "file": "translation/supplemental/irma-review-tests.json",
+      "id": "irma-speaker-95",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "59c89fcae1d88b7bdbd53498e7b727562b81f9a32a79cc1929ed98f155fe0181",
+      "target_sha256": "434733d273137ad895bbf4c782dd25f4344b9122c3501508541e8da32fcd794a"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1575-before",
+      "correction_ids": [
+        "p02152-793d3eaa0018"
+      ],
+      "previous_target_sha256": "189cc026d47c26478abcc8f3e10e593f768921393cf87461ee046cee45117769",
+      "target_sha256": "18515860b96e9a35b42f4aef4ad0e06b6a5eb9d733bb4f821e452012e830640e"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1575-after",
+      "correction_ids": [
+        "p02152-793d3eaa0018"
+      ],
+      "previous_target_sha256": "1061322e15f4027fa8c2e8089d81f0e002fec972e683a1ce7fcb22f496538ca8",
+      "target_sha256": "a5f1efb66a6af6cc5e0fb8cb354b4c26bb893fba65f72a579e2038ad0a10f53f"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1669-before",
+      "correction_ids": [
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "29cf034d4fd4c4589224d04a3f3cfd415c95cb0158f8bd537d294efa882181c4",
+      "target_sha256": "bb164f1d7854c89d2b9a8eba9c9e608faa101de76fd54962eeaf15eafb961ec3"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1669-after",
+      "correction_ids": [
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "c4ccf1b83e14e32f6cdc826e8195a5c271aedb5e0b71b2ccce1829e28699a734",
+      "target_sha256": "2aef4721a924e6e88f9a755e3c43009addcd29e6e554f6308ae4872b65581e00"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1693-before",
+      "correction_ids": [
+        "p02152-793d3eaa0018"
+      ],
+      "previous_target_sha256": "189cc026d47c26478abcc8f3e10e593f768921393cf87461ee046cee45117769",
+      "target_sha256": "18515860b96e9a35b42f4aef4ad0e06b6a5eb9d733bb4f821e452012e830640e"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1693-after",
+      "correction_ids": [
+        "p02152-793d3eaa0018"
+      ],
+      "previous_target_sha256": "1061322e15f4027fa8c2e8089d81f0e002fec972e683a1ce7fcb22f496538ca8",
+      "target_sha256": "a5f1efb66a6af6cc5e0fb8cb354b4c26bb893fba65f72a579e2038ad0a10f53f"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1769-before",
+      "correction_ids": [
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "29cf034d4fd4c4589224d04a3f3cfd415c95cb0158f8bd537d294efa882181c4",
+      "target_sha256": "bb164f1d7854c89d2b9a8eba9c9e608faa101de76fd54962eeaf15eafb961ec3"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-1769-after",
+      "correction_ids": [
+        "p02224-070f97405be1"
+      ],
+      "previous_target_sha256": "c4ccf1b83e14e32f6cdc826e8195a5c271aedb5e0b71b2ccce1829e28699a734",
+      "target_sha256": "2aef4721a924e6e88f9a755e3c43009addcd29e6e554f6308ae4872b65581e00"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-2336-before",
+      "correction_ids": [
+        "p02722-56a4f08cfc9d"
+      ],
+      "previous_target_sha256": "69322a171edf9cb25c7a2632bd1a4e058e8d669edf867b7a5c05cb5d1ddee522",
+      "target_sha256": "3a5b23a2d38e628656b81ff807b9b17c3efd1399c7ccc2daaaa7d5f5df655b0a"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-2336-after",
+      "correction_ids": [
+        "p02722-56a4f08cfc9d"
+      ],
+      "previous_target_sha256": "4795071fe138b27ae53802bf379674487f16f88cbd40ee1009206d380dca50b0",
+      "target_sha256": "94751583d5963da41696b34003e9f660d2b92463db7086c0d747f61af7493a3d"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-2984-before",
+      "correction_ids": [
+        "p03295-1a2af80b49db"
+      ],
+      "previous_target_sha256": "2931b830d885d5007b8f39d1e4a97b8c16c6459704acc5993aafe000b6863bed",
+      "target_sha256": "ee147045b05b954fdee7c3a27b4949c6426c16d88cbe978300c2436e710b5602"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-2984-after",
+      "correction_ids": [
+        "p03295-1a2af80b49db"
+      ],
+      "previous_target_sha256": "6918c45d2674f6e679ea19831530aa858e595e6e86bc0253efb207e5ed45a568",
+      "target_sha256": "2828e21917449cafce402817f09b7be12af7f9bd59789657addfa68afa79b5c7"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-3620-before",
+      "correction_ids": [
+        "a00288-d5dfb71e5597"
+      ],
+      "previous_target_sha256": "b074b9dc5332088680a5beb80ab921839f9e2053a1d3dc057150b1b7df516032",
+      "target_sha256": "51606ff554e65fa1705a3f35257062536c2bb18b66275bf2ea9a71cd935d572a"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-3620-after",
+      "correction_ids": [
+        "a00288-d5dfb71e5597"
+      ],
+      "previous_target_sha256": "d741ff1a02599e6445be3b7f6007d01566c341dd48327caa4259b177ff7bbd3c",
+      "target_sha256": "5ddef0e9f50dd7cd26f6563ba47882cf1b05038170ad06defc8d341a3f068729"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-4370-before",
+      "correction_ids": [
+        "p04498-49229336171e"
+      ],
+      "previous_target_sha256": "ec8e9c41bb9fec97e5233a19a7dd4115905d75720d2037062187ec644ba298e6",
+      "target_sha256": "1a60de478e1b691bec40c227d3df885072b34865ba763796241e5daf517f36ff"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-4370-after",
+      "correction_ids": [
+        "p04498-49229336171e"
+      ],
+      "previous_target_sha256": "09ad73b3c95ac47abc13c3b3cdc9ed8070fc0ca3ebc31b0c8eb6df3de19a6905",
+      "target_sha256": "6837a9a4245ff3542e41442a0c8f8d1dc974447f39a6cd996e251ec3117219c0"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-4371-before",
+      "correction_ids": [
+        "p04499-064f250ccbd8"
+      ],
+      "previous_target_sha256": "090e6f669ee13857cdaf2b9cc44fc1afa37c0166200493975104b93f8ef71a39",
+      "target_sha256": "ac831375e4acca1b9f8358ea1c67e769097b1f4fe511633ef34280a120dc178a"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-4371-after",
+      "correction_ids": [
+        "p04499-064f250ccbd8"
+      ],
+      "previous_target_sha256": "f158730cebb53bcdb2b9367d6c8bb823a944760d8386b7c1f1678007a2fdad5c",
+      "target_sha256": "69475732e0062a266f757b403d795de7623db9df76b7a15bcee27c5ac067b5b4"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-4444-before",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "a7c52e0eee99ec6da8ea7bf05d3ec955c3f25ebb587ef29801e1e8ec96937618",
+      "target_sha256": "920f6cd244661fe08c1e6ffd394dc824dec4cdb8ac2de4f1427a09150b4cbeb6"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-4444-after",
+      "correction_ids": [
+        "p04566-2ba139a70c83"
+      ],
+      "previous_target_sha256": "ea13e940f2bf5602101fb050ccc7897c6cc8ff3d48bb4a927a039785f4090c63",
+      "target_sha256": "d6611ba7cf846d8d589d93f572fa5cec885b324512f468f398d0ac34778cc3aa"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-5376-before",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "da23a3b2219c78c9351887b92b1ef76e474acb4bdbca15faf84153bc83d27e99",
+      "target_sha256": "138b0e460ea7b94098e4a39163099a1d1a08fb7da396741fa07a0573dff9da11"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-5376-after",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "f7e0c15cffb5e6f8f272a333f58295267b40775bda3589c0249daf396abd0b0d",
+      "target_sha256": "d54cb231637fb52370c4325353662fb07da5bee9374de08182161f01dc84f714"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-5390-before",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "da23a3b2219c78c9351887b92b1ef76e474acb4bdbca15faf84153bc83d27e99",
+      "target_sha256": "138b0e460ea7b94098e4a39163099a1d1a08fb7da396741fa07a0573dff9da11"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-5390-after",
+      "correction_ids": [
+        "p05360-640605f4b832"
+      ],
+      "previous_target_sha256": "f7e0c15cffb5e6f8f272a333f58295267b40775bda3589c0249daf396abd0b0d",
+      "target_sha256": "d54cb231637fb52370c4325353662fb07da5bee9374de08182161f01dc84f714"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-6624-before",
+      "correction_ids": [
+        "a00604-08534b58aa03"
+      ],
+      "previous_target_sha256": "ac20709ca42839fa44285f659d2c9dc7a8083649ed10bb8772744a31629196ad",
+      "target_sha256": "e786063f0605cd4d54ce27e15c4d55615ce26c3d1b10f13ed1691b2526aab5c3"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-6624-after",
+      "correction_ids": [
+        "a00604-08534b58aa03"
+      ],
+      "previous_target_sha256": "379b017fe1ce10d4c48e8180dc5cb4be6bbd96f1af6eaa55651cb56341bddcb2",
+      "target_sha256": "e63268a7a6f972ac51cb89768ae229acfddb16183a7b19caf6425a5f4b7e4a55"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-7459-before",
+      "correction_ids": [
+        "p07185-aa91ebf5b47f"
+      ],
+      "previous_target_sha256": "8567bb89eacb04f5f2d1658323b428f3a2288af844915af049ed2b07fb6d8c44",
+      "target_sha256": "0055b6d5fcabdc9364533b0b063a8630e4d0e7c04ec6701ff337db03176a1bcf"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-7459-after",
+      "correction_ids": [
+        "p07185-aa91ebf5b47f"
+      ],
+      "previous_target_sha256": "7fc709a2555f8c66f08cd7f38ef7ace10a40e60cd5194c4b26ab493530b627b7",
+      "target_sha256": "f054bfafdbd57cd99a171038e37c13032dfdf4cae3581a209cd347914d580cec"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-8143-before",
+      "correction_ids": [
+        "p07786-4c956e732573"
+      ],
+      "previous_target_sha256": "0f676637423050a8bc4613254f14d195a74b2bb154c1b7e9ed281c0019772f4c",
+      "target_sha256": "0620dc2683505503ff71562a1c9d5c8e6e95c6530a7cc55bf42abb7419ca3b7e"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-8143-after",
+      "correction_ids": [
+        "p07786-4c956e732573"
+      ],
+      "previous_target_sha256": "a491a01801c5679187c2e009cb31e2749d342687a359f63f15483954522cc2cb",
+      "target_sha256": "54fc89d7ca1f0e9ca0aaa80ec202986b26cd44b08bf89ca8e2d715511e9b6390"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11066-before",
+      "correction_ids": [
+        "p10278-ae54bc51716f"
+      ],
+      "previous_target_sha256": "8f2aa58552a6e7a60ba6146203e66d6a6c001cb02ab7625a0c91f62e0f3a0805",
+      "target_sha256": "5cd54849a571064cfde93701f3e16011905a6c9ff4addd66efaf3ec26f75d045"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11066-after",
+      "correction_ids": [
+        "p10278-ae54bc51716f"
+      ],
+      "previous_target_sha256": "c342cf8e7dc8991e867687e9df4c89d34072f3f502ec96a2fc51f45506a54fb4",
+      "target_sha256": "14c981317fc706c0ab5d5a3a21b7df6170cbd80fbd8b5a41eb37f7fdfd8b2db8"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11283-before",
+      "correction_ids": [
+        "a00390-53561b8ded50"
+      ],
+      "previous_target_sha256": "fbf8dd471cd650328f78c5023eb75241373f21ba57ffbd542e7a4906792865fc",
+      "target_sha256": "8aa89ac09112fd25e86b090dc12c1196a8ad906b999a025355dec2ff64d057f4"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11283-after",
+      "correction_ids": [
+        "a00390-53561b8ded50"
+      ],
+      "previous_target_sha256": "894361e82bd18c71ad3e4cb097d450fa3cd6c495d9c0e668d2da7168bc67c9d1",
+      "target_sha256": "6e9ce09952abadb2da6d102876a4224b5377ae3565b3d9aa2da785b9c3123467"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11309-before",
+      "correction_ids": [
+        "a00408-de48913dc2b5"
+      ],
+      "previous_target_sha256": "09089c85dc020b38d50e3f22f6ae6fcdcdd6def09cae1ce715ca1afef33c5b87",
+      "target_sha256": "0ede63b1e2c9f8327274d2de6a0c252b0ff2f230effa6b1ec2eeec912172b292"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11309-after",
+      "correction_ids": [
+        "a00408-de48913dc2b5"
+      ],
+      "previous_target_sha256": "4bb772074d40b0290ef98e0fb941fbd4354d55c262ca3b60061fc9639de634b1",
+      "target_sha256": "7f0d5ac2f904b89b5db39844e7c3b99b961f6ff9a83ae8f125b6903ac2dbe37d"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11310-before",
+      "correction_ids": [
+        "p10490-f2a136fbee7e"
+      ],
+      "previous_target_sha256": "91101c49a476c9c0168b5fd2c34aadcbcba9dde6d7085f6ec069b11ead89de71",
+      "target_sha256": "bd178fc852da690ad6e6f0e53d19db85f67eedbe30525be2f54245215fc50167"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11310-after",
+      "correction_ids": [
+        "p10490-f2a136fbee7e"
+      ],
+      "previous_target_sha256": "2bdb5504905585daa77b020154dcd732915fbf09afb30b286664912575f5cba9",
+      "target_sha256": "918e4ed5f55f6b93eee554a5cc0752cde9c8ff4e5c63703e9418f19858309f61"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11312-before",
+      "correction_ids": [
+        "a00409-e648a54a4697"
+      ],
+      "previous_target_sha256": "a349c033affedd4af04166432f6fbf693d2372ca2d6a6409954103f14b13f7e2",
+      "target_sha256": "d0a959fd0f99dc0dca0fae01be7853b893537c4aa0d579702cb40a751e7b1c65"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11312-after",
+      "correction_ids": [
+        "a00409-e648a54a4697"
+      ],
+      "previous_target_sha256": "7ea5e0f80546114038dbe86ae51787a4b603b9ffeb3774f924a7474fe71390b0",
+      "target_sha256": "1c74cb97b31f1c48053dfc026c0cf284b19385860d869c4d7418cea48fd653df"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11315-before",
+      "correction_ids": [
+        "a00412-bb146963582b"
+      ],
+      "previous_target_sha256": "37af6abc3807afc82be7b80a654496025e2616dd9def5ca955a38a414ef06264",
+      "target_sha256": "af8f729ee009f39513b84dfd584cffc8dd6e9bd50bd4dbaa4822e7e2abb7ad1f"
+    },
+    {
+      "file": "translation/supplemental/mixed-log-tests.json",
+      "id": "mixed-all-dialogue-11315-after",
+      "correction_ids": [
+        "a00412-bb146963582b"
+      ],
+      "previous_target_sha256": "8e2e0be61aed1731a0c736bc1b65c8767a3d8fd35c78e5faebefaab262fe2dd8",
+      "target_sha256": "2f4793baabb581493ec2713092b0086f292d39ee14393dc130bf7a73314caf49"
+    }
+  ],
+  "preexisting_fixture_repairs": [
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-31a38402bea8",
+      "governed_corrections": [
+        "short-reply-context-7837be81885c529b",
+        "ghost-larger-game-bf6c31260029ced3"
+      ]
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-3fdd4d2eb063",
+      "governed_corrections": [
+        "p05384-9448400f6ab9",
+        "p05389-a41d610348f3",
+        "p05390-f4645159eb19",
+        "p05392-60062c417e4f",
+        "p05393-7bf7721fe7d0",
+        "p05394-4a4c780cc262",
+        "p05395-e91ec703d462",
+        "p05398-60df77082ce8",
+        "p05399-310ea68d3af2",
+        "p05400-7d4fdbccd434",
+        "a00521-147a66cd7f6c"
+      ]
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-ddb82fe40b2b",
+      "governed_corrections": [
+        "p07165-f8345cba1765",
+        "p07167-c35c01cc5880",
+        "p07170-9ac8238bb4ff"
+      ]
+    },
+    {
+      "file": "translation/supplemental/dialogue-log-depth-tests.json",
+      "id": "dialogue-log-scene-stress-5547c07953b9",
+      "governed_corrections": [
+        "a00358-78e318dc7261"
+      ]
+    }
+  ],
+  "dictionary_sha256": "e0147428e4c9ce0b14a7a655b5da4df49c72c4b5178d215b557a5723ce2990ae",
+  "chinese_character_count": 2817,
+  "chinese_character_set_unchanged": true,
+  "only_reviewed_targets_changed": true,
+  "post_ending_reading_pairs_checked": 148,
+  "post_ending_reading_copy_sha256": "53ecaeec60e9e88d620e7334b0185697ca4c45ff28ee7552e5395dcb516e7891",
+  "all_endings_reading_copy_sha256": "ab5cd6c842c1454db3c538b20a4063e46c2de6440ceb52571d6c7210562729d0",
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+    "README.md": "aa551b5a839cb3bba531932814f03ef2233f25c8a9ee4f9fba838632a60a7a81",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "c56adec60a179314d46f3a79467b8d8fc26b8c0bd561c807dfd8861090e9782b",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "e0147428e4c9ce0b14a7a655b5da4df49c72c4b5178d215b557a5723ce2990ae",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0"
+  },
+  "changed_package_files": [
+    "README.md",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt"
+  ],
+  "zip_matches_package": true,
+  "zip_sha256": "71cacf34d9c618d91b7637e98e4786b8150640688a8357bc32a61b32484919af",
+  "game_installation_modified": false,
+  "game_started_by_task": false,
+  "saves_accessed": false,
+  "limitations": [
+    "本轮为源文语义审校和真实XUnity离线消费者；未启动游戏，不称实际画面或完整剧情E2E验收",
+    "保留明确恋爱、自然亲情、经典引文及共享源多义，不全局替换爱字",
+    "原完整结局、此前候选及安装证据保留历史快照；当前是新增28条的待安装个人候选"
+  ]
+}

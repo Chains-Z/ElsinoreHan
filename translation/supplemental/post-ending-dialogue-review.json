@@ -1,0 +1,2381 @@
+{
+  "date": "2026-10-18",
+  "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+  "scene_counts": {
+    "POSTEND_Return": 104,
+    "POSTEND_Return_Part2": 33,
+    "remindAboutEndingLost": 11
+  },
+  "reviewed_occurrences": 148,
+  "unique_runtime_sources": 132,
+  "entries": [
+    {
+      "actor": "ghost",
+      "source": "You have returned.",
+      "runtime_source": "<i>You have returned.</i>",
+      "runtime_source_sha256": "fe5492ff2e9058fdf85031a03b7e5df004ce7a6beb65e4586f3c70b50c1c79c3",
+      "target": "<i>你回来了。</i>",
+      "id": "a00348-fe5492ff2e90",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "King Hamlet? Surely that can't be you.",
+      "runtime_source": "King Hamlet? Surely that can't be you.",
+      "runtime_source_sha256": "051aebaa7123149dd9ce1fabff8632b74105b5b2325f8c276e261dc0b6527c26",
+      "target": "哈姆雷特国王？不可能真的是你吧。",
+      "id": "p10412-051aebaa7123",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "It is.",
+      "runtime_source": "<i>It is.</i>",
+      "runtime_source_sha256": "66e9deb005c9ecd5389a04167136e4534a72daedfa2a5efbd9e9ec18ef2ce4fe",
+      "target": "<i>是的。</i>",
+      "id": "a00349-66e9deb005c9",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "It's been a long time.",
+      "runtime_source": "It's been a long time.",
+      "runtime_source_sha256": "9cf9c05e96a7cf5ddb5f75ab001bf5f32b159c4ed188710fa13dc8c4c2242010",
+      "target": "好久不见了。",
+      "id": "p10414-9cf9c05e96a7",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Has it?",
+      "runtime_source": "<i>Has it?</i>",
+      "runtime_source_sha256": "e8d2f73797a7a062cfa2b191e209736e70779042e4c8ea71ec6270f2f4f9148c",
+      "target": "<i>是吗？</i>",
+      "id": "a00350-e8d2f73797a7",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Or at least, I think-- I think I've been gone a long time.",
+      "runtime_source": "Or at least, I think—I think I've been gone a long time.",
+      "runtime_source_sha256": "f84214808560b97dd99759dc9e26e6ce3d79ea9034b71b9486cab286c16d01eb",
+      "target": "至少，我觉得——我觉得自己已经离开很久了。",
+      "id": "a00351-f84214808560",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "It felt like an instant between the last time I saw you and this awakening, now. I suppose I must have been waiting for you, then.",
+      "runtime_source": "<i>It felt like an instant between the last time I saw you and this awakening, now. I suppose I must have been waiting for you, then.</i>",
+      "runtime_source_sha256": "d8f8964fb5d2d18efca484be82edd58dedb36fce844547c9286a10e70d8f4f2e",
+      "target": "<i>从上次见到你，到现在这次醒来，我感觉只过了一瞬。那我想，我应该一直在等你吧。</i>",
+      "id": "a00352-d8f8964fb5d2",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "It's good to see you. We make an odd pair, don't we? But I've got some unfinished business.",
+      "runtime_source": "It's good to see you. We make an odd pair, don't we? But I've got some unfinished business.",
+      "runtime_source_sha256": "8cfff86473c19b74ea6017e7aed2ebe9f56d85dd3de63865d1a395df74eee93f",
+      "target": "见到你真好。我们这对搭档还真奇怪，不是吗？不过，我还有些事没办完。",
+      "id": "p10418-8cfff86473c1",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Evidently so.",
+      "runtime_source": "<i>Evidently so.</i>",
+      "runtime_source_sha256": "ab3b53f73da8897ffe8ce9560e3c3f8a68df1ca111926d78bb7b2df6b7738311",
+      "target": "<i>看来是的。</i>",
+      "id": "a00353-ab3b53f73da8",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Say, there isn't a mirror in here. What do I look like?",
+      "runtime_source": "Say, there isn't a mirror in here. What do I look like?",
+      "runtime_source_sha256": "edd32946db918806365dec3a25d0aae312040638bf521b0438bc225e737bc634",
+      "target": "对了，这里没有镜子。我现在是什么样子？",
+      "id": "p10420-edd32946db91",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "My hands-- they're so soft!",
+      "runtime_source": "My hands—they're so soft!",
+      "runtime_source_sha256": "df6f9fcdfd4baeb815c8670ce2085fd07e3b683eaa2f5eb3a7a9f3162442694b",
+      "target": "我的手——好柔嫩！",
+      "id": "a00354-df6f9fcdfd4b",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You look just as you did then.",
+      "runtime_source": "<i>You look just as you did then.</i>",
+      "runtime_source_sha256": "8229b379b327f9487735c7f9ea37aeade503cb396c8bcbfb35d7feba515be6b6",
+      "target": "<i>你的模样和那时一模一样。</i>",
+      "id": "a00355-8229b379b327",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "It's a funny thing, these young, delicate hands. I spent the rest of my life not knowing how strong these hands already were.",
+      "runtime_source": "It's a funny thing, these young, delicate hands. I spent the rest of my life not knowing how strong these hands already were.",
+      "runtime_source_sha256": "13462e782fe7d8eb626e4676051ac1d600e98dbed228218a72c51753d78012a2",
+      "target": "这双年轻、纤细的手，真有意思。在那之后的余生里，我一直不知道，这双手当时就已经有多大的力量。",
+      "id": "p10423-13462e782fe7",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Glad to see death hasn't sapped you of your steel.",
+      "runtime_source": "<i>Glad to see death hasn't sapped you of your steel.</i>",
+      "runtime_source_sha256": "c5bb847e55f3f2ff6928560b1843c76ceddad0ce3d4cede76a9f468169aeb7d7",
+      "target": "<i>很高兴死亡没有磨去你的坚毅。</i>",
+      "id": "a00356-c5bb847e55f3",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Of course not. Where are we? <i>When</i> are we?",
+      "runtime_source": "Of course not. Where are we? <i>When</i> are we?",
+      "runtime_source_sha256": "117a203d322ece640e76c332ecef193f4593c03284abe18e1051eeadffde6405",
+      "target": "当然没有。我们在哪儿？现在是<i>什么时候</i>？",
+      "id": "p10425-117a203d322e",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "This is the afterwards. Neither Heaven nor Hell. Simply the nothingness in between.",
+      "runtime_source": "<i>This is the afterwards. Neither Heaven nor Hell. Simply the nothingness in between.</i>",
+      "runtime_source_sha256": "c7e0f25ac00fcb4d11acc091ce912d65dcbff50949af89b7c4e466fd97794115",
+      "target": "<i>这里是死后之境。既不是天堂，也不是地狱。只是夹在两者之间的虚无。</i>",
+      "id": "a00357-c7e0f25ac00f",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I came here for a reason, I think.",
+      "runtime_source": "I came here for a reason, I think.",
+      "runtime_source_sha256": "de86a7bf893b0e2f98e0bd1574b4e86fefa002a68c326e9411f55af1a15473e7",
+      "target": "我想，我是为了某件事才来这里的。",
+      "id": "p10427-de86a7bf893b",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I have to go back to Elsinore.",
+      "runtime_source": "I have to go back to Elsinore.",
+      "runtime_source_sha256": "b8bbd27dbea9586f7a17c7f2293c71513e98f4f3cf9ba6ed67103b010e35b069",
+      "target": "我得回埃尔西诺去。",
+      "id": "p10428-b8bbd27dbea9",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Go <b>back?</b>",
+      "runtime_source": "<i>Go <b>back?</b></i>",
+      "runtime_source_sha256": "a65bcac250da52b204a234f42938e2f4d000d5cf95cd20e83a248d276df06220",
+      "target": "<i><b>回去？</b></i>",
+      "id": "ui-a65bcac250da52b2",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Yes.",
+      "runtime_source": "Yes.",
+      "runtime_source_sha256": "5f9a2b795615ba6a3d5455fd5624d773fbca5bcd16249c421fd37411dc9837da",
+      "target": "是的。",
+      "id": "s00094-5f9a2b795615",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Can you help me? Do you still know how to return?",
+      "runtime_source": "Can you help me? Do you still know how to return?",
+      "runtime_source_sha256": "414f56640af5e38e347fa76873e00b698ebccb412e7d58a4a5369408f58580e6",
+      "target": "你能帮我吗？你还知道怎么回去吗？",
+      "id": "p10430-414f56640af5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Of course I do. But why would you consider such a thing?",
+      "runtime_source": "<i>Of course I do. But why would you consider such a thing?</i>",
+      "runtime_source_sha256": "78e318dc72614e407ee32276a3445ede8c6ef2695376386b76fcbc1694dca560",
+      "target": "<i>当然知道。可你为什么会有这种念头？</i>",
+      "id": "a00358-78e318dc7261",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "After all this time...",
+      "runtime_source": "<i>After all this time...</i>",
+      "runtime_source_sha256": "cf3996638dbcde1b50bb695b769e765033d425ab45b458e4e9adbaa38dd10e5c",
+      "target": "<i>都过了这么久……</i>",
+      "id": "a00359-cf3996638dbc",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You <b>chose,</b> Ophelia!",
+      "runtime_source": "<i>You <b>chose,</b> Ophelia!</i>",
+      "runtime_source_sha256": "1735bcfe55e3cca9df791efc99298b4f3e5ae645ad919332ea50ccc4a904455f",
+      "target": "<i>你已经<b>做出了选择，</b>奥菲莉娅！</i>",
+      "id": "ui-1735bcfe55e3cca9",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You left that world behind. Why now?",
+      "runtime_source": "<i>You left that world behind. Why now?</i>",
+      "runtime_source_sha256": "2636813ff31690ac1169edc3b4a139f8a393f00032c784a4cd38882a20f9ca0d",
+      "target": "<i>你已经告别了那个世界。为什么偏偏是现在？</i>",
+      "id": "a00360-2636813ff316",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Because--",
+      "runtime_source": "Because—",
+      "runtime_source_sha256": "1a87e67dc4fad97fdc31d880f1754035fd9bc07bb02594da2e0276f1492f88e6",
+      "target": "因为——",
+      "id": "ui-1a87e67dc4fad97f",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "What if I chose <i>wrong?</i>",
+      "runtime_source": "What if I chose <i>wrong?</i>",
+      "runtime_source_sha256": "c244e7810906428fc71e1b680a31efd9ddcde2b77677bb47ad3005c21dc2e7ed",
+      "target": "可要是我选<i>错了</i>呢？",
+      "id": "p10435-c244e7810906",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "What difference does that make?",
+      "runtime_source": "<i>What difference does that make?</i>",
+      "runtime_source_sha256": "52c706fb62baee31456e0908fd39645580c591d4ebadeb61bd075601527399a9",
+      "target": "<i>那又有什么区别？</i>",
+      "id": "a00361-52c706fb62ba",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "An entire lifetime of difference!",
+      "runtime_source": "An entire lifetime of difference!",
+      "runtime_source_sha256": "7c7c20012078b3e2d57dbc62e8eb1c52f1c5ef5a0cbefcecf5531382f526c18c",
+      "target": "那是一整个人生的区别！",
+      "id": "p10437-7c7c20012078",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "And a difference in the lives of all those people. What if there's a different world, a better world? Don't I owe them that?",
+      "runtime_source": "And a difference in the lives of all those people. What if there's a different world, a better world? Don't I owe them that?",
+      "runtime_source_sha256": "5dc036e6f60a15a40dd4769ae45f41991f7e6fa5aa534655dbdfb5e9d7049904",
+      "target": "还有所有那些人的人生，都会不同。要是还有另一个世界，一个更好的世界呢？我难道不该为他们争取吗？",
+      "id": "p10438-5dc036e6f60a",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Ophelia. Do you know what I would give to have left Elsinore behind in life, even just once?",
+      "runtime_source": "<i>Ophelia. Do you know what I would give to have left Elsinore behind in life, even just once?</i>",
+      "runtime_source_sha256": "68de48bf6b9c8650f6fb797bac3614feb2af58ee224f8d09f7e33c701ab65788",
+      "target": "<i>奥菲莉娅。你知道我愿意付出多大的代价，换来生前离开埃尔西诺的机会吗？哪怕只有一次。</i>",
+      "id": "a00362-68de48bf6b9c",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "That chance was stolen from me.",
+      "runtime_source": "<i>That chance was stolen from me.</i>",
+      "runtime_source_sha256": "f6ed169c46a592cdfa4f35ac143c6b398a47ea188424b57629545d4072d3d474",
+      "target": "<i>那个机会被人从我手中夺走了。</i>",
+      "id": "a00363-f6ed169c46a5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Now you treat it as though it's something easily exchanged. As though you could put your life back on the shelf and choose another.",
+      "runtime_source": "<i>Now you treat it as though it's something easily exchanged. As though you could put your life back on the shelf and choose another.</i>",
+      "runtime_source_sha256": "4e5ff088604850203af681d35b0e798daa507332572775a6652cfce1ba23470a",
+      "target": "<i>如今你却把它当成可以随意交换的东西。仿佛能把自己的人生放回架子上，再挑一个。</i>",
+      "id": "a00364-4e5ff0886048",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I know it's painful. I'm sorry to have woken you again. I wanted to let you rest-- I didn't <i>know</i> coming back would be like this.",
+      "runtime_source": "I know it's painful. I'm sorry to have woken you again. I wanted to let you rest—I didn't <i>know</i> coming back would be like this.",
+      "runtime_source_sha256": "24630539b71fb19c05a83a9ff6ddc87356b2b734c1bb01384ce91dc28ac729da",
+      "target": "我知道这很痛苦。对不起，我又唤醒了你。我本想让你安息——我并不<i>知道</i>回来会变成这样。",
+      "id": "a00365-24630539b71f",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "You know I'd never intend to hurt you, Hamlet.",
+      "runtime_source": "You know I'd never intend to hurt you, Hamlet.",
+      "runtime_source_sha256": "7530039501d9ec177ef43574b8c1912aae10edbc1d4349e9396f4e4da39fa8d5",
+      "target": "你知道，我绝不会有意伤害你，哈姆雷特。",
+      "id": "p10443-7530039501d9",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Truth be told, I'm not even certain I <i>should</i> be re-opening the Book of Fates.",
+      "runtime_source": "Truth be told, I'm not even certain I <i>should</i> be re-opening the Book of Fates.",
+      "runtime_source_sha256": "646e4760d1ab21425bfcd6cc92223792be798c8654a7d78839f31915c06eefc1",
+      "target": "说实话，我甚至不确定自己<i>该不该</i>重新打开命运之书。",
+      "id": "p10444-646e4760d1ab",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "If I cannot find another fate worth pursuing, I may simply let the matter rest and return to the world I had chosen after all.",
+      "runtime_source": "If I cannot find another fate worth pursuing, I may simply let the matter rest and return to the world I had chosen after all.",
+      "runtime_source_sha256": "b5a6d4755822cc896d86d1617814965b1fb219c9262b17a2ef2c481909285553",
+      "target": "如果找不到另一种值得追求的命运，我也许就会就此作罢，最终还是回到我原先选择的世界。",
+      "id": "p10445-b5a6d4755822",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I can always return here, can I not?",
+      "runtime_source": "I can always return here, can I not?",
+      "runtime_source_sha256": "4fa764ce331ae891a46bed77fdef62f59cc03a141e872045dfd3a17a6ad7ce35",
+      "target": "我随时都能回到这里，不是吗？",
+      "id": "p10446-4fa764ce331a",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "No, no. There is something you do not understand about the threads of fate, I think. They are woven together as one, a transcendent tapestry.",
+      "runtime_source": "<i>No, no. There is something you do not understand about the threads of fate, I think. They are woven together as one, a transcendent tapestry.</i>",
+      "runtime_source_sha256": "54a5672aa3619c3d3393d693f723ac194829c627baf0951601a124667f2374df",
+      "target": "<i>不，不。我想，有些关于命运之线的事，你还不明白。它们交织成一体，成为一幅超凡的织锦。</i>",
+      "id": "a00366-54a5672aa361",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "This is not a simple matter of browsing what might have been.",
+      "runtime_source": "<i>This is not a simple matter of browsing what might have been.</i>",
+      "runtime_source_sha256": "4c5514113e45d01eca2c4156c9d6634d5bc8880d9e365e4ec82687574816faed",
+      "target": "<i>这可不是随意看看那些本可能发生的事那么简单。</i>",
+      "id": "a00367-4c5514113e45",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "By choosing the world you did, you pulled that world's thread forever. If you choose to return to Elsinore, <b>you cannot return to the path you chose.</b>",
+      "runtime_source": "<i>By choosing the world you did, you pulled that world's thread forever. If you choose to return to Elsinore, <b>you cannot return to the path you chose.</b></i>",
+      "runtime_source_sha256": "33e2773b1cda68b831d5e341b87d9c9b09010809f086e70b0cd3c91c160937ef",
+      "target": "<i>当你选择那个世界时，你就将那个世界的丝线永久地抽了出来。如果你选择回到埃尔西诺，<b>就再也无法回到你选过的那条路。</b></i>",
+      "id": "a00368-33e2773b1cda",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "You're saying...",
+      "runtime_source": "You're saying...",
+      "runtime_source_sha256": "144f1f1510bd910bdc36d9b6b72a363622bc70745f42b9a77e7f66dc5aa25ade",
+      "target": "你的意思是……",
+      "id": "p10450-144f1f1510bd",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Yes. In other words, <b>you will not be able to return to that particular fate.</b>",
+      "runtime_source": "<i>Yes. In other words, <b>you will not be able to return to that particular fate.</b></i>",
+      "runtime_source_sha256": "ca4177e62005ba3366fc0391a51af5e4c6b32500ceac666dc3453979551e6097",
+      "target": "<i>是的。换句话说，<b>你将无法再回到那个特定的命运。</b></i>",
+      "id": "a00369-ca4177e62005",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "It is shattered. Gone. And once you set foot back in Elsinore, you will lose all memory of what you chose.",
+      "runtime_source": "<i>It is shattered. Gone. And once you set foot back in Elsinore, you will lose all memory of what you chose.</i>",
+      "runtime_source_sha256": "3f8925c8c9d738d188850eb146b3e8fd781df7b1451b5ff7a2f47aae389d6b1f",
+      "target": "<i>它已经破碎。消失了。而一旦你重新踏入埃尔西诺，就会失去关于自己所选命运的一切记忆。</i>",
+      "id": "a00370-3f8925c8c9d7",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I see.",
+      "runtime_source": "I see.",
+      "runtime_source_sha256": "420c703b11610f7b7a8e910dc406505b7bda360bb628955d4625a5a8d7c3005c",
+      "target": "我明白了。",
+      "id": "p01317-420c703b1161",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Please. I urge you not to do this, Ophelia. I urge you with everything in my heart.",
+      "runtime_source": "<i>Please. I urge you not to do this, Ophelia. I urge you with everything in my heart.</i>",
+      "runtime_source_sha256": "7e062e398244a77c0af8cdb60dd3cfc751ce6e7c7f77969fb8dbfa3b25053198",
+      "target": "<i>求你了。奥菲莉娅，我恳求你不要这么做。我全心全意地恳求你。</i>",
+      "id": "a00382-7e062e398244",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "It's not too late to turn back!",
+      "runtime_source": "<i>It's not too late to turn back!</i>",
+      "runtime_source_sha256": "c272415e9637b5a0af0a1bb65446c6174814843d54b3883215c7d94122492fec",
+      "target": "<i>现在回头还来得及！</i>",
+      "id": "a00383-c272415e9637",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Here you are yet again.",
+      "runtime_source": "<i>Here you are yet again.</i>",
+      "runtime_source_sha256": "0397c01cab3f5c9c50a0a27e4d4f99d75f4c1beb4b0d0192978cdbe59676275f",
+      "target": "<i>你又一次来到了这里。</i>",
+      "id": "a00384-0397c01cab3f",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "King Hamlet? Surely that can't be you.",
+      "runtime_source": "King Hamlet? Surely that can't be you.",
+      "runtime_source_sha256": "051aebaa7123149dd9ce1fabff8632b74105b5b2325f8c276e261dc0b6527c26",
+      "target": "哈姆雷特国王？不可能真的是你吧。",
+      "id": "p10412-051aebaa7123",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "...",
+      "runtime_source": "<i>...</i>",
+      "runtime_source_sha256": "411eed52d7f1c56f4ef4455595e872f199d636922ab6b3230d3cc56f7c9b954d",
+      "target": "<i>...</i>",
+      "id": null,
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "It is.",
+      "runtime_source": "<i>It is.</i>",
+      "runtime_source_sha256": "66e9deb005c9ecd5389a04167136e4534a72daedfa2a5efbd9e9ec18ef2ce4fe",
+      "target": "<i>是的。</i>",
+      "id": "a00349-66e9deb005c9",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "It's been a long time.",
+      "runtime_source": "It's been a long time.",
+      "runtime_source_sha256": "9cf9c05e96a7cf5ddb5f75ab001bf5f32b159c4ed188710fa13dc8c4c2242010",
+      "target": "好久不见了。",
+      "id": "p10414-9cf9c05e96a7",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Perhaps. Perhaps not.",
+      "runtime_source": "<i>Perhaps. Perhaps not.</i>",
+      "runtime_source_sha256": "1388f4dd077184fef2ea45a2aee4bed09b121f01636fd1bf14dcd94b471afb45",
+      "target": "<i>也许是。也许不是。</i>",
+      "id": "a00385-1388f4dd0771",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "What do you recall?",
+      "runtime_source": "<i>What do you recall?</i>",
+      "runtime_source_sha256": "bb400bd4d5ae409ae5bf778161550d00452d35af07168b06420a0a833b310f51",
+      "target": "<i>你还记得什么？</i>",
+      "id": "a00386-bb400bd4d5ae",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Only that I came here at the end of my life. And I know now-- though I did not know in Elsinore-- that you and I have spoken here before, in this place.",
+      "runtime_source": "Only that I came here at the end of my life. And I know now—though I did not know in Elsinore—that you and I have spoken here before, in this place.",
+      "runtime_source_sha256": "5be7699b8a2b2e6157972be2cf45e08c289180f602407d5b214b9d155dbe643d",
+      "target": "只记得我在生命结束时来到了这里。而且我现在知道了——虽然在埃尔西诺时并不知道——你我以前就在这里，在这个地方交谈过。",
+      "id": "a00387-5be7699b8a2b",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "This... in-between.",
+      "runtime_source": "This... in-between.",
+      "runtime_source_sha256": "1aba3badff4dd3ceb85d0f065913ab94266c16484d7adbae6344da6d09a129bb",
+      "target": "这片……夹在两者之间的地方。",
+      "id": "p10460-1aba3badff4d",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "And what before that? What before we last spoke?",
+      "runtime_source": "<i>And what before that? What before we last spoke?</i>",
+      "runtime_source_sha256": "b47d953afd24cbd1bb8cb261754eee1cd0480fa8045644da01ebebb7d9a98132",
+      "target": "<i>那之前呢？我们上一次交谈之前呢？</i>",
+      "id": "a00388-b47d953afd24",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Ah...",
+      "runtime_source": "Ah...",
+      "runtime_source_sha256": "085283be600618d2027f86568948c0664f7063b79f1d7cffbcaedfdedca6a9b5",
+      "target": "啊……",
+      "id": "s00062-085283be6006",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I cannot remember.",
+      "runtime_source": "I cannot remember.",
+      "runtime_source_sha256": "3d9ed517836a161df0c5d384d0d0b2330f875ac733c032676f605c5f4dad2521",
+      "target": "我想不起来。",
+      "id": "p10462-3d9ed517836a",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Then it is as I warned you. You have no memory of the fate you chose before.",
+      "runtime_source": "<i>Then it is as I warned you. You have no memory of the fate you chose before.</i>",
+      "runtime_source_sha256": "54740588cfe8cbf7538faabcf8264c9d183bd7b6f21068ae8a64eee559b5e203",
+      "target": "<i>那就和我警告过你的一样。你已经不记得自己先前选择的命运了。</i>",
+      "id": "a00389-54740588cfe8",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "That must be true.",
+      "runtime_source": "That must be true.",
+      "runtime_source_sha256": "bac8a56b56d0b9a3b77a72766d3d451e7e72cff33266ac59070a4cb52ed964b0",
+      "target": "一定是这样。",
+      "id": "p10464-bac8a56b56d0",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Still, I think I returned to this place because I have to go back to Elsinore.",
+      "runtime_source": "Still, I think I returned to this place because I have to go back to Elsinore.",
+      "runtime_source_sha256": "094d852e4b1fc4c6a690edb54be487576f728e300e454c4e9d448fd540dd69fc",
+      "target": "可我想，我回到这里，是因为我必须回埃尔西诺去。",
+      "id": "p10465-094d852e4b1f",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You already <i>have.</i>",
+      "runtime_source": "<i>You already <i>have.</i></i>",
+      "runtime_source_sha256": "53561b8ded5035b426caf825c4f67607f475ae26f03f0fd24892e326e96e438a",
+      "target": "<i>你已经<i>回去过了。</i></i>",
+      "id": "a00390-53561b8ded50",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "correct"
+    },
+    {
+      "actor": "ophelia",
+      "source": "And evidently, I didn't find what I was looking for.",
+      "runtime_source": "And evidently, I didn't find what I was looking for.",
+      "runtime_source_sha256": "808b0f885b22a7dc7f415198dcb0aaead5dfa413c3acf777111fde639d728735",
+      "target": "而显然，我没有找到我想找的东西。",
+      "id": "p10467-808b0f885b22",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Yes. Your return on that occasion brought you no more happiness than your first fate.",
+      "runtime_source": "<i>Yes. Your return on that occasion brought you no more happiness than your first fate.</i>",
+      "runtime_source_sha256": "af34707e5c38d898f7759bbfc04de1e3dd44bc10dc142a6a85f071ed28445cc2",
+      "target": "<i>是的。那次回去，并没有给你带来比最初的命运更多的幸福。</i>",
+      "id": "a00391-af34707e5c38",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "What leads you to believe that this attempt shall yield more fruitful results?",
+      "runtime_source": "<i>What leads you to believe that this attempt shall yield more fruitful results?</i>",
+      "runtime_source_sha256": "c2acf11771bd9a42fc7a9dc33ce040ff3e8d529a83d5b83eefbe3a8c7b54fee6",
+      "target": "<i>是什么让你相信，这次尝试能带来更好的结果？</i>",
+      "id": "a00392-c2acf11771bd",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Besides, if you return to Elsinore again, you will lose all memory of <b>this</b> fate, too.",
+      "runtime_source": "<i>Besides, if you return to Elsinore again, you will lose all memory of <b>this</b> fate, too.</i>",
+      "runtime_source_sha256": "b0fe1c60d638a6f3acc3c342c4be9f2132248b286a5a52f484c02fed93d9f3d7",
+      "target": "<i>况且，如果你再次回到埃尔西诺，也会失去关于<b>这一次</b>命运的一切记忆。</i>",
+      "id": "a00393-b0fe1c60d638",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "This past time... when you chose your fate... <b>that</b> me, that Hamlet, had no knowledge of this in-between place. Neither did you.",
+      "runtime_source": "<i>This past time... when you chose your fate... <b>that</b> me, that Hamlet, had no knowledge of this in-between place. Neither did you.</i>",
+      "runtime_source_sha256": "22acb1a75f4fdbad915f626cdb6e3b82e507694dd99df340ed612faab17a8dd7",
+      "target": "<i>上一次……当你选择自己的命运时……<b>那个</b>我，那个哈姆雷特，对这片夹缝之境一无所知。你也一样。</i>",
+      "id": "a00394-22acb1a75f4f",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "That version of me believed we were still friends. But now, looking at you, my wits about me, I am not so certain.",
+      "runtime_source": "<i>That version of me believed we were still friends. But now, looking at you, my wits about me, I am not so certain.</i>",
+      "runtime_source_sha256": "193d2584f583a6801b463a78a55509679ba48b9997f0c099481bbeae248b2918",
+      "target": "<i>那个我相信我们仍是朋友。但现在，我头脑清醒地看着你，却不那么确定了。</i>",
+      "id": "a00395-193d2584f583",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You need not continue, you know. Will you finally allow all of us to rest?",
+      "runtime_source": "<i>You need not continue, you know. Will you finally allow all of us to rest?</i>",
+      "runtime_source_sha256": "7fb2847e934169a3bd79f73025af7955b63d516409146442fc810de6924d1e52",
+      "target": "<i>你知道，你不必继续下去。你终于肯让我们所有人安息了吗？</i>",
+      "id": "a00396-7fb2847e9341",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Or will you force the both of us to continue to endure this hell?",
+      "runtime_source": "<i>Or will you force the both of us to continue to endure this hell?</i>",
+      "runtime_source_sha256": "d2084731ccb0b008e66c073cdad0c1e92500770a0ffca3368575cf9e78dcd385",
+      "target": "<i>还是说，你要逼我们两个继续忍受这地狱般的折磨？</i>",
+      "id": "a00397-d2084731ccb0",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I had thought you'd surely not return.",
+      "runtime_source": "<i>I had thought you'd surely not return.</i>",
+      "runtime_source_sha256": "3d082b5b59b9914eebd2c15d0f616b99c106b4821c20a70c657a52a06b3bc665",
+      "target": "<i>我原以为你肯定不会再回来了。</i>",
+      "id": "a00398-3d082b5b59b9",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I thought the same.",
+      "runtime_source": "I thought the same.",
+      "runtime_source_sha256": "1320be40d8857e97e8820c5374ef8e40abf834ac82a02e599a159e867c4c6cb9",
+      "target": "我也这么想过。",
+      "id": "p10476-1320be40d885",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You know, I cherish you dearly when I am pulled back to Elsinore.",
+      "runtime_source": "<i>You know, I cherish you dearly when I am pulled back to Elsinore.</i>",
+      "runtime_source_sha256": "851c0de329b593dfc171256e3d2f476fd324b3ea3cb790a868052f45504da151",
+      "target": "<i>你知道吗，每当我被拉回埃尔西诺，我都十分珍视你。</i>",
+      "id": "a00399-851c0de329b5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I have no memory of this place, this in-between.",
+      "runtime_source": "<i>I have no memory of this place, this in-between.</i>",
+      "runtime_source_sha256": "14de96a6aec5acc2a4e80b0f568242819530b678792945d15b002b24e4d76137",
+      "target": "<i>我不记得这个地方，不记得这片夹缝之境。</i>",
+      "id": "a00400-14de96a6aec5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Then I am brought back here when you die, and I remember you chose to return me to Elsinore too, and it aches so terribly.",
+      "runtime_source": "<i>Then I am brought back here when you die, and I remember you chose to return me to Elsinore too, and it aches so terribly.</i>",
+      "runtime_source_sha256": "bd36200478d18ec96805774dbe30a2eb20c4485bf717bd6dcf62c51834539ab8",
+      "target": "<i>然后，当你死去，我又被带回这里，想起你选择把我也送回埃尔西诺，那痛苦实在难以承受。</i>",
+      "id": "a00401-bd36200478d1",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I--",
+      "runtime_source": "I—",
+      "runtime_source_sha256": "2865fd22fbd968cb98d753ca9173658b3b9078c11d3df5ddbc31ed8a2457977c",
+      "target": "我——",
+      "id": "s00007-2865fd22fbd9",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I'm forcing you to wake up again every time I do this, aren't I?",
+      "runtime_source": "I'm forcing you to wake up again every time I do this, aren't I?",
+      "runtime_source_sha256": "adefdb45e20e8ae7dadff6a6f1262268a229e3f11471933a5721f9c4830bf617",
+      "target": "每次我这么做，都是在逼你再次醒来，是吗？",
+      "id": "p10480-adefdb45e20e",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Yes.",
+      "runtime_source": "<i>Yes.</i>",
+      "runtime_source_sha256": "c91771175f546358eec75539d08f6c569fa8c94e7804e052580be3d2aacbd3e8",
+      "target": "<i>是的。</i>",
+      "id": "ui-c91771175f546358",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "And this is the third time.",
+      "runtime_source": "<i>And this is the third time.</i>",
+      "runtime_source_sha256": "5b4d7d31ee8f42859816ab02734a18ab491174eb50a098eff35dd96fddb9af8a",
+      "target": "<i>而这已经是第三次了。</i>",
+      "id": "a00402-5b4d7d31ee8f",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "But I can remember living only <i>one</i> fate. Only the last.",
+      "runtime_source": "But I can remember living only <i>one</i> fate. Only the last.",
+      "runtime_source_sha256": "1414f6c40f36fa89d00a8b592d497b8c9cdb836241e5bf5eabb69dc7b1ef6630",
+      "target": "可我只记得自己经历过<i>一种</i>命运。只有最近的那一次。",
+      "id": "p10482-1414f6c40f36",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Say, Hamlet-- what were those other fates I chose?",
+      "runtime_source": "Say, Hamlet—what were those other fates I chose?",
+      "runtime_source_sha256": "68c652470a3d026cd9705724323907dd0dcebb1bd186193a0d39b72a3568c18b",
+      "target": "哈姆雷特，你说——我选过的其他命运都是什么样的？",
+      "id": "a00403-68c652470a3d",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Were they-- was I-- happier?",
+      "runtime_source": "Were they—was I—happier?",
+      "runtime_source_sha256": "95add3b1bd30709d4080e62d32582aa9df24a77e721b880cf0c0981133d9c971",
+      "target": "它们是不是——我是不是——更幸福些？",
+      "id": "a00404-95add3b1bd30",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "...",
+      "runtime_source": "<i>...</i>",
+      "runtime_source_sha256": "411eed52d7f1c56f4ef4455595e872f199d636922ab6b3230d3cc56f7c9b954d",
+      "target": "<i>...</i>",
+      "id": null,
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I suspected you would find yourself wondering this.",
+      "runtime_source": "<i>I suspected you would find yourself wondering this.</i>",
+      "runtime_source_sha256": "fe0d727558250da0d8ae4b5b7b108824e97c85dc9807b2bbe1ece2fb2bd44226",
+      "target": "<i>我猜到你会想知道这个。</i>",
+      "id": "a00405-fe0d72755825",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "But I do not know. I do not see your life beyond Elsinore. I am not a god. Just a man, or what was once a man, standing here as confused as you.",
+      "runtime_source": "<i>But I do not know. I do not see your life beyond Elsinore. I am not a god. Just a man, or what was once a man, standing here as confused as you.</i>",
+      "runtime_source_sha256": "2502abb18eb53f6a8a08c8295456a5f5d90c302ae8e6ed3ac584c24cf84b26c8",
+      "target": "<i>但我不知道。我看不到你在埃尔西诺之外的人生。我不是神。只是一个人，或者曾经是人的存在，站在这里，和你一样困惑。</i>",
+      "id": "a00406-2502abb18eb5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Please, Ophelia.",
+      "runtime_source": "<i>Please, Ophelia.</i>",
+      "runtime_source_sha256": "e9c4c747fbdbe83226543322a7033dd04321a011e9f46df47e78f52f9677f1be",
+      "target": "<i>求你了，奥菲莉娅。</i>",
+      "id": "ui-e9c4c747fbdbe832",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "<b>Do not return to Elsinore again.</b>",
+      "runtime_source": "<i><b>Do not return to Elsinore again.</b></i>",
+      "runtime_source_sha256": "e07cd7eee6ac5ae3a5d97e13f364f13e7c985476fd0b6465c4a937cd07c3c9f9",
+      "target": "<i><b>不要再回埃尔西诺了。</b></i>",
+      "id": "a00407-e07cd7eee6ac",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "If ever you did love me, if ever you did find me worthy of your time... then you will join me here in the quiet of oblivion, and take up an eternal rest.",
+      "runtime_source": "<i>If ever you did love me, if ever you did find me worthy of your time... then you will join me here in the quiet of oblivion, and take up an eternal rest.</i>",
+      "runtime_source_sha256": "de48913dc2b5c8cc567f4dcb99feb3ed89fe71bd91aa83b7bc94f1716b4f651c",
+      "target": "<i>如果你曾真心在乎我，如果你曾觉得我值得你花时间……那就与我一同留在这里，在虚无的寂静中永远安息吧。</i>",
+      "id": "a00408-de48913dc2b5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "correct"
+    },
+    {
+      "actor": "ophelia",
+      "source": "You know I do, Hamlet.",
+      "runtime_source": "You know I do, Hamlet.",
+      "runtime_source_sha256": "f2a136fbee7eab5c3e182b39decbf71799cab132a0cd45fe272f957ab127e659",
+      "target": "你知道我在乎你，哈姆雷特。",
+      "id": "p10490-f2a136fbee7e",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "correct"
+    },
+    {
+      "actor": "ophelia",
+      "source": "But I must have returned here for a reason. I think my work in Elsinore is not yet complete.",
+      "runtime_source": "But I must have returned here for a reason. I think my work in Elsinore is not yet complete.",
+      "runtime_source_sha256": "605dc7b218924b14f269658e654aafb50823352ed7f33dc835052d2f0281c4db",
+      "target": "可我回到这里，一定是有原因的。我想，我在埃尔西诺要做的事还没做完。",
+      "id": "p10491-605dc7b21892",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "It will <b>never</b> be complete.",
+      "runtime_source": "<i>It will <b>never</b> be complete.</i>",
+      "runtime_source_sha256": "e648a54a469736920575e0ea3d626eb801cd3b8dbbdf3c3d40f5fc996e91c301",
+      "target": "<i>那<b>永远</b>也做不完。</i>",
+      "id": "a00409-e648a54a4697",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "correct"
+    },
+    {
+      "actor": "ghost",
+      "source": "I urge you to understand this!",
+      "runtime_source": "<i>I urge you to understand this!</i>",
+      "runtime_source_sha256": "87891ba61a3188ecbd6fac7a4a5be7a1ffcb02453456965596bfa9789b1e6519",
+      "target": "<i>我恳求你明白这一点！</i>",
+      "id": "a00410-87891ba61a31",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I harbored a deep and impenetrable respect for you in life, Ophelia. Do not prove me a fool in death.",
+      "runtime_source": "<i>I harbored a deep and impenetrable respect for you in life, Ophelia. Do not prove me a fool in death.</i>",
+      "runtime_source_sha256": "0a9bf2dfd79403be6292ab1200c748880f1bdb8a4e85fa361817be374daad2bd",
+      "target": "<i>奥菲莉娅，生前我对你怀着深切而不可动摇的敬意。不要在死后证明我是个傻子。</i>",
+      "id": "a00411-0a9bf2dfd794",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Do not show me that everything we went through together was trivial compared to your pining for the impossible.",
+      "runtime_source": "<i>Do not show me that everything we went through together was trivial compared to your pining for the impossible.</i>",
+      "runtime_source_sha256": "bb146963582bab7d1622838d6bdd546f0fb42f94cb0bc4a48bce3040ed21f798",
+      "target": "<i>别让我看到，我们一同经历的一切，比起你对不可能之事的渴望，竟然微不足道。</i>",
+      "id": "a00412-bb146963582b",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "correct"
+    },
+    {
+      "actor": "ghost",
+      "source": "If you return to Elsinore again, you will again lose all memory of the fate you just chose, and you will not be able to choose it again. In other words...",
+      "runtime_source": "<i>If you return to Elsinore again, you will again lose all memory of the fate you just chose, and you will not be able to choose it again. In other words...</i>",
+      "runtime_source_sha256": "ba743070e5393101a16976f19bccdd2f29528a8888f46473891a5a64b0c2c416",
+      "target": "<i>如果你再次回到埃尔西诺，就会再次失去关于你刚刚选择的命运的一切记忆，也无法再选择它。换句话说……</i>",
+      "id": "a00413-ba743070e539",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I have a rather unpleasant choice to make, it seems.",
+      "runtime_source": "I have a rather unpleasant choice to make, it seems.",
+      "runtime_source_sha256": "2a954f902633ab1d3b2419093fe310d97f3ec79c4f75aa1d6aab3190d2255a82",
+      "target": "看来，我得做一个很难受的选择。",
+      "id": "p10497-2a954f902633",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You are no better than him, you know.",
+      "runtime_source": "<i>You are no better than him, you know.</i>",
+      "runtime_source_sha256": "69b55e8d2622ee734ca27ee636456516d6730518db9a7abf4d1be7d77da96915",
+      "target": "<i>你知道吗，你并不比他好。</i>",
+      "id": "a00414-69b55e8d2622",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You have shown me already that, like him, you will not grant mercy.",
+      "runtime_source": "<i>You have shown me already that, like him, you will not grant mercy.</i>",
+      "runtime_source_sha256": "cab6993376ae2ec1adffbb28781fa47b9299c162285ec5281bbb45127fbef420",
+      "target": "<i>你已经让我看清，你和他一样，不肯施以仁慈。</i>",
+      "id": "a00415-cab6993376ae",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "We are simply playthings to you.",
+      "runtime_source": "<i>We are simply playthings to you.</i>",
+      "runtime_source_sha256": "f95b3fedcdd514583584bae2c5c1088e773c5d43e071382cd49c3e77832cfb73",
+      "target": "<i>对你来说，我们不过是玩物。</i>",
+      "id": "a00416-f95b3fedcdd5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I must remind you, as you abandon the fate you last chose...",
+      "runtime_source": "<i>I must remind you, as you abandon the fate you last chose...</i>",
+      "runtime_source_sha256": "70d82b6049d5bba93fa248e831cf550ac59ba16b2fc295667d2d3f1d77c81931",
+      "target": "<i>在你抛弃上次选择的命运之际，我必须提醒你……</i>",
+      "id": "a00417-70d82b6049d5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Let me give you what you desire, then. The chance to find something else. Something 'better.'",
+      "runtime_source": "<i>Let me give you what you desire, then. The chance to find something else. Something 'better.'</i>",
+      "runtime_source_sha256": "5d4c385172aac2b3b6af9d5c24b3f7ba08fffdb485ae1d21a6aa3832d81d1a8c",
+      "target": "<i>那就让我给你想要的东西吧。一个寻找别的可能的机会。寻找“更好的”可能。</i>",
+      "id": "a00418-5d4c385172aa",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "...",
+      "runtime_source": "<i>...</i>",
+      "runtime_source_sha256": "411eed52d7f1c56f4ef4455595e872f199d636922ab6b3230d3cc56f7c9b954d",
+      "target": "<i>...</i>",
+      "id": null,
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Let me give you what you came here for. We have nothing more to say to one another, after all.",
+      "runtime_source": "<i>Let me give you what you came here for. We have nothing more to say to one another, after all.</i>",
+      "runtime_source_sha256": "1e58c41e7c56bbb3be572b58246eacbaab13904e26701a7def9433edbc90b382",
+      "target": "<i>让我把你来这里想要的东西给你吧。毕竟，我们已经没什么可对彼此说的了。</i>",
+      "id": "a00419-1e58c41e7c56",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I've already made my decision. I want to return to Elsinore.",
+      "runtime_source": "I've already made my decision. I want to return to Elsinore.",
+      "runtime_source_sha256": "3b38584c3520bc407e16798b8f524d3a64cf3fbb51c854813bebb1e6e4b825c4",
+      "target": "我已经决定了。我要回埃尔西诺。",
+      "id": "p10504-3b38584c3520",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I'm sorry, Hamlet.",
+      "runtime_source": "I'm sorry, Hamlet.",
+      "runtime_source_sha256": "cee361f6d6fa7c6bcffadcf32c32f60f1f021e9d708b85a0c1eae5b201b6a697",
+      "target": "对不起，哈姆雷特。",
+      "id": "p10505-cee361f6d6fa",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "...",
+      "runtime_source": "<i>...</i>",
+      "runtime_source_sha256": "411eed52d7f1c56f4ef4455595e872f199d636922ab6b3230d3cc56f7c9b954d",
+      "target": "<i>...</i>",
+      "id": null,
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I see.",
+      "runtime_source": "<i>I see.</i>",
+      "runtime_source_sha256": "50a72da3149f2c3a7bedc6c439442f77d2b3e71977b96e41d2072b0dcfa604fe",
+      "target": "<i>我明白了。</i>",
+      "id": "ui-50a72da3149f2c3a",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I never thought you were quite this stubborn in life.",
+      "runtime_source": "<i>I never thought you were quite this stubborn in life.</i>",
+      "runtime_source_sha256": "1496ad3fced2510d2621a50fba5e4dc66a9fee98b243455ab8411e2b31639888",
+      "target": "<i>生前，我从没想过你竟会这么固执。</i>",
+      "id": "a00420-1496ad3fced2",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Nevertheless, I will show you the way back to Elsinore.",
+      "runtime_source": "<i>Nevertheless, I will show you the way back to Elsinore.</i>",
+      "runtime_source_sha256": "f8a256e10e370179f597a832ce5962ee3730afcffa4280a5c829cfc311645294",
+      "target": "<i>不过，我还是会为你指出回埃尔西诺的路。</i>",
+      "id": "a00421-f8a256e10e37",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I would be a fool not to listen to you.",
+      "runtime_source": "I would be a fool not to listen to you.",
+      "runtime_source_sha256": "fdefbde97863b0742632b728592219dd0b9801c0059ec42f8e25fdf9f54825f8",
+      "target": "要是不听你的劝，我才是傻子。",
+      "id": "p10508-fdefbde97863",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You have my eternal thanks.",
+      "runtime_source": "<i>You have my eternal thanks.</i>",
+      "runtime_source_sha256": "9a5839259201d92cbb27ba7be771dfcad5ea84a8045716e6213f98217637ea42",
+      "target": "<i>我会永远感激你。</i>",
+      "id": "a00422-9a5839259201",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You are wiser and more merciful than that broken world ever deserved.",
+      "runtime_source": "<i>You are wiser and more merciful than that broken world ever deserved.</i>",
+      "runtime_source_sha256": "4f1807bb5994749a63d2ba1bba50527faccca1d5a4e2ed82b858850898cd40bf",
+      "target": "<i>你的智慧与仁慈，远远超出了那个破碎的世界所配得到的。</i>",
+      "id": "a00423-4f1807bb5994",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Let us go away now, Ophelia. Forever.",
+      "runtime_source": "<i>Let us go away now, Ophelia. Forever.</i>",
+      "runtime_source_sha256": "da6b38c62aac97ae8f16cd4b3169c905fb7815906893e8d800f0b8a806a26d0c",
+      "target": "<i>我们走吧，奥菲莉娅。永远离开。</i>",
+      "id": "a00424-da6b38c62aac",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Couldn't agree more, my friend. Wherever we are...",
+      "runtime_source": "Couldn't agree more, my friend. Wherever we are...",
+      "runtime_source_sha256": "f6f726a8944e8fbab7359e9966ef26d47ec581fa62e2f13fa23ef30f16f0fa6d",
+      "target": "我再同意不过了，我的朋友。无论我们身在何处……",
+      "id": "p10512-f6f726a8944e",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I think we've both earned that sleep of death, and whatever dreams may come.",
+      "runtime_source": "I think we've both earned that sleep of death, and whatever dreams may come.",
+      "runtime_source_sha256": "12ab707d6d0cb9f43b8fda1d6a0d5e1f8587e0c507208fad130ee9d3773f08b9",
+      "target": "我想，我们都该享有死亡的长眠，以及随之而来的任何梦境了。",
+      "id": "p10513-12ab707d6d0c",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Farewell, Elsinore.",
+      "runtime_source": "Farewell, Elsinore.",
+      "runtime_source_sha256": "d9d6ef3c3a8741683cc07ac0978cedd3b53ca4562da7373b5a3a052f2ce7cb42",
+      "target": "永别了，埃尔西诺。",
+      "id": "p00617-d9d6ef3c3a87",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I must return to Elsinore again.",
+      "runtime_source": "I must return to Elsinore again.",
+      "runtime_source_sha256": "df9475fcecf5e908beac99098d2fe01655cd401d6c9637240ad9fef186a7da6a",
+      "target": "我必须再回埃尔西诺。",
+      "id": "p10514-df9475fcecf5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I know nothing I could say would make it any less of a cruelty.",
+      "runtime_source": "I know nothing I could say would make it any less of a cruelty.",
+      "runtime_source_sha256": "a30d7e9a24f37806d7fe7779329e80e95dff813339d2e1409261d96d0e4bc6fd",
+      "target": "我知道，无论我说什么，都无法让这件事少一点残忍。",
+      "id": "p10515-a30d7e9a24f3",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "So be it, then.",
+      "runtime_source": "<i>So be it, then.</i>",
+      "runtime_source_sha256": "13205aad0c127327e30f351bed5f533d13630c71a7eb26f4368e7dae41fbc8b3",
+      "target": "<i>那就这样吧。</i>",
+      "id": "a00425-13205aad0c12",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "I mourn the fate you leave behind, for certainly neither you nor I will recall it if we ever meet again.",
+      "runtime_source": "<i>I mourn the fate you leave behind, for certainly neither you nor I will recall it if we ever meet again.</i>",
+      "runtime_source_sha256": "f9541b6178c766d759a3bf019c6d972e6ccc16b8197d780e5e4215357842b55f",
+      "target": "<i>我为你抛下的命运哀悼，因为如果我们再次相见，你我必定都不会再记得它。</i>",
+      "id": "a00426-f9541b6178c7",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I would be a fool not to listen to you.",
+      "runtime_source": "I would be a fool not to listen to you.",
+      "runtime_source_sha256": "fdefbde97863b0742632b728592219dd0b9801c0059ec42f8e25fdf9f54825f8",
+      "target": "要是不听你的劝，我才是傻子。",
+      "id": "p10508-fdefbde97863",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You have my eternal thanks.",
+      "runtime_source": "<i>You have my eternal thanks.</i>",
+      "runtime_source_sha256": "9a5839259201d92cbb27ba7be771dfcad5ea84a8045716e6213f98217637ea42",
+      "target": "<i>我会永远感激你。</i>",
+      "id": "a00422-9a5839259201",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You are wiser and more merciful than that broken world ever deserved.",
+      "runtime_source": "<i>You are wiser and more merciful than that broken world ever deserved.</i>",
+      "runtime_source_sha256": "4f1807bb5994749a63d2ba1bba50527faccca1d5a4e2ed82b858850898cd40bf",
+      "target": "<i>你的智慧与仁慈，远远超出了那个破碎的世界所配得到的。</i>",
+      "id": "a00423-4f1807bb5994",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Let us go away now, Ophelia. Forever.",
+      "runtime_source": "<i>Let us go away now, Ophelia. Forever.</i>",
+      "runtime_source_sha256": "da6b38c62aac97ae8f16cd4b3169c905fb7815906893e8d800f0b8a806a26d0c",
+      "target": "<i>我们走吧，奥菲莉娅。永远离开。</i>",
+      "id": "a00424-da6b38c62aac",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Couldn't agree more, my friend. Wherever we are...",
+      "runtime_source": "Couldn't agree more, my friend. Wherever we are...",
+      "runtime_source_sha256": "f6f726a8944e8fbab7359e9966ef26d47ec581fa62e2f13fa23ef30f16f0fa6d",
+      "target": "我再同意不过了，我的朋友。无论我们身在何处……",
+      "id": "p10512-f6f726a8944e",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I think we've both earned that sleep of death, and whatever dreams may come.",
+      "runtime_source": "I think we've both earned that sleep of death, and whatever dreams may come.",
+      "runtime_source_sha256": "12ab707d6d0cb9f43b8fda1d6a0d5e1f8587e0c507208fad130ee9d3773f08b9",
+      "target": "我想，我们都该享有死亡的长眠，以及随之而来的任何梦境了。",
+      "id": "p10513-12ab707d6d0c",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Farewell, Elsinore.",
+      "runtime_source": "Farewell, Elsinore.",
+      "runtime_source_sha256": "d9d6ef3c3a8741683cc07ac0978cedd3b53ca4562da7373b5a3a052f2ce7cb42",
+      "target": "永别了，埃尔西诺。",
+      "id": "p00617-d9d6ef3c3a87",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I've already made my decision. I want to return to Elsinore again. A third time.",
+      "runtime_source": "I've already made my decision. I want to return to Elsinore again. A third time.",
+      "runtime_source_sha256": "bd24dc96bb888bb37c964a49a93292e6e781f7bf21f140977bce09130362a6b1",
+      "target": "我已经决定了。我要再次回到埃尔西诺。第三次。",
+      "id": "p10517-bd24dc96bb88",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I'm sorry, Hamlet. I truly am.",
+      "runtime_source": "I'm sorry, Hamlet. I truly am.",
+      "runtime_source_sha256": "7999a53717db37c5e3ddac323cbd4fe866b7e33b10fbebffe1f54433afa5c174",
+      "target": "对不起，哈姆雷特。我真的很抱歉。",
+      "id": "p10518-7999a53717db",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "So be it. I hope we never meet again, then.",
+      "runtime_source": "<i>So be it. I hope we never meet again, then.</i>",
+      "runtime_source_sha256": "6c13eda9c06e8c293d5e89cceeba66a604c5f650497d9cb1404e526a5a51374b",
+      "target": "<i>那就这样吧。既然如此，我希望我们永不再见。</i>",
+      "id": "a00427-6c13eda9c06e",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "And if we ever do, I shall no longer try to stand in your way.",
+      "runtime_source": "<i>And if we ever do, I shall no longer try to stand in your way.</i>",
+      "runtime_source_sha256": "19541bef756339184c3a0a9bded6b780df2ad129d82df1b16dd0288431e3f0d2",
+      "target": "<i>即使我们再见，我也不会再试图阻拦你。</i>",
+      "id": "a00428-19541bef7563",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Trying to save someone from pain is a courtesy one only extends to friends.",
+      "runtime_source": "<i>Trying to save someone from pain is a courtesy one only extends to friends.</i>",
+      "runtime_source_sha256": "d43b5b98f03635e734b034ea3ee2f85502dc46ec38f1e2de3e7c843ef605f3f4",
+      "target": "<i>试着让一个人免受痛苦，是只有对朋友才会给予的关照。</i>",
+      "id": "a00429-d43b5b98f036",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I would be a fool not to listen to you.",
+      "runtime_source": "I would be a fool not to listen to you.",
+      "runtime_source_sha256": "fdefbde97863b0742632b728592219dd0b9801c0059ec42f8e25fdf9f54825f8",
+      "target": "要是不听你的劝，我才是傻子。",
+      "id": "p10508-fdefbde97863",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Wherever we are...",
+      "runtime_source": "Wherever we are...",
+      "runtime_source_sha256": "d585033ce1cedbb32af2bd5809436854967546b7566c65f0772e8d7c7d5896f5",
+      "target": "无论我们身在何处……",
+      "id": "p10522-d585033ce1ce",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "I think we've both earned that sleep of death, and whatever dreams may come.",
+      "runtime_source": "I think we've both earned that sleep of death, and whatever dreams may come.",
+      "runtime_source_sha256": "12ab707d6d0cb9f43b8fda1d6a0d5e1f8587e0c507208fad130ee9d3773f08b9",
+      "target": "我想，我们都该享有死亡的长眠，以及随之而来的任何梦境了。",
+      "id": "p10513-12ab707d6d0c",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ophelia",
+      "source": "Farewell, Elsinore.",
+      "runtime_source": "Farewell, Elsinore.",
+      "runtime_source_sha256": "d9d6ef3c3a8741683cc07ac0978cedd3b53ca4562da7373b5a3a052f2ce7cb42",
+      "target": "永别了，埃尔西诺。",
+      "id": "p00617-d9d6ef3c3a87",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "POSTEND_Return_Part2"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Your time with Grace-- the adventures you embarked on-- will vanish.",
+      "runtime_source": "<i>Your time with Grace—the adventures you embarked on—will vanish.</i>",
+      "runtime_source_sha256": "c26c88271482a501f8d54bdd8884a958b1e6e70ad8b7237b07011b0cd16f9c9b",
+      "target": "<i>你与格蕾丝共度的时光——你经历的那些冒险——都会消失。</i>",
+      "id": "a00371-c26c88271482",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "That sacrifice you made for the sake of others will have been meaningless, for there is no such similar path.",
+      "runtime_source": "<i>That sacrifice you made for the sake of others will have been meaningless, for there is no such similar path.</i>",
+      "runtime_source_sha256": "75f11d83ffc5db7cc310b5b16d99d5801250fda6a477f4754aec7c3063275397",
+      "target": "<i>你为他人做出的那份牺牲将变得毫无意义，因为再没有与之相似的路可走。</i>",
+      "id": "a00372-75f11d83ffc5",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Your memory of the time you spent with Laertes and your father, both the good and bad, will vanish.",
+      "runtime_source": "<i>Your memory of the time you spent with Laertes and your father, both the good and bad, will vanish.</i>",
+      "runtime_source_sha256": "2a09e2931d637be49975bd2bbcb6a679bf37e579ad066d21fce08149cd618f85",
+      "target": "<i>你与雷欧提斯和父亲共度时光的记忆，无论好坏，都会消失。</i>",
+      "id": "a00373-2a09e2931d63",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You will never again have the power to overturn nations at your whim. At least-- not in the same way.",
+      "runtime_source": "<i>You will never again have the power to overturn nations at your whim. At least—not in the same way.</i>",
+      "runtime_source_sha256": "d406a73792d4603e93a7f76ae28954c06f0e6043253708636944cf8cc63a2265",
+      "target": "<i>你再也不会拥有随心所欲颠覆各国的力量。至少——无法再用同样的方式。</i>",
+      "id": "a00374-d406a73792d4",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You will never again live out the rest of your life at Hamlet's side.",
+      "runtime_source": "<i>You will never again live out the rest of your life at Hamlet's side.</i>",
+      "runtime_source_sha256": "60f22605d9f61d1024ee8d91f840281a84f4d8a390ce1d9b9fd268cffd3116c6",
+      "target": "<i>你再也无法在哈姆雷特身边度过余生。</i>",
+      "id": "a00375-60f22605d9f6",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "That perfect world you created will shatter. And I will warn you now: No other fate you could choose could possibly live up to its happiness.",
+      "runtime_source": "<i>That perfect world you created will shatter. And I will warn you now: No other fate you could choose could possibly live up to its happiness.</i>",
+      "runtime_source_sha256": "91a618f3b773e7a5d2122b3e34303d799a8b2040e75dcdaab38986b83f6ae2f6",
+      "target": "<i>你创造的那个完美世界将会破碎。而我要现在就警告你：你能选择的其他命运，都不可能带来那样的幸福。</i>",
+      "id": "a00376-91a618f3b773",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You will never again be able to guarantee that everyone in Elsinore survives.",
+      "runtime_source": "<i>You will never again be able to guarantee that everyone in Elsinore survives.</i>",
+      "runtime_source_sha256": "56ac40164624fd8df788962035874af9eca40cc6b4237ab7222af5bccb7b4744",
+      "target": "<i>你再也无法保证埃尔西诺的每个人都能活下来。</i>",
+      "id": "a00377-56ac40164624",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You will forego the life you and Othello built together. And without leaving Elsinore with you, he is likely to be killed here.",
+      "runtime_source": "<i>You will forego the life you and Othello built together. And without leaving Elsinore with you, he is likely to be killed here.</i>",
+      "runtime_source_sha256": "eef0f59eeb4ca74865334f3f7c355005f7360df9b6aab57c2ac4bcf39d0f4f5d",
+      "target": "<i>你会舍弃与奥赛罗共同建立的生活。而如果他没有和你一起离开埃尔西诺，很可能会在这里被杀。</i>",
+      "id": "a00378-eef0f59eeb4c",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "You will never again have a future you built away from Elsinore, on your own, free of others' misery.",
+      "runtime_source": "<i>You will never again have a future you built away from Elsinore, on your own, free of others' misery.</i>",
+      "runtime_source_sha256": "b36bc575aea62b59d89c21e6776d692cccf59d0c63ff1c49a8ad7347c5252ac4",
+      "target": "<i>你再也无法拥有那个远离埃尔西诺、靠自己建立、不受他人苦难牵累的未来。</i>",
+      "id": "a00379-b36bc575aea6",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "Never again will you settle down with Lady Guildenstern and Lady Rosencrantz, though you had found peace with them.",
+      "runtime_source": "<i>Never again will you settle down with Lady Guildenstern and Lady Rosencrantz, though you had found peace with them.</i>",
+      "runtime_source_sha256": "f7a3248207a8ea3775e405ffce3c4bbbbcbb53bf77d47daeabb9e709f86d542c",
+      "target": "<i>你再也无法与吉尔登斯吞女士和罗森克兰兹女士一起安定下来，尽管你曾在她们身边找到安宁。</i>",
+      "id": "a00380-f7a3248207a8",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    },
+    {
+      "actor": "ghost",
+      "source": "There is no other world with such a peaceful existence for Elsinore as the one where Fortinbras was its true King.",
+      "runtime_source": "<i>There is no other world with such a peaceful existence for Elsinore as the one where Fortinbras was its true King.</i>",
+      "runtime_source_sha256": "58081a682698eed256536b6a1009f11c368fa30607ef1ec49a297ae7e06ff8c7",
+      "target": "<i>在福丁布拉斯成为埃尔西诺真正国王的那个世界里，埃尔西诺享有的安宁，是其他任何世界都无法给予的。</i>",
+      "id": "a00381-58081a682698",
+      "origins": [
+        {
+          "asset": "scenes",
+          "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+          "scene": "remindAboutEndingLost"
+        }
+      ],
+      "decision": "keep"
+    }
+  ]
+}
