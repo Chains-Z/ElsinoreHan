@@ -13,8 +13,9 @@ def main():
     plans = read(DIRECTORY / "source-variant-review.json")
     changes = read(DIRECTORY / "source-variant-corrections.json")
     followup_path = DIRECTORY / "place-and-dialogue-corrections.json"
-    followups = read(followup_path) if followup_path.exists() else []
-    followups += read(DIRECTORY / "playmaster-title-corrections.json")
+    followups = [read(followup_path) if followup_path.exists() else [],
+                 read(DIRECTORY / "playmaster-title-corrections.json"),
+                 read(DIRECTORY / "playmaster-tone-corrections.json")]
     checked = apply_supplemental([
         {"id": row["original_id"], "source": row["source"], "target": row["previous_target"]}
         for row in changes], changes)
@@ -39,10 +40,12 @@ def main():
         name = short_name(actor, mapping)
         translated_name = SPECIAL_NAMES.get(name) or targets[name]["target"]
         # 原审查记录保留阶段快照，消费者经精确旧值承接用户后续校订。
-        expected_rows = apply_supplemental([
+        expected_rows = [
             {"id": targets[source]["id"], "source": source, "target": plan["canonical_target"]},
             {"id": targets[runtime]["id"], "source": runtime, "target": plan["expected_runtime_target"]},
-        ], [row for row in followups if row["source"] in {source, runtime}])
+        ]
+        for entries in followups:
+            expected_rows = apply_supplemental(expected_rows, [row for row in entries if row["source"] in {source, runtime}])
         resource_target, runtime_target = (row["target"] for row in project_current(expected_rows))
         for kind, text, expected in (
             ("resource", source, resource_target),

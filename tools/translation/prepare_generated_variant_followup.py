@@ -16,12 +16,13 @@ def main():
     expected = {row["source"]: {"target": wrap(canonical[row["canonical_id"]]["target"], row["prefix"], row["suffix"]),
                                "origins": canonical[row["canonical_id"]]["origins"]}
                 for row in manifest["bindings"]}
-    for filename in ("playmaster-title-corrections.json", "victory-dinner-corrections.json"):
+    generated_sources = set(expected)
+    for filename in ("playmaster-title-corrections.json", "victory-dinner-corrections.json", "playmaster-tone-corrections.json"):
         for row in read(DIRECTORY / filename):
-            if row["source"] in expected:
+            if row["source"] in generated_sources:
                 # 称号先覆盖历史阶段，再由规范译文统一同句措辞；不能倒写旧快照。
                 assert filename == "playmaster-title-corrections.json"
-                assert "戏班班主" in expected[row["source"]]["target"]
+                assert "戏剧大师" in expected[row["source"]]["target"]
                 continue
             expected[row["source"]] = row
     # 保留裸源共享应答；本轮只调整前句，不泛化覆盖Of course。
@@ -29,8 +30,12 @@ def main():
     rows = read(ROOT / "translation/sol-full-2026-10-09/translations.json")
     targets = {row["source"]: row for row in rows}
     title_rows = [row for row in rows if re.search(r"\bplaymaster\b", row["source"], re.I)]
-    assert len(title_rows) == 33 and all("戏班班主" in row["target"] for row in title_rows)
-    assert not any("戏剧大师" in row["target"] for row in rows)
+    contextual = {row["source"]: row["target"] for row in read(DIRECTORY / "playmaster-tone-corrections.json")
+                  if row["strategy"] == "contextual_performer"}
+    assert len(contextual) == 3 and len(title_rows) == 33
+    assert all(row["target"] == contextual[row["source"]] if row["source"] in contextual
+               else "戏剧大师" in row["target"] for row in title_rows)
+    assert not any("戏班班主" in row["target"] for row in rows)
     cases = [{"id": "generated-leaf-" + digest(source)[:16], "source": source, "target": row["target"],
               "source_sha256": digest(source), "origins": row["origins"]} for source, row in expected.items()]
     dialogue, _ = extract_rows(rows)
