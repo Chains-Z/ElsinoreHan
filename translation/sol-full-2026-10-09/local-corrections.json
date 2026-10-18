@@ -1655,5 +1655,25 @@
     ],
     "apply_at_export": true,
     "additional_model_calls": 0
+  },
+  {
+    "id": "p00803-806c5dd83b43",
+    "source": "And that fight, unceasing, consumes everything each country had, until we are forced to assume debts from anywhere we can.",
+    "source_sha256": "806c5dd83b435f60d39b5d1c6b94f93bdd0acd9e6b39515011fb7308b19e426f",
+    "original_target": "这场无休止的战争耗尽了各国的一切，直到我们被迫四处举债，能借到哪里就借到哪里。",
+    "corrected_target": "这场无休止的战争耗尽了各国的一切，直到我们被迫四处举债，能从哪里借就从哪里借。",
+    "kind": "text",
+    "reason": "用户指出from anywhere we can强调借款来源；改为能从哪里借就从哪里借，避免借到哪里被读作地点或程度。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_Survival",
+        "line": 322
+      },
+      "用户2026-10-19游玩截图反馈"
+    ],
+    "apply_at_export": true,
+    "additional_model_calls": 0
   }
 ]
