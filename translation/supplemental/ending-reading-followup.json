@@ -126,6 +126,22 @@
           "line": 322
         }
       ]
+    },
+    {
+      "source": "Let them all tear each other apart. <i>I'll</i> be out having fun.",
+      "source_sha256": "3ba4a0cdde32adcf986ecc5f70a8ec9d21d107e8536530c0476147b9ba2b75d7",
+      "previous_target": "让他们互相撕个粉碎吧。<i>我</i>要出去快活了。",
+      "target": "让他们斗个你死我活吧。<i>我</i>要出去快活了。",
+      "reason": "用户2026-10-19确认：tear each other apart结合宫廷背景译为斗个你死我活，表达任由众人争斗残害，不直译为撕个粉碎；后半句及我字斜体保留。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_RosAndGuil",
+          "line": 465
+        },
+        "用户2026-10-19确认结局措辞"
+      ]
     }
   ],
   "titles": []
