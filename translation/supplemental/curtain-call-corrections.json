@@ -268,5 +268,39 @@
         "actor": "ghost"
       }
     ]
+  },
+  {
+    "id": "curtain-call-inlaw-c09881a5d20c19d7",
+    "original_id": "p06644-c09881a5d20c",
+    "source": "Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.",
+    "source_sha256": "c09881a5d20c19d72254754283456f0837719445eba783b3b400dbbfa8dcecf4",
+    "previous_target": "奥菲莉娅。多希望我能给你一个慈爱的拥抱，就像公公应当给予女儿的那样。",
+    "target": "奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。",
+    "reason": "用户最终确认使用公公和儿媳：明确婚姻形成的关系，避免自己的女儿被读成亲生女儿；不用生僻的家翁，保留幽灵斜体。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Hamlet",
+        "line": 18138
+      }
+    ]
+  },
+  {
+    "id": "curtain-call-inlaw-0a0191cefb6b737b",
+    "original_id": "a00628-0a0191cefb6b",
+    "source": "<i>Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.</i>",
+    "source_sha256": "0a0191cefb6b737b6bd8baa966b11f850660fba7e9d26c9b133df907adf49c9d",
+    "previous_target": "<i>奥菲莉娅。但愿我能给你一个满怀慈爱的拥抱，如公公对待自己的女儿那样。</i>",
+    "target": "<i>奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。</i>",
+    "reason": "用户最终确认使用公公和儿媳：明确婚姻形成的关系，避免自己的女儿被读成亲生女儿；不用生僻的家翁，保留幽灵斜体。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "END_CurtainCall_Hamlet",
+        "line": 18138
+      }
+    ]
   }
 ]

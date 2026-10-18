@@ -42,7 +42,7 @@ def main():
     previous = [{"id": row["original_id"], "source": row["source"],
                  "target": row["previous_target"]} for row in corrections]
     checked = apply_supplemental(previous, corrections)
-    assert len(checked) == len(changes) == review["changed_dictionary_sources"] == 15
+    assert len(checked) == len(changes) == review["changed_dictionary_sources"] == 17
     for row in checked:
         assert targets[row["source"]]["id"] == row["id"]
         assert targets[row["source"]]["target"] == row["target"]

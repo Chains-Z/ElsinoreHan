@@ -6632,7 +6632,7 @@
   {
     "id": "curtain-401-runtime",
     "source": "<i>Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.</i>",
-    "target": "<i>奥菲莉娅。但愿我能给你一个满怀慈爱的拥抱，如公公对待自己的女儿那样。</i>",
+    "target": "<i>奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。</i>",
     "origins": [
       {
         "asset": "scenes",
@@ -6645,7 +6645,59 @@
   {
     "id": "curtain-401-resource",
     "source": "Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.",
-    "target": "奥菲莉娅。多希望我能给你一个慈爱的拥抱，就像公公应当给予女儿的那样。",
+    "target": "奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "line": 18138,
+        "actor": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "curtain-401-dialogue-box",
+    "source": "<line-height=90%><i>Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.</i>",
+    "target": "<line-height=90%><i>奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "line": 18138,
+        "actor": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "curtain-401-speaker",
+    "source": "<b>Ghost:</b> <indent=16%><i>Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.</i>",
+    "target": "<b>幽灵:</b> <indent=16%><i>奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "line": 18138,
+        "actor": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "curtain-401-notice-before",
+    "source": "<b>Ophelia</b> learns about an event.\n<b>Ghost:</b> <indent=16%><i>Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.</i>",
+    "target": "<b>奥菲莉娅</b>得知了一个事件。\n<b>幽灵:</b> <indent=16%><i>奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "line": 18138,
+        "actor": "ghost"
+      }
+    ]
+  },
+  {
+    "id": "curtain-401-notice-after",
+    "source": "<b>Ghost:</b> <indent=16%><i>Ophelia. Would that I could offer you the embrace of love a father-in-law ought to have for his daughter.</i></indent>\n<b>Ophelia</b> learns about an event.\n",
+    "target": "<b>幽灵:</b> <indent=16%><i>奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。</i></indent>\n<b>奥菲莉娅</b>得知了一个事件。\n",
     "origins": [
       {
         "asset": "scenes",

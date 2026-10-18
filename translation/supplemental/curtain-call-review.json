@@ -3,8 +3,8 @@
   "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
   "reviewed_occurrences": 449,
   "unique_runtime_sources": 418,
-  "changed_dictionary_sources": 15,
-  "corrected_occurrences": 14,
+  "changed_dictionary_sources": 17,
+  "corrected_occurrences": 15,
   "scenes": [
     {
       "scene": "END_CurtainCall_GenericSetup",
@@ -6518,10 +6518,12 @@
           "line": 18138,
           "previous_resource_target": "奥菲莉娅。多希望我能给你一个慈爱的拥抱，就像公公应当给予女儿的那样。",
           "previous_target": "<i>奥菲莉娅。但愿我能给你一个满怀慈爱的拥抱，如公公对待自己的女儿那样。</i>",
-          "resource_target": "奥菲莉娅。多希望我能给你一个慈爱的拥抱，就像公公应当给予女儿的那样。",
-          "target": "<i>奥菲莉娅。但愿我能给你一个满怀慈爱的拥抱，如公公对待自己的女儿那样。</i>",
-          "decision": "keep",
-          "reasons": []
+          "resource_target": "奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。",
+          "target": "<i>奥菲莉娅。但愿我能给你一个慈爱的拥抱，像公公疼爱儿媳那样。</i>",
+          "decision": "correct",
+          "reasons": [
+            "用户最终确认使用公公和儿媳：明确婚姻形成的关系，避免自己的女儿被读成亲生女儿；不用生僻的家翁，保留幽灵斜体。"
+          ]
         },
         {
           "actor": "ghost",
@@ -7286,7 +7288,7 @@
     }
   ],
   "terminology_decisions": [
-    "截图所示father-in-law暂保留公公：公爹虽为二字，但语体更有乡土口吻；不扩成长称谓。",
+    "用户最终确认使用公公与儿媳；不采用生僻的家翁，也不把儿媳关系写成亲生女儿。",
     "母女父女及恋人之间自然的爱保留；未泛化成温情。"
   ]
 }
