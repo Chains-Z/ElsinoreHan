@@ -726,5 +726,47 @@
         "actor": "ophelia"
       }
     ]
+  },
+  {
+    "id": "ascension-dozen-leaf",
+    "source": "And from there, a dozen more worlds after that. He shows me things no human has ever seen.",
+    "target": "从那里出发，我们又去了十来个世界。他带我看到了从未有人类见过的事物。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 27,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-dozen-box",
+    "source": "<line-height=90%>And from there, a dozen more worlds after that. He shows me things no human has ever seen.",
+    "target": "<line-height=90%>从那里出发，我们又去了十来个世界。他带我看到了从未有人类见过的事物。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 27,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-dozen-log",
+    "source": "<b>Ophelia:</b> <indent=16%>And from there, a dozen more worlds after that. He shows me things no human has ever seen.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>从那里出发，我们又去了十来个世界。他带我看到了从未有人类见过的事物。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 27,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]

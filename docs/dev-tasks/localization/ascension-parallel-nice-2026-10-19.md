@@ -42,3 +42,16 @@ nice说的是这次相遇带给昆斯的愉快感受。用高兴明确体验者�
 用户明确选择空无一物，并要求剩下后停顿、去掉的。该词可以形容内心的空无；不能将其仅限定为空间用语。采用只剩下保留停顿后的nothing落点。源为scenes_endings/ENDING_JoinQuince行18，准确旧值及源SHA见既有升格校订层。
 
 本次仅1条目标变化，累计7词条待安装；48项真实消费者及17,069项字典解析通过，无新增字，40文件ZIP逐项一致。插件、字体和动态规则未变。未安装、启动游戏或访问存档。[最新候选](../../../runtime/evidence/ascension-nothing-verification-2026-10-19.json)
+
+
+## 后续：a dozen的概数
+
+英文：And from there, a dozen more worlds after that. He shows me things no human has ever seen.
+
+改前：从那里出发，我们又去了十二个世界。他带我看到了从未有人类见过的事物。
+
+改后：从那里出发，我们又去了十来个世界。他带我看到了从未有人类见过的事物。
+
+原文是a dozen，不是dozens of。前者可以是确数十二，也可指约十二；[Oxford词条](https://www.oxfordlearnersdictionaries.com/us/definition/english/dozen)及[Collins词条](https://www.collinsdictionary.com/dictionary/english/dozen)收录概数用法。结合这段概述游历、未逐个列举世界的语气，选择十来个更自然，但不将该判断说成原文明示，亦不泛化成不保留数量级的很多个或无数。来源为scenes_endings/ENDING_JoinQuince行27。
+
+本次仅1条目标变化，累计8词条待安装；51项真实消费者及17,069项字典解析通过，无新增字，40文件ZIP逐项一致。插件、字体和动态规则未变。未安装、启动游戏或访问存档。[最新候选](../../../runtime/evidence/ascension-dozen-verification-2026-10-19.json)

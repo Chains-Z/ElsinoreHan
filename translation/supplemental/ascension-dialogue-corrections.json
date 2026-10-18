@@ -124,5 +124,24 @@
       }
     ],
     "reason": "用户明确选择空无一物形容爱恨消失后的内心，并要求剩下后停顿、去掉的；采用只剩下……空无一物，保留原文nothing结尾的落点。"
+  },
+  {
+    "id": "ascension-dozen-p00605-cb74c7b87b07",
+    "original_id": "p00605-cb74c7b87b07",
+    "source": "And from there, a dozen more worlds after that. He shows me things no human has ever seen.",
+    "source_sha256": "cb74c7b87b070e701f77f2c0b8d6ecdb61edac6862989a583101f24cdb3a5579",
+    "previous_target": "从那里出发，我们又去了十二个世界。他带我看到了从未有人类见过的事物。",
+    "target": "从那里出发，我们又去了十来个世界。他带我看到了从未有人类见过的事物。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 27,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户指出a dozen在游历概述中可能为概数；采用十来个保留约十二的规模，避免十二个的精确计数感，也不泛化成无规模的很多个。",
+    "reference": "https://www.oxfordlearnersdictionaries.com/us/definition/english/dozen"
   }
 ]
