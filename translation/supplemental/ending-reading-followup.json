@@ -174,6 +174,38 @@
         },
         "用户2026-10-19确认"
       ]
+    },
+    {
+      "source": "The most sinister among them label him The Player King. He, who sits and deliberates and plays at ruling, but rarely gives his command.",
+      "source_sha256": "e9b7294c87b9fd9c3eafebd86101a8d98100802b78d85a53b6cdbffd892842d1",
+      "previous_target": "他们之中最阴险的人称他为“戏子国王”。他坐在那里，思量着，扮演着统治者，却很少发号施令。",
+      "target": "那些最不怀好意的人，把哈姆雷特叫作“伶王”。他坐在那里思来想去，像是在扮演国王，却很少真正发号施令。",
+      "reason": "用户2026-10-19确认Player King采用朱生豪译本角色称呼伶王，保留戏中戏呼应；显化被称呼者为哈姆雷特，以后句解释仅扮演国王却很少下令，保留原文未说明其他人身份的边界。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_FortinbrasPeaceful",
+          "line": 513
+        },
+        "用户2026-10-19确认本轮用词"
+      ]
+    },
+    {
+      "source": "Prince Ferdinand, as it turns out, came to Elsinore to support his brother in the unification effort. I don't want to love <i>another</i> politician, so I guard my heart against him.",
+      "source_sha256": "6c2002e024d7153d38a30ffeaeca6664de5bca5fa6f8044dd84ced4ef66ff19a",
+      "previous_target": "原来，费迪南德王子来埃尔西诺，是为了协助他的兄弟推进统一。我不想<i>再</i>爱上一个政客，所以不让自己对他动心。",
+      "target": "原来，费迪南德王子来埃尔西诺，是为了协助他的兄弟推进统一。我不想<i>再</i>爱上一个从政的人，所以不让自己对他动心。",
+      "reason": "用户2026-10-19明确要求将politician改为从政的人，避免政客在现代中文中额外的贬义；其余译文和another的斜体强调不变。",
+      "origins": [
+        {
+          "asset": "scenes_endings",
+          "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+          "scene": "ENDING_FortinbrasPeaceful",
+          "line": 536
+        },
+        "用户2026-10-19确认本轮用词"
+      ]
     }
   ],
   "titles": []
