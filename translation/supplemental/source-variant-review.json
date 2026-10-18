@@ -1,0 +1,449 @@
+[
+  {
+    "actor": "ghost",
+    "source": "At the end of the last cycle Fortinbras was rebuked. Was he not?",
+    "runtime_source": "<i>At the end of the last cycle Fortinbras was rebuked. Was he not?</i>",
+    "resource_id": "p00993-34b540ecbab0",
+    "runtime_id": "a00432-96d14bea8f6b",
+    "resource_target": "上一次循环结束时，福丁布拉斯被击退了。不是吗？",
+    "runtime_target": "<i>上一次循环结束时，福丁布拉斯受到了斥责。不是吗？</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaHamletStarter",
+        "line": 269
+      }
+    ],
+    "review_index": 9,
+    "canonical_target": "上一次循环结束时，福丁布拉斯被击退了。不是吗？",
+    "expected_runtime_target": "<i>上一次循环结束时，福丁布拉斯被击退了。不是吗？</i>",
+    "reason": "前文明确上一轮保住众人、击退福丁布拉斯，rebuked在此不能译成受到斥责。"
+  },
+  {
+    "actor": "ghost",
+    "source": "But that information, created when I still lived, sleeps inside the castle's walls...",
+    "runtime_source": "<i>But that information, created when I still lived, sleeps inside the castle's walls...</i>",
+    "resource_id": "p00999-838f976e9bca",
+    "runtime_id": "a00436-4feee85e37d5",
+    "resource_target": "但那份在我生前留下的信息，正沉睡在城堡之内……",
+    "runtime_target": "<i>但那些在我生前留下的信息，正沉睡在城堡的墙内……</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaHamletStarter",
+        "line": 275
+      }
+    ],
+    "review_index": 13,
+    "canonical_target": "但那份在我生前留下的信息，正沉睡在城堡之内……",
+    "expected_runtime_target": "<i>但那份在我生前留下的信息，正沉睡在城堡之内……</i>",
+    "reason": "castle walls泛指城堡之内，笔记由波洛涅斯保管，不暗示藏在墙体内部。"
+  },
+  {
+    "actor": "claudius",
+    "source": "But they always do t--",
+    "runtime_source": "But they always do t—",
+    "resource_id": "p01866-e7af77aac5e5",
+    "runtime_id": "a00518-61334a70e709",
+    "resource_target": "可手本来就会那——",
+    "runtime_target": "可他们总是那——",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_SendHamletAway",
+        "line": 3321
+      }
+    ],
+    "review_index": 25,
+    "canonical_target": "可手本来就会那——",
+    "expected_runtime_target": "可手本来就会那——",
+    "reason": "they承接吉尔妲所说泡澡时肿胀的双手，不是他们；保留未说完的断句。"
+  },
+  {
+    "actor": "ghost",
+    "source": "<i>You cannot escape the eye of Heaven, brother.</i>",
+    "runtime_source": "<i><i>You cannot escape the eye of Heaven, brother.</i></i>",
+    "resource_id": "p02498-75bf804bc5ff",
+    "runtime_id": "a00550-e0b5863d8d01",
+    "resource_target": "<i>你逃不过上天的眼睛，兄弟。</i>",
+    "runtime_target": "<i><i>你逃不过上天的眼睛，弟弟。</i></i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_GhostAppears",
+        "line": 5532
+      }
+    ],
+    "review_index": 34,
+    "canonical_target": "<i>你逃不过上天的眼睛，弟弟。</i>",
+    "expected_runtime_target": "<i><i>你逃不过上天的眼睛，弟弟。</i></i>",
+    "reason": "幽灵对克劳狄斯说话，brother具体为弟弟；同步既有准确称谓。"
+  },
+  {
+    "actor": "ghost",
+    "source": "<i>How strange and peculiar that you and I should meet now, at the end of time, at the end of this world.</i>",
+    "runtime_source": "<i><i>How strange and peculiar that you and I should meet now, at the end of time, at the end of this world.</i></i>",
+    "resource_id": "p02507-04031d94f43a",
+    "runtime_id": "a00554-642f02232bee",
+    "resource_target": "<i>你我竟在此刻相遇，在时间的尽头，在这个世界的尽头，何其奇异。</i>",
+    "runtime_target": "<i><i>你我竟在此刻相遇，在时间的尽头，在这个世界的尽头，何其奇异，何其古怪。</i></i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_GhostAppears",
+        "line": 5560
+      }
+    ],
+    "review_index": 36,
+    "canonical_target": "<i>你我竟在此刻相遇，在时间的尽头，在这个世界的尽头，何其奇异。</i>",
+    "expected_runtime_target": "<i><i>你我竟在此刻相遇，在时间的尽头，在这个世界的尽头，何其奇异。</i></i>",
+    "reason": "同一相遇描述资源与双层斜体运行源统一为何其奇异，保留原内外层斜体。"
+  },
+  {
+    "actor": "brit",
+    "source": "I did not, my lady. I would be-- er-- honored, of course.",
+    "runtime_source": "I did not, my lady. I would be—er—honored, of course.",
+    "resource_id": "p02643-4786291005b9",
+    "runtime_id": "a00535-8c7faac3d8cf",
+    "resource_target": "我不知道，王后。我会——呃——当然，我会深感荣幸。",
+    "runtime_target": "我没有，夫人。当然，我会——呃——深感荣幸。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BritAndGertrude",
+        "line": 6004
+      }
+    ],
+    "review_index": 45,
+    "canonical_target": "我不知道，王后。我会——呃——当然，我会深感荣幸。",
+    "expected_runtime_target": "我不知道，王后。我会——呃——当然，我会深感荣幸。",
+    "reason": "布莉特回答王后是否知道婚约，I did not表示此前不知道，不是我没有；my lady在此称呼王后。"
+  },
+  {
+    "actor": "ghost",
+    "source": "My brother lives.",
+    "runtime_source": "<i>My brother lives.</i>",
+    "resource_id": "p02956-2eb598eeee20",
+    "runtime_id": "a00508-e4c529848b45",
+    "resource_target": "我的弟弟还活着。",
+    "runtime_target": "<i>我的兄弟还活着。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_HamletWallFailure",
+        "line": 6888
+      }
+    ],
+    "review_index": 48,
+    "canonical_target": "我的弟弟还活着。",
+    "expected_runtime_target": "<i>我的弟弟还活着。</i>",
+    "reason": "幽灵所说仍活着的brother为弟弟克劳狄斯。"
+  },
+  {
+    "actor": "irma",
+    "source": "N-no! My lady, I meant-- I intended--",
+    "runtime_source": "N-no! My lady, I meant—I intended—",
+    "resource_id": "p04633-e4047725a916",
+    "runtime_id": "a00498-80bb5e5e11c0",
+    "resource_target": "不、不！王后，我本来是想——我打算——",
+    "runtime_target": "不、不！夫人，我是说——我本来想——",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "SPINE_DinnerNight2",
+        "line": 12020
+      }
+    ],
+    "review_index": 115,
+    "canonical_target": "不、不！王后，我本来是想——我打算——",
+    "expected_runtime_target": "不、不！王后，我本来是想——我打算——",
+    "reason": "伊尔玛此时对王后解释晚宴事件，my lady应为王后，避免泛称夫人失去身份。"
+  },
+  {
+    "actor": "ghost",
+    "source": "Of course I know him, but of what might I be afraid?",
+    "runtime_source": "<i>Of course I know him, but of what might I be afraid?</i>",
+    "resource_id": "p04967-3a90a783aeae",
+    "runtime_id": "a00467-c6140b244840",
+    "resource_target": "我当然认识他，可我有什么好怕的？",
+    "runtime_target": "<i>我当然认识他，可我有什么可怕的？</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_GhostAndHamlet",
+        "line": 12938
+      }
+    ],
+    "review_index": 122,
+    "canonical_target": "我当然认识他，可我有什么好怕的？",
+    "expected_runtime_target": "<i>我当然认识他，可我有什么好怕的？</i>",
+    "reason": "of what might I be afraid询问有什么好怕的，不是说自己有什么可怕之处。"
+  },
+  {
+    "actor": "ghost",
+    "source": "I misspoke in accusing my brother of my death. He was driven by something far more peculiar. Quince is such a peculiar man.",
+    "runtime_source": "<i>I misspoke in accusing my brother of my death. He was driven by something far more peculiar. Quince is such a peculiar man.</i>",
+    "resource_id": "p04978-39866e690664",
+    "runtime_id": "a00473-c3a94aa52c4b",
+    "resource_target": "我说错了，不该指责我的弟弟害死了我。驱使他的是某种奇异得多的东西。昆斯是个如此奇异的人。",
+    "runtime_target": "<i>我指责弟弟害死了我，那话说错了。驱使他的，是某种远为诡异的东西。昆斯就是这样一个诡异的人。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_GhostAndHamlet",
+        "line": 12974
+      }
+    ],
+    "review_index": 126,
+    "canonical_target": "我指责弟弟害死了我，那话说错了。驱使他的，是某种远为诡异的东西。昆斯就是这样一个诡异的人。",
+    "expected_runtime_target": "<i>我指责弟弟害死了我，那话说错了。驱使他的，是某种远为诡异的东西。昆斯就是这样一个诡异的人。</i>",
+    "reason": "用户确认本句采用诡异；资源源与实际斜体源统一整句，保留peculiar重复。"
+  },
+  {
+    "actor": "ghost",
+    "source": "I do not know. But I do know that I have seen many strange things in this life of mine.",
+    "runtime_source": "<i>I do not know. But I do know that I have seen many strange things in this life of mine.</i>",
+    "resource_id": "p04982-94fba503aa40",
+    "runtime_id": "a00475-790e48d078cf",
+    "resource_target": "我不知道。但我知道，我这一生见过许多怪事。",
+    "runtime_target": "<i>我不知道。但我确实知道，我这一生见过许多怪事。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_GhostAndHamlet",
+        "line": 12982
+      }
+    ],
+    "review_index": 128,
+    "canonical_target": "我不知道。但有一点我很清楚：我这一生见过许多怪事。",
+    "expected_runtime_target": "<i>我不知道。但有一点我很清楚：我这一生见过许多怪事。</i>",
+    "reason": "用户最新截图反馈：以有一点我很清楚承接不知道，避免我确实知道的拗口重复。"
+  },
+  {
+    "actor": "ghost",
+    "source": "Ophelia, there will be no way out from this.",
+    "runtime_source": "<i>Ophelia, there will be no way out from this.</i>",
+    "resource_id": "p05157-bb722adb84e0",
+    "runtime_id": "a00302-26248df6bcc0",
+    "resource_target": "奥菲莉娅，我们无法从中脱身。",
+    "runtime_target": "<i>奥菲莉娅，你将无法摆脱这一切。</i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_Ghostlastmanifest",
+        "line": 13567
+      }
+    ],
+    "review_index": 163,
+    "canonical_target": "奥菲莉娅，你将无法摆脱这一切。",
+    "expected_runtime_target": "<i>奥菲莉娅，你将无法摆脱这一切。</i>",
+    "reason": "幽灵正在直接告诫女主无法脱离这个世界；原句是there will be no way out，不明说我们。按该场景统一为现有运行版的你；这是语境取舍，不是原文明写you。"
+  },
+  {
+    "actor": "laertes",
+    "source": "I saw the murder. It was-- it was my sister.",
+    "runtime_source": "I saw the murder. It was—it was my sister.",
+    "resource_id": "p07978-65d09505a665",
+    "runtime_id": "a00610-dd84c1a388fa",
+    "resource_target": "我看见了那场谋杀。是——是我妹妹干的。",
+    "runtime_target": "我看到了那场谋杀。是——是我的姐妹。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "LaertesWitchAccuse",
+        "line": 22153
+      }
+    ],
+    "review_index": 241,
+    "canonical_target": "我看见了那场谋杀。是——是我妹妹干的。",
+    "expected_runtime_target": "我看见了那场谋杀。是——是我妹妹干的。",
+    "reason": "雷欧提斯目击女主杀人，sister指妹妹奥菲莉娅，不是未明确的姐妹。"
+  },
+  {
+    "actor": "polonius",
+    "source": "If that her breath will mist or stain the stone--",
+    "runtime_source": "If that her breath will mist or stain the stone—",
+    "resource_id": "p08131-2d5c13a6b42a",
+    "runtime_id": "a00618-a0ceed66f337",
+    "resource_target": "要是她的气息能让镜面蒙上雾气，留下痕迹——",
+    "runtime_target": "若她的气息能让这石头蒙上雾气、留下痕迹——",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Witch_PoloniusDespair",
+        "line": 22748
+      }
+    ],
+    "review_index": 248,
+    "canonical_target": "要是她的气息能让镜面蒙上雾气，留下痕迹——",
+    "expected_runtime_target": "要是她的气息能让镜面蒙上雾气，留下痕迹——",
+    "reason": "上一句明确要looking-glass，stone承接镜面，不是另拿一块石头。"
+  },
+  {
+    "actor": "ophelia",
+    "source": "There's another option, too. If I can <b>save Father's life</b>-- perhaps I can keep them <i>both</i> safe from further harm.",
+    "runtime_source": "There's another option, too. If I can <b>save Father's life</b>—perhaps I can keep them <i>both</i> safe from further harm.",
+    "resource_id": "p09079-d139c36d8b1a",
+    "runtime_id": "a00648-0fb697846445",
+    "resource_target": "还有另一个选择。如果我能<b>救下父亲</b>——也许就能让她们<i>两人</i>都不再受到伤害。",
+    "runtime_target": "还有另一个选择。如果我能<b>救下父亲的命</b>——也许就能保护他们<i>两人</i>，不再受到伤害。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GUILD_Party",
+        "line": 25310
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GUILD_Party",
+        "line": 25347
+      }
+    ],
+    "review_index": 259,
+    "canonical_target": "还有另一个选择。如果我能<b>救下父亲</b>——也许就能让她们<i>两人</i>都不再受到伤害。",
+    "expected_runtime_target": "还有另一个选择。如果我能<b>救下父亲</b>——也许就能让她们<i>两人</i>都不再受到伤害。",
+    "reason": "GUILD_Party两处上下文均在设法救罗茜与吉尔妲，both用她们而非他们；原粗体、斜体保留。"
+  },
+  {
+    "actor": "ghost",
+    "source": "You already <i>have.</i>",
+    "runtime_source": "<i>You already <i>have.</i></i>",
+    "resource_id": "p10466-845e508e10b5",
+    "runtime_id": "a00390-53561b8ded50",
+    "resource_target": "你<i>已经回去过了。</i>",
+    "runtime_target": "<i>你已经<i>回去过了。</i></i>",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29582
+      }
+    ],
+    "review_index": 308,
+    "canonical_target": "你已经<i>回去过了。</i>",
+    "expected_runtime_target": "<i>你已经<i>回去过了。</i></i>",
+    "reason": "继承此前实际运行源已审定的have语境与强调范围，资源源同步为已经回去过了，仅回去过了斜体。"
+  },
+  {
+    "actor": "brit",
+    "source": "They-- they did?",
+    "runtime_source": "They—they did?",
+    "resource_id": "p11172-759ee01094fd",
+    "runtime_id": "a00062-34fc0eb02a11",
+    "resource_target": "那人——那人真这么做了？",
+    "runtime_target": "他们——他们真这么做了？",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "brit_SomeoneKillingMe",
+        "line": 904
+      }
+    ],
+    "review_index": 353,
+    "canonical_target": "那人——那人真这么做了？",
+    "expected_runtime_target": "那人——那人真这么做了？",
+    "reason": "they承接女主前一句的Someone，是单数不定指那人，不是新出现的多人。"
+  },
+  {
+    "actor": "ghost",
+    "source": "<i>And like you, the timeline of my death was no more than a week. My son Hamlet was away at Wittenberg, my brother Claudius plotting to take my throne.</i>",
+    "runtime_source": "<i><i>And like you, the timeline of my death was no more than a week. My son Hamlet was away at Wittenberg, my brother Claudius plotting to take my throne.</i></i>",
+    "resource_id": "p12547-edf08416416d",
+    "runtime_id": "a00123-8eeda7d063f5",
+    "resource_target": "<i>也和你一样，我所经历的通往死亡的那段时间，不超过一周。我的儿子哈姆雷特远在威登堡，我的弟弟克劳狄斯正密谋夺取我的王位。</i>",
+    "runtime_target": "<i><i>也和你一样，我走向死亡的这段时间不超过一周。我的儿子哈姆雷特远在维滕贝格，我的弟弟克劳狄斯则在密谋夺取我的王位。</i></i>",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "ghost_cursedbook",
+        "line": 4271
+      }
+    ],
+    "review_index": 409,
+    "canonical_target": "<i>也和你一样，我所经历的通往死亡的那段时间，不超过一周。我的儿子哈姆雷特远在威登堡，我的弟弟克劳狄斯正密谋夺取我的王位。</i>",
+    "expected_runtime_target": "<i><i>也和你一样，我所经历的通往死亡的那段时间，不超过一周。我的儿子哈姆雷特远在威登堡，我的弟弟克劳狄斯正密谋夺取我的王位。</i></i>",
+    "reason": "同句Wittenberg的双层斜体变体与资源采用同一地名威登堡，不在此轮全局改写其他独立对白的地名。"
+  },
+  {
+    "actor": "gertrude",
+    "source": "You-- you did?",
+    "runtime_source": "You—you did?",
+    "resource_id": "p13296-f25c1ccba433",
+    "runtime_id": "a00202-569dea9f1723",
+    "resource_target": "你——你看到了？",
+    "runtime_target": "你——你真的做了？",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "gertrude_queensearching",
+        "line": 5952
+      }
+    ],
+    "review_index": 476,
+    "canonical_target": "你——你看到了？",
+    "expected_runtime_target": "你——你看到了？",
+    "reason": "王后回应女主看到她翻国王私人物品，did指看到了，不是女主真的做了。"
+  },
+  {
+    "actor": "quince",
+    "source": "Or -- well -- how many times have you used <b>that gift</b> now? Been quite a few, hasn't it?",
+    "runtime_source": "Or—well—how many times have you used <b>that gift</b> now? Been quite a few, hasn't it?",
+    "resource_id": "p13808-58da43a6131c",
+    "runtime_id": "a00219-ecae6cef1ff2",
+    "resource_target": "或者——嗯——你到现在已经用过多少次<b>那份恩赐</b>了？已经不少次了吧？",
+    "runtime_target": "或者——嗯——你现在已经用了多少次<b>那份天赋</b>？已经不少次了，对吧？",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "quince_responsible",
+        "line": 7632
+      }
+    ],
+    "review_index": 491,
+    "canonical_target": "或者——嗯——你到现在已经用过多少次<b>那份恩赐</b>了？已经不少次了吧？",
+    "expected_runtime_target": "或者——嗯——你到现在已经用过多少次<b>那份恩赐</b>了？已经不少次了吧？",
+    "reason": "昆斯所说gift是获赠的力量，采用恩赐，避免译为先天的天赋。"
+  },
+  {
+    "actor": "rosencrantz",
+    "source": "Guh-- Get away from me! From all of us!",
+    "runtime_source": "Guh—Get away from me! From all of us!",
+    "resource_id": "p13828-d679f808f9c8",
+    "runtime_id": "a00224-57a37b78cad6",
+    "resource_target": "呃——离我远点！离我们所有人远点！",
+    "runtime_target": "滚——离我远点！离我们所有人远点！",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "rosencrantz_responsible",
+        "line": 7730
+      }
+    ],
+    "review_index": 495,
+    "canonical_target": "呃——离我远点！离我们所有人远点！",
+    "expected_runtime_target": "呃——离我远点！离我们所有人远点！",
+    "reason": "Guh为惊惧时的短促声音，不是额外说出滚这个命令。"
+  }
+]

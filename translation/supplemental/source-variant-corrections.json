@@ -1,0 +1,404 @@
+[
+  {
+    "id": "source-variant-96d14bea8f6b44cb",
+    "original_id": "a00432-96d14bea8f6b",
+    "source": "<i>At the end of the last cycle Fortinbras was rebuked. Was he not?</i>",
+    "source_sha256": "96d14bea8f6b44cb60b1a1ce1256d0f6e24a531499860cfc7f7d69475f6a7db1",
+    "previous_target": "<i>上一次循环结束时，福丁布拉斯受到了斥责。不是吗？</i>",
+    "target": "<i>上一次循环结束时，福丁布拉斯被击退了。不是吗？</i>",
+    "reason": "前文明确上一轮保住众人、击退福丁布拉斯，rebuked在此不能译成受到斥责。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaHamletStarter",
+        "line": 269
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-4feee85e37d582ef",
+    "original_id": "a00436-4feee85e37d5",
+    "source": "<i>But that information, created when I still lived, sleeps inside the castle's walls...</i>",
+    "source_sha256": "4feee85e37d582efb91fccccc8d1dc3b226e1efff96cfd53039381f1cc96023f",
+    "previous_target": "<i>但那些在我生前留下的信息，正沉睡在城堡的墙内……</i>",
+    "target": "<i>但那份在我生前留下的信息，正沉睡在城堡之内……</i>",
+    "reason": "castle walls泛指城堡之内，笔记由波洛涅斯保管，不暗示藏在墙体内部。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_OpheliaHamletStarter",
+        "line": 275
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-61334a70e709c3ee",
+    "original_id": "a00518-61334a70e709",
+    "source": "But they always do t—",
+    "source_sha256": "61334a70e709c3ee0aa3c51c7d11f9322f03028bba0f29cd5127d05ab444859c",
+    "previous_target": "可他们总是那——",
+    "target": "可手本来就会那——",
+    "reason": "they承接吉尔妲所说泡澡时肿胀的双手，不是他们；保留未说完的断句。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Spine_SendHamletAway",
+        "line": 3321
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-75bf804bc5ff783c",
+    "original_id": "p02498-75bf804bc5ff",
+    "source": "<i>You cannot escape the eye of Heaven, brother.</i>",
+    "source_sha256": "75bf804bc5ff783ccc64b85669b80af4343c88ec57afbac971a04f369fdb0b9b",
+    "previous_target": "<i>你逃不过上天的眼睛，兄弟。</i>",
+    "target": "<i>你逃不过上天的眼睛，弟弟。</i>",
+    "reason": "幽灵对克劳狄斯说话，brother具体为弟弟；同步既有准确称谓。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_GhostAppears",
+        "line": 5532
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-642f02232beea39f",
+    "original_id": "a00554-642f02232bee",
+    "source": "<i><i>How strange and peculiar that you and I should meet now, at the end of time, at the end of this world.</i></i>",
+    "source_sha256": "642f02232beea39f22ede2b6187af19aa781250dc04d36eb00a51e4e5756c5f0",
+    "previous_target": "<i><i>你我竟在此刻相遇，在时间的尽头，在这个世界的尽头，何其奇异，何其古怪。</i></i>",
+    "target": "<i><i>你我竟在此刻相遇，在时间的尽头，在这个世界的尽头，何其奇异。</i></i>",
+    "reason": "同一相遇描述资源与双层斜体运行源统一为何其奇异，保留原内外层斜体。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_GhostAppears",
+        "line": 5560
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-8c7faac3d8cff6e9",
+    "original_id": "a00535-8c7faac3d8cf",
+    "source": "I did not, my lady. I would be—er—honored, of course.",
+    "source_sha256": "8c7faac3d8cff6e9be6f2dfc97690f0efdd11042f0f9287a90629a7aa6fc2507",
+    "previous_target": "我没有，夫人。当然，我会——呃——深感荣幸。",
+    "target": "我不知道，王后。我会——呃——当然，我会深感荣幸。",
+    "reason": "布莉特回答王后是否知道婚约，I did not表示此前不知道，不是我没有；my lady在此称呼王后。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "FLAVOR_BritAndGertrude",
+        "line": 6004
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-e4c529848b454467",
+    "original_id": "a00508-e4c529848b45",
+    "source": "<i>My brother lives.</i>",
+    "source_sha256": "e4c529848b454467c7ccba67677ed08b7f0046af474652ed0775ffdee167b0b5",
+    "previous_target": "<i>我的兄弟还活着。</i>",
+    "target": "<i>我的弟弟还活着。</i>",
+    "reason": "幽灵所说仍活着的brother为弟弟克劳狄斯。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GHUNT_HamletWallFailure",
+        "line": 6888
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-80bb5e5e11c0c38a",
+    "original_id": "a00498-80bb5e5e11c0",
+    "source": "N-no! My lady, I meant—I intended—",
+    "source_sha256": "80bb5e5e11c0c38a1be49ee99e7f025d564f0f6b4822397fc4c4aa8c9d50aa67",
+    "previous_target": "不、不！夫人，我是说——我本来想——",
+    "target": "不、不！王后，我本来是想——我打算——",
+    "reason": "伊尔玛此时对王后解释晚宴事件，my lady应为王后，避免泛称夫人失去身份。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "SPINE_DinnerNight2",
+        "line": 12020
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-c6140b244840d2cd",
+    "original_id": "a00467-c6140b244840",
+    "source": "<i>Of course I know him, but of what might I be afraid?</i>",
+    "source_sha256": "c6140b244840d2cd05e86bf9d3e24cd9d73b1fe10f826d831ed5183af844c353",
+    "previous_target": "<i>我当然认识他，可我有什么可怕的？</i>",
+    "target": "<i>我当然认识他，可我有什么好怕的？</i>",
+    "reason": "of what might I be afraid询问有什么好怕的，不是说自己有什么可怕之处。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_GhostAndHamlet",
+        "line": 12938
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-39866e690664d801",
+    "original_id": "p04978-39866e690664",
+    "source": "I misspoke in accusing my brother of my death. He was driven by something far more peculiar. Quince is such a peculiar man.",
+    "source_sha256": "39866e690664d801e3c1bceea4299323b127537e4997dac0739b17b0840d7ce2",
+    "previous_target": "我说错了，不该指责我的弟弟害死了我。驱使他的是某种奇异得多的东西。昆斯是个如此奇异的人。",
+    "target": "我指责弟弟害死了我，那话说错了。驱使他的，是某种远为诡异的东西。昆斯就是这样一个诡异的人。",
+    "reason": "用户确认本句采用诡异；资源源与实际斜体源统一整句，保留peculiar重复。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_GhostAndHamlet",
+        "line": 12974
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-94fba503aa40a9ee",
+    "original_id": "p04982-94fba503aa40",
+    "source": "I do not know. But I do know that I have seen many strange things in this life of mine.",
+    "source_sha256": "94fba503aa40a9ee10db85e09fa422f3c6c0bfcdca9fcdfd4a85e95e12c299c7",
+    "previous_target": "我不知道。但我知道，我这一生见过许多怪事。",
+    "target": "我不知道。但有一点我很清楚：我这一生见过许多怪事。",
+    "reason": "用户最新截图反馈：以有一点我很清楚承接不知道，避免我确实知道的拗口重复。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_GhostAndHamlet",
+        "line": 12982
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-790e48d078cf6945",
+    "original_id": "a00475-790e48d078cf",
+    "source": "<i>I do not know. But I do know that I have seen many strange things in this life of mine.</i>",
+    "source_sha256": "790e48d078cf69458262654032b1d9ad9571d27437ff4bf11ecf442ffcd5db11",
+    "previous_target": "<i>我不知道。但我确实知道，我这一生见过许多怪事。</i>",
+    "target": "<i>我不知道。但有一点我很清楚：我这一生见过许多怪事。</i>",
+    "reason": "用户最新截图反馈：以有一点我很清楚承接不知道，避免我确实知道的拗口重复。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_GhostAndHamlet",
+        "line": 12982
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-bb722adb84e08a2d",
+    "original_id": "p05157-bb722adb84e0",
+    "source": "Ophelia, there will be no way out from this.",
+    "source_sha256": "bb722adb84e08a2d3925c28caa0b5a7f20bc27acc7015981e8b57d545a128b3b",
+    "previous_target": "奥菲莉娅，我们无法从中脱身。",
+    "target": "奥菲莉娅，你将无法摆脱这一切。",
+    "reason": "幽灵正在直接告诫女主无法脱离这个世界；原句是there will be no way out，不明说我们。按该场景统一为现有运行版的你；这是语境取舍，不是原文明写you。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "NOESCAPE_Ghostlastmanifest",
+        "line": 13567
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-dd84c1a388fa1a18",
+    "original_id": "a00610-dd84c1a388fa",
+    "source": "I saw the murder. It was—it was my sister.",
+    "source_sha256": "dd84c1a388fa1a1869e4f57f00d609a6037fdf0e487a55eb2807addc9298f3c4",
+    "previous_target": "我看到了那场谋杀。是——是我的姐妹。",
+    "target": "我看见了那场谋杀。是——是我妹妹干的。",
+    "reason": "雷欧提斯目击女主杀人，sister指妹妹奥菲莉娅，不是未明确的姐妹。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "LaertesWitchAccuse",
+        "line": 22153
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-a0ceed66f337a81b",
+    "original_id": "a00618-a0ceed66f337",
+    "source": "If that her breath will mist or stain the stone—",
+    "source_sha256": "a0ceed66f337a81ba564fcba721f3ff82e41e9da744261187686f909e81cdc8e",
+    "previous_target": "若她的气息能让这石头蒙上雾气、留下痕迹——",
+    "target": "要是她的气息能让镜面蒙上雾气，留下痕迹——",
+    "reason": "上一句明确要looking-glass，stone承接镜面，不是另拿一块石头。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Witch_PoloniusDespair",
+        "line": 22748
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-0fb697846445873f",
+    "original_id": "a00648-0fb697846445",
+    "source": "There's another option, too. If I can <b>save Father's life</b>—perhaps I can keep them <i>both</i> safe from further harm.",
+    "source_sha256": "0fb697846445873fd539b59d862e4a01ffd63dcc0f7a60513fa544cc65bdd623",
+    "previous_target": "还有另一个选择。如果我能<b>救下父亲的命</b>——也许就能保护他们<i>两人</i>，不再受到伤害。",
+    "target": "还有另一个选择。如果我能<b>救下父亲</b>——也许就能让她们<i>两人</i>都不再受到伤害。",
+    "reason": "GUILD_Party两处上下文均在设法救罗茜与吉尔妲，both用她们而非他们；原粗体、斜体保留。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GUILD_Party",
+        "line": 25310
+      },
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "GUILD_Party",
+        "line": 25347
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-845e508e10b59933",
+    "original_id": "p10466-845e508e10b5",
+    "source": "You already <i>have.</i>",
+    "source_sha256": "845e508e10b599337b0bcebb098543ec099f19ee830915c78e1f2ac6c88b10ac",
+    "previous_target": "你<i>已经回去过了。</i>",
+    "target": "你已经<i>回去过了。</i>",
+    "reason": "继承此前实际运行源已审定的have语境与强调范围，资源源同步为已经回去过了，仅回去过了斜体。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "POSTEND_Return",
+        "line": 29582
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-34fc0eb02a111ffc",
+    "original_id": "a00062-34fc0eb02a11",
+    "source": "They—they did?",
+    "source_sha256": "34fc0eb02a111ffc193ed2130486bd4678b4f386d2b55138718aa2d3a7d5201d",
+    "previous_target": "他们——他们真这么做了？",
+    "target": "那人——那人真这么做了？",
+    "reason": "they承接女主前一句的Someone，是单数不定指那人，不是新出现的多人。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "brit_SomeoneKillingMe",
+        "line": 904
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-8eeda7d063f586a3",
+    "original_id": "a00123-8eeda7d063f5",
+    "source": "<i><i>And like you, the timeline of my death was no more than a week. My son Hamlet was away at Wittenberg, my brother Claudius plotting to take my throne.</i></i>",
+    "source_sha256": "8eeda7d063f586a35ba2bcd399cbe5f33800e5c74cfd12ae33f3dfaa64c8a983",
+    "previous_target": "<i><i>也和你一样，我走向死亡的这段时间不超过一周。我的儿子哈姆雷特远在维滕贝格，我的弟弟克劳狄斯则在密谋夺取我的王位。</i></i>",
+    "target": "<i><i>也和你一样，我所经历的通往死亡的那段时间，不超过一周。我的儿子哈姆雷特远在威登堡，我的弟弟克劳狄斯正密谋夺取我的王位。</i></i>",
+    "reason": "同句Wittenberg的双层斜体变体与资源采用同一地名威登堡，不在此轮全局改写其他独立对白的地名。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "ghost_cursedbook",
+        "line": 4271
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-569dea9f172328cc",
+    "original_id": "a00202-569dea9f1723",
+    "source": "You—you did?",
+    "source_sha256": "569dea9f172328ccd5bc8159631a57118ab64420bd05ac45b3dbaa0835371651",
+    "previous_target": "你——你真的做了？",
+    "target": "你——你看到了？",
+    "reason": "王后回应女主看到她翻国王私人物品，did指看到了，不是女主真的做了。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "gertrude_queensearching",
+        "line": 5952
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-ecae6cef1ff2bd92",
+    "original_id": "a00219-ecae6cef1ff2",
+    "source": "Or—well—how many times have you used <b>that gift</b> now? Been quite a few, hasn't it?",
+    "source_sha256": "ecae6cef1ff2bd923fc0bff2e4c57f0a2d8abf5078e36e7021bcfa46c4493065",
+    "previous_target": "或者——嗯——你现在已经用了多少次<b>那份天赋</b>？已经不少次了，对吧？",
+    "target": "或者——嗯——你到现在已经用过多少次<b>那份恩赐</b>了？已经不少次了吧？",
+    "reason": "昆斯所说gift是获赠的力量，采用恩赐，避免译为先天的天赋。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "quince_responsible",
+        "line": 7632
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  },
+  {
+    "id": "source-variant-57a37b78cad64e80",
+    "original_id": "a00224-57a37b78cad6",
+    "source": "Guh—Get away from me! From all of us!",
+    "source_sha256": "57a37b78cad64e8054a4a5a72dc10dfe62ede121b2a3cef4f8e4bf6ce266d622",
+    "previous_target": "滚——离我远点！离我们所有人远点！",
+    "target": "呃——离我远点！离我们所有人远点！",
+    "reason": "Guh为惊惧时的短促声音，不是额外说出滚这个命令。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "rosencrantz_responsible",
+        "line": 7730
+      },
+      "用户2026-10-19要求修正已确认措辞并检查同句资源／运行变体不一致"
+    ]
+  }
+]
