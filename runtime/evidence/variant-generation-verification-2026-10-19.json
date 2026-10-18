@@ -162,5 +162,17 @@
     "本次仅离线导出、真实资源复核及XUnity组件消费者，不称游戏画面或剧情E2E通过",
     "同一英文格式变体共享中文，真正语境不同的应答仍分开维护",
     "588条为累计待安装词条变化，其中大量是迁移统一旧非运行变体，并非重译588处游戏对白"
-  ]
+  ],
+  "lookup_safety_followup": {
+    "before_snapshot": "runtime/build/variant-generation/before-translations.json",
+    "all_english_keys_ids_and_order_identical": true,
+    "english_keys_checked": 17069,
+    "missing_english_keys": 0,
+    "changed_english_keys": 0,
+    "duplicate_english_keys": 0,
+    "actual_xunity_dictionary_parser_passed": true,
+    "actual_xunity_dictionary_parser_cases": 17069,
+    "scope": "实际XUnity TextHelper逐行解码最终打包词表，英文键和中文目标均与当前JSON逐字一致；不启动游戏",
+    "runtime_lookup_plugin_or_rules_changed": false
+  }
 }
