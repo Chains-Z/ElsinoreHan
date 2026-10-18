@@ -810,5 +810,89 @@
         "actor": "ophelia"
       }
     ]
+  },
+  {
+    "id": "ascension-naive-leaf",
+    "source": "I once thought Quince was horribly cruel. Now I realize that the way I saw him was naïve.",
+    "target": "我曾以为昆斯残忍至极。如今我才明白，是我对他的看法太幼稚了。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 36,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-naive-box",
+    "source": "<line-height=90%>I once thought Quince was horribly cruel. Now I realize that the way I saw him was naïve.",
+    "target": "<line-height=90%>我曾以为昆斯残忍至极。如今我才明白，是我对他的看法太幼稚了。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 36,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-naive-log",
+    "source": "<b>Ophelia:</b> <indent=16%>I once thought Quince was horribly cruel. Now I realize that the way I saw him was naïve.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我曾以为昆斯残忍至极。如今我才明白，是我对他的看法太幼稚了。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 36,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-simple-leaf",
+    "source": "I am glad to leave my old life behind. I had no idea how silly and simple it was, how utterly meaningless in the grand design.",
+    "target": "我很高兴能告别过去的生活。我从未意识到，那样的生活竟如此可笑、单纯，在宏大的布局中毫无意义。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 37,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-simple-box",
+    "source": "<line-height=90%>I am glad to leave my old life behind. I had no idea how silly and simple it was, how utterly meaningless in the grand design.",
+    "target": "<line-height=90%>我很高兴能告别过去的生活。我从未意识到，那样的生活竟如此可笑、单纯，在宏大的布局中毫无意义。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 37,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-simple-log",
+    "source": "<b>Ophelia:</b> <indent=16%>I am glad to leave my old life behind. I had no idea how silly and simple it was, how utterly meaningless in the grand design.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>我很高兴能告别过去的生活。我从未意识到，那样的生活竟如此可笑、单纯，在宏大的布局中毫无意义。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 37,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]

@@ -161,5 +161,41 @@
       }
     ],
     "reason": "用户依据现场配音要求将三种原因置于句末，并在最后的怜悯前加省略号，避免所致落在最后破坏配音停顿；英语文本仅有逗号，停顿信息来源于用户听音反馈。"
+  },
+  {
+    "id": "ascension-naive-p00613-00c5d1f89ac3",
+    "original_id": "p00613-00c5d1f89ac3",
+    "source": "I once thought Quince was horribly cruel. Now I realize that the way I saw him was naïve.",
+    "source_sha256": "00c5d1f89ac38056de72ba504cd94d2cc86766cd89411bc9c2f25ebe501a1888",
+    "previous_target": "我曾以为昆斯残忍至极。如今我才明白，是我对他的看法太天真了。",
+    "target": "我曾以为昆斯残忍至极。如今我才明白，是我对他的看法太幼稚了。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 36,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户确认以幼稚体现女主如今否定过去判断的语气，并与后文自比孩子呼应。"
+  },
+  {
+    "id": "ascension-simple-p00614-6d981362219f",
+    "original_id": "p00614-6d981362219f",
+    "source": "I am glad to leave my old life behind. I had no idea how silly and simple it was, how utterly meaningless in the grand design.",
+    "source_sha256": "6d981362219fce89ae330b022f2358e5015cd1f40d4a35186343a958f57e2e16",
+    "previous_target": "我很高兴能告别过去的生活。我从不知道它竟如此可笑、简单，在宏大的布局中毫无意义。",
+    "target": "我很高兴能告别过去的生活。我从未意识到，那样的生活竟如此可笑、单纯，在宏大的布局中毫无意义。",
+    "origins": [
+      {
+        "asset": "scenes_endings",
+        "asset_sha256": "208f35f21b8b5fe423259aea6e9683d7dbfdb183b2a4b0ff0bb1d63c3c8df4c7",
+        "scene": "ENDING_JoinQuince",
+        "line": 37,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "用户确认simple译为单纯，承接昔日生活与如今见识的对照；采用已确认整句，不添加新的行为或情绪。"
   }
 ]
