@@ -16,5 +16,23 @@
       }
     ],
     "reason": "用户指出敲响了午夜搭配生硬；按时间从句改为午夜的钟声响起，保留每个人、已经和原有加粗。"
+  },
+  {
+    "id": "ascension-morality-p13740-256a89ce52c5",
+    "original_id": "p13740-256a89ce52c5",
+    "source": "It doesn't matter if they'll return in the next world. This is wrong.",
+    "source_sha256": "256a89ce52c5460278633eb531f4d559e7861be8897fb7bdf9f3afa53c795e6b",
+    "previous_target": "就算他们会在下一个世界回来，也无关紧要。这是不对的。",
+    "target": "就算他们会在下一个世界回来，这么做也还是不对。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7435,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "按两句共同意义连接让步与道德判断：即使下一世界还会回来，这样做仍然不对，避免也无关紧要变成孤立判断。"
   }
 ]

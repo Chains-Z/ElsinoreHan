@@ -40,5 +40,61 @@
         "actor": "quince"
       }
     ]
+  },
+  {
+    "id": "ascension-morality-leaf",
+    "source": "It doesn't matter if they'll return in the next world. This is wrong.",
+    "target": "就算他们会在下一个世界回来，这么做也还是不对。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7435,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-morality-box",
+    "source": "<line-height=90%>It doesn't matter if they'll return in the next world. This is wrong.",
+    "target": "<line-height=90%>就算他们会在下一个世界回来，这么做也还是不对。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7435,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-morality-log",
+    "source": "<b>Ophelia:</b> <indent=16%>It doesn't matter if they'll return in the next world. This is wrong.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>就算他们会在下一个世界回来，这么做也还是不对。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7435,
+        "actor": "ophelia"
+      }
+    ]
+  },
+  {
+    "id": "ascension-morality-bernardo-consecutive-log",
+    "source": "<b>Ophelia:</b> <indent=16%><i>Exit BERNARDO.</i>\nIt doesn't matter if they'll return in the next world. This is wrong.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%><i>贝尔纳多退场。</i>\n就算他们会在下一个世界回来，这么做也还是不对。",
+    "origins": [
+      {
+        "asset": "scenes_present",
+        "asset_sha256": "2b1c89384554b940e922d55352639e837524ba2b20d4d642ff3b85bca33bdbf2",
+        "scene": "notneeded_react",
+        "line": 7435,
+        "actor": "ophelia"
+      }
+    ]
   }
 ]
