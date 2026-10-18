@@ -52,5 +52,23 @@
       }
     ],
     "reason": "用户确认：第一句指杀人容易，第二句they指被杀的人；用女主的感受明确指代，不将不真实误解为杀人事件本身。"
+  },
+  {
+    "id": "polonius-despair-p08135-c040724f17a8",
+    "original_id": "p08135-c040724f17a8",
+    "source": "He wasn't in his right mind. Not at the end.",
+    "source_sha256": "c040724f17a813f8e4a7ecd0ae98e046bd8d4b0a5162e4a0e3822f6534bc48eb",
+    "previous_target": "他神志不清了。最后那时候已经不清醒了。",
+    "target": "到最后，他已经神志不清了。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+        "scene": "Witch_PoloniusDespair",
+        "line": 22762,
+        "actor": "ophelia"
+      }
+    ],
+    "reason": "将Not at the end作为前句的时间补充合并，避免把神志不清重复说成两句话；不添加推测。"
   }
 ]
