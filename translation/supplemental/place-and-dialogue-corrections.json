@@ -196,8 +196,8 @@
     "source": "<i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i>",
     "source_sha256": "d8c8ac7aeb25c8b24db7bd15329f53da29dbc1482bffa02f6062f34bfcefcdb3",
     "previous_target": "<i>不要恨他，我的爱人。是命运沉缓的步伐逼他出手。</i>",
-    "target": "<i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i>",
-    "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+    "target": "<i>不要恨他，我的爱人。命运转动得太慢，才逼得他动了手。</i>",
+    "reason": "用户进一步确认用命运转动得太慢，避免命运运转重复字面，并衔接下一句转动轮盘；两发言及资源／运行斜体同步。",
     "origins": [
       {
         "asset": "scenes",
@@ -213,8 +213,8 @@
     "source": "<i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i>",
     "source_sha256": "30aca2c52c05a9de6b5c4da3c45e126a9f77b6a62bbcdde0602effd5e81a3080",
     "previous_target": "<i>也不要恨克劳狄斯，我的好臣子。是命运沉缓的步伐逼我弟弟出手。</i>",
-    "target": "<i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i>",
-    "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+    "target": "<i>也不要恨克劳狄斯，我的好伙计。命运转动得太慢，才逼得我弟弟动了手。</i>",
+    "reason": "用户进一步确认用命运转动得太慢，避免命运运转重复字面，并衔接下一句转动轮盘；两发言及资源／运行斜体同步。",
     "origins": [
       {
         "asset": "scenes",
@@ -737,8 +737,8 @@
     "source": "<i><i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i></i>",
     "source_sha256": "4ef20fb06483d226743379f1a16ca79c5619f406e9314a7c01f356034b26133c",
     "previous_target": "<i><i>不要恨他，我的爱人。是命运迟缓的脚步逼他动了手。</i></i>",
-    "target": "<i><i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i></i>",
-    "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+    "target": "<i><i>不要恨他，我的爱人。命运转动得太慢，才逼得他动了手。</i></i>",
+    "reason": "用户进一步确认用命运转动得太慢，避免命运运转重复字面，并衔接下一句转动轮盘；两发言及资源／运行斜体同步。",
     "origins": [
       {
         "asset": "scenes",
@@ -754,14 +754,31 @@
     "source": "<i><i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i></i>",
     "source_sha256": "500d1e0bebd8e59e406dc78a4098a77c3c90e624e2474490057383557ab318d4",
     "previous_target": "<i><i>也不要恨克劳狄斯，我的好伙计。是命运迟缓的脚步逼我弟弟动了手。</i></i>",
-    "target": "<i><i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i></i>",
-    "reason": "按截图反馈将plodding pace of fate自然表达为命运运转得太慢，保留缓慢与被迫动手的关系，并衔接下一句命运轮盘的意象；资源与真实编译源同步。",
+    "target": "<i><i>也不要恨克劳狄斯，我的好伙计。命运转动得太慢，才逼得我弟弟动了手。</i></i>",
+    "reason": "用户进一步确认用命运转动得太慢，避免命运运转重复字面，并衔接下一句转动轮盘；两发言及资源／运行斜体同步。",
     "origins": [
       {
         "asset": "scenes",
         "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
         "scene": "play_confrontation",
         "line": 13315
+      }
+    ]
+  },
+  {
+    "id": "perfect-day-7cd823425946a9be",
+    "original_id": "p00359-7cd823425946",
+    "source": "There's... it can't be. This must be another trick.",
+    "source_sha256": "7cd823425946a9beb992c90dbc7c949ffe1e725ac200ba46e1930802ef7e4da0",
+    "previous_target": "有……不可能。这一定又是个骗局。",
+    "target": "这……不可能。这一定又是个骗局。",
+    "reason": "用户指出直译有无法承接语境；英文开头未说完，不补猜省略部分，以这表现意识到异样时的断续反应。",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "Spine_PoloniusQuestions",
+        "source": "There's... it can't be. This must be another trick."
       }
     ]
   }

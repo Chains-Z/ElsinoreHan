@@ -12,7 +12,8 @@ DIRECTORY = ROOT / "translation/supplemental"
 
 def in_scope(source):
     return bool(re.search(r"wittenb[eu]rg", source, re.I) or "plodding pace of fate" in source
-                or source.startswith(("Guh--", "Guh—")))
+                or source.startswith(("Guh--", "Guh—"))
+                or source == "There's... it can't be. This must be another trick.")
 
 
 def main():
@@ -29,7 +30,7 @@ def main():
     assert len(places) == 39
     assert all("威登堡" in row["target"] and not re.search("维滕贝格|威滕贝格", row["target"]) for row in places)
     assert not any(re.search("维滕贝格|威滕贝格", row["target"]) for row in targets.values())
-    assert len(selected) == 45
+    assert len(selected) == 46
     dialogue, _ = extract_rows(rows)
     mapping = {row["origin"]["field"]: row["source"]
                for row in read(ROOT / "analysis/ui-audit/resource-strings.json")
@@ -57,7 +58,7 @@ def main():
                           "origins": owner["origins"]})
     assert len({row["id"] for row in cases}) == len(cases)
     save(DIRECTORY / "place-and-dialogue-tests.json", cases)
-    print(f"39条地名全覆盖、45条范围原子、{len(cases)}项消费者已生成")
+    print(f"39条地名全覆盖、46条范围原子、{len(cases)}项消费者已生成")
 
 
 if __name__ == "__main__":

@@ -18,6 +18,12 @@
     "source_sha256": "449ed994c76f677bc5b7dd2c19dd7a7a5d9cfb640a696add065054a4817cf50f"
   },
   {
+    "id": "place-dialogue-leaf-p00359-7cd823425946",
+    "source": "There's... it can't be. This must be another trick.",
+    "target": "这……不可能。这一定又是个骗局。",
+    "source_sha256": "7cd823425946a9beb992c90dbc7c949ffe1e725ac200ba46e1930802ef7e4da0"
+  },
+  {
     "id": "place-dialogue-leaf-p00545-eda428fdc315",
     "source": "Hamlet and I were together for two years, in secret. In that time, he was... different. Happier. He had a sense of humor then. Neither of us had ever loved another before, but he treated me with respect and an unfailing kindness. He went away to Wittenberg for University, and then his father passed, and he came back a changed person. These days, it's hard to look at him; all I see is the person he used to be.",
     "target": "哈姆雷特和我曾秘密交往了两年。那时候，他……不一样。更快乐。那时的他还有幽默感。我们此前都没有爱过别人，但他尊重我，对我的温柔体贴也从未变过。他去了威登堡上大学，后来父亲去世了，他回来时就变了个人。如今，我很难面对他；看着他，我眼里只有他过去的样子。",
@@ -68,13 +74,13 @@
   {
     "id": "place-dialogue-leaf-p05088-d8c8ac7aeb25",
     "source": "<i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i>",
-    "target": "<i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i>",
+    "target": "<i>不要恨他，我的爱人。命运转动得太慢，才逼得他动了手。</i>",
     "source_sha256": "d8c8ac7aeb25c8b24db7bd15329f53da29dbc1482bffa02f6062f34bfcefcdb3"
   },
   {
     "id": "place-dialogue-leaf-p05098-30aca2c52c05",
     "source": "<i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i>",
-    "target": "<i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i>",
+    "target": "<i>也不要恨克劳狄斯，我的好伙计。命运转动得太慢，才逼得我弟弟动了手。</i>",
     "source_sha256": "30aca2c52c05a9de6b5c4da3c45e126a9f77b6a62bbcdde0602effd5e81a3080"
   },
   {
@@ -254,13 +260,13 @@
   {
     "id": "place-dialogue-leaf-a00456-4ef20fb06483",
     "source": "<i><i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i></i>",
-    "target": "<i><i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i></i>",
+    "target": "<i><i>不要恨他，我的爱人。命运转动得太慢，才逼得他动了手。</i></i>",
     "source_sha256": "4ef20fb06483d226743379f1a16ca79c5619f406e9314a7c01f356034b26133c"
   },
   {
     "id": "place-dialogue-leaf-a00460-500d1e0bebd8",
     "source": "<i><i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i></i>",
-    "target": "<i><i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i></i>",
+    "target": "<i><i>也不要恨克劳狄斯，我的好伙计。命运转动得太慢，才逼得我弟弟动了手。</i></i>",
     "source_sha256": "500d1e0bebd8e59e406dc78a4098a77c3c90e624e2474490057383557ab318d4"
   },
   {
@@ -268,6 +274,34 @@
     "source": "it's time to return to Wittenberg\n",
     "target": "该回威登堡了\n",
     "source_sha256": "5c98ab0cb7f77fb313df06c64403ea3db5f14fcfeead9464c68420b445a4c573"
+  },
+  {
+    "id": "place-dialogue-dialogue-ophelia-7cd823425946a9be",
+    "source": "<line-height=90%>There's... it can't be. This must be another trick.",
+    "target": "<line-height=90%>这……不可能。这一定又是个骗局。",
+    "source_sha256": "77f0d169a9c3ecfa657688b54a57d47c8000128215de5aeae8a3969e13e8ff1a",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "Spine_PoloniusQuestions",
+        "line": 85
+      }
+    ]
+  },
+  {
+    "id": "place-dialogue-log-ophelia-7cd823425946a9be",
+    "source": "<b>Ophelia:</b> <indent=16%>There's... it can't be. This must be another trick.",
+    "target": "<b>奥菲莉娅:</b> <indent=16%>这……不可能。这一定又是个骗局。",
+    "source_sha256": "02e384610a3b5b610ac3f9dcdc611bd55970d67deba08dfce82c5c1d87d143d9",
+    "origins": [
+      {
+        "asset": "scenes",
+        "asset_sha256": "ed4319ff1aed64b94fd9edc0ef331405a2e05400b2fd08355a951fdd1d9e5d3e",
+        "scene": "Spine_PoloniusQuestions",
+        "line": 85
+      }
+    ]
   },
   {
     "id": "place-dialogue-dialogue-gertrude-aef489d73fbf8e75",
@@ -412,7 +446,7 @@
   {
     "id": "place-dialogue-dialogue-ghost-4ef20fb06483d226",
     "source": "<line-height=90%><i><i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i></i>",
-    "target": "<line-height=90%><i><i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i></i>",
+    "target": "<line-height=90%><i><i>不要恨他，我的爱人。命运转动得太慢，才逼得他动了手。</i></i>",
     "source_sha256": "6f4bd728708306eaf9b85af193414b5dfbcdac6663f92966580c0cc19481f7dc",
     "origins": [
       {
@@ -426,7 +460,7 @@
   {
     "id": "place-dialogue-log-ghost-4ef20fb06483d226",
     "source": "<b>Ghost:</b> <indent=16%><i><i>Do not hate him, my love. His hand was forced by the plodding pace of fate.</i></i>",
-    "target": "<b>幽灵:</b> <indent=16%><i><i>不要恨他，我的爱人。命运运转得太慢，才逼得他动了手。</i></i>",
+    "target": "<b>幽灵:</b> <indent=16%><i><i>不要恨他，我的爱人。命运转动得太慢，才逼得他动了手。</i></i>",
     "source_sha256": "353fd99931e3576ba86612e323343456391b11d0481fffd49f956bf73a86a1ba",
     "origins": [
       {
@@ -440,7 +474,7 @@
   {
     "id": "place-dialogue-dialogue-ghost-500d1e0bebd8e59e",
     "source": "<line-height=90%><i><i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i></i>",
-    "target": "<line-height=90%><i><i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i></i>",
+    "target": "<line-height=90%><i><i>也不要恨克劳狄斯，我的好伙计。命运转动得太慢，才逼得我弟弟动了手。</i></i>",
     "source_sha256": "e3350c34ddc8c97298a165e8b31ffabfe31bfa0295d6930b2a4ba12330808f6a",
     "origins": [
       {
@@ -454,7 +488,7 @@
   {
     "id": "place-dialogue-log-ghost-500d1e0bebd8e59e",
     "source": "<b>Ghost:</b> <indent=16%><i><i>And do not hate Claudius, my good man. My brother's hand was forced by the plodding pace of fate.</i></i>",
-    "target": "<b>幽灵:</b> <indent=16%><i><i>也不要恨克劳狄斯，我的好伙计。命运运转得太慢，才逼得我弟弟动了手。</i></i>",
+    "target": "<b>幽灵:</b> <indent=16%><i><i>也不要恨克劳狄斯，我的好伙计。命运转动得太慢，才逼得我弟弟动了手。</i></i>",
     "source_sha256": "b95cb9257b928bf32d182917cd484879b60ee68dd88e387ae624fc01bfdfb4db",
     "origins": [
       {
