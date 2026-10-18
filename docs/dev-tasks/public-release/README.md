@@ -17,6 +17,7 @@
 - [玩家文档](../../release/README.md)、[GitHub发布说明](../../release/GITHUB-RELEASE.md)
 - [许可与对应源码](licenses.md)
 - [项目LGPL授权及源码随附](project-license.md)
+- [Steam简介、汉化声明及文案范围](localization-statement.md)
 - [辅助安装／卸载契约](installer.md)
 - [验收与边界](verification.md)
 - [独立版本号约定与本次验证范围](versioning.md)

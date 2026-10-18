@@ -1,0 +1,26 @@
+# Steam指南简介与汉化声明
+
+2026-10-19。用户提供参考Steam指南，要求补充简介与免费发布、译文权利、转载和改包声明，并同步仓库。
+
+## 文案决定
+
+- 根README、LICENSE-SCOPE.md、包内使用说明、GitHub发布页及Steam指南草稿使用同一份三段汉化声明。
+- 免费发布、支持正版、保留作者依法享有的译文与校订成果权利；非商业及修改后改包发布限制仅针对这部分成果。原样转载发布包时说明作者、来源，保留声明与完整性。
+- 不把游戏原作内容声称为项目作者所有，不采用“保留一切解释权”覆盖许可证或其他权利人的权利。
+- 明确LGPL代码与技术文档、第三方组件及字体不受上述译文限制；它们仍按各自许可证使用、修改和分发。欢迎Issue／PR及译文修正。
+- 参考项目README实际将代码标为LGPL-2.1-or-later、译文标为CC BY-NC 4.0。含非商用译文的整包限制与开源代码可以并存；但其Steam文案的统一禁改表述过宽，CC BY-NC本身也允许符合条件的非商业改编。本项目没有因此替用户选择CC许可证，当前为用户要求的译文保留声明及明确的开源例外。
+
+## 交付与验证
+
+`docs/release/Steam指南草稿.txt` 为带BOM的UTF-8文本，分别提供指南标题、简介及完整正文，包括下载占位、署名、安装与按键说明。由用户填写网盘链接和提取码后自行发布；未调用工具发布Steam指南，也不将带占位的草稿打入玩家ZIP。
+
+新包仍为69文件、39运行文件，和已公开LGPL版逐字节比较，仅使用说明、更新说明、项目许可范围TXT及插件源码归档变化。内层源码仍17文件，其中仅LICENSE-SCOPE.md变化，13个编译C#文件、原构建脚本及构建说明不变。字典、字体、插件和冻结翻译数据不变。
+
+用真实打包消费者检查五份仓库视图与包内声明一致、源码与已安装构建记录相符、草稿未被打包。沿用既有11项包边界／源码治理检查及未变化运行文件的安装和UI验收，不启动游戏或修改存档。机器记录见[声明专题核验](../../../runtime/evidence/public-release-localization-statement-verification-2026-10-19.json)。
+
+参考：
+
+- https://steamcommunity.com/sharedfiles/filedetails/?id=3594561217
+- https://github.com/Aiden2014/PipistrelloHan#许可证
+- https://creativecommons.org/licenses/by-nc/4.0/deed.zh-hans
+- https://choosealicense.com/licenses/lgpl-2.1/
