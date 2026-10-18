@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-19",
+  "status": "installed_verified",
+  "passed": true,
+  "installed": true,
+  "plugin_version": "1.5.15",
+  "plugin_sha256": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+  "font_bundle_sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+  "font_glyph_count": 7661,
+  "dictionary_sha256": "4fded3e374e3ce8fc5d84cb2454170ebe39cfbd59f79c2eeb2ec1df0d1164919",
+  "dynamic_dictionary_sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+  "dictionary_count": 17069,
+  "dynamic_rules": 157,
+  "pending_dictionary_changes": 0,
+  "reviewed_dialogue_occurrences": 31,
+  "branches": {
+    "first": 27,
+    "second": 2,
+    "repeat": 2
+  },
+  "corrections": [
+    {
+      "id": "p14506-3bf7e11752b1",
+      "source": "I know it's been a while.",
+      "previous_target": "我知道，已经有一阵子了。",
+      "target": "我知道，我们已经很久没说话了。"
+    },
+    {
+      "id": "p14508-d5fb902bbb5c",
+      "source": "A little less than that if one considers withering glares a form of speech.",
+      "previous_target": "如果把恶狠狠的瞪视也算作一种说话方式，那就短一些。",
+      "target": "如果把怒目相向也算作交谈，那就没那么久。"
+    },
+    {
+      "id": "p14509-58e63e69825c",
+      "source": "I don't. But I'm glad you're counting.",
+      "previous_target": "我不这么算。不过很高兴你还在数。",
+      "target": "我不这么算。不过，很高兴你还在记日子。"
+    },
+    {
+      "id": "p14512-d341108a8c7c",
+      "source": "In a thousand ways, yes. But each of them pales in comparison to this:",
+      "previous_target": "是的，我有一千种理由恨你。但每一种都比不上这一点：",
+      "target": "是的，我有一千种理由恨你。但都比不上这一种："
+    },
+    {
+      "id": "p14514-4b957c199f39",
+      "source": "I have had my fun in killing you any number of horrid ways. Frightening you. Breaking you...",
+      "previous_target": "我用无数种可怕的方式杀死你，已经尽兴了。恐吓你。让你崩溃……",
+      "target": "用种种骇人的手段杀死你、恐吓你、摧垮你……这些乐子我都享受过了。"
+    },
+    {
+      "id": "p14516-99d241093a14",
+      "source": "You are correct. For at the end of it all, only then did the strangest thing happen. You truly <i>did</i> give up. You lost the fight.",
+      "previous_target": "你说对了。因为直到这一切的最后，最奇怪的事才发生。你<i>确实</i>放弃了。你输掉了这场较量。",
+      "target": "没错。直到最后，最奇怪的事才终于发生：你<i>真的</i>放弃了。你输掉了这场较量。"
+    },
+    {
+      "id": "p14517-a7ea8d6dbe7c",
+      "source": "As you have ceased to be a player in this game these past years, retreating entirely, I find all of Elsinore has merged into one shapeless mass. Boredom has sanded off all the edges.",
+      "previous_target": "这些年来，你彻底退缩，不再参与这场游戏。我发现，整个埃尔西诺已经融成了没有形状的一团。无聊磨平了所有棱角。",
+      "target": "这些年来，你彻底退缩，不再参与这场游戏。在我眼中，整个埃尔西诺都已变得模糊不清，混成了一团。无聊磨平了所有棱角。"
+    },
+    {
+      "id": "p14518-baf96c0c05d9",
+      "source": "Each of its inhabitants is both alive and dead, joyful and grieving, clever and cruel, all at once. For I can no longer remember what is true any longer.",
+      "previous_target": "这里的每个人都同时活着又死去，欢喜又悲伤，聪明又残忍。因为我已经再也记不清什么是真的了。",
+      "target": "这里的每个人都同时活着又死去，欢喜又悲伤，聪明又残忍——我已经记不清，究竟什么才是真的了。"
+    },
+    {
+      "id": "p14520-9647719e7481",
+      "source": "I fear I have gone quite mad, Ophelia.",
+      "previous_target": "奥菲莉娅，我恐怕已经彻底疯了。",
+      "target": "奥菲莉娅，我怕是已经彻底疯了。"
+    },
+    {
+      "id": "p14521-e5e7492c3022",
+      "source": "Perhaps I never was sane to begin with. Perhaps it's always been this way. Or perhaps this will always be our shared delusion, you and I.",
+      "previous_target": "也许我从一开始就没清醒过。也许一直都是这样。又或者，这永远都会是你我共有的妄想。",
+      "target": "也许我从来就没正常过。也许一直都是这样。又或者，这永远都会是你我共同的妄想。"
+    },
+    {
+      "id": "p14522-eac6709ca9aa",
+      "source": "They say love is that sort of thing. A shared delusion. I wouldn't know. I've never been in love.",
+      "previous_target": "人们说爱情就是这样。一种共同的妄想。我不知道。我从没爱过谁。",
+      "target": "人们说，爱情就是这样——两个人共同的妄想。我也不懂。我从没爱上过谁。"
+    },
+    {
+      "id": "p14525-4c241b1e97c4",
+      "source": "The Book came to me for a reason. It chose me. Or it was granted to me. Why?",
+      "previous_target": "那本书来到我手里，是有原因的。它选择了我。或者，是谁把它赐给了我。为什么？",
+      "target": "那本书来到我手里，是有原因的。它选择了我。又或者，是谁将它赐给了我。为什么？"
+    },
+    {
+      "id": "p14526-74fcc302a8b2",
+      "source": "Why, indeed, if my fate was merely to become trapped in my own creation like a fool?",
+      "previous_target": "如果我的命运只是像个傻瓜一样，被困在自己创造的东西里，那究竟是为什么？",
+      "target": "如果我的命运仅仅是像个傻瓜一样，被困在自己创造的一切之中，那这一切究竟是为了什么？"
+    },
+    {
+      "id": "p14527-671c22cf25c7",
+      "source": "...But, no.",
+      "previous_target": "……不过，不。",
+      "target": "……不过，算了。"
+    },
+    {
+      "id": "p14528-71a17a92760f",
+      "source": "I have let all these thoughts crash over me ten thousand times. And there they go, washing away again out to sea.",
+      "previous_target": "这些念头已经像海浪一样，冲击了我一万次。如今它们又退去了，再次流回大海。",
+      "target": "这些念头已如海浪般冲击过我一万次。如今，它们又退去了，再次流回大海。"
+    },
+    {
+      "id": "p14531-abccc0e084ac",
+      "source": "I don't want to spend eternity at odds with you.",
+      "previous_target": "我不想永远和你作对。",
+      "target": "我不想永远和你敌对下去。"
+    },
+    {
+      "id": "p14532-e5bc2e980dd4",
+      "source": "Unfortunately for you, darling, <i>I</i> do.",
+      "previous_target": "亲爱的，可惜的是，<i>我</i>想。",
+      "target": "可惜，亲爱的，<i>我</i>想。"
+    },
+    {
+      "id": "p14534-79b68e515cf7",
+      "source": "I think we have precious little to say to one another anymore.",
+      "previous_target": "我想，我们如今已经没什么话可对彼此说了。",
+      "target": "我想，我们之间已经没什么可说的了。"
+    }
+  ],
+  "translation_governance_tests": 129,
+  "dialogue_consumer_cases": 93,
+  "love_context_regression_cases": 642,
+  "actual_xunity_dictionary_parser_cases": 17069,
+  "all_english_keys_ids_and_order_identical": true,
+  "new_characters": [],
+  "variant_audit": {
+    "paired_rows": 708,
+    "equal_pairs": 707,
+    "reviewed_differences": 1,
+    "unreviewed_differences": 0,
+    "aliases_checked": 33,
+    "alias_mismatches": [],
+    "missing": []
+  },
+  "package_files": {
+    ".doorstop_version": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+    "changelog.txt": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+    "doorstop_config.ini": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+    "elsinorehan_sans_sdf_u2018": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+    "README.md": "8ce2229bdd305198caa1ba65c3936840ff7dd2539a76f22ec72735ecdd286bc7",
+    "winhttp.dll": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+    "XUnity-LICENSE": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+    "BepInEx/config/AutoTranslatorConfig.ini": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+    "BepInEx/core/0Harmony.dll": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+    "BepInEx/core/0Harmony.xml": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+    "BepInEx/core/0Harmony20.dll": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+    "BepInEx/core/BepInEx.dll": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+    "BepInEx/core/BepInEx.Harmony.dll": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+    "BepInEx/core/BepInEx.Harmony.xml": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+    "BepInEx/core/BepInEx.Preloader.dll": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+    "BepInEx/core/BepInEx.Preloader.xml": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+    "BepInEx/core/BepInEx.xml": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+    "BepInEx/core/HarmonyXInterop.dll": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+    "BepInEx/core/Mono.Cecil.dll": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+    "BepInEx/core/Mono.Cecil.Mdb.dll": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+    "BepInEx/core/Mono.Cecil.Pdb.dll": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+    "BepInEx/core/Mono.Cecil.Rocks.dll": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+    "BepInEx/core/MonoMod.RuntimeDetour.dll": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+    "BepInEx/core/MonoMod.RuntimeDetour.xml": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+    "BepInEx/core/MonoMod.Utils.dll": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+    "BepInEx/core/MonoMod.Utils.xml": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+    "BepInEx/core/XUnity.Common.dll": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+    "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+    "BepInEx/plugins/README (AutoTranslator).md": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+    "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+    "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+    "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+    "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt": "4fded3e374e3ce8fc5d84cb2454170ebe39cfbd59f79c2eeb2ec1df0d1164919",
+    "licenses/ElsinoreHanSans-NOTICE.txt": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+    "licenses/ElsinoreHanSans-OFL.txt": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+    "licenses/TextMeshPro-Unity-Companion-License.txt": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0"
+  },
+  "package_file_count": 40,
+  "zip_matches_package": true,
+  "zip_sha256": "7fa82a8975f6972b117a675e3dc2efafa629b08482e0576034973001b81b34b8",
+  "previous_installed_verification": "runtime/evidence/playmaster-tone-install-verification-2026-10-19.json",
+  "limitations": [
+    "What?为全局共享英文键，此处仍保留什么，未全局改为干嘛。",
+    "安装前后仅只读核对存档文件哈希、大小、mtime与数量；未加载存档业务、推进剧情或恢复备份。",
+    "对白与状态验证沿用本候选已通过的离线资源及真实XUnity消费者，不称剧情E2E。"
+  ],
+  "post_burn_availability_audit": {
+    "verification_path": "runtime/evidence/post-burn-availability-audit-2026-10-19.json",
+    "ordinary_pages": 11,
+    "all_endings": 13,
+    "state_matrix_rows": 88,
+    "original_il_predicate_replays": 176,
+    "visible_source_checks": 94,
+    "consumer_cases": 127,
+    "missing_sources": 0,
+    "installed_line_mismatches": 0
+  },
+  "previous_candidate_verification": "runtime/evidence/post-burn-dialogue-verification-2026-10-19.json",
+  "changes_since_previous_candidate": 1,
+  "followup": "用户确认：可惜，亲爱的，<i>我</i>想。去掉倒字，保留斜体。",
+  "followup_checks": {
+    "scene_consumers": 93,
+    "actual_dictionary_parser": 17069,
+    "package_files": 40,
+    "english_keys_ids_order_unchanged": true,
+    "new_characters": []
+  },
+  "installed_dictionary_changes": 18,
+  "runtime_files_verified": 38,
+  "candidate_verification": "runtime/evidence/post-burn-reply-verification-2026-10-19.json",
+  "game_original_files_unchanged": true,
+  "game_original_files": [
+    {
+      "path": "Elsinore.exe",
+      "size": 639488,
+      "mtime_ns": 1710060162433595200,
+      "sha256": "df4fa0642113adec0d1f717a47526084314b3181b5f62a4547fcf05cd318fcf0"
+    },
+    {
+      "path": "UnityPlayer.dll",
+      "size": 18116096,
+      "mtime_ns": 1710060162468174600,
+      "sha256": "ccba993e746eef5c51de3eafa4ef3d62efddf463383ba42ec4341e88f4f3a449"
+    },
+    {
+      "path": "Elsinore_Data/resources.assets",
+      "size": 6971564,
+      "mtime_ns": 1710060162435595100,
+      "sha256": "6d0ae1f735d95db40b836cedfc25e92143aa3727fee7bcd71e0cb319320961fd"
+    },
+    {
+      "path": "Elsinore_Data/Managed/Assembly-CSharp.dll",
+      "size": 5664768,
+      "mtime_ns": 1710060162434595700,
+      "sha256": "69e348fc4180302fc38724ec8ee5609e7fc94b59622dcab881ce44cc0b2fe6af"
+    }
+  ],
+  "save_files_unchanged": true,
+  "save_files": [
+    {
+      "path": "elsinore_log.json",
+      "size": 622040,
+      "mtime_ns": 1792354676771878400,
+      "sha256": "0bf35c27682f83c8473a7c0e262561c3e308b83e0ddbcc25d34b371ad73c5776"
+    },
+    {
+      "path": "elsinore_log_2.json",
+      "size": 35889,
+      "mtime_ns": 1792354256227290400,
+      "sha256": "a1d6a8acfff18dccf9b5c313c137c9f95e4d8af955bda467128ea0e01c80bc73"
+    },
+    {
+      "path": "elsinore_log_3.json",
+      "size": 3042932,
+      "mtime_ns": 1792353778351575200,
+      "sha256": "9c16954265141f37f75e0c0f209f3bb803bee7d6f33931e1d431fc3dfaa313c3"
+    },
+    {
+      "path": "elsinore_log_4.json",
+      "size": 2048277,
+      "mtime_ns": 1792347872606934800,
+      "sha256": "c91da1816d12770f2a43f010ac69868d54953b5db8eb965b91f4d532ace2080d"
+    },
+    {
+      "path": "game.save",
+      "size": 3365209,
+      "mtime_ns": 1792354676204257700,
+      "sha256": "f4dfdc0d942e38341241a294712e72e7ffc0834c1fd9f45dffd5b4dd7ede2f91"
+    },
+    {
+      "path": "prefs.save",
+      "size": 151,
+      "mtime_ns": 1792230271423042800,
+      "sha256": "525ee98eada121eda7411a576268e661e343af5c02da313ff574fe3df3f34968"
+    },
+    {
+      "path": "steam_autocloud.vdf",
+      "size": 52,
+      "mtime_ns": 1792354264585875600,
+      "sha256": "03807274c5ba9799562c003eb6a47b9e7b526f27555b646787fd7e44cae3f341"
+    },
+    {
+      "path": "system.cfg",
+      "size": 106,
+      "mtime_ns": 1791627908187370400,
+      "sha256": "f7e064f6f930d806a4efe1e682c7f1f4ba05549015b587f4be6190ce1e6f87ee"
+    }
+  ],
+  "save_file_count": 8,
+  "save_restored": false,
+  "no_main_or_test_game_started": true,
+  "backup_policy": "不创建旧补丁备份；保留用户此前主动要求的检查点。",
+  "post_burn_new_dialogue_scope": {
+    "quince_dialogue": 31,
+    "quince_branches": [
+      27,
+      2,
+      2
+    ],
+    "morning_occurrences": 14,
+    "morning_nonlexical_occurrences": 2,
+    "morning_actors": [
+      "ophelia",
+      "hamlet"
+    ],
+    "other_dedicated_character_dialogue_found": false,
+    "reviewed_references": 21,
+    "qualification": "仍可发生既有普通剧情与对白；未发现其他角色针对烧书结果的专属新对话。"
+  },
+  "post_burn_dialogue_state_references": [
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 4723,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 4824,
+      "text": "        [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 4851,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 6275,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 6303,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "schedule",
+      "asset_sha256": "c9729c297f9df2d9442f9c899cb1fd2754ffe1af054ed24e385da837fa708f47",
+      "line": 6354,
+      "text": "            [\"not viewedEnding(END_Revenge)\"]"
+    },
+    {
+      "asset": "endings",
+      "asset_sha256": "9e4951e02fa91d220df788335fff28df5d15f2f376dc294c338da18d21b2abd1",
+      "line": 75,
+      "text": "        \"id\": \"END_Revenge\","
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 129,
+      "text": "if previously anyEndingConfirmed && not viewedEnding(END_Revenge):"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 174,
+      "text": "if viewedEnding(END_Revenge):"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 510,
+      "text": "elif viewedEnding(END_Revenge):"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "line": 13604,
+      "text": "assert unlockedEnding(END_Revenge)"
+    },
+    {
+      "asset": "musiccues",
+      "asset_sha256": "198abad9ba0bbc2ac99c6b062c472cbcf659b46c01e775986037875ab04ad3f0",
+      "line": 55,
+      "text": "        \"condition\": [\"occurred(SC_SPINE_OpheliaHamletStarter)\",\"CurrentTime < Time(1,13,00)\",\"not demontripped\",\"not dead(hamlet)\",\"not dead(claudius)\",\"not dead(gertrude)\",\"not dead(polonius)\",\"not viewedEnding(END_JoinQuince)\",\"not viewedEnding(END_Revenge)\"],"
+    },
+    {
+      "asset": "common_declarations",
+      "asset_sha256": "9b182988804ed4b8abd2365b3f03da293fbf91b2b041153c0e02584904bcd68b",
+      "line": 90,
+      "text": "counter bookburnedQuinceConvos //used when talking to quince after returning post book burning ending"
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+      "line": 217,
+      "text": "{POSTEND_QuinceBookBurned}"
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+      "line": 218,
+      "text": "if bookburnedQuinceConvos = 0:"
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+      "line": 264,
+      "text": "    increment bookburnedQuinceConvos"
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+      "line": 265,
+      "text": "elif bookburnedQuinceConvos = 1:"
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+      "line": 268,
+      "text": "increment bookburnedQuinceConvos"
+    },
+    {
+      "asset": "scenes_smalltalk",
+      "asset_sha256": "aef8dad0e3b11e6d39b3c0f537430008bfbb5cf05a11b4ee863c86da42b918dd",
+      "line": 269,
+      "text": "elif bookburnedQuinceConvos > 1:"
+    },
+    {
+      "asset": "smalltalk",
+      "asset_sha256": "0122007f2e4f20d2e1e0e3109dbde358cbb1d6215f258c05b82f7d90778106f7",
+      "line": 229,
+      "text": "        \"scene\": \"POSTEND_QuinceBookBurned\","
+    },
+    {
+      "asset": "smalltalk",
+      "asset_sha256": "0122007f2e4f20d2e1e0e3109dbde358cbb1d6215f258c05b82f7d90778106f7",
+      "line": 236,
+      "text": "        \"scene\": \"POSTEND_QuinceBookBurned\","
+    }
+  ]
+}
