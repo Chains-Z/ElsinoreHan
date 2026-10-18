@@ -1,4 +1,4 @@
-"""核对13个真实结局、编译源与逐段审查记录，导出正文夹具及中文阅读稿。"""
+"""核对13个真实结局、编译源与逐段审查记录，导出正文夹具及中英对照阅读稿。"""
 
 import json
 import re
@@ -41,7 +41,7 @@ def main():
     translations = {row["source"]: row for row in read(
         ROOT / "translation/sol-full-2026-10-09/translations.json")}
     assembly = {row["source"]: row for row in read(ROOT / "analysis/ui-audit/assembly-strings.json")}
-    cases, reading = [], ["Elsinore：13个结局完整中文正文", "校订候选，包含剧透；按真实结局播放顺序分段。",
+    cases, reading = [], ["Elsinore：13个结局完整中英对照正文", "校订候选，包含剧透；按真实结局播放顺序分段，每段中文在上、英文在下。",
                           "原文斜体、粗体以「」标示，仅作阅读提示，游戏内仍保留原强调格式。", ""]
     narrative, pauses, variants, changed = 0, 0, 0, 0
     for extracted, ending in zip(actual, review["endings"]):
@@ -80,16 +80,17 @@ def main():
                 cases.append({"id": case_id + "-resource", "source": raw,
                               "target": reviewed["resource_target"], "source_sha256": digest(raw),
                               "origins": [origin]})
-            # 阅读稿采用真实编译源的译文；强调用中文引号显式保留，不输出TMP标签。
+            # 中文及其对应的真实编译英文逐段相邻；强调用引号标示，不输出TMP标签。
             content = re.sub(r'<(?:i|b)>(.*?)</(?:i|b)>', r'「\1」', reviewed["target"])
-            reading.extend([content, ""])
+            original = re.sub(r'<(?:i|b)>(.*?)</(?:i|b)>', r'「\1」', runtime)
+            reading.extend([content, original, ""])
     assert (narrative, pauses, variants, changed) == (399, 3, 5, 15)
     assert len(cases) == 407
     save(ROOT / "translation/supplemental/all-endings-tests.json", cases)
     destination = ROOT / "docs/dev-tasks/localization/endings-review-2026-10-18/ending-texts-zh-CN.txt"
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text("\n".join(reading), encoding="utf-8", newline="\n")
-    print("13结局399段正文、3处省略号与5条编译源变体已核对；生成407项消费者和完整中文阅读稿")
+    print("13结局399段正文、3处省略号与5条编译源变体已核对；生成407项消费者和完整中英对照阅读稿")
 
 
 if __name__ == "__main__":
