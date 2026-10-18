@@ -1,0 +1,2282 @@
+{
+  "date": "2026-10-19",
+  "scope": "集会后的站位、巡逻、躲藏和跟踪；只读原资源及程序集，不启动游戏、不访问存档。",
+  "background_entries": [
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2246
+      },
+      "entry": {
+        "condition": [
+          "demontripped"
+        ],
+        "duration": {
+          "assembly": 200,
+          "teardown": 5,
+          "trigger": 30
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_QuinceLoiter",
+        "participants": {
+          "quince": "lookatpainting2"
+        },
+        "scene": "BK_Empty",
+        "room": "gallery",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2268
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_BernardoFallBack",
+        "participants": {
+          "bernardo": "BernardoPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2290
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_MarcellusFallBack",
+        "participants": {
+          "marcellus": "MarcellusPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2312
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_HamletFallBack",
+        "participants": {
+          "hamlet": "HamletPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2334
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_HoratioFallBack",
+        "participants": {
+          "horatio": "HoratioPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2356
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_BritFallBack",
+        "participants": {
+          "brit": "BritPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2378
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_IrmaFallBack",
+        "participants": {
+          "irma": "IrmaPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2400
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_RosencrantzFallBack",
+        "participants": {
+          "rosencrantz": "ClaudiusPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2422
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_GuildensternFallBack",
+        "participants": {
+          "guildenstern": "GertrudePart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2444
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_ClaudiusFallBack",
+        "participants": {
+          "claudius": "kingthrone"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2466
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_GertrudeFallBack",
+        "participants": {
+          "gertrude": "queenthrone"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2488
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_PoloniusFallBack",
+        "participants": {
+          "polonius": "SwordFightPos2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2510
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "lowprioritybackground"
+        ],
+        "id": "BK_WITCH_LaertesFallBack",
+        "participants": {
+          "laertes": "SwordFightPos1"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2535
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_BernardoPhase1",
+        "participants": {
+          "bernardo": "HoratioStart"
+        },
+        "scene": "BK_BernardoPatrol",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2557
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_MarcellusPhase1",
+        "participants": {
+          "marcellus": "CourtyardSouth_guarddoor"
+        },
+        "scene": "BK_MarcellusPatrol",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2579
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_HamletPhase1",
+        "participants": {
+          "hamlet": "CourtyardNorth_default1"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2601
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_HoratioPhase1",
+        "participants": {
+          "horatio": "CourtyardNorth_default2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2623
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_BritPhase1",
+        "participants": {
+          "brit": "gert_center2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2645
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_IrmaPhase1",
+        "participants": {
+          "irma": "gert_center3"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2667
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_RosencrantzPhase1",
+        "participants": {
+          "rosencrantz": "BritStart"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2689
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_GuildensternPhase1",
+        "participants": {
+          "guildenstern": "IrmaStart"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2711
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_ClaudiusPhase1",
+        "participants": {
+          "claudius": "claud_2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2733
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ],
+          [
+            "not believes(gertrude,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_GertrudePhase1",
+        "participants": {
+          "gertrude": "gert_mirror"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2755
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_PoloniusPhase1",
+        "participants": {
+          "polonius": "SwordFightPos2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2777
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "not counter_(erasedCount,5)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_LaertesPhase1",
+        "participants": {
+          "laertes": "SwordFightPos1"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2802
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_BernardoPhase2",
+        "participants": {
+          "bernardo": "HoratioStart"
+        },
+        "scene": "BK_BernardoPatrol2",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2824
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_MarcellusPhase2",
+        "participants": {
+          "marcellus": "OpheliaDuringInvasion"
+        },
+        "scene": "BK_MarcellusPatrol2",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2846
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_HamletPhase2",
+        "participants": {
+          "hamlet": "HamletPart2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2868
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_HoratioPhase2",
+        "participants": {
+          "horatio": "CourtyardWest_default1"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2890
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_BritPhase2",
+        "participants": {
+          "brit": "CourtyardNorth_default2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2912
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_IrmaPhase2",
+        "participants": {
+          "irma": "CourtyardWest_default2"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2934
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_RosencrantzPhase2",
+        "participants": {
+          "rosencrantz": "CourtyardWest_default3"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2956
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_GuildensternPhase2",
+        "participants": {
+          "guildenstern": "CourtyardWest_default4"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 2978
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_ClaudiusPhase2",
+        "participants": {
+          "claudius": "kingthrone"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3000
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ],
+          [
+            "not believes(gertrude,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_GertrudePhase2",
+        "participants": {
+          "gertrude": "queenthrone"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3022
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_PoloniusPhase2",
+        "participants": {
+          "polonius": "CourtyardNorth_default1"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3044
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "counter_(erasedCount,5)"
+          ],
+          [
+            "not counter_(erasedCount,8)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly"
+        ],
+        "id": "BK_WITCH_LaertesPhase2",
+        "participants": {
+          "laertes": "CourtyardNorth_default3"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3070
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(rosencrantz,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_WITCH_RosencrantzHide",
+        "participants": {
+          "rosencrantz": "dun_shadow"
+        },
+        "scene": "BK_RoseyHide",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3092
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(guildenstern,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 60
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_WITCH_GuildensternHide",
+        "participants": {
+          "guildenstern": "chap_pewleft"
+        },
+        "scene": "BK_GuildaHide",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3114
+      },
+      "entry": {
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "believes(irma,demon)"
+          ]
+        ],
+        "duration": {
+          "assembly": 120,
+          "teardown": 1,
+          "trigger": 5
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_WITCH_IrmaFlee",
+        "participants": {
+          "irma": "chap_altercenter"
+        },
+        "scene": "BK_IrmaFlee",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3134
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "wants(bernardo,investigate(ophelia))"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 10
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_WITCH_BernardoStalk",
+        "participants": {
+          "bernardo": false
+        },
+        "scene": "BK_BernardoStalk",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3157
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "wants(marcellus,investigate(ophelia))"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 10
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_WITCH_Marcellustalk",
+        "participants": {
+          "marcellus": false
+        },
+        "scene": "BK_MarcellusStalk",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3180
+      },
+      "entry": {
+        "type": "loopingbackground",
+        "condition": [
+          [
+            "demontripped"
+          ],
+          [
+            "wants(polonius,investigate(ophelia))"
+          ]
+        ],
+        "duration": {
+          "assembly": 60,
+          "teardown": 1,
+          "trigger": 10
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_WITCH_PoloniusStalk",
+        "participants": {
+          "polonius": false
+        },
+        "scene": "BK_PoloniusStalk",
+        "time": [
+          {}
+        ]
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3205
+      },
+      "entry": {
+        "condition": [
+          "demontripped"
+        ],
+        "duration": {
+          "assembly": 200,
+          "teardown": 5,
+          "trigger": 30
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_GuardHide",
+        "participants": {
+          "guard": "street_end_south"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3226
+      },
+      "entry": {
+        "condition": [
+          "demontripped"
+        ],
+        "duration": {
+          "assembly": 200,
+          "teardown": 5,
+          "trigger": 30
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_GuardHide2",
+        "participants": {
+          "guard2": "street_end_south"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3247
+      },
+      "entry": {
+        "condition": [
+          "demontripped"
+        ],
+        "duration": {
+          "assembly": 200,
+          "teardown": 5,
+          "trigger": 30
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_KubiliusHide",
+        "participants": {
+          "kubilius": "street_end_south"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3268
+      },
+      "entry": {
+        "condition": [
+          "demontripped"
+        ],
+        "duration": {
+          "assembly": 200,
+          "teardown": 5,
+          "trigger": 30
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_McDonaldHide",
+        "participants": {
+          "mcdonald": "street_end_south"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3289
+      },
+      "entry": {
+        "condition": [
+          "demontripped"
+        ],
+        "duration": {
+          "assembly": 200,
+          "teardown": 5,
+          "trigger": 30
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_ReyHide",
+        "participants": {
+          "reynaldo": "street_end_south"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    },
+    {
+      "origin": {
+        "asset": "schedule_background",
+        "asset_sha256": "43dc3b8712f61f8a39f04e1ba142ec2196a2f12cb1a8fa4c2d9482b5371ff5cc",
+        "line": 3310
+      },
+      "entry": {
+        "condition": [
+          "demontripped"
+        ],
+        "duration": {
+          "assembly": 200,
+          "teardown": 5,
+          "trigger": 30
+        },
+        "flags": [
+          "canadvanceearly",
+          "highprioritybackground"
+        ],
+        "id": "BK_KistlerHide",
+        "participants": {
+          "kistler": "street_end_south"
+        },
+        "scene": "BK_Empty",
+        "time": [
+          {}
+        ],
+        "type": "loopingbackground"
+      }
+    }
+  ],
+  "background_count": 49,
+  "phase1_entries": 12,
+  "phase2_entries": 12,
+  "parsing_note": "原schedule_background整份含既有非标准JSON错误；逐个原对象使用项目既有read_json解析，未改写原资产。记录原行号及资产SHA256。",
+  "behavior_scene_sources": [
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "scene": "Witch_GertrudeResponse2",
+      "line": 22602,
+      "text": "{Witch_GertrudeResponse2}\nsection 20\n[LookAt(gertrude,bernardo)]\n[noblock LookAt(bernardo,gertrude)]\ngertrude: {Stammer} \"Bernardo. Did you... see... Ophelia?\"\n[noblock Play(bernardo,am_shrug)]\nbernardo: {Gasp_Small} \"When? In what sort of way?\"\n[noblock Play(gertrude,am_rub_brow)]\ngertrude: \"She's... done something horrible.\"\ngertrude: \"There's something inside her. Something evil.\"\n[noblock Play(bernardo,am_think)]\nbernardo: \"A-as in, some sort of spirit?\"\n[noblock Play(gertrude,am_shake_head)]\ngertrude: {Crying} \"She took a life without laying a hand to anyone!\"\ngertrude: \"W-with merely a word!\"\n[noblock Play(bernardo,am_fold_arms)]\nbernardo: {I_See_Dark} \"I see. A trick of the Devil, sent to test us.\"\nbernardo: \"There's been far too much of spirits lately.\"\nbernardo: \"I'll handle this, my lady.\"\nassert wants(bernardo, investigate(ophelia))"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "scene": "Witch_GertrudeResponse3",
+      "line": 22623,
+      "text": "{Witch_GertrudeResponse3}\nsection 20\n[LookAt(gertrude,marcellus)]\n[noblock LookAt(marcellus,gertrude)]\ngertrude: {Please_Sad} \"Marcellus. Did you... see... Ophelia?\"\n[noblock Play(marcellus,am_shrug)]\nmarcellus: {Hmm_Suspicious} \"Wot happened, Yer Highness?\"\n[noblock Play(gertrude,am_denial)]\ngertrude: {Crying} \"There's something in her eyes. And her hands are stained with blood.\"\ngertrude: \"She took a life with mere words. This cannot be human, can it? This cannot be possible for a woman to do!\"\n[Play(marcellus,am_fold_arms)]\nmarcellus: {My_Lady_Sad} \"M'lady, the devil's been at work aroun' this castle.\"\nmarcellus: \"This ain't the first apparition this week.\"\n[noblock Play(marcellus,am_nod)]\nmarcellus: \"Let me 'andle this, Yer Highness.\"\nassert wants(marcellus, investigate(ophelia))"
+    },
+    {
+      "asset": "scenes",
+      "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
+      "scene": "Witch_GertrudeResponse4",
+      "line": 22640,
+      "text": "{Witch_GertrudeResponse4}\nsection 20\n[LookAt(gertrude,polonius)]\n[noblock LookAt(polonius,gertrude)]\ngertrude: {Crying} \"Polonius. Have you seen your daughter?\"\npolonius: {What_Surprised} \"What happened? Is she all right?\"\n[noblock Play(gertrude,am_shake_head)]\ngertrude: \"No.\"\n[Play(gertrude,am_bury_head)]\ngertrude: [despair] {Crying} \"No. Something's wrong.\"\ngertrude: [despair] \"There's something inside her. Something evil.\"\n[noblock Play(polonius,am_step_back)]\npolonius: {Sigh} \"I'm sure there's been a misunderstanding.\"\n[noblock Play(gertrude,am_stand)]\ngertrude: {No_Anguish} \"No. I <i>know</i> what I saw.\"\ngertrude: \"She's possessed by a dark spirit. Or worse.\"\n[Play(polonius,am_stand)]\npolonius: {Stammer} \"I must go to her.\"\npolonius: \"Ophelia could never do something like that. I'll set all this right.\"\nassert wants(polonius, investigate(ophelia))"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_RoseyHide",
+      "line": 182,
+      "text": "{BK_RoseyHide}\n[Play(rosencrantz,am_crouch)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_GuildaHide",
+      "line": 185,
+      "text": "{BK_GuildaHide}\n[Play(guildenstern,am_crouch)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_BernardoStalk",
+      "line": 188,
+      "text": "{BK_BernardoStalk}\n[MoveToCharTalk(bernardo,ophelia)]\n[Delay(5.0)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_MarcellusStalk",
+      "line": 192,
+      "text": "{BK_MarcellusStalk}\n[MoveToCharTalk(marcellus,ophelia)]\n[Delay(5.0)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_PoloniusStalk",
+      "line": 196,
+      "text": "{BK_PoloniusStalk}\n[MoveToCharTalk(polonius,ophelia)]\n[Delay(5.0)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_MarcellusPatrol",
+      "line": 200,
+      "text": "{BK_MarcellusPatrol}\n[Move(marcellus,CourtyardSouth_guarddoor)]\n[Delay(20.0)]\n[Move(marcellus,OpheliaDuringInvasion)]\n[Delay(10.0)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_BernardoPatrol",
+      "line": 206,
+      "text": "{BK_BernardoPatrol}\n[Move(bernardo,HoratioStart)]\n[Delay(20.0)]\n[Move(bernardo,claud_1)]\n[Delay(10.0)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_MarcellusPatrol2",
+      "line": 212,
+      "text": "{BK_MarcellusPatrol2}\n[Move(marcellus,OpheliaDuringInvasion)]\n[Delay(20.0)]\n[Move(marcellus,waterplants8)]\n[Delay(10.0)]"
+    },
+    {
+      "asset": "scenes_background",
+      "asset_sha256": "b5d17e34d1f6df7e8898af9d7865845e9697b5270b35934b082ceecb1e85fc96",
+      "scene": "BK_BernardoPatrol2",
+      "line": 218,
+      "text": "{BK_BernardoPatrol2}\n[Move(bernardo,HoratioStart)]\n[Delay(20.0)]\n[Move(bernardo,BernardoPart2)]\n[Delay(10.0)]"
+    }
+  ],
+  "original_il_evidence": {
+    "priority_il": [
+      "IL_00a5: nop",
+      "IL_00a6: stloc.2",
+      "IL_00a7: ldarg.1",
+      "IL_00a8: ldfld Elsinore.Game.EventFlags Elsinore.Game.ElsinoreEvent::Flags@",
+      "IL_00ad: ldc.i4.s 16",
+      "IL_00af: and",
+      "IL_00b0: ldc.i4.s 16",
+      "IL_00b2: bne.un.s IL_00bc",
+      "IL_00b4: ldc.i4 1900000000",
+      "IL_00b9: nop",
+      "IL_00ba: br.s IL_00fa",
+      "IL_00bc: ldarg.1",
+      "IL_00bd: ldfld Elsinore.Game.EventFlags Elsinore.Game.ElsinoreEvent::Flags@",
+      "IL_00c2: ldc.i4.s 32",
+      "IL_00c4: and",
+      "IL_00c5: ldc.i4.s 32",
+      "IL_00c7: bne.un.s IL_00d7",
+      "IL_00c9: ldc.i4 100000000",
+      "IL_00ce: ldloc.2",
+      "IL_00cf: ldc.i4.2",
+      "IL_00d0: mul",
+      "IL_00d1: add",
+      "IL_00d2: ldc.i4.1",
+      "IL_00d3: add",
+      "IL_00d4: nop",
+      "IL_00d5: br.s IL_00fa",
+      "IL_00d7: ldarg.1",
+      "IL_00d8: ldfld Elsinore.Game.EventFlags Elsinore.Game.ElsinoreEvent::Flags@",
+      "IL_00dd: ldc.i4.s 64",
+      "IL_00df: and",
+      "IL_00e0: ldc.i4.s 64",
+      "IL_00e2: bne.un.s IL_00ee",
+      "IL_00e4: ldc.i4.1",
+      "IL_00e5: ldloc.2",
+      "IL_00e6: ldc.i4.2",
+      "IL_00e7: mul",
+      "IL_00e8: add",
+      "IL_00e9: ldc.i4.1",
+      "IL_00ea: add",
+      "IL_00eb: nop",
+      "IL_00ec: br.s IL_00fa",
+      "IL_00ee: ldc.i4 900000000",
+      "IL_00f3: ldloc.2",
+      "IL_00f4: ldc.i4.2",
+      "IL_00f5: mul",
+      "IL_00f6: add",
+      "IL_00f7: ldc.i4.1",
+      "IL_00f8: add",
+      "IL_00f9: nop",
+      "IL_00fa: stloc.s V_6",
+      "IL_00fc: ldarg.1",
+      "IL_00fd: ldflda Elsinore.Game.HEventId Elsinore.Game.ElsinoreEvent::Id@",
+      "IL_0102: stloc.s V_9",
+      "IL_0104: ldloc.s V_9",
+      "IL_0106: ldfld System.String Elsinore.Game.HEventId::Name@",
+      "IL_010b: ldstr \"$\"",
+      "IL_0110: call System.String System.String::Concat(System.String,System.String)",
+      "IL_0115: newobj System.Void Elsinore.Game.PEventId::.ctor(System.String)",
+      "IL_011a: ldarg.1",
+      "IL_011b: ldfld Elsinore.Game.HEventId Elsinore.Game.ElsinoreEvent::Id@",
+      "IL_0120: call Microsoft.FSharp.Core.FSharpOption`1<!0> Microsoft.FSharp.Core.FSharpOption`1<Elsinore.Game.HEventId>::Some(!0)",
+      "IL_0125: ldarg.1",
+      "IL_0126: ldfld Elsinore.Game.EventFlags Elsinore.Game.ElsinoreEvent::Flags@",
+      "IL_012b: ldc.i4 256",
+      "IL_0130: and",
+      "IL_0131: ldc.i4 256",
+      "IL_0136: bne.un.s IL_0157",
+      "IL_0138: ldarg.1",
+      "IL_0139: ldfld Elsinore.Game.RoomId[] Elsinore.Game.ElsinoreEvent::Rooms@",
+      "IL_013e: ldarg.0",
+      "IL_013f: newobj System.Void Elsinore.Game.HighLevelScheduler/copyBasicInfo@99::.ctor(Elsinore.Game.ElsinoreData)",
+      "IL_0144: ldarg.1",
+      "IL_0145: ldfld Elsinore.Game.RoomId[] Elsinore.Game.ElsinoreEvent::Rooms@",
+      "IL_014a: call !!1[] Microsoft.FSharp.Collections.ArrayModule::Collect<Elsinore.Game.RoomId,Elsinore.Game.RoomId>(Microsoft.FSharp.Core.FSharpFunc`2<!!0,!!1[]>,!!0[])",
+      "IL_014f: call !!0[] Microsoft.FSharp.Collections.ArrayModule::Append<Elsinore.Game.RoomId>(!!0[],!!0[])",
+      "IL_0154: nop",
+      "IL_0155: br.s IL_015e",
+      "IL_0157: ldarg.1",
+      "IL_0158: ldfld Elsinore.Game.RoomId[] Elsinore.Game.ElsinoreEvent::Rooms@",
+      "IL_015d: nop",
+      "IL_015e: ldarg.1",
+      "IL_015f: ldfld Elsinore.Game.TimeWindow[] Elsinore.Game.ElsinoreEvent::Time@",
+      "IL_0164: ldarg.1",
+      "IL_0165: ldfld Agakme.Scripting.Ast/Expression Elsinore.Game.ElsinoreEvent::Condition@",
+      "IL_016a: call Agakme.GroundCnf Elsinore.Game.CompilerUtilities::extractCnf(Agakme.Scripting.Ast/Expression)",
+      "IL_016f: ldarg.1",
+      "IL_0170: callvirt System.Boolean Elsinore.Game.ElsinoreEvent::get_IsBackground()",
+      "IL_0175: brfalse.s IL_017c",
+      "IL_0177: ldloc.s V_6",
+      "IL_0179: nop",
+      "IL_017a: br.s IL_019f",
+      "IL_017c: ldarg.1",
+      "IL_017d: ldfld Elsinore.Game.EventFlags Elsinore.Game.ElsinoreEvent::Flags@",
+      "IL_0182: ldc.i4 2048",
+      "IL_0187: and",
+      "IL_0188: ldc.i4 2048",
+      "IL_018d: bne.un.s IL_0197",
+      "IL_018f: ldc.i4 2147483646",
+      "IL_0194: nop",
+      "IL_0195: br.s IL_019f",
+      "IL_0197: ldc.i4 2147483645",
+      "IL_019c: nop",
+      "IL_019d: br.s IL_019f",
+      "IL_019f: ldarg.1",
+      "IL_01a0: callvirt System.Boolean Elsinore.Game.ElsinoreEvent::get_IsBackground()",
+      "IL_01a5: brfalse.s IL_01ac",
+      "IL_01a7: ldloc.s V_6",
+      "IL_01a9: nop",
+      "IL_01aa: br.s IL_01b2",
+      "IL_01ac: ldc.i4 2000000000",
+      "IL_01b1: nop",
+      "IL_01b2: ldarg.1",
+      "IL_01b3: callvirt System.Boolean Elsinore.Game.ElsinoreEvent::get_IsBackground()",
+      "IL_01b8: brfalse.s IL_01bf",
+      "IL_01ba: ldloc.s V_6",
+      "IL_01bc: nop",
+      "IL_01bd: br.s IL_01c5",
+      "IL_01bf: ldc.i4 2147483647",
+      "IL_01c4: nop",
+      "IL_01c5: ldarg.1",
+      "IL_01c6: ldfld Elsinore.Game.Duration Elsinore.Game.ElsinoreEvent::Duration@",
+      "IL_01cb: ldarg.1",
+      "IL_01cc: ldfld Elsinore.Game.CharacterId[] Elsinore.Game.ElsinoreEvent::Participants@",
+      "IL_01d1: ldarg.1",
+      "IL_01d2: ldfld System.Tuple`2<Elsinore.Game.CharacterId,Agakme.Scripting.Ast/ConjunctiveNormalForm>[] Elsinore.Game.ElsinoreEvent::Observers@",
+      "IL_01d7: stloc.1",
+      "IL_01d8: ldloc.1",
+      "IL_01d9: box System.Tuple`2<Elsinore.Game.CharacterId,Agakme.Scripting.Ast/ConjunctiveNormalForm>[]",
+      "IL_01de: brfalse.s IL_01e3",
+      "IL_01e0: nop",
+      "IL_01e1: br.s IL_01ee",
+      "IL_01e3: ldstr \"array\"",
+      "IL_01e8: newobj System.Void System.ArgumentNullException::.ctor(System.String)",
+      "IL_01ed: throw",
+      "IL_01ee: ldloc.1",
+      "IL_01ef: ldlen",
+      "IL_01f0: conv.i4",
+      "IL_01f1: stloc.s V_7",
+      "IL_01f3: ldloc.s V_7",
+      "IL_01f5: newarr System.Tuple`2<Elsinore.Game.CharacterId,Agakme.GroundCnf>",
+      "IL_01fa: stloc.s V_10"
+    ],
+    "priority": {
+      "default_background_base": 900000000,
+      "low_background_base": 100000000,
+      "high_background": 1900000000,
+      "non_background_preempt_offense": 2000000000,
+      "non_background_preempt_defense": 2147483647
+    },
+    "resource_references": {
+      "investigate": "scenes-6f4f49b1.txt：Witch_GertrudeResponse2/3/4；主会话已核验对应wants赋值",
+      "hide": "scenes_background-b5d17e34.txt:182-186",
+      "stalk": "scenes_background-b5d17e34.txt:188-198",
+      "patrol": "scenes_background-b5d17e34.txt:200及以后"
+    },
+    "scope": "真实程序集只读IL与资源场景核查；未启动游戏、读写存档或改游戏。",
+    "conclusions": [
+      "不支持全局永久结伴或不能独处；各角色由独立背景事件安排地点、巡逻与藏匿。",
+      "Stalk是真实接近奥菲莉娅动作，三个角色各自单人事件，额外要求wants(character,investigate(ophelia))，不是demontripped单独开启。",
+      "CharacterBehavior根据当前调度事件指定目的地，没有demon专属成队绑定；焦虑状态只看Upset/Shattered。",
+      "HighPriorityBackground数值1900000000，普通背景900000000+时间，LowPriorityBackground100000000+时间；非背景事件抢占攻击2000000000，防御2147483647。因此背景安排服从正常事件抢占。"
+    ],
+    "methods": [
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.0",
+          "IL_0001: ldfld ObjectTracker CharacterBehavior::system",
+          "IL_0006: callvirt IGameInfo ObjectTracker::get_Info()",
+          "IL_000b: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+          "IL_0010: callvirt Agakme.Logic/LogicState Elsinore.Game.GameState::get_Logic()",
+          "IL_0015: stloc.0",
+          "IL_0016: ldarg.0",
+          "IL_0017: ldfld Agakme.GroundAtom[] CharacterBehavior::distressedAtoms",
+          "IL_001c: brtrue.s IL_0046",
+          "IL_001e: ldarg.0",
+          "IL_001f: ldc.i4.2",
+          "IL_0020: newarr Agakme.GroundAtom",
+          "IL_0025: dup",
+          "IL_0026: ldc.i4.0",
+          "IL_0027: ldarg.0",
+          "IL_0028: call Elsinore.Game.CharacterId CharacterBehavior::get_Id()",
+          "IL_002d: call Agakme.GroundAtom Elsinore.Game.Model/Atom::Upset(Elsinore.Game.CharacterId)",
+          "IL_0032: stelem.ref",
+          "IL_0033: dup",
+          "IL_0034: ldc.i4.1",
+          "IL_0035: ldarg.0",
+          "IL_0036: call Elsinore.Game.CharacterId CharacterBehavior::get_Id()",
+          "IL_003b: call Agakme.GroundAtom Elsinore.Game.Model/Atom::Shattered(Elsinore.Game.CharacterId)",
+          "IL_0040: stelem.ref",
+          "IL_0041: stfld Agakme.GroundAtom[] CharacterBehavior::distressedAtoms",
+          "IL_0046: ldloc.0",
+          "IL_0047: ldarg.0",
+          "IL_0048: ldfld Agakme.GroundAtom[] CharacterBehavior::distressedAtoms",
+          "IL_004d: ldc.i4.1",
+          "IL_004e: ldelem.ref",
+          "IL_004f: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+          "IL_0054: brfalse.s IL_0058",
+          "IL_0056: ldc.i4.2",
+          "IL_0057: ret",
+          "IL_0058: ldloc.0",
+          "IL_0059: ldarg.0",
+          "IL_005a: ldfld Agakme.GroundAtom[] CharacterBehavior::distressedAtoms",
+          "IL_005f: ldc.i4.0",
+          "IL_0060: ldelem.ref",
+          "IL_0061: callvirt System.Boolean Agakme.Logic/LogicState::IsTrue(Agakme.GroundAtom)",
+          "IL_0066: brfalse.s IL_006a",
+          "IL_0068: ldc.i4.1",
+          "IL_0069: ret",
+          "IL_006a: ldc.i4.0",
+          "IL_006b: ret"
+        ],
+        "method": "CharacterBehavior/DistressedType CharacterBehavior::get_distressedState()"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldloca.s V_0",
+          "IL_0002: ldstr \"CurrentEventDestination\"",
+          "IL_0007: call System.Void Elsinore.Unity.SamplingGuard::.ctor(System.String)",
+          "IL_000c: ldarg.0",
+          "IL_000d: ldfld ObjectTracker CharacterBehavior::system",
+          "IL_0012: callvirt IGameInfo ObjectTracker::get_Info()",
+          "IL_0017: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+          "IL_001c: callvirt Elsinore.Game.Scheduler/ScheduleState Elsinore.Game.GameState::get_Schedule()",
+          "IL_0021: ldarg.0",
+          "IL_0022: call Elsinore.Game.CharacterId CharacterBehavior::get_Id()",
+          "IL_0027: callvirt System.Boolean Elsinore.Game.Scheduler/ScheduleState::IsCharacterInSchedule(Elsinore.Game.CharacterId)",
+          "IL_002c: brtrue.s IL_0035",
+          "IL_002e: ldnull",
+          "IL_002f: stloc.2",
+          "IL_0030: leave IL_00d7",
+          "IL_0035: ldloca.s V_0",
+          "IL_0037: ldstr \"part1\"",
+          "IL_003c: call System.Void Elsinore.Unity.SamplingGuard::Begin(System.String)",
+          "IL_0041: ldnull",
+          "IL_0042: stloc.1",
+          "IL_0043: ldarg.0",
+          "IL_0044: ldfld ObjectTracker CharacterBehavior::system",
+          "IL_0049: callvirt IGameInfo ObjectTracker::get_Info()",
+          "IL_004e: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+          "IL_0053: callvirt Elsinore.Game.Scheduler/ScheduleState Elsinore.Game.GameState::get_Schedule()",
+          "IL_0058: ldarg.0",
+          "IL_0059: call Elsinore.Game.CharacterId CharacterBehavior::get_Id()",
+          "IL_005e: callvirt Elsinore.Game.Scheduler/EventInfo Elsinore.Game.Scheduler/ScheduleState::EventOfCharacterN(Elsinore.Game.CharacterId)",
+          "IL_0063: stloc.1",
+          "IL_0064: ldloca.s V_0",
+          "IL_0066: call System.Void Elsinore.Unity.SamplingGuard::End()",
+          "IL_006b: ldloca.s V_0",
+          "IL_006d: ldstr \"part2\"",
+          "IL_0072: call System.Void Elsinore.Unity.SamplingGuard::Begin(System.String)",
+          "IL_0077: ldloc.1",
+          "IL_0078: brtrue.s IL_007d",
+          "IL_007a: ldnull",
+          "IL_007b: br.s IL_0089",
+          "IL_007d: ldarg.0",
+          "IL_007e: ldloc.1",
+          "IL_007f: callvirt Elsinore.Game.PrimitiveEvent Elsinore.Game.Scheduler/EventInfo::get_Event()",
+          "IL_0084: call ILocationMarker CharacterBehavior::destinationOfEvent(Elsinore.Game.PrimitiveEvent)",
+          "IL_0089: stloc.2",
+          "IL_008a: leave.s IL_00d7",
+          "IL_008c: pop",
+          "IL_008d: ldstr \"event {0} does not specify an arrival location for {1}!\"",
+          "IL_0092: ldc.i4.2",
+          "IL_0093: newarr System.Object",
+          "IL_0098: dup",
+          "IL_0099: ldc.i4.0",
+          "IL_009a: ldloc.1",
+          "IL_009b: callvirt Elsinore.Game.PrimitiveEvent Elsinore.Game.Scheduler/EventInfo::get_Event()",
+          "IL_00a0: callvirt Elsinore.Game.PEventId Elsinore.Game.PrimitiveEvent::get_Id()",
+          "IL_00a5: stloc.3",
+          "IL_00a6: ldloca.s V_3",
+          "IL_00a8: call System.String Elsinore.Game.PEventId::get_Name()",
+          "IL_00ad: stelem.ref",
+          "IL_00ae: dup",
+          "IL_00af: ldc.i4.1",
+          "IL_00b0: ldarg.0",
+          "IL_00b1: call Elsinore.Game.CharacterId CharacterBehavior::get_Id()",
+          "IL_00b6: stloc.s V_4",
+          "IL_00b8: ldloca.s V_4",
+          "IL_00ba: call System.String Elsinore.Game.CharacterId::get_Name()",
+          "IL_00bf: stelem.ref",
+          "IL_00c0: call System.Void UnityEngine.Debug::LogErrorFormat(System.String,System.Object[])",
+          "IL_00c5: ldnull",
+          "IL_00c6: stloc.2",
+          "IL_00c7: leave.s IL_00d7",
+          "IL_00c9: ldloca.s V_0",
+          "IL_00cb: constrained. Elsinore.Unity.SamplingGuard",
+          "IL_00d1: callvirt System.Void System.IDisposable::Dispose()",
+          "IL_00d6: endfinally",
+          "IL_00d7: ldloc.2",
+          "IL_00d8: ret"
+        ],
+        "method": "ILocationMarker CharacterBehavior::get_CurrentEventDestination()"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.0",
+          "IL_0001: ldfld ObjectTracker CharacterBehavior::system",
+          "IL_0006: callvirt !!0 UnityEngine.Component::GetComponent<ScheduleManager>()",
+          "IL_000b: ldarg.0",
+          "IL_000c: call !!0 UnityEngine.Component::GetComponent<CharacterMovement>()",
+          "IL_0011: stloc.0",
+          "IL_0012: ldarg.0",
+          "IL_0013: ldfld ObjectTracker CharacterBehavior::system",
+          "IL_0018: callvirt IGameInfo ObjectTracker::get_Info()",
+          "IL_001d: callvirt Elsinore.Game.GameState IGameInfo::get_State()",
+          "IL_0022: callvirt Elsinore.Game.Scheduler/ScheduleState Elsinore.Game.GameState::get_Schedule()",
+          "IL_0027: stloc.1",
+          "IL_0028: ldloc.1",
+          "IL_0029: ldarg.0",
+          "IL_002a: call Elsinore.Game.CharacterId CharacterBehavior::get_Id()",
+          "IL_002f: callvirt Elsinore.Game.Scheduler/EventInfo Elsinore.Game.Scheduler/ScheduleState::EventOfCharacterN(Elsinore.Game.CharacterId)",
+          "IL_0034: stloc.2",
+          "IL_0035: ldloc.2",
+          "IL_0036: brtrue.s IL_003b",
+          "IL_0038: ldnull",
+          "IL_0039: br.s IL_0041",
+          "IL_003b: ldloc.2",
+          "IL_003c: callvirt Elsinore.Game.PrimitiveEvent Elsinore.Game.Scheduler/EventInfo::get_Event()",
+          "IL_0041: stloc.3",
+          "IL_0042: ldarg.0",
+          "IL_0043: call Elsinore.Game.CharacterId CharacterBehavior::get_Id()",
+          "IL_0048: callvirt System.Boolean ScheduleManager::IsCharacterInViewedScene(Elsinore.Game.CharacterId)",
+          "IL_004d: brtrue.s IL_0062",
+          "IL_004f: ldloc.2",
+          "IL_0050: brfalse.s IL_005f",
+          "IL_0052: ldloc.2",
+          "IL_0053: callvirt Elsinore.Game.EventState Elsinore.Game.Scheduler/EventInfo::get_State()",
+          "IL_0058: callvirt System.Boolean Elsinore.Game.EventState::get_IsAssembling()",
+          "IL_005d: br.s IL_0063",
+          "IL_005f: ldc.i4.1",
+          "IL_0060: br.s IL_0063",
+          "IL_0062: ldc.i4.0",
+          "IL_0063: ldloc.2",
+          "IL_0064: brfalse IL_026e",
+          "IL_0069: ldloc.2",
+          "IL_006a: callvirt Elsinore.Game.PrimitiveEvent Elsinore.Game.Scheduler/EventInfo::get_Event()",
+          "IL_006f: ldarg.0",
+          "IL_0070: ldfld Elsinore.Game.PrimitiveEvent CharacterBehavior::currentEvent",
+          "IL_0075: beq IL_0110",
+          "IL_007a: ldarg.0",
+          "IL_007b: ldloc.3",
+          "IL_007c: stfld Elsinore.Game.PrimitiveEvent CharacterBehavior::currentEvent",
+          "IL_0081: ldarg.0",
+          "IL_0082: ldnull",
+          "IL_0083: stfld ILocationMarker CharacterBehavior::currentIdleLocation",
+          "IL_0088: ldarg.0",
+          "IL_0089: call System.Void CharacterBehavior::updateEventNavAreaMask()",
+          "IL_008e: ldarg.0",
+          "IL_008f: ldloc.0",
+          "IL_0090: ldc.i4.0",
+          "IL_0091: call System.Void CharacterBehavior::setGoalToCurrentEventDestination(CharacterMovement,System.Boolean)",
+          "IL_0096: ldloc.2"
+        ],
+        "note": "仅保留事件切换、清空idle并更新目标的开头；后续按既定路径移动，不含demon状态判断。",
+        "method": "System.Void CharacterBehavior::UpdateTick()"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.1",
+          "IL_0001: ldarg.2",
+          "IL_0002: ldc.i4.0",
+          "IL_0003: ldc.r4 2",
+          "IL_0008: newobj System.Void Elsinore.MoveDirection::.ctor(Elsinore.Game.CharacterId,Elsinore.Game.CharacterId,MoveUtils/RunState,System.Single)",
+          "IL_000d: ret"
+        ],
+        "method": "Agakme.Scripting.IStageAction StageDirectionApi::Elsinore.Game.IStageDirectionApi.MoveToCharTalk(Elsinore.Game.CharacterId,Elsinore.Game.CharacterId)"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.0",
+          "IL_0001: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0006: ldarg.0",
+          "IL_0007: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_000c: ldstr \"rosencrantz\"",
+          "IL_0011: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0016: ldstr \"am_crouch\"",
+          "IL_001b: newobj System.Void Elsinore.Game.AnimParamId::.ctor(System.String)",
+          "IL_0020: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::Play(Elsinore.Game.CharacterId,Elsinore.Game.AnimParamId)",
+          "IL_0025: ldnull",
+          "IL_0026: ldnull",
+          "IL_0027: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_002c: ldarg.0",
+          "IL_002d: ldc.i4 2213",
+          "IL_0032: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::assertLogic(System.Int32)",
+          "IL_0037: ret"
+        ],
+        "method": "System.Void GameDataGenerated::Invoke_BK_RoseyHide__BK_WITCH_RosencrantzHide()"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.0",
+          "IL_0001: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0006: ldarg.0",
+          "IL_0007: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_000c: ldstr \"guildenstern\"",
+          "IL_0011: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0016: ldstr \"am_crouch\"",
+          "IL_001b: newobj System.Void Elsinore.Game.AnimParamId::.ctor(System.String)",
+          "IL_0020: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::Play(Elsinore.Game.CharacterId,Elsinore.Game.AnimParamId)",
+          "IL_0025: ldnull",
+          "IL_0026: ldnull",
+          "IL_0027: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_002c: ldarg.0",
+          "IL_002d: ldc.i4 2188",
+          "IL_0032: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::assertLogic(System.Int32)",
+          "IL_0037: ret"
+        ],
+        "method": "System.Void GameDataGenerated::Invoke_BK_GuildaHide__BK_WITCH_GuildensternHide()"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.0",
+          "IL_0001: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0006: ldarg.0",
+          "IL_0007: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_000c: ldstr \"bernardo\"",
+          "IL_0011: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0016: ldstr \"ophelia\"",
+          "IL_001b: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0020: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::MoveToCharTalk(Elsinore.Game.CharacterId,Elsinore.Game.CharacterId)",
+          "IL_0025: ldnull",
+          "IL_0026: ldnull",
+          "IL_0027: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_002c: ldarg.0",
+          "IL_002d: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0032: ldarg.0",
+          "IL_0033: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_0038: ldc.r4 5",
+          "IL_003d: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::Delay(System.Single)",
+          "IL_0042: ldnull",
+          "IL_0043: ldnull",
+          "IL_0044: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_0049: ldarg.0",
+          "IL_004a: ldc.i4 2177",
+          "IL_004f: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::assertLogic(System.Int32)",
+          "IL_0054: ret"
+        ],
+        "method": "System.Void GameDataGenerated::Invoke_BK_BernardoStalk__BK_WITCH_BernardoStalk()"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.0",
+          "IL_0001: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0006: ldarg.0",
+          "IL_0007: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_000c: ldstr \"marcellus\"",
+          "IL_0011: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0016: ldstr \"ophelia\"",
+          "IL_001b: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0020: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::MoveToCharTalk(Elsinore.Game.CharacterId,Elsinore.Game.CharacterId)",
+          "IL_0025: ldnull",
+          "IL_0026: ldnull",
+          "IL_0027: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_002c: ldarg.0",
+          "IL_002d: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0032: ldarg.0",
+          "IL_0033: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_0038: ldc.r4 5",
+          "IL_003d: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::Delay(System.Single)",
+          "IL_0042: ldnull",
+          "IL_0043: ldnull",
+          "IL_0044: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_0049: ldarg.0",
+          "IL_004a: ldc.i4 2207",
+          "IL_004f: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::assertLogic(System.Int32)",
+          "IL_0054: ret"
+        ],
+        "method": "System.Void GameDataGenerated::Invoke_BK_MarcellusStalk__BK_WITCH_Marcellustalk()"
+      },
+      {
+        "assembly": "Assembly-CSharp.dll",
+        "il": [
+          "IL_0000: ldarg.0",
+          "IL_0001: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0006: ldarg.0",
+          "IL_0007: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_000c: ldstr \"polonius\"",
+          "IL_0011: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0016: ldstr \"ophelia\"",
+          "IL_001b: newobj System.Void Elsinore.Game.CharacterId::.ctor(System.String)",
+          "IL_0020: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::MoveToCharTalk(Elsinore.Game.CharacterId,Elsinore.Game.CharacterId)",
+          "IL_0025: ldnull",
+          "IL_0026: ldnull",
+          "IL_0027: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_002c: ldarg.0",
+          "IL_002d: call Agakme.Scripting.Ast/StageDirectionBlockType Agakme.Scripting.Ast/StageDirectionBlockType::get_Default()",
+          "IL_0032: ldarg.0",
+          "IL_0033: ldfld !1 Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::_stageApi",
+          "IL_0038: ldc.r4 5",
+          "IL_003d: callvirt Agakme.Scripting.IStageAction Elsinore.Game.IStageDirectionApi::Delay(System.Single)",
+          "IL_0042: ldnull",
+          "IL_0043: ldnull",
+          "IL_0044: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::addStage(Agakme.Scripting.Ast/StageDirectionBlockType,Agakme.Scripting.IStageAction,Microsoft.FSharp.Core.FSharpOption`1<System.String>,System.String[])",
+          "IL_0049: ldarg.0",
+          "IL_004a: ldc.i4 2211",
+          "IL_004f: call System.Void Agakme.Scripting.CodeGenerator/GeneratedInterpreterBase`2<Elsinore.Game.IScriptApi,Elsinore.Game.IStageDirectionApi>::assertLogic(System.Int32)",
+          "IL_0054: ret"
+        ],
+        "method": "System.Void GameDataGenerated::Invoke_BK_PoloniusStalk__BK_WITCH_PoloniusStalk()"
+      }
+    ]
+  },
+  "conclusions": [
+    "首次集会设置roomLocked(grounds)，但不统一设置所有人的believes(demon)。",
+    "demontripped启动专用背景事件，人物站位按口令计数5和8的条件分阶段收拢；不是继续普通日常。",
+    "有些人物同处，有些巡逻，有些单独站位；不存在所有人物永久绑定不独处的全局组队规则。",
+    "王后知情后可找贝尔纳多、马塞勒斯或波洛涅斯报信，另行触发接近女主的高优先级跟踪；并非警报自动触发。",
+    "高优先级躲藏与跟踪会覆盖普通背景，但可被更高优先级剧情打断。"
+  ],
+  "limits": [
+    "只验证资源安排与原代码行为，不承诺当前实际人物位置、特定时刻独处或固定无失败击杀顺序。",
+    "背景位置的标记名为内部标识，不将未核对房间归属的标记直接翻成可执行位置攻略。"
+  ]
+}
