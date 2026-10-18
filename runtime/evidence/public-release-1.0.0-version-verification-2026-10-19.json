@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-19",
+  "passed": true,
+  "patch_version": "1.0.0",
+  "internal_version": "1.5.15",
+  "runtime_files_identical_to_previous_release": 39,
+  "total_files": 66,
+  "changed_archive_paths": [
+    "ElsinoreHan/CHANGELOG.md",
+    "ElsinoreHan/INSTALL.md",
+    "ElsinoreHan/README.md",
+    "ElsinoreHan/TROUBLESHOOTING.md",
+    "ElsinoreHan/manifest.json"
+  ],
+  "version_governance_tests_passed": 7,
+  "previous_runtime_ui_assertions_reused": 13,
+  "previous_installer_integration_cases_reused": 18,
+  "game_or_test_processes_started": false,
+  "player_install_or_saves_changed": false,
+  "local_os_is_64_bit": true
+}

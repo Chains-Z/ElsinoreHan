@@ -1,0 +1,351 @@
+{
+  "date": "2026-10-19",
+  "patch_version": "1.0.0",
+  "internal_version": "1.5.15",
+  "release_id": "v1.0.0",
+  "passed": true,
+  "archive": "runtime/package/public-release/ElsinoreHan-v1.0.0-windows.zip",
+  "archive_sha256": "ebf625c97f12b8885365943ec3b17b9800f1499434a1d53596c6784aa44812e5",
+  "archive_size": 16203342,
+  "flat_archive": true,
+  "runtime_files": 39,
+  "total_files": 66,
+  "source_archive_members": 55,
+  "license_files": 16,
+  "local_secret_values_compared": 1,
+  "no_unlisted_files": true,
+  "no_game_saves_or_backup_in_archive": true,
+  "offline_endpoints_empty": true,
+  "files": [
+    {
+      "path": ".doorstop_version",
+      "sha256": "75a2f501000d4fe28f74bc7ee66dae5581959d28b6c44f0c1b0c05cd5ba261e6",
+      "size": 5
+    },
+    {
+      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Dynamic.txt",
+      "sha256": "30169e0c602aaed5dbc593554c2f165c618122f9465999aa5a8ef60ed2974d15",
+      "size": 2125868
+    },
+    {
+      "path": "BepInEx/Translation/zh-CN/Text/ElsinoreHan-Sol.txt",
+      "sha256": "08f60886259def74463910b07928348f878e64a8865629ad593c3cccda8676a0",
+      "size": 2310627
+    },
+    {
+      "path": "BepInEx/config/AutoTranslatorConfig.ini",
+      "sha256": "f8c111c9ef17b7666ed8ced529a64d4b81c2d59158ff883272c03932e74e4586",
+      "size": 2915
+    },
+    {
+      "path": "BepInEx/core/0Harmony.dll",
+      "sha256": "1a21cc03424fc82c3dd1346905d16494536b9595ae4162228d99fb7c285c1031",
+      "size": 204800
+    },
+    {
+      "path": "BepInEx/core/0Harmony.xml",
+      "sha256": "d1f02fc3ada3a13da307de421225bfe56ebe24064370980979391c4be021672f",
+      "size": 267107
+    },
+    {
+      "path": "BepInEx/core/0Harmony20.dll",
+      "sha256": "c755a5ab2712915a32f9a850d580a8c1b70ff1653bc76600f2767aa8ffccc663",
+      "size": 112640
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Harmony.dll",
+      "sha256": "00c8f2ac48593e4d45ce4eb26ce4e68b18113c5c489b38b8bf0850f65830d601",
+      "size": 6656
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Harmony.xml",
+      "sha256": "a04fedf08f7c81f5d01aba6f2840a7ffce50b79bbd24587d8dbe69ab73971d29",
+      "size": 4056
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.dll",
+      "sha256": "55d3895351a9d16b63b6f35f1c01b44ac650979e853d0bd3a442b92a082af64f",
+      "size": 43008
+    },
+    {
+      "path": "BepInEx/core/BepInEx.Preloader.xml",
+      "sha256": "33275b2783b7b99495a02c098ee86d6a9a2783e884a5c9369021f20c94cf99e7",
+      "size": 7964
+    },
+    {
+      "path": "BepInEx/core/BepInEx.dll",
+      "sha256": "8255b28902886085c578b9e427d3073c97002db85176d2090cdeda90ef14ce70",
+      "size": 128512
+    },
+    {
+      "path": "BepInEx/core/BepInEx.xml",
+      "sha256": "7ba2266061b9f8a9f146218a312bfdd0d7f2b53a99a7e66c957215c6b66ca0d7",
+      "size": 89835
+    },
+    {
+      "path": "BepInEx/core/HarmonyXInterop.dll",
+      "sha256": "7ce1342d3afa0334b59a3e38c0aed15e162b9abe9d46f95f34be44af47f3b493",
+      "size": 23552
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Mdb.dll",
+      "sha256": "5896d1898f616701fff18f3b2c71e6b844d2390ef9f41e1c5fccce8cb27c698e",
+      "size": 43008
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Pdb.dll",
+      "sha256": "174db44a067f58561510af746f3caeb032037762c57a31c8d9ee32db25174984",
+      "size": 86528
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.Rocks.dll",
+      "sha256": "54ac539fb5ddc8b44c0e9acd0fcb7324f89d1a072edf8ebc1b06dd691e3d3927",
+      "size": 27648
+    },
+    {
+      "path": "BepInEx/core/Mono.Cecil.dll",
+      "sha256": "7ae470288fff4a402899c254d0a76cefef55877f5c54f96e83c797cc5bb6e2f6",
+      "size": 339456
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.dll",
+      "sha256": "40e49bb314391cd7bddc2644f8553eeba92c194b940836b103df16955c464e0c",
+      "size": 105984
+    },
+    {
+      "path": "BepInEx/core/MonoMod.RuntimeDetour.xml",
+      "sha256": "54887808960d156550b37d602d08847607aa9e908d039f2765fb0b5e79394aa4",
+      "size": 9414
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.dll",
+      "sha256": "9d1495f147ac93c4f81f84538c1a326e8f8a6aefc78d6289d798f3ce1162c5e9",
+      "size": 187904
+    },
+    {
+      "path": "BepInEx/core/MonoMod.Utils.xml",
+      "sha256": "0577b362023a3432d6e8d7934c5eddc3e08fdbb19e191af083e341562c5ede38",
+      "size": 78973
+    },
+    {
+      "path": "BepInEx/core/XUnity.Common.dll",
+      "sha256": "793488f02973a5bdc1891714f1649ece6b008032cbf3368366eee6a556134d88",
+      "size": 77824
+    },
+    {
+      "path": "BepInEx/plugins/ElsinoreHan.TranslationToggle.dll",
+      "sha256": "ddf1de7480c6df16d1fe5f5d604dc9a27b11c3dca276357d724884b34598092a",
+      "size": 61952
+    },
+    {
+      "path": "BepInEx/plugins/README (AutoTranslator).md",
+      "sha256": "ce38d6c3d6c99dfed1613bd382d66629071b07997b1df7d4d6753c6dbf52d403",
+      "size": 159457
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/ExIni.dll",
+      "sha256": "c073db2220667e6bbbfff64e13ed4f7e744af4b554c408f13ea80bfdffd859d0",
+      "size": 13312
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.BepInEx.dll",
+      "sha256": "8d54de55fb6c1284d3f381cdfb2be37c9f60f8d5b9cd4e9051f36ff9b024a722",
+      "size": 6144
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.Core.dll",
+      "sha256": "fddf51b6eb33ed5a680d3506eb94708f86d6368894e0d3681164fc820e2a6fbb",
+      "size": 654848
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.AutoTranslator/XUnity.AutoTranslator.Plugin.ExtProtocol.dll",
+      "sha256": "e502c355f34de51e3fa3d3b08c95cbbda4a2ac044bf8aebf5c4b6ecf81efff8f",
+      "size": 10752
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.BepInEx.dll",
+      "sha256": "6a6bce64d736c8d45205d56242c99f7af79edcb173aa7568a83cf23313948d1c",
+      "size": 6144
+    },
+    {
+      "path": "BepInEx/plugins/XUnity.ResourceRedirector/XUnity.ResourceRedirector.dll",
+      "sha256": "9986a5a7959f86fc99ae27bbcefa7f0ef924ef4979f68b32ec4e2903b5f4d64c",
+      "size": 72704
+    },
+    {
+      "path": "ElsinoreHan/CHANGELOG.md",
+      "sha256": "3f9d5ff64ebbb79d4c09caf0eb767f253a70f801f9b61f1cb9864a41f41e99fd",
+      "size": 1647
+    },
+    {
+      "path": "ElsinoreHan/INSTALL.md",
+      "sha256": "475f12167bf24027086c6c43c44eda9bd7ec462f28a1fbd501210464dd02c6d2",
+      "size": 4694
+    },
+    {
+      "path": "ElsinoreHan/Install.cmd",
+      "sha256": "f46fcd290417b8f8c26832e90e0b95bcdbcdc7216fda09b4de709155678d37a0",
+      "size": 264
+    },
+    {
+      "path": "ElsinoreHan/README.md",
+      "sha256": "ec7f373cebc975c6cf2eec1485f6ac98aeb1b6e87423f1fb32047f5ea07d0590",
+      "size": 3080
+    },
+    {
+      "path": "ElsinoreHan/TROUBLESHOOTING.md",
+      "sha256": "c1e46393800e001461624ebdf5fbf21459b6c9578d35283895c2d3d5e5932512",
+      "size": 3689
+    },
+    {
+      "path": "ElsinoreHan/Uninstall.cmd",
+      "sha256": "eced3503de97d48b20893818db7263e8eb7ca2fa9a2a211361bb516c6a343d2c",
+      "size": 268
+    },
+    {
+      "path": "ElsinoreHan/common.ps1",
+      "sha256": "53f12b4b1518098b8827604e0be41d4c32f9e5946b163c0dc62462e817ea8cb1",
+      "size": 15331
+    },
+    {
+      "path": "ElsinoreHan/install.ps1",
+      "sha256": "a5f2e839d74c2f780f8e2eb09bf927f887acee422731fa6f7e148d84bec9fd90",
+      "size": 192
+    },
+    {
+      "path": "ElsinoreHan/licenses/BepInEx-LICENSE.txt",
+      "sha256": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+      "size": 1062
+    },
+    {
+      "path": "ElsinoreHan/licenses/BepInEx.Harmony-LICENSE.txt",
+      "sha256": "feb87a2e0c305de3464cc44077da5393c52d8ca6362d37427157d04ec6f4510d",
+      "size": 1057
+    },
+    {
+      "path": "ElsinoreHan/licenses/ElsinoreHanSans-NOTICE.txt",
+      "sha256": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+      "size": 887
+    },
+    {
+      "path": "ElsinoreHan/licenses/ElsinoreHanSans-OFL.txt",
+      "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+      "size": 4463
+    },
+    {
+      "path": "ElsinoreHan/licenses/ExIni-LICENSE.txt",
+      "sha256": "73afad824656869c2c413bdc9750863f0859746e6e29a459eec6b9880af9d636",
+      "size": 1076
+    },
+    {
+      "path": "ElsinoreHan/licenses/Harmony-LICENSE.txt",
+      "sha256": "07cfa3e4aa04ae179d538735629ac69d272b8c3ffc58a20ebdba5e8b63f9f42f",
+      "size": 1092
+    },
+    {
+      "path": "ElsinoreHan/licenses/HarmonyX-LICENSE.txt",
+      "sha256": "7e54ab4766ef78637a05fb3454663a66de6bb960dbd4c7088890ed76b0844f36",
+      "size": 1063
+    },
+    {
+      "path": "ElsinoreHan/licenses/JetBrains.Annotations-LICENSE.txt",
+      "sha256": "2942dd916582f142026c22b222e060d5e6fb7be9163aa662a97e8655e0e10a9c",
+      "size": 1091
+    },
+    {
+      "path": "ElsinoreHan/licenses/Mono.Cecil-LICENSE.txt",
+      "sha256": "13d58ecbed676511c0c4c4009bff107025e50007ff5e7901dc562700ec62509e",
+      "size": 1098
+    },
+    {
+      "path": "ElsinoreHan/licenses/MonoMod-LICENSE.txt",
+      "sha256": "0b64833222e3c6a426ad29362d26334619fe02eaf2b89ea9c37805521896c920",
+      "size": 1080
+    },
+    {
+      "path": "ElsinoreHan/licenses/SimpleJSON-LICENSE.txt",
+      "sha256": "a527f5f9f6a52bc2d21365d774d3acd01022cba6ec8a48ae074afad53ee2c7c2",
+      "size": 1095
+    },
+    {
+      "path": "ElsinoreHan/licenses/THIRD-PARTY-NOTICES.md",
+      "sha256": "f88054fa4e4d4c08f362d7f44a73e1385404715fb3971698a602d42eaad4974c",
+      "size": 5709
+    },
+    {
+      "path": "ElsinoreHan/licenses/TextMeshPro-Unity-Companion-License.txt",
+      "sha256": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+      "size": 5701
+    },
+    {
+      "path": "ElsinoreHan/licenses/UnityDoorstop-LGPL-2.1.txt",
+      "sha256": "20c17d8b8c48a600800dfd14f95d5cb9ff47066a9641ddeab48dc54aec96e331",
+      "size": 26526
+    },
+    {
+      "path": "ElsinoreHan/licenses/UnityDoorstop-SOURCE.md",
+      "sha256": "0b5b1b929da891fa0be199f19e2951d38734846574dbe9efda08e113225bea84",
+      "size": 2237
+    },
+    {
+      "path": "ElsinoreHan/licenses/XUnity.AutoTranslator-LICENSE.txt",
+      "sha256": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+      "size": 1062
+    },
+    {
+      "path": "ElsinoreHan/manifest.json",
+      "sha256": "af35d2306c11600c0067831f676c5fa1bf144180ce400a7dbc52f8a06bc8eacb",
+      "size": 7091
+    },
+    {
+      "path": "ElsinoreHan/sources/UnityDoorstop-4.5.0-source.zip",
+      "sha256": "7f0c963104aa08bf5fefef8ff85e7fecd8306838f5af3101487d9db4e9188d63",
+      "size": 109881
+    },
+    {
+      "path": "ElsinoreHan/uninstall.ps1",
+      "sha256": "d1b7f995ef6a4b30379ff040781c677889b3c8f3174bde65a945fb50ffa37766",
+      "size": 194
+    },
+    {
+      "path": "XUnity-LICENSE",
+      "sha256": "e6e534ef6f4347b6449407ee046a3d09cb0174c6f688c996ad0bed94b74b3933",
+      "size": 1062
+    },
+    {
+      "path": "changelog.txt",
+      "sha256": "b184d858cb0ff6614ca8ce0247fb0d186cabc91ed7e4d4d9d57ea3d744ce98b5",
+      "size": 338
+    },
+    {
+      "path": "doorstop_config.ini",
+      "sha256": "4d5c6dfa0f771c6a5b1b0c559aca0bd0ece7d08b08fff894708dc3b73ce73cfc",
+      "size": 1460
+    },
+    {
+      "path": "elsinorehan_sans_sdf_u2018",
+      "sha256": "d9f9cc662904b5be3d7214ccb5ada3f0974ec8671a463a24df978a51d1db5993",
+      "size": 15131870
+    },
+    {
+      "path": "licenses/ElsinoreHanSans-NOTICE.txt",
+      "sha256": "bd43718620f0b4b6ac88550a999ca4f0a9d5655d551c54811fc50e8f94214233",
+      "size": 887
+    },
+    {
+      "path": "licenses/ElsinoreHanSans-OFL.txt",
+      "sha256": "fcac737e761ec63dbfbdce11030a1780161920d80315edba9c8beff1c2bac5a2",
+      "size": 4463
+    },
+    {
+      "path": "licenses/TextMeshPro-Unity-Companion-License.txt",
+      "sha256": "a334158b898353ca0b46db7b9d3112961d2d1f72742351b7c090dd4ca309acb0",
+      "size": 5701
+    },
+    {
+      "path": "winhttp.dll",
+      "sha256": "cc643b54484f694a8e0e6641cac79d74141009afc9e24d826f6fd7fd48fd182a",
+      "size": 22016
+    }
+  ]
+}

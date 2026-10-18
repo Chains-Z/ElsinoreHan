@@ -10,6 +10,30 @@ SPEC.loader.exec_module(BUILDER)
 
 
 class PublicReleaseChecks(unittest.TestCase):
+    PLUGIN_SOURCE = '[BepInPlugin("elsinorehan.translationtoggle", "ElsinoreHan Translation Toggle", "1.5.15")]'
+
+    def test_public_version_changes_independently(self):
+        for public_version in ("1.0.0", "1.0.1", "2.0.0"):
+            result = BUILDER.verify_versions({"patch_version": public_version, "internal_version": "1.5.15"}, "1.5.15", self.PLUGIN_SOURCE)
+            self.assertEqual(result["release_id"], "v" + public_version)
+            self.assertEqual(result["internal_version"], "1.5.15")
+
+    def test_invalid_or_missing_versions_rejected(self):
+        for invalid in ("v1.0.0", "01.0.0", "1.0", "1.0.0\n", "1.0.0-zh", None, 1):
+            for field in ("patch_version", "internal_version"):
+                metadata = {"patch_version": "1.0.0", "internal_version": "1.5.15", field: invalid}
+                with self.subTest(field=field, invalid=invalid), self.assertRaises(ValueError):
+                    BUILDER.verify_versions(metadata, "1.5.15", self.PLUGIN_SOURCE)
+        with self.assertRaises(ValueError):
+            BUILDER.verify_versions({"patch_version": "1.0.0"}, "1.5.15", self.PLUGIN_SOURCE)
+
+    def test_internal_version_requires_installed_and_declared_agreement(self):
+        metadata = {"patch_version": "1.0.0", "internal_version": "1.5.15"}
+        for installed, source in (("1.5.14", self.PLUGIN_SOURCE), ("1.5.15", ""),
+                                  ("1.5.15", self.PLUGIN_SOURCE.replace("1.5.15", "1.5.14"))):
+            with self.subTest(installed=installed, source=source), self.assertRaises(ValueError):
+                BUILDER.verify_versions(metadata, installed, source)
+
     def test_lf_crlf_and_bom_are_offline(self):
         for separator in ("\n", "\r\n"):
             for encoding in ("utf-8", "utf-8-sig"):

@@ -10,7 +10,9 @@
 {
   "schema_version": 1,
   "package_id": "ElsinoreHan",
-  "release_id": "2026-10-19",
+  "release_id": "v1.0.0",
+  "patch_version": "1.0.0",
+  "internal_version": "1.5.15",
   "files": [{"path": "winhttp.dll", "sha256": "64位小写十六进制SHA256", "size": 123}],
   "legacy_files": []
 }

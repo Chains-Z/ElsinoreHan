@@ -5,6 +5,7 @@ from __future__ import annotations
 import hashlib
 import io
 import json
+import re
 from pathlib import Path, PurePosixPath
 import sys
 import zipfile
@@ -15,7 +16,6 @@ from audit_public_repository import PATTERNS, local_secrets
 sys.path.insert(0, str(ROOT / "tools/translation"))
 from export_sol_full import encode
 
-RELEASE_ID = "v1.5.15-zh.20261019"
 PAYLOAD = (
     ".doorstop_version", "changelog.txt", "doorstop_config.ini", "elsinorehan_sans_sdf_u2018",
     "winhttp.dll", "XUnity-LICENSE", "BepInEx/config/AutoTranslatorConfig.ini",
@@ -58,6 +58,19 @@ def digest(data: bytes) -> str:
     return hashlib.sha256(data).hexdigest()
 
 
+def verify_versions(metadata: dict, installed_version: str, plugin_source: str) -> dict[str, str]:
+    """公开补丁与内部插件独立编号，内部编号须匹配实际安装及插件声明。"""
+    if set(metadata) != {"patch_version", "internal_version"}:
+        raise ValueError("版本元数据字段不完整或含未知字段")
+    for value in metadata.values():
+        if not isinstance(value, str) or re.fullmatch(r"(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)\.(?:0|[1-9][0-9]*)", value) is None:
+            raise ValueError("版本必须为不含前缀的三段版本号")
+    declared = re.search(r'\[BepInPlugin\("elsinorehan\.translationtoggle",\s*"[^"]+",\s*"([^"]+)"\)\]', plugin_source)
+    if metadata["internal_version"] != installed_version or not declared or declared[1] != metadata["internal_version"]:
+        raise ValueError("内部版本与实际安装或插件声明不一致")
+    return {**metadata, "release_id": "v" + metadata["patch_version"]}
+
+
 def safe_name(name: str) -> None:
     """只接受可直接解压的相对文件名，禁止夹带游戏、存档和私有目录。"""
     parts = name.split("/")
@@ -93,6 +106,9 @@ def main() -> None:
     installed = read(ROOT / "runtime/evidence/ascension-empty-castle-install-verification-2026-10-19.json")
     if not installed["passed"] or not installed["installed"]:
         raise ValueError("尚无最终安装证明")
+    versions = verify_versions(read(ROOT / "tools/release/version.json"), installed["plugin_version"],
+                               (ROOT / "tools/patch/TranslationToggle.cs").read_text(encoding="utf-8-sig"))
+    release_id = versions["release_id"]
     content: dict[str, bytes] = {}
     for name in PAYLOAD:
         data = (package / name).read_bytes()
@@ -133,7 +149,7 @@ def main() -> None:
     if digest(old_data) != old_proof["dictionary_sha256"]:
         raise ValueError("旧词表重建与历史正式安装哈希不符")
     legacy = [{"path": dictionary, "sha256": digest(old_data), "size": len(old_data)}]
-    manifest = {"schema_version": 1, "package_id": "ElsinoreHan", "release_id": RELEASE_ID,
+    manifest = {"schema_version": 1, "package_id": "ElsinoreHan", **versions,
                 "files": entries, "legacy_files": legacy}
     content["ElsinoreHan/manifest.json"] = (json.dumps(manifest, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
     secrets = local_secrets()
@@ -159,7 +175,7 @@ def main() -> None:
     actual = {p.relative_to(stage).as_posix() for p in stage.rglob("*") if p.is_file()}
     if actual != set(content):
         raise ValueError("公开包暂存目录出现非白名单文件")
-    filename = "ElsinoreHan-" + RELEASE_ID + "-win-x86.zip"
+    filename = "ElsinoreHan-" + release_id + "-windows.zip"
     result = output / filename
     with zipfile.ZipFile(result, "w", zipfile.ZIP_DEFLATED, compresslevel=9) as z:
         for name in sorted(content):
@@ -172,14 +188,14 @@ def main() -> None:
                 raise ValueError("ZIP字节不一致：" + name)
     archive_hash = digest(result.read_bytes())
     (output / "SHA256SUMS.txt").write_text(archive_hash + "  " + filename + "\n", encoding="ascii")
-    report = {"date": "2026-10-19", "release_id": RELEASE_ID, "passed": True,
+    report = {"date": "2026-10-19", **versions, "passed": True,
               "archive": result.relative_to(ROOT).as_posix(), "archive_sha256": archive_hash,
               "archive_size": result.stat().st_size, "flat_archive": True, "runtime_files": 39,
               "total_files": len(content), "source_archive_members": 55, "license_files": len(LICENSES),
               "local_secret_values_compared": len(secrets), "no_unlisted_files": True,
               "no_game_saves_or_backup_in_archive": True, "offline_endpoints_empty": True,
               "files": [{"path": n, "sha256": digest(b), "size": len(b)} for n, b in sorted(content.items())]}
-    evidence = ROOT / "runtime/evidence/public-release-package-verification-2026-10-19.json"
+    evidence = ROOT / ("runtime/evidence/public-release-" + versions["patch_version"] + "-package-verification-2026-10-19.json")
     evidence.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(json.dumps({k: report[k] for k in ("passed", "archive", "archive_size", "total_files", "runtime_files", "archive_sha256")}))
 
