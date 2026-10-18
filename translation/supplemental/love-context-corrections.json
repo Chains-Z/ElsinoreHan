@@ -100,25 +100,6 @@
     ]
   },
   {
-    "id": "love-context-1a2af80b49dbab3e",
-    "source": "This is the best possible thing for you and for Denmark. Some day you will understand I do this not to cause you pain, but out of love.",
-    "source_sha256": "1a2af80b49dbab3eefb11cf828aa2e0e49cee5b6e5e97d790590d50029f21d0d",
-    "original_id": "p03295-1a2af80b49db",
-    "previous_target": "对你和丹麦而言，这是最好的安排。总有一天你会明白，我这么做不是为了让你痛苦，而是出于爱。",
-    "target": "对你和丹麦而言，这是最好的安排。总有一天你会明白，我这么做不是为了让你痛苦，而是出于疼爱。",
-    "reason": "王后对儿子解释婚约安排，love是母亲自称的疼爱，保留角色自我辩护而不替其行为背书",
-    "origins": [
-      {
-        "asset": "scenes",
-        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
-        "scene": "HAMROM_BetrothalBrit",
-        "line": 7852
-      },
-      "resources.assets:scenes:6f4f49b19b38",
-      "Assembly-CSharp.dll:#US:1914439"
-    ]
-  },
-  {
     "id": "love-context-b37d457d81211710",
     "source": "My notes—my notes, taken by him, out of love, out of protection—",
     "source_sha256": "b37d457d81211710d9834dcc414fd4eb429c2614d724e4ca5657f225d4477482",
@@ -152,44 +133,6 @@
         "line": 9579
       },
       "assembly_review:288"
-    ]
-  },
-  {
-    "id": "love-context-49229336171ebad6",
-    "source": "—Or any love deep in the fog of your madness!",
-    "source_sha256": "49229336171ebad632eb87c034c7c238e36e999f383d5b617a8b9f1a46df79c4",
-    "original_id": "p04498-49229336171e",
-    "previous_target": "——或者在您那疯狂的迷雾深处，还剩半点爱！",
-    "target": "——或者在您那疯狂的迷雾深处，还剩半点温情！",
-    "reason": "伊尔玛责备哈姆雷特对母亲冷酷，泛指情感与温情；不补恋爱或特定感情对象",
-    "origins": [
-      {
-        "asset": "scenes",
-        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
-        "scene": "POISON_HamletIrmaKickoff",
-        "line": 11536
-      },
-      "resources.assets:scenes:6f4f49b19b38",
-      "Assembly-CSharp.dll:#US:1538525"
-    ]
-  },
-  {
-    "id": "love-context-064f250ccbd8cde9",
-    "source": "Certainly no love, either.",
-    "source_sha256": "064f250ccbd8cde968953f09d04b9064377f6556112108929ece36cdaa7d16d0",
-    "original_id": "p04499-064f250ccbd8",
-    "previous_target": "爱当然也没有。",
-    "target": "温情当然也没有。",
-    "reason": "与伊尔玛上一句love译为温情的反驳成对同步",
-    "origins": [
-      {
-        "asset": "scenes",
-        "asset_sha256": "6f4f49b19b3822498a7941716ea1353b8e9073dc4873406fa0fc351170acea0a",
-        "scene": "POISON_HamletIrmaKickoff",
-        "line": 11538
-      },
-      "resources.assets:scenes:6f4f49b19b38",
-      "Assembly-CSharp.dll:#US:1538617"
     ]
   },
   {

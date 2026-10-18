@@ -31,7 +31,7 @@ def main():
         cases.append({"id": "love-reviewed-" + str(index), "source": row["source"],
                       "target": row["target"], "origins": row["origins"]})
     changed_sources = {row["source"] for row in corrections}
-    assert len(changed_sources) == len(corrections) == 28
+    assert len(changed_sources) == len(corrections) == 25
     for row in corrections:
         assert digest(row["source"]) == row["source_sha256"] and row["origins"]
         assert targets[row["source"]]["target"] == row["target"]
