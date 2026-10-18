@@ -1081,9 +1081,9 @@
     "source": "With that attitude? Eugh.",
     "source_sha256": "e5bce77217db0542583eddca8a4f8323103f8d1c3b70094ce53e98f293c2bf8a",
     "original_target": "就她那态度？啧。",
-    "corrected_target": "就她那态度？噁。",
+    "corrected_target": "就她那态度？呃！",
     "kind": "text",
-    "reason": "用户明确选用噁拟写Eugh的嫌恶、反胃声，避免啧的咂舌意味及呃的迟疑读法。两句共同替换，后句继续引用同一个声音，保留附和语气；同步补齐真实思源SDF字体字形，不全局替换其他语气词。",
+    "reason": "用户2026-10-19最终确认：罗茜用呃！贴合短促配音，感叹号弱化迟疑读法；吉尔妲用确实让人反胃明确嫌恶语义，替代不自然的引用声音表达。只改这两句，保留其余正文和原文。",
     "origins": [
       "translation/sol-full-2026-10-09/inputs/b0064.json:p09092-e5bce77217db",
       {
@@ -1092,19 +1092,28 @@
         "scene": "GUILD_Leaving",
         "line": 25402
       },
-      "用户2026-10-18选定噁并授权补字与安装"
+      "用户2026-10-18选定噁并授权补字与安装",
+      "用户2026-10-19确认最终措辞并要求修改"
     ],
     "apply_at_export": true,
-    "additional_model_calls": 0
+    "additional_model_calls": 0,
+    "revision_history": [
+      {
+        "date": "2026-10-19",
+        "previous_corrected_target": "就她那态度？噁。",
+        "previous_reason": "用户明确选用噁拟写Eugh的嫌恶、反胃声，避免啧的咂舌意味及呃的迟疑读法。两句共同替换，后句继续引用同一个声音，保留附和语气；同步补齐真实思源SDF字体字形，不全局替换其他语气词。",
+        "decision": "用户结合配音最终确认呃！与确实让人反胃，不使用噁或𫫇"
+      }
+    ]
   },
   {
     "id": "p09093-16acb40b1a88",
     "source": "Hmm. Yes. 'Eugh' indeed.",
     "source_sha256": "16acb40b1a88d0cbc812db96c2a3c86253f376230855b058c4c78d633f24f570",
     "original_target": "嗯。是啊。确实该“啧”一声。",
-    "corrected_target": "嗯。是啊，确实该“噁”一声。",
+    "corrected_target": "嗯。是啊，确实让人反胃。",
     "kind": "text",
-    "reason": "用户明确选用噁拟写Eugh的嫌恶、反胃声，避免啧的咂舌意味及呃的迟疑读法。两句共同替换，后句继续引用同一个声音，保留附和语气；同步补齐真实思源SDF字体字形，不全局替换其他语气词。",
+    "reason": "用户2026-10-19最终确认：罗茜用呃！贴合短促配音，感叹号弱化迟疑读法；吉尔妲用确实让人反胃明确嫌恶语义，替代不自然的引用声音表达。只改这两句，保留其余正文和原文。",
     "origins": [
       "translation/sol-full-2026-10-09/inputs/b0064.json:p09093-16acb40b1a88",
       {
@@ -1113,10 +1122,19 @@
         "scene": "GUILD_Leaving",
         "line": 25405
       },
-      "用户2026-10-18选定噁并授权补字与安装"
+      "用户2026-10-18选定噁并授权补字与安装",
+      "用户2026-10-19确认最终措辞并要求修改"
     ],
     "apply_at_export": true,
-    "additional_model_calls": 0
+    "additional_model_calls": 0,
+    "revision_history": [
+      {
+        "date": "2026-10-19",
+        "previous_corrected_target": "嗯。是啊，确实该“噁”一声。",
+        "previous_reason": "用户明确选用噁拟写Eugh的嫌恶、反胃声，避免啧的咂舌意味及呃的迟疑读法。两句共同替换，后句继续引用同一个声音，保留附和语气；同步补齐真实思源SDF字体字形，不全局替换其他语气词。",
+        "decision": "用户结合配音最终确认呃！与确实让人反胃，不使用噁或𫫇"
+      }
+    ]
   },
   {
     "id": "p10431-b4d623ece42b",
