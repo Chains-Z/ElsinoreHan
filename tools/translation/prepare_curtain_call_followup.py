@@ -5,6 +5,7 @@ import re
 
 from export_sol_full import apply_supplemental
 from prepare_shakespeare_names_followup import reading_names
+from prepare_ending_style_followup import reading_style
 from prepare_dialogue_log_followup import (
     DIALOGUE, GAME_RESOURCE, ROOT, SCENE, dialogue_source, digest, read,
     read_text_assets, save, short_name, source_rows,
@@ -36,7 +37,7 @@ def display(value):
 def main():
     review = read(DIRECTORY / "curtain-call-review.json")
     for scene in review["scenes"]:
-        scene["paragraphs"] = reading_names(scene["paragraphs"])
+        scene["paragraphs"] = reading_style(reading_names(scene["paragraphs"]))
     corrections = read(DIRECTORY / "curtain-call-corrections.json")
     translations = read(ROOT / "translation/sol-full-2026-10-09/translations.json")
     targets = {row["source"]: row for row in translations}
@@ -46,8 +47,12 @@ def main():
                  "target": row["previous_target"]} for row in corrections]
     checked = apply_supplemental(previous, corrections)
     assert len(checked) == len(changes) == review["changed_dictionary_sources"] == 17
+    followups = {entry["source"]: entry for entry in read(DIRECTORY / "ending-style-corrections.json")}
     for row in checked:
         assert targets[row["source"]]["id"] == row["id"]
+        if row["source"] in followups:
+            assert followups[row["source"]]["previous_target"] == row["target"]
+            row["target"] = followups[row["source"]]["target"]
         assert targets[row["source"]]["target"] == row["target"]
 
     actual, _ = source_rows()

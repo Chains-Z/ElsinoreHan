@@ -1,5 +1,8 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
+using System.Reflection;
+using System.Reflection.Emit;
 using HarmonyLib;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,6 +15,9 @@ public sealed class CreditsHoldSkip : MonoBehaviour
     private MonoBehaviour player;
     private GameObject overlay;
     private CreditsSkipRing progressRing;
+    private TMP_Text hintLabel;
+    private bool creditsPrepared;
+    private int firstPresentationFrame = -1;
     private bool completionQueued;
     private readonly CreditsSkipGesture gesture = new CreditsSkipGesture();
 
@@ -23,7 +29,55 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         if (start == null || start.ReturnType != typeof(void) || play == null || play.ReturnType != typeof(IEnumerator)
             || !typeof(MonoBehaviour).IsAssignableFrom(type))
             throw new MissingMethodException("CreditsPlayer.Start/PlayCredits");
-        harmony.Patch(start, postfix: new HarmonyMethod(typeof(CreditsHoldSkip), "AfterStart"));
+        harmony.Patch(start, postfix: new HarmonyMethod(typeof(CreditsHoldSkip), "AfterStart"),
+            transpiler: new HarmonyMethod(typeof(CreditsHoldSkip), "WrapPreparation"));
+    }
+    public static IEnumerable<CodeInstruction> WrapPreparation(IEnumerable<CodeInstruction> instructions)
+    {
+        int matches = 0;
+        foreach (var instruction in instructions)
+        {
+            yield return instruction;
+            var called = instruction.operand as MethodInfo;
+            if ((instruction.opcode == OpCodes.Call || instruction.opcode == OpCodes.Callvirt) && called != null
+                && called.DeclaringType.FullName == "Elsinore.Ui.CreditsPlayer" && called.Name == "PlayCredits"
+                && called.ReturnType == typeof(IEnumerator) && called.GetParameters().Length == 0)
+            {
+                // 在Start的实际调用点包装，避免迭代器工厂被Mono内联后绕过方法后置挂钩。
+                yield return new CodeInstruction(OpCodes.Ldarg_0);
+                yield return new CodeInstruction(OpCodes.Call, AccessTools.Method(typeof(CreditsHoldSkip), "PreparePlayback"));
+                matches++;
+            }
+        }
+        if (matches != 1) throw new InvalidOperationException("CreditsPlayer.Start的PlayCredits调用契约改变");
+    }
+    public static IEnumerator PreparePlayback(IEnumerator original, MonoBehaviour instance)
+    {
+        return ObservePreparation(instance, original);
+    }
+    private static IEnumerator ObservePreparation(MonoBehaviour instance, IEnumerator original)
+    {
+        bool prepared = false;
+        try
+        {
+            while (original.MoveNext())
+            {
+                // 原PlayCredits先yield一帧，再格式化并设置正文，随后首次等待预滚动时长。
+                // 原协程的每个yield原样传递，不改变名单、音乐或空格快进。
+                if (!prepared && original.Current is WaitForSeconds)
+                {
+                    var skip = instance.GetComponent<CreditsHoldSkip>();
+                    if (skip != null) skip.MarkCreditsPrepared();
+                    prepared = true;
+                }
+                yield return original.Current;
+            }
+        }
+        finally
+        {
+            var disposable = original as IDisposable;
+            if (disposable != null) disposable.Dispose();
+        }
     }
     public static void AfterStart(MonoBehaviour __instance)
     {
@@ -32,6 +86,8 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         if (skip == null) skip = __instance.gameObject.AddComponent<CreditsHoldSkip>();
         skip.player = __instance;
         skip.gesture.Reset();
+        skip.creditsPrepared = false;
+        skip.firstPresentationFrame = -1;
         skip.completionQueued = false;
         try { skip.CreateOverlay(); }
         catch (Exception error)
@@ -42,7 +98,9 @@ public sealed class CreditsHoldSkip : MonoBehaviour
     }
     private void OnDisable()
     {
+        Canvas.willRenderCanvases -= ObserveCanvasReady;
         gesture.Reset();
+        firstPresentationFrame = -1;
         if (progressRing != null) progressRing.Progress = 0;
         if (overlay != null) overlay.SetActive(false);
     }
@@ -53,7 +111,11 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         gesture.Reset();
         if (progressRing != null) progressRing.Progress = 0;
     }
-    private void OnEnable() { if (overlay != null) overlay.SetActive(true); }
+    private void OnEnable()
+    {
+        Canvas.willRenderCanvases += ObserveCanvasReady;
+        if (overlay != null) overlay.SetActive(true);
+    }
     private void OnDestroy() { if (overlay != null) Destroy(overlay); }
     private void CreateOverlay()
     {
@@ -62,6 +124,7 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         // 独立根Canvas保持右下角提示不受片尾静帧遮挡，销毁时由本组件清理。
         var canvas = overlay.GetComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay; canvas.sortingOrder = 32760;
+        canvas.enabled = false;
         var scaler = overlay.GetComponent<CanvasScaler>();
         scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize;
         scaler.referenceResolution = new Vector2(1920, 1080);
@@ -81,8 +144,29 @@ public sealed class CreditsHoldSkip : MonoBehaviour
         label.fontSize = 24; label.color = Color.white; label.fontStyle = FontStyles.Normal;
         label.alignment = TextAlignmentOptions.MidlineRight; label.enableWordWrapping = false; label.raycastTarget = false;
         label.text = HintSource;
+        hintLabel = label;
         CreateRing(panel, "Track", new Color(0.25f, 0.25f, 0.25f, 1), 1);
         progressRing = CreateRing(panel, "Progress", Color.white, 0);
+    }
+    private void MarkCreditsPrepared()
+    {
+        creditsPrepared = true;
+        if (overlay == null) return;
+        overlay.GetComponent<Canvas>().enabled = true;
+        hintLabel.ForceMeshUpdate();
+        Canvas.ForceUpdateCanvases();
+    }
+    private void ObserveCanvasReady()
+    {
+        if (firstPresentationFrame >= 0 || !creditsPrepared || overlay == null || !overlay.activeInHierarchy
+            || hintLabel == null || !hintLabel.isActiveAndEnabled || hintLabel.textInfo.characterCount == 0
+            || progressRing == null || !progressRing.isActiveAndEnabled || !overlay.GetComponent<Canvas>().enabled) return;
+        // Canvas完成布局后再跨过一帧，不能在强制刷新回调内立即开始计时。
+        firstPresentationFrame = Time.frameCount;
+    }
+    public bool PresentationReady
+    {
+        get { return creditsPrepared && firstPresentationFrame >= 0 && Time.frameCount > firstPresentationFrame; }
     }
     private static CreditsSkipRing CreateRing(RectTransform parent, string name, Color color, float progress)
     {
@@ -104,7 +188,7 @@ public sealed class CreditsHoldSkip : MonoBehaviour
     {
         bool active = player != null && player.isActiveAndEnabled && gameObject.activeInHierarchy;
         if (completionQueued) return false;
-        bool complete = gesture.Tick(active, focused, controlHeld, now);
+        bool complete = gesture.Tick(active, focused, controlHeld, now, PresentationReady);
         if (progressRing != null) progressRing.Progress = gesture.Progress;
         if (!complete) return false;
         completionQueued = true;

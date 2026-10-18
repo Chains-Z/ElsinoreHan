@@ -34,6 +34,50 @@ public static class CreditsSkipGestureTests
     private static Dictionary<string, Action> Cases()
     {
         return new Dictionary<string, Action> {
+            { "loading_hold_starts_at_zero_when_visible", delegate {
+                var gesture = new CreditsSkipGesture();
+                gesture.Tick(true, true, false, 0, false);
+                gesture.Tick(true, true, true, 0.1, false);
+                Check(!gesture.Tick(true, true, true, 0.7, false), "加载期间不可累计到半圈");
+                Progress(gesture, 0);
+                Check(!gesture.Tick(true, true, true, 30, false), "加载再久也不能退出");
+                Check(!gesture.Tick(true, true, true, 31, true), "首次可见帧必须从零起算");
+                Progress(gesture, 0);
+                Check(!gesture.Tick(true, true, true, 31.25, true), "可见后25%不能退出");
+                Progress(gesture, 0.25f);
+                Check(gesture.Tick(true, true, true, 32, true), "可见后完整1秒才跳过");
+            } },
+            { "preheld_loading_still_requires_release", delegate {
+                var gesture = new CreditsSkipGesture();
+                gesture.Tick(true, true, true, 0, false);
+                gesture.Tick(true, true, true, 10, false);
+                Check(!gesture.Tick(true, true, true, 11, true), "进场之前已按住不能冒充新按键");
+                Check(!gesture.Tick(true, true, true, 20, true), "预按不可自动完成");
+                Progress(gesture, 0);
+                gesture.Tick(true, true, false, 21, true);
+                gesture.Tick(true, true, true, 22, true);
+                Check(gesture.Tick(true, true, true, 23, true), "释放重按后可以跳过");
+            } },
+            { "release_during_loading_cancels_pending_hold", delegate {
+                var gesture = new CreditsSkipGesture();
+                gesture.Tick(true, true, false, 0, false);
+                gesture.Tick(true, true, true, 0.1, false);
+                gesture.Tick(true, true, false, 0.6, false);
+                Check(!gesture.Tick(true, true, false, 10, true), "加载时松开的长按不能在显示时复活");
+                Progress(gesture, 0);
+                gesture.Tick(true, true, true, 11, true);
+                Check(!gesture.Tick(true, true, true, 11.5, true), "必须按新按键起点计算");
+                Progress(gesture, 0.5f);
+            } },
+            { "presentation_loss_discards_elapsed_time", delegate {
+                var gesture = Ready(0);
+                gesture.Tick(true, true, true, 0.5, true);
+                Check(!gesture.Tick(true, true, true, 0.6, false), "失去可显示状态时取消累计");
+                Progress(gesture, 0);
+                Check(!gesture.Tick(true, true, true, 100, true), "恢复后不继承不可见时间");
+                Progress(gesture, 0);
+                Check(gesture.Tick(true, true, true, 101, true), "恢复后完整1秒才完成");
+            } },
             { "short_press", delegate {
                 var gesture = Ready(0);
                 Check(!gesture.Tick(true, true, true, 0.2), "短按不应跳过");

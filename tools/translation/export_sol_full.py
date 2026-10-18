@@ -190,6 +190,11 @@ def main():
         names = json.loads(name_path.read_text(encoding="utf-8"))
         rows = apply_supplemental(rows, names)
         supplemental += names
+    style_path = SUPPLEMENTAL.with_name("ending-style-corrections.json")
+    if style_path.exists():
+        styles = json.loads(style_path.read_text(encoding="utf-8"))
+        rows = apply_supplemental(rows, styles)
+        supplemental += styles
     (DIRECTORY / "translations.json").write_text(json.dumps(rows, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     package = ROOT / "runtime" / "package" / "ElsinoreHan-Sol" / "BepInEx" / "Translation" / "zh-CN" / "Text"
     package.mkdir(parents=True, exist_ok=True)

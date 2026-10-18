@@ -17,6 +17,8 @@ public static class CreditsSkipProbe
     private const BindingFlags Fields = BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic;
     private static MonoBehaviour controlled;
     private static bool suppressInput;
+    private static bool preparationHeld;
+    private static FieldInfo preparationState;
     private static int quitCalls, breakCalls, quitFrame, breakFrame;
     [Serializable] public sealed class CheckRow { public string name, detail; public bool passed; }
     [Serializable] public sealed class RingRow
@@ -36,7 +38,7 @@ public static class CreditsSkipProbe
     {
         public int schema = 1, quit_calls, break_calls, trigger_frame, quit_frame, break_frame;
         public bool passed;
-        public string scope = "真实Boss片尾入口、真实Start挂载及HandleKey组件集成；输入为受控注入，不是物理按键或GPU像素验收";
+        public string scope = "真实Boss片尾入口、真实Start挂载及HandleKey组件集成；受控输入及开场准备延迟，后台主动刷新Canvas布局，不是物理按键或GPU像素验收";
         public string mesh_method = "真实CreditsSkipRing.OnPopulateMesh回调输出；Unity2018 CanvasRenderer没有GetMesh，未声称GPU已绘制";
         public string scene, text_translated, text_original, text_restored;
         public int screen_width, screen_height;
@@ -58,7 +60,17 @@ public static class CreditsSkipProbe
     }
     public static bool BlockAutomaticInput(MonoBehaviour __instance)
     {
-        return !suppressInput || __instance != controlled;
+        return !suppressInput;
+    }
+    // 只在隔离探针内延后原协程的正文准备，稳定复现开场时提示尚未就绪的窗口。
+    public static bool HoldCreditsPreparation(object __instance, ref bool __result)
+    {
+        if (preparationHeld && (int)preparationState.GetValue(__instance) == 1)
+        {
+            __result = true;
+            return false;
+        }
+        return true;
     }
     public static void RecordQuit() { quitCalls++; quitFrame = Time.frameCount; }
     public static void RecordBreak() { breakCalls++; breakFrame = Time.frameCount; }
@@ -221,6 +233,17 @@ public static class CreditsSkipProbe
             Check(report, "finish_iterator_contract", finishMoveNext != null && finishMoveNext.ReturnType == typeof(bool), "定位正式插件真实退出协程");
             harmony.Patch(AccessTools.Method(skipType, "Update"), prefix: new HarmonyMethod(typeof(CreditsSkipProbe), "BlockAutomaticInput"));
             harmony.Patch(finishMoveNext, transpiler: new HarmonyMethod(typeof(CreditsSkipProbe), "ReplaceFinishCalls"));
+            MethodInfo prepareMoveNext = null;
+            foreach (var nested in creditsType.GetNestedTypes(BindingFlags.Public | BindingFlags.NonPublic))
+                if (nested.Name.StartsWith("<PlayCredits>", StringComparison.Ordinal))
+                {
+                    prepareMoveNext = AccessTools.Method(nested, "MoveNext");
+                    preparationState = nested.GetField("<>1__state", Fields);
+                }
+            Check(report, "preparation_iterator_contract", prepareMoveNext != null && preparationState != null,
+                "定位原游戏首次yield后、正文格式化之前的状态");
+            preparationHeld = true;
+            harmony.Patch(prepareMoveNext, prefix: new HarmonyMethod(typeof(CreditsSkipProbe), "HoldCreditsPreparation"));
             var tracker = ObjectTracker.Instance;
             Check(report, "real_boss_ready", tracker != null && tracker.Boss != null && tracker.Boss.IsGameInitialized, "使用ObjectTracker.Instance.Boss");
             selectedEnding = creditsType.GetProperty("SelectedEnding", BindingFlags.Public | BindingFlags.Static);
@@ -239,11 +262,39 @@ public static class CreditsSkipProbe
                 "真实ActivateCredits加载场景并经Start挂载插件");
             report.scene = player.gameObject.scene.name;
             Check(report, "credits_scene", report.scene == "credits", report.scene);
-            yield return new WaitForSecondsRealtime(0.5f);
             var overlay = (GameObject)Field(controlled, "overlay");
             var canvas = overlay.GetComponent<Canvas>();
             var label = overlay.transform.Find("Hint/HintText").GetComponent<TMP_Text>();
             var ring = (Graphic)Field(controlled, "progressRing");
+            Handle(controlled, false, true, 0);
+            Handle(controlled, true, true, 0.1);
+            bool earlyComplete = Handle(controlled, true, true, 0.7);
+            Check(report, "loading_hold_does_not_accumulate", !earlyComplete && Progress(ring) == 0,
+                "正文准备被暂缓时提前按住0.6秒；progress=" + Progress(ring));
+            var readyProperty = skipType.GetProperty("PresentationReady");
+            Check(report, "loading_overlay_not_ready", readyProperty != null && !(bool)readyProperty.GetValue(controlled, null)
+                && !canvas.enabled, "正文准备前不显示提示，不允许暗中计时");
+            yield return null;
+            Check(report, "loading_long_hold_does_not_exit", !Handle(controlled, true, true, 5) && Progress(ring) == 0
+                && quitCalls == 0 && breakCalls == 0, "等待超过长按时限仍保持零进度");
+            preparationHeld = false;
+            deadline = Time.realtimeSinceStartup + 10;
+            while (!(bool)readyProperty.GetValue(controlled, null) && Time.realtimeSinceStartup < deadline)
+            {
+                // nographics没有正常渲染循环；与其它UI探针相同，显式执行真实Canvas布局回调。
+                Canvas.ForceUpdateCanvases();
+                yield return null;
+            }
+            Check(report, "prepared_overlay_ready", (bool)readyProperty.GetValue(controlled, null) && canvas.enabled,
+                "原协程完成正文准备，提示完成布局且跨过首帧；prepared=" + Field(controlled, "creditsPrepared")
+                + ";firstFrame=" + Field(controlled, "firstPresentationFrame") + ";currentFrame=" + Time.frameCount
+                + ";canvas=" + canvas.enabled + ";hintCharacters=" + label.textInfo.characterCount);
+            double readyNow = Math.Max(6, Time.realtimeSinceStartup);
+            Check(report, "early_hold_restarts_at_zero", !Handle(controlled, true, true, readyNow) && Progress(ring) == 0,
+                "无需松开加载期间新按下的Ctrl，显示就绪后从零起算");
+            Handle(controlled, true, true, readyNow + 0.25);
+            CaptureRing(report, ring, "startup_quarter", 0.25f);
+            Handle(controlled, false, true, readyNow + 0.3);
             Check(report, "independent_overlay", overlay.activeInHierarchy && canvas.renderMode == RenderMode.ScreenSpaceOverlay
                 && canvas.sortingOrder == 32760 && overlay.transform.parent == null, "真实独立根Canvas与排序");
             Check(report, "white_noninteractive_hint", label.color == Color.white && !label.raycastTarget
@@ -310,6 +361,7 @@ public static class CreditsSkipProbe
         }
         finally
         {
+            preparationHeld = false;
             // 卸除回调替换前取消全部待执行退出协程；不会在finally后真正退出或触发断点。
             try
             {

@@ -1,0 +1,471 @@
+{
+  "date": "2026-10-19",
+  "mode": "candidate",
+  "run_id": "44f67406c81e4121ad3bbddbb8d27a12",
+  "plugin_sha256": "3eb134f71cbe80663bcb22e5b836692a5e36052ba1cbec1645866fd622d114d4",
+  "runner_error": null,
+  "report": {
+    "schema": 1,
+    "quit_calls": 1,
+    "break_calls": 1,
+    "trigger_frame": 1407,
+    "quit_frame": 1408,
+    "break_frame": 1408,
+    "passed": true,
+    "scope": "真实Boss片尾入口、真实Start挂载及HandleKey组件集成；受控输入及开场准备延迟，后台主动刷新Canvas布局，不是物理按键或GPU像素验收",
+    "mesh_method": "真实CreditsSkipRing.OnPopulateMesh回调输出；Unity2018 CanvasRenderer没有GetMesh，未声称GPU已绘制",
+    "scene": "credits",
+    "text_translated": "长按 Ctrl 跳过",
+    "text_original": "Hold Ctrl to skip",
+    "text_restored": "长按 Ctrl 跳过",
+    "screen_width": 2854,
+    "screen_height": 1440,
+    "label_screen_corners": [
+      2307.76758,
+      45.0501175,
+      2307.76758,
+      118.256523,
+      2730.1123,
+      118.256523,
+      2730.1123,
+      45.0501175
+    ],
+    "ring_screen_corners": [
+      2752.63745,
+      56.31264,
+      2752.63745,
+      106.993996,
+      2803.31885,
+      106.993996,
+      2803.31885,
+      56.31264
+    ],
+    "checks": [
+      {
+        "name": "real_plugin_types",
+        "detail": "反射读取正式插件及游戏类型",
+        "passed": true
+      },
+      {
+        "name": "finish_iterator_contract",
+        "detail": "定位正式插件真实退出协程",
+        "passed": true
+      },
+      {
+        "name": "preparation_iterator_contract",
+        "detail": "定位原游戏首次yield后、正文格式化之前的状态",
+        "passed": true
+      },
+      {
+        "name": "real_boss_ready",
+        "detail": "使用ObjectTracker.Instance.Boss",
+        "passed": true
+      },
+      {
+        "name": "real_credits_start",
+        "detail": "真实ActivateCredits加载场景并经Start挂载插件",
+        "passed": true
+      },
+      {
+        "name": "credits_scene",
+        "detail": "credits",
+        "passed": true
+      },
+      {
+        "name": "loading_hold_does_not_accumulate",
+        "detail": "正文准备被暂缓时提前按住0.6秒；progress=0",
+        "passed": true
+      },
+      {
+        "name": "loading_overlay_not_ready",
+        "detail": "正文准备前不显示提示，不允许暗中计时",
+        "passed": true
+      },
+      {
+        "name": "loading_long_hold_does_not_exit",
+        "detail": "等待超过长按时限仍保持零进度",
+        "passed": true
+      },
+      {
+        "name": "prepared_overlay_ready",
+        "detail": "原协程完成正文准备，提示完成布局且跨过首帧；prepared=True;firstFrame=1352;currentFrame=1353;canvas=True;hintCharacters=10",
+        "passed": true
+      },
+      {
+        "name": "early_hold_restarts_at_zero",
+        "detail": "无需松开加载期间新按下的Ctrl，显示就绪后从零起算",
+        "passed": true
+      },
+      {
+        "name": "ring_startup_quarter",
+        "detail": "progress=0.25;vertices=34;triangles=32;white=True",
+        "passed": true
+      },
+      {
+        "name": "independent_overlay",
+        "detail": "真实独立根Canvas与排序",
+        "passed": true
+      },
+      {
+        "name": "white_noninteractive_hint",
+        "detail": "白字及非交互圆环",
+        "passed": true
+      },
+      {
+        "name": "dark_gray_track",
+        "detail": "暗灰底环及非交互",
+        "passed": true
+      },
+      {
+        "name": "real_toggle",
+        "detail": "真实F8插件实例",
+        "passed": true
+      },
+      {
+        "name": "hint_chinese",
+        "detail": "长按 Ctrl 跳过",
+        "passed": true
+      },
+      {
+        "name": "hint_actual_glyphs",
+        "detail": "逐字真实fontAsset/atlas/网格/颜色；characters=8",
+        "passed": true
+      },
+      {
+        "name": "hint_f8_original",
+        "detail": "Hold Ctrl to skip",
+        "passed": true
+      },
+      {
+        "name": "hint_f8_restored",
+        "detail": "长按 Ctrl 跳过",
+        "passed": true
+      },
+      {
+        "name": "bottom_right_coordinates",
+        "detail": "screen=2854x1440;label=(x:-300.00, y:-26.00, width:300.00, height:52.00);ring=(x:-36.00, y:-18.00, width:36.00, height:36.00)",
+        "passed": true
+      },
+      {
+        "name": "quarter_not_complete",
+        "detail": "受控输入25%",
+        "passed": true
+      },
+      {
+        "name": "ring_quarter",
+        "detail": "progress=0.25;vertices=34;triangles=32;white=True",
+        "passed": true
+      },
+      {
+        "name": "half_not_complete",
+        "detail": "受控输入50%",
+        "passed": true
+      },
+      {
+        "name": "ring_half",
+        "detail": "progress=0.5;vertices=66;triangles=64;white=True",
+        "passed": true
+      },
+      {
+        "name": "release_not_complete",
+        "detail": "松开取消",
+        "passed": true
+      },
+      {
+        "name": "ring_released",
+        "detail": "progress=0;vertices=0;triangles=0;white=True",
+        "passed": true
+      },
+      {
+        "name": "preheld_needs_release",
+        "detail": "重新获得焦点时已按住不得累计",
+        "passed": true
+      },
+      {
+        "name": "ring_preheld",
+        "detail": "progress=0;vertices=0;triangles=0;white=True",
+        "passed": true
+      },
+      {
+        "name": "unfocused_not_complete",
+        "detail": "后台时间不能累计",
+        "passed": true
+      },
+      {
+        "name": "ring_unfocused",
+        "detail": "progress=0;vertices=0;triangles=0;white=True",
+        "passed": true
+      },
+      {
+        "name": "focus_return_still_held",
+        "detail": "恢复焦点仍须释放",
+        "passed": true
+      },
+      {
+        "name": "ring_focus_return",
+        "detail": "progress=0;vertices=0;triangles=0;white=True",
+        "passed": true
+      },
+      {
+        "name": "no_early_exit",
+        "detail": "短按、松开及失焦均无退出回调",
+        "passed": true
+      },
+      {
+        "name": "full_hold_complete",
+        "detail": "连续1秒走真实HandleKey完成路径",
+        "passed": true
+      },
+      {
+        "name": "ring_full",
+        "detail": "progress=1;vertices=130;triangles=128;white=True",
+        "passed": true
+      },
+      {
+        "name": "full_ring_before_exit",
+        "detail": "原退出协程先yield一帧",
+        "passed": true
+      },
+      {
+        "name": "deferred_original_exit_calls",
+        "detail": "quit=1;break=1;triggerFrame=1407;quitFrame=1408",
+        "passed": true
+      },
+      {
+        "name": "repeat_does_not_complete",
+        "detail": "完成后再按不重复退出",
+        "passed": true
+      },
+      {
+        "name": "exit_one_shot",
+        "detail": "两个测试回调各一次",
+        "passed": true
+      }
+    ],
+    "rings": [
+      {
+        "state": "startup_quarter",
+        "progress": 0.25,
+        "minimum_alpha": 1,
+        "maximum_radius": 25.4558449,
+        "vertices": 34,
+        "triangles": 32,
+        "white": true
+      },
+      {
+        "state": "quarter",
+        "progress": 0.25,
+        "minimum_alpha": 1,
+        "maximum_radius": 25.4558449,
+        "vertices": 34,
+        "triangles": 32,
+        "white": true
+      },
+      {
+        "state": "half",
+        "progress": 0.5,
+        "minimum_alpha": 1,
+        "maximum_radius": 25.4558449,
+        "vertices": 66,
+        "triangles": 64,
+        "white": true
+      },
+      {
+        "state": "released",
+        "progress": 0,
+        "minimum_alpha": 1,
+        "maximum_radius": 0,
+        "vertices": 0,
+        "triangles": 0,
+        "white": true
+      },
+      {
+        "state": "preheld",
+        "progress": 0,
+        "minimum_alpha": 1,
+        "maximum_radius": 0,
+        "vertices": 0,
+        "triangles": 0,
+        "white": true
+      },
+      {
+        "state": "unfocused",
+        "progress": 0,
+        "minimum_alpha": 1,
+        "maximum_radius": 0,
+        "vertices": 0,
+        "triangles": 0,
+        "white": true
+      },
+      {
+        "state": "focus_return",
+        "progress": 0,
+        "minimum_alpha": 1,
+        "maximum_radius": 0,
+        "vertices": 0,
+        "triangles": 0,
+        "white": true
+      },
+      {
+        "state": "full",
+        "progress": 1,
+        "minimum_alpha": 1,
+        "maximum_radius": 36,
+        "vertices": 130,
+        "triangles": 128,
+        "white": true
+      }
+    ],
+    "glyphs": [
+      {
+        "character": "长",
+        "font": "ElsinoreHan Sans SDF",
+        "atlas": "ElsinoreHan Sans SDF Atlas",
+        "material": 1,
+        "atlas_width": 8192,
+        "atlas_height": 8192,
+        "visible": true,
+        "white": true
+      },
+      {
+        "character": "按",
+        "font": "ElsinoreHan Sans SDF",
+        "atlas": "ElsinoreHan Sans SDF Atlas",
+        "material": 1,
+        "atlas_width": 8192,
+        "atlas_height": 8192,
+        "visible": true,
+        "white": true
+      },
+      {
+        "character": "C",
+        "font": "Crimson",
+        "atlas": "Crimson Atlas",
+        "material": 0,
+        "atlas_width": 1024,
+        "atlas_height": 1024,
+        "visible": true,
+        "white": true
+      },
+      {
+        "character": "t",
+        "font": "Crimson",
+        "atlas": "Crimson Atlas",
+        "material": 0,
+        "atlas_width": 1024,
+        "atlas_height": 1024,
+        "visible": true,
+        "white": true
+      },
+      {
+        "character": "r",
+        "font": "Crimson",
+        "atlas": "Crimson Atlas",
+        "material": 0,
+        "atlas_width": 1024,
+        "atlas_height": 1024,
+        "visible": true,
+        "white": true
+      },
+      {
+        "character": "l",
+        "font": "Crimson",
+        "atlas": "Crimson Atlas",
+        "material": 0,
+        "atlas_width": 1024,
+        "atlas_height": 1024,
+        "visible": true,
+        "white": true
+      },
+      {
+        "character": "跳",
+        "font": "ElsinoreHan Sans SDF",
+        "atlas": "ElsinoreHan Sans SDF Atlas",
+        "material": 1,
+        "atlas_width": 8192,
+        "atlas_height": 8192,
+        "visible": true,
+        "white": true
+      },
+      {
+        "character": "过",
+        "font": "ElsinoreHan Sans SDF",
+        "atlas": "ElsinoreHan Sans SDF Atlas",
+        "material": 1,
+        "atlas_width": 8192,
+        "atlas_height": 8192,
+        "visible": true,
+        "white": true
+      }
+    ]
+  },
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "C:\\Users\\71095\\AppData\\Roaming\\Golden Glitch Studios\\Elsinore",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\44f67406c81e4121ad3bbddbb8d27a12\\isolated-save",
+    "files": [
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "31B40CF658F7F5094DED4552E451A585BF1E6B5ABC328A2A83449A22D38E5E05",
+        "write_time": "2026-10-18T16:12:39.4895049Z"
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "42D5B649CB3B6AA7E28F3B16CAB427A15F45545D783AB6F2455B88EE85F1DE25",
+        "write_time": "2026-10-18T15:36:28.7447749Z"
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "406BA5CD5DAF3B35DA36B695E14A712036890403ED68618B7BEFB80F3EEBC451",
+        "write_time": "2026-10-18T15:05:38.7350346Z"
+      },
+      {
+        "path": "elsinore_log.json",
+        "sha256": "6E58DD953A6811534BDFA1F4184537F54F576F0B2FFE5E93669CE3BF4DB09DFA",
+        "write_time": "2026-10-18T16:20:29.5095987Z"
+      },
+      {
+        "path": "game.save",
+        "sha256": "E0A1E372AD8F5FAE5331DA721ADB7D22593AA623B87088A3DA81ABF749F7B499",
+        "write_time": "2026-10-18T16:20:12.7681829Z"
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "525EE98EADA121EDA7411A576268E661E343AF5C02DA313FF574FE3DF3F34968",
+        "write_time": "2026-10-17T09:44:31.4230428Z"
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274C5BA9799562C003EB6A47B9E7B526F27555B646787FD7E44CAE3F341",
+        "write_time": "2026-10-18T16:14:56.7650633Z"
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "F7E064F6F930D806A4EFE1E682C7F1F4BA05549015B587F4BE6190CE1E6F87EE",
+        "write_time": "2026-10-10T10:25:08.1873704Z"
+      }
+    ]
+  },
+  "process": {
+    "run_id": "44f67406c81e4121ad3bbddbb8d27a12",
+    "launched_at_utc": "2026-10-18T16:25:33.1057145Z",
+    "pid": 43324,
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10,
+    "arguments": [
+      "-batchmode",
+      "-nographics",
+      "-nosound",
+      "-logFile",
+      "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\44f67406c81e4121ad3bbddbb8d27a12\\player.log\""
+    ]
+  },
+  "isolated_save_removed": true
+}

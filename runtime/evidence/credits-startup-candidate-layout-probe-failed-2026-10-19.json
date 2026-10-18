@@ -1,0 +1,149 @@
+{
+  "date": "2026-10-19",
+  "mode": "candidate",
+  "run_id": "fb6932aedf444b18b723892330ab49d0",
+  "plugin_sha256": "ae288da8ab293a0d342257c9e3fae33bf622179c57da9f826280d5e0839eff89",
+  "runner_error": "片尾真实UI、计时或退出回归失败。",
+  "report": {
+    "schema": 1,
+    "quit_calls": 0,
+    "break_calls": 0,
+    "trigger_frame": 0,
+    "quit_frame": -1,
+    "break_frame": -1,
+    "passed": false,
+    "scope": "真实Boss片尾入口、真实Start挂载及HandleKey组件集成；输入为受控注入，不是物理按键或GPU像素验收",
+    "mesh_method": "真实CreditsSkipRing.OnPopulateMesh回调输出；Unity2018 CanvasRenderer没有GetMesh，未声称GPU已绘制",
+    "scene": "credits",
+    "text_translated": null,
+    "text_original": null,
+    "text_restored": null,
+    "screen_width": 0,
+    "screen_height": 0,
+    "label_screen_corners": null,
+    "ring_screen_corners": null,
+    "checks": [
+      {
+        "name": "real_plugin_types",
+        "detail": "反射读取正式插件及游戏类型",
+        "passed": true
+      },
+      {
+        "name": "finish_iterator_contract",
+        "detail": "定位正式插件真实退出协程",
+        "passed": true
+      },
+      {
+        "name": "preparation_iterator_contract",
+        "detail": "定位原游戏首次yield后、正文格式化之前的状态",
+        "passed": true
+      },
+      {
+        "name": "real_boss_ready",
+        "detail": "使用ObjectTracker.Instance.Boss",
+        "passed": true
+      },
+      {
+        "name": "real_credits_start",
+        "detail": "真实ActivateCredits加载场景并经Start挂载插件",
+        "passed": true
+      },
+      {
+        "name": "credits_scene",
+        "detail": "credits",
+        "passed": true
+      },
+      {
+        "name": "loading_hold_does_not_accumulate",
+        "detail": "正文准备被暂缓时提前按住0.6秒；progress=0",
+        "passed": true
+      },
+      {
+        "name": "loading_overlay_not_ready",
+        "detail": "正文准备前不显示提示，不允许暗中计时",
+        "passed": true
+      },
+      {
+        "name": "loading_long_hold_does_not_exit",
+        "detail": "等待超过长按时限仍保持零进度",
+        "passed": true
+      },
+      {
+        "name": "prepared_overlay_ready",
+        "detail": "原协程完成正文准备，提示完成布局且跨过首帧",
+        "passed": false
+      }
+    ],
+    "rings": [],
+    "glyphs": []
+  },
+  "save_protection": {
+    "original_save_files_unchanged": true,
+    "original_save_comparison_conclusive": true,
+    "concurrent_user_game": false,
+    "frozen_source_unchanged": true,
+    "save_source_path": "C:\\Users\\71095\\AppData\\Roaming\\Golden Glitch Studios\\Elsinore",
+    "isolated_save_path": "D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\fb6932aedf444b18b723892330ab49d0\\isolated-save",
+    "files": [
+      {
+        "path": "elsinore_log_2.json",
+        "sha256": "31B40CF658F7F5094DED4552E451A585BF1E6B5ABC328A2A83449A22D38E5E05",
+        "write_time": "2026-10-18T16:12:39.4895049Z"
+      },
+      {
+        "path": "elsinore_log_3.json",
+        "sha256": "42D5B649CB3B6AA7E28F3B16CAB427A15F45545D783AB6F2455B88EE85F1DE25",
+        "write_time": "2026-10-18T15:36:28.7447749Z"
+      },
+      {
+        "path": "elsinore_log_4.json",
+        "sha256": "406BA5CD5DAF3B35DA36B695E14A712036890403ED68618B7BEFB80F3EEBC451",
+        "write_time": "2026-10-18T15:05:38.7350346Z"
+      },
+      {
+        "path": "elsinore_log.json",
+        "sha256": "6E58DD953A6811534BDFA1F4184537F54F576F0B2FFE5E93669CE3BF4DB09DFA",
+        "write_time": "2026-10-18T16:20:29.5095987Z"
+      },
+      {
+        "path": "game.save",
+        "sha256": "E0A1E372AD8F5FAE5331DA721ADB7D22593AA623B87088A3DA81ABF749F7B499",
+        "write_time": "2026-10-18T16:20:12.7681829Z"
+      },
+      {
+        "path": "prefs.save",
+        "sha256": "525EE98EADA121EDA7411A576268E661E343AF5C02DA313FF574FE3DF3F34968",
+        "write_time": "2026-10-17T09:44:31.4230428Z"
+      },
+      {
+        "path": "steam_autocloud.vdf",
+        "sha256": "03807274C5BA9799562C003EB6A47B9E7B526F27555B646787FD7E44CAE3F341",
+        "write_time": "2026-10-18T16:14:56.7650633Z"
+      },
+      {
+        "path": "system.cfg",
+        "sha256": "F7E064F6F930D806A4EFE1E682C7F1F4BA05549015B587F4BE6190CE1E6F87EE",
+        "write_time": "2026-10-10T10:25:08.1873704Z"
+      }
+    ]
+  },
+  "process": {
+    "run_id": "fb6932aedf444b18b723892330ab49d0",
+    "launched_at_utc": "2026-10-18T16:23:17.5591977Z",
+    "pid": 17732,
+    "exit_code": 0,
+    "main_window_detected": false,
+    "batch_mode_confirmed": true,
+    "wwise_suspend_success": true,
+    "priority": "BelowNormal",
+    "target_frame_rate": 10,
+    "arguments": [
+      "-batchmode",
+      "-nographics",
+      "-nosound",
+      "-logFile",
+      "\"D:\\MyProjects\\ElsinoreHan\\runtime\\evidence\\headless\\fb6932aedf444b18b723892330ab49d0\\player.log\""
+    ]
+  },
+  "isolated_save_removed": true
+}

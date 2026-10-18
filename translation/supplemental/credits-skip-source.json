@@ -36,7 +36,7 @@
   ],
   "original_completion_il": "<PlayCredits>d__16.MoveNext IL_0268–IL_027a",
   "original_fast_forward": "Rewired.GetButton(2)，4倍滚动及音乐；补丁不替换其输入或协程实现",
-  "patch_entry": "CreditsPlayer.Start后置挂载CreditsHoldSkip",
+  "patch_entry": "CreditsPlayer.Start转译器在PlayCredits的实际调用点包装迭代器，Start后置挂载CreditsHoldSkip；规避迭代器工厂内联绕过方法挂钩",
   "controls": {
     "keys": [
       "LeftControl",
@@ -83,5 +83,17 @@
   },
   "game_files_written": false,
   "saves_accessed": false,
-  "runtime_verified": false
+  "runtime_verified": false,
+  "preparation_contract": {
+    "method": "CreditsPlayer.PlayCredits / <PlayCredits>d__16.MoveNext",
+    "original_sequence": [
+      "首次yield null",
+      "Resources.Load<TextAsset>(credits)、JSON.Parse、Credits.formatCredits",
+      "TextField.SetText(StringBuilder)",
+      "首次yield WaitForSeconds(PreScrollDurationSeconds)"
+    ],
+    "patch": "包装原迭代器并逐项转发yield；首次预滚动等待前启用提示Canvas，等待提示网格及Canvas布局完成，再跨过首帧才开始计时",
+    "loading_input": "加载期间观察到的新Ctrl按住可保留，但进度始终为零；显示就绪后从零累计1秒。进入片尾前已经按住仍须先松开。",
+    "scope": "不调整原游戏滚动、音乐、等待时长、空格快进或结局保存顺序"
+  }
 }

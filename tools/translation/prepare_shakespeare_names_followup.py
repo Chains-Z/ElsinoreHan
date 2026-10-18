@@ -19,7 +19,8 @@ def apply_names(rows):
     sources = {row["source"] for row in rows}
     changes = [row for row in read(DIRECTORY / "shakespeare-name-corrections.json")
                if row["source"] in sources]
-    return apply_supplemental(rows, changes)
+    from prepare_ending_style_followup import apply_styles
+    return apply_styles(apply_supplemental(rows, changes))
 
 
 def reading_names(reviewed):
@@ -97,7 +98,10 @@ def main():
             assert re.search(term["pattern"], row["source"], re.I)
             assert term["previous_name"] in expected
             expected = expected.replace(term["previous_name"], term["name"])
-        assert row["target"] == checked_row["target"] == expected == targets[row["source"]]["target"]
+        assert row["target"] == checked_row["target"] == expected
+        from prepare_ending_style_followup import apply_styles
+        expected = apply_styles([checked_row])[0]["target"]
+        assert expected == targets[row["source"]]["target"]
         assert targets[row["source"]]["id"] == row["original_id"]
         for origin in row["origins"]:
             if "asset_sha256" in origin:

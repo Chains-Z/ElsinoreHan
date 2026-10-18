@@ -16,6 +16,10 @@ public sealed class CreditsSkipGesture
     }
     public bool Tick(bool active, bool focused, bool controlHeld, double now)
     {
+        return Tick(active, focused, controlHeld, now, true);
+    }
+    public bool Tick(bool active, bool focused, bool controlHeld, double now, bool presentationReady)
+    {
         if (triggered) return false;
         if (!active || !focused || Double.IsNaN(now) || Double.IsInfinity(now) || now < 0)
         {
@@ -38,6 +42,13 @@ public sealed class CreditsSkipGesture
         }
         // 片尾出现或重新获得焦点时已按住的Ctrl不算新的跳过手势。
         if (!armed) return false;
+        // 可以记住加载期间新按下的Ctrl，但界面未就绪时不累计黑屏中的时间。
+        if (!presentationReady)
+        {
+            pressed = false;
+            Progress = 0;
+            return false;
+        }
         if (!pressed || now < started)
         {
             started = now;
